@@ -263,6 +263,8 @@ Pronto
 <script>
 
 const sentences = document.querySelectorAll(".sentence");
+const audio = new Audio();
+audio.preload = "auto";
 
 let currentSentence = 0;
 let paused = false;
@@ -297,7 +299,11 @@ function updateProgress() {
 
 }
 
-function speak(index) {
+function audioFile(index) {
+  return `audio/frase-${String(index + 1).padStart(2, "0")}.mp3`;
+}
+
+function playSentence(index) {
 
   if (index >= sentences.length) {
 
@@ -314,56 +320,44 @@ function speak(index) {
 
   highlightSentence(index);
 
-  const text =
-    sentences[index].innerText;
-
-  const utterance =
-    new SpeechSynthesisUtterance(text);
-
-  utterance.lang = "it-IT";
-  utterance.rate = 0.94;
-
-  const voices =
-    window.speechSynthesis.getVoices();
-
-  const italianVoice =
-    voices.find(v =>
-      v.lang &&
-      v.lang.toLowerCase().startsWith("it")
-    );
-
-  if (italianVoice) {
-    utterance.voice = italianVoice;
-  }
-
   document.getElementById("status").innerText =
     "In ascolto…";
 
-  utterance.onend = function() {
-
-    if (!paused) {
-
-      currentSentence++;
-
-      updateProgress();
-
-      speak(currentSentence);
-
-    }
-
-  };
-
-  speechSynthesis.speak(utterance);
+  audio.src = audioFile(index);
+  audio.play().catch(() => {
+    speaking = false;
+    document.getElementById("status").innerText =
+      "Audio non disponibile";
+  });
 
 }
+
+audio.addEventListener("ended", function() {
+  if (paused || !speaking) {
+    return;
+  }
+
+  currentSentence++;
+  updateProgress();
+  playSentence(currentSentence);
+});
+
+audio.addEventListener("timeupdate", function() {
+  if (!audio.duration || !speaking) {
+    return;
+  }
+
+  const completed = currentSentence + (audio.currentTime / audio.duration);
+  const percentage = (completed / sentences.length) * 100;
+  document.getElementById("progress").style.width = percentage + "%";
+});
 
 function playLesson() {
 
   if (paused) {
 
     paused = false;
-
-    speechSynthesis.resume();
+    audio.play();
 
     document.getElementById("status").innerText =
       "In ascolto…";
@@ -381,10 +375,7 @@ function playLesson() {
   }
 
   speaking = true;
-
-  speechSynthesis.cancel();
-
-  speak(currentSentence);
+  playSentence(currentSentence);
 
 }
 
@@ -395,8 +386,7 @@ function pauseLesson() {
   }
 
   paused = true;
-
-  speechSynthesis.pause();
+  audio.pause();
 
   document.getElementById("status").innerText =
     "In pausa";
@@ -405,7 +395,9 @@ function pauseLesson() {
 
 function stopLesson() {
 
-  speechSynthesis.cancel();
+  audio.pause();
+  audio.removeAttribute("src");
+  audio.load();
 
   currentSentence = 0;
   paused = false;
@@ -422,10 +414,6 @@ function stopLesson() {
     "Pronto";
 
 }
-
-window.speechSynthesis.onvoiceschanged = function() {
-  window.speechSynthesis.getVoices();
-};
 
 </script>
 
