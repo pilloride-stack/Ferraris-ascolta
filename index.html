@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ferraris Ascolta | Diritto</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f5f7;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222831;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 18px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.brand {
+  font-size: 14px;
+  font-weight: 700;
+  color: #b9403a;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.15;
+}
+
+.info {
+  margin-top: 10px;
+  color: #68717c;
+  font-size: 15px;
+}
+
+.player {
+  margin: 28px 0 20px;
+  background: #20252b;
+  border-radius: 16px;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+}
+
+button {
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 17px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.play {
+  background: white;
+  color: #20252b;
+  font-weight: bold;
+}
+
+.pause,
+.stop {
+  background: #424951;
+  color: white;
+}
+
+.status {
+  margin-left: auto;
+  color: white;
+  font-size: 13px;
+}
+
+.progress-container {
+  width: 100%;
+  height: 6px;
+  background: #e4e7ea;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background: #b9403a;
+  transition: width 0.3s;
+}
+
+.lesson {
+  font-size: 20px;
+  line-height: 1.85;
+}
+
+.sentence {
+  padding: 3px 4px;
+  border-radius: 5px;
+  transition: background-color 0.25s ease;
+}
+
+.sentence.active {
+  background: #ffe66d;
+}
+
+.lesson-title {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #b9403a;
+}
+
+@media (max-width: 650px) {
+
+  .container {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .card {
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .lesson {
+    font-size: 18px;
+  }
+
+  .status {
+    display: none;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="card">
+
+<div class="brand">
+GALILEO FERRARIS · DIRITTO ED ECONOMIA
+</div>
+
+<h1>
+Diritto, norma giuridica e ordinamento giuridico
+</h1>
+
+<div class="info">
+Episodio 01 · Classe prima · Ascolta e segui
+</div>
+
+<div class="player">
+
+<button class="play" onclick="playLesson()">
+▶ Ascolta
+</button>
+
+<button class="pause" onclick="pauseLesson()">
+⏸ Pausa
+</button>
+
+<button class="stop" onclick="stopLesson()">
+⏹ Stop
+</button>
+
+<div class="status" id="status">
+Pronto
+</div>
+
+</div>
+
+<div class="progress-container">
+<div class="progress" id="progress"></div>
+</div>
+
+<div class="lesson" id="lesson">
+
+<span class="sentence">Bentornati a questo nuovo percorso di Diritto ed Economia, che copre insieme la classe prima e la classe seconda.</span>
+
+<span class="sentence">È una materia nuova per molti di voi, e vi accompagnerà dai fondamenti del diritto fino all'organizzazione dello Stato italiano, per poi affiancare i primi concetti di economia.</span>
+
+<span class="sentence">Cominciamo dal concetto più elementare di tutti: che cos'è il diritto, e che cos'è una norma giuridica.</span>
+
+<div class="lesson-title">Che cos'è il diritto?</div>
+
+<span class="sentence">Il diritto è l'insieme delle regole che disciplinano la convivenza degli individui all'interno di una comunità organizzata, allo scopo di garantire ordine, sicurezza e giustizia.</span>
+
+<span class="sentence">A differenza di altre regole sociali, come quelle morali, religiose o di buona educazione, le norme giuridiche sono dotate di coattività: il loro rispetto può essere imposto anche con la forza dallo Stato, attraverso un apparato di organi e sanzioni specificamente preposti a farle osservare.</span>
+
+<div class="lesson-title">I quattro caratteri della norma giuridica</div>
+
+<span class="sentence">Fermatevi un momento sui quattro caratteri della norma giuridica, perché sono la chiave per riconoscere una norma giuridica rispetto a qualunque altra regola sociale.</span>
+
+<span class="sentence">La generalità significa che la norma si rivolge a una categoria indeterminata di soggetti, non a una persona specifica.</span>
+
+<span class="sentence">L'astrattezza significa che la norma disciplina un tipo di comportamento o di situazione, non un fatto concreto già avvenuto.</span>
+
+<span class="sentence">La bilateralità significa che la norma giuridica lega ad ogni soggetto obbligato un altro soggetto titolare del corrispondente diritto, mentre una norma morale impegna solo la coscienza di chi la osserva.</span>
+
+<span class="sentence">La coattività, o sanzione, significa che il suo rispetto può essere imposto coattivamente dallo Stato, e la sua violazione comporta una sanzione, civile, penale o amministrativa.</span>
+
+<div class="lesson-title">L'ordinamento giuridico</div>
+
+<span class="sentence">L'insieme organico e coerente di tutte le norme giuridiche vigenti in un dato momento storico all'interno di uno Stato costituisce l'ordinamento giuridico: un sistema che si presenta unitario, perché le norme sono collegate tra loro secondo un principio gerarchico, completo, perché deve poter regolare ogni situazione, anche tramite l'analogia, e coerente, perché le norme non devono contraddirsi tra loro.</span>
+
+<div class="lesson-title">Proviamo insieme</div>
+
+<span class="sentence">Proviamo un piccolo esercizio insieme: distinguete, tra le seguenti regole, quali sono norme giuridiche e quali sono semplici regole morali o di buona educazione, applicando i quattro caratteri visti oggi.</span>
+
+<span class="sentence">Prima regola: non rubare, punito dal codice penale.</span>
+
+<span class="sentence">Seconda regola: rispondere sempre al saluto di un conoscente.</span>
+
+<span class="sentence">Terza regola: non uccidere, punito dal codice penale.</span>
+
+<span class="sentence">La prima e la terza regola sono norme giuridiche, perché sono generali, astratte, bilaterali, e la loro violazione comporta una sanzione imposta coattivamente dallo Stato attraverso il codice penale.</span>
+
+<span class="sentence">La seconda regola è invece una semplice regola di buona educazione, priva di coattività: chi non risponde a un saluto non subisce alcuna sanzione giuridica, ma al massimo un giudizio sociale.</span>
+
+<div class="lesson-title">Riepilogo</div>
+
+<span class="sentence">Riassumiamo i punti principali di oggi.</span>
+
+<span class="sentence">Primo: il diritto disciplina la convivenza tra gli individui, e si distingue dalle altre regole sociali per la sua coattività.</span>
+
+<span class="sentence">Secondo: la norma giuridica ha quattro caratteri: generalità, astrattezza, bilateralità e coattività.</span>
+
+<span class="sentence">Terzo: l'insieme di tutte le norme vigenti in uno Stato costituisce l'ordinamento giuridico, unitario, completo e coerente.</span>
+
+<span class="sentence">Nel prossimo episodio vediamo come le diverse fonti del diritto si organizzano tra loro secondo una precisa gerarchia.</span>
+
+<span class="sentence">Ci vediamo lì.</span>
+
+</div>
+
+</div>
+</div>
+
+<script>
+
+const sentences = document.querySelectorAll(".sentence");
+
+let currentSentence = 0;
+let paused = false;
+let speaking = false;
+
+function highlightSentence(index) {
+
+  sentences.forEach(sentence => {
+    sentence.classList.remove("active");
+  });
+
+  if (sentences[index]) {
+
+    sentences[index].classList.add("active");
+
+    sentences[index].scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+
+  }
+
+}
+
+function updateProgress() {
+
+  const percentage =
+    ((currentSentence) / sentences.length) * 100;
+
+  document.getElementById("progress").style.width =
+    percentage + "%";
+
+}
+
+function speak(index) {
+
+  if (index >= sentences.length) {
+
+    document.getElementById("status").innerText =
+      "Lezione completata";
+
+    document.getElementById("progress").style.width =
+      "100%";
+
+    speaking = false;
+
+    return;
+  }
+
+  highlightSentence(index);
+
+  const text =
+    sentences[index].innerText;
+
+  const utterance =
+    new SpeechSynthesisUtterance(text);
+
+  utterance.lang = "it-IT";
+  utterance.rate = 0.94;
+
+  const voices =
+    window.speechSynthesis.getVoices();
+
+  const italianVoice =
+    voices.find(v =>
+      v.lang &&
+      v.lang.toLowerCase().startsWith("it")
+    );
+
+  if (italianVoice) {
+    utterance.voice = italianVoice;
+  }
+
+  document.getElementById("status").innerText =
+    "In ascolto…";
+
+  utterance.onend = function() {
+
+    if (!paused) {
+
+      currentSentence++;
+
+      updateProgress();
+
+      speak(currentSentence);
+
+    }
+
+  };
+
+  speechSynthesis.speak(utterance);
+
+}
+
+function playLesson() {
+
+  if (paused) {
+
+    paused = false;
+
+    speechSynthesis.resume();
+
+    document.getElementById("status").innerText =
+      "In ascolto…";
+
+    return;
+
+  }
+
+  if (speaking) {
+    return;
+  }
+
+  if (currentSentence >= sentences.length) {
+    currentSentence = 0;
+  }
+
+  speaking = true;
+
+  speechSynthesis.cancel();
+
+  speak(currentSentence);
+
+}
+
+function pauseLesson() {
+
+  if (!speaking) {
+    return;
+  }
+
+  paused = true;
+
+  speechSynthesis.pause();
+
+  document.getElementById("status").innerText =
+    "In pausa";
+
+}
+
+function stopLesson() {
+
+  speechSynthesis.cancel();
+
+  currentSentence = 0;
+  paused = false;
+  speaking = false;
+
+  sentences.forEach(sentence => {
+    sentence.classList.remove("active");
+  });
+
+  document.getElementById("progress").style.width =
+    "0%";
+
+  document.getElementById("status").innerText =
+    "Pronto";
+
+}
+
+window.speechSynthesis.onvoiceschanged = function() {
+  window.speechSynthesis.getVoices();
+};
+
+</script>
+
+</body>
+</html>
