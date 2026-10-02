@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Ferraris Ascolta | Diritto</title>
+<title>Ferraris Ascolta</title>
 
 <style>
 * {
@@ -58,6 +58,7 @@ h1 {
   border-radius: 16px;
   padding: 15px;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   align-items: center;
   position: sticky;
@@ -80,7 +81,8 @@ button {
 }
 
 .pause,
-.stop {
+.stop,
+.skip {
   background: #424951;
   color: white;
 }
@@ -152,6 +154,12 @@ button {
   .status {
     display: none;
   }
+
+  .player button {
+    flex: 1 1 auto;
+    padding: 11px 10px;
+    font-size: 14px;
+  }
 }
 </style>
 </head>
@@ -161,19 +169,23 @@ button {
 <div class="container">
 <div class="card">
 
-<div class="brand">
+<div class="brand" id="lesson-brand">
 GALILEO FERRARIS · DIRITTO ED ECONOMIA
 </div>
 
-<h1>
+<h1 id="lesson-heading">
 Diritto, norma giuridica e ordinamento giuridico
 </h1>
 
-<div class="info">
+<div class="info" id="lesson-info">
 Episodio 01 · Classe prima · Ascolta e segui
 </div>
 
 <div class="player">
+
+<button class="skip" onclick="moveSentence(-1)" aria-label="Frase precedente">
+⏮ Indietro
+</button>
 
 <button class="play" onclick="playLesson()">
 ▶ Ascolta
@@ -185,6 +197,10 @@ Episodio 01 · Classe prima · Ascolta e segui
 
 <button class="stop" onclick="stopLesson()">
 ⏹ Stop
+</button>
+
+<button class="skip" onclick="moveSentence(1)" aria-label="Frase successiva">
+Avanti ⏭
 </button>
 
 <div class="status" id="status">
@@ -262,7 +278,11 @@ Pronto
 
 <script>
 
-const sentences = document.querySelectorAll(".sentence");
+const params = new URLSearchParams(window.location.search);
+const selectedEpisode = (params.get("episodio") || "01").padStart(2, "0");
+const selectedSubject = (params.get("materia") || "diritto").toLowerCase();
+const isItaliano = selectedSubject === "italiano" || selectedSubject === "italiano-12";
+let sentences = document.querySelectorAll(".sentence");
 const audio = new Audio();
 audio.preload = "auto";
 
@@ -300,7 +320,61 @@ function updateProgress() {
 }
 
 function audioFile(index) {
-  return `audio/frase-${String(index + 1).padStart(2, "0")}.mp3`;
+  if (isItaliano) {
+    return `audio/italiano-12/episodio-${selectedEpisode}/frase-${String(index + 1).padStart(2, "0")}.mp3`;
+  }
+  if (selectedEpisode !== "01") {
+    return `audio/episodio-${selectedEpisode}/frase-${String(index + 1).padStart(2, "0")}.mp3`;
+  }
+  return `audio/frase-${String(index + 1).padStart(2, "0")}.mp3?v=6c623b3`;
+}
+
+async function loadEpisode() {
+  if (!isItaliano && selectedEpisode === "01") {
+    document.title = "Ferraris Ascolta | Diritto";
+    return;
+  }
+
+  try {
+    const episodePath = isItaliano
+      ? `episodi/italiano-12/episodio-${selectedEpisode}.json`
+      : `episodi/episodio-${selectedEpisode}.json`;
+    const response = await fetch(episodePath);
+    if (!response.ok) {
+      throw new Error("Episodio non disponibile");
+    }
+    const episode = await response.json();
+    const subjectLabel = isItaliano ? "Italiano" : "Diritto";
+    document.title = `Ferraris Ascolta | ${subjectLabel} ${episode.episode}`;
+    document.getElementById("lesson-brand").textContent =
+      `GALILEO FERRARIS · ${isItaliano ? "ITALIANO" : "DIRITTO ED ECONOMIA"}`;
+    document.getElementById("lesson-heading").textContent = episode.title;
+    document.getElementById("lesson-info").textContent =
+      `Episodio ${episode.episode} · ${episode.class} · Ascolta e segui`;
+    document.getElementById("lesson").innerHTML = episode.sentences
+      .map(item => `<span class="sentence"></span>`)
+      .join("\n");
+    sentences = document.querySelectorAll(".sentence");
+    sentences.forEach((element, index) => {
+      element.textContent = episode.sentences[index].text;
+    });
+  } catch (error) {
+    document.getElementById("status").innerText = "Episodio non disponibile";
+  }
+}
+
+function moveSentence(direction) {
+  audio.pause();
+
+  currentSentence = Math.min(
+    sentences.length - 1,
+    Math.max(0, currentSentence + direction)
+  );
+
+  paused = false;
+  speaking = true;
+  updateProgress();
+  playSentence(currentSentence);
 }
 
 function playSentence(index) {
@@ -414,6 +488,8 @@ function stopLesson() {
     "Pronto";
 
 }
+
+loadEpisode();
 
 </script>
 
