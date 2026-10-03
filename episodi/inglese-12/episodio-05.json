@@ -6,7 +6,29 @@
   "sentences": [
     {
       "text": "Nei quattro episodi scorsi abbiamo costruito le fondamenta della grammatica inglese: pronomi, articoli, i verbi to be e to have, e i sostantivi.",
-      "speech": "Nei quattro episodi scorsi abbiamo costruito le fondamenta della grammatica inglese: pronomi, articoli, i verbi to be e to have, e i sostantivi."
+      "speech": "Nei quattro episodi scorsi abbiamo costruito le fondamenta della grammatica inglese: pronomi, articoli, i verbi to be e to have, e i sostantivi.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nei quattro episodi scorsi abbiamo costruito le fondamenta della grammatica inglese: pronomi, articoli, i verbi"
+        },
+        {
+          "lang": "en",
+          "text": "to be"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "to have,"
+        },
+        {
+          "lang": "it",
+          "text": "e i sostantivi."
+        }
+      ]
     },
     {
       "text": "Da questo episodio passiamo ai tempi verbali veri e propri, il cuore di tutta la grammatica che vi servirà per affrontare con sicurezza l'esame di lingua e cultura inglese.",
@@ -14,19 +36,79 @@
     },
     {
       "text": "Cominciamo dai tempi verbali del presente, e in particolare dal contrasto tra present simple e present continuous.",
-      "speech": "Cominciamo dai tempi verbali del presente, e in particolare dal contrasto tra present simple e present continuous."
+      "speech": "Cominciamo dai tempi verbali del presente, e in particolare dal contrasto tra present simple e present continuous.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dai tempi verbali del presente, e in particolare dal contrasto tra"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous."
+        }
+      ]
     },
     {
       "text": "Il present simple si usa per parlare di azioni abituali, di routine quotidiane, di fatti generali e di verità permanenti:",
-      "speech": "Il present simple si usa per parlare di azioni abituali, di routine quotidiane, di fatti generali e di verità permanenti:"
+      "speech": "Il present simple si usa per parlare di azioni abituali, di routine quotidiane, di fatti generali e di verità permanenti:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per parlare di azioni abituali, di routine quotidiane, di fatti generali e di verità permanenti:"
+        }
+      ]
     },
     {
       "text": "pensate a frasi come «I play tennis every Sunday» — gioco a tennis ogni domenica, un'abitudine ricorrente —",
-      "speech": "pensate a frasi come «I play tennis every Sunday» — gioco a tennis ogni domenica, un'abitudine ricorrente —"
+      "speech": "pensate a frasi come «I play tennis every Sunday» — gioco a tennis ogni domenica, un'abitudine ricorrente —",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "pensate a frasi come «"
+        },
+        {
+          "lang": "en",
+          "text": "I play tennis every Sunday» —"
+        },
+        {
+          "lang": "it",
+          "text": "gioco a tennis ogni domenica, un'abitudine ricorrente —"
+        }
+      ]
     },
     {
       "text": "oppure «Water boils at 100 degrees» — l'acqua bolle a cento gradi, un fatto scientifico sempre vero, indipendentemente da quando lo dite.",
-      "speech": "oppure «Water boils at 100 degrees» — l'acqua bolle a cento gradi, un fatto scientifico sempre vero, indipendentemente da quando lo dite."
+      "speech": "oppure «Water boils at 100 degrees» — l'acqua bolle a cento gradi, un fatto scientifico sempre vero, indipendentemente da quando lo dite.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "oppure «"
+        },
+        {
+          "lang": "en",
+          "text": "Water boils at 100 degrees» —"
+        },
+        {
+          "lang": "it",
+          "text": "l'acqua bolle a cento gradi, un fatto scientifico sempre vero, indipendentemente da quando lo dite."
+        }
+      ]
     },
     {
       "text": "Un dettaglio a cui gli studenti italiani spesso non prestano abbastanza attenzione, e che vi conviene ricordare con precisione:",
@@ -34,15 +116,85 @@
     },
     {
       "text": "alla terza persona singolare — he, she, it — il verbo prende una desinenza in -s, o in -es, -ies a seconda della terminazione.",
-      "speech": "alla terza persona singolare — he, she, it — il verbo prende una desinenza in -s, o in -es, -ies a seconda della terminazione."
+      "speech": "alla terza persona singolare — he, she, it — il verbo prende una desinenza in -s, o in -es, -ies a seconda della terminazione.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "alla terza persona singolare —"
+        },
+        {
+          "lang": "en",
+          "text": "he, she, it —"
+        },
+        {
+          "lang": "it",
+          "text": "il verbo prende una desinenza in -s, o in -es, -ies a seconda della terminazione."
+        }
+      ]
     },
     {
       "text": "Diciamo quindi «I play» ma «she plays»; «I watch» ma «he watches», perché watch termina in -ch e richiede la -es;",
-      "speech": "Diciamo quindi «I play» ma «she plays»; «I watch» ma «he watches», perché watch termina in -ch e richiede la -es;"
+      "speech": "Diciamo quindi «I play» ma «she plays»; «I watch» ma «he watches», perché watch termina in -ch e richiede la -es;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Diciamo quindi «"
+        },
+        {
+          "lang": "en",
+          "text": "I play»"
+        },
+        {
+          "lang": "it",
+          "text": "ma «"
+        },
+        {
+          "lang": "en",
+          "text": "she plays»; «I watch»"
+        },
+        {
+          "lang": "it",
+          "text": "ma «"
+        },
+        {
+          "lang": "en",
+          "text": "he watches»,"
+        },
+        {
+          "lang": "it",
+          "text": "perché"
+        },
+        {
+          "lang": "en",
+          "text": "watch"
+        },
+        {
+          "lang": "it",
+          "text": "termina in -ch e richiede la -es;"
+        }
+      ]
     },
     {
       "text": "«I study» ma «she studies», perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere -es.",
-      "speech": "«I study» ma «she studies», perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere -es."
+      "speech": "«I study» ma «she studies», perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere -es.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I study»"
+        },
+        {
+          "lang": "it",
+          "text": "ma «"
+        },
+        {
+          "lang": "en",
+          "text": "she studies»,"
+        },
+        {
+          "lang": "it",
+          "text": "perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere -es."
+        }
+      ]
     },
     {
       "text": "È un errore piccolo ma frequentissimo negli scritti degli studenti italiani, e i commissari lo notano subito:",
@@ -54,27 +206,159 @@
     },
     {
       "text": "Un altro elemento che accompagna spesso il present simple sono gli avverbi di frequenza — always, usually, often, sometimes, rarely, never — che indicano appunto quanto spesso accade un'azione.",
-      "speech": "Un altro elemento che accompagna spesso il present simple sono gli avverbi di frequenza — always, usually, often, sometimes, rarely, never — che indicano appunto quanto spesso accade un'azione."
+      "speech": "Un altro elemento che accompagna spesso il present simple sono gli avverbi di frequenza — always, usually, often, sometimes, rarely, never — che indicano appunto quanto spesso accade un'azione.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un altro elemento che accompagna spesso il"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "sono gli avverbi di frequenza —"
+        },
+        {
+          "lang": "en",
+          "text": "always, usually, often, sometimes, rarely, never —"
+        },
+        {
+          "lang": "it",
+          "text": "che indicano appunto quanto spesso accade un'azione."
+        }
+      ]
     },
     {
       "text": "La loro posizione nella frase segue una regola precisa che vale la pena fissare bene: si collocano generalmente prima del verbo principale, ma dopo il verbo essere, to be.",
-      "speech": "La loro posizione nella frase segue una regola precisa che vale la pena fissare bene: si collocano generalmente prima del verbo principale, ma dopo il verbo essere, to be."
+      "speech": "La loro posizione nella frase segue una regola precisa che vale la pena fissare bene: si collocano generalmente prima del verbo principale, ma dopo il verbo essere, to be.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La loro posizione nella frase segue una regola precisa che vale la pena fissare bene: si collocano generalmente prima del verbo principale, ma dopo il verbo essere,"
+        },
+        {
+          "lang": "en",
+          "text": "to be."
+        }
+      ]
     },
     {
       "text": "Diciamo dunque «I always study in the evening», con always prima di study, ma «She is never late», con never dopo is.",
-      "speech": "Diciamo dunque «I always study in the evening», con always prima di study, ma «She is never late», con never dopo is."
+      "speech": "Diciamo dunque «I always study in the evening», con always prima di study, ma «She is never late», con never dopo is.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Diciamo dunque «"
+        },
+        {
+          "lang": "en",
+          "text": "I always study in the evening»,"
+        },
+        {
+          "lang": "it",
+          "text": "con"
+        },
+        {
+          "lang": "en",
+          "text": "always"
+        },
+        {
+          "lang": "it",
+          "text": "prima di"
+        },
+        {
+          "lang": "en",
+          "text": "study,"
+        },
+        {
+          "lang": "it",
+          "text": "ma «"
+        },
+        {
+          "lang": "en",
+          "text": "She is never late»,"
+        },
+        {
+          "lang": "it",
+          "text": "con"
+        },
+        {
+          "lang": "en",
+          "text": "never"
+        },
+        {
+          "lang": "it",
+          "text": "dopo"
+        },
+        {
+          "lang": "en",
+          "text": "is."
+        }
+      ]
     },
     {
       "text": "Provate a immaginare, per fissare meglio questa regola, una frase come «My brother usually wakes up early»:",
-      "speech": "Provate a immaginare, per fissare meglio questa regola, una frase come «My brother usually wakes up early»:"
+      "speech": "Provate a immaginare, per fissare meglio questa regola, una frase come «My brother usually wakes up early»:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Provate a immaginare, per fissare meglio questa regola, una frase come «"
+        },
+        {
+          "lang": "en",
+          "text": "My brother usually wakes up early»:"
+        }
+      ]
     },
     {
       "text": "usually si trova prima di wakes, il verbo principale, esattamente come previsto dalla regola.",
-      "speech": "usually si trova prima di wakes, il verbo principale, esattamente come previsto dalla regola."
+      "speech": "usually si trova prima di wakes, il verbo principale, esattamente come previsto dalla regola.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "usually"
+        },
+        {
+          "lang": "it",
+          "text": "si trova prima di"
+        },
+        {
+          "lang": "en",
+          "text": "wakes,"
+        },
+        {
+          "lang": "it",
+          "text": "il verbo principale, esattamente come previsto dalla regola."
+        }
+      ]
     },
     {
       "text": "Il present continuous, formato da be più il verbo con la desinenza -ing, ha invece una funzione completamente diversa:",
-      "speech": "Il present continuous, formato da be più il verbo con la desinenza -ing, ha invece una funzione completamente diversa:"
+      "speech": "Il present continuous, formato da be più il verbo con la desinenza -ing, ha invece una funzione completamente diversa:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous,"
+        },
+        {
+          "lang": "it",
+          "text": "formato da"
+        },
+        {
+          "lang": "en",
+          "text": "be"
+        },
+        {
+          "lang": "it",
+          "text": "più il verbo con la desinenza -ing, ha invece una funzione completamente diversa:"
+        }
+      ]
     },
     {
       "text": "descrive un'azione in corso proprio nel momento in cui si parla, oppure una situazione temporanea legata al presente, che non ha valore di abitudine permanente.",
@@ -82,11 +366,31 @@
     },
     {
       "text": "«I am studying English right now» significa che in questo preciso istante sto studiando inglese, non che lo faccio ogni giorno alla stessa ora;",
-      "speech": "«I am studying English right now» significa che in questo preciso istante sto studiando inglese, non che lo faccio ogni giorno alla stessa ora;"
+      "speech": "«I am studying English right now» significa che in questo preciso istante sto studiando inglese, non che lo faccio ogni giorno alla stessa ora;",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I am studying English right now»"
+        },
+        {
+          "lang": "it",
+          "text": "significa che in questo preciso istante sto studiando inglese, non che lo faccio ogni giorno alla stessa ora;"
+        }
+      ]
     },
     {
       "text": "«They are staying at a hotel this week» indica una situazione temporanea, valida solo per questa settimana, non una condizione permanente della loro vita.",
-      "speech": "«They are staying at a hotel this week» indica una situazione temporanea, valida solo per questa settimana, non una condizione permanente della loro vita."
+      "speech": "«They are staying at a hotel this week» indica una situazione temporanea, valida solo per questa settimana, non una condizione permanente della loro vita.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«They are staying at a hotel this week»"
+        },
+        {
+          "lang": "it",
+          "text": "indica una situazione temporanea, valida solo per questa settimana, non una condizione permanente della loro vita."
+        }
+      ]
     },
     {
       "text": "Fermiamoci un momento su un punto che genera spesso confusione tra gli studenti,",
@@ -98,7 +402,29 @@
     },
     {
       "text": "esistono alcuni verbi, i cosiddetti stative verbs, o verbi di stato — know, like, believe, want, belong, tra gli altri —",
-      "speech": "esistono alcuni verbi, i cosiddetti stative verbs, o verbi di stato — know, like, believe, want, belong, tra gli altri —"
+      "speech": "esistono alcuni verbi, i cosiddetti stative verbs, o verbi di stato — know, like, believe, want, belong, tra gli altri —",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "esistono alcuni verbi, i cosiddetti stative"
+        },
+        {
+          "lang": "en",
+          "text": "verbs,"
+        },
+        {
+          "lang": "it",
+          "text": "o verbi di stato —"
+        },
+        {
+          "lang": "en",
+          "text": "know, like, believe, want, belong,"
+        },
+        {
+          "lang": "it",
+          "text": "tra gli altri —"
+        }
+      ]
     },
     {
       "text": "che normalmente non si usano alla forma continua, perché esprimono uno stato mentale o emotivo stabile, non un'azione fisica in svolgimento.",
@@ -106,7 +432,29 @@
     },
     {
       "text": "Non diremo mai «I am knowing the answer», ma sempre «I know the answer», anche se in quel preciso momento state effettivamente conoscendo la risposta.",
-      "speech": "Non diremo mai «I am knowing the answer», ma sempre «I know the answer», anche se in quel preciso momento state effettivamente conoscendo la risposta."
+      "speech": "Non diremo mai «I am knowing the answer», ma sempre «I know the answer», anche se in quel preciso momento state effettivamente conoscendo la risposta.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Non diremo mai «"
+        },
+        {
+          "lang": "en",
+          "text": "I am knowing the answer»,"
+        },
+        {
+          "lang": "it",
+          "text": "ma sempre «"
+        },
+        {
+          "lang": "en",
+          "text": "I know the answer»,"
+        },
+        {
+          "lang": "it",
+          "text": "anche se in quel preciso momento state effettivamente conoscendo la risposta."
+        }
+      ]
     },
     {
       "text": "Perché questa regola?",
@@ -138,23 +486,137 @@
     },
     {
       "text": "Per il present simple: forma affermativa, «She works in a hospital»; forma negativa, con l'ausiliare does not, contratto in doesn't per la terza persona, «She doesn't work on Sundays»;",
-      "speech": "Per il present simple: forma affermativa, «She works in a hospital»; forma negativa, con l'ausiliare does not, contratto in doesn't per la terza persona, «She doesn't work on Sundays»;"
+      "speech": "Per il present simple: forma affermativa, «She works in a hospital»; forma negativa, con l'ausiliare does not, contratto in doesn't per la terza persona, «She doesn't work on Sundays»;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Per il"
+        },
+        {
+          "lang": "en",
+          "text": "present simple:"
+        },
+        {
+          "lang": "it",
+          "text": "forma affermativa, «"
+        },
+        {
+          "lang": "en",
+          "text": "She works in a hospital»;"
+        },
+        {
+          "lang": "it",
+          "text": "forma negativa, con l'ausiliare"
+        },
+        {
+          "lang": "en",
+          "text": "does not,"
+        },
+        {
+          "lang": "it",
+          "text": "contratto in"
+        },
+        {
+          "lang": "en",
+          "text": "doesn't"
+        },
+        {
+          "lang": "it",
+          "text": "per la terza persona, «"
+        },
+        {
+          "lang": "en",
+          "text": "She doesn't work on Sundays»;"
+        }
+      ]
     },
     {
       "text": "forma interrogativa, con l'inversione dell'ausiliare does, «Does she work every day?».",
-      "speech": "forma interrogativa, con l'inversione dell'ausiliare does, «Does she work every day?»."
+      "speech": "forma interrogativa, con l'inversione dell'ausiliare does, «Does she work every day?».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "forma interrogativa, con l'inversione dell'ausiliare"
+        },
+        {
+          "lang": "en",
+          "text": "does, «Does she work every day?»."
+        }
+      ]
     },
     {
       "text": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la -s della terza persona \"si sposta\" sull'ausiliare does,",
-      "speech": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la -s della terza persona \"si sposta\" sull'ausiliare does,"
+      "speech": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la -s della terza persona \"si sposta\" sull'ausiliare does,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la -s della terza persona \"si sposta\" sull'ausiliare"
+        },
+        {
+          "lang": "en",
+          "text": "does,"
+        }
+      ]
     },
     {
       "text": "e il verbo principale torna alla forma base, senza -s: diciamo «does she work», non «does she works».",
-      "speech": "e il verbo principale torna alla forma base, senza -s: diciamo «does she work», non «does she works»."
+      "speech": "e il verbo principale torna alla forma base, senza -s: diciamo «does she work», non «does she works».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e il verbo principale torna alla forma base, senza -s: diciamo «"
+        },
+        {
+          "lang": "en",
+          "text": "does she work»,"
+        },
+        {
+          "lang": "it",
+          "text": "non «"
+        },
+        {
+          "lang": "en",
+          "text": "does she works»."
+        }
+      ]
     },
     {
       "text": "Per il present continuous: forma affermativa, «He is watching TV»; forma negativa, «He isn't watching TV»; forma interrogativa, con l'inversione del verbo essere, «Is he watching TV?».",
-      "speech": "Per il present continuous: forma affermativa, «He is watching TV»; forma negativa, «He isn't watching TV»; forma interrogativa, con l'inversione del verbo essere, «Is he watching TV?»."
+      "speech": "Per il present continuous: forma affermativa, «He is watching TV»; forma negativa, «He isn't watching TV»; forma interrogativa, con l'inversione del verbo essere, «Is he watching TV?».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Per il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous:"
+        },
+        {
+          "lang": "it",
+          "text": "forma affermativa, «"
+        },
+        {
+          "lang": "en",
+          "text": "He is watching TV»;"
+        },
+        {
+          "lang": "it",
+          "text": "forma negativa, «"
+        },
+        {
+          "lang": "en",
+          "text": "He isn't watching TV»;"
+        },
+        {
+          "lang": "it",
+          "text": "forma interrogativa, con l'inversione del verbo essere, «"
+        },
+        {
+          "lang": "en",
+          "text": "Is he watching TV?»."
+        }
+      ]
     },
     {
       "text": "Proviamo ora un piccolo esercizio insieme, come farebbe un insegnante prima di lasciarvi da soli con un compito scritto:",
@@ -170,11 +632,31 @@
     },
     {
       "text": "La prima parte descrive un'abitudine quotidiana, quindi richiede il present simple: «Every morning my father reads the newspaper».",
-      "speech": "La prima parte descrive un'abitudine quotidiana, quindi richiede il present simple: «Every morning my father reads the newspaper»."
+      "speech": "La prima parte descrive un'abitudine quotidiana, quindi richiede il present simple: «Every morning my father reads the newspaper».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La prima parte descrive un'abitudine quotidiana, quindi richiede il"
+        },
+        {
+          "lang": "en",
+          "text": "present simple: «Every morning my father reads the newspaper»."
+        }
+      ]
     },
     {
       "text": "La seconda parte descrive un'azione in corso proprio ora, quindi richiede il present continuous: «but right now he is watching TV».",
-      "speech": "La seconda parte descrive un'azione in corso proprio ora, quindi richiede il present continuous: «but right now he is watching TV»."
+      "speech": "La seconda parte descrive un'azione in corso proprio ora, quindi richiede il present continuous: «but right now he is watching TV».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La seconda parte descrive un'azione in corso proprio ora, quindi richiede il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous: «but right now he is watching TV»."
+        }
+      ]
     },
     {
       "text": "Se siete riusciti a distinguere correttamente le due parti della frase, avete già capito il cuore della differenza tra questi due tempi verbali,",
@@ -186,7 +668,29 @@
     },
     {
       "text": "Un consiglio pratico, prima di chiudere: quando all'esame vi verrà chiesto di spiegare la differenza tra present simple e present continuous, non limitatevi a dire \"uno è per le abitudini e l'altro per il presente\":",
-      "speech": "Un consiglio pratico, prima di chiudere: quando all'esame vi verrà chiesto di spiegare la differenza tra present simple e present continuous, non limitatevi a dire \"uno è per le abitudini e l'altro per il presente\":"
+      "speech": "Un consiglio pratico, prima di chiudere: quando all'esame vi verrà chiesto di spiegare la differenza tra present simple e present continuous, non limitatevi a dire \"uno è per le abitudini e l'altro per il presente\":",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un consiglio pratico, prima di chiudere: quando all'esame vi verrà chiesto di spiegare la differenza tra"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous,"
+        },
+        {
+          "lang": "it",
+          "text": "non limitatevi a dire \"uno è per le abitudini e l'altro per il presente\":"
+        }
+      ]
     },
     {
       "text": "provate sempre ad accompagnare la spiegazione con un esempio concreto per ciascuno dei due usi,",
@@ -194,7 +698,21 @@
     },
     {
       "text": "e se potete, aggiungete anche l'eccezione degli stative verbs, perché è il dettaglio che dimostra una comprensione più matura e meno meccanica della regola.",
-      "speech": "e se potete, aggiungete anche l'eccezione degli stative verbs, perché è il dettaglio che dimostra una comprensione più matura e meno meccanica della regola."
+      "speech": "e se potete, aggiungete anche l'eccezione degli stative verbs, perché è il dettaglio che dimostra una comprensione più matura e meno meccanica della regola.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e se potete, aggiungete anche l'eccezione degli stative"
+        },
+        {
+          "lang": "en",
+          "text": "verbs,"
+        },
+        {
+          "lang": "it",
+          "text": "perché è il dettaglio che dimostra una comprensione più matura e meno meccanica della regola."
+        }
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -202,15 +720,65 @@
     },
     {
       "text": "Primo: il present simple descrive azioni abituali e fatti generali, e richiede la -s alla terza persona singolare.",
-      "speech": "Primo: il present simple descrive azioni abituali e fatti generali, e richiede la -s alla terza persona singolare."
+      "speech": "Primo: il present simple descrive azioni abituali e fatti generali, e richiede la -s alla terza persona singolare.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "descrive azioni abituali e fatti generali, e richiede la -s alla terza persona singolare."
+        }
+      ]
     },
     {
       "text": "Secondo: il present continuous, be più -ing, descrive azioni in corso nel momento presente o situazioni temporanee.",
-      "speech": "Secondo: il present continuous, be più -ing, descrive azioni in corso nel momento presente o situazioni temporanee."
+      "speech": "Secondo: il present continuous, be più -ing, descrive azioni in corso nel momento presente o situazioni temporanee.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous, be"
+        },
+        {
+          "lang": "it",
+          "text": "più -ing, descrive azioni in corso nel momento presente o situazioni temporanee."
+        }
+      ]
     },
     {
       "text": "Terzo: gli stative verbs come know, like, want, belong non si usano normalmente alla forma continua, perché esprimono stati mentali stabili, non azioni in svolgimento.",
-      "speech": "Terzo: gli stative verbs come know, like, want, belong non si usano normalmente alla forma continua, perché esprimono stati mentali stabili, non azioni in svolgimento."
+      "speech": "Terzo: gli stative verbs come know, like, want, belong non si usano normalmente alla forma continua, perché esprimono stati mentali stabili, non azioni in svolgimento.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: gli stative"
+        },
+        {
+          "lang": "en",
+          "text": "verbs"
+        },
+        {
+          "lang": "it",
+          "text": "come"
+        },
+        {
+          "lang": "en",
+          "text": "know, like, want, belong"
+        },
+        {
+          "lang": "it",
+          "text": "non si usano normalmente alla forma continua, perché esprimono stati mentali stabili, non azioni in svolgimento."
+        }
+      ]
     },
     {
       "text": "Quarto: saper costruire le tre forme — affermativa, negativa, interrogativa —",
@@ -226,7 +794,29 @@
     },
     {
       "text": "vedremo il simple past e il present perfect, due tempi che raccontano entrambi eventi già accaduti, ma con una logica molto diversa tra loro.",
-      "speech": "vedremo il simple past e il present perfect, due tempi che raccontano entrambi eventi già accaduti, ma con una logica molto diversa tra loro."
+      "speech": "vedremo il simple past e il present perfect, due tempi che raccontano entrambi eventi già accaduti, ma con una logica molto diversa tra loro.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "vedremo il"
+        },
+        {
+          "lang": "en",
+          "text": "simple past"
+        },
+        {
+          "lang": "it",
+          "text": "e il"
+        },
+        {
+          "lang": "en",
+          "text": "present perfect,"
+        },
+        {
+          "lang": "it",
+          "text": "due tempi che raccontano entrambi eventi già accaduti, ma con una logica molto diversa tra loro."
+        }
+      ]
     },
     {
       "text": "Ci vediamo lì.",

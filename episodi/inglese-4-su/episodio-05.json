@@ -6,7 +6,17 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo visto William Blake e le due versioni di The Chimney Sweeper.",
-      "speech": "Nell'episodio scorso abbiamo visto William Blake e le due versioni di The Chimney Sweeper."
+      "speech": "Nell'episodio scorso abbiamo visto William Blake e le due versioni di The Chimney Sweeper.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto William Blake e le due versioni di"
+        },
+        {
+          "lang": "en",
+          "text": "The Chimney Sweeper."
+        }
+      ]
     },
     {
       "text": "Oggi incontriamo il maggiore romanziere dell'epoca vittoriana e uno dei più celebri scrittori inglesi di ogni tempo:",
@@ -14,11 +24,43 @@
     },
     {
       "text": "Charles Dickens, vissuto tra il 1812 e il 1870, attraverso il suo secondo romanzo, Oliver Twist, pubblicato a puntate tra il 1837 e il 1839.",
-      "speech": "Charles Dickens, vissuto tra il 1812 e il 1870, attraverso il suo secondo romanzo, Oliver Twist, pubblicato a puntate tra il 1837 e il 1839."
+      "speech": "Charles Dickens, vissuto tra il 1812 e il 1870, attraverso il suo secondo romanzo, Oliver Twist, pubblicato a puntate tra il 1837 e il 1839.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Charles Dickens, vissuto tra il 1812 e il 1870, attraverso il suo secondo romanzo,"
+        },
+        {
+          "lang": "en",
+          "text": "Oliver Twist,"
+        },
+        {
+          "lang": "it",
+          "text": "pubblicato a puntate tra il 1837 e il 1839."
+        }
+      ]
     },
     {
       "text": "Oliver Twist racconta la storia dell'omonimo orfano, nato in un workhouse — l'istituto di ricovero per i poveri, dalle condizioni di vita durissime, previsto dalla legge sui poveri allora in vigore, il Poor Law Amendment Act del 1834 —",
-      "speech": "Oliver Twist racconta la storia dell'omonimo orfano, nato in un workhouse — l'istituto di ricovero per i poveri, dalle condizioni di vita durissime, previsto dalla legge sui poveri allora in vigore, il Poor Law Amendment Act del 1834 —"
+      "speech": "Oliver Twist racconta la storia dell'omonimo orfano, nato in un workhouse — l'istituto di ricovero per i poveri, dalle condizioni di vita durissime, previsto dalla legge sui poveri allora in vigore, il Poor Law Amendment Act del 1834 —",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Oliver Twist"
+        },
+        {
+          "lang": "it",
+          "text": "racconta la storia dell'omonimo orfano, nato in un workhouse — l'istituto di ricovero per i poveri, dalle condizioni di vita durissime, previsto dalla legge sui poveri allora in vigore, il"
+        },
+        {
+          "lang": "en",
+          "text": "Poor Law Amendment Act"
+        },
+        {
+          "lang": "it",
+          "text": "del 1834 —"
+        }
+      ]
     },
     {
       "text": "e costretto, dopo la fuga dall'istituto, a sopravvivere nei bassifondi di Londra.",
@@ -26,7 +68,21 @@
     },
     {
       "text": "In questo ambiente degradato, Oliver viene reclutato in una banda di giovani borseggiatori guidata dal losco Fagin e dal violento Bill Sikes, due tra i personaggi più memorabili e inquietanti dell'intera narrativa dickensiana.",
-      "speech": "In questo ambiente degradato, Oliver viene reclutato in una banda di giovani borseggiatori guidata dal losco Fagin e dal violento Bill Sikes, due tra i personaggi più memorabili e inquietanti dell'intera narrativa dickensiana."
+      "speech": "In questo ambiente degradato, Oliver viene reclutato in una banda di giovani borseggiatori guidata dal losco Fagin e dal violento Bill Sikes, due tra i personaggi più memorabili e inquietanti dell'intera narrativa dickensiana.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "In questo ambiente degradato, Oliver viene reclutato in una banda di giovani borseggiatori guidata dal losco Fagin e dal violento"
+        },
+        {
+          "lang": "en",
+          "text": "Bill Sikes,"
+        },
+        {
+          "lang": "it",
+          "text": "due tra i personaggi più memorabili e inquietanti dell'intera narrativa dickensiana."
+        }
+      ]
     },
     {
       "text": "Attraverso la vicenda di Oliver, Dickens denuncia con forza le condizioni di sfruttamento e di abbandono in cui versavano l'infanzia povera e gli orfani nell'Inghilterra vittoriana.",
@@ -94,11 +150,39 @@
     },
     {
       "text": "Vale anche la pena ricordare, come collegamento utile per gli episodi successivi di questo modulo, che Oliver Twist non è un caso isolato nella produzione di Dickens:",
-      "speech": "Vale anche la pena ricordare, come collegamento utile per gli episodi successivi di questo modulo, che Oliver Twist non è un caso isolato nella produzione di Dickens:"
+      "speech": "Vale anche la pena ricordare, come collegamento utile per gli episodi successivi di questo modulo, che Oliver Twist non è un caso isolato nella produzione di Dickens:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vale anche la pena ricordare, come collegamento utile per gli episodi successivi di questo modulo, che Oliver"
+        },
+        {
+          "lang": "en",
+          "text": "Twist"
+        },
+        {
+          "lang": "it",
+          "text": "non è un caso isolato nella produzione di Dickens:"
+        }
+      ]
     },
     {
       "text": "la denuncia della povertà urbana, delle istituzioni ipocrite e delle ingiustizie sociali dell'Inghilterra vittoriana è un filo conduttore che attraverserà anche l'opera che incontreremo nel prossimo episodio, Hard Times, sia pure con un bersaglio polemico diverso:",
-      "speech": "la denuncia della povertà urbana, delle istituzioni ipocrite e delle ingiustizie sociali dell'Inghilterra vittoriana è un filo conduttore che attraverserà anche l'opera che incontreremo nel prossimo episodio, Hard Times, sia pure con un bersaglio polemico diverso:"
+      "speech": "la denuncia della povertà urbana, delle istituzioni ipocrite e delle ingiustizie sociali dell'Inghilterra vittoriana è un filo conduttore che attraverserà anche l'opera che incontreremo nel prossimo episodio, Hard Times, sia pure con un bersaglio polemico diverso:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la denuncia della povertà urbana, delle istituzioni ipocrite e delle ingiustizie sociali dell'Inghilterra vittoriana è un filo conduttore che attraverserà anche l'opera che incontreremo nel prossimo episodio,"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times,"
+        },
+        {
+          "lang": "it",
+          "text": "sia pure con un bersaglio polemico diverso:"
+        }
+      ]
     },
     {
       "text": "non più il sistema dei workhouse per l'infanzia abbandonata, ma il sistema industriale e utilitaristico della città-fabbrica.",
@@ -110,7 +194,21 @@
     },
     {
       "text": "Primo: Charles Dickens, il maggiore romanziere vittoriano, racconta in Oliver Twist la vicenda di un orfano nato in un workhouse e costretto a sopravvivere nei bassifondi londinesi in una banda di borseggiatori.",
-      "speech": "Primo: Charles Dickens, il maggiore romanziere vittoriano, racconta in Oliver Twist la vicenda di un orfano nato in un workhouse e costretto a sopravvivere nei bassifondi londinesi in una banda di borseggiatori."
+      "speech": "Primo: Charles Dickens, il maggiore romanziere vittoriano, racconta in Oliver Twist la vicenda di un orfano nato in un workhouse e costretto a sopravvivere nei bassifondi londinesi in una banda di borseggiatori.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: Charles Dickens, il maggiore romanziere vittoriano, racconta in Oliver"
+        },
+        {
+          "lang": "en",
+          "text": "Twist"
+        },
+        {
+          "lang": "it",
+          "text": "la vicenda di un orfano nato in un workhouse e costretto a sopravvivere nei bassifondi londinesi in una banda di borseggiatori."
+        }
+      ]
     },
     {
       "text": "Secondo: attraverso questa vicenda, Dickens denuncia l'ipocrisia delle istituzioni caritatevoli ufficiali e l'indifferenza delle classi agiate verso la povertà urbana.",
@@ -122,7 +220,21 @@
     },
     {
       "text": "Nel prossimo episodio restiamo con Dickens, ma ci spostiamo dagli orfani londinesi alla città industriale immaginaria di Coketown, protagonista del romanzo Hard Times e del suo celebre estratto descrittivo.",
-      "speech": "Nel prossimo episodio restiamo con Dickens, ma ci spostiamo dagli orfani londinesi alla città industriale immaginaria di Coketown, protagonista del romanzo Hard Times e del suo celebre estratto descrittivo."
+      "speech": "Nel prossimo episodio restiamo con Dickens, ma ci spostiamo dagli orfani londinesi alla città industriale immaginaria di Coketown, protagonista del romanzo Hard Times e del suo celebre estratto descrittivo.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio restiamo con Dickens, ma ci spostiamo dagli orfani londinesi alla città industriale immaginaria di Coketown, protagonista del romanzo"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "e del suo celebre estratto descrittivo."
+        }
+      ]
     },
     {
       "text": "Ci vediamo lì.",

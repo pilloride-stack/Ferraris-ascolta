@@ -6,7 +6,21 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo visto Fair Trade, microfinanza e banca etica.",
-      "speech": "Nell'episodio scorso abbiamo visto Fair Trade, microfinanza e banca etica."
+      "speech": "Nell'episodio scorso abbiamo visto Fair Trade, microfinanza e banca etica.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto"
+        },
+        {
+          "lang": "en",
+          "text": "Fair Trade,"
+        },
+        {
+          "lang": "it",
+          "text": "microfinanza e banca etica."
+        }
+      ]
     },
     {
       "text": "Oggi affrontiamo un fenomeno molto più ampio, che in un certo senso fa da sfondo a tutti i temi visti finora in questo modulo:",
@@ -82,19 +96,75 @@
     },
     {
       "text": "Concentriamoci ora sulla globalizzazione economica in senso stretto, economic globalisation, che si manifesta soprattutto attraverso tre fenomeni concreti.",
-      "speech": "Concentriamoci ora sulla globalizzazione economica in senso stretto, economic globalisation, che si manifesta soprattutto attraverso tre fenomeni concreti."
+      "speech": "Concentriamoci ora sulla globalizzazione economica in senso stretto, economic globalisation, che si manifesta soprattutto attraverso tre fenomeni concreti.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Concentriamoci ora sulla globalizzazione economica in senso stretto,"
+        },
+        {
+          "lang": "en",
+          "text": "economic globalisation,"
+        },
+        {
+          "lang": "it",
+          "text": "che si manifesta soprattutto attraverso tre fenomeni concreti."
+        }
+      ]
     },
     {
       "text": "Il primo è la liberalizzazione del commercio internazionale, free trade, cioè la progressiva riduzione di dazi doganali e barriere commerciali tra paesi.",
-      "speech": "Il primo è la liberalizzazione del commercio internazionale, free trade, cioè la progressiva riduzione di dazi doganali e barriere commerciali tra paesi."
+      "speech": "Il primo è la liberalizzazione del commercio internazionale, free trade, cioè la progressiva riduzione di dazi doganali e barriere commerciali tra paesi.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il primo è la liberalizzazione del commercio internazionale,"
+        },
+        {
+          "lang": "en",
+          "text": "free trade,"
+        },
+        {
+          "lang": "it",
+          "text": "cioè la progressiva riduzione di dazi doganali e barriere commerciali tra paesi."
+        }
+      ]
     },
     {
       "text": "Il secondo è la crescente attività delle imprese multinazionali, multinational corporations, che operano contemporaneamente in più paesi, spesso con sedi produttive, commerciali e amministrative distribuite su scala globale.",
-      "speech": "Il secondo è la crescente attività delle imprese multinazionali, multinational corporations, che operano contemporaneamente in più paesi, spesso con sedi produttive, commerciali e amministrative distribuite su scala globale."
+      "speech": "Il secondo è la crescente attività delle imprese multinazionali, multinational corporations, che operano contemporaneamente in più paesi, spesso con sedi produttive, commerciali e amministrative distribuite su scala globale.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il secondo è la crescente attività delle imprese multinazionali,"
+        },
+        {
+          "lang": "en",
+          "text": "multinational corporations,"
+        },
+        {
+          "lang": "it",
+          "text": "che operano contemporaneamente in più paesi, spesso con sedi produttive, commerciali e amministrative distribuite su scala globale."
+        }
+      ]
     },
     {
       "text": "Il terzo è lo sviluppo di catene di fornitura globali, global supply chains, in cui le diverse fasi della produzione di un singolo bene — la progettazione, l'estrazione delle materie prime, la lavorazione dei componenti, l'assemblaggio finale —",
-      "speech": "Il terzo è lo sviluppo di catene di fornitura globali, global supply chains, in cui le diverse fasi della produzione di un singolo bene — la progettazione, l'estrazione delle materie prime, la lavorazione dei componenti, l'assemblaggio finale —"
+      "speech": "Il terzo è lo sviluppo di catene di fornitura globali, global supply chains, in cui le diverse fasi della produzione di un singolo bene — la progettazione, l'estrazione delle materie prime, la lavorazione dei componenti, l'assemblaggio finale —",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il terzo è lo sviluppo di catene di fornitura globali,"
+        },
+        {
+          "lang": "en",
+          "text": "global supply chains,"
+        },
+        {
+          "lang": "it",
+          "text": "in cui le diverse fasi della produzione di un singolo bene — la progettazione, l'estrazione delle materie prime, la lavorazione dei componenti, l'assemblaggio finale —"
+        }
+      ]
     },
     {
       "text": "vengono distribuite in paesi diversi, in base ai vantaggi comparati specifici di ciascuno, che possono riguardare il costo del lavoro, la disponibilità di materie prime, o competenze tecniche specializzate.",
@@ -134,7 +204,21 @@
     },
     {
       "text": "se un'azienda italiana affida il proprio servizio clienti telefonico a un call center esterno situato ancora in Italia, questo è un caso di outsourcing puro, senza alcun elemento di offshoring, perché l'attività esce dall'azienda ma resta nel paese.",
-      "speech": "se un'azienda italiana affida il proprio servizio clienti telefonico a un call center esterno situato ancora in Italia, questo è un caso di outsourcing puro, senza alcun elemento di offshoring, perché l'attività esce dall'azienda ma resta nel paese."
+      "speech": "se un'azienda italiana affida il proprio servizio clienti telefonico a un call center esterno situato ancora in Italia, questo è un caso di outsourcing puro, senza alcun elemento di offshoring, perché l'attività esce dall'azienda ma resta nel paese.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "se un'azienda italiana affida il proprio servizio clienti telefonico a un"
+        },
+        {
+          "lang": "en",
+          "text": "call center"
+        },
+        {
+          "lang": "it",
+          "text": "esterno situato ancora in Italia, questo è un caso di outsourcing puro, senza alcun elemento di offshoring, perché l'attività esce dall'azienda ma resta nel paese."
+        }
+      ]
     },
     {
       "text": "Se la stessa azienda apre invece una propria filiale produttiva in un altro paese, mantenendola sotto il proprio controllo diretto, questo è un caso di offshoring puro, senza outsourcing,",
@@ -146,7 +230,21 @@
     },
     {
       "text": "Se infine l'azienda affida quel medesimo servizio clienti a un call center esterno situato in un altro paese, questo è un caso di outsourcing e offshoring combinati,",
-      "speech": "Se infine l'azienda affida quel medesimo servizio clienti a un call center esterno situato in un altro paese, questo è un caso di outsourcing e offshoring combinati,"
+      "speech": "Se infine l'azienda affida quel medesimo servizio clienti a un call center esterno situato in un altro paese, questo è un caso di outsourcing e offshoring combinati,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Se infine l'azienda affida quel medesimo servizio clienti a un"
+        },
+        {
+          "lang": "en",
+          "text": "call center"
+        },
+        {
+          "lang": "it",
+          "text": "esterno situato in un altro paese, questo è un caso di outsourcing e offshoring combinati,"
+        }
+      ]
     },
     {
       "text": "perché l'attività esce dall'azienda e, contemporaneamente, si sposta oltre confine.",

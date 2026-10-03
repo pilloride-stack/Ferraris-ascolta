@@ -34,11 +34,31 @@
     },
     {
       "text": "Robinson Crusoe di Defoe racconta, in forma di diario, la sopravvivenza di un naufrago attraverso lavoro, ingegno e fede puritana, riflettendo i valori borghesi dell'individualismo insieme a un atteggiamento coloniale verso Friday.",
-      "speech": "Robinson Crusoe di Defoe racconta, in forma di diario, la sopravvivenza di un naufrago attraverso lavoro, ingegno e fede puritana, riflettendo i valori borghesi dell'individualismo insieme a un atteggiamento coloniale verso Friday."
+      "speech": "Robinson Crusoe di Defoe racconta, in forma di diario, la sopravvivenza di un naufrago attraverso lavoro, ingegno e fede puritana, riflettendo i valori borghesi dell'individualismo insieme a un atteggiamento coloniale verso Friday.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Robinson Crusoe di Defoe racconta, in forma di diario, la sopravvivenza di un naufrago attraverso lavoro, ingegno e fede puritana, riflettendo i valori borghesi dell'individualismo insieme a un atteggiamento coloniale verso"
+        },
+        {
+          "lang": "en",
+          "text": "Friday."
+        }
+      ]
     },
     {
       "text": "Gulliver's Travels di Swift racconta, in forma di resoconto di viaggio satirico, le avventure di Gulliver a Lilliput, Brobdingnag, Laputa e nel paese degli Houyhnhnms, usando la satira per criticare la politica e la natura umana,",
-      "speech": "Gulliver's Travels di Swift racconta, in forma di resoconto di viaggio satirico, le avventure di Gulliver a Lilliput, Brobdingnag, Laputa e nel paese degli Houyhnhnms, usando la satira per criticare la politica e la natura umana,"
+      "speech": "Gulliver's Travels di Swift racconta, in forma di resoconto di viaggio satirico, le avventure di Gulliver a Lilliput, Brobdingnag, Laputa e nel paese degli Houyhnhnms, usando la satira per criticare la politica e la natura umana,",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Gulliver's Travels"
+        },
+        {
+          "lang": "it",
+          "text": "di Swift racconta, in forma di resoconto di viaggio satirico, le avventure di Gulliver a Lilliput, Brobdingnag, Laputa e nel paese degli Houyhnhnms, usando la satira per criticare la politica e la natura umana,"
+        }
+      ]
     },
     {
       "text": "come nella disputa sull'uovo tra Lilliput e il regno rivale.",
@@ -46,7 +66,21 @@
     },
     {
       "text": "Il confronto tra Robinson Crusoe e Gulliver's Travels si gioca sul tono, serio e moraleggiante in Defoe, ironico e pessimista in Swift,",
-      "speech": "Il confronto tra Robinson Crusoe e Gulliver's Travels si gioca sul tono, serio e moraleggiante in Defoe, ironico e pessimista in Swift,"
+      "speech": "Il confronto tra Robinson Crusoe e Gulliver's Travels si gioca sul tono, serio e moraleggiante in Defoe, ironico e pessimista in Swift,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il confronto tra Robinson Crusoe e Gulliver's"
+        },
+        {
+          "lang": "en",
+          "text": "Travels"
+        },
+        {
+          "lang": "it",
+          "text": "si gioca sul tono, serio e moraleggiante in Defoe, ironico e pessimista in Swift,"
+        }
+      ]
     },
     {
       "text": "e sul tema, l'individuo e la sopravvivenza in uno, la critica sociale e della natura umana nell'altro.",
@@ -54,15 +88,57 @@
     },
     {
       "text": "Le due versioni di The Chimney Sweeper di Blake — le vedremo tra poco, appartengono in realtà al Modulo 2, ma restiamo un momento sul Modulo 1:",
-      "speech": "Le due versioni di The Chimney Sweeper di Blake — le vedremo tra poco, appartengono in realtà al Modulo 2, ma restiamo un momento sul Modulo 1:"
+      "speech": "Le due versioni di The Chimney Sweeper di Blake — le vedremo tra poco, appartengono in realtà al Modulo 2, ma restiamo un momento sul Modulo 1:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le due versioni di"
+        },
+        {
+          "lang": "en",
+          "text": "The Chimney"
+        },
+        {
+          "lang": "it",
+          "text": "Sweeper di Blake — le vedremo tra poco, appartengono in realtà al Modulo 2, ma restiamo un momento sul Modulo 1:"
+        }
+      ]
     },
     {
       "text": "Pamela di Richardson, romanzo epistolare scritto «al momento» degli eventi, mette al centro la virtù femminile e la sua ricompensa;",
-      "speech": "Pamela di Richardson, romanzo epistolare scritto «al momento» degli eventi, mette al centro la virtù femminile e la sua ricompensa;"
+      "speech": "Pamela di Richardson, romanzo epistolare scritto «al momento» degli eventi, mette al centro la virtù femminile e la sua ricompensa;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Pamela di"
+        },
+        {
+          "lang": "en",
+          "text": "Richardson,"
+        },
+        {
+          "lang": "it",
+          "text": "romanzo epistolare scritto «al momento» degli eventi, mette al centro la virtù femminile e la sua ricompensa;"
+        }
+      ]
     },
     {
       "text": "Tom Jones di Fielding, romanzo comico-picaresco affidato a un narratore onnisciente e ironico, segue le avventure di un trovatello impulsivo ma di buon cuore.",
-      "speech": "Tom Jones di Fielding, romanzo comico-picaresco affidato a un narratore onnisciente e ironico, segue le avventure di un trovatello impulsivo ma di buon cuore."
+      "speech": "Tom Jones di Fielding, romanzo comico-picaresco affidato a un narratore onnisciente e ironico, segue le avventure di un trovatello impulsivo ma di buon cuore.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Tom Jones di"
+        },
+        {
+          "lang": "en",
+          "text": "Fielding,"
+        },
+        {
+          "lang": "it",
+          "text": "romanzo comico-picaresco affidato a un narratore onnisciente e ironico, segue le avventure di un trovatello impulsivo ma di buon cuore."
+        }
+      ]
     },
     {
       "text": "Il confronto tra Pamela e Tom Jones si gioca sulla forma narrativa, epistolare e introspettiva in un caso, affidata a un narratore esterno e ironico nell'altro, e sul tono, serio e morale contro comico e distaccato.",
@@ -86,19 +162,75 @@
     },
     {
       "text": "Le due versioni di The Chimney Sweeper di Blake si distinguono così:",
-      "speech": "Le due versioni di The Chimney Sweeper di Blake si distinguono così:"
+      "speech": "Le due versioni di The Chimney Sweeper di Blake si distinguono così:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le due versioni di"
+        },
+        {
+          "lang": "en",
+          "text": "The Chimney"
+        },
+        {
+          "lang": "it",
+          "text": "Sweeper di Blake si distinguono così:"
+        }
+      ]
     },
     {
       "text": "quella delle Songs of Innocence nasconde una critica implicita sotto un tono consolatorio, un sogno di liberazione angelica che induce però rassegnazione;",
-      "speech": "quella delle Songs of Innocence nasconde una critica implicita sotto un tono consolatorio, un sogno di liberazione angelica che induce però rassegnazione;"
+      "speech": "quella delle Songs of Innocence nasconde una critica implicita sotto un tono consolatorio, un sogno di liberazione angelica che induce però rassegnazione;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "quella delle"
+        },
+        {
+          "lang": "en",
+          "text": "Songs of Innocence"
+        },
+        {
+          "lang": "it",
+          "text": "nasconde una critica implicita sotto un tono consolatorio, un sogno di liberazione angelica che induce però rassegnazione;"
+        }
+      ]
     },
     {
       "text": "quella delle Songs of Experience denuncia apertamente la complicità di genitori, Chiesa e Stato nello sfruttamento infantile.",
-      "speech": "quella delle Songs of Experience denuncia apertamente la complicità di genitori, Chiesa e Stato nello sfruttamento infantile."
+      "speech": "quella delle Songs of Experience denuncia apertamente la complicità di genitori, Chiesa e Stato nello sfruttamento infantile.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "quella delle"
+        },
+        {
+          "lang": "en",
+          "text": "Songs of Experience"
+        },
+        {
+          "lang": "it",
+          "text": "denuncia apertamente la complicità di genitori, Chiesa e Stato nello sfruttamento infantile."
+        }
+      ]
     },
     {
       "text": "Oliver Twist di Dickens racconta la vicenda di un orfano nato in un workhouse, costretto a sopravvivere in una banda di borseggiatori guidata da Fagin e Bill Sikes,",
-      "speech": "Oliver Twist di Dickens racconta la vicenda di un orfano nato in un workhouse, costretto a sopravvivere in una banda di borseggiatori guidata da Fagin e Bill Sikes,"
+      "speech": "Oliver Twist di Dickens racconta la vicenda di un orfano nato in un workhouse, costretto a sopravvivere in una banda di borseggiatori guidata da Fagin e Bill Sikes,",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Oliver Twist"
+        },
+        {
+          "lang": "it",
+          "text": "di Dickens racconta la vicenda di un orfano nato in un workhouse, costretto a sopravvivere in una banda di borseggiatori guidata da Fagin e"
+        },
+        {
+          "lang": "en",
+          "text": "Bill Sikes,"
+        }
+      ]
     },
     {
       "text": "e contiene una critica dell'ipocrisia delle istituzioni caritatevoli e dell'indifferenza delle classi agiate verso la povertà urbana.",
@@ -106,7 +238,21 @@
     },
     {
       "text": "L'estratto «Coketown» da Hard Times usa tre immagini per descrivere la città industriale:",
-      "speech": "L'estratto «Coketown» da Hard Times usa tre immagini per descrivere la città industriale:"
+      "speech": "L'estratto «Coketown» da Hard Times usa tre immagini per descrivere la città industriale:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'estratto «Coketown» da"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "usa tre immagini per descrivere la città industriale:"
+        }
+      ]
     },
     {
       "text": "i mattoni rossi e le alte ciminiere, il lavoro ripetitivo paragonato a un elefante in stato di malinconica follia,",
@@ -118,7 +264,17 @@
     },
     {
       "text": "North and South di Gaskell racconta il conflitto tra industriali e operai attraverso la vicenda di Margaret Hale e John Thornton,",
-      "speech": "North and South di Gaskell racconta il conflitto tra industriali e operai attraverso la vicenda di Margaret Hale e John Thornton,"
+      "speech": "North and South di Gaskell racconta il conflitto tra industriali e operai attraverso la vicenda di Margaret Hale e John Thornton,",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "North and South"
+        },
+        {
+          "lang": "it",
+          "text": "di Gaskell racconta il conflitto tra industriali e operai attraverso la vicenda di Margaret Hale e John Thornton,"
+        }
+      ]
     },
     {
       "text": "un conflitto che si risolve in una reciproca comprensione simbolica tra il Nord industriale e il Sud agricolo dell'Inghilterra.",
@@ -142,7 +298,29 @@
     },
     {
       "text": "La vicenda dell'albatro in The Rime of the Ancient Mariner: il marinaio uccide senza motivo l'uccello che aveva guidato la nave fuori da una tempesta, scatenando una maledizione sull'equipaggio;",
-      "speech": "La vicenda dell'albatro in The Rime of the Ancient Mariner: il marinaio uccide senza motivo l'uccello che aveva guidato la nave fuori da una tempesta, scatenando una maledizione sull'equipaggio;"
+      "speech": "La vicenda dell'albatro in The Rime of the Ancient Mariner: il marinaio uccide senza motivo l'uccello che aveva guidato la nave fuori da una tempesta, scatenando una maledizione sull'equipaggio;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La vicenda dell'albatro in"
+        },
+        {
+          "lang": "en",
+          "text": "The"
+        },
+        {
+          "lang": "it",
+          "text": "Rime"
+        },
+        {
+          "lang": "en",
+          "text": "of the Ancient Mariner:"
+        },
+        {
+          "lang": "it",
+          "text": "il marinaio uccide senza motivo l'uccello che aveva guidato la nave fuori da una tempesta, scatenando una maledizione sull'equipaggio;"
+        }
+      ]
     },
     {
       "text": "viene redento solo quando, osservando la bellezza delle creature marine, prova per esse un moto di affetto spontaneo.",
@@ -158,11 +336,39 @@
     },
     {
       "text": "La «negative capability» di Keats è la capacità del poeta di sostare nell'incertezza e nel mistero senza cercare una spiegazione razionale definitiva,",
-      "speech": "La «negative capability» di Keats è la capacità del poeta di sostare nell'incertezza e nel mistero senza cercare una spiegazione razionale definitiva,"
+      "speech": "La «negative capability» di Keats è la capacità del poeta di sostare nell'incertezza e nel mistero senza cercare una spiegazione razionale definitiva,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La «"
+        },
+        {
+          "lang": "en",
+          "text": "negative capability»"
+        },
+        {
+          "lang": "it",
+          "text": "di Keats è la capacità del poeta di sostare nell'incertezza e nel mistero senza cercare una spiegazione razionale definitiva,"
+        }
+      ]
     },
     {
       "text": "e si manifesta in Ode to a Nightingale nell'oscillazione mai risolta tra il desiderio di fusione con l'eternità del canto dell'usignolo e la consapevolezza della propria mortalità.",
-      "speech": "e si manifesta in Ode to a Nightingale nell'oscillazione mai risolta tra il desiderio di fusione con l'eternità del canto dell'usignolo e la consapevolezza della propria mortalità."
+      "speech": "e si manifesta in Ode to a Nightingale nell'oscillazione mai risolta tra il desiderio di fusione con l'eternità del canto dell'usignolo e la consapevolezza della propria mortalità.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e si manifesta in Ode"
+        },
+        {
+          "lang": "en",
+          "text": "to"
+        },
+        {
+          "lang": "it",
+          "text": "a Nightingale nell'oscillazione mai risolta tra il desiderio di fusione con l'eternità del canto dell'usignolo e la consapevolezza della propria mortalità."
+        }
+      ]
     },
     {
       "text": "Il sonetto Ozymandias di Shelley propone una riflessione sul potere e sul tempo attraverso l'ironia amara di un'iscrizione orgogliosa di un re, smentita dalle rovine e dal deserto che la circondano.",
@@ -182,7 +388,21 @@
     },
     {
       "text": "La filosofia educativa di Mr Gradgrind in Hard Times si fonda sul culto arido dei «fatti» e sul rifiuto dell'immaginazione,",
-      "speech": "La filosofia educativa di Mr Gradgrind in Hard Times si fonda sul culto arido dei «fatti» e sul rifiuto dell'immaginazione,"
+      "speech": "La filosofia educativa di Mr Gradgrind in Hard Times si fonda sul culto arido dei «fatti» e sul rifiuto dell'immaginazione,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La filosofia educativa di"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Gradgrind in Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "si fonda sul culto arido dei «fatti» e sul rifiuto dell'immaginazione,"
+        }
+      ]
     },
     {
       "text": "e produce come conseguenza il fallimento affettivo dei suoi due figli, Louisa e Tom, incapaci da adulti di gestire sentimenti e relazioni.",
@@ -190,11 +410,47 @@
     },
     {
       "text": "Il tema dell'educazione in Hard Times si contrappone ai valori del Romanticismo perché Gradgrind incarna esattamente quella razionalità utilitaristica che i poeti romantici, con la loro esaltazione dell'immaginazione, avevano contestato.",
-      "speech": "Il tema dell'educazione in Hard Times si contrappone ai valori del Romanticismo perché Gradgrind incarna esattamente quella razionalità utilitaristica che i poeti romantici, con la loro esaltazione dell'immaginazione, avevano contestato."
+      "speech": "Il tema dell'educazione in Hard Times si contrappone ai valori del Romanticismo perché Gradgrind incarna esattamente quella razionalità utilitaristica che i poeti romantici, con la loro esaltazione dell'immaginazione, avevano contestato.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il tema dell'educazione in"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "si contrappone ai valori del Romanticismo perché Gradgrind incarna esattamente quella razionalità utilitaristica che i poeti romantici, con la loro esaltazione dell'immaginazione, avevano contestato."
+        }
+      ]
     },
     {
       "text": "L'istituto di Lowood in Jane Eyre, diretto dall'ipocrita Mr Brocklehurst, che predica la privazione ma vive nel lusso, culmina nella morte di Helen Burns per tifo,",
-      "speech": "L'istituto di Lowood in Jane Eyre, diretto dall'ipocrita Mr Brocklehurst, che predica la privazione ma vive nel lusso, culmina nella morte di Helen Burns per tifo,"
+      "speech": "L'istituto di Lowood in Jane Eyre, diretto dall'ipocrita Mr Brocklehurst, che predica la privazione ma vive nel lusso, culmina nella morte di Helen Burns per tifo,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'istituto di Lowood in Jane Eyre, diretto dall'ipocrita"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Brocklehurst,"
+        },
+        {
+          "lang": "it",
+          "text": "che predica la privazione ma vive nel lusso, culmina nella morte di Helen"
+        },
+        {
+          "lang": "en",
+          "text": "Burns"
+        },
+        {
+          "lang": "it",
+          "text": "per tifo,"
+        }
+      ]
     },
     {
       "text": "ma permette comunque a Jane di raggiungere, da adulta, l'indipendenza economica come istitutrice.",
@@ -202,7 +458,21 @@
     },
     {
       "text": "Concludiamo con la «Condition of England question»: l'interrogativo vittoriano su come conciliare il progresso industriale con la dignità della classe operaia, a cui gli autori di questo modulo — Blake, Dickens, Gaskell —",
-      "speech": "Concludiamo con la «Condition of England question»: l'interrogativo vittoriano su come conciliare il progresso industriale con la dignità della classe operaia, a cui gli autori di questo modulo — Blake, Dickens, Gaskell —"
+      "speech": "Concludiamo con la «Condition of England question»: l'interrogativo vittoriano su come conciliare il progresso industriale con la dignità della classe operaia, a cui gli autori di questo modulo — Blake, Dickens, Gaskell —",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Concludiamo con la «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England question»:"
+        },
+        {
+          "lang": "it",
+          "text": "l'interrogativo vittoriano su come conciliare il progresso industriale con la dignità della classe operaia, a cui gli autori di questo modulo — Blake, Dickens, Gaskell —"
+        }
+      ]
     },
     {
       "text": "rispondono attraverso forme diverse di denuncia letteraria, dalla poesia al romanzo sociale al romanzo industriale.",
@@ -214,11 +484,51 @@
     },
     {
       "text": "Primo: il romanzo inglese nasce nel Settecento con Defoe, Swift, Richardson e Fielding, in quattro forme narrative diverse.",
-      "speech": "Primo: il romanzo inglese nasce nel Settecento con Defoe, Swift, Richardson e Fielding, in quattro forme narrative diverse."
+      "speech": "Primo: il romanzo inglese nasce nel Settecento con Defoe, Swift, Richardson e Fielding, in quattro forme narrative diverse.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il romanzo inglese nasce nel Settecento con Defoe, Swift,"
+        },
+        {
+          "lang": "en",
+          "text": "Richardson"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "Fielding,"
+        },
+        {
+          "lang": "it",
+          "text": "in quattro forme"
+        },
+        {
+          "lang": "en",
+          "text": "narrative"
+        },
+        {
+          "lang": "it",
+          "text": "diverse."
+        }
+      ]
     },
     {
       "text": "Secondo: l'Ottocento vittoriano sviluppa, con Blake, Dickens e Gaskell, una denuncia sociale dell'industrializzazione e dello sfruttamento infantile, rispondendo alla «Condition of England question».",
-      "speech": "Secondo: l'Ottocento vittoriano sviluppa, con Blake, Dickens e Gaskell, una denuncia sociale dell'industrializzazione e dello sfruttamento infantile, rispondendo alla «Condition of England question»."
+      "speech": "Secondo: l'Ottocento vittoriano sviluppa, con Blake, Dickens e Gaskell, una denuncia sociale dell'industrializzazione e dello sfruttamento infantile, rispondendo alla «Condition of England question».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: l'Ottocento vittoriano sviluppa, con Blake, Dickens e Gaskell, una denuncia sociale dell'industrializzazione e dello sfruttamento infantile, rispondendo alla «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England question»."
+        }
+      ]
     },
     {
       "text": "Terzo: il Romanticismo di Wordsworth, Coleridge, Keats e Shelley esalta immaginazione, natura e sovrannaturale, in aperto contrasto con l'utilitarismo educativo denunciato da Dickens e Brontë nell'ultimo modulo.",

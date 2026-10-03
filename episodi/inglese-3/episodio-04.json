@@ -18,7 +18,21 @@
     },
     {
       "text": "Cominciamo da re Giovanni Senzaterra, King John, salito al trono nel 1199.",
-      "speech": "Cominciamo da re Giovanni Senzaterra, King John, salito al trono nel 1199."
+      "speech": "Cominciamo da re Giovanni Senzaterra, King John, salito al trono nel 1199.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo da re Giovanni Senzaterra,"
+        },
+        {
+          "lang": "en",
+          "text": "King John,"
+        },
+        {
+          "lang": "it",
+          "text": "salito al trono nel 1199."
+        }
+      ]
     },
     {
       "text": "Il soprannome con cui la storia lo ricorda, \"Senzaterra\", allude già al carattere problematico del suo regno:",
@@ -98,7 +112,21 @@
     },
     {
       "text": "Un momento fondamentale in questo processo è rappresentato dal Parlamento convocato nel 1265 da Simon de Montfort, un potente barone che, per la prima volta nella storia inglese, include nell'assemblea convocata non solo baroni e alto clero,",
-      "speech": "Un momento fondamentale in questo processo è rappresentato dal Parlamento convocato nel 1265 da Simon de Montfort, un potente barone che, per la prima volta nella storia inglese, include nell'assemblea convocata non solo baroni e alto clero,"
+      "speech": "Un momento fondamentale in questo processo è rappresentato dal Parlamento convocato nel 1265 da Simon de Montfort, un potente barone che, per la prima volta nella storia inglese, include nell'assemblea convocata non solo baroni e alto clero,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un momento fondamentale in questo processo è rappresentato dal Parlamento convocato nel 1265 da Simon de Montfort, un potente barone che, per la prima volta nella storia inglese,"
+        },
+        {
+          "lang": "en",
+          "text": "include"
+        },
+        {
+          "lang": "it",
+          "text": "nell'assemblea convocata non solo baroni e alto clero,"
+        }
+      ]
     },
     {
       "text": "come era tradizione, ma anche rappresentanti eletti delle contee e delle città, i futuri Comuni.",
@@ -110,7 +138,21 @@
     },
     {
       "text": "si stabilizzerà nella divisione del Parlamento inglese in due camere distinte, la Camera dei Lord, riservata alla nobiltà e all'alto clero,",
-      "speech": "si stabilizzerà nella divisione del Parlamento inglese in due camere distinte, la Camera dei Lord, riservata alla nobiltà e all'alto clero,"
+      "speech": "si stabilizzerà nella divisione del Parlamento inglese in due camere distinte, la Camera dei Lord, riservata alla nobiltà e all'alto clero,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "si stabilizzerà nella divisione del Parlamento inglese in due camere distinte, la Camera dei"
+        },
+        {
+          "lang": "en",
+          "text": "Lord,"
+        },
+        {
+          "lang": "it",
+          "text": "riservata alla nobiltà e all'alto clero,"
+        }
+      ]
     },
     {
       "text": "e la Camera dei Comuni, composta dai rappresentanti eletti, una struttura bicamerale che, con evoluzioni e trasformazioni profonde, sopravvive nel Regno Unito ancora oggi.",
@@ -154,11 +196,39 @@
     },
     {
       "text": "Terzo: il Parlamento convocato nel 1265 da Simon de Montfort, che include per la prima volta rappresentanti eletti delle contee e delle città accanto a baroni e clero,",
-      "speech": "Terzo: il Parlamento convocato nel 1265 da Simon de Montfort, che include per la prima volta rappresentanti eletti delle contee e delle città accanto a baroni e clero,"
+      "speech": "Terzo: il Parlamento convocato nel 1265 da Simon de Montfort, che include per la prima volta rappresentanti eletti delle contee e delle città accanto a baroni e clero,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: il Parlamento convocato nel 1265 da Simon de Montfort, che"
+        },
+        {
+          "lang": "en",
+          "text": "include"
+        },
+        {
+          "lang": "it",
+          "text": "per la prima volta rappresentanti eletti delle contee e delle città accanto a baroni e clero,"
+        }
+      ]
     },
     {
       "text": "apre la strada alla futura divisione del Parlamento inglese in Camera dei Lord e Camera dei Comuni.",
-      "speech": "apre la strada alla futura divisione del Parlamento inglese in Camera dei Lord e Camera dei Comuni."
+      "speech": "apre la strada alla futura divisione del Parlamento inglese in Camera dei Lord e Camera dei Comuni.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "apre la strada alla futura divisione del Parlamento inglese in Camera dei"
+        },
+        {
+          "lang": "en",
+          "text": "Lord"
+        },
+        {
+          "lang": "it",
+          "text": "e Camera dei Comuni."
+        }
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo un evento drammatico che colpisce l'Inghilterra a metà del Trecento, con conseguenze sociali ed economiche di enorme portata: la peste nera.",

@@ -6,7 +6,17 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo visto il verbo to have.",
-      "speech": "Nell'episodio scorso abbiamo visto il verbo to have."
+      "speech": "Nell'episodio scorso abbiamo visto il verbo to have.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto il verbo"
+        },
+        {
+          "lang": "en",
+          "text": "to have."
+        }
+      ]
     },
     {
       "text": "Oggi completiamo le fondamenta grammaticali con i sostantivi, i loro plurali, il genitivo sassone,",
@@ -18,19 +28,127 @@
     },
     {
       "text": "Il plurale regolare dei sostantivi inglesi si forma generalmente aggiungendo -s alla forma singolare: book diventa books, libro, libri; car diventa cars, automobile, automobili.",
-      "speech": "Il plurale regolare dei sostantivi inglesi si forma generalmente aggiungendo -s alla forma singolare: book diventa books, libro, libri; car diventa cars, automobile, automobili."
+      "speech": "Il plurale regolare dei sostantivi inglesi si forma generalmente aggiungendo -s alla forma singolare: book diventa books, libro, libri; car diventa cars, automobile, automobili.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il plurale regolare dei sostantivi inglesi si forma generalmente aggiungendo -s alla forma singolare:"
+        },
+        {
+          "lang": "en",
+          "text": "book"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "books,"
+        },
+        {
+          "lang": "it",
+          "text": "libro, libri;"
+        },
+        {
+          "lang": "en",
+          "text": "car"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "cars,"
+        },
+        {
+          "lang": "it",
+          "text": "automobile, automobili."
+        }
+      ]
     },
     {
       "text": "Quando il sostantivo termina in -s, -ss, -sh, -ch, -x o -z, il plurale si forma aggiungendo -es, per rendere la pronuncia possibile: bus diventa buses, box diventa boxes, watch diventa watches.",
-      "speech": "Quando il sostantivo termina in -s, -ss, -sh, -ch, -x o -z, il plurale si forma aggiungendo -es, per rendere la pronuncia possibile: bus diventa buses, box diventa boxes, watch diventa watches."
+      "speech": "Quando il sostantivo termina in -s, -ss, -sh, -ch, -x o -z, il plurale si forma aggiungendo -es, per rendere la pronuncia possibile: bus diventa buses, box diventa boxes, watch diventa watches.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quando il sostantivo termina in -s, -ss, -sh, -ch, -x o -z, il plurale si forma aggiungendo -es, per rendere la pronuncia possibile: bus diventa"
+        },
+        {
+          "lang": "en",
+          "text": "buses, box"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "boxes, watch"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "watches."
+        }
+      ]
     },
     {
       "text": "Quando il sostantivo termina in consonante più y, la y si trasforma in i prima di aggiungere -es, esattamente come avete già visto per i verbi alla terza persona singolare: city diventa cities, città;",
-      "speech": "Quando il sostantivo termina in consonante più y, la y si trasforma in i prima di aggiungere -es, esattamente come avete già visto per i verbi alla terza persona singolare: city diventa cities, città;"
+      "speech": "Quando il sostantivo termina in consonante più y, la y si trasforma in i prima di aggiungere -es, esattamente come avete già visto per i verbi alla terza persona singolare: city diventa cities, città;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quando il sostantivo termina in consonante più y, la y si trasforma in i prima di aggiungere -es, esattamente come avete già visto per i verbi alla terza persona singolare:"
+        },
+        {
+          "lang": "en",
+          "text": "city"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "cities,"
+        },
+        {
+          "lang": "it",
+          "text": "città;"
+        }
+      ]
     },
     {
       "text": "ma quando la y è preceduta da una vocale, il plurale resta regolare, semplicemente aggiungendo -s: day diventa days, non daies.",
-      "speech": "ma quando la y è preceduta da una vocale, il plurale resta regolare, semplicemente aggiungendo -s: day diventa days, non daies."
+      "speech": "ma quando la y è preceduta da una vocale, il plurale resta regolare, semplicemente aggiungendo -s: day diventa days, non daies.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "ma quando la y è preceduta da una vocale, il plurale resta regolare, semplicemente aggiungendo -s:"
+        },
+        {
+          "lang": "en",
+          "text": "day"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "days,"
+        },
+        {
+          "lang": "it",
+          "text": "non daies."
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento sui plurali irregolari, perché vanno semplicemente memorizzati, non seguono alcuna regola sistematica.",
@@ -38,39 +156,273 @@
     },
     {
       "text": "Man diventa men, uomo, uomini; woman diventa women, donna, donne, con un cambiamento di pronuncia nella prima sillaba oltre che di scrittura;",
-      "speech": "Man diventa men, uomo, uomini; woman diventa women, donna, donne, con un cambiamento di pronuncia nella prima sillaba oltre che di scrittura;"
+      "speech": "Man diventa men, uomo, uomini; woman diventa women, donna, donne, con un cambiamento di pronuncia nella prima sillaba oltre che di scrittura;",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Man"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "men,"
+        },
+        {
+          "lang": "it",
+          "text": "uomo, uomini;"
+        },
+        {
+          "lang": "en",
+          "text": "woman"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "women,"
+        },
+        {
+          "lang": "it",
+          "text": "donna, donne, con un cambiamento di pronuncia nella prima sillaba oltre che di scrittura;"
+        }
+      ]
     },
     {
       "text": "child diventa children, bambino, bambini; foot diventa feet, piede, piedi; tooth diventa teeth, dente, denti; mouse diventa mice, topo, topi.",
-      "speech": "child diventa children, bambino, bambini; foot diventa feet, piede, piedi; tooth diventa teeth, dente, denti; mouse diventa mice, topo, topi."
+      "speech": "child diventa children, bambino, bambini; foot diventa feet, piede, piedi; tooth diventa teeth, dente, denti; mouse diventa mice, topo, topi.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "child"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "children,"
+        },
+        {
+          "lang": "it",
+          "text": "bambino, bambini;"
+        },
+        {
+          "lang": "en",
+          "text": "foot"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "feet,"
+        },
+        {
+          "lang": "it",
+          "text": "piede, piedi;"
+        },
+        {
+          "lang": "en",
+          "text": "tooth"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "teeth,"
+        },
+        {
+          "lang": "it",
+          "text": "dente, denti; mouse diventa"
+        },
+        {
+          "lang": "en",
+          "text": "mice,"
+        },
+        {
+          "lang": "it",
+          "text": "topo, topi."
+        }
+      ]
     },
     {
       "text": "Esistono infine alcuni sostantivi che restano identici sia al singolare sia al plurale, come sheep, pecora, pecore, o fish, pesce, pesci, la cui forma non cambia mai.",
-      "speech": "Esistono infine alcuni sostantivi che restano identici sia al singolare sia al plurale, come sheep, pecora, pecore, o fish, pesce, pesci, la cui forma non cambia mai."
+      "speech": "Esistono infine alcuni sostantivi che restano identici sia al singolare sia al plurale, come sheep, pecora, pecore, o fish, pesce, pesci, la cui forma non cambia mai.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Esistono infine alcuni sostantivi che restano identici sia al singolare sia al plurale, come"
+        },
+        {
+          "lang": "en",
+          "text": "sheep,"
+        },
+        {
+          "lang": "it",
+          "text": "pecora, pecore, o"
+        },
+        {
+          "lang": "en",
+          "text": "fish,"
+        },
+        {
+          "lang": "it",
+          "text": "pesce, pesci, la cui forma non cambia mai."
+        }
+      ]
     },
     {
       "text": "Un'ultima distinzione fondamentale riguarda i sostantivi numerabili e non numerabili, countable e uncountable nouns.",
-      "speech": "Un'ultima distinzione fondamentale riguarda i sostantivi numerabili e non numerabili, countable e uncountable nouns."
+      "speech": "Un'ultima distinzione fondamentale riguarda i sostantivi numerabili e non numerabili, countable e uncountable nouns.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un'ultima distinzione fondamentale riguarda i sostantivi numerabili e non numerabili, countable e uncountable"
+        },
+        {
+          "lang": "en",
+          "text": "nouns."
+        }
+      ]
     },
     {
       "text": "I sostantivi numerabili, come book o apple, hanno sia singolare sia plurale, e possono essere preceduti da a o an, oppure da un numero.",
-      "speech": "I sostantivi numerabili, come book o apple, hanno sia singolare sia plurale, e possono essere preceduti da a o an, oppure da un numero."
+      "speech": "I sostantivi numerabili, come book o apple, hanno sia singolare sia plurale, e possono essere preceduti da a o an, oppure da un numero.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "I sostantivi numerabili, come"
+        },
+        {
+          "lang": "en",
+          "text": "book"
+        },
+        {
+          "lang": "it",
+          "text": "o apple, hanno sia singolare sia plurale, e possono essere preceduti da a o"
+        },
+        {
+          "lang": "en",
+          "text": "an,"
+        },
+        {
+          "lang": "it",
+          "text": "oppure da un numero."
+        }
+      ]
     },
     {
       "text": "I sostantivi non numerabili, come water, acqua, information, informazione, o advice, consiglio, non hanno plurale e non possono mai essere preceduti da a o an:",
-      "speech": "I sostantivi non numerabili, come water, acqua, information, informazione, o advice, consiglio, non hanno plurale e non possono mai essere preceduti da a o an:"
+      "speech": "I sostantivi non numerabili, come water, acqua, information, informazione, o advice, consiglio, non hanno plurale e non possono mai essere preceduti da a o an:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "I sostantivi non numerabili, come"
+        },
+        {
+          "lang": "en",
+          "text": "water,"
+        },
+        {
+          "lang": "it",
+          "text": "acqua,"
+        },
+        {
+          "lang": "en",
+          "text": "information,"
+        },
+        {
+          "lang": "it",
+          "text": "informazione, o"
+        },
+        {
+          "lang": "en",
+          "text": "advice,"
+        },
+        {
+          "lang": "it",
+          "text": "consiglio, non hanno plurale e non possono mai essere preceduti da a o"
+        },
+        {
+          "lang": "en",
+          "text": "an:"
+        }
+      ]
     },
     {
       "text": "per quantificarli si usano espressioni come some, a little, o much, mai a number of.",
-      "speech": "per quantificarli si usano espressioni come some, a little, o much, mai a number of."
+      "speech": "per quantificarli si usano espressioni come some, a little, o much, mai a number of.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "per quantificarli si usano espressioni come"
+        },
+        {
+          "lang": "en",
+          "text": "some, a little,"
+        },
+        {
+          "lang": "it",
+          "text": "o"
+        },
+        {
+          "lang": "en",
+          "text": "much,"
+        },
+        {
+          "lang": "it",
+          "text": "mai a"
+        },
+        {
+          "lang": "en",
+          "text": "number of."
+        }
+      ]
     },
     {
       "text": "Infine, il genitivo sassone, apostrofo più s, si usa per indicare il possesso con esseri animati: «Maria's book», il libro di Maria;",
-      "speech": "Infine, il genitivo sassone, apostrofo più s, si usa per indicare il possesso con esseri animati: «Maria's book», il libro di Maria;"
+      "speech": "Infine, il genitivo sassone, apostrofo più s, si usa per indicare il possesso con esseri animati: «Maria's book», il libro di Maria;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Infine, il genitivo sassone, apostrofo più s, si usa per indicare il possesso con esseri animati: «"
+        },
+        {
+          "lang": "en",
+          "text": "Maria's book»,"
+        },
+        {
+          "lang": "it",
+          "text": "il libro di Maria;"
+        }
+      ]
     },
     {
       "text": "se il possessore è plurale e termina già in -s, si aggiunge solamente l'apostrofo: «the students' books», i libri degli studenti.",
-      "speech": "se il possessore è plurale e termina già in -s, si aggiunge solamente l'apostrofo: «the students' books», i libri degli studenti."
+      "speech": "se il possessore è plurale e termina già in -s, si aggiunge solamente l'apostrofo: «the students' books», i libri degli studenti.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "se il possessore è plurale e termina già in -s, si aggiunge solamente l'apostrofo: «"
+        },
+        {
+          "lang": "en",
+          "text": "the students' books»,"
+        },
+        {
+          "lang": "it",
+          "text": "i libri degli studenti."
+        }
+      ]
     },
     {
       "text": "Proviamo ora un esercizio riepilogativo che mette insieme tutto ciò che abbiamo visto in questi quattro episodi introduttivi:",
@@ -78,23 +430,97 @@
     },
     {
       "text": "completate la frase «___ sister ___ two ___ and ___ very happy today», sapendo che si parla della sorella di Maria, che ha due gatti ed è molto felice oggi.",
-      "speech": "completate la frase «___ sister ___ two ___ and ___ very happy today», sapendo che si parla della sorella di Maria, che ha due gatti ed è molto felice oggi."
+      "speech": "completate la frase «___ sister ___ two ___ and ___ very happy today», sapendo che si parla della sorella di Maria, che ha due gatti ed è molto felice oggi.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "completate la frase «___"
+        },
+        {
+          "lang": "en",
+          "text": "sister ___ two ___ and ___ very happy today»,"
+        },
+        {
+          "lang": "it",
+          "text": "sapendo che si parla della sorella di Maria, che ha due gatti ed è molto felice oggi."
+        }
+      ]
     },
     {
       "text": "Applicando il genitivo sassone per il possesso, gli articoli, il verbo to have per il possesso degli animali, il plurale irregolare o regolare,",
-      "speech": "Applicando il genitivo sassone per il possesso, gli articoli, il verbo to have per il possesso degli animali, il plurale irregolare o regolare,"
+      "speech": "Applicando il genitivo sassone per il possesso, gli articoli, il verbo to have per il possesso degli animali, il plurale irregolare o regolare,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Applicando il genitivo sassone per il possesso, gli articoli, il verbo"
+        },
+        {
+          "lang": "en",
+          "text": "to have"
+        },
+        {
+          "lang": "it",
+          "text": "per il possesso degli animali, il plurale irregolare o regolare,"
+        }
+      ]
     },
     {
       "text": "e il verbo to be per lo stato d'animo, otteniamo: «Maria's sister has two cats and is very happy today».",
-      "speech": "e il verbo to be per lo stato d'animo, otteniamo: «Maria's sister has two cats and is very happy today»."
+      "speech": "e il verbo to be per lo stato d'animo, otteniamo: «Maria's sister has two cats and is very happy today».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e il verbo"
+        },
+        {
+          "lang": "en",
+          "text": "to be"
+        },
+        {
+          "lang": "it",
+          "text": "per lo stato d'animo, otteniamo: «"
+        },
+        {
+          "lang": "en",
+          "text": "Maria's sister has two cats and is very happy today»."
+        }
+      ]
     },
     {
       "text": "Notate come in questa unica frase compaiano il genitivo sassone, have per il possesso, il plurale regolare di cat,",
-      "speech": "Notate come in questa unica frase compaiano il genitivo sassone, have per il possesso, il plurale regolare di cat,"
+      "speech": "Notate come in questa unica frase compaiano il genitivo sassone, have per il possesso, il plurale regolare di cat,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Notate come in questa unica frase compaiano il genitivo sassone,"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "per il possesso, il plurale regolare di cat,"
+        }
+      ]
     },
     {
       "text": "e to be per esprimere uno stato d'animo, esattamente i quattro argomenti di questi primi episodi.",
-      "speech": "e to be per esprimere uno stato d'animo, esattamente i quattro argomenti di questi primi episodi."
+      "speech": "e to be per esprimere uno stato d'animo, esattamente i quattro argomenti di questi primi episodi.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "to be"
+        },
+        {
+          "lang": "it",
+          "text": "per esprimere uno stato d'animo, esattamente i quattro argomenti di questi primi episodi."
+        }
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -102,11 +528,35 @@
     },
     {
       "text": "Primo: il plurale regolare aggiunge -s o -es a seconda della terminazione, mentre numerosi plurali irregolari, come men, women, children, feet, vanno memorizzati singolarmente.",
-      "speech": "Primo: il plurale regolare aggiunge -s o -es a seconda della terminazione, mentre numerosi plurali irregolari, come men, women, children, feet, vanno memorizzati singolarmente."
+      "speech": "Primo: il plurale regolare aggiunge -s o -es a seconda della terminazione, mentre numerosi plurali irregolari, come men, women, children, feet, vanno memorizzati singolarmente.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il plurale regolare aggiunge -s o -es a seconda della terminazione, mentre numerosi plurali irregolari, come"
+        },
+        {
+          "lang": "en",
+          "text": "men, women, children, feet,"
+        },
+        {
+          "lang": "it",
+          "text": "vanno memorizzati singolarmente."
+        }
+      ]
     },
     {
       "text": "Secondo: i sostantivi si dividono in numerabili e non numerabili, questi ultimi privi di plurale e mai preceduti da a o an.",
-      "speech": "Secondo: i sostantivi si dividono in numerabili e non numerabili, questi ultimi privi di plurale e mai preceduti da a o an."
+      "speech": "Secondo: i sostantivi si dividono in numerabili e non numerabili, questi ultimi privi di plurale e mai preceduti da a o an.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: i sostantivi si dividono in numerabili e non numerabili, questi ultimi privi di plurale e mai preceduti da a o"
+        },
+        {
+          "lang": "en",
+          "text": "an."
+        }
+      ]
     },
     {
       "text": "Terzo: il genitivo sassone, apostrofo più s, indica il possesso con esseri animati.",
@@ -114,11 +564,51 @@
     },
     {
       "text": "Con questo episodio abbiamo completato le fondamenta della grammatica inglese: pronomi, articoli, i verbi to be e to have, e i sostantivi.",
-      "speech": "Con questo episodio abbiamo completato le fondamenta della grammatica inglese: pronomi, articoli, i verbi to be e to have, e i sostantivi."
+      "speech": "Con questo episodio abbiamo completato le fondamenta della grammatica inglese: pronomi, articoli, i verbi to be e to have, e i sostantivi.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Con questo episodio abbiamo completato le fondamenta della grammatica inglese: pronomi, articoli, i verbi"
+        },
+        {
+          "lang": "en",
+          "text": "to be"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "to have,"
+        },
+        {
+          "lang": "it",
+          "text": "e i sostantivi."
+        }
+      ]
     },
     {
       "text": "Nel prossimo episodio torniamo ai tempi verbali veri e propri, cominciando dal present simple e dal present continuous.",
-      "speech": "Nel prossimo episodio torniamo ai tempi verbali veri e propri, cominciando dal present simple e dal present continuous."
+      "speech": "Nel prossimo episodio torniamo ai tempi verbali veri e propri, cominciando dal present simple e dal present continuous.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio torniamo ai tempi verbali veri e propri, cominciando dal"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "e dal"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous."
+        }
+      ]
     },
     {
       "text": "Ci vediamo lì.",

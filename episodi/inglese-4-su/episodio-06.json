@@ -6,19 +6,71 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo visto Oliver Twist e la denuncia dickensiana del sistema dei workhouse.",
-      "speech": "Nell'episodio scorso abbiamo visto Oliver Twist e la denuncia dickensiana del sistema dei workhouse."
+      "speech": "Nell'episodio scorso abbiamo visto Oliver Twist e la denuncia dickensiana del sistema dei workhouse.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto Oliver"
+        },
+        {
+          "lang": "en",
+          "text": "Twist"
+        },
+        {
+          "lang": "it",
+          "text": "e la denuncia dickensiana del sistema dei workhouse."
+        }
+      ]
     },
     {
       "text": "Oggi restiamo con Charles Dickens, ma ci spostiamo dagli orfani londinesi a un bersaglio polemico diverso, altrettanto centrale nella «Condition of England question» che attraversa questo modulo:",
-      "speech": "Oggi restiamo con Charles Dickens, ma ci spostiamo dagli orfani londinesi a un bersaglio polemico diverso, altrettanto centrale nella «Condition of England question» che attraversa questo modulo:"
+      "speech": "Oggi restiamo con Charles Dickens, ma ci spostiamo dagli orfani londinesi a un bersaglio polemico diverso, altrettanto centrale nella «Condition of England question» che attraversa questo modulo:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Oggi restiamo con Charles Dickens, ma ci spostiamo dagli orfani londinesi a un bersaglio polemico diverso, altrettanto centrale nella «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England question»"
+        },
+        {
+          "lang": "it",
+          "text": "che attraversa questo modulo:"
+        }
+      ]
     },
     {
       "text": "la città industriale, protagonista del romanzo Hard Times, pubblicato nel 1854, il più breve tra i romanzi di Dickens.",
-      "speech": "la città industriale, protagonista del romanzo Hard Times, pubblicato nel 1854, il più breve tra i romanzi di Dickens."
+      "speech": "la città industriale, protagonista del romanzo Hard Times, pubblicato nel 1854, il più breve tra i romanzi di Dickens.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la città industriale, protagonista del romanzo"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times,"
+        },
+        {
+          "lang": "it",
+          "text": "pubblicato nel 1854, il più breve tra i romanzi di Dickens."
+        }
+      ]
     },
     {
       "text": "Hard Times è ambientato nell'immaginaria città industriale di Coketown, un centro manifatturiero modellato sulle città tessili del nord dell'Inghilterra,",
-      "speech": "Hard Times è ambientato nell'immaginaria città industriale di Coketown, un centro manifatturiero modellato sulle città tessili del nord dell'Inghilterra,"
+      "speech": "Hard Times è ambientato nell'immaginaria città industriale di Coketown, un centro manifatturiero modellato sulle città tessili del nord dell'Inghilterra,",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "è ambientato nell'immaginaria città industriale di Coketown, un centro manifatturiero modellato sulle città tessili del nord dell'Inghilterra,"
+        }
+      ]
     },
     {
       "text": "come Manchester o Preston, dominato dalle fabbriche, dal fumo delle ciminiere e da una rigida logica utilitaristica che riduce ogni aspetto della vita, incluso il lavoro operaio, a puro calcolo economico.",
@@ -38,7 +90,17 @@
     },
     {
       "text": "Dickens insiste innanzitutto sulla monotonia ossessiva del paesaggio urbano, descritto come «a town of red brick... a town of machinery and tall chimneys»,",
-      "speech": "Dickens insiste innanzitutto sulla monotonia ossessiva del paesaggio urbano, descritto come «a town of red brick... a town of machinery and tall chimneys»,"
+      "speech": "Dickens insiste innanzitutto sulla monotonia ossessiva del paesaggio urbano, descritto come «a town of red brick... a town of machinery and tall chimneys»,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Dickens insiste innanzitutto sulla monotonia ossessiva del paesaggio urbano, descritto come «"
+        },
+        {
+          "lang": "en",
+          "text": "a town of red brick... a town of machinery and tall chimneys»,"
+        }
+      ]
     },
     {
       "text": "una città di mattoni rossi, di macchinari e di alte ciminiere, priva di qualunque varietà o bellezza.",
@@ -46,7 +108,21 @@
     },
     {
       "text": "Insiste poi sulla ripetitività alienante del lavoro in fabbrica, paragonato in una similitudine memorabile al movimento meccanico e privo di senso della testa di un elefante «in a state of melancholy madness», in uno stato di malinconica follia:",
-      "speech": "Insiste poi sulla ripetitività alienante del lavoro in fabbrica, paragonato in una similitudine memorabile al movimento meccanico e privo di senso della testa di un elefante «in a state of melancholy madness», in uno stato di malinconica follia:"
+      "speech": "Insiste poi sulla ripetitività alienante del lavoro in fabbrica, paragonato in una similitudine memorabile al movimento meccanico e privo di senso della testa di un elefante «in a state of melancholy madness», in uno stato di malinconica follia:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Insiste poi sulla ripetitività alienante del lavoro in fabbrica, paragonato in una similitudine memorabile al movimento meccanico e privo di senso della testa di un elefante «"
+        },
+        {
+          "lang": "en",
+          "text": "in a state of melancholy madness»,"
+        },
+        {
+          "lang": "it",
+          "text": "in uno stato di malinconica follia:"
+        }
+      ]
     },
     {
       "text": "un'immagine che comunica con grande efficacia l'idea di un lavoro ridotto a puro automatismo ripetitivo, privo di qualunque significato o soddisfazione per chi lo compie.",
@@ -70,15 +146,61 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste confrontare, in una risposta d'esame, la critica sociale di Oliver Twist con quella di Hard Times, quale differenza mettereste in evidenza?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste confrontare, in una risposta d'esame, la critica sociale di Oliver Twist con quella di Hard Times, quale differenza mettereste in evidenza?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste confrontare, in una risposta d'esame, la critica sociale di Oliver Twist con quella di Hard Times, quale differenza mettereste in evidenza?",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un piccolo esercizio insieme: se doveste confrontare, in una risposta d'esame, la critica sociale di Oliver"
+        },
+        {
+          "lang": "en",
+          "text": "Twist"
+        },
+        {
+          "lang": "it",
+          "text": "con quella di"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times,"
+        },
+        {
+          "lang": "it",
+          "text": "quale differenza mettereste in evidenza?"
+        }
+      ]
     },
     {
       "text": "Una buona risposta potrebbe osservare che Oliver Twist denuncia soprattutto l'abbandono istituzionale dell'infanzia povera, attraverso la vicenda individuale di un singolo orfano perseguitato da istituzioni ipocrite e da criminali di strada;",
-      "speech": "Una buona risposta potrebbe osservare che Oliver Twist denuncia soprattutto l'abbandono istituzionale dell'infanzia povera, attraverso la vicenda individuale di un singolo orfano perseguitato da istituzioni ipocrite e da criminali di strada;"
+      "speech": "Una buona risposta potrebbe osservare che Oliver Twist denuncia soprattutto l'abbandono istituzionale dell'infanzia povera, attraverso la vicenda individuale di un singolo orfano perseguitato da istituzioni ipocrite e da criminali di strada;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Una buona risposta potrebbe osservare che Oliver"
+        },
+        {
+          "lang": "en",
+          "text": "Twist"
+        },
+        {
+          "lang": "it",
+          "text": "denuncia soprattutto l'abbandono istituzionale dell'infanzia povera, attraverso la vicenda individuale di un singolo orfano perseguitato da istituzioni ipocrite e da criminali di strada;"
+        }
+      ]
     },
     {
       "text": "Hard Times, invece, sposta il bersaglio polemico dalla singola istituzione caritatevole all'intero sistema economico e ideologico dell'industrializzazione vittoriana,",
-      "speech": "Hard Times, invece, sposta il bersaglio polemico dalla singola istituzione caritatevole all'intero sistema economico e ideologico dell'industrializzazione vittoriana,"
+      "speech": "Hard Times, invece, sposta il bersaglio polemico dalla singola istituzione caritatevole all'intero sistema economico e ideologico dell'industrializzazione vittoriana,",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Hard Times,"
+        },
+        {
+          "lang": "it",
+          "text": "invece, sposta il bersaglio polemico dalla singola istituzione caritatevole all'intero sistema economico e ideologico dell'industrializzazione vittoriana,"
+        }
+      ]
     },
     {
       "text": "rappresentato attraverso il ritratto collettivo e simbolico di un'intera città, Coketown, più che attraverso le vicende di un singolo personaggio.",
@@ -90,7 +212,21 @@
     },
     {
       "text": "Vale la pena anticipare, come collegamento che ritroveremo più avanti in questo modulo, che Hard Times non si limita a criticare l'organizzazione economica di Coketown:",
-      "speech": "Vale la pena anticipare, come collegamento che ritroveremo più avanti in questo modulo, che Hard Times non si limita a criticare l'organizzazione economica di Coketown:"
+      "speech": "Vale la pena anticipare, come collegamento che ritroveremo più avanti in questo modulo, che Hard Times non si limita a criticare l'organizzazione economica di Coketown:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vale la pena anticipare, come collegamento che ritroveremo più avanti in questo modulo, che"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "non si limita a criticare l'organizzazione economica di Coketown:"
+        }
+      ]
     },
     {
       "text": "il romanzo sviluppa anche una polemica altrettanto incisiva contro il modello educativo che quella stessa logica utilitaristica produce,",
@@ -98,7 +234,21 @@
     },
     {
       "text": "incarnato dal personaggio di Mr Gradgrind, di cui parleremo diffusamente nell'ultimo modulo di questa dispensa, dedicato proprio al tema dell'educazione vittoriana.",
-      "speech": "incarnato dal personaggio di Mr Gradgrind, di cui parleremo diffusamente nell'ultimo modulo di questa dispensa, dedicato proprio al tema dell'educazione vittoriana."
+      "speech": "incarnato dal personaggio di Mr Gradgrind, di cui parleremo diffusamente nell'ultimo modulo di questa dispensa, dedicato proprio al tema dell'educazione vittoriana.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "incarnato dal personaggio di"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Gradgrind,"
+        },
+        {
+          "lang": "it",
+          "text": "di cui parleremo diffusamente nell'ultimo modulo di questa dispensa, dedicato proprio al tema dell'educazione vittoriana."
+        }
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -106,7 +256,21 @@
     },
     {
       "text": "Primo: Hard Times di Dickens è ambientato nella città industriale immaginaria di Coketown, modellata sulle città tessili del nord dell'Inghilterra.",
-      "speech": "Primo: Hard Times di Dickens è ambientato nella città industriale immaginaria di Coketown, modellata sulle città tessili del nord dell'Inghilterra."
+      "speech": "Primo: Hard Times di Dickens è ambientato nella città industriale immaginaria di Coketown, modellata sulle città tessili del nord dell'Inghilterra.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo:"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "di Dickens è ambientato nella città industriale immaginaria di Coketown, modellata sulle città tessili del nord dell'Inghilterra."
+        }
+      ]
     },
     {
       "text": "Secondo: l'estratto «Coketown» descrive la città attraverso tre immagini simboliche potenti:",
@@ -122,7 +286,17 @@
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 2 con un'altra grande voce femminile della narrativa vittoriana, Elizabeth Gaskell, e il suo romanzo industriale North and South.",
-      "speech": "Nel prossimo episodio restiamo nel Modulo 2 con un'altra grande voce femminile della narrativa vittoriana, Elizabeth Gaskell, e il suo romanzo industriale North and South."
+      "speech": "Nel prossimo episodio restiamo nel Modulo 2 con un'altra grande voce femminile della narrativa vittoriana, Elizabeth Gaskell, e il suo romanzo industriale North and South.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio restiamo nel Modulo 2 con un'altra grande voce femminile della narrativa vittoriana, Elizabeth Gaskell, e il suo romanzo industriale"
+        },
+        {
+          "lang": "en",
+          "text": "North and South."
+        }
+      ]
     },
     {
       "text": "Ci vediamo lì.",

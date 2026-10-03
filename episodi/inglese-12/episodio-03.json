@@ -6,7 +6,17 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo visto il verbo to be.",
-      "speech": "Nell'episodio scorso abbiamo visto il verbo to be."
+      "speech": "Nell'episodio scorso abbiamo visto il verbo to be.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto il verbo"
+        },
+        {
+          "lang": "en",
+          "text": "to be."
+        }
+      ]
     },
     {
       "text": "Oggi vediamo l'altro grande verbo fondamentale della lingua inglese:",
@@ -14,31 +24,201 @@
     },
     {
       "text": "il verbo to have, avere, che a differenza di to be ha bisogno dell'ausiliare does o do nella forma negativa e interrogativa, esattamente come la maggior parte dei verbi ordinari che incontrerete in questo modulo.",
-      "speech": "il verbo to have, avere, che a differenza di to be ha bisogno dell'ausiliare does o do nella forma negativa e interrogativa, esattamente come la maggior parte dei verbi ordinari che incontrerete in questo modulo."
+      "speech": "il verbo to have, avere, che a differenza di to be ha bisogno dell'ausiliare does o do nella forma negativa e interrogativa, esattamente come la maggior parte dei verbi ordinari che incontrerete in questo modulo.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il verbo"
+        },
+        {
+          "lang": "en",
+          "text": "to have,"
+        },
+        {
+          "lang": "it",
+          "text": "avere, che a differenza di"
+        },
+        {
+          "lang": "en",
+          "text": "to be"
+        },
+        {
+          "lang": "it",
+          "text": "ha bisogno dell'ausiliare"
+        },
+        {
+          "lang": "en",
+          "text": "does"
+        },
+        {
+          "lang": "it",
+          "text": "o"
+        },
+        {
+          "lang": "en",
+          "text": "do"
+        },
+        {
+          "lang": "it",
+          "text": "nella forma negativa e interrogativa, esattamente come la maggior parte dei verbi ordinari che incontrerete in questo modulo."
+        }
+      ]
     },
     {
       "text": "La forma affermativa al presente è: I have, io ho; you have, tu hai;",
-      "speech": "La forma affermativa al presente è: I have, io ho; you have, tu hai;"
+      "speech": "La forma affermativa al presente è: I have, io ho; you have, tu hai;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La forma affermativa al presente è:"
+        },
+        {
+          "lang": "en",
+          "text": "I have,"
+        },
+        {
+          "lang": "it",
+          "text": "io ho;"
+        },
+        {
+          "lang": "en",
+          "text": "you have,"
+        },
+        {
+          "lang": "it",
+          "text": "tu hai;"
+        }
+      ]
     },
     {
       "text": "he has, she has, it has, lui ha, lei ha, esso ha, con la caratteristica -s della terza persona singolare che avete già iniziato a incontrare;",
-      "speech": "he has, she has, it has, lui ha, lei ha, esso ha, con la caratteristica -s della terza persona singolare che avete già iniziato a incontrare;"
+      "speech": "he has, she has, it has, lui ha, lei ha, esso ha, con la caratteristica -s della terza persona singolare che avete già iniziato a incontrare;",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "he has, she has, it has,"
+        },
+        {
+          "lang": "it",
+          "text": "lui ha, lei ha, esso ha, con la caratteristica -s della terza persona singolare che avete già iniziato a incontrare;"
+        }
+      ]
     },
     {
       "text": "we have, noi abbiamo; you have, voi avete; they have, loro hanno.",
-      "speech": "we have, noi abbiamo; you have, voi avete; they have, loro hanno."
+      "speech": "we have, noi abbiamo; you have, voi avete; they have, loro hanno.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "we have,"
+        },
+        {
+          "lang": "it",
+          "text": "noi abbiamo;"
+        },
+        {
+          "lang": "en",
+          "text": "you have,"
+        },
+        {
+          "lang": "it",
+          "text": "voi avete;"
+        },
+        {
+          "lang": "en",
+          "text": "they have,"
+        },
+        {
+          "lang": "it",
+          "text": "loro hanno."
+        }
+      ]
     },
     {
       "text": "La forma negativa richiede l'ausiliare do o does, seguito da not: I do not have, contratto in I don't have;",
-      "speech": "La forma negativa richiede l'ausiliare do o does, seguito da not: I do not have, contratto in I don't have;"
+      "speech": "La forma negativa richiede l'ausiliare do o does, seguito da not: I do not have, contratto in I don't have;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La forma negativa richiede l'ausiliare"
+        },
+        {
+          "lang": "en",
+          "text": "do"
+        },
+        {
+          "lang": "it",
+          "text": "o"
+        },
+        {
+          "lang": "en",
+          "text": "does,"
+        },
+        {
+          "lang": "it",
+          "text": "seguito da"
+        },
+        {
+          "lang": "en",
+          "text": "not: I do not have,"
+        },
+        {
+          "lang": "it",
+          "text": "contratto in I"
+        },
+        {
+          "lang": "en",
+          "text": "don't have;"
+        }
+      ]
     },
     {
       "text": "he does not have, contratto in he doesn't have, con il verbo principale che torna alla forma base senza -s.",
-      "speech": "he does not have, contratto in he doesn't have, con il verbo principale che torna alla forma base senza -s."
+      "speech": "he does not have, contratto in he doesn't have, con il verbo principale che torna alla forma base senza -s.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "he does not have,"
+        },
+        {
+          "lang": "it",
+          "text": "contratto in"
+        },
+        {
+          "lang": "en",
+          "text": "he doesn't have,"
+        },
+        {
+          "lang": "it",
+          "text": "con il verbo principale che torna alla forma base senza -s."
+        }
+      ]
     },
     {
       "text": "La forma interrogativa inverte l'ausiliare: Do you have a pen?, hai una penna?; Does she have a car?, ha un'automobile?",
-      "speech": "La forma interrogativa inverte l'ausiliare: Do you have a pen?, hai una penna?; Does she have a car?, ha un'automobile?"
+      "speech": "La forma interrogativa inverte l'ausiliare: Do you have a pen?, hai una penna?; Does she have a car?, ha un'automobile?",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La forma interrogativa inverte l'ausiliare:"
+        },
+        {
+          "lang": "en",
+          "text": "Do you have a pen?,"
+        },
+        {
+          "lang": "it",
+          "text": "hai una penna?;"
+        },
+        {
+          "lang": "en",
+          "text": "Does she have a car?,"
+        },
+        {
+          "lang": "it",
+          "text": "ha un'automobile?"
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento su una particolarità tutta britannica, perché la incontrerete spesso nei materiali d'esame:",
@@ -46,39 +226,249 @@
     },
     {
       "text": "nell'inglese britannico esiste anche la forma have got, con lo stesso significato di have ma un comportamento grammaticale diverso, più simile a to be.",
-      "speech": "nell'inglese britannico esiste anche la forma have got, con lo stesso significato di have ma un comportamento grammaticale diverso, più simile a to be."
+      "speech": "nell'inglese britannico esiste anche la forma have got, con lo stesso significato di have ma un comportamento grammaticale diverso, più simile a to be.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "nell'inglese britannico esiste anche la forma"
+        },
+        {
+          "lang": "en",
+          "text": "have got,"
+        },
+        {
+          "lang": "it",
+          "text": "con lo stesso significato di"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "ma un comportamento grammaticale diverso, più simile a"
+        },
+        {
+          "lang": "en",
+          "text": "to be."
+        }
+      ]
     },
     {
       "text": "Diciamo «I have got a bike» oppure, nella forma contratta molto comune nel parlato, «I've got a bike»;",
-      "speech": "Diciamo «I have got a bike» oppure, nella forma contratta molto comune nel parlato, «I've got a bike»;"
+      "speech": "Diciamo «I have got a bike» oppure, nella forma contratta molto comune nel parlato, «I've got a bike»;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Diciamo «"
+        },
+        {
+          "lang": "en",
+          "text": "I have got a bike»"
+        },
+        {
+          "lang": "it",
+          "text": "oppure, nella forma contratta molto comune nel parlato, «"
+        },
+        {
+          "lang": "en",
+          "text": "I've got a bike»;"
+        }
+      ]
     },
     {
       "text": "la forma negativa si costruisce senza l'ausiliare do, semplicemente con not dopo got, «I haven't got a bike»;",
-      "speech": "la forma negativa si costruisce senza l'ausiliare do, semplicemente con not dopo got, «I haven't got a bike»;"
+      "speech": "la forma negativa si costruisce senza l'ausiliare do, semplicemente con not dopo got, «I haven't got a bike»;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la forma negativa si costruisce senza l'ausiliare"
+        },
+        {
+          "lang": "en",
+          "text": "do,"
+        },
+        {
+          "lang": "it",
+          "text": "semplicemente con"
+        },
+        {
+          "lang": "en",
+          "text": "not"
+        },
+        {
+          "lang": "it",
+          "text": "dopo"
+        },
+        {
+          "lang": "en",
+          "text": "got, «I haven't got a bike»;"
+        }
+      ]
     },
     {
       "text": "e la forma interrogativa inverte have e il soggetto, «Have you got a bike?», senza bisogno di do.",
-      "speech": "e la forma interrogativa inverte have e il soggetto, «Have you got a bike?», senza bisogno di do."
+      "speech": "e la forma interrogativa inverte have e il soggetto, «Have you got a bike?», senza bisogno di do.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e la forma interrogativa inverte"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "e il soggetto, «"
+        },
+        {
+          "lang": "en",
+          "text": "Have you got a bike?»,"
+        },
+        {
+          "lang": "it",
+          "text": "senza bisogno di"
+        },
+        {
+          "lang": "en",
+          "text": "do."
+        }
+      ]
     },
     {
       "text": "Le due forme, have e have got, sono intercambiabili nella maggior parte dei contesti quotidiani, ma have got si usa solo al presente, mentre have si può usare in tutti i tempi verbali.",
-      "speech": "Le due forme, have e have got, sono intercambiabili nella maggior parte dei contesti quotidiani, ma have got si usa solo al presente, mentre have si può usare in tutti i tempi verbali."
+      "speech": "Le due forme, have e have got, sono intercambiabili nella maggior parte dei contesti quotidiani, ma have got si usa solo al presente, mentre have si può usare in tutti i tempi verbali.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le due forme,"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "have got,"
+        },
+        {
+          "lang": "it",
+          "text": "sono intercambiabili nella maggior parte dei contesti quotidiani, ma"
+        },
+        {
+          "lang": "en",
+          "text": "have got"
+        },
+        {
+          "lang": "it",
+          "text": "si usa solo al presente, mentre"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "si può usare in tutti i tempi verbali."
+        }
+      ]
     },
     {
       "text": "To have si usa principalmente per il possesso, «I have a new phone», ho un nuovo telefono; per i legami di parentela, «She has two brothers», ha due fratelli;",
-      "speech": "To have si usa principalmente per il possesso, «I have a new phone», ho un nuovo telefono; per i legami di parentela, «She has two brothers», ha due fratelli;"
+      "speech": "To have si usa principalmente per il possesso, «I have a new phone», ho un nuovo telefono; per i legami di parentela, «She has two brothers», ha due fratelli;",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "To have"
+        },
+        {
+          "lang": "it",
+          "text": "si usa principalmente per il possesso, «"
+        },
+        {
+          "lang": "en",
+          "text": "I have a new phone»,"
+        },
+        {
+          "lang": "it",
+          "text": "ho un nuovo telefono; per i legami di parentela, «"
+        },
+        {
+          "lang": "en",
+          "text": "She has two brothers»,"
+        },
+        {
+          "lang": "it",
+          "text": "ha due fratelli;"
+        }
+      ]
     },
     {
       "text": "e in numerose espressioni idiomatiche che vale la pena imparare a memoria, come «to have breakfast/lunch/dinner», fare colazione, pranzo, cena,",
-      "speech": "e in numerose espressioni idiomatiche che vale la pena imparare a memoria, come «to have breakfast/lunch/dinner», fare colazione, pranzo, cena,"
+      "speech": "e in numerose espressioni idiomatiche che vale la pena imparare a memoria, come «to have breakfast/lunch/dinner», fare colazione, pranzo, cena,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e in numerose espressioni idiomatiche che vale la pena imparare a memoria, come «"
+        },
+        {
+          "lang": "en",
+          "text": "to have breakfast/lunch/dinner»,"
+        },
+        {
+          "lang": "it",
+          "text": "fare colazione, pranzo, cena,"
+        }
+      ]
     },
     {
       "text": "oppure «to have a shower», fare la doccia, oppure «to have a good time», divertirsi:",
-      "speech": "oppure «to have a shower», fare la doccia, oppure «to have a good time», divertirsi:"
+      "speech": "oppure «to have a shower», fare la doccia, oppure «to have a good time», divertirsi:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "oppure «"
+        },
+        {
+          "lang": "en",
+          "text": "to have a shower»,"
+        },
+        {
+          "lang": "it",
+          "text": "fare la doccia, oppure «"
+        },
+        {
+          "lang": "en",
+          "text": "to have a good time»,"
+        },
+        {
+          "lang": "it",
+          "text": "divertirsi:"
+        }
+      ]
     },
     {
       "text": "notate come in questi casi l'inglese usi have esattamente dove l'italiano userebbe il verbo fare, un'altra differenza importante fra i due sistemi linguistici da tenere a mente.",
-      "speech": "notate come in questi casi l'inglese usi have esattamente dove l'italiano userebbe il verbo fare, un'altra differenza importante fra i due sistemi linguistici da tenere a mente."
+      "speech": "notate come in questi casi l'inglese usi have esattamente dove l'italiano userebbe il verbo fare, un'altra differenza importante fra i due sistemi linguistici da tenere a mente.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "notate come in questi casi l'inglese usi"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "esattamente dove l'italiano userebbe il verbo fare, un'altra differenza importante fra i due sistemi linguistici da tenere a mente."
+        }
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: come tradurreste «Non ho fratelli, ma ho un cane e faccio colazione presto ogni mattina»?",
@@ -86,15 +476,81 @@
     },
     {
       "text": "La prima parte richiede la forma negativa di have per i legami di parentela: «I don't have any brothers» oppure, con have got, «I haven't got any brothers»;",
-      "speech": "La prima parte richiede la forma negativa di have per i legami di parentela: «I don't have any brothers» oppure, con have got, «I haven't got any brothers»;"
+      "speech": "La prima parte richiede la forma negativa di have per i legami di parentela: «I don't have any brothers» oppure, con have got, «I haven't got any brothers»;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La prima parte richiede la forma negativa di"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "per i legami di parentela: «"
+        },
+        {
+          "lang": "en",
+          "text": "I don't have any brothers»"
+        },
+        {
+          "lang": "it",
+          "text": "oppure, con"
+        },
+        {
+          "lang": "en",
+          "text": "have got, «I haven't got any brothers»;"
+        }
+      ]
     },
     {
       "text": "la seconda parte usa have per il possesso di un animale, «but I have a dog»; la terza parte usa l'espressione idiomatica «to have breakfast», «and I have breakfast early every morning».",
-      "speech": "la seconda parte usa have per il possesso di un animale, «but I have a dog»; la terza parte usa l'espressione idiomatica «to have breakfast», «and I have breakfast early every morning»."
+      "speech": "la seconda parte usa have per il possesso di un animale, «but I have a dog»; la terza parte usa l'espressione idiomatica «to have breakfast», «and I have breakfast early every morning».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la seconda parte usa"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "per il possesso di un animale, «"
+        },
+        {
+          "lang": "en",
+          "text": "but I have a dog»;"
+        },
+        {
+          "lang": "it",
+          "text": "la terza parte usa l'espressione idiomatica «"
+        },
+        {
+          "lang": "en",
+          "text": "to have breakfast», «and I have breakfast early every morning»."
+        }
+      ]
     },
     {
       "text": "Notate come, in questa singola frase, have compaia tre volte con tre sfumature di significato diverse: negazione di parentela, possesso, ed espressione idiomatica.",
-      "speech": "Notate come, in questa singola frase, have compaia tre volte con tre sfumature di significato diverse: negazione di parentela, possesso, ed espressione idiomatica."
+      "speech": "Notate come, in questa singola frase, have compaia tre volte con tre sfumature di significato diverse: negazione di parentela, possesso, ed espressione idiomatica.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Notate come, in questa singola frase,"
+        },
+        {
+          "lang": "en",
+          "text": "have"
+        },
+        {
+          "lang": "it",
+          "text": "compaia tre volte con tre sfumature di significato diverse: negazione di parentela, possesso, ed espressione idiomatica."
+        }
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -102,15 +558,93 @@
     },
     {
       "text": "Primo: to have, a differenza di to be, richiede l'ausiliare do o does nella forma negativa e interrogativa standard.",
-      "speech": "Primo: to have, a differenza di to be, richiede l'ausiliare do o does nella forma negativa e interrogativa standard."
+      "speech": "Primo: to have, a differenza di to be, richiede l'ausiliare do o does nella forma negativa e interrogativa standard.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo:"
+        },
+        {
+          "lang": "en",
+          "text": "to have,"
+        },
+        {
+          "lang": "it",
+          "text": "a differenza di"
+        },
+        {
+          "lang": "en",
+          "text": "to be,"
+        },
+        {
+          "lang": "it",
+          "text": "richiede l'ausiliare"
+        },
+        {
+          "lang": "en",
+          "text": "do"
+        },
+        {
+          "lang": "it",
+          "text": "o"
+        },
+        {
+          "lang": "en",
+          "text": "does"
+        },
+        {
+          "lang": "it",
+          "text": "nella forma negativa e interrogativa standard."
+        }
+      ]
     },
     {
       "text": "Secondo: have got è una variante tipicamente britannica, usata solo al presente, che si comporta come to be senza bisogno di do.",
-      "speech": "Secondo: have got è una variante tipicamente britannica, usata solo al presente, che si comporta come to be senza bisogno di do."
+      "speech": "Secondo: have got è una variante tipicamente britannica, usata solo al presente, che si comporta come to be senza bisogno di do.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo:"
+        },
+        {
+          "lang": "en",
+          "text": "have got"
+        },
+        {
+          "lang": "it",
+          "text": "è una variante tipicamente britannica, usata solo al presente, che si comporta come"
+        },
+        {
+          "lang": "en",
+          "text": "to be"
+        },
+        {
+          "lang": "it",
+          "text": "senza bisogno di"
+        },
+        {
+          "lang": "en",
+          "text": "do."
+        }
+      ]
     },
     {
       "text": "Terzo: to have si usa per possesso, parentela, e in numerose espressioni idiomatiche dove l'italiano userebbe il verbo fare.",
-      "speech": "Terzo: to have si usa per possesso, parentela, e in numerose espressioni idiomatiche dove l'italiano userebbe il verbo fare."
+      "speech": "Terzo: to have si usa per possesso, parentela, e in numerose espressioni idiomatiche dove l'italiano userebbe il verbo fare.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo:"
+        },
+        {
+          "lang": "en",
+          "text": "to have"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per possesso, parentela, e in numerose espressioni idiomatiche dove l'italiano userebbe il verbo fare."
+        }
+      ]
     },
     {
       "text": "Nel prossimo episodio completiamo le fondamenta grammaticali con i sostantivi, i loro plurali, e un ricco esercizio riepilogativo su tutto ciò che abbiamo visto finora.",

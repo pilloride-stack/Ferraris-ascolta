@@ -6,7 +6,21 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo completato il ripasso grammaticale con make/do e i prefissi negativi.",
-      "speech": "Nell'episodio scorso abbiamo completato il ripasso grammaticale con make/do e i prefissi negativi."
+      "speech": "Nell'episodio scorso abbiamo completato il ripasso grammaticale con make/do e i prefissi negativi.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo completato il ripasso grammaticale con"
+        },
+        {
+          "lang": "en",
+          "text": "make/do"
+        },
+        {
+          "lang": "it",
+          "text": "e i prefissi negativi."
+        }
+      ]
     },
     {
       "text": "Oggi entriamo finalmente nel programma di storia inglese di Classe Terza, che ci accompagnerà, episodio dopo episodio, dai Celti fino al Rinascimento elisabettiano.",
@@ -50,7 +64,21 @@
     },
     {
       "text": "È un punto interessante da portare all'esame, perché mostra come la storia britannica non sia affatto una linea retta di sostituzioni complete tra un popolo e l'altro,",
-      "speech": "È un punto interessante da portare all'esame, perché mostra come la storia britannica non sia affatto una linea retta di sostituzioni complete tra un popolo e l'altro,"
+      "speech": "È un punto interessante da portare all'esame, perché mostra come la storia britannica non sia affatto una linea retta di sostituzioni complete tra un popolo e l'altro,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È un punto interessante da portare all'esame, perché mostra come la storia britannica non sia affatto una linea retta di sostituzioni"
+        },
+        {
+          "lang": "en",
+          "text": "complete"
+        },
+        {
+          "lang": "it",
+          "text": "tra un popolo e l'altro,"
+        }
+      ]
     },
     {
       "text": "ma piuttosto una stratificazione di culture diverse, alcune delle quali sopravvivono ancora oggi ai margini dell'isola principale.",
@@ -102,7 +130,29 @@
     },
     {
       "text": "è proprio da questi popoli che deriva il nome stesso «Inghilterra», England, che significa letteralmente Angle-land, «terra degli Angli».",
-      "speech": "è proprio da questi popoli che deriva il nome stesso «Inghilterra», England, che significa letteralmente Angle-land, «terra degli Angli»."
+      "speech": "è proprio da questi popoli che deriva il nome stesso «Inghilterra», England, che significa letteralmente Angle-land, «terra degli Angli».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "è proprio da questi popoli che deriva il nome stesso «Inghilterra»,"
+        },
+        {
+          "lang": "en",
+          "text": "England,"
+        },
+        {
+          "lang": "it",
+          "text": "che significa letteralmente"
+        },
+        {
+          "lang": "en",
+          "text": "Angle-land, «"
+        },
+        {
+          "lang": "it",
+          "text": "terra degli Angli»."
+        }
+      ]
     },
     {
       "text": "E non è solo il nome del paese a derivare da questi popoli germanici:",
@@ -110,7 +160,21 @@
     },
     {
       "text": "anche le basi della lingua inglese antica, quello che i linguisti chiamano Old English, nascono proprio dalle parlate germaniche di Angli, Sassoni e Juti, non dal latino dei Romani che pure avevano dominato l'isola per secoli.",
-      "speech": "anche le basi della lingua inglese antica, quello che i linguisti chiamano Old English, nascono proprio dalle parlate germaniche di Angli, Sassoni e Juti, non dal latino dei Romani che pure avevano dominato l'isola per secoli."
+      "speech": "anche le basi della lingua inglese antica, quello che i linguisti chiamano Old English, nascono proprio dalle parlate germaniche di Angli, Sassoni e Juti, non dal latino dei Romani che pure avevano dominato l'isola per secoli.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "anche le basi della lingua inglese antica, quello che i linguisti chiamano"
+        },
+        {
+          "lang": "en",
+          "text": "Old English,"
+        },
+        {
+          "lang": "it",
+          "text": "nascono proprio dalle parlate germaniche di Angli, Sassoni e Juti, non dal latino dei Romani che pure avevano dominato l'isola per secoli."
+        }
+      ]
     },
     {
       "text": "Fermiamoci un momento su un punto che vale la pena approfondire, perché rivela qualcosa di importante sulla natura di questo passaggio storico:",
@@ -170,7 +234,17 @@
     },
     {
       "text": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome «Inghilterra» e alla lingua inglese antica, l'Old English.",
-      "speech": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome «Inghilterra» e alla lingua inglese antica, l'Old English."
+      "speech": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome «Inghilterra» e alla lingua inglese antica, l'Old English.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome «Inghilterra» e alla lingua inglese antica,"
+        },
+        {
+          "lang": "en",
+          "text": "l'Old English."
+        }
+      ]
     },
     {
       "text": "Quarto: a differenza di altre province romane, la Britannia non conserva un'eredità linguistica latina duratura, proprio a causa della sostituzione demografica portata dagli Anglosassoni.",

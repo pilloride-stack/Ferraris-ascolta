@@ -6,7 +6,17 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo visto Coketown e la critica dickensiana dell'industrializzazione in Hard Times.",
-      "speech": "Nell'episodio scorso abbiamo visto Coketown e la critica dickensiana dell'industrializzazione in Hard Times."
+      "speech": "Nell'episodio scorso abbiamo visto Coketown e la critica dickensiana dell'industrializzazione in Hard Times.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto Coketown e la critica dickensiana dell'industrializzazione in"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times."
+        }
+      ]
     },
     {
       "text": "Oggi completiamo il Modulo 2 con un'altra grande voce della narrativa vittoriana, questa volta femminile:",
@@ -18,7 +28,29 @@
     },
     {
       "text": "Il romanzo di Gaskell che affronteremo oggi è North and South, pubblicato a puntate tra il 1854 e il 1855 sulla rivista Household Words, diretta — dettaglio non secondario —",
-      "speech": "Il romanzo di Gaskell che affronteremo oggi è North and South, pubblicato a puntate tra il 1854 e il 1855 sulla rivista Household Words, diretta — dettaglio non secondario —"
+      "speech": "Il romanzo di Gaskell che affronteremo oggi è North and South, pubblicato a puntate tra il 1854 e il 1855 sulla rivista Household Words, diretta — dettaglio non secondario —",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il romanzo di Gaskell che affronteremo oggi è"
+        },
+        {
+          "lang": "en",
+          "text": "North and South,"
+        },
+        {
+          "lang": "it",
+          "text": "pubblicato a puntate tra il 1854 e il 1855 sulla rivista"
+        },
+        {
+          "lang": "en",
+          "text": "Household Words,"
+        },
+        {
+          "lang": "it",
+          "text": "diretta — dettaglio non secondario —"
+        }
+      ]
     },
     {
       "text": "proprio da Charles Dickens, che abbiamo incontrato negli ultimi due episodi.",
@@ -26,15 +58,57 @@
     },
     {
       "text": "North and South appartiene a un filone narrativo specifico, che vale la pena conoscere con il proprio nome tecnico:",
-      "speech": "North and South appartiene a un filone narrativo specifico, che vale la pena conoscere con il proprio nome tecnico:"
+      "speech": "North and South appartiene a un filone narrativo specifico, che vale la pena conoscere con il proprio nome tecnico:",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "North and South"
+        },
+        {
+          "lang": "it",
+          "text": "appartiene a un filone narrativo specifico, che vale la pena conoscere con il proprio nome tecnico:"
+        }
+      ]
     },
     {
       "text": "l'industrial novel, o anche «Condition of England novel», il romanzo industriale che affronta direttamente le tensioni sociali tra industriali e operai nell'Inghilterra vittoriana,",
-      "speech": "l'industrial novel, o anche «Condition of England novel», il romanzo industriale che affronta direttamente le tensioni sociali tra industriali e operai nell'Inghilterra vittoriana,"
+      "speech": "l'industrial novel, o anche «Condition of England novel», il romanzo industriale che affronta direttamente le tensioni sociali tra industriali e operai nell'Inghilterra vittoriana,",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "l'industrial novel,"
+        },
+        {
+          "lang": "it",
+          "text": "o anche «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England novel»,"
+        },
+        {
+          "lang": "it",
+          "text": "il romanzo industriale che affronta direttamente le tensioni sociali tra industriali e operai nell'Inghilterra vittoriana,"
+        }
+      ]
     },
     {
       "text": "dando corpo narrativo proprio a quella «Condition of England question» che abbiamo introdotto all'inizio di questo modulo.",
-      "speech": "dando corpo narrativo proprio a quella «Condition of England question» che abbiamo introdotto all'inizio di questo modulo."
+      "speech": "dando corpo narrativo proprio a quella «Condition of England question» che abbiamo introdotto all'inizio di questo modulo.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "dando corpo narrativo proprio a quella «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England question»"
+        },
+        {
+          "lang": "it",
+          "text": "che abbiamo introdotto all'inizio di questo modulo."
+        }
+      ]
     },
     {
       "text": "Il romanzo racconta la vicenda di Margaret Hale, che si trasferisce con la propria famiglia dalla tranquilla campagna del sud dell'Inghilterra alla città industriale immaginaria di Milton,",
@@ -58,7 +132,21 @@
     },
     {
       "text": "perché è esattamente il punto che rende North and South un'opera più sfumata rispetto a una semplice denuncia sociale unilaterale:",
-      "speech": "perché è esattamente il punto che rende North and South un'opera più sfumata rispetto a una semplice denuncia sociale unilaterale:"
+      "speech": "perché è esattamente il punto che rende North and South un'opera più sfumata rispetto a una semplice denuncia sociale unilaterale:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "perché è esattamente il punto che rende"
+        },
+        {
+          "lang": "en",
+          "text": "North and South"
+        },
+        {
+          "lang": "it",
+          "text": "un'opera più sfumata rispetto a una semplice denuncia sociale unilaterale:"
+        }
+      ]
     },
     {
       "text": "il contrasto iniziale tra Margaret e Thornton si trasforma gradualmente, capitolo dopo capitolo, in una reciproca comprensione,",
@@ -78,7 +166,25 @@
     },
     {
       "text": "Vale la pena inquadrare North and South all'interno del più ampio filone del «Condition of England novel»,",
-      "speech": "Vale la pena inquadrare North and South all'interno del più ampio filone del «Condition of England novel»,"
+      "speech": "Vale la pena inquadrare North and South all'interno del più ampio filone del «Condition of England novel»,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vale la pena inquadrare"
+        },
+        {
+          "lang": "en",
+          "text": "North and South"
+        },
+        {
+          "lang": "it",
+          "text": "all'interno del più ampio filone del «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England novel»,"
+        }
+      ]
     },
     {
       "text": "di cui fa parte insieme ad altre opere importanti che è utile saper citare, anche solo per titolo e autore, in una risposta d'esame ben documentata:",
@@ -86,7 +192,21 @@
     },
     {
       "text": "Sybil, or the Two Nations, pubblicato nel 1845 da Benjamin Disraeli, futuro primo ministro britannico, il cui titolo allude esplicitamente alla spaccatura tra le «due nazioni» dei ricchi e dei poveri all'interno dello stesso paese;",
-      "speech": "Sybil, or the Two Nations, pubblicato nel 1845 da Benjamin Disraeli, futuro primo ministro britannico, il cui titolo allude esplicitamente alla spaccatura tra le «due nazioni» dei ricchi e dei poveri all'interno dello stesso paese;"
+      "speech": "Sybil, or the Two Nations, pubblicato nel 1845 da Benjamin Disraeli, futuro primo ministro britannico, il cui titolo allude esplicitamente alla spaccatura tra le «due nazioni» dei ricchi e dei poveri all'interno dello stesso paese;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Sybil,"
+        },
+        {
+          "lang": "en",
+          "text": "or the Two Nations,"
+        },
+        {
+          "lang": "it",
+          "text": "pubblicato nel 1845 da Benjamin Disraeli, futuro primo ministro britannico, il cui titolo allude esplicitamente alla spaccatura tra le «due nazioni» dei ricchi e dei poveri all'interno dello stesso paese;"
+        }
+      ]
     },
     {
       "text": "e Alton Locke, pubblicato nel 1850 da Charles Kingsley, incentrato sulla vita di un sarto londinese.",
@@ -110,15 +230,45 @@
     },
     {
       "text": "Oliver Twist di Dickens denuncia la condizione degli orfani e del sistema dei workhouse.",
-      "speech": "Oliver Twist di Dickens denuncia la condizione degli orfani e del sistema dei workhouse."
+      "speech": "Oliver Twist di Dickens denuncia la condizione degli orfani e del sistema dei workhouse.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Oliver Twist"
+        },
+        {
+          "lang": "it",
+          "text": "di Dickens denuncia la condizione degli orfani e del sistema dei workhouse."
+        }
+      ]
     },
     {
       "text": "Hard Times, sempre di Dickens, attraverso l'estratto Coketown, denuncia la disumanizzazione prodotta dalla città industriale nel suo complesso.",
-      "speech": "Hard Times, sempre di Dickens, attraverso l'estratto Coketown, denuncia la disumanizzazione prodotta dalla città industriale nel suo complesso."
+      "speech": "Hard Times, sempre di Dickens, attraverso l'estratto Coketown, denuncia la disumanizzazione prodotta dalla città industriale nel suo complesso.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Hard Times,"
+        },
+        {
+          "lang": "it",
+          "text": "sempre di Dickens, attraverso l'estratto Coketown, denuncia la disumanizzazione prodotta dalla città industriale nel suo complesso."
+        }
+      ]
     },
     {
       "text": "North and South di Gaskell affronta invece direttamente il conflitto tra industriali e operai,",
-      "speech": "North and South di Gaskell affronta invece direttamente il conflitto tra industriali e operai,"
+      "speech": "North and South di Gaskell affronta invece direttamente il conflitto tra industriali e operai,",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "North and South"
+        },
+        {
+          "lang": "it",
+          "text": "di Gaskell affronta invece direttamente il conflitto tra industriali e operai,"
+        }
+      ]
     },
     {
       "text": "e la spaccatura geografica e culturale tra il Nord industriale e il Sud agricolo dell'Inghilterra, proponendo però, a differenza delle due opere di Dickens, una prospettiva di possibile riconciliazione tra le parti in conflitto.",
@@ -130,7 +280,21 @@
     },
     {
       "text": "Primo: Elizabeth Gaskell, in North and South, racconta la vicenda di Margaret Hale, trasferitasi dal Sud agricolo al Nord industriale dell'Inghilterra,",
-      "speech": "Primo: Elizabeth Gaskell, in North and South, racconta la vicenda di Margaret Hale, trasferitasi dal Sud agricolo al Nord industriale dell'Inghilterra,"
+      "speech": "Primo: Elizabeth Gaskell, in North and South, racconta la vicenda di Margaret Hale, trasferitasi dal Sud agricolo al Nord industriale dell'Inghilterra,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: Elizabeth Gaskell,"
+        },
+        {
+          "lang": "en",
+          "text": "in North and South,"
+        },
+        {
+          "lang": "it",
+          "text": "racconta la vicenda di Margaret Hale, trasferitasi dal Sud agricolo al Nord industriale dell'Inghilterra,"
+        }
+      ]
     },
     {
       "text": "e il suo rapporto in evoluzione con l'industriale John Thornton.",
@@ -138,7 +302,21 @@
     },
     {
       "text": "Secondo: il romanzo appartiene al filone del «Condition of England novel», insieme a opere come Sybil di Disraeli e Alton Locke di Kingsley.",
-      "speech": "Secondo: il romanzo appartiene al filone del «Condition of England novel», insieme a opere come Sybil di Disraeli e Alton Locke di Kingsley."
+      "speech": "Secondo: il romanzo appartiene al filone del «Condition of England novel», insieme a opere come Sybil di Disraeli e Alton Locke di Kingsley.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: il romanzo appartiene al filone del «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England novel»,"
+        },
+        {
+          "lang": "it",
+          "text": "insieme a opere come Sybil di Disraeli e Alton Locke di Kingsley."
+        }
+      ]
     },
     {
       "text": "Terzo: a differenza della critica più aspra di Dickens, Gaskell propone un modello di dialogo e di reciproco riconoscimento tra industriali e operai, senza negare la realtà del conflitto sociale.",

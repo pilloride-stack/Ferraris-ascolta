@@ -6,7 +6,17 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo chiuso il Modulo 2 con Elizabeth Gaskell e North and South.",
-      "speech": "Nell'episodio scorso abbiamo chiuso il Modulo 2 con Elizabeth Gaskell e North and South."
+      "speech": "Nell'episodio scorso abbiamo chiuso il Modulo 2 con Elizabeth Gaskell e North and South.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo chiuso il Modulo 2 con Elizabeth Gaskell e"
+        },
+        {
+          "lang": "en",
+          "text": "North and South."
+        }
+      ]
     },
     {
       "text": "Oggi entriamo nel Modulo 3 e cambiamo completamente registro:",
@@ -66,7 +76,21 @@
     },
     {
       "text": "nella prefazione alle Lyrical Ballads, raccolta pubblicata nel 1798 insieme a Samuel Taylor Coleridge e considerata l'atto di nascita ufficiale del Romanticismo inglese in senso stretto.",
-      "speech": "nella prefazione alle Lyrical Ballads, raccolta pubblicata nel 1798 insieme a Samuel Taylor Coleridge e considerata l'atto di nascita ufficiale del Romanticismo inglese in senso stretto."
+      "speech": "nella prefazione alle Lyrical Ballads, raccolta pubblicata nel 1798 insieme a Samuel Taylor Coleridge e considerata l'atto di nascita ufficiale del Romanticismo inglese in senso stretto.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "nella prefazione alle"
+        },
+        {
+          "lang": "en",
+          "text": "Lyrical Ballads,"
+        },
+        {
+          "lang": "it",
+          "text": "raccolta pubblicata nel 1798 insieme a Samuel Taylor Coleridge e considerata l'atto di nascita ufficiale del Romanticismo inglese in senso stretto."
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento su questo dato, perché è un ottimo aggancio da usare in apertura di una risposta d'esame sul Romanticismo:",
@@ -82,7 +106,21 @@
     },
     {
       "text": "Tra le liriche più celebri e rappresentative di Wordsworth troviamo Daffodils, il cui titolo originale è I Wandered Lonely as a Cloud, composta intorno al 1804.",
-      "speech": "Tra le liriche più celebri e rappresentative di Wordsworth troviamo Daffodils, il cui titolo originale è I Wandered Lonely as a Cloud, composta intorno al 1804."
+      "speech": "Tra le liriche più celebri e rappresentative di Wordsworth troviamo Daffodils, il cui titolo originale è I Wandered Lonely as a Cloud, composta intorno al 1804.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Tra le liriche più celebri e rappresentative di Wordsworth troviamo Daffodils, il cui titolo originale è I"
+        },
+        {
+          "lang": "en",
+          "text": "Wandered Lonely as a Cloud,"
+        },
+        {
+          "lang": "it",
+          "text": "composta intorno al 1804."
+        }
+      ]
     },
     {
       "text": "La poesia è ispirata a un episodio autobiografico: l'incontro, durante una passeggiata nella regione dei laghi inglesi, con un lungo campo di narcisi mossi dal vento.",
@@ -94,7 +132,21 @@
     },
     {
       "text": "il ricordo di quella visione, riaffiorando nella mente del poeta nei momenti di solitudine e di malinconia — «in vacant or in pensive mood», in uno stato d'animo vuoto o pensoso —",
-      "speech": "il ricordo di quella visione, riaffiorando nella mente del poeta nei momenti di solitudine e di malinconia — «in vacant or in pensive mood», in uno stato d'animo vuoto o pensoso —"
+      "speech": "il ricordo di quella visione, riaffiorando nella mente del poeta nei momenti di solitudine e di malinconia — «in vacant or in pensive mood», in uno stato d'animo vuoto o pensoso —",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il ricordo di quella visione, riaffiorando nella mente del poeta nei momenti di solitudine e di malinconia — «"
+        },
+        {
+          "lang": "en",
+          "text": "in vacant or in pensive mood»,"
+        },
+        {
+          "lang": "it",
+          "text": "in uno stato d'animo vuoto o pensoso —"
+        }
+      ]
     },
     {
       "text": "continua a colmargli il cuore di gioia, molto tempo dopo l'esperienza originaria.",
@@ -142,7 +194,17 @@
     },
     {
       "text": "e che utilizza un linguaggio semplice e vicino al parlato comune, ben lontano dallo stile elevato e artificioso della poesia neoclassica precedente, coerentemente con il programma dichiarato nella prefazione alle Lyrical Ballads.",
-      "speech": "e che utilizza un linguaggio semplice e vicino al parlato comune, ben lontano dallo stile elevato e artificioso della poesia neoclassica precedente, coerentemente con il programma dichiarato nella prefazione alle Lyrical Ballads."
+      "speech": "e che utilizza un linguaggio semplice e vicino al parlato comune, ben lontano dallo stile elevato e artificioso della poesia neoclassica precedente, coerentemente con il programma dichiarato nella prefazione alle Lyrical Ballads.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e che utilizza un linguaggio semplice e vicino al parlato comune, ben lontano dallo stile elevato e artificioso della poesia neoclassica precedente, coerentemente con il programma dichiarato nella prefazione alle"
+        },
+        {
+          "lang": "en",
+          "text": "Lyrical Ballads."
+        }
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -158,7 +220,21 @@
     },
     {
       "text": "Secondo: le Lyrical Ballads di Wordsworth e Coleridge, pubblicate nel 1798, ne costituiscono l'atto di nascita ufficiale.",
-      "speech": "Secondo: le Lyrical Ballads di Wordsworth e Coleridge, pubblicate nel 1798, ne costituiscono l'atto di nascita ufficiale."
+      "speech": "Secondo: le Lyrical Ballads di Wordsworth e Coleridge, pubblicate nel 1798, ne costituiscono l'atto di nascita ufficiale.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: le"
+        },
+        {
+          "lang": "en",
+          "text": "Lyrical Ballads"
+        },
+        {
+          "lang": "it",
+          "text": "di Wordsworth e Coleridge, pubblicate nel 1798, ne costituiscono l'atto di nascita ufficiale."
+        }
+      ]
     },
     {
       "text": "Terzo: in Daffodils, Wordsworth rappresenta la natura come fonte di consolazione spirituale, resa duratura nel tempo attraverso il potere della memoria e dell'immaginazione poetica.",
@@ -166,7 +242,33 @@
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 3 e incontriamo il coautore delle Lyrical Ballads, Samuel Taylor Coleridge, attraverso il suo capolavoro sovrannaturale, The Rime of the Ancient Mariner.",
-      "speech": "Nel prossimo episodio restiamo nel Modulo 3 e incontriamo il coautore delle Lyrical Ballads, Samuel Taylor Coleridge, attraverso il suo capolavoro sovrannaturale, The Rime of the Ancient Mariner."
+      "speech": "Nel prossimo episodio restiamo nel Modulo 3 e incontriamo il coautore delle Lyrical Ballads, Samuel Taylor Coleridge, attraverso il suo capolavoro sovrannaturale, The Rime of the Ancient Mariner.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio restiamo nel Modulo 3 e incontriamo il coautore delle"
+        },
+        {
+          "lang": "en",
+          "text": "Lyrical Ballads,"
+        },
+        {
+          "lang": "it",
+          "text": "Samuel Taylor Coleridge, attraverso il suo capolavoro sovrannaturale,"
+        },
+        {
+          "lang": "en",
+          "text": "The"
+        },
+        {
+          "lang": "it",
+          "text": "Rime"
+        },
+        {
+          "lang": "en",
+          "text": "of the Ancient Mariner."
+        }
+      ]
     },
     {
       "text": "Ci vediamo lì.",

@@ -14,7 +14,17 @@
     },
     {
       "text": "William Shakespeare, attraverso il Sonetto 130 e la tragedia Romeo and Juliet.",
-      "speech": "William Shakespeare, attraverso il Sonetto 130 e la tragedia Romeo and Juliet."
+      "speech": "William Shakespeare, attraverso il Sonetto 130 e la tragedia Romeo and Juliet.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "William Shakespeare, attraverso il Sonetto 130 e la tragedia Romeo"
+        },
+        {
+          "lang": "en",
+          "text": "and Juliet."
+        }
+      ]
     },
     {
       "text": "Nel contesto del Rinascimento inglese di cui abbiamo parlato nell'episodio dedicato ai Tudor, la poesia raggiunge una straordinaria fioritura, importando e adattando alla lingua inglese forme metriche nate altrove, in particolare in Italia:",
@@ -22,7 +32,17 @@
     },
     {
       "text": "la più importante di queste forme è senza dubbio il sonetto, introdotto in Inghilterra da due poeti di corte, Thomas Wyatt ed Henry Howard, conte di Surrey,",
-      "speech": "la più importante di queste forme è senza dubbio il sonetto, introdotto in Inghilterra da due poeti di corte, Thomas Wyatt ed Henry Howard, conte di Surrey,"
+      "speech": "la più importante di queste forme è senza dubbio il sonetto, introdotto in Inghilterra da due poeti di corte, Thomas Wyatt ed Henry Howard, conte di Surrey,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la più importante di queste forme è senza dubbio il sonetto, introdotto in Inghilterra da due poeti di corte, Thomas Wyatt ed Henry Howard, conte di"
+        },
+        {
+          "lang": "en",
+          "text": "Surrey,"
+        }
+      ]
     },
     {
       "text": "che per primi traducono e imitano in inglese il modello petrarchesco, quello stesso Petrarca che avete incontrato nel modulo di letteratura italiana.",
@@ -102,15 +122,57 @@
     },
     {
       "text": "la bellezza e la mortalità, indirizzati, secondo l'interpretazione tradizionale, a due figure enigmatiche ricorrenti nella raccolta, note come il «fair youth», il giovane bello,",
-      "speech": "la bellezza e la mortalità, indirizzati, secondo l'interpretazione tradizionale, a due figure enigmatiche ricorrenti nella raccolta, note come il «fair youth», il giovane bello,"
+      "speech": "la bellezza e la mortalità, indirizzati, secondo l'interpretazione tradizionale, a due figure enigmatiche ricorrenti nella raccolta, note come il «fair youth», il giovane bello,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la bellezza e la mortalità, indirizzati, secondo l'interpretazione tradizionale, a due figure enigmatiche ricorrenti nella raccolta, note come il «"
+        },
+        {
+          "lang": "en",
+          "text": "fair youth»,"
+        },
+        {
+          "lang": "it",
+          "text": "il giovane bello,"
+        }
+      ]
     },
     {
       "text": "e la «dark lady», la dama bruna, la cui identità reale resta tuttora oggetto di dibattito tra gli studiosi.",
-      "speech": "e la «dark lady», la dama bruna, la cui identità reale resta tuttora oggetto di dibattito tra gli studiosi."
+      "speech": "e la «dark lady», la dama bruna, la cui identità reale resta tuttora oggetto di dibattito tra gli studiosi.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e la «"
+        },
+        {
+          "lang": "en",
+          "text": "dark lady»,"
+        },
+        {
+          "lang": "it",
+          "text": "la dama bruna, la cui identità reale resta tuttora oggetto di dibattito tra gli studiosi."
+        }
+      ]
     },
     {
       "text": "Il Sonetto 130, che comincia con il verso «My mistress' eyes are nothing like the sun», è celebre soprattutto per il proprio tono ironico e apertamente anticonvenzionale.",
-      "speech": "Il Sonetto 130, che comincia con il verso «My mistress' eyes are nothing like the sun», è celebre soprattutto per il proprio tono ironico e apertamente anticonvenzionale."
+      "speech": "Il Sonetto 130, che comincia con il verso «My mistress' eyes are nothing like the sun», è celebre soprattutto per il proprio tono ironico e apertamente anticonvenzionale.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il Sonetto 130, che comincia con il verso «"
+        },
+        {
+          "lang": "en",
+          "text": "My mistress' eyes are nothing like the sun»,"
+        },
+        {
+          "lang": "it",
+          "text": "è celebre soprattutto per il proprio tono ironico e apertamente anticonvenzionale."
+        }
+      ]
     },
     {
       "text": "Per capirlo bene, dovete tenere a mente la tradizione petrarchesca che avevamo incontrato in altri moduli:",
@@ -142,7 +204,21 @@
     },
     {
       "text": "Concludiamo con Romeo and Juliet, composta tra il 1594 e il 1596 circa, una delle tragedie più celebri di Shakespeare e, probabilmente, la storia d'amore più famosa di tutta la letteratura occidentale.",
-      "speech": "Concludiamo con Romeo and Juliet, composta tra il 1594 e il 1596 circa, una delle tragedie più celebri di Shakespeare e, probabilmente, la storia d'amore più famosa di tutta la letteratura occidentale."
+      "speech": "Concludiamo con Romeo and Juliet, composta tra il 1594 e il 1596 circa, una delle tragedie più celebri di Shakespeare e, probabilmente, la storia d'amore più famosa di tutta la letteratura occidentale.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Concludiamo con Romeo"
+        },
+        {
+          "lang": "en",
+          "text": "and Juliet,"
+        },
+        {
+          "lang": "it",
+          "text": "composta tra il 1594 e il 1596 circa, una delle tragedie più celebri di Shakespeare e, probabilmente, la storia d'amore più famosa di tutta la letteratura occidentale."
+        }
+      ]
     },
     {
       "text": "Racconta l'amore contrastato tra Romeo Montecchi e Giulietta Capuleti, giovani appartenenti a due famiglie veronesi da tempo in lotta tra loro.",
@@ -170,7 +246,21 @@
     },
     {
       "text": "Primo: il sonetto, di origine italiana, viene introdotto in Inghilterra da Wyatt e Surrey e si evolve in una forma originale, il sonetto elisabettiano, con tre quartine e un distico finale.",
-      "speech": "Primo: il sonetto, di origine italiana, viene introdotto in Inghilterra da Wyatt e Surrey e si evolve in una forma originale, il sonetto elisabettiano, con tre quartine e un distico finale."
+      "speech": "Primo: il sonetto, di origine italiana, viene introdotto in Inghilterra da Wyatt e Surrey e si evolve in una forma originale, il sonetto elisabettiano, con tre quartine e un distico finale.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il sonetto, di origine italiana, viene introdotto in Inghilterra da Wyatt e"
+        },
+        {
+          "lang": "en",
+          "text": "Surrey"
+        },
+        {
+          "lang": "it",
+          "text": "e si evolve in una forma originale, il sonetto elisabettiano, con tre quartine e un distico finale."
+        }
+      ]
     },
     {
       "text": "Secondo: Shakespeare compone 154 sonetti, e il Sonetto 130 capovolge ironicamente la tradizione petrarchesca delle iperboli amorose.",
@@ -178,7 +268,21 @@
     },
     {
       "text": "Terzo: Romeo and Juliet racconta l'amore tragico tra due giovani di famiglie rivali, affrontando i temi universali del destino, del conflitto tra amore e obblighi familiari, e dell'ostilità irrazionale tra generazioni.",
-      "speech": "Terzo: Romeo and Juliet racconta l'amore tragico tra due giovani di famiglie rivali, affrontando i temi universali del destino, del conflitto tra amore e obblighi familiari, e dell'ostilità irrazionale tra generazioni."
+      "speech": "Terzo: Romeo and Juliet racconta l'amore tragico tra due giovani di famiglie rivali, affrontando i temi universali del destino, del conflitto tra amore e obblighi familiari, e dell'ostilità irrazionale tra generazioni.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo:"
+        },
+        {
+          "lang": "en",
+          "text": "Romeo and"
+        },
+        {
+          "lang": "it",
+          "text": "Juliet racconta l'amore tragico tra due giovani di famiglie rivali, affrontando i temi universali del destino, del conflitto tra amore e obblighi familiari, e dell'ostilità irrazionale tra generazioni."
+        }
+      ]
     },
     {
       "text": "Nel prossimo e ultimo episodio di questo modulo ripercorriamo insieme tutte le domande guida della dispensa, tra storia e letteratura, per prepararvi al meglio all'esame.",

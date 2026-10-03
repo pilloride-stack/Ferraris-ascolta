@@ -10,11 +10,43 @@
     },
     {
       "text": "Oggi restiamo nella letteratura medievale inglese, ma vediamo due forme narrative molto diverse tra loro:",
-      "speech": "Oggi restiamo nella letteratura medievale inglese, ma vediamo due forme narrative molto diverse tra loro:"
+      "speech": "Oggi restiamo nella letteratura medievale inglese, ma vediamo due forme narrative molto diverse tra loro:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Oggi restiamo nella letteratura medievale inglese, ma vediamo due forme"
+        },
+        {
+          "lang": "en",
+          "text": "narrative"
+        },
+        {
+          "lang": "it",
+          "text": "molto diverse tra loro:"
+        }
+      ]
     },
     {
       "text": "le ballate popolari medievali, con l'esempio di Lord Randal, e l'opera del più importante poeta inglese del Medioevo, Geoffrey Chaucer, con i suoi celebri Racconti di Canterbury.",
-      "speech": "le ballate popolari medievali, con l'esempio di Lord Randal, e l'opera del più importante poeta inglese del Medioevo, Geoffrey Chaucer, con i suoi celebri Racconti di Canterbury."
+      "speech": "le ballate popolari medievali, con l'esempio di Lord Randal, e l'opera del più importante poeta inglese del Medioevo, Geoffrey Chaucer, con i suoi celebri Racconti di Canterbury.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "le ballate popolari medievali, con l'esempio di"
+        },
+        {
+          "lang": "en",
+          "text": "Lord Randal,"
+        },
+        {
+          "lang": "it",
+          "text": "e l'opera del più importante poeta inglese del Medioevo, Geoffrey Chaucer, con i suoi celebri Racconti di"
+        },
+        {
+          "lang": "en",
+          "text": "Canterbury."
+        }
+      ]
     },
     {
       "text": "Le ballate medievali sono componimenti poetici narrativi, di origine popolare e anonima, nati per essere tramandati oralmente e spesso accompagnati dal canto, non semplicemente recitati come un poema colto.",
@@ -34,11 +66,35 @@
     },
     {
       "text": "Lord Randal è una delle ballate più celebri e antiche di questo genere, e il suo funzionamento narrativo è un ottimo esempio concreto di quanto appena descritto.",
-      "speech": "Lord Randal è una delle ballate più celebri e antiche di questo genere, e il suo funzionamento narrativo è un ottimo esempio concreto di quanto appena descritto."
+      "speech": "Lord Randal è una delle ballate più celebri e antiche di questo genere, e il suo funzionamento narrativo è un ottimo esempio concreto di quanto appena descritto.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Lord"
+        },
+        {
+          "lang": "it",
+          "text": "Randal è una delle ballate più celebri e antiche di questo genere, e il suo funzionamento narrativo è un ottimo esempio concreto di quanto appena descritto."
+        }
+      ]
     },
     {
       "text": "L'intera ballata si sviluppa attraverso un dialogo serrato tra una madre e il proprio figlio, Lord Randal, che sta morendo avvelenato.",
-      "speech": "L'intera ballata si sviluppa attraverso un dialogo serrato tra una madre e il proprio figlio, Lord Randal, che sta morendo avvelenato."
+      "speech": "L'intera ballata si sviluppa attraverso un dialogo serrato tra una madre e il proprio figlio, Lord Randal, che sta morendo avvelenato.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'intera ballata si sviluppa attraverso un dialogo serrato tra una madre e il proprio figlio,"
+        },
+        {
+          "lang": "en",
+          "text": "Lord Randal,"
+        },
+        {
+          "lang": "it",
+          "text": "che sta morendo avvelenato."
+        }
+      ]
     },
     {
       "text": "Strofa dopo strofa, la madre pone domande sempre più insistenti al figlio morente — dove sei stato, che cosa hai mangiato, chi ti ha dato da mangiare —",
@@ -70,7 +126,29 @@
     },
     {
       "text": "La sua opera più celebre è The Canterbury Tales, i Racconti di Canterbury, composta tra il 1387 e la morte dell'autore, e rimasta incompiuta.",
-      "speech": "La sua opera più celebre è The Canterbury Tales, i Racconti di Canterbury, composta tra il 1387 e la morte dell'autore, e rimasta incompiuta."
+      "speech": "La sua opera più celebre è The Canterbury Tales, i Racconti di Canterbury, composta tra il 1387 e la morte dell'autore, e rimasta incompiuta.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La sua opera più celebre è"
+        },
+        {
+          "lang": "en",
+          "text": "The Canterbury Tales,"
+        },
+        {
+          "lang": "it",
+          "text": "i Racconti di"
+        },
+        {
+          "lang": "en",
+          "text": "Canterbury,"
+        },
+        {
+          "lang": "it",
+          "text": "composta tra il 1387 e la morte dell'autore, e rimasta incompiuta."
+        }
+      ]
     },
     {
       "text": "La cornice narrativa dell'opera è geniale nella sua semplicità:",
@@ -78,7 +156,21 @@
     },
     {
       "text": "un gruppo assai eterogeneo di pellegrini — un cavaliere, una monaca, un mugnaio, una vedova di Bath, un mercante, un frate,",
-      "speech": "un gruppo assai eterogeneo di pellegrini — un cavaliere, una monaca, un mugnaio, una vedova di Bath, un mercante, un frate,"
+      "speech": "un gruppo assai eterogeneo di pellegrini — un cavaliere, una monaca, un mugnaio, una vedova di Bath, un mercante, un frate,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "un gruppo assai eterogeneo di pellegrini — un cavaliere, una monaca, un mugnaio, una vedova di"
+        },
+        {
+          "lang": "en",
+          "text": "Bath,"
+        },
+        {
+          "lang": "it",
+          "text": "un mercante, un frate,"
+        }
+      ]
     },
     {
       "text": "e molti altri personaggi ancora, rappresentativi di un vero e proprio spaccato sociale dell'Inghilterra del tempo —",
@@ -86,7 +178,21 @@
     },
     {
       "text": "si mette in viaggio da Londra verso il santuario di Canterbury, e per ingannare la noia e la lunghezza del percorso decide di raccontarsi a turno delle storie.",
-      "speech": "si mette in viaggio da Londra verso il santuario di Canterbury, e per ingannare la noia e la lunghezza del percorso decide di raccontarsi a turno delle storie."
+      "speech": "si mette in viaggio da Londra verso il santuario di Canterbury, e per ingannare la noia e la lunghezza del percorso decide di raccontarsi a turno delle storie.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "si mette in viaggio da Londra verso il santuario di"
+        },
+        {
+          "lang": "en",
+          "text": "Canterbury,"
+        },
+        {
+          "lang": "it",
+          "text": "e per ingannare la noia e la lunghezza del percorso decide di raccontarsi a turno delle storie."
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento su questa struttura, perché è esattamente il tipo di dettaglio tecnico che arricchisce una risposta d'esame:",
@@ -106,7 +212,17 @@
     },
     {
       "text": "ma anche mercanti, artigiani, e figure femminili indipendenti come la celebre vedova di Bath,",
-      "speech": "ma anche mercanti, artigiani, e figure femminili indipendenti come la celebre vedova di Bath,"
+      "speech": "ma anche mercanti, artigiani, e figure femminili indipendenti come la celebre vedova di Bath,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "ma anche mercanti, artigiani, e figure femminili indipendenti come la celebre vedova di"
+        },
+        {
+          "lang": "en",
+          "text": "Bath,"
+        }
+      ]
     },
     {
       "text": "un personaggio che sorprende ancora oggi per la propria vivacità e per la propria autonomia di giudizio, specialmente in tema di rapporti tra uomini e donne.",
@@ -118,7 +234,21 @@
     },
     {
       "text": "Chaucer scrive la propria opera in inglese medio, Middle English, la lingua nata dalla fusione tra la base germanica anglosassone e il vasto lessico francese introdotto dalla conquista normanna del 1066, di cui abbiamo parlato qualche episodio fa.",
-      "speech": "Chaucer scrive la propria opera in inglese medio, Middle English, la lingua nata dalla fusione tra la base germanica anglosassone e il vasto lessico francese introdotto dalla conquista normanna del 1066, di cui abbiamo parlato qualche episodio fa."
+      "speech": "Chaucer scrive la propria opera in inglese medio, Middle English, la lingua nata dalla fusione tra la base germanica anglosassone e il vasto lessico francese introdotto dalla conquista normanna del 1066, di cui abbiamo parlato qualche episodio fa.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Chaucer scrive la propria opera in inglese medio,"
+        },
+        {
+          "lang": "en",
+          "text": "Middle English,"
+        },
+        {
+          "lang": "it",
+          "text": "la lingua nata dalla fusione tra la base germanica anglosassone e il vasto lessico francese introdotto dalla conquista normanna del 1066, di cui abbiamo parlato qualche episodio fa."
+        }
+      ]
     },
     {
       "text": "Scegliendo di scrivere in volgare inglese, invece che in latino o in francese, le due lingue di prestigio culturale dell'epoca, Chaucer contribuisce in modo decisivo ad affermare l'inglese come lingua letteraria pienamente dignitosa,",
@@ -142,19 +272,71 @@
     },
     {
       "text": "Secondo: Lord Randal costruisce la propria tensione narrativa attraverso un dialogo serrato tra madre e figlio morente, rivelando gradualmente il tradimento subito dal protagonista.",
-      "speech": "Secondo: Lord Randal costruisce la propria tensione narrativa attraverso un dialogo serrato tra madre e figlio morente, rivelando gradualmente il tradimento subito dal protagonista."
+      "speech": "Secondo: Lord Randal costruisce la propria tensione narrativa attraverso un dialogo serrato tra madre e figlio morente, rivelando gradualmente il tradimento subito dal protagonista.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo:"
+        },
+        {
+          "lang": "en",
+          "text": "Lord"
+        },
+        {
+          "lang": "it",
+          "text": "Randal costruisce la propria tensione narrativa attraverso un dialogo serrato tra madre e figlio morente, rivelando gradualmente il tradimento subito dal protagonista."
+        }
+      ]
     },
     {
       "text": "Terzo: Geoffrey Chaucer, padre della poesia inglese, usa la cornice del pellegrinaggio verso Canterbury per offrire un ritratto vivido e variegato della società inglese del proprio tempo.",
-      "speech": "Terzo: Geoffrey Chaucer, padre della poesia inglese, usa la cornice del pellegrinaggio verso Canterbury per offrire un ritratto vivido e variegato della società inglese del proprio tempo."
+      "speech": "Terzo: Geoffrey Chaucer, padre della poesia inglese, usa la cornice del pellegrinaggio verso Canterbury per offrire un ritratto vivido e variegato della società inglese del proprio tempo.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: Geoffrey Chaucer, padre della poesia inglese, usa la cornice del pellegrinaggio verso"
+        },
+        {
+          "lang": "en",
+          "text": "Canterbury"
+        },
+        {
+          "lang": "it",
+          "text": "per offrire un ritratto vivido e variegato della società inglese del proprio tempo."
+        }
+      ]
     },
     {
       "text": "Quarto: scrivendo in Middle English, Chaucer contribuisce ad affermare l'inglese come lingua letteraria dignitosa, in un processo per certi versi parallelo a quello di Dante per il volgare italiano.",
-      "speech": "Quarto: scrivendo in Middle English, Chaucer contribuisce ad affermare l'inglese come lingua letteraria dignitosa, in un processo per certi versi parallelo a quello di Dante per il volgare italiano."
+      "speech": "Quarto: scrivendo in Middle English, Chaucer contribuisce ad affermare l'inglese come lingua letteraria dignitosa, in un processo per certi versi parallelo a quello di Dante per il volgare italiano.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto: scrivendo in"
+        },
+        {
+          "lang": "en",
+          "text": "Middle English,"
+        },
+        {
+          "lang": "it",
+          "text": "Chaucer contribuisce ad affermare l'inglese come lingua letteraria dignitosa, in un processo per certi versi parallelo a quello di Dante per il volgare italiano."
+        }
+      ]
     },
     {
       "text": "Nel prossimo episodio arriviamo al Rinascimento inglese e al sonetto, per poi conoscere il massimo autore di tutta la letteratura inglese: William Shakespeare, il Sonetto 130 e Romeo and Juliet.",
-      "speech": "Nel prossimo episodio arriviamo al Rinascimento inglese e al sonetto, per poi conoscere il massimo autore di tutta la letteratura inglese: William Shakespeare, il Sonetto 130 e Romeo and Juliet."
+      "speech": "Nel prossimo episodio arriviamo al Rinascimento inglese e al sonetto, per poi conoscere il massimo autore di tutta la letteratura inglese: William Shakespeare, il Sonetto 130 e Romeo and Juliet.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio arriviamo al Rinascimento inglese e al sonetto, per poi conoscere il massimo autore di tutta la letteratura inglese: William Shakespeare, il Sonetto 130 e Romeo"
+        },
+        {
+          "lang": "en",
+          "text": "and Juliet."
+        }
+      ]
     },
     {
       "text": "Ci vediamo lì.",

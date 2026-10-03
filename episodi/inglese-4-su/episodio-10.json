@@ -6,7 +6,25 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo visto Coleridge e la vicenda dell'albatro in The Rime of the Ancient Mariner.",
-      "speech": "Nell'episodio scorso abbiamo visto Coleridge e la vicenda dell'albatro in The Rime of the Ancient Mariner."
+      "speech": "Nell'episodio scorso abbiamo visto Coleridge e la vicenda dell'albatro in The Rime of the Ancient Mariner.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto Coleridge e la vicenda dell'albatro in"
+        },
+        {
+          "lang": "en",
+          "text": "The"
+        },
+        {
+          "lang": "it",
+          "text": "Rime"
+        },
+        {
+          "lang": "en",
+          "text": "of the Ancient Mariner."
+        }
+      ]
     },
     {
       "text": "Oggi completiamo il Modulo 3 con la seconda generazione dei poeti romantici inglesi:",
@@ -22,7 +40,21 @@
     },
     {
       "text": "Ci concentriamo oggi su due di questi poeti, John Keats e Percy Bysshe Shelley, entrambi appartenenti, insieme a Lord Byron, a questa seconda generazione.",
-      "speech": "Ci concentriamo oggi su due di questi poeti, John Keats e Percy Bysshe Shelley, entrambi appartenenti, insieme a Lord Byron, a questa seconda generazione."
+      "speech": "Ci concentriamo oggi su due di questi poeti, John Keats e Percy Bysshe Shelley, entrambi appartenenti, insieme a Lord Byron, a questa seconda generazione.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ci concentriamo oggi su due di questi poeti, John Keats e Percy Bysshe Shelley, entrambi appartenenti, insieme a"
+        },
+        {
+          "lang": "en",
+          "text": "Lord Byron,"
+        },
+        {
+          "lang": "it",
+          "text": "a questa seconda generazione."
+        }
+      ]
     },
     {
       "text": "John Keats, morto di tubercolosi a soli venticinque anni nel 1821, compone nel 1819 — il suo annus mirabilis creativo, cioè l'anno straordinariamente fecondo della sua breve carriera —",
@@ -30,7 +62,21 @@
     },
     {
       "text": "le sue sei grandi odi, tra cui Ode to a Nightingale, l'ode all'usignolo.",
-      "speech": "le sue sei grandi odi, tra cui Ode to a Nightingale, l'ode all'usignolo."
+      "speech": "le sue sei grandi odi, tra cui Ode to a Nightingale, l'ode all'usignolo.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "le sue sei grandi odi, tra cui Ode"
+        },
+        {
+          "lang": "en",
+          "text": "to a Nightingale,"
+        },
+        {
+          "lang": "it",
+          "text": "l'ode all'usignolo."
+        }
+      ]
     },
     {
       "text": "La poesia nasce dall'ascolto del canto di un usignolo, che il poeta contrappone alla propria condizione mortale e sofferente:",
@@ -46,11 +92,39 @@
     },
     {
       "text": "il dolore dell'esistenza umana — salvo essere infine richiamato bruscamente alla propria condizione reale da una singola parola, «forlorn», abbandonato, desolato, che lo riporta bruscamente al proprio «sole self», al proprio io solitario e mortale.",
-      "speech": "il dolore dell'esistenza umana — salvo essere infine richiamato bruscamente alla propria condizione reale da una singola parola, «forlorn», abbandonato, desolato, che lo riporta bruscamente al proprio «sole self», al proprio io solitario e mortale."
+      "speech": "il dolore dell'esistenza umana — salvo essere infine richiamato bruscamente alla propria condizione reale da una singola parola, «forlorn», abbandonato, desolato, che lo riporta bruscamente al proprio «sole self», al proprio io solitario e mortale.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il dolore dell'esistenza umana — salvo essere infine richiamato bruscamente alla propria condizione reale da una singola parola, «forlorn», abbandonato, desolato, che lo riporta bruscamente al proprio «sole"
+        },
+        {
+          "lang": "en",
+          "text": "self»,"
+        },
+        {
+          "lang": "it",
+          "text": "al proprio io solitario e mortale."
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento su un concetto teorico che Keats stesso elaborò nelle proprie lettere private, e che la poesia esprime in forma esemplare: la nozione di «negative capability», capacità negativa.",
-      "speech": "Fermatevi un momento su un concetto teorico che Keats stesso elaborò nelle proprie lettere private, e che la poesia esprime in forma esemplare: la nozione di «negative capability», capacità negativa."
+      "speech": "Fermatevi un momento su un concetto teorico che Keats stesso elaborò nelle proprie lettere private, e che la poesia esprime in forma esemplare: la nozione di «negative capability», capacità negativa.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fermatevi un momento su un concetto teorico che Keats stesso elaborò nelle proprie lettere private, e che la poesia esprime in forma esemplare: la nozione di «"
+        },
+        {
+          "lang": "en",
+          "text": "negative capability»,"
+        },
+        {
+          "lang": "it",
+          "text": "capacità negativa."
+        }
+      ]
     },
     {
       "text": "Si tratta della capacità del poeta di sostare nell'incertezza, nel mistero e nel dubbio, senza il bisogno affannoso di una spiegazione razionale definitiva per ogni cosa.",
@@ -58,7 +132,17 @@
     },
     {
       "text": "In Ode to a Nightingale, questa capacità negativa si manifesta proprio nell'oscillazione, mai risolta in una sintesi definitiva,",
-      "speech": "In Ode to a Nightingale, questa capacità negativa si manifesta proprio nell'oscillazione, mai risolta in una sintesi definitiva,"
+      "speech": "In Ode to a Nightingale, questa capacità negativa si manifesta proprio nell'oscillazione, mai risolta in una sintesi definitiva,",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "In Ode to a Nightingale,"
+        },
+        {
+          "lang": "it",
+          "text": "questa capacità negativa si manifesta proprio nell'oscillazione, mai risolta in una sintesi definitiva,"
+        }
+      ]
     },
     {
       "text": "tra il desiderio di fusione con l'eternità simboleggiata dal canto dell'usignolo e la piena, dolorosa consapevolezza della propria condizione umana mortale:",
@@ -82,7 +166,21 @@
     },
     {
       "text": "sul piedistallo si legge ancora scolpita l'iscrizione orgogliosa del sovrano, «My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair!» — io sono Ozymandias, re dei re; guardate le mie opere, o potenti, e disperate.",
-      "speech": "sul piedistallo si legge ancora scolpita l'iscrizione orgogliosa del sovrano, «My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair!» — io sono Ozymandias, re dei re; guardate le mie opere, o potenti, e disperate."
+      "speech": "sul piedistallo si legge ancora scolpita l'iscrizione orgogliosa del sovrano, «My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair!» — io sono Ozymandias, re dei re; guardate le mie opere, o potenti, e disperate.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "sul piedistallo si legge ancora scolpita l'iscrizione orgogliosa del sovrano, «"
+        },
+        {
+          "lang": "en",
+          "text": "My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair!» —"
+        },
+        {
+          "lang": "it",
+          "text": "io sono Ozymandias, re dei re; guardate le mie opere, o potenti, e disperate."
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento sull'ironia amara che struttura l'intero sonetto, perché è esattamente il meccanismo retorico che vale la pena saper analizzare con precisione in un'interrogazione:",
@@ -94,7 +192,21 @@
     },
     {
       "text": "come recita l'ultimo verso del sonetto, «nothing beside remains» — nulla rimane, accanto alla statua in rovina, se non le rovine stesse, disperse in un deserto piatto e infinito che si estende a perdita d'occhio.",
-      "speech": "come recita l'ultimo verso del sonetto, «nothing beside remains» — nulla rimane, accanto alla statua in rovina, se non le rovine stesse, disperse in un deserto piatto e infinito che si estende a perdita d'occhio."
+      "speech": "come recita l'ultimo verso del sonetto, «nothing beside remains» — nulla rimane, accanto alla statua in rovina, se non le rovine stesse, disperse in un deserto piatto e infinito che si estende a perdita d'occhio.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "come recita l'ultimo verso del sonetto, «"
+        },
+        {
+          "lang": "en",
+          "text": "nothing beside remains» —"
+        },
+        {
+          "lang": "it",
+          "text": "nulla rimane, accanto alla statua in rovina, se non le rovine stesse, disperse in un deserto piatto e infinito che si estende a perdita d'occhio."
+        }
+      ]
     },
     {
       "text": "Il sonetto condensa così, in appena quattordici versi, una riflessione tipicamente romantica sulla vanità del potere umano e sulla forza corrosiva e ineluttabile del tempo,",
@@ -134,7 +246,25 @@
     },
     {
       "text": "Secondo: in Ode to a Nightingale, Keats contrappone la bellezza senza tempo del canto dell'usignolo alla propria condizione umana mortale, esprimendo la propria idea di «negative capability».",
-      "speech": "Secondo: in Ode to a Nightingale, Keats contrappone la bellezza senza tempo del canto dell'usignolo alla propria condizione umana mortale, esprimendo la propria idea di «negative capability»."
+      "speech": "Secondo: in Ode to a Nightingale, Keats contrappone la bellezza senza tempo del canto dell'usignolo alla propria condizione umana mortale, esprimendo la propria idea di «negative capability».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo:"
+        },
+        {
+          "lang": "en",
+          "text": "in Ode to a Nightingale,"
+        },
+        {
+          "lang": "it",
+          "text": "Keats contrappone la bellezza senza tempo del canto dell'usignolo alla propria condizione umana mortale, esprimendo la propria idea di «"
+        },
+        {
+          "lang": "en",
+          "text": "negative capability»."
+        }
+      ]
     },
     {
       "text": "Terzo: in Ozymandias, Shelley riflette sulla vanità del potere umano attraverso l'ironia amara di un'iscrizione orgogliosa smentita dalle rovine circostanti.",
@@ -146,7 +276,25 @@
     },
     {
       "text": "Nel prossimo episodio entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana, tornando a Hard Times di Dickens per analizzare la filosofia educativa di Mr Gradgrind.",
-      "speech": "Nel prossimo episodio entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana, tornando a Hard Times di Dickens per analizzare la filosofia educativa di Mr Gradgrind."
+      "speech": "Nel prossimo episodio entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana, tornando a Hard Times di Dickens per analizzare la filosofia educativa di Mr Gradgrind.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana, tornando a"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "di Dickens per analizzare la filosofia educativa di"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Gradgrind."
+        }
+      ]
     },
     {
       "text": "Ci vediamo lì.",

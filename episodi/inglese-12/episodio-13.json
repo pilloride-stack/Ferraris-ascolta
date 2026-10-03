@@ -14,11 +14,39 @@
     },
     {
       "text": "il periodo ipotetico, in inglese conditional sentences, nei suoi quattro tipi fondamentali — zero, primo, secondo e terzo.",
-      "speech": "il periodo ipotetico, in inglese conditional sentences, nei suoi quattro tipi fondamentali — zero, primo, secondo e terzo."
+      "speech": "il periodo ipotetico, in inglese conditional sentences, nei suoi quattro tipi fondamentali — zero, primo, secondo e terzo.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il periodo ipotetico, in inglese"
+        },
+        {
+          "lang": "en",
+          "text": "conditional sentences,"
+        },
+        {
+          "lang": "it",
+          "text": "nei suoi quattro tipi fondamentali — zero, primo, secondo e terzo."
+        }
+      ]
     },
     {
       "text": "Il periodo ipotetico è composto sempre da due parti: una proposizione introdotta da if, che esprime la condizione, e una proposizione principale, che esprime la conseguenza.",
-      "speech": "Il periodo ipotetico è composto sempre da due parti: una proposizione introdotta da if, che esprime la condizione, e una proposizione principale, che esprime la conseguenza."
+      "speech": "Il periodo ipotetico è composto sempre da due parti: una proposizione introdotta da if, che esprime la condizione, e una proposizione principale, che esprime la conseguenza.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il periodo ipotetico è composto sempre da due parti: una proposizione introdotta da"
+        },
+        {
+          "lang": "en",
+          "text": "if,"
+        },
+        {
+          "lang": "it",
+          "text": "che esprime la condizione, e una proposizione principale, che esprime la conseguenza."
+        }
+      ]
     },
     {
       "text": "La difficoltà per uno studente italiano non sta tanto nel capire questa struttura di base, che esiste anche in italiano, quanto nel ricordare con precisione quale combinazione di tempi verbali corrisponde a ciascuno dei quattro tipi,",
@@ -34,11 +62,51 @@
     },
     {
       "text": "la struttura è if più il present simple nella condizione, seguito dal present simple anche nella conseguenza.",
-      "speech": "la struttura è if più il present simple nella condizione, seguito dal present simple anche nella conseguenza."
+      "speech": "la struttura è if più il present simple nella condizione, seguito dal present simple anche nella conseguenza.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la struttura è"
+        },
+        {
+          "lang": "en",
+          "text": "if"
+        },
+        {
+          "lang": "it",
+          "text": "più il"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "nella condizione, seguito dal"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "anche nella conseguenza."
+        }
+      ]
     },
     {
       "text": "«If you heat water, it boils», se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\".",
-      "speech": "«If you heat water, it boils», se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\"."
+      "speech": "«If you heat water, it boils», se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\".",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«If you heat water, it boils»,"
+        },
+        {
+          "lang": "it",
+          "text": "se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\"."
+        }
+      ]
     },
     {
       "text": "Il primo tipo si usa per condizioni reali e possibili nel futuro, qualcosa che potrebbe effettivamente accadere:",
@@ -46,11 +114,87 @@
     },
     {
       "text": "la struttura è if più il present simple nella condizione — attenzione, non will, un errore molto comune tra gli studenti italiani, che tendono a mettere will anche nella proposizione con if — seguito da will più l'infinito nella conseguenza.",
-      "speech": "la struttura è if più il present simple nella condizione — attenzione, non will, un errore molto comune tra gli studenti italiani, che tendono a mettere will anche nella proposizione con if — seguito da will più l'infinito nella conseguenza."
+      "speech": "la struttura è if più il present simple nella condizione — attenzione, non will, un errore molto comune tra gli studenti italiani, che tendono a mettere will anche nella proposizione con if — seguito da will più l'infinito nella conseguenza.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la struttura è"
+        },
+        {
+          "lang": "en",
+          "text": "if"
+        },
+        {
+          "lang": "it",
+          "text": "più il"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "nella condizione — attenzione, non"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "un errore molto comune tra gli studenti italiani, che tendono a mettere"
+        },
+        {
+          "lang": "en",
+          "text": "will"
+        },
+        {
+          "lang": "it",
+          "text": "anche nella proposizione con"
+        },
+        {
+          "lang": "en",
+          "text": "if —"
+        },
+        {
+          "lang": "it",
+          "text": "seguito da"
+        },
+        {
+          "lang": "en",
+          "text": "will"
+        },
+        {
+          "lang": "it",
+          "text": "più l'infinito nella conseguenza."
+        }
+      ]
     },
     {
       "text": "«If it rains, I will stay home», se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il present simple, non will.",
-      "speech": "«If it rains, I will stay home», se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il present simple, non will."
+      "speech": "«If it rains, I will stay home», se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il present simple, non will.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«If it rains, I will stay home»,"
+        },
+        {
+          "lang": "it",
+          "text": "se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il"
+        },
+        {
+          "lang": "en",
+          "text": "present simple,"
+        },
+        {
+          "lang": "it",
+          "text": "non"
+        },
+        {
+          "lang": "en",
+          "text": "will."
+        }
+      ]
     },
     {
       "text": "Il secondo tipo si usa per condizioni irreali o comunque improbabili nel presente o nel futuro, situazioni che immaginiamo ma che sappiamo essere, allo stato attuale, lontane dalla realtà:",
@@ -58,11 +202,51 @@
     },
     {
       "text": "la struttura è if più il past simple nella condizione, seguito da would più l'infinito nella conseguenza.",
-      "speech": "la struttura è if più il past simple nella condizione, seguito da would più l'infinito nella conseguenza."
+      "speech": "la struttura è if più il past simple nella condizione, seguito da would più l'infinito nella conseguenza.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la struttura è"
+        },
+        {
+          "lang": "en",
+          "text": "if"
+        },
+        {
+          "lang": "it",
+          "text": "più il"
+        },
+        {
+          "lang": "en",
+          "text": "past simple"
+        },
+        {
+          "lang": "it",
+          "text": "nella condizione, seguito da"
+        },
+        {
+          "lang": "en",
+          "text": "would"
+        },
+        {
+          "lang": "it",
+          "text": "più l'infinito nella conseguenza."
+        }
+      ]
     },
     {
       "text": "«If I won the lottery, I would travel», se vincessi alla lotteria, viaggerei:",
-      "speech": "«If I won the lottery, I would travel», se vincessi alla lotteria, viaggerei:"
+      "speech": "«If I won the lottery, I would travel», se vincessi alla lotteria, viaggerei:",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«If I won the lottery, I would travel»,"
+        },
+        {
+          "lang": "it",
+          "text": "se vincessi alla lotteria, viaggerei:"
+        }
+      ]
     },
     {
       "text": "non ho vinto alla lotteria, probabilmente non la vincerò, sto semplicemente immaginando un'ipotesi lontana dalla realtà attuale.",
@@ -70,7 +254,17 @@
     },
     {
       "text": "Fermatevi un momento su un dettaglio importante: qui usiamo il past simple, won,",
-      "speech": "Fermatevi un momento su un dettaglio importante: qui usiamo il past simple, won,"
+      "speech": "Fermatevi un momento su un dettaglio importante: qui usiamo il past simple, won,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fermatevi un momento su un dettaglio importante: qui usiamo il"
+        },
+        {
+          "lang": "en",
+          "text": "past simple, won,"
+        }
+      ]
     },
     {
       "text": "ma non ci stiamo affatto riferendo al passato — è solo la forma grammaticale scelta dall'inglese per segnalare l'irrealtà o l'improbabilità della condizione nel presente o nel futuro, non un vero riferimento temporale al passato.",
@@ -82,7 +276,21 @@
     },
     {
       "text": "ed è un parallelo utile da tenere a mente per non confondere il past simple usato qui con un vero racconto di un evento passato.",
-      "speech": "ed è un parallelo utile da tenere a mente per non confondere il past simple usato qui con un vero racconto di un evento passato."
+      "speech": "ed è un parallelo utile da tenere a mente per non confondere il past simple usato qui con un vero racconto di un evento passato.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "ed è un parallelo utile da tenere a mente per non confondere il"
+        },
+        {
+          "lang": "en",
+          "text": "past simple"
+        },
+        {
+          "lang": "it",
+          "text": "usato qui con un vero racconto di un evento passato."
+        }
+      ]
     },
     {
       "text": "Il terzo tipo, infine, si usa per condizioni irreali nel passato, situazioni che non sono avvenute e che quindi, con certezza, non potranno più essere cambiate:",
@@ -90,11 +298,51 @@
     },
     {
       "text": "la struttura è if più il past perfect nella condizione, seguito da would have più il participio passato nella conseguenza.",
-      "speech": "la struttura è if più il past perfect nella condizione, seguito da would have più il participio passato nella conseguenza."
+      "speech": "la struttura è if più il past perfect nella condizione, seguito da would have più il participio passato nella conseguenza.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la struttura è"
+        },
+        {
+          "lang": "en",
+          "text": "if"
+        },
+        {
+          "lang": "it",
+          "text": "più il"
+        },
+        {
+          "lang": "en",
+          "text": "past perfect"
+        },
+        {
+          "lang": "it",
+          "text": "nella condizione, seguito da"
+        },
+        {
+          "lang": "en",
+          "text": "would have"
+        },
+        {
+          "lang": "it",
+          "text": "più il participio passato nella conseguenza."
+        }
+      ]
     },
     {
       "text": "«If I had studied, I would have passed», se avessi studiato, avrei superato l'esame:",
-      "speech": "«If I had studied, I would have passed», se avessi studiato, avrei superato l'esame:"
+      "speech": "«If I had studied, I would have passed», se avessi studiato, avrei superato l'esame:",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«If I had studied, I would have passed»,"
+        },
+        {
+          "lang": "it",
+          "text": "se avessi studiato, avrei superato l'esame:"
+        }
+      ]
     },
     {
       "text": "non ho studiato, non ho superato l'esame, e ormai non posso tornare indietro a cambiare questa realtà passata — è tipicamente il tempo del rimpianto,",
@@ -106,15 +354,97 @@
     },
     {
       "text": "Vediamo tutti e quattro i tipi insieme, in un unico schema mentale che vi consiglio di ripetere spesso ad alta voce fino a fissarlo bene: zero, present più present, per le verità generali;",
-      "speech": "Vediamo tutti e quattro i tipi insieme, in un unico schema mentale che vi consiglio di ripetere spesso ad alta voce fino a fissarlo bene: zero, present più present, per le verità generali;"
+      "speech": "Vediamo tutti e quattro i tipi insieme, in un unico schema mentale che vi consiglio di ripetere spesso ad alta voce fino a fissarlo bene: zero, present più present, per le verità generali;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vediamo tutti e quattro i tipi insieme, in un unico schema mentale che vi consiglio di ripetere spesso ad alta voce fino a fissarlo bene: zero,"
+        },
+        {
+          "lang": "en",
+          "text": "present"
+        },
+        {
+          "lang": "it",
+          "text": "più"
+        },
+        {
+          "lang": "en",
+          "text": "present,"
+        },
+        {
+          "lang": "it",
+          "text": "per le verità generali;"
+        }
+      ]
     },
     {
       "text": "primo, present più will, per il futuro realistico; secondo, past simple più would, per l'irrealtà nel presente o nel futuro;",
-      "speech": "primo, present più will, per il futuro realistico; secondo, past simple più would, per l'irrealtà nel presente o nel futuro;"
+      "speech": "primo, present più will, per il futuro realistico; secondo, past simple più would, per l'irrealtà nel presente o nel futuro;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "primo,"
+        },
+        {
+          "lang": "en",
+          "text": "present"
+        },
+        {
+          "lang": "it",
+          "text": "più"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "per il futuro realistico; secondo,"
+        },
+        {
+          "lang": "en",
+          "text": "past simple"
+        },
+        {
+          "lang": "it",
+          "text": "più"
+        },
+        {
+          "lang": "en",
+          "text": "would,"
+        },
+        {
+          "lang": "it",
+          "text": "per l'irrealtà nel presente o nel futuro;"
+        }
+      ]
     },
     {
       "text": "terzo, past perfect più would have, per l'irrealtà nel passato, ormai irrimediabile.",
-      "speech": "terzo, past perfect più would have, per l'irrealtà nel passato, ormai irrimediabile."
+      "speech": "terzo, past perfect più would have, per l'irrealtà nel passato, ormai irrimediabile.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "terzo,"
+        },
+        {
+          "lang": "en",
+          "text": "past perfect"
+        },
+        {
+          "lang": "it",
+          "text": "più"
+        },
+        {
+          "lang": "en",
+          "text": "would have,"
+        },
+        {
+          "lang": "it",
+          "text": "per l'irrealtà nel passato, ormai irrimediabile."
+        }
+      ]
     },
     {
       "text": "Un buon modo per ricordare la progressione è pensare al grado di \"distanza dalla realtà\": lo zero non ha alcuna distanza, è sempre vero; il primo ha poca distanza, è realisticamente possibile;",
@@ -134,7 +464,17 @@
     },
     {
       "text": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo: «If I studied more, I would get better grades».",
-      "speech": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo: «If I studied more, I would get better grades»."
+      "speech": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo: «If I studied more, I would get better grades».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo: «"
+        },
+        {
+          "lang": "en",
+          "text": "If I studied more, I would get better grades»."
+        }
+      ]
     },
     {
       "text": "Nella seconda frase, invece, ci riferiamo esplicitamente a un momento passato ormai concluso — l'anno scorso — quindi corrisponde al terzo tipo:",
@@ -142,7 +482,13 @@
     },
     {
       "text": "«If I had studied more last year, I would have got better grades».",
-      "speech": "«If I had studied more last year, I would have got better grades»."
+      "speech": "«If I had studied more last year, I would have got better grades».",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«If I had studied more last year, I would have got better grades»."
+        }
+      ]
     },
     {
       "text": "Se siete riusciti a distinguere questi due casi, cogliendo la differenza tra un'ipotesi ancora aperta sul presente e un rimpianto ormai chiuso sul passato, avete applicato correttamente il criterio più delicato di tutta questa lezione.",
@@ -166,19 +512,107 @@
     },
     {
       "text": "Primo: il tipo zero, present più present, esprime verità generali sempre valide.",
-      "speech": "Primo: il tipo zero, present più present, esprime verità generali sempre valide."
+      "speech": "Primo: il tipo zero, present più present, esprime verità generali sempre valide.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il tipo zero,"
+        },
+        {
+          "lang": "en",
+          "text": "present"
+        },
+        {
+          "lang": "it",
+          "text": "più"
+        },
+        {
+          "lang": "en",
+          "text": "present,"
+        },
+        {
+          "lang": "it",
+          "text": "esprime verità generali sempre valide."
+        }
+      ]
     },
     {
       "text": "Secondo: il primo tipo, present più will, esprime condizioni realistiche riferite al futuro.",
-      "speech": "Secondo: il primo tipo, present più will, esprime condizioni realistiche riferite al futuro."
+      "speech": "Secondo: il primo tipo, present più will, esprime condizioni realistiche riferite al futuro.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: il primo tipo,"
+        },
+        {
+          "lang": "en",
+          "text": "present"
+        },
+        {
+          "lang": "it",
+          "text": "più"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "esprime condizioni realistiche riferite al futuro."
+        }
+      ]
     },
     {
       "text": "Terzo: il secondo tipo, past simple più would, esprime condizioni irreali o improbabili nel presente o nel futuro, senza alcun riferimento temporale reale al passato.",
-      "speech": "Terzo: il secondo tipo, past simple più would, esprime condizioni irreali o improbabili nel presente o nel futuro, senza alcun riferimento temporale reale al passato."
+      "speech": "Terzo: il secondo tipo, past simple più would, esprime condizioni irreali o improbabili nel presente o nel futuro, senza alcun riferimento temporale reale al passato.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: il secondo tipo,"
+        },
+        {
+          "lang": "en",
+          "text": "past simple"
+        },
+        {
+          "lang": "it",
+          "text": "più"
+        },
+        {
+          "lang": "en",
+          "text": "would,"
+        },
+        {
+          "lang": "it",
+          "text": "esprime condizioni irreali o improbabili nel presente o nel futuro, senza alcun riferimento temporale reale al passato."
+        }
+      ]
     },
     {
       "text": "Quarto: il terzo tipo, past perfect più would have, esprime condizioni irreali nel passato, ormai impossibili da cambiare.",
-      "speech": "Quarto: il terzo tipo, past perfect più would have, esprime condizioni irreali nel passato, ormai impossibili da cambiare."
+      "speech": "Quarto: il terzo tipo, past perfect più would have, esprime condizioni irreali nel passato, ormai impossibili da cambiare.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto: il terzo tipo,"
+        },
+        {
+          "lang": "en",
+          "text": "past perfect"
+        },
+        {
+          "lang": "it",
+          "text": "più"
+        },
+        {
+          "lang": "en",
+          "text": "would have,"
+        },
+        {
+          "lang": "it",
+          "text": "esprime condizioni irreali nel passato, ormai impossibili da cambiare."
+        }
+      ]
     },
     {
       "text": "Nel prossimo episodio concludiamo il programma grammaticale di Classe Seconda con i pronomi relativi, per poi passare alle funzioni comunicative — l'ambiente,",

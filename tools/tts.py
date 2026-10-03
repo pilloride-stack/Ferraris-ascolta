@@ -6,12 +6,14 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 KEY = os.environ["TTS_KEY"]
 VOICE = os.environ.get("TTS_VOICE", "it-IT-Chirp3-HD-Charon")
+VOICE_EN = os.environ.get("TTS_VOICE_EN", "en-GB-Chirp3-HD-Charon")
 RATE = float(os.environ.get("TTS_RATE", "0.94"))
 WORKERS = int(os.environ.get("TTS_WORKERS", "10"))
 
-def tts(text):
+def tts(text, lang="it"):
+    voice = VOICE_EN if lang == "en" else VOICE
     body = json.dumps({"input": {"text": text},
-                       "voice": {"languageCode": "it-IT", "name": VOICE},
+                       "voice": {"languageCode": voice[:5], "name": voice},
                        "audioConfig": {"audioEncoding": "LINEAR16", "speakingRate": RATE,
                                        "sampleRateHertz": 24000}}).encode()
     for attempt in range(6):
@@ -28,16 +30,31 @@ def tts(text):
 
 def make(job):
     text, out = job
-    wav = tts(text)
-    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
-        f.write(wav)
-        tmp = f.name
+    # text: stringa (una sola voce) oppure lista di parti [{"lang": "it"|"en", "text": ...}]
+    parts = text if isinstance(text, list) else [{"lang": "it", "text": text}]
+    wavs = []
+    for p in parts:
+        if not p["text"].strip():
+            continue
+        with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
+            f.write(tts(p["text"].strip(), p.get("lang", "it")))
+            wavs.append(f.name)
     os.makedirs(os.path.dirname(out), exist_ok=True)
     part = out + ".part.mp3"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp, "-ac", "1", "-ar", "24000",
+    if len(wavs) == 1:
+        inp = ["-i", wavs[0]]
+    else:
+        lst = out + ".list.txt"
+        with open(lst, "w") as f:
+            f.write("".join(f"file '{w}'\n" for w in wavs))
+        inp = ["-f", "concat", "-safe", "0", "-i", lst]
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inp, "-ac", "1", "-ar", "24000",
                     "-c:a", "libmp3lame", "-b:a", "96k", part], check=True)
     os.replace(part, out)
-    os.remove(tmp)
+    for w in wavs:
+        os.remove(w)
+    if len(wavs) > 1:
+        os.remove(lst)
     return out
 
 def jobs_for(materia):
@@ -48,7 +65,7 @@ def jobs_for(materia):
             out = f"audio/{materia}/episodio-{d['episode']}/frase-{i:02d}.mp3"
             expected.append((out, len(s.get("speech") or s["text"])))
             if not (os.path.exists(out) and os.path.getsize(out) > 1000):
-                jobs.append((s.get("speech") or s["text"], out))
+                jobs.append((s.get("parts") or s.get("speech") or s["text"], out))
     return jobs, expected
 
 def check(expected):

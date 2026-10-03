@@ -26,19 +26,75 @@
     },
     {
       "text": "Il trasporto su strada, road transport, è flessibile e particolarmente adatto a percorsi brevi e medi porta a porta, con un costo e una velocità nella media.",
-      "speech": "Il trasporto su strada, road transport, è flessibile e particolarmente adatto a percorsi brevi e medi porta a porta, con un costo e una velocità nella media."
+      "speech": "Il trasporto su strada, road transport, è flessibile e particolarmente adatto a percorsi brevi e medi porta a porta, con un costo e una velocità nella media.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il trasporto su strada,"
+        },
+        {
+          "lang": "en",
+          "text": "road transport,"
+        },
+        {
+          "lang": "it",
+          "text": "è flessibile e particolarmente adatto a percorsi brevi e medi porta a porta, con un costo e una velocità nella media."
+        }
+      ]
     },
     {
       "text": "Il trasporto ferroviario, rail transport, è economico per grandi volumi su lunghe distanze terrestri, anche se con una velocità piuttosto bassa.",
-      "speech": "Il trasporto ferroviario, rail transport, è economico per grandi volumi su lunghe distanze terrestri, anche se con una velocità piuttosto bassa."
+      "speech": "Il trasporto ferroviario, rail transport, è economico per grandi volumi su lunghe distanze terrestri, anche se con una velocità piuttosto bassa.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il trasporto ferroviario,"
+        },
+        {
+          "lang": "en",
+          "text": "rail transport,"
+        },
+        {
+          "lang": "it",
+          "text": "è economico per grandi volumi su lunghe distanze terrestri, anche se con una velocità piuttosto bassa."
+        }
+      ]
     },
     {
       "text": "Il trasporto aereo, air transport, è invece rapido ma costoso, ed è la scelta ideale per merci deperibili, di alto valore, o semplicemente urgenti.",
-      "speech": "Il trasporto aereo, air transport, è invece rapido ma costoso, ed è la scelta ideale per merci deperibili, di alto valore, o semplicemente urgenti."
+      "speech": "Il trasporto aereo, air transport, è invece rapido ma costoso, ed è la scelta ideale per merci deperibili, di alto valore, o semplicemente urgenti.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il trasporto aereo,"
+        },
+        {
+          "lang": "en",
+          "text": "air transport,"
+        },
+        {
+          "lang": "it",
+          "text": "è invece rapido ma costoso, ed è la scelta ideale per merci deperibili, di alto valore, o semplicemente urgenti."
+        }
+      ]
     },
     {
       "text": "Il trasporto marittimo, sea transport, è il più economico in assoluto per grandi volumi su lunghe distanze internazionali,",
-      "speech": "Il trasporto marittimo, sea transport, è il più economico in assoluto per grandi volumi su lunghe distanze internazionali,"
+      "speech": "Il trasporto marittimo, sea transport, è il più economico in assoluto per grandi volumi su lunghe distanze internazionali,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il trasporto marittimo,"
+        },
+        {
+          "lang": "en",
+          "text": "sea transport,"
+        },
+        {
+          "lang": "it",
+          "text": "è il più economico in assoluto per grandi volumi su lunghe distanze internazionali,"
+        }
+      ]
     },
     {
       "text": "ma anche il più lento di tutti, adatto tipicamente a container e merci alla rinfusa.",
@@ -46,7 +102,21 @@
     },
     {
       "text": "Esiste infine il trasporto multimodale, multimodal transport, che combina più modalità diverse in un unico contratto di trasporto, per ottimizzare al meglio costo e tempi lungo l'intero tragitto.",
-      "speech": "Esiste infine il trasporto multimodale, multimodal transport, che combina più modalità diverse in un unico contratto di trasporto, per ottimizzare al meglio costo e tempi lungo l'intero tragitto."
+      "speech": "Esiste infine il trasporto multimodale, multimodal transport, che combina più modalità diverse in un unico contratto di trasporto, per ottimizzare al meglio costo e tempi lungo l'intero tragitto.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Esiste infine il trasporto multimodale,"
+        },
+        {
+          "lang": "en",
+          "text": "multimodal transport,"
+        },
+        {
+          "lang": "it",
+          "text": "che combina più modalità diverse in un unico contratto di trasporto, per ottimizzare al meglio costo e tempi lungo l'intero tragitto."
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento su questo confronto, perché il criterio decisivo che dovete saper applicare, se un commissario vi chiedesse di scegliere la modalità più adatta per una determinata merce,",
@@ -78,7 +148,29 @@
     },
     {
       "text": "Passiamo ora allo spedizioniere, forwarding agent o freight forwarder, una figura professionale che è importante saper descrivere con precisione.",
-      "speech": "Passiamo ora allo spedizioniere, forwarding agent o freight forwarder, una figura professionale che è importante saper descrivere con precisione."
+      "speech": "Passiamo ora allo spedizioniere, forwarding agent o freight forwarder, una figura professionale che è importante saper descrivere con precisione.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo ora allo spedizioniere,"
+        },
+        {
+          "lang": "en",
+          "text": "forwarding agent"
+        },
+        {
+          "lang": "it",
+          "text": "o"
+        },
+        {
+          "lang": "en",
+          "text": "freight forwarder,"
+        },
+        {
+          "lang": "it",
+          "text": "una figura professionale che è importante saper descrivere con precisione."
+        }
+      ]
     },
     {
       "text": "Lo spedizioniere è l'intermediario specializzato che organizza, per conto dell'esportatore o dell'importatore, l'intero processo logistico di una spedizione:",
@@ -94,11 +186,39 @@
     },
     {
       "text": "In pratica, lo spedizioniere semplifica enormemente il lavoro delle imprese che esportano o importano merci, permettendo loro di concentrarsi sul proprio core business senza doversi occupare direttamente della complessità logistica internazionale.",
-      "speech": "In pratica, lo spedizioniere semplifica enormemente il lavoro delle imprese che esportano o importano merci, permettendo loro di concentrarsi sul proprio core business senza doversi occupare direttamente della complessità logistica internazionale."
+      "speech": "In pratica, lo spedizioniere semplifica enormemente il lavoro delle imprese che esportano o importano merci, permettendo loro di concentrarsi sul proprio core business senza doversi occupare direttamente della complessità logistica internazionale.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "In pratica, lo spedizioniere semplifica enormemente il lavoro delle imprese che esportano o importano merci, permettendo loro di concentrarsi sul proprio core"
+        },
+        {
+          "lang": "en",
+          "text": "business"
+        },
+        {
+          "lang": "it",
+          "text": "senza doversi occupare direttamente della complessità logistica internazionale."
+        }
+      ]
     },
     {
       "text": "Veniamo all'assicurazione del carico, cargo insurance, che protegge l'esportatore o l'importatore dai rischi finanziari legati a perdita,",
-      "speech": "Veniamo all'assicurazione del carico, cargo insurance, che protegge l'esportatore o l'importatore dai rischi finanziari legati a perdita,"
+      "speech": "Veniamo all'assicurazione del carico, cargo insurance, che protegge l'esportatore o l'importatore dai rischi finanziari legati a perdita,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Veniamo all'assicurazione del carico,"
+        },
+        {
+          "lang": "en",
+          "text": "cargo insurance,"
+        },
+        {
+          "lang": "it",
+          "text": "che protegge l'esportatore o l'importatore dai rischi finanziari legati a perdita,"
+        }
+      ]
     },
     {
       "text": "danno o furto della merce durante il trasporto — rischi tutt'altro che trascurabili quando una merce attraversa mezzo mondo su una nave, un aereo o un treno.",
@@ -110,7 +230,17 @@
     },
     {
       "text": "e soprattutto il momento esatto in cui il rischio passa dal venditore al compratore, sono regolati dagli Incoterms, gli International Commercial Terms,",
-      "speech": "e soprattutto il momento esatto in cui il rischio passa dal venditore al compratore, sono regolati dagli Incoterms, gli International Commercial Terms,"
+      "speech": "e soprattutto il momento esatto in cui il rischio passa dal venditore al compratore, sono regolati dagli Incoterms, gli International Commercial Terms,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e soprattutto il momento esatto in cui il rischio passa dal venditore al compratore, sono regolati dagli Incoterms, gli"
+        },
+        {
+          "lang": "en",
+          "text": "International Commercial Terms,"
+        }
+      ]
     },
     {
       "text": "cioè le clausole standard internazionali che definiscono con grande precisione gli obblighi delle parti in un contratto di compravendita internazionale.",
@@ -122,7 +252,21 @@
     },
     {
       "text": "Concludiamo con l'imballaggio, packing, essenziale per proteggere fisicamente la merce durante il trasporto e per facilitarne la movimentazione da parte degli operatori logistici.",
-      "speech": "Concludiamo con l'imballaggio, packing, essenziale per proteggere fisicamente la merce durante il trasporto e per facilitarne la movimentazione da parte degli operatori logistici."
+      "speech": "Concludiamo con l'imballaggio, packing, essenziale per proteggere fisicamente la merce durante il trasporto e per facilitarne la movimentazione da parte degli operatori logistici.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Concludiamo con l'imballaggio,"
+        },
+        {
+          "lang": "en",
+          "text": "packing,"
+        },
+        {
+          "lang": "it",
+          "text": "essenziale per proteggere fisicamente la merce durante il trasporto e per facilitarne la movimentazione da parte degli operatori logistici."
+        }
+      ]
     },
     {
       "text": "Due documenti e pratiche sono strettamente collegati all'imballaggio:",
@@ -130,15 +274,65 @@
     },
     {
       "text": "la packing list, allegata alla spedizione, che elenca in dettaglio il contenuto di ciascun singolo collo, permettendo un controllo rapido e preciso al momento del ricevimento;",
-      "speech": "la packing list, allegata alla spedizione, che elenca in dettaglio il contenuto di ciascun singolo collo, permettendo un controllo rapido e preciso al momento del ricevimento;"
+      "speech": "la packing list, allegata alla spedizione, che elenca in dettaglio il contenuto di ciascun singolo collo, permettendo un controllo rapido e preciso al momento del ricevimento;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la"
+        },
+        {
+          "lang": "en",
+          "text": "packing list,"
+        },
+        {
+          "lang": "it",
+          "text": "allegata alla spedizione, che elenca in dettaglio il contenuto di ciascun singolo collo, permettendo un controllo rapido e preciso al momento del ricevimento;"
+        }
+      ]
     },
     {
       "text": "e la marcatura e l'etichettatura, marking and labelling, che forniscono informazioni essenziali stampate direttamente sul collo stesso, incluse eventuali istruzioni di manipolazione fondamentali per chi maneggia il pacco lungo tutto il percorso,",
-      "speech": "e la marcatura e l'etichettatura, marking and labelling, che forniscono informazioni essenziali stampate direttamente sul collo stesso, incluse eventuali istruzioni di manipolazione fondamentali per chi maneggia il pacco lungo tutto il percorso,"
+      "speech": "e la marcatura e l'etichettatura, marking and labelling, che forniscono informazioni essenziali stampate direttamente sul collo stesso, incluse eventuali istruzioni di manipolazione fondamentali per chi maneggia il pacco lungo tutto il percorso,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e la marcatura e l'etichettatura,"
+        },
+        {
+          "lang": "en",
+          "text": "marking and labelling,"
+        },
+        {
+          "lang": "it",
+          "text": "che forniscono informazioni essenziali stampate direttamente sul collo stesso, incluse eventuali istruzioni di manipolazione fondamentali per chi maneggia il pacco lungo tutto il percorso,"
+        }
+      ]
     },
     {
       "text": "come «Fragile», «This way up» (questo lato verso l'alto) o «Keep dry» (tenere all'asciutto).",
-      "speech": "come «Fragile», «This way up» (questo lato verso l'alto) o «Keep dry» (tenere all'asciutto)."
+      "speech": "come «Fragile», «This way up» (questo lato verso l'alto) o «Keep dry» (tenere all'asciutto).",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "come «Fragile», «"
+        },
+        {
+          "lang": "en",
+          "text": "This way up» ("
+        },
+        {
+          "lang": "it",
+          "text": "questo lato verso l'alto) o «"
+        },
+        {
+          "lang": "en",
+          "text": "Keep dry» ("
+        },
+        {
+          "lang": "it",
+          "text": "tenere all'asciutto)."
+        }
+      ]
     },
     {
       "text": "Proviamo a costruire insieme, come farebbe un insegnante in aula, un piccolo scenario che unisca tutti gli elementi di oggi:",
@@ -154,7 +348,21 @@
     },
     {
       "text": "Il trasporto aereo, air transport, nonostante il costo.",
-      "speech": "Il trasporto aereo, air transport, nonostante il costo."
+      "speech": "Il trasporto aereo, air transport, nonostante il costo.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il trasporto aereo,"
+        },
+        {
+          "lang": "en",
+          "text": "air transport,"
+        },
+        {
+          "lang": "it",
+          "text": "nonostante il costo."
+        }
+      ]
     },
     {
       "text": "Chi organizzerebbe concretamente la spedizione, la prenotazione dello spazio aereo e la documentazione doganale?",
@@ -162,7 +370,17 @@
     },
     {
       "text": "Il forwarding agent.",
-      "speech": "Il forwarding agent."
+      "speech": "Il forwarding agent.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "en",
+          "text": "forwarding agent."
+        }
+      ]
     },
     {
       "text": "Che cosa proteggerebbe l'azienda dai rischi di danno durante il volo?",
@@ -170,7 +388,21 @@
     },
     {
       "text": "La cargo insurance, i cui termini di responsabilità sarebbero definiti dagli Incoterms concordati nel contratto.",
-      "speech": "La cargo insurance, i cui termini di responsabilità sarebbero definiti dagli Incoterms concordati nel contratto."
+      "speech": "La cargo insurance, i cui termini di responsabilità sarebbero definiti dagli Incoterms concordati nel contratto.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La"
+        },
+        {
+          "lang": "en",
+          "text": "cargo insurance,"
+        },
+        {
+          "lang": "it",
+          "text": "i cui termini di responsabilità sarebbero definiti dagli Incoterms concordati nel contratto."
+        }
+      ]
     },
     {
       "text": "E infine, quale etichetta sarebbe opportuno apporre sui colli contenenti componenti elettronici delicati?",
@@ -178,7 +410,17 @@
     },
     {
       "text": "Probabilmente «Fragile» e magari «Keep dry».",
-      "speech": "Probabilmente «Fragile» e magari «Keep dry»."
+      "speech": "Probabilmente «Fragile» e magari «Keep dry».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Probabilmente «Fragile» e magari «"
+        },
+        {
+          "lang": "en",
+          "text": "Keep dry»."
+        }
+      ]
     },
     {
       "text": "Se siete riusciti a seguire questo ragionamento, avete collegato correttamente tutti gli elementi di questo episodio.",
@@ -202,7 +444,21 @@
     },
     {
       "text": "Quarto: la packing list e la marcatura del collo garantiscono un imballaggio adeguato e una movimentazione sicura della merce.",
-      "speech": "Quarto: la packing list e la marcatura del collo garantiscono un imballaggio adeguato e una movimentazione sicura della merce."
+      "speech": "Quarto: la packing list e la marcatura del collo garantiscono un imballaggio adeguato e una movimentazione sicura della merce.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto: la"
+        },
+        {
+          "lang": "en",
+          "text": "packing list"
+        },
+        {
+          "lang": "it",
+          "text": "e la marcatura del collo garantiscono un imballaggio adeguato e una movimentazione sicura della merce."
+        }
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo i tre documenti di trasporto fondamentali — la lettera di vettura stradale, la lettera di trasporto aereo e la polizza di carico marittima — e la loro diversa natura giuridica.",

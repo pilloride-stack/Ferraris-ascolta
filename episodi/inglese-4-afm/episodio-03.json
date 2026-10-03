@@ -30,7 +30,25 @@
     },
     {
       "text": "Cominciamo dalla lettera di vettura internazionale, International Road Consignment Note, nota anche con l'acronimo CMR, dal francese Convention relative au contrat de transport international de Marchandises par Route.",
-      "speech": "Cominciamo dalla lettera di vettura internazionale, International Road Consignment Note, nota anche con l'acronimo CMR, dal francese Convention relative au contrat de transport international de Marchandises par Route."
+      "speech": "Cominciamo dalla lettera di vettura internazionale, International Road Consignment Note, nota anche con l'acronimo CMR, dal francese Convention relative au contrat de transport international de Marchandises par Route.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dalla lettera di vettura internazionale,"
+        },
+        {
+          "lang": "en",
+          "text": "International Road Consignment Note,"
+        },
+        {
+          "lang": "it",
+          "text": "nota anche con l'acronimo CMR, dal francese"
+        },
+        {
+          "lang": "en",
+          "text": "Convention relative au contrat de transport international de Marchandises par Route."
+        }
+      ]
     },
     {
       "text": "È il documento che accompagna il trasporto su strada, emesso dal vettore stradale, cioè dall'azienda di autotrasporto che effettua materialmente il trasferimento della merce.",
@@ -50,7 +68,21 @@
     },
     {
       "text": "Passiamo alla lettera di trasporto aereo, Air Waybill, spesso abbreviata con l'acronimo AWB.",
-      "speech": "Passiamo alla lettera di trasporto aereo, Air Waybill, spesso abbreviata con l'acronimo AWB."
+      "speech": "Passiamo alla lettera di trasporto aereo, Air Waybill, spesso abbreviata con l'acronimo AWB.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo alla lettera di trasporto aereo,"
+        },
+        {
+          "lang": "en",
+          "text": "Air Waybill,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso abbreviata con l'acronimo AWB."
+        }
+      ]
     },
     {
       "text": "È il documento che accompagna il trasporto aereo, emesso dalla compagnia aerea stessa oppure dallo spedizioniere per suo conto.",
@@ -58,7 +90,21 @@
     },
     {
       "text": "Esattamente come la lettera di vettura stradale che abbiamo appena visto, anche l'Air Waybill non è un documento negoziabile:",
-      "speech": "Esattamente come la lettera di vettura stradale che abbiamo appena visto, anche l'Air Waybill non è un documento negoziabile:"
+      "speech": "Esattamente come la lettera di vettura stradale che abbiamo appena visto, anche l'Air Waybill non è un documento negoziabile:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Esattamente come la lettera di vettura stradale che abbiamo appena visto, anche"
+        },
+        {
+          "lang": "en",
+          "text": "l'Air"
+        },
+        {
+          "lang": "it",
+          "text": "Waybill non è un documento negoziabile:"
+        }
+      ]
     },
     {
       "text": "attesta la ricezione della merce da parte del vettore aereo e le condizioni del contratto di trasporto stipulato,",
@@ -74,11 +120,35 @@
     },
     {
       "text": "la polizza di carico, Bill of Lading, spesso abbreviata B/L, il documento che accompagna il trasporto marittimo, emesso dalla compagnia di navigazione.",
-      "speech": "la polizza di carico, Bill of Lading, spesso abbreviata B/L, il documento che accompagna il trasporto marittimo, emesso dalla compagnia di navigazione."
+      "speech": "la polizza di carico, Bill of Lading, spesso abbreviata B/L, il documento che accompagna il trasporto marittimo, emesso dalla compagnia di navigazione.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la polizza di carico,"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of Lading,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso abbreviata B/L, il documento che accompagna il trasporto marittimo, emesso dalla compagnia di navigazione."
+        }
+      ]
     },
     {
       "text": "A differenza dei due documenti precedenti, la polizza di carico può essere negoziabile — si parla in questo caso di negotiable Bill of Lading —",
-      "speech": "A differenza dei due documenti precedenti, la polizza di carico può essere negoziabile — si parla in questo caso di negotiable Bill of Lading —"
+      "speech": "A differenza dei due documenti precedenti, la polizza di carico può essere negoziabile — si parla in questo caso di negotiable Bill of Lading —",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "A differenza dei due documenti precedenti, la polizza di carico può essere negoziabile — si parla in questo caso di"
+        },
+        {
+          "lang": "en",
+          "text": "negotiable Bill of Lading —"
+        }
+      ]
     },
     {
       "text": "e quando lo è, funge a tutti gli effetti da titolo di proprietà della merce trasportata:",
@@ -134,19 +204,71 @@
     },
     {
       "text": "Vediamo un confronto sintetico, che vi consiglio di fissare bene per l'esame: la Road Consignment Note, o CMR, riguarda il trasporto su strada, viene emessa dal vettore stradale, e non è negoziabile.",
-      "speech": "Vediamo un confronto sintetico, che vi consiglio di fissare bene per l'esame: la Road Consignment Note, o CMR, riguarda il trasporto su strada, viene emessa dal vettore stradale, e non è negoziabile."
+      "speech": "Vediamo un confronto sintetico, che vi consiglio di fissare bene per l'esame: la Road Consignment Note, o CMR, riguarda il trasporto su strada, viene emessa dal vettore stradale, e non è negoziabile.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vediamo un confronto sintetico, che vi consiglio di fissare bene per l'esame: la"
+        },
+        {
+          "lang": "en",
+          "text": "Road Consignment Note,"
+        },
+        {
+          "lang": "it",
+          "text": "o CMR, riguarda il trasporto su strada, viene emessa dal vettore stradale, e non è negoziabile."
+        }
+      ]
     },
     {
       "text": "L'Air Waybill riguarda il trasporto aereo, viene emessa dalla compagnia aerea o dallo spedizioniere, e non è negoziabile.",
-      "speech": "L'Air Waybill riguarda il trasporto aereo, viene emessa dalla compagnia aerea o dallo spedizioniere, e non è negoziabile."
+      "speech": "L'Air Waybill riguarda il trasporto aereo, viene emessa dalla compagnia aerea o dallo spedizioniere, e non è negoziabile.",
+      "parts": [
+        {
+          "lang": "en",
+          "text": "L'Air"
+        },
+        {
+          "lang": "it",
+          "text": "Waybill riguarda il trasporto aereo, viene emessa dalla compagnia aerea o dallo spedizioniere, e non è negoziabile."
+        }
+      ]
     },
     {
       "text": "Il Bill of Lading riguarda il trasporto marittimo, viene emesso dalla compagnia di navigazione,",
-      "speech": "Il Bill of Lading riguarda il trasporto marittimo, viene emesso dalla compagnia di navigazione,"
+      "speech": "Il Bill of Lading riguarda il trasporto marittimo, viene emesso dalla compagnia di navigazione,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of"
+        },
+        {
+          "lang": "it",
+          "text": "Lading riguarda il trasporto marittimo, viene emesso dalla compagnia di navigazione,"
+        }
+      ]
     },
     {
       "text": "e può essere negoziabile, se emesso \"to order\", cioè all'ordine di un soggetto specifico che può a sua volta girarlo ad altri.",
-      "speech": "e può essere negoziabile, se emesso \"to order\", cioè all'ordine di un soggetto specifico che può a sua volta girarlo ad altri."
+      "speech": "e può essere negoziabile, se emesso \"to order\", cioè all'ordine di un soggetto specifico che può a sua volta girarlo ad altri.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e può essere negoziabile, se emesso \""
+        },
+        {
+          "lang": "en",
+          "text": "to order\","
+        },
+        {
+          "lang": "it",
+          "text": "cioè all'ordine di un soggetto specifico che può a sua volta girarlo ad altri."
+        }
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, come farebbe un insegnante prima di un test scritto:",
@@ -162,7 +284,33 @@
     },
     {
       "text": "La risposta è naturalmente il Bill of Lading negoziabile, proprio per la caratteristica di negoziabilità che abbiamo appena descritto, impossibile da ottenere con una semplice Road Consignment Note o con un Air Waybill.",
-      "speech": "La risposta è naturalmente il Bill of Lading negoziabile, proprio per la caratteristica di negoziabilità che abbiamo appena descritto, impossibile da ottenere con una semplice Road Consignment Note o con un Air Waybill."
+      "speech": "La risposta è naturalmente il Bill of Lading negoziabile, proprio per la caratteristica di negoziabilità che abbiamo appena descritto, impossibile da ottenere con una semplice Road Consignment Note o con un Air Waybill.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La risposta è naturalmente il"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of"
+        },
+        {
+          "lang": "it",
+          "text": "Lading negoziabile, proprio per la caratteristica di negoziabilità che abbiamo appena descritto, impossibile da ottenere con una semplice"
+        },
+        {
+          "lang": "en",
+          "text": "Road Consignment"
+        },
+        {
+          "lang": "it",
+          "text": "Note o con un"
+        },
+        {
+          "lang": "en",
+          "text": "Air Waybill."
+        }
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -174,11 +322,47 @@
     },
     {
       "text": "Secondo: la Road Consignment Note (CMR) e l'Air Waybill (AWB) non sono negoziabili, e attestano solo la presa in carico della merce e le condizioni di trasporto.",
-      "speech": "Secondo: la Road Consignment Note (CMR) e l'Air Waybill (AWB) non sono negoziabili, e attestano solo la presa in carico della merce e le condizioni di trasporto."
+      "speech": "Secondo: la Road Consignment Note (CMR) e l'Air Waybill (AWB) non sono negoziabili, e attestano solo la presa in carico della merce e le condizioni di trasporto.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: la"
+        },
+        {
+          "lang": "en",
+          "text": "Road Consignment Note ("
+        },
+        {
+          "lang": "it",
+          "text": "CMR) e"
+        },
+        {
+          "lang": "en",
+          "text": "l'Air Waybill ("
+        },
+        {
+          "lang": "it",
+          "text": "AWB) non sono negoziabili, e attestano solo la presa in carico della merce e le condizioni di trasporto."
+        }
+      ]
     },
     {
       "text": "Terzo: il Bill of Lading (B/L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale.",
-      "speech": "Terzo: il Bill of Lading (B/L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale."
+      "speech": "Terzo: il Bill of Lading (B/L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: il"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of"
+        },
+        {
+          "lang": "it",
+          "text": "Lading (B/L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale."
+        }
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo i servizi bancari alle imprese e i principali metodi di pagamento nel commercio internazionale, dalla semplice rimessa bancaria fino alla lettera di credito.",

@@ -50,7 +50,17 @@
     },
     {
       "text": "È proprio da questo evento che nasce quello che i linguisti chiamano inglese medievale, Middle English:",
-      "speech": "È proprio da questo evento che nasce quello che i linguisti chiamano inglese medievale, Middle English:"
+      "speech": "È proprio da questo evento che nasce quello che i linguisti chiamano inglese medievale, Middle English:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È proprio da questo evento che nasce quello che i linguisti chiamano inglese medievale,"
+        },
+        {
+          "lang": "en",
+          "text": "Middle English:"
+        }
+      ]
     },
     {
       "text": "una lingua che, pur mantenendo la propria base germanica ereditata dagli Anglosassoni, assorbe un vastissimo lessico francese, introdotto dalla nuova classe dirigente normanna.",
@@ -110,7 +120,21 @@
     },
     {
       "text": "pochi anni dopo la conquista, Guglielmo ordina la compilazione di un censimento dettagliatissimo di tutte le terre, le proprietà e le ricchezze del regno, noto come Domesday Book, completato nel 1086.",
-      "speech": "pochi anni dopo la conquista, Guglielmo ordina la compilazione di un censimento dettagliatissimo di tutte le terre, le proprietà e le ricchezze del regno, noto come Domesday Book, completato nel 1086."
+      "speech": "pochi anni dopo la conquista, Guglielmo ordina la compilazione di un censimento dettagliatissimo di tutte le terre, le proprietà e le ricchezze del regno, noto come Domesday Book, completato nel 1086.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "pochi anni dopo la conquista, Guglielmo ordina la compilazione di un censimento dettagliatissimo di tutte le terre, le proprietà e le ricchezze del regno, noto come Domesday"
+        },
+        {
+          "lang": "en",
+          "text": "Book,"
+        },
+        {
+          "lang": "it",
+          "text": "completato nel 1086."
+        }
+      ]
     },
     {
       "text": "Si tratta di un documento straordinario per l'epoca, che permetteva alla corona di sapere con precisione quali risorse fossero disponibili in ogni angolo del regno, ai fini della tassazione e del controllo amministrativo:",
@@ -154,7 +178,21 @@
     },
     {
       "text": "Secondo: da questo evento nasce l'inglese medievale, il Middle English, che assorbe un vastissimo lessico francese pur mantenendo la propria base germanica anglosassone.",
-      "speech": "Secondo: da questo evento nasce l'inglese medievale, il Middle English, che assorbe un vastissimo lessico francese pur mantenendo la propria base germanica anglosassone."
+      "speech": "Secondo: da questo evento nasce l'inglese medievale, il Middle English, che assorbe un vastissimo lessico francese pur mantenendo la propria base germanica anglosassone.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: da questo evento nasce l'inglese medievale, il"
+        },
+        {
+          "lang": "en",
+          "text": "Middle English,"
+        },
+        {
+          "lang": "it",
+          "text": "che assorbe un vastissimo lessico francese pur mantenendo la propria base germanica anglosassone."
+        }
+      ]
     },
     {
       "text": "Terzo: i Normanni impongono un sistema feudale rigidamente gerarchico, fondato su una catena di concessioni di terra in cambio di fedeltà e servizio militare, dal re ai baroni, dai baroni ai cavalieri vassalli, fino ai servi della gleba.",
