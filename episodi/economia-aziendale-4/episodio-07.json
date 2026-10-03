@@ -1,0 +1,112 @@
+{
+  "subject": "Economia Aziendale",
+  "episode": "07",
+  "title": "I criteri di scelta degli investimenti: payback period e TIR",
+  "class": "Classe quarta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il fabbisogno finanziario e il capitale circolante netto.",
+      "speech": "Nell'episodio scorso abbiamo visto il fabbisogno finanziario e il capitale circolante netto."
+    },
+    {
+      "text": "Oggi concludiamo la terza unità vedendo i criteri con cui un'azienda valuta la convenienza dei propri investimenti: il periodo di recupero e il tasso interno di rendimento.",
+      "speech": "Oggi concludiamo la terza unità vedendo i criteri con cui un'azienda valuta la convenienza dei propri investimenti: il periodo di recupero e il tasso interno di rendimento."
+    },
+    {
+      "text": "Quando l'azienda deve decidere se realizzare un investimento, può avvalersi di alcuni criteri di valutazione.",
+      "speech": "Quando l'azienda deve decidere se realizzare un investimento, può avvalersi di alcuni criteri di valutazione."
+    },
+    {
+      "text": "Il periodo di recupero, spesso indicato con il termine inglese payback period, è l'intervallo di tempo necessario affinché i flussi di cassa positivi generati dall'investimento compensino l'esborso iniziale:",
+      "speech": "Il periodo di recupero, spesso indicato con il termine inglese payback period, è l'intervallo di tempo necessario affinché i flussi di cassa positivi generati dall'investimento compensino l'esborso iniziale:"
+    },
+    {
+      "text": "un investimento è tanto più conveniente quanto minore è il periodo di recupero, perché significa che l'azienda rientra prima del capitale investito, riducendo il rischio dell'operazione.",
+      "speech": "un investimento è tanto più conveniente quanto minore è il periodo di recupero, perché significa che l'azienda rientra prima del capitale investito, riducendo il rischio dell'operazione."
+    },
+    {
+      "text": "Fermatevi un momento su un criterio più avanzato, il tasso interno di rendimento, spesso indicato con la sigla TIR, che si basa sull'attualizzazione dei flussi di cassa futuri:",
+      "speech": "Fermatevi un momento su un criterio più avanzato, il tasso interno di rendimento, spesso indicato con la sigla TIR, che si basa sull'attualizzazione dei flussi di cassa futuri:"
+    },
+    {
+      "text": "è il tasso che rende nullo il valore attuale netto dei flussi dell'investimento.",
+      "speech": "è il tasso che rende nullo il valore attuale netto dei flussi dell'investimento."
+    },
+    {
+      "text": "Un investimento è considerato conveniente quando il TIR supera il costo del capitale impiegato:",
+      "speech": "Un investimento è considerato conveniente quando il TIR supera il costo del capitale impiegato:"
+    },
+    {
+      "text": "se il rendimento interno generato dall'investimento è superiore al costo con cui l'azienda finanzia quell'investimento, l'operazione crea valore; se invece è inferiore, l'operazione lo distrugge.",
+      "speech": "se il rendimento interno generato dall'investimento è superiore al costo con cui l'azienda finanzia quell'investimento, l'operazione crea valore; se invece è inferiore, l'operazione lo distrugge."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, l'esercizio svolto sul periodo di recupero:",
+      "speech": "Vediamo insieme, passo dopo passo, l'esercizio svolto sul periodo di recupero:"
+    },
+    {
+      "text": "un investimento richiede un esborso iniziale di sessantamila euro, e genera flussi di cassa positivi costanti di quindicimila euro all'anno.",
+      "speech": "un investimento richiede un esborso iniziale di sessantamila euro, e genera flussi di cassa positivi costanti di quindicimila euro all'anno."
+    },
+    {
+      "text": "Calcolare il periodo di recupero.",
+      "speech": "Calcolare il periodo di recupero."
+    },
+    {
+      "text": "Il periodo di recupero si ottiene dividendo l'esborso iniziale per il flusso di cassa annuo: sessantamila diviso quindicimila, cioè quattro anni.",
+      "speech": "Il periodo di recupero si ottiene dividendo l'esborso iniziale per il flusso di cassa annuo: sessantamila diviso quindicimila, cioè quattro anni."
+    },
+    {
+      "text": "In altre parole, dopo quattro anni di flussi di cassa costanti, l'azienda avrà recuperato interamente il capitale investito inizialmente.",
+      "speech": "In altre parole, dopo quattro anni di flussi di cassa costanti, l'azienda avrà recuperato interamente il capitale investito inizialmente."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se un secondo investimento richiedesse lo stesso esborso iniziale di sessantamila euro,",
+      "speech": "Proviamo un piccolo esercizio insieme: se un secondo investimento richiedesse lo stesso esborso iniziale di sessantamila euro,"
+    },
+    {
+      "text": "ma generasse flussi di cassa positivi costanti di ventimila euro all'anno anziché quindicimila, quale sarebbe il suo periodo di recupero,",
+      "speech": "ma generasse flussi di cassa positivi costanti di ventimila euro all'anno anziché quindicimila, quale sarebbe il suo periodo di recupero,"
+    },
+    {
+      "text": "e quale dei due investimenti risulterebbe più conveniente secondo questo criterio?",
+      "speech": "e quale dei due investimenti risulterebbe più conveniente secondo questo criterio?"
+    },
+    {
+      "text": "Il periodo di recupero del secondo investimento sarebbe sessantamila diviso ventimila, cioè tre anni.",
+      "speech": "Il periodo di recupero del secondo investimento sarebbe sessantamila diviso ventimila, cioè tre anni."
+    },
+    {
+      "text": "Poiché tre anni sono meno di quattro, il secondo investimento risulterebbe più conveniente secondo il criterio del periodo di recupero, recuperando il capitale investito in tempi più rapidi.",
+      "speech": "Poiché tre anni sono meno di quattro, il secondo investimento risulterebbe più conveniente secondo il criterio del periodo di recupero, recuperando il capitale investito in tempi più rapidi."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il periodo di recupero misura il tempo necessario a recuperare l'esborso iniziale di un investimento attraverso i suoi flussi di cassa.",
+      "speech": "Primo: il periodo di recupero misura il tempo necessario a recuperare l'esborso iniziale di un investimento attraverso i suoi flussi di cassa."
+    },
+    {
+      "text": "Secondo: un investimento è tanto più conveniente quanto minore è il suo periodo di recupero.",
+      "speech": "Secondo: un investimento è tanto più conveniente quanto minore è il suo periodo di recupero."
+    },
+    {
+      "text": "Terzo: il tasso interno di rendimento, un criterio più avanzato basato sull'attualizzazione, valuta un investimento conveniente quando supera il costo del capitale impiegato.",
+      "speech": "Terzo: il tasso interno di rendimento, un criterio più avanzato basato sull'attualizzazione, valuta un investimento conveniente quando supera il costo del capitale impiegato."
+    },
+    {
+      "text": "Con questo abbiamo completato la terza unità della dispensa.",
+      "speech": "Con questo abbiamo completato la terza unità della dispensa."
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nella quarta unità, dedicata ai mercati finanziari, partendo dagli strumenti finanziari e dalla loro negoziazione.",
+      "speech": "Nel prossimo episodio entriamo nella quarta unità, dedicata ai mercati finanziari, partendo dagli strumenti finanziari e dalla loro negoziazione."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

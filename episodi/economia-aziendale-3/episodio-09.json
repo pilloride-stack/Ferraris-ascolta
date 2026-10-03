@@ -1,0 +1,124 @@
+{
+  "subject": "Economia Aziendale",
+  "episode": "09",
+  "title": "Gli acquisti e il loro regolamento",
+  "class": "Classe terza",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la costituzione dell'azienda, la prima operazione della sua vita.",
+      "speech": "Nell'episodio scorso abbiamo visto la costituzione dell'azienda, la prima operazione della sua vita."
+    },
+    {
+      "text": "Oggi vediamo la prima grande categoria di operazioni correnti: gli acquisti di merci e il loro regolamento, con particolare attenzione al meccanismo dell'IVA.",
+      "speech": "Oggi vediamo la prima grande categoria di operazioni correnti: gli acquisti di merci e il loro regolamento, con particolare attenzione al meccanismo dell'IVA."
+    },
+    {
+      "text": "Gli acquisti di merci destinate alla vendita si rilevano addebitando il conto economico di costo Merci conto acquisti.",
+      "speech": "Gli acquisti di merci destinate alla vendita si rilevano addebitando il conto economico di costo Merci conto acquisti."
+    },
+    {
+      "text": "Se l'operazione è soggetta a IVA, occorre inoltre addebitare il conto finanziario IVA nostro credito, cioè l'imposta pagata al fornitore, che l'azienda potrà in seguito detrarre.",
+      "speech": "Se l'operazione è soggetta a IVA, occorre inoltre addebitare il conto finanziario IVA nostro credito, cioè l'imposta pagata al fornitore, che l'azienda potrà in seguito detrarre."
+    },
+    {
+      "text": "Il conto da accreditare dipende invece dalla modalità di regolamento: Cassa o Banca conto corrente se il pagamento è immediato, Debiti verso fornitori se il pagamento è dilazionato nel tempo.",
+      "speech": "Il conto da accreditare dipende invece dalla modalità di regolamento: Cassa o Banca conto corrente se il pagamento è immediato, Debiti verso fornitori se il pagamento è dilazionato nel tempo."
+    },
+    {
+      "text": "Fermatevi un momento sul ruolo dell'IVA in questa scrittura, perché è un punto che genera spesso confusione:",
+      "speech": "Fermatevi un momento sul ruolo dell'IVA in questa scrittura, perché è un punto che genera spesso confusione:"
+    },
+    {
+      "text": "l'IVA pagata al fornitore non è un costo per l'azienda, ma un credito verso l'Erario, perché l'azienda la recupererà in seguito, detraendola dall'IVA che a sua volta incasserà dai propri clienti.",
+      "speech": "l'IVA pagata al fornitore non è un costo per l'azienda, ma un credito verso l'Erario, perché l'azienda la recupererà in seguito, detraendola dall'IVA che a sua volta incasserà dai propri clienti."
+    },
+    {
+      "text": "Ecco perché IVA nostro credito è un conto finanziario, e non un conto economico di costo: il vero costo dell'operazione è rappresentato solo dal valore della merce, non dall'imposta.",
+      "speech": "Ecco perché IVA nostro credito è un conto finanziario, e non un conto economico di costo: il vero costo dell'operazione è rappresentato solo dal valore della merce, non dall'imposta."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, un primo esercizio svolto: si acquistano merci per mille euro più IVA al ventidue per cento, con pagamento dilazionato a trenta giorni.",
+      "speech": "Vediamo insieme, passo dopo passo, un primo esercizio svolto: si acquistano merci per mille euro più IVA al ventidue per cento, con pagamento dilazionato a trenta giorni."
+    },
+    {
+      "text": "L'IVA ammonta a duecentoventi euro, per un totale fattura di milleduecentoventi euro.",
+      "speech": "L'IVA ammonta a duecentoventi euro, per un totale fattura di milleduecentoventi euro."
+    },
+    {
+      "text": "Si addebita Merci conto acquisti per mille euro, si addebita IVA nostro credito per duecentoventi euro,",
+      "speech": "Si addebita Merci conto acquisti per mille euro, si addebita IVA nostro credito per duecentoventi euro,"
+    },
+    {
+      "text": "e si accredita Debiti verso fornitori per il totale di milleduecentoventi euro, poiché il pagamento è dilazionato.",
+      "speech": "e si accredita Debiti verso fornitori per il totale di milleduecentoventi euro, poiché il pagamento è dilazionato."
+    },
+    {
+      "text": "Vediamo un secondo esercizio, questa volta con pagamento immediato:",
+      "speech": "Vediamo un secondo esercizio, questa volta con pagamento immediato:"
+    },
+    {
+      "text": "si acquistano merci per cinquecento euro più IVA al ventidue per cento, cioè centodieci euro, con pagamento immediato tramite bonifico bancario.",
+      "speech": "si acquistano merci per cinquecento euro più IVA al ventidue per cento, cioè centodieci euro, con pagamento immediato tramite bonifico bancario."
+    },
+    {
+      "text": "Si addebita Merci conto acquisti per cinquecento euro, si addebita IVA nostro credito per centodieci euro,",
+      "speech": "Si addebita Merci conto acquisti per cinquecento euro, si addebita IVA nostro credito per centodieci euro,"
+    },
+    {
+      "text": "e si accredita Banca conto corrente per il totale di seicentodieci euro, poiché qui il pagamento avviene subito, e non si genera alcun debito verso il fornitore.",
+      "speech": "e si accredita Banca conto corrente per il totale di seicentodieci euro, poiché qui il pagamento avviene subito, e non si genera alcun debito verso il fornitore."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme, questa volta su un caso particolare:",
+      "speech": "Proviamo un piccolo esercizio insieme, questa volta su un caso particolare:"
+    },
+    {
+      "text": "si restituisce al fornitore merce difettosa per un valore di duecento euro più IVA al ventidue per cento, cioè quarantaquattro euro, precedentemente acquistata a credito.",
+      "speech": "si restituisce al fornitore merce difettosa per un valore di duecento euro più IVA al ventidue per cento, cioè quarantaquattro euro, precedentemente acquistata a credito."
+    },
+    {
+      "text": "Il fornitore emette una nota di credito.",
+      "speech": "Il fornitore emette una nota di credito."
+    },
+    {
+      "text": "Come si rileva questo reso?",
+      "speech": "Come si rileva questo reso?"
+    },
+    {
+      "text": "Trattandosi di un reso su un acquisto già effettuato a credito, la scrittura è speculare rispetto a quella d'acquisto:",
+      "speech": "Trattandosi di un reso su un acquisto già effettuato a credito, la scrittura è speculare rispetto a quella d'acquisto:"
+    },
+    {
+      "text": "si riduce il debito verso il fornitore, addebitandolo per duecentoquarantaquattro euro complessivi,",
+      "speech": "si riduce il debito verso il fornitore, addebitandolo per duecentoquarantaquattro euro complessivi,"
+    },
+    {
+      "text": "e si accreditano Merci conto acquisti per duecento euro e IVA nostro credito per quarantaquattro euro, riducendo così sia il costo sia il credito d'imposta originariamente rilevati.",
+      "speech": "e si accreditano Merci conto acquisti per duecento euro e IVA nostro credito per quarantaquattro euro, riducendo così sia il costo sia il credito d'imposta originariamente rilevati."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: gli acquisti di merci si rilevano addebitando Merci conto acquisti, ed eventualmente IVA nostro credito se l'operazione è soggetta a imposta.",
+      "speech": "Primo: gli acquisti di merci si rilevano addebitando Merci conto acquisti, ed eventualmente IVA nostro credito se l'operazione è soggetta a imposta."
+    },
+    {
+      "text": "Secondo: il conto da accreditare dipende dalla modalità di regolamento, Cassa o Banca se immediato, Debiti verso fornitori se dilazionato.",
+      "speech": "Secondo: il conto da accreditare dipende dalla modalità di regolamento, Cassa o Banca se immediato, Debiti verso fornitori se dilazionato."
+    },
+    {
+      "text": "Terzo: un reso su acquisti si rileva in modo speculare, riducendo il debito verso il fornitore e, contemporaneamente, il costo e il credito IVA originariamente rilevati.",
+      "speech": "Terzo: un reso su acquisti si rileva in modo speculare, riducendo il debito verso il fornitore e, contemporaneamente, il costo e il credito IVA originariamente rilevati."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo l'operazione speculare: le vendite di merci e il loro regolamento.",
+      "speech": "Nel prossimo episodio vediamo l'operazione speculare: le vendite di merci e il loro regolamento."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

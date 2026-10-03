@@ -1,0 +1,152 @@
+{
+  "subject": "Economia Aziendale",
+  "episode": "02",
+  "title": "Sconto, unificazione e suddivisione di capitali",
+  "class": "Classe seconda",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto l'interesse semplice e come si calcola.",
+      "speech": "Nell'episodio scorso abbiamo visto l'interesse semplice e come si calcola."
+    },
+    {
+      "text": "Oggi completiamo il primo modulo con lo sconto, il compenso per l'anticipato pagamento, e con l'unificazione e la suddivisione di più capitali.",
+      "speech": "Oggi completiamo il primo modulo con lo sconto, il compenso per l'anticipato pagamento, e con l'unificazione e la suddivisione di più capitali."
+    },
+    {
+      "text": "Lo sconto è il compenso che spetta a chi anticipa il pagamento di un debito rispetto alla scadenza pattuita,",
+      "speech": "Lo sconto è il compenso che spetta a chi anticipa il pagamento di un debito rispetto alla scadenza pattuita,"
+    },
+    {
+      "text": "oppure a chi richiede la liquidità immediata di un credito non ancora scaduto, per esempio smobilizzando presso una banca una cambiale ricevuta da un cliente, un'operazione detta sconto cambiario o sconto bancario.",
+      "speech": "oppure a chi richiede la liquidità immediata di un credito non ancora scaduto, per esempio smobilizzando presso una banca una cambiale ricevuta da un cliente, un'operazione detta sconto cambiario o sconto bancario."
+    },
+    {
+      "text": "Lo sconto commerciale si calcola in modo analogo all'interesse, ma applicando la formula al valore nominale del credito anziché al capitale iniziale:",
+      "speech": "Lo sconto commerciale si calcola in modo analogo all'interesse, ma applicando la formula al valore nominale del credito anziché al capitale iniziale:"
+    },
+    {
+      "text": "sconto uguale valore nominale per tasso per tempo, diviso cento.",
+      "speech": "sconto uguale valore nominale per tasso per tempo, diviso cento."
+    },
+    {
+      "text": "Il valore attuale, cioè la somma effettivamente incassata anticipatamente, si ottiene sottraendo lo sconto dal valore nominale.",
+      "speech": "Il valore attuale, cioè la somma effettivamente incassata anticipatamente, si ottiene sottraendo lo sconto dal valore nominale."
+    },
+    {
+      "text": "Fermatevi un momento su questo parallelismo con l'interesse visto nell'episodio scorso, perché è la chiave per non confondersi:",
+      "speech": "Fermatevi un momento su questo parallelismo con l'interesse visto nell'episodio scorso, perché è la chiave per non confondersi:"
+    },
+    {
+      "text": "la formula è identica nella struttura, cambia solo il nome della grandezza di partenza, valore nominale anziché capitale,",
+      "speech": "la formula è identica nella struttura, cambia solo il nome della grandezza di partenza, valore nominale anziché capitale,"
+    },
+    {
+      "text": "e il fatto che alla fine si sottrae, anziché sommare come nel montante, per ottenere il valore attuale.",
+      "speech": "e il fatto che alla fine si sottrae, anziché sommare come nel montante, per ottenere il valore attuale."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, un esempio svolto: un'azienda presenta in banca per lo sconto una cambiale con valore nominale di cinquemila euro, in scadenza tra novanta giorni,",
+      "speech": "Vediamo insieme, passo dopo passo, un esempio svolto: un'azienda presenta in banca per lo sconto una cambiale con valore nominale di cinquemila euro, in scadenza tra novanta giorni,"
+    },
+    {
+      "text": "cioè zero virgola venticinque anni, al tasso di sconto del sei per cento annuo.",
+      "speech": "cioè zero virgola venticinque anni, al tasso di sconto del sei per cento annuo."
+    },
+    {
+      "text": "Calcolare lo sconto e il valore attuale.",
+      "speech": "Calcolare lo sconto e il valore attuale."
+    },
+    {
+      "text": "Lo sconto è cinquemila per sei per zero virgola venticinque, diviso cento, cioè settantacinque euro.",
+      "speech": "Lo sconto è cinquemila per sei per zero virgola venticinque, diviso cento, cioè settantacinque euro."
+    },
+    {
+      "text": "Il valore attuale è cinquemila meno settantacinque, cioè quattromilanovecentoventicinque euro, l'importo che verrebbe effettivamente accreditato in banca.",
+      "speech": "Il valore attuale è cinquemila meno settantacinque, cioè quattromilanovecentoventicinque euro, l'importo che verrebbe effettivamente accreditato in banca."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme, sulla stessa falsariga:",
+      "speech": "Proviamo un piccolo esercizio insieme, sulla stessa falsariga:"
+    },
+    {
+      "text": "un'azienda smobilizza in banca una cambiale con valore nominale di diecimila euro, in scadenza tra centottanta giorni, cioè zero virgola cinque anni, al tasso di sconto del cinque per cento annuo.",
+      "speech": "un'azienda smobilizza in banca una cambiale con valore nominale di diecimila euro, in scadenza tra centottanta giorni, cioè zero virgola cinque anni, al tasso di sconto del cinque per cento annuo."
+    },
+    {
+      "text": "Quanto varrebbero lo sconto e il valore attuale?",
+      "speech": "Quanto varrebbero lo sconto e il valore attuale?"
+    },
+    {
+      "text": "Lo sconto sarebbe diecimila per cinque per zero virgola cinque, diviso cento, cioè duecentocinquanta euro;",
+      "speech": "Lo sconto sarebbe diecimila per cinque per zero virgola cinque, diviso cento, cioè duecentocinquanta euro;"
+    },
+    {
+      "text": "il valore attuale sarebbe diecimila meno duecentocinquanta, cioè novemilasettecentocinquanta euro.",
+      "speech": "il valore attuale sarebbe diecimila meno duecentocinquanta, cioè novemilasettecentocinquanta euro."
+    },
+    {
+      "text": "Passiamo ora a un'operazione più articolata: l'unificazione di più capitali,",
+      "speech": "Passiamo ora a un'operazione più articolata: l'unificazione di più capitali,"
+    },
+    {
+      "text": "cioè l'operazione finanziaria con cui più capitali, disponibili o esigibili a scadenze diverse, vengono sostituiti con un unico capitale equivalente,",
+      "speech": "cioè l'operazione finanziaria con cui più capitali, disponibili o esigibili a scadenze diverse, vengono sostituiti con un unico capitale equivalente,"
+    },
+    {
+      "text": "esigibile a una data comune, detta epoca di unificazione, in modo tale che il nuovo capitale unico produca lo stesso effetto economico dei capitali originari.",
+      "speech": "esigibile a una data comune, detta epoca di unificazione, in modo tale che il nuovo capitale unico produca lo stesso effetto economico dei capitali originari."
+    },
+    {
+      "text": "L'operazione inversa, la suddivisione, consiste invece nel sostituire un unico capitale con più capitali di importo prestabilito, esigibili a scadenze diverse, anch'essi finanziariamente equivalenti al capitale di partenza.",
+      "speech": "L'operazione inversa, la suddivisione, consiste invece nel sostituire un unico capitale con più capitali di importo prestabilito, esigibili a scadenze diverse, anch'essi finanziariamente equivalenti al capitale di partenza."
+    },
+    {
+      "text": "Fermatevi un momento sul principio che regge entrambe queste operazioni, perché è più importante del singolo calcolo numerico:",
+      "speech": "Fermatevi un momento sul principio che regge entrambe queste operazioni, perché è più importante del singolo calcolo numerico:"
+    },
+    {
+      "text": "sia nell'unificazione sia nella suddivisione, la somma degli interessi, o degli sconti, di spostamento deve lasciare inalterato il valore finanziario complessivo dei capitali coinvolti.",
+      "speech": "sia nell'unificazione sia nella suddivisione, la somma degli interessi, o degli sconti, di spostamento deve lasciare inalterato il valore finanziario complessivo dei capitali coinvolti."
+    },
+    {
+      "text": "Se un'azienda deve incassare tremila euro tra trenta giorni e duemila euro tra novanta giorni,",
+      "speech": "Se un'azienda deve incassare tremila euro tra trenta giorni e duemila euro tra novanta giorni,"
+    },
+    {
+      "text": "e vuole unificarli in un'unica scadenza a sessanta giorni al cinque per cento annuo, deve valutare gli spostamenti temporali dei due capitali verso l'epoca comune,",
+      "speech": "e vuole unificarli in un'unica scadenza a sessanta giorni al cinque per cento annuo, deve valutare gli spostamenti temporali dei due capitali verso l'epoca comune,"
+    },
+    {
+      "text": "anticipando il secondo di trenta giorni e posticipando il primo di trenta giorni, in modo che il capitale unico risultante sia finanziariamente equivalente ai due capitali di partenza.",
+      "speech": "anticipando il secondo di trenta giorni e posticipando il primo di trenta giorni, in modo che il capitale unico risultante sia finanziariamente equivalente ai due capitali di partenza."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: lo sconto si calcola come l'interesse ma sul valore nominale del credito, e il valore attuale si ottiene sottraendo lo sconto dal valore nominale.",
+      "speech": "Primo: lo sconto si calcola come l'interesse ma sul valore nominale del credito, e il valore attuale si ottiene sottraendo lo sconto dal valore nominale."
+    },
+    {
+      "text": "Secondo: l'unificazione sostituisce più capitali con uno equivalente a scadenza comune, la suddivisione fa l'operazione inversa.",
+      "speech": "Secondo: l'unificazione sostituisce più capitali con uno equivalente a scadenza comune, la suddivisione fa l'operazione inversa."
+    },
+    {
+      "text": "Terzo: in entrambe le operazioni, la somma degli interessi o sconti di spostamento deve lasciare inalterato il valore finanziario complessivo.",
+      "speech": "Terzo: in entrambe le operazioni, la somma degli interessi o sconti di spostamento deve lasciare inalterato il valore finanziario complessivo."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero primo modulo.",
+      "speech": "Con questo abbiamo completato l'intero primo modulo."
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nel secondo modulo, dedicato al sistema dei pagamenti e al ruolo delle banche.",
+      "speech": "Nel prossimo episodio entriamo nel secondo modulo, dedicato al sistema dei pagamenti e al ruolo delle banche."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

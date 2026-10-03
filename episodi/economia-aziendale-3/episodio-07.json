@@ -1,0 +1,140 @@
+{
+  "subject": "Economia Aziendale",
+  "episode": "07",
+  "title": "La contabilità generale e la partita doppia",
+  "class": "Classe terza",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la comunicazione aziendale e le scritture con cui l'azienda rileva le proprie operazioni.",
+      "speech": "Nell'episodio scorso abbiamo visto la comunicazione aziendale e le scritture con cui l'azienda rileva le proprie operazioni."
+    },
+    {
+      "text": "Oggi arriviamo al cuore del sistema informativo contabile: la contabilità generale e il metodo della partita doppia, un argomento fondamentale che userete in continuazione da qui fino alla fine di questa dispensa.",
+      "speech": "Oggi arriviamo al cuore del sistema informativo contabile: la contabilità generale e il metodo della partita doppia, un argomento fondamentale che userete in continuazione da qui fino alla fine di questa dispensa."
+    },
+    {
+      "text": "La contabilità generale è il sistema di scritture contabili che rileva sistematicamente le operazioni di gestione, allo scopo di determinare, al termine dell'esercizio, il reddito prodotto e il patrimonio a disposizione dell'azienda.",
+      "speech": "La contabilità generale è il sistema di scritture contabili che rileva sistematicamente le operazioni di gestione, allo scopo di determinare, al termine dell'esercizio, il reddito prodotto e il patrimonio a disposizione dell'azienda."
+    },
+    {
+      "text": "Il metodo utilizzato è quello della partita doppia, ideato in forma organica dal frate matematico Luca Pacioli nel millequattrocentonovantaquattro:",
+      "speech": "Il metodo utilizzato è quello della partita doppia, ideato in forma organica dal frate matematico Luca Pacioli nel millequattrocentonovantaquattro:"
+    },
+    {
+      "text": "un metodo che, dopo più di cinquecento anni, rimane ancora oggi il fondamento della contabilità di ogni azienda nel mondo.",
+      "speech": "un metodo che, dopo più di cinquecento anni, rimane ancora oggi il fondamento della contabilità di ogni azienda nel mondo."
+    },
+    {
+      "text": "Il principio della partita doppia è questo: ogni operazione di gestione viene registrata simultaneamente in almeno due conti, uno in Dare e uno in Avere, per lo stesso importo,",
+      "speech": "Il principio della partita doppia è questo: ogni operazione di gestione viene registrata simultaneamente in almeno due conti, uno in Dare e uno in Avere, per lo stesso importo,"
+    },
+    {
+      "text": "in modo da controllare contemporaneamente sia l'aspetto finanziario sia l'aspetto economico dell'operazione, i due aspetti che abbiamo studiato nel modulo precedente.",
+      "speech": "in modo da controllare contemporaneamente sia l'aspetto finanziario sia l'aspetto economico dell'operazione, i due aspetti che abbiamo studiato nel modulo precedente."
+    },
+    {
+      "text": "I conti utilizzati si distinguono in conti finanziari, come Cassa, Banca, Crediti e Debiti, e conti economici, di costo o di ricavo, ciascuno con proprie regole di funzionamento.",
+      "speech": "I conti utilizzati si distinguono in conti finanziari, come Cassa, Banca, Crediti e Debiti, e conti economici, di costo o di ricavo, ciascuno con proprie regole di funzionamento."
+    },
+    {
+      "text": "Fermatevi un momento su queste regole, perché dovrete applicarle costantemente da qui in avanti: i conti finanziari attivi, come Cassa, Banca e Crediti, aumentano in Dare e diminuiscono in Avere.",
+      "speech": "Fermatevi un momento su queste regole, perché dovrete applicarle costantemente da qui in avanti: i conti finanziari attivi, come Cassa, Banca e Crediti, aumentano in Dare e diminuiscono in Avere."
+    },
+    {
+      "text": "I conti finanziari passivi, cioè i Debiti, funzionano al contrario: aumentano in Avere e diminuiscono in Dare.",
+      "speech": "I conti finanziari passivi, cioè i Debiti, funzionano al contrario: aumentano in Avere e diminuiscono in Dare."
+    },
+    {
+      "text": "I conti economici di costo aumentano in Dare, esattamente come i conti finanziari attivi.",
+      "speech": "I conti economici di costo aumentano in Dare, esattamente come i conti finanziari attivi."
+    },
+    {
+      "text": "I conti economici di ricavo aumentano in Avere, esattamente come i debiti.",
+      "speech": "I conti economici di ricavo aumentano in Avere, esattamente come i debiti."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, un esercizio che applica queste regole: classificare in Dare o in Avere le seguenti variazioni.",
+      "speech": "Vediamo insieme, passo dopo passo, un esercizio che applica queste regole: classificare in Dare o in Avere le seguenti variazioni."
+    },
+    {
+      "text": "Primo, un incasso in contanti.",
+      "speech": "Primo, un incasso in contanti."
+    },
+    {
+      "text": "Secondo, un pagamento a un fornitore tramite banca.",
+      "speech": "Secondo, un pagamento a un fornitore tramite banca."
+    },
+    {
+      "text": "Terzo, il sostenimento di un costo per l'acquisto di materie prime.",
+      "speech": "Terzo, il sostenimento di un costo per l'acquisto di materie prime."
+    },
+    {
+      "text": "Quarto, il conseguimento di un ricavo di vendita.",
+      "speech": "Quarto, il conseguimento di un ricavo di vendita."
+    },
+    {
+      "text": "Nel primo caso, la Cassa aumenta, quindi si registra in Dare.",
+      "speech": "Nel primo caso, la Cassa aumenta, quindi si registra in Dare."
+    },
+    {
+      "text": "Nel secondo caso, la Banca diminuisce, quindi si registra in Avere.",
+      "speech": "Nel secondo caso, la Banca diminuisce, quindi si registra in Avere."
+    },
+    {
+      "text": "Nel terzo caso, si tratta di un costo, quindi si registra in Dare.",
+      "speech": "Nel terzo caso, si tratta di un costo, quindi si registra in Dare."
+    },
+    {
+      "text": "Nel quarto caso, si tratta di un ricavo, quindi si registra in Avere.",
+      "speech": "Nel quarto caso, si tratta di un ricavo, quindi si registra in Avere."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se un'azienda incassa un credito verso un cliente tramite bonifico bancario, quali due conti vengono coinvolti, e in quale colonna si registra ciascuno?",
+      "speech": "Proviamo un piccolo esercizio insieme: se un'azienda incassa un credito verso un cliente tramite bonifico bancario, quali due conti vengono coinvolti, e in quale colonna si registra ciascuno?"
+    },
+    {
+      "text": "Vengono coinvolti due conti finanziari attivi: la Banca, che aumenta, e quindi va in Dare,",
+      "speech": "Vengono coinvolti due conti finanziari attivi: la Banca, che aumenta, e quindi va in Dare,"
+    },
+    {
+      "text": "e i Crediti verso clienti, che diminuiscono, poiché il credito viene incassato ed estinto, e quindi vanno in Avere.",
+      "speech": "e i Crediti verso clienti, che diminuiscono, poiché il credito viene incassato ed estinto, e quindi vanno in Avere."
+    },
+    {
+      "text": "Notate che qui entrambi i conti sono finanziari, a differenza degli esempi precedenti dove un conto era finanziario e l'altro economico:",
+      "speech": "Notate che qui entrambi i conti sono finanziari, a differenza degli esempi precedenti dove un conto era finanziario e l'altro economico:"
+    },
+    {
+      "text": "questo dimostra come la partita doppia si applichi sempre, qualunque sia la natura dei conti coinvolti.",
+      "speech": "questo dimostra come la partita doppia si applichi sempre, qualunque sia la natura dei conti coinvolti."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: la partita doppia, ideata da Luca Pacioli nel millequattrocentonovantaquattro, registra ogni operazione in almeno due conti, uno in Dare e uno in Avere, per lo stesso importo.",
+      "speech": "Primo: la partita doppia, ideata da Luca Pacioli nel millequattrocentonovantaquattro, registra ogni operazione in almeno due conti, uno in Dare e uno in Avere, per lo stesso importo."
+    },
+    {
+      "text": "Secondo: i conti finanziari attivi e i conti economici di costo aumentano in Dare; i conti finanziari passivi e i conti economici di ricavo aumentano in Avere.",
+      "speech": "Secondo: i conti finanziari attivi e i conti economici di costo aumentano in Dare; i conti finanziari passivi e i conti economici di ricavo aumentano in Avere."
+    },
+    {
+      "text": "Terzo: applicando queste regole a ogni operazione, si controllano contemporaneamente l'aspetto finanziario e l'aspetto economico della gestione.",
+      "speech": "Terzo: applicando queste regole a ogni operazione, si controllano contemporaneamente l'aspetto finanziario e l'aspetto economico della gestione."
+    },
+    {
+      "text": "Con questo abbiamo completato il terzo modulo della dispensa.",
+      "speech": "Con questo abbiamo completato il terzo modulo della dispensa."
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nel quarto modulo, il più applicativo di tutti, e vediamo la prima operazione della vita di un'azienda individuale: la sua costituzione.",
+      "speech": "Nel prossimo episodio entriamo nel quarto modulo, il più applicativo di tutti, e vediamo la prima operazione della vita di un'azienda individuale: la sua costituzione."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

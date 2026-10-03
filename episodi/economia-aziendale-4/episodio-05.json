@@ -1,0 +1,136 @@
+{
+  "subject": "Economia Aziendale",
+  "episode": "05",
+  "title": "La gestione del magazzino: lotto economico e criteri di valutazione",
+  "class": "Classe quarta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la scelta tra acquisto diretto e leasing dei beni strumentali.",
+      "speech": "Nell'episodio scorso abbiamo visto la scelta tra acquisto diretto e leasing dei beni strumentali."
+    },
+    {
+      "text": "Oggi vediamo la gestione del magazzino, concludendo la seconda unità con due strumenti tecnici importanti: il lotto economico d'acquisto e i criteri di valutazione delle rimanenze.",
+      "speech": "Oggi vediamo la gestione del magazzino, concludendo la seconda unità con due strumenti tecnici importanti: il lotto economico d'acquisto e i criteri di valutazione delle rimanenze."
+    },
+    {
+      "text": "La gestione del magazzino riguarda la pianificazione e il controllo delle scorte di materie prime, semilavorati e prodotti finiti,",
+      "speech": "La gestione del magazzino riguarda la pianificazione e il controllo delle scorte di materie prime, semilavorati e prodotti finiti,"
+    },
+    {
+      "text": "allo scopo di garantire la continuità della produzione e delle vendite, minimizzando al contempo i costi connessi al mantenimento delle scorte: costi di magazzinaggio, di obsolescenza, finanziari.",
+      "speech": "allo scopo di garantire la continuità della produzione e delle vendite, minimizzando al contempo i costi connessi al mantenimento delle scorte: costi di magazzinaggio, di obsolescenza, finanziari."
+    },
+    {
+      "text": "Un modello utilizzato a questo scopo è il lotto economico d'acquisto, spesso indicato con la sigla inglese EOQ,",
+      "speech": "Un modello utilizzato a questo scopo è il lotto economico d'acquisto, spesso indicato con la sigla inglese EOQ,"
+    },
+    {
+      "text": "che determina la quantità ottimale da ordinare in modo da minimizzare la somma dei costi di emissione degli ordini e dei costi di mantenimento a scorta.",
+      "speech": "che determina la quantità ottimale da ordinare in modo da minimizzare la somma dei costi di emissione degli ordini e dei costi di mantenimento a scorta."
+    },
+    {
+      "text": "Fermatevi un momento sulla logica di questo modello, perché è un compromesso tra due costi opposti:",
+      "speech": "Fermatevi un momento sulla logica di questo modello, perché è un compromesso tra due costi opposti:"
+    },
+    {
+      "text": "se si ordinano piccole quantità molto spesso, si riducono i costi di mantenimento a scorta, ma aumentano i costi di emissione degli ordini, ripetuti più volte;",
+      "speech": "se si ordinano piccole quantità molto spesso, si riducono i costi di mantenimento a scorta, ma aumentano i costi di emissione degli ordini, ripetuti più volte;"
+    },
+    {
+      "text": "se invece si ordinano grandi quantità raramente, si riducono i costi di emissione, ma aumentano i costi di mantenimento, perché si tiene più merce ferma in magazzino più a lungo.",
+      "speech": "se invece si ordinano grandi quantità raramente, si riducono i costi di emissione, ma aumentano i costi di mantenimento, perché si tiene più merce ferma in magazzino più a lungo."
+    },
+    {
+      "text": "Il lotto economico d'acquisto individua il punto di equilibrio tra questi due effetti opposti.",
+      "speech": "Il lotto economico d'acquisto individua il punto di equilibrio tra questi due effetti opposti."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, l'esercizio sul lotto economico: un'azienda ha un fabbisogno annuo di quattromilacinquecento unità di un materiale;",
+      "speech": "Vediamo insieme, passo dopo passo, l'esercizio sul lotto economico: un'azienda ha un fabbisogno annuo di quattromilacinquecento unità di un materiale;"
+    },
+    {
+      "text": "il costo di emissione di ogni ordine è di cinquanta euro, e il costo di mantenimento a scorta è di due euro per unità all'anno.",
+      "speech": "il costo di emissione di ogni ordine è di cinquanta euro, e il costo di mantenimento a scorta è di due euro per unità all'anno."
+    },
+    {
+      "text": "Applicando la formula del lotto economico, radice quadrata di due volte il fabbisogno annuo per il costo di ordinazione, diviso il costo di mantenimento unitario, determiniamo la quantità ottimale da ordinare.",
+      "speech": "Applicando la formula del lotto economico, radice quadrata di due volte il fabbisogno annuo per il costo di ordinazione, diviso il costo di mantenimento unitario, determiniamo la quantità ottimale da ordinare."
+    },
+    {
+      "text": "Il calcolo è: due per quattromilacinquecento per cinquanta, diviso due, cioè duecentoventicinquemila;",
+      "speech": "Il calcolo è: due per quattromilacinquecento per cinquanta, diviso due, cioè duecentoventicinquemila;"
+    },
+    {
+      "text": "la radice quadrata di duecentoventicinquemila è circa quattrocentosettantaquattro unità per ordine.",
+      "speech": "la radice quadrata di duecentoventicinquemila è circa quattrocentosettantaquattro unità per ordine."
+    },
+    {
+      "text": "Per quanto riguarda invece la valutazione delle rimanenze di magazzino, si possono utilizzare diversi criteri.",
+      "speech": "Per quanto riguarda invece la valutazione delle rimanenze di magazzino, si possono utilizzare diversi criteri."
+    },
+    {
+      "text": "Il costo medio ponderato calcola una media dei costi di acquisto, ponderata per le quantità acquistate a ciascun prezzo.",
+      "speech": "Il costo medio ponderato calcola una media dei costi di acquisto, ponderata per le quantità acquistate a ciascun prezzo."
+    },
+    {
+      "text": "Il FIFO, che sta per First In First Out, considera vendute per prime le merci acquistate per prime.",
+      "speech": "Il FIFO, che sta per First In First Out, considera vendute per prime le merci acquistate per prime."
+    },
+    {
+      "text": "Il LIFO, che sta per Last In First Out, considera invece vendute per prime le merci acquistate più di recente.",
+      "speech": "Il LIFO, che sta per Last In First Out, considera invece vendute per prime le merci acquistate più di recente."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme, sul costo medio ponderato:",
+      "speech": "Proviamo un piccolo esercizio insieme, sul costo medio ponderato:"
+    },
+    {
+      "text": "nel corso dell'anno un'azienda ha acquistato cento unità a dieci euro, per un totale di mille euro, e duecento unità a dodici euro, per un totale di duemilaquattrocento euro.",
+      "speech": "nel corso dell'anno un'azienda ha acquistato cento unità a dieci euro, per un totale di mille euro, e duecento unità a dodici euro, per un totale di duemilaquattrocento euro."
+    },
+    {
+      "text": "Calcolare il costo medio ponderato unitario, e il valore delle ottanta unità rimaste in magazzino.",
+      "speech": "Calcolare il costo medio ponderato unitario, e il valore delle ottanta unità rimaste in magazzino."
+    },
+    {
+      "text": "Il costo medio ponderato si ottiene dividendo il totale speso per il totale delle unità acquistate:",
+      "speech": "Il costo medio ponderato si ottiene dividendo il totale speso per il totale delle unità acquistate:"
+    },
+    {
+      "text": "mille più duemilaquattrocento, diviso cento più duecento, cioè tremilaquattrocento diviso trecento, circa undici euro e trentatré centesimi per unità.",
+      "speech": "mille più duemilaquattrocento, diviso cento più duecento, cioè tremilaquattrocento diviso trecento, circa undici euro e trentatré centesimi per unità."
+    },
+    {
+      "text": "Il valore delle rimanenze è ottanta unità per undici euro e trentatré, cioè circa novecentosei euro e sessantasette centesimi.",
+      "speech": "Il valore delle rimanenze è ottanta unità per undici euro e trentatré, cioè circa novecentosei euro e sessantasette centesimi."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: la gestione del magazzino punta a garantire la continuità di produzione e vendite minimizzando i costi delle scorte.",
+      "speech": "Primo: la gestione del magazzino punta a garantire la continuità di produzione e vendite minimizzando i costi delle scorte."
+    },
+    {
+      "text": "Secondo: il lotto economico d'acquisto determina la quantità ottimale da ordinare, bilanciando costi di emissione degli ordini e costi di mantenimento a scorta.",
+      "speech": "Secondo: il lotto economico d'acquisto determina la quantità ottimale da ordinare, bilanciando costi di emissione degli ordini e costi di mantenimento a scorta."
+    },
+    {
+      "text": "Terzo: le rimanenze si valutano con criteri diversi, come il costo medio ponderato, il FIFO e il LIFO.",
+      "speech": "Terzo: le rimanenze si valutano con criteri diversi, come il costo medio ponderato, il FIFO e il LIFO."
+    },
+    {
+      "text": "Con questo abbiamo completato la seconda unità della dispensa.",
+      "speech": "Con questo abbiamo completato la seconda unità della dispensa."
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nella terza unità, dedicata alla gestione finanziaria, partendo dal fabbisogno finanziario e dal capitale circolante netto.",
+      "speech": "Nel prossimo episodio entriamo nella terza unità, dedicata alla gestione finanziaria, partendo dal fabbisogno finanziario e dal capitale circolante netto."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

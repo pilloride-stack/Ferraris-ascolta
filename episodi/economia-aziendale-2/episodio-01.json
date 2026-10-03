@@ -1,0 +1,112 @@
+{
+  "subject": "Economia Aziendale",
+  "episode": "01",
+  "title": "L'interesse semplice",
+  "class": "Classe seconda",
+  "sentences": [
+    {
+      "text": "Benvenuti a questo nuovo percorso di Economia Aziendale, per la classe seconda, indirizzo Amministrazione, Finanza e Marketing.",
+      "speech": "Benvenuti a questo nuovo percorso di Economia Aziendale, per la classe seconda, indirizzo Amministrazione, Finanza e Marketing."
+    },
+    {
+      "text": "In questo corso affronteremo quattro grandi moduli: il credito e i calcoli finanziari, gli strumenti di regolamento, la gestione tra patrimonio e reddito, e infine la rilevazione e gli schemi di bilancio.",
+      "speech": "In questo corso affronteremo quattro grandi moduli: il credito e i calcoli finanziari, gli strumenti di regolamento, la gestione tra patrimonio e reddito, e infine la rilevazione e gli schemi di bilancio."
+    },
+    {
+      "text": "Cominciamo dal primo concetto matematico-finanziario di questo percorso: l'interesse.",
+      "speech": "Cominciamo dal primo concetto matematico-finanziario di questo percorso: l'interesse."
+    },
+    {
+      "text": "Quando un soggetto, il creditore, mette a disposizione di un altro soggetto, il debitore, un capitale per un certo periodo di tempo,",
+      "speech": "Quando un soggetto, il creditore, mette a disposizione di un altro soggetto, il debitore, un capitale per un certo periodo di tempo,"
+    },
+    {
+      "text": "ha diritto a un compenso per la rinuncia temporanea alla disponibilità del proprio denaro: questo compenso si chiama interesse.",
+      "speech": "ha diritto a un compenso per la rinuncia temporanea alla disponibilità del proprio denaro: questo compenso si chiama interesse."
+    },
+    {
+      "text": "Nel calcolo dell'interesse semplice, in cui l'interesse maturato non si aggiunge al capitale per produrre a sua volta altro interesse,",
+      "speech": "Nel calcolo dell'interesse semplice, in cui l'interesse maturato non si aggiunge al capitale per produrre a sua volta altro interesse,"
+    },
+    {
+      "text": "l'interesse è direttamente proporzionale al capitale impiegato, al tasso di interesse e al tempo per cui il capitale resta impiegato, secondo la formula:",
+      "speech": "l'interesse è direttamente proporzionale al capitale impiegato, al tasso di interesse e al tempo per cui il capitale resta impiegato, secondo la formula:"
+    },
+    {
+      "text": "interesse uguale capitale per tasso per tempo, diviso cento, dove il tasso è espresso in percentuale annua e il tempo in anni, o frazioni di anno.",
+      "speech": "interesse uguale capitale per tasso per tempo, diviso cento, dove il tasso è espresso in percentuale annua e il tempo in anni, o frazioni di anno."
+    },
+    {
+      "text": "La somma tra il capitale iniziale e l'interesse maturato si chiama montante.",
+      "speech": "La somma tra il capitale iniziale e l'interesse maturato si chiama montante."
+    },
+    {
+      "text": "Fermatevi un momento su questa formula, perché è la base di tutto il modulo, e da qui derivano quasi tutti i calcoli che vedremo:",
+      "speech": "Fermatevi un momento su questa formula, perché è la base di tutto il modulo, e da qui derivano quasi tutti i calcoli che vedremo:"
+    },
+    {
+      "text": "gli elementi coinvolti sono sempre capitale, tasso e tempo, e l'unico vero punto delicato è ricordarsi di esprimere sempre il tempo in anni, convertendo se necessario mesi o giorni, prima di applicare la formula.",
+      "speech": "gli elementi coinvolti sono sempre capitale, tasso e tempo, e l'unico vero punto delicato è ricordarsi di esprimere sempre il tempo in anni, convertendo se necessario mesi o giorni, prima di applicare la formula."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, un primo esempio svolto: calcolare l'interesse prodotto da un capitale di ottomila euro impiegato per due anni al tasso annuo del tre per cento.",
+      "speech": "Vediamo insieme, passo dopo passo, un primo esempio svolto: calcolare l'interesse prodotto da un capitale di ottomila euro impiegato per due anni al tasso annuo del tre per cento."
+    },
+    {
+      "text": "Applicando la formula, l'interesse è uguale a ottomila per tre per due, diviso cento, cioè quattrocentottanta euro.",
+      "speech": "Applicando la formula, l'interesse è uguale a ottomila per tre per due, diviso cento, cioè quattrocentottanta euro."
+    },
+    {
+      "text": "Vediamo ora un secondo esempio, leggermente più complesso, in cui il tempo è espresso in mesi anziché in anni:",
+      "speech": "Vediamo ora un secondo esempio, leggermente più complesso, in cui il tempo è espresso in mesi anziché in anni:"
+    },
+    {
+      "text": "calcolare l'interesse prodotto da un capitale di dodicimila euro impiegato per otto mesi al tasso annuo del quattro per cento.",
+      "speech": "calcolare l'interesse prodotto da un capitale di dodicimila euro impiegato per otto mesi al tasso annuo del quattro per cento."
+    },
+    {
+      "text": "Per prima cosa il tempo va convertito in anni: otto dodicesimi, cioè zero virgola seicentosessantasette anni circa.",
+      "speech": "Per prima cosa il tempo va convertito in anni: otto dodicesimi, cioè zero virgola seicentosessantasette anni circa."
+    },
+    {
+      "text": "Poi si applica la formula: dodicimila per quattro per zero virgola seicentosessantasette, diviso cento, cioè trecentoventi euro; il montante finale sarebbe dunque di dodicimilatrecentoventi euro.",
+      "speech": "Poi si applica la formula: dodicimila per quattro per zero virgola seicentosessantasette, diviso cento, cioè trecentoventi euro; il montante finale sarebbe dunque di dodicimilatrecentoventi euro."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se doveste calcolare l'interesse di un capitale di seimila euro impiegato per tre mesi al tasso annuo del cinque per cento, quale sarebbe il primo passo da compiere, prima ancora di applicare la formula?",
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste calcolare l'interesse di un capitale di seimila euro impiegato per tre mesi al tasso annuo del cinque per cento, quale sarebbe il primo passo da compiere, prima ancora di applicare la formula?"
+    },
+    {
+      "text": "Il primo passo sarebbe convertire i tre mesi in anni, cioè tre dodicesimi, uguale zero virgola venticinque anni;",
+      "speech": "Il primo passo sarebbe convertire i tre mesi in anni, cioè tre dodicesimi, uguale zero virgola venticinque anni;"
+    },
+    {
+      "text": "solo dopo questa conversione si potrebbe applicare correttamente la formula dell'interesse, ottenendo seimila per cinque per zero virgola venticinque, diviso cento, cioè settantacinque euro.",
+      "speech": "solo dopo questa conversione si potrebbe applicare correttamente la formula dell'interesse, ottenendo seimila per cinque per zero virgola venticinque, diviso cento, cioè settantacinque euro."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: l'interesse è il compenso per la disponibilità temporanea di un capitale, e si calcola come capitale per tasso per tempo, diviso cento.",
+      "speech": "Primo: l'interesse è il compenso per la disponibilità temporanea di un capitale, e si calcola come capitale per tasso per tempo, diviso cento."
+    },
+    {
+      "text": "Secondo: il tempo va sempre espresso in anni, convertendo mesi o giorni quando necessario.",
+      "speech": "Secondo: il tempo va sempre espresso in anni, convertendo mesi o giorni quando necessario."
+    },
+    {
+      "text": "Terzo: il montante è la somma tra capitale iniziale e interesse maturato.",
+      "speech": "Terzo: il montante è la somma tra capitale iniziale e interesse maturato."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo lo sconto, il compenso per l'anticipato pagamento di un debito, insieme all'unificazione e alla suddivisione di più capitali.",
+      "speech": "Nel prossimo episodio vediamo lo sconto, il compenso per l'anticipato pagamento di un debito, insieme all'unificazione e alla suddivisione di più capitali."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

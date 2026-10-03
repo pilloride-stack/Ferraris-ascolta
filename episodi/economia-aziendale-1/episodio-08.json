@@ -1,0 +1,128 @@
+{
+  "subject": "Economia Aziendale",
+  "episode": "08",
+  "title": "L'IVA: meccanismo e calcoli",
+  "class": "Classe prima",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto i documenti della compravendita, dall'ordine alla nota di variazione.",
+      "speech": "Nell'episodio scorso abbiamo visto i documenti della compravendita, dall'ordine alla nota di variazione."
+    },
+    {
+      "text": "Oggi dedichiamo l'intero episodio all'imposta sul valore aggiunto, il suo meccanismo e i suoi calcoli, un argomento che compare quasi sempre, in un modo o nell'altro, in una fattura.",
+      "speech": "Oggi dedichiamo l'intero episodio all'imposta sul valore aggiunto, il suo meccanismo e i suoi calcoli, un argomento che compare quasi sempre, in un modo o nell'altro, in una fattura."
+    },
+    {
+      "text": "L'IVA, Imposta sul Valore Aggiunto, è un'imposta indiretta che colpisce i consumi, applicata su quasi ogni operazione di cessione di beni o prestazione di servizi effettuata da soggetti che esercitano un'attività d'impresa, arte o professione.",
+      "speech": "L'IVA, Imposta sul Valore Aggiunto, è un'imposta indiretta che colpisce i consumi, applicata su quasi ogni operazione di cessione di beni o prestazione di servizi effettuata da soggetti che esercitano un'attività d'impresa, arte o professione."
+    },
+    {
+      "text": "Il suo meccanismo si basa su due principi, ed è fondamentale saperli distinguere con precisione:",
+      "speech": "Il suo meccanismo si basa su due principi, ed è fondamentale saperli distinguere con precisione:"
+    },
+    {
+      "text": "la rivalsa, per cui il venditore addebita l'IVA al proprio cliente, aggiungendola al prezzo del bene o servizio venduto;",
+      "speech": "la rivalsa, per cui il venditore addebita l'IVA al proprio cliente, aggiungendola al prezzo del bene o servizio venduto;"
+    },
+    {
+      "text": "e la detrazione, per cui il compratore, se a sua volta soggetto passivo IVA,",
+      "speech": "e la detrazione, per cui il compratore, se a sua volta soggetto passivo IVA,"
+    },
+    {
+      "text": "cioè un'impresa o un professionista, può detrarre l'IVA pagata sui propri acquisti da quella addebitata sulle proprie vendite, versando allo Stato solo la differenza.",
+      "speech": "cioè un'impresa o un professionista, può detrarre l'IVA pagata sui propri acquisti da quella addebitata sulle proprie vendite, versando allo Stato solo la differenza."
+    },
+    {
+      "text": "Fermatevi un momento su questo meccanismo a due fasi, perché è la vera chiave per capire l'IVA in profondità, e non solo come una semplice percentuale da sommare al prezzo:",
+      "speech": "Fermatevi un momento su questo meccanismo a due fasi, perché è la vera chiave per capire l'IVA in profondità, e non solo come una semplice percentuale da sommare al prezzo:"
+    },
+    {
+      "text": "questo doppio meccanismo di rivalsa e detrazione rende l'IVA neutrale per le imprese lungo tutta la catena produttiva e distributiva,",
+      "speech": "questo doppio meccanismo di rivalsa e detrazione rende l'IVA neutrale per le imprese lungo tutta la catena produttiva e distributiva,"
+    },
+    {
+      "text": "poiché ciascuna impresa, in sostanza, versa allo Stato solo la differenza tra l'IVA incassata dai propri clienti e quella pagata ai propri fornitori.",
+      "speech": "poiché ciascuna impresa, in sostanza, versa allo Stato solo la differenza tra l'IVA incassata dai propri clienti e quella pagata ai propri fornitori."
+    },
+    {
+      "text": "Il peso economico dell'imposta ricade quindi interamente sul consumatore finale, che, non potendo detrarla, la sostiene per intero.",
+      "speech": "Il peso economico dell'imposta ricade quindi interamente sul consumatore finale, che, non potendo detrarla, la sostiene per intero."
+    },
+    {
+      "text": "In Italia le aliquote principali sono tre.",
+      "speech": "In Italia le aliquote principali sono tre."
+    },
+    {
+      "text": "L'aliquota ordinaria del ventidue per cento, applicata alla generalità dei beni e servizi.",
+      "speech": "L'aliquota ordinaria del ventidue per cento, applicata alla generalità dei beni e servizi."
+    },
+    {
+      "text": "L'aliquota ridotta del dieci per cento, applicata per esempio ad alcuni alimenti e alle forniture di energia elettrica e gas per uso domestico.",
+      "speech": "L'aliquota ridotta del dieci per cento, applicata per esempio ad alcuni alimenti e alle forniture di energia elettrica e gas per uso domestico."
+    },
+    {
+      "text": "E l'aliquota minima del quattro per cento, applicata ai cosiddetti beni di prima necessità, come molti alimenti di base, e ad alcune pubblicazioni.",
+      "speech": "E l'aliquota minima del quattro per cento, applicata ai cosiddetti beni di prima necessità, come molti alimenti di base, e ad alcune pubblicazioni."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, un esempio svolto di calcolo dell'IVA su una fattura: un'azienda vende merce per un imponibile di mille euro, con IVA al ventidue per cento.",
+      "speech": "Vediamo insieme, passo dopo passo, un esempio svolto di calcolo dell'IVA su una fattura: un'azienda vende merce per un imponibile di mille euro, con IVA al ventidue per cento."
+    },
+    {
+      "text": "Calcolare l'importo dell'IVA e il totale della fattura.",
+      "speech": "Calcolare l'importo dell'IVA e il totale della fattura."
+    },
+    {
+      "text": "Per prima cosa si calcola l'IVA, moltiplicando l'imponibile per l'aliquota: mille euro per il ventidue per cento fa duecentoventi euro.",
+      "speech": "Per prima cosa si calcola l'IVA, moltiplicando l'imponibile per l'aliquota: mille euro per il ventidue per cento fa duecentoventi euro."
+    },
+    {
+      "text": "Poi si calcola il totale della fattura, sommando imponibile e IVA: mille euro più duecentoventi euro fa milleduecentoventi euro.",
+      "speech": "Poi si calcola il totale della fattura, sommando imponibile e IVA: mille euro più duecentoventi euro fa milleduecentoventi euro."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se un'azienda acquistasse materie prime per un imponibile di cinquecento euro con IVA al ventidue per cento,",
+      "speech": "Proviamo un piccolo esercizio insieme: se un'azienda acquistasse materie prime per un imponibile di cinquecento euro con IVA al ventidue per cento,"
+    },
+    {
+      "text": "e poi rivendesse il prodotto finito per un imponibile di ottocento euro, sempre con IVA al ventidue per cento, quanto dovrebbe effettivamente versare allo Stato, applicando il meccanismo di rivalsa e detrazione?",
+      "speech": "e poi rivendesse il prodotto finito per un imponibile di ottocento euro, sempre con IVA al ventidue per cento, quanto dovrebbe effettivamente versare allo Stato, applicando il meccanismo di rivalsa e detrazione?"
+    },
+    {
+      "text": "L'IVA sugli acquisti sarebbe di centodieci euro, cinquecento per il ventidue per cento; l'IVA sulle vendite sarebbe di centosettantasei euro, ottocento per il ventidue per cento;",
+      "speech": "L'IVA sugli acquisti sarebbe di centodieci euro, cinquecento per il ventidue per cento; l'IVA sulle vendite sarebbe di centosettantasei euro, ottocento per il ventidue per cento;"
+    },
+    {
+      "text": "l'azienda verserebbe allo Stato solo la differenza, cioè sessantasei euro, detraendo l'IVA già pagata sui propri acquisti da quella incassata sulle proprie vendite.",
+      "speech": "l'azienda verserebbe allo Stato solo la differenza, cioè sessantasei euro, detraendo l'IVA già pagata sui propri acquisti da quella incassata sulle proprie vendite."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: l'IVA si basa su rivalsa, il venditore la addebita al cliente, e detrazione, il compratore soggetto passivo la detrae sui propri acquisti, rendendola neutrale per le imprese.",
+      "speech": "Primo: l'IVA si basa su rivalsa, il venditore la addebita al cliente, e detrazione, il compratore soggetto passivo la detrae sui propri acquisti, rendendola neutrale per le imprese."
+    },
+    {
+      "text": "Secondo: le aliquote italiane sono il ventidue per cento ordinaria, il dieci per cento ridotta, e il quattro per cento minima.",
+      "speech": "Secondo: le aliquote italiane sono il ventidue per cento ordinaria, il dieci per cento ridotta, e il quattro per cento minima."
+    },
+    {
+      "text": "Terzo: il calcolo dell'IVA su una fattura moltiplica l'imponibile per l'aliquota, e il totale fattura somma imponibile e IVA.",
+      "speech": "Terzo: il calcolo dell'IVA su una fattura moltiplica l'imponibile per l'aliquota, e il totale fattura somma imponibile e IVA."
+    },
+    {
+      "text": "Con questo abbiamo completato tutti i contenuti nuovi dell'intero modulo.",
+      "speech": "Con questo abbiamo completato tutti i contenuti nuovi dell'intero modulo."
+    },
+    {
+      "text": "Nel prossimo e ultimo episodio dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
+      "speech": "Nel prossimo e ultimo episodio dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}
