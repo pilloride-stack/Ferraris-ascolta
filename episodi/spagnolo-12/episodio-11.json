@@ -1,0 +1,604 @@
+{
+  "subject": "Spagnolo",
+  "episode": "11",
+  "title": "El pretérito indefinido",
+  "class": "Classi prima e seconda",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo concluso il programma della Classe I con le comunidades autónomas.",
+      "speech": "Nell'episodio scorso abbiamo concluso il programma della Classe I con le comunidades autónomas.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo concluso il programma della Classe I con le"
+        },
+        {
+          "lang": "es",
+          "text": "comunidades autónomas."
+        }
+      ]
+    },
+    {
+      "text": "Oggi entriamo nel programma della Classe II e affrontiamo un nuovo tempo verbale fondamentale per parlare del passato: il pretérito indefinido, spesso chiamato anche pretérito simple.",
+      "speech": "Oggi entriamo nel programma della Classe II e affrontiamo un nuovo tempo verbale fondamentale per parlare del passato: il pretérito indefinido, spesso chiamato anche pretérito simple.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Oggi entriamo nel programma della Classe II e affrontiamo un nuovo tempo verbale fondamentale per parlare del passato: il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso chiamato anche"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito simple."
+        }
+      ]
+    },
+    {
+      "text": "Prima di procedere, vale la pena ricordare rapidamente tutte le strutture già viste nell'anno precedente, perché costituiranno la base su cui innestare le nuove conoscenze di questo modulo:",
+      "speech": "Prima di procedere, vale la pena ricordare rapidamente tutte le strutture già viste nell'anno precedente, perché costituiranno la base su cui innestare le nuove conoscenze di questo modulo:"
+    },
+    {
+      "text": "il presente indicativo e il pretérito perfecto, l'imperfecto e il pluscuamperfecto, il gerundio e la perifrasi estar più gerundio, l'imperativo affermativo,",
+      "speech": "il presente indicativo e il pretérito perfecto, l'imperfecto e il pluscuamperfecto, il gerundio e la perifrasi estar più gerundio, l'imperativo affermativo,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il presente indicativo e il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto,"
+        },
+        {
+          "lang": "it",
+          "text": "l'imperfecto e il pluscuamperfecto, il gerundio e la perifrasi"
+        },
+        {
+          "lang": "es",
+          "text": "estar"
+        },
+        {
+          "lang": "it",
+          "text": "più gerundio, l'imperativo affermativo,"
+        }
+      ]
+    },
+    {
+      "text": "le coppie di parole che creano confusione — muy/mucho, ser/estar, hay/está, haber/tener, preguntar/pedir, por/para — e i comparativi e i superlativi.",
+      "speech": "le coppie di parole che creano confusione — muy/mucho, ser/estar, hay/está, haber/tener, preguntar/pedir, por/para — e i comparativi e i superlativi.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "le coppie di parole che creano confusione —"
+        },
+        {
+          "lang": "es",
+          "text": "muy/mucho, ser/estar, hay/está, haber/tener, preguntar/pedir, por/para —"
+        },
+        {
+          "lang": "it",
+          "text": "e i comparativi e i superlativi."
+        }
+      ]
+    },
+    {
+      "text": "Con queste basi solide, siamo pronti per affrontare il pretérito indefinido.",
+      "speech": "Con queste basi solide, siamo pronti per affrontare il pretérito indefinido.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Con queste basi solide, siamo pronti per affrontare il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido."
+        }
+      ]
+    },
+    {
+      "text": "Il pretérito indefinido si usa per esprimere azioni concluse nel passato, in un momento specifico e non collegato al presente,",
+      "speech": "Il pretérito indefinido si usa per esprimere azioni concluse nel passato, in un momento specifico e non collegato al presente,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per esprimere azioni concluse nel passato, in un momento specifico e non collegato al presente,"
+        }
+      ]
+    },
+    {
+      "text": "come ayer, ieri, la semana pasada, la settimana scorsa, o en 2020, nel 2020, a differenza del pretérito perfecto, che abbiamo visto invece indicare un passato ancora collegato al presente, come hoy, esta semana o este año.",
+      "speech": "come ayer, ieri, la semana pasada, la settimana scorsa, o en 2020, nel 2020, a differenza del pretérito perfecto, che abbiamo visto invece indicare un passato ancora collegato al presente, come hoy, esta semana o este año.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "come"
+        },
+        {
+          "lang": "es",
+          "text": "ayer,"
+        },
+        {
+          "lang": "it",
+          "text": "ieri,"
+        },
+        {
+          "lang": "es",
+          "text": "la semana pasada,"
+        },
+        {
+          "lang": "it",
+          "text": "la settimana scorsa,"
+        },
+        {
+          "lang": "es",
+          "text": "o en 2020,"
+        },
+        {
+          "lang": "it",
+          "text": "nel 2020, a differenza del"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto,"
+        },
+        {
+          "lang": "it",
+          "text": "che abbiamo visto invece indicare un passato ancora collegato al presente, come"
+        },
+        {
+          "lang": "es",
+          "text": "hoy, esta semana o este año."
+        }
+      ]
+    },
+    {
+      "text": "Fermatevi un momento su questa distinzione, perché è probabilmente il punto più richiesto in sede d'esame su questo argomento:",
+      "speech": "Fermatevi un momento su questa distinzione, perché è probabilmente il punto più richiesto in sede d'esame su questo argomento:"
+    },
+    {
+      "text": "se un'azione appartiene a un periodo di tempo ancora in corso, come «oggi» o «quest'anno», si usa il pretérito perfecto;",
+      "speech": "se un'azione appartiene a un periodo di tempo ancora in corso, come «oggi» o «quest'anno», si usa il pretérito perfecto;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "se un'azione appartiene a un periodo di tempo ancora in corso, come «oggi» o «quest'anno», si usa il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto;"
+        }
+      ]
+    },
+    {
+      "text": "se invece appartiene a un periodo di tempo ormai concluso, come «ieri» o «l'anno scorso», si usa il pretérito indefinido.",
+      "speech": "se invece appartiene a un periodo di tempo ormai concluso, come «ieri» o «l'anno scorso», si usa il pretérito indefinido.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "se invece appartiene a un periodo di tempo ormai concluso, come «ieri» o «l'anno scorso», si usa il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido."
+        }
+      ]
+    },
+    {
+      "text": "Coniughiamo hablar al pretérito indefinido: hablé, hablaste, habló, hablamos, hablasteis, hablaron.",
+      "speech": "Coniughiamo hablar al pretérito indefinido: hablé, hablaste, habló, hablamos, hablasteis, hablaron.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Coniughiamo"
+        },
+        {
+          "lang": "es",
+          "text": "hablar al pretérito indefinido: hablé, hablaste, habló, hablamos, hablasteis, hablaron."
+        }
+      ]
+    },
+    {
+      "text": "Comer diventa comí, comiste, comió, comimos, comisteis, comieron; vivir diventa viví, viviste, vivió, vivimos, vivisteis, vivieron.",
+      "speech": "Comer diventa comí, comiste, comió, comimos, comisteis, comieron; vivir diventa viví, viviste, vivió, vivimos, vivisteis, vivieron.",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Comer"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "comí, comiste, comió, comimos, comisteis, comieron; vivir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "viví, viviste, vivió, vivimos, vivisteis, vivieron."
+        }
+      ]
+    },
+    {
+      "text": "Numerosi verbi di uso molto frequente sono irregolari al pretérito indefinido, con radici modificate e desinenze proprie, ed è indispensabile memorizzarli con cura perché ricorrono continuamente nella lingua parlata.",
+      "speech": "Numerosi verbi di uso molto frequente sono irregolari al pretérito indefinido, con radici modificate e desinenze proprie, ed è indispensabile memorizzarli con cura perché ricorrono continuamente nella lingua parlata.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Numerosi verbi di uso molto frequente sono irregolari al"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido,"
+        },
+        {
+          "lang": "it",
+          "text": "con radici modificate e desinenze proprie, ed è indispensabile memorizzarli con cura perché ricorrono continuamente nella lingua parlata."
+        }
+      ]
+    },
+    {
+      "text": "Ser e ir condividono, curiosamente, la stessa identica coniugazione al pretérito indefinido:",
+      "speech": "Ser e ir condividono, curiosamente, la stessa identica coniugazione al pretérito indefinido:",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Ser"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "ir"
+        },
+        {
+          "lang": "it",
+          "text": "condividono, curiosamente, la stessa identica coniugazione al"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido:"
+        }
+      ]
+    },
+    {
+      "text": "fui, fuiste, fue, fuimos, fuisteis, fueron — un dettaglio davvero sorprendente che vale la pena ricordare,",
+      "speech": "fui, fuiste, fue, fuimos, fuisteis, fueron — un dettaglio davvero sorprendente che vale la pena ricordare,",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "fui, fuiste, fue, fuimos, fuisteis, fueron —"
+        },
+        {
+          "lang": "it",
+          "text": "un dettaglio davvero sorprendente che vale la pena ricordare,"
+        }
+      ]
+    },
+    {
+      "text": "perché significa che, senza un contesto chiaro, la stessa forma fue potrebbe tradurre sia «fu» sia «andò».",
+      "speech": "perché significa che, senza un contesto chiaro, la stessa forma fue potrebbe tradurre sia «fu» sia «andò».",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "perché significa che, senza un contesto chiaro, la stessa forma"
+        },
+        {
+          "lang": "es",
+          "text": "fue"
+        },
+        {
+          "lang": "it",
+          "text": "potrebbe tradurre sia «fu» sia «andò»."
+        }
+      ]
+    },
+    {
+      "text": "Estar diventa estuve, estuviste, estuvo; tener diventa tuve, tuviste, tuvo; hacer diventa hice, hiciste, hizo; poder diventa pude, pudiste, pudo;",
+      "speech": "Estar diventa estuve, estuviste, estuvo; tener diventa tuve, tuviste, tuvo; hacer diventa hice, hiciste, hizo; poder diventa pude, pudiste, pudo;",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Estar"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "estuve, estuviste, estuvo; tener"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "tuve, tuviste, tuvo; hacer"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "hice, hiciste, hizo; poder"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "pude, pudiste, pudo;"
+        }
+      ]
+    },
+    {
+      "text": "poner diventa puse, pusiste, puso; decir diventa dije, dijiste, dijo, con la terza persona plurale dijeron; e venir diventa vine, viniste, vino.",
+      "speech": "poner diventa puse, pusiste, puso; decir diventa dije, dijiste, dijo, con la terza persona plurale dijeron; e venir diventa vine, viniste, vino.",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "poner"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "puse, pusiste, puso; decir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "dije, dijiste, dijo,"
+        },
+        {
+          "lang": "it",
+          "text": "con la terza persona plurale"
+        },
+        {
+          "lang": "es",
+          "text": "dijeron;"
+        },
+        {
+          "lang": "it",
+          "text": "e venir diventa"
+        },
+        {
+          "lang": "es",
+          "text": "vine, viniste,"
+        },
+        {
+          "lang": "it",
+          "text": "vino."
+        }
+      ]
+    },
+    {
+      "text": "Proviamo un esempio pratico: come completereste la frase «El verano pasado, nosotros ______ (ir) a España y ______ (estar) dos semanas en Madrid»?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase «El verano pasado, nosotros … (ir) a España y … (estar) dos semanas en Madrid»?",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un esempio pratico: come completereste la frase «"
+        },
+        {
+          "lang": "es",
+          "text": "El verano pasado, nosotros … (ir) a España y … (estar) dos semanas en Madrid»?"
+        }
+      ]
+    },
+    {
+      "text": "La soluzione è: El verano pasado, nosotros fuimos a España y estuvimos dos semanas en Madrid — fuimos dal verbo ir, estuvimos dal verbo estar, entrambi irregolari come abbiamo appena visto.",
+      "speech": "La soluzione è: El verano pasado, nosotros fuimos a España y estuvimos dos semanas en Madrid — fuimos dal verbo ir, estuvimos dal verbo estar, entrambi irregolari come abbiamo appena visto.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La soluzione è:"
+        },
+        {
+          "lang": "es",
+          "text": "El verano pasado, nosotros fuimos a España y estuvimos dos semanas en Madrid — fuimos"
+        },
+        {
+          "lang": "it",
+          "text": "dal verbo"
+        },
+        {
+          "lang": "es",
+          "text": "ir, estuvimos"
+        },
+        {
+          "lang": "it",
+          "text": "dal verbo"
+        },
+        {
+          "lang": "es",
+          "text": "estar,"
+        },
+        {
+          "lang": "it",
+          "text": "entrambi irregolari come abbiamo appena visto."
+        }
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme per fissare bene tutte queste forme irregolari: «Ayer, yo ______ (hablar) con mi profesora» — hablé, forma regolare.",
+      "speech": "Proviamo un piccolo esercizio insieme per fissare bene tutte queste forme irregolari: «Ayer, yo … (hablar) con mi profesora» — hablé, forma regolare.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un piccolo esercizio insieme per fissare bene tutte queste forme irregolari: «"
+        },
+        {
+          "lang": "es",
+          "text": "Ayer, yo … (hablar) con mi profesora» — hablé,"
+        },
+        {
+          "lang": "it",
+          "text": "forma regolare."
+        }
+      ]
+    },
+    {
+      "text": "«Ella ______ (hacer) los deberes anoche» — hizo, forma irregolare.",
+      "speech": "«Ella … (hacer) los deberes anoche» — hizo, forma irregolare.",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«Ella … (hacer) los deberes anoche» — hizo,"
+        },
+        {
+          "lang": "it",
+          "text": "forma irregolare."
+        }
+      ]
+    },
+    {
+      "text": "«Ellos ______ (venir) a la fiesta el sábado» — vinieron, forma irregolare.",
+      "speech": "«Ellos … (venir) a la fiesta el sábado» — vinieron, forma irregolare.",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«Ellos … (venir) a la fiesta el sábado» — vinieron,"
+        },
+        {
+          "lang": "it",
+          "text": "forma irregolare."
+        }
+      ]
+    },
+    {
+      "text": "«¿Tú ______ (poder) terminar el examen?» — pudiste, forma irregolare.",
+      "speech": "«¿Tú … (poder) terminar el examen?» — pudiste, forma irregolare.",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«¿Tú … (poder) terminar el examen?» — pudiste,"
+        },
+        {
+          "lang": "it",
+          "text": "forma irregolare."
+        }
+      ]
+    },
+    {
+      "text": "«El año pasado, yo ______ (ir) a Barcelona» — fui, forma irregolare condivisa con ser.",
+      "speech": "«El año pasado, yo … (ir) a Barcelona» — fui, forma irregolare condivisa con ser.",
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«El año pasado, yo … (ir) a Barcelona» — fui,"
+        },
+        {
+          "lang": "it",
+          "text": "forma irregolare condivisa con"
+        },
+        {
+          "lang": "es",
+          "text": "ser."
+        }
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il pretérito indefinido si usa per azioni concluse in un momento specifico del passato, non collegato al presente, a differenza del pretérito perfecto.",
+      "speech": "Primo: il pretérito indefinido si usa per azioni concluse in un momento specifico del passato, non collegato al presente, a differenza del pretérito perfecto.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per azioni concluse in un momento specifico del passato, non collegato al presente, a differenza del"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto."
+        }
+      ]
+    },
+    {
+      "text": "Secondo: i verbi regolari seguono tre schemi di desinenze per le tre coniugazioni.",
+      "speech": "Secondo: i verbi regolari seguono tre schemi di desinenze per le tre coniugazioni."
+    },
+    {
+      "text": "Terzo: numerosi verbi frequenti sono irregolari al pretérito indefinido, tra cui ser/ir (che condividono la stessa coniugazione), estar, tener, hacer, poder, poner, decir e venir.",
+      "speech": "Terzo: numerosi verbi frequenti sono irregolari al pretérito indefinido, tra cui ser/ir (che condividono la stessa coniugazione), estar, tener, hacer, poder, poner, decir e venir.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: numerosi verbi frequenti sono irregolari al"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido,"
+        },
+        {
+          "lang": "it",
+          "text": "tra cui"
+        },
+        {
+          "lang": "es",
+          "text": "ser/ir ("
+        },
+        {
+          "lang": "it",
+          "text": "che condividono la stessa coniugazione),"
+        },
+        {
+          "lang": "es",
+          "text": "estar, tener, hacer, poder, poner, decir"
+        },
+        {
+          "lang": "it",
+          "text": "e venir."
+        }
+      ]
+    },
+    {
+      "text": "Nel prossimo episodio restiamo nel Modulo 1 della Classe II e affrontiamo il futuro semplice, che in spagnolo si forma in modo diverso rispetto all'italiano.",
+      "speech": "Nel prossimo episodio restiamo nel Modulo 1 della Classe II e affrontiamo il futuro semplice, che in spagnolo si forma in modo diverso rispetto all'italiano."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

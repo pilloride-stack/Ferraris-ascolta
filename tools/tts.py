@@ -7,11 +7,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 KEY = os.environ["TTS_KEY"]
 VOICE = os.environ.get("TTS_VOICE", "it-IT-Chirp3-HD-Charon")
 VOICE_EN = os.environ.get("TTS_VOICE_EN", "en-GB-Chirp3-HD-Charon")
+VOICE_ES = os.environ.get("TTS_VOICE_ES", "es-ES-Chirp3-HD-Charon")
 RATE = float(os.environ.get("TTS_RATE", "0.94"))
 WORKERS = int(os.environ.get("TTS_WORKERS", "10"))
 
 def tts(text, lang="it"):
-    voice = VOICE_EN if lang == "en" else VOICE
+    voice = {"en": VOICE_EN, "es": VOICE_ES}.get(lang, VOICE)
     body = json.dumps({"input": {"text": text},
                        "voice": {"languageCode": voice[:5], "name": voice},
                        "audioConfig": {"audioEncoding": "LINEAR16", "speakingRate": RATE,
