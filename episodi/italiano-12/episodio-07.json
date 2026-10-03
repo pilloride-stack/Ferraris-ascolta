@@ -9,8 +9,16 @@
       "speech": "Nell'episodio scorso abbiamo chiuso il programma di Classe Prima con la morte di Priamo e con le basi della grammatica italiana."
     },
     {
-      "text": "Oggi entriamo nel programma di Classe Seconda, e cambiamo completamente strumenti di lavoro: lasciamo la narrazione in prosa e in versi epici, per addentrarci nel testo poetico vero e proprio, quello che incontreremo, nei prossimi episodi, attraverso i grandi poeti italiani tra Ottocento e Novecento — Leopardi, Pascoli, Montale, Ungaretti, Saba — fino ad arrivare a Manzoni.",
-      "speech": "Oggi entriamo nel programma di Classe Seconda, e cambiamo completamente strumenti di lavoro: lasciamo la narrazione in prosa e in versi epici, per addentrarci nel testo poetico vero e proprio, quello che incontreremo, nei prossimi episodi, attraverso i grandi poeti italiani tra Ottocento e Novecento — Leopardi, Pascoli, Montale, Ungaretti, Saba — fino ad arrivare a Manzoni."
+      "text": "Oggi entriamo nel programma di Classe Seconda, e cambiamo completamente strumenti di lavoro:",
+      "speech": "Oggi entriamo nel programma di Classe Seconda, e cambiamo completamente strumenti di lavoro:"
+    },
+    {
+      "text": "lasciamo la narrazione in prosa e in versi epici, per addentrarci nel testo poetico vero e proprio, quello che incontreremo, nei prossimi episodi,",
+      "speech": "lasciamo la narrazione in prosa e in versi epici, per addentrarci nel testo poetico vero e proprio, quello che incontreremo, nei prossimi episodi,"
+    },
+    {
+      "text": "attraverso i grandi poeti italiani tra Ottocento e Novecento — Leopardi, Pascoli, Montale, Ungaretti, Saba — fino ad arrivare a Manzoni.",
+      "speech": "attraverso i grandi poeti italiani tra Ottocento e Novecento — Leopardi, Pascoli, Montale, Ungaretti, Saba — fino ad arrivare a Manzoni."
     },
     {
       "text": "Prima però di leggere le loro poesie, dobbiamo avere in mano gli strumenti tecnici che permettono di analizzarle con precisione, senza restare al livello superficiale delle sole impressioni personali.",
@@ -21,16 +29,28 @@
       "speech": "Cominciamo dalla domanda più semplice, ma anche più fondamentale: che cosa distingue davvero la poesia dalla prosa?"
     },
     {
-      "text": "La prosa è la forma naturale e discorsiva del linguaggio scritto: si organizza in frasi e periodi che riempiono la riga fino al margine della pagina, senza vincoli particolari di misura o di suono, e privilegia soprattutto la funzione comunicativa e referenziale del linguaggio, cioè trasmettere informazioni, raccontare fatti in modo lineare e comprensibile.",
-      "speech": "La prosa è la forma naturale e discorsiva del linguaggio scritto: si organizza in frasi e periodi che riempiono la riga fino al margine della pagina, senza vincoli particolari di misura o di suono, e privilegia soprattutto la funzione comunicativa e referenziale del linguaggio, cioè trasmettere informazioni, raccontare fatti in modo lineare e comprensibile."
+      "text": "La prosa è la forma naturale e discorsiva del linguaggio scritto:",
+      "speech": "La prosa è la forma naturale e discorsiva del linguaggio scritto:"
+    },
+    {
+      "text": "si organizza in frasi e periodi che riempiono la riga fino al margine della pagina, senza vincoli particolari di misura o di suono,",
+      "speech": "si organizza in frasi e periodi che riempiono la riga fino al margine della pagina, senza vincoli particolari di misura o di suono,"
+    },
+    {
+      "text": "e privilegia soprattutto la funzione comunicativa e referenziale del linguaggio, cioè trasmettere informazioni, raccontare fatti in modo lineare e comprensibile.",
+      "speech": "e privilegia soprattutto la funzione comunicativa e referenziale del linguaggio, cioè trasmettere informazioni, raccontare fatti in modo lineare e comprensibile."
     },
     {
       "text": "La poesia, invece, si organizza in versi: unità ritmiche di lunghezza determinata, misurate in base al numero di sillabe e alla posizione degli accenti, spesso riunite in strofe e legate tra loro da rime o da altri effetti sonori.",
       "speech": "La poesia, invece, si organizza in versi: unità ritmiche di lunghezza determinata, misurate in base al numero di sillabe e alla posizione degli accenti, spesso riunite in strofe e legate tra loro da rime o da altri effetti sonori."
     },
     {
-      "text": "E soprattutto, la poesia non si limita alla funzione comunicativa del linguaggio: sfrutta anche, e soprattutto, la sua funzione connotativa ed emotiva, il suono delle parole, il loro ritmo, la loro capacità di evocare significati ulteriori, più profondi e più sfuggenti rispetto al puro senso letterale della frase.",
-      "speech": "E soprattutto, la poesia non si limita alla funzione comunicativa del linguaggio: sfrutta anche, e soprattutto, la sua funzione connotativa ed emotiva, il suono delle parole, il loro ritmo, la loro capacità di evocare significati ulteriori, più profondi e più sfuggenti rispetto al puro senso letterale della frase."
+      "text": "E soprattutto, la poesia non si limita alla funzione comunicativa del linguaggio:",
+      "speech": "E soprattutto, la poesia non si limita alla funzione comunicativa del linguaggio:"
+    },
+    {
+      "text": "sfrutta anche, e soprattutto, la sua funzione connotativa ed emotiva, il suono delle parole, il loro ritmo, la loro capacità di evocare significati ulteriori, più profondi e più sfuggenti rispetto al puro senso letterale della frase.",
+      "speech": "sfrutta anche, e soprattutto, la sua funzione connotativa ed emotiva, il suono delle parole, il loro ritmo, la loro capacità di evocare significati ulteriori, più profondi e più sfuggenti rispetto al puro senso letterale della frase."
     },
     {
       "text": "Entriamo ora negli strumenti tecnici veri e propri, cominciando dal verso, l'unità metrica fondamentale del testo poetico.",
@@ -41,84 +61,168 @@
       "speech": "Il verso si misura in base al numero di sillabe metriche — attenzione, non sempre coincidenti con le sillabe grammaticali che usereste per dividere in sillabe una parola in un dettato, per effetto di due fenomeni che vale la pena conoscere:"
     },
     {
-      "text": "La sinalefe, cioè la fusione in un'unica sillaba metrica di una vocale finale di parola con la vocale iniziale della parola successiva, e la dialefe, il fenomeno opposto, quando due vocali che si troverebbero a contatto restano invece distinte.",
-      "speech": "La sinalefe, cioè la fusione in un'unica sillaba metrica di una vocale finale di parola con la vocale iniziale della parola successiva, e la dialefe, il fenomeno opposto, quando due vocali che si troverebbero a contatto restano invece distinte."
+      "text": "la sinalefe, cioè la fusione in un'unica sillaba metrica di una vocale finale di parola con la vocale iniziale della parola successiva,",
+      "speech": "la sinalefe, cioè la fusione in un'unica sillaba metrica di una vocale finale di parola con la vocale iniziale della parola successiva,"
     },
     {
-      "text": "I versi italiani più comuni, quelli che incontrerete più spesso nei testi che studieremo, sono il settenario, di sette sillabe, e soprattutto l'endecasillabo, di undici sillabe, il verso più nobile e più diffuso di tutta la tradizione poetica italiana, usato per esempio, come vedremo tra qualche episodio, da Dante nella Commedia e da Leopardi ne \"L'infinito\".",
-      "speech": "I versi italiani più comuni, quelli che incontrerete più spesso nei testi che studieremo, sono il settenario, di sette sillabe, e soprattutto l'endecasillabo, di undici sillabe, il verso più nobile e più diffuso di tutta la tradizione poetica italiana, usato per esempio, come vedremo tra qualche episodio, da Dante nella Commedia e da Leopardi ne \"L'infinito\"."
+      "text": "e la dialefe, il fenomeno opposto, quando due vocali che si troverebbero a contatto restano invece distinte.",
+      "speech": "e la dialefe, il fenomeno opposto, quando due vocali che si troverebbero a contatto restano invece distinte."
     },
     {
-      "text": "Il secondo strumento è la strofa, cioè un gruppo di versi organizzato secondo uno schema fisso: la quartina, composta da quattro versi, la terzina, composta da tre, sono le forme più diffuse nella tradizione italiana.",
-      "speech": "Il secondo strumento è la strofa, cioè un gruppo di versi organizzato secondo uno schema fisso: la quartina, composta da quattro versi, la terzina, composta da tre, sono le forme più diffuse nella tradizione italiana."
+      "text": "I versi italiani più comuni, quelli che incontrerete più spesso nei testi che studieremo, sono il settenario, di sette sillabe,",
+      "speech": "I versi italiani più comuni, quelli che incontrerete più spesso nei testi che studieremo, sono il settenario, di sette sillabe,"
+    },
+    {
+      "text": "e soprattutto l'endecasillabo, di undici sillabe, il verso più nobile e più diffuso di tutta la tradizione poetica italiana, usato per esempio,",
+      "speech": "e soprattutto l'endecasillabo, di undici sillabe, il verso più nobile e più diffuso di tutta la tradizione poetica italiana, usato per esempio,"
+    },
+    {
+      "text": "come vedremo tra qualche episodio, da Dante nella Commedia e da Leopardi ne \"L'infinito\".",
+      "speech": "come vedremo tra qualche episodio, da Dante nella Commedia e da Leopardi ne \"L'infinito\"."
+    },
+    {
+      "text": "Il secondo strumento è la strofa, cioè un gruppo di versi organizzato secondo uno schema fisso:",
+      "speech": "Il secondo strumento è la strofa, cioè un gruppo di versi organizzato secondo uno schema fisso:"
+    },
+    {
+      "text": "la quartina, composta da quattro versi, la terzina, composta da tre, sono le forme più diffuse nella tradizione italiana.",
+      "speech": "la quartina, composta da quattro versi, la terzina, composta da tre, sono le forme più diffuse nella tradizione italiana."
     },
     {
       "text": "Il terzo strumento è la rima, cioè l'identità di suono tra la fine di due o più versi, a partire dall'ultima vocale accentata.",
       "speech": "Il terzo strumento è la rima, cioè l'identità di suono tra la fine di due o più versi, a partire dall'ultima vocale accentata."
     },
     {
-      "text": "È importante sapere, però, che non tutta la poesia italiana usa la rima: esistono anche i versi sciolti, senza rima ma con misura fissa — è il caso, per esempio, del già citato \"Infinito\" di Leopardi, composto da endecasillabi sciolti — e i versi liberi, senza rima né misura fissa, tipici soprattutto della poesia del Novecento, come vedremo con Ungaretti, il cui stile essenziale rompe deliberatamente con la metrica tradizionale.",
-      "speech": "È importante sapere, però, che non tutta la poesia italiana usa la rima: esistono anche i versi sciolti, senza rima ma con misura fissa — è il caso, per esempio, del già citato \"Infinito\" di Leopardi, composto da endecasillabi sciolti — e i versi liberi, senza rima né misura fissa, tipici soprattutto della poesia del Novecento, come vedremo con Ungaretti, il cui stile essenziale rompe deliberatamente con la metrica tradizionale."
+      "text": "È importante sapere, però, che non tutta la poesia italiana usa la rima:",
+      "speech": "È importante sapere, però, che non tutta la poesia italiana usa la rima:"
     },
     {
-      "text": "Veniamo ora alle figure retoriche, probabilmente lo strumento più utile e più richiesto in sede di analisi del testo poetico, perché permettono di descrivere con precisione tecnica quello che, a un primo sguardo, potrebbe sembrare solo una vaga sensazione di bellezza o di efficacia espressiva.",
-      "speech": "Veniamo ora alle figure retoriche, probabilmente lo strumento più utile e più richiesto in sede di analisi del testo poetico, perché permettono di descrivere con precisione tecnica quello che, a un primo sguardo, potrebbe sembrare solo una vaga sensazione di bellezza o di efficacia espressiva."
+      "text": "esistono anche i versi sciolti, senza rima ma con misura fissa — è il caso, per esempio, del già citato \"Infinito\" di Leopardi, composto da endecasillabi sciolti —",
+      "speech": "esistono anche i versi sciolti, senza rima ma con misura fissa — è il caso, per esempio, del già citato \"Infinito\" di Leopardi, composto da endecasillabi sciolti —"
     },
     {
-      "text": "La metafora è la sostituzione di un termine con un altro legato da un'analogia implicita, senza che questa analogia venga dichiarata esplicitamente: quando diremo, tra pochi episodi, che per Montale un muro rappresenta l'ostacolo invalicabile della condizione umana, staremo interpretando una metafora.",
-      "speech": "La metafora è la sostituzione di un termine con un altro legato da un'analogia implicita, senza che questa analogia venga dichiarata esplicitamente: quando diremo, tra pochi episodi, che per Montale un muro rappresenta l'ostacolo invalicabile della condizione umana, staremo interpretando una metafora."
+      "text": "e i versi liberi, senza rima né misura fissa, tipici soprattutto della poesia del Novecento, come vedremo con Ungaretti, il cui stile essenziale rompe deliberatamente con la metrica tradizionale.",
+      "speech": "e i versi liberi, senza rima né misura fissa, tipici soprattutto della poesia del Novecento, come vedremo con Ungaretti, il cui stile essenziale rompe deliberatamente con la metrica tradizionale."
+    },
+    {
+      "text": "Veniamo ora alle figure retoriche, probabilmente lo strumento più utile e più richiesto in sede di analisi del testo poetico,",
+      "speech": "Veniamo ora alle figure retoriche, probabilmente lo strumento più utile e più richiesto in sede di analisi del testo poetico,"
+    },
+    {
+      "text": "perché permettono di descrivere con precisione tecnica quello che, a un primo sguardo, potrebbe sembrare solo una vaga sensazione di bellezza o di efficacia espressiva.",
+      "speech": "perché permettono di descrivere con precisione tecnica quello che, a un primo sguardo, potrebbe sembrare solo una vaga sensazione di bellezza o di efficacia espressiva."
+    },
+    {
+      "text": "La metafora è la sostituzione di un termine con un altro legato da un'analogia implicita, senza che questa analogia venga dichiarata esplicitamente:",
+      "speech": "La metafora è la sostituzione di un termine con un altro legato da un'analogia implicita, senza che questa analogia venga dichiarata esplicitamente:"
+    },
+    {
+      "text": "quando diremo, tra pochi episodi, che per Montale un muro rappresenta l'ostacolo invalicabile della condizione umana, staremo interpretando una metafora.",
+      "speech": "quando diremo, tra pochi episodi, che per Montale un muro rappresenta l'ostacolo invalicabile della condizione umana, staremo interpretando una metafora."
     },
     {
       "text": "La similitudine, invece, è un paragone esplicito, introdotto da \"come\" o da espressioni simili: la differenza rispetto alla metafora è proprio questa esplicitazione del confronto.",
       "speech": "La similitudine, invece, è un paragone esplicito, introdotto da \"come\" o da espressioni simili: la differenza rispetto alla metafora è proprio questa esplicitazione del confronto."
     },
     {
-      "text": "L'anafora è la ripetizione di una parola o di un'espressione all'inizio di più versi consecutivi, un procedimento che crea un effetto di insistenza e di intensificazione emotiva, come vedremo tra poco nella poesia \"Fratelli\" di Ungaretti, costruita proprio attorno alla ripetizione ossessiva di questa singola parola.",
-      "speech": "L'anafora è la ripetizione di una parola o di un'espressione all'inizio di più versi consecutivi, un procedimento che crea un effetto di insistenza e di intensificazione emotiva, come vedremo tra poco nella poesia \"Fratelli\" di Ungaretti, costruita proprio attorno alla ripetizione ossessiva di questa singola parola."
+      "text": "L'anafora è la ripetizione di una parola o di un'espressione all'inizio di più versi consecutivi, un procedimento che crea un effetto di insistenza e di intensificazione emotiva,",
+      "speech": "L'anafora è la ripetizione di una parola o di un'espressione all'inizio di più versi consecutivi, un procedimento che crea un effetto di insistenza e di intensificazione emotiva,"
     },
     {
-      "text": "L'enjambement è la spezzatura di un'unità sintattica e di significato a cavallo di due versi, quando cioè una frase non si conclude alla fine del verso ma prosegue nel verso successivo, creando un effetto di sospensione e di sorpresa nella lettura: è una tecnica che incontreremo spesso in Ungaretti e in Montale.",
-      "speech": "L'enjambement è la spezzatura di un'unità sintattica e di significato a cavallo di due versi, quando cioè una frase non si conclude alla fine del verso ma prosegue nel verso successivo, creando un effetto di sospensione e di sorpresa nella lettura: è una tecnica che incontreremo spesso in Ungaretti e in Montale."
+      "text": "come vedremo tra poco nella poesia \"Fratelli\" di Ungaretti, costruita proprio attorno alla ripetizione ossessiva di questa singola parola.",
+      "speech": "come vedremo tra poco nella poesia \"Fratelli\" di Ungaretti, costruita proprio attorno alla ripetizione ossessiva di questa singola parola."
+    },
+    {
+      "text": "L'enjambement è la spezzatura di un'unità sintattica e di significato a cavallo di due versi,",
+      "speech": "L'enjambement è la spezzatura di un'unità sintattica e di significato a cavallo di due versi,"
+    },
+    {
+      "text": "quando cioè una frase non si conclude alla fine del verso ma prosegue nel verso successivo, creando un effetto di sospensione e di sorpresa nella lettura:",
+      "speech": "quando cioè una frase non si conclude alla fine del verso ma prosegue nel verso successivo, creando un effetto di sospensione e di sorpresa nella lettura:"
+    },
+    {
+      "text": "è una tecnica che incontreremo spesso in Ungaretti e in Montale.",
+      "speech": "è una tecnica che incontreremo spesso in Ungaretti e in Montale."
     },
     {
       "text": "L'allitterazione è la ripetizione dello stesso suono consonantico o vocalico in parole vicine, un procedimento che crea un effetto musicale, quasi onomatopeico, particolarmente caro, come vedremo, a Pascoli.",
       "speech": "L'allitterazione è la ripetizione dello stesso suono consonantico o vocalico in parole vicine, un procedimento che crea un effetto musicale, quasi onomatopeico, particolarmente caro, come vedremo, a Pascoli."
     },
     {
-      "text": "L'ossimoro è l'accostamento di due termini di significato opposto in un'unica espressione, come il celebre \"dolce naufragar\" con cui Leopardi chiude \"L'infinito\", un accostamento apparentemente contraddittorio — come può un naufragio, evento per definizione terribile, essere \"dolce\"? — che in realtà racchiude tutto il senso della poesia, come vedremo in dettaglio.",
-      "speech": "L'ossimoro è l'accostamento di due termini di significato opposto in un'unica espressione, come il celebre \"dolce naufragar\" con cui Leopardi chiude \"L'infinito\", un accostamento apparentemente contraddittorio — come può un naufragio, evento per definizione terribile, essere \"dolce\"? — che in realtà racchiude tutto il senso della poesia, come vedremo in dettaglio."
+      "text": "L'ossimoro è l'accostamento di due termini di significato opposto in un'unica espressione,",
+      "speech": "L'ossimoro è l'accostamento di due termini di significato opposto in un'unica espressione,"
     },
     {
-      "text": "Prima di proseguire con le ultime due figure retoriche, vale la pena aggiungere una considerazione più generale sul perché queste tecniche esistano affatto, perché è un punto che arricchisce qualsiasi risposta d'esame: il linguaggio quotidiano, quello che usiamo per comunicare informazioni pratiche, tende a essere il più diretto e univoco possibile, per evitare fraintendimenti.",
-      "speech": "Prima di proseguire con le ultime due figure retoriche, vale la pena aggiungere una considerazione più generale sul perché queste tecniche esistano affatto, perché è un punto che arricchisce qualsiasi risposta d'esame: il linguaggio quotidiano, quello che usiamo per comunicare informazioni pratiche, tende a essere il più diretto e univoco possibile, per evitare fraintendimenti."
+      "text": "come il celebre \"dolce naufragar\" con cui Leopardi chiude \"L'infinito\", un accostamento apparentemente contraddittorio — come può un naufragio, evento per definizione terribile, essere \"dolce\"? —",
+      "speech": "come il celebre \"dolce naufragar\" con cui Leopardi chiude \"L'infinito\", un accostamento apparentemente contraddittorio — come può un naufragio, evento per definizione terribile, essere \"dolce\"? —"
     },
     {
-      "text": "Il linguaggio poetico fa esattamente il contrario: cerca l'ambiguità produttiva, la possibilità che una parola o un'immagine evochino più significati contemporaneamente, arricchendo il testo di sfumature che un'unica interpretazione non potrebbe mai esaurire.",
-      "speech": "Il linguaggio poetico fa esattamente il contrario: cerca l'ambiguità produttiva, la possibilità che una parola o un'immagine evochino più significati contemporaneamente, arricchendo il testo di sfumature che un'unica interpretazione non potrebbe mai esaurire."
+      "text": "che in realtà racchiude tutto il senso della poesia, come vedremo in dettaglio.",
+      "speech": "che in realtà racchiude tutto il senso della poesia, come vedremo in dettaglio."
     },
     {
-      "text": "Ogni figura retorica che abbiamo visto è, in fondo, uno strumento per moltiplicare questi significati: la metafora sovrappone due immagini in una sola parola, l'anafora costruisce un ritmo ossessivo che comunica emozione ancora prima che il significato letterale arrivi al lettore, l'enjambement gioca con l'attesa e la sospensione del senso.",
-      "speech": "Ogni figura retorica che abbiamo visto è, in fondo, uno strumento per moltiplicare questi significati: la metafora sovrappone due immagini in una sola parola, l'anafora costruisce un ritmo ossessivo che comunica emozione ancora prima che il significato letterale arrivi al lettore, l'enjambement gioca con l'attesa e la sospensione del senso."
+      "text": "Prima di proseguire con le ultime due figure retoriche, vale la pena aggiungere una considerazione più generale sul perché queste tecniche esistano affatto,",
+      "speech": "Prima di proseguire con le ultime due figure retoriche, vale la pena aggiungere una considerazione più generale sul perché queste tecniche esistano affatto,"
     },
     {
-      "text": "Capire questo meccanismo di fondo vi aiuterà, negli episodi seguenti, a non limitarvi mai a un'analisi puramente meccanica, ma a cogliere sempre il legame tra la tecnica formale e l'effetto emotivo che essa produce nel lettore.",
-      "speech": "Capire questo meccanismo di fondo vi aiuterà, negli episodi seguenti, a non limitarvi mai a un'analisi puramente meccanica, ma a cogliere sempre il legame tra la tecnica formale e l'effetto emotivo che essa produce nel lettore."
+      "text": "perché è un punto che arricchisce qualsiasi risposta d'esame:",
+      "speech": "perché è un punto che arricchisce qualsiasi risposta d'esame:"
     },
     {
-      "text": "Ci sono infine altre due figure che vi capiterà di incontrare: la sinestesia, cioè l'accostamento di sensazioni provenienti da sfere sensoriali diverse, per esempio un suono descritto con un aggettivo che apparterrebbe propriamente alla vista o al tatto;",
-      "speech": "Ci sono infine altre due figure che vi capiterà di incontrare: la sinestesia, cioè l'accostamento di sensazioni provenienti da sfere sensoriali diverse, per esempio un suono descritto con un aggettivo che apparterrebbe propriamente alla vista o al tatto;"
+      "text": "il linguaggio quotidiano, quello che usiamo per comunicare informazioni pratiche, tende a essere il più diretto e univoco possibile, per evitare fraintendimenti.",
+      "speech": "il linguaggio quotidiano, quello che usiamo per comunicare informazioni pratiche, tende a essere il più diretto e univoco possibile, per evitare fraintendimenti."
     },
     {
-      "text": "E l'analogia, l'accostamento diretto di due immagini senza alcun nesso logico esplicito tra loro, una tecnica particolarmente cara alla poesia del Novecento e che troveremo, tra poco, proprio in una delle poesie più celebri di Ungaretti.",
-      "speech": "E l'analogia, l'accostamento diretto di due immagini senza alcun nesso logico esplicito tra loro, una tecnica particolarmente cara alla poesia del Novecento e che troveremo, tra poco, proprio in una delle poesie più celebri di Ungaretti."
+      "text": "Il linguaggio poetico fa esattamente il contrario: cerca l'ambiguità produttiva, la possibilità che una parola o un'immagine evochino più significati contemporaneamente,",
+      "speech": "Il linguaggio poetico fa esattamente il contrario: cerca l'ambiguità produttiva, la possibilità che una parola o un'immagine evochino più significati contemporaneamente,"
     },
     {
-      "text": "Fermiamoci un momento su un punto che vorrei chiarire con voi, perché è un errore molto comune tra chi si avvicina per la prima volta all'analisi del testo poetico: riconoscere una figura retorica non è un esercizio fine a sé stesso, quasi un gioco di caccia al tesoro dentro il testo.",
-      "speech": "Fermiamoci un momento su un punto che vorrei chiarire con voi, perché è un errore molto comune tra chi si avvicina per la prima volta all'analisi del testo poetico: riconoscere una figura retorica non è un esercizio fine a sé stesso, quasi un gioco di caccia al tesoro dentro il testo."
+      "text": "arricchendo il testo di sfumature che un'unica interpretazione non potrebbe mai esaurire.",
+      "speech": "arricchendo il testo di sfumature che un'unica interpretazione non potrebbe mai esaurire."
     },
     {
-      "text": "Il vero obiettivo, quello che un commissario d'esame vuole davvero verificare, è la vostra capacità di spiegare perché il poeta ha scelto proprio quella figura retorica in quel punto preciso, e quale effetto essa produca sul significato complessivo della poesia.",
-      "speech": "Il vero obiettivo, quello che un commissario d'esame vuole davvero verificare, è la vostra capacità di spiegare perché il poeta ha scelto proprio quella figura retorica in quel punto preciso, e quale effetto essa produca sul significato complessivo della poesia."
+      "text": "Ogni figura retorica che abbiamo visto è, in fondo, uno strumento per moltiplicare questi significati:",
+      "speech": "Ogni figura retorica che abbiamo visto è, in fondo, uno strumento per moltiplicare questi significati:"
+    },
+    {
+      "text": "la metafora sovrappone due immagini in una sola parola, l'anafora costruisce un ritmo ossessivo che comunica emozione ancora prima che il significato letterale arrivi al lettore, l'enjambement gioca con l'attesa e la sospensione del senso.",
+      "speech": "la metafora sovrappone due immagini in una sola parola, l'anafora costruisce un ritmo ossessivo che comunica emozione ancora prima che il significato letterale arrivi al lettore, l'enjambement gioca con l'attesa e la sospensione del senso."
+    },
+    {
+      "text": "Capire questo meccanismo di fondo vi aiuterà, negli episodi seguenti, a non limitarvi mai a un'analisi puramente meccanica,",
+      "speech": "Capire questo meccanismo di fondo vi aiuterà, negli episodi seguenti, a non limitarvi mai a un'analisi puramente meccanica,"
+    },
+    {
+      "text": "ma a cogliere sempre il legame tra la tecnica formale e l'effetto emotivo che essa produce nel lettore.",
+      "speech": "ma a cogliere sempre il legame tra la tecnica formale e l'effetto emotivo che essa produce nel lettore."
+    },
+    {
+      "text": "Ci sono infine altre due figure che vi capiterà di incontrare:",
+      "speech": "Ci sono infine altre due figure che vi capiterà di incontrare:"
+    },
+    {
+      "text": "la sinestesia, cioè l'accostamento di sensazioni provenienti da sfere sensoriali diverse, per esempio un suono descritto con un aggettivo che apparterrebbe propriamente alla vista o al tatto;",
+      "speech": "la sinestesia, cioè l'accostamento di sensazioni provenienti da sfere sensoriali diverse, per esempio un suono descritto con un aggettivo che apparterrebbe propriamente alla vista o al tatto;"
+    },
+    {
+      "text": "e l'analogia, l'accostamento diretto di due immagini senza alcun nesso logico esplicito tra loro, una tecnica particolarmente cara alla poesia del Novecento e che troveremo, tra poco, proprio in una delle poesie più celebri di Ungaretti.",
+      "speech": "e l'analogia, l'accostamento diretto di due immagini senza alcun nesso logico esplicito tra loro, una tecnica particolarmente cara alla poesia del Novecento e che troveremo, tra poco, proprio in una delle poesie più celebri di Ungaretti."
+    },
+    {
+      "text": "Fermiamoci un momento su un punto che vorrei chiarire con voi, perché è un errore molto comune tra chi si avvicina per la prima volta all'analisi del testo poetico:",
+      "speech": "Fermiamoci un momento su un punto che vorrei chiarire con voi, perché è un errore molto comune tra chi si avvicina per la prima volta all'analisi del testo poetico:"
+    },
+    {
+      "text": "riconoscere una figura retorica non è un esercizio fine a sé stesso, quasi un gioco di caccia al tesoro dentro il testo.",
+      "speech": "riconoscere una figura retorica non è un esercizio fine a sé stesso, quasi un gioco di caccia al tesoro dentro il testo."
+    },
+    {
+      "text": "Il vero obiettivo, quello che un commissario d'esame vuole davvero verificare, è la vostra capacità di spiegare perché il poeta ha scelto proprio quella figura retorica in quel punto preciso,",
+      "speech": "Il vero obiettivo, quello che un commissario d'esame vuole davvero verificare, è la vostra capacità di spiegare perché il poeta ha scelto proprio quella figura retorica in quel punto preciso,"
+    },
+    {
+      "text": "e quale effetto essa produca sul significato complessivo della poesia.",
+      "speech": "e quale effetto essa produca sul significato complessivo della poesia."
     },
     {
       "text": "Fare l'elenco delle figure retoriche presenti in una lirica, senza collegarle al senso del testo, vale molto meno che individuarne anche solo due o tre, ma spiegando con precisione il loro effetto espressivo.",
@@ -138,7 +242,7 @@
     },
     {
       "text": "Non c'è il \"come\", quindi è una metafora, perché il mare viene identificato direttamente con una lacrima, senza dichiarare esplicitamente il confronto.",
-      "speech": "Non c'è il \"come\", quindi è una metafora, perché il mare viene identificato direttamente con una lacrima, senza dichiarare esplicitamente il confronto."
+      "speech": "Non cè il \"come\", quindi è una metafora, perché il mare viene identificato direttamente con una lacrima, senza dichiarare esplicitamente il confronto."
     },
     {
       "text": "E che effetto produce questa immagine?",
@@ -165,16 +269,24 @@
       "speech": "Secondo: gli strumenti fondamentali dell'analisi metrica sono il verso, la strofa e la rima, ricordando che esistono anche versi sciolti e versi liberi."
     },
     {
-      "text": "Terzo: le principali figure retoriche — metafora, similitudine, anafora, enjambement, allitterazione, ossimoro, sinestesia, analogia — vanno sempre collegate al significato complessivo del testo, non elencate meccanicamente.",
-      "speech": "Terzo: le principali figure retoriche — metafora, similitudine, anafora, enjambement, allitterazione, ossimoro, sinestesia, analogia — vanno sempre collegate al significato complessivo del testo, non elencate meccanicamente."
+      "text": "Terzo: le principali figure retoriche — metafora, similitudine, anafora, enjambement, allitterazione, ossimoro, sinestesia, analogia —",
+      "speech": "Terzo: le principali figure retoriche — metafora, similitudine, anafora, enjambement, allitterazione, ossimoro, sinestesia, analogia —"
+    },
+    {
+      "text": "vanno sempre collegate al significato complessivo del testo, non elencate meccanicamente.",
+      "speech": "vanno sempre collegate al significato complessivo del testo, non elencate meccanicamente."
     },
     {
       "text": "Quarto: il vero obiettivo dell'analisi del testo poetico è spiegare l'effetto espressivo di ogni scelta stilistica, non semplicemente riconoscerla.",
       "speech": "Quarto: il vero obiettivo dell'analisi del testo poetico è spiegare l'effetto espressivo di ogni scelta stilistica, non semplicemente riconoscerla."
     },
     {
-      "text": "Nel prossimo episodio mettiamo subito in pratica questi strumenti con il primo grande poeta del nostro percorso novecentesco: Eugenio Montale, e la sua celebre poesia \"Meriggiare pallido e assorto\", insieme a due liriche di Giovanni Pascoli, \"Lavandare\" e \"X Agosto\".",
-      "speech": "Nel prossimo episodio mettiamo subito in pratica questi strumenti con il primo grande poeta del nostro percorso novecentesco: Eugenio Montale, e la sua celebre poesia \"Meriggiare pallido e assorto\", insieme a due liriche di Giovanni Pascoli, \"Lavandare\" e \"X Agosto\"."
+      "text": "Nel prossimo episodio mettiamo subito in pratica questi strumenti con il primo grande poeta del nostro percorso novecentesco:",
+      "speech": "Nel prossimo episodio mettiamo subito in pratica questi strumenti con il primo grande poeta del nostro percorso novecentesco:"
+    },
+    {
+      "text": "Eugenio Montale, e la sua celebre poesia \"Meriggiare pallido e assorto\", insieme a due liriche di Giovanni Pascoli, \"Lavandare\" e \"X Agosto\".",
+      "speech": "Eugenio Montale, e la sua celebre poesia \"Meriggiare pallido e assorto\", insieme a due liriche di Giovanni Pascoli, \"Lavandare\" e \"X Agosto\"."
     },
     {
       "text": "Ci vediamo lì.",
