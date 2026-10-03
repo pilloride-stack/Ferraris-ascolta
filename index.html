@@ -283,7 +283,9 @@ const selectedEpisode = (params.get("episodio") || "01").padStart(2, "0");
 const selectedSubject = (params.get("materia") || "diritto").toLowerCase();
 const isItaliano12 = selectedSubject === "italiano" || selectedSubject === "italiano-12";
 const isItaliano3 = selectedSubject === "italiano-3";
-const isItaliano = isItaliano12 || isItaliano3;
+const isItaliano4 = selectedSubject === "italiano-4";
+const isItaliano = isItaliano12 || isItaliano3 || isItaliano4;
+const italianoPath = isItaliano4 ? "italiano-4" : (isItaliano3 ? "italiano-3" : "italiano-12");
 let sentences = document.querySelectorAll(".sentence");
 const audio = new Audio();
 audio.preload = "auto";
@@ -323,7 +325,7 @@ function updateProgress() {
 
 function audioFile(index) {
   if (isItaliano) {
-    const subjectPath = isItaliano3 ? "italiano-3" : "italiano-12";
+    const subjectPath = italianoPath;
     return `audio/${subjectPath}/episodio-${selectedEpisode}/frase-${String(index + 1).padStart(2, "0")}.mp3`;
   }
   if (selectedEpisode !== "01") {
@@ -340,17 +342,17 @@ async function loadEpisode() {
 
   try {
     const episodePath = isItaliano
-      ? `episodi/${isItaliano3 ? "italiano-3" : "italiano-12"}/episodio-${selectedEpisode}.json`
+      ? `episodi/${italianoPath}/episodio-${selectedEpisode}.json`
       : `episodi/episodio-${selectedEpisode}.json`;
     const response = await fetch(episodePath);
     if (!response.ok) {
       throw new Error("Episodio non disponibile");
     }
     const episode = await response.json();
-    const subjectLabel = isItaliano3 ? "Italiano 3" : (isItaliano ? "Italiano" : "Diritto");
+    const subjectLabel = isItaliano4 ? "Italiano 4" : isItaliano3 ? "Italiano 3" : (isItaliano ? "Italiano" : "Diritto");
     document.title = `Ferraris Ascolta | ${subjectLabel} ${episode.episode}`;
     document.getElementById("lesson-brand").textContent =
-      `GALILEO FERRARIS · ${isItaliano3 ? "ITALIANO · CLASSE TERZA" : (isItaliano ? "ITALIANO" : "DIRITTO ED ECONOMIA")}`;
+      `GALILEO FERRARIS · ${isItaliano4 ? "ITALIANO · CLASSE QUARTA" : isItaliano3 ? "ITALIANO · CLASSE TERZA" : (isItaliano ? "ITALIANO" : "DIRITTO ED ECONOMIA")}`;
     document.getElementById("lesson-heading").textContent = episode.title;
     document.getElementById("lesson-info").textContent =
       `Episodio ${episode.episode} · ${episode.class} · Ascolta e segui`;
