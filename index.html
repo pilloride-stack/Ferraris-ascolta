@@ -281,11 +281,8 @@ Pronto
 const params = new URLSearchParams(window.location.search);
 const selectedEpisode = (params.get("episodio") || "01").padStart(2, "0");
 const selectedSubject = (params.get("materia") || "diritto").toLowerCase();
-const isItaliano12 = selectedSubject === "italiano" || selectedSubject === "italiano-12";
-const isItaliano3 = selectedSubject === "italiano-3";
-const isItaliano4 = selectedSubject === "italiano-4";
-const isItaliano = isItaliano12 || isItaliano3 || isItaliano4;
-const italianoPath = isItaliano4 ? "italiano-4" : (isItaliano3 ? "italiano-3" : "italiano-12");
+const isDiritto = selectedSubject === "diritto";
+const folder = selectedSubject === "italiano" ? "italiano-12" : selectedSubject;
 let sentences = document.querySelectorAll(".sentence");
 const audio = new Audio();
 audio.preload = "auto";
@@ -324,40 +321,41 @@ function updateProgress() {
 }
 
 function audioFile(index) {
-  if (isItaliano) {
-    const subjectPath = italianoPath;
-    return `audio/${subjectPath}/episodio-${selectedEpisode}/frase-${String(index + 1).padStart(2, "0")}.mp3`;
+  const n = String(index + 1).padStart(2, "0");
+  if (!isDiritto) {
+    return `audio/${folder}/episodio-${selectedEpisode}/frase-${n}.mp3`;
   }
   if (selectedEpisode !== "01") {
-    return `audio/episodio-${selectedEpisode}/frase-${String(index + 1).padStart(2, "0")}.mp3`;
+    return `audio/episodio-${selectedEpisode}/frase-${n}.mp3`;
   }
-  return `audio/frase-${String(index + 1).padStart(2, "0")}.mp3?v=6c623b3`;
+  return `audio/frase-${n}.mp3?v=6c623b3`;
 }
 
 async function loadEpisode() {
-  if (!isItaliano && selectedEpisode === "01") {
+  if (isDiritto && selectedEpisode === "01") {
     document.title = "Ferraris Ascolta | Diritto";
     return;
   }
 
   try {
-    const episodePath = isItaliano
-      ? `episodi/${italianoPath}/episodio-${selectedEpisode}.json`
-      : `episodi/episodio-${selectedEpisode}.json`;
+    const episodePath = isDiritto
+      ? `episodi/episodio-${selectedEpisode}.json`
+      : `episodi/${folder}/episodio-${selectedEpisode}.json`;
     const response = await fetch(episodePath);
     if (!response.ok) {
       throw new Error("Episodio non disponibile");
     }
     const episode = await response.json();
-    const subjectLabel = isItaliano4 ? "Italiano 4" : isItaliano3 ? "Italiano 3" : (isItaliano ? "Italiano" : "Diritto");
-    document.title = `Ferraris Ascolta | ${subjectLabel} ${episode.episode}`;
+    const subject = isDiritto ? "Diritto ed Economia" : (episode.subject || "Italiano");
+    const classe = episode.class || "";
+    document.title = `Ferraris Ascolta | ${subject} ${episode.episode}`;
     document.getElementById("lesson-brand").textContent =
-      `GALILEO FERRARIS · ${isItaliano4 ? "ITALIANO · CLASSE QUARTA" : isItaliano3 ? "ITALIANO · CLASSE TERZA" : (isItaliano ? "ITALIANO" : "DIRITTO ED ECONOMIA")}`;
+      `GALILEO FERRARIS · ${subject.toUpperCase()}` + (classe && !isDiritto ? ` · ${classe.toUpperCase()}` : "");
     document.getElementById("lesson-heading").textContent = episode.title;
     document.getElementById("lesson-info").textContent =
-      `Episodio ${episode.episode} · ${episode.class} · Ascolta e segui`;
+      `Episodio ${episode.episode} · ${classe} · Ascolta e segui`;
     document.getElementById("lesson").innerHTML = episode.sentences
-      .map(item => `<span class="sentence"></span>`)
+      .map(() => `<span class="sentence"></span>`)
       .join("\n");
     sentences = document.querySelectorAll(".sentence");
     sentences.forEach((element, index) => {

@@ -1,0 +1,42 @@
+name: Genera audio
+
+on:
+  push:
+    branches: [main]
+    paths: ["episodi/**"]
+  workflow_dispatch:
+    inputs:
+      materia:
+        description: "Materia (es. storia-1). Vuoto = tutte"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audio
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installa ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - name: Genera audio mancanti
+        env:
+          TTS_KEY: ${{ secrets.TTS_KEY }}
+        run: python3 tools/tts.py ${{ github.event.inputs.materia }}
+      - name: Salva gli audio nel repository
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add audio
+          if git diff --cached --quiet; then echo "Nessun audio nuovo"; exit 0; fi
+          git commit -m "Audio generati automaticamente"
+          git pull --rebase -q
+          git push
