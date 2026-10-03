@@ -1,0 +1,128 @@
+{
+  "subject": "Informatica",
+  "episode": "11",
+  "title": "Contabilità integrata, ERP e gestione della comunicazione",
+  "class": "Classe quarta AFM",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il testing del software e i suoi diversi livelli.",
+      "speech": "Nell'episodio scorso abbiamo visto il testing del software e i suoi diversi livelli."
+    },
+    {
+      "text": "Oggi vediamo come questi software vengono concretamente utilizzati in azienda, cominciando dalla contabilità integrata e dai sistemi ERP, per poi passare agli strumenti di gestione della comunicazione e del lavoro di squadra.",
+      "speech": "Oggi vediamo come questi software vengono concretamente utilizzati in azienda, cominciando dalla contabilità integrata e dai sistemi ERP, per poi passare agli strumenti di gestione della comunicazione e del lavoro di squadra."
+    },
+    {
+      "text": "I software gestionali per la contabilità integrata, spesso riconducibili alla categoria degli ERP, acronimo di Enterprise Resource Planning, collegano in un unico sistema informativo le diverse aree funzionali dell'azienda:",
+      "speech": "I software gestionali per la contabilità integrata, spesso riconducibili alla categoria degli ERP, acronimo di Enterprise Resource Planning, collegano in un unico sistema informativo le diverse aree funzionali dell'azienda:"
+    },
+    {
+      "text": "contabilità generale, gestione del magazzino, fatturazione attiva e passiva, gestione di clienti e fornitori.",
+      "speech": "contabilità generale, gestione del magazzino, fatturazione attiva e passiva, gestione di clienti e fornitori."
+    },
+    {
+      "text": "L'integrazione tra queste aree evita la duplicazione dei dati, per esempio una fattura registrata automaticamente aggiorna sia la contabilità sia il magazzino,",
+      "speech": "L'integrazione tra queste aree evita la duplicazione dei dati, per esempio una fattura registrata automaticamente aggiorna sia la contabilità sia il magazzino,"
+    },
+    {
+      "text": "e garantisce informazioni sempre aggiornate e coerenti a disposizione di tutti i reparti aziendali coinvolti, riducendo il rischio di errori dovuti a inserimenti manuali ripetuti.",
+      "speech": "e garantisce informazioni sempre aggiornate e coerenti a disposizione di tutti i reparti aziendali coinvolti, riducendo il rischio di errori dovuti a inserimenti manuali ripetuti."
+    },
+    {
+      "text": "Fermatevi un momento su questo concetto di integrazione, perché è la vera ragion d'essere di un sistema ERP:",
+      "speech": "Fermatevi un momento su questo concetto di integrazione, perché è la vera ragion d'essere di un sistema ERP:"
+    },
+    {
+      "text": "un sistema ERP è tipicamente organizzato in moduli distinti, ciascuno dedicato a una specifica area funzionale, contabilità, magazzino, vendite, risorse umane, ma tutti condividono lo stesso database centrale.",
+      "speech": "un sistema ERP è tipicamente organizzato in moduli distinti, ciascuno dedicato a una specifica area funzionale, contabilità, magazzino, vendite, risorse umane, ma tutti condividono lo stesso database centrale."
+    },
+    {
+      "text": "In questo modo, un'informazione inserita una sola volta in un modulo diventa immediatamente disponibile anche negli altri, senza bisogno di essere ritrasmessa manualmente da un reparto all'altro:",
+      "speech": "In questo modo, un'informazione inserita una sola volta in un modulo diventa immediatamente disponibile anche negli altri, senza bisogno di essere ritrasmessa manualmente da un reparto all'altro:"
+    },
+    {
+      "text": "è proprio questa condivisione di un'unica base dati, e non la semplice presenza di più moduli, che distingue un vero ERP da un insieme di programmi gestionali scollegati tra loro.",
+      "speech": "è proprio questa condivisione di un'unica base dati, e non la semplice presenza di più moduli, che distingue un vero ERP da un insieme di programmi gestionali scollegati tra loro."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se un'azienda utilizzasse un programma per la contabilità e un programma separato per il magazzino, non collegati tra loro,",
+      "speech": "Proviamo un piccolo esercizio insieme: se un'azienda utilizzasse un programma per la contabilità e un programma separato per il magazzino, non collegati tra loro,"
+    },
+    {
+      "text": "e un magazziniere dovesse reinserire manualmente ogni fattura già registrata in contabilità per aggiornare le giacenze, quale problema, tra quelli visti oggi, si presenterebbe concretamente?",
+      "speech": "e un magazziniere dovesse reinserire manualmente ogni fattura già registrata in contabilità per aggiornare le giacenze, quale problema, tra quelli visti oggi, si presenterebbe concretamente?"
+    },
+    {
+      "text": "Si tratterebbe proprio della duplicazione dei dati che un sistema ERP integrato è pensato per evitare, con il rischio aggiuntivo di errori di trascrizione e di disallineamento tra i dati dei due programmi separati nel tempo.",
+      "speech": "Si tratterebbe proprio della duplicazione dei dati che un sistema ERP integrato è pensato per evitare, con il rischio aggiuntivo di errori di trascrizione e di disallineamento tra i dati dei due programmi separati nel tempo."
+    },
+    {
+      "text": "L'adozione di un ERP comporta generalmente un investimento iniziale significativo, sia in termini economici sia di formazione del personale,",
+      "speech": "L'adozione di un ERP comporta generalmente un investimento iniziale significativo, sia in termini economici sia di formazione del personale,"
+    },
+    {
+      "text": "ma consente nel tempo di ottenere una visione unitaria e aggiornata dell'andamento aziendale, fondamentale per il supporto alle decisioni strategiche.",
+      "speech": "ma consente nel tempo di ottenere una visione unitaria e aggiornata dell'andamento aziendale, fondamentale per il supporto alle decisioni strategiche."
+    },
+    {
+      "text": "Passiamo ora alla gestione della comunicazione aziendale, sia interna sia verso l'esterno, che si avvale oggi di numerosi strumenti software:",
+      "speech": "Passiamo ora alla gestione della comunicazione aziendale, sia interna sia verso l'esterno, che si avvale oggi di numerosi strumenti software:"
+    },
+    {
+      "text": "la posta elettronica resta il canale principale per le comunicazioni formali;",
+      "speech": "la posta elettronica resta il canale principale per le comunicazioni formali;"
+    },
+    {
+      "text": "le piattaforme di messaggistica istantanea aziendale facilitano lo scambio rapido di informazioni tra colleghi;",
+      "speech": "le piattaforme di messaggistica istantanea aziendale facilitano lo scambio rapido di informazioni tra colleghi;"
+    },
+    {
+      "text": "i sistemi di videoconferenza permettono riunioni a distanza, particolarmente utilizzati con la diffusione del lavoro agile;",
+      "speech": "i sistemi di videoconferenza permettono riunioni a distanza, particolarmente utilizzati con la diffusione del lavoro agile;"
+    },
+    {
+      "text": "e i software CRM, Customer Relationship Management, centralizzano tutte le informazioni e le interazioni con i clienti, supportando le attività commerciali e di assistenza post-vendita.",
+      "speech": "e i software CRM, Customer Relationship Management, centralizzano tutte le informazioni e le interazioni con i clienti, supportando le attività commerciali e di assistenza post-vendita."
+    },
+    {
+      "text": "Accanto a questi strumenti di comunicazione diretta, molte aziende adottano software di project management, che permettono di pianificare le attività di un progetto, assegnarle ai membri del team,",
+      "speech": "Accanto a questi strumenti di comunicazione diretta, molte aziende adottano software di project management, che permettono di pianificare le attività di un progetto, assegnarle ai membri del team,"
+    },
+    {
+      "text": "tenere traccia dello stato di avanzamento e rispettare le scadenze concordate, spesso attraverso rappresentazioni grafiche come i diagrammi di Gantt o le bacheche in stile Kanban.",
+      "speech": "tenere traccia dello stato di avanzamento e rispettare le scadenze concordate, spesso attraverso rappresentazioni grafiche come i diagrammi di Gantt o le bacheche in stile Kanban."
+    },
+    {
+      "text": "Questi strumenti, generalmente basati sul cloud, sono diventati ancora più rilevanti con la diffusione del lavoro agile,",
+      "speech": "Questi strumenti, generalmente basati sul cloud, sono diventati ancora più rilevanti con la diffusione del lavoro agile,"
+    },
+    {
+      "text": "poiché permettono a team distribuiti su sedi diverse di coordinarsi efficacemente anche senza condividere lo stesso spazio fisico.",
+      "speech": "poiché permettono a team distribuiti su sedi diverse di coordinarsi efficacemente anche senza condividere lo stesso spazio fisico."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: un sistema ERP integra le diverse aree funzionali dell'azienda attorno a un unico database condiviso, evitando la duplicazione dei dati.",
+      "speech": "Primo: un sistema ERP integra le diverse aree funzionali dell'azienda attorno a un unico database condiviso, evitando la duplicazione dei dati."
+    },
+    {
+      "text": "Secondo: la comunicazione aziendale si avvale di posta elettronica, messaggistica istantanea, videoconferenza e software CRM per la gestione dei clienti.",
+      "speech": "Secondo: la comunicazione aziendale si avvale di posta elettronica, messaggistica istantanea, videoconferenza e software CRM per la gestione dei clienti."
+    },
+    {
+      "text": "Terzo: gli strumenti di project management, con diagrammi di Gantt e bacheche Kanban, supportano la pianificazione e il coordinamento dei team, specialmente in un contesto di lavoro agile.",
+      "speech": "Terzo: gli strumenti di project management, con diagrammi di Gantt e bacheche Kanban, supportano la pianificazione e il coordinamento dei team, specialmente in un contesto di lavoro agile."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo la firma digitale e la conservazione sostitutiva dei documenti, insieme alle strategie di backup dei dati aziendali.",
+      "speech": "Nel prossimo episodio vediamo la firma digitale e la conservazione sostitutiva dei documenti, insieme alle strategie di backup dei dati aziendali."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

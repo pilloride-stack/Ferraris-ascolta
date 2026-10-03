@@ -1,0 +1,132 @@
+{
+  "subject": "Informatica",
+  "episode": "02",
+  "title": "Hardware, software e classificazione degli elaboratori",
+  "class": "Classe prima",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto i concetti di base dell'informatica e l'ergonomia della postazione di lavoro.",
+      "speech": "Nell'episodio scorso abbiamo visto i concetti di base dell'informatica e l'ergonomia della postazione di lavoro."
+    },
+    {
+      "text": "Oggi entriamo più nel dettaglio del computer stesso: che cosa distingue l'hardware dal software, e come si classificano gli elaboratori elettronici in base alla loro potenza di calcolo.",
+      "speech": "Oggi entriamo più nel dettaglio del computer stesso: che cosa distingue l'hardware dal software, e come si classificano gli elaboratori elettronici in base alla loro potenza di calcolo."
+    },
+    {
+      "text": "Un computer, o elaboratore elettronico, è una macchina elettronica capace di acquisire, memorizzare ed elaborare dati in modo automatico, seguendo le istruzioni di un programma.",
+      "speech": "Un computer, o elaboratore elettronico, è una macchina elettronica capace di acquisire, memorizzare ed elaborare dati in modo automatico, seguendo le istruzioni di un programma."
+    },
+    {
+      "text": "Il computer si compone di due elementi complementari, ed è fondamentale saperli distinguere con precisione fin da subito,",
+      "speech": "Il computer si compone di due elementi complementari, ed è fondamentale saperli distinguere con precisione fin da subito,"
+    },
+    {
+      "text": "perché questa distinzione tornerà continuamente in tutto il resto del programma.",
+      "speech": "perché questa distinzione tornerà continuamente in tutto il resto del programma."
+    },
+    {
+      "text": "L'hardware è l'insieme delle componenti fisiche e tangibili della macchina: il processore, la memoria, i dischi, le periferiche, tutto ciò che potete letteralmente toccare con mano.",
+      "speech": "L'hardware è l'insieme delle componenti fisiche e tangibili della macchina: il processore, la memoria, i dischi, le periferiche, tutto ciò che potete letteralmente toccare con mano."
+    },
+    {
+      "text": "Il software è invece l'insieme dei programmi che definiscono il funzionamento del computer e permettono di svolgere compiti specifici: istruzioni, non oggetti fisici.",
+      "speech": "Il software è invece l'insieme dei programmi che definiscono il funzionamento del computer e permettono di svolgere compiti specifici: istruzioni, non oggetti fisici."
+    },
+    {
+      "text": "Fermatevi un momento su una distinzione ulteriore, interna al software stesso, perché è un dettaglio che arricchisce molto una risposta d'esame su questo argomento:",
+      "speech": "Fermatevi un momento su una distinzione ulteriore, interna al software stesso, perché è un dettaglio che arricchisce molto una risposta d'esame su questo argomento:"
+    },
+    {
+      "text": "il software si distingue in software di sistema, come il sistema operativo, che gestisce le risorse hardware del computer,",
+      "speech": "il software si distingue in software di sistema, come il sistema operativo, che gestisce le risorse hardware del computer,"
+    },
+    {
+      "text": "e software applicativo, i programmi utilizzati per svolgere compiti specifici, come l'elaborazione testi o la navigazione web, di cui parleremo diffusamente più avanti in questo modulo.",
+      "speech": "e software applicativo, i programmi utilizzati per svolgere compiti specifici, come l'elaborazione testi o la navigazione web, di cui parleremo diffusamente più avanti in questo modulo."
+    },
+    {
+      "text": "Un modo semplice per ricordare la differenza tra hardware e software: l'hardware, se si rompe, va sostituito fisicamente;",
+      "speech": "Un modo semplice per ricordare la differenza tra hardware e software: l'hardware, se si rompe, va sostituito fisicamente;"
+    },
+    {
+      "text": "il software, se ha un problema, può essere aggiornato o reinstallato senza toccare alcun componente fisico della macchina.",
+      "speech": "il software, se ha un problema, può essere aggiornato o reinstallato senza toccare alcun componente fisico della macchina."
+    },
+    {
+      "text": "Passiamo ora alla classificazione degli elaboratori, che si basa su tre criteri intrecciati tra loro: la potenza di calcolo, le dimensioni fisiche e l'ambito di utilizzo.",
+      "speech": "Passiamo ora alla classificazione degli elaboratori, che si basa su tre criteri intrecciati tra loro: la potenza di calcolo, le dimensioni fisiche e l'ambito di utilizzo."
+    },
+    {
+      "text": "I supercomputer sono dedicati a calcoli scientifici estremamente complessi, come le previsioni meteorologiche o le simulazioni fisiche, e rappresentano la massima potenza di calcolo disponibile.",
+      "speech": "I supercomputer sono dedicati a calcoli scientifici estremamente complessi, come le previsioni meteorologiche o le simulazioni fisiche, e rappresentano la massima potenza di calcolo disponibile."
+    },
+    {
+      "text": "I mainframe sono grandi sistemi centralizzati usati da banche e grandi aziende per elaborare enormi quantità di dati e transazioni, spesso in modo continuativo e senza interruzioni.",
+      "speech": "I mainframe sono grandi sistemi centralizzati usati da banche e grandi aziende per elaborare enormi quantità di dati e transazioni, spesso in modo continuativo e senza interruzioni."
+    },
+    {
+      "text": "I server sono dedicati a fornire servizi e risorse ad altri computer collegati in rete, come quando visitate un sito web o inviate un'email.",
+      "speech": "I server sono dedicati a fornire servizi e risorse ad altri computer collegati in rete, come quando visitate un sito web o inviate un'email."
+    },
+    {
+      "text": "I personal computer, i PC, sono destinati all'uso individuale, nelle varianti desktop, cioè fisso, e laptop, cioè portatile.",
+      "speech": "I personal computer, i PC, sono destinati all'uso individuale, nelle varianti desktop, cioè fisso, e laptop, cioè portatile."
+    },
+    {
+      "text": "I dispositivi mobili comprendono tablet e smartphone.",
+      "speech": "I dispositivi mobili comprendono tablet e smartphone."
+    },
+    {
+      "text": "E infine i sistemi embedded sono elaboratori dedicati integrati all'interno di altri dispositivi,",
+      "speech": "E infine i sistemi embedded sono elaboratori dedicati integrati all'interno di altri dispositivi,"
+    },
+    {
+      "text": "come elettrodomestici, automobili o macchinari industriali, spesso invisibili all'utente finale ma indispensabili al funzionamento dell'oggetto che li contiene.",
+      "speech": "come elettrodomestici, automobili o macchinari industriali, spesso invisibili all'utente finale ma indispensabili al funzionamento dell'oggetto che li contiene."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme, per fissare bene questa classificazione:",
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare bene questa classificazione:"
+    },
+    {
+      "text": "se doveste indicare a quale categoria appartiene il computer che gestisce il sistema di iniezione elettronica di un'automobile moderna, come rispondereste?",
+      "speech": "se doveste indicare a quale categoria appartiene il computer che gestisce il sistema di iniezione elettronica di un'automobile moderna, come rispondereste?"
+    },
+    {
+      "text": "Si tratta di un sistema embedded, un elaboratore dedicato integrato all'interno di un altro dispositivo, l'automobile stessa, invisibile al conducente ma essenziale per il funzionamento del motore.",
+      "speech": "Si tratta di un sistema embedded, un elaboratore dedicato integrato all'interno di un altro dispositivo, l'automobile stessa, invisibile al conducente ma essenziale per il funzionamento del motore."
+    },
+    {
+      "text": "E se doveste indicare la categoria di un grande data center che gestisce le email di milioni di utenti contemporaneamente?",
+      "speech": "E se doveste indicare la categoria di un grande data center che gestisce le email di milioni di utenti contemporaneamente?"
+    },
+    {
+      "text": "Si tratterebbe di un insieme di server, dedicati proprio a fornire questo tipo di servizio su larga scala.",
+      "speech": "Si tratterebbe di un insieme di server, dedicati proprio a fornire questo tipo di servizio su larga scala."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il computer si compone di hardware, le componenti fisiche, e software, i programmi e le istruzioni, quest'ultimo distinto in software di sistema e software applicativo.",
+      "speech": "Primo: il computer si compone di hardware, le componenti fisiche, e software, i programmi e le istruzioni, quest'ultimo distinto in software di sistema e software applicativo."
+    },
+    {
+      "text": "Secondo: gli elaboratori si classificano in supercomputer, mainframe, server, personal computer, dispositivi mobili e sistemi embedded, in base a potenza, dimensioni e ambito d'uso.",
+      "speech": "Secondo: gli elaboratori si classificano in supercomputer, mainframe, server, personal computer, dispositivi mobili e sistemi embedded, in base a potenza, dimensioni e ambito d'uso."
+    },
+    {
+      "text": "Terzo: la differenza pratica tra hardware e software si vede anche nella manutenzione, che richiede sostituzione fisica per il primo e aggiornamento o reinstallazione per il secondo.",
+      "speech": "Terzo: la differenza pratica tra hardware e software si vede anche nella manutenzione, che richiede sostituzione fisica per il primo e aggiornamento o reinstallazione per il secondo."
+    },
+    {
+      "text": "Nel prossimo episodio affrontiamo il cuore tecnico di questo primo modulo: il sistema binario, il modo in cui i computer rappresentano al proprio interno ogni tipo di informazione.",
+      "speech": "Nel prossimo episodio affrontiamo il cuore tecnico di questo primo modulo: il sistema binario, il modo in cui i computer rappresentano al proprio interno ogni tipo di informazione."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

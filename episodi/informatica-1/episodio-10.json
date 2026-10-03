@@ -1,0 +1,248 @@
+{
+  "subject": "Informatica",
+  "episode": "10",
+  "title": "Domande guida per il ripasso",
+  "class": "Classe prima",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la struttura di una diapositiva e la differenza tra transizioni e animazioni in PowerPoint, completando così anche il Modulo 3.",
+      "speech": "Nell'episodio scorso abbiamo visto la struttura di una diapositiva e la differenza tra transizioni e animazioni in PowerPoint, completando così anche il Modulo 3."
+    },
+    {
+      "text": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
+      "speech": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria."
+    },
+    {
+      "text": "Cominciamo dalle domande più generali, quelle che riguardano la disciplina nel suo complesso.",
+      "speech": "Cominciamo dalle domande più generali, quelle che riguardano la disciplina nel suo complesso."
+    },
+    {
+      "text": "Che cos'è l'informatica?",
+      "speech": "Che cosa è l'informatica?"
+    },
+    {
+      "text": "È la scienza che si occupa dell'elaborazione automatica delle informazioni tramite il computer, secondo lo schema input-elaborazione-output:",
+      "speech": "È la scienza che si occupa dell'elaborazione automatica delle informazioni tramite il computer, secondo lo schema input-elaborazione-output:"
+    },
+    {
+      "text": "i dati entrano nel sistema come input, vengono elaborati secondo istruzioni precise, e il risultato viene restituito come output.",
+      "speech": "i dati entrano nel sistema come input, vengono elaborati secondo istruzioni precise, e il risultato viene restituito come output."
+    },
+    {
+      "text": "Quali sono i campi di applicazione dell'informatica?",
+      "speech": "Quali sono i campi di applicazione dell'informatica?"
+    },
+    {
+      "text": "Sono ormai praticamente tutti gli ambiti della vita quotidiana e professionale: dalla pubblica amministrazione alla sanità, dall'istruzione al commercio, dall'industria all'intrattenimento.",
+      "speech": "Sono ormai praticamente tutti gli ambiti della vita quotidiana e professionale: dalla pubblica amministrazione alla sanità, dall'istruzione al commercio, dall'industria all'intrattenimento."
+    },
+    {
+      "text": "E che cos'è l'ergonomia informatica?",
+      "speech": "E che cosa è l'ergonomia informatica?"
+    },
+    {
+      "text": "È la disciplina che studia come organizzare la postazione di lavoro al computer per tutelare la salute di chi la utilizza,",
+      "speech": "È la disciplina che studia come organizzare la postazione di lavoro al computer per tutelare la salute di chi la utilizza,"
+    },
+    {
+      "text": "un tema regolato in Italia dal D.Lgs 81/2008, che prevede per esempio pause regolari e una corretta disposizione di monitor, tastiera e sedia.",
+      "speech": "un tema regolato in Italia dal D.Lgs 81/2008, che prevede per esempio pause regolari e una corretta disposizione di monitor, tastiera e sedia."
+    },
+    {
+      "text": "Passiamo ora alle domande sull'hardware e sulla logica interna del computer.",
+      "speech": "Passiamo ora alle domande sull'hardware e sulla logica interna del computer."
+    },
+    {
+      "text": "Qual è la differenza tra hardware e software?",
+      "speech": "Qual è la differenza tra hardware e software?"
+    },
+    {
+      "text": "L'hardware è la componente fisica e tangibile del computer, mentre il software è l'insieme delle istruzioni e dei programmi che permettono all'hardware di funzionare:",
+      "speech": "L'hardware è la componente fisica e tangibile del computer, mentre il software è l'insieme delle istruzioni e dei programmi che permettono all'hardware di funzionare:"
+    },
+    {
+      "text": "fermatevi un momento su questa distinzione, perché è la base di tutto ciò che abbiamo visto in questo modulo.",
+      "speech": "fermatevi un momento su questa distinzione, perché è la base di tutto ciò che abbiamo visto in questo modulo."
+    },
+    {
+      "text": "Come si classificano gli elaboratori?",
+      "speech": "Come si classificano gli elaboratori?"
+    },
+    {
+      "text": "Principalmente per dimensione e potenza di calcolo, da supercomputer e mainframe fino a personal computer, portatili e dispositivi mobili.",
+      "speech": "Principalmente per dimensione e potenza di calcolo, da supercomputer e mainframe fino a personal computer, portatili e dispositivi mobili."
+    },
+    {
+      "text": "E perché il computer utilizza il sistema binario?",
+      "speech": "E perché il computer utilizza il sistema binario?"
+    },
+    {
+      "text": "Perché i circuiti elettronici riconoscono in modo affidabile solo due stati, corrente presente o assente, rappresentati convenzionalmente con le cifre 0 e 1:",
+      "speech": "Perché i circuiti elettronici riconoscono in modo affidabile solo due stati, corrente presente o assente, rappresentati convenzionalmente con le cifre 0 e 1:"
+    },
+    {
+      "text": "da qui nasce la necessità di saper convertire un numero dal sistema binario al sistema decimale e viceversa, un esercizio che avete visto con calma nell'episodio dedicato, con esempi svolti passo dopo passo.",
+      "speech": "da qui nasce la necessità di saper convertire un numero dal sistema binario al sistema decimale e viceversa, un esercizio che avete visto con calma nell'episodio dedicato, con esempi svolti passo dopo passo."
+    },
+    {
+      "text": "Veniamo alle domande sulla digitalizzazione e sull'interazione uomo-macchina.",
+      "speech": "Veniamo alle domande sulla digitalizzazione e sull'interazione uomo-macchina."
+    },
+    {
+      "text": "Che cos'è la digitalizzazione di audio e video?",
+      "speech": "Che cosa è la digitalizzazione di audio e video?"
+    },
+    {
+      "text": "È il processo di conversione di un segnale continuo, analogico, in una sequenza discreta di valori numerici, che il computer può memorizzare ed elaborare.",
+      "speech": "È il processo di conversione di un segnale continuo, analogico, in una sequenza discreta di valori numerici, che il computer può memorizzare ed elaborare."
+    },
+    {
+      "text": "Qual è la differenza tra interfaccia a riga di comando e interfaccia grafica?",
+      "speech": "Qual è la differenza tra interfaccia a riga di comando e interfaccia grafica?"
+    },
+    {
+      "text": "La CLI richiede di digitare comandi testuali precisi, mentre la GUI permette di interagire tramite elementi visivi come finestre, icone, menu e puntatore, secondo il paradigma WIMP che avete conosciuto nell'episodio dedicato.",
+      "speech": "La CLI richiede di digitare comandi testuali precisi, mentre la GUI permette di interagire tramite elementi visivi come finestre, icone, menu e puntatore, secondo il paradigma WIMP che avete conosciuto nell'episodio dedicato."
+    },
+    {
+      "text": "Passiamo alle periferiche e alle memorie.",
+      "speech": "Passiamo alle periferiche e alle memorie."
+    },
+    {
+      "text": "Come si classificano le periferiche?",
+      "speech": "Come si classificano le periferiche?"
+    },
+    {
+      "text": "In periferiche di input, che permettono di inserire dati nel sistema, come tastiera e mouse;",
+      "speech": "In periferiche di input, che permettono di inserire dati nel sistema, come tastiera e mouse;"
+    },
+    {
+      "text": "periferiche di output, che restituiscono informazioni all'utente, come monitor e stampante; e periferiche che svolgono entrambe le funzioni, come lo schermo touchscreen.",
+      "speech": "periferiche di output, che restituiscono informazioni all'utente, come monitor e stampante; e periferiche che svolgono entrambe le funzioni, come lo schermo touchscreen."
+    },
+    {
+      "text": "Che cosa sono le memorie di massa e come si distinguono dalla RAM?",
+      "speech": "Che cosa sono le memorie di massa e come si distinguono dalla RAM?"
+    },
+    {
+      "text": "Sono memorie non volatili, che conservano i dati anche a computer spento, a differenza della RAM che è volatile:",
+      "speech": "Sono memorie non volatili, che conservano i dati anche a computer spento, a differenza della RAM che è volatile:"
+    },
+    {
+      "text": "le principali tipologie sono l'hard disk magnetico, l'SSD, le unità ottiche e le memorie flash, ciascuna con velocità e caratteristiche diverse.",
+      "speech": "le principali tipologie sono l'hard disk magnetico, l'SSD, le unità ottiche e le memorie flash, ciascuna con velocità e caratteristiche diverse."
+    },
+    {
+      "text": "Veniamo al sistema operativo e all'interfaccia Windows.",
+      "speech": "Veniamo al sistema operativo e all'interfaccia Windows."
+    },
+    {
+      "text": "Quali sono le funzioni principali di un sistema operativo?",
+      "speech": "Quali sono le funzioni principali di un sistema operativo?"
+    },
+    {
+      "text": "Gestione del processore, gestione della memoria, gestione del file system, gestione delle periferiche e interfaccia con l'utente:",
+      "speech": "Gestione del processore, gestione della memoria, gestione del file system, gestione delle periferiche e interfaccia con l'utente:"
+    },
+    {
+      "text": "senza questo software, il computer resterebbe un insieme di componenti incapaci di dialogare tra loro.",
+      "speech": "senza questo software, il computer resterebbe un insieme di componenti incapaci di dialogare tra loro."
+    },
+    {
+      "text": "Come si presenta l'interfaccia di Windows?",
+      "speech": "Come si presenta l'interfaccia di Windows?"
+    },
+    {
+      "text": "Attraverso il desktop, la barra delle applicazioni, il menu Start ed Esplora file, lo strumento con cui si naviga concretamente tra cartelle e file.",
+      "speech": "Attraverso il desktop, la barra delle applicazioni, il menu Start ed Esplora file, lo strumento con cui si naviga concretamente tra cartelle e file."
+    },
+    {
+      "text": "Concludiamo con le domande sui programmi applicativi visti nel Modulo 3.",
+      "speech": "Concludiamo con le domande sui programmi applicativi visti nel Modulo 3."
+    },
+    {
+      "text": "Quali sono le operazioni di base in Word?",
+      "speech": "Quali sono le operazioni di base in Word?"
+    },
+    {
+      "text": "Creare, aprire, salvare, tipicamente in formato .docx, e formattare un documento, distinguendo sempre tra formattazione a livello di carattere e formattazione a livello di paragrafo.",
+      "speech": "Creare, aprire, salvare, tipicamente in formato .docx, e formattare un documento, distinguendo sempre tra formattazione a livello di carattere e formattazione a livello di paragrafo."
+    },
+    {
+      "text": "Come si inserisce una tabella in Word?",
+      "speech": "Come si inserisce una tabella in Word?"
+    },
+    {
+      "text": "Posizionando il cursore nel punto desiderato, selezionando Inserisci poi Tabella, indicando il numero di colonne e di righe, e compilando infine le celle.",
+      "speech": "Posizionando il cursore nel punto desiderato, selezionando Inserisci poi Tabella, indicando il numero di colonne e di righe, e compilando infine le celle."
+    },
+    {
+      "text": "Come si sviluppa una presentazione efficace in PowerPoint?",
+      "speech": "Come si sviluppa una presentazione efficace in PowerPoint?"
+    },
+    {
+      "text": "Pianificando innanzitutto i contenuti, individuando il messaggio principale, organizzando le informazioni in una sequenza logica, e evitando di sovraccaricare ogni diapositiva di testo.",
+      "speech": "Pianificando innanzitutto i contenuti, individuando il messaggio principale, organizzando le informazioni in una sequenza logica, e evitando di sovraccaricare ogni diapositiva di testo."
+    },
+    {
+      "text": "E qual è la differenza tra transizione e animazione?",
+      "speech": "E qual è la differenza tra transizione e animazione?"
+    },
+    {
+      "text": "La transizione agisce tra due diapositive, l'animazione agisce sui singoli elementi dentro una stessa diapositiva.",
+      "speech": "La transizione agisce tra due diapositive, l'animazione agisce sui singoli elementi dentro una stessa diapositiva."
+    },
+    {
+      "text": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:",
+      "speech": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:"
+    },
+    {
+      "text": "immaginate di dover preparare, per un'interrogazione o per un piccolo progetto scolastico, sia un documento di testo che una breve presentazione sullo stesso argomento.",
+      "speech": "immaginate di dover preparare, per un'interrogazione o per un piccolo progetto scolastico, sia un documento di testo che una breve presentazione sullo stesso argomento."
+    },
+    {
+      "text": "Quale strumento usereste per ciascuno scopo, e perché?",
+      "speech": "Quale strumento usereste per ciascuno scopo, e perché?"
+    },
+    {
+      "text": "Per il testo strutturato, con eventuali tabelle e immagini da leggere con calma, usereste Word, il cui output naturale è un documento stampabile o consultabile pagina per pagina;",
+      "speech": "Per il testo strutturato, con eventuali tabelle e immagini da leggere con calma, usereste Word, il cui output naturale è un documento stampabile o consultabile pagina per pagina;"
+    },
+    {
+      "text": "per l'esposizione orale davanti a un pubblico, usereste PowerPoint, organizzando i contenuti in diapositive sobrie, con transizioni e animazioni misurate,",
+      "speech": "per l'esposizione orale davanti a un pubblico, usereste PowerPoint, organizzando i contenuti in diapositive sobrie, con transizioni e animazioni misurate,"
+    },
+    {
+      "text": "lasciando ai vostri interventi orali il compito di sviluppare i dettagli che le diapositive, da sole, non devono contenere per intero.",
+      "speech": "lasciando ai vostri interventi orali il compito di sviluppare i dettagli che le diapositive, da sole, non devono contenere per intero."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: informatica, hardware e software, sistema binario e classificazione degli elaboratori formano le basi concettuali dell'intero modulo.",
+      "speech": "Primo: informatica, hardware e software, sistema binario e classificazione degli elaboratori formano le basi concettuali dell'intero modulo."
+    },
+    {
+      "text": "Secondo: digitalizzazione, interfacce, periferiche, memorie di massa e sistema operativo descrivono come il computer riceve, elabora, conserva e restituisce le informazioni.",
+      "speech": "Secondo: digitalizzazione, interfacce, periferiche, memorie di massa e sistema operativo descrivono come il computer riceve, elabora, conserva e restituisce le informazioni."
+    },
+    {
+      "text": "Terzo: Word e PowerPoint traducono questi concetti in strumenti pratici di uso quotidiano, ciascuno con operazioni, logiche e finalità proprie.",
+      "speech": "Terzo: Word e PowerPoint traducono questi concetti in strumenti pratici di uso quotidiano, ciascuno con operazioni, logiche e finalità proprie."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero modulo di Informatica per la classe prima.",
+      "speech": "Con questo abbiamo completato l'intero modulo di Informatica per la classe prima."
+    },
+    {
+      "text": "Nel prossimo modulo continuiamo il nostro percorso di informatica con argomenti nuovi, costruendo su queste basi che avete ormai acquisito con sicurezza.",
+      "speech": "Nel prossimo modulo continuiamo il nostro percorso di informatica con argomenti nuovi, costruendo su queste basi che avete ormai acquisito con sicurezza."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

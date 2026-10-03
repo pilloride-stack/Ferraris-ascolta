@@ -1,0 +1,236 @@
+{
+  "subject": "Informatica",
+  "episode": "07",
+  "title": "Domande guida per il ripasso",
+  "class": "Classe terza",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo completato il terzo e ultimo modulo di questo percorso, con la sicurezza dei dati, i servizi di Internet per le aziende e la differenza tra Intranet ed Extranet.",
+      "speech": "Nell'episodio scorso abbiamo completato il terzo e ultimo modulo di questo percorso, con la sicurezza dei dati, i servizi di Internet per le aziende e la differenza tra Intranet ed Extranet."
+    },
+    {
+      "text": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
+      "speech": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria."
+    },
+    {
+      "text": "Cominciamo dalle domande del primo modulo, dedicato all'ICT nella vita sociale e in azienda.",
+      "speech": "Cominciamo dalle domande del primo modulo, dedicato all'ICT nella vita sociale e in azienda."
+    },
+    {
+      "text": "Quali obblighi impone il D.Lgs. 81/2008 al datore di lavoro per chi lavora al videoterminale?",
+      "speech": "Quali obblighi impone il D.Lgs. 81/2008 al datore di lavoro per chi lavora al videoterminale?"
+    },
+    {
+      "text": "Quattro obblighi precisi: la valutazione dei rischi specifici della postazione, l'organizzazione di pause regolari o cambi di attività, la sorveglianza sanitaria periodica da parte del medico competente,",
+      "speech": "Quattro obblighi precisi: la valutazione dei rischi specifici della postazione, l'organizzazione di pause regolari o cambi di attività, la sorveglianza sanitaria periodica da parte del medico competente,"
+    },
+    {
+      "text": "e la formazione del personale sui corretti principi ergonomici.",
+      "speech": "e la formazione del personale sui corretti principi ergonomici."
+    },
+    {
+      "text": "Come è tutelato giuridicamente il software, e quali sono le principali tipologie di licenza?",
+      "speech": "Come è tutelato giuridicamente il software, e quali sono le principali tipologie di licenza?"
+    },
+    {
+      "text": "Il software è tutelato dal diritto d'autore, disciplinato dalla Legge 633 del 1941, che attribuisce all'autore diritti morali, non cedibili, e diritti patrimoniali, cedibili tramite licenza:",
+      "speech": "Il software è tutelato dal diritto d'autore, disciplinato dalla Legge 633 del 1941, che attribuisce all'autore diritti morali, non cedibili, e diritti patrimoniali, cedibili tramite licenza:"
+    },
+    {
+      "text": "in base al tipo di licenza il software si distingue in proprietario, freeware, shareware e open source.",
+      "speech": "in base al tipo di licenza il software si distingue in proprietario, freeware, shareware e open source."
+    },
+    {
+      "text": "Che cos'è il GDPR e quali diritti riconosce agli interessati?",
+      "speech": "Che cosa è il GDPR e quali diritti riconosce agli interessati?"
+    },
+    {
+      "text": "È il Regolamento generale sulla protezione dei dati, il Regolamento UE 2016/679, che disciplina la privacy individuando ruoli come titolare e responsabile del trattamento,",
+      "speech": "È il Regolamento generale sulla protezione dei dati, il Regolamento UE 2016/679, che disciplina la privacy individuando ruoli come titolare e responsabile del trattamento,"
+    },
+    {
+      "text": "e riconosce agli interessati il diritto di accesso, di rettifica, e di cancellazione, il cosiddetto diritto all'oblio.",
+      "speech": "e riconosce agli interessati il diritto di accesso, di rettifica, e di cancellazione, il cosiddetto diritto all'oblio."
+    },
+    {
+      "text": "Che differenza c'è tra sistema informativo e sistema informatico?",
+      "speech": "Che differenza cè tra sistema informativo e sistema informatico?"
+    },
+    {
+      "text": "Fermatevi un momento su questa distinzione, perché ricorre spesso:",
+      "speech": "Fermatevi un momento su questa distinzione, perché ricorre spesso:"
+    },
+    {
+      "text": "il sistema informativo è l'insieme organizzato di persone, procedure, dati e tecnologie che gestisce le informazioni aziendali,",
+      "speech": "il sistema informativo è l'insieme organizzato di persone, procedure, dati e tecnologie che gestisce le informazioni aziendali,"
+    },
+    {
+      "text": "mentre il sistema informatico ne è soltanto la componente tecnologica automatizzata, hardware e software.",
+      "speech": "mentre il sistema informatico ne è soltanto la componente tecnologica automatizzata, hardware e software."
+    },
+    {
+      "text": "Come si classificano i sistemi informativi per livello decisionale?",
+      "speech": "Come si classificano i sistemi informativi per livello decisionale?"
+    },
+    {
+      "text": "In TPS, transazioni quotidiane a livello operativo, MIS, report di sintesi per i quadri intermedi a livello tattico, e DSS, supporto ai dirigenti nella pianificazione strategica.",
+      "speech": "In TPS, transazioni quotidiane a livello operativo, MIS, report di sintesi per i quadri intermedi a livello tattico, e DSS, supporto ai dirigenti nella pianificazione strategica."
+    },
+    {
+      "text": "Passiamo alle domande del secondo modulo, dedicato all'organizzazione dei dati in azienda.",
+      "speech": "Passiamo alle domande del secondo modulo, dedicato all'organizzazione dei dati in azienda."
+    },
+    {
+      "text": "Quali sono i vantaggi di un database rispetto a un archivio tradizionale?",
+      "speech": "Quali sono i vantaggi di un database rispetto a un archivio tradizionale?"
+    },
+    {
+      "text": "Un database, gestito da un DBMS, supera i problemi di ridondanza e inconsistenza tipici degli archivi tradizionali, garantendo controllo della ridondanza, indipendenza dei dati dai programmi, integrità e sicurezza.",
+      "speech": "Un database, gestito da un DBMS, supera i problemi di ridondanza e inconsistenza tipici degli archivi tradizionali, garantendo controllo della ridondanza, indipendenza dei dati dai programmi, integrità e sicurezza."
+    },
+    {
+      "text": "Quali sono le tre fasi della progettazione di un database?",
+      "speech": "Quali sono le tre fasi della progettazione di un database?"
+    },
+    {
+      "text": "La progettazione concettuale, indipendente dalla tecnologia; la progettazione logica, che individua un modello specifico, tipicamente quello relazionale;",
+      "speech": "La progettazione concettuale, indipendente dalla tecnologia; la progettazione logica, che individua un modello specifico, tipicamente quello relazionale;"
+    },
+    {
+      "text": "e la progettazione fisica, che implementa lo schema logico su uno specifico DBMS.",
+      "speech": "e la progettazione fisica, che implementa lo schema logico su uno specifico DBMS."
+    },
+    {
+      "text": "Che cos'è il modello Entità-Relazione?",
+      "speech": "Che cosa è il modello Entità-Relazione?"
+    },
+    {
+      "text": "È il modello concettuale con cui si rappresenta la realtà da modellare individuando le entità, cioè gli oggetti rilevanti, i loro attributi,",
+      "speech": "È il modello concettuale con cui si rappresenta la realtà da modellare individuando le entità, cioè gli oggetti rilevanti, i loro attributi,"
+    },
+    {
+      "text": "e le relazioni che le collegano tra loro, in modo del tutto indipendente dalla tecnologia che verrà poi utilizzata.",
+      "speech": "e le relazioni che le collegano tra loro, in modo del tutto indipendente dalla tecnologia che verrà poi utilizzata."
+    },
+    {
+      "text": "Quali sono i principali oggetti di un database Access?",
+      "speech": "Quali sono i principali oggetti di un database Access?"
+    },
+    {
+      "text": "Le tabelle, che memorizzano i dati in record e campi; le query, che li interrogano e li filtrano;",
+      "speech": "Le tabelle, che memorizzano i dati in record e campi; le query, che li interrogano e li filtrano;"
+    },
+    {
+      "text": "le maschere, che ne semplificano l'inserimento e la consultazione; e i report, che li presentano in un formato pronto per la stampa.",
+      "speech": "le maschere, che ne semplificano l'inserimento e la consultazione; e i report, che li presentano in un formato pronto per la stampa."
+    },
+    {
+      "text": "Veniamo infine alle domande del terzo modulo, dedicato al web.",
+      "speech": "Veniamo infine alle domande del terzo modulo, dedicato al web."
+    },
+    {
+      "text": "Quali sono i principali dispositivi hardware di una rete?",
+      "speech": "Quali sono i principali dispositivi hardware di una rete?"
+    },
+    {
+      "text": "Il router, che instrada i dati tra reti diverse; lo switch, che smista il traffico all'interno di una stessa rete locale;",
+      "speech": "Il router, che instrada i dati tra reti diverse; lo switch, che smista il traffico all'interno di una stessa rete locale;"
+    },
+    {
+      "text": "e il modem, che converte il segnale del computer in un segnale trasmissibile sulla linea di connessione.",
+      "speech": "e il modem, che converte il segnale del computer in un segnale trasmissibile sulla linea di connessione."
+    },
+    {
+      "text": "Quali sono le tre proprietà fondamentali della sicurezza informatica?",
+      "speech": "Quali sono le tre proprietà fondamentali della sicurezza informatica?"
+    },
+    {
+      "text": "Riservatezza, integrità e disponibilità dei dati e dei servizi.",
+      "speech": "Riservatezza, integrità e disponibilità dei dati e dei servizi."
+    },
+    {
+      "text": "Quali sono le principali minacce informatiche e le relative contromisure?",
+      "speech": "Quali sono le principali minacce informatiche e le relative contromisure?"
+    },
+    {
+      "text": "Virus e malware, contrastati dall'antivirus; ransomware, contrastato soprattutto dai backup periodici;",
+      "speech": "Virus e malware, contrastati dall'antivirus; ransomware, contrastato soprattutto dai backup periodici;"
+    },
+    {
+      "text": "e phishing, minacce a cui si aggiungono accessi non autorizzati, contrastati da firewall e autenticazione, e intercettazione dei dati, contrastata dalla crittografia.",
+      "speech": "e phishing, minacce a cui si aggiungono accessi non autorizzati, contrastati da firewall e autenticazione, e intercettazione dei dati, contrastata dalla crittografia."
+    },
+    {
+      "text": "Che cos'è il cloud computing e quali vantaggi offre alle aziende?",
+      "speech": "Che cosa è il cloud computing e quali vantaggi offre alle aziende?"
+    },
+    {
+      "text": "Consente di utilizzare risorse di calcolo e di archiviazione remote, senza doverle possedere fisicamente, pagando in base al consumo effettivo, un vantaggio economico e organizzativo non da poco per le aziende.",
+      "speech": "Consente di utilizzare risorse di calcolo e di archiviazione remote, senza doverle possedere fisicamente, pagando in base al consumo effettivo, un vantaggio economico e organizzativo non da poco per le aziende."
+    },
+    {
+      "text": "Che differenza c'è tra Internet, Intranet ed Extranet?",
+      "speech": "Che differenza cè tra Internet, Intranet ed Extranet?"
+    },
+    {
+      "text": "Internet è pubblico e accessibile a chiunque; l'intranet è riservato al personale interno dell'organizzazione;",
+      "speech": "Internet è pubblico e accessibile a chiunque; l'intranet è riservato al personale interno dell'organizzazione;"
+    },
+    {
+      "text": "l'extranet estende un accesso controllato anche a soggetti esterni ma fidati, come fornitori o clienti, tramite credenziali dedicate.",
+      "speech": "l'extranet estende un accesso controllato anche a soggetti esterni ma fidati, come fornitori o clienti, tramite credenziali dedicate."
+    },
+    {
+      "text": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo percorso:",
+      "speech": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo percorso:"
+    },
+    {
+      "text": "immaginate un'azienda che vuole digitalizzare la gestione del proprio magazzino, mettendo i dati a disposizione sia degli operatori interni sia di alcuni fornitori esterni di fiducia.",
+      "speech": "immaginate un'azienda che vuole digitalizzare la gestione del proprio magazzino, mettendo i dati a disposizione sia degli operatori interni sia di alcuni fornitori esterni di fiducia."
+    },
+    {
+      "text": "Quali concetti visti in questi tre moduli entrerebbero in gioco?",
+      "speech": "Quali concetti visti in questi tre moduli entrerebbero in gioco?"
+    },
+    {
+      "text": "Un database ben progettato nelle sue tre fasi, magari realizzato in Access con tabelle, query, maschere e report;",
+      "speech": "Un database ben progettato nelle sue tre fasi, magari realizzato in Access con tabelle, query, maschere e report;"
+    },
+    {
+      "text": "un'intranet protetta da firewall per gli operatori interni, e un'extranet con credenziali dedicate per i fornitori esterni;",
+      "speech": "un'intranet protetta da firewall per gli operatori interni, e un'extranet con credenziali dedicate per i fornitori esterni;"
+    },
+    {
+      "text": "e su tutto questo, riservatezza, integrità e disponibilità dei dati, garantite da backup, crittografia e autenticazione, nel rispetto del GDPR.",
+      "speech": "e su tutto questo, riservatezza, integrità e disponibilità dei dati, garantite da backup, crittografia e autenticazione, nel rispetto del GDPR."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il primo modulo ci ha lasciato la normativa sulla sicurezza dei videoterminali, la tutela del software e la privacy con il GDPR, insieme alla distinzione tra sistema informativo e informatico e alla classificazione in TPS, MIS e DSS.",
+      "speech": "Primo: il primo modulo ci ha lasciato la normativa sulla sicurezza dei videoterminali, la tutela del software e la privacy con il GDPR, insieme alla distinzione tra sistema informativo e informatico e alla classificazione in TPS, MIS e DSS."
+    },
+    {
+      "text": "Secondo: il secondo modulo ci ha insegnato i vantaggi di un database rispetto a un archivio tradizionale, le tre fasi della sua progettazione con il modello Entità-Relazione, e i quattro oggetti principali di Access.",
+      "speech": "Secondo: il secondo modulo ci ha insegnato i vantaggi di un database rispetto a un archivio tradizionale, le tre fasi della sua progettazione con il modello Entità-Relazione, e i quattro oggetti principali di Access."
+    },
+    {
+      "text": "Terzo: il terzo modulo ci ha mostrato i dispositivi hardware di rete, le tre proprietà della sicurezza informatica con le relative minacce e contromisure, il cloud computing e la differenza tra Internet, Intranet ed Extranet.",
+      "speech": "Terzo: il terzo modulo ci ha mostrato i dispositivi hardware di rete, le tre proprietà della sicurezza informatica con le relative minacce e contromisure, il cloud computing e la differenza tra Internet, Intranet ed Extranet."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero modulo di Informatica per la classe terza.",
+      "speech": "Con questo abbiamo completato l'intero modulo di Informatica per la classe terza."
+    },
+    {
+      "text": "Nel prossimo modulo continuiamo il nostro percorso di informatica, costruendo su queste basi che avete ormai acquisito con sicurezza.",
+      "speech": "Nel prossimo modulo continuiamo il nostro percorso di informatica, costruendo su queste basi che avete ormai acquisito con sicurezza."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

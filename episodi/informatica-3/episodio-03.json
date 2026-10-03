@@ -1,0 +1,128 @@
+{
+  "subject": "Informatica",
+  "episode": "03",
+  "title": "Database: dagli archivi tradizionali alla progettazione",
+  "class": "Classe terza",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo completato il primo modulo con la classificazione dei software, il GDPR e i sistemi informativi aziendali.",
+      "speech": "Nell'episodio scorso abbiamo completato il primo modulo con la classificazione dei software, il GDPR e i sistemi informativi aziendali."
+    },
+    {
+      "text": "Oggi entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dal problema degli archivi tradizionali e dalla soluzione offerta dai database, per poi vedere come si progetta concretamente una base di dati.",
+      "speech": "Oggi entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dal problema degli archivi tradizionali e dalla soluzione offerta dai database, per poi vedere come si progetta concretamente una base di dati."
+    },
+    {
+      "text": "Negli archivi tradizionali, ogni programma applicativo gestisce un proprio file di dati indipendente dagli altri.",
+      "speech": "Negli archivi tradizionali, ogni programma applicativo gestisce un proprio file di dati indipendente dagli altri."
+    },
+    {
+      "text": "Questa impostazione genera facilmente due problemi seri: la ridondanza, cioè gli stessi dati memorizzati più volte in archivi diversi,",
+      "speech": "Questa impostazione genera facilmente due problemi seri: la ridondanza, cioè gli stessi dati memorizzati più volte in archivi diversi,"
+    },
+    {
+      "text": "e l'inconsistenza, cioè versioni discordanti dello stesso dato in archivi differenti.",
+      "speech": "e l'inconsistenza, cioè versioni discordanti dello stesso dato in archivi differenti."
+    },
+    {
+      "text": "Un database, o base di dati, gestito da un apposito software chiamato DBMS, Database Management System, supera questi limiti centralizzando i dati in un'unica struttura condivisa da più applicazioni.",
+      "speech": "Un database, o base di dati, gestito da un apposito software chiamato DBMS, Database Management System, supera questi limiti centralizzando i dati in un'unica struttura condivisa da più applicazioni."
+    },
+    {
+      "text": "Fermatevi un momento su questi due problemi, ridondanza e inconsistenza, perché sono spesso citati insieme ma indicano cose diverse:",
+      "speech": "Fermatevi un momento su questi due problemi, ridondanza e inconsistenza, perché sono spesso citati insieme ma indicano cose diverse:"
+    },
+    {
+      "text": "la ridondanza riguarda la ripetizione fisica dello stesso dato in più punti, mentre l'inconsistenza è la conseguenza pratica più pericolosa di questa ripetizione,",
+      "speech": "la ridondanza riguarda la ripetizione fisica dello stesso dato in più punti, mentre l'inconsistenza è la conseguenza pratica più pericolosa di questa ripetizione,"
+    },
+    {
+      "text": "cioè il fatto che le diverse copie dello stesso dato possano nel tempo diventare discordanti tra loro, per esempio se un dato viene aggiornato in un archivio ma non in un altro.",
+      "speech": "cioè il fatto che le diverse copie dello stesso dato possano nel tempo diventare discordanti tra loro, per esempio se un dato viene aggiornato in un archivio ma non in un altro."
+    },
+    {
+      "text": "Un buon database, grazie al DBMS che lo gestisce, garantisce invece il controllo della ridondanza, l'indipendenza dei dati dai programmi che li utilizzano, l'integrità,",
+      "speech": "Un buon database, grazie al DBMS che lo gestisce, garantisce invece il controllo della ridondanza, l'indipendenza dei dati dai programmi che li utilizzano, l'integrità,"
+    },
+    {
+      "text": "cioè la correttezza e la coerenza dei dati, e la sicurezza, cioè il controllo degli accessi.",
+      "speech": "cioè la correttezza e la coerenza dei dati, e la sicurezza, cioè il controllo degli accessi."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario quali sono i vantaggi di un database rispetto a un archivio tradizionale, come rispondereste?",
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario quali sono i vantaggi di un database rispetto a un archivio tradizionale, come rispondereste?"
+    },
+    {
+      "text": "Potreste elencare proprio questi quattro vantaggi: meno ridondanza, dati indipendenti dai programmi, maggiore integrità e maggiore sicurezza,",
+      "speech": "Potreste elencare proprio questi quattro vantaggi: meno ridondanza, dati indipendenti dai programmi, maggiore integrità e maggiore sicurezza,"
+    },
+    {
+      "text": "tutti resi possibili dalla centralizzazione dei dati in un'unica struttura condivisa, invece che sparsi in archivi separati e scollegati tra loro.",
+      "speech": "tutti resi possibili dalla centralizzazione dei dati in un'unica struttura condivisa, invece che sparsi in archivi separati e scollegati tra loro."
+    },
+    {
+      "text": "Vediamo ora come si progetta concretamente una base di dati: la progettazione si articola in tre fasi successive, ciascuna con un obiettivo diverso.",
+      "speech": "Vediamo ora come si progetta concretamente una base di dati: la progettazione si articola in tre fasi successive, ciascuna con un obiettivo diverso."
+    },
+    {
+      "text": "La progettazione concettuale traduce la realtà da modellare in uno schema concettuale astratto, indipendente dalla tecnologia, tipicamente rappresentato con il modello Entità-Relazione, o modello E-R, che individua le entità,",
+      "speech": "La progettazione concettuale traduce la realtà da modellare in uno schema concettuale astratto, indipendente dalla tecnologia, tipicamente rappresentato con il modello Entità-Relazione, o modello E-R, che individua le entità,"
+    },
+    {
+      "text": "cioè gli oggetti rilevanti, i loro attributi, e le relazioni che le collegano tra loro.",
+      "speech": "cioè gli oggetti rilevanti, i loro attributi, e le relazioni che le collegano tra loro."
+    },
+    {
+      "text": "La progettazione logica traduce lo schema concettuale in uno schema logico specifico per un modello di database, tipicamente il modello relazionale, basato su tabelle collegate tra loro tramite chiavi primarie ed esterne.",
+      "speech": "La progettazione logica traduce lo schema concettuale in uno schema logico specifico per un modello di database, tipicamente il modello relazionale, basato su tabelle collegate tra loro tramite chiavi primarie ed esterne."
+    },
+    {
+      "text": "La progettazione fisica, infine, implementa concretamente lo schema logico su uno specifico DBMS, definendo tabelle, indici e strutture di memorizzazione effettive.",
+      "speech": "La progettazione fisica, infine, implementa concretamente lo schema logico su uno specifico DBMS, definendo tabelle, indici e strutture di memorizzazione effettive."
+    },
+    {
+      "text": "Fermatevi un momento su questa sequenza delle tre fasi, perché l'ordine e l'indipendenza dalla tecnologia sono spesso al centro delle domande d'esame:",
+      "speech": "Fermatevi un momento su questa sequenza delle tre fasi, perché l'ordine e l'indipendenza dalla tecnologia sono spesso al centro delle domande d'esame:"
+    },
+    {
+      "text": "la progettazione concettuale, con il suo schema E-R, non dipende affatto dal software che userete in seguito,",
+      "speech": "la progettazione concettuale, con il suo schema E-R, non dipende affatto dal software che userete in seguito,"
+    },
+    {
+      "text": "mentre già la progettazione logica comincia a orientarsi verso un modello preciso, quello relazionale,",
+      "speech": "mentre già la progettazione logica comincia a orientarsi verso un modello preciso, quello relazionale,"
+    },
+    {
+      "text": "e solo la progettazione fisica cala tutto questo su un DBMS specifico, con le sue tabelle e i suoi indici reali.",
+      "speech": "e solo la progettazione fisica cala tutto questo su un DBMS specifico, con le sue tabelle e i suoi indici reali."
+    },
+    {
+      "text": "Procedere nell'ordine sbagliato, per esempio pensando subito alle tabelle fisiche prima di aver chiarito le entità e le relazioni concettuali, è un errore metodologico da evitare.",
+      "speech": "Procedere nell'ordine sbagliato, per esempio pensando subito alle tabelle fisiche prima di aver chiarito le entità e le relazioni concettuali, è un errore metodologico da evitare."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: gli archivi tradizionali soffrono di ridondanza e inconsistenza, problemi che un database centralizzato, gestito da un DBMS, permette di superare.",
+      "speech": "Primo: gli archivi tradizionali soffrono di ridondanza e inconsistenza, problemi che un database centralizzato, gestito da un DBMS, permette di superare."
+    },
+    {
+      "text": "Secondo: un database garantisce controllo della ridondanza, indipendenza dei dati, integrità e sicurezza.",
+      "speech": "Secondo: un database garantisce controllo della ridondanza, indipendenza dei dati, integrità e sicurezza."
+    },
+    {
+      "text": "Terzo: la progettazione di un database si articola in tre fasi, concettuale con il modello E-R, logica con il modello relazionale, e fisica sullo specifico DBMS.",
+      "speech": "Terzo: la progettazione di un database si articola in tre fasi, concettuale con il modello E-R, logica con il modello relazionale, e fisica sullo specifico DBMS."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo come si documenta un progetto di database e facciamo una prima introduzione pratica ad Access.",
+      "speech": "Nel prossimo episodio vediamo come si documenta un progetto di database e facciamo una prima introduzione pratica ad Access."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

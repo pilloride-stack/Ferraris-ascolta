@@ -1,0 +1,128 @@
+{
+  "subject": "Informatica",
+  "episode": "07",
+  "title": "Word: interfaccia e gestione dei documenti",
+  "class": "Classe prima",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo completato il Modulo 2 con i sistemi operativi e Windows.",
+      "speech": "Nell'episodio scorso abbiamo completato il Modulo 2 con i sistemi operativi e Windows."
+    },
+    {
+      "text": "Oggi entriamo nel Modulo 3, dedicato all'uso pratico dei programmi più diffusi in ambito professionale, cominciando da Microsoft Word, il programma di videoscrittura più diffuso al mondo.",
+      "speech": "Oggi entriamo nel Modulo 3, dedicato all'uso pratico dei programmi più diffusi in ambito professionale, cominciando da Microsoft Word, il programma di videoscrittura più diffuso al mondo."
+    },
+    {
+      "text": "Microsoft Word è il programma utilizzato per creare, modificare e formattare documenti testuali.",
+      "speech": "Microsoft Word è il programma utilizzato per creare, modificare e formattare documenti testuali."
+    },
+    {
+      "text": "La sua interfaccia si organizza attorno alla barra multifunzione, chiamata anche Ribbon dall'inglese, suddivisa in schede tematiche, ciascuna dedicata a un gruppo di funzioni correlate: Home, per la formattazione di base;",
+      "speech": "La sua interfaccia si organizza attorno alla barra multifunzione, chiamata anche Ribbon dall'inglese, suddivisa in schede tematiche, ciascuna dedicata a un gruppo di funzioni correlate: Home, per la formattazione di base;"
+    },
+    {
+      "text": "Inserisci, per aggiungere elementi come tabelle e immagini; Layout, per l'impostazione della pagina; Riferimenti, per note e bibliografie;",
+      "speech": "Inserisci, per aggiungere elementi come tabelle e immagini; Layout, per l'impostazione della pagina; Riferimenti, per note e bibliografie;"
+    },
+    {
+      "text": "Revisione, per il controllo ortografico e i commenti; e Visualizza, per le diverse modalità di visualizzazione del documento.",
+      "speech": "Revisione, per il controllo ortografico e i commenti; e Visualizza, per le diverse modalità di visualizzazione del documento."
+    },
+    {
+      "text": "Fermatevi un momento su questa organizzazione, perché comprendere la logica della barra multifunzione vi aiuterà a orientarvi rapidamente in qualunque comando vi venga richiesto in un esercizio pratico:",
+      "speech": "Fermatevi un momento su questa organizzazione, perché comprendere la logica della barra multifunzione vi aiuterà a orientarvi rapidamente in qualunque comando vi venga richiesto in un esercizio pratico:"
+    },
+    {
+      "text": "ogni scheda raggruppa funzioni tra loro affini, quindi il primo passo per trovare un comando è sempre chiedersi a quale scheda tematica appartenga logicamente.",
+      "speech": "ogni scheda raggruppa funzioni tra loro affini, quindi il primo passo per trovare un comando è sempre chiedersi a quale scheda tematica appartenga logicamente."
+    },
+    {
+      "text": "Le operazioni di base sulla gestione dei documenti comprendono la creazione di un nuovo documento, l'apertura di un documento esistente, il salvataggio,",
+      "speech": "Le operazioni di base sulla gestione dei documenti comprendono la creazione di un nuovo documento, l'apertura di un documento esistente, il salvataggio,"
+    },
+    {
+      "text": "tipicamente nel formato .docx, oppure, per compatibilità con software più datati o per la condivisione, nei formati .doc o .pdf, e la formattazione del testo.",
+      "speech": "tipicamente nel formato .docx, oppure, per compatibilità con software più datati o per la condivisione, nei formati .doc o .pdf, e la formattazione del testo."
+    },
+    {
+      "text": "Quest'ultima merita un approfondimento, perché agisce su due livelli distinti che è importante saper distinguere:",
+      "speech": "Quest'ultima merita un approfondimento, perché agisce su due livelli distinti che è importante saper distinguere:"
+    },
+    {
+      "text": "la formattazione a livello di carattere, che riguarda il tipo di font, la dimensione, il colore, il grassetto e il corsivo,",
+      "speech": "la formattazione a livello di carattere, che riguarda il tipo di font, la dimensione, il colore, il grassetto e il corsivo,"
+    },
+    {
+      "text": "e la formattazione a livello di paragrafo, che riguarda l'allineamento, l'interlinea, la spaziatura e gli elenchi puntati o numerati.",
+      "speech": "e la formattazione a livello di paragrafo, che riguarda l'allineamento, l'interlinea, la spaziatura e gli elenchi puntati o numerati."
+    },
+    {
+      "text": "Vediamo ora, passo dopo passo, come creare e salvare un nuovo documento, una procedura semplice ma che vale la pena saper descrivere con ordine in un esercizio pratico.",
+      "speech": "Vediamo ora, passo dopo passo, come creare e salvare un nuovo documento, una procedura semplice ma che vale la pena saper descrivere con ordine in un esercizio pratico."
+    },
+    {
+      "text": "Per prima cosa si avvia Word e si seleziona «Documento vuoto» nella schermata iniziale.",
+      "speech": "Per prima cosa si avvia Word e si seleziona «Documento vuoto» nella schermata iniziale."
+    },
+    {
+      "text": "Poi si digita il testo desiderato e si applica la formattazione voluta dalla scheda Home.",
+      "speech": "Poi si digita il testo desiderato e si applica la formattazione voluta dalla scheda Home."
+    },
+    {
+      "text": "Infine si seleziona File, poi Salva con nome, si sceglie la cartella di destinazione, si assegna un nome al file e si conferma:",
+      "speech": "Infine si seleziona File, poi Salva con nome, si sceglie la cartella di destinazione, si assegna un nome al file e si conferma:"
+    },
+    {
+      "text": "il documento viene così salvato in formato .docx, pronto per essere riaperto o condiviso con altre persone.",
+      "speech": "il documento viene così salvato in formato .docx, pronto per essere riaperto o condiviso con altre persone."
+    },
+    {
+      "text": "Fermatevi un momento su un piccolo dettaglio pratico che vale la pena ricordare, perché previene un errore molto comune tra chi inizia a usare Word: la differenza tra «Salva» e «Salva con nome».",
+      "speech": "Fermatevi un momento su un piccolo dettaglio pratico che vale la pena ricordare, perché previene un errore molto comune tra chi inizia a usare Word: la differenza tra «Salva» e «Salva con nome»."
+    },
+    {
+      "text": "«Salva» sovrascrive il file esistente con le modifiche appena fatte, mentre «Salva con nome» crea una nuova copia del documento con un nome o in una posizione diversa, lasciando intatto l'originale.",
+      "speech": "«Salva» sovrascrive il file esistente con le modifiche appena fatte, mentre «Salva con nome» crea una nuova copia del documento con un nome o in una posizione diversa, lasciando intatto l'originale."
+    },
+    {
+      "text": "Confondere le due funzioni può portare, per esempio, a perdere involontariamente una versione precedente di un documento importante che si voleva invece conservare separatamente.",
+      "speech": "Confondere le due funzioni può portare, per esempio, a perdere involontariamente una versione precedente di un documento importante che si voleva invece conservare separatamente."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario la differenza tra formattazione a livello di carattere e formattazione a livello di paragrafo, quale esempio concreto usereste per ciascuna?",
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario la differenza tra formattazione a livello di carattere e formattazione a livello di paragrafo, quale esempio concreto usereste per ciascuna?"
+    },
+    {
+      "text": "Per la formattazione a livello di carattere, potreste citare la scelta di scrivere una singola parola in grassetto per evidenziarla;",
+      "speech": "Per la formattazione a livello di carattere, potreste citare la scelta di scrivere una singola parola in grassetto per evidenziarla;"
+    },
+    {
+      "text": "per la formattazione a livello di paragrafo, potreste citare la scelta di centrare un intero titolo, un'operazione che riguarda l'intero blocco di testo e non una singola lettera o parola al suo interno.",
+      "speech": "per la formattazione a livello di paragrafo, potreste citare la scelta di centrare un intero titolo, un'operazione che riguarda l'intero blocco di testo e non una singola lettera o parola al suo interno."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: Word organizza i propri comandi nella barra multifunzione, suddivisa in schede tematiche come Home, Inserisci e Layout.",
+      "speech": "Primo: Word organizza i propri comandi nella barra multifunzione, suddivisa in schede tematiche come Home, Inserisci e Layout."
+    },
+    {
+      "text": "Secondo: le operazioni di base comprendono creare, aprire, salvare e formattare un documento, quest'ultima distinta in formattazione di carattere e di paragrafo.",
+      "speech": "Secondo: le operazioni di base comprendono creare, aprire, salvare e formattare un documento, quest'ultima distinta in formattazione di carattere e di paragrafo."
+    },
+    {
+      "text": "Terzo: «Salva» e «Salva con nome» svolgono funzioni diverse, rispettivamente sovrascrivere il file esistente o crearne una nuova copia.",
+      "speech": "Terzo: «Salva» e «Salva con nome» svolgono funzioni diverse, rispettivamente sovrascrivere il file esistente o crearne una nuova copia."
+    },
+    {
+      "text": "Nel prossimo episodio restiamo in Word e vediamo come inserire elementi più complessi in un documento, come tabelle e immagini, insieme a come gestire correttamente la stampa.",
+      "speech": "Nel prossimo episodio restiamo in Word e vediamo come inserire elementi più complessi in un documento, come tabelle e immagini, insieme a come gestire correttamente la stampa."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

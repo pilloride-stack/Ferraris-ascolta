@@ -1,0 +1,136 @@
+{
+  "subject": "Informatica",
+  "episode": "05",
+  "title": "Periferiche e memorie di massa",
+  "class": "Classe prima",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la digitalizzazione di suoni e video e l'interfaccia utente.",
+      "speech": "Nell'episodio scorso abbiamo visto la digitalizzazione di suoni e video e l'interfaccia utente."
+    },
+    {
+      "text": "Oggi restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa che permettono al computer di conservare i dati nel tempo.",
+      "speech": "Oggi restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa che permettono al computer di conservare i dati nel tempo."
+    },
+    {
+      "text": "Le periferiche sono dispositivi hardware collegati al computer che ne estendono le funzionalità.",
+      "speech": "Le periferiche sono dispositivi hardware collegati al computer che ne estendono le funzionalità."
+    },
+    {
+      "text": "Si distinguono in tre categorie, ed è fondamentale saperle classificare correttamente perché è un esercizio classico d'esame.",
+      "speech": "Si distinguono in tre categorie, ed è fondamentale saperle classificare correttamente perché è un esercizio classico d'esame."
+    },
+    {
+      "text": "Le periferiche di input permettono di inserire dati e comandi nel sistema: tastiera, mouse, scanner, webcam, microfono.",
+      "speech": "Le periferiche di input permettono di inserire dati e comandi nel sistema: tastiera, mouse, scanner, webcam, microfono."
+    },
+    {
+      "text": "Le periferiche di output permettono al sistema di restituire informazioni all'utente: monitor, stampante, altoparlanti.",
+      "speech": "Le periferiche di output permettono al sistema di restituire informazioni all'utente: monitor, stampante, altoparlanti."
+    },
+    {
+      "text": "E alcune periferiche svolgono entrambe le funzioni contemporaneamente, come lo schermo touchscreen, che riceve il tocco dell'utente come input e mostra immagini come output,",
+      "speech": "E alcune periferiche svolgono entrambe le funzioni contemporaneamente, come lo schermo touchscreen, che riceve il tocco dell'utente come input e mostra immagini come output,"
+    },
+    {
+      "text": "oppure le unità disco, che permettono sia di scrivere sia di leggere dati.",
+      "speech": "oppure le unità disco, che permettono sia di scrivere sia di leggere dati."
+    },
+    {
+      "text": "Fermatevi un momento su questo terzo caso, perché è quello più spesso frainteso in un esercizio di classificazione:",
+      "speech": "Fermatevi un momento su questo terzo caso, perché è quello più spesso frainteso in un esercizio di classificazione:"
+    },
+    {
+      "text": "quando vi viene chiesto se una periferica è di input, di output o di entrambi i tipi, il criterio decisivo è sempre chiedersi se il flusso di informazione va dall'utente verso il computer, dal computer verso l'utente, o in entrambe le direzioni.",
+      "speech": "quando vi viene chiesto se una periferica è di input, di output o di entrambi i tipi, il criterio decisivo è sempre chiedersi se il flusso di informazione va dall'utente verso il computer, dal computer verso l'utente, o in entrambe le direzioni."
+    },
+    {
+      "text": "Il touchscreen del vostro smartphone, per esempio, riceve il vostro tocco (input) e allo stesso tempo vi mostra immagini (output): è proprio per questo che rientra nella terza categoria.",
+      "speech": "Il touchscreen del vostro smartphone, per esempio, riceve il vostro tocco (input) e allo stesso tempo vi mostra immagini (output): è proprio per questo che rientra nella terza categoria."
+    },
+    {
+      "text": "Passiamo ora alle memorie di massa, dette anche memorie secondarie:",
+      "speech": "Passiamo ora alle memorie di massa, dette anche memorie secondarie:"
+    },
+    {
+      "text": "dispositivi di memorizzazione non volatile, capaci cioè di conservare i dati anche quando il computer viene spento, a differenza della memoria RAM, che è invece volatile e perde il proprio contenuto in assenza di alimentazione elettrica.",
+      "speech": "dispositivi di memorizzazione non volatile, capaci cioè di conservare i dati anche quando il computer viene spento, a differenza della memoria RAM, che è invece volatile e perde il proprio contenuto in assenza di alimentazione elettrica."
+    },
+    {
+      "text": "Questa distinzione tra memoria volatile e non volatile è probabilmente il concetto più importante di questo intero episodio:",
+      "speech": "Questa distinzione tra memoria volatile e non volatile è probabilmente il concetto più importante di questo intero episodio:"
+    },
+    {
+      "text": "è il motivo per cui, se il vostro computer si spegne improvvisamente mentre state lavorando su un documento non salvato, perdete il lavoro svolto nella RAM ma non i file già salvati sul disco.",
+      "speech": "è il motivo per cui, se il vostro computer si spegne improvvisamente mentre state lavorando su un documento non salvato, perdete il lavoro svolto nella RAM ma non i file già salvati sul disco."
+    },
+    {
+      "text": "Le principali tipologie di memoria di massa, dalla più tradizionale alla più moderna, sono quattro.",
+      "speech": "Le principali tipologie di memoria di massa, dalla più tradizionale alla più moderna, sono quattro."
+    },
+    {
+      "text": "L'hard disk magnetico, HDD, che memorizza i dati su dischi rotanti rivestiti di materiale magnetico, con velocità media ma capacità elevata a basso costo.",
+      "speech": "L'hard disk magnetico, HDD, che memorizza i dati su dischi rotanti rivestiti di materiale magnetico, con velocità media ma capacità elevata a basso costo."
+    },
+    {
+      "text": "L'unità a stato solido, SSD, più veloce e resistente agli urti poiché priva di parti meccaniche in movimento, e quindi oggi sempre più diffusa nei computer moderni.",
+      "speech": "L'unità a stato solido, SSD, più veloce e resistente agli urti poiché priva di parti meccaniche in movimento, e quindi oggi sempre più diffusa nei computer moderni."
+    },
+    {
+      "text": "Le unità ottiche, come CD, DVD e Blu-ray, che leggono e scrivono dati tramite un raggio laser, con velocità più bassa e ormai in progressivo declino d'uso.",
+      "speech": "Le unità ottiche, come CD, DVD e Blu-ray, che leggono e scrivono dati tramite un raggio laser, con velocità più bassa e ormai in progressivo declino d'uso."
+    },
+    {
+      "text": "E le memorie flash, come le chiavette USB e le schede di memoria SD, compatte, portatili e prive di parti mobili, con velocità medio-alta.",
+      "speech": "E le memorie flash, come le chiavette USB e le schede di memoria SD, compatte, portatili e prive di parti mobili, con velocità medio-alta."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste distinzioni:",
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare bene queste distinzioni:"
+    },
+    {
+      "text": "se un vostro compagno vi dicesse di aver perso tutti i file del proprio computer a causa di un blackout improvviso mentre stava scrivendo un documento,",
+      "speech": "se un vostro compagno vi dicesse di aver perso tutti i file del proprio computer a causa di un blackout improvviso mentre stava scrivendo un documento,"
+    },
+    {
+      "text": "come spieghereste l'accaduto usando correttamente la terminologia di questo episodio?",
+      "speech": "come spieghereste l'accaduto usando correttamente la terminologia di questo episodio?"
+    },
+    {
+      "text": "Potreste spiegare che il documento non ancora salvato si trovava nella memoria RAM, volatile, e che il blackout ne ha causato la perdita immediata,",
+      "speech": "Potreste spiegare che il documento non ancora salvato si trovava nella memoria RAM, volatile, e che il blackout ne ha causato la perdita immediata,"
+    },
+    {
+      "text": "mentre i file già salvati in precedenza su una memoria di massa,",
+      "speech": "mentre i file già salvati in precedenza su una memoria di massa,"
+    },
+    {
+      "text": "come un hard disk o un SSD, sarebbero rimasti al sicuro anche dopo l'interruzione di corrente, proprio perché quel tipo di memoria è non volatile.",
+      "speech": "come un hard disk o un SSD, sarebbero rimasti al sicuro anche dopo l'interruzione di corrente, proprio perché quel tipo di memoria è non volatile."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: le periferiche si distinguono in input, output e input/output, a seconda della direzione del flusso di informazione rispetto al computer.",
+      "speech": "Primo: le periferiche si distinguono in input, output e input, output, a seconda della direzione del flusso di informazione rispetto al computer."
+    },
+    {
+      "text": "Secondo: le memorie di massa sono non volatili, a differenza della RAM, e conservano i dati anche a computer spento.",
+      "speech": "Secondo: le memorie di massa sono non volatili, a differenza della RAM, e conservano i dati anche a computer spento."
+    },
+    {
+      "text": "Terzo: le principali memorie di massa sono l'hard disk magnetico, l'SSD, le unità ottiche e le memorie flash, con velocità e caratteristiche diverse tra loro.",
+      "speech": "Terzo: le principali memorie di massa sono l'hard disk magnetico, l'SSD, le unità ottiche e le memorie flash, con velocità e caratteristiche diverse tra loro."
+    },
+    {
+      "text": "Nel prossimo episodio concludiamo il Modulo 2 con i sistemi operativi e con un focus specifico sul sistema operativo più diffuso al mondo, Windows.",
+      "speech": "Nel prossimo episodio concludiamo il Modulo 2 con i sistemi operativi e con un focus specifico sul sistema operativo più diffuso al mondo, Windows."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

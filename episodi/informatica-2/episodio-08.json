@@ -1,0 +1,272 @@
+{
+  "subject": "Informatica",
+  "episode": "08",
+  "title": "Domande guida per il ripasso",
+  "class": "Classe seconda",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo completato il Modulo 3 con le tabelle, i grafici e le regole di stampa in Excel, chiudendo così l'intera dispensa.",
+      "speech": "Nell'episodio scorso abbiamo completato il Modulo 3 con le tabelle, i grafici e le regole di stampa in Excel, chiudendo così l'intera dispensa."
+    },
+    {
+      "text": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
+      "speech": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria."
+    },
+    {
+      "text": "Cominciamo dalle domande del Modulo 1.",
+      "speech": "Cominciamo dalle domande del Modulo 1."
+    },
+    {
+      "text": "Che cos'è Internet e come è nata storicamente?",
+      "speech": "Che cosa è Internet e come è nata storicamente?"
+    },
+    {
+      "text": "Internet è la rete delle reti, l'infrastruttura globale che collega milioni di reti private, pubbliche, accademiche e commerciali;",
+      "speech": "Internet è la rete delle reti, l'infrastruttura globale che collega milioni di reti private, pubbliche, accademiche e commerciali;"
+    },
+    {
+      "text": "nacque nel 1969 con ARPANET negli Stati Uniti, e l'Italia si collegò il 30 aprile 1986 dal CNUCE di Pisa, quarto paese europeo a farlo, con il funzionamento basato sul protocollo TCP/IP.",
+      "speech": "nacque nel 1969 con ARPANET negli Stati Uniti, e l'Italia si collegò il 30 aprile 1986 dal CNUCE di Pisa, quarto paese europeo a farlo, con il funzionamento basato sul protocollo TCP, IP."
+    },
+    {
+      "text": "Quali sono le principali modalità di connessione a Internet?",
+      "speech": "Quali sono le principali modalità di connessione a Internet?"
+    },
+    {
+      "text": "La connessione fissa a banda larga tramite ADSL o fibra ottica, la connessione mobile tramite reti 3G, 4G e 5G,",
+      "speech": "La connessione fissa a banda larga tramite ADSL o fibra ottica, la connessione mobile tramite reti 3G, 4G e 5G,"
+    },
+    {
+      "text": "e la connessione Wi-Fi, che distribuisce localmente e senza fili un accesso che deve comunque arrivare da un ISP.",
+      "speech": "e la connessione Wi-Fi, che distribuisce localmente e senza fili un accesso che deve comunque arrivare da un ISP."
+    },
+    {
+      "text": "Quali sono i principali servizi offerti da Internet?",
+      "speech": "Quali sono i principali servizi offerti da Internet?"
+    },
+    {
+      "text": "Il World Wide Web, la posta elettronica, la messaggistica istantanea, il cloud storage, lo streaming, l'e-commerce, i social network e il VoIP:",
+      "speech": "Il World Wide Web, la posta elettronica, la messaggistica istantanea, il cloud storage, lo streaming, l'e-commerce, i social network e il VoIP:"
+    },
+    {
+      "text": "fermatevi un momento su questo elenco, perché ricordare che Internet e Web non coincidono, essendo il secondo soltanto uno dei servizi che si appoggiano sulla prima, è un punto che vale la pena rimarcare con precisione davanti a un commissario.",
+      "speech": "fermatevi un momento su questo elenco, perché ricordare che Internet e Web non coincidono, essendo il secondo soltanto uno dei servizi che si appoggiano sulla prima, è un punto che vale la pena rimarcare con precisione davanti a un commissario."
+    },
+    {
+      "text": "Che cos'è la netiquette, e quali sono alcune delle sue regole fondamentali?",
+      "speech": "Che cosa è la netiquette, e quali sono alcune delle sue regole fondamentali?"
+    },
+    {
+      "text": "È l'insieme delle regole di buona educazione, non scritte ma condivise, che regolano il comportamento online:",
+      "speech": "È l'insieme delle regole di buona educazione, non scritte ma condivise, che regolano il comportamento online:"
+    },
+    {
+      "text": "tra queste, rispettare gli altri utenti evitando linguaggio offensivo, non scrivere in maiuscolo perché equivale a urlare, citare le fonti dei contenuti condivisi ed evitare lo spam.",
+      "speech": "tra queste, rispettare gli altri utenti evitando linguaggio offensivo, non scrivere in maiuscolo perché equivale a urlare, citare le fonti dei contenuti condivisi ed evitare lo spam."
+    },
+    {
+      "text": "Che cos'è il diritto informatico e quali ambiti disciplina?",
+      "speech": "Che cosa è il diritto informatico e quali ambiti disciplina?"
+    },
+    {
+      "text": "È l'insieme delle norme giuridiche sull'uso delle tecnologie digitali, e disciplina quattro ambiti distinti:",
+      "speech": "È l'insieme delle norme giuridiche sull'uso delle tecnologie digitali, e disciplina quattro ambiti distinti:"
+    },
+    {
+      "text": "la proprietà intellettuale sui contenuti digitali, la protezione dei dati personali tramite il GDPR, i reati informatici come l'accesso abusivo o il furto di identità digitale,",
+      "speech": "la proprietà intellettuale sui contenuti digitali, la protezione dei dati personali tramite il GDPR, i reati informatici come l'accesso abusivo o il furto di identità digitale,"
+    },
+    {
+      "text": "e la regolamentazione del commercio elettronico e della firma digitale.",
+      "speech": "e la regolamentazione del commercio elettronico e della firma digitale."
+    },
+    {
+      "text": "Passiamo alle domande del Modulo 2.",
+      "speech": "Passiamo alle domande del Modulo 2."
+    },
+    {
+      "text": "Come avviene lo scambio di informazioni in rete secondo il modello client-server?",
+      "speech": "Come avviene lo scambio di informazioni in rete secondo il modello client-server?"
+    },
+    {
+      "text": "Il client, per esempio il browser, invia una richiesta a un server, che la elabora e restituisce una risposta;",
+      "speech": "Il client, per esempio il browser, invia una richiesta a un server, che la elabora e restituisce una risposta;"
+    },
+    {
+      "text": "i dati viaggiano suddivisi in pacchetti, e il trasferimento dal server all'utente si chiama download, quello dall'utente al server upload.",
+      "speech": "i dati viaggiano suddivisi in pacchetti, e il trasferimento dal server all'utente si chiama download, quello dall'utente al server upload."
+    },
+    {
+      "text": "Che cos'è un URL e quali sono i suoi elementi principali?",
+      "speech": "Che cosa è un URL e quali sono i suoi elementi principali?"
+    },
+    {
+      "text": "È l'indirizzo univoco che identifica una pagina web, composto da protocollo, come https://, dominio, come il nome del sito, e percorso, cioè la posizione della risorsa specifica.",
+      "speech": "È l'indirizzo univoco che identifica una pagina web, composto da protocollo, come https://, dominio, come il nome del sito, e percorso, cioè la posizione della risorsa specifica."
+    },
+    {
+      "text": "Che differenza c'è tra HTTP e HTTPS?",
+      "speech": "Che differenza cè tra HTTP e HTTPS?"
+    },
+    {
+      "text": "Entrambi sono protocolli di trasferimento delle pagine web, ma HTTPS ne è la variante sicura e crittografata, oggi lo standard raccomandato per proteggere la riservatezza dei dati scambiati:",
+      "speech": "Entrambi sono protocolli di trasferimento delle pagine web, ma HTTPS ne è la variante sicura e crittografata, oggi lo standard raccomandato per proteggere la riservatezza dei dati scambiati:"
+    },
+    {
+      "text": "fermatevi un momento su questa distinzione, perché riconoscere la presenza della «s» e del lucchetto nel browser è un'abilità pratica, oltre che nozionistica, utile ogni giorno.",
+      "speech": "fermatevi un momento su questa distinzione, perché riconoscere la presenza della «s» e del lucchetto nel browser è un'abilità pratica, oltre che nozionistica, utile ogni giorno."
+    },
+    {
+      "text": "Come funzionano i motori di ricerca, e come si può effettuare una ricerca efficace?",
+      "speech": "Come funzionano i motori di ricerca, e come si può effettuare una ricerca efficace?"
+    },
+    {
+      "text": "I motori di ricerca indicizzano automaticamente il contenuto delle pagine web e restituiscono un elenco ordinato di risultati pertinenti;",
+      "speech": "I motori di ricerca indicizzano automaticamente il contenuto delle pagine web e restituiscono un elenco ordinato di risultati pertinenti;"
+    },
+    {
+      "text": "una ricerca efficace usa parole chiave specifiche, le virgolette per un'espressione esatta, l'operatore meno per escludere termini indesiderati,",
+      "speech": "una ricerca efficace usa parole chiave specifiche, le virgolette per un'espressione esatta, l'operatore meno per escludere termini indesiderati,"
+    },
+    {
+      "text": "e richiede sempre una valutazione critica dell'attendibilità delle fonti trovate.",
+      "speech": "e richiede sempre una valutazione critica dell'attendibilità delle fonti trovate."
+    },
+    {
+      "text": "Che cos'è la posta elettronica, e quali sono gli elementi di un messaggio email?",
+      "speech": "Che cosa è la posta elettronica, e quali sono gli elementi di un messaggio email?"
+    },
+    {
+      "text": "È il servizio, nato nel 1972 con Ray Tomlinson, che permette di scambiare messaggi digitali tramite indirizzi nella forma utente@dominio;",
+      "speech": "È il servizio, nato nel 1972 con Ray Tomlinson, che permette di scambiare messaggi digitali tramite indirizzi nella forma utente@dominio;"
+    },
+    {
+      "text": "un messaggio è composto da mittente, destinatari, eventualmente in copia conoscenza CC o in copia conoscenza nascosta CCN, oggetto, corpo ed eventuali allegati.",
+      "speech": "un messaggio è composto da mittente, destinatari, eventualmente in copia conoscenza CC o in copia conoscenza nascosta CCN, oggetto, corpo ed eventuali allegati."
+    },
+    {
+      "text": "Quali sono i principali rischi legati a un uso non consapevole della rete?",
+      "speech": "Quali sono i principali rischi legati a un uso non consapevole della rete?"
+    },
+    {
+      "text": "Il cyberbullismo, il phishing, che imita comunicazioni ufficiali per carpire dati personali,",
+      "speech": "Il cyberbullismo, il phishing, che imita comunicazioni ufficiali per carpire dati personali,"
+    },
+    {
+      "text": "e la scarsa tutela della propria privacy, a cui si risponde con password sicure e diverse per ogni servizio, l'autenticazione a due fattori e il rispetto del copyright.",
+      "speech": "e la scarsa tutela della propria privacy, a cui si risponde con password sicure e diverse per ogni servizio, l'autenticazione a due fattori e il rispetto del copyright."
+    },
+    {
+      "text": "Concludiamo con le domande del Modulo 3, dedicato a Excel.",
+      "speech": "Concludiamo con le domande del Modulo 3, dedicato a Excel."
+    },
+    {
+      "text": "Che cos'è una cella in Excel, e come si identifica?",
+      "speech": "Che cosa è una cella in Excel, e come si identifica?"
+    },
+    {
+      "text": "È l'unità base del foglio di calcolo, identificata da una lettera per la colonna e un numero per la riga, come A1; un insieme contiguo di celle è un intervallo, come A1:C5.",
+      "speech": "È l'unità base del foglio di calcolo, identificata da una lettera per la colonna e un numero per la riga, come A1; un insieme contiguo di celle è un intervallo, come A1:C5."
+    },
+    {
+      "text": "Qual è la differenza tra un riferimento relativo e uno assoluto?",
+      "speech": "Qual è la differenza tra un riferimento relativo e uno assoluto?"
+    },
+    {
+      "text": "Fermatevi un momento su questa distinzione, perché è tra le più delicate dell'intero modulo:",
+      "speech": "Fermatevi un momento su questa distinzione, perché è tra le più delicate dell'intero modulo:"
+    },
+    {
+      "text": "il riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata altrove,",
+      "speech": "il riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata altrove,"
+    },
+    {
+      "text": "mentre quello assoluto, fissato con il simbolo del dollaro come $A$1, resta sempre ancorato alla stessa cella.",
+      "speech": "mentre quello assoluto, fissato con il simbolo del dollaro come $A$1, resta sempre ancorato alla stessa cella."
+    },
+    {
+      "text": "Come si utilizza la funzione SOMMA in Excel?",
+      "speech": "Come si utilizza la funzione SOMMA in Excel?"
+    },
+    {
+      "text": "Si digita nella cella del risultato =SOMMA seguito, tra parentesi, dall'intervallo da sommare, per esempio =SOMMA(A1:A5).",
+      "speech": "Si digita nella cella del risultato =SOMMA seguito, tra parentesi, dall'intervallo da sommare, per esempio =SOMMA(A1:A5)."
+    },
+    {
+      "text": "Quali tipi di grafico offre Excel, e quando si utilizzano?",
+      "speech": "Quali tipi di grafico offre Excel, e quando si utilizzano?"
+    },
+    {
+      "text": "L'istogramma per confrontare valori tra categorie diverse, il grafico a torta per mostrare la composizione percentuale di un totale,",
+      "speech": "L'istogramma per confrontare valori tra categorie diverse, il grafico a torta per mostrare la composizione percentuale di un totale,"
+    },
+    {
+      "text": "e il grafico a linee per mostrare l'andamento di un valore nel tempo.",
+      "speech": "e il grafico a linee per mostrare l'andamento di un valore nel tempo."
+    },
+    {
+      "text": "Quali accorgimenti si devono adottare prima di stampare un foglio di calcolo?",
+      "speech": "Quali accorgimenti si devono adottare prima di stampare un foglio di calcolo?"
+    },
+    {
+      "text": "Controllare l'anteprima di stampa, definire l'area di stampa, scegliere l'orientamento verticale o orizzontale della pagina, adattare eventualmente il contenuto al numero di pagine desiderato, e inserire se utile intestazioni e piè di pagina.",
+      "speech": "Controllare l'anteprima di stampa, definire l'area di stampa, scegliere l'orientamento verticale o orizzontale della pagina, adattare eventualmente il contenuto al numero di pagine desiderato, e inserire se utile intestazioni e piè di pagina."
+    },
+    {
+      "text": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:",
+      "speech": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:"
+    },
+    {
+      "text": "immaginate di dover inviare via email, a un collega, una tabella Excel con le vendite mensili di quattro categorie di prodotto, insieme a un grafico che ne mostri chiaramente la composizione percentuale.",
+      "speech": "immaginate di dover inviare via email, a un collega, una tabella Excel con le vendite mensili di quattro categorie di prodotto, insieme a un grafico che ne mostri chiaramente la composizione percentuale."
+    },
+    {
+      "text": "Come procedereste?",
+      "speech": "Come procedereste?"
+    },
+    {
+      "text": "Costruireste in Excel la tabella con i dati, calcolando eventuali totali con la funzione SOMMA e usando riferimenti assoluti dove un valore,",
+      "speech": "Costruireste in Excel la tabella con i dati, calcolando eventuali totali con la funzione SOMMA e usando riferimenti assoluti dove un valore,"
+    },
+    {
+      "text": "come un totale generale, non deve cambiare copiando la formula;",
+      "speech": "come un totale generale, non deve cambiare copiando la formula;"
+    },
+    {
+      "text": "scegliereste un grafico a torta, perché l'obiettivo è mostrare una composizione percentuale e non un andamento nel tempo;",
+      "speech": "scegliereste un grafico a torta, perché l'obiettivo è mostrare una composizione percentuale e non un andamento nel tempo;"
+    },
+    {
+      "text": "e infine alleghereste il file al messaggio seguendo la procedura che conoscete, aprendo un nuovo messaggio, compilando destinatario e oggetto, allegando il file e verificando tutto prima di inviare.",
+      "speech": "e infine alleghereste il file al messaggio seguendo la procedura che conoscete, aprendo un nuovo messaggio, compilando destinatario e oggetto, allegando il file e verificando tutto prima di inviare."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: Internet, la sua storia, i suoi servizi, la netiquette e il diritto informatico costituiscono le basi concettuali dell'intero percorso.",
+      "speech": "Primo: Internet, la sua storia, i suoi servizi, la netiquette e il diritto informatico costituiscono le basi concettuali dell'intero percorso."
+    },
+    {
+      "text": "Secondo: il modello client-server, la navigazione, la ricerca in rete, la posta elettronica e i rischi di un uso non consapevole descrivono come utilizziamo concretamente e responsabilmente questi servizi.",
+      "speech": "Secondo: il modello client-server, la navigazione, la ricerca in rete, la posta elettronica e i rischi di un uso non consapevole descrivono come utilizziamo concretamente e responsabilmente questi servizi."
+    },
+    {
+      "text": "Terzo: Excel traduce questi concetti in uno strumento professionale pratico, con celle, formule, riferimenti, tabelle, grafici e stampa, ciascuno con la propria logica e il proprio utilizzo specifico.",
+      "speech": "Terzo: Excel traduce questi concetti in uno strumento professionale pratico, con celle, formule, riferimenti, tabelle, grafici e stampa, ciascuno con la propria logica e il proprio utilizzo specifico."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero modulo di Informatica per la classe seconda.",
+      "speech": "Con questo abbiamo completato l'intero modulo di Informatica per la classe seconda."
+    },
+    {
+      "text": "Nel prossimo modulo continuiamo il nostro percorso di informatica con argomenti nuovi, costruendo su queste basi che avete ormai acquisito con sicurezza.",
+      "speech": "Nel prossimo modulo continuiamo il nostro percorso di informatica con argomenti nuovi, costruendo su queste basi che avete ormai acquisito con sicurezza."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

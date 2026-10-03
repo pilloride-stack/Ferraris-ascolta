@@ -1,0 +1,308 @@
+{
+  "subject": "Informatica",
+  "episode": "13",
+  "title": "Domande guida per il ripasso",
+  "class": "Classe quarta AFM",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto firma digitale, conservazione sostitutiva e backup, completando così tutti i contenuti nuovi dell'intero modulo.",
+      "speech": "Nell'episodio scorso abbiamo visto firma digitale, conservazione sostitutiva e backup, completando così tutti i contenuti nuovi dell'intero modulo."
+    },
+    {
+      "text": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
+      "speech": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria."
+    },
+    {
+      "text": "Cominciamo dal Modulo 1, dedicato alla programmazione statica e dinamica sul Web.",
+      "speech": "Cominciamo dal Modulo 1, dedicato alla programmazione statica e dinamica sul Web."
+    },
+    {
+      "text": "Che cos'è un ipertesto e che cos'è un ipermedia?",
+      "speech": "Che cosa è un ipertesto e che cosa è un ipermedia?"
+    },
+    {
+      "text": "L'ipertesto è un sistema di organizzazione delle informazioni in cui blocchi di contenuto, i nodi, sono collegati tra loro tramite link, permettendo percorsi di lettura personalizzati;",
+      "speech": "L'ipertesto è un sistema di organizzazione delle informazioni in cui blocchi di contenuto, i nodi, sono collegati tra loro tramite link, permettendo percorsi di lettura personalizzati;"
+    },
+    {
+      "text": "quando al testo si affiancano altri media, immagini, audio, video, collegati con la stessa logica, si parla di ipermedia.",
+      "speech": "quando al testo si affiancano altri media, immagini, audio, video, collegati con la stessa logica, si parla di ipermedia."
+    },
+    {
+      "text": "Quali sono le principali fasi di progettazione di un sito web?",
+      "speech": "Quali sono le principali fasi di progettazione di un sito web?"
+    },
+    {
+      "text": "Analisi dei requisiti, progettazione dell'architettura delle informazioni, progettazione grafica, sviluppo tecnico, test, pubblicazione e manutenzione.",
+      "speech": "Analisi dei requisiti, progettazione dell'architettura delle informazioni, progettazione grafica, sviluppo tecnico, test, pubblicazione e manutenzione."
+    },
+    {
+      "text": "Quali figure professionali sono coinvolte nella realizzazione di un sito web?",
+      "speech": "Quali figure professionali sono coinvolte nella realizzazione di un sito web?"
+    },
+    {
+      "text": "Il web designer per l'aspetto grafico, il web developer front-end e back-end per lo sviluppo tecnico, il content manager per i contenuti,",
+      "speech": "Il web designer per l'aspetto grafico, il web developer front-end e back-end per lo sviluppo tecnico, il content manager per i contenuti,"
+    },
+    {
+      "text": "e lo specialista SEO per l'ottimizzazione sui motori di ricerca.",
+      "speech": "e lo specialista SEO per l'ottimizzazione sui motori di ricerca."
+    },
+    {
+      "text": "Che differenza c'è tra usabilità e accessibilità?",
+      "speech": "Che differenza cè tra usabilità e accessibilità?"
+    },
+    {
+      "text": "L'accessibilità garantisce a tutti, incluse le persone con disabilità, la possibilità di accedere a un sito;",
+      "speech": "L'accessibilità garantisce a tutti, incluse le persone con disabilità, la possibilità di accedere a un sito;"
+    },
+    {
+      "text": "l'usabilità ne rende l'esperienza d'uso efficace, efficiente e soddisfacente: l'accessibilità è il prerequisito, l'usabilità ne ottimizza l'esperienza.",
+      "speech": "l'usabilità ne rende l'esperienza d'uso efficace, efficiente e soddisfacente: l'accessibilità è il prerequisito, l'usabilità ne ottimizza l'esperienza."
+    },
+    {
+      "text": "Che differenza c'è tra un sito statico e un sito dinamico?",
+      "speech": "Che differenza cè tra un sito statico e un sito dinamico?"
+    },
+    {
+      "text": "Il sito statico ha contenuti fissi e identici per tutti, aggiornabili solo manualmente;",
+      "speech": "Il sito statico ha contenuti fissi e identici per tutti, aggiornabili solo manualmente;"
+    },
+    {
+      "text": "il sito dinamico genera le pagine al momento della richiesta, combinando modelli con dati recuperati in tempo reale, spesso da un database.",
+      "speech": "il sito dinamico genera le pagine al momento della richiesta, combinando modelli con dati recuperati in tempo reale, spesso da un database."
+    },
+    {
+      "text": "Come avviene l'interazione tra un sito dinamico e un database?",
+      "speech": "Come avviene l'interazione tra un sito dinamico e un database?"
+    },
+    {
+      "text": "Il browser invia una richiesta al server, il server esegue una query sul database, il database restituisce i dati, e il server compone dinamicamente la pagina HTML da inviare al client.",
+      "speech": "Il browser invia una richiesta al server, il server esegue una query sul database, il database restituisce i dati, e il server compone dinamicamente la pagina HTML da inviare al client."
+    },
+    {
+      "text": "Che differenza c'è tra un linguaggio lato client e uno lato server?",
+      "speech": "Che differenza cè tra un linguaggio lato client e uno lato server?"
+    },
+    {
+      "text": "Il linguaggio lato client, come HTML, CSS e JavaScript, viene eseguito nel browser dell'utente e gestisce struttura, grafica e interattività;",
+      "speech": "Il linguaggio lato client, come HTML, CSS e JavaScript, viene eseguito nel browser dell'utente e gestisce struttura, grafica e interattività;"
+    },
+    {
+      "text": "il linguaggio lato server, come PHP, Python, Java o C#, viene eseguito sul server e gestisce la logica applicativa e l'accesso ai dati.",
+      "speech": "il linguaggio lato server, come PHP, Python, Java o C#, viene eseguito sul server e gestisce la logica applicativa e l'accesso ai dati."
+    },
+    {
+      "text": "Che cos'è SQL e quali sono le sue principali categorie di istruzioni?",
+      "speech": "Che cosa è SQL e quali sono le sue principali categorie di istruzioni?"
+    },
+    {
+      "text": "È il linguaggio standard per creare, interrogare e manipolare i dati di un database relazionale, con tre categorie principali:",
+      "speech": "È il linguaggio standard per creare, interrogare e manipolare i dati di un database relazionale, con tre categorie principali:"
+    },
+    {
+      "text": "il DDL per definire la struttura, il DML per inserire, modificare ed eliminare i dati, e il DQL, rappresentato dal comando SELECT, per interrogare i dati esistenti.",
+      "speech": "il DDL per definire la struttura, il DML per inserire, modificare ed eliminare i dati, e il DQL, rappresentato dal comando SELECT, per interrogare i dati esistenti."
+    },
+    {
+      "text": "Passiamo al Modulo 2, dedicato al Web e all'azienda.",
+      "speech": "Passiamo al Modulo 2, dedicato al Web e all'azienda."
+    },
+    {
+      "text": "Che cos'è il commercio elettronico e come si classifica?",
+      "speech": "Che cosa è il commercio elettronico e come si classifica?"
+    },
+    {
+      "text": "È l'insieme delle transazioni di vendita e acquisto condotte tramite Internet, distinto in diretto o indiretto in base a come avviene la consegna, e in B2C, B2B o C2C in base ai soggetti coinvolti.",
+      "speech": "È l'insieme delle transazioni di vendita e acquisto condotte tramite Internet, distinto in diretto o indiretto in base a come avviene la consegna, e in B2C, B2B o C2C in base ai soggetti coinvolti."
+    },
+    {
+      "text": "Quali sono i principali metodi di pagamento online?",
+      "speech": "Quali sono i principali metodi di pagamento online?"
+    },
+    {
+      "text": "Carta di credito o debito, bonifico bancario, portafogli digitali come PayPal, e pagamenti contactless da smartphone.",
+      "speech": "Carta di credito o debito, bonifico bancario, portafogli digitali come PayPal, e pagamenti contactless da smartphone."
+    },
+    {
+      "text": "Che cos'è la fatturazione elettronica e come funziona il Sistema di Interscambio?",
+      "speech": "Che cosa è la fatturazione elettronica e come funziona il Sistema di Interscambio?"
+    },
+    {
+      "text": "È un documento fiscale digitale in formato XML che sostituisce la fattura cartacea; il Sistema di Interscambio, gestito dall'Agenzia delle Entrate, riceve, verifica e recapita le fatture elettroniche.",
+      "speech": "È un documento fiscale digitale in formato XML che sostituisce la fattura cartacea; il Sistema di Interscambio, gestito dall'Agenzia delle Entrate, riceve, verifica e recapita le fatture elettroniche."
+    },
+    {
+      "text": "Che differenza c'è tra telelavoro e lavoro agile?",
+      "speech": "Che differenza cè tra telelavoro e lavoro agile?"
+    },
+    {
+      "text": "Il telelavoro prevede comunque una postazione fissa e orari predeterminati; il lavoro agile, o smart working, introduce maggiore flessibilità di spazio e di tempo.",
+      "speech": "Il telelavoro prevede comunque una postazione fissa e orari predeterminati; il lavoro agile, o smart working, introduce maggiore flessibilità di spazio e di tempo."
+    },
+    {
+      "text": "Che cos'è il cloud computing e quali sono i suoi principali modelli di servizio?",
+      "speech": "Che cosa è il cloud computing e quali sono i suoi principali modelli di servizio?"
+    },
+    {
+      "text": "È l'erogazione di risorse informatiche a richiesta tramite Internet, con tre modelli principali: SaaS, applicazioni pronte all'uso;",
+      "speech": "È l'erogazione di risorse informatiche a richiesta tramite Internet, con tre modelli principali: SaaS, applicazioni pronte all'uso;"
+    },
+    {
+      "text": "PaaS, una piattaforma di sviluppo; e IaaS, risorse hardware virtuali.",
+      "speech": "PaaS, una piattaforma di sviluppo; e IaaS, risorse hardware virtuali."
+    },
+    {
+      "text": "Quali sono i principali strumenti del marketing online?",
+      "speech": "Quali sono i principali strumenti del marketing online?"
+    },
+    {
+      "text": "SEO per il posizionamento sui motori di ricerca, social media marketing, email marketing e content marketing.",
+      "speech": "SEO per il posizionamento sui motori di ricerca, social media marketing, email marketing e content marketing."
+    },
+    {
+      "text": "Quali sono i principali formati di pubblicità digitale?",
+      "speech": "Quali sono i principali formati di pubblicità digitale?"
+    },
+    {
+      "text": "Search ads legati a parole chiave, display ads con banner grafici, e social ads mirati sui dati degli utenti.",
+      "speech": "Search ads legati a parole chiave, display ads con banner grafici, e social ads mirati sui dati degli utenti."
+    },
+    {
+      "text": "Quali misure garantiscono la sicurezza nelle transazioni online?",
+      "speech": "Quali misure garantiscono la sicurezza nelle transazioni online?"
+    },
+    {
+      "text": "HTTPS con SSL/TLS per crittografare la comunicazione, i certificati digitali per attestare l'identità di un sito, la firma digitale per l'integrità dei documenti,",
+      "speech": "HTTPS con SSL, TLS per crittografare la comunicazione, i certificati digitali per attestare l'identità di un sito, la firma digitale per l'integrità dei documenti,"
+    },
+    {
+      "text": "e il 3D Secure per un'autenticazione rafforzata nei pagamenti.",
+      "speech": "e il 3D Secure per un'autenticazione rafforzata nei pagamenti."
+    },
+    {
+      "text": "Concludiamo con il Modulo 3, dedicato ai software gestionali.",
+      "speech": "Concludiamo con il Modulo 3, dedicato ai software gestionali."
+    },
+    {
+      "text": "Quali sono le fasi del ciclo di vita del software?",
+      "speech": "Quali sono le fasi del ciclo di vita del software?"
+    },
+    {
+      "text": "Analisi dei requisiti, progettazione, sviluppo, test, rilascio e manutenzione, secondo un modello a cascata o iterativo.",
+      "speech": "Analisi dei requisiti, progettazione, sviluppo, test, rilascio e manutenzione, secondo un modello a cascata o iterativo."
+    },
+    {
+      "text": "Che cos'è la fattibilità di un progetto software e quali tipi esistono?",
+      "speech": "Che cosa è la fattibilità di un progetto software e quali tipi esistono?"
+    },
+    {
+      "text": "È la valutazione preliminare di un progetto sotto tre aspetti: fattibilità tecnica, economica e operativa.",
+      "speech": "È la valutazione preliminare di un progetto sotto tre aspetti: fattibilità tecnica, economica e operativa."
+    },
+    {
+      "text": "Quali tipi di manutenzione del software conosci?",
+      "speech": "Quali tipi di manutenzione del software conosci?"
+    },
+    {
+      "text": "Correttiva, per risolvere errori; evolutiva, per aggiungere funzionalità; adattativa, per adeguarsi a nuovi ambienti; e perfettiva, per migliorare prestazioni e usabilità.",
+      "speech": "Correttiva, per risolvere errori; evolutiva, per aggiungere funzionalità; adattativa, per adeguarsi a nuovi ambienti; e perfettiva, per migliorare prestazioni e usabilità."
+    },
+    {
+      "text": "Quali livelli di testing del software conosci?",
+      "speech": "Quali livelli di testing del software conosci?"
+    },
+    {
+      "text": "Unit test sulle singole componenti, integration test sulla loro interazione, system test sul sistema completo,",
+      "speech": "Unit test sulle singole componenti, integration test sulla loro interazione, system test sul sistema completo,"
+    },
+    {
+      "text": "e acceptance test da parte del committente o degli utenti finali, distinguendo anche tra test black box e white box.",
+      "speech": "e acceptance test da parte del committente o degli utenti finali, distinguendo anche tra test black box e white box."
+    },
+    {
+      "text": "Che cos'è un ERP e a cosa serve la contabilità integrata?",
+      "speech": "Che cosa è un ERP e a cosa serve la contabilità integrata?"
+    },
+    {
+      "text": "Un ERP, Enterprise Resource Planning, collega in un unico sistema informativo le diverse aree funzionali dell'azienda attorno a un database condiviso, evitando la duplicazione dei dati.",
+      "speech": "Un ERP, Enterprise Resource Planning, collega in un unico sistema informativo le diverse aree funzionali dell'azienda attorno a un database condiviso, evitando la duplicazione dei dati."
+    },
+    {
+      "text": "Che cos'è la firma digitale e che valore legale ha?",
+      "speech": "Che cosa è la firma digitale e che valore legale ha?"
+    },
+    {
+      "text": "È uno strumento crittografico che attribuisce paternità e integrità a un documento informatico, con lo stesso valore legale della firma autografa.",
+      "speech": "È uno strumento crittografico che attribuisce paternità e integrità a un documento informatico, con lo stesso valore legale della firma autografa."
+    },
+    {
+      "text": "Che cos'è la conservazione sostitutiva dei documenti?",
+      "speech": "Che cosa è la conservazione sostitutiva dei documenti?"
+    },
+    {
+      "text": "È la procedura che garantisce nel tempo la validità legale e fiscale dei documenti informatici, tramite firma digitale e marca temporale.",
+      "speech": "È la procedura che garantisce nel tempo la validità legale e fiscale dei documenti informatici, tramite firma digitale e marca temporale."
+    },
+    {
+      "text": "Che cos'è la regola del backup 3-2-1?",
+      "speech": "Che cosa è la regola del backup 3-2-1?"
+    },
+    {
+      "text": "Mantenere almeno 3 copie dei dati, su 2 supporti diversi, con 1 copia offsite, distinguendo tra backup completo, incrementale e differenziale.",
+      "speech": "Mantenere almeno 3 copie dei dati, su 2 supporti diversi, con 1 copia offsite, distinguendo tra backup completo, incrementale e differenziale."
+    },
+    {
+      "text": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:",
+      "speech": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:"
+    },
+    {
+      "text": "immaginate un'azienda che decide di sviluppare un proprio sito di e-commerce B2C, collegato a un ERP interno per la gestione del magazzino, proteggendo poi tutto con backup regolari.",
+      "speech": "immaginate un'azienda che decide di sviluppare un proprio sito di e-commerce B2C, collegato a un ERP interno per la gestione del magazzino, proteggendo poi tutto con backup regolari."
+    },
+    {
+      "text": "Quali elementi di questo intero percorso di informatica ritrovate in questo singolo progetto?",
+      "speech": "Quali elementi di questo intero percorso di informatica ritrovate in questo singolo progetto?"
+    },
+    {
+      "text": "Ritrovate la progettazione del sito web e l'interazione tra pagine dinamiche e database del Modulo 1, la classificazione B2C del commercio elettronico e le misure di sicurezza nelle transazioni del Modulo 2,",
+      "speech": "Ritrovate la progettazione del sito web e l'interazione tra pagine dinamiche e database del Modulo 1, la classificazione B2C del commercio elettronico e le misure di sicurezza nelle transazioni del Modulo 2,"
+    },
+    {
+      "text": "e l'integrazione con un sistema ERP insieme alla protezione dei dati tramite backup del Modulo 3:",
+      "speech": "e l'integrazione con un sistema ERP insieme alla protezione dei dati tramite backup del Modulo 3:"
+    },
+    {
+      "text": "un solo progetto aziendale reale attraversa naturalmente tutti e tre i moduli che abbiamo studiato.",
+      "speech": "un solo progetto aziendale reale attraversa naturalmente tutti e tre i moduli che abbiamo studiato."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il Modulo 1 ci ha insegnato ipermedia, progettazione di un sito web, usabilità e accessibilità, siti statici e dinamici, linguaggi lato client e lato server, e il linguaggio SQL.",
+      "speech": "Primo: il Modulo 1 ci ha insegnato ipermedia, progettazione di un sito web, usabilità e accessibilità, siti statici e dinamici, linguaggi lato client e lato server, e il linguaggio SQL."
+    },
+    {
+      "text": "Secondo: il Modulo 2 ci ha mostrato commercio elettronico, fatturazione elettronica, servizi finanziari online, telelavoro e cloud computing, marketing e pubblicità digitale, e sicurezza nelle transazioni.",
+      "speech": "Secondo: il Modulo 2 ci ha mostrato commercio elettronico, fatturazione elettronica, servizi finanziari online, telelavoro e cloud computing, marketing e pubblicità digitale, e sicurezza nelle transazioni."
+    },
+    {
+      "text": "Terzo: il Modulo 3 ci ha introdotto il ciclo di vita del software, la manutenzione, il testing, i sistemi ERP, la gestione della comunicazione, la firma digitale e le strategie di backup.",
+      "speech": "Terzo: il Modulo 3 ci ha introdotto il ciclo di vita del software, la manutenzione, il testing, i sistemi ERP, la gestione della comunicazione, la firma digitale e le strategie di backup."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero modulo di Informatica per la classe quarta.",
+      "speech": "Con questo abbiamo completato l'intero modulo di Informatica per la classe quarta."
+    },
+    {
+      "text": "Con questo si conclude anche l'intero percorso di Informatica di questo corso: complimenti per il lavoro svolto, e in bocca al lupo per il vostro esame.",
+      "speech": "Con questo si conclude anche l'intero percorso di Informatica di questo corso: complimenti per il lavoro svolto, e in bocca al lupo per il vostro esame."
+    },
+    {
+      "text": "Ci vediamo nei prossimi moduli delle altre materie.",
+      "speech": "Ci vediamo nei prossimi moduli delle altre materie."
+    }
+  ]
+}

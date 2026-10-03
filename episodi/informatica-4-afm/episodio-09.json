@@ -1,0 +1,132 @@
+{
+  "subject": "Informatica",
+  "episode": "09",
+  "title": "Ciclo di vita, fattibilità, correttezza e manutenzione",
+  "class": "Classe quarta AFM",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la sicurezza nelle transazioni online, completando così anche il Modulo 2.",
+      "speech": "Nell'episodio scorso abbiamo visto la sicurezza nelle transazioni online, completando così anche il Modulo 2."
+    },
+    {
+      "text": "Oggi entriamo nel terzo e ultimo modulo, dedicato ai software gestionali, partendo dal ciclo di vita del software, dallo studio di fattibilità e dai concetti di correttezza e manutenzione.",
+      "speech": "Oggi entriamo nel terzo e ultimo modulo, dedicato ai software gestionali, partendo dal ciclo di vita del software, dallo studio di fattibilità e dai concetti di correttezza e manutenzione."
+    },
+    {
+      "text": "Il ciclo di vita del software descrive l'insieme delle fasi coordinate attraverso cui un prodotto software viene ideato, realizzato, distribuito e mantenuto nel tempo:",
+      "speech": "Il ciclo di vita del software descrive l'insieme delle fasi coordinate attraverso cui un prodotto software viene ideato, realizzato, distribuito e mantenuto nel tempo:"
+    },
+    {
+      "text": "analisi dei requisiti, progettazione, sviluppo, test, rilascio e manutenzione.",
+      "speech": "analisi dei requisiti, progettazione, sviluppo, test, rilascio e manutenzione."
+    },
+    {
+      "text": "Il modello a cascata, o waterfall, storicamente il primo modello proposto, prevede l'esecuzione sequenziale di queste fasi, ciascuna completata prima di passare alla successiva;",
+      "speech": "Il modello a cascata, o waterfall, storicamente il primo modello proposto, prevede l'esecuzione sequenziale di queste fasi, ciascuna completata prima di passare alla successiva;"
+    },
+    {
+      "text": "i modelli iterativi, oggi prevalenti, permettono invece di tornare su fasi già affrontate, affinando progressivamente il prodotto attraverso cicli successivi.",
+      "speech": "i modelli iterativi, oggi prevalenti, permettono invece di tornare su fasi già affrontate, affinando progressivamente il prodotto attraverso cicli successivi."
+    },
+    {
+      "text": "Fermatevi un momento su questa differenza tra modello a cascata e modelli iterativi, perché è uno dei confronti più richiesti su questo argomento:",
+      "speech": "Fermatevi un momento su questa differenza tra modello a cascata e modelli iterativi, perché è uno dei confronti più richiesti su questo argomento:"
+    },
+    {
+      "text": "nel modello a cascata, una volta completata l'analisi dei requisiti, non si torna indietro se non con grande difficoltà, e questo lo rende rigido ma anche molto ordinato;",
+      "speech": "nel modello a cascata, una volta completata l'analisi dei requisiti, non si torna indietro se non con grande difficoltà, e questo lo rende rigido ma anche molto ordinato;"
+    },
+    {
+      "text": "nei modelli iterativi, invece, si costruiscono versioni progressive del software, ciascuna arricchita di nuove funzionalità e corretta sulla base del feedback ricevuto,",
+      "speech": "nei modelli iterativi, invece, si costruiscono versioni progressive del software, ciascuna arricchita di nuove funzionalità e corretta sulla base del feedback ricevuto,"
+    },
+    {
+      "text": "un approccio molto più flessibile ma che richiede una gestione del progetto più attenta.",
+      "speech": "un approccio molto più flessibile ma che richiede una gestione del progetto più attenta."
+    },
+    {
+      "text": "Prima di avviare un progetto software è inoltre opportuno condurre uno studio di fattibilità, che ne valuta tre aspetti distinti:",
+      "speech": "Prima di avviare un progetto software è inoltre opportuno condurre uno studio di fattibilità, che ne valuta tre aspetti distinti:"
+    },
+    {
+      "text": "la fattibilità tecnica, cioè se le tecnologie disponibili sono adeguate al progetto;",
+      "speech": "la fattibilità tecnica, cioè se le tecnologie disponibili sono adeguate al progetto;"
+    },
+    {
+      "text": "la fattibilità economica, cioè se i costi sono sostenibili rispetto ai benefici attesi;",
+      "speech": "la fattibilità economica, cioè se i costi sono sostenibili rispetto ai benefici attesi;"
+    },
+    {
+      "text": "e la fattibilità operativa, cioè se il sistema sarà effettivamente utilizzabile nel contesto organizzativo dell'azienda che lo adotterà.",
+      "speech": "e la fattibilità operativa, cioè se il sistema sarà effettivamente utilizzabile nel contesto organizzativo dell'azienda che lo adotterà."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se un'azienda volesse sviluppare un nuovo software gestionale,",
+      "speech": "Proviamo un piccolo esercizio insieme: se un'azienda volesse sviluppare un nuovo software gestionale,"
+    },
+    {
+      "text": "ma i suoi dipendenti fossero fortemente restii a cambiare le proprie abitudini di lavoro consolidate da anni, quale tipo di fattibilità sarebbe messa in discussione?",
+      "speech": "ma i suoi dipendenti fossero fortemente restii a cambiare le proprie abitudini di lavoro consolidate da anni, quale tipo di fattibilità sarebbe messa in discussione?"
+    },
+    {
+      "text": "Non si tratterebbe di un problema di fattibilità tecnica, perché la tecnologia potrebbe essere perfettamente disponibile e matura, né necessariamente di fattibilità economica:",
+      "speech": "Non si tratterebbe di un problema di fattibilità tecnica, perché la tecnologia potrebbe essere perfettamente disponibile e matura, né necessariamente di fattibilità economica:"
+    },
+    {
+      "text": "si tratterebbe soprattutto di un problema di fattibilità operativa,",
+      "speech": "si tratterebbe soprattutto di un problema di fattibilità operativa,"
+    },
+    {
+      "text": "perché il sistema, per quanto tecnicamente valido, rischierebbe di non essere accettato e utilizzato correttamente all'interno dell'organizzazione.",
+      "speech": "perché il sistema, per quanto tecnicamente valido, rischierebbe di non essere accettato e utilizzato correttamente all'interno dell'organizzazione."
+    },
+    {
+      "text": "Passiamo ora alla correttezza del software: un software si dice corretto quando il suo comportamento rispecchia fedelmente le specifiche definite in fase di analisi, senza errori, o bug, che ne compromettano il funzionamento;",
+      "speech": "Passiamo ora alla correttezza del software: un software si dice corretto quando il suo comportamento rispecchia fedelmente le specifiche definite in fase di analisi, senza errori, o bug, che ne compromettano il funzionamento;"
+    },
+    {
+      "text": "la correttezza viene verificata attraverso attività sistematiche di test, che confrontano il comportamento effettivo del programma con quello atteso.",
+      "speech": "la correttezza viene verificata attraverso attività sistematiche di test, che confrontano il comportamento effettivo del programma con quello atteso."
+    },
+    {
+      "text": "Dopo il rilascio, un software richiede tipicamente diverse forme di manutenzione, ed è importante saperle distinguere con precisione:",
+      "speech": "Dopo il rilascio, un software richiede tipicamente diverse forme di manutenzione, ed è importante saperle distinguere con precisione:"
+    },
+    {
+      "text": "la manutenzione correttiva risolve errori individuati dopo il rilascio;",
+      "speech": "la manutenzione correttiva risolve errori individuati dopo il rilascio;"
+    },
+    {
+      "text": "la manutenzione evolutiva aggiunge nuove funzionalità richieste dagli utenti; la manutenzione adattativa adegua il software a nuovi ambienti tecnologici o a nuove normative;",
+      "speech": "la manutenzione evolutiva aggiunge nuove funzionalità richieste dagli utenti; la manutenzione adattativa adegua il software a nuovi ambienti tecnologici o a nuove normative;"
+    },
+    {
+      "text": "e la manutenzione perfettiva ne migliora le prestazioni o l'usabilità senza modificarne le funzionalità.",
+      "speech": "e la manutenzione perfettiva ne migliora le prestazioni o l'usabilità senza modificarne le funzionalità."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il ciclo di vita del software comprende analisi, progettazione, sviluppo, test, rilascio e manutenzione, secondo un modello a cascata, sequenziale, oppure iterativo, progressivo.",
+      "speech": "Primo: il ciclo di vita del software comprende analisi, progettazione, sviluppo, test, rilascio e manutenzione, secondo un modello a cascata, sequenziale, oppure iterativo, progressivo."
+    },
+    {
+      "text": "Secondo: lo studio di fattibilità valuta un progetto software sotto tre aspetti, tecnico, economico e operativo.",
+      "speech": "Secondo: lo studio di fattibilità valuta un progetto software sotto tre aspetti, tecnico, economico e operativo."
+    },
+    {
+      "text": "Terzo: un software corretto rispecchia le proprie specifiche, e la sua manutenzione può essere correttiva, evolutiva, adattativa o perfettiva.",
+      "speech": "Terzo: un software corretto rispecchia le proprie specifiche, e la sua manutenzione può essere correttiva, evolutiva, adattativa o perfettiva."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo il testing del software, con i suoi diversi livelli e le sue diverse modalità di verifica.",
+      "speech": "Nel prossimo episodio vediamo il testing del software, con i suoi diversi livelli e le sue diverse modalità di verifica."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

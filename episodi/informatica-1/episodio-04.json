@@ -1,0 +1,136 @@
+{
+  "subject": "Informatica",
+  "episode": "04",
+  "title": "Digitalizzazione, CLI e GUI",
+  "class": "Classe prima",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il sistema binario e le conversioni tra binario e decimale.",
+      "speech": "Nell'episodio scorso abbiamo visto il sistema binario e le conversioni tra binario e decimale."
+    },
+    {
+      "text": "Oggi entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme a un concetto fondamentale per capire come interagiamo concretamente con le macchine: l'interfaccia utente.",
+      "speech": "Oggi entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme a un concetto fondamentale per capire come interagiamo concretamente con le macchine: l'interfaccia utente."
+    },
+    {
+      "text": "La digitalizzazione è il processo con cui un segnale analogico continuo,",
+      "speech": "La digitalizzazione è il processo con cui un segnale analogico continuo,"
+    },
+    {
+      "text": "come un suono o un'immagine in movimento, viene convertito in una sequenza discreta di valori numerici, elaborabile dal computer secondo il sistema binario che abbiamo visto nell'episodio scorso.",
+      "speech": "come un suono o un'immagine in movimento, viene convertito in una sequenza discreta di valori numerici, elaborabile dal computer secondo il sistema binario che abbiamo visto nell'episodio scorso."
+    },
+    {
+      "text": "Nel caso dell'audio, il processo di campionamento, sampling in inglese, misura l'ampiezza del segnale sonoro a intervalli di tempo regolari, con una frequenza di campionamento espressa in hertz.",
+      "speech": "Nel caso dell'audio, il processo di campionamento, sampling in inglese, misura l'ampiezza del segnale sonoro a intervalli di tempo regolari, con una frequenza di campionamento espressa in hertz."
+    },
+    {
+      "text": "Fermatevi un momento su questo principio, perché è facilmente generalizzabile e vale la pena saperlo esporre con chiarezza:",
+      "speech": "Fermatevi un momento su questo principio, perché è facilmente generalizzabile e vale la pena saperlo esporre con chiarezza:"
+    },
+    {
+      "text": "più alta è la frequenza di campionamento, e più alta è la profondità in bit di ciascun campione, più fedele sarà la riproduzione digitale del suono originale rispetto al suono analogico di partenza.",
+      "speech": "più alta è la frequenza di campionamento, e più alta è la profondità in bit di ciascun campione, più fedele sarà la riproduzione digitale del suono originale rispetto al suono analogico di partenza."
+    },
+    {
+      "text": "Analogamente, un video digitale è costituito da una sequenza di immagini, chiamate fotogrammi o frame, mostrate in rapida successione, caratterizzata da due parametri tecnici da ricordare:",
+      "speech": "Analogamente, un video digitale è costituito da una sequenza di immagini, chiamate fotogrammi o frame, mostrate in rapida successione, caratterizzata da due parametri tecnici da ricordare:"
+    },
+    {
+      "text": "la risoluzione, cioè il numero di pixel che compongono ciascuna immagine, e il frame rate, cioè il numero di fotogrammi mostrati al secondo.",
+      "speech": "la risoluzione, cioè il numero di pixel che compongono ciascuna immagine, e il frame rate, cioè il numero di fotogrammi mostrati al secondo."
+    },
+    {
+      "text": "Tra i formati multimediali digitali più comuni, per l'audio troviamo MP3, WAV e FLAC; per le immagini JPEG, PNG e GIF;",
+      "speech": "Tra i formati multimediali digitali più comuni, per l'audio troviamo MP3, WAV e FLAC; per le immagini JPEG, PNG e GIF;"
+    },
+    {
+      "text": "per il video MP4, AVI e MOV, sigle che avrete certamente già incontrato usando qualunque dispositivo digitale.",
+      "speech": "per il video MP4, AVI e MOV, sigle che avrete certamente già incontrato usando qualunque dispositivo digitale."
+    },
+    {
+      "text": "Passiamo ora all'interfaccia utente, cioè l'insieme degli strumenti attraverso cui una persona interagisce con un dispositivo o un programma.",
+      "speech": "Passiamo ora all'interfaccia utente, cioè l'insieme degli strumenti attraverso cui una persona interagisce con un dispositivo o un programma."
+    },
+    {
+      "text": "Si distingue tra due grandi categorie che vale la pena saper confrontare con precisione.",
+      "speech": "Si distingue tra due grandi categorie che vale la pena saper confrontare con precisione."
+    },
+    {
+      "text": "L'interfaccia a riga di comando, abbreviata CLI dall'inglese Command Line Interface, in cui l'utente digita comandi testuali per interagire con il sistema,",
+      "speech": "L'interfaccia a riga di comando, abbreviata CLI dall'inglese Command Line Interface, in cui l'utente digita comandi testuali per interagire con il sistema,"
+    },
+    {
+      "text": "uno stile di interazione più antico ma ancora oggi usato in molti contesti tecnici e professionali.",
+      "speech": "uno stile di interazione più antico ma ancora oggi usato in molti contesti tecnici e professionali."
+    },
+    {
+      "text": "E l'interfaccia grafica, abbreviata GUI dall'inglese Graphical User Interface, in cui l'interazione avviene tramite elementi visuali come finestre, icone, menu e il puntatore del mouse,",
+      "speech": "E l'interfaccia grafica, abbreviata GUI dall'inglese Graphical User Interface, in cui l'interazione avviene tramite elementi visuali come finestre, icone, menu e il puntatore del mouse,"
+    },
+    {
+      "text": "secondo il cosiddetto paradigma WIMP, un acronimo che vale la pena ricordare perché condensa in quattro lettere l'intera filosofia dell'interfaccia grafica moderna:",
+      "speech": "secondo il cosiddetto paradigma WIMP, un acronimo che vale la pena ricordare perché condensa in quattro lettere l'intera filosofia dell'interfaccia grafica moderna:"
+    },
+    {
+      "text": "Windows, finestre; Icons, icone; Menus, menu; Pointer, puntatore.",
+      "speech": "Windows, finestre; Icons, icone; Menus, menu; Pointer, puntatore."
+    },
+    {
+      "text": "Fermatevi un momento su un'evoluzione più recente di questo concetto, perché è un ottimo collegamento con la tecnologia che quasi certamente state usando in questo momento:",
+      "speech": "Fermatevi un momento su un'evoluzione più recente di questo concetto, perché è un ottimo collegamento con la tecnologia che quasi certamente state usando in questo momento:"
+    },
+    {
+      "text": "le interfacce più recenti includono anche modalità di interazione touch, tramite tocco diretto dello schermo,",
+      "speech": "le interfacce più recenti includono anche modalità di interazione touch, tramite tocco diretto dello schermo,"
+    },
+    {
+      "text": "come su smartphone e tablet, e modalità di interazione vocale, come negli assistenti vocali sempre più diffusi.",
+      "speech": "come su smartphone e tablet, e modalità di interazione vocale, come negli assistenti vocali sempre più diffusi."
+    },
+    {
+      "text": "Queste nuove modalità non sostituiscono necessariamente la GUI tradizionale, ma si aggiungono ad essa, ampliando il ventaglio di modi in cui un utente può comunicare con un dispositivo.",
+      "speech": "Queste nuove modalità non sostituiscono necessariamente la GUI tradizionale, ma si aggiungono ad essa, ampliando il ventaglio di modi in cui un utente può comunicare con un dispositivo."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché l'interfaccia grafica ha reso il computer accessibile a un pubblico molto più ampio rispetto all'interfaccia a riga di comando, come rispondereste?",
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché l'interfaccia grafica ha reso il computer accessibile a un pubblico molto più ampio rispetto all'interfaccia a riga di comando, come rispondereste?"
+    },
+    {
+      "text": "Potreste osservare che la CLI richiede la conoscenza esatta di comandi testuali specifici, spesso in inglese e con una sintassi rigida,",
+      "speech": "Potreste osservare che la CLI richiede la conoscenza esatta di comandi testuali specifici, spesso in inglese e con una sintassi rigida,"
+    },
+    {
+      "text": "mentre la GUI permette di interagire in modo intuitivo attraverso il riconoscimento visivo di icone e menu, senza dover memorizzare comandi precisi:",
+      "speech": "mentre la GUI permette di interagire in modo intuitivo attraverso il riconoscimento visivo di icone e menu, senza dover memorizzare comandi precisi:"
+    },
+    {
+      "text": "un salto di accessibilità che ha contribuito enormemente alla diffusione di massa del personal computer a partire dagli anni Ottanta.",
+      "speech": "un salto di accessibilità che ha contribuito enormemente alla diffusione di massa del personal computer a partire dagli anni Ottanta."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: la digitalizzazione converte segnali analogici, come suoni e video, in sequenze numeriche discrete elaborabili dal computer, attraverso il campionamento per l'audio e la sequenza di fotogrammi per il video.",
+      "speech": "Primo: la digitalizzazione converte segnali analogici, come suoni e video, in sequenze numeriche discrete elaborabili dal computer, attraverso il campionamento per l'audio e la sequenza di fotogrammi per il video."
+    },
+    {
+      "text": "Secondo: l'interfaccia utente si distingue in CLI, a riga di comando, e GUI, grafica, quest'ultima basata sul paradigma WIMP.",
+      "speech": "Secondo: l'interfaccia utente si distingue in CLI, a riga di comando, e GUI, grafica, quest'ultima basata sul paradigma WIMP."
+    },
+    {
+      "text": "Terzo: le interfacce più recenti aggiungono modalità touch e vocale a quelle tradizionali.",
+      "speech": "Terzo: le interfacce più recenti aggiungono modalità touch e vocale a quelle tradizionali."
+    },
+    {
+      "text": "Nel prossimo episodio restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa.",
+      "speech": "Nel prossimo episodio restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

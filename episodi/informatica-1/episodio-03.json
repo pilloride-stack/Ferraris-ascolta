@@ -1,0 +1,144 @@
+{
+  "subject": "Informatica",
+  "episode": "03",
+  "title": "Il sistema binario e le conversioni",
+  "class": "Classe prima",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto hardware, software e la classificazione degli elaboratori.",
+      "speech": "Nell'episodio scorso abbiamo visto hardware, software e la classificazione degli elaboratori."
+    },
+    {
+      "text": "Oggi affrontiamo il cuore tecnico di questo primo modulo, un argomento molto amato dai commissari perché unisce teoria e calcolo pratico:",
+      "speech": "Oggi affrontiamo il cuore tecnico di questo primo modulo, un argomento molto amato dai commissari perché unisce teoria e calcolo pratico:"
+    },
+    {
+      "text": "il sistema binario, il modo in cui i computer rappresentano al proprio interno ogni tipo di informazione.",
+      "speech": "il sistema binario, il modo in cui i computer rappresentano al proprio interno ogni tipo di informazione."
+    },
+    {
+      "text": "I computer rappresentano ed elaborano ogni tipo di informazione, numeri, testo, immagini, suoni, utilizzando il sistema binario, un sistema di numerazione posizionale in base 2 che utilizza solo due simboli, 0 e 1.",
+      "speech": "I computer rappresentano ed elaborano ogni tipo di informazione, numeri, testo, immagini, suoni, utilizzando il sistema binario, un sistema di numerazione posizionale in base 2 che utilizza solo due simboli, 0 e 1."
+    },
+    {
+      "text": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione, perché è probabilmente la più richiesta su questo argomento:",
+      "speech": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione, perché è probabilmente la più richiesta su questo argomento:"
+    },
+    {
+      "text": "perché proprio due simboli, e non dieci come nel nostro sistema decimale quotidiano?",
+      "speech": "perché proprio due simboli, e non dieci come nel nostro sistema decimale quotidiano?"
+    },
+    {
+      "text": "La ragione è squisitamente elettronica: i circuiti elettronici digitali possono facilmente distinguere due soli stati, per esempio corrente presente o assente,",
+      "speech": "La ragione è squisitamente elettronica: i circuiti elettronici digitali possono facilmente distinguere due soli stati, per esempio corrente presente o assente,"
+    },
+    {
+      "text": "oppure due diversi livelli di tensione, rendendo il sistema binario il più affidabile ed efficiente dal punto di vista elettronico, molto più di quanto sarebbe distinguere dieci livelli diversi di tensione con la stessa affidabilità.",
+      "speech": "oppure due diversi livelli di tensione, rendendo il sistema binario il più affidabile ed efficiente dal punto di vista elettronico, molto più di quanto sarebbe distinguere dieci livelli diversi di tensione con la stessa affidabilità."
+    },
+    {
+      "text": "L'unità minima di informazione è il bit, dall'inglese binary digit, cifra binaria, che può assumere solo i valori 0 o 1.",
+      "speech": "L'unità minima di informazione è il bit, dall'inglese binary digit, cifra binaria, che può assumere solo i valori 0 o 1."
+    },
+    {
+      "text": "Un gruppo di otto bit forma un byte, l'unità base con cui si misura la capacità delle memorie.",
+      "speech": "Un gruppo di otto bit forma un byte, l'unità base con cui si misura la capacità delle memorie."
+    },
+    {
+      "text": "Da qui derivano tutti i multipli che incontrate quotidianamente quando acquistate una chiavetta USB o un computer: il kilobyte, circa mille byte;",
+      "speech": "Da qui derivano tutti i multipli che incontrate quotidianamente quando acquistate una chiavetta USB o un computer: il kilobyte, circa mille byte;"
+    },
+    {
+      "text": "il megabyte, circa un milione di byte; il gigabyte, circa un miliardo di byte; e il terabyte, circa mille miliardi di byte.",
+      "speech": "il megabyte, circa un milione di byte; il gigabyte, circa un miliardo di byte; e il terabyte, circa mille miliardi di byte."
+    },
+    {
+      "text": "Veniamo ora alla parte più pratica di questo episodio, che vi consiglio di provare a rifare autonomamente con carta e penna dopo l'ascolto,",
+      "speech": "Veniamo ora alla parte più pratica di questo episodio, che vi consiglio di provare a rifare autonomamente con carta e penna dopo l'ascolto,"
+    },
+    {
+      "text": "perché è esattamente il tipo di esercizio che potrebbe capitarvi all'esame: la conversione tra sistema binario e sistema decimale.",
+      "speech": "perché è esattamente il tipo di esercizio che potrebbe capitarvi all'esame: la conversione tra sistema binario e sistema decimale."
+    },
+    {
+      "text": "Per convertire un numero binario in decimale, si moltiplica ogni cifra per la potenza di 2 corrispondente alla sua posizione, contando da destra a partire da 2 elevato a zero.",
+      "speech": "Per convertire un numero binario in decimale, si moltiplica ogni cifra per la potenza di 2 corrispondente alla sua posizione, contando da destra a partire da 2 elevato a zero."
+    },
+    {
+      "text": "Prendiamo il numero binario 1011: applicando la regola, otteniamo 1 per 2 alla terza, più 0 per 2 alla seconda, più 1 per 2 alla prima, più 1 per 2 alla zero, cioè 8 più 0 più 2 più 1, che fa 11.",
+      "speech": "Prendiamo il numero binario 1011: applicando la regola, otteniamo 1 per 2 alla terza, più 0 per 2 alla seconda, più 1 per 2 alla prima, più 1 per 2 alla zero, cioè 8 più 0 più 2 più 1, che fa 11."
+    },
+    {
+      "text": "Il numero binario 1011 corrisponde dunque a 11 in base dieci.",
+      "speech": "Il numero binario 1011 corrisponde dunque a 11 in base dieci."
+    },
+    {
+      "text": "Per la conversione inversa, da decimale a binario, si applicano le divisioni successive per 2, leggendo poi i resti dal basso verso l'alto.",
+      "speech": "Per la conversione inversa, da decimale a binario, si applicano le divisioni successive per 2, leggendo poi i resti dal basso verso l'alto."
+    },
+    {
+      "text": "Prendiamo il numero decimale 13: tredici diviso due fa sei, resto uno; sei diviso due fa tre, resto zero; tre diviso due fa uno, resto uno; uno diviso due fa zero, resto uno.",
+      "speech": "Prendiamo il numero decimale 13: tredici diviso due fa sei, resto uno; sei diviso due fa tre, resto zero; tre diviso due fa uno, resto uno; uno diviso due fa zero, resto uno."
+    },
+    {
+      "text": "Leggendo i resti dal basso verso l'alto, otteniamo 1101.",
+      "speech": "Leggendo i resti dal basso verso l'alto, otteniamo 1101."
+    },
+    {
+      "text": "Il numero 13 in base dieci corrisponde dunque a 1101 in binario.",
+      "speech": "Il numero 13 in base dieci corrisponde dunque a 1101 in binario."
+    },
+    {
+      "text": "Fermatevi un momento su questo doppio procedimento, perché saperlo eseguire con sicurezza, senza esitazioni, è probabilmente la competenza tecnica più concreta e verificabile di tutto questo modulo:",
+      "speech": "Fermatevi un momento su questo doppio procedimento, perché saperlo eseguire con sicurezza, senza esitazioni, è probabilmente la competenza tecnica più concreta e verificabile di tutto questo modulo:"
+    },
+    {
+      "text": "a differenza di molti concetti teorici, la conversione binario-decimale è un calcolo che si può controllare oggettivamente, giusto o sbagliato,",
+      "speech": "a differenza di molti concetti teorici, la conversione binario-decimale è un calcolo che si può controllare oggettivamente, giusto o sbagliato,"
+    },
+    {
+      "text": "e proprio per questo è tra gli esercizi più frequentemente richiesti in sede di verifica scritta e orale.",
+      "speech": "e proprio per questo è tra gli esercizi più frequentemente richiesti in sede di verifica scritta e orale."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme, per consolidare quanto appena visto: come convertireste il numero binario 1100 in decimale?",
+      "speech": "Proviamo un piccolo esercizio insieme, per consolidare quanto appena visto: come convertireste il numero binario 1100 in decimale?"
+    },
+    {
+      "text": "Applicando la regola: 1 per 2 alla terza, più 1 per 2 alla seconda, più 0 per 2 alla prima, più 0 per 2 alla zero, cioè 8 più 4 più 0 più 0, che fa 12.",
+      "speech": "Applicando la regola: 1 per 2 alla terza, più 1 per 2 alla seconda, più 0 per 2 alla prima, più 0 per 2 alla zero, cioè 8 più 4 più 0 più 0, che fa 12."
+    },
+    {
+      "text": "Il numero binario 1100 corrisponde dunque a 12 in base dieci.",
+      "speech": "Il numero binario 1100 corrisponde dunque a 12 in base dieci."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: i computer usano il sistema binario, in base 2, perché i circuiti elettronici distinguono più facilmente due soli stati piuttosto che dieci.",
+      "speech": "Primo: i computer usano il sistema binario, in base 2, perché i circuiti elettronici distinguono più facilmente due soli stati piuttosto che dieci."
+    },
+    {
+      "text": "Secondo: l'unità minima di informazione è il bit, e un gruppo di otto bit forma un byte, da cui derivano kilobyte, megabyte, gigabyte e terabyte.",
+      "speech": "Secondo: l'unità minima di informazione è il bit, e un gruppo di otto bit forma un byte, da cui derivano kilobyte, megabyte, gigabyte e terabyte."
+    },
+    {
+      "text": "Terzo: la conversione da binario a decimale si effettua moltiplicando ogni cifra per la potenza di 2 corrispondente alla sua posizione,",
+      "speech": "Terzo: la conversione da binario a decimale si effettua moltiplicando ogni cifra per la potenza di 2 corrispondente alla sua posizione,"
+    },
+    {
+      "text": "mentre quella da decimale a binario si effettua con divisioni successive per 2, leggendo i resti dal basso verso l'alto.",
+      "speech": "mentre quella da decimale a binario si effettua con divisioni successive per 2, leggendo i resti dal basso verso l'alto."
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme al concetto di interfaccia utente.",
+      "speech": "Nel prossimo episodio entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme al concetto di interfaccia utente."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

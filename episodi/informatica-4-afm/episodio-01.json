@@ -1,0 +1,160 @@
+{
+  "subject": "Informatica",
+  "episode": "01",
+  "title": "Ipermedia e progettazione di un sito web",
+  "class": "Classe quarta AFM",
+  "sentences": [
+    {
+      "text": "Benvenuti a questo nuovo percorso di Informatica per la classe quarta, indirizzo Amministrazione, Finanza e Marketing.",
+      "speech": "Benvenuti a questo nuovo percorso di Informatica per la classe quarta, indirizzo Amministrazione, Finanza e Marketing."
+    },
+    {
+      "text": "Questa dispensa affronta un anno particolarmente ricco, dedicato al Web in tutte le sue declinazioni:",
+      "speech": "Questa dispensa affronta un anno particolarmente ricco, dedicato al Web in tutte le sue declinazioni:"
+    },
+    {
+      "text": "come si progetta e si programma un sito, che ruolo gioca il Web nel rapporto tra azienda e mercato, e quali strumenti software gestiscono oggi la vita interna di un'impresa.",
+      "speech": "come si progetta e si programma un sito, che ruolo gioca il Web nel rapporto tra azienda e mercato, e quali strumenti software gestiscono oggi la vita interna di un'impresa."
+    },
+    {
+      "text": "Cominciamo dal primo grande tema, quello degli ipermedia, per poi passare alla progettazione di un sito web e alle figure professionali che la rendono possibile.",
+      "speech": "Cominciamo dal primo grande tema, quello degli ipermedia, per poi passare alla progettazione di un sito web e alle figure professionali che la rendono possibile."
+    },
+    {
+      "text": "Il termine ipertesto fu coniato nel 1965 dal filosofo e informatico Ted Nelson, per indicare un sistema di organizzazione delle informazioni non lineare:",
+      "speech": "Il termine ipertesto fu coniato nel 1965 dal filosofo e informatico Ted Nelson, per indicare un sistema di organizzazione delle informazioni non lineare:"
+    },
+    {
+      "text": "blocchi di contenuto, chiamati nodi, sono collegati tra loro tramite legami ipertestuali, i link, che permettono al lettore di seguire percorsi di lettura personalizzati anziché una sequenza fissa imposta dall'autore.",
+      "speech": "blocchi di contenuto, chiamati nodi, sono collegati tra loro tramite legami ipertestuali, i link, che permettono al lettore di seguire percorsi di lettura personalizzati anziché una sequenza fissa imposta dall'autore."
+    },
+    {
+      "text": "Quando agli elementi testuali si affiancano altri media, come immagini, audio, video e animazioni, collegati tra loro secondo la stessa logica a nodi, si parla di ipermedia.",
+      "speech": "Quando agli elementi testuali si affiancano altri media, come immagini, audio, video e animazioni, collegati tra loro secondo la stessa logica a nodi, si parla di ipermedia."
+    },
+    {
+      "text": "Il World Wide Web, con le sue pagine collegate da hyperlink e arricchite di contenuti multimediali, è oggi il più grande e diffuso sistema ipermediale esistente.",
+      "speech": "Il World Wide Web, con le sue pagine collegate da hyperlink e arricchite di contenuti multimediali, è oggi il più grande e diffuso sistema ipermediale esistente."
+    },
+    {
+      "text": "Fermatevi un momento su questa distinzione, perché è tra le prime che un commissario può chiedervi di definire con precisione, e la tentazione di usare i due termini come sinonimi è forte.",
+      "speech": "Fermatevi un momento su questa distinzione, perché è tra le prime che un commissario può chiedervi di definire con precisione, e la tentazione di usare i due termini come sinonimi è forte."
+    },
+    {
+      "text": "L'ipertesto riguarda solo il testo, organizzato in nodi collegati da link: pensate a un'enciclopedia online, in cui ogni voce rimanda ad altre voci correlate.",
+      "speech": "L'ipertesto riguarda solo il testo, organizzato in nodi collegati da link: pensate a un'enciclopedia online, in cui ogni voce rimanda ad altre voci correlate."
+    },
+    {
+      "text": "L'ipermedia, invece, aggiunge a questa struttura anche immagini, audio e video: una qualunque pagina web multimediale che conoscete è, tecnicamente, un ipermedia, non un semplice ipertesto.",
+      "speech": "L'ipermedia, invece, aggiunge a questa struttura anche immagini, audio e video: una qualunque pagina web multimediale che conoscete è, tecnicamente, un ipermedia, non un semplice ipertesto."
+    },
+    {
+      "text": "La differenza, in una parola, sta nella varietà dei media coinvolti, non nella logica di collegamento, che resta la stessa in entrambi i casi.",
+      "speech": "La differenza, in una parola, sta nella varietà dei media coinvolti, non nella logica di collegamento, che resta la stessa in entrambi i casi."
+    },
+    {
+      "text": "Passiamo ora alla realizzazione concreta di un sito web professionale, che segue un percorso articolato in più fasi ben distinte.",
+      "speech": "Passiamo ora alla realizzazione concreta di un sito web professionale, che segue un percorso articolato in più fasi ben distinte."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, come si sviluppa questo percorso.",
+      "speech": "Vediamo insieme, passo dopo passo, come si sviluppa questo percorso."
+    },
+    {
+      "text": "Per prima cosa si conduce l'analisi dei requisiti, cioè si definiscono gli obiettivi del sito e il pubblico di riferimento a cui si rivolge.",
+      "speech": "Per prima cosa si conduce l'analisi dei requisiti, cioè si definiscono gli obiettivi del sito e il pubblico di riferimento a cui si rivolge."
+    },
+    {
+      "text": "Poi si passa alla progettazione dell'architettura delle informazioni, ovvero all'organizzazione logica dei contenuti e della navigazione tra le pagine.",
+      "speech": "Poi si passa alla progettazione dell'architettura delle informazioni, ovvero all'organizzazione logica dei contenuti e della navigazione tra le pagine."
+    },
+    {
+      "text": "Poi si sviluppa la progettazione grafica, che definisce l'aspetto visivo del sito.",
+      "speech": "Poi si sviluppa la progettazione grafica, che definisce l'aspetto visivo del sito."
+    },
+    {
+      "text": "Poi si procede con lo sviluppo tecnico vero e proprio, in cui il sito viene effettivamente costruito.",
+      "speech": "Poi si procede con lo sviluppo tecnico vero e proprio, in cui il sito viene effettivamente costruito."
+    },
+    {
+      "text": "Poi si eseguono i test, per verificare che tutto funzioni correttamente.",
+      "speech": "Poi si eseguono i test, per verificare che tutto funzioni correttamente."
+    },
+    {
+      "text": "E infine si arriva alla pubblicazione, seguita da una manutenzione continuativa nel tempo, perché un sito web professionale non è mai davvero «finito».",
+      "speech": "E infine si arriva alla pubblicazione, seguita da una manutenzione continuativa nel tempo, perché un sito web professionale non è mai davvero «finito»."
+    },
+    {
+      "text": "A queste fasi corrispondono diverse figure professionali specializzate, ed è utile saperle collocare con precisione.",
+      "speech": "A queste fasi corrispondono diverse figure professionali specializzate, ed è utile saperle collocare con precisione."
+    },
+    {
+      "text": "Il web designer cura l'aspetto grafico e l'esperienza utente.",
+      "speech": "Il web designer cura l'aspetto grafico e l'esperienza utente."
+    },
+    {
+      "text": "Il web developer si occupa dello sviluppo tecnico, e si distingue a sua volta in front-end, che realizza l'interfaccia visibile e utilizzabile dall'utente,",
+      "speech": "Il web developer si occupa dello sviluppo tecnico, e si distingue a sua volta in front-end, che realizza l'interfaccia visibile e utilizzabile dall'utente,"
+    },
+    {
+      "text": "e back-end, che gestisce la logica applicativa e l'interazione con i database sul lato server.",
+      "speech": "e back-end, che gestisce la logica applicativa e l'interazione con i database sul lato server."
+    },
+    {
+      "text": "Il content manager è responsabile della creazione e dell'aggiornamento dei contenuti testuali e multimediali.",
+      "speech": "Il content manager è responsabile della creazione e dell'aggiornamento dei contenuti testuali e multimediali."
+    },
+    {
+      "text": "Lo specialista SEO, infine, ottimizza il sito per essere trovato più facilmente dai motori di ricerca.",
+      "speech": "Lo specialista SEO, infine, ottimizza il sito per essere trovato più facilmente dai motori di ricerca."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: immaginate di dover realizzare il sito di un piccolo e-commerce,",
+      "speech": "Proviamo un piccolo esercizio insieme: immaginate di dover realizzare il sito di un piccolo e-commerce,"
+    },
+    {
+      "text": "e di dover decidere a chi rivolgervi per due esigenze molto diverse, la scelta dei colori e del layout delle pagine da un lato,",
+      "speech": "e di dover decidere a chi rivolgervi per due esigenze molto diverse, la scelta dei colori e del layout delle pagine da un lato,"
+    },
+    {
+      "text": "e la gestione del collegamento tra il catalogo prodotti e il database aziendale dall'altro.",
+      "speech": "e la gestione del collegamento tra il catalogo prodotti e il database aziendale dall'altro."
+    },
+    {
+      "text": "Come rispondereste?",
+      "speech": "Come rispondereste?"
+    },
+    {
+      "text": "Per l'aspetto grafico e l'esperienza di navigazione vi rivolgereste al web designer;",
+      "speech": "Per l'aspetto grafico e l'esperienza di navigazione vi rivolgereste al web designer;"
+    },
+    {
+      "text": "per il collegamento tecnico con il database, invece, al web developer back-end, quello che lavora sulla logica applicativa lato server, distinto dal collega front-end che si occupa invece di ciò che l'utente vede e tocca direttamente.",
+      "speech": "per il collegamento tecnico con il database, invece, al web developer back-end, quello che lavora sulla logica applicativa lato server, distinto dal collega front-end che si occupa invece di ciò che l'utente vede e tocca direttamente."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: l'ipertesto organizza il testo in nodi collegati da link, mentre l'ipermedia estende la stessa logica a immagini, audio e video, e il Web ne è oggi la massima espressione.",
+      "speech": "Primo: l'ipertesto organizza il testo in nodi collegati da link, mentre l'ipermedia estende la stessa logica a immagini, audio e video, e il Web ne è oggi la massima espressione."
+    },
+    {
+      "text": "Secondo: la realizzazione di un sito web segue un percorso in fasi precise, dall'analisi dei requisiti fino alla pubblicazione e alla manutenzione continuativa.",
+      "speech": "Secondo: la realizzazione di un sito web segue un percorso in fasi precise, dall'analisi dei requisiti fino alla pubblicazione e alla manutenzione continuativa."
+    },
+    {
+      "text": "Terzo: a queste fasi corrispondono figure professionali specifiche, dal web designer al web developer front-end e back-end, fino al content manager e allo specialista SEO.",
+      "speech": "Terzo: a queste fasi corrispondono figure professionali specifiche, dal web designer al web developer front-end e back-end, fino al content manager e allo specialista SEO."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo che cosa significa davvero rendere un sito usabile e accessibile a tutti, e quale differenza corre tra un sito web statico e uno dinamico.",
+      "speech": "Nel prossimo episodio vediamo che cosa significa davvero rendere un sito usabile e accessibile a tutti, e quale differenza corre tra un sito web statico e uno dinamico."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

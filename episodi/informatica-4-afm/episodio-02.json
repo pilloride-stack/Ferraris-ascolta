@@ -1,0 +1,156 @@
+{
+  "subject": "Informatica",
+  "episode": "02",
+  "title": "Usabilità, accessibilità e siti dinamici",
+  "class": "Classe quarta AFM",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la differenza tra ipertesto e ipermedia, e le fasi con cui si progetta un sito web, insieme alle figure professionali coinvolte.",
+      "speech": "Nell'episodio scorso abbiamo visto la differenza tra ipertesto e ipermedia, e le fasi con cui si progetta un sito web, insieme alle figure professionali coinvolte."
+    },
+    {
+      "text": "Oggi restiamo nel Modulo 1 e affrontiamo due coppie di concetti che vengono spesso chiesti insieme, perché altrettanto spesso confusi tra loro:",
+      "speech": "Oggi restiamo nel Modulo 1 e affrontiamo due coppie di concetti che vengono spesso chiesti insieme, perché altrettanto spesso confusi tra loro:"
+    },
+    {
+      "text": "usabilità e accessibilità di un sito web, e la differenza tra un sito statico e uno dinamico.",
+      "speech": "usabilità e accessibilità di un sito web, e la differenza tra un sito statico e uno dinamico."
+    },
+    {
+      "text": "L'usabilità di un sito web indica la facilità con cui un utente riesce a raggiungere i propri obiettivi di navigazione in modo efficace,",
+      "speech": "L'usabilità di un sito web indica la facilità con cui un utente riesce a raggiungere i propri obiettivi di navigazione in modo efficace,"
+    },
+    {
+      "text": "efficiente e soddisfacente, senza dover dedicare uno sforzo cognitivo eccessivo alla comprensione dell'interfaccia.",
+      "speech": "efficiente e soddisfacente, senza dover dedicare uno sforzo cognitivo eccessivo alla comprensione dell'interfaccia."
+    },
+    {
+      "text": "L'accessibilità indica invece qualcosa di diverso, anche se collegato:",
+      "speech": "L'accessibilità indica invece qualcosa di diverso, anche se collegato:"
+    },
+    {
+      "text": "la possibilità, per tutti gli utenti, incluse le persone con disabilità visive, uditive, motorie o cognitive, di percepire, comprendere, navigare e interagire con un sito web.",
+      "speech": "la possibilità, per tutti gli utenti, incluse le persone con disabilità visive, uditive, motorie o cognitive, di percepire, comprendere, navigare e interagire con un sito web."
+    },
+    {
+      "text": "Gli standard internazionali di riferimento per l'accessibilità sono le WCAG, le Web Content Accessibility Guidelines,",
+      "speech": "Gli standard internazionali di riferimento per l'accessibilità sono le WCAG, le Web Content Accessibility Guidelines,"
+    },
+    {
+      "text": "mentre in Italia la materia è disciplinata dalla cosiddetta Legge Stanca, la Legge 4 del 2004.",
+      "speech": "mentre in Italia la materia è disciplinata dalla cosiddetta Legge Stanca, la Legge 4 del 2004."
+    },
+    {
+      "text": "Fermatevi un momento su questa coppia di concetti, perché è tra le distinzioni più delicate dell'intero modulo, e vale la pena fissarla con una formula semplice da ricordare in sede d'esame:",
+      "speech": "Fermatevi un momento su questa coppia di concetti, perché è tra le distinzioni più delicate dell'intero modulo, e vale la pena fissarla con una formula semplice da ricordare in sede d'esame:"
+    },
+    {
+      "text": "l'accessibilità è il prerequisito che garantisce a tutti la possibilità di accedere a un servizio, l'usabilità ne ottimizza l'esperienza d'uso una volta che l'accesso è garantito.",
+      "speech": "l'accessibilità è il prerequisito che garantisce a tutti la possibilità di accedere a un servizio, l'usabilità ne ottimizza l'esperienza d'uso una volta che l'accesso è garantito."
+    },
+    {
+      "text": "In altre parole, un sito potrebbe essere tecnicamente accessibile ma poco usabile, se ad esempio è navigabile da chiunque ma con un'interfaccia confusa;",
+      "speech": "In altre parole, un sito potrebbe essere tecnicamente accessibile ma poco usabile, se ad esempio è navigabile da chiunque ma con un'interfaccia confusa;"
+    },
+    {
+      "text": "e viceversa potrebbe essere molto usabile per la maggioranza degli utenti, ma non accessibile, se esclude di fatto chi ha specifiche disabilità.",
+      "speech": "e viceversa potrebbe essere molto usabile per la maggioranza degli utenti, ma non accessibile, se esclude di fatto chi ha specifiche disabilità."
+    },
+    {
+      "text": "I due concetti, insomma, non sono sinonimi, e vanno perseguiti entrambi, ma rispondono a esigenze diverse.",
+      "speech": "I due concetti, insomma, non sono sinonimi, e vanno perseguiti entrambi, ma rispondono a esigenze diverse."
+    },
+    {
+      "text": "Passiamo ora alla seconda distinzione di oggi, quella tra siti statici e siti dinamici.",
+      "speech": "Passiamo ora alla seconda distinzione di oggi, quella tra siti statici e siti dinamici."
+    },
+    {
+      "text": "Un sito web statico è composto da pagine HTML il cui contenuto è fisso e identico per tutti gli utenti che lo visitano, e richiede l'intervento manuale di uno sviluppatore per essere aggiornato:",
+      "speech": "Un sito web statico è composto da pagine HTML il cui contenuto è fisso e identico per tutti gli utenti che lo visitano, e richiede l'intervento manuale di uno sviluppatore per essere aggiornato:"
+    },
+    {
+      "text": "è una soluzione adatta a siti semplici, con contenuti che cambiano raramente.",
+      "speech": "è una soluzione adatta a siti semplici, con contenuti che cambiano raramente."
+    },
+    {
+      "text": "Un sito web dinamico, invece, genera le proprie pagine al momento della richiesta, combinando modelli di pagina, i cosiddetti template, con dati recuperati in tempo reale, tipicamente da un database.",
+      "speech": "Un sito web dinamico, invece, genera le proprie pagine al momento della richiesta, combinando modelli di pagina, i cosiddetti template, con dati recuperati in tempo reale, tipicamente da un database."
+    },
+    {
+      "text": "Questo avviene grazie a linguaggi di programmazione lato server, come PHP o ASP.NET,",
+      "speech": "Questo avviene grazie a linguaggi di programmazione lato server, come PHP o ASP.NET,"
+    },
+    {
+      "text": "oppure attraverso un CMS, un Content Management System come WordPress, che permette anche a utenti non tecnici di aggiornare autonomamente i contenuti del sito.",
+      "speech": "oppure attraverso un CMS, un Content Management System come WordPress, che permette anche a utenti non tecnici di aggiornare autonomamente i contenuti del sito."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: immaginate un piccolo sito vetrina di un'attività locale, con poche pagine che cambiano forse una volta all'anno,",
+      "speech": "Proviamo un piccolo esercizio insieme: immaginate un piccolo sito vetrina di un'attività locale, con poche pagine che cambiano forse una volta all'anno,"
+    },
+    {
+      "text": "e confrontatelo con un sito di e-commerce che mostra migliaia di prodotti, prezzi e disponibilità di magazzino aggiornati in tempo reale.",
+      "speech": "e confrontatelo con un sito di e-commerce che mostra migliaia di prodotti, prezzi e disponibilità di magazzino aggiornati in tempo reale."
+    },
+    {
+      "text": "Quale dei due è statico e quale dinamico, e perché?",
+      "speech": "Quale dei due è statico e quale dinamico, e perché?"
+    },
+    {
+      "text": "Il sito vetrina, con contenuti fissi e aggiornamenti manuali rari, è tipicamente un sito statico.",
+      "speech": "Il sito vetrina, con contenuti fissi e aggiornamenti manuali rari, è tipicamente un sito statico."
+    },
+    {
+      "text": "Il sito di e-commerce, invece, è necessariamente dinamico, perché ogni pagina prodotto viene generata combinando un template con i dati recuperati in tempo reale dal database,",
+      "speech": "Il sito di e-commerce, invece, è necessariamente dinamico, perché ogni pagina prodotto viene generata combinando un template con i dati recuperati in tempo reale dal database,"
+    },
+    {
+      "text": "che magazzino e ufficio commerciale aggiornano costantemente senza che nessuno debba riscrivere manualmente le pagine HTML.",
+      "speech": "che magazzino e ufficio commerciale aggiornano costantemente senza che nessuno debba riscrivere manualmente le pagine HTML."
+    },
+    {
+      "text": "Notate come questi due temi, apparentemente distinti, si tengano insieme:",
+      "speech": "Notate come questi due temi, apparentemente distinti, si tengano insieme:"
+    },
+    {
+      "text": "un sito dinamico, proprio perché genera le pagine a partire da un database, ha in genere più margine per essere reso usabile e accessibile in modo mirato,",
+      "speech": "un sito dinamico, proprio perché genera le pagine a partire da un database, ha in genere più margine per essere reso usabile e accessibile in modo mirato,"
+    },
+    {
+      "text": "ad esempio adattando dinamicamente i contenuti alle esigenze dell'utente che lo sta consultando, cosa più difficile da ottenere in un sito statico dalle pagine fisse identiche per tutti.",
+      "speech": "ad esempio adattando dinamicamente i contenuti alle esigenze dell'utente che lo sta consultando, cosa più difficile da ottenere in un sito statico dalle pagine fisse identiche per tutti."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: l'accessibilità garantisce a tutti, incluse le persone con disabilità, la possibilità di accedere a un sito, secondo standard come le WCAG e, in Italia, la Legge Stanca;",
+      "speech": "Primo: l'accessibilità garantisce a tutti, incluse le persone con disabilità, la possibilità di accedere a un sito, secondo standard come le WCAG e, in Italia, la Legge Stanca;"
+    },
+    {
+      "text": "l'usabilità ne rende l'esperienza d'uso efficace, efficiente e soddisfacente.",
+      "speech": "l'usabilità ne rende l'esperienza d'uso efficace, efficiente e soddisfacente."
+    },
+    {
+      "text": "Secondo: un sito statico ha contenuti fissi e aggiornamenti manuali, adatto a esigenze semplici.",
+      "speech": "Secondo: un sito statico ha contenuti fissi e aggiornamenti manuali, adatto a esigenze semplici."
+    },
+    {
+      "text": "Terzo: un sito dinamico genera le pagine al momento della richiesta combinando template e dati da un database, spesso tramite un CMS.",
+      "speech": "Terzo: un sito dinamico genera le pagine al momento della richiesta combinando template e dati da un database, spesso tramite un CMS."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo che cosa succede «dietro le quinte» di un sito dinamico:",
+      "speech": "Nel prossimo episodio vediamo che cosa succede «dietro le quinte» di un sito dinamico:"
+    },
+    {
+      "text": "la differenza tra i linguaggi di programmazione lato client e lato server, e come un sito dialoga concretamente con un database.",
+      "speech": "la differenza tra i linguaggi di programmazione lato client e lato server, e come un sito dialoga concretamente con un database."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

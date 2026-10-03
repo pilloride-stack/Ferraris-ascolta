@@ -1,0 +1,140 @@
+{
+  "subject": "Informatica",
+  "episode": "03",
+  "title": "Diritto informatico e modello client-server",
+  "class": "Classe seconda",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto i principali servizi di Internet e le regole della netiquette.",
+      "speech": "Nell'episodio scorso abbiamo visto i principali servizi di Internet e le regole della netiquette."
+    },
+    {
+      "text": "Oggi completiamo il Modulo 1 con il diritto informatico, e apriamo il Modulo 2 vedendo come avviene, tecnicamente, lo scambio di informazioni in rete.",
+      "speech": "Oggi completiamo il Modulo 1 con il diritto informatico, e apriamo il Modulo 2 vedendo come avviene, tecnicamente, lo scambio di informazioni in rete."
+    },
+    {
+      "text": "Il diritto informatico è l'insieme delle norme giuridiche che regolano i rapporti riguardanti l'uso delle tecnologie dell'informazione e della comunicazione.",
+      "speech": "Il diritto informatico è l'insieme delle norme giuridiche che regolano i rapporti riguardanti l'uso delle tecnologie dell'informazione e della comunicazione."
+    },
+    {
+      "text": "È un argomento che tocca ambiti molto diversi tra loro, ed è utile conoscerli distintamente, perché un commissario potrebbe chiedervene uno specifico.",
+      "speech": "È un argomento che tocca ambiti molto diversi tra loro, ed è utile conoscerli distintamente, perché un commissario potrebbe chiedervene uno specifico."
+    },
+    {
+      "text": "Il primo ambito è la proprietà intellettuale, cioè il diritto d'autore applicato ai contenuti digitali, come software, musica e video.",
+      "speech": "Il primo ambito è la proprietà intellettuale, cioè il diritto d'autore applicato ai contenuti digitali, come software, musica e video."
+    },
+    {
+      "text": "Il secondo è la protezione dei dati personali, in Europa disciplinata dal Regolamento generale sulla protezione dei dati, il GDPR.",
+      "speech": "Il secondo è la protezione dei dati personali, in Europa disciplinata dal Regolamento generale sulla protezione dei dati, il GDPR."
+    },
+    {
+      "text": "Il terzo sono i reati informatici, il cosiddetto cybercrime, che comprende per esempio l'accesso abusivo a sistemi informatici, la diffusione di virus o il furto di identità digitale.",
+      "speech": "Il terzo sono i reati informatici, il cosiddetto cybercrime, che comprende per esempio l'accesso abusivo a sistemi informatici, la diffusione di virus o il furto di identità digitale."
+    },
+    {
+      "text": "Il quarto è la regolamentazione del commercio elettronico e della firma digitale, che attribuisce valore legale ai documenti informatici.",
+      "speech": "Il quarto è la regolamentazione del commercio elettronico e della firma digitale, che attribuisce valore legale ai documenti informatici."
+    },
+    {
+      "text": "Fermatevi un momento su questi quattro ambiti, perché è facile confonderli tra loro se non li tenete ben distinti:",
+      "speech": "Fermatevi un momento su questi quattro ambiti, perché è facile confonderli tra loro se non li tenete ben distinti:"
+    },
+    {
+      "text": "la proprietà intellettuale riguarda chi ha creato un contenuto e chi può usarlo legalmente;",
+      "speech": "la proprietà intellettuale riguarda chi ha creato un contenuto e chi può usarlo legalmente;"
+    },
+    {
+      "text": "la protezione dei dati personali riguarda invece come le nostre informazioni vengono trattate da terzi, aziende comprese;",
+      "speech": "la protezione dei dati personali riguarda invece come le nostre informazioni vengono trattate da terzi, aziende comprese;"
+    },
+    {
+      "text": "i reati informatici riguardano condotte illecite compiute tramite strumenti digitali;",
+      "speech": "i reati informatici riguardano condotte illecite compiute tramite strumenti digitali;"
+    },
+    {
+      "text": "e la regolamentazione del commercio elettronico riguarda infine la validità legale delle transazioni e dei documenti online.",
+      "speech": "e la regolamentazione del commercio elettronico riguarda infine la validità legale delle transazioni e dei documenti online."
+    },
+    {
+      "text": "Sono quattro questioni distinte, anche se tutte rientrano sotto l'unica etichetta di diritto informatico.",
+      "speech": "Sono quattro questioni distinte, anche se tutte rientrano sotto l'unica etichetta di diritto informatico."
+    },
+    {
+      "text": "Passiamo ora al secondo tema di oggi.",
+      "speech": "Passiamo ora al secondo tema di oggi."
+    },
+    {
+      "text": "Ogni scambio di dati in rete avviene secondo il modello client-server:",
+      "speech": "Ogni scambio di dati in rete avviene secondo il modello client-server:"
+    },
+    {
+      "text": "il client, per esempio il browser installato sul dispositivo dell'utente, invia una richiesta a un server, che elabora la richiesta e restituisce una risposta.",
+      "speech": "il client, per esempio il browser installato sul dispositivo dell'utente, invia una richiesta a un server, che elabora la richiesta e restituisce una risposta."
+    },
+    {
+      "text": "I dati trasmessi vengono suddivisi in pacchetti, ciascuno instradato indipendentemente attraverso la rete e poi ricomposto a destinazione, esattamente secondo la logica del protocollo TCP/IP che abbiamo incontrato nel primo episodio di questo modulo.",
+      "speech": "I dati trasmessi vengono suddivisi in pacchetti, ciascuno instradato indipendentemente attraverso la rete e poi ricomposto a destinazione, esattamente secondo la logica del protocollo TCP, IP che abbiamo incontrato nel primo episodio di questo modulo."
+    },
+    {
+      "text": "L'operazione di trasferimento di un file dal server al dispositivo dell'utente si chiama download; l'operazione inversa, dal dispositivo dell'utente verso il server, si chiama upload.",
+      "speech": "L'operazione di trasferimento di un file dal server al dispositivo dell'utente si chiama download; l'operazione inversa, dal dispositivo dell'utente verso il server, si chiama upload."
+    },
+    {
+      "text": "Fermatevi un momento anche su questo modello, perché è talmente scontato nell'uso quotidiano da rischiare di non essere mai spiegato esplicitamente:",
+      "speech": "Fermatevi un momento anche su questo modello, perché è talmente scontato nell'uso quotidiano da rischiare di non essere mai spiegato esplicitamente:"
+    },
+    {
+      "text": "ogni volta che aprite un sito, guardate un video o controllate la posta, il vostro dispositivo si comporta da client che chiede qualcosa,",
+      "speech": "ogni volta che aprite un sito, guardate un video o controllate la posta, il vostro dispositivo si comporta da client che chiede qualcosa,"
+    },
+    {
+      "text": "e da qualche parte nel mondo un server risponde a quella richiesta.",
+      "speech": "e da qualche parte nel mondo un server risponde a quella richiesta."
+    },
+    {
+      "text": "Non è un dettaglio tecnico marginale, ma il principio di funzionamento alla base di tutto ciò che facciamo online.",
+      "speech": "Non è un dettaglio tecnico marginale, ma il principio di funzionamento alla base di tutto ciò che facciamo online."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: quando aprite il browser sul vostro telefono e digitate l'indirizzo di un sito, chi è il client e chi è il server in questa operazione?",
+      "speech": "Proviamo un piccolo esercizio insieme: quando aprite il browser sul vostro telefono e digitate l'indirizzo di un sito, chi è il client e chi è il server in questa operazione?"
+    },
+    {
+      "text": "Il client è il vostro browser, che invia la richiesta della pagina;",
+      "speech": "Il client è il vostro browser, che invia la richiesta della pagina;"
+    },
+    {
+      "text": "il server è il computer remoto, gestito da chi ha pubblicato il sito, che riceve quella richiesta, la elabora e restituisce la pagina web come risposta, che voi visualizzate poi sullo schermo.",
+      "speech": "il server è il computer remoto, gestito da chi ha pubblicato il sito, che riceve quella richiesta, la elabora e restituisce la pagina web come risposta, che voi visualizzate poi sullo schermo."
+    },
+    {
+      "text": "E se scaricate un allegato da quella pagina, state facendo un download; se invece caricate una vostra foto su un sito, state facendo un upload.",
+      "speech": "E se scaricate un allegato da quella pagina, state facendo un download; se invece caricate una vostra foto su un sito, state facendo un upload."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il diritto informatico disciplina quattro ambiti distinti, proprietà intellettuale, protezione dei dati personali con il GDPR, reati informatici e commercio elettronico con la firma digitale.",
+      "speech": "Primo: il diritto informatico disciplina quattro ambiti distinti, proprietà intellettuale, protezione dei dati personali con il GDPR, reati informatici e commercio elettronico con la firma digitale."
+    },
+    {
+      "text": "Secondo: lo scambio di dati in rete segue il modello client-server, con il client che invia richieste e il server che le elabora e risponde.",
+      "speech": "Secondo: lo scambio di dati in rete segue il modello client-server, con il client che invia richieste e il server che le elabora e risponde."
+    },
+    {
+      "text": "Terzo: il download è il trasferimento di dati dal server al dispositivo dell'utente, l'upload è l'operazione inversa.",
+      "speech": "Terzo: il download è il trasferimento di dati dal server al dispositivo dell'utente, l'upload è l'operazione inversa."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo come si naviga concretamente in rete, che cos'è un URL, e come funzionano i motori di ricerca.",
+      "speech": "Nel prossimo episodio vediamo come si naviga concretamente in rete, che cosa è un URL, e come funzionano i motori di ricerca."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

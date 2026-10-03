@@ -1,0 +1,132 @@
+{
+  "subject": "Informatica",
+  "episode": "06",
+  "title": "Sistemi operativi e Windows",
+  "class": "Classe prima",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto le periferiche e le memorie di massa.",
+      "speech": "Nell'episodio scorso abbiamo visto le periferiche e le memorie di massa."
+    },
+    {
+      "text": "Oggi concludiamo il Modulo 2 con i sistemi operativi, il software più importante di ogni computer, e con un focus specifico sul sistema operativo più diffuso al mondo sui personal computer: Windows.",
+      "speech": "Oggi concludiamo il Modulo 2 con i sistemi operativi, il software più importante di ogni computer, e con un focus specifico sul sistema operativo più diffuso al mondo sui personal computer: Windows."
+    },
+    {
+      "text": "Il sistema operativo è il software di base che gestisce le risorse hardware del computer, come il processore, la memoria e le periferiche,",
+      "speech": "Il sistema operativo è il software di base che gestisce le risorse hardware del computer, come il processore, la memoria e le periferiche,"
+    },
+    {
+      "text": "e fornisce all'utente e ai programmi applicativi un'interfaccia uniforme per interagire con la macchina.",
+      "speech": "e fornisce all'utente e ai programmi applicativi un'interfaccia uniforme per interagire con la macchina."
+    },
+    {
+      "text": "Fermatevi un momento su un elenco che vale la pena memorizzare con precisione, perché riassume con chiarezza il ruolo centrale di questo software:",
+      "speech": "Fermatevi un momento su un elenco che vale la pena memorizzare con precisione, perché riassume con chiarezza il ruolo centrale di questo software:"
+    },
+    {
+      "text": "le funzioni principali di un sistema operativo comprendono la gestione del processore e l'esecuzione dei programmi, la gestione della memoria, la gestione del file system,",
+      "speech": "le funzioni principali di un sistema operativo comprendono la gestione del processore e l'esecuzione dei programmi, la gestione della memoria, la gestione del file system,"
+    },
+    {
+      "text": "cioè l'organizzazione di file e cartelle, la gestione delle periferiche, e l'interfaccia con l'utente.",
+      "speech": "cioè l'organizzazione di file e cartelle, la gestione delle periferiche, e l'interfaccia con l'utente."
+    },
+    {
+      "text": "Senza un sistema operativo, un computer sarebbe soltanto un insieme di componenti elettroniche incapaci di dialogare tra loro in modo coordinato.",
+      "speech": "Senza un sistema operativo, un computer sarebbe soltanto un insieme di componenti elettroniche incapaci di dialogare tra loro in modo coordinato."
+    },
+    {
+      "text": "Le principali famiglie di sistemi operativi che vale la pena conoscere sono:",
+      "speech": "Le principali famiglie di sistemi operativi che vale la pena conoscere sono:"
+    },
+    {
+      "text": "Windows e macOS per i personal computer, Linux, diffuso anche in ambito server per la sua stabilità e flessibilità,",
+      "speech": "Windows e macOS per i personal computer, Linux, diffuso anche in ambito server per la sua stabilità e flessibilità,"
+    },
+    {
+      "text": "e Android e iOS per i dispositivi mobili, rispettivamente per smartphone di produttori diversi da Apple e per i dispositivi Apple stessi.",
+      "speech": "e Android e iOS per i dispositivi mobili, rispettivamente per smartphone di produttori diversi da Apple e per i dispositivi Apple stessi."
+    },
+    {
+      "text": "Notate come, pur essendo tutti sistemi operativi nel senso tecnico appena definito, ciascuno di questi sia stato progettato e ottimizzato per un contesto d'uso specifico, dal personal computer da scrivania al telefono che portate sempre con voi.",
+      "speech": "Notate come, pur essendo tutti sistemi operativi nel senso tecnico appena definito, ciascuno di questi sia stato progettato e ottimizzato per un contesto d'uso specifico, dal personal computer da scrivania al telefono che portate sempre con voi."
+    },
+    {
+      "text": "Concentriamoci ora su Windows, sviluppato da Microsoft, il sistema operativo più diffuso al mondo sui personal computer.",
+      "speech": "Concentriamoci ora su Windows, sviluppato da Microsoft, il sistema operativo più diffuso al mondo sui personal computer."
+    },
+    {
+      "text": "La sua interfaccia grafica si basa su alcuni elementi ormai familiari a chiunque abbia usato un computer, ma che vale la pena saper elencare con precisione tecnica in un'interrogazione.",
+      "speech": "La sua interfaccia grafica si basa su alcuni elementi ormai familiari a chiunque abbia usato un computer, ma che vale la pena saper elencare con precisione tecnica in un'interrogazione."
+    },
+    {
+      "text": "Il desktop, la scrivania virtuale su cui sono presenti icone di programmi e file, il primo elemento che vedete quando accendete il computer.",
+      "speech": "Il desktop, la scrivania virtuale su cui sono presenti icone di programmi e file, il primo elemento che vedete quando accendete il computer."
+    },
+    {
+      "text": "La barra delle applicazioni, o taskbar, che mostra i programmi in esecuzione e, tipicamente, l'orologio di sistema.",
+      "speech": "La barra delle applicazioni, o taskbar, che mostra i programmi in esecuzione e, tipicamente, l'orologio di sistema."
+    },
+    {
+      "text": "Il menu Start, da cui si accede rapidamente a programmi e impostazioni.",
+      "speech": "Il menu Start, da cui si accede rapidamente a programmi e impostazioni."
+    },
+    {
+      "text": "Ed Esplora file, il programma che permette di navigare tra cartelle e file, copiarli, spostarli, rinominarli ed eliminarli, lo strumento fondamentale per organizzare concretamente i propri documenti.",
+      "speech": "Ed Esplora file, il programma che permette di navigare tra cartelle e file, copiarli, spostarli, rinominarli ed eliminarli, lo strumento fondamentale per organizzare concretamente i propri documenti."
+    },
+    {
+      "text": "Fermatevi un momento su un collegamento che vale la pena esplicitare, perché unisce questo episodio a quello di due episodi fa sulle memorie di massa:",
+      "speech": "Fermatevi un momento su un collegamento che vale la pena esplicitare, perché unisce questo episodio a quello di due episodi fa sulle memorie di massa:"
+    },
+    {
+      "text": "quando usate Esplora file per navigare tra le vostre cartelle, state in realtà interagendo con il file system gestito dal sistema operativo, che organizza fisicamente i dati sulla memoria di massa,",
+      "speech": "quando usate Esplora file per navigare tra le vostre cartelle, state in realtà interagendo con il file system gestito dal sistema operativo, che organizza fisicamente i dati sulla memoria di massa,"
+    },
+    {
+      "text": "hard disk o SSD che sia, in una struttura logica di cartelle e sottocartelle comprensibile e navigabile per l'utente umano, nascondendo la complessità tecnica di come i dati siano effettivamente disposti sul disco.",
+      "speech": "hard disk o SSD che sia, in una struttura logica di cartelle e sottocartelle comprensibile e navigabile per l'utente umano, nascondendo la complessità tecnica di come i dati siano effettivamente disposti sul disco."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario che cosa succederebbe a un computer moderno se venisse rimosso il sistema operativo, lasciando solo l'hardware, come rispondereste?",
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario che cosa succederebbe a un computer moderno se venisse rimosso il sistema operativo, lasciando solo l'hardware, come rispondereste?"
+    },
+    {
+      "text": "Potreste osservare che il computer, pur avendo tutte le proprie componenti hardware perfettamente funzionanti, non sarebbe in grado di eseguire alcun programma applicativo, né di gestire in modo coordinato memoria,",
+      "speech": "Potreste osservare che il computer, pur avendo tutte le proprie componenti hardware perfettamente funzionanti, non sarebbe in grado di eseguire alcun programma applicativo, né di gestire in modo coordinato memoria,"
+    },
+    {
+      "text": "processore e periferiche, restando di fatto un insieme di componenti elettroniche inutilizzabili dall'utente, esattamente come un'orchestra perfettamente accordata ma priva di un direttore che ne coordini l'esecuzione.",
+      "speech": "processore e periferiche, restando di fatto un insieme di componenti elettroniche inutilizzabili dall'utente, esattamente come un'orchestra perfettamente accordata ma priva di un direttore che ne coordini l'esecuzione."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il sistema operativo gestisce processore, memoria, file system e periferiche, fornendo un'interfaccia uniforme tra hardware e utente.",
+      "speech": "Primo: il sistema operativo gestisce processore, memoria, file system e periferiche, fornendo un'interfaccia uniforme tra hardware e utente."
+    },
+    {
+      "text": "Secondo: le principali famiglie sono Windows e macOS per i PC, Linux per i server, Android e iOS per i dispositivi mobili.",
+      "speech": "Secondo: le principali famiglie sono Windows e macOS per i PC, Linux per i server, Android e iOS per i dispositivi mobili."
+    },
+    {
+      "text": "Terzo: l'interfaccia di Windows si basa su desktop, barra delle applicazioni, menu Start ed Esplora file.",
+      "speech": "Terzo: l'interfaccia di Windows si basa su desktop, barra delle applicazioni, menu Start ed Esplora file."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero Modulo 2.",
+      "speech": "Con questo abbiamo completato l'intero Modulo 2."
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nel Modulo 3, dedicato all'uso pratico di Word, il programma di videoscrittura più diffuso.",
+      "speech": "Nel prossimo episodio entriamo nel Modulo 3, dedicato all'uso pratico di Word, il programma di videoscrittura più diffuso."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

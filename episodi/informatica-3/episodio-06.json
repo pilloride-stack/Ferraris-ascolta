@@ -1,0 +1,168 @@
+{
+  "subject": "Informatica",
+  "episode": "06",
+  "title": "Sicurezza informatica, Internet, Intranet ed Extranet",
+  "class": "Classe terza",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto i dispositivi hardware di rete, router, switch e modem, e i quattro livelli del software di un sistema informatico orientato al web.",
+      "speech": "Nell'episodio scorso abbiamo visto i dispositivi hardware di rete, router, switch e modem, e i quattro livelli del software di un sistema informatico orientato al web."
+    },
+    {
+      "text": "Oggi completiamo il terzo modulo con la sicurezza dei dati, i principali servizi che Internet offre alle aziende, e la differenza tra Intranet ed Extranet.",
+      "speech": "Oggi completiamo il terzo modulo con la sicurezza dei dati, i principali servizi che Internet offre alle aziende, e la differenza tra Intranet ed Extranet."
+    },
+    {
+      "text": "La sicurezza informatica si occupa della salvaguardia dei sistemi informatici e dei dati da rischi e violazioni, garantendo tre proprietà fondamentali.",
+      "speech": "La sicurezza informatica si occupa della salvaguardia dei sistemi informatici e dei dati da rischi e violazioni, garantendo tre proprietà fondamentali."
+    },
+    {
+      "text": "La riservatezza, per cui i dati sono accessibili solo a chi è autorizzato.",
+      "speech": "La riservatezza, per cui i dati sono accessibili solo a chi è autorizzato."
+    },
+    {
+      "text": "L'integrità, per cui i dati non vengono alterati in modo non autorizzato.",
+      "speech": "L'integrità, per cui i dati non vengono alterati in modo non autorizzato."
+    },
+    {
+      "text": "E la disponibilità, per cui i dati e i servizi sono accessibili quando necessario.",
+      "speech": "E la disponibilità, per cui i dati e i servizi sono accessibili quando necessario."
+    },
+    {
+      "text": "Fermatevi un momento su queste tre proprietà, riservatezza, integrità e disponibilità, perché in un'interrogazione si tende a citarne solo una o due:",
+      "speech": "Fermatevi un momento su queste tre proprietà, riservatezza, integrità e disponibilità, perché in un'interrogazione si tende a citarne solo una o due:"
+    },
+    {
+      "text": "sono invece tre requisiti indipendenti tra loro, e un sistema può, per esempio, garantire la riservatezza dei dati ma non la loro disponibilità, se un attacco informatico rende inaccessibile il servizio pur senza violare i dati custoditi.",
+      "speech": "sono invece tre requisiti indipendenti tra loro, e un sistema può, per esempio, garantire la riservatezza dei dati ma non la loro disponibilità, se un attacco informatico rende inaccessibile il servizio pur senza violare i dati custoditi."
+    },
+    {
+      "text": "Le principali minacce informatiche comprendono i virus e il malware in generale, cioè software dannoso;",
+      "speech": "Le principali minacce informatiche comprendono i virus e il malware in generale, cioè software dannoso;"
+    },
+    {
+      "text": "il ransomware, che cifra i dati chiedendo un riscatto per renderli di nuovo leggibili; e il phishing, cioè tentativi di truffa realizzati tramite comunicazioni ingannevoli.",
+      "speech": "il ransomware, che cifra i dati chiedendo un riscatto per renderli di nuovo leggibili; e il phishing, cioè tentativi di truffa realizzati tramite comunicazioni ingannevoli."
+    },
+    {
+      "text": "A queste minacce corrispondono contromisure specifiche: l'uso di software antivirus, l'installazione di un firewall,",
+      "speech": "A queste minacce corrispondono contromisure specifiche: l'uso di software antivirus, l'installazione di un firewall,"
+    },
+    {
+      "text": "che filtra il traffico di rete in ingresso e in uscita, la crittografia dei dati sensibili, l'autenticazione degli utenti, e l'effettuazione di backup periodici.",
+      "speech": "che filtra il traffico di rete in ingresso e in uscita, la crittografia dei dati sensibili, l'autenticazione degli utenti, e l'effettuazione di backup periodici."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se doveste abbinare ciascuna minaccia alla sua contromisura più efficace, come fareste?",
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste abbinare ciascuna minaccia alla sua contromisura più efficace, come fareste?"
+    },
+    {
+      "text": "Contro virus e malware in generale, la difesa principale è un software antivirus sempre aggiornato;",
+      "speech": "Contro virus e malware in generale, la difesa principale è un software antivirus sempre aggiornato;"
+    },
+    {
+      "text": "contro il ransomware, che rende illeggibili i dati, la difesa più efficace sono i backup periodici e regolari, che permettono di recuperare i dati senza pagare alcun riscatto;",
+      "speech": "contro il ransomware, che rende illeggibili i dati, la difesa più efficace sono i backup periodici e regolari, che permettono di recuperare i dati senza pagare alcun riscatto;"
+    },
+    {
+      "text": "e contro gli accessi non autorizzati alla rete, la difesa tipica è il firewall, affiancato dall'autenticazione degli utenti,",
+      "speech": "e contro gli accessi non autorizzati alla rete, la difesa tipica è il firewall, affiancato dall'autenticazione degli utenti,"
+    },
+    {
+      "text": "mentre la crittografia protegge in modo specifico i dati durante la loro trasmissione, rendendoli illeggibili a chi li intercettasse senza autorizzazione.",
+      "speech": "mentre la crittografia protegge in modo specifico i dati durante la loro trasmissione, rendendoli illeggibili a chi li intercettasse senza autorizzazione."
+    },
+    {
+      "text": "Spostiamoci ora sui servizi che Internet offre oggi alle aziende, uno strumento ormai imprescindibile.",
+      "speech": "Spostiamoci ora sui servizi che Internet offre oggi alle aziende, uno strumento ormai imprescindibile."
+    },
+    {
+      "text": "Il sito web aziendale rappresenta la vetrina digitale dell'impresa.",
+      "speech": "Il sito web aziendale rappresenta la vetrina digitale dell'impresa."
+    },
+    {
+      "text": "L'e-commerce permette di vendere prodotti e servizi online.",
+      "speech": "L'e-commerce permette di vendere prodotti e servizi online."
+    },
+    {
+      "text": "Il cloud computing consente di utilizzare risorse di calcolo e di archiviazione remote, senza doverle possedere fisicamente, pagando in base al consumo effettivo.",
+      "speech": "Il cloud computing consente di utilizzare risorse di calcolo e di archiviazione remote, senza doverle possedere fisicamente, pagando in base al consumo effettivo."
+    },
+    {
+      "text": "I social media aziendali sono utilizzati per la comunicazione, il marketing e l'assistenza ai clienti.",
+      "speech": "I social media aziendali sono utilizzati per la comunicazione, il marketing e l'assistenza ai clienti."
+    },
+    {
+      "text": "E gli strumenti di VoIP, Voice over IP, permettono comunicazioni vocali a basso costo attraverso la rete Internet, in alternativa alla telefonia tradizionale.",
+      "speech": "E gli strumenti di VoIP, Voice over IP, permettono comunicazioni vocali a basso costo attraverso la rete Internet, in alternativa alla telefonia tradizionale."
+    },
+    {
+      "text": "Concludiamo con Intranet ed Extranet.",
+      "speech": "Concludiamo con Intranet ed Extranet."
+    },
+    {
+      "text": "L'intranet è una rete privata aziendale che utilizza le stesse tecnologie di Internet, protocollo TCP/IP, browser, pagine web,",
+      "speech": "L'intranet è una rete privata aziendale che utilizza le stesse tecnologie di Internet, protocollo TCP, IP, browser, pagine web,"
+    },
+    {
+      "text": "ma il cui accesso è riservato esclusivamente al personale interno dell'organizzazione, tipicamente protetto da un firewall,",
+      "speech": "ma il cui accesso è riservato esclusivamente al personale interno dell'organizzazione, tipicamente protetto da un firewall,"
+    },
+    {
+      "text": "e viene utilizzata per condividere documenti, procedure interne, comunicazioni aziendali e applicativi gestionali.",
+      "speech": "e viene utilizzata per condividere documenti, procedure interne, comunicazioni aziendali e applicativi gestionali."
+    },
+    {
+      "text": "L'extranet estende invece in modo controllato l'accesso all'intranet aziendale, o a una sua parte, a soggetti esterni ma fidati,",
+      "speech": "L'extranet estende invece in modo controllato l'accesso all'intranet aziendale, o a una sua parte, a soggetti esterni ma fidati,"
+    },
+    {
+      "text": "come fornitori, clienti o partner commerciali, tramite credenziali dedicate, permettendo una collaborazione più stretta senza esporre l'intera rete interna dell'azienda.",
+      "speech": "come fornitori, clienti o partner commerciali, tramite credenziali dedicate, permettendo una collaborazione più stretta senza esporre l'intera rete interna dell'azienda."
+    },
+    {
+      "text": "Fermatevi un momento su questa scala di accesso, perché è un ottimo modo per fissare in mente i tre concetti insieme:",
+      "speech": "Fermatevi un momento su questa scala di accesso, perché è un ottimo modo per fissare in mente i tre concetti insieme:"
+    },
+    {
+      "text": "Internet è pubblico e accessibile a chiunque; l'intranet è riservato al solo personale interno;",
+      "speech": "Internet è pubblico e accessibile a chiunque; l'intranet è riservato al solo personale interno;"
+    },
+    {
+      "text": "l'extranet, infine, si colloca a metà strada, estendendo un accesso controllato anche a soggetti esterni ma autorizzati,",
+      "speech": "l'extranet, infine, si colloca a metà strada, estendendo un accesso controllato anche a soggetti esterni ma autorizzati,"
+    },
+    {
+      "text": "come fornitori o clienti, senza però aprire la rete a chiunque come avviene su Internet.",
+      "speech": "come fornitori o clienti, senza però aprire la rete a chiunque come avviene su Internet."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: la sicurezza informatica garantisce riservatezza, integrità e disponibilità, contro minacce come virus, ransomware e phishing, contrastate da antivirus, firewall, crittografia, autenticazione e backup.",
+      "speech": "Primo: la sicurezza informatica garantisce riservatezza, integrità e disponibilità, contro minacce come virus, ransomware e phishing, contrastate da antivirus, firewall, crittografia, autenticazione e backup."
+    },
+    {
+      "text": "Secondo: Internet offre alle aziende sito web, e-commerce, cloud computing, social media e VoIP.",
+      "speech": "Secondo: Internet offre alle aziende sito web, e-commerce, cloud computing, social media e VoIP."
+    },
+    {
+      "text": "Terzo: Internet, intranet ed extranet si distinguono per il livello di accesso, pubblico, riservato al personale interno, o esteso a soggetti esterni autorizzati.",
+      "speech": "Terzo: Internet, intranet ed extranet si distinguono per il livello di accesso, pubblico, riservato al personale interno, o esteso a soggetti esterni autorizzati."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero terzo modulo.",
+      "speech": "Con questo abbiamo completato l'intero terzo modulo."
+    },
+    {
+      "text": "Nel prossimo episodio dedichiamo un ripasso completo a tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
+      "speech": "Nel prossimo episodio dedichiamo un ripasso completo a tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

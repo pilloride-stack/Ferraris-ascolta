@@ -1,0 +1,132 @@
+{
+  "subject": "Informatica",
+  "episode": "05",
+  "title": "Hardware e software di un sistema orientato al web",
+  "class": "Classe terza",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo completato il secondo modulo con la documentazione di progetto e una prima introduzione ad Access, con i suoi quattro oggetti principali e la procedura per creare una tabella.",
+      "speech": "Nell'episodio scorso abbiamo completato il secondo modulo con la documentazione di progetto e una prima introduzione ad Access, con i suoi quattro oggetti principali e la procedura per creare una tabella."
+    },
+    {
+      "text": "Oggi entriamo nel terzo modulo, dedicato al web, cominciando dagli aspetti hardware e software di un sistema informatico aziendale orientato alla rete.",
+      "speech": "Oggi entriamo nel terzo modulo, dedicato al web, cominciando dagli aspetti hardware e software di un sistema informatico aziendale orientato alla rete."
+    },
+    {
+      "text": "In un sistema informatico aziendale orientato al web, oltre ai personal computer utilizzati dagli utenti, giocano un ruolo centrale i server,",
+      "speech": "In un sistema informatico aziendale orientato al web, oltre ai personal computer utilizzati dagli utenti, giocano un ruolo centrale i server,"
+    },
+    {
+      "text": "cioè elaboratori dedicati a fornire servizi e risorse in rete, spesso ospitati in strutture specializzate chiamate data center,",
+      "speech": "cioè elaboratori dedicati a fornire servizi e risorse in rete, spesso ospitati in strutture specializzate chiamate data center,"
+    },
+    {
+      "text": "dotate di sistemi ridondanti di alimentazione e di raffreddamento, proprio per garantire la continuità del servizio anche in caso di guasto.",
+      "speech": "dotate di sistemi ridondanti di alimentazione e di raffreddamento, proprio per garantire la continuità del servizio anche in caso di guasto."
+    },
+    {
+      "text": "La componente di rete è affidata invece a dispositivi specifici, ciascuno con una funzione precisa.",
+      "speech": "La componente di rete è affidata invece a dispositivi specifici, ciascuno con una funzione precisa."
+    },
+    {
+      "text": "Il router instrada i pacchetti di dati tra reti diverse.",
+      "speech": "Il router instrada i pacchetti di dati tra reti diverse."
+    },
+    {
+      "text": "Lo switch smista il traffico all'interno di una stessa rete locale.",
+      "speech": "Lo switch smista il traffico all'interno di una stessa rete locale."
+    },
+    {
+      "text": "E il modem converte il segnale digitale del computer in un segnale trasmissibile sulla linea di connessione, che sia telefonica, in fibra ottica o via cavo.",
+      "speech": "E il modem converte il segnale digitale del computer in un segnale trasmissibile sulla linea di connessione, che sia telefonica, in fibra ottica o via cavo."
+    },
+    {
+      "text": "Fermatevi un momento su router e switch, perché è la coppia di termini che genera più confusione in questo argomento:",
+      "speech": "Fermatevi un momento su router e switch, perché è la coppia di termini che genera più confusione in questo argomento:"
+    },
+    {
+      "text": "il router lavora \"tra\" reti diverse, per esempio tra la vostra rete locale e Internet, decidendo verso quale rete instradare ogni pacchetto di dati;",
+      "speech": "il router lavora \"tra\" reti diverse, per esempio tra la vostra rete locale e Internet, decidendo verso quale rete instradare ogni pacchetto di dati;"
+    },
+    {
+      "text": "lo switch invece lavora \"dentro\" un'unica rete locale, smistando il traffico tra i dispositivi che ne fanno parte, per esempio tra i vari computer di un ufficio.",
+      "speech": "lo switch invece lavora \"dentro\" un'unica rete locale, smistando il traffico tra i dispositivi che ne fanno parte, per esempio tra i vari computer di un ufficio."
+    },
+    {
+      "text": "Uno collega reti tra loro diverse, l'altro distribuisce il traffico all'interno della stessa rete.",
+      "speech": "Uno collega reti tra loro diverse, l'altro distribuisce il traffico all'interno della stessa rete."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario la differenza tra router, switch e modem con un solo esempio pratico, come fareste?",
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario la differenza tra router, switch e modem con un solo esempio pratico, come fareste?"
+    },
+    {
+      "text": "Potreste immaginare un ufficio collegato a Internet tramite linea in fibra ottica: il modem converte il segnale della linea in un segnale utilizzabile dai dispositivi dell'ufficio;",
+      "speech": "Potreste immaginare un ufficio collegato a Internet tramite linea in fibra ottica: il modem converte il segnale della linea in un segnale utilizzabile dai dispositivi dell'ufficio;"
+    },
+    {
+      "text": "il router instrada il traffico tra la rete interna dell'ufficio e Internet;",
+      "speech": "il router instrada il traffico tra la rete interna dell'ufficio e Internet;"
+    },
+    {
+      "text": "e lo switch, all'interno dell'ufficio stesso, smista i dati tra i vari computer collegati alla rete locale, permettendo loro di comunicare tra loro e di raggiungere, tramite il router, la rete esterna.",
+      "speech": "e lo switch, all'interno dell'ufficio stesso, smista i dati tra i vari computer collegati alla rete locale, permettendo loro di comunicare tra loro e di raggiungere, tramite il router, la rete esterna."
+    },
+    {
+      "text": "Passiamo ora al versante software di questo stesso sistema informatico orientato al web, che si articola su più livelli distinti.",
+      "speech": "Passiamo ora al versante software di questo stesso sistema informatico orientato al web, che si articola su più livelli distinti."
+    },
+    {
+      "text": "Il software di base comprende il sistema operativo e il firmware, che gestiscono direttamente l'hardware.",
+      "speech": "Il software di base comprende il sistema operativo e il firmware, che gestiscono direttamente l'hardware."
+    },
+    {
+      "text": "Il software middleware fa da intermediario tra sistema operativo e applicazioni, gestendo per esempio la comunicazione tra client e server.",
+      "speech": "Il software middleware fa da intermediario tra sistema operativo e applicazioni, gestendo per esempio la comunicazione tra client e server."
+    },
+    {
+      "text": "Il software applicativo comprende, dal lato client, il browser che utilizzate per navigare, e dal lato server, un software come Apache o Nginx, cioè un vero e proprio server web.",
+      "speech": "Il software applicativo comprende, dal lato client, il browser che utilizzate per navigare, e dal lato server, un software come Apache o Nginx, cioè un vero e proprio server web."
+    },
+    {
+      "text": "E infine il software di rete implementa i protocolli di comunicazione, come TCP/IP e HTTP/HTTPS, necessari allo scambio di dati tra i dispositivi collegati.",
+      "speech": "E infine il software di rete implementa i protocolli di comunicazione, come TCP, IP e HTTP, HTTPS, necessari allo scambio di dati tra i dispositivi collegati."
+    },
+    {
+      "text": "Fermatevi un momento su questi quattro livelli software, perché mostrano con chiarezza come, dietro a un semplice clic su un sito web, agiscano insieme diversi strati di software:",
+      "speech": "Fermatevi un momento su questi quattro livelli software, perché mostrano con chiarezza come, dietro a un semplice clic su un sito web, agiscano insieme diversi strati di software:"
+    },
+    {
+      "text": "il vostro browser, che è software applicativo lato client, dialoga tramite i protocolli del software di rete con il server web, che è software applicativo lato server,",
+      "speech": "il vostro browser, che è software applicativo lato client, dialoga tramite i protocolli del software di rete con il server web, che è software applicativo lato server,"
+    },
+    {
+      "text": "mentre middleware e software di base lavorano dietro le quinte per rendere possibile tutto questo scambio in modo coordinato.",
+      "speech": "mentre middleware e software di base lavorano dietro le quinte per rendere possibile tutto questo scambio in modo coordinato."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: server e data center forniscono servizi e risorse in rete, con sistemi ridondanti di alimentazione e raffreddamento.",
+      "speech": "Primo: server e data center forniscono servizi e risorse in rete, con sistemi ridondanti di alimentazione e raffreddamento."
+    },
+    {
+      "text": "Secondo: router, switch e modem svolgono funzioni distinte, instradare tra reti diverse, smistare dentro la stessa rete locale, e convertire il segnale per la linea di connessione.",
+      "speech": "Secondo: router, switch e modem svolgono funzioni distinte, instradare tra reti diverse, smistare dentro la stessa rete locale, e convertire il segnale per la linea di connessione."
+    },
+    {
+      "text": "Terzo: il software di un sistema orientato al web si articola in software di base, middleware, applicativo e di rete, quest'ultimo basato su protocolli come TCP/IP e HTTP/HTTPS.",
+      "speech": "Terzo: il software di un sistema orientato al web si articola in software di base, middleware, applicativo e di rete, quest'ultimo basato su protocolli come TCP, IP e HTTP, HTTPS."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo la sicurezza dei dati, i principali servizi offerti da Internet alle aziende, e la differenza tra Intranet ed Extranet.",
+      "speech": "Nel prossimo episodio vediamo la sicurezza dei dati, i principali servizi offerti da Internet alle aziende, e la differenza tra Intranet ed Extranet."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

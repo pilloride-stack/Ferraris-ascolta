@@ -1,0 +1,156 @@
+{
+  "subject": "Informatica",
+  "episode": "02",
+  "title": "Classificazione del software, privacy e sistemi informativi",
+  "class": "Classe terza",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la normativa a tutela della salute nei luoghi di lavoro e la tutela giuridica del software, con le sue quattro tipologie di licenza.",
+      "speech": "Nell'episodio scorso abbiamo visto la normativa a tutela della salute nei luoghi di lavoro e la tutela giuridica del software, con le sue quattro tipologie di licenza."
+    },
+    {
+      "text": "Oggi completiamo il primo modulo occupandoci della classificazione dei software per funzione, della tutela della privacy attraverso il GDPR, e dei sistemi informativi aziendali.",
+      "speech": "Oggi completiamo il primo modulo occupandoci della classificazione dei software per funzione, della tutela della privacy attraverso il GDPR, e dei sistemi informativi aziendali."
+    },
+    {
+      "text": "Accanto alla classificazione per tipo di licenza che abbiamo visto la scorsa volta, i software si distinguono anche per la funzione che svolgono.",
+      "speech": "Accanto alla classificazione per tipo di licenza che abbiamo visto la scorsa volta, i software si distinguono anche per la funzione che svolgono."
+    },
+    {
+      "text": "Il software di sistema comprende il sistema operativo e i driver, cioè i programmi che gestiscono direttamente le risorse hardware del computer.",
+      "speech": "Il software di sistema comprende il sistema operativo e i driver, cioè i programmi che gestiscono direttamente le risorse hardware del computer."
+    },
+    {
+      "text": "Il software applicativo comprende i programmi destinati a svolgere compiti specifici per l'utente, come Word o Excel.",
+      "speech": "Il software applicativo comprende i programmi destinati a svolgere compiti specifici per l'utente, come Word o Excel."
+    },
+    {
+      "text": "E il software gestionale comprende gli applicativi dedicati alla gestione dei processi aziendali, come la contabilità o la gestione del magazzino.",
+      "speech": "E il software gestionale comprende gli applicativi dedicati alla gestione dei processi aziendali, come la contabilità o la gestione del magazzino."
+    },
+    {
+      "text": "Proprio l'uso dei software gestionali richiama da vicino il tema della privacy, cioè la protezione dei dati personali trattati dalle aziende.",
+      "speech": "Proprio l'uso dei software gestionali richiama da vicino il tema della privacy, cioè la protezione dei dati personali trattati dalle aziende."
+    },
+    {
+      "text": "In Europa questa materia è disciplinata dal Regolamento generale sulla protezione dei dati, il GDPR, Regolamento UE 2016/679, che individua ruoli precisi,",
+      "speech": "In Europa questa materia è disciplinata dal Regolamento generale sulla protezione dei dati, il GDPR, Regolamento UE 2016/679, che individua ruoli precisi,"
+    },
+    {
+      "text": "come il titolare e il responsabile del trattamento, e attribuisce agli interessati, cioè alle persone i cui dati vengono trattati, diritti specifici:",
+      "speech": "come il titolare e il responsabile del trattamento, e attribuisce agli interessati, cioè alle persone i cui dati vengono trattati, diritti specifici:"
+    },
+    {
+      "text": "il diritto di accesso ai propri dati, il diritto di rettifica, e il diritto di cancellazione, il cosiddetto diritto all'oblio.",
+      "speech": "il diritto di accesso ai propri dati, il diritto di rettifica, e il diritto di cancellazione, il cosiddetto diritto all'oblio."
+    },
+    {
+      "text": "Fermatevi un momento su questi tre diritti, perché sono spesso richiesti con precisione in un'interrogazione:",
+      "speech": "Fermatevi un momento su questi tre diritti, perché sono spesso richiesti con precisione in un'interrogazione:"
+    },
+    {
+      "text": "il diritto di accesso permette all'interessato di sapere quali dati un'azienda detiene su di lui, il diritto di rettifica permette di farli correggere se inesatti,",
+      "speech": "il diritto di accesso permette all'interessato di sapere quali dati un'azienda detiene su di lui, il diritto di rettifica permette di farli correggere se inesatti,"
+    },
+    {
+      "text": "e il diritto di cancellazione, il diritto all'oblio, permette di chiederne la rimozione.",
+      "speech": "e il diritto di cancellazione, il diritto all'oblio, permette di chiederne la rimozione."
+    },
+    {
+      "text": "Notate che sono tre diritti distinti e progressivi, non sinonimi tra loro.",
+      "speech": "Notate che sono tre diritti distinti e progressivi, non sinonimi tra loro."
+    },
+    {
+      "text": "Spostiamoci ora su un argomento diverso ma collegato, quello dei sistemi informativi aziendali.",
+      "speech": "Spostiamoci ora su un argomento diverso ma collegato, quello dei sistemi informativi aziendali."
+    },
+    {
+      "text": "Il sistema informativo aziendale è l'insieme organizzato di persone, procedure, dati e tecnologie che raccoglie, elabora, archivia e distribuisce le informazioni necessarie al funzionamento dell'azienda e al supporto delle decisioni.",
+      "speech": "Il sistema informativo aziendale è l'insieme organizzato di persone, procedure, dati e tecnologie che raccoglie, elabora, archivia e distribuisce le informazioni necessarie al funzionamento dell'azienda e al supporto delle decisioni."
+    },
+    {
+      "text": "Fermatevi un momento su una distinzione che genera facilmente confusione, tra sistema informativo e sistema informatico:",
+      "speech": "Fermatevi un momento su una distinzione che genera facilmente confusione, tra sistema informativo e sistema informatico:"
+    },
+    {
+      "text": "il sistema informativo, come abbiamo appena detto, comprende persone, procedure, dati e tecnologie, cioè è un concetto molto ampio;",
+      "speech": "il sistema informativo, come abbiamo appena detto, comprende persone, procedure, dati e tecnologie, cioè è un concetto molto ampio;"
+    },
+    {
+      "text": "il sistema informatico, invece, ne rappresenta soltanto la componente tecnologica automatizzata, cioè hardware e software.",
+      "speech": "il sistema informatico, invece, ne rappresenta soltanto la componente tecnologica automatizzata, cioè hardware e software."
+    },
+    {
+      "text": "In altre parole, il sistema informatico è una parte, per quanto centrale, del più ampio sistema informativo aziendale.",
+      "speech": "In altre parole, il sistema informatico è una parte, per quanto centrale, del più ampio sistema informativo aziendale."
+    },
+    {
+      "text": "I sistemi informativi si classificano in base al livello decisionale a cui sono destinati.",
+      "speech": "I sistemi informativi si classificano in base al livello decisionale a cui sono destinati."
+    },
+    {
+      "text": "I sistemi di elaborazione delle transazioni, detti TPS, gestiscono le operazioni quotidiane e ripetitive, al livello operativo.",
+      "speech": "I sistemi di elaborazione delle transazioni, detti TPS, gestiscono le operazioni quotidiane e ripetitive, al livello operativo."
+    },
+    {
+      "text": "I sistemi informativi direzionali, detti MIS, forniscono report di sintesi ai quadri intermedi, al livello tattico.",
+      "speech": "I sistemi informativi direzionali, detti MIS, forniscono report di sintesi ai quadri intermedi, al livello tattico."
+    },
+    {
+      "text": "E i sistemi di supporto alle decisioni, detti DSS, assistono i dirigenti nella pianificazione strategica dell'azienda, al livello strategico.",
+      "speech": "E i sistemi di supporto alle decisioni, detti DSS, assistono i dirigenti nella pianificazione strategica dell'azienda, al livello strategico."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: immaginate un'azienda che deve registrare ogni vendita effettuata in giornata, un responsabile di reparto che deve leggere un report mensile delle vendite,",
+      "speech": "Proviamo un piccolo esercizio insieme: immaginate un'azienda che deve registrare ogni vendita effettuata in giornata, un responsabile di reparto che deve leggere un report mensile delle vendite,"
+    },
+    {
+      "text": "e un direttore generale che deve decidere se aprire un nuovo punto vendita.",
+      "speech": "e un direttore generale che deve decidere se aprire un nuovo punto vendita."
+    },
+    {
+      "text": "Quale sistema informativo userebbe ciascuno?",
+      "speech": "Quale sistema informativo userebbe ciascuno?"
+    },
+    {
+      "text": "La registrazione delle vendite quotidiane è compito di un TPS, che gestisce le transazioni operative;",
+      "speech": "La registrazione delle vendite quotidiane è compito di un TPS, che gestisce le transazioni operative;"
+    },
+    {
+      "text": "il report mensile per il responsabile di reparto è tipico di un MIS, che sintetizza i dati per il livello tattico;",
+      "speech": "il report mensile per il responsabile di reparto è tipico di un MIS, che sintetizza i dati per il livello tattico;"
+    },
+    {
+      "text": "mentre la decisione strategica del direttore generale si appoggia a un DSS, pensato proprio per supportare le scelte di pianificazione di lungo periodo.",
+      "speech": "mentre la decisione strategica del direttore generale si appoggia a un DSS, pensato proprio per supportare le scelte di pianificazione di lungo periodo."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: i software si classificano per funzione in software di sistema, applicativo e gestionale.",
+      "speech": "Primo: i software si classificano per funzione in software di sistema, applicativo e gestionale."
+    },
+    {
+      "text": "Secondo: il GDPR tutela la privacy attribuendo agli interessati il diritto di accesso, di rettifica e di cancellazione, il diritto all'oblio.",
+      "speech": "Secondo: il GDPR tutela la privacy attribuendo agli interessati il diritto di accesso, di rettifica e di cancellazione, il diritto all'oblio."
+    },
+    {
+      "text": "Terzo: il sistema informativo, più ampio del sistema informatico, si classifica in base al livello decisionale in TPS, MIS e DSS.",
+      "speech": "Terzo: il sistema informativo, più ampio del sistema informatico, si classifica in base al livello decisionale in TPS, MIS e DSS."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero primo modulo.",
+      "speech": "Con questo abbiamo completato l'intero primo modulo."
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dagli archivi e dai database.",
+      "speech": "Nel prossimo episodio entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dagli archivi e dai database."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "subject": "Informatica",
+  "episode": "03",
+  "title": "Linguaggi lato client e lato server, interazione con database",
+  "class": "Classe quarta AFM",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la differenza tra usabilità e accessibilità, e quella tra siti web statici e dinamici.",
+      "speech": "Nell'episodio scorso abbiamo visto la differenza tra usabilità e accessibilità, e quella tra siti web statici e dinamici."
+    },
+    {
+      "text": "Oggi entriamo più nel dettaglio tecnico dei siti dinamici, distinguendo i linguaggi di programmazione lato client e lato server,",
+      "speech": "Oggi entriamo più nel dettaglio tecnico dei siti dinamici, distinguendo i linguaggi di programmazione lato client e lato server,"
+    },
+    {
+      "text": "e osservando come un sito dinamico interagisce concretamente con un database.",
+      "speech": "e osservando come un sito dinamico interagisce concretamente con un database."
+    },
+    {
+      "text": "Nello sviluppo di un sito web dinamico si distinguono due ambienti di esecuzione del codice, ed è una distinzione che vale la pena avere ben chiara.",
+      "speech": "Nello sviluppo di un sito web dinamico si distinguono due ambienti di esecuzione del codice, ed è una distinzione che vale la pena avere ben chiara."
+    },
+    {
+      "text": "Il codice lato client, o front-end, viene eseguito direttamente nel browser dell'utente:",
+      "speech": "Il codice lato client, o front-end, viene eseguito direttamente nel browser dell'utente:"
+    },
+    {
+      "text": "HTML definisce la struttura dei contenuti, CSS ne definisce la presentazione grafica,",
+      "speech": "HTML definisce la struttura dei contenuti, CSS ne definisce la presentazione grafica,"
+    },
+    {
+      "text": "e JavaScript ne gestisce l'interattività, permettendo ad esempio di validare un modulo o di aggiornare parte di una pagina senza doverla ricaricare interamente.",
+      "speech": "e JavaScript ne gestisce l'interattività, permettendo ad esempio di validare un modulo o di aggiornare parte di una pagina senza doverla ricaricare interamente."
+    },
+    {
+      "text": "Il codice lato server, o back-end, viene invece eseguito sul server web prima che la pagina venga inviata al client, ed è scritto in linguaggi come PHP, Python, Java o C sharp:",
+      "speech": "Il codice lato server, o back-end, viene invece eseguito sul server web prima che la pagina venga inviata al client, ed è scritto in linguaggi come PHP, Python, Java o C sharp:"
+    },
+    {
+      "text": "si occupa tipicamente della logica applicativa, dell'autenticazione degli utenti e dell'interrogazione dei database.",
+      "speech": "si occupa tipicamente della logica applicativa, dell'autenticazione degli utenti e dell'interrogazione dei database."
+    },
+    {
+      "text": "Fermatevi un momento su questa distinzione, perché la domanda «dove viene eseguito il codice» è la chiave per non confondersi mai tra i due ambienti.",
+      "speech": "Fermatevi un momento su questa distinzione, perché la domanda «dove viene eseguito il codice» è la chiave per non confondersi mai tra i due ambienti."
+    },
+    {
+      "text": "Se un'operazione avviene istantaneamente nel vostro browser, senza che la pagina debba ricaricarsi né dialogare con un server, quella è quasi certamente logica lato client, scritta in HTML, CSS o JavaScript.",
+      "speech": "Se un'operazione avviene istantaneamente nel vostro browser, senza che la pagina debba ricaricarsi né dialogare con un server, quella è quasi certamente logica lato client, scritta in HTML, CSS o JavaScript."
+    },
+    {
+      "text": "Se invece un'operazione richiede di recuperare o salvare dati che non erano già presenti nella pagina,",
+      "speech": "Se invece un'operazione richiede di recuperare o salvare dati che non erano già presenti nella pagina,"
+    },
+    {
+      "text": "come il login a un account o la ricerca in un catalogo prodotti, lì entra in gioco necessariamente il codice lato server, perché è il server, non il vostro browser, ad avere accesso al database.",
+      "speech": "come il login a un account o la ricerca in un catalogo prodotti, lì entra in gioco necessariamente il codice lato server, perché è il server, non il vostro browser, ad avere accesso al database."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, come funziona concretamente questa interazione in un sito dinamico che si appoggia a un database, prendendo come esempio un utente che cerca «scarpe da corsa» sul sito di un e-commerce.",
+      "speech": "Vediamo insieme, passo dopo passo, come funziona concretamente questa interazione in un sito dinamico che si appoggia a un database, prendendo come esempio un utente che cerca «scarpe da corsa» sul sito di un e-commerce."
+    },
+    {
+      "text": "Per prima cosa il browser del client invia la richiesta di ricerca al server web.",
+      "speech": "Per prima cosa il browser del client invia la richiesta di ricerca al server web."
+    },
+    {
+      "text": "Poi il server esegue il codice lato server, che genera una query verso il database dei prodotti, filtrando per la categoria richiesta.",
+      "speech": "Poi il server esegue il codice lato server, che genera una query verso il database dei prodotti, filtrando per la categoria richiesta."
+    },
+    {
+      "text": "Poi il database restituisce l'elenco dei prodotti corrispondenti alla ricerca.",
+      "speech": "Poi il database restituisce l'elenco dei prodotti corrispondenti alla ricerca."
+    },
+    {
+      "text": "Infine il server compone dinamicamente la pagina HTML con i risultati ottenuti, e la invia al browser, che la visualizza all'utente.",
+      "speech": "Infine il server compone dinamicamente la pagina HTML con i risultati ottenuti, e la invia al browser, che la visualizza all'utente."
+    },
+    {
+      "text": "Questo meccanismo, ripetuto per ogni richiesta, è alla base del funzionamento di un sito di e-commerce, in cui catalogo,",
+      "speech": "Questo meccanismo, ripetuto per ogni richiesta, è alla base del funzionamento di un sito di e-commerce, in cui catalogo,"
+    },
+    {
+      "text": "prezzi e disponibilità a magazzino sono memorizzati nel database e visualizzati dinamicamente in base a ciò che l'utente sta cercando in quel momento.",
+      "speech": "prezzi e disponibilità a magazzino sono memorizzati nel database e visualizzati dinamicamente in base a ciò che l'utente sta cercando in quel momento."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: provate a classificare voi stessi, per ciascuno dei seguenti elementi, se appartiene al lato client o al lato server, di un sito di e-commerce:",
+      "speech": "Proviamo un piccolo esercizio insieme: provate a classificare voi stessi, per ciascuno dei seguenti elementi, se appartiene al lato client o al lato server, di un sito di e-commerce:"
+    },
+    {
+      "text": "il colore del pulsante «Aggiungi al carrello», e il calcolo della disponibilità effettiva di un prodotto in magazzino.",
+      "speech": "il colore del pulsante «Aggiungi al carrello», e il calcolo della disponibilità effettiva di un prodotto in magazzino."
+    },
+    {
+      "text": "Il colore del pulsante è definito in CSS, quindi appartiene al lato client, eseguito nel browser.",
+      "speech": "Il colore del pulsante è definito in CSS, quindi appartiene al lato client, eseguito nel browser."
+    },
+    {
+      "text": "La disponibilità effettiva del prodotto, invece, richiede di interrogare il database aggiornato in tempo reale, un'operazione che solo il codice lato server, sul server web, può compiere.",
+      "speech": "La disponibilità effettiva del prodotto, invece, richiede di interrogare il database aggiornato in tempo reale, un'operazione che solo il codice lato server, sul server web, può compiere."
+    },
+    {
+      "text": "Notate come questo intero meccanismo dipenda da una collaborazione continua tra i due ambienti:",
+      "speech": "Notate come questo intero meccanismo dipenda da una collaborazione continua tra i due ambienti:"
+    },
+    {
+      "text": "il lato client si occupa di ciò che l'utente vede e con cui interagisce direttamente, il lato server di tutto ciò che richiede l'accesso a dati custoditi altrove, sul server e nel suo database.",
+      "speech": "il lato client si occupa di ciò che l'utente vede e con cui interagisce direttamente, il lato server di tutto ciò che richiede l'accesso a dati custoditi altrove, sul server e nel suo database."
+    },
+    {
+      "text": "Nessuno dei due, da solo, potrebbe far funzionare un moderno sito di e-commerce.",
+      "speech": "Nessuno dei due, da solo, potrebbe far funzionare un moderno sito di e-commerce."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il codice lato client, in HTML, CSS e JavaScript, viene eseguito nel browser dell'utente e gestisce struttura, grafica e interattività.",
+      "speech": "Primo: il codice lato client, in HTML, CSS e JavaScript, viene eseguito nel browser dell'utente e gestisce struttura, grafica e interattività."
+    },
+    {
+      "text": "Secondo: il codice lato server, in linguaggi come PHP, Python, Java o C sharp, viene eseguito sul server e gestisce logica applicativa, autenticazione e accesso ai database.",
+      "speech": "Secondo: il codice lato server, in linguaggi come PHP, Python, Java o C sharp, viene eseguito sul server e gestisce logica applicativa, autenticazione e accesso ai database."
+    },
+    {
+      "text": "Terzo: in un sito dinamico, la richiesta dell'utente attiva un flusso preciso, dal browser al server, dal server al database e ritorno, che genera la pagina HTML finale.",
+      "speech": "Terzo: in un sito dinamico, la richiesta dell'utente attiva un flusso preciso, dal browser al server, dal server al database e ritorno, che genera la pagina HTML finale."
+    },
+    {
+      "text": "Nel prossimo episodio ci concentriamo su SQL, il linguaggio con cui i siti dinamici interrogano concretamente i propri database, e vediamo insieme come si costruisce una semplice interrogazione.",
+      "speech": "Nel prossimo episodio ci concentriamo su SQL, il linguaggio con cui i siti dinamici interrogano concretamente i propri database, e vediamo insieme come si costruisce una semplice interrogazione."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

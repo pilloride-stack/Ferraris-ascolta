@@ -1,0 +1,116 @@
+{
+  "subject": "Informatica",
+  "episode": "04",
+  "title": "Navigazione e ricerca in rete",
+  "class": "Classe seconda",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il diritto informatico e il modello client-server con cui viaggiano i dati in rete.",
+      "speech": "Nell'episodio scorso abbiamo visto il diritto informatico e il modello client-server con cui viaggiano i dati in rete."
+    },
+    {
+      "text": "Oggi vediamo come si naviga concretamente sul Web, e come si effettua una ricerca efficace tramite un motore di ricerca.",
+      "speech": "Oggi vediamo come si naviga concretamente sul Web, e come si effettua una ricerca efficace tramite un motore di ricerca."
+    },
+    {
+      "text": "Il browser è il programma che permette di visualizzare le pagine web e di navigare tra di esse; i browser più diffusi sono Google Chrome, Mozilla Firefox, Microsoft Edge e Safari.",
+      "speech": "Il browser è il programma che permette di visualizzare le pagine web e di navigare tra di esse; i browser più diffusi sono Google Chrome, Mozilla Firefox, Microsoft Edge e Safari."
+    },
+    {
+      "text": "Ogni pagina web è identificata da un indirizzo univoco, l'URL, Uniform Resource Locator, che si compone di tre elementi principali:",
+      "speech": "Ogni pagina web è identificata da un indirizzo univoco, l'URL, Uniform Resource Locator, che si compone di tre elementi principali:"
+    },
+    {
+      "text": "il protocollo, per esempio https://, che indica la modalità con cui i dati vengono trasferiti;",
+      "speech": "il protocollo, per esempio https://, che indica la modalità con cui i dati vengono trasferiti;"
+    },
+    {
+      "text": "il dominio, per esempio www.galileoferraris.com, cioè il nome che identifica il sito; e il percorso, per esempio /pagina, cioè la posizione della risorsa specifica all'interno del sito.",
+      "speech": "il dominio, per esempio www.galileoferraris.com, cioè il nome che identifica il sito; e il percorso, per esempio /pagina, cioè la posizione della risorsa specifica all'interno del sito."
+    },
+    {
+      "text": "Il servizio DNS, Domain Name System, traduce i nomi di dominio, leggibili dall'uomo, nei corrispondenti indirizzi IP numerici, utilizzati dai computer per comunicare tra loro in rete:",
+      "speech": "Il servizio DNS, Domain Name System, traduce i nomi di dominio, leggibili dall'uomo, nei corrispondenti indirizzi IP numerici, utilizzati dai computer per comunicare tra loro in rete:"
+    },
+    {
+      "text": "senza il DNS, per raggiungere un sito dovreste ricordare a memoria una lunga sequenza di numeri anziché un nome comprensibile.",
+      "speech": "senza il DNS, per raggiungere un sito dovreste ricordare a memoria una lunga sequenza di numeri anziché un nome comprensibile."
+    },
+    {
+      "text": "Fermatevi un momento su una distinzione che compare quasi sempre nelle interrogazioni: la differenza tra HTTP e HTTPS.",
+      "speech": "Fermatevi un momento su una distinzione che compare quasi sempre nelle interrogazioni: la differenza tra HTTP e HTTPS."
+    },
+    {
+      "text": "Le pagine web vengono trasferite tramite il protocollo HTTP oppure, nella sua variante sicura e crittografata, HTTPS, oggi lo standard raccomandato per proteggere la riservatezza dei dati scambiati tra il vostro dispositivo e il server.",
+      "speech": "Le pagine web vengono trasferite tramite il protocollo HTTP oppure, nella sua variante sicura e crittografata, HTTPS, oggi lo standard raccomandato per proteggere la riservatezza dei dati scambiati tra il vostro dispositivo e il server."
+    },
+    {
+      "text": "Quando navigate su un sito che gestisce dati sensibili, come le credenziali di accesso o i dati di una carta di pagamento, la presenza della «s» finale,",
+      "speech": "Quando navigate su un sito che gestisce dati sensibili, come le credenziali di accesso o i dati di una carta di pagamento, la presenza della «s» finale,"
+    },
+    {
+      "text": "e del lucchetto che il browser mostra accanto all'indirizzo, indica che la comunicazione è cifrata e quindi più difficile da intercettare per un malintenzionato.",
+      "speech": "e del lucchetto che il browser mostra accanto all'indirizzo, indica che la comunicazione è cifrata e quindi più difficile da intercettare per un malintenzionato."
+    },
+    {
+      "text": "Passiamo ora alla ricerca di informazioni in rete.",
+      "speech": "Passiamo ora alla ricerca di informazioni in rete."
+    },
+    {
+      "text": "I motori di ricerca, come Google, Bing o DuckDuckGo, sono sistemi automatici che analizzano ed indicizzano il contenuto delle pagine web, restituendo agli utenti un elenco ordinato di risultati pertinenti rispetto a una query di ricerca.",
+      "speech": "I motori di ricerca, come Google, Bing o DuckDuckGo, sono sistemi automatici che analizzano ed indicizzano il contenuto delle pagine web, restituendo agli utenti un elenco ordinato di risultati pertinenti rispetto a una query di ricerca."
+    },
+    {
+      "text": "Per ottenere risultati efficaci è utile utilizzare parole chiave specifiche, racchiudere tra virgolette un'espressione da cercare esattamente, ed escludere termini indesiderati con l'operatore «meno».",
+      "speech": "Per ottenere risultati efficaci è utile utilizzare parole chiave specifiche, racchiudere tra virgolette un'espressione da cercare esattamente, ed escludere termini indesiderati con l'operatore «meno»."
+    },
+    {
+      "text": "È inoltre fondamentale valutare criticamente l'attendibilità delle fonti trovate online, verificando l'autorevolezza del sito, la data di pubblicazione e la presenza di riscontri su fonti indipendenti:",
+      "speech": "È inoltre fondamentale valutare criticamente l'attendibilità delle fonti trovate online, verificando l'autorevolezza del sito, la data di pubblicazione e la presenza di riscontri su fonti indipendenti:"
+    },
+    {
+      "text": "un'abitudine che vi servirà ben oltre l'esame di informatica.",
+      "speech": "un'abitudine che vi servirà ben oltre l'esame di informatica."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se voleste cercare online la frase esatta «esame di idoneità», escludendo però tutti i risultati che riguardano l'università, come impostereste la vostra ricerca nel motore di ricerca?",
+      "speech": "Proviamo un piccolo esercizio insieme: se voleste cercare online la frase esatta «esame di idoneità», escludendo però tutti i risultati che riguardano l'università, come impostereste la vostra ricerca nel motore di ricerca?"
+    },
+    {
+      "text": "La soluzione corretta è digitare la frase tra virgolette, per cercarla esattamente così com'è, seguita dall'operatore meno attaccato alla parola da escludere, senza spazio: \"esame di idoneità\" -università.",
+      "speech": "La soluzione corretta è digitare la frase tra virgolette, per cercarla esattamente così come è, seguita dall'operatore meno attaccato alla parola da escludere, senza spazio: \"esame di idoneità\" -università."
+    },
+    {
+      "text": "In questo modo il motore di ricerca restituirà soltanto le pagine che contengono quell'espressione precisa, scartando quelle legate al contesto universitario.",
+      "speech": "In questo modo il motore di ricerca restituirà soltanto le pagine che contengono quell'espressione precisa, scartando quelle legate al contesto universitario."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: il browser permette di navigare tra le pagine web, ciascuna identificata da un URL composto da protocollo, dominio e percorso, mentre il DNS traduce i nomi di dominio in indirizzi IP.",
+      "speech": "Primo: il browser permette di navigare tra le pagine web, ciascuna identificata da un URL composto da protocollo, dominio e percorso, mentre il DNS traduce i nomi di dominio in indirizzi IP."
+    },
+    {
+      "text": "Secondo: HTTP e HTTPS sono i protocolli di trasferimento delle pagine web, con HTTPS che garantisce una comunicazione cifrata e più sicura.",
+      "speech": "Secondo: HTTP e HTTPS sono i protocolli di trasferimento delle pagine web, con HTTPS che garantisce una comunicazione cifrata e più sicura."
+    },
+    {
+      "text": "Terzo: i motori di ricerca indicizzano il Web e restituiscono risultati pertinenti,",
+      "speech": "Terzo: i motori di ricerca indicizzano il Web e restituiscono risultati pertinenti,"
+    },
+    {
+      "text": "e una ricerca efficace usa parole chiave precise, virgolette per le frasi esatte, l'operatore meno per escludere termini, oltre a una valutazione critica dell'attendibilità delle fonti.",
+      "speech": "e una ricerca efficace usa parole chiave precise, virgolette per le frasi esatte, l'operatore meno per escludere termini, oltre a una valutazione critica dell'attendibilità delle fonti."
+    },
+    {
+      "text": "Nel prossimo episodio vediamo la posta elettronica e le norme per un utilizzo responsabile della rete, completando così il Modulo 2.",
+      "speech": "Nel prossimo episodio vediamo la posta elettronica e le norme per un utilizzo responsabile della rete, completando così il Modulo 2."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

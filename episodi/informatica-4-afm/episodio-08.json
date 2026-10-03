@@ -1,0 +1,132 @@
+{
+  "subject": "Informatica",
+  "episode": "08",
+  "title": "La sicurezza nelle transazioni online",
+  "class": "Classe quarta AFM",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il marketing online e i principali formati di pubblicità digitale.",
+      "speech": "Nell'episodio scorso abbiamo visto il marketing online e i principali formati di pubblicità digitale."
+    },
+    {
+      "text": "Oggi chiudiamo il Modulo 2 con un tema che riguarda ogni singola transazione che abbiamo incontrato finora, dall'e-commerce all'home banking: la sicurezza nelle transazioni online.",
+      "speech": "Oggi chiudiamo il Modulo 2 con un tema che riguarda ogni singola transazione che abbiamo incontrato finora, dall'e-commerce all'home banking: la sicurezza nelle transazioni online."
+    },
+    {
+      "text": "La sicurezza delle transazioni online si basa su diversi livelli di protezione, che è utile saper distinguere con precisione, perché ciascuno interviene in un momento diverso del processo.",
+      "speech": "La sicurezza delle transazioni online si basa su diversi livelli di protezione, che è utile saper distinguere con precisione, perché ciascuno interviene in un momento diverso del processo."
+    },
+    {
+      "text": "Il protocollo HTTPS crittografa la comunicazione tra browser e server tramite i protocolli SSL e TLS, impedendo l'intercettazione dei dati da parte di terzi mentre viaggiano in rete.",
+      "speech": "Il protocollo HTTPS crittografa la comunicazione tra browser e server tramite i protocolli SSL e TLS, impedendo l'intercettazione dei dati da parte di terzi mentre viaggiano in rete."
+    },
+    {
+      "text": "I certificati digitali attestano l'identità di un sito web, garantendo che chi si presenta come una certa banca o un certo negozio online sia davvero quello che dichiara di essere.",
+      "speech": "I certificati digitali attestano l'identità di un sito web, garantendo che chi si presenta come una certa banca o un certo negozio online sia davvero quello che dichiara di essere."
+    },
+    {
+      "text": "La firma digitale garantisce l'autenticità e l'integrità di un documento informatico.",
+      "speech": "La firma digitale garantisce l'autenticità e l'integrità di un documento informatico."
+    },
+    {
+      "text": "E sistemi di autenticazione rafforzata come il 3D Secure, per i pagamenti con carta, richiedono una conferma aggiuntiva, ad esempio un codice ricevuto via SMS o tramite app, oltre ai soli dati della carta.",
+      "speech": "E sistemi di autenticazione rafforzata come il 3D Secure, per i pagamenti con carta, richiedono una conferma aggiuntiva, ad esempio un codice ricevuto via SMS o tramite app, oltre ai soli dati della carta."
+    },
+    {
+      "text": "Fermatevi un momento su un punto che vale la pena chiarire con estrema attenzione, perché è la causa di molti errori pratici e di molte truffe reali:",
+      "speech": "Fermatevi un momento su un punto che vale la pena chiarire con estrema attenzione, perché è la causa di molti errori pratici e di molte truffe reali:"
+    },
+    {
+      "text": "nessuna di queste misure tecniche, per quanto solida, protegge automaticamente un utente che venga ingannato con l'inganno più antico e ancora oggi più efficace, il phishing.",
+      "speech": "nessuna di queste misure tecniche, per quanto solida, protegge automaticamente un utente che venga ingannato con l'inganno più antico e ancora oggi più efficace, il phishing."
+    },
+    {
+      "text": "Il phishing consiste in comunicazioni ingannevoli, tipicamente email o messaggi,",
+      "speech": "Il phishing consiste in comunicazioni ingannevoli, tipicamente email o messaggi,"
+    },
+    {
+      "text": "che imitano l'aspetto di banche o servizi di pagamento per sottrarre credenziali direttamente all'utente, convincendolo a inserirle su un sito falso identico all'originale.",
+      "speech": "che imitano l'aspetto di banche o servizi di pagamento per sottrarre credenziali direttamente all'utente, convincendolo a inserirle su un sito falso identico all'originale."
+    },
+    {
+      "text": "Un sito di phishing può benissimo avere un indirizzo HTTPS regolare e un lucchetto verde nella barra del browser,",
+      "speech": "Un sito di phishing può benissimo avere un indirizzo HTTPS regolare e un lucchetto verde nella barra del browser,"
+    },
+    {
+      "text": "perché quel lucchetto attesta solo che la comunicazione con quel server è crittografata, non che il sito appartenga davvero alla banca che dichiara di essere.",
+      "speech": "perché quel lucchetto attesta solo che la comunicazione con quel server è crittografata, non che il sito appartenga davvero alla banca che dichiara di essere."
+    },
+    {
+      "text": "La vera difesa contro il phishing, quindi, non è tecnica ma di attenzione:",
+      "speech": "La vera difesa contro il phishing, quindi, non è tecnica ma di attenzione:"
+    },
+    {
+      "text": "verificare sempre con cura l'indirizzo esatto del sito e non fidarsi mai di richieste urgenti di credenziali arrivate via email.",
+      "speech": "verificare sempre con cura l'indirizzo esatto del sito e non fidarsi mai di richieste urgenti di credenziali arrivate via email."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: immaginate di ricevere un'email che sembra provenire dalla vostra banca, che vi invita con urgenza a cliccare un link per «verificare» il vostro conto corrente, altrimenti verrà bloccato entro ventiquattr'ore.",
+      "speech": "Proviamo un piccolo esercizio insieme: immaginate di ricevere un'email che sembra provenire dalla vostra banca, che vi invita con urgenza a cliccare un link per «verificare» il vostro conto corrente, altrimenti verrà bloccato entro ventiquattr'ore."
+    },
+    {
+      "text": "Quali elementi, tra quelli visti oggi, dovreste considerare prima di agire?",
+      "speech": "Quali elementi, tra quelli visti oggi, dovreste considerare prima di agire?"
+    },
+    {
+      "text": "Dovreste innanzitutto sospettare del tono di urgenza artificiale, tipico del phishing;",
+      "speech": "Dovreste innanzitutto sospettare del tono di urgenza artificiale, tipico del phishing;"
+    },
+    {
+      "text": "dovreste poi controllare con attenzione l'indirizzo del mittente e, soprattutto, l'indirizzo esatto del sito a cui il link vi porterebbe, senza fidarvi del solo fatto che appaia un lucchetto HTTPS;",
+      "speech": "dovreste poi controllare con attenzione l'indirizzo del mittente e, soprattutto, l'indirizzo esatto del sito a cui il link vi porterebbe, senza fidarvi del solo fatto che appaia un lucchetto HTTPS;"
+    },
+    {
+      "text": "e, in caso di dubbio, la scelta più sicura è contattare direttamente la banca tramite i suoi canali ufficiali, senza mai cliccare il link ricevuto.",
+      "speech": "e, in caso di dubbio, la scelta più sicura è contattare direttamente la banca tramite i suoi canali ufficiali, senza mai cliccare il link ricevuto."
+    },
+    {
+      "text": "Accanto al phishing, che riguarda l'inganno dell'utente, le altre misure viste oggi proteggono invece la comunicazione e i pagamenti da un punto di vista più propriamente tecnico:",
+      "speech": "Accanto al phishing, che riguarda l'inganno dell'utente, le altre misure viste oggi proteggono invece la comunicazione e i pagamenti da un punto di vista più propriamente tecnico:"
+    },
+    {
+      "text": "HTTPS protegge i dati in transito da un'eventuale intercettazione, i certificati digitali attestano l'identità del sito con cui si sta comunicando, la firma digitale garantisce che un documento non sia stato alterato,",
+      "speech": "HTTPS protegge i dati in transito da un'eventuale intercettazione, i certificati digitali attestano l'identità del sito con cui si sta comunicando, la firma digitale garantisce che un documento non sia stato alterato,"
+    },
+    {
+      "text": "e il 3D Secure aggiunge un livello di conferma ulteriore proprio nel momento del pagamento con carta, quando il rischio di un uso fraudolento è più concreto.",
+      "speech": "e il 3D Secure aggiunge un livello di conferma ulteriore proprio nel momento del pagamento con carta, quando il rischio di un uso fraudolento è più concreto."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: HTTPS, tramite SSL e TLS, crittografa la comunicazione tra browser e server, mentre i certificati digitali ne attestano l'identità.",
+      "speech": "Primo: HTTPS, tramite SSL e TLS, crittografa la comunicazione tra browser e server, mentre i certificati digitali ne attestano l'identità."
+    },
+    {
+      "text": "Secondo: la firma digitale garantisce autenticità e integrità di un documento informatico, e il 3D Secure aggiunge un'autenticazione rafforzata ai pagamenti con carta.",
+      "speech": "Secondo: la firma digitale garantisce autenticità e integrità di un documento informatico, e il 3D Secure aggiunge un'autenticazione rafforzata ai pagamenti con carta."
+    },
+    {
+      "text": "Terzo: nessuna misura tecnica protegge da sola dal phishing, che inganna direttamente l'utente imitando comunicazioni di banche o servizi di pagamento,",
+      "speech": "Terzo: nessuna misura tecnica protegge da sola dal phishing, che inganna direttamente l'utente imitando comunicazioni di banche o servizi di pagamento,"
+    },
+    {
+      "text": "e richiede quindi attenzione personale oltre alla tecnologia.",
+      "speech": "e richiede quindi attenzione personale oltre alla tecnologia."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero Modulo 2.",
+      "speech": "Con questo abbiamo completato l'intero Modulo 2."
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nel Modulo 3, dedicato ai software gestionali, cominciando dal ciclo di vita del software e da come si valuta la fattibilità di un progetto informatico.",
+      "speech": "Nel prossimo episodio entriamo nel Modulo 3, dedicato ai software gestionali, cominciando dal ciclo di vita del software e da come si valuta la fattibilità di un progetto informatico."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

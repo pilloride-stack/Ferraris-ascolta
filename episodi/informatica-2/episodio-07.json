@@ -1,0 +1,152 @@
+{
+  "subject": "Informatica",
+  "episode": "07",
+  "title": "Excel: tabelle, grafici e stampa",
+  "class": "Classe seconda",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto l'interfaccia di Excel, le celle, le formule e la differenza tra riferimenti relativi e assoluti.",
+      "speech": "Nell'episodio scorso abbiamo visto l'interfaccia di Excel, le celle, le formule e la differenza tra riferimenti relativi e assoluti."
+    },
+    {
+      "text": "Oggi completiamo il Modulo 3, e con esso l'intera dispensa, vedendo come organizzare i dati in tabelle, come rappresentarli con i grafici, e come impaginarli correttamente prima di stamparli.",
+      "speech": "Oggi completiamo il Modulo 3, e con esso l'intera dispensa, vedendo come organizzare i dati in tabelle, come rappresentarli con i grafici, e come impaginarli correttamente prima di stamparli."
+    },
+    {
+      "text": "Oltre alle formule di calcolo, Excel permette di organizzare i dati in vere e proprie tabelle strutturate, che facilitano operazioni come l'ordinamento e il filtro dei dati,",
+      "speech": "Oltre alle formule di calcolo, Excel permette di organizzare i dati in vere e proprie tabelle strutturate, che facilitano operazioni come l'ordinamento e il filtro dei dati,"
+    },
+    {
+      "text": "e di applicare la formattazione condizionale, che modifica automaticamente l'aspetto delle celle, per esempio il colore, in base al loro contenuto:",
+      "speech": "e di applicare la formattazione condizionale, che modifica automaticamente l'aspetto delle celle, per esempio il colore, in base al loro contenuto:"
+    },
+    {
+      "text": "una funzione molto utile per far emergere a colpo d'occhio i valori più significativi di un insieme di dati, senza doverli leggere uno per uno.",
+      "speech": "una funzione molto utile per far emergere a colpo d'occhio i valori più significativi di un insieme di dati, senza doverli leggere uno per uno."
+    },
+    {
+      "text": "Per rappresentare visivamente i dati, Excel offre diversi tipi di grafici, e qui arriviamo a un altro punto su cui è bene fermarsi un momento con attenzione:",
+      "speech": "Per rappresentare visivamente i dati, Excel offre diversi tipi di grafici, e qui arriviamo a un altro punto su cui è bene fermarsi un momento con attenzione:"
+    },
+    {
+      "text": "la scelta del tipo di grafico non è indifferente, perché ciascun tipo si adatta a un utilizzo specifico, ed è un errore frequente usarli in modo intercambiabile.",
+      "speech": "la scelta del tipo di grafico non è indifferente, perché ciascun tipo si adatta a un utilizzo specifico, ed è un errore frequente usarli in modo intercambiabile."
+    },
+    {
+      "text": "Gli istogrammi sono adatti a confrontare valori tra categorie diverse, per esempio le vendite di più prodotti nello stesso mese.",
+      "speech": "Gli istogrammi sono adatti a confrontare valori tra categorie diverse, per esempio le vendite di più prodotti nello stesso mese."
+    },
+    {
+      "text": "I grafici a torta sono adatti a mostrare la composizione percentuale di un totale, per esempio come si ripartiscono le vendite complessive tra le diverse categorie di prodotto.",
+      "speech": "I grafici a torta sono adatti a mostrare la composizione percentuale di un totale, per esempio come si ripartiscono le vendite complessive tra le diverse categorie di prodotto."
+    },
+    {
+      "text": "I grafici a linee, infine, sono adatti a mostrare l'andamento di un valore nel tempo, per esempio le vendite mese per mese nel corso di un anno.",
+      "speech": "I grafici a linee, infine, sono adatti a mostrare l'andamento di un valore nel tempo, per esempio le vendite mese per mese nel corso di un anno."
+    },
+    {
+      "text": "Scegliere il grafico sbagliato per il tipo di dato che si vuole comunicare rende il grafico stesso poco utile, anche se i dati alla base sono corretti.",
+      "speech": "Scegliere il grafico sbagliato per il tipo di dato che si vuole comunicare rende il grafico stesso poco utile, anche se i dati alla base sono corretti."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se doveste rappresentare come le vendite complessive di un negozio si ripartiscono percentualmente tra quattro categorie di prodotto, quale grafico scegliereste?",
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste rappresentare come le vendite complessive di un negozio si ripartiscono percentualmente tra quattro categorie di prodotto, quale grafico scegliereste?"
+    },
+    {
+      "text": "La risposta corretta è il grafico a torta, perché è pensato esattamente per mostrare la composizione percentuale di un totale,",
+      "speech": "La risposta corretta è il grafico a torta, perché è pensato esattamente per mostrare la composizione percentuale di un totale,"
+    },
+    {
+      "text": "mentre un istogramma sarebbe più adatto se voleste semplicemente confrontare i valori assoluti delle vendite tra le categorie,",
+      "speech": "mentre un istogramma sarebbe più adatto se voleste semplicemente confrontare i valori assoluti delle vendite tra le categorie,"
+    },
+    {
+      "text": "e un grafico a linee se voleste invece mostrare come le vendite di una singola categoria cambiano nel corso dei mesi.",
+      "speech": "e un grafico a linee se voleste invece mostrare come le vendite di una singola categoria cambiano nel corso dei mesi."
+    },
+    {
+      "text": "Vediamo insieme, passo dopo passo, come si crea un grafico a torta in Excel.",
+      "speech": "Vediamo insieme, passo dopo passo, come si crea un grafico a torta in Excel."
+    },
+    {
+      "text": "Per prima cosa si seleziona l'intervallo di celle contenente i dati da rappresentare, comprese le etichette che identificano ciascuna categoria.",
+      "speech": "Per prima cosa si seleziona l'intervallo di celle contenente i dati da rappresentare, comprese le etichette che identificano ciascuna categoria."
+    },
+    {
+      "text": "Poi si seleziona la scheda Inserisci, quindi Grafici, quindi Grafico a torta.",
+      "speech": "Poi si seleziona la scheda Inserisci, quindi Grafici, quindi Grafico a torta."
+    },
+    {
+      "text": "Infine si sceglie la variante desiderata e si personalizzano titolo e legenda dalla scheda contestuale Progettazione grafico.",
+      "speech": "Infine si sceglie la variante desiderata e si personalizzano titolo e legenda dalla scheda contestuale Progettazione grafico."
+    },
+    {
+      "text": "Il grafico a torta viene così inserito nel foglio di lavoro, e si aggiorna automaticamente se in seguito i dati di origine cambiano, senza bisogno di ricrearlo da capo.",
+      "speech": "Il grafico a torta viene così inserito nel foglio di lavoro, e si aggiorna automaticamente se in seguito i dati di origine cambiano, senza bisogno di ricrearlo da capo."
+    },
+    {
+      "text": "Concludiamo con l'impaginazione e la stampa.",
+      "speech": "Concludiamo con l'impaginazione e la stampa."
+    },
+    {
+      "text": "Prima di stampare un foglio di calcolo è opportuno verificarne l'impaginazione tramite l'anteprima di stampa, raggiungibile da File e poi Stampa;",
+      "speech": "Prima di stampare un foglio di calcolo è opportuno verificarne l'impaginazione tramite l'anteprima di stampa, raggiungibile da File e poi Stampa;"
+    },
+    {
+      "text": "definire l'area di stampa, cioè la porzione di foglio da includere;",
+      "speech": "definire l'area di stampa, cioè la porzione di foglio da includere;"
+    },
+    {
+      "text": "scegliere l'orientamento della pagina, verticale oppure orizzontale, spesso preferibile per tabelle molto larghe che altrimenti verrebbero tagliate;",
+      "speech": "scegliere l'orientamento della pagina, verticale oppure orizzontale, spesso preferibile per tabelle molto larghe che altrimenti verrebbero tagliate;"
+    },
+    {
+      "text": "e, se necessario, adattare il contenuto a un numero prestabilito di pagine.",
+      "speech": "e, se necessario, adattare il contenuto a un numero prestabilito di pagine."
+    },
+    {
+      "text": "È inoltre possibile inserire intestazioni e piè di pagina personalizzati, utili per esempio per includere il numero di pagina, la data o il nome del documento su ogni foglio stampato.",
+      "speech": "È inoltre possibile inserire intestazioni e piè di pagina personalizzati, utili per esempio per includere il numero di pagina, la data o il nome del documento su ogni foglio stampato."
+    },
+    {
+      "text": "Con questi ultimi strumenti abbiamo completato un percorso che ci ha portato dall'infrastruttura di Internet e dalle regole che ne disciplinano l'uso, all'utilizzo concreto dei suoi servizi principali,",
+      "speech": "Con questi ultimi strumenti abbiamo completato un percorso che ci ha portato dall'infrastruttura di Internet e dalle regole che ne disciplinano l'uso, all'utilizzo concreto dei suoi servizi principali,"
+    },
+    {
+      "text": "fino a uno strumento professionale fondamentale come il foglio di calcolo Excel, con le sue formule, le sue tabelle e i suoi grafici.",
+      "speech": "fino a uno strumento professionale fondamentale come il foglio di calcolo Excel, con le sue formule, le sue tabelle e i suoi grafici."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi."
+    },
+    {
+      "text": "Primo: Excel permette di organizzare i dati in tabelle strutturate, con ordinamento, filtro e formattazione condizionale.",
+      "speech": "Primo: Excel permette di organizzare i dati in tabelle strutturate, con ordinamento, filtro e formattazione condizionale."
+    },
+    {
+      "text": "Secondo: i tre principali tipi di grafico sono l'istogramma, per confrontare categorie, il grafico a torta, per mostrare composizioni percentuali,",
+      "speech": "Secondo: i tre principali tipi di grafico sono l'istogramma, per confrontare categorie, il grafico a torta, per mostrare composizioni percentuali,"
+    },
+    {
+      "text": "e il grafico a linee, per mostrare andamenti nel tempo, ciascuno da scegliere in base al messaggio che si vuole comunicare.",
+      "speech": "e il grafico a linee, per mostrare andamenti nel tempo, ciascuno da scegliere in base al messaggio che si vuole comunicare."
+    },
+    {
+      "text": "Terzo: prima di stampare un foglio di calcolo occorre controllare l'anteprima di stampa, l'area di stampa, l'orientamento della pagina ed eventualmente intestazioni e piè di pagina.",
+      "speech": "Terzo: prima di stampare un foglio di calcolo occorre controllare l'anteprima di stampa, l'area di stampa, l'orientamento della pagina ed eventualmente intestazioni e piè di pagina."
+    },
+    {
+      "text": "Con questo abbiamo completato l'intero Modulo 3, e con esso tutti gli argomenti di questa dispensa.",
+      "speech": "Con questo abbiamo completato l'intero Modulo 3, e con esso tutti gli argomenti di questa dispensa."
+    },
+    {
+      "text": "Nel prossimo episodio dedichiamo un intero ripasso a tutte le domande guida, per arrivare preparati all'esame.",
+      "speech": "Nel prossimo episodio dedichiamo un intero ripasso a tutte le domande guida, per arrivare preparati all'esame."
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}
