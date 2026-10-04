@@ -1,0 +1,47 @@
+name: video
+
+on:
+  push:
+    branches: [main]
+    paths: ["video-src/**"]
+  workflow_dispatch:
+    inputs:
+      materia:
+        description: "Materia (es. filosofia3)"
+        required: true
+      episodio:
+        description: "Nome cartella episodio in video-src/<materia>/ (es. episodio01_introduzione_e_scuola_di_mileto)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: video
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installa ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+
+      - name: Genera il video
+        env:
+          TTS_KEY: ${{ secrets.TTS_KEY }}
+        run: python3 tools/make_video.py "${{ github.event.inputs.materia }}" "${{ github.event.inputs.episodio }}"
+
+      - name: Salva il video nel repository
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add consegne
+          if git diff --cached --quiet; then echo "Nessun video nuovo"; exit 0; fi
+          git commit -m "Video generato automaticamente: ${{ github.event.inputs.materia }}/${{ github.event.inputs.episodio }}"
+          git pull --rebase -q
+          git push
