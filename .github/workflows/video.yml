@@ -1,9 +1,6 @@
 name: video
 
 on:
-  push:
-    branches: [main]
-    paths: ["video-src/**"]
   workflow_dispatch:
     inputs:
       materia:
