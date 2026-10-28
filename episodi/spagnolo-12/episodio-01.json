@@ -42,7 +42,7 @@
     },
     {
       "text": "Il primo blocco di vocabolario riguarda i saluti e le presentazioni, saludos y presentaciones, indispensabili per gestire qualunque prima conversazione in spagnolo. ¡Hola! corrisponde al nostro «ciao», utilizzabile in ogni momento della giornata;",
-      "speech": "Il primo blocco di vocabolario riguarda i saluti e le presentazioni, saludos y presentaciones, indispensabili per gestire qualunque prima conversazione in spagnolo. ¡Hola! corrisponde al nostro «ciao», utilizzabile in ogni momento della giornata;",
+      "speech": "Il primo blocco di vocabolario riguarda i saluti e le presentazioni, saludos y presentaciones, indispensabili per gestire qualunque prima conversazione in spagnolo. ¡Hola! corrisponde al nostro ciao, utilizzabile in ogni momento della giornata;",
       "bold": [
         [
           42,
@@ -61,6 +61,7 @@
           199
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -80,10 +81,9 @@
         },
         {
           "lang": "it",
-          "text": "corrisponde al nostro «ciao», utilizzabile in ogni momento della giornata;"
+          "text": "corrisponde al nostro ciao, utilizzabile in ogni momento della giornata;"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Buenos días si usa la mattina, Buenas tardes nel pomeriggio, e Buenas noches sia per la sera sia, con valore diverso, per augurare la buonanotte.",
@@ -175,7 +175,7 @@
     },
     {
       "text": "e per congedarsi si usano Adiós, per un commiato definitivo, o Hasta luego, per un arrivederci più informale, «a dopo».",
-      "speech": "e per congedarsi si usano Adiós, per un commiato definitivo, o Hasta luego, per un arrivederci più informale, «a dopo».",
+      "speech": "e per congedarsi si usano Adiós, per un commiato definitivo, o Hasta luego, per un arrivederci più informale, a dopo.",
       "bold": [
         [
           26,
@@ -209,7 +209,7 @@
         },
         {
           "lang": "it",
-          "text": "per un arrivederci più informale, «a dopo»."
+          "text": "per un arrivederci più informale, a dopo."
         }
       ]
     },
@@ -226,6 +226,7 @@
           31
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -235,8 +236,7 @@
           "lang": "es",
           "text": "los números."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Da zero a dieci abbiamo cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.",
@@ -295,7 +295,7 @@
     },
     {
       "text": "come «dieciséis» per «sedici» o «veintiuno» per «ventuno», un tratto ortografico caratteristico della lingua che vale la pena osservare fin da subito.",
-      "speech": "come «dieciséis» per «sedici» o «veintiuno» per «ventuno», un tratto ortografico caratteristico della lingua che vale la pena osservare fin da subito.",
+      "speech": "come dieciséis per sedici o veintiuno per ventuno, un tratto ortografico caratteristico della lingua che vale la pena osservare fin da subito.",
       "bold": [
         [
           6,
@@ -317,23 +317,23 @@
       "parts": [
         {
           "lang": "it",
-          "text": "come «"
+          "text": "come"
         },
         {
           "lang": "es",
-          "text": "dieciséis»"
+          "text": "dieciséis"
         },
         {
           "lang": "it",
-          "text": "per «sedici» o «"
+          "text": "per sedici o"
         },
         {
           "lang": "es",
-          "text": "veintiuno»"
+          "text": "veintiuno"
         },
         {
           "lang": "it",
-          "text": "per «ventuno», un tratto ortografico caratteristico della lingua che vale la pena osservare fin da subito."
+          "text": "per ventuno, un tratto ortografico caratteristico della lingua che vale la pena osservare fin da subito."
         }
       ]
     },
@@ -394,6 +394,7 @@
           97
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -403,8 +404,7 @@
           "lang": "es",
           "text": "los días, los meses y las estaciones."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "I giorni sono lunes, martes, miércoles, jueves, viernes, sábado e domingo — da notare che, a differenza dell'italiano, in spagnolo i giorni della settimana non si scrivono con la lettera maiuscola.",
@@ -543,6 +543,7 @@
           70
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -552,8 +553,7 @@
           "lang": "es",
           "text": "los colores:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "rojo per il rosso, azul per il blu, amarillo per il giallo, verde per il verde, blanco per il bianco, negro per il nero, gris per il grigio, naranja per l'arancione, marrón per il marrone e rosa per il rosa.",
@@ -689,7 +689,7 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, per fissare quanto appena visto: come si dice in spagnolo «il colore del cielo sereno»?",
-      "speech": "Proviamo un piccolo esercizio insieme, per fissare quanto appena visto: come si dice in spagnolo «il colore del cielo sereno»?",
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare quanto appena visto: come si dice in spagnolo il colore del cielo sereno?",
       "bold": [
         [
           98,
@@ -840,6 +840,7 @@
           112
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -857,8 +858,7 @@
           "lang": "es",
           "text": "llamo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: i numeri da zero a venti seguono uno schema specifico, con alcune particolarità ortografiche rispetto all'italiano.",
@@ -907,6 +907,7 @@
           105
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -920,8 +921,7 @@
           "lang": "it",
           "text": "e rosa."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio entriamo nel Modulo 2 di grammatica e affrontiamo il primo grande tempo verbale spagnolo, il presente indicativo, insieme al pretérito perfecto per parlare del passato recente.",
@@ -936,6 +936,7 @@
           165
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -949,8 +950,7 @@
           "lang": "it",
           "text": "per parlare del passato recente."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

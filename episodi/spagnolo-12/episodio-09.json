@@ -53,6 +53,7 @@
           207
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -74,8 +75,7 @@
           "lang": "it",
           "text": "insieme ai comparativi e ai superlativi."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Cominciamo da preguntar e pedir.",
@@ -90,6 +90,7 @@
           31
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -107,8 +108,7 @@
           "lang": "es",
           "text": "pedir."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Preguntar significa chiedere un'informazione, come in Le pregunto la hora, gli chiedo l'ora;",
@@ -201,7 +201,7 @@
     },
     {
       "text": "usare preguntar anche nel senso di «richiedere», calcando direttamente l'italiano «chiedere», che in italiano copre entrambi i significati.",
-      "speech": "usare preguntar anche nel senso di «richiedere», calcando direttamente l'italiano «chiedere», che in italiano copre entrambi i significati.",
+      "speech": "usare preguntar anche nel senso di richiedere, calcando direttamente l'italiano chiedere, che in italiano copre entrambi i significati.",
       "bold": [
         [
           6,
@@ -227,7 +227,7 @@
         },
         {
           "lang": "it",
-          "text": "anche nel senso di «richiedere», calcando direttamente l'italiano «chiedere», che in italiano copre entrambi i significati."
+          "text": "anche nel senso di richiedere, calcando direttamente l'italiano chiedere, che in italiano copre entrambi i significati."
         }
       ]
     },
@@ -280,6 +280,7 @@
           25
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -301,12 +302,11 @@
           "lang": "it",
           "text": "forse la coppia più temuta di tutta la grammatica spagnola,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "perché entrambe le preposizioni traducono, in molti contesti, l'italiano «per», ma esprimono relazioni concettualmente diverse.",
-      "speech": "perché entrambe le preposizioni traducono, in molti contesti, l'italiano «per», ma esprimono relazioni concettualmente diverse.",
+      "speech": "perché entrambe le preposizioni traducono, in molti contesti, l'italiano per, ma esprimono relazioni concettualmente diverse.",
       "bold": [
         [
           74,
@@ -504,24 +504,24 @@
     },
     {
       "text": "Proviamo un esercizio insieme: come completereste «Voy a ______ (preguntar/pedir) la hora al profesor»?",
-      "speech": "Proviamo un esercizio insieme: come completereste «Voy a … (preguntar/pedir) la hora al profesor»?",
+      "speech": "Proviamo un esercizio insieme: come completereste Voy a … (preguntar/pedir) la hora al profesor?",
       "bold": [
         [
           51,
           101
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un esercizio insieme: come completereste «"
+          "text": "Proviamo un esercizio insieme: come completereste"
         },
         {
           "lang": "es",
-          "text": "Voy a … (preguntar/pedir) la hora al profesor»?"
+          "text": "Voy a … (preguntar/pedir) la hora al profesor?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Preguntar, perché si tratta di un'informazione.",
@@ -545,7 +545,7 @@
     },
     {
       "text": "«Voy a ______ (preguntar/pedir) un favor a mi amiga»?",
-      "speech": "«Voy a … (preguntar/pedir) un favor a mi amiga»?",
+      "speech": "Voy a … (preguntar/pedir) un favor a mi amiga?",
       "bold": [
         [
           1,
@@ -555,7 +555,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Voy a … (preguntar/pedir) un favor a mi amiga»?"
+          "text": "Voy a … (preguntar/pedir) un favor a mi amiga?"
         }
       ]
     },
@@ -581,7 +581,7 @@
     },
     {
       "text": "«Este regalo es ______ (por/para) mi madre»?",
-      "speech": "«Este regalo es … (por/para) mi madre»?",
+      "speech": "Este regalo es … (por/para) mi madre?",
       "bold": [
         [
           1,
@@ -591,7 +591,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Este regalo es … (por/para) mi madre»?"
+          "text": "Este regalo es … (por/para) mi madre?"
         }
       ]
     },
@@ -617,7 +617,7 @@
     },
     {
       "text": "«Hemos viajado ______ (por/para) toda España»?",
-      "speech": "«Hemos viajado … (por/para) toda España»?",
+      "speech": "Hemos viajado … (por/para) toda España?",
       "bold": [
         [
           1,
@@ -627,7 +627,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Hemos viajado … (por/para) toda España»?"
+          "text": "Hemos viajado … (por/para) toda España?"
         }
       ]
     },
@@ -653,7 +653,7 @@
     },
     {
       "text": "«Necesito los deberes ______ (por/para) el viernes»?",
-      "speech": "«Necesito los deberes … (por/para) el viernes»?",
+      "speech": "Necesito los deberes … (por/para) el viernes?",
       "bold": [
         [
           1,
@@ -663,7 +663,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Necesito los deberes … (por/para) el viernes»?"
+          "text": "Necesito los deberes … (por/para) el viernes?"
         }
       ]
     },
@@ -1005,7 +1005,7 @@
     },
     {
       "text": "Notate come queste forme irregolari corrispondano quasi perfettamente, per analogia semantica, ai nostri «migliore», «peggiore», «maggiore» e «minore» italiani, un parallelismo che può aiutarvi a memorizzarle più facilmente.",
-      "speech": "Notate come queste forme irregolari corrispondano quasi perfettamente, per analogia semantica, ai nostri «migliore», «peggiore», «maggiore» e «minore» italiani, un parallelismo che può aiutarvi a memorizzarle più facilmente.",
+      "speech": "Notate come queste forme irregolari corrispondano quasi perfettamente, per analogia semantica, ai nostri migliore, peggiore, maggiore e minore italiani, un parallelismo che può aiutarvi a memorizzarle più facilmente.",
       "bold": [
         [
           106,
@@ -1055,6 +1055,7 @@
           100
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1076,8 +1077,7 @@
           "lang": "it",
           "text": "significa richiedere qualcosa o un favore."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: por indica causa, mezzo e moto attraverso un luogo, mentre para indica scopo, destinazione, scadenza e destinatario.",
@@ -1096,6 +1096,7 @@
           72
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1117,8 +1118,7 @@
           "lang": "it",
           "text": "indica scopo, destinazione, scadenza e destinatario."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: i comparativi si formano con más/menos/tan... que, i superlativi con el/la más... de oppure con il suffisso -ísimo.",
@@ -1141,6 +1141,7 @@
           121
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1166,8 +1167,7 @@
           "lang": "es",
           "text": "ísimo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: bueno, malo, grande e pequeño hanno forme comparative e superlative irregolari, mejor, peor, mayor e menor.",
@@ -1198,6 +1198,7 @@
           114
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1231,8 +1232,7 @@
           "lang": "es",
           "text": "menor."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Con questo abbiamo completato tutta la grammatica della Classe I.",
@@ -1252,6 +1252,7 @@
           156
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1265,8 +1266,7 @@
           "lang": "it",
           "text": "le comunità autonome che compongono il paese."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

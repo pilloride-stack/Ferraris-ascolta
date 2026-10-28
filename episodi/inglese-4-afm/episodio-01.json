@@ -53,6 +53,7 @@
           54
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -66,8 +67,7 @@
           "lang": "it",
           "text": "viene scritta quando un cliente non è soddisfatto della merce o del servizio ricevuto:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "articoli sbagliati, consegna in ritardo, merce danneggiata, fatturazione errata sono le cause più comuni.",
@@ -113,24 +113,24 @@
     },
     {
       "text": "Guardiamo un esempio concreto di apertura di una lettera di reclamo, perché la struttura conta quanto il contenuto: «We refer to our order No. 4521 of 3 June, for 200 units of ref.",
-      "speech": "Guardiamo un esempio concreto di apertura di una lettera di reclamo, perché la struttura conta quanto il contenuto: «We refer to our order No. 4521 of 3 June, for 200 units of ref.",
+      "speech": "Guardiamo un esempio concreto di apertura di una lettera di reclamo, perché la struttura conta quanto il contenuto: We refer to our order No. 4521 of 3 June, for 200 units of ref.",
       "bold": [
         [
           117,
           179
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Guardiamo un esempio concreto di apertura di una lettera di reclamo, perché la struttura conta quanto il contenuto: «"
+          "text": "Guardiamo un esempio concreto di apertura di una lettera di reclamo, perché la struttura conta quanto il contenuto:"
         },
         {
           "lang": "en",
           "text": "We refer to our order No. 4521 of 3 June, for 200 units of ref."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "AX12, which we received yesterday.",
@@ -170,7 +170,7 @@
     },
     {
       "text": "We would be grateful if you could replace the damaged items as soon as possible or issue a credit note for their value.»",
-      "speech": "We would be grateful if you could replace the damaged items as soon as possible or issue a credit note for their value.»",
+      "speech": "We would be grateful if you could replace the damaged items as soon as possible or issue a credit note for their value.",
       "bold": [
         [
           0,
@@ -180,7 +180,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "We would be grateful if you could replace the damaged items as soon as possible or issue a credit note for their value.»"
+          "text": "We would be grateful if you could replace the damaged items as soon as possible or issue a credit note for their value."
         }
       ]
     },
@@ -231,6 +231,7 @@
           85
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -244,8 +245,7 @@
           "lang": "it",
           "text": "che segue una logica speculare e altrettanto codificata."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Innanzitutto occorre riconoscere il problema segnalato, l'acknowledgement, senza mettere in dubbio la versione del cliente;",
@@ -291,7 +291,7 @@
     },
     {
       "text": "Un esempio: «Thank you for your letter of 10 June informing us of the damage to your order No. 4521.",
-      "speech": "Un esempio: «Thank you for your letter of 10 June informing us of the damage to your order No. 4521.",
+      "speech": "Un esempio: Thank you for your letter of 10 June informing us of the damage to your order No. 4521.",
       "bold": [
         [
           13,
@@ -301,7 +301,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Un esempio: «"
+          "text": "Un esempio:"
         },
         {
           "lang": "en",
@@ -327,7 +327,7 @@
     },
     {
       "text": "We have also asked our forwarding agent to investigate the cause of the damage.»",
-      "speech": "We have also asked our forwarding agent to investigate the cause of the damage.»",
+      "speech": "We have also asked our forwarding agent to investigate the cause of the damage.",
       "bold": [
         [
           0,
@@ -337,7 +337,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "We have also asked our forwarding agent to investigate the cause of the damage.»"
+          "text": "We have also asked our forwarding agent to investigate the cause of the damage."
         }
       ]
     },
@@ -358,6 +358,7 @@
           49
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -371,8 +372,7 @@
           "lang": "it",
           "text": "che vengono inviate quando un cliente non ha effettuato il pagamento entro i termini concordati."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Qui il punto davvero interessante, e molto richiesto all'esame, è che il tono di un sollecito non è mai uguale a sé stesso:",
@@ -400,7 +400,7 @@
     },
     {
       "text": "«We would like to remind you that invoice No. 3087 for £2,450, due on 15 May, has not yet been settled.",
-      "speech": "«We would like to remind you that invoice No. 3087 for £2,450, due on 15 May, has not yet been settled.",
+      "speech": "We would like to remind you that invoice No. 3087 for £2,450, due on 15 May, has not yet been settled.",
       "bold": [
         [
           1,
@@ -414,7 +414,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«We would like to remind you that invoice No. 3087 for £2,450,"
+          "text": "We would like to remind you that invoice No. 3087 for £2,450,"
         },
         {
           "lang": "it",
@@ -428,7 +428,7 @@
     },
     {
       "text": "This may simply have been overlooked, but we would appreciate your immediate attention to this matter.»",
-      "speech": "This may simply have been overlooked, but we would appreciate your immediate attention to this matter.»",
+      "speech": "This may simply have been overlooked, but we would appreciate your immediate attention to this matter.",
       "bold": [
         [
           0,
@@ -438,7 +438,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "This may simply have been overlooked, but we would appreciate your immediate attention to this matter.»"
+          "text": "This may simply have been overlooked, but we would appreciate your immediate attention to this matter."
         }
       ]
     },

@@ -259,24 +259,24 @@
     },
     {
       "text": "Proviamo un esempio pratico: come completereste la frase «Todos los días, yo ______ (estudiar) español y mi hermana ______ (leer) un libro»?",
-      "speech": "Proviamo un esempio pratico: come completereste la frase «Todos los días, yo … (estudiar) español y mi hermana … (leer) un libro»?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase Todos los días, yo … (estudiar) español y mi hermana … (leer) un libro?",
       "bold": [
         [
           58,
           138
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un esempio pratico: come completereste la frase «"
+          "text": "Proviamo un esempio pratico: come completereste la frase"
         },
         {
           "lang": "es",
-          "text": "Todos los días, yo … (estudiar) español y mi hermana … (leer) un libro»?"
+          "text": "Todos los días, yo … (estudiar) español y mi hermana … (leer) un libro?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La soluzione è: Todos los días, yo estudio español y mi hermana lee un libro — estudiar prende la desinenza -o alla prima persona singolare, leer prende la desinenza -e alla terza persona singolare.",
@@ -331,6 +331,7 @@
           130
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -352,8 +353,7 @@
           "lang": "it",
           "text": "avere, seguito dal participio passato del verbo principale,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "e si usa per esprimere azioni passate collegate al presente o concluse in un lasso di tempo non ancora terminato,",
@@ -710,24 +710,24 @@
     },
     {
       "text": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase «Esta mañana, nosotros ______ (hacer) los deberes y ______ (escribir) un correo»?",
-      "speech": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase «Esta mañana, nosotros … (hacer) los deberes y … (escribir) un correo»?",
+      "speech": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase Esta mañana, nosotros … (hacer) los deberes y … (escribir) un correo?",
       "bold": [
         [
           89,
           167
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase «"
+          "text": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase"
         },
         {
           "lang": "es",
-          "text": "Esta mañana, nosotros … (hacer) los deberes y … (escribir) un correo»?"
+          "text": "Esta mañana, nosotros … (hacer) los deberes y … (escribir) un correo?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La soluzione è: Esta mañana, nosotros hemos hecho los deberes y hemos escrito un correo — hemos è la prima persona plurale di haber, seguita dai participi irregolari hecho ed escrito.",
@@ -815,6 +815,7 @@
           196
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -840,8 +841,7 @@
           "lang": "es",
           "text": "hacer."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: il pretérito perfecto si forma con haber più il participio passato, e si usa per un passato ancora collegato al presente.",
@@ -856,6 +856,7 @@
           49
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -869,8 +870,7 @@
           "lang": "it",
           "text": "più il participio passato, e si usa per un passato ancora collegato al presente."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: numerosi verbi molto comuni hanno un participio passato irregolare, come hecho, dicho, escrito, visto e puesto.",
@@ -893,6 +893,7 @@
           117
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -910,8 +911,7 @@
           "lang": "es",
           "text": "puesto."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 2 e affrontiamo altri due tempi verbali fondamentali per parlare del passato, l'imperfecto e il pluscuamperfecto, insieme al gerundio.",

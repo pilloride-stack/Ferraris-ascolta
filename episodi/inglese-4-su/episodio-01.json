@@ -178,6 +178,7 @@
           92
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -191,8 +192,7 @@
           "lang": "it",
           "text": "come genere letterario moderno."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Il romanzo nasce in Inghilterra nel corso del Settecento, e non per caso: è un fenomeno storicamente determinato da almeno tre fattori concomitanti che vale la pena saper esporre con chiarezza.",
@@ -260,7 +260,7 @@
     },
     {
       "text": "Il romanzo, insomma, nasce proprio come genere «borghese», costruito su misura per un pubblico che vuole riconoscersi nei propri simili, non ammirare da lontano semidei ed eroi.",
-      "speech": "Il romanzo, insomma, nasce proprio come genere «borghese», costruito su misura per un pubblico che vuole riconoscersi nei propri simili, non ammirare da lontano semidei ed eroi.",
+      "speech": "Il romanzo, insomma, nasce proprio come genere borghese, costruito su misura per un pubblico che vuole riconoscersi nei propri simili, non ammirare da lontano semidei ed eroi.",
       "bold": [
         [
           40,
@@ -531,6 +531,7 @@
           190
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -540,8 +541,7 @@
           "lang": "en",
           "text": "Travels."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

@@ -102,6 +102,7 @@
           21
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -115,8 +116,7 @@
           "lang": "it",
           "text": "seguito sempre dall'infinito del verbo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Questa struttura descrive abitudini o stati che appartenevano al passato, ma che non sono più veri nel presente:",
@@ -134,7 +134,7 @@
     },
     {
       "text": "«I used to play the piano» significa che una volta suonavo il piano, un'abitudine che avevo in passato, ma sottintende chiaramente che ora non lo faccio più.",
-      "speech": "«I used to play the piano» significa che una volta suonavo il piano, un'abitudine che avevo in passato, ma sottintende chiaramente che ora non lo faccio più.",
+      "speech": "I used to play the piano significa che una volta suonavo il piano, un'abitudine che avevo in passato, ma sottintende chiaramente che ora non lo faccio più.",
       "bold": [
         [
           1,
@@ -144,11 +144,11 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«I used to play the"
+          "text": "I used to play the"
         },
         {
           "lang": "it",
-          "text": "piano» significa che una volta suonavo il piano, un'abitudine che avevo in passato, ma sottintende chiaramente che ora non lo faccio più."
+          "text": "piano significa che una volta suonavo il piano, un'abitudine che avevo in passato, ma sottintende chiaramente che ora non lo faccio più."
         }
       ]
     },
@@ -178,7 +178,7 @@
     },
     {
       "text": "se dicessi solamente «I played the piano», starei probabilmente raccontando un singolo episodio specifico, non un'abitudine prolungata nel tempo con un contrasto esplicito rispetto al presente.",
-      "speech": "se dicessi solamente «I played the piano», starei probabilmente raccontando un singolo episodio specifico, non un'abitudine prolungata nel tempo con un contrasto esplicito rispetto al presente.",
+      "speech": "se dicessi solamente I played the piano, starei probabilmente raccontando un singolo episodio specifico, non un'abitudine prolungata nel tempo con un contrasto esplicito rispetto al presente.",
       "bold": [
         [
           22,
@@ -188,7 +188,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "se dicessi solamente «"
+          "text": "se dicessi solamente"
         },
         {
           "lang": "en",
@@ -196,7 +196,7 @@
         },
         {
           "lang": "it",
-          "text": "piano», starei probabilmente raccontando un singolo episodio specifico, non un'abitudine prolungata nel tempo con un contrasto esplicito rispetto al presente."
+          "text": "piano, starei probabilmente raccontando un singolo episodio specifico, non un'abitudine prolungata nel tempo con un contrasto esplicito rispetto al presente."
         }
       ]
     },
@@ -217,6 +217,7 @@
           130
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -246,8 +247,7 @@
           "lang": "it",
           "text": "ma attenzione:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "la parola \"use\" perde la -d finale quando è preceduta da did, perché l'ausiliare porta già con sé il valore del passato.",
@@ -291,7 +291,7 @@
     },
     {
       "text": "Diciamo dunque «I didn't use to like vegetables», non ero abituato ad apprezzare le verdure (ma ora sì), e «Did you use to live here?», abitavi qui una volta?",
-      "speech": "Diciamo dunque «I didn't use to like vegetables», non ero abituato ad apprezzare le verdure (ma ora sì), e «Did you use to live here?», abitavi qui una volta?",
+      "speech": "Diciamo dunque I didn't use to like vegetables, non ero abituato ad apprezzare le verdure (ma ora sì), e Did you use to live here?, abitavi qui una volta?",
       "bold": [
         [
           16,
@@ -305,19 +305,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Diciamo dunque «"
+          "text": "Diciamo dunque"
         },
         {
           "lang": "en",
-          "text": "I didn't use to like vegetables»,"
+          "text": "I didn't use to like vegetables,"
         },
         {
           "lang": "it",
-          "text": "non ero abituato ad apprezzare le verdure (ma ora sì), e «"
+          "text": "non ero abituato ad apprezzare le verdure (ma ora sì), e"
         },
         {
           "lang": "en",
-          "text": "Did you use to live here?»,"
+          "text": "Did you use to live here?,"
         },
         {
           "lang": "it",
@@ -370,6 +370,7 @@
           48
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -391,8 +392,7 @@
           "lang": "it",
           "text": "entrambi usati per parlare del futuro ma con logiche diverse che è fondamentale saper distinguere con precisione,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "perché è uno degli argomenti più richiesti in sede d'esame su questo intero programma.",
@@ -420,7 +420,7 @@
     },
     {
       "text": "previsioni non basate su prove concrete, semplicemente un'opinione o un'aspettativa — «I think she will win», penso che vincerà;",
-      "speech": "previsioni non basate su prove concrete, semplicemente un'opinione o un'aspettativa — «I think she will win», penso che vincerà;",
+      "speech": "previsioni non basate su prove concrete, semplicemente un'opinione o un'aspettativa — I think she will win, penso che vincerà;",
       "bold": [
         [
           0,
@@ -434,11 +434,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "previsioni non basate su prove concrete, semplicemente un'opinione o un'aspettativa — «"
+          "text": "previsioni non basate su prove concrete, semplicemente un'opinione o un'aspettativa —"
         },
         {
           "lang": "en",
-          "text": "I think she will win»,"
+          "text": "I think she will win,"
         },
         {
           "lang": "it",
@@ -448,7 +448,7 @@
     },
     {
       "text": "decisioni prese proprio nel momento della conversazione, non pianificate in anticipo — «I'll answer the phone», rispondo io al telefono,",
-      "speech": "decisioni prese proprio nel momento della conversazione, non pianificate in anticipo — «I'll answer the phone», rispondo io al telefono,",
+      "speech": "decisioni prese proprio nel momento della conversazione, non pianificate in anticipo — I'll answer the phone, rispondo io al telefono,",
       "bold": [
         [
           0,
@@ -462,11 +462,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "decisioni prese proprio nel momento della conversazione, non pianificate in anticipo — «"
+          "text": "decisioni prese proprio nel momento della conversazione, non pianificate in anticipo —"
         },
         {
           "lang": "en",
-          "text": "I'll answer the phone»,"
+          "text": "I'll answer the phone,"
         },
         {
           "lang": "it",
@@ -476,7 +476,7 @@
     },
     {
       "text": "decisione istantanea nel momento in cui il telefono squilla; e promesse — «I will always love you», ti amerò sempre.",
-      "speech": "decisione istantanea nel momento in cui il telefono squilla; e promesse — «I will always love you», ti amerò sempre.",
+      "speech": "decisione istantanea nel momento in cui il telefono squilla; e promesse — I will always love you, ti amerò sempre.",
       "bold": [
         [
           63,
@@ -490,11 +490,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "decisione istantanea nel momento in cui il telefono squilla; e promesse — «"
+          "text": "decisione istantanea nel momento in cui il telefono squilla; e promesse —"
         },
         {
           "lang": "en",
-          "text": "I will always love you»,"
+          "text": "I will always love you,"
         },
         {
           "lang": "it",
@@ -566,7 +566,7 @@
     },
     {
       "text": "«I'm going to study medicine» comunica che ho già preso questa decisione, magari da tempo, non che la sto decidendo proprio ora mentre parlo.",
-      "speech": "«I'm going to study medicine» comunica che ho già preso questa decisione, magari da tempo, non che la sto decidendo proprio ora mentre parlo.",
+      "speech": "I'm going to study medicine comunica che ho già preso questa decisione, magari da tempo, non che la sto decidendo proprio ora mentre parlo.",
       "bold": [
         [
           1,
@@ -576,7 +576,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«I'm going to study medicine»"
+          "text": "I'm going to study medicine"
         },
         {
           "lang": "it",
@@ -596,7 +596,7 @@
     },
     {
       "text": "«Look at those clouds — it's going to rain», guarda quelle nuvole, sta per piovere.",
-      "speech": "«Look at those clouds — it's going to rain», guarda quelle nuvole, sta per piovere.",
+      "speech": "Look at those clouds — it's going to rain, guarda quelle nuvole, sta per piovere.",
       "bold": [
         [
           1,
@@ -606,7 +606,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«Look at those clouds — it's going to rain»,"
+          "text": "Look at those clouds — it's going to rain,"
         },
         {
           "lang": "it",
@@ -645,7 +645,7 @@
     },
     {
       "text": "qual è la differenza tra «I think it will rain» e «Look, it's going to rain»?",
-      "speech": "qual è la differenza tra «I think it will rain» e «Look, it's going to rain»?",
+      "speech": "qual è la differenza tra I think it will rain e Look, it's going to rain?",
       "bold": [
         [
           26,
@@ -659,19 +659,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "qual è la differenza tra «"
+          "text": "qual è la differenza tra"
         },
         {
           "lang": "en",
-          "text": "I think it will rain»"
+          "text": "I think it will rain"
         },
         {
           "lang": "it",
-          "text": "e «"
+          "text": "e"
         },
         {
           "lang": "en",
-          "text": "Look, it's going to rain»?"
+          "text": "Look, it's going to rain?"
         }
       ]
     },
@@ -685,7 +685,7 @@
     },
     {
       "text": "Allo stesso modo, «I'm going to travel to Spain next year» comunica un piano già organizzato, magari con i biglietti già prenotati,",
-      "speech": "Allo stesso modo, «I'm going to travel to Spain next year» comunica un piano già organizzato, magari con i biglietti già prenotati,",
+      "speech": "Allo stesso modo, I'm going to travel to Spain next year comunica un piano già organizzato, magari con i biglietti già prenotati,",
       "bold": [
         [
           19,
@@ -695,11 +695,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Allo stesso modo, «"
+          "text": "Allo stesso modo,"
         },
         {
           "lang": "en",
-          "text": "I'm going to travel to Spain next year»"
+          "text": "I'm going to travel to Spain next year"
         },
         {
           "lang": "it",
@@ -709,7 +709,7 @@
     },
     {
       "text": "mentre «I'll probably travel somewhere next year» comunica un'intenzione più vaga, quasi improvvisata sul momento della conversazione, senza alcuna decisione concreta già presa.",
-      "speech": "mentre «I'll probably travel somewhere next year» comunica un'intenzione più vaga, quasi improvvisata sul momento della conversazione, senza alcuna decisione concreta già presa.",
+      "speech": "mentre I'll probably travel somewhere next year comunica un'intenzione più vaga, quasi improvvisata sul momento della conversazione, senza alcuna decisione concreta già presa.",
       "bold": [
         [
           8,
@@ -719,11 +719,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "mentre «"
+          "text": "mentre"
         },
         {
           "lang": "en",
-          "text": "I'll probably travel somewhere next year»"
+          "text": "I'll probably travel somewhere next year"
         },
         {
           "lang": "it",
@@ -738,7 +738,7 @@
     },
     {
       "text": "il present continuous con valore di futuro, per appuntamenti già concordati con altre persone — «I'm meeting Anna tomorrow», ho un appuntamento con Anna domani, già fissato —",
-      "speech": "il present continuous con valore di futuro, per appuntamenti già concordati con altre persone — «I'm meeting Anna tomorrow», ho un appuntamento con Anna domani, già fissato —",
+      "speech": "il present continuous con valore di futuro, per appuntamenti già concordati con altre persone — I'm meeting Anna tomorrow, ho un appuntamento con Anna domani, già fissato —",
       "bold": [
         [
           3,
@@ -764,11 +764,11 @@
         },
         {
           "lang": "it",
-          "text": "con valore di futuro, per appuntamenti già concordati con altre persone — «"
+          "text": "con valore di futuro, per appuntamenti già concordati con altre persone —"
         },
         {
           "lang": "en",
-          "text": "I'm meeting Anna tomorrow»,"
+          "text": "I'm meeting Anna tomorrow,"
         },
         {
           "lang": "it",
@@ -778,7 +778,7 @@
     },
     {
       "text": "e il present simple, per orari fissi, calendari e programmi ufficiali che non dipendono dalla nostra volontà personale — «The match starts at 8 p.m.»,",
-      "speech": "e il present simple, per orari fissi, calendari e programmi ufficiali che non dipendono dalla nostra volontà personale — «The match starts at 8 p.m.»,",
+      "speech": "e il present simple, per orari fissi, calendari e programmi ufficiali che non dipendono dalla nostra volontà personale — The match starts at 8 p.m.,",
       "bold": [
         [
           5,
@@ -804,11 +804,11 @@
         },
         {
           "lang": "it",
-          "text": "per orari fissi, calendari e programmi ufficiali che non dipendono dalla nostra volontà personale — «"
+          "text": "per orari fissi, calendari e programmi ufficiali che non dipendono dalla nostra volontà personale —"
         },
         {
           "lang": "en",
-          "text": "The match starts at 8 p.m.»,"
+          "text": "The match starts at 8 p.m.,"
         }
       ]
     },
@@ -823,7 +823,7 @@
     },
     {
       "text": "dovete scegliere tra will e be going to nella frase «Ho già deciso: il prossimo anno mi trasferirò a Londra» contro «Non so ancora, ma forse mi trasferirò all'estero».",
-      "speech": "dovete scegliere tra will e be going to nella frase «Ho già deciso: il prossimo anno mi trasferirò a Londra» contro «Non so ancora, ma forse mi trasferirò all'estero».",
+      "speech": "dovete scegliere tra will e be going to nella frase Ho già deciso: il prossimo anno mi trasferirò a Londra contro Non so ancora, ma forse mi trasferirò all'estero.",
       "bold": [
         [
           21,
@@ -861,7 +861,7 @@
         },
         {
           "lang": "it",
-          "text": "nella frase «Ho già deciso: il prossimo anno mi trasferirò a Londra» contro «Non"
+          "text": "nella frase Ho già deciso: il prossimo anno mi trasferirò a Londra contro Non"
         },
         {
           "lang": "en",
@@ -869,13 +869,13 @@
         },
         {
           "lang": "it",
-          "text": "ancora, ma forse mi trasferirò all'estero»."
+          "text": "ancora, ma forse mi trasferirò all'estero."
         }
       ]
     },
     {
       "text": "Nella prima frase, la decisione è già presa, quindi richiede be going to: «I'm going to move to London next year».",
-      "speech": "Nella prima frase, la decisione è già presa, quindi richiede be going to: «I'm going to move to London next year».",
+      "speech": "Nella prima frase, la decisione è già presa, quindi richiede be going to: I'm going to move to London next year.",
       "bold": [
         [
           61,
@@ -889,13 +889,13 @@
         },
         {
           "lang": "en",
-          "text": "be going to: «I'm going to move to London next year»."
+          "text": "be going to: I'm going to move to London next year."
         }
       ]
     },
     {
       "text": "Nella seconda frase, si tratta di un'ipotesi vaga, non ancora decisa, quindi richiede will, spesso rafforzato da maybe o probably: «I don't know yet, but maybe I will move abroad».",
-      "speech": "Nella seconda frase, si tratta di un'ipotesi vaga, non ancora decisa, quindi richiede will, spesso rafforzato da maybe o probably: «I don't know yet, but maybe I will move abroad».",
+      "speech": "Nella seconda frase, si tratta di un'ipotesi vaga, non ancora decisa, quindi richiede will, spesso rafforzato da maybe o probably: I don't know yet, but maybe I will move abroad.",
       "bold": [
         [
           86,
@@ -933,7 +933,7 @@
         },
         {
           "lang": "en",
-          "text": "probably: «I don't know yet, but maybe I will move abroad»."
+          "text": "probably: I don't know yet, but maybe I will move abroad."
         }
       ]
     },
@@ -977,6 +977,7 @@
           156
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -994,8 +995,7 @@
           "lang": "en",
           "text": "did."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: will si usa per previsioni senza prove concrete, decisioni istantanee e promesse.",
@@ -1018,6 +1018,7 @@
           89
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1031,8 +1032,7 @@
           "lang": "it",
           "text": "si usa per previsioni senza prove concrete, decisioni istantanee e promesse."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: be going to si usa per piani già decisi in precedenza e per previsioni basate su prove concrete e visibili nel presente.",
@@ -1055,6 +1055,7 @@
           113
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1068,8 +1069,7 @@
           "lang": "it",
           "text": "si usa per piani già decisi in precedenza e per previsioni basate su prove concrete e visibili nel presente."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: il present continuous e il present simple offrono altri due modi per esprimere il futuro, rispettivamente per appuntamenti concordati e per orari fissi ufficiali.",
@@ -1096,6 +1096,7 @@
           169
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1117,8 +1118,7 @@
           "lang": "it",
           "text": "offrono altri due modi per esprimere il futuro, rispettivamente per appuntamenti concordati e per orari fissi ufficiali."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio affrontiamo i verbi modali più avanzati di Classe Seconda — could, may, might, shall, should, would, must — e la forma passiva.",
@@ -1129,6 +1129,7 @@
           127
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1142,8 +1143,7 @@
           "lang": "it",
           "text": "e la forma passiva."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

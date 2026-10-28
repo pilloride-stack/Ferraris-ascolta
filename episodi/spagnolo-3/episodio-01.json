@@ -216,6 +216,7 @@
           71
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -229,8 +230,7 @@
           "lang": "it",
           "text": "esprime desiderio, dubbio, possibilità, emozione, opinione soggettiva o necessità, a differenza dell'indicativo,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "che esprime fatti oggettivi e certi — un principio che, in fondo, non è troppo diverso dal congiuntivo italiano, sia pure con un uso molto più esteso e sistematico in spagnolo.",
@@ -244,7 +244,7 @@
     },
     {
       "text": "Il presente de subjuntivo si forma, per la maggior parte dei verbi regolari, prendendo la radice della prima persona singolare del presente indicativo e aggiungendo le desinenze «invertite» rispetto all'indicativo:",
-      "speech": "Il presente de subjuntivo si forma, per la maggior parte dei verbi regolari, prendendo la radice della prima persona singolare del presente indicativo e aggiungendo le desinenze «invertite» rispetto all'indicativo:",
+      "speech": "Il presente de subjuntivo si forma, per la maggior parte dei verbi regolari, prendendo la radice della prima persona singolare del presente indicativo e aggiungendo le desinenze invertite rispetto all'indicativo:",
       "bold": [
         [
           12,
@@ -270,7 +270,7 @@
         },
         {
           "lang": "it",
-          "text": "per la maggior parte dei verbi regolari, prendendo la radice della prima persona singolare del presente indicativo e aggiungendo le desinenze «invertite» rispetto all'indicativo:"
+          "text": "per la maggior parte dei verbi regolari, prendendo la radice della prima persona singolare del presente indicativo e aggiungendo le desinenze invertite rispetto all'indicativo:"
         }
       ]
     },
@@ -364,7 +364,7 @@
     },
     {
       "text": "Fermatezzi un momento su questo meccanismo di «inversione» delle desinenze, perché è esattamente l'osservazione tecnica che rende una risposta d'esame su questo argomento particolarmente convincente:",
-      "speech": "Fermatezzi un momento su questo meccanismo di «inversione» delle desinenze, perché è esattamente l'osservazione tecnica che rende una risposta d'esame su questo argomento particolarmente convincente:",
+      "speech": "Fermatezzi un momento su questo meccanismo di inversione delle desinenze, perché è esattamente l'osservazione tecnica che rende una risposta d'esame su questo argomento particolarmente convincente:",
       "bold": [
         [
           47,
@@ -447,7 +447,7 @@
     },
     {
       "text": "È come se le due vocali caratteristiche, la «a» e la «e», si scambiassero di posto tra indicativo e subjuntivo.",
-      "speech": "È come se le due vocali caratteristiche, la «a» e la «e», si scambiassero di posto tra indicativo e subjuntivo.",
+      "speech": "È come se le due vocali caratteristiche, la a e la e, si scambiassero di posto tra indicativo e subjuntivo.",
       "bold": [
         [
           41,
@@ -473,11 +473,11 @@
         },
         {
           "lang": "es",
-          "text": "la «a»"
+          "text": "la a"
         },
         {
           "lang": "it",
-          "text": "e la «e», si scambiassero di posto tra indicativo e"
+          "text": "e la e, si scambiassero di posto tra indicativo e"
         },
         {
           "lang": "es",
@@ -771,24 +771,24 @@
     },
     {
       "text": "Proviamo un esempio pratico: come completereste la frase «Espero que tú ______ (venir) a la fiesta y que ______ (ser) puntual»?",
-      "speech": "Proviamo un esempio pratico: come completereste la frase «Espero que tú … (venir) a la fiesta y que … (ser) puntual»?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase Espero que tú … (venir) a la fiesta y que … (ser) puntual?",
       "bold": [
         [
           58,
           125
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un esempio pratico: come completereste la frase «"
+          "text": "Proviamo un esempio pratico: come completereste la frase"
         },
         {
           "lang": "es",
-          "text": "Espero que tú … (venir) a la fiesta y que … (ser) puntual»?"
+          "text": "Espero que tú … (venir) a la fiesta y que … (ser) puntual?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La soluzione è: Espero que tú vengas a la fiesta y que seas puntual — subjuntivo dopo espero que, verbo di volontà o desiderio, con venir e ser entrambi irregolari.",
@@ -844,28 +844,28 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: «Quiero que ella ______ (estudiar) más» — estudie.",
-      "speech": "Proviamo un piccolo esercizio insieme: «Quiero que ella … (estudiar) más» — estudie.",
+      "speech": "Proviamo un piccolo esercizio insieme: Quiero que ella … (estudiar) más — estudie.",
       "bold": [
         [
           40,
           88
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un piccolo esercizio insieme: «"
+          "text": "Proviamo un piccolo esercizio insieme:"
         },
         {
           "lang": "es",
-          "text": "Quiero que ella … (estudiar) más» — estudie."
+          "text": "Quiero que ella … (estudiar) más — estudie."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "«Dudo que ellos ______ (saber) la respuesta» — sepan.",
-      "speech": "«Dudo que ellos … (saber) la respuesta» — sepan.",
+      "speech": "Dudo que ellos … (saber) la respuesta — sepan.",
       "bold": [
         [
           1,
@@ -875,13 +875,13 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Dudo que ellos … (saber) la respuesta» — sepan."
+          "text": "Dudo que ellos … (saber) la respuesta — sepan."
         }
       ]
     },
     {
       "text": "«Es necesario que nosotros ______ (llegar) a tiempo» — lleguemos.",
-      "speech": "«Es necesario que nosotros … (llegar) a tiempo» — lleguemos.",
+      "speech": "Es necesario que nosotros … (llegar) a tiempo — lleguemos.",
       "bold": [
         [
           1,
@@ -891,13 +891,13 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Es necesario que nosotros … (llegar) a tiempo» — lleguemos."
+          "text": "Es necesario que nosotros … (llegar) a tiempo — lleguemos."
         }
       ]
     },
     {
       "text": "«No creo que él ______ (ir) al concierto» — vaya.",
-      "speech": "«No creo que él … (ir) al concierto» — vaya.",
+      "speech": "No creo que él … (ir) al concierto — vaya.",
       "bold": [
         [
           1,
@@ -907,7 +907,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«No creo que él … (ir) al concierto» — vaya."
+          "text": "No creo que él … (ir) al concierto — vaya."
         }
       ]
     },
@@ -933,6 +933,7 @@
           68
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -946,8 +947,7 @@
           "lang": "it",
           "text": "esprime desiderio, dubbio, emozione, opinione negata o necessità, in contrasto con la certezza dell'indicativo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: si forma invertendo le vocali tematiche rispetto all'indicativo, -e per i verbi in -AR e -a per i verbi in -ER/-IR.",
@@ -966,6 +966,7 @@
           123
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -975,8 +976,7 @@
           "lang": "es",
           "text": "IR."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: si usa tipicamente dopo espressioni con que, e coincide con l'imperativo negativo e con l'imperativo di usted/ustedes.",
@@ -999,6 +999,7 @@
           124
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1008,8 +1009,7 @@
           "lang": "es",
           "text": "usted/ustedes."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 1 e affrontiamo l'ultima grande struttura verbale del programma, il condicional.",
@@ -1020,6 +1020,7 @@
           121
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1029,8 +1030,7 @@
           "lang": "es",
           "text": "condicional."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

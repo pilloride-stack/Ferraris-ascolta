@@ -141,7 +141,7 @@
     },
     {
       "text": "Veniamo ora al cuore di questo modulo: il Siglo de Oro, letteralmente «Secolo d'Oro», il periodo di straordinaria fioritura culturale, letteraria e artistica della Spagna.",
-      "speech": "Veniamo ora al cuore di questo modulo: il Siglo de Oro, letteralmente «Secolo d'Oro», il periodo di straordinaria fioritura culturale, letteraria e artistica della Spagna.",
+      "speech": "Veniamo ora al cuore di questo modulo: il Siglo de Oro, letteralmente Secolo d'Oro, il periodo di straordinaria fioritura culturale, letteraria e artistica della Spagna.",
       "bold": [
         [
           42,
@@ -156,6 +156,7 @@
           157
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -167,10 +168,9 @@
         },
         {
           "lang": "it",
-          "text": "letteralmente «Secolo d'Oro», il periodo di straordinaria fioritura culturale, letteraria e artistica della Spagna."
+          "text": "letteralmente Secolo d'Oro, il periodo di straordinaria fioritura culturale, letteraria e artistica della Spagna."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Fermatevi un momento su un dato cronologico che vale la pena conoscere con precisione, perché contraddice un po' il nome stesso del periodo:",
@@ -316,6 +316,7 @@
           64
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -329,8 +330,7 @@
           "lang": "it",
           "text": "si suddivide tradizionalmente in due grandi fasi, ed è fondamentale saperle distinguere con chiarezza in un'interrogazione."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Il Renacimiento, il Rinascimento spagnolo, va dal 1492 alla metà del XVI secolo, influenzato dal classicismo italiano e caratterizzato da un'estetica di equilibrio e misura, di cui il poeta Garcilaso de la Vega è il maggiore rappresentante.",
@@ -458,6 +458,7 @@
           139
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -471,8 +472,7 @@
           "lang": "it",
           "text": "quali citereste?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Il 1492 come inizio, coincidente con la fine della Reconquista e l'inizio della scoperta dell'America;",
@@ -580,6 +580,7 @@
           93
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -593,8 +594,7 @@
           "lang": "it",
           "text": "è il periodo di massima fioritura culturale spagnola, dal 1492 al 1681, coincidente con l'apice della potenza politica spagnola in Europa."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: si divide in due fasi, il Renacimiento, equilibrato e influenzato dal classicismo italiano, e il Barroco, complesso e segnato dalla crisi politica e spirituale del tempo.",
@@ -617,6 +617,7 @@
           113
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -638,8 +639,7 @@
           "lang": "it",
           "text": "complesso e segnato dalla crisi politica e spirituale del tempo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: le maggiori figure del periodo, che incontreremo nei prossimi episodi, appartengono tutte alla fase barocca.",
@@ -665,6 +665,7 @@
           74
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -678,8 +679,7 @@
           "lang": "it",
           "text": "con la figura più celebre di tutta la letteratura spagnola:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Miguel de Cervantes e il suo capolavoro, il Don Quijote de la Mancha.",

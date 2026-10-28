@@ -90,6 +90,7 @@
           111
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "en",
@@ -107,8 +108,7 @@
           "lang": "it",
           "text": "pubblicato nel 1740."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Si tratta di un romanzo epistolare, epistolary novel, cioè interamente narrato attraverso una serie di lettere scritte dalla giovane protagonista, una domestica di appena quindici anni insidiata dal proprio datore di lavoro, il signor B.",
@@ -173,7 +173,7 @@
     },
     {
       "text": "secondo una tecnica che lo stesso Richardson definì «writing to the moment», scrivere nel momento stesso in cui l'esperienza si vive, non a distanza di tempo come farebbe una memoria retrospettiva.",
-      "speech": "secondo una tecnica che lo stesso Richardson definì «writing to the moment», scrivere nel momento stesso in cui l'esperienza si vive, non a distanza di tempo come farebbe una memoria retrospettiva.",
+      "speech": "secondo una tecnica che lo stesso Richardson definì writing to the moment, scrivere nel momento stesso in cui l'esperienza si vive, non a distanza di tempo come farebbe una memoria retrospettiva.",
       "bold": [
         [
           34,
@@ -195,11 +195,11 @@
         },
         {
           "lang": "it",
-          "text": "definì «"
+          "text": "definì"
         },
         {
           "lang": "en",
-          "text": "writing to the moment»,"
+          "text": "writing to the moment,"
         },
         {
           "lang": "it",
@@ -234,6 +234,7 @@
           45
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "en",
@@ -243,12 +244,11 @@
           "lang": "it",
           "text": "vissuto tra il 1707 e il 1754, era inizialmente noto come autore satirico teatrale,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "e sviluppa fin da subito un'aperta polemica nei confronti del moralismo di Richardson, arrivando a parodiarlo direttamente in un romanzo dal titolo eloquente, Shamela — un titolo che unisce «Pamela» e «sham»,",
-      "speech": "e sviluppa fin da subito un'aperta polemica nei confronti del moralismo di Richardson, arrivando a parodiarlo direttamente in un romanzo dal titolo eloquente, Shamela — un titolo che unisce «Pamela» e «sham»,",
+      "speech": "e sviluppa fin da subito un'aperta polemica nei confronti del moralismo di Richardson, arrivando a parodiarlo direttamente in un romanzo dal titolo eloquente, Shamela — un titolo che unisce Pamela e sham,",
       "bold": [
         [
           75,
@@ -278,11 +278,11 @@
         },
         {
           "lang": "it",
-          "text": "arrivando a parodiarlo direttamente in un romanzo dal titolo eloquente, Shamela — un titolo che unisce «Pamela» e «"
+          "text": "arrivando a parodiarlo direttamente in un romanzo dal titolo eloquente, Shamela — un titolo che unisce Pamela e"
         },
         {
           "lang": "en",
-          "text": "sham»,"
+          "text": "sham,"
         }
       ]
     },
@@ -752,7 +752,7 @@
     },
     {
       "text": "Primo: Samuel Richardson, con Pamela, inaugura il romanzo epistolare, incentrato sull'introspezione psicologica e morale della protagonista, scritta «al momento» degli eventi narrati.",
-      "speech": "Primo: Samuel Richardson, con Pamela, inaugura il romanzo epistolare, incentrato sull'introspezione psicologica e morale della protagonista, scritta «al momento» degli eventi narrati.",
+      "speech": "Primo: Samuel Richardson, con Pamela, inaugura il romanzo epistolare, incentrato sull'introspezione psicologica e morale della protagonista, scritta al momento degli eventi narrati.",
       "bold": [
         [
           0,
@@ -771,6 +771,7 @@
           160
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -782,10 +783,9 @@
         },
         {
           "lang": "it",
-          "text": "con Pamela, inaugura il romanzo epistolare, incentrato sull'introspezione psicologica e morale della protagonista, scritta «al momento» degli eventi narrati."
+          "text": "con Pamela, inaugura il romanzo epistolare, incentrato sull'introspezione psicologica e morale della protagonista, scritta al momento degli eventi narrati."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: Henry Fielding, in polemica con il moralismo di Richardson, sviluppa con Tom Jones il romanzo comico-picaresco, affidato a un narratore onnisciente e ironico.",
@@ -808,6 +808,7 @@
           119
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -829,8 +830,7 @@
           "lang": "it",
           "text": "sviluppa con Tom Jones il romanzo comico-picaresco, affidato a un narratore onnisciente e ironico."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: la rivalità tra i due autori segna la nascita di due tradizioni narrative divergenti, quella sentimentale-introspettiva e quella comica-esteriore, entrambe destinate a un'influenza duratura sulla storia del romanzo inglese.",
@@ -845,6 +845,7 @@
           80
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -858,8 +859,7 @@
           "lang": "it",
           "text": "divergenti, quella sentimentale-introspettiva e quella comica-esteriore, entrambe destinate a un'influenza duratura sulla storia del romanzo inglese."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 1, dedicato alla nascita del romanzo.",

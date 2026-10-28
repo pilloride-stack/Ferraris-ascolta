@@ -163,7 +163,7 @@
     },
     {
       "text": "Ricordate la conquista romana del 43 dopo Cristo, il ritiro delle legioni nel quinto secolo, e l'arrivo di Angli, Sassoni e Juti, da cui derivano il nome «Inghilterra» e la lingua inglese antica.",
-      "speech": "Ricordate la conquista romana del 43 dopo Cristo, il ritiro delle legioni nel quinto secolo, e l'arrivo di Angli, Sassoni e Juti, da cui derivano il nome «Inghilterra» e la lingua inglese antica.",
+      "speech": "Ricordate la conquista romana del 43 dopo Cristo, il ritiro delle legioni nel quinto secolo, e l'arrivo di Angli, Sassoni e Juti, da cui derivano il nome Inghilterra e la lingua inglese antica.",
       "bold": [
         [
           34,
@@ -425,6 +425,7 @@
           97
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -434,8 +435,7 @@
           "lang": "en",
           "text": "Canterbury Tales?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ricordate la cornice del pellegrinaggio verso Canterbury, la varietà sociale dei personaggi-narratori, e la scelta di scrivere in Middle English.",
@@ -516,6 +516,7 @@
           64
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -529,8 +530,7 @@
           "lang": "it",
           "text": "Juliet e i suoi temi principali."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ricordate l'amore contrastato tra le due famiglie rivali, il ruolo di frate Lorenzo, il finale tragico per un fatale equivoco,",

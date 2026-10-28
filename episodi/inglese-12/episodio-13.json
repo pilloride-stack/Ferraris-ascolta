@@ -58,6 +58,7 @@
           172
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -71,8 +72,7 @@
           "lang": "it",
           "text": "che esprime la condizione, e una proposizione principale, che esprime la conseguenza."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La difficoltà per uno studente italiano non sta tanto nel capire questa struttura di base, che esiste anche in italiano, quanto nel ricordare con precisione quale combinazione di tempi verbali corrisponde a ciascuno dei quattro tipi,",
@@ -153,7 +153,7 @@
     },
     {
       "text": "«If you heat water, it boils», se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\".",
-      "speech": "«If you heat water, it boils», se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\".",
+      "speech": "If you heat water, it boils, se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\".",
       "bold": [
         [
           1,
@@ -163,7 +163,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«If you heat water, it boils»,"
+          "text": "If you heat water, it boils,"
         },
         {
           "lang": "it",
@@ -272,7 +272,7 @@
     },
     {
       "text": "«If it rains, I will stay home», se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il present simple, non will.",
-      "speech": "«If it rains, I will stay home», se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il present simple, non will.",
+      "speech": "If it rains, I will stay home, se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il present simple, non will.",
       "bold": [
         [
           1,
@@ -290,7 +290,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«If it rains, I will stay home»,"
+          "text": "If it rains, I will stay home,"
         },
         {
           "lang": "it",
@@ -375,7 +375,7 @@
     },
     {
       "text": "«If I won the lottery, I would travel», se vincessi alla lotteria, viaggerei:",
-      "speech": "«If I won the lottery, I would travel», se vincessi alla lotteria, viaggerei:",
+      "speech": "If I won the lottery, I would travel, se vincessi alla lotteria, viaggerei:",
       "bold": [
         [
           1,
@@ -385,7 +385,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«If I won the lottery, I would travel»,"
+          "text": "If I won the lottery, I would travel,"
         },
         {
           "lang": "it",
@@ -406,6 +406,7 @@
           79
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -415,8 +416,7 @@
           "lang": "en",
           "text": "past simple, won,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "ma non ci stiamo affatto riferendo al passato — è solo la forma grammaticale scelta dall'inglese per segnalare l'irrealtà o l'improbabilità della condizione nel presente o nel futuro, non un vero riferimento temporale al passato.",
@@ -527,7 +527,7 @@
     },
     {
       "text": "«If I had studied, I would have passed», se avessi studiato, avrei superato l'esame:",
-      "speech": "«If I had studied, I would have passed», se avessi studiato, avrei superato l'esame:",
+      "speech": "If I had studied, I would have passed, se avessi studiato, avrei superato l'esame:",
       "bold": [
         [
           1,
@@ -537,7 +537,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«If I had studied, I would have passed»,"
+          "text": "If I had studied, I would have passed,"
         },
         {
           "lang": "it",
@@ -572,6 +572,7 @@
           163
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -593,8 +594,7 @@
           "lang": "it",
           "text": "per le verità generali;"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "primo, present più will, per il futuro realistico; secondo, past simple più would, per l'irrealtà nel presente o nel futuro;",
@@ -713,7 +713,7 @@
     },
     {
       "text": "costruite la frase «Se studiassi di più, prenderei voti migliori» e poi, subito dopo, «Se avessi studiato di più, l'anno scorso, avrei preso voti migliori».",
-      "speech": "costruite la frase «Se studiassi di più, prenderei voti migliori» e poi, subito dopo, «Se avessi studiato di più, l'anno scorso, avrei preso voti migliori».",
+      "speech": "costruite la frase Se studiassi di più, prenderei voti migliori e poi, subito dopo, Se avessi studiato di più, l'anno scorso, avrei preso voti migliori.",
       "bold": [
         [
           20,
@@ -727,7 +727,7 @@
     },
     {
       "text": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo: «If I studied more, I would get better grades».",
-      "speech": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo: «If I studied more, I would get better grades».",
+      "speech": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo: If I studied more, I would get better grades.",
       "bold": [
         [
           129,
@@ -741,11 +741,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo: «"
+          "text": "Nella prima frase, la situazione riguarda il presente o il futuro prossimo, ed è un'ipotesi ancora aperta, quindi corrisponde al secondo tipo:"
         },
         {
           "lang": "en",
-          "text": "If I studied more, I would get better grades»."
+          "text": "If I studied more, I would get better grades."
         }
       ]
     },
@@ -761,7 +761,7 @@
     },
     {
       "text": "«If I had studied more last year, I would have got better grades».",
-      "speech": "«If I had studied more last year, I would have got better grades».",
+      "speech": "If I had studied more last year, I would have got better grades.",
       "bold": [
         [
           1,
@@ -771,7 +771,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«If I had studied more last year, I would have got better grades»."
+          "text": "If I had studied more last year, I would have got better grades."
         }
       ]
     },
@@ -822,6 +822,7 @@
           79
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -843,8 +844,7 @@
           "lang": "it",
           "text": "esprime verità generali sempre valide."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: il primo tipo, present più will, esprime condizioni realistiche riferite al futuro.",
@@ -871,6 +871,7 @@
           91
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -892,8 +893,7 @@
           "lang": "it",
           "text": "esprime condizioni realistiche riferite al futuro."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: il secondo tipo, past simple più would, esprime condizioni irreali o improbabili nel presente o nel futuro, senza alcun riferimento temporale reale al passato.",
@@ -916,6 +916,7 @@
           87
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -937,8 +938,7 @@
           "lang": "it",
           "text": "esprime condizioni irreali o improbabili nel presente o nel futuro, senza alcun riferimento temporale reale al passato."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: il terzo tipo, past perfect più would have, esprime condizioni irreali nel passato, ormai impossibili da cambiare.",
@@ -965,6 +965,7 @@
           90
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -986,8 +987,7 @@
           "lang": "it",
           "text": "esprime condizioni irreali nel passato, ormai impossibili da cambiare."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio concludiamo il programma grammaticale di Classe Seconda con i pronomi relativi, per poi passare alle funzioni comunicative — l'ambiente,",

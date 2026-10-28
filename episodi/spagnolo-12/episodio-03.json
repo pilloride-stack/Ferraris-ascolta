@@ -10,7 +10,7 @@
     },
     {
       "text": "Oggi affrontiamo il primo dei due grandi verbi spagnoli che corrispondono al nostro «essere»:",
-      "speech": "Oggi affrontiamo il primo dei due grandi verbi spagnoli che corrispondono al nostro «essere»:",
+      "speech": "Oggi affrontiamo il primo dei due grandi verbi spagnoli che corrispondono al nostro essere:",
       "bold": [
         [
           85,
@@ -108,6 +108,7 @@
           101
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -145,8 +146,7 @@
           "lang": "it",
           "text": "lui è, lei è, Lei è;"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "nosotros somos, noi siamo; vosotros sois, voi siete; ellos, ellas, ustedes son, loro sono, Loro sono.",
@@ -211,6 +211,7 @@
           37
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -224,8 +225,7 @@
           "lang": "it",
           "text": "perché seguono una logica precisa che vale la pena fissare fin da questo primo episodio dedicato ai verbi essere:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "ser si usa per esprimere caratteristiche permanenti o considerate stabili nel tempo.",
@@ -253,7 +253,7 @@
     },
     {
       "text": "Si usa per l'identità e la professione, «Soy estudiante», sono studente; per la nazionalità e l'origine, «Ella es italiana», lei è italiana;",
-      "speech": "Si usa per l'identità e la professione, «Soy estudiante», sono studente; per la nazionalità e l'origine, «Ella es italiana», lei è italiana;",
+      "speech": "Si usa per l'identità e la professione, Soy estudiante, sono studente; per la nazionalità e l'origine, Ella es italiana, lei è italiana;",
       "bold": [
         [
           13,
@@ -275,19 +275,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Si usa per l'identità e la professione, «"
+          "text": "Si usa per l'identità e la professione,"
         },
         {
           "lang": "es",
-          "text": "Soy estudiante»,"
+          "text": "Soy estudiante,"
         },
         {
           "lang": "it",
-          "text": "sono studente; per la nazionalità e l'origine, «"
+          "text": "sono studente; per la nazionalità e l'origine,"
         },
         {
           "lang": "es",
-          "text": "Ella es italiana»,"
+          "text": "Ella es italiana,"
         },
         {
           "lang": "it",
@@ -297,7 +297,7 @@
     },
     {
       "text": "per la descrizione del carattere e dell'aspetto fisico considerati stabili, «Mi hermano es alto y simpático», mio fratello è alto e simpatico;",
-      "speech": "per la descrizione del carattere e dell'aspetto fisico considerati stabili, «Mi hermano es alto y simpático», mio fratello è alto e simpatico;",
+      "speech": "per la descrizione del carattere e dell'aspetto fisico considerati stabili, Mi hermano es alto y simpático, mio fratello è alto e simpatico;",
       "bold": [
         [
           23,
@@ -311,11 +311,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "per la descrizione del carattere e dell'aspetto fisico considerati stabili, «"
+          "text": "per la descrizione del carattere e dell'aspetto fisico considerati stabili,"
         },
         {
           "lang": "es",
-          "text": "Mi hermano es alto y simpático»,"
+          "text": "Mi hermano es alto y simpático,"
         },
         {
           "lang": "it",
@@ -325,7 +325,7 @@
     },
     {
       "text": "per l'ora e la data, «Son las tres», sono le tre; per il materiale di cui è fatto un oggetto, «La mesa es de madera», il tavolo è di legno;",
-      "speech": "per l'ora e la data, «Son las tres», sono le tre; per il materiale di cui è fatto un oggetto, «La mesa es de madera», il tavolo è di legno;",
+      "speech": "per l'ora e la data, Son las tres, sono le tre; per il materiale di cui è fatto un oggetto, La mesa es de madera, il tavolo è di legno;",
       "bold": [
         [
           6,
@@ -347,19 +347,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "per l'ora e la data, «"
+          "text": "per l'ora e la data,"
         },
         {
           "lang": "es",
-          "text": "Son las tres»,"
+          "text": "Son las tres,"
         },
         {
           "lang": "it",
-          "text": "sono le tre; per il materiale di cui è fatto un oggetto, «"
+          "text": "sono le tre; per il materiale di cui è fatto un oggetto,"
         },
         {
           "lang": "es",
-          "text": "La mesa es de madera»,"
+          "text": "La mesa es de madera,"
         },
         {
           "lang": "it",
@@ -369,7 +369,7 @@
     },
     {
       "text": "e per esprimere il possesso, «Este libro es de María», questo libro è di Maria.",
-      "speech": "e per esprimere il possesso, «Este libro es de María», questo libro è di Maria.",
+      "speech": "e per esprimere il possesso, Este libro es de María, questo libro è di Maria.",
       "bold": [
         [
           19,
@@ -383,11 +383,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "e per esprimere il possesso, «"
+          "text": "e per esprimere il possesso,"
         },
         {
           "lang": "es",
-          "text": "Este libro es de María»,"
+          "text": "Este libro es de María,"
         },
         {
           "lang": "it",
@@ -408,6 +408,7 @@
           113
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -421,12 +422,11 @@
           "lang": "it",
           "text": "si usa anche per collocare nel tempo e nello spazio un evento, non un oggetto o una persona:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "diciamo «La fiesta es en mi casa», la festa è a casa mia, con ser, perché una festa è un evento che accade in un luogo, non un oggetto che semplicemente si trova lì;",
-      "speech": "diciamo «La fiesta es en mi casa», la festa è a casa mia, con ser, perché una festa è un evento che accade in un luogo, non un oggetto che semplicemente si trova lì;",
+      "speech": "diciamo La fiesta es en mi casa, la festa è a casa mia, con ser, perché una festa è un evento che accade in un luogo, non un oggetto che semplicemente si trova lì;",
       "bold": [
         [
           9,
@@ -440,11 +440,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "diciamo «"
+          "text": "diciamo"
         },
         {
           "lang": "es",
-          "text": "La fiesta es en mi casa»,"
+          "text": "La fiesta es en mi casa,"
         },
         {
           "lang": "it",
@@ -486,28 +486,28 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: come completereste la frase «Mi amiga ___ profesora, ___ de España y ___ muy inteligente»?",
-      "speech": "Proviamo un piccolo esercizio insieme: come completereste la frase «Mi amiga … profesora, … de España y … muy inteligente»?",
+      "speech": "Proviamo un piccolo esercizio insieme: come completereste la frase Mi amiga … profesora, … de España y … muy inteligente?",
       "bold": [
         [
           68,
           127
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un piccolo esercizio insieme: come completereste la frase «"
+          "text": "Proviamo un piccolo esercizio insieme: come completereste la frase"
         },
         {
           "lang": "es",
-          "text": "Mi amiga … profesora, … de España y … muy inteligente»?"
+          "text": "Mi amiga … profesora, … de España y … muy inteligente?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "In tutti e tre i casi, identità professionale, provenienza e caratteristica di carattere considerata stabile, useremo il verbo ser alla terza persona singolare: «Mi amiga es profesora, es de España y es muy inteligente».",
-      "speech": "In tutti e tre i casi, identità professionale, provenienza e caratteristica di carattere considerata stabile, useremo il verbo ser alla terza persona singolare: «Mi amiga es profesora, es de España y es muy inteligente».",
+      "speech": "In tutti e tre i casi, identità professionale, provenienza e caratteristica di carattere considerata stabile, useremo il verbo ser alla terza persona singolare: Mi amiga es profesora, es de España y es muy inteligente.",
       "bold": [
         [
           127,
@@ -529,11 +529,11 @@
         },
         {
           "lang": "it",
-          "text": "alla terza persona singolare: «"
+          "text": "alla terza persona singolare:"
         },
         {
           "lang": "es",
-          "text": "Mi amiga es profesora, es de España y es muy inteligente»."
+          "text": "Mi amiga es profesora, es de España y es muy inteligente."
         }
       ]
     },
@@ -583,6 +583,7 @@
           85
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -604,8 +605,7 @@
           "lang": "it",
           "text": "da memorizzare per intero."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: si usa per identità, professione, nazionalità, carattere, ora, data, materiale e possesso, tutte caratteristiche considerate permanenti o stabili.",
@@ -639,7 +639,7 @@
     },
     {
       "text": "Nel prossimo episodio vediamo il secondo verbo «essere» dello spagnolo, estar, e la differenza fondamentale fra ser ed estar.",
-      "speech": "Nel prossimo episodio vediamo il secondo verbo «essere» dello spagnolo, estar, e la differenza fondamentale fra ser ed estar.",
+      "speech": "Nel prossimo episodio vediamo il secondo verbo essere dello spagnolo, estar, e la differenza fondamentale fra ser ed estar.",
       "bold": [
         [
           48,
@@ -658,10 +658,11 @@
           124
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Nel prossimo episodio vediamo il secondo verbo «essere» dello spagnolo,"
+          "text": "Nel prossimo episodio vediamo il secondo verbo essere dello spagnolo,"
         },
         {
           "lang": "es",
@@ -683,8 +684,7 @@
           "lang": "es",
           "text": "estar."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

@@ -32,7 +32,7 @@
     },
     {
       "text": "e poi, nei prossimi episodi, i due verbi più importanti dello spagnolo, ser ed estar, entrambi corrispondenti al nostro «essere», e il verbo tener, «avere».",
-      "speech": "e poi, nei prossimi episodi, i due verbi più importanti dello spagnolo, ser ed estar, entrambi corrispondenti al nostro «essere», e il verbo tener, «avere».",
+      "speech": "e poi, nei prossimi episodi, i due verbi più importanti dello spagnolo, ser ed estar, entrambi corrispondenti al nostro essere, e il verbo tener, avere.",
       "bold": [
         [
           72,
@@ -74,21 +74,21 @@
         },
         {
           "lang": "it",
-          "text": "entrambi corrispondenti al nostro «essere», e il verbo"
+          "text": "entrambi corrispondenti al nostro essere, e il verbo"
         },
         {
           "lang": "es",
-          "text": "tener, «"
+          "text": "tener,"
         },
         {
           "lang": "it",
-          "text": "avere»."
+          "text": "avere."
         }
       ]
     },
     {
       "text": "Cominciamo dai pronomi personali soggetto, pronombres personales: yo, per «io»; tú, per «tu»; él, ella, per «lui», «lei»;",
-      "speech": "Cominciamo dai pronomi personali soggetto, pronombres personales: yo, per «io»; tú, per «tu»; él, ella, per «lui», «lei»;",
+      "speech": "Cominciamo dai pronomi personali soggetto, pronombres personales: yo, per io; tú, per tu; él, ella, per lui, lei;",
       "bold": [
         [
           15,
@@ -123,6 +123,7 @@
           119
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -134,7 +135,7 @@
         },
         {
           "lang": "it",
-          "text": "per «io»;"
+          "text": "per io;"
         },
         {
           "lang": "es",
@@ -142,22 +143,21 @@
         },
         {
           "lang": "it",
-          "text": "per «"
+          "text": "per"
         },
         {
           "lang": "es",
-          "text": "tu»; él, ella,"
+          "text": "tu; él, ella,"
         },
         {
           "lang": "it",
-          "text": "per «lui», «lei»;"
+          "text": "per lui, lei;"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "usted, la forma di cortesia che corrisponde al nostro «Lei», usata per rivolgersi con rispetto a una persona;",
-      "speech": "usted, la forma di cortesia che corrisponde al nostro «Lei», usata per rivolgersi con rispetto a una persona;",
+      "speech": "usted, la forma di cortesia che corrisponde al nostro Lei, usata per rivolgersi con rispetto a una persona;",
       "bold": [
         [
           0,
@@ -179,13 +179,13 @@
         },
         {
           "lang": "it",
-          "text": "la forma di cortesia che corrisponde al nostro «Lei», usata per rivolgersi con rispetto a una persona;"
+          "text": "la forma di cortesia che corrisponde al nostro Lei, usata per rivolgersi con rispetto a una persona;"
         }
       ]
     },
     {
       "text": "nosotros, nosotras, per «noi», con distinzione di genere; vosotros, vosotras, per «voi», anch'esso con distinzione di genere, forma tipica dello spagnolo peninsulare;",
-      "speech": "nosotros, nosotras, per «noi», con distinzione di genere; vosotros, vosotras, per «voi», anch'esso con distinzione di genere, forma tipica dello spagnolo peninsulare;",
+      "speech": "nosotros, nosotras, per noi, con distinzione di genere; vosotros, vosotras, per voi, anch'esso con distinzione di genere, forma tipica dello spagnolo peninsulare;",
       "bold": [
         [
           0,
@@ -215,7 +215,7 @@
         },
         {
           "lang": "it",
-          "text": "per «noi», con distinzione di genere;"
+          "text": "per noi, con distinzione di genere;"
         },
         {
           "lang": "es",
@@ -223,13 +223,13 @@
         },
         {
           "lang": "it",
-          "text": "per «voi», anch'esso con distinzione di genere, forma tipica dello spagnolo peninsulare;"
+          "text": "per voi, anch'esso con distinzione di genere, forma tipica dello spagnolo peninsulare;"
         }
       ]
     },
     {
       "text": "ellos, ellas, per «loro», sempre con distinzione di genere; e ustedes, il plurale di cortesia.",
-      "speech": "ellos, ellas, per «loro», sempre con distinzione di genere; e ustedes, il plurale di cortesia.",
+      "speech": "ellos, ellas, per loro, sempre con distinzione di genere; e ustedes, il plurale di cortesia.",
       "bold": [
         [
           0,
@@ -251,7 +251,7 @@
         },
         {
           "lang": "it",
-          "text": "per «loro», sempre con distinzione di genere; e"
+          "text": "per loro, sempre con distinzione di genere; e"
         },
         {
           "lang": "es",
@@ -276,7 +276,7 @@
     },
     {
       "text": "diciamo semplicemente «Hablo español», parlo spagnolo, senza bisogno di «yo», che si aggiunge solo per dare enfasi o per evitare ambiguità.",
-      "speech": "diciamo semplicemente «Hablo español», parlo spagnolo, senza bisogno di «yo», che si aggiunge solo per dare enfasi o per evitare ambiguità.",
+      "speech": "diciamo semplicemente Hablo español, parlo spagnolo, senza bisogno di yo, che si aggiunge solo per dare enfasi o per evitare ambiguità.",
       "bold": [
         [
           23,
@@ -290,19 +290,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "diciamo semplicemente «"
+          "text": "diciamo semplicemente"
         },
         {
           "lang": "es",
-          "text": "Hablo español»,"
+          "text": "Hablo español,"
         },
         {
           "lang": "it",
-          "text": "parlo spagnolo, senza bisogno di «"
+          "text": "parlo spagnolo, senza bisogno di"
         },
         {
           "lang": "es",
-          "text": "yo»,"
+          "text": "yo,"
         },
         {
           "lang": "it",
@@ -327,7 +327,7 @@
     },
     {
       "text": "las, per il femminile plurale: «el libro», il libro; «la mesa», il tavolo; «los libros», «las mesas».",
-      "speech": "las, per il femminile plurale: «el libro», il libro; «la mesa», il tavolo; «los libros», «las mesas».",
+      "speech": "las, per il femminile plurale: el libro, il libro; la mesa, il tavolo; los libros, las mesas.",
       "bold": [
         [
           32,
@@ -345,27 +345,27 @@
       "parts": [
         {
           "lang": "it",
-          "text": "las, per il femminile plurale: «"
+          "text": "las, per il femminile plurale:"
         },
         {
           "lang": "es",
-          "text": "el libro»,"
+          "text": "el libro,"
         },
         {
           "lang": "it",
-          "text": "il libro; «"
+          "text": "il libro;"
         },
         {
           "lang": "es",
-          "text": "la mesa»,"
+          "text": "la mesa,"
         },
         {
           "lang": "it",
-          "text": "il tavolo; «"
+          "text": "il tavolo;"
         },
         {
           "lang": "es",
-          "text": "los libros», «las mesas»."
+          "text": "los libros, las mesas."
         }
       ]
     },
@@ -381,7 +381,7 @@
     },
     {
       "text": "unos, unas, per i rispettivi plurali, con il significato di «alcuni, alcune»: «un libro», un libro; «una mesa», un tavolo; «unos libros», alcuni libri.",
-      "speech": "unos, unas, per i rispettivi plurali, con il significato di «alcuni, alcune»: «un libro», un libro; «una mesa», un tavolo; «unos libros», alcuni libri.",
+      "speech": "unos, unas, per i rispettivi plurali, con il significato di alcuni, alcune: un libro, un libro; una mesa, un tavolo; unos libros, alcuni libri.",
       "bold": [
         [
           0,
@@ -411,19 +411,19 @@
         },
         {
           "lang": "it",
-          "text": "per i rispettivi plurali, con il significato di «alcuni, alcune»: «un libro», un libro; «"
+          "text": "per i rispettivi plurali, con il significato di alcuni, alcune: un libro, un libro;"
         },
         {
           "lang": "es",
-          "text": "una mesa»,"
+          "text": "una mesa,"
         },
         {
           "lang": "it",
-          "text": "un tavolo; «"
+          "text": "un tavolo;"
         },
         {
           "lang": "es",
-          "text": "unos libros»,"
+          "text": "unos libros,"
         },
         {
           "lang": "it",
@@ -453,7 +453,7 @@
     },
     {
       "text": "diciamo «el agua», l'acqua, non «la agua», ma al plurale torna regolarmente «las aguas».",
-      "speech": "diciamo «el agua», l'acqua, non «la agua», ma al plurale torna regolarmente «las aguas».",
+      "speech": "diciamo el agua, l'acqua, non la agua, ma al plurale torna regolarmente las aguas.",
       "bold": [
         [
           9,
@@ -471,27 +471,27 @@
       "parts": [
         {
           "lang": "it",
-          "text": "diciamo «"
+          "text": "diciamo"
         },
         {
           "lang": "es",
-          "text": "el agua»,"
+          "text": "el agua,"
         },
         {
           "lang": "it",
-          "text": "l'acqua, non «"
+          "text": "l'acqua, non"
         },
         {
           "lang": "es",
-          "text": "la agua»,"
+          "text": "la agua,"
         },
         {
           "lang": "it",
-          "text": "ma al plurale torna regolarmente «"
+          "text": "ma al plurale torna regolarmente"
         },
         {
           "lang": "es",
-          "text": "las aguas»."
+          "text": "las aguas."
         }
       ]
     },
@@ -512,6 +512,7 @@
           174
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -521,8 +522,7 @@
           "lang": "es",
           "text": "gato;"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "quelli che terminano in -a sono generalmente femminili, come mesa o casa;",
@@ -578,7 +578,7 @@
     },
     {
       "text": "Il plurale dei sostantivi si forma aggiungendo -s se il sostantivo termina in vocale, «casa» diventa «casas», e -es se termina in consonante, «ciudad», città, diventa «ciudades».",
-      "speech": "Il plurale dei sostantivi si forma aggiungendo s se il sostantivo termina in vocale, «casa» diventa «casas», e es se termina in consonante, «ciudad», città, diventa «ciudades».",
+      "speech": "Il plurale dei sostantivi si forma aggiungendo s se il sostantivo termina in vocale, casa diventa casas, e es se termina in consonante, ciudad, città, diventa ciudades.",
       "bold": [
         [
           35,
@@ -608,58 +608,58 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Il plurale dei sostantivi si forma aggiungendo s se il sostantivo termina in vocale, «casa» diventa «"
+          "text": "Il plurale dei sostantivi si forma aggiungendo s se il sostantivo termina in vocale, casa diventa"
         },
         {
           "lang": "es",
-          "text": "casas»,"
+          "text": "casas,"
         },
         {
           "lang": "it",
-          "text": "e es se termina in consonante, «"
+          "text": "e es se termina in consonante,"
         },
         {
           "lang": "es",
-          "text": "ciudad»,"
+          "text": "ciudad,"
         },
         {
           "lang": "it",
-          "text": "città, diventa «"
+          "text": "città, diventa"
         },
         {
           "lang": "es",
-          "text": "ciudades»."
+          "text": "ciudades."
         }
       ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: come completereste la frase «___ estudiantes tienen ___ libros interesantes», sapendo che si parla di un gruppo di studentesse specifiche e di alcuni libri non ancora menzionati?",
-      "speech": "Proviamo un piccolo esercizio insieme: come completereste la frase «… estudiantes tienen … libros interesantes», sapendo che si parla di un gruppo di studentesse specifiche e di alcuni libri non ancora menzionati?",
+      "speech": "Proviamo un piccolo esercizio insieme: come completereste la frase … estudiantes tienen … libros interesantes, sapendo che si parla di un gruppo di studentesse specifiche e di alcuni libri non ancora menzionati?",
       "bold": [
         [
           72,
           114
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un piccolo esercizio insieme: come completereste la frase «…"
+          "text": "Proviamo un piccolo esercizio insieme: come completereste la frase …"
         },
         {
           "lang": "es",
-          "text": "estudiantes tienen … libros interesantes»,"
+          "text": "estudiantes tienen … libros interesantes,"
         },
         {
           "lang": "it",
           "text": "sapendo che si parla di un gruppo di studentesse specifiche e di alcuni libri non ancora menzionati?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Poiché le studentesse sono specifiche e già note dal contesto, useremo l'articolo determinativo femminile plurale: «Las estudiantes»;",
-      "speech": "Poiché le studentesse sono specifiche e già note dal contesto, useremo l'articolo determinativo femminile plurale: «Las estudiantes»;",
+      "speech": "Poiché le studentesse sono specifiche e già note dal contesto, useremo l'articolo determinativo femminile plurale: Las estudiantes;",
       "bold": [
         [
           116,
@@ -669,17 +669,17 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Poiché le studentesse sono specifiche e già note dal contesto, useremo l'articolo determinativo femminile plurale: «"
+          "text": "Poiché le studentesse sono specifiche e già note dal contesto, useremo l'articolo determinativo femminile plurale:"
         },
         {
           "lang": "es",
-          "text": "Las estudiantes»;"
+          "text": "Las estudiantes;"
         }
       ]
     },
     {
       "text": "poiché i libri sono generici e non ancora menzionati, useremo l'articolo indeterminativo maschile plurale: «tienen unos libros interesantes».",
-      "speech": "poiché i libri sono generici e non ancora menzionati, useremo l'articolo indeterminativo maschile plurale: «tienen unos libros interesantes».",
+      "speech": "poiché i libri sono generici e non ancora menzionati, useremo l'articolo indeterminativo maschile plurale: tienen unos libros interesantes.",
       "bold": [
         [
           108,
@@ -689,17 +689,17 @@
       "parts": [
         {
           "lang": "it",
-          "text": "poiché i libri sono generici e non ancora menzionati, useremo l'articolo indeterminativo maschile plurale: «"
+          "text": "poiché i libri sono generici e non ancora menzionati, useremo l'articolo indeterminativo maschile plurale:"
         },
         {
           "lang": "es",
-          "text": "tienen unos libros interesantes»."
+          "text": "tienen unos libros interesantes."
         }
       ]
     },
     {
       "text": "La frase completa è dunque «Las estudiantes tienen unos libros interesantes».",
-      "speech": "La frase completa è dunque «Las estudiantes tienen unos libros interesantes».",
+      "speech": "La frase completa è dunque Las estudiantes tienen unos libros interesantes.",
       "bold": [
         [
           28,
@@ -709,11 +709,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "La frase completa è dunque «"
+          "text": "La frase completa è dunque"
         },
         {
           "lang": "es",
-          "text": "Las estudiantes tienen unos libros interesantes»."
+          "text": "Las estudiantes tienen unos libros interesantes."
         }
       ]
     },
@@ -762,6 +762,7 @@
           161
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -783,8 +784,7 @@
           "lang": "it",
           "text": "concordano in genere e numero con il sostantivo, con l'eccezione di el davanti a sostantivi femminili che iniziano con a tonica."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: i sostantivi terminano generalmente in -o al maschile e in -a al femminile, salvo eccezioni da memorizzare.",
@@ -803,7 +803,7 @@
     },
     {
       "text": "Nel prossimo episodio affrontiamo il primo dei due grandi verbi spagnoli per «essere»: il verbo ser.",
-      "speech": "Nel prossimo episodio affrontiamo il primo dei due grandi verbi spagnoli per «essere»: il verbo ser.",
+      "speech": "Nel prossimo episodio affrontiamo il primo dei due grandi verbi spagnoli per essere: il verbo ser.",
       "bold": [
         [
           78,
@@ -814,17 +814,17 @@
           99
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Nel prossimo episodio affrontiamo il primo dei due grandi verbi spagnoli per «essere»: il verbo"
+          "text": "Nel prossimo episodio affrontiamo il primo dei due grandi verbi spagnoli per essere: il verbo"
         },
         {
           "lang": "es",
           "text": "ser."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

@@ -63,7 +63,7 @@
     },
     {
       "text": "Accanto alla critica dell'industrializzazione che abbiamo già analizzato nell'estratto «Coketown»,",
-      "speech": "Accanto alla critica dell'industrializzazione che abbiamo già analizzato nell'estratto «Coketown»,",
+      "speech": "Accanto alla critica dell'industrializzazione che abbiamo già analizzato nell'estratto Coketown,",
       "bold": [
         [
           88,
@@ -98,7 +98,7 @@
     },
     {
       "text": "Nel celebre incipit del romanzo, Gradgrind espone in modo programmatico la propria filosofia educativa con una battuta rimasta scolpita nella storia della letteratura inglese: «Now, what I want is, Facts...",
-      "speech": "Nel celebre incipit del romanzo, Gradgrind espone in modo programmatico la propria filosofia educativa con una battuta rimasta scolpita nella storia della letteratura inglese: «Now, what I want is, Facts...",
+      "speech": "Nel celebre incipit del romanzo, Gradgrind espone in modo programmatico la propria filosofia educativa con una battuta rimasta scolpita nella storia della letteratura inglese: Now, what I want is, Facts...",
       "bold": [
         [
           177,
@@ -108,7 +108,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Nel celebre incipit del romanzo, Gradgrind espone in modo programmatico la propria filosofia educativa con una battuta rimasta scolpita nella storia della letteratura inglese: «"
+          "text": "Nel celebre incipit del romanzo, Gradgrind espone in modo programmatico la propria filosofia educativa con una battuta rimasta scolpita nella storia della letteratura inglese:"
         },
         {
           "lang": "en",
@@ -118,7 +118,7 @@
     },
     {
       "text": "Facts alone are wanted in life» — ciò che voglio sono i fatti; nella vita servono solo i fatti.",
-      "speech": "Facts alone are wanted in life» — ciò che voglio sono i fatti; nella vita servono solo i fatti.",
+      "speech": "Facts alone are wanted in life — ciò che voglio sono i fatti; nella vita servono solo i fatti.",
       "bold": [
         [
           0,
@@ -128,7 +128,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "Facts alone are wanted in life» —"
+          "text": "Facts alone are wanted in life —"
         },
         {
           "lang": "it",
@@ -171,7 +171,7 @@
     },
     {
       "text": "ma per Gradgrind questa conoscenza vissuta ed emotiva non vale nulla, se non accompagnata da un elenco di «fatti» misurabili e classificabili.",
-      "speech": "ma per Gradgrind questa conoscenza vissuta ed emotiva non vale nulla, se non accompagnata da un elenco di «fatti» misurabili e classificabili.",
+      "speech": "ma per Gradgrind questa conoscenza vissuta ed emotiva non vale nulla, se non accompagnata da un elenco di fatti misurabili e classificabili.",
       "bold": [
         [
           107,
@@ -200,7 +200,7 @@
     },
     {
       "text": "un'educazione che ha soffocato sistematicamente l'immaginazione e la capacità di provare empatia produce, alla prova dei fatti — sarebbe ironico dire, proprio i «fatti» tanto cari a Gradgrind —",
-      "speech": "un'educazione che ha soffocato sistematicamente l'immaginazione e la capacità di provare empatia produce, alla prova dei fatti — sarebbe ironico dire, proprio i «fatti» tanto cari a Gradgrind —",
+      "speech": "un'educazione che ha soffocato sistematicamente l'immaginazione e la capacità di provare empatia produce, alla prova dei fatti — sarebbe ironico dire, proprio i fatti tanto cari a Gradgrind —",
       "bold": [
         [
           162,
@@ -280,6 +280,7 @@
           54
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -293,8 +294,7 @@
           "lang": "it",
           "text": "è presentato da Brontë come un'istituzione fredda e repressiva, che predica la privazione e la mortificazione del corpo in nome di una presunta disciplina cristiana,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "mentre lo stesso Brocklehurst conduce, nella vita privata, un'esistenza agiata e priva di privazioni:",
@@ -406,7 +406,7 @@
     },
     {
       "text": "Quanto alla filosofia educativa, Gradgrind incarna l'utilitarismo e il culto arido dei «fatti», mentre Brocklehurst incarna una disciplina repressiva predicata in nome della fede religiosa.",
-      "speech": "Quanto alla filosofia educativa, Gradgrind incarna l'utilitarismo e il culto arido dei «fatti», mentre Brocklehurst incarna una disciplina repressiva predicata in nome della fede religiosa.",
+      "speech": "Quanto alla filosofia educativa, Gradgrind incarna l'utilitarismo e il culto arido dei fatti, mentre Brocklehurst incarna una disciplina repressiva predicata in nome della fede religiosa.",
       "bold": [
         [
           53,
@@ -531,7 +531,7 @@
     },
     {
       "text": "Primo: in Hard Times, Mr Gradgrind incarna una filosofia educativa utilitaristica fondata sul culto dei «fatti», che produce il fallimento affettivo dei propri figli Louisa e Tom.",
-      "speech": "Primo: in Hard Times, Mr Gradgrind incarna una filosofia educativa utilitaristica fondata sul culto dei «fatti», che produce il fallimento affettivo dei propri figli Louisa e Tom.",
+      "speech": "Primo: in Hard Times, Mr Gradgrind incarna una filosofia educativa utilitaristica fondata sul culto dei fatti, che produce il fallimento affettivo dei propri figli Louisa e Tom.",
       "bold": [
         [
           0,
@@ -550,6 +550,7 @@
           110
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -561,10 +562,9 @@
         },
         {
           "lang": "it",
-          "text": "Gradgrind incarna una filosofia educativa utilitaristica fondata sul culto dei «fatti», che produce il fallimento affettivo dei propri figli Louisa e Tom."
+          "text": "Gradgrind incarna una filosofia educativa utilitaristica fondata sul culto dei fatti, che produce il fallimento affettivo dei propri figli Louisa e Tom."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: in Jane Eyre, l'istituto di Lowood, diretto dall'ipocrita Mr Brocklehurst, è un'istituzione repressiva che culmina nella morte di Helen Burns,",
@@ -583,6 +583,7 @@
           150
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -600,8 +601,7 @@
           "lang": "en",
           "text": "Burns,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "ma permette comunque a Jane di raggiungere l'indipendenza economica e morale da adulta.",

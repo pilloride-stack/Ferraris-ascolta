@@ -49,6 +49,7 @@
           158
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -58,8 +59,7 @@
           "lang": "en",
           "text": "could, may, might, shall, should, would, must —"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "e affrontiamo un argomento strutturalmente diverso ma altrettanto importante: la forma passiva.",
@@ -118,7 +118,7 @@
     },
     {
       "text": "«Could you help me?», potresti aiutarmi?, è più gentile e meno diretto di «Can you help me?».",
-      "speech": "«Could you help me?», potresti aiutarmi?, è più gentile e meno diretto di «Can you help me?».",
+      "speech": "Could you help me?, potresti aiutarmi?, è più gentile e meno diretto di Can you help me?.",
       "bold": [
         [
           1,
@@ -132,15 +132,15 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«Could you help me?»,"
+          "text": "Could you help me?,"
         },
         {
           "lang": "it",
-          "text": "potresti aiutarmi?, è più gentile e meno diretto di «"
+          "text": "potresti aiutarmi?, è più gentile e meno diretto di"
         },
         {
           "lang": "en",
-          "text": "Can you help me?»."
+          "text": "Can you help me?."
         }
       ]
     },
@@ -206,7 +206,7 @@
     },
     {
       "text": "«It may rain later» e «It might rain later» sono entrambe previsioni caute, ma might suggerisce una probabilità percepita come leggermente più bassa.",
-      "speech": "«It may rain later» e «It might rain later» sono entrambe previsioni caute, ma might suggerisce una probabilità percepita come leggermente più bassa.",
+      "speech": "It may rain later e It might rain later sono entrambe previsioni caute, ma might suggerisce una probabilità percepita come leggermente più bassa.",
       "bold": [
         [
           1,
@@ -224,15 +224,15 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«It may rain later»"
+          "text": "It may rain later"
         },
         {
           "lang": "it",
-          "text": "e «"
+          "text": "e"
         },
         {
           "lang": "en",
-          "text": "It might rain later»"
+          "text": "It might rain later"
         },
         {
           "lang": "it",
@@ -250,7 +250,7 @@
     },
     {
       "text": "May si usa anche per il permesso in un registro formale: «You may leave now», può andare ora, un'espressione che un insegnante o un superiore userebbe con un tono più ufficiale rispetto al semplice can.",
-      "speech": "May si usa anche per il permesso in un registro formale: «You may leave now», può andare ora, un'espressione che un insegnante o un superiore userebbe con un tono più ufficiale rispetto al semplice can.",
+      "speech": "May si usa anche per il permesso in un registro formale: You may leave now, può andare ora, un'espressione che un insegnante o un superiore userebbe con un tono più ufficiale rispetto al semplice can.",
       "bold": [
         [
           0,
@@ -276,11 +276,11 @@
         },
         {
           "lang": "it",
-          "text": "si usa anche per il permesso in un registro formale: «"
+          "text": "si usa anche per il permesso in un registro formale:"
         },
         {
           "lang": "en",
-          "text": "You may leave now»,"
+          "text": "You may leave now,"
         },
         {
           "lang": "it",
@@ -309,6 +309,7 @@
           75
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "en",
@@ -326,12 +327,11 @@
           "lang": "it",
           "text": "in un inglese che oggi suona un po' più formale o britannico:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "«Shall we go?», andiamo?, è un modo elegante per proporre un'azione insieme a qualcun altro.",
-      "speech": "«Shall we go?», andiamo?, è un modo elegante per proporre un'azione insieme a qualcun altro.",
+      "speech": "Shall we go?, andiamo?, è un modo elegante per proporre un'azione insieme a qualcun altro.",
       "bold": [
         [
           1,
@@ -341,7 +341,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«Shall we go?»,"
+          "text": "Shall we go?,"
         },
         {
           "lang": "it",
@@ -351,7 +351,7 @@
     },
     {
       "text": "Should esprime consiglio od opportunità: «You should see a doctor», dovresti andare dal dottore — un consiglio, non un obbligo assoluto, a differenza di must, di cui parleremo tra poco.",
-      "speech": "Should esprime consiglio od opportunità: «You should see a doctor», dovresti andare dal dottore — un consiglio, non un obbligo assoluto, a differenza di must, di cui parleremo tra poco.",
+      "speech": "Should esprime consiglio od opportunità: You should see a doctor, dovresti andare dal dottore — un consiglio, non un obbligo assoluto, a differenza di must, di cui parleremo tra poco.",
       "bold": [
         [
           0,
@@ -377,11 +377,11 @@
         },
         {
           "lang": "it",
-          "text": "esprime consiglio od opportunità: «"
+          "text": "esprime consiglio od opportunità:"
         },
         {
           "lang": "en",
-          "text": "You should see a doctor»,"
+          "text": "You should see a doctor,"
         },
         {
           "lang": "it",
@@ -427,7 +427,7 @@
     },
     {
       "text": "«Would you like some tea?», gradiresti un tè?, una forma di cortesia molto comune nell'inglese quotidiano.",
-      "speech": "«Would you like some tea?», gradiresti un tè?, una forma di cortesia molto comune nell'inglese quotidiano.",
+      "speech": "Would you like some tea?, gradiresti un tè?, una forma di cortesia molto comune nell'inglese quotidiano.",
       "bold": [
         [
           1,
@@ -437,7 +437,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«Would you like some tea?»,"
+          "text": "Would you like some tea?,"
         },
         {
           "lang": "it",
@@ -462,6 +462,7 @@
           66
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -475,12 +476,11 @@
           "lang": "it",
           "text": "esprime un obbligo forte, oppure una deduzione logica basata su prove evidenti."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "«You must wear a seatbelt», devi indossare la cintura di sicurezza, è un obbligo, spesso di natura normativa o di sicurezza.",
-      "speech": "«You must wear a seatbelt», devi indossare la cintura di sicurezza, è un obbligo, spesso di natura normativa o di sicurezza.",
+      "speech": "You must wear a seatbelt, devi indossare la cintura di sicurezza, è un obbligo, spesso di natura normativa o di sicurezza.",
       "bold": [
         [
           1,
@@ -490,7 +490,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«You must wear a seatbelt»,"
+          "text": "You must wear a seatbelt,"
         },
         {
           "lang": "it",
@@ -500,7 +500,7 @@
     },
     {
       "text": "«She must be tired», deve essere stanca, è invece una deduzione logica:",
-      "speech": "«She must be tired», deve essere stanca, è invece una deduzione logica:",
+      "speech": "She must be tired, deve essere stanca, è invece una deduzione logica:",
       "bold": [
         [
           1,
@@ -510,7 +510,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«She must be tired»,"
+          "text": "She must be tired,"
         },
         {
           "lang": "it",
@@ -671,6 +671,7 @@
           35
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -684,8 +685,7 @@
           "lang": "it",
           "text": "più il participio passato del verbo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La forma passiva si usa quando l'attenzione della frase è rivolta all'azione stessa, o a chi la subisce, più che a chi la compie — che spesso, nella forma passiva, non viene nemmeno specificato,",
@@ -723,7 +723,7 @@
     },
     {
       "text": "«English is spoken all over the world», l'inglese è parlato in tutto il mondo: qui non ci interessa affatto chi lo parla in modo specifico, ci interessa il fatto stesso che sia parlato ovunque.",
-      "speech": "«English is spoken all over the world», l'inglese è parlato in tutto il mondo: qui non ci interessa affatto chi lo parla in modo specifico, ci interessa il fatto stesso che sia parlato ovunque.",
+      "speech": "English is spoken all over the world, l'inglese è parlato in tutto il mondo: qui non ci interessa affatto chi lo parla in modo specifico, ci interessa il fatto stesso che sia parlato ovunque.",
       "bold": [
         [
           1,
@@ -733,7 +733,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«English is spoken all over the world»,"
+          "text": "English is spoken all over the world,"
         },
         {
           "lang": "it",
@@ -743,7 +743,7 @@
     },
     {
       "text": "«The Mona Lisa was painted by Leonardo da Vinci», la Gioconda fu dipinta da Leonardo da Vinci:",
-      "speech": "«The Mona Lisa was painted by Leonardo da Vinci», la Gioconda fu dipinta da Leonardo da Vinci:",
+      "speech": "The Mona Lisa was painted by Leonardo da Vinci, la Gioconda fu dipinta da Leonardo da Vinci:",
       "bold": [
         [
           1,
@@ -753,11 +753,11 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«The Mona Lisa was painted by"
+          "text": "The Mona Lisa was painted by"
         },
         {
           "lang": "it",
-          "text": "Leonardo da Vinci», la Gioconda fu dipinta da Leonardo da Vinci:"
+          "text": "Leonardo da Vinci, la Gioconda fu dipinta da Leonardo da Vinci:"
         }
       ]
     },
@@ -792,7 +792,7 @@
     },
     {
       "text": "la frase attiva «They built this house in 1990», hanno costruito questa casa nel 1990, diventa, alla forma passiva, «This house was built in 1990» — notate che l'oggetto della frase attiva, this house, diventa il soggetto della frase passiva,",
-      "speech": "la frase attiva «They built this house in 1990», hanno costruito questa casa nel 1990, diventa, alla forma passiva, «This house was built in 1990» — notate che l'oggetto della frase attiva, this house, diventa il soggetto della frase passiva,",
+      "speech": "la frase attiva They built this house in 1990, hanno costruito questa casa nel 1990, diventa, alla forma passiva, This house was built in 1990 — notate che l'oggetto della frase attiva, this house, diventa il soggetto della frase passiva,",
       "bold": [
         [
           17,
@@ -818,19 +818,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "la frase attiva «"
+          "text": "la frase attiva"
         },
         {
           "lang": "en",
-          "text": "They built this house in 1990»,"
+          "text": "They built this house in 1990,"
         },
         {
           "lang": "it",
-          "text": "hanno costruito questa casa nel 1990, diventa, alla forma passiva, «"
+          "text": "hanno costruito questa casa nel 1990, diventa, alla forma passiva,"
         },
         {
           "lang": "en",
-          "text": "This house was built in 1990» —"
+          "text": "This house was built in 1990 —"
         },
         {
           "lang": "it",
@@ -872,7 +872,7 @@
     },
     {
       "text": "Allo stesso modo, «People speak English in many countries» diventa «English is spoken in many countries», con lo stesso identico meccanismo:",
-      "speech": "Allo stesso modo, «People speak English in many countries» diventa «English is spoken in many countries», con lo stesso identico meccanismo:",
+      "speech": "Allo stesso modo, People speak English in many countries diventa English is spoken in many countries, con lo stesso identico meccanismo:",
       "bold": [
         [
           19,
@@ -886,19 +886,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Allo stesso modo, «"
+          "text": "Allo stesso modo,"
         },
         {
           "lang": "en",
-          "text": "People speak English in many countries»"
+          "text": "People speak English in many countries"
         },
         {
           "lang": "it",
-          "text": "diventa «"
+          "text": "diventa"
         },
         {
           "lang": "en",
-          "text": "English is spoken in many countries»,"
+          "text": "English is spoken in many countries,"
         },
         {
           "lang": "it",
@@ -937,7 +937,7 @@
     },
     {
       "text": "perché un madrelingua inglese sceglierebbe di dire «This house was built in 1990» invece di «They built this house in 1990»?",
-      "speech": "perché un madrelingua inglese sceglierebbe di dire «This house was built in 1990» invece di «They built this house in 1990»?",
+      "speech": "perché un madrelingua inglese sceglierebbe di dire This house was built in 1990 invece di They built this house in 1990?",
       "bold": [
         [
           52,
@@ -951,19 +951,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "perché un madrelingua inglese sceglierebbe di dire «"
+          "text": "perché un madrelingua inglese sceglierebbe di dire"
         },
         {
           "lang": "en",
-          "text": "This house was built in 1990»"
+          "text": "This house was built in 1990"
         },
         {
           "lang": "it",
-          "text": "invece di «"
+          "text": "invece di"
         },
         {
           "lang": "en",
-          "text": "They built this house in 1990»?"
+          "text": "They built this house in 1990?"
         }
       ]
     },
@@ -981,28 +981,28 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: trasformate alla forma passiva la frase «Someone stole my bicycle yesterday», qualcuno ha rubato la mia bicicletta ieri.",
-      "speech": "Proviamo un piccolo esercizio insieme: trasformate alla forma passiva la frase «Someone stole my bicycle yesterday», qualcuno ha rubato la mia bicicletta ieri.",
+      "speech": "Proviamo un piccolo esercizio insieme: trasformate alla forma passiva la frase Someone stole my bicycle yesterday, qualcuno ha rubato la mia bicicletta ieri.",
       "bold": [
         [
           80,
           114
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un piccolo esercizio insieme: trasformate alla forma passiva la frase «"
+          "text": "Proviamo un piccolo esercizio insieme: trasformate alla forma passiva la frase"
         },
         {
           "lang": "en",
-          "text": "Someone stole my bicycle yesterday»,"
+          "text": "Someone stole my bicycle yesterday,"
         },
         {
           "lang": "it",
           "text": "qualcuno ha rubato la mia bicicletta ieri."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Qui il soggetto della frase attiva, someone, qualcuno, è talmente generico e non specificato che la forma passiva è quasi obbligatoria in un inglese naturale:",
@@ -1030,7 +1030,7 @@
     },
     {
       "text": "«My bicycle was stolen yesterday», la mia bicicletta è stata rubata ieri, senza nemmeno bisogno di aggiungere by someone,",
-      "speech": "«My bicycle was stolen yesterday», la mia bicicletta è stata rubata ieri, senza nemmeno bisogno di aggiungere by someone,",
+      "speech": "My bicycle was stolen yesterday, la mia bicicletta è stata rubata ieri, senza nemmeno bisogno di aggiungere by someone,",
       "bold": [
         [
           1,
@@ -1044,7 +1044,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«My bicycle was stolen yesterday»,"
+          "text": "My bicycle was stolen yesterday,"
         },
         {
           "lang": "it",
@@ -1102,6 +1102,7 @@
           103
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1139,8 +1140,7 @@
           "lang": "it",
           "text": "leggermente più incerto;"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "shall si usa per proposte, should per consigli, would per il condizionale e le richieste cortesi.",
@@ -1223,6 +1223,7 @@
           131
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1244,8 +1245,7 @@
           "lang": "it",
           "text": "che indica un semplice consiglio."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: la forma passiva sposta l'attenzione dall'autore dell'azione all'azione stessa o a chi la subisce, ed è particolarmente frequente quando l'autore dell'azione non è specificato o non è rilevante.",

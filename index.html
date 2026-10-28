@@ -410,13 +410,27 @@ function playSentence(index) {
     "In ascolto…";
 
   audio.src = audioFile(index);
-  audio.play().catch(() => {
-    speaking = false;
-    document.getElementById("status").innerText =
-      "Audio non disponibile";
+  audio.play().catch((err) => {
+    if (err && err.name === "NotAllowedError") {
+      speaking = false;
+      document.getElementById("status").innerText =
+        "Premi play per ascoltare";
+    }
   });
 
 }
+
+audio.addEventListener("error", function() {
+  // audio di una frase non disponibile: passa alla successiva invece di fermarsi
+  if (paused || !speaking) {
+    return;
+  }
+  setTimeout(function() {
+    currentSentence++;
+    updateProgress();
+    playSentence(currentSentence);
+  }, 400);
+});
 
 audio.addEventListener("ended", function() {
   if (paused || !speaking) {

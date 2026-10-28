@@ -234,7 +234,7 @@
     },
     {
       "text": "è proprio da questi popoli che deriva il nome stesso «Inghilterra», England, che significa letteralmente Angle-land, «terra degli Angli».",
-      "speech": "è proprio da questi popoli che deriva il nome stesso «Inghilterra», England, che significa letteralmente Angle-land, «terra degli Angli».",
+      "speech": "è proprio da questi popoli che deriva il nome stesso Inghilterra, England, che significa letteralmente Angle-land, terra degli Angli.",
       "bold": [
         [
           54,
@@ -256,7 +256,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "è proprio da questi popoli che deriva il nome stesso «Inghilterra»,"
+          "text": "è proprio da questi popoli che deriva il nome stesso Inghilterra,"
         },
         {
           "lang": "en",
@@ -268,11 +268,11 @@
         },
         {
           "lang": "en",
-          "text": "Angle-land, «"
+          "text": "Angle-land,"
         },
         {
           "lang": "it",
-          "text": "terra degli Angli»."
+          "text": "terra degli Angli."
         }
       ]
     },
@@ -425,7 +425,7 @@
     },
     {
       "text": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome «Inghilterra» e alla lingua inglese antica, l'Old English.",
-      "speech": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome «Inghilterra» e alla lingua inglese antica, l'Old English.",
+      "speech": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome Inghilterra e alla lingua inglese antica, l'Old English.",
       "bold": [
         [
           0,
@@ -444,17 +444,17 @@
           168
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome «Inghilterra» e alla lingua inglese antica,"
+          "text": "Terzo: nel vuoto di potere post-romano, Angli, Sassoni e Juti si stanziano in Britannia, dando origine al nome Inghilterra e alla lingua inglese antica,"
         },
         {
           "lang": "en",
           "text": "l'Old English."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: a differenza di altre province romane, la Britannia non conserva un'eredità linguistica latina duratura, proprio a causa della sostituzione demografica portata dagli Anglosassoni.",

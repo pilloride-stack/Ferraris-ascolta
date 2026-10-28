@@ -242,6 +242,7 @@
           69
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -263,8 +264,7 @@
           "lang": "it",
           "text": "una figura professionale che è importante saper descrivere con precisione."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Lo spedizioniere è l'intermediario specializzato che organizza, per conto dell'esportatore o dell'importatore, l'intero processo logistico di una spedizione:",
@@ -327,6 +327,7 @@
           53
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -340,8 +341,7 @@
           "lang": "it",
           "text": "che protegge l'esportatore o l'importatore dai rischi finanziari legati a perdita,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "danno o furto della merce durante il trasporto — rischi tutt'altro che trascurabili quando una merce attraversa mezzo mondo su una nave, un aereo o un treno.",
@@ -402,6 +402,7 @@
           38
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -415,8 +416,7 @@
           "lang": "it",
           "text": "essenziale per proteggere fisicamente la merce durante il trasporto e per facilitarne la movimentazione da parte degli operatori logistici."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Due documenti e pratiche sono strettamente collegati all'imballaggio:",
@@ -476,7 +476,7 @@
     },
     {
       "text": "come «Fragile», «This way up» (questo lato verso l'alto) o «Keep dry» (tenere all'asciutto).",
-      "speech": "come «Fragile», «This way up» (questo lato verso l'alto) o «Keep dry» (tenere all'asciutto).",
+      "speech": "come Fragile, This way up (questo lato verso l'alto) o Keep dry (tenere all'asciutto).",
       "bold": [
         [
           6,
@@ -494,19 +494,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "come «Fragile», «"
+          "text": "come Fragile,"
         },
         {
           "lang": "en",
-          "text": "This way up» ("
+          "text": "This way up ("
         },
         {
           "lang": "it",
-          "text": "questo lato verso l'alto) o «"
+          "text": "questo lato verso l'alto) o"
         },
         {
           "lang": "en",
-          "text": "Keep dry» ("
+          "text": "Keep dry ("
         },
         {
           "lang": "it",
@@ -609,7 +609,7 @@
     },
     {
       "text": "Probabilmente «Fragile» e magari «Keep dry».",
-      "speech": "Probabilmente «Fragile» e magari «Keep dry».",
+      "speech": "Probabilmente Fragile e magari Keep dry.",
       "bold": [
         [
           15,
@@ -623,11 +623,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Probabilmente «Fragile» e magari «"
+          "text": "Probabilmente Fragile e magari"
         },
         {
           "lang": "en",
-          "text": "Keep dry»."
+          "text": "Keep dry."
         }
       ]
     },
@@ -698,6 +698,7 @@
           23
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -711,8 +712,7 @@
           "lang": "it",
           "text": "e la marcatura del collo garantiscono un imballaggio adeguato e una movimentazione sicura della merce."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo i tre documenti di trasporto fondamentali — la lettera di vettura stradale, la lettera di trasporto aereo e la polizza di carico marittima — e la loro diversa natura giuridica.",

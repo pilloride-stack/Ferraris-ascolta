@@ -144,7 +144,7 @@
     },
     {
       "text": "Diciamo dunque «she can swim», non «she cans swims»: nessuna -s su can, e swim senza to davanti.",
-      "speech": "Diciamo dunque «she can swim», non «she cans swims»: nessuna s su can, e swim senza to davanti.",
+      "speech": "Diciamo dunque she can swim, non she cans swims: nessuna s su can, e swim senza to davanti.",
       "bold": [
         [
           16,
@@ -170,19 +170,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Diciamo dunque «"
+          "text": "Diciamo dunque"
         },
         {
           "lang": "en",
-          "text": "she can swim»,"
+          "text": "she can swim,"
         },
         {
           "lang": "it",
-          "text": "non «"
+          "text": "non"
         },
         {
           "lang": "en",
-          "text": "she cans swims»:"
+          "text": "she cans swims:"
         },
         {
           "lang": "it",
@@ -252,7 +252,7 @@
     },
     {
       "text": "Can esprime capacità o possibilità nel presente: «I can swim» significa che sono fisicamente in grado di nuotare, ho questa capacità.",
-      "speech": "Can esprime capacità o possibilità nel presente: «I can swim» significa che sono fisicamente in grado di nuotare, ho questa capacità.",
+      "speech": "Can esprime capacità o possibilità nel presente: I can swim significa che sono fisicamente in grado di nuotare, ho questa capacità.",
       "bold": [
         [
           0,
@@ -267,6 +267,7 @@
           60
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "en",
@@ -274,22 +275,21 @@
         },
         {
           "lang": "it",
-          "text": "esprime capacità o possibilità nel presente: «"
+          "text": "esprime capacità o possibilità nel presente:"
         },
         {
           "lang": "en",
-          "text": "I can swim»"
+          "text": "I can swim"
         },
         {
           "lang": "it",
           "text": "significa che sono fisicamente in grado di nuotare, ho questa capacità."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La sua negazione, can't (o cannot, nella forma più formale), esprime l'incapacità o l'impossibilità: «I can't swim», non so nuotare.",
-      "speech": "La sua negazione, can't (o cannot, nella forma più formale), esprime l'incapacità o l'impossibilità: «I can't swim», non so nuotare.",
+      "speech": "La sua negazione, can't (o cannot, nella forma più formale), esprime l'incapacità o l'impossibilità: I can't swim, non so nuotare.",
       "bold": [
         [
           18,
@@ -331,11 +331,11 @@
         },
         {
           "lang": "it",
-          "text": "nella forma più formale), esprime l'incapacità o l'impossibilità: «"
+          "text": "nella forma più formale), esprime l'incapacità o l'impossibilità:"
         },
         {
           "lang": "en",
-          "text": "I can't swim»,"
+          "text": "I can't swim,"
         },
         {
           "lang": "it",
@@ -399,7 +399,7 @@
     },
     {
       "text": "«I will help you» può essere, a seconda del contesto, una decisione istantanea — mi offro di aiutarti proprio ora, mentre ne parliamo — oppure una promessa.",
-      "speech": "«I will help you» può essere, a seconda del contesto, una decisione istantanea — mi offro di aiutarti proprio ora, mentre ne parliamo — oppure una promessa.",
+      "speech": "I will help you può essere, a seconda del contesto, una decisione istantanea — mi offro di aiutarti proprio ora, mentre ne parliamo — oppure una promessa.",
       "bold": [
         [
           1,
@@ -409,7 +409,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«I will help you»"
+          "text": "I will help you"
         },
         {
           "lang": "it",
@@ -419,7 +419,7 @@
     },
     {
       "text": "La sua negazione, won't, contrazione di will not, nega semplicemente questa intenzione futura: «I won't tell anyone», non lo dirò a nessuno.",
-      "speech": "La sua negazione, won't, contrazione di will not, nega semplicemente questa intenzione futura: «I won't tell anyone», non lo dirò a nessuno.",
+      "speech": "La sua negazione, won't, contrazione di will not, nega semplicemente questa intenzione futura: I won't tell anyone, non lo dirò a nessuno.",
       "bold": [
         [
           18,
@@ -453,11 +453,11 @@
         },
         {
           "lang": "it",
-          "text": "nega semplicemente questa intenzione futura: «"
+          "text": "nega semplicemente questa intenzione futura:"
         },
         {
           "lang": "en",
-          "text": "I won't tell anyone»,"
+          "text": "I won't tell anyone,"
         },
         {
           "lang": "it",
@@ -472,7 +472,7 @@
     },
     {
       "text": "Some si usa tipicamente nelle frasi affermative, sia con nomi numerabili sia con nomi non numerabili: «I have some money», ho un po' di soldi.",
-      "speech": "Some si usa tipicamente nelle frasi affermative, sia con nomi numerabili sia con nomi non numerabili: «I have some money», ho un po' di soldi.",
+      "speech": "Some si usa tipicamente nelle frasi affermative, sia con nomi numerabili sia con nomi non numerabili: I have some money, ho un po' di soldi.",
       "bold": [
         [
           0,
@@ -494,11 +494,11 @@
         },
         {
           "lang": "it",
-          "text": "si usa tipicamente nelle frasi affermative, sia con nomi numerabili sia con nomi non numerabili: «"
+          "text": "si usa tipicamente nelle frasi affermative, sia con nomi numerabili sia con nomi non numerabili:"
         },
         {
           "lang": "en",
-          "text": "I have some money»,"
+          "text": "I have some money,"
         },
         {
           "lang": "it",
@@ -508,7 +508,7 @@
     },
     {
       "text": "Any si usa invece nelle frasi negative e interrogative: «I don't have any money», non ho soldi; «Do you have any money?», hai dei soldi?",
-      "speech": "Any si usa invece nelle frasi negative e interrogative: «I don't have any money», non ho soldi; «Do you have any money?», hai dei soldi?",
+      "speech": "Any si usa invece nelle frasi negative e interrogative: I don't have any money, non ho soldi; Do you have any money?, hai dei soldi?",
       "bold": [
         [
           0,
@@ -534,19 +534,19 @@
         },
         {
           "lang": "it",
-          "text": "si usa invece nelle frasi negative e interrogative: «"
+          "text": "si usa invece nelle frasi negative e interrogative:"
         },
         {
           "lang": "en",
-          "text": "I don't have any money»,"
+          "text": "I don't have any money,"
         },
         {
           "lang": "it",
-          "text": "non ho soldi; «"
+          "text": "non ho soldi;"
         },
         {
           "lang": "en",
-          "text": "Do you have any money?»,"
+          "text": "Do you have any money?,"
         },
         {
           "lang": "it",
@@ -596,7 +596,7 @@
     },
     {
       "text": "Per quanto riguarda le quantità più specifiche, much si usa esclusivamente con i nomi non numerabili — «How much water do you need?», quanta acqua ti serve? —",
-      "speech": "Per quanto riguarda le quantità più specifiche, much si usa esclusivamente con i nomi non numerabili — «How much water do you need?», quanta acqua ti serve? —",
+      "speech": "Per quanto riguarda le quantità più specifiche, much si usa esclusivamente con i nomi non numerabili — How much water do you need?, quanta acqua ti serve? —",
       "bold": [
         [
           48,
@@ -611,6 +611,7 @@
           130
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -622,22 +623,21 @@
         },
         {
           "lang": "it",
-          "text": "si usa esclusivamente con i nomi non numerabili — «"
+          "text": "si usa esclusivamente con i nomi non numerabili —"
         },
         {
           "lang": "en",
-          "text": "How much water do you need?»,"
+          "text": "How much water do you need?,"
         },
         {
           "lang": "it",
           "text": "quanta acqua ti serve? —"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "mentre many si usa esclusivamente con i nomi numerabili plurali — «How many books do you have?», quanti libri hai?",
-      "speech": "mentre many si usa esclusivamente con i nomi numerabili plurali — «How many books do you have?», quanti libri hai?",
+      "speech": "mentre many si usa esclusivamente con i nomi numerabili plurali — How many books do you have?, quanti libri hai?",
       "bold": [
         [
           7,
@@ -663,11 +663,11 @@
         },
         {
           "lang": "it",
-          "text": "si usa esclusivamente con i nomi numerabili plurali — «"
+          "text": "si usa esclusivamente con i nomi numerabili plurali —"
         },
         {
           "lang": "en",
-          "text": "How many books do you have?»,"
+          "text": "How many books do you have?,"
         },
         {
           "lang": "it",
@@ -713,7 +713,7 @@
     },
     {
       "text": "«I have a lot of books» e «I have a lot of water» sono entrambe corrette.",
-      "speech": "«I have a lot of books» e «I have a lot of water» sono entrambe corrette.",
+      "speech": "I have a lot of books e I have a lot of water sono entrambe corrette.",
       "bold": [
         [
           1,
@@ -727,15 +727,15 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«I have a lot of books»"
+          "text": "I have a lot of books"
         },
         {
           "lang": "it",
-          "text": "e «"
+          "text": "e"
         },
         {
           "lang": "en",
-          "text": "I have a lot of water»"
+          "text": "I have a lot of water"
         },
         {
           "lang": "it",
@@ -785,7 +785,7 @@
     },
     {
       "text": "a little si usa con i nomi non numerabili — «I have a little time», ho un po' di tempo, quanto basta —",
-      "speech": "a little si usa con i nomi non numerabili — «I have a little time», ho un po' di tempo, quanto basta —",
+      "speech": "a little si usa con i nomi non numerabili — I have a little time, ho un po' di tempo, quanto basta —",
       "bold": [
         [
           0,
@@ -803,11 +803,11 @@
         },
         {
           "lang": "it",
-          "text": "si usa con i nomi non numerabili — «"
+          "text": "si usa con i nomi non numerabili —"
         },
         {
           "lang": "en",
-          "text": "I have a little time»,"
+          "text": "I have a little time,"
         },
         {
           "lang": "it",
@@ -817,7 +817,7 @@
     },
     {
       "text": "e a few con i nomi numerabili plurali — «I have a few friends», ho alcuni amici, quanto basta per non sentirmi solo.",
-      "speech": "e a few con i nomi numerabili plurali — «I have a few friends», ho alcuni amici, quanto basta per non sentirmi solo.",
+      "speech": "e a few con i nomi numerabili plurali — I have a few friends, ho alcuni amici, quanto basta per non sentirmi solo.",
       "bold": [
         [
           4,
@@ -839,11 +839,11 @@
         },
         {
           "lang": "it",
-          "text": "con i nomi numerabili plurali — «"
+          "text": "con i nomi numerabili plurali —"
         },
         {
           "lang": "en",
-          "text": "I have a few friends»,"
+          "text": "I have a few friends,"
         },
         {
           "lang": "it",
@@ -893,7 +893,7 @@
     },
     {
       "text": "«I have little time» suona più come \"ho pochissimo tempo, quasi niente\", mentre «I have a little time» suona come \"ho un po' di tempo, sufficiente\".",
-      "speech": "«I have little time» suona più come \"ho pochissimo tempo, quasi niente\", mentre «I have a little time» suona come \"ho un po' di tempo, sufficiente\".",
+      "speech": "I have little time suona più come \"ho pochissimo tempo, quasi niente\", mentre I have a little time suona come \"ho un po' di tempo, sufficiente\".",
       "bold": [
         [
           1,
@@ -907,15 +907,15 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«I have little time»"
+          "text": "I have little time"
         },
         {
           "lang": "it",
-          "text": "suona più come \"ho pochissimo tempo, quasi niente\", mentre «"
+          "text": "suona più come \"ho pochissimo tempo, quasi niente\", mentre"
         },
         {
           "lang": "en",
-          "text": "I have a little time»"
+          "text": "I have a little time"
         },
         {
           "lang": "it",
@@ -1131,6 +1131,7 @@
           225
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1164,8 +1165,7 @@
           "lang": "en",
           "text": "the best;"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "bad diventa worse e poi the worst; far diventa further oppure farther, e poi the furthest oppure the farthest; little diventa less e poi the least.",
@@ -1309,7 +1309,7 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: pensate alla frase «Questa città è più grande di quella, ma quella è la più bella di tutte».",
-      "speech": "Proviamo un piccolo esercizio insieme: pensate alla frase «Questa città è più grande di quella, ma quella è la più bella di tutte».",
+      "speech": "Proviamo un piccolo esercizio insieme: pensate alla frase Questa città è più grande di quella, ma quella è la più bella di tutte.",
       "bold": [
         [
           59,
@@ -1320,7 +1320,7 @@
     },
     {
       "text": "\"Grande\", big, è un aggettivo breve di una sillaba, quindi il comparativo si forma con -er: «This city is bigger than that one».",
-      "speech": "\"Grande\", big, è un aggettivo breve di una sillaba, quindi il comparativo si forma con er: «This city is bigger than that one».",
+      "speech": "\"Grande\", big, è un aggettivo breve di una sillaba, quindi il comparativo si forma con er: This city is bigger than that one.",
       "bold": [
         [
           10,
@@ -1342,17 +1342,17 @@
         },
         {
           "lang": "it",
-          "text": "è un aggettivo breve di una sillaba, quindi il comparativo si forma con er: «"
+          "text": "è un aggettivo breve di una sillaba, quindi il comparativo si forma con er:"
         },
         {
           "lang": "en",
-          "text": "This city is bigger than that one»."
+          "text": "This city is bigger than that one."
         }
       ]
     },
     {
       "text": "\"Bella\", beautiful, è un aggettivo lungo, quindi il superlativo si forma con the most: «but that one is the most beautiful of all».",
-      "speech": "\"Bella\", beautiful, è un aggettivo lungo, quindi il superlativo si forma con the most: «but that one is the most beautiful of all».",
+      "speech": "\"Bella\", beautiful, è un aggettivo lungo, quindi il superlativo si forma con the most: but that one is the most beautiful of all.",
       "bold": [
         [
           9,
@@ -1378,7 +1378,7 @@
         },
         {
           "lang": "en",
-          "text": "the most: «but that one is the most beautiful of all»."
+          "text": "the most: but that one is the most beautiful of all."
         }
       ]
     },
@@ -1432,6 +1432,7 @@
           172
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1469,8 +1470,7 @@
           "lang": "it",
           "text": "esprime previsioni, decisioni istantanee o promesse riguardo al futuro."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: some si usa nelle affermative, any nelle negative e interrogative, indipendentemente dal tipo di nome.",
@@ -1489,6 +1489,7 @@
           43
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1510,8 +1511,7 @@
           "lang": "it",
           "text": "nelle negative e interrogative, indipendentemente dal tipo di nome."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: much si usa con i non numerabili, many con i numerabili plurali, a lot of con entrambi.",
@@ -1534,6 +1534,7 @@
           80
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1563,8 +1564,7 @@
           "lang": "it",
           "text": "con entrambi."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: gli aggettivi brevi formano comparativo e superlativo con -er/-est, quelli lunghi con more/the most, con alcune importanti eccezioni irregolari come good/better/the best.",
@@ -1587,6 +1587,7 @@
           177
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1604,8 +1605,7 @@
           "lang": "en",
           "text": "good/better/the best."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero programma grammaticale di Classe Prima.",

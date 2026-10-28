@@ -61,7 +61,7 @@
     },
     {
       "text": "come nel nostro «parlerò» da «parlare», il futuro spagnolo si forma aggiungendo le desinenze direttamente all'infinito del verbo, senza modificarne la vocale tematica,",
-      "speech": "come nel nostro «parlerò» da «parlare», il futuro spagnolo si forma aggiungendo le desinenze direttamente all'infinito del verbo, senza modificarne la vocale tematica,",
+      "speech": "come nel nostro parlerò da parlare, il futuro spagnolo si forma aggiungendo le desinenze direttamente all'infinito del verbo, senza modificarne la vocale tematica,",
       "bold": [
         [
           17,
@@ -106,6 +106,7 @@
           89
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -115,8 +116,7 @@
           "lang": "es",
           "text": "hablar al futuro: hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Comer diventa comeré, comerás, comerá, comeremos, comeréis, comerán; vivir diventa viviré, vivirás, vivirá, viviremos, viviréis, vivirán.",
@@ -348,7 +348,7 @@
     },
     {
       "text": "come tener che perde la vocale «e» diventando tendr-, oppure hacer e decir che si riducono rispettivamente a har- e dir-.",
-      "speech": "come tener che perde la vocale «e» diventando tendr-, oppure hacer e decir che si riducono rispettivamente a har- e dir-.",
+      "speech": "come tener che perde la vocale e diventando tendr-, oppure hacer e decir che si riducono rispettivamente a har- e dir-.",
       "bold": [
         [
           5,
@@ -378,7 +378,7 @@
         },
         {
           "lang": "it",
-          "text": "che perde la vocale «e» diventando tendr-, oppure"
+          "text": "che perde la vocale e diventando tendr-, oppure"
         },
         {
           "lang": "es",
@@ -400,24 +400,24 @@
     },
     {
       "text": "Proviamo un esempio pratico: come completereste la frase «El año que viene, yo ______ (hacer) un viaje a España y ______ (tener) la oportunidad de practicar español»?",
-      "speech": "Proviamo un esempio pratico: come completereste la frase «El año que viene, yo … (hacer) un viaje a España y … (tener) la oportunidad de practicar español»?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase El año que viene, yo … (hacer) un viaje a España y … (tener) la oportunidad de practicar español?",
       "bold": [
         [
           58,
           164
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un esempio pratico: come completereste la frase «"
+          "text": "Proviamo un esempio pratico: come completereste la frase"
         },
         {
           "lang": "es",
-          "text": "El año que viene, yo … (hacer) un viaje a España y … (tener) la oportunidad de practicar español»?"
+          "text": "El año que viene, yo … (hacer) un viaje a España y … (tener) la oportunidad de practicar español?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La soluzione è: El año que viene, yo haré un viaje a España y tendré la oportunidad de practicar español — haré da hacer e tendré da tener, entrambi con radice irregolare ma desinenze perfettamente regolari.",
@@ -481,32 +481,32 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme: «Mañana, ella ______ (llegar) a las diez» — llegará, forma regolare.",
-      "speech": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme: «Mañana, ella … (llegar) a las diez» — llegará, forma regolare.",
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme: Mañana, ella … (llegar) a las diez — llegará, forma regolare.",
       "bold": [
         [
           71,
           121
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme: «"
+          "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme:"
         },
         {
           "lang": "es",
-          "text": "Mañana, ella … (llegar) a las diez» — llegará,"
+          "text": "Mañana, ella … (llegar) a las diez — llegará,"
         },
         {
           "lang": "it",
           "text": "forma regolare."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "«Nosotros ______ (salir) de vacaciones en julio» — saldremos, forma irregolare.",
-      "speech": "«Nosotros … (salir) de vacaciones en julio» — saldremos, forma irregolare.",
+      "speech": "Nosotros … (salir) de vacaciones en julio — saldremos, forma irregolare.",
       "bold": [
         [
           1,
@@ -516,7 +516,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Nosotros … (salir) de vacaciones en julio» — saldremos,"
+          "text": "Nosotros … (salir) de vacaciones en julio — saldremos,"
         },
         {
           "lang": "it",
@@ -526,7 +526,7 @@
     },
     {
       "text": "«¿Tú ______ (poder) venir a la fiesta?» — podrás, forma irregolare.",
-      "speech": "«¿Tú … (poder) venir a la fiesta?» — podrás, forma irregolare.",
+      "speech": "¿Tú … (poder) venir a la fiesta? — podrás, forma irregolare.",
       "bold": [
         [
           2,
@@ -536,7 +536,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«¿Tú … (poder) venir a la fiesta?» — podrás,"
+          "text": "¿Tú … (poder) venir a la fiesta? — podrás,"
         },
         {
           "lang": "it",
@@ -546,7 +546,7 @@
     },
     {
       "text": "«Ellos ______ (decir) la verdad» — dirán, forma irregolare.",
-      "speech": "«Ellos … (decir) la verdad» — dirán, forma irregolare.",
+      "speech": "Ellos … (decir) la verdad — dirán, forma irregolare.",
       "bold": [
         [
           1,
@@ -556,7 +556,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Ellos … (decir) la verdad» — dirán,"
+          "text": "Ellos … (decir) la verdad — dirán,"
         },
         {
           "lang": "it",
@@ -566,7 +566,7 @@
     },
     {
       "text": "«Yo ______ (saber) el resultado mañana» — sabré, forma irregolare.",
-      "speech": "«Yo … (saber) el resultado mañana» — sabré, forma irregolare.",
+      "speech": "Yo … (saber) el resultado mañana — sabré, forma irregolare.",
       "bold": [
         [
           1,
@@ -576,7 +576,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Yo … (saber) el resultado mañana» — sabré,"
+          "text": "Yo … (saber) el resultado mañana — sabré,"
         },
         {
           "lang": "it",
@@ -621,6 +621,7 @@
           71
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -630,8 +631,7 @@
           "lang": "es",
           "text": "ás, á, emos, éis, án."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: alcuni verbi frequenti presentano una radice irregolare al futuro, tra cui tener, poner, salir, venir, poder, saber, hacer, decir e querer, sempre seguita dalle desinenze regolari.",
@@ -654,6 +654,7 @@
           145
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -675,8 +676,7 @@
           "lang": "it",
           "text": "sempre seguita dalle desinenze regolari."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio concludiamo il programma della Classe II con un argomento di civiltà molto suggestivo: el Camino de Santiago, il celebre itinerario di pellegrinaggio medievale verso la Galizia.",
@@ -687,6 +687,7 @@
           130
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -700,8 +701,7 @@
           "lang": "it",
           "text": "il celebre itinerario di pellegrinaggio medievale verso la Galizia."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

@@ -21,6 +21,7 @@
           177
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -34,8 +35,7 @@
           "lang": "it",
           "text": "essere."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Cominciamo dalla forma affermativa al presente: I am, io sono; you are, tu sei; he is, she is, it is, lui è, lei è, esso è; we are, noi siamo; you are, voi siete; they are, loro sono.",
@@ -70,6 +70,7 @@
           171
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -123,8 +124,7 @@
           "lang": "it",
           "text": "loro sono."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nella lingua parlata e scritta informale si usano quasi sempre le forme contratte: I'm, you're, he's, she's, it's, we're, you're, they're.",
@@ -347,6 +347,7 @@
           39
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -360,12 +361,11 @@
           "lang": "it",
           "text": "perché sono numerosi e ricorrono in moltissime funzioni comunicative che vedremo più avanti in questo modulo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Si usa per l'identità e la professione, «I am a student», sono uno studente; per la provenienza e la nazionalità, «She is from Italy», lei viene dall'Italia;",
-      "speech": "Si usa per l'identità e la professione, «I am a student», sono uno studente; per la provenienza e la nazionalità, «She is from Italy», lei viene dall'Italia;",
+      "speech": "Si usa per l'identità e la professione, I am a student, sono uno studente; per la provenienza e la nazionalità, She is from Italy, lei viene dall'Italia;",
       "bold": [
         [
           13,
@@ -387,19 +387,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Si usa per l'identità e la professione, «"
+          "text": "Si usa per l'identità e la professione,"
         },
         {
           "lang": "en",
-          "text": "I am a student»,"
+          "text": "I am a student,"
         },
         {
           "lang": "it",
-          "text": "sono uno studente; per la provenienza e la nazionalità, «"
+          "text": "sono uno studente; per la provenienza e la nazionalità,"
         },
         {
           "lang": "en",
-          "text": "She is from Italy»,"
+          "text": "She is from Italy,"
         },
         {
           "lang": "it",
@@ -409,7 +409,7 @@
     },
     {
       "text": "per l'età, dove l'italiano usa avere ma l'inglese usa sempre essere, «I am fifteen years old», ho quindici anni, letteralmente «sono quindici anni vecchio»;",
-      "speech": "per l'età, dove l'italiano usa avere ma l'inglese usa sempre essere, «I am fifteen years old», ho quindici anni, letteralmente «sono quindici anni vecchio»;",
+      "speech": "per l'età, dove l'italiano usa avere ma l'inglese usa sempre essere, I am fifteen years old, ho quindici anni, letteralmente sono quindici anni vecchio;",
       "bold": [
         [
           6,
@@ -427,21 +427,21 @@
       "parts": [
         {
           "lang": "it",
-          "text": "per l'età, dove l'italiano usa avere ma l'inglese usa sempre essere, «"
+          "text": "per l'età, dove l'italiano usa avere ma l'inglese usa sempre essere,"
         },
         {
           "lang": "en",
-          "text": "I am fifteen years old»,"
+          "text": "I am fifteen years old,"
         },
         {
           "lang": "it",
-          "text": "ho quindici anni, letteralmente «sono quindici anni vecchio»;"
+          "text": "ho quindici anni, letteralmente sono quindici anni vecchio;"
         }
       ]
     },
     {
       "text": "per descrivere caratteristiche fisiche o di carattere, «He is tall and friendly», è alto e simpatico; per indicare la posizione nello spazio, «The book is on the table», il libro è sul tavolo;",
-      "speech": "per descrivere caratteristiche fisiche o di carattere, «He is tall and friendly», è alto e simpatico; per indicare la posizione nello spazio, «The book is on the table», il libro è sul tavolo;",
+      "speech": "per descrivere caratteristiche fisiche o di carattere, He is tall and friendly, è alto e simpatico; per indicare la posizione nello spazio, The book is on the table, il libro è sul tavolo;",
       "bold": [
         [
           15,
@@ -463,19 +463,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "per descrivere caratteristiche fisiche o di carattere, «"
+          "text": "per descrivere caratteristiche fisiche o di carattere,"
         },
         {
           "lang": "en",
-          "text": "He is tall and friendly»,"
+          "text": "He is tall and friendly,"
         },
         {
           "lang": "it",
-          "text": "è alto e simpatico; per indicare la posizione nello spazio, «"
+          "text": "è alto e simpatico; per indicare la posizione nello spazio,"
         },
         {
           "lang": "en",
-          "text": "The book is on the table»,"
+          "text": "The book is on the table,"
         },
         {
           "lang": "it",
@@ -485,7 +485,7 @@
     },
     {
       "text": "e per esprimere sensazioni fisiche dove ancora una volta l'italiano userebbe avere, «I am hungry», «I am cold», ho fame, ho freddo, letteralmente «sono affamato», «sono freddo».",
-      "speech": "e per esprimere sensazioni fisiche dove ancora una volta l'italiano userebbe avere, «I am hungry», «I am cold», ho fame, ho freddo, letteralmente «sono affamato», «sono freddo».",
+      "speech": "e per esprimere sensazioni fisiche dove ancora una volta l'italiano userebbe avere, I am hungry, I am cold, ho fame, ho freddo, letteralmente sono affamato, sono freddo.",
       "bold": [
         [
           16,
@@ -507,15 +507,15 @@
       "parts": [
         {
           "lang": "it",
-          "text": "e per esprimere sensazioni fisiche dove ancora una volta l'italiano userebbe avere, «"
+          "text": "e per esprimere sensazioni fisiche dove ancora una volta l'italiano userebbe avere,"
         },
         {
           "lang": "en",
-          "text": "I am hungry», «I am cold»,"
+          "text": "I am hungry, I am cold,"
         },
         {
           "lang": "it",
-          "text": "ho fame, ho freddo, letteralmente «sono affamato», «sono freddo»."
+          "text": "ho fame, ho freddo, letteralmente sono affamato, sono freddo."
         }
       ]
     },
@@ -526,7 +526,7 @@
     },
     {
       "text": "è probabilmente l'errore più frequente commesso dagli studenti italiani alle prime armi, che spesso traducono letteralmente «I have fifteen years» o «I have hungry», entrambe frasi scorrette in inglese:",
-      "speech": "è probabilmente l'errore più frequente commesso dagli studenti italiani alle prime armi, che spesso traducono letteralmente «I have fifteen years» o «I have hungry», entrambe frasi scorrette in inglese:",
+      "speech": "è probabilmente l'errore più frequente commesso dagli studenti italiani alle prime armi, che spesso traducono letteralmente I have fifteen years o I have hungry, entrambe frasi scorrette in inglese:",
       "bold": [
         [
           18,
@@ -544,19 +544,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "è probabilmente l'errore più frequente commesso dagli studenti italiani alle prime armi, che spesso traducono letteralmente «"
+          "text": "è probabilmente l'errore più frequente commesso dagli studenti italiani alle prime armi, che spesso traducono letteralmente"
         },
         {
           "lang": "en",
-          "text": "I have fifteen years»"
+          "text": "I have fifteen years"
         },
         {
           "lang": "it",
-          "text": "o «"
+          "text": "o"
         },
         {
           "lang": "en",
-          "text": "I have hungry»,"
+          "text": "I have hungry,"
         },
         {
           "lang": "it",
@@ -602,7 +602,7 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: come tradurreste in inglese «Ho dodici anni e ho molta sete»?",
-      "speech": "Proviamo un piccolo esercizio insieme: come tradurreste in inglese «Ho dodici anni e ho molta sete»?",
+      "speech": "Proviamo un piccolo esercizio insieme: come tradurreste in inglese Ho dodici anni e ho molta sete?",
       "bold": [
         [
           68,
@@ -613,7 +613,7 @@
     },
     {
       "text": "Poiché sia l'età sia la sensazione fisica della sete richiedono il verbo to be in inglese, la traduzione corretta sarà «I am twelve years old and I am very thirsty»,",
-      "speech": "Poiché sia l'età sia la sensazione fisica della sete richiedono il verbo to be in inglese, la traduzione corretta sarà «I am twelve years old and I am very thirsty»,",
+      "speech": "Poiché sia l'età sia la sensazione fisica della sete richiedono il verbo to be in inglese, la traduzione corretta sarà I am twelve years old and I am very thirsty,",
       "bold": [
         [
           73,
@@ -635,17 +635,17 @@
         },
         {
           "lang": "it",
-          "text": "in inglese, la traduzione corretta sarà «"
+          "text": "in inglese, la traduzione corretta sarà"
         },
         {
           "lang": "en",
-          "text": "I am twelve years old and I am very thirsty»,"
+          "text": "I am twelve years old and I am very thirsty,"
         }
       ]
     },
     {
       "text": "non «I have twelve years and I have very thirsty», un errore che ora, dopo questo episodio, saprete evitare con sicurezza.",
-      "speech": "non «I have twelve years and I have very thirsty», un errore che ora, dopo questo episodio, saprete evitare con sicurezza.",
+      "speech": "non I have twelve years and I have very thirsty, un errore che ora, dopo questo episodio, saprete evitare con sicurezza.",
       "bold": [
         [
           5,
@@ -655,11 +655,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "non «"
+          "text": "non"
         },
         {
           "lang": "en",
-          "text": "I have twelve years and I have very thirsty»,"
+          "text": "I have twelve years and I have very thirsty,"
         },
         {
           "lang": "it",
@@ -697,6 +697,7 @@
           72
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -726,8 +727,7 @@
           "lang": "it",
           "text": "nella forma negativa e interrogativa."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: si usa per identità, provenienza, età, caratteristiche fisiche e posizione nello spazio.",
@@ -765,6 +765,7 @@
           113
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -786,8 +787,7 @@
           "lang": "it",
           "text": "per l'età e per le sensazioni fisiche come fame, sete, freddo e caldo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo l'altro grande verbo fondamentale della lingua inglese: il verbo to have, avere.",
@@ -798,6 +798,7 @@
           102
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -811,8 +812,7 @@
           "lang": "it",
           "text": "avere."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

@@ -21,7 +21,7 @@
     },
     {
       "text": "ser ed estar, i due verbi che in italiano si traducono entrambi con «essere».",
-      "speech": "ser ed estar, i due verbi che in italiano si traducono entrambi con «essere».",
+      "speech": "ser ed estar, i due verbi che in italiano si traducono entrambi con essere.",
       "bold": [
         [
           0,
@@ -51,7 +51,7 @@
         },
         {
           "lang": "it",
-          "text": "i due verbi che in italiano si traducono entrambi con «essere»."
+          "text": "i due verbi che in italiano si traducono entrambi con essere."
         }
       ]
     },
@@ -84,6 +84,7 @@
           160
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -125,8 +126,7 @@
           "lang": "es",
           "text": "vivir."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Alcuni verbi molto comuni hanno però una forma irregolare in tú, che vale la pena memorizzare in blocco:",
@@ -254,24 +254,24 @@
     },
     {
       "text": "Proviamo un esempio pratico: come completereste la frase «(tú, hacer) los deberes y (tú, venir) aquí, por favor»?",
-      "speech": "Proviamo un esempio pratico: come completereste la frase «(tú, hacer) los deberes y (tú, venir) aquí, por favor»?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase (tú, hacer) los deberes y (tú, venir) aquí, por favor?",
       "bold": [
         [
           59,
           111
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un esempio pratico: come completereste la frase «("
+          "text": "Proviamo un esempio pratico: come completereste la frase ("
         },
         {
           "lang": "es",
-          "text": "tú, hacer) los deberes y (tú, venir) aquí, por favor»?"
+          "text": "tú, hacer) los deberes y (tú, venir) aquí, por favor?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La soluzione è: ¡Haz los deberes y ven aquí, por favor! — entrambi gli imperativi, haz e ven, appartengono proprio alla lista di forme irregolari appena vista.",
@@ -334,6 +334,7 @@
           109
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -351,8 +352,7 @@
           "lang": "es",
           "text": "mucho."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Muy è un avverbio invariabile che si usa davanti ad aggettivi e avverbi, come in muy interesante o muy bien;",
@@ -495,6 +495,7 @@
           26
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -512,8 +513,7 @@
           "lang": "es",
           "text": "estar."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ser si usa per caratteristiche permanenti o essenziali — identità, nazionalità, professione, materia, ora e data — come in Soy profesor, sono professore, o Es española, è spagnola.",
@@ -618,7 +618,7 @@
     },
     {
       "text": "se in italiano diciamo sempre «essere», in spagnolo la scelta tra ser ed estar comunica un'informazione implicita fondamentale, se una caratteristica è considerata stabile e definitoria oppure transitoria e circostanziale.",
-      "speech": "se in italiano diciamo sempre «essere», in spagnolo la scelta tra ser ed estar comunica un'informazione implicita fondamentale, se una caratteristica è considerata stabile e definitoria oppure transitoria e circostanziale.",
+      "speech": "se in italiano diciamo sempre essere, in spagnolo la scelta tra ser ed estar comunica un'informazione implicita fondamentale, se una caratteristica è considerata stabile e definitoria oppure transitoria e circostanziale.",
       "bold": [
         [
           31,
@@ -640,7 +640,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "se in italiano diciamo sempre «essere», in spagnolo la scelta tra"
+          "text": "se in italiano diciamo sempre essere, in spagnolo la scelta tra"
         },
         {
           "lang": "es",
@@ -958,24 +958,24 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, per fissare tutte queste distinzioni: come completereste «Madrid ______ (ser/estar) la capital de España»?",
-      "speech": "Proviamo un piccolo esercizio insieme, per fissare tutte queste distinzioni: come completereste «Madrid … (ser/estar) la capital de España»?",
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare tutte queste distinzioni: come completereste Madrid … (ser/estar) la capital de España?",
       "bold": [
         [
           97,
           143
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un piccolo esercizio insieme, per fissare tutte queste distinzioni: come completereste «"
+          "text": "Proviamo un piccolo esercizio insieme, per fissare tutte queste distinzioni: come completereste"
         },
         {
           "lang": "es",
-          "text": "Madrid … (ser/estar) la capital de España»?"
+          "text": "Madrid … (ser/estar) la capital de España?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Es, perché è una caratteristica permanente.",
@@ -983,7 +983,7 @@
     },
     {
       "text": "«______ (hay/está) muchos museos en Madrid»?",
-      "speech": "«… (hay/está) muchos museos en Madrid»?",
+      "speech": "… (hay/está) muchos museos en Madrid?",
       "bold": [
         [
           9,
@@ -993,7 +993,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«… (hay/está) muchos museos en Madrid»?"
+          "text": "… (hay/está) muchos museos en Madrid?"
         }
       ]
     },
@@ -1019,7 +1019,7 @@
     },
     {
       "text": "«El museo del Prado ______ (hay/está) en el centro»?",
-      "speech": "«El museo del Prado … (hay/está) en el centro»?",
+      "speech": "El museo del Prado … (hay/está) en el centro?",
       "bold": [
         [
           1,
@@ -1029,7 +1029,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«El museo del Prado … (hay/está) en el centro»?"
+          "text": "El museo del Prado … (hay/está) en el centro?"
         }
       ]
     },
@@ -1055,7 +1055,7 @@
     },
     {
       "text": "«Yo ______ (haber/tener) veinte años»?",
-      "speech": "«Yo … (haber/tener) veinte años»?",
+      "speech": "Yo … (haber/tener) veinte años?",
       "bold": [
         [
           1,
@@ -1065,7 +1065,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Yo … (haber/tener) veinte años»?"
+          "text": "Yo … (haber/tener) veinte años?"
         }
       ]
     },
@@ -1119,6 +1119,7 @@
           162
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1144,8 +1145,7 @@
           "lang": "es",
           "text": "ven."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: muy si usa davanti ad aggettivi e avverbi, mucho davanti a sostantivi o dopo verbi.",
@@ -1164,6 +1164,7 @@
           57
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1185,8 +1186,7 @@
           "lang": "it",
           "text": "davanti a sostantivi o dopo verbi."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: ser esprime caratteristiche permanenti, estar esprime stati temporanei e posizione.",
@@ -1213,6 +1213,7 @@
           89
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1234,8 +1235,7 @@
           "lang": "it",
           "text": "esprime stati temporanei e posizione."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: hay indica l'esistenza generica di qualcosa, está/están la posizione di qualcosa già noto.",
@@ -1262,6 +1262,7 @@
           97
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1283,8 +1284,7 @@
           "lang": "it",
           "text": "la posizione di qualcosa già noto."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio completiamo il quadro grammaticale della Classe I con altre due coppie di parole ricorrenti, preguntar e pedir, por e para, insieme ai comparativi e ai superlativi.",
@@ -1307,6 +1307,7 @@
           185
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1336,8 +1337,7 @@
           "lang": "it",
           "text": "insieme ai comparativi e ai superlativi."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

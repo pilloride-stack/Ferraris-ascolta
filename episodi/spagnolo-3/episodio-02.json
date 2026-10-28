@@ -37,6 +37,7 @@
           144
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -50,8 +51,7 @@
           "lang": "it",
           "text": "il condizionale spagnolo."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Il condicional si usa per esprimere azioni ipotetiche, desideri cortesi, consigli e per esprimere il futuro nel passato — esattamente come il condizionale italiano.",
@@ -74,6 +74,7 @@
           119
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -87,8 +88,7 @@
           "lang": "it",
           "text": "si usa per esprimere azioni ipotetiche, desideri cortesi, consigli e per esprimere il futuro nel passato — esattamente come il condizionale italiano."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Fermatevi un momento su un dettaglio che vale la pena mettere subito in evidenza, perché collega direttamente questo episodio a quello sul futuro visto nel modulo precedente:",
@@ -136,6 +136,7 @@
           100
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -145,8 +146,7 @@
           "lang": "es",
           "text": "hablar al condicional: hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Comer diventa comería, comerías, comería, comeríamos, comeríais, comerían; vivir diventa viviría, vivirías, viviría, viviríamos, viviríais, vivirían.",
@@ -237,6 +237,7 @@
           94
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -250,8 +251,7 @@
           "lang": "it",
           "text": "semplicemente seguite dalle desinenze regolari appena viste:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "tener diventa tendría, poner diventa pondría, salir diventa saldría, venir diventa vendría, poder diventa podría, saber diventa sabría, hacer diventa haría, decir diventa diría e querer diventa querría.",
@@ -434,6 +434,7 @@
           104
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -451,8 +452,7 @@
           "lang": "es",
           "text": "de subjuntivo,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "come in Si tuviera dinero, viajaría por el mundo, se avessi denaro, viaggerei per il mondo, e per formulare richieste cortesi, come in ¿Podrías ayudarme?, potresti aiutarmi?",
@@ -525,7 +525,7 @@
     },
     {
       "text": "esattamente come in italiano diciamo «potresti aiutarmi» invece di «puoi aiutarmi», per attenuare la forza diretta della domanda.",
-      "speech": "esattamente come in italiano diciamo «potresti aiutarmi» invece di «puoi aiutarmi», per attenuare la forza diretta della domanda.",
+      "speech": "esattamente come in italiano diciamo potresti aiutarmi invece di puoi aiutarmi, per attenuare la forza diretta della domanda.",
       "bold": [
         [
           38,
@@ -539,28 +539,28 @@
     },
     {
       "text": "Proviamo un esempio pratico: come completereste la frase «¿______ (poder, tú) ayudarme?",
-      "speech": "Proviamo un esempio pratico: come completereste la frase «¿… (poder, tú) ayudarme?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase ¿… (poder, tú) ayudarme?",
       "bold": [
         [
           67,
           86
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un esempio pratico: come completereste la frase «¿… ("
+          "text": "Proviamo un esempio pratico: come completereste la frase ¿… ("
         },
         {
           "lang": "es",
           "text": "poder, tú) ayudarme?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Yo ______ (querer) hacer un viaje a España»?",
-      "speech": "Yo … (querer) hacer un viaje a España»?",
+      "speech": "Yo … (querer) hacer un viaje a España?",
       "bold": [
         [
           0,
@@ -570,7 +570,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "Yo … (querer) hacer un viaje a España»?"
+          "text": "Yo … (querer) hacer un viaje a España?"
         }
       ]
     },
@@ -652,32 +652,32 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme: «En tu lugar, yo ______ (hablar) con el profesor» — hablaría, forma regolare.",
-      "speech": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme: «En tu lugar, yo … (hablar) con el profesor» — hablaría, forma regolare.",
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme: En tu lugar, yo … (hablar) con el profesor — hablaría, forma regolare.",
       "bold": [
         [
           71,
           130
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
-          "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme: «"
+          "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste forme:"
         },
         {
           "lang": "es",
-          "text": "En tu lugar, yo … (hablar) con el profesor» — hablaría,"
+          "text": "En tu lugar, yo … (hablar) con el profesor — hablaría,"
         },
         {
           "lang": "it",
           "text": "forma regolare."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "«¿______ (poder, usted) repetir la pregunta?» — Podría, forma irregolare di cortesia.",
-      "speech": "«¿… (poder, usted) repetir la pregunta?» — Podría, forma irregolare di cortesia.",
+      "speech": "¿… (poder, usted) repetir la pregunta? — Podría, forma irregolare di cortesia.",
       "bold": [
         [
           10,
@@ -687,7 +687,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«¿… (poder, usted) repetir la pregunta?» — Podría,"
+          "text": "¿… (poder, usted) repetir la pregunta? — Podría,"
         },
         {
           "lang": "it",
@@ -697,7 +697,7 @@
     },
     {
       "text": "«Ellos ______ (venir) si tuvieran tiempo» — vendrían, forma irregolare.",
-      "speech": "«Ellos … (venir) si tuvieran tiempo» — vendrían, forma irregolare.",
+      "speech": "Ellos … (venir) si tuvieran tiempo — vendrían, forma irregolare.",
       "bold": [
         [
           1,
@@ -707,7 +707,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Ellos … (venir) si tuvieran tiempo» — vendrían,"
+          "text": "Ellos … (venir) si tuvieran tiempo — vendrían,"
         },
         {
           "lang": "it",
@@ -717,7 +717,7 @@
     },
     {
       "text": "«Nosotros ______ (querer) visitar el museo» — querríamos, forma irregolare.",
-      "speech": "«Nosotros … (querer) visitar el museo» — querríamos, forma irregolare.",
+      "speech": "Nosotros … (querer) visitar el museo — querríamos, forma irregolare.",
       "bold": [
         [
           1,
@@ -727,7 +727,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«Nosotros … (querer) visitar el museo» — querríamos,"
+          "text": "Nosotros … (querer) visitar el museo — querríamos,"
         },
         {
           "lang": "it",
@@ -737,7 +737,7 @@
     },
     {
       "text": "«¿______ (tener, tú) un minuto para ayudarme?» — Tendrías, forma irregolare.",
-      "speech": "«¿… (tener, tú) un minuto para ayudarme?» — Tendrías, forma irregolare.",
+      "speech": "¿… (tener, tú) un minuto para ayudarme? — Tendrías, forma irregolare.",
       "bold": [
         [
           10,
@@ -747,7 +747,7 @@
       "parts": [
         {
           "lang": "es",
-          "text": "«¿… (tener, tú) un minuto para ayudarme?» — Tendrías,"
+          "text": "¿… (tener, tú) un minuto para ayudarme? — Tendrías,"
         },
         {
           "lang": "it",
@@ -781,6 +781,7 @@
           106
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -794,8 +795,7 @@
           "lang": "it",
           "text": "si usa per azioni ipotetiche, desideri cortesi, consigli e per il futuro nel passato."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: si forma con le desinenze -ía, -ías, -ía, -íamos, -íais, -ían aggiunte direttamente all'infinito, con le stesse radici irregolari già viste per il futuro.",
@@ -814,6 +814,7 @@
           138
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -827,8 +828,7 @@
           "lang": "it",
           "text": "aggiunte direttamente all'infinito, con le stesse radici irregolari già viste per il futuro."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: si usa nelle frasi ipotetiche del secondo tipo e nelle richieste cortesi, come ¿Podrías ayudarme?",
@@ -851,6 +851,7 @@
           103
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -860,8 +861,7 @@
           "lang": "es",
           "text": "Podrías ayudarme?"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Con questo abbiamo completato tutta la grammatica di questo modulo, e con essa l'intero programma grammaticale del triennio.",
@@ -887,6 +887,7 @@
           157
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -896,8 +897,7 @@
           "lang": "es",
           "text": "Reconquista."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

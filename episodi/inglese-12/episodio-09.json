@@ -42,6 +42,7 @@
           74
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -55,12 +56,11 @@
           "lang": "it",
           "text": "la funzione più elementare ma anche quella con cui quasi certamente si aprirà il vostro colloquio d'esame."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Le strutture di base sono semplici, ma vale la pena costruirle con naturalezza, senza esitazioni: «My name is...», mi chiamo, seguito da «I'm... years old», ho... anni;",
-      "speech": "Le strutture di base sono semplici, ma vale la pena costruirle con naturalezza, senza esitazioni: «My name is...», mi chiamo, seguito da «I'm... years old», ho... anni;",
+      "speech": "Le strutture di base sono semplici, ma vale la pena costruirle con naturalezza, senza esitazioni: My name is..., mi chiamo, seguito da I'm... years old, ho... anni;",
       "bold": [
         [
           99,
@@ -74,19 +74,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Le strutture di base sono semplici, ma vale la pena costruirle con naturalezza, senza esitazioni: «"
+          "text": "Le strutture di base sono semplici, ma vale la pena costruirle con naturalezza, senza esitazioni:"
         },
         {
           "lang": "en",
-          "text": "My name is...»,"
+          "text": "My name is...,"
         },
         {
           "lang": "it",
-          "text": "mi chiamo, seguito da «"
+          "text": "mi chiamo, seguito da"
         },
         {
           "lang": "en",
-          "text": "I'm... years old»,"
+          "text": "I'm... years old,"
         },
         {
           "lang": "it",
@@ -96,7 +96,7 @@
     },
     {
       "text": "«I come from...» oppure «I live in...», per indicare la propria provenienza o il luogo in cui si vive, con una distinzione utile da ricordare — come from indica l'origine, la nazionalità o la città di nascita,",
-      "speech": "«I come from...» oppure «I live in...», per indicare la propria provenienza o il luogo in cui si vive, con una distinzione utile da ricordare — come from indica l'origine, la nazionalità o la città di nascita,",
+      "speech": "I come from... oppure I live in..., per indicare la propria provenienza o il luogo in cui si vive, con una distinzione utile da ricordare — come from indica l'origine, la nazionalità o la città di nascita,",
       "bold": [
         [
           1,
@@ -118,19 +118,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "«I come"
+          "text": "I come"
         },
         {
           "lang": "en",
-          "text": "from...»"
+          "text": "from..."
         },
         {
           "lang": "it",
-          "text": "oppure «"
+          "text": "oppure"
         },
         {
           "lang": "en",
-          "text": "I live in...»,"
+          "text": "I live in...,"
         },
         {
           "lang": "it",
@@ -176,7 +176,7 @@
     },
     {
       "text": "«I'm a student», sono uno studente, oppure «I work as a...», lavoro come..., per chi già svolge un'attività;",
-      "speech": "«I'm a student», sono uno studente, oppure «I work as a...», lavoro come..., per chi già svolge un'attività;",
+      "speech": "I'm a student, sono uno studente, oppure I work as a..., lavoro come..., per chi già svolge un'attività;",
       "bold": [
         [
           1,
@@ -190,15 +190,15 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«I'm a student»,"
+          "text": "I'm a student,"
         },
         {
           "lang": "it",
-          "text": "sono uno studente, oppure «"
+          "text": "sono uno studente, oppure"
         },
         {
           "lang": "en",
-          "text": "I work as a...»,"
+          "text": "I work as a...,"
         },
         {
           "lang": "it",
@@ -208,7 +208,7 @@
     },
     {
       "text": "e infine «My hobbies are...» oppure «I'm interested in...», per parlare dei propri interessi e passatempi.",
-      "speech": "e infine «My hobbies are...» oppure «I'm interested in...», per parlare dei propri interessi e passatempi.",
+      "speech": "e infine My hobbies are... oppure I'm interested in..., per parlare dei propri interessi e passatempi.",
       "bold": [
         [
           10,
@@ -222,19 +222,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "e infine «"
+          "text": "e infine"
         },
         {
           "lang": "en",
-          "text": "My hobbies are...»"
+          "text": "My hobbies are..."
         },
         {
           "lang": "it",
-          "text": "oppure «"
+          "text": "oppure"
         },
         {
           "lang": "en",
-          "text": "I'm interested in...»,"
+          "text": "I'm interested in...,"
         },
         {
           "lang": "it",
@@ -263,6 +263,7 @@
           183
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -284,8 +285,7 @@
           "lang": "it",
           "text": "per descrivere i legami familiari."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Il vocabolario di base comprende parents, i genitori, mother e father, siblings, i fratelli e le sorelle nel loro insieme, brother e sister, grandparents, i nonni, grandmother e grandfather, e poi il lessico della famiglia allargata:",
@@ -469,7 +469,7 @@
     },
     {
       "text": "Le strutture principali per presentare i membri della propria famiglia sono «This is my...», seguito dal grado di parentela, e «He/She is my...».",
-      "speech": "Le strutture principali per presentare i membri della propria famiglia sono «This is my...», seguito dal grado di parentela, e «He/She is my...».",
+      "speech": "Le strutture principali per presentare i membri della propria famiglia sono This is my..., seguito dal grado di parentela, e He/She is my....",
       "bold": [
         [
           77,
@@ -483,19 +483,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Le strutture principali per presentare i membri della propria famiglia sono «"
+          "text": "Le strutture principali per presentare i membri della propria famiglia sono"
         },
         {
           "lang": "en",
-          "text": "This is my...»,"
+          "text": "This is my...,"
         },
         {
           "lang": "it",
-          "text": "seguito dal grado di parentela, e «"
+          "text": "seguito dal grado di parentela, e"
         },
         {
           "lang": "en",
-          "text": "He/She is my...»."
+          "text": "He/She is my...."
         }
       ]
     },
@@ -516,6 +516,7 @@
           46
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -529,8 +530,7 @@
           "lang": "it",
           "text": "parlare di attività in corso di svolgimento nel momento presente:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "qui, come avrete già intuito dal collegamento con l'episodio dedicato ai tempi verbali, la struttura grammaticale di riferimento è il present continuous,",
@@ -602,7 +602,7 @@
     },
     {
       "text": "Le domande e risposte tipiche di questa funzione sono «What are you doing right now?», che cosa stai facendo proprio ora?,",
-      "speech": "Le domande e risposte tipiche di questa funzione sono «What are you doing right now?», che cosa stai facendo proprio ora?,",
+      "speech": "Le domande e risposte tipiche di questa funzione sono What are you doing right now?, che cosa stai facendo proprio ora?,",
       "bold": [
         [
           55,
@@ -612,11 +612,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Le domande e risposte tipiche di questa funzione sono «"
+          "text": "Le domande e risposte tipiche di questa funzione sono"
         },
         {
           "lang": "en",
-          "text": "What are you doing right now?»,"
+          "text": "What are you doing right now?,"
         },
         {
           "lang": "it",
@@ -626,7 +626,7 @@
     },
     {
       "text": "a cui si può rispondere con «I'm studying», «I'm having lunch», sto pranzando, oppure «I'm watching a film», sto guardando un film.",
-      "speech": "a cui si può rispondere con «I'm studying», «I'm having lunch», sto pranzando, oppure «I'm watching a film», sto guardando un film.",
+      "speech": "a cui si può rispondere con I'm studying, I'm having lunch, sto pranzando, oppure I'm watching a film, sto guardando un film.",
       "bold": [
         [
           29,
@@ -640,19 +640,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "a cui si può rispondere con «"
+          "text": "a cui si può rispondere con"
         },
         {
           "lang": "en",
-          "text": "I'm studying», «I'm having lunch»,"
+          "text": "I'm studying, I'm having lunch,"
         },
         {
           "lang": "it",
-          "text": "sto pranzando, oppure «"
+          "text": "sto pranzando, oppure"
         },
         {
           "lang": "en",
-          "text": "I'm watching a film»,"
+          "text": "I'm watching a film,"
         },
         {
           "lang": "it",
@@ -669,6 +669,7 @@
           37
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -682,8 +683,7 @@
           "lang": "it",
           "text": "parlare di programmi futuri:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "qui la struttura di riferimento è tipicamente il present continuous con valore di futuro, che abbiamo già incontrato nell'episodio sui tempi verbali,",
@@ -763,7 +763,7 @@
     },
     {
       "text": "«What are you doing next weekend?», che cosa fai il prossimo fine settimana?, «I'm visiting my grandparents next Sunday», domenica prossima vado a trovare i miei nonni.",
-      "speech": "«What are you doing next weekend?», che cosa fai il prossimo fine settimana?, «I'm visiting my grandparents next Sunday», domenica prossima vado a trovare i miei nonni.",
+      "speech": "What are you doing next weekend?, che cosa fai il prossimo fine settimana?, I'm visiting my grandparents next Sunday, domenica prossima vado a trovare i miei nonni.",
       "bold": [
         [
           1,
@@ -777,15 +777,15 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«What are you doing next weekend?»,"
+          "text": "What are you doing next weekend?,"
         },
         {
           "lang": "it",
-          "text": "che cosa fai il prossimo fine settimana?, «"
+          "text": "che cosa fai il prossimo fine settimana?,"
         },
         {
           "lang": "en",
-          "text": "I'm visiting my grandparents next Sunday»,"
+          "text": "I'm visiting my grandparents next Sunday,"
         },
         {
           "lang": "it",
@@ -858,6 +858,7 @@
           51
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -871,8 +872,7 @@
           "lang": "it",
           "text": "fare previsioni sul futuro:"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "qui la struttura tipica è will, spesso accompagnata da espressioni come I think, penso che, probably, probabilmente, o maybe, forse, che attenuano il grado di certezza della previsione.",
@@ -936,7 +936,7 @@
     },
     {
       "text": "«I think it will rain tomorrow», penso che domani pioverà; «She will probably pass the exam», probabilmente supererà l'esame.",
-      "speech": "«I think it will rain tomorrow», penso che domani pioverà; «She will probably pass the exam», probabilmente supererà l'esame.",
+      "speech": "I think it will rain tomorrow, penso che domani pioverà; She will probably pass the exam, probabilmente supererà l'esame.",
       "bold": [
         [
           1,
@@ -950,15 +950,15 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«I think it will rain tomorrow»,"
+          "text": "I think it will rain tomorrow,"
         },
         {
           "lang": "it",
-          "text": "penso che domani pioverà; «"
+          "text": "penso che domani pioverà;"
         },
         {
           "lang": "en",
-          "text": "She will probably pass the exam»,"
+          "text": "She will probably pass the exam,"
         },
         {
           "lang": "it",
@@ -1042,6 +1042,7 @@
           129
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1067,8 +1068,7 @@
           "lang": "en",
           "text": "from, I'm interested in."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: parlare della famiglia richiede un lessico specifico di parentela unito a strutture possessive.",
@@ -1087,6 +1087,7 @@
           103
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1096,8 +1097,7 @@
           "lang": "en",
           "text": "possessive."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: parlare di attività presenti richiede il present continuous, mentre parlare di piani futuri richiede spesso lo stesso tempo verbale accompagnato da un'espressione temporale futura.",
@@ -1116,6 +1116,7 @@
           186
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1129,8 +1130,7 @@
           "lang": "it",
           "text": "mentre parlare di piani futuri richiede spesso lo stesso tempo verbale accompagnato da un'espressione temporale futura."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: fare previsioni richiede will, spesso rafforzato o attenuato da espressioni come I think o probably.",
@@ -1153,6 +1153,7 @@
           107
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1178,8 +1179,7 @@
           "lang": "en",
           "text": "probably."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio passiamo al programma di Classe Seconda, cominciando dal ripasso dei tempi già visti e da due nuovi tempi del passato:",

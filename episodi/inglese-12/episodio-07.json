@@ -502,6 +502,7 @@
           54
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -511,8 +512,7 @@
           "lang": "en",
           "text": "this, that, these, those."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "La logica che li governa è duplice, e conviene tenerla bene a mente:",
@@ -705,6 +705,7 @@
           95
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -718,12 +719,11 @@
           "lang": "it",
           "text": "che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a \"cè\" / \"ci sono\"."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "There is si usa con i nomi singolari e con i nomi non numerabili — «There is a book on the table», c'è un libro sul tavolo;",
-      "speech": "There is si usa con i nomi singolari e con i nomi non numerabili — «There is a book on the table», cè un libro sul tavolo;",
+      "speech": "There is si usa con i nomi singolari e con i nomi non numerabili — There is a book on the table, cè un libro sul tavolo;",
       "bold": [
         [
           0,
@@ -749,11 +749,11 @@
         },
         {
           "lang": "it",
-          "text": "si usa con i nomi singolari e con i nomi non numerabili — «"
+          "text": "si usa con i nomi singolari e con i nomi non numerabili —"
         },
         {
           "lang": "en",
-          "text": "There is a book on the table»,"
+          "text": "There is a book on the table,"
         },
         {
           "lang": "it",
@@ -763,7 +763,7 @@
     },
     {
       "text": "there are si usa con i nomi plurali — «There are three books on the table», ci sono tre libri sul tavolo.",
-      "speech": "there are si usa con i nomi plurali — «There are three books on the table», ci sono tre libri sul tavolo.",
+      "speech": "there are si usa con i nomi plurali — There are three books on the table, ci sono tre libri sul tavolo.",
       "bold": [
         [
           0,
@@ -785,11 +785,11 @@
         },
         {
           "lang": "it",
-          "text": "si usa con i nomi plurali — «"
+          "text": "si usa con i nomi plurali —"
         },
         {
           "lang": "en",
-          "text": "There are three books on the table»,"
+          "text": "There are three books on the table,"
         },
         {
           "lang": "it",
@@ -1013,7 +1013,7 @@
     },
     {
       "text": "pensate alla frase «In questa stanza ci sono due sedie e un tavolo, e quel quadro laggiù è molto antico».",
-      "speech": "pensate alla frase «In questa stanza ci sono due sedie e un tavolo, e quel quadro laggiù è molto antico».",
+      "speech": "pensate alla frase In questa stanza ci sono due sedie e un tavolo, e quel quadro laggiù è molto antico.",
       "bold": [
         [
           20,
@@ -1051,7 +1051,7 @@
     },
     {
       "text": "e il dimostrativo this, perché la stanza in cui vi trovate è vicina a chi parla: «In this room there are two chairs and a table».",
-      "speech": "e il dimostrativo this, perché la stanza in cui vi trovate è vicina a chi parla: «In this room there are two chairs and a table».",
+      "speech": "e il dimostrativo this, perché la stanza in cui vi trovate è vicina a chi parla: In this room there are two chairs and a table.",
       "bold": [
         [
           18,
@@ -1073,17 +1073,17 @@
         },
         {
           "lang": "it",
-          "text": "perché la stanza in cui vi trovate è vicina a chi parla: «"
+          "text": "perché la stanza in cui vi trovate è vicina a chi parla:"
         },
         {
           "lang": "en",
-          "text": "In this room there are two chairs and a table»."
+          "text": "In this room there are two chairs and a table."
         }
       ]
     },
     {
       "text": "La seconda parte richiede il dimostrativo that, perché il quadro è \"laggiù\", lontano: «and that painting is very old».",
-      "speech": "La seconda parte richiede il dimostrativo that, perché il quadro è \"laggiù\", lontano: «and that painting is very old».",
+      "speech": "La seconda parte richiede il dimostrativo that, perché il quadro è \"laggiù\", lontano: and that painting is very old.",
       "bold": [
         [
           42,
@@ -1105,11 +1105,11 @@
         },
         {
           "lang": "it",
-          "text": "perché il quadro è \"laggiù\", lontano: «"
+          "text": "perché il quadro è \"laggiù\", lontano:"
         },
         {
           "lang": "en",
-          "text": "and that painting is very old»."
+          "text": "and that painting is very old."
         }
       ]
     },
@@ -1190,6 +1190,7 @@
           70
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1211,8 +1212,7 @@
           "lang": "it",
           "text": "indicano lontananza, sempre rispettando la distinzione tra singolare e plurale."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: there is/there are affermano l'esistenza di qualcosa, rispettivamente al singolare e al plurale.",
@@ -1231,6 +1231,7 @@
           59
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1244,8 +1245,7 @@
           "lang": "it",
           "text": "affermano l'esistenza di qualcosa, rispettivamente al singolare e al plurale."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: i nomi non numerabili, come furniture, information o advice, si usano sempre al singolare e senza articolo indeterminativo, anche quando l'italiano userebbe naturalmente un plurale.",
@@ -1272,6 +1272,7 @@
           130
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1293,8 +1294,7 @@
           "lang": "it",
           "text": "si usano sempre al singolare e senza articolo indeterminativo, anche quando l'italiano userebbe naturalmente un plurale."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Nel prossimo episodio completiamo il programma grammaticale di Classe Prima con i verbi modali di base can e will, i quantificatori come some, any, much e many, e i comparativi e superlativi degli aggettivi.",
@@ -1317,6 +1317,7 @@
           159
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1354,8 +1355,7 @@
           "lang": "it",
           "text": "e i comparativi e superlativi degli aggettivi."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",

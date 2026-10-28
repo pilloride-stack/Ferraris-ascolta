@@ -108,6 +108,7 @@
           184
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -125,8 +126,7 @@
           "lang": "en",
           "text": "simple past,"
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "e che vi aiuteranno a scegliere il tempo giusto con maggiore sicurezza.",
@@ -134,7 +134,7 @@
     },
     {
       "text": "Just indica un'azione appena conclusa: «I have just finished», ho appena finito.",
-      "speech": "Just indica un'azione appena conclusa: «I have just finished», ho appena finito.",
+      "speech": "Just indica un'azione appena conclusa: I have just finished, ho appena finito.",
       "bold": [
         [
           0,
@@ -156,11 +156,11 @@
         },
         {
           "lang": "it",
-          "text": "indica un'azione appena conclusa: «"
+          "text": "indica un'azione appena conclusa:"
         },
         {
           "lang": "en",
-          "text": "I have just finished»,"
+          "text": "I have just finished,"
         },
         {
           "lang": "it",
@@ -170,7 +170,7 @@
     },
     {
       "text": "Already indica un'azione già avvenuta, spesso prima del previsto: «She has already left», è già partita.",
-      "speech": "Already indica un'azione già avvenuta, spesso prima del previsto: «She has already left», è già partita.",
+      "speech": "Already indica un'azione già avvenuta, spesso prima del previsto: She has already left, è già partita.",
       "bold": [
         [
           0,
@@ -192,11 +192,11 @@
         },
         {
           "lang": "it",
-          "text": "indica un'azione già avvenuta, spesso prima del previsto: «"
+          "text": "indica un'azione già avvenuta, spesso prima del previsto:"
         },
         {
           "lang": "en",
-          "text": "She has already left»,"
+          "text": "She has already left,"
         },
         {
           "lang": "it",
@@ -206,7 +206,7 @@
     },
     {
       "text": "Yet si usa in frasi negative o interrogative, per un'azione non ancora avvenuta: «Have you finished yet?», hai già finito?",
-      "speech": "Yet si usa in frasi negative o interrogative, per un'azione non ancora avvenuta: «Have you finished yet?», hai già finito?",
+      "speech": "Yet si usa in frasi negative o interrogative, per un'azione non ancora avvenuta: Have you finished yet?, hai già finito?",
       "bold": [
         [
           0,
@@ -228,11 +228,11 @@
         },
         {
           "lang": "it",
-          "text": "si usa in frasi negative o interrogative, per un'azione non ancora avvenuta: «"
+          "text": "si usa in frasi negative o interrogative, per un'azione non ancora avvenuta:"
         },
         {
           "lang": "en",
-          "text": "Have you finished yet?»,"
+          "text": "Have you finished yet?,"
         },
         {
           "lang": "it",
@@ -242,7 +242,7 @@
     },
     {
       "text": "Still indica un'azione o una situazione che continua nel tempo: «I still live in Rome», vivo ancora a Roma.",
-      "speech": "Still indica un'azione o una situazione che continua nel tempo: «I still live in Rome», vivo ancora a Roma.",
+      "speech": "Still indica un'azione o una situazione che continua nel tempo: I still live in Rome, vivo ancora a Roma.",
       "bold": [
         [
           0,
@@ -264,11 +264,11 @@
         },
         {
           "lang": "it",
-          "text": "indica un'azione o una situazione che continua nel tempo: «"
+          "text": "indica un'azione o una situazione che continua nel tempo:"
         },
         {
           "lang": "en",
-          "text": "I still live in Rome»,"
+          "text": "I still live in Rome,"
         },
         {
           "lang": "it",
@@ -278,7 +278,7 @@
     },
     {
       "text": "For indica la durata di un periodo: «I have lived here for two years», vivo qui da due anni.",
-      "speech": "For indica la durata di un periodo: «I have lived here for two years», vivo qui da due anni.",
+      "speech": "For indica la durata di un periodo: I have lived here for two years, vivo qui da due anni.",
       "bold": [
         [
           0,
@@ -300,11 +300,11 @@
         },
         {
           "lang": "it",
-          "text": "indica la durata di un periodo: «"
+          "text": "indica la durata di un periodo:"
         },
         {
           "lang": "en",
-          "text": "I have lived here for two years»,"
+          "text": "I have lived here for two years,"
         },
         {
           "lang": "it",
@@ -314,7 +314,7 @@
     },
     {
       "text": "Since indica invece il punto di partenza nel tempo: «I have lived here since 2020», vivo qui dal 2020.",
-      "speech": "Since indica invece il punto di partenza nel tempo: «I have lived here since 2020», vivo qui dal 2020.",
+      "speech": "Since indica invece il punto di partenza nel tempo: I have lived here since 2020, vivo qui dal 2020.",
       "bold": [
         [
           0,
@@ -336,11 +336,11 @@
         },
         {
           "lang": "it",
-          "text": "indica invece il punto di partenza nel tempo: «"
+          "text": "indica invece il punto di partenza nel tempo:"
         },
         {
           "lang": "en",
-          "text": "I have lived here since 2020»,"
+          "text": "I have lived here since 2020,"
         },
         {
           "lang": "it",
@@ -350,7 +350,7 @@
     },
     {
       "text": "E infine ago, che si usa con il simple past per indicare quanto tempo fa è avvenuta un'azione: «I moved here two years ago», mi sono trasferito qui due anni fa.",
-      "speech": "E infine ago, che si usa con il simple past per indicare quanto tempo fa è avvenuta un'azione: «I moved here two years ago», mi sono trasferito qui due anni fa.",
+      "speech": "E infine ago, che si usa con il simple past per indicare quanto tempo fa è avvenuta un'azione: I moved here two years ago, mi sono trasferito qui due anni fa.",
       "bold": [
         [
           9,
@@ -384,11 +384,11 @@
         },
         {
           "lang": "it",
-          "text": "per indicare quanto tempo fa è avvenuta un'azione: «"
+          "text": "per indicare quanto tempo fa è avvenuta un'azione:"
         },
         {
           "lang": "en",
-          "text": "I moved here two years ago»,"
+          "text": "I moved here two years ago,"
         },
         {
           "lang": "it",
@@ -493,6 +493,7 @@
           88
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -522,8 +523,7 @@
           "lang": "it",
           "text": "più il verbo con la desinenza ing."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Questo tempo descrive un'azione in corso di svolgimento in un momento preciso del passato, e si usa tipicamente in due situazioni.",
@@ -565,7 +565,7 @@
     },
     {
       "text": "«I was watching TV when the phone rang», stavo guardando la televisione quando squillò il telefono — notate che l'azione di sfondo, più lunga, è al past continuous,",
-      "speech": "«I was watching TV when the phone rang», stavo guardando la televisione quando squillò il telefono — notate che l'azione di sfondo, più lunga, è al past continuous,",
+      "speech": "I was watching TV when the phone rang, stavo guardando la televisione quando squillò il telefono — notate che l'azione di sfondo, più lunga, è al past continuous,",
       "bold": [
         [
           1,
@@ -579,7 +579,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«I was watching TV when the phone rang»,"
+          "text": "I was watching TV when the phone rang,"
         },
         {
           "lang": "it",
@@ -623,7 +623,7 @@
     },
     {
       "text": "«While I was cooking, she was setting the table», mentre io cucinavo, lei apparecchiava la tavola.",
-      "speech": "«While I was cooking, she was setting the table», mentre io cucinavo, lei apparecchiava la tavola.",
+      "speech": "While I was cooking, she was setting the table, mentre io cucinavo, lei apparecchiava la tavola.",
       "bold": [
         [
           1,
@@ -633,7 +633,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«While I was cooking, she was setting the table»,"
+          "text": "While I was cooking, she was setting the table,"
         },
         {
           "lang": "it",
@@ -693,7 +693,7 @@
     },
     {
       "text": "«When I arrived, the film had already started»: quando sono arrivato, il film era già iniziato.",
-      "speech": "«When I arrived, the film had already started»: quando sono arrivato, il film era già iniziato.",
+      "speech": "When I arrived, the film had already started: quando sono arrivato, il film era già iniziato.",
       "bold": [
         [
           1,
@@ -703,7 +703,7 @@
       "parts": [
         {
           "lang": "en",
-          "text": "«When I arrived, the film had already started»:"
+          "text": "When I arrived, the film had already started:"
         },
         {
           "lang": "it",
@@ -814,7 +814,7 @@
     },
     {
       "text": "Per questo, in inglese, diremo: «I arrived at the station, but the train had already left» — arrived, simple past, per l'azione più recente, il mio arrivo;",
-      "speech": "Per questo, in inglese, diremo: «I arrived at the station, but the train had already left» — arrived, simple past, per l'azione più recente, il mio arrivo;",
+      "speech": "Per questo, in inglese, diremo: I arrived at the station, but the train had already left — arrived, simple past, per l'azione più recente, il mio arrivo;",
       "bold": [
         [
           33,
@@ -824,11 +824,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Per questo, in inglese, diremo: «"
+          "text": "Per questo, in inglese, diremo:"
         },
         {
           "lang": "en",
-          "text": "I arrived at the station, but the train had already left» — arrived, simple past,"
+          "text": "I arrived at the station, but the train had already left — arrived, simple past,"
         },
         {
           "lang": "it",
@@ -903,7 +903,7 @@
     },
     {
       "text": "Per il past continuous: affermativa, «They were playing football»; negativa, «They weren't playing football»; interrogativa, «Were they playing football?».",
-      "speech": "Per il past continuous: affermativa, «They were playing football»; negativa, «They weren't playing football»; interrogativa, «Were they playing football?».",
+      "speech": "Per il past continuous: affermativa, They were playing football; negativa, They weren't playing football; interrogativa, Were they playing football?.",
       "bold": [
         [
           7,
@@ -933,33 +933,33 @@
         },
         {
           "lang": "it",
-          "text": "affermativa, «"
+          "text": "affermativa,"
         },
         {
           "lang": "en",
-          "text": "They were playing football»;"
+          "text": "They were playing football;"
         },
         {
           "lang": "it",
-          "text": "negativa, «"
+          "text": "negativa,"
         },
         {
           "lang": "en",
-          "text": "They weren't playing football»;"
+          "text": "They weren't playing football;"
         },
         {
           "lang": "it",
-          "text": "interrogativa, «"
+          "text": "interrogativa,"
         },
         {
           "lang": "en",
-          "text": "Were they playing football?»."
+          "text": "Were they playing football?."
         }
       ]
     },
     {
       "text": "Per il past perfect: affermativa, «She had left before I arrived»; negativa, «She hadn't left before I arrived»; interrogativa, «Had she left before you arrived?».",
-      "speech": "Per il past perfect: affermativa, «She had left before I arrived»; negativa, «She hadn't left before I arrived»; interrogativa, «Had she left before you arrived?».",
+      "speech": "Per il past perfect: affermativa, She had left before I arrived; negativa, She hadn't left before I arrived; interrogativa, Had she left before you arrived?.",
       "bold": [
         [
           7,
@@ -989,27 +989,27 @@
         },
         {
           "lang": "it",
-          "text": "affermativa, «"
+          "text": "affermativa,"
         },
         {
           "lang": "en",
-          "text": "She had left before I arrived»;"
+          "text": "She had left before I arrived;"
         },
         {
           "lang": "it",
-          "text": "negativa, «"
+          "text": "negativa,"
         },
         {
           "lang": "en",
-          "text": "She hadn't left before I arrived»;"
+          "text": "She hadn't left before I arrived;"
         },
         {
           "lang": "it",
-          "text": "interrogativa, «"
+          "text": "interrogativa,"
         },
         {
           "lang": "en",
-          "text": "Had she left before you arrived?»."
+          "text": "Had she left before you arrived?."
         }
       ]
     },
@@ -1020,7 +1020,7 @@
     },
     {
       "text": "costruite una frase che racconti questa situazione, «Quando sono entrato in classe, gli studenti stavano già scrivendo il test, perché l'insegnante aveva distribuito i fogli dieci minuti prima».",
-      "speech": "costruite una frase che racconti questa situazione, «Quando sono entrato in classe, gli studenti stavano già scrivendo il test, perché l'insegnante aveva distribuito i fogli dieci minuti prima».",
+      "speech": "costruite una frase che racconti questa situazione, Quando sono entrato in classe, gli studenti stavano già scrivendo il test, perché l'insegnante aveva distribuito i fogli dieci minuti prima.",
       "bold": [
         [
           53,
@@ -1034,7 +1034,7 @@
     },
     {
       "text": "La distribuzione dei fogli è l'azione più remota, quindi richiede il past perfect: «the teacher had handed out the papers ten minutes before»;",
-      "speech": "La distribuzione dei fogli è l'azione più remota, quindi richiede il past perfect: «the teacher had handed out the papers ten minutes before»;",
+      "speech": "La distribuzione dei fogli è l'azione più remota, quindi richiede il past perfect: the teacher had handed out the papers ten minutes before;",
       "bold": [
         [
           69,
@@ -1048,13 +1048,13 @@
         },
         {
           "lang": "en",
-          "text": "past perfect: «the teacher had handed out the papers ten minutes before»;"
+          "text": "past perfect: the teacher had handed out the papers ten minutes before;"
         }
       ]
     },
     {
       "text": "la scrittura del test è un'azione in corso in un momento preciso del passato, quindi richiede il past continuous: «the students were already writing the test»;",
-      "speech": "la scrittura del test è un'azione in corso in un momento preciso del passato, quindi richiede il past continuous: «the students were already writing the test»;",
+      "speech": "la scrittura del test è un'azione in corso in un momento preciso del passato, quindi richiede il past continuous: the students were already writing the test;",
       "bold": [
         [
           97,
@@ -1068,13 +1068,13 @@
         },
         {
           "lang": "en",
-          "text": "past continuous: «the students were already writing the test»;"
+          "text": "past continuous: the students were already writing the test;"
         }
       ]
     },
     {
       "text": "il mio ingresso in classe è l'azione di riferimento, più recente, quindi richiede il simple past: «When I entered the classroom».",
-      "speech": "il mio ingresso in classe è l'azione di riferimento, più recente, quindi richiede il simple past: «When I entered the classroom».",
+      "speech": "il mio ingresso in classe è l'azione di riferimento, più recente, quindi richiede il simple past: When I entered the classroom.",
       "bold": [
         [
           85,
@@ -1088,7 +1088,7 @@
         },
         {
           "lang": "en",
-          "text": "simple past: «When I entered the classroom»."
+          "text": "simple past: When I entered the classroom."
         }
       ]
     },
@@ -1126,6 +1126,7 @@
           108
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1163,8 +1164,7 @@
           "lang": "it",
           "text": "e vanno scelti in base al tipo di informazione temporale che si vuole dare."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Secondo: il past continuous descrive un'azione in corso in un momento preciso del passato, spesso interrotta da un'altra azione o parallela a un'altra azione.",
@@ -1183,6 +1183,7 @@
           127
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1196,8 +1197,7 @@
           "lang": "it",
           "text": "descrive un'azione in corso in un momento preciso del passato, spesso interrotta da un'altra azione o parallela a un'altra azione."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Terzo: il past perfect indica un'azione avvenuta prima di un'altra azione passata, stabilendo una sequenza cronologica chiara.",
@@ -1216,6 +1216,7 @@
           81
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1229,8 +1230,7 @@
           "lang": "it",
           "text": "indica un'azione avvenuta prima di un'altra azione passata, stabilendo una sequenza cronologica chiara."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Quarto: quando si raccontano più eventi passati insieme, il criterio decisivo è sempre chiedersi quale evento sia avvenuto per primo.",
@@ -1264,6 +1264,7 @@
           135
         ]
       ],
+      "p": 1,
       "parts": [
         {
           "lang": "it",
@@ -1293,8 +1294,7 @@
           "lang": "it",
           "text": "per parlare del futuro."
         }
-      ],
-      "p": 1
+      ]
     },
     {
       "text": "Ci vediamo lì.",
