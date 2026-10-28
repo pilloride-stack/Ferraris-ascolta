@@ -14,11 +14,27 @@
     },
     {
       "text": "SQL, acronimo di Structured Query Language, è il linguaggio standard utilizzato per creare, interrogare e manipolare i dati memorizzati in un database relazionale,",
-      "speech": "SQL, acronimo di Structured Query Language, è il linguaggio standard utilizzato per creare, interrogare e manipolare i dati memorizzati in un database relazionale,"
+      "speech": "SQL, acronimo di Structured Query Language, è il linguaggio standard utilizzato per creare, interrogare e manipolare i dati memorizzati in un database relazionale,",
+      "bold": [
+        [
+          0,
+          3
+        ],
+        [
+          17,
+          42
+        ]
+      ]
     },
     {
       "text": "indipendentemente dal DBMS specifico utilizzato, che si tratti di MySQL, SQL Server, Oracle o dello stesso Access.",
-      "speech": "indipendentemente dal DBMS specifico utilizzato, che si tratti di MySQL, SQL Server, Oracle o dello stesso Access."
+      "speech": "indipendentemente dal DBMS specifico utilizzato, che si tratti di MySQL, SQL Server, Oracle o dello stesso Access.",
+      "bold": [
+        [
+          22,
+          26
+        ]
+      ]
     },
     {
       "text": "Le istruzioni SQL si suddividono in diverse categorie, ed è utile saperle riconoscere con precisione.",
@@ -26,23 +42,77 @@
     },
     {
       "text": "Il DDL, Data Definition Language, definisce la struttura del database, ad esempio con il comando CREATE TABLE, che crea una nuova tabella.",
-      "speech": "Il DDL, Data Definition Language, definisce la struttura del database, ad esempio con il comando CREATE TABLE, che crea una nuova tabella."
+      "speech": "Il DDL, Data Definition Language, definisce la struttura del database, ad esempio con il comando CREATE TABLE, che crea una nuova tabella.",
+      "bold": [
+        [
+          3,
+          6
+        ],
+        [
+          97,
+          109
+        ]
+      ]
     },
     {
       "text": "Il DML, Data Manipulation Language, permette di inserire, modificare ed eliminare i dati, tramite i comandi INSERT, UPDATE e DELETE.",
-      "speech": "Il DML, Data Manipulation Language, permette di inserire, modificare ed eliminare i dati, tramite i comandi INSERT, UPDATE e DELETE."
+      "speech": "Il DML, Data Manipulation Language, permette di inserire, modificare ed eliminare i dati, tramite i comandi INSERT, UPDATE e DELETE.",
+      "bold": [
+        [
+          3,
+          6
+        ],
+        [
+          108,
+          131
+        ]
+      ]
     },
     {
       "text": "E il DQL, Data Query Language, è rappresentato principalmente dal comando SELECT, che permette di interrogare i dati esistenti applicando eventuali condizioni di filtro, con la clausola WHERE, e ordinamenti, con la clausola ORDER BY.",
-      "speech": "E il DQL, Data Query Language, è rappresentato principalmente dal comando SELECT, che permette di interrogare i dati esistenti applicando eventuali condizioni di filtro, con la clausola WHERE, e ordinamenti, con la clausola ORDER BY."
+      "speech": "E il DQL, Data Query Language, è rappresentato principalmente dal comando SELECT, che permette di interrogare i dati esistenti applicando eventuali condizioni di filtro, con la clausola WHERE, e ordinamenti, con la clausola ORDER BY.",
+      "bold": [
+        [
+          5,
+          8
+        ],
+        [
+          74,
+          80
+        ],
+        [
+          186,
+          191
+        ],
+        [
+          224,
+          232
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa tripla distinzione, perché è facilissimo confondere «definire» la struttura di un database con «manipolare» i dati che quella struttura contiene, ma sono due operazioni concettualmente ben diverse.",
-      "speech": "Fermatevi un momento su questa tripla distinzione, perché è facilissimo confondere «definire» la struttura di un database con «manipolare» i dati che quella struttura contiene, ma sono due operazioni concettualmente ben diverse."
+      "speech": "Fermatevi un momento su questa tripla distinzione, perché è facilissimo confondere «definire» la struttura di un database con «manipolare» i dati che quella struttura contiene, ma sono due operazioni concettualmente ben diverse.",
+      "bold": [
+        [
+          84,
+          92
+        ],
+        [
+          127,
+          137
+        ]
+      ]
     },
     {
       "text": "Il DDL agisce sull'impalcatura, cioè sulle tabelle stesse, sulle loro colonne e sui loro vincoli, un'operazione che tipicamente compie chi progetta il database, non chi lo usa quotidianamente.",
-      "speech": "Il DDL agisce sull'impalcatura, cioè sulle tabelle stesse, sulle loro colonne e sui loro vincoli, un'operazione che tipicamente compie chi progetta il database, non chi lo usa quotidianamente."
+      "speech": "Il DDL agisce sull'impalcatura, cioè sulle tabelle stesse, sulle loro colonne e sui loro vincoli, un'operazione che tipicamente compie chi progetta il database, non chi lo usa quotidianamente.",
+      "bold": [
+        [
+          19,
+          30
+        ]
+      ]
     },
     {
       "text": "Il DML e il DQL, invece, agiscono sui dati contenuti in quelle tabelle già esistenti:",
@@ -54,7 +124,13 @@
     },
     {
       "text": "Ricordate quindi che SELECT non modifica mai il database: interroga soltanto.",
-      "speech": "Ricordate quindi che SELECT non modifica mai il database: interroga soltanto."
+      "speech": "Ricordate quindi che SELECT non modifica mai il database: interroga soltanto.",
+      "bold": [
+        [
+          21,
+          56
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, come si costruisce una semplice interrogazione SQL, prendendo l'esempio di dover estrarre da una tabella Clienti tutti i clienti residenti a Torino, ordinati per cognome.",
@@ -62,19 +138,43 @@
     },
     {
       "text": "Per prima cosa si indica che cosa si vuole estrarre e da quale tabella, con SELECT seguito da un asterisco per indicare tutte le colonne, e FROM seguito dal nome della tabella, in questo caso Clienti.",
-      "speech": "Per prima cosa si indica che cosa si vuole estrarre e da quale tabella, con SELECT seguito da un asterisco per indicare tutte le colonne, e FROM seguito dal nome della tabella, in questo caso Clienti."
+      "speech": "Per prima cosa si indica che cosa si vuole estrarre e da quale tabella, con SELECT seguito da un asterisco per indicare tutte le colonne, e FROM seguito dal nome della tabella, in questo caso Clienti.",
+      "bold": [
+        [
+          140,
+          144
+        ]
+      ]
     },
     {
       "text": "Poi si applica la condizione di filtro desiderata, con la clausola WHERE, specificando che la colonna Città deve essere uguale a Torino.",
-      "speech": "Poi si applica la condizione di filtro desiderata, con la clausola WHERE, specificando che la colonna Città deve essere uguale a Torino."
+      "speech": "Poi si applica la condizione di filtro desiderata, con la clausola WHERE, specificando che la colonna Città deve essere uguale a Torino.",
+      "bold": [
+        [
+          67,
+          72
+        ]
+      ]
     },
     {
       "text": "Infine si applica l'ordinamento richiesto, con la clausola ORDER BY seguita dal nome della colonna Cognome.",
-      "speech": "Infine si applica l'ordinamento richiesto, con la clausola ORDER BY seguita dal nome della colonna Cognome."
+      "speech": "Infine si applica l'ordinamento richiesto, con la clausola ORDER BY seguita dal nome della colonna Cognome.",
+      "bold": [
+        [
+          59,
+          67
+        ]
+      ]
     },
     {
       "text": "Mettendo insieme questi tre passaggi si ottiene la query completa: SELECT asterisco FROM Clienti WHERE Città uguale Torino ORDER BY Cognome.",
-      "speech": "Mettendo insieme questi tre passaggi si ottiene la query completa: SELECT asterisco FROM Clienti WHERE Città uguale Torino ORDER BY Cognome."
+      "speech": "Mettendo insieme questi tre passaggi si ottiene la query completa: SELECT asterisco FROM Clienti WHERE Città uguale Torino ORDER BY Cognome.",
+      "bold": [
+        [
+          67,
+          96
+        ]
+      ]
     },
     {
       "text": "Notate come ciascuna clausola risponda a una domanda diversa: che cosa voglio vedere, quali righe voglio filtrare, e in che ordine voglio vederle.",
@@ -94,7 +194,13 @@
     },
     {
       "text": "e l'intera istruzione apparterrebbe alla categoria del DQL, perché si limita a interrogare dati già esistenti, senza modificarli.",
-      "speech": "e l'intera istruzione apparterrebbe alla categoria del DQL, perché si limita a interrogare dati già esistenti, senza modificarli."
+      "speech": "e l'intera istruzione apparterrebbe alla categoria del DQL, perché si limita a interrogare dati già esistenti, senza modificarli.",
+      "bold": [
+        [
+          55,
+          58
+        ]
+      ]
     },
     {
       "text": "Con SQL si chiude il quadro tecnico della programmazione web che abbiamo costruito in queste puntate:",
@@ -110,15 +216,61 @@
     },
     {
       "text": "Primo: SQL è il linguaggio standard per creare, interrogare e manipolare i dati di un database relazionale, indipendentemente dal DBMS utilizzato.",
-      "speech": "Primo: SQL è il linguaggio standard per creare, interrogare e manipolare i dati di un database relazionale, indipendentemente dal DBMS utilizzato."
+      "speech": "Primo: SQL è il linguaggio standard per creare, interrogare e manipolare i dati di un database relazionale, indipendentemente dal DBMS utilizzato.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          86,
+          106
+        ]
+      ]
     },
     {
       "text": "Secondo: le istruzioni SQL si dividono in DDL per definire la struttura, DML per inserire, modificare ed eliminare dati, e DQL per interrogarli tramite SELECT.",
-      "speech": "Secondo: le istruzioni SQL si dividono in DDL per definire la struttura, DML per inserire, modificare ed eliminare dati, e DQL per interrogarli tramite SELECT."
+      "speech": "Secondo: le istruzioni SQL si dividono in DDL per definire la struttura, DML per inserire, modificare ed eliminare dati, e DQL per interrogarli tramite SELECT.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          42,
+          45
+        ],
+        [
+          73,
+          76
+        ],
+        [
+          123,
+          126
+        ]
+      ]
     },
     {
       "text": "Terzo: una query SELECT si costruisce componendo che cosa estrarre, quali condizioni di filtro applicare con WHERE, e quale ordinamento applicare con ORDER BY.",
-      "speech": "Terzo: una query SELECT si costruisce componendo che cosa estrarre, quali condizioni di filtro applicare con WHERE, e quale ordinamento applicare con ORDER BY."
+      "speech": "Terzo: una query SELECT si costruisce componendo che cosa estrarre, quali condizioni di filtro applicare con WHERE, e quale ordinamento applicare con ORDER BY.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          109,
+          114
+        ],
+        [
+          150,
+          158
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 1.",

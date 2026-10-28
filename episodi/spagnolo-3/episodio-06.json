@@ -7,19 +7,11 @@
     {
       "text": "Nell'episodio scorso abbiamo visto Hispanoamérica e le caratteristiche linguistiche dello spagnolo d'America.",
       "speech": "Nell'episodio scorso abbiamo visto Hispanoamérica e le caratteristiche linguistiche dello spagnolo d'America.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nell'episodio scorso abbiamo visto"
-        },
-        {
-          "lang": "es",
-          "text": "Hispanoamérica"
-        },
-        {
-          "lang": "it",
-          "text": "e le caratteristiche linguistiche dello spagnolo d'America."
-        }
+      "bold": [
+        [
+          35,
+          49
+        ]
       ]
     },
     {
@@ -28,50 +20,62 @@
     },
     {
       "text": "la scoperta dell'America da parte di Cristoforo Colombo, insieme alle grandi civiltà precolombiane che il continente americano ospitava prima dell'arrivo degli europei.",
-      "speech": "la scoperta dell'America da parte di Cristoforo Colombo, insieme alle grandi civiltà precolombiane che il continente americano ospitava prima dell'arrivo degli europei."
+      "speech": "la scoperta dell'America da parte di Cristoforo Colombo, insieme alle grandi civiltà precolombiane che il continente americano ospitava prima dell'arrivo degli europei.",
+      "bold": [
+        [
+          37,
+          55
+        ],
+        [
+          77,
+          98
+        ]
+      ]
     },
     {
       "text": "Il 12 ottobre 1492, dopo circa due mesi di navigazione finanziata dai Re Cattolici di Spagna — proprio nello stesso anno,",
-      "speech": "Il 12 ottobre 1492, dopo circa due mesi di navigazione finanziata dai Re Cattolici di Spagna — proprio nello stesso anno,"
+      "speech": "Il 12 ottobre 1492, dopo circa due mesi di navigazione finanziata dai Re Cattolici di Spagna — proprio nello stesso anno,",
+      "bold": [
+        [
+          3,
+          18
+        ],
+        [
+          70,
+          82
+        ]
+      ]
     },
     {
       "text": "come abbiamo visto qualche episodio fa, della caduta di Granada e della fine della Reconquista —",
       "speech": "come abbiamo visto qualche episodio fa, della caduta di Granada e della fine della Reconquista —",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "come abbiamo visto qualche episodio fa, della caduta di"
-        },
-        {
-          "lang": "es",
-          "text": "Granada"
-        },
-        {
-          "lang": "it",
-          "text": "e della fine della"
-        },
-        {
-          "lang": "es",
-          "text": "Reconquista —"
-        }
+      "bold": [
+        [
+          56,
+          63
+        ],
+        [
+          83,
+          94
+        ]
       ]
     },
     {
       "text": "il navigatore genovese Cristoforo Colombo, Cristóbal Colón in spagnolo, raggiunse le isole dei Caraibi, inaugurando quello che sarebbe stato ricordato come il primo dei suoi quattro viaggi verso il continente americano.",
       "speech": "il navigatore genovese Cristoforo Colombo, Cristóbal Colón in spagnolo, raggiunse le isole dei Caraibi, inaugurando quello che sarebbe stato ricordato come il primo dei suoi quattro viaggi verso il continente americano.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "il navigatore genovese Cristoforo Colombo,"
-        },
-        {
-          "lang": "es",
-          "text": "Cristóbal Colón"
-        },
-        {
-          "lang": "it",
-          "text": "in spagnolo, raggiunse le isole dei Caraibi, inaugurando quello che sarebbe stato ricordato come il primo dei suoi quattro viaggi verso il continente americano."
-        }
+      "bold": [
+        [
+          43,
+          58
+        ],
+        [
+          95,
+          102
+        ],
+        [
+          174,
+          188
+        ]
       ]
     },
     {
@@ -80,11 +84,27 @@
     },
     {
       "text": "Colombo, convinto fino alla propria morte di aver raggiunto le Indie orientali seguendo una rotta occidentale, non comprese mai pienamente la portata della propria scoperta.",
-      "speech": "Colombo, convinto fino alla propria morte di aver raggiunto le Indie orientali seguendo una rotta occidentale, non comprese mai pienamente la portata della propria scoperta."
+      "speech": "Colombo, convinto fino alla propria morte di aver raggiunto le Indie orientali seguendo una rotta occidentale, non comprese mai pienamente la portata della propria scoperta.",
+      "bold": [
+        [
+          63,
+          78
+        ]
+      ]
     },
     {
       "text": "Fu invece il fiorentino Amerigo Vespucci, alcuni anni dopo, a intuire che le terre raggiunte appartenevano a un continente sino ad allora del tutto sconosciuto agli europei, un continente che proprio da Vespucci avrebbe preso il nome di America.",
-      "speech": "Fu invece il fiorentino Amerigo Vespucci, alcuni anni dopo, a intuire che le terre raggiunte appartenevano a un continente sino ad allora del tutto sconosciuto agli europei, un continente che proprio da Vespucci avrebbe preso il nome di America."
+      "speech": "Fu invece il fiorentino Amerigo Vespucci, alcuni anni dopo, a intuire che le terre raggiunte appartenevano a un continente sino ad allora del tutto sconosciuto agli europei, un continente che proprio da Vespucci avrebbe preso il nome di America.",
+      "bold": [
+        [
+          24,
+          40
+        ],
+        [
+          237,
+          244
+        ]
+      ]
     },
     {
       "text": "Il continente americano era tuttavia tutt'altro che disabitato:",
@@ -97,76 +117,70 @@
     {
       "text": "In Mesoamerica fiorirono due grandi civiltà: la civiltà maya, sviluppatasi soprattutto nell'attuale Guatemala e nella penisola dello Yucatán, nota per le sue straordinarie conoscenze astronomiche e matematiche e per il celebre calendario maya;",
       "speech": "In Mesoamerica fiorirono due grandi civiltà: la civiltà maya, sviluppatasi soprattutto nell'attuale Guatemala e nella penisola dello Yucatán, nota per le sue straordinarie conoscenze astronomiche e matematiche e per il celebre calendario maya;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "In Mesoamerica fiorirono due grandi civiltà: la civiltà maya, sviluppatasi soprattutto nell'attuale"
-        },
-        {
-          "lang": "es",
-          "text": "Guatemala"
-        },
-        {
-          "lang": "it",
-          "text": "e nella penisola dello"
-        },
-        {
-          "lang": "es",
-          "text": "Yucatán,"
-        },
-        {
-          "lang": "it",
-          "text": "nota per le sue straordinarie conoscenze astronomiche e matematiche e per il celebre calendario maya;"
-        }
+      "bold": [
+        [
+          48,
+          60
+        ],
+        [
+          100,
+          109
+        ],
+        [
+          133,
+          140
+        ],
+        [
+          227,
+          242
+        ]
       ]
     },
     {
       "text": "e la civiltà azteca, che nel XV secolo aveva costruito un vasto impero nel Messico centrale, con capitale Tenochtitlán, città lacustre di dimensioni e complessità urbanistica che stupirono gli stessi conquistatori spagnoli al loro arrivo.",
       "speech": "e la civiltà azteca, che nel XV secolo aveva costruito un vasto impero nel Messico centrale, con capitale Tenochtitlán, città lacustre di dimensioni e complessità urbanistica che stupirono gli stessi conquistatori spagnoli al loro arrivo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e la civiltà"
-        },
-        {
-          "lang": "es",
-          "text": "azteca,"
-        },
-        {
-          "lang": "it",
-          "text": "che nel XV secolo aveva costruito un vasto impero nel Messico centrale, con capitale"
-        },
-        {
-          "lang": "es",
-          "text": "Tenochtitlán,"
-        },
-        {
-          "lang": "it",
-          "text": "città lacustre di dimensioni e complessità urbanistica che stupirono gli stessi conquistatori spagnoli al loro arrivo."
-        }
+      "bold": [
+        [
+          13,
+          19
+        ],
+        [
+          106,
+          118
+        ]
       ]
     },
     {
       "text": "Sulla cordigliera andina dell'America del Sud si sviluppò invece il vasto Impero Inca, con capitale Cusco, dotato di una sofisticata rete di strade che collegava l'intero impero attraverso le Ande,",
       "speech": "Sulla cordigliera andina dell'America del Sud si sviluppò invece il vasto Impero Inca, con capitale Cusco, dotato di una sofisticata rete di strade che collegava l'intero impero attraverso le Ande,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Sulla cordigliera"
-        },
-        {
-          "lang": "es",
-          "text": "andina"
-        },
-        {
-          "lang": "it",
-          "text": "dell'America del Sud si sviluppò invece il vasto Impero Inca, con capitale Cusco, dotato di una sofisticata rete di strade che collegava l'intero impero attraverso le Ande,"
-        }
+      "bold": [
+        [
+          18,
+          24
+        ],
+        [
+          74,
+          85
+        ],
+        [
+          100,
+          105
+        ],
+        [
+          133,
+          147
+        ]
       ]
     },
     {
       "text": "e di un'organizzazione amministrativa e agricola particolarmente avanzata per l'epoca, capace di gestire risorse e popolazioni su un territorio vastissimo senza conoscere né la scrittura né la ruota nel senso in cui le conosciamo noi.",
-      "speech": "e di un'organizzazione amministrativa e agricola particolarmente avanzata per l'epoca, capace di gestire risorse e popolazioni su un territorio vastissimo senza conoscere né la scrittura né la ruota nel senso in cui le conosciamo noi."
+      "speech": "e di un'organizzazione amministrativa e agricola particolarmente avanzata per l'epoca, capace di gestire risorse e popolazioni su un territorio vastissimo senza conoscere né la scrittura né la ruota nel senso in cui le conosciamo noi.",
+      "bold": [
+        [
+          8,
+          37
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su un punto storico complesso ma fondamentale, che vale la pena saper argomentare con equilibrio in un'interrogazione:",
@@ -175,32 +189,50 @@
     {
       "text": "tutte e tre queste civiltà, maya, azteca e inca, furono conquistate dai colonizzatori spagnoli nel corso del XVI secolo, un processo favorito da almeno tre fattori concomitanti.",
       "speech": "tutte e tre queste civiltà, maya, azteca e inca, furono conquistate dai colonizzatori spagnoli nel corso del XVI secolo, un processo favorito da almeno tre fattori concomitanti.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "tutte e tre queste civiltà, maya,"
-        },
-        {
-          "lang": "es",
-          "text": "azteca"
-        },
-        {
-          "lang": "it",
-          "text": "e inca, furono conquistate dai colonizzatori spagnoli nel corso del XVI secolo, un processo favorito da almeno tre fattori concomitanti."
-        }
+      "bold": [
+        [
+          34,
+          40
+        ],
+        [
+          109,
+          119
+        ]
       ]
     },
     {
       "text": "Il primo furono le divisioni interne tra i popoli sottomessi agli imperi azteco e inca, che i conquistatori spagnoli seppero sfruttare abilmente stringendo alleanze con popolazioni locali ostili ai rispettivi imperi dominanti.",
-      "speech": "Il primo furono le divisioni interne tra i popoli sottomessi agli imperi azteco e inca, che i conquistatori spagnoli seppero sfruttare abilmente stringendo alleanze con popolazioni locali ostili ai rispettivi imperi dominanti."
+      "speech": "Il primo furono le divisioni interne tra i popoli sottomessi agli imperi azteco e inca, che i conquistatori spagnoli seppero sfruttare abilmente stringendo alleanze con popolazioni locali ostili ai rispettivi imperi dominanti.",
+      "bold": [
+        [
+          19,
+          36
+        ]
+      ]
     },
     {
       "text": "Il secondo fu la superiorità tecnologica e militare degli europei, dotati di armi da fuoco, cavalli e armature metalliche sconosciute nel continente americano.",
-      "speech": "Il secondo fu la superiorità tecnologica e militare degli europei, dotati di armi da fuoco, cavalli e armature metalliche sconosciute nel continente americano."
+      "speech": "Il secondo fu la superiorità tecnologica e militare degli europei, dotati di armi da fuoco, cavalli e armature metalliche sconosciute nel continente americano.",
+      "bold": [
+        [
+          17,
+          51
+        ]
+      ]
     },
     {
       "text": "Il terzo fattore, forse il più determinante di tutti dal punto di vista demografico, fu la diffusione di epidemie portate dai colonizzatori europei — vaiolo, morbillo e altre malattie —",
-      "speech": "Il terzo fattore, forse il più determinante di tutti dal punto di vista demografico, fu la diffusione di epidemie portate dai colonizzatori europei — vaiolo, morbillo e altre malattie —"
+      "speech": "Il terzo fattore, forse il più determinante di tutti dal punto di vista demografico, fu la diffusione di epidemie portate dai colonizzatori europei — vaiolo, morbillo e altre malattie —",
+      "bold": [
+        [
+          91,
+          113
+        ],
+        [
+          150,
+          166
+        ]
+      ]
     },
     {
       "text": "verso le quali le popolazioni indigene non possedevano alcuna difesa immunitaria, con conseguenze devastanti sulla popolazione precolombiana ben più gravi di quelle causate direttamente dai conflitti militari.",
@@ -213,63 +245,43 @@
     {
       "text": "I Maya, in Guatemala e nello Yucatán, sono noti per le conoscenze astronomiche e matematiche e per il calendario.",
       "speech": "I Maya, in Guatemala e nello Yucatán, sono noti per le conoscenze astronomiche e matematiche e per il calendario.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "I Maya, in"
-        },
-        {
-          "lang": "es",
-          "text": "Guatemala"
-        },
-        {
-          "lang": "it",
-          "text": "e nello"
-        },
-        {
-          "lang": "es",
-          "text": "Yucatán,"
-        },
-        {
-          "lang": "it",
-          "text": "sono noti per le conoscenze astronomiche e matematiche e per il calendario."
-        }
+      "bold": [
+        [
+          11,
+          20
+        ],
+        [
+          29,
+          36
+        ]
       ]
     },
     {
       "text": "Gli Aztechi, nel Messico centrale con capitale Tenochtitlán, costruirono un vasto impero guerriero di religione politeista.",
       "speech": "Gli Aztechi, nel Messico centrale con capitale Tenochtitlán, costruirono un vasto impero guerriero di religione politeista.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Gli Aztechi, nel Messico centrale con capitale"
-        },
-        {
-          "lang": "es",
-          "text": "Tenochtitlán,"
-        },
-        {
-          "lang": "it",
-          "text": "costruirono un vasto impero guerriero di religione politeista."
-        }
+      "bold": [
+        [
+          47,
+          59
+        ],
+        [
+          82,
+          98
+        ]
       ]
     },
     {
       "text": "Gli Inca, sulla cordigliera andina con capitale Cusco, svilupparono una rete stradale e un'organizzazione amministrativa avanzata.",
       "speech": "Gli Inca, sulla cordigliera andina con capitale Cusco, svilupparono una rete stradale e un'organizzazione amministrativa avanzata.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Gli Inca, sulla cordigliera"
-        },
-        {
-          "lang": "es",
-          "text": "andina"
-        },
-        {
-          "lang": "it",
-          "text": "con capitale Cusco, svilupparono una rete stradale e un'organizzazione amministrativa avanzata."
-        }
+      "bold": [
+        [
+          28,
+          34
+        ],
+        [
+          72,
+          85
+        ]
       ]
     },
     {
@@ -278,29 +290,79 @@
     },
     {
       "text": "Primo: Cristoforo Colombo raggiunse le Americhe nel 1492, convinto di aver trovato le Indie orientali, mentre fu Amerigo Vespucci a intuire la vera natura del nuovo continente.",
-      "speech": "Primo: Cristoforo Colombo raggiunse le Americhe nel 1492, convinto di aver trovato le Indie orientali, mentre fu Amerigo Vespucci a intuire la vera natura del nuovo continente."
+      "speech": "Primo: Cristoforo Colombo raggiunse le Americhe nel 1492, convinto di aver trovato le Indie orientali, mentre fu Amerigo Vespucci a intuire la vera natura del nuovo continente.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          52,
+          56
+        ],
+        [
+          86,
+          101
+        ],
+        [
+          113,
+          129
+        ]
+      ]
     },
     {
       "text": "Secondo: le principali civiltà precolombiane furono i Maya e gli Aztechi in Mesoamerica, e gli Inca sulla cordigliera andina.",
       "speech": "Secondo: le principali civiltà precolombiane furono i Maya e gli Aztechi in Mesoamerica, e gli Inca sulla cordigliera andina.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo: le principali civiltà precolombiane furono i Maya e gli Aztechi in Mesoamerica, e gli Inca sulla cordigliera"
-        },
-        {
-          "lang": "es",
-          "text": "andina."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          54,
+          58
+        ],
+        [
+          65,
+          72
+        ],
+        [
+          95,
+          99
+        ],
+        [
+          118,
+          124
+        ]
       ]
     },
     {
       "text": "Terzo: la conquista spagnola di queste civiltà nel XVI secolo fu favorita dalle divisioni interne, dalla superiorità tecnologica e militare europea e,",
-      "speech": "Terzo: la conquista spagnola di queste civiltà nel XVI secolo fu favorita dalle divisioni interne, dalla superiorità tecnologica e militare europea e,"
+      "speech": "Terzo: la conquista spagnola di queste civiltà nel XVI secolo fu favorita dalle divisioni interne, dalla superiorità tecnologica e militare europea e,",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          80,
+          97
+        ],
+        [
+          105,
+          139
+        ]
+      ]
     },
     {
       "text": "in misura determinante, dalla diffusione di epidemie verso cui le popolazioni indigene non avevano difese immunitarie.",
-      "speech": "in misura determinante, dalla diffusione di epidemie verso cui le popolazioni indigene non avevano difese immunitarie."
+      "speech": "in misura determinante, dalla diffusione di epidemie verso cui le popolazioni indigene non avevano difese immunitarie.",
+      "bold": [
+        [
+          44,
+          52
+        ]
+      ]
     },
     {
       "text": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida della Classe III, per arrivare all'esame con ogni argomento ben fissato nella memoria.",

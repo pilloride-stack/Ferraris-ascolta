@@ -14,7 +14,13 @@
     },
     {
       "text": "Il soggetto giuridico dell'azienda è la persona fisica o giuridica a cui vengono formalmente imputati i diritti e gli obblighi derivanti dall'attività aziendale:",
-      "speech": "Il soggetto giuridico dell'azienda è la persona fisica o giuridica a cui vengono formalmente imputati i diritti e gli obblighi derivanti dall'attività aziendale:"
+      "speech": "Il soggetto giuridico dell'azienda è la persona fisica o giuridica a cui vengono formalmente imputati i diritti e gli obblighi derivanti dall'attività aziendale:",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "è il titolare dell'impresa individuale, oppure la società stessa, dotata di personalità giuridica, nel caso delle società di capitali.",
@@ -22,7 +28,13 @@
     },
     {
       "text": "Il soggetto economico è invece la persona, o il gruppo di persone, che di fatto esercita il potere di governo economico dell'azienda, assumendo le decisioni strategiche di maggior rilievo.",
-      "speech": "Il soggetto economico è invece la persona, o il gruppo di persone, che di fatto esercita il potere di governo economico dell'azienda, assumendo le decisioni strategiche di maggior rilievo."
+      "speech": "Il soggetto economico è invece la persona, o il gruppo di persone, che di fatto esercita il potere di governo economico dell'azienda, assumendo le decisioni strategiche di maggior rilievo.",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa distinzione, perché è tra le più delicate e più richieste di tutto il modulo:",
@@ -38,7 +50,13 @@
     },
     {
       "text": "il soggetto giuridico è la società, mentre il soggetto economico è individuabile nel socio o nel gruppo di soci che, detenendo la quota di controllo, orienta di fatto le decisioni aziendali.",
-      "speech": "il soggetto giuridico è la società, mentre il soggetto economico è individuabile nel socio o nel gruppo di soci che, detenendo la quota di controllo, orienta di fatto le decisioni aziendali."
+      "speech": "il soggetto giuridico è la società, mentre il soggetto economico è individuabile nel socio o nel gruppo di soci che, detenendo la quota di controllo, orienta di fatto le decisioni aziendali.",
+      "bold": [
+        [
+          130,
+          148
+        ]
+      ]
     },
     {
       "text": "Proviamo a vedere insieme un esempio svolto: la società Alfa S.p.A. è quotata in borsa;",
@@ -58,7 +76,13 @@
     },
     {
       "text": "il soggetto economico è la famiglia Rossi, che, detenendo la quota di controllo del 60%, esercita di fatto il governo economico dell'azienda, pur non essendo l'unica proprietaria formale di tutte le azioni.",
-      "speech": "il soggetto economico è la famiglia Rossi, che, detenendo la quota di controllo del 60%, esercita di fatto il governo economico dell'azienda, pur non essendo l'unica proprietaria formale di tutte le azioni."
+      "speech": "il soggetto economico è la famiglia Rossi, che, detenendo la quota di controllo del 60%, esercita di fatto il governo economico dell'azienda, pur non essendo l'unica proprietaria formale di tutte le azioni.",
+      "bold": [
+        [
+          27,
+          41
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, sulla stessa falsariga:",
@@ -70,7 +94,13 @@
     },
     {
       "text": "In un caso del genere, il potere di governo economico tende a spostarsi verso il management,",
-      "speech": "In un caso del genere, il potere di governo economico tende a spostarsi verso il management,"
+      "speech": "In un caso del genere, il potere di governo economico tende a spostarsi verso il management,",
+      "bold": [
+        [
+          81,
+          91
+        ]
+      ]
     },
     {
       "text": "cioè gli amministratori e i dirigenti che gestiscono operativamente l'azienda giorno per giorno, proprio perché nessun singolo socio ha di fatto la forza per orientare da solo le decisioni strategiche.",
@@ -82,15 +112,41 @@
     },
     {
       "text": "Le aziende si classificano anche in base alla loro dimensione, utilizzando criteri quantitativi come il numero di dipendenti, il fatturato annuo e il totale dell'attivo di bilancio.",
-      "speech": "Le aziende si classificano anche in base alla loro dimensione, utilizzando criteri quantitativi come il numero di dipendenti, il fatturato annuo e il totale dell'attivo di bilancio."
+      "speech": "Le aziende si classificano anche in base alla loro dimensione, utilizzando criteri quantitativi come il numero di dipendenti, il fatturato annuo e il totale dell'attivo di bilancio.",
+      "bold": [
+        [
+          51,
+          61
+        ]
+      ]
     },
     {
       "text": "Secondo la classificazione adottata dall'Unione Europea, si distinguono microimprese, piccole imprese, medie imprese e grandi imprese:",
-      "speech": "Secondo la classificazione adottata dall'Unione Europea, si distinguono microimprese, piccole imprese, medie imprese e grandi imprese:"
+      "speech": "Secondo la classificazione adottata dall'Unione Europea, si distinguono microimprese, piccole imprese, medie imprese e grandi imprese:",
+      "bold": [
+        [
+          72,
+          84
+        ],
+        [
+          86,
+          101
+        ],
+        [
+          119,
+          133
+        ]
+      ]
     },
     {
       "text": "questa distinzione è rilevante, tra l'altro, per l'accesso ad agevolazioni fiscali e finanziarie riservate alle piccole e medie imprese, le cosiddette PMI.",
-      "speech": "questa distinzione è rilevante, tra l'altro, per l'accesso ad agevolazioni fiscali e finanziarie riservate alle piccole e medie imprese, le cosiddette PMI."
+      "speech": "questa distinzione è rilevante, tra l'altro, per l'accesso ad agevolazioni fiscali e finanziarie riservate alle piccole e medie imprese, le cosiddette PMI.",
+      "bold": [
+        [
+          151,
+          154
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -98,19 +154,55 @@
     },
     {
       "text": "Primo: il soggetto giuridico è il titolare formale di diritti e obblighi, mentre il soggetto economico è chi esercita di fatto il governo dell'azienda;",
-      "speech": "Primo: il soggetto giuridico è il titolare formale di diritti e obblighi, mentre il soggetto economico è chi esercita di fatto il governo dell'azienda;"
+      "speech": "Primo: il soggetto giuridico è il titolare formale di diritti e obblighi, mentre il soggetto economico è chi esercita di fatto il governo dell'azienda;",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          84,
+          102
+        ]
+      ]
     },
     {
       "text": "nelle imprese individuali coincidono, nelle grandi società di capitali possono non coincidere.",
-      "speech": "nelle imprese individuali coincidono, nelle grandi società di capitali possono non coincidere."
+      "speech": "nelle imprese individuali coincidono, nelle grandi società di capitali possono non coincidere.",
+      "bold": [
+        [
+          26,
+          36
+        ]
+      ]
     },
     {
       "text": "Secondo: nell'esempio della Alfa S.p.A., il soggetto giuridico è la società stessa, il soggetto economico è il socio di controllo.",
-      "speech": "Secondo: nell'esempio della Alfa S.p.A., il soggetto giuridico è la società stessa, il soggetto economico è il socio di controllo."
+      "speech": "Secondo: nell'esempio della Alfa S.p.A., il soggetto giuridico è la società stessa, il soggetto economico è il socio di controllo.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "Terzo: le aziende si classificano per dimensione, secondo criteri UE, in microimprese, piccole, medie e grandi imprese.",
-      "speech": "Terzo: le aziende si classificano per dimensione, secondo criteri UE, in microimprese, piccole, medie e grandi imprese."
+      "speech": "Terzo: le aziende si classificano per dimensione, secondo criteri UE, in microimprese, piccole, medie e grandi imprese.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          58,
+          68
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo come è organizzata internamente un'azienda, tra organi e funzioni aziendali.",

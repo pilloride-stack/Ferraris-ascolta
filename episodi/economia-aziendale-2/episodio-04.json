@@ -14,7 +14,17 @@
     },
     {
       "text": "La cambiale è un titolo di credito che incorpora il diritto a ricevere il pagamento di una somma di denaro a una scadenza determinata.",
-      "speech": "La cambiale è un titolo di credito che incorpora il diritto a ricevere il pagamento di una somma di denaro a una scadenza determinata."
+      "speech": "La cambiale è un titolo di credito che incorpora il diritto a ricevere il pagamento di una somma di denaro a una scadenza determinata.",
+      "bold": [
+        [
+          3,
+          11
+        ],
+        [
+          17,
+          34
+        ]
+      ]
     },
     {
       "text": "Esistono due tipologie principali, ed è fondamentale saperle distinguere con precisione.",
@@ -22,11 +32,31 @@
     },
     {
       "text": "Il pagherò cambiario, detto anche vaglia cambiario, contiene la promessa incondizionata di pagamento fatta dall'emittente, il debitore, nei confronti del beneficiario, il creditore, e coinvolge quindi due soggetti.",
-      "speech": "Il pagherò cambiario, detto anche vaglia cambiario, contiene la promessa incondizionata di pagamento fatta dall'emittente, il debitore, nei confronti del beneficiario, il creditore, e coinvolge quindi due soggetti."
+      "speech": "Il pagherò cambiario, detto anche vaglia cambiario, contiene la promessa incondizionata di pagamento fatta dall'emittente, il debitore, nei confronti del beneficiario, il creditore, e coinvolge quindi due soggetti.",
+      "bold": [
+        [
+          3,
+          20
+        ],
+        [
+          64,
+          100
+        ]
+      ]
     },
     {
       "text": "La cambiale tratta contiene invece un ordine di pagamento che un soggetto, il traente, rivolge a un terzo, il trattario, affinché paghi una somma al beneficiario, coinvolgendo quindi tre soggetti.",
-      "speech": "La cambiale tratta contiene invece un ordine di pagamento che un soggetto, il traente, rivolge a un terzo, il trattario, affinché paghi una somma al beneficiario, coinvolgendo quindi tre soggetti."
+      "speech": "La cambiale tratta contiene invece un ordine di pagamento che un soggetto, il traente, rivolge a un terzo, il trattario, affinché paghi una somma al beneficiario, coinvolgendo quindi tre soggetti.",
+      "bold": [
+        [
+          3,
+          18
+        ],
+        [
+          38,
+          57
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa distinzione tra due e tre soggetti, perché è il modo più semplice ed efficace per non confondere le due tipologie in un'interrogazione:",
@@ -34,11 +64,23 @@
     },
     {
       "text": "nel pagherò, chi promette di pagare è la stessa persona che firma il titolo, quindi bastano due soggetti, chi promette e chi riceve;",
-      "speech": "nel pagherò, chi promette di pagare è la stessa persona che firma il titolo, quindi bastano due soggetti, chi promette e chi riceve;"
+      "speech": "nel pagherò, chi promette di pagare è la stessa persona che firma il titolo, quindi bastano due soggetti, chi promette e chi riceve;",
+      "bold": [
+        [
+          92,
+          104
+        ]
+      ]
     },
     {
       "text": "nella cambiale tratta, invece, chi ordina il pagamento, il traente, non è la stessa persona che materialmente pagherà, il trattario, quindi servono tre soggetti distinti.",
-      "speech": "nella cambiale tratta, invece, chi ordina il pagamento, il traente, non è la stessa persona che materialmente pagherà, il trattario, quindi servono tre soggetti distinti."
+      "speech": "nella cambiale tratta, invece, chi ordina il pagamento, il traente, non è la stessa persona che materialmente pagherà, il trattario, quindi servono tre soggetti distinti.",
+      "bold": [
+        [
+          148,
+          160
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un fornitore emettesse personalmente una promessa di pagare una somma a un proprio cliente, quale delle due tipologie di cambiale starebbe utilizzando?",
@@ -46,11 +88,23 @@
     },
     {
       "text": "Starebbe utilizzando un pagherò cambiario, perché è lui stesso, in qualità di emittente, a promettere incondizionatamente di pagare, senza coinvolgere un terzo soggetto che esegua materialmente il pagamento al suo posto.",
-      "speech": "Starebbe utilizzando un pagherò cambiario, perché è lui stesso, in qualità di emittente, a promettere incondizionatamente di pagare, senza coinvolgere un terzo soggetto che esegua materialmente il pagamento al suo posto."
+      "speech": "Starebbe utilizzando un pagherò cambiario, perché è lui stesso, in qualità di emittente, a promettere incondizionatamente di pagare, senza coinvolgere un terzo soggetto che esegua materialmente il pagamento al suo posto.",
+      "bold": [
+        [
+          24,
+          41
+        ]
+      ]
     },
     {
       "text": "La cambiale è inoltre un titolo esecutivo, il che significa che, in caso di mancato pagamento, il creditore può agire direttamente per il recupero del credito senza necessità di un preventivo giudizio:",
-      "speech": "La cambiale è inoltre un titolo esecutivo, il che significa che, in caso di mancato pagamento, il creditore può agire direttamente per il recupero del credito senza necessità di un preventivo giudizio:"
+      "speech": "La cambiale è inoltre un titolo esecutivo, il che significa che, in caso di mancato pagamento, il creditore può agire direttamente per il recupero del credito senza necessità di un preventivo giudizio:",
+      "bold": [
+        [
+          25,
+          41
+        ]
+      ]
     },
     {
       "text": "un vantaggio molto concreto rispetto ad altri strumenti di credito, che invece richiederebbero prima un giudizio per accertare il diritto al pagamento.",
@@ -58,11 +112,23 @@
     },
     {
       "text": "La cambiale può inoltre essere trasferita ad altri soggetti tramite girata,",
-      "speech": "La cambiale può inoltre essere trasferita ad altri soggetti tramite girata,"
+      "speech": "La cambiale può inoltre essere trasferita ad altri soggetti tramite girata,",
+      "bold": [
+        [
+          68,
+          74
+        ]
+      ]
     },
     {
       "text": "oppure smobilizzata anticipatamente presso una banca tramite lo sconto cambiario, esattamente l'operazione che avevamo visto con un esempio numerico due episodi fa.",
-      "speech": "oppure smobilizzata anticipatamente presso una banca tramite lo sconto cambiario, esattamente l'operazione che avevamo visto con un esempio numerico due episodi fa."
+      "speech": "oppure smobilizzata anticipatamente presso una banca tramite lo sconto cambiario, esattamente l'operazione che avevamo visto con un esempio numerico due episodi fa.",
+      "bold": [
+        [
+          64,
+          80
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo collegamento, perché lega insieme due parti del modulo che a prima vista sembrano distanti:",
@@ -70,7 +136,17 @@
     },
     {
       "text": "quando un'azienda «sconta» una cambiale in banca, sta proprio applicando il meccanismo dello sconto commerciale visto nel primo modulo al valore nominale di questo specifico titolo di credito,",
-      "speech": "quando un'azienda «sconta» una cambiale in banca, sta proprio applicando il meccanismo dello sconto commerciale visto nel primo modulo al valore nominale di questo specifico titolo di credito,"
+      "speech": "quando un'azienda «sconta» una cambiale in banca, sta proprio applicando il meccanismo dello sconto commerciale visto nel primo modulo al valore nominale di questo specifico titolo di credito,",
+      "bold": [
+        [
+          19,
+          25
+        ],
+        [
+          93,
+          111
+        ]
+      ]
     },
     {
       "text": "ottenendo un valore attuale inferiore al valore nominale, ma disponibile immediatamente anziché alla scadenza.",
@@ -82,15 +158,57 @@
     },
     {
       "text": "Primo: la cambiale è un titolo di credito esecutivo, e si distingue in pagherò cambiario, con due soggetti e una promessa di pagamento, e cambiale tratta, con tre soggetti e un ordine di pagamento.",
-      "speech": "Primo: la cambiale è un titolo di credito esecutivo, e si distingue in pagherò cambiario, con due soggetti e una promessa di pagamento, e cambiale tratta, con tre soggetti e un ordine di pagamento."
+      "speech": "Primo: la cambiale è un titolo di credito esecutivo, e si distingue in pagherò cambiario, con due soggetti e una promessa di pagamento, e cambiale tratta, con tre soggetti e un ordine di pagamento.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          24,
+          51
+        ],
+        [
+          71,
+          88
+        ],
+        [
+          138,
+          153
+        ]
+      ]
     },
     {
       "text": "Secondo: essendo titolo esecutivo, permette al creditore di agire direttamente in caso di mancato pagamento.",
-      "speech": "Secondo: essendo titolo esecutivo, permette al creditore di agire direttamente in caso di mancato pagamento."
+      "speech": "Secondo: essendo titolo esecutivo, permette al creditore di agire direttamente in caso di mancato pagamento.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          17,
+          33
+        ]
+      ]
     },
     {
       "text": "Terzo: la cambiale può essere girata ad altri soggetti o scontata in banca, applicando il meccanismo dello sconto commerciale al suo valore nominale.",
-      "speech": "Terzo: la cambiale può essere girata ad altri soggetti o scontata in banca, applicando il meccanismo dello sconto commerciale al suo valore nominale."
+      "speech": "Terzo: la cambiale può essere girata ad altri soggetti o scontata in banca, applicando il meccanismo dello sconto commerciale al suo valore nominale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          30,
+          36
+        ],
+        [
+          57,
+          74
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero secondo modulo.",

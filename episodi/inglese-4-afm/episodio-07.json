@@ -14,24 +14,30 @@
     },
     {
       "text": "il modello AIDA per analizzare l'efficacia di un messaggio pubblicitario, e le fiere commerciali come occasione di promozione e di ricerca di mercato allo stesso tempo.",
-      "speech": "il modello AIDA per analizzare l'efficacia di un messaggio pubblicitario, e le fiere commerciali come occasione di promozione e di ricerca di mercato allo stesso tempo."
+      "speech": "il modello AIDA per analizzare l'efficacia di un messaggio pubblicitario, e le fiere commerciali come occasione di promozione e di ricerca di mercato allo stesso tempo.",
+      "bold": [
+        [
+          3,
+          15
+        ],
+        [
+          79,
+          96
+        ]
+      ]
     },
     {
       "text": "Cominciamo dalla pubblicità, advertising: lo strumento attraverso cui un'impresa comunica al pubblico i pregi di un prodotto o di un servizio, con l'obiettivo dichiarato di persuadere il consumatore all'acquisto.",
       "speech": "Cominciamo dalla pubblicità, advertising: lo strumento attraverso cui un'impresa comunica al pubblico i pregi di un prodotto o di un servizio, con l'obiettivo dichiarato di persuadere il consumatore all'acquisto.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Cominciamo dalla pubblicità,"
-        },
-        {
-          "lang": "en",
-          "text": "advertising:"
-        },
-        {
-          "lang": "it",
-          "text": "lo strumento attraverso cui un'impresa comunica al pubblico i pregi di un prodotto o di un servizio, con l'obiettivo dichiarato di persuadere il consumatore all'acquisto."
-        }
+      "bold": [
+        [
+          17,
+          27
+        ],
+        [
+          29,
+          40
+        ]
       ]
     },
     {
@@ -40,28 +46,36 @@
     },
     {
       "text": "già a fine Ottocento, un modello diventato poi un classico assoluto degli studi di marketing: il modello AIDA.",
-      "speech": "già a fine Ottocento, un modello diventato poi un classico assoluto degli studi di marketing: il modello AIDA."
+      "speech": "già a fine Ottocento, un modello diventato poi un classico assoluto degli studi di marketing: il modello AIDA.",
+      "bold": [
+        [
+          6,
+          20
+        ]
+      ]
     },
     {
       "text": "AIDA è un acronimo che scompone il funzionamento di un messaggio pubblicitario efficace in quattro fasi successive, ed è fondamentale saperle esporre nell'ordine corretto, perché ciascuna fase prepara la successiva.",
-      "speech": "AIDA è un acronimo che scompone il funzionamento di un messaggio pubblicitario efficace in quattro fasi successive, ed è fondamentale saperle esporre nell'ordine corretto, perché ciascuna fase prepara la successiva."
+      "speech": "AIDA è un acronimo che scompone il funzionamento di un messaggio pubblicitario efficace in quattro fasi successive, ed è fondamentale saperle esporre nell'ordine corretto, perché ciascuna fase prepara la successiva.",
+      "bold": [
+        [
+          91,
+          103
+        ]
+      ]
     },
     {
       "text": "La prima fase è Attention, l'attenzione: il messaggio deve prima di tutto catturare lo sguardo o l'ascolto del destinatario,",
       "speech": "La prima fase è Attention, l'attenzione: il messaggio deve prima di tutto catturare lo sguardo o l'ascolto del destinatario,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La prima fase è"
-        },
-        {
-          "lang": "en",
-          "text": "Attention,"
-        },
-        {
-          "lang": "it",
-          "text": "l'attenzione: il messaggio deve prima di tutto catturare lo sguardo o l'ascolto del destinatario,"
-        }
+      "bold": [
+        [
+          16,
+          25
+        ],
+        [
+          27,
+          39
+        ]
       ]
     },
     {
@@ -71,19 +85,15 @@
     {
       "text": "La seconda fase è Interest, l'interesse: catturata l'attenzione iniziale, il messaggio deve trattenere il destinatario abbastanza a lungo da comunicargli qualcosa di rilevante sul prodotto,",
       "speech": "La seconda fase è Interest, l'interesse: catturata l'attenzione iniziale, il messaggio deve trattenere il destinatario abbastanza a lungo da comunicargli qualcosa di rilevante sul prodotto,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La seconda fase è"
-        },
-        {
-          "lang": "en",
-          "text": "Interest,"
-        },
-        {
-          "lang": "it",
-          "text": "l'interesse: catturata l'attenzione iniziale, il messaggio deve trattenere il destinatario abbastanza a lungo da comunicargli qualcosa di rilevante sul prodotto,"
-        }
+      "bold": [
+        [
+          18,
+          26
+        ],
+        [
+          28,
+          39
+        ]
       ]
     },
     {
@@ -93,19 +103,15 @@
     {
       "text": "La terza fase è Desire, il desiderio: non basta suscitare interesse intellettuale, occorre trasformarlo in un desiderio più profondo ed emotivo di possedere quel prodotto o di usufruire di quel servizio,",
       "speech": "La terza fase è Desire, il desiderio: non basta suscitare interesse intellettuale, occorre trasformarlo in un desiderio più profondo ed emotivo di possedere quel prodotto o di usufruire di quel servizio,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La terza fase è"
-        },
-        {
-          "lang": "en",
-          "text": "Desire,"
-        },
-        {
-          "lang": "it",
-          "text": "il desiderio: non basta suscitare interesse intellettuale, occorre trasformarlo in un desiderio più profondo ed emotivo di possedere quel prodotto o di usufruire di quel servizio,"
-        }
+      "bold": [
+        [
+          16,
+          22
+        ],
+        [
+          24,
+          36
+        ]
       ]
     },
     {
@@ -115,27 +121,31 @@
     {
       "text": "La quarta e ultima fase è Action, l'azione: il messaggio deve infine spingere concretamente il destinatario a compiere l'acquisto, tipicamente attraverso una call to action esplicita — «acquista ora», «scopri di più», «visita il nostro sito» —",
       "speech": "La quarta e ultima fase è Action, l'azione: il messaggio deve infine spingere concretamente il destinatario a compiere l'acquisto, tipicamente attraverso una call to action esplicita — «acquista ora», «scopri di più», «visita il nostro sito» —",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La quarta e ultima fase è"
-        },
-        {
-          "lang": "en",
-          "text": "Action,"
-        },
-        {
-          "lang": "it",
-          "text": "l'azione: il messaggio deve infine spingere concretamente il destinatario a compiere l'acquisto, tipicamente attraverso una"
-        },
-        {
-          "lang": "en",
-          "text": "call to action"
-        },
-        {
-          "lang": "it",
-          "text": "esplicita — «acquista ora», «scopri di più», «visita il nostro sito» —"
-        }
+      "bold": [
+        [
+          26,
+          32
+        ],
+        [
+          34,
+          42
+        ],
+        [
+          158,
+          172
+        ],
+        [
+          186,
+          198
+        ],
+        [
+          202,
+          215
+        ],
+        [
+          219,
+          240
+        ]
       ]
     },
     {
@@ -153,67 +163,39 @@
     {
       "text": "L'Attention viene catturata da immagini di grande impatto visivo ed estetico nei primi secondi; l'Interest viene generato mostrando ingredienti pregiati o un'ambientazione esclusiva;",
       "speech": "L'Attention viene catturata da immagini di grande impatto visivo ed estetico nei primi secondi; l'Interest viene generato mostrando ingredienti pregiati o un'ambientazione esclusiva;",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "L'Attention"
-        },
-        {
-          "lang": "it",
-          "text": "viene catturata da immagini di grande impatto visivo ed estetico nei primi secondi;"
-        },
-        {
-          "lang": "en",
-          "text": "l'Interest"
-        },
-        {
-          "lang": "it",
-          "text": "viene generato mostrando ingredienti pregiati o un'ambientazione esclusiva;"
-        }
+      "bold": [
+        [
+          0,
+          11
+        ],
+        [
+          96,
+          106
+        ]
       ]
     },
     {
       "text": "il Desire viene costruito associando il prodotto a un'idea di eleganza, di successo, di seduzione;",
       "speech": "il Desire viene costruito associando il prodotto a un'idea di eleganza, di successo, di seduzione;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "il"
-        },
-        {
-          "lang": "en",
-          "text": "Desire"
-        },
-        {
-          "lang": "it",
-          "text": "viene costruito associando il prodotto a un'idea di eleganza, di successo, di seduzione;"
-        }
+      "bold": [
+        [
+          3,
+          9
+        ]
       ]
     },
     {
       "text": "e l'Action viene infine sollecitata mostrando il prodotto in bella vista con il nome del brand, magari accompagnato dall'indicazione dei punti vendita.",
       "speech": "e l'Action viene infine sollecitata mostrando il prodotto in bella vista con il nome del brand, magari accompagnato dall'indicazione dei punti vendita.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "en",
-          "text": "l'Action"
-        },
-        {
-          "lang": "it",
-          "text": "viene infine sollecitata mostrando il prodotto in bella vista con il nome del"
-        },
-        {
-          "lang": "en",
-          "text": "brand,"
-        },
-        {
-          "lang": "it",
-          "text": "magari accompagnato dall'indicazione dei punti vendita."
-        }
+      "bold": [
+        [
+          2,
+          10
+        ],
+        [
+          89,
+          94
+        ]
       ]
     },
     {
@@ -223,19 +205,15 @@
     {
       "text": "Passiamo ora alle fiere commerciali, trade fairs: eventi periodici, spesso annuali, in cui le imprese di un determinato settore espongono i propri prodotti in un unico luogo fisico,",
       "speech": "Passiamo ora alle fiere commerciali, trade fairs: eventi periodici, spesso annuali, in cui le imprese di un determinato settore espongono i propri prodotti in un unico luogo fisico,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Passiamo ora alle fiere commerciali,"
-        },
-        {
-          "lang": "en",
-          "text": "trade fairs:"
-        },
-        {
-          "lang": "it",
-          "text": "eventi periodici, spesso annuali, in cui le imprese di un determinato settore espongono i propri prodotti in un unico luogo fisico,"
-        }
+      "bold": [
+        [
+          18,
+          35
+        ],
+        [
+          37,
+          48
+        ]
       ]
     },
     {
@@ -244,50 +222,64 @@
     },
     {
       "text": "Le fiere commerciali svolgono, in realtà, una duplice funzione che vale la pena distinguere con chiarezza:",
-      "speech": "Le fiere commerciali svolgono, in realtà, una duplice funzione che vale la pena distinguere con chiarezza:"
+      "speech": "Le fiere commerciali svolgono, in realtà, una duplice funzione che vale la pena distinguere con chiarezza:",
+      "bold": [
+        [
+          46,
+          62
+        ]
+      ]
     },
     {
       "text": "da un lato sono uno strumento di promozione, permettendo all'impresa di presentare i propri prodotti e di rafforzare la propria immagine di marca di fronte a un pubblico specializzato;",
-      "speech": "da un lato sono uno strumento di promozione, permettendo all'impresa di presentare i propri prodotti e di rafforzare la propria immagine di marca di fronte a un pubblico specializzato;"
+      "speech": "da un lato sono uno strumento di promozione, permettendo all'impresa di presentare i propri prodotti e di rafforzare la propria immagine di marca di fronte a un pubblico specializzato;",
+      "bold": [
+        [
+          20,
+          43
+        ]
+      ]
     },
     {
       "text": "dall'altro sono anche uno strumento di ricerca di mercato, perché permettono di raccogliere informazioni preziose sui concorrenti presenti,",
-      "speech": "dall'altro sono anche uno strumento di ricerca di mercato, perché permettono di raccogliere informazioni preziose sui concorrenti presenti,"
+      "speech": "dall'altro sono anche uno strumento di ricerca di mercato, perché permettono di raccogliere informazioni preziose sui concorrenti presenti,",
+      "bold": [
+        [
+          26,
+          57
+        ]
+      ]
     },
     {
       "text": "sulle tendenze del settore e sulle reazioni dirette dei visitatori, spesso attraverso questionari di mercato, marketing questionnaires, distribuiti agli stand.",
       "speech": "sulle tendenze del settore e sulle reazioni dirette dei visitatori, spesso attraverso questionari di mercato, marketing questionnaires, distribuiti agli stand.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "sulle tendenze del settore e sulle reazioni dirette dei visitatori, spesso attraverso questionari di mercato,"
-        },
-        {
-          "lang": "en",
-          "text": "marketing questionnaires,"
-        },
-        {
-          "lang": "it",
-          "text": "distribuiti agli"
-        },
-        {
-          "lang": "en",
-          "text": "stand."
-        }
+      "bold": [
+        [
+          86,
+          108
+        ],
+        [
+          110,
+          134
+        ],
+        [
+          153,
+          158
+        ]
       ]
     },
     {
       "text": "Un elemento sempre più importante nell'organizzazione di una fiera commerciale contemporanea è il sito web dedicato all'evento, trade fair web site:",
       "speech": "Un elemento sempre più importante nell'organizzazione di una fiera commerciale contemporanea è il sito web dedicato all'evento, trade fair web site:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Un elemento sempre più importante nell'organizzazione di una fiera commerciale contemporanea è il sito web dedicato all'evento,"
-        },
-        {
-          "lang": "en",
-          "text": "trade fair web site:"
-        }
+      "bold": [
+        [
+          98,
+          126
+        ],
+        [
+          128,
+          147
+        ]
       ]
     },
     {
@@ -312,7 +304,13 @@
     },
     {
       "text": "I due strumenti, insomma, non sono alternativi ma complementari,",
-      "speech": "I due strumenti, insomma, non sono alternativi ma complementari,"
+      "speech": "I due strumenti, insomma, non sono alternativi ma complementari,",
+      "bold": [
+        [
+          50,
+          63
+        ]
+      ]
     },
     {
       "text": "e agiscono su fasi diverse del processo che porta un cliente dalla semplice consapevolezza del prodotto fino alla decisione finale di acquisto.",
@@ -325,15 +323,19 @@
     {
       "text": "Primo: il modello AIDA descrive le quattro fasi di un messaggio pubblicitario efficace — Attention, Interest, Desire, Action —",
       "speech": "Primo: il modello AIDA descrive le quattro fasi di un messaggio pubblicitario efficace — Attention, Interest, Desire, Action —",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo: il modello AIDA descrive le quattro fasi di un messaggio pubblicitario efficace —"
-        },
-        {
-          "lang": "en",
-          "text": "Attention, Interest, Desire, Action —"
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          22
+        ],
+        [
+          89,
+          124
+        ]
       ]
     },
     {
@@ -343,24 +345,34 @@
     {
       "text": "Secondo: le fiere commerciali, trade fairs, svolgono una duplice funzione di promozione e di ricerca di mercato, permettendo un contatto diretto con un pubblico specializzato.",
       "speech": "Secondo: le fiere commerciali, trade fairs, svolgono una duplice funzione di promozione e di ricerca di mercato, permettendo un contatto diretto con un pubblico specializzato.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo: le fiere commerciali,"
-        },
-        {
-          "lang": "en",
-          "text": "trade fairs,"
-        },
-        {
-          "lang": "it",
-          "text": "svolgono una duplice funzione di promozione e di ricerca di mercato, permettendo un contatto diretto con un pubblico specializzato."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          31,
+          42
+        ],
+        [
+          57,
+          73
+        ]
       ]
     },
     {
       "text": "Terzo: il sito web dedicato alla fiera prolunga l'impatto dell'evento ben oltre la sua durata fisica.",
-      "speech": "Terzo: il sito web dedicato alla fiera prolunga l'impatto dell'evento ben oltre la sua durata fisica."
+      "speech": "Terzo: il sito web dedicato alla fiera prolunga l'impatto dell'evento ben oltre la sua durata fisica.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          38
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intera UDA 2.",
@@ -369,27 +381,15 @@
     {
       "text": "Nel prossimo episodio entriamo in un tema molto attuale: il Fair Trade, la microfinanza e la banca etica, con un approfondimento sulla Grameen Foundation e su Muhammad Yunus.",
       "speech": "Nel prossimo episodio entriamo in un tema molto attuale: il Fair Trade, la microfinanza e la banca etica, con un approfondimento sulla Grameen Foundation e su Muhammad Yunus.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel prossimo episodio entriamo in un tema molto attuale: il"
-        },
-        {
-          "lang": "en",
-          "text": "Fair Trade,"
-        },
-        {
-          "lang": "it",
-          "text": "la microfinanza e la banca etica, con un approfondimento sulla Grameen"
-        },
-        {
-          "lang": "en",
-          "text": "Foundation"
-        },
-        {
-          "lang": "it",
-          "text": "e su Muhammad Yunus."
-        }
+      "bold": [
+        [
+          60,
+          70
+        ],
+        [
+          143,
+          153
+        ]
       ]
     },
     {

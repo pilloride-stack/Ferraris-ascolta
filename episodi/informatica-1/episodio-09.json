@@ -30,11 +30,23 @@
     },
     {
       "text": "La visualizzazione Normale permette di lavorare su una diapositiva alla volta, concentrandosi nel dettaglio sui singoli elementi di quella specifica schermata.",
-      "speech": "La visualizzazione Normale permette di lavorare su una diapositiva alla volta, concentrandosi nel dettaglio sui singoli elementi di quella specifica schermata."
+      "speech": "La visualizzazione Normale permette di lavorare su una diapositiva alla volta, concentrandosi nel dettaglio sui singoli elementi di quella specifica schermata.",
+      "bold": [
+        [
+          3,
+          26
+        ]
+      ]
     },
     {
       "text": "La visualizzazione Sequenza diapositive mostra invece una panoramica d'insieme dell'intera presentazione, utile in particolare per riordinare le diapositive,",
-      "speech": "La visualizzazione Sequenza diapositive mostra invece una panoramica d'insieme dell'intera presentazione, utile in particolare per riordinare le diapositive,"
+      "speech": "La visualizzazione Sequenza diapositive mostra invece una panoramica d'insieme dell'intera presentazione, utile in particolare per riordinare le diapositive,",
+      "bold": [
+        [
+          3,
+          39
+        ]
+      ]
     },
     {
       "text": "spostandole trascinandole nella sequenza che si preferisce, senza dover aprire ciascuna di esse singolarmente.",
@@ -50,11 +62,31 @@
     },
     {
       "text": "le transizioni regolano il passaggio visivo da una diapositiva alla successiva, cioè agiscono «tra» due diapositive;",
-      "speech": "le transizioni regolano il passaggio visivo da una diapositiva alla successiva, cioè agiscono «tra» due diapositive;"
+      "speech": "le transizioni regolano il passaggio visivo da una diapositiva alla successiva, cioè agiscono «tra» due diapositive;",
+      "bold": [
+        [
+          3,
+          14
+        ],
+        [
+          95,
+          98
+        ]
+      ]
     },
     {
       "text": "le animazioni regolano invece la comparsa e il movimento dei singoli elementi all'interno di una stessa diapositiva, cioè agiscono «dentro» una singola diapositiva.",
-      "speech": "le animazioni regolano invece la comparsa e il movimento dei singoli elementi all'interno di una stessa diapositiva, cioè agiscono «dentro» una singola diapositiva."
+      "speech": "le animazioni regolano invece la comparsa e il movimento dei singoli elementi all'interno di una stessa diapositiva, cioè agiscono «dentro» una singola diapositiva.",
+      "bold": [
+        [
+          3,
+          13
+        ],
+        [
+          132,
+          138
+        ]
+      ]
     },
     {
       "text": "Una transizione, per esempio una dissolvenza, accompagna il passaggio dalla diapositiva 3 alla diapositiva 4;",
@@ -66,7 +98,13 @@
     },
     {
       "text": "È inoltre possibile aggiungere note del relatore, visibili solo a chi presenta e non al pubblico, utili come promemoria durante l'esposizione orale:",
-      "speech": "È inoltre possibile aggiungere note del relatore, visibili solo a chi presenta e non al pubblico, utili come promemoria durante l'esposizione orale:"
+      "speech": "È inoltre possibile aggiungere note del relatore, visibili solo a chi presenta e non al pubblico, utili come promemoria durante l'esposizione orale:",
+      "bold": [
+        [
+          31,
+          48
+        ]
+      ]
     },
     {
       "text": "uno strumento molto pratico che vi consiglio di sfruttare voi stessi,",
@@ -86,11 +124,27 @@
     },
     {
       "text": "Poi si seleziona la scheda Transizioni e si sceglie l'effetto desiderato, per esempio «Dissolvenza».",
-      "speech": "Poi si seleziona la scheda Transizioni e si sceglie l'effetto desiderato, per esempio «Dissolvenza»."
+      "speech": "Poi si seleziona la scheda Transizioni e si sceglie l'effetto desiderato, per esempio «Dissolvenza».",
+      "bold": [
+        [
+          20,
+          38
+        ],
+        [
+          87,
+          98
+        ]
+      ]
     },
     {
       "text": "Infine si regola la durata dell'effetto e, se necessario, si seleziona «Applica a tutte» per estendere la stessa transizione all'intera presentazione, invece di doverla applicare manualmente diapositiva per diapositiva.",
-      "speech": "Infine si regola la durata dell'effetto e, se necessario, si seleziona «Applica a tutte» per estendere la stessa transizione all'intera presentazione, invece di doverla applicare manualmente diapositiva per diapositiva."
+      "speech": "Infine si regola la durata dell'effetto e, se necessario, si seleziona «Applica a tutte» per estendere la stessa transizione all'intera presentazione, invece di doverla applicare manualmente diapositiva per diapositiva.",
+      "bold": [
+        [
+          72,
+          87
+        ]
+      ]
     },
     {
       "text": "Concludiamo con un piccolo schema riassuntivo che confronta i due programmi visti in questo modulo, molto utile per fissare le idee in vista dell'esame:",
@@ -98,7 +152,17 @@
     },
     {
       "text": "quanto allo scopo principale, Word crea documenti testuali, PowerPoint crea presentazioni multimediali.",
-      "speech": "quanto allo scopo principale, Word crea documenti testuali, PowerPoint crea presentazioni multimediali."
+      "speech": "quanto allo scopo principale, Word crea documenti testuali, PowerPoint crea presentazioni multimediali.",
+      "bold": [
+        [
+          30,
+          58
+        ],
+        [
+          60,
+          102
+        ]
+      ]
     },
     {
       "text": "Quanto all'unità di lavoro, in Word è la pagina, in PowerPoint è la diapositiva.",
@@ -126,15 +190,53 @@
     },
     {
       "text": "Primo: la visualizzazione Normale e la visualizzazione Sequenza diapositive offrono due modi complementari di lavorare su una presentazione.",
-      "speech": "Primo: la visualizzazione Normale e la visualizzazione Sequenza diapositive offrono due modi complementari di lavorare su una presentazione."
+      "speech": "Primo: la visualizzazione Normale e la visualizzazione Sequenza diapositive offrono due modi complementari di lavorare su una presentazione.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          33
+        ],
+        [
+          39,
+          75
+        ]
+      ]
     },
     {
       "text": "Secondo: le transizioni agiscono tra due diapositive, le animazioni agiscono sui singoli elementi dentro una stessa diapositiva.",
-      "speech": "Secondo: le transizioni agiscono tra due diapositive, le animazioni agiscono sui singoli elementi dentro una stessa diapositiva."
+      "speech": "Secondo: le transizioni agiscono tra due diapositive, le animazioni agiscono sui singoli elementi dentro una stessa diapositiva.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          57,
+          67
+        ]
+      ]
     },
     {
       "text": "Terzo: Word e PowerPoint condividono una logica di interfaccia simile ma si distinguono per scopo, unità di lavoro e output tipico.",
-      "speech": "Terzo: Word e PowerPoint condividono una logica di interfaccia simile ma si distinguono per scopo, unità di lavoro e output tipico."
+      "speech": "Terzo: Word e PowerPoint condividono una logica di interfaccia simile ma si distinguono per scopo, unità di lavoro e output tipico.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          41,
+          69
+        ]
+      ]
     },
     {
       "text": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",

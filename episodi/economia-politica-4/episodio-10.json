@@ -14,19 +14,51 @@
     },
     {
       "text": "Il commercio internazionale è lo scambio di beni, servizi e capitali tra soggetti economici di Paesi diversi.",
-      "speech": "Il commercio internazionale è lo scambio di beni, servizi e capitali tra soggetti economici di Paesi diversi."
+      "speech": "Il commercio internazionale è lo scambio di beni, servizi e capitali tra soggetti economici di Paesi diversi.",
+      "bold": [
+        [
+          3,
+          27
+        ]
+      ]
     },
     {
       "text": "Secondo la teoria dei vantaggi comparati, elaborata dall'economista David Ricardo, ogni Paese trae beneficio dallo specializzarsi nella produzione dei beni per cui presenta un costo relativo minore rispetto agli altri Paesi,",
-      "speech": "Secondo la teoria dei vantaggi comparati, elaborata dall'economista David Ricardo, ogni Paese trae beneficio dallo specializzarsi nella produzione dei beni per cui presenta un costo relativo minore rispetto agli altri Paesi,"
+      "speech": "Secondo la teoria dei vantaggi comparati, elaborata dall'economista David Ricardo, ogni Paese trae beneficio dallo specializzarsi nella produzione dei beni per cui presenta un costo relativo minore rispetto agli altri Paesi,",
+      "bold": [
+        [
+          11,
+          40
+        ],
+        [
+          68,
+          81
+        ],
+        [
+          176,
+          197
+        ]
+      ]
     },
     {
       "text": "anche quando non dispone di un vantaggio assoluto in nessuna produzione, e dallo scambiare tali beni con gli altri Paesi:",
-      "speech": "anche quando non dispone di un vantaggio assoluto in nessuna produzione, e dallo scambiare tali beni con gli altri Paesi:"
+      "speech": "anche quando non dispone di un vantaggio assoluto in nessuna produzione, e dallo scambiare tali beni con gli altri Paesi:",
+      "bold": [
+        [
+          31,
+          49
+        ]
+      ]
     },
     {
       "text": "in questo modo, il commercio internazionale consente un aumento del benessere complessivo rispetto a una condizione di autarchia, cioè di completa autosufficienza senza scambi con l'estero.",
-      "speech": "in questo modo, il commercio internazionale consente un aumento del benessere complessivo rispetto a una condizione di autarchia, cioè di completa autosufficienza senza scambi con l'estero."
+      "speech": "in questo modo, il commercio internazionale consente un aumento del benessere complessivo rispetto a una condizione di autarchia, cioè di completa autosufficienza senza scambi con l'estero.",
+      "bold": [
+        [
+          119,
+          128
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo punto, perché è la parte più sorprendente e controintuitiva della teoria:",
@@ -34,7 +66,13 @@
     },
     {
       "text": "anche un Paese che fosse più efficiente di un altro in assolutamente tutte le produzioni trarrebbe comunque beneficio dallo specializzarsi solo in alcune di esse e scambiare per le altre, anziché produrre tutto internamente.",
-      "speech": "anche un Paese che fosse più efficiente di un altro in assolutamente tutte le produzioni trarrebbe comunque beneficio dallo specializzarsi solo in alcune di esse e scambiare per le altre, anziché produrre tutto internamente."
+      "speech": "anche un Paese che fosse più efficiente di un altro in assolutamente tutte le produzioni trarrebbe comunque beneficio dallo specializzarsi solo in alcune di esse e scambiare per le altre, anziché produrre tutto internamente.",
+      "bold": [
+        [
+          124,
+          138
+        ]
+      ]
     },
     {
       "text": "Ciò che conta non è il vantaggio assoluto, cioè chi produce con meno ore di lavoro in termini assoluti,",
@@ -42,7 +80,13 @@
     },
     {
       "text": "ma il vantaggio comparato, cioè il costo relativo di un bene rispetto a un altro all'interno dello stesso Paese.",
-      "speech": "ma il vantaggio comparato, cioè il costo relativo di un bene rispetto a un altro all'interno dello stesso Paese."
+      "speech": "ma il vantaggio comparato, cioè il costo relativo di un bene rispetto a un altro all'interno dello stesso Paese.",
+      "bold": [
+        [
+          6,
+          25
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, l'esempio applicativo: il Paese A produce un'unità di tessuti impiegando quattro ore di lavoro e un'unità di vino impiegando due ore.",
@@ -66,7 +110,13 @@
     },
     {
       "text": "Poiché il costo relativo del vino è più basso nel Paese A, il Paese A ha un vantaggio comparato nel vino.",
-      "speech": "Poiché il costo relativo del vino è più basso nel Paese A, il Paese A ha un vantaggio comparato nel vino."
+      "speech": "Poiché il costo relativo del vino è più basso nel Paese A, il Paese A ha un vantaggio comparato nel vino.",
+      "bold": [
+        [
+          76,
+          104
+        ]
+      ]
     },
     {
       "text": "Calcolando invece il costo relativo dei tessuti rispetto al vino, il Paese B, con sei diviso cinque,",
@@ -74,7 +124,13 @@
     },
     {
       "text": "cioè uno virgola due, ha un costo relativo minore rispetto al Paese A, con quattro diviso due, cioè due: quindi il Paese B ha un vantaggio comparato nei tessuti.",
-      "speech": "cioè uno virgola due, ha un costo relativo minore rispetto al Paese A, con quattro diviso due, cioè due: quindi il Paese B ha un vantaggio comparato nei tessuti."
+      "speech": "cioè uno virgola due, ha un costo relativo minore rispetto al Paese A, con quattro diviso due, cioè due: quindi il Paese B ha un vantaggio comparato nei tessuti.",
+      "bold": [
+        [
+          129,
+          160
+        ]
+      ]
     },
     {
       "text": "Secondo la teoria dei vantaggi comparati, conviene comunque ai due Paesi specializzarsi e scambiare:",
@@ -90,7 +146,21 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: a questa impostazione liberista si contrappongono le politiche protezionistiche, dazi doganali, contingentamenti, che alcuni Paesi adottano per proteggere le proprie produzioni interne dalla concorrenza estera.",
-      "speech": "Proviamo un piccolo esercizio insieme: a questa impostazione liberista si contrappongono le politiche protezionistiche, dazi doganali, contingentamenti, che alcuni Paesi adottano per proteggere le proprie produzioni interne dalla concorrenza estera."
+      "speech": "Proviamo un piccolo esercizio insieme: a questa impostazione liberista si contrappongono le politiche protezionistiche, dazi doganali, contingentamenti, che alcuni Paesi adottano per proteggere le proprie produzioni interne dalla concorrenza estera.",
+      "bold": [
+        [
+          92,
+          118
+        ],
+        [
+          120,
+          133
+        ],
+        [
+          135,
+          151
+        ]
+      ]
     },
     {
       "text": "Se il Paese B, nell'esempio appena visto, imponesse un dazio elevato sui tessuti importati dal Paese A, quale principio visto oggi verrebbe messo in discussione,",
@@ -102,7 +172,13 @@
     },
     {
       "text": "Verrebbe messo in discussione il principio stesso della specializzazione secondo il vantaggio comparato:",
-      "speech": "Verrebbe messo in discussione il principio stesso della specializzazione secondo il vantaggio comparato:"
+      "speech": "Verrebbe messo in discussione il principio stesso della specializzazione secondo il vantaggio comparato:",
+      "bold": [
+        [
+          56,
+          103
+        ]
+      ]
     },
     {
       "text": "se il Paese B protegge la propria produzione di tessuti anziché importarli dal Paese A, entrambi i Paesi rinunciano, almeno in parte, al beneficio dello scambio,",
@@ -118,15 +194,49 @@
     },
     {
       "text": "Primo: il commercio internazionale è lo scambio di beni, servizi e capitali tra Paesi diversi.",
-      "speech": "Primo: il commercio internazionale è lo scambio di beni, servizi e capitali tra Paesi diversi."
+      "speech": "Primo: il commercio internazionale è lo scambio di beni, servizi e capitali tra Paesi diversi.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          34
+        ]
+      ]
     },
     {
       "text": "Secondo: secondo la teoria dei vantaggi comparati di David Ricardo, conviene specializzarsi nel bene a costo relativo minore, anche in assenza di un vantaggio assoluto.",
-      "speech": "Secondo: secondo la teoria dei vantaggi comparati di David Ricardo, conviene specializzarsi nel bene a costo relativo minore, anche in assenza di un vantaggio assoluto."
+      "speech": "Secondo: secondo la teoria dei vantaggi comparati di David Ricardo, conviene specializzarsi nel bene a costo relativo minore, anche in assenza di un vantaggio assoluto.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          20,
+          49
+        ],
+        [
+          53,
+          66
+        ]
+      ]
     },
     {
       "text": "Terzo: le politiche protezionistiche, contrapposte a questa impostazione liberista, tendono a ridurre il beneficio complessivo dello scambio internazionale.",
-      "speech": "Terzo: le politiche protezionistiche, contrapposte a questa impostazione liberista, tendono a ridurre il beneficio complessivo dello scambio internazionale."
+      "speech": "Terzo: le politiche protezionistiche, contrapposte a questa impostazione liberista, tendono a ridurre il beneficio complessivo dello scambio internazionale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          36
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo il mercato valutario e la bilancia dei pagamenti.",

@@ -14,11 +14,27 @@
     },
     {
       "text": "L'economia è la scienza sociale che studia il modo in cui gli individui e le collettività impiegano risorse scarse per soddisfare bisogni potenzialmente illimitati, effettuando scelte tra impieghi alternativi.",
-      "speech": "L'economia è la scienza sociale che studia il modo in cui gli individui e le collettività impiegano risorse scarse per soddisfare bisogni potenzialmente illimitati, effettuando scelte tra impieghi alternativi."
+      "speech": "L'economia è la scienza sociale che studia il modo in cui gli individui e le collettività impiegano risorse scarse per soddisfare bisogni potenzialmente illimitati, effettuando scelte tra impieghi alternativi.",
+      "bold": [
+        [
+          2,
+          10
+        ],
+        [
+          100,
+          114
+        ]
+      ]
     },
     {
       "text": "La scarsità delle risorse rispetto all'illimitatezza dei bisogni è il problema economico fondamentale da cui nasce ogni analisi economica.",
-      "speech": "La scarsità delle risorse rispetto all'illimitatezza dei bisogni è il problema economico fondamentale da cui nasce ogni analisi economica."
+      "speech": "La scarsità delle risorse rispetto all'illimitatezza dei bisogni è il problema economico fondamentale da cui nasce ogni analisi economica.",
+      "bold": [
+        [
+          3,
+          25
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su alcuni concetti di base, perché userete questi termini per tutto il resto del vostro percorso di economia.",
@@ -26,39 +42,109 @@
     },
     {
       "text": "Il bisogno è la sensazione di mancanza di qualcosa, accompagnata dal desiderio di soddisfarla;",
-      "speech": "Il bisogno è la sensazione di mancanza di qualcosa, accompagnata dal desiderio di soddisfarla;"
+      "speech": "Il bisogno è la sensazione di mancanza di qualcosa, accompagnata dal desiderio di soddisfarla;",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ]
     },
     {
       "text": "può essere primario, essenziale alla sopravvivenza, come nutrirsi, o secondario, voluttuario, legato al miglioramento della qualità della vita.",
-      "speech": "può essere primario, essenziale alla sopravvivenza, come nutrirsi, o secondario, voluttuario, legato al miglioramento della qualità della vita."
+      "speech": "può essere primario, essenziale alla sopravvivenza, come nutrirsi, o secondario, voluttuario, legato al miglioramento della qualità della vita.",
+      "bold": [
+        [
+          11,
+          19
+        ],
+        [
+          69,
+          79
+        ]
+      ]
     },
     {
       "text": "Il bene economico è qualsiasi cosa materiale, disponibile in quantità limitata rispetto al bisogno che deve soddisfare, capace di soddisfare un bisogno umano, a differenza dei beni liberi, disponibili in quantità illimitata, come l'aria.",
-      "speech": "Il bene economico è qualsiasi cosa materiale, disponibile in quantità limitata rispetto al bisogno che deve soddisfare, capace di soddisfare un bisogno umano, a differenza dei beni liberi, disponibili in quantità illimitata, come l'aria."
+      "speech": "Il bene economico è qualsiasi cosa materiale, disponibile in quantità limitata rispetto al bisogno che deve soddisfare, capace di soddisfare un bisogno umano, a differenza dei beni liberi, disponibili in quantità illimitata, come l'aria.",
+      "bold": [
+        [
+          3,
+          17
+        ],
+        [
+          176,
+          187
+        ]
+      ]
     },
     {
       "text": "Il servizio è invece una prestazione immateriale, un'attività, capace di soddisfare direttamente un bisogno, senza dar luogo alla produzione di un bene materiale, come l'istruzione, il trasporto, l'assistenza sanitaria.",
-      "speech": "Il servizio è invece una prestazione immateriale, un'attività, capace di soddisfare direttamente un bisogno, senza dar luogo alla produzione di un bene materiale, come l'istruzione, il trasporto, l'assistenza sanitaria."
+      "speech": "Il servizio è invece una prestazione immateriale, un'attività, capace di soddisfare direttamente un bisogno, senza dar luogo alla produzione di un bene materiale, come l'istruzione, il trasporto, l'assistenza sanitaria.",
+      "bold": [
+        [
+          3,
+          11
+        ]
+      ]
     },
     {
       "text": "La ricchezza è l'insieme dei beni economici e dei servizi di cui un soggetto, o una collettività, dispone in un dato momento.",
-      "speech": "La ricchezza è l'insieme dei beni economici e dei servizi di cui un soggetto, o una collettività, dispone in un dato momento."
+      "speech": "La ricchezza è l'insieme dei beni economici e dei servizi di cui un soggetto, o una collettività, dispone in un dato momento.",
+      "bold": [
+        [
+          3,
+          12
+        ]
+      ]
     },
     {
       "text": "Il sistema economico è costituito dall'insieme dei soggetti che interagiscono scambiandosi beni, servizi e redditi, ciascuno con un ruolo economico specifico.",
-      "speech": "Il sistema economico è costituito dall'insieme dei soggetti che interagiscono scambiandosi beni, servizi e redditi, ciascuno con un ruolo economico specifico."
+      "speech": "Il sistema economico è costituito dall'insieme dei soggetti che interagiscono scambiandosi beni, servizi e redditi, ciascuno con un ruolo economico specifico.",
+      "bold": [
+        [
+          3,
+          20
+        ]
+      ]
     },
     {
       "text": "Le famiglie consumano beni e servizi, e offrono lavoro e capitale alle imprese in cambio di reddito, salari, profitti, interessi.",
-      "speech": "Le famiglie consumano beni e servizi, e offrono lavoro e capitale alle imprese in cambio di reddito, salari, profitti, interessi."
+      "speech": "Le famiglie consumano beni e servizi, e offrono lavoro e capitale alle imprese in cambio di reddito, salari, profitti, interessi.",
+      "bold": [
+        [
+          3,
+          11
+        ]
+      ]
     },
     {
       "text": "Le imprese organizzano i fattori della produzione, lavoro, capitale, risorse naturali, per produrre beni e servizi destinati al mercato.",
-      "speech": "Le imprese organizzano i fattori della produzione, lavoro, capitale, risorse naturali, per produrre beni e servizi destinati al mercato."
+      "speech": "Le imprese organizzano i fattori della produzione, lavoro, capitale, risorse naturali, per produrre beni e servizi destinati al mercato.",
+      "bold": [
+        [
+          3,
+          10
+        ],
+        [
+          25,
+          49
+        ]
+      ]
     },
     {
       "text": "Lo Stato, il settore pubblico, preleva risorse tramite le imposte, eroga servizi pubblici, redistribuisce il reddito e regola il funzionamento del mercato.",
-      "speech": "Lo Stato, il settore pubblico, preleva risorse tramite le imposte, eroga servizi pubblici, redistribuisce il reddito e regola il funzionamento del mercato."
+      "speech": "Lo Stato, il settore pubblico, preleva risorse tramite le imposte, eroga servizi pubblici, redistribuisce il reddito e regola il funzionamento del mercato.",
+      "bold": [
+        [
+          3,
+          8
+        ],
+        [
+          58,
+          65
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: classificate i seguenti elementi come bisogno primario, bisogno secondario, bene economico, servizio, o bene libero.",
@@ -82,19 +168,43 @@
     },
     {
       "text": "L'acqua di un fiume di montagna, in quel contesto specifico, è un bene libero, disponibile senza limiti.",
-      "speech": "L'acqua di un fiume di montagna, in quel contesto specifico, è un bene libero, disponibile senza limiti."
+      "speech": "L'acqua di un fiume di montagna, in quel contesto specifico, è un bene libero, disponibile senza limiti.",
+      "bold": [
+        [
+          66,
+          77
+        ]
+      ]
     },
     {
       "text": "Un pasto quotidiano risponde a un bisogno primario, essenziale alla sopravvivenza.",
-      "speech": "Un pasto quotidiano risponde a un bisogno primario, essenziale alla sopravvivenza."
+      "speech": "Un pasto quotidiano risponde a un bisogno primario, essenziale alla sopravvivenza.",
+      "bold": [
+        [
+          34,
+          50
+        ]
+      ]
     },
     {
       "text": "Una vacanza di lusso risponde a un bisogno secondario, voluttuario.",
-      "speech": "Una vacanza di lusso risponde a un bisogno secondario, voluttuario."
+      "speech": "Una vacanza di lusso risponde a un bisogno secondario, voluttuario.",
+      "bold": [
+        [
+          35,
+          53
+        ]
+      ]
     },
     {
       "text": "Una lezione di piano è un servizio, una prestazione immateriale che soddisfa direttamente un bisogno senza produrre un bene materiale.",
-      "speech": "Una lezione di piano è un servizio, una prestazione immateriale che soddisfa direttamente un bisogno senza produrre un bene materiale."
+      "speech": "Una lezione di piano è un servizio, una prestazione immateriale che soddisfa direttamente un bisogno senza produrre un bene materiale.",
+      "bold": [
+        [
+          26,
+          34
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -102,15 +212,53 @@
     },
     {
       "text": "Primo: l'economia studia come impiegare risorse scarse per soddisfare bisogni illimitati.",
-      "speech": "Primo: l'economia studia come impiegare risorse scarse per soddisfare bisogni illimitati."
+      "speech": "Primo: l'economia studia come impiegare risorse scarse per soddisfare bisogni illimitati.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          40,
+          54
+        ],
+        [
+          70,
+          88
+        ]
+      ]
     },
     {
       "text": "Secondo: si distinguono bisogni primari e secondari, beni economici, beni liberi e servizi.",
-      "speech": "Secondo: si distinguono bisogni primari e secondari, beni economici, beni liberi e servizi."
+      "speech": "Secondo: si distinguono bisogni primari e secondari, beni economici, beni liberi e servizi.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          24,
+          51
+        ],
+        [
+          53,
+          90
+        ]
+      ]
     },
     {
       "text": "Terzo: il sistema economico è composto da famiglie, imprese e Stato, ciascuno con un proprio ruolo economico specifico.",
-      "speech": "Terzo: il sistema economico è composto da famiglie, imprese e Stato, ciascuno con un proprio ruolo economico specifico."
+      "speech": "Terzo: il sistema economico è composto da famiglie, imprese e Stato, ciascuno con un proprio ruolo economico specifico.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          42,
+          67
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo la curva della domanda e la curva dell'offerta, concludendo la parte di economia della classe prima.",

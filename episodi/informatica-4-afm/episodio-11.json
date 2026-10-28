@@ -14,7 +14,17 @@
     },
     {
       "text": "I software gestionali per la contabilità integrata, spesso riconducibili alla categoria degli ERP, acronimo di Enterprise Resource Planning, collegano in un unico sistema informativo le diverse aree funzionali dell'azienda:",
-      "speech": "I software gestionali per la contabilità integrata, spesso riconducibili alla categoria degli ERP, acronimo di Enterprise Resource Planning, collegano in un unico sistema informativo le diverse aree funzionali dell'azienda:"
+      "speech": "I software gestionali per la contabilità integrata, spesso riconducibili alla categoria degli ERP, acronimo di Enterprise Resource Planning, collegano in un unico sistema informativo le diverse aree funzionali dell'azienda:",
+      "bold": [
+        [
+          94,
+          97
+        ],
+        [
+          111,
+          139
+        ]
+      ]
     },
     {
       "text": "contabilità generale, gestione del magazzino, fatturazione attiva e passiva, gestione di clienti e fornitori.",
@@ -22,7 +32,13 @@
     },
     {
       "text": "L'integrazione tra queste aree evita la duplicazione dei dati, per esempio una fattura registrata automaticamente aggiorna sia la contabilità sia il magazzino,",
-      "speech": "L'integrazione tra queste aree evita la duplicazione dei dati, per esempio una fattura registrata automaticamente aggiorna sia la contabilità sia il magazzino,"
+      "speech": "L'integrazione tra queste aree evita la duplicazione dei dati, per esempio una fattura registrata automaticamente aggiorna sia la contabilità sia il magazzino,",
+      "bold": [
+        [
+          40,
+          61
+        ]
+      ]
     },
     {
       "text": "e garantisce informazioni sempre aggiornate e coerenti a disposizione di tutti i reparti aziendali coinvolti, riducendo il rischio di errori dovuti a inserimenti manuali ripetuti.",
@@ -34,7 +50,17 @@
     },
     {
       "text": "un sistema ERP è tipicamente organizzato in moduli distinti, ciascuno dedicato a una specifica area funzionale, contabilità, magazzino, vendite, risorse umane, ma tutti condividono lo stesso database centrale.",
-      "speech": "un sistema ERP è tipicamente organizzato in moduli distinti, ciascuno dedicato a una specifica area funzionale, contabilità, magazzino, vendite, risorse umane, ma tutti condividono lo stesso database centrale."
+      "speech": "un sistema ERP è tipicamente organizzato in moduli distinti, ciascuno dedicato a una specifica area funzionale, contabilità, magazzino, vendite, risorse umane, ma tutti condividono lo stesso database centrale.",
+      "bold": [
+        [
+          44,
+          59
+        ],
+        [
+          191,
+          208
+        ]
+      ]
     },
     {
       "text": "In questo modo, un'informazione inserita una sola volta in un modulo diventa immediatamente disponibile anche negli altri, senza bisogno di essere ritrasmessa manualmente da un reparto all'altro:",
@@ -42,7 +68,13 @@
     },
     {
       "text": "è proprio questa condivisione di un'unica base dati, e non la semplice presenza di più moduli, che distingue un vero ERP da un insieme di programmi gestionali scollegati tra loro.",
-      "speech": "è proprio questa condivisione di un'unica base dati, e non la semplice presenza di più moduli, che distingue un vero ERP da un insieme di programmi gestionali scollegati tra loro."
+      "speech": "è proprio questa condivisione di un'unica base dati, e non la semplice presenza di più moduli, che distingue un vero ERP da un insieme di programmi gestionali scollegati tra loro.",
+      "bold": [
+        [
+          36,
+          51
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un'azienda utilizzasse un programma per la contabilità e un programma separato per il magazzino, non collegati tra loro,",
@@ -54,7 +86,13 @@
     },
     {
       "text": "Si tratterebbe proprio della duplicazione dei dati che un sistema ERP integrato è pensato per evitare, con il rischio aggiuntivo di errori di trascrizione e di disallineamento tra i dati dei due programmi separati nel tempo.",
-      "speech": "Si tratterebbe proprio della duplicazione dei dati che un sistema ERP integrato è pensato per evitare, con il rischio aggiuntivo di errori di trascrizione e di disallineamento tra i dati dei due programmi separati nel tempo."
+      "speech": "Si tratterebbe proprio della duplicazione dei dati che un sistema ERP integrato è pensato per evitare, con il rischio aggiuntivo di errori di trascrizione e di disallineamento tra i dati dei due programmi separati nel tempo.",
+      "bold": [
+        [
+          29,
+          50
+        ]
+      ]
     },
     {
       "text": "L'adozione di un ERP comporta generalmente un investimento iniziale significativo, sia in termini economici sia di formazione del personale,",
@@ -70,27 +108,71 @@
     },
     {
       "text": "la posta elettronica resta il canale principale per le comunicazioni formali;",
-      "speech": "la posta elettronica resta il canale principale per le comunicazioni formali;"
+      "speech": "la posta elettronica resta il canale principale per le comunicazioni formali;",
+      "bold": [
+        [
+          3,
+          20
+        ]
+      ]
     },
     {
       "text": "le piattaforme di messaggistica istantanea aziendale facilitano lo scambio rapido di informazioni tra colleghi;",
-      "speech": "le piattaforme di messaggistica istantanea aziendale facilitano lo scambio rapido di informazioni tra colleghi;"
+      "speech": "le piattaforme di messaggistica istantanea aziendale facilitano lo scambio rapido di informazioni tra colleghi;",
+      "bold": [
+        [
+          18,
+          52
+        ]
+      ]
     },
     {
       "text": "i sistemi di videoconferenza permettono riunioni a distanza, particolarmente utilizzati con la diffusione del lavoro agile;",
-      "speech": "i sistemi di videoconferenza permettono riunioni a distanza, particolarmente utilizzati con la diffusione del lavoro agile;"
+      "speech": "i sistemi di videoconferenza permettono riunioni a distanza, particolarmente utilizzati con la diffusione del lavoro agile;",
+      "bold": [
+        [
+          13,
+          28
+        ]
+      ]
     },
     {
       "text": "e i software CRM, Customer Relationship Management, centralizzano tutte le informazioni e le interazioni con i clienti, supportando le attività commerciali e di assistenza post-vendita.",
-      "speech": "e i software CRM, Customer Relationship Management, centralizzano tutte le informazioni e le interazioni con i clienti, supportando le attività commerciali e di assistenza post-vendita."
+      "speech": "e i software CRM, Customer Relationship Management, centralizzano tutte le informazioni e le interazioni con i clienti, supportando le attività commerciali e di assistenza post-vendita.",
+      "bold": [
+        [
+          13,
+          16
+        ],
+        [
+          18,
+          50
+        ]
+      ]
     },
     {
       "text": "Accanto a questi strumenti di comunicazione diretta, molte aziende adottano software di project management, che permettono di pianificare le attività di un progetto, assegnarle ai membri del team,",
-      "speech": "Accanto a questi strumenti di comunicazione diretta, molte aziende adottano software di project management, che permettono di pianificare le attività di un progetto, assegnarle ai membri del team,"
+      "speech": "Accanto a questi strumenti di comunicazione diretta, molte aziende adottano software di project management, che permettono di pianificare le attività di un progetto, assegnarle ai membri del team,",
+      "bold": [
+        [
+          88,
+          106
+        ]
+      ]
     },
     {
       "text": "tenere traccia dello stato di avanzamento e rispettare le scadenze concordate, spesso attraverso rappresentazioni grafiche come i diagrammi di Gantt o le bacheche in stile Kanban.",
-      "speech": "tenere traccia dello stato di avanzamento e rispettare le scadenze concordate, spesso attraverso rappresentazioni grafiche come i diagrammi di Gantt o le bacheche in stile Kanban."
+      "speech": "tenere traccia dello stato di avanzamento e rispettare le scadenze concordate, spesso attraverso rappresentazioni grafiche come i diagrammi di Gantt o le bacheche in stile Kanban.",
+      "bold": [
+        [
+          130,
+          148
+        ],
+        [
+          172,
+          178
+        ]
+      ]
     },
     {
       "text": "Questi strumenti, generalmente basati sul cloud, sono diventati ancora più rilevanti con la diffusione del lavoro agile,",
@@ -106,15 +188,53 @@
     },
     {
       "text": "Primo: un sistema ERP integra le diverse aree funzionali dell'azienda attorno a un unico database condiviso, evitando la duplicazione dei dati.",
-      "speech": "Primo: un sistema ERP integra le diverse aree funzionali dell'azienda attorno a un unico database condiviso, evitando la duplicazione dei dati."
+      "speech": "Primo: un sistema ERP integra le diverse aree funzionali dell'azienda attorno a un unico database condiviso, evitando la duplicazione dei dati.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          83,
+          107
+        ]
+      ]
     },
     {
       "text": "Secondo: la comunicazione aziendale si avvale di posta elettronica, messaggistica istantanea, videoconferenza e software CRM per la gestione dei clienti.",
-      "speech": "Secondo: la comunicazione aziendale si avvale di posta elettronica, messaggistica istantanea, videoconferenza e software CRM per la gestione dei clienti."
+      "speech": "Secondo: la comunicazione aziendale si avvale di posta elettronica, messaggistica istantanea, videoconferenza e software CRM per la gestione dei clienti.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          121,
+          124
+        ]
+      ]
     },
     {
       "text": "Terzo: gli strumenti di project management, con diagrammi di Gantt e bacheche Kanban, supportano la pianificazione e il coordinamento dei team, specialmente in un contesto di lavoro agile.",
-      "speech": "Terzo: gli strumenti di project management, con diagrammi di Gantt e bacheche Kanban, supportano la pianificazione e il coordinamento dei team, specialmente in un contesto di lavoro agile."
+      "speech": "Terzo: gli strumenti di project management, con diagrammi di Gantt e bacheche Kanban, supportano la pianificazione e il coordinamento dei team, specialmente in un contesto di lavoro agile.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          24,
+          42
+        ],
+        [
+          48,
+          66
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo la firma digitale e la conservazione sostitutiva dei documenti, insieme alle strategie di backup dei dati aziendali.",

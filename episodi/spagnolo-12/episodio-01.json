@@ -14,11 +14,27 @@
     },
     {
       "text": "il lessico essenziale per le prime situazioni comunicative, le strutture grammaticali fondamentali del presente e del passato,",
-      "speech": "il lessico essenziale per le prime situazioni comunicative, le strutture grammaticali fondamentali del presente e del passato,"
+      "speech": "il lessico essenziale per le prime situazioni comunicative, le strutture grammaticali fondamentali del presente e del passato,",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "e alcuni argomenti di civiltà spagnola, dalle comunità autonome fino al celebre Cammino di Santiago.",
-      "speech": "e alcuni argomenti di civiltà spagnola, dalle comunità autonome fino al celebre Cammino di Santiago."
+      "speech": "e alcuni argomenti di civiltà spagnola, dalle comunità autonome fino al celebre Cammino di Santiago.",
+      "bold": [
+        [
+          46,
+          63
+        ],
+        [
+          80,
+          99
+        ]
+      ]
     },
     {
       "text": "Cominciamo, come è naturale, dal lessico di base.",
@@ -26,424 +42,324 @@
     },
     {
       "text": "Il primo blocco di vocabolario riguarda i saluti e le presentazioni, saludos y presentaciones, indispensabili per gestire qualunque prima conversazione in spagnolo. ¡Hola! corrisponde al nostro «ciao», utilizzabile in ogni momento della giornata;",
-      "speech": "Il primo blocco di vocabolario riguarda i saluti e le presentazioni, saludos y presentaciones, indispensabili per gestire qualunque prima conversazione in spagnolo. ¡Hola! corrisponde al nostro «ciao», utilizzabile in ogni momento della giornata;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il primo blocco di vocabolario riguarda i saluti e le presentazioni,"
-        },
-        {
-          "lang": "es",
-          "text": "saludos y presentaciones,"
-        },
-        {
-          "lang": "it",
-          "text": "indispensabili per gestire qualunque prima conversazione in spagnolo. ¡"
-        },
-        {
-          "lang": "es",
-          "text": "Hola."
-        },
-        {
-          "lang": "it",
-          "text": "corrisponde al nostro «ciao», utilizzabile in ogni momento della giornata;"
-        }
+      "speech": "Il primo blocco di vocabolario riguarda i saluti e le presentazioni, saludos y presentaciones, indispensabili per gestire qualunque prima conversazione in spagnolo. Hola. corrisponde al nostro «ciao», utilizzabile in ogni momento della giornata;",
+      "bold": [
+        [
+          42,
+          67
+        ],
+        [
+          69,
+          93
+        ],
+        [
+          166,
+          170
+        ],
+        [
+          195,
+          199
+        ]
       ]
     },
     {
       "text": "Buenos días si usa la mattina, Buenas tardes nel pomeriggio, e Buenas noches sia per la sera sia, con valore diverso, per augurare la buonanotte.",
       "speech": "Buenos días si usa la mattina, Buenas tardes nel pomeriggio, e Buenas noches sia per la sera sia, con valore diverso, per augurare la buonanotte.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Buenos días"
-        },
-        {
-          "lang": "it",
-          "text": "si usa la mattina,"
-        },
-        {
-          "lang": "es",
-          "text": "Buenas tardes"
-        },
-        {
-          "lang": "it",
-          "text": "nel pomeriggio, e"
-        },
-        {
-          "lang": "es",
-          "text": "Buenas noches"
-        },
-        {
-          "lang": "it",
-          "text": "sia per la sera sia, con valore diverso, per augurare la buonanotte."
-        }
+      "bold": [
+        [
+          0,
+          11
+        ],
+        [
+          31,
+          44
+        ],
+        [
+          63,
+          76
+        ]
       ]
     },
     {
       "text": "Per chiedere il nome si usa ¿Cómo te llamas?, a cui si risponde con Me llamo, seguito dal proprio nome; per chiedere come sta qualcuno si usa ¿Cómo estás?;",
       "speech": "Per chiedere il nome si usa ¿Cómo te llamas?, a cui si risponde con Me llamo, seguito dal proprio nome; per chiedere come sta qualcuno si usa ¿Cómo estás?;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Per chiedere il nome si usa ¿"
-        },
-        {
-          "lang": "es",
-          "text": "Cómo te llamas?,"
-        },
-        {
-          "lang": "it",
-          "text": "a cui si risponde con Me"
-        },
-        {
-          "lang": "es",
-          "text": "llamo,"
-        },
-        {
-          "lang": "it",
-          "text": "seguito dal proprio nome; per chiedere come sta qualcuno si usa ¿"
-        },
-        {
-          "lang": "es",
-          "text": "Cómo estás?;"
-        }
+      "bold": [
+        [
+          29,
+          43
+        ],
+        [
+          71,
+          76
+        ],
+        [
+          143,
+          153
+        ]
       ]
     },
     {
       "text": "e per congedarsi si usano Adiós, per un commiato definitivo, o Hasta luego, per un arrivederci più informale, «a dopo».",
       "speech": "e per congedarsi si usano Adiós, per un commiato definitivo, o Hasta luego, per un arrivederci più informale, «a dopo».",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e per congedarsi si usano"
-        },
-        {
-          "lang": "es",
-          "text": "Adiós,"
-        },
-        {
-          "lang": "it",
-          "text": "per un commiato definitivo,"
-        },
-        {
-          "lang": "es",
-          "text": "o Hasta luego,"
-        },
-        {
-          "lang": "it",
-          "text": "per un arrivederci più informale, «a dopo»."
-        }
+      "bold": [
+        [
+          26,
+          31
+        ],
+        [
+          61,
+          74
+        ],
+        [
+          111,
+          117
+        ]
       ]
     },
     {
       "text": "Passiamo ai numeri, los números.",
       "speech": "Passiamo ai numeri, los números.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Passiamo ai numeri,"
-        },
-        {
-          "lang": "es",
-          "text": "los números."
-        }
+      "bold": [
+        [
+          12,
+          18
+        ],
+        [
+          20,
+          31
+        ]
       ]
     },
     {
       "text": "Da zero a dieci abbiamo cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.",
       "speech": "Da zero a dieci abbiamo cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Da zero a dieci abbiamo"
-        },
-        {
-          "lang": "es",
-          "text": "cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez."
-        }
+      "bold": [
+        [
+          24,
+          91
+        ]
       ]
     },
     {
       "text": "Da undici a venti, i numeri seguono un proprio schema specifico da memorizzare: once, doce, trece, catorce, quince, dieciséis, diecisiete, dieciocho, diecinueve, veinte.",
       "speech": "Da undici a venti, i numeri seguono un proprio schema specifico da memorizzare: once, doce, trece, catorce, quince, dieciséis, diecisiete, dieciocho, diecinueve, veinte.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Da undici a venti, i numeri seguono un proprio schema specifico da memorizzare: once,"
-        },
-        {
-          "lang": "es",
-          "text": "doce, trece, catorce, quince, dieciséis, diecisiete, dieciocho, diecinueve, veinte."
-        }
+      "bold": [
+        [
+          47,
+          63
+        ],
+        [
+          86,
+          168
+        ]
       ]
     },
     {
       "text": "Fermatevi un momento su un dettaglio utile per l'esame: nei numeri dal sedici al diciannove e dal ventuno in poi, lo spagnolo scrive spesso in un'unica parola ciò che l'italiano scrive in due,",
-      "speech": "Fermatevi un momento su un dettaglio utile per l'esame: nei numeri dal sedici al diciannove e dal ventuno in poi, lo spagnolo scrive spesso in un'unica parola ciò che l'italiano scrive in due,"
+      "speech": "Fermatevi un momento su un dettaglio utile per l'esame: nei numeri dal sedici al diciannove e dal ventuno in poi, lo spagnolo scrive spesso in un'unica parola ciò che l'italiano scrive in due,",
+      "bold": [
+        [
+          143,
+          158
+        ]
+      ]
     },
     {
       "text": "come «dieciséis» per «sedici» o «veintiuno» per «ventuno», un tratto ortografico caratteristico della lingua che vale la pena osservare fin da subito.",
       "speech": "come «dieciséis» per «sedici» o «veintiuno» per «ventuno», un tratto ortografico caratteristico della lingua che vale la pena osservare fin da subito.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "come «"
-        },
-        {
-          "lang": "es",
-          "text": "dieciséis»"
-        },
-        {
-          "lang": "it",
-          "text": "per «sedici» o «"
-        },
-        {
-          "lang": "es",
-          "text": "veintiuno»"
-        },
-        {
-          "lang": "it",
-          "text": "per «ventuno», un tratto ortografico caratteristico della lingua che vale la pena osservare fin da subito."
-        }
+      "bold": [
+        [
+          6,
+          15
+        ],
+        [
+          22,
+          28
+        ],
+        [
+          33,
+          42
+        ],
+        [
+          49,
+          56
+        ]
       ]
     },
     {
       "text": "Le decine principali sono invece treinta, cuarenta e cincuenta, per trenta, quaranta e cinquanta.",
       "speech": "Le decine principali sono invece treinta, cuarenta e cincuenta, per trenta, quaranta e cinquanta.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Le decine principali sono invece"
-        },
-        {
-          "lang": "es",
-          "text": "treinta, cuarenta"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "es",
-          "text": "cincuenta,"
-        },
-        {
-          "lang": "it",
-          "text": "per trenta, quaranta e cinquanta."
-        }
+      "bold": [
+        [
+          33,
+          50
+        ],
+        [
+          53,
+          62
+        ]
       ]
     },
     {
       "text": "Veniamo ora ai giorni della settimana, i mesi e le stagioni, los días, los meses y las estaciones.",
       "speech": "Veniamo ora ai giorni della settimana, i mesi e le stagioni, los días, los meses y las estaciones.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Veniamo ora ai giorni della settimana, i mesi e le stagioni,"
-        },
-        {
-          "lang": "es",
-          "text": "los días, los meses y las estaciones."
-        }
+      "bold": [
+        [
+          15,
+          37
+        ],
+        [
+          41,
+          45
+        ],
+        [
+          51,
+          59
+        ],
+        [
+          61,
+          97
+        ]
       ]
     },
     {
       "text": "I giorni sono lunes, martes, miércoles, jueves, viernes, sábado e domingo — da notare che, a differenza dell'italiano, in spagnolo i giorni della settimana non si scrivono con la lettera maiuscola.",
       "speech": "I giorni sono lunes, martes, miércoles, jueves, viernes, sábado e domingo — da notare che, a differenza dell'italiano, in spagnolo i giorni della settimana non si scrivono con la lettera maiuscola.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "I giorni sono"
-        },
-        {
-          "lang": "es",
-          "text": "lunes, martes, miércoles, jueves, viernes, sábado"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "es",
-          "text": "domingo —"
-        },
-        {
-          "lang": "it",
-          "text": "da notare che, a differenza dell'italiano, in spagnolo i giorni della settimana non si scrivono con la lettera maiuscola."
-        }
+      "bold": [
+        [
+          14,
+          63
+        ],
+        [
+          66,
+          73
+        ],
+        [
+          187,
+          196
+        ]
       ]
     },
     {
       "text": "I mesi sono enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre e diciembre.",
       "speech": "I mesi sono enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre e diciembre.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "I mesi sono"
-        },
-        {
-          "lang": "es",
-          "text": "enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "es",
-          "text": "diciembre."
-        }
+      "bold": [
+        [
+          12,
+          100
+        ],
+        [
+          103,
+          112
+        ]
       ]
     },
     {
       "text": "Le quattro stagioni sono la primavera, el verano, per l'estate, el otoño, per l'autunno, e el invierno, per l'inverno.",
       "speech": "Le quattro stagioni sono la primavera, el verano, per l'estate, el otoño, per l'autunno, e el invierno, per l'inverno.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Le quattro stagioni sono la primavera,"
-        },
-        {
-          "lang": "es",
-          "text": "el verano,"
-        },
-        {
-          "lang": "it",
-          "text": "per l'estate,"
-        },
-        {
-          "lang": "es",
-          "text": "el otoño,"
-        },
-        {
-          "lang": "it",
-          "text": "per l'autunno, e"
-        },
-        {
-          "lang": "es",
-          "text": "el invierno,"
-        },
-        {
-          "lang": "it",
-          "text": "per l'inverno."
-        }
+      "bold": [
+        [
+          3,
+          19
+        ],
+        [
+          39,
+          48
+        ],
+        [
+          64,
+          72
+        ],
+        [
+          91,
+          102
+        ]
       ]
     },
     {
       "text": "Concludiamo questo primo episodio con i colori principali, los colores:",
       "speech": "Concludiamo questo primo episodio con i colori principali, los colores:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Concludiamo questo primo episodio con i colori principali,"
-        },
-        {
-          "lang": "es",
-          "text": "los colores:"
-        }
+      "bold": [
+        [
+          40,
+          46
+        ],
+        [
+          59,
+          70
+        ]
       ]
     },
     {
       "text": "rojo per il rosso, azul per il blu, amarillo per il giallo, verde per il verde, blanco per il bianco, negro per il nero, gris per il grigio, naranja per l'arancione, marrón per il marrone e rosa per il rosa.",
       "speech": "rojo per il rosso, azul per il blu, amarillo per il giallo, verde per il verde, blanco per il bianco, negro per il nero, gris per il grigio, naranja per l'arancione, marrón per il marrone e rosa per il rosa.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "rojo"
-        },
-        {
-          "lang": "it",
-          "text": "per il rosso,"
-        },
-        {
-          "lang": "es",
-          "text": "azul"
-        },
-        {
-          "lang": "it",
-          "text": "per il blu,"
-        },
-        {
-          "lang": "es",
-          "text": "amarillo"
-        },
-        {
-          "lang": "it",
-          "text": "per il giallo, verde per il verde,"
-        },
-        {
-          "lang": "es",
-          "text": "blanco"
-        },
-        {
-          "lang": "it",
-          "text": "per il bianco,"
-        },
-        {
-          "lang": "es",
-          "text": "negro"
-        },
-        {
-          "lang": "it",
-          "text": "per il nero,"
-        },
-        {
-          "lang": "es",
-          "text": "gris"
-        },
-        {
-          "lang": "it",
-          "text": "per il grigio,"
-        },
-        {
-          "lang": "es",
-          "text": "naranja"
-        },
-        {
-          "lang": "it",
-          "text": "per l'arancione,"
-        },
-        {
-          "lang": "es",
-          "text": "marrón"
-        },
-        {
-          "lang": "it",
-          "text": "per il marrone e rosa per il rosa."
-        }
+      "bold": [
+        [
+          0,
+          4
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          36,
+          44
+        ],
+        [
+          80,
+          86
+        ],
+        [
+          102,
+          107
+        ],
+        [
+          121,
+          125
+        ],
+        [
+          141,
+          148
+        ],
+        [
+          166,
+          172
+        ]
       ]
     },
     {
       "text": "Notate come alcuni di questi colori, come naranja e rosa, siano invariabili in spagnolo, derivando direttamente dal nome del frutto o del fiore da cui prendono il nome, un dettaglio che potrebbe tornarvi utile in un esercizio di completamento.",
       "speech": "Notate come alcuni di questi colori, come naranja e rosa, siano invariabili in spagnolo, derivando direttamente dal nome del frutto o del fiore da cui prendono il nome, un dettaglio che potrebbe tornarvi utile in un esercizio di completamento.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Notate come alcuni di questi colori, come"
-        },
-        {
-          "lang": "es",
-          "text": "naranja"
-        },
-        {
-          "lang": "it",
-          "text": "e rosa, siano invariabili in spagnolo, derivando direttamente dal nome del frutto o del fiore da cui prendono il nome, un dettaglio che potrebbe tornarvi utile in un esercizio di completamento."
-        }
+      "bold": [
+        [
+          42,
+          49
+        ],
+        [
+          64,
+          75
+        ]
       ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, per fissare quanto appena visto: come si dice in spagnolo «il colore del cielo sereno»?",
-      "speech": "Proviamo un piccolo esercizio insieme, per fissare quanto appena visto: come si dice in spagnolo «il colore del cielo sereno»?"
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare quanto appena visto: come si dice in spagnolo «il colore del cielo sereno»?",
+      "bold": [
+        [
+          98,
+          124
+        ]
+      ]
     },
     {
       "text": "Azul.",
       "speech": "Azul.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Azul."
-        }
+      "bold": [
+        [
+          0,
+          4
+        ]
       ]
     },
     {
@@ -453,35 +369,31 @@
     {
       "text": "Lunes.",
       "speech": "Lunes.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Lunes."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ]
       ]
     },
     {
       "text": "Quale mese segue enero?",
       "speech": "Quale mese segue enero?",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quale mese segue"
-        },
-        {
-          "lang": "es",
-          "text": "enero?"
-        }
+      "bold": [
+        [
+          17,
+          22
+        ]
       ]
     },
     {
       "text": "Febrero.",
       "speech": "Febrero.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Febrero."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ]
       ]
     },
     {
@@ -491,11 +403,11 @@
     {
       "text": "El verano.",
       "speech": "El verano.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "El verano."
-        }
+      "bold": [
+        [
+          0,
+          9
+        ]
       ]
     },
     {
@@ -505,11 +417,11 @@
     {
       "text": "Quince.",
       "speech": "Quince.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Quince."
-        }
+      "bold": [
+        [
+          0,
+          6
+        ]
       ]
     },
     {
@@ -522,68 +434,84 @@
     },
     {
       "text": "Primo: i saluti e le presentazioni comprendono espressioni come ¡Hola!, Buenos días, ¿Cómo te llamas? e Me llamo.",
-      "speech": "Primo: i saluti e le presentazioni comprendono espressioni come ¡Hola!, Buenos días, ¿Cómo te llamas? e Me llamo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo: i saluti e le presentazioni comprendono espressioni come ¡"
-        },
-        {
-          "lang": "es",
-          "text": "Hola., Buenos días, ¿Cómo te llamas?"
-        },
-        {
-          "lang": "it",
-          "text": "e Me"
-        },
-        {
-          "lang": "es",
-          "text": "llamo."
-        }
+      "speech": "Primo: i saluti e le presentazioni comprendono espressioni come Hola., Buenos días, ¿Cómo te llamas? e Me llamo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          9,
+          34
+        ],
+        [
+          65,
+          100
+        ],
+        [
+          107,
+          112
+        ]
       ]
     },
     {
       "text": "Secondo: i numeri da zero a venti seguono uno schema specifico, con alcune particolarità ortografiche rispetto all'italiano.",
-      "speech": "Secondo: i numeri da zero a venti seguono uno schema specifico, con alcune particolarità ortografiche rispetto all'italiano."
+      "speech": "Secondo: i numeri da zero a venti seguono uno schema specifico, con alcune particolarità ortografiche rispetto all'italiano.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          11,
+          33
+        ]
+      ]
     },
     {
       "text": "Terzo: i giorni della settimana, i mesi e le stagioni si scrivono in spagnolo senza lettera maiuscola.",
-      "speech": "Terzo: i giorni della settimana, i mesi e le stagioni si scrivono in spagnolo senza lettera maiuscola."
+      "speech": "Terzo: i giorni della settimana, i mesi e le stagioni si scrivono in spagnolo senza lettera maiuscola.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          78,
+          101
+        ]
+      ]
     },
     {
       "text": "Quarto: i colori principali comprendono rojo, azul, amarillo, verde, blanco, negro, gris, naranja, marrón e rosa.",
       "speech": "Quarto: i colori principali comprendono rojo, azul, amarillo, verde, blanco, negro, gris, naranja, marrón e rosa.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quarto: i colori principali comprendono"
-        },
-        {
-          "lang": "es",
-          "text": "rojo, azul, amarillo, verde, blanco, negro, gris, naranja, marrón"
-        },
-        {
-          "lang": "it",
-          "text": "e rosa."
-        }
+      "bold": [
+        [
+          0,
+          6
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          40,
+          105
+        ]
       ]
     },
     {
       "text": "Nel prossimo episodio entriamo nel Modulo 2 di grammatica e affrontiamo il primo grande tempo verbale spagnolo, il presente indicativo, insieme al pretérito perfecto per parlare del passato recente.",
       "speech": "Nel prossimo episodio entriamo nel Modulo 2 di grammatica e affrontiamo il primo grande tempo verbale spagnolo, il presente indicativo, insieme al pretérito perfecto per parlare del passato recente.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel prossimo episodio entriamo nel Modulo 2 di grammatica e affrontiamo il primo grande tempo verbale spagnolo, il presente indicativo, insieme al"
-        },
-        {
-          "lang": "es",
-          "text": "pretérito perfecto"
-        },
-        {
-          "lang": "it",
-          "text": "per parlare del passato recente."
-        }
+      "bold": [
+        [
+          115,
+          134
+        ],
+        [
+          147,
+          165
+        ]
       ]
     },
     {

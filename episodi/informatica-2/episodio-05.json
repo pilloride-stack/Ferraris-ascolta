@@ -14,23 +14,65 @@
     },
     {
       "text": "La posta elettronica, o e-mail, è il servizio che permette di inviare e ricevere messaggi digitali attraverso la rete.",
-      "speech": "La posta elettronica, o e-mail, è il servizio che permette di inviare e ricevere messaggi digitali attraverso la rete."
+      "speech": "La posta elettronica, o e-mail, è il servizio che permette di inviare e ricevere messaggi digitali attraverso la rete.",
+      "bold": [
+        [
+          3,
+          20
+        ]
+      ]
     },
     {
       "text": "Nacque nel 1972, quando Ray Tomlinson mise a punto su ARPANET il primo sistema in grado di scambiare messaggi tra utenti di computer diversi, un'altra data che vale la pena tenere a mente insieme a quella della nascita di Internet stessa.",
-      "speech": "Nacque nel 1972, quando Ray Tomlinson mise a punto su ARPANET il primo sistema in grado di scambiare messaggi tra utenti di computer diversi, un'altra data che vale la pena tenere a mente insieme a quella della nascita di Internet stessa."
+      "speech": "Nacque nel 1972, quando Ray Tomlinson mise a punto su ARPANET il primo sistema in grado di scambiare messaggi tra utenti di computer diversi, un'altra data che vale la pena tenere a mente insieme a quella della nascita di Internet stessa.",
+      "bold": [
+        [
+          11,
+          15
+        ],
+        [
+          24,
+          37
+        ]
+      ]
     },
     {
       "text": "Ogni casella di posta è identificata da un indirizzo nella forma utente@dominio;",
-      "speech": "Ogni casella di posta è identificata da un indirizzo nella forma utente@dominio;"
+      "speech": "Ogni casella di posta è identificata da un indirizzo nella forma utente@dominio;",
+      "bold": [
+        [
+          65,
+          79
+        ]
+      ]
     },
     {
       "text": "per gestire la posta si può utilizzare un client di posta installato sul dispositivo, come Outlook, oppure una webmail, accessibile direttamente da browser senza bisogno di installare alcun programma.",
-      "speech": "per gestire la posta si può utilizzare un client di posta installato sul dispositivo, come Outlook, oppure una webmail, accessibile direttamente da browser senza bisogno di installare alcun programma."
+      "speech": "per gestire la posta si può utilizzare un client di posta installato sul dispositivo, come Outlook, oppure una webmail, accessibile direttamente da browser senza bisogno di installare alcun programma.",
+      "bold": [
+        [
+          42,
+          57
+        ],
+        [
+          111,
+          118
+        ]
+      ]
     },
     {
       "text": "Un messaggio email è composto da alcuni elementi fissi: il mittente, uno o più destinatari, un oggetto, il corpo del messaggio ed eventuali allegati.",
-      "speech": "Un messaggio email è composto da alcuni elementi fissi: il mittente, uno o più destinatari, un oggetto, il corpo del messaggio ed eventuali allegati."
+      "speech": "Un messaggio email è composto da alcuni elementi fissi: il mittente, uno o più destinatari, un oggetto, il corpo del messaggio ed eventuali allegati.",
+      "bold": [
+        [
+          59,
+          67
+        ],
+        [
+          79,
+          90
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su un dettaglio dei destinatari che genera spesso confusione in sede d'esame:",
@@ -38,15 +80,37 @@
     },
     {
       "text": "oltre ai destinatari principali, un'email può avere destinatari in copia conoscenza, indicata con la sigla CC, oppure in copia conoscenza nascosta, indicata con la sigla CCN.",
-      "speech": "oltre ai destinatari principali, un'email può avere destinatari in copia conoscenza, indicata con la sigla CC, oppure in copia conoscenza nascosta, indicata con la sigla CCN."
+      "speech": "oltre ai destinatari principali, un'email può avere destinatari in copia conoscenza, indicata con la sigla CC, oppure in copia conoscenza nascosta, indicata con la sigla CCN.",
+      "bold": [
+        [
+          107,
+          109
+        ],
+        [
+          170,
+          173
+        ]
+      ]
     },
     {
       "text": "La differenza è sostanziale: chi riceve un messaggio in CC è visibile a tutti gli altri destinatari, che vedono il suo indirizzo nell'elenco;",
-      "speech": "La differenza è sostanziale: chi riceve un messaggio in CC è visibile a tutti gli altri destinatari, che vedono il suo indirizzo nell'elenco;"
+      "speech": "La differenza è sostanziale: chi riceve un messaggio in CC è visibile a tutti gli altri destinatari, che vedono il suo indirizzo nell'elenco;",
+      "bold": [
+        [
+          56,
+          58
+        ]
+      ]
     },
     {
       "text": "chi invece è inserito in CCN riceve comunque il messaggio, ma il suo indirizzo resta invisibile agli altri destinatari, che non sanno nemmeno che quella persona lo ha ricevuto.",
-      "speech": "chi invece è inserito in CCN riceve comunque il messaggio, ma il suo indirizzo resta invisibile agli altri destinatari, che non sanno nemmeno che quella persona lo ha ricevuto."
+      "speech": "chi invece è inserito in CCN riceve comunque il messaggio, ma il suo indirizzo resta invisibile agli altri destinatari, che non sanno nemmeno che quella persona lo ha ricevuto.",
+      "bold": [
+        [
+          25,
+          28
+        ]
+      ]
     },
     {
       "text": "È una distinzione piccola ma concreta, perché usare CC al posto di CCN per errore può significare rendere pubblico a tutti un indirizzo che si voleva invece tenere riservato.",
@@ -58,7 +122,13 @@
     },
     {
       "text": "Per prima cosa si apre il client di posta o la webmail e si seleziona «Nuovo messaggio».",
-      "speech": "Per prima cosa si apre il client di posta o la webmail e si seleziona «Nuovo messaggio»."
+      "speech": "Per prima cosa si apre il client di posta o la webmail e si seleziona «Nuovo messaggio».",
+      "bold": [
+        [
+          71,
+          86
+        ]
+      ]
     },
     {
       "text": "Poi si compilano i campi del destinatario e dell'oggetto, e si scrive il testo del messaggio nel corpo.",
@@ -66,11 +136,23 @@
     },
     {
       "text": "A questo punto si seleziona «Allega file», si sceglie il documento da inviare e si attende il completamento del caricamento.",
-      "speech": "A questo punto si seleziona «Allega file», si sceglie il documento da inviare e si attende il completamento del caricamento."
+      "speech": "A questo punto si seleziona «Allega file», si sceglie il documento da inviare e si attende il completamento del caricamento.",
+      "bold": [
+        [
+          29,
+          40
+        ]
+      ]
     },
     {
       "text": "Infine si verificano tutti i dati inseriti e si seleziona «Invia»: il messaggio, con il suo allegato, viene così recapitato alla casella di posta del destinatario.",
-      "speech": "Infine si verificano tutti i dati inseriti e si seleziona «Invia»: il messaggio, con il suo allegato, viene così recapitato alla casella di posta del destinatario."
+      "speech": "Infine si verificano tutti i dati inseriti e si seleziona «Invia»: il messaggio, con il suo allegato, viene così recapitato alla casella di posta del destinatario.",
+      "bold": [
+        [
+          59,
+          64
+        ]
+      ]
     },
     {
       "text": "Passiamo ora alle norme per un utilizzo responsabile della rete, un tema che riguarda tutti i servizi visti finora, non solo la posta elettronica.",
@@ -78,23 +160,57 @@
     },
     {
       "text": "Un utilizzo consapevole della rete richiede attenzione a diversi rischi: il cyberbullismo, cioè comportamenti aggressivi o denigratori ripetuti nei confronti di una persona tramite strumenti digitali;",
-      "speech": "Un utilizzo consapevole della rete richiede attenzione a diversi rischi: il cyberbullismo, cioè comportamenti aggressivi o denigratori ripetuti nei confronti di una persona tramite strumenti digitali;"
+      "speech": "Un utilizzo consapevole della rete richiede attenzione a diversi rischi: il cyberbullismo, cioè comportamenti aggressivi o denigratori ripetuti nei confronti di una persona tramite strumenti digitali;",
+      "bold": [
+        [
+          76,
+          89
+        ]
+      ]
     },
     {
       "text": "il phishing, una tecnica fraudolenta che imita comunicazioni ufficiali, email o siti web, per carpire dati personali o credenziali di accesso;",
-      "speech": "il phishing, una tecnica fraudolenta che imita comunicazioni ufficiali, email o siti web, per carpire dati personali o credenziali di accesso;"
+      "speech": "il phishing, una tecnica fraudolenta che imita comunicazioni ufficiali, email o siti web, per carpire dati personali o credenziali di accesso;",
+      "bold": [
+        [
+          3,
+          11
+        ]
+      ]
     },
     {
       "text": "e la tutela della propria privacy, evitando di condividere eccessivamente informazioni personali sui social media.",
-      "speech": "e la tutela della propria privacy, evitando di condividere eccessivamente informazioni personali sui social media."
+      "speech": "e la tutela della propria privacy, evitando di condividere eccessivamente informazioni personali sui social media.",
+      "bold": [
+        [
+          26,
+          33
+        ]
+      ]
     },
     {
       "text": "È inoltre fondamentale utilizzare password sicure e diverse per ogni servizio, attivare, ove disponibile, l'autenticazione a due fattori,",
-      "speech": "È inoltre fondamentale utilizzare password sicure e diverse per ogni servizio, attivare, ove disponibile, l'autenticazione a due fattori,"
+      "speech": "È inoltre fondamentale utilizzare password sicure e diverse per ogni servizio, attivare, ove disponibile, l'autenticazione a due fattori,",
+      "bold": [
+        [
+          34,
+          49
+        ],
+        [
+          108,
+          136
+        ]
+      ]
     },
     {
       "text": "e rispettare il copyright dei contenuti che si condividono online.",
-      "speech": "e rispettare il copyright dei contenuti che si condividono online."
+      "speech": "e rispettare il copyright dei contenuti che si condividono online.",
+      "bold": [
+        [
+          16,
+          25
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se ricevete un'email che sembra provenire dalla vostra banca, che vi chiede con urgenza di cliccare su un link per confermare la password del vostro conto, come vi comportereste?",
@@ -114,19 +230,63 @@
     },
     {
       "text": "Primo: la posta elettronica, nata nel 1972, si basa su indirizzi utente@dominio e su messaggi composti da mittente, destinatari,",
-      "speech": "Primo: la posta elettronica, nata nel 1972, si basa su indirizzi utente@dominio e su messaggi composti da mittente, destinatari,"
+      "speech": "Primo: la posta elettronica, nata nel 1972, si basa su indirizzi utente@dominio e su messaggi composti da mittente, destinatari,",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          38,
+          42
+        ],
+        [
+          65,
+          79
+        ]
+      ]
     },
     {
       "text": "oggetto, corpo ed eventuali allegati, con la distinzione fondamentale tra destinatari in CC, visibili, e in CCN, nascosti.",
-      "speech": "oggetto, corpo ed eventuali allegati, con la distinzione fondamentale tra destinatari in CC, visibili, e in CCN, nascosti."
+      "speech": "oggetto, corpo ed eventuali allegati, con la distinzione fondamentale tra destinatari in CC, visibili, e in CCN, nascosti.",
+      "bold": [
+        [
+          89,
+          101
+        ],
+        [
+          108,
+          121
+        ]
+      ]
     },
     {
       "text": "Secondo: per inviare un'email con allegato si segue una procedura precisa, dalla scelta di «Nuovo messaggio» fino all'invio finale.",
-      "speech": "Secondo: per inviare un'email con allegato si segue una procedura precisa, dalla scelta di «Nuovo messaggio» fino all'invio finale."
+      "speech": "Secondo: per inviare un'email con allegato si segue una procedura precisa, dalla scelta di «Nuovo messaggio» fino all'invio finale.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          92,
+          107
+        ]
+      ]
     },
     {
       "text": "Terzo: un uso responsabile della rete richiede attenzione a cyberbullismo, phishing e privacy, oltre all'uso di password sicure, autenticazione a due fattori e rispetto del copyright.",
-      "speech": "Terzo: un uso responsabile della rete richiede attenzione a cyberbullismo, phishing e privacy, oltre all'uso di password sicure, autenticazione a due fattori e rispetto del copyright."
+      "speech": "Terzo: un uso responsabile della rete richiede attenzione a cyberbullismo, phishing e privacy, oltre all'uso di password sicure, autenticazione a due fattori e rispetto del copyright.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          60,
+          93
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 2.",

@@ -14,15 +14,41 @@
     },
     {
       "text": "La costituzione dell'azienda è la prima operazione della sua vita: il titolare conferisce mezzi propri, denaro, beni, o entrambi, per dare inizio all'attività.",
-      "speech": "La costituzione dell'azienda è la prima operazione della sua vita: il titolare conferisce mezzi propri, denaro, beni, o entrambi, per dare inizio all'attività."
+      "speech": "La costituzione dell'azienda è la prima operazione della sua vita: il titolare conferisce mezzi propri, denaro, beni, o entrambi, per dare inizio all'attività.",
+      "bold": [
+        [
+          3,
+          28
+        ],
+        [
+          79,
+          102
+        ]
+      ]
     },
     {
       "text": "Dal punto di vista contabile, il conferimento si rileva addebitando i conti finanziari relativi ai beni conferiti, come Cassa, Banca, Fabbricati, Impianti,",
-      "speech": "Dal punto di vista contabile, il conferimento si rileva addebitando i conti finanziari relativi ai beni conferiti, come Cassa, Banca, Fabbricati, Impianti,"
+      "speech": "Dal punto di vista contabile, il conferimento si rileva addebitando i conti finanziari relativi ai beni conferiti, come Cassa, Banca, Fabbricati, Impianti,",
+      "bold": [
+        [
+          33,
+          45
+        ]
+      ]
     },
     {
       "text": "e accreditando il conto economico di capitale, denominato Capitale, o Capitale netto, che rappresenta il patrimonio netto iniziale dell'azienda.",
-      "speech": "e accreditando il conto economico di capitale, denominato Capitale, o Capitale netto, che rappresenta il patrimonio netto iniziale dell'azienda."
+      "speech": "e accreditando il conto economico di capitale, denominato Capitale, o Capitale netto, che rappresenta il patrimonio netto iniziale dell'azienda.",
+      "bold": [
+        [
+          58,
+          66
+        ],
+        [
+          105,
+          130
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa prima scrittura, perché applica esattamente le regole viste nell'episodio scorso:",
@@ -38,7 +64,13 @@
     },
     {
       "text": "È la prima applicazione pratica della logica di fonti e impieghi che avete incontrato nel secondo modulo:",
-      "speech": "È la prima applicazione pratica della logica di fonti e impieghi che avete incontrato nel secondo modulo:"
+      "speech": "È la prima applicazione pratica della logica di fonti e impieghi che avete incontrato nel secondo modulo:",
+      "bold": [
+        [
+          48,
+          64
+        ]
+      ]
     },
     {
       "text": "gli impieghi, cioè i beni conferiti, in Dare; la fonte, cioè il Capitale proprio del titolare, in Avere.",
@@ -54,7 +86,17 @@
     },
     {
       "text": "Si addebita Banca conto corrente, che aumenta, e si accredita Capitale, per lo stesso importo di cinquantamila euro.",
-      "speech": "Si addebita Banca conto corrente, che aumenta, e si accredita Capitale, per lo stesso importo di cinquantamila euro."
+      "speech": "Si addebita Banca conto corrente, che aumenta, e si accredita Capitale, per lo stesso importo di cinquantamila euro.",
+      "bold": [
+        [
+          12,
+          32
+        ],
+        [
+          49,
+          70
+        ]
+      ]
     },
     {
       "text": "Vediamo un secondo esercizio, questa volta con un conferimento misto:",
@@ -70,11 +112,23 @@
     },
     {
       "text": "Qui la scrittura coinvolge più conti in Dare: si addebita Cassa per diecimila euro, si addebita Fabbricati per ottantamila euro, si addebita Impianti per ventimila euro,",
-      "speech": "Qui la scrittura coinvolge più conti in Dare: si addebita Cassa per diecimila euro, si addebita Fabbricati per ottantamila euro, si addebita Impianti per ventimila euro,"
+      "speech": "Qui la scrittura coinvolge più conti in Dare: si addebita Cassa per diecimila euro, si addebita Fabbricati per ottantamila euro, si addebita Impianti per ventimila euro,",
+      "bold": [
+        [
+          27,
+          44
+        ]
+      ]
     },
     {
       "text": "e si accredita un'unica volta il conto Capitale per il totale complessivo conferito, cioè diecimila più ottantamila più ventimila, pari a centodiecimila euro.",
-      "speech": "e si accredita un'unica volta il conto Capitale per il totale complessivo conferito, cioè diecimila più ottantamila più ventimila, pari a centodiecimila euro."
+      "speech": "e si accredita un'unica volta il conto Capitale per il totale complessivo conferito, cioè diecimila più ottantamila più ventimila, pari a centodiecimila euro.",
+      "bold": [
+        [
+          15,
+          29
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se il titolare conferisse, alla costituzione della propria azienda, solamente un capannone del valore di centoventimila euro, quale sarebbe la scrittura contabile,",
@@ -98,15 +152,49 @@
     },
     {
       "text": "Primo: la costituzione è la prima operazione della vita di un'azienda, con cui il titolare conferisce mezzi propri per dare inizio all'attività.",
-      "speech": "Primo: la costituzione è la prima operazione della vita di un'azienda, con cui il titolare conferisce mezzi propri per dare inizio all'attività."
+      "speech": "Primo: la costituzione è la prima operazione della vita di un'azienda, con cui il titolare conferisce mezzi propri per dare inizio all'attività.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          22
+        ]
+      ]
     },
     {
       "text": "Secondo: si addebitano i conti finanziari relativi ai beni conferiti, e si accredita il conto Capitale, che rappresenta il patrimonio netto iniziale.",
-      "speech": "Secondo: si addebitano i conti finanziari relativi ai beni conferiti, e si accredita il conto Capitale, che rappresenta il patrimonio netto iniziale."
+      "speech": "Secondo: si addebitano i conti finanziari relativi ai beni conferiti, e si accredita il conto Capitale, che rappresenta il patrimonio netto iniziale.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          22
+        ],
+        [
+          72,
+          102
+        ]
+      ]
     },
     {
       "text": "Terzo: quando il conferimento riguarda più beni diversi, si addebitano più conti distinti, ma si accredita un'unica volta il Capitale per il valore complessivo.",
-      "speech": "Terzo: quando il conferimento riguarda più beni diversi, si addebitano più conti distinti, ma si accredita un'unica volta il Capitale per il valore complessivo."
+      "speech": "Terzo: quando il conferimento riguarda più beni diversi, si addebitano più conti distinti, ma si accredita un'unica volta il Capitale per il valore complessivo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          107,
+          133
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo come si rilevano gli acquisti di merci e il loro regolamento, con particolare attenzione al meccanismo dell'IVA.",

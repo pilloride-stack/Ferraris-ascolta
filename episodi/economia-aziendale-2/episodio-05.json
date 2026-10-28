@@ -14,7 +14,13 @@
     },
     {
       "text": "La gestione aziendale è l'insieme delle operazioni economiche che l'azienda compie nel tempo per raggiungere i propri fini istituzionali:",
-      "speech": "La gestione aziendale è l'insieme delle operazioni economiche che l'azienda compie nel tempo per raggiungere i propri fini istituzionali:"
+      "speech": "La gestione aziendale è l'insieme delle operazioni economiche che l'azienda compie nel tempo per raggiungere i propri fini istituzionali:",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "acquisire risorse, trasformarle, e collocare sul mercato i beni o servizi ottenuti.",
@@ -26,7 +32,13 @@
     },
     {
       "text": "la gestione viene convenzionalmente suddivisa in periodi amministrativi, detti esercizi, generalmente di durata annuale.",
-      "speech": "la gestione viene convenzionalmente suddivisa in periodi amministrativi, detti esercizi, generalmente di durata annuale."
+      "speech": "la gestione viene convenzionalmente suddivisa in periodi amministrativi, detti esercizi, generalmente di durata annuale.",
+      "bold": [
+        [
+          79,
+          87
+        ]
+      ]
     },
     {
       "text": "Le operazioni di gestione si distinguono in due grandi categorie.",
@@ -34,19 +46,51 @@
     },
     {
       "text": "Le operazioni di gestione esterna coinvolgono soggetti esterni all'azienda: acquisti da fornitori, vendite a clienti, ottenimento di finanziamenti da banche o soci.",
-      "speech": "Le operazioni di gestione esterna coinvolgono soggetti esterni all'azienda: acquisti da fornitori, vendite a clienti, ottenimento di finanziamenti da banche o soci."
+      "speech": "Le operazioni di gestione esterna coinvolgono soggetti esterni all'azienda: acquisti da fornitori, vendite a clienti, ottenimento di finanziamenti da banche o soci.",
+      "bold": [
+        [
+          17,
+          33
+        ]
+      ]
     },
     {
       "text": "Le operazioni di gestione interna riguardano invece la trasformazione fisico-tecnica dei fattori produttivi all'interno dell'azienda, per esempio la trasformazione delle materie prime in prodotti finiti.",
-      "speech": "Le operazioni di gestione interna riguardano invece la trasformazione fisico-tecnica dei fattori produttivi all'interno dell'azienda, per esempio la trasformazione delle materie prime in prodotti finiti."
+      "speech": "Le operazioni di gestione interna riguardano invece la trasformazione fisico-tecnica dei fattori produttivi all'interno dell'azienda, per esempio la trasformazione delle materie prime in prodotti finiti.",
+      "bold": [
+        [
+          17,
+          33
+        ]
+      ]
     },
     {
       "text": "Il ciclo tipico della gestione si articola in quattro fasi: finanziamento, cioè la raccolta delle risorse necessarie;",
-      "speech": "Il ciclo tipico della gestione si articola in quattro fasi: finanziamento, cioè la raccolta delle risorse necessarie;"
+      "speech": "Il ciclo tipico della gestione si articola in quattro fasi: finanziamento, cioè la raccolta delle risorse necessarie;",
+      "bold": [
+        [
+          60,
+          73
+        ]
+      ]
     },
     {
       "text": "approvvigionamento, cioè l'acquisto dei fattori produttivi; trasformazione, cioè la produzione vera e propria; e vendita, cioè il collocamento sul mercato.",
-      "speech": "approvvigionamento, cioè l'acquisto dei fattori produttivi; trasformazione, cioè la produzione vera e propria; e vendita, cioè il collocamento sul mercato."
+      "speech": "approvvigionamento, cioè l'acquisto dei fattori produttivi; trasformazione, cioè la produzione vera e propria; e vendita, cioè il collocamento sul mercato.",
+      "bold": [
+        [
+          0,
+          18
+        ],
+        [
+          60,
+          74
+        ],
+        [
+          113,
+          120
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo ciclo a quattro fasi, perché è uno schema che vale la pena avere sempre in mente quando si ragiona di gestione aziendale:",
@@ -66,11 +110,23 @@
     },
     {
       "text": "L'aspetto finanziario riguarda le variazioni di denaro, crediti e debiti che l'operazione genera: per esempio, un acquisto genera un'uscita di denaro o un debito verso il fornitore.",
-      "speech": "L'aspetto finanziario riguarda le variazioni di denaro, crediti e debiti che l'operazione genera: per esempio, un acquisto genera un'uscita di denaro o un debito verso il fornitore."
+      "speech": "L'aspetto finanziario riguarda le variazioni di denaro, crediti e debiti che l'operazione genera: per esempio, un acquisto genera un'uscita di denaro o un debito verso il fornitore.",
+      "bold": [
+        [
+          2,
+          21
+        ]
+      ]
     },
     {
       "text": "L'aspetto economico riguarda invece le variazioni di costi e ricavi che l'operazione comporta: lo stesso acquisto genera un costo per l'azienda.",
-      "speech": "L'aspetto economico riguarda invece le variazioni di costi e ricavi che l'operazione comporta: lo stesso acquisto genera un costo per l'azienda."
+      "speech": "L'aspetto economico riguarda invece le variazioni di costi e ricavi che l'operazione comporta: lo stesso acquisto genera un costo per l'azienda.",
+      "bold": [
+        [
+          2,
+          19
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un'azienda acquistasse merce pagando subito in contanti, quali sarebbero l'aspetto finanziario e l'aspetto economico di questa singola operazione?",
@@ -98,15 +154,53 @@
     },
     {
       "text": "Primo: la gestione aziendale è l'insieme delle operazioni economiche svolte nel tempo, convenzionalmente suddivisa in esercizi.",
-      "speech": "Primo: la gestione aziendale è l'insieme delle operazioni economiche svolte nel tempo, convenzionalmente suddivisa in esercizi."
+      "speech": "Primo: la gestione aziendale è l'insieme delle operazioni economiche svolte nel tempo, convenzionalmente suddivisa in esercizi.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          118,
+          126
+        ]
+      ]
     },
     {
       "text": "Secondo: le operazioni di gestione si distinguono in esterne e interne, e il ciclo tipico si articola in finanziamento, approvvigionamento, trasformazione e vendita.",
-      "speech": "Secondo: le operazioni di gestione si distinguono in esterne e interne, e il ciclo tipico si articola in finanziamento, approvvigionamento, trasformazione e vendita."
+      "speech": "Secondo: le operazioni di gestione si distinguono in esterne e interne, e il ciclo tipico si articola in finanziamento, approvvigionamento, trasformazione e vendita.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          53,
+          70
+        ]
+      ]
     },
     {
       "text": "Terzo: ogni operazione presenta un aspetto finanziario, relativo a denaro, crediti e debiti, e un aspetto economico, relativo a costi e ricavi.",
-      "speech": "Terzo: ogni operazione presenta un aspetto finanziario, relativo a denaro, crediti e debiti, e un aspetto economico, relativo a costi e ricavi."
+      "speech": "Terzo: ogni operazione presenta un aspetto finanziario, relativo a denaro, crediti e debiti, e un aspetto economico, relativo a costi e ricavi.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          35,
+          54
+        ],
+        [
+          98,
+          115
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo i finanziamenti e gli investimenti, cioè da dove l'azienda trae le risorse e come le impiega.",

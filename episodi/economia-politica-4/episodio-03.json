@@ -14,11 +14,27 @@
     },
     {
       "text": "La politica economica è l'insieme degli interventi con cui i poteri pubblici cercano di orientare l'andamento del sistema economico verso determinati obiettivi:",
-      "speech": "La politica economica è l'insieme degli interventi con cui i poteri pubblici cercano di orientare l'andamento del sistema economico verso determinati obiettivi:"
+      "speech": "La politica economica è l'insieme degli interventi con cui i poteri pubblici cercano di orientare l'andamento del sistema economico verso determinati obiettivi:",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "la crescita del reddito, la piena occupazione, la stabilità dei prezzi e l'equilibrio dei conti con l'estero.",
-      "speech": "la crescita del reddito, la piena occupazione, la stabilità dei prezzi e l'equilibrio dei conti con l'estero."
+      "speech": "la crescita del reddito, la piena occupazione, la stabilità dei prezzi e l'equilibrio dei conti con l'estero.",
+      "bold": [
+        [
+          28,
+          45
+        ],
+        [
+          50,
+          70
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento sui due strumenti principali attraverso cui questi obiettivi vengono perseguiti, perché avete già incontrato entrambi, in forma diversa, negli anni precedenti:",
@@ -26,7 +42,13 @@
     },
     {
       "text": "la politica fiscale, cioè la variazione della spesa pubblica e delle imposte, di competenza del Governo, è esattamente lo strumento che abbiamo visto all'opera nell'episodio scorso,",
-      "speech": "la politica fiscale, cioè la variazione della spesa pubblica e delle imposte, di competenza del Governo, è esattamente lo strumento che abbiamo visto all'opera nell'episodio scorso,"
+      "speech": "la politica fiscale, cioè la variazione della spesa pubblica e delle imposte, di competenza del Governo, è esattamente lo strumento che abbiamo visto all'opera nell'episodio scorso,",
+      "bold": [
+        [
+          3,
+          19
+        ]
+      ]
     },
     {
       "text": "quando un aumento della spesa pubblica produceva, attraverso il moltiplicatore, un effetto amplificato sul reddito nazionale.",
@@ -34,15 +56,33 @@
     },
     {
       "text": "La politica monetaria, cioè la variazione della quantità di moneta e dei tassi di interesse, di competenza della banca centrale, è invece lo strumento che approfondiremo nella prossima unità, dedicata al sistema monetario.",
-      "speech": "La politica monetaria, cioè la variazione della quantità di moneta e dei tassi di interesse, di competenza della banca centrale, è invece lo strumento che approfondiremo nella prossima unità, dedicata al sistema monetario."
+      "speech": "La politica monetaria, cioè la variazione della quantità di moneta e dei tassi di interesse, di competenza della banca centrale, è invece lo strumento che approfondiremo nella prossima unità, dedicata al sistema monetario.",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "Un tema centrale, che collega direttamente la politica economica alle scelte del Governo, è quello della sostenibilità della politica economica, in particolare della sostenibilità del debito pubblico:",
-      "speech": "Un tema centrale, che collega direttamente la politica economica alle scelte del Governo, è quello della sostenibilità della politica economica, in particolare della sostenibilità del debito pubblico:"
+      "speech": "Un tema centrale, che collega direttamente la politica economica alle scelte del Governo, è quello della sostenibilità della politica economica, in particolare della sostenibilità del debito pubblico:",
+      "bold": [
+        [
+          166,
+          199
+        ]
+      ]
     },
     {
       "text": "uno Stato che si indebita in modo eccessivo rispetto alla propria capacità di produrre reddito rischia di compromettere la fiducia dei mercati finanziari e la stabilità futura della propria finanza pubblica.",
-      "speech": "uno Stato che si indebita in modo eccessivo rispetto alla propria capacità di produrre reddito rischia di compromettere la fiducia dei mercati finanziari e la stabilità futura della propria finanza pubblica."
+      "speech": "uno Stato che si indebita in modo eccessivo rispetto alla propria capacità di produrre reddito rischia di compromettere la fiducia dei mercati finanziari e la stabilità futura della propria finanza pubblica.",
+      "bold": [
+        [
+          123,
+          153
+        ]
+      ]
     },
     {
       "text": "Questo è un vincolo che ogni Governo deve tenere presente quando utilizza la politica fiscale per stimolare l'economia:",
@@ -50,7 +90,13 @@
     },
     {
       "text": "una spesa pubblica finanziata in disavanzo, se ripetuta eccessivamente nel tempo, può generare un debito pubblico non più sostenibile.",
-      "speech": "una spesa pubblica finanziata in disavanzo, se ripetuta eccessivamente nel tempo, può generare un debito pubblico non più sostenibile."
+      "speech": "una spesa pubblica finanziata in disavanzo, se ripetuta eccessivamente nel tempo, può generare un debito pubblico non più sostenibile.",
+      "bold": [
+        [
+          33,
+          42
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: classificate i seguenti quattro obiettivi di politica economica,",
@@ -102,15 +148,57 @@
     },
     {
       "text": "Primo: la politica economica persegue crescita del reddito, piena occupazione, stabilità dei prezzi ed equilibrio con l'estero.",
-      "speech": "Primo: la politica economica persegue crescita del reddito, piena occupazione, stabilità dei prezzi ed equilibrio con l'estero."
+      "speech": "Primo: la politica economica persegue crescita del reddito, piena occupazione, stabilità dei prezzi ed equilibrio con l'estero.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          38,
+          58
+        ],
+        [
+          60,
+          77
+        ],
+        [
+          79,
+          99
+        ]
+      ]
     },
     {
       "text": "Secondo: i due strumenti principali sono la politica fiscale, di competenza del Governo, e la politica monetaria, di competenza della banca centrale.",
-      "speech": "Secondo: i due strumenti principali sono la politica fiscale, di competenza del Governo, e la politica monetaria, di competenza della banca centrale."
+      "speech": "Secondo: i due strumenti principali sono la politica fiscale, di competenza del Governo, e la politica monetaria, di competenza della banca centrale.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          44,
+          60
+        ],
+        [
+          94,
+          112
+        ]
+      ]
     },
     {
       "text": "Terzo: un tema centrale è la sostenibilità del debito pubblico, che pone un vincolo all'uso della politica fiscale nel tempo.",
-      "speech": "Terzo: un tema centrale è la sostenibilità del debito pubblico, che pone un vincolo all'uso della politica fiscale nel tempo."
+      "speech": "Terzo: un tema centrale è la sostenibilità del debito pubblico, che pone un vincolo all'uso della politica fiscale nel tempo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          29,
+          62
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo il mercato del lavoro e le diverse tipologie di disoccupazione.",

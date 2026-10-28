@@ -7,31 +7,19 @@
     {
       "text": "Nell'episodio scorso abbiamo visto il quadro d'insieme del Siglo de Oro e le sue due fasi, Renacimiento e Barroco.",
       "speech": "Nell'episodio scorso abbiamo visto il quadro d'insieme del Siglo de Oro e le sue due fasi, Renacimiento e Barroco.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nell'episodio scorso abbiamo visto il quadro d'insieme del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro"
-        },
-        {
-          "lang": "it",
-          "text": "e le sue due fasi,"
-        },
-        {
-          "lang": "es",
-          "text": "Renacimiento"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "es",
-          "text": "Barroco."
-        }
+      "bold": [
+        [
+          59,
+          71
+        ],
+        [
+          91,
+          103
+        ],
+        [
+          106,
+          113
+        ]
       ]
     },
     {
@@ -41,77 +29,85 @@
     {
       "text": "Miguel de Cervantes, e il suo capolavoro assoluto, il Don Quijote de la Mancha.",
       "speech": "Miguel de Cervantes, e il suo capolavoro assoluto, il Don Quijote de la Mancha.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Miguel de Cervantes,"
-        },
-        {
-          "lang": "it",
-          "text": "e il suo capolavoro assoluto, il Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote de la Mancha."
-        }
+      "bold": [
+        [
+          0,
+          19
+        ],
+        [
+          58,
+          78
+        ]
       ]
     },
     {
       "text": "Miguel de Cervantes Saavedra, vissuto tra il 1547 e il 1616, ebbe una vita avventurosa e segnata da difficoltà, che vale la pena conoscere perché getta luce sulla profondità umana della sua opera successiva.",
       "speech": "Miguel de Cervantes Saavedra, vissuto tra il 1547 e il 1616, ebbe una vita avventurosa e segnata da difficoltà, che vale la pena conoscere perché getta luce sulla profondità umana della sua opera successiva.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Miguel de Cervantes Saavedra,"
-        },
-        {
-          "lang": "it",
-          "text": "vissuto tra il 1547 e il 1616, ebbe una vita avventurosa e segnata da difficoltà, che vale la pena conoscere perché getta luce sulla profondità umana della sua opera successiva."
-        }
+      "bold": [
+        [
+          0,
+          28
+        ],
+        [
+          38,
+          59
+        ]
       ]
     },
     {
       "text": "Combatté come soldato nella celebre battaglia navale di Lepanto, nel 1571, contro l'Impero ottomano,",
-      "speech": "Combatté come soldato nella celebre battaglia navale di Lepanto, nel 1571, contro l'Impero ottomano,"
+      "speech": "Combatté come soldato nella celebre battaglia navale di Lepanto, nel 1571, contro l'Impero ottomano,",
+      "bold": [
+        [
+          36,
+          63
+        ],
+        [
+          69,
+          73
+        ],
+        [
+          84,
+          99
+        ]
+      ]
     },
     {
       "text": "dove fu ferito e perse l'uso della mano sinistra, guadagnandosi l'appellativo, quasi un titolo d'onore, di «El Manco de Lepanto», il monco di Lepanto.",
       "speech": "dove fu ferito e perse l'uso della mano sinistra, guadagnandosi l'appellativo, quasi un titolo d'onore, di «El Manco de Lepanto», il monco di Lepanto.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "dove fu ferito e perse l'uso della mano sinistra, guadagnandosi l'appellativo, quasi un titolo d'onore, di «"
-        },
-        {
-          "lang": "es",
-          "text": "El Manco de Lepanto»,"
-        },
-        {
-          "lang": "it",
-          "text": "il monco di Lepanto."
-        }
+      "bold": [
+        [
+          108,
+          127
+        ]
       ]
     },
     {
       "text": "Fu inoltre catturato dai corsari barbareschi e trascorse cinque lunghi anni come schiavo ad Algeri, prima di essere finalmente riscattato e fare ritorno in Spagna.",
-      "speech": "Fu inoltre catturato dai corsari barbareschi e trascorse cinque lunghi anni come schiavo ad Algeri, prima di essere finalmente riscattato e fare ritorno in Spagna."
+      "speech": "Fu inoltre catturato dai corsari barbareschi e trascorse cinque lunghi anni come schiavo ad Algeri, prima di essere finalmente riscattato e fare ritorno in Spagna.",
+      "bold": [
+        [
+          92,
+          98
+        ]
+      ]
     },
     {
       "text": "La sua opera più celebre, El ingenioso hidalgo don Quijote de la Mancha, pubblicata in due parti, nel 1605 e nel 1615, è considerata il primo romanzo moderno della letteratura occidentale.",
       "speech": "La sua opera più celebre, El ingenioso hidalgo don Quijote de la Mancha, pubblicata in due parti, nel 1605 e nel 1615, è considerata il primo romanzo moderno della letteratura occidentale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La sua opera più celebre,"
-        },
-        {
-          "lang": "es",
-          "text": "El ingenioso hidalgo don Quijote de la Mancha,"
-        },
-        {
-          "lang": "it",
-          "text": "pubblicata in due parti, nel 1605 e nel 1615, è considerata il primo romanzo moderno della letteratura occidentale."
-        }
+      "bold": [
+        [
+          26,
+          71
+        ],
+        [
+          102,
+          117
+        ],
+        [
+          136,
+          157
+        ]
       ]
     },
     {
@@ -120,150 +116,140 @@
     },
     {
       "text": "mentre nel modulo di Inglese avete forse incontrato Daniel Defoe come padre del romanzo inglese nel Settecento,",
-      "speech": "mentre nel modulo di Inglese avete forse incontrato Daniel Defoe come padre del romanzo inglese nel Settecento,"
+      "speech": "mentre nel modulo di Inglese avete forse incontrato Daniel Defoe come padre del romanzo inglese nel Settecento,",
+      "bold": [
+        [
+          52,
+          64
+        ]
+      ]
     },
     {
       "text": "in Spagna Cervantes anticipa questo stesso passaggio storico di quasi un secolo, rendendo il Don Quijote un vero e proprio spartiacque nella storia della narrativa mondiale.",
       "speech": "in Spagna Cervantes anticipa questo stesso passaggio storico di quasi un secolo, rendendo il Don Quijote un vero e proprio spartiacque nella storia della narrativa mondiale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "in Spagna Cervantes anticipa questo stesso passaggio storico di quasi un secolo, rendendo il Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote"
-        },
-        {
-          "lang": "it",
-          "text": "un vero e proprio spartiacque nella storia della narrativa mondiale."
-        }
+      "bold": [
+        [
+          97,
+          104
+        ]
       ]
     },
     {
       "text": "Il romanzo racconta le avventure di Alonso Quijano, un modesto hidalgo,",
       "speech": "Il romanzo racconta le avventure di Alonso Quijano, un modesto hidalgo,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il romanzo racconta le avventure di Alonso"
-        },
-        {
-          "lang": "es",
-          "text": "Quijano, un modesto hidalgo,"
-        }
+      "bold": [
+        [
+          43,
+          70
+        ]
       ]
     },
     {
       "text": "cioè un nobile di rango minore, che, dopo aver letto un numero eccessivo di romanzi cavallereschi, perde il senno e decide di farsi cavaliere errante con il nome di Don Quijote de la Mancha,",
       "speech": "cioè un nobile di rango minore, che, dopo aver letto un numero eccessivo di romanzi cavallereschi, perde il senno e decide di farsi cavaliere errante con il nome di Don Quijote de la Mancha,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "cioè un nobile di rango minore, che, dopo aver letto un numero eccessivo di romanzi cavallereschi, perde il senno e decide di farsi cavaliere errante con il nome di Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote de la Mancha,"
-        }
+      "bold": [
+        [
+          76,
+          97
+        ],
+        [
+          132,
+          149
+        ],
+        [
+          169,
+          189
+        ]
       ]
     },
     {
       "text": "partendo in sella al proprio cavallo Rocinante, insieme al fedele scudiero Sancho Panza, per compiere imprese eroiche in un mondo che, però, non è più quello della cavalleria medievale.",
       "speech": "partendo in sella al proprio cavallo Rocinante, insieme al fedele scudiero Sancho Panza, per compiere imprese eroiche in un mondo che, però, non è più quello della cavalleria medievale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "partendo in sella al proprio cavallo Rocinante, insieme al fedele scudiero"
-        },
-        {
-          "lang": "es",
-          "text": "Sancho Panza,"
-        },
-        {
-          "lang": "it",
-          "text": "per compiere imprese eroiche in un mondo che, però, non è più quello della cavalleria medievale."
-        }
+      "bold": [
+        [
+          37,
+          46
+        ],
+        [
+          75,
+          87
+        ]
       ]
     },
     {
       "text": "Celebre è, in particolare, l'episodio in cui Don Quijote carica contro dei mulini a vento, scambiandoli per giganti minacciosi:",
       "speech": "Celebre è, in particolare, l'episodio in cui Don Quijote carica contro dei mulini a vento, scambiandoli per giganti minacciosi:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Celebre è, in particolare, l'episodio in cui Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote"
-        },
-        {
-          "lang": "it",
-          "text": "carica contro dei mulini a vento, scambiandoli per giganti minacciosi:"
-        }
+      "bold": [
+        [
+          49,
+          56
+        ],
+        [
+          75,
+          89
+        ]
       ]
     },
     {
       "text": "un'immagine diventata proverbiale in tutte le lingue del mondo, incluso l'italiano, per indicare chi combatte battaglie immaginarie contro nemici che esistono solo nella propria mente.",
       "speech": "un'immagine diventata proverbiale in tutte le lingue del mondo, incluso l'italiano, per indicare chi combatte battaglie immaginarie contro nemici che esistono solo nella propria mente.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "un'immagine diventata proverbiale in tutte le lingue del mondo,"
-        },
-        {
-          "lang": "es",
-          "text": "incluso"
-        },
-        {
-          "lang": "it",
-          "text": "l'italiano, per indicare chi combatte battaglie immaginarie contro nemici che esistono solo nella propria mente."
-        }
+      "bold": [
+        [
+          64,
+          71
+        ]
       ]
     },
     {
       "text": "Il romanzo, nato come parodia dei romanzi cavallereschi allora molto popolari presso il pubblico spagnolo, si trasforma progressivamente,",
-      "speech": "Il romanzo, nato come parodia dei romanzi cavallereschi allora molto popolari presso il pubblico spagnolo, si trasforma progressivamente,"
+      "speech": "Il romanzo, nato come parodia dei romanzi cavallereschi allora molto popolari presso il pubblico spagnolo, si trasforma progressivamente,",
+      "bold": [
+        [
+          22,
+          55
+        ]
+      ]
     },
     {
       "text": "capitolo dopo capitolo, in una riflessione assai più profonda sul rapporto tra ideale e realtà, tra follia e saggezza.",
-      "speech": "capitolo dopo capitolo, in una riflessione assai più profonda sul rapporto tra ideale e realtà, tra follia e saggezza."
+      "speech": "capitolo dopo capitolo, in una riflessione assai più profonda sul rapporto tra ideale e realtà, tra follia e saggezza.",
+      "bold": [
+        [
+          79,
+          94
+        ],
+        [
+          100,
+          117
+        ]
+      ]
     },
     {
       "text": "La nobile follia idealistica di Don Quijote, capace di vedere nel mondo ciò che vorrebbe che fosse anziché ciò che realmente è,",
       "speech": "La nobile follia idealistica di Don Quijote, capace di vedere nel mondo ciò che vorrebbe che fosse anziché ciò che realmente è,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La nobile follia idealistica di Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote,"
-        },
-        {
-          "lang": "it",
-          "text": "capace di vedere nel mondo ciò che vorrebbe che fosse anziché ciò che realmente è,"
-        }
+      "bold": [
+        [
+          3,
+          28
+        ],
+        [
+          36,
+          43
+        ]
       ]
     },
     {
       "text": "si contrappone al pragmatismo popolare e concreto di Sancho Panza, in un dialogo tra i due personaggi che è tra i più celebri e influenti dell'intera storia della letteratura mondiale.",
       "speech": "si contrappone al pragmatismo popolare e concreto di Sancho Panza, in un dialogo tra i due personaggi che è tra i più celebri e influenti dell'intera storia della letteratura mondiale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "si contrappone al pragmatismo popolare e concreto di"
-        },
-        {
-          "lang": "es",
-          "text": "Sancho Panza,"
-        },
-        {
-          "lang": "it",
-          "text": "in un dialogo tra i due personaggi che è tra i più celebri e influenti dell'intera storia della letteratura mondiale."
-        }
+      "bold": [
+        [
+          18,
+          49
+        ],
+        [
+          53,
+          65
+        ]
       ]
     },
     {
@@ -273,87 +259,59 @@
     {
       "text": "Quanto all'origine sociale, Don Quijote è un hidalgo, appartenente alla piccola nobiltà rurale, mentre Sancho Panza è un contadino, che diventa suo scudiero.",
       "speech": "Quanto all'origine sociale, Don Quijote è un hidalgo, appartenente alla piccola nobiltà rurale, mentre Sancho Panza è un contadino, che diventa suo scudiero.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quanto all'origine sociale,"
-        },
-        {
-          "lang": "es",
-          "text": "Don Quijote"
-        },
-        {
-          "lang": "it",
-          "text": "è un"
-        },
-        {
-          "lang": "es",
-          "text": "hidalgo,"
-        },
-        {
-          "lang": "it",
-          "text": "appartenente alla piccola nobiltà rurale, mentre"
-        },
-        {
-          "lang": "es",
-          "text": "Sancho"
-        },
-        {
-          "lang": "it",
-          "text": "Panza è un contadino, che diventa suo scudiero."
-        }
+      "bold": [
+        [
+          28,
+          39
+        ],
+        [
+          45,
+          52
+        ],
+        [
+          72,
+          94
+        ],
+        [
+          103,
+          109
+        ]
       ]
     },
     {
       "text": "Quanto alla visione del mondo, Don Quijote è idealista e immaginifica, ispirata ai romanzi cavallereschi, mentre Sancho Panza è pragmatica, concreta e popolare.",
       "speech": "Quanto alla visione del mondo, Don Quijote è idealista e immaginifica, ispirata ai romanzi cavallereschi, mentre Sancho Panza è pragmatica, concreta e popolare.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quanto alla visione del mondo,"
-        },
-        {
-          "lang": "es",
-          "text": "Don Quijote"
-        },
-        {
-          "lang": "it",
-          "text": "è idealista e immaginifica, ispirata ai romanzi cavallereschi, mentre"
-        },
-        {
-          "lang": "es",
-          "text": "Sancho"
-        },
-        {
-          "lang": "it",
-          "text": "Panza è pragmatica, concreta e popolare."
-        }
+      "bold": [
+        [
+          31,
+          42
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          113,
+          119
+        ]
       ]
     },
     {
       "text": "Quanto alla funzione narrativa, Don Quijote è il protagonista e il motore dell'azione, mentre Sancho Panza rappresenta un contrappunto comico e realistico alle sue fantasie.",
       "speech": "Quanto alla funzione narrativa, Don Quijote è il protagonista e il motore dell'azione, mentre Sancho Panza rappresenta un contrappunto comico e realistico alle sue fantasie.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quanto alla funzione narrativa,"
-        },
-        {
-          "lang": "es",
-          "text": "Don Quijote"
-        },
-        {
-          "lang": "it",
-          "text": "è il protagonista e il motore dell'azione, mentre"
-        },
-        {
-          "lang": "es",
-          "text": "Sancho"
-        },
-        {
-          "lang": "it",
-          "text": "Panza rappresenta un contrappunto comico e realistico alle sue fantasie."
-        }
+      "bold": [
+        [
+          32,
+          43
+        ],
+        [
+          94,
+          100
+        ],
+        [
+          122,
+          154
+        ]
       ]
     },
     {
@@ -363,93 +321,97 @@
     {
       "text": "Primo: Miguel de Cervantes, dopo una vita avventurosa segnata dalla battaglia di Lepanto e dalla prigionia ad Algeri, scrisse il Don Quijote de la Mancha, considerato il primo romanzo moderno della letteratura occidentale.",
       "speech": "Primo: Miguel de Cervantes, dopo una vita avventurosa segnata dalla battaglia di Lepanto e dalla prigionia ad Algeri, scrisse il Don Quijote de la Mancha, considerato il primo romanzo moderno della letteratura occidentale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo:"
-        },
-        {
-          "lang": "es",
-          "text": "Miguel de Cervantes,"
-        },
-        {
-          "lang": "it",
-          "text": "dopo una vita avventurosa segnata dalla battaglia di Lepanto e dalla prigionia ad Algeri, scrisse il Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote de la Mancha,"
-        },
-        {
-          "lang": "it",
-          "text": "considerato il primo romanzo moderno della letteratura occidentale."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          26
+        ],
+        [
+          68,
+          88
+        ],
+        [
+          97,
+          116
+        ],
+        [
+          133,
+          153
+        ],
+        [
+          170,
+          191
+        ]
       ]
     },
     {
       "text": "Secondo: il romanzo racconta le avventure di Don Quijote, che scambia mulini a vento per giganti, e del suo scudiero Sancho Panza.",
       "speech": "Secondo: il romanzo racconta le avventure di Don Quijote, che scambia mulini a vento per giganti, e del suo scudiero Sancho Panza.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo: il romanzo racconta le avventure di Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote,"
-        },
-        {
-          "lang": "it",
-          "text": "che scambia mulini a vento per giganti, e del suo scudiero"
-        },
-        {
-          "lang": "es",
-          "text": "Sancho Panza."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          49,
+          56
+        ],
+        [
+          70,
+          84
+        ],
+        [
+          117,
+          129
+        ]
       ]
     },
     {
       "text": "Terzo: il romanzo sviluppa una profonda riflessione sul rapporto tra ideale e realtà, incarnata nel contrasto tra l'idealismo di Don Quijote e il pragmatismo di Sancho Panza.",
       "speech": "Terzo: il romanzo sviluppa una profonda riflessione sul rapporto tra ideale e realtà, incarnata nel contrasto tra l'idealismo di Don Quijote e il pragmatismo di Sancho Panza.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Terzo: il romanzo sviluppa una profonda riflessione sul rapporto tra ideale e realtà, incarnata nel contrasto tra l'idealismo di Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote"
-        },
-        {
-          "lang": "it",
-          "text": "e il pragmatismo di"
-        },
-        {
-          "lang": "es",
-          "text": "Sancho Panza."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          69,
+          84
+        ],
+        [
+          116,
+          125
+        ],
+        [
+          133,
+          140
+        ],
+        [
+          146,
+          157
+        ],
+        [
+          161,
+          173
+        ]
       ]
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 1 e ci spostiamo dal romanzo al teatro, con il teatro barocco del Siglo de Oro e la sua formula drammatica caratteristica, la comedia nueva.",
       "speech": "Nel prossimo episodio restiamo nel Modulo 1 e ci spostiamo dal romanzo al teatro, con il teatro barocco del Siglo de Oro e la sua formula drammatica caratteristica, la comedia nueva.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel prossimo episodio restiamo nel Modulo 1 e ci spostiamo dal romanzo al teatro, con il teatro barocco del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro"
-        },
-        {
-          "lang": "it",
-          "text": "e la sua formula drammatica caratteristica,"
-        },
-        {
-          "lang": "es",
-          "text": "la comedia nueva."
-        }
+      "bold": [
+        [
+          108,
+          120
+        ],
+        [
+          165,
+          181
+        ]
       ]
     },
     {

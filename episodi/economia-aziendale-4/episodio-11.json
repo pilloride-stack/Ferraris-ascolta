@@ -14,7 +14,17 @@
     },
     {
       "text": "La gestione delle risorse umane comprende l'insieme delle attività volte ad acquisire, valorizzare e mantenere nel tempo il capitale umano dell'azienda.",
-      "speech": "La gestione delle risorse umane comprende l'insieme delle attività volte ad acquisire, valorizzare e mantenere nel tempo il capitale umano dell'azienda."
+      "speech": "La gestione delle risorse umane comprende l'insieme delle attività volte ad acquisire, valorizzare e mantenere nel tempo il capitale umano dell'azienda.",
+      "bold": [
+        [
+          3,
+          31
+        ],
+        [
+          124,
+          138
+        ]
+      ]
     },
     {
       "text": "Le fasi principali sono tre.",
@@ -22,15 +32,33 @@
     },
     {
       "text": "La selezione del personale, cioè l'individuazione e la scelta dei candidati più idonei alle posizioni da ricoprire.",
-      "speech": "La selezione del personale, cioè l'individuazione e la scelta dei candidati più idonei alle posizioni da ricoprire."
+      "speech": "La selezione del personale, cioè l'individuazione e la scelta dei candidati più idonei alle posizioni da ricoprire.",
+      "bold": [
+        [
+          3,
+          26
+        ]
+      ]
     },
     {
       "text": "La formazione, cioè lo sviluppo delle competenze tecniche e trasversali dei dipendenti.",
-      "speech": "La formazione, cioè lo sviluppo delle competenze tecniche e trasversali dei dipendenti."
+      "speech": "La formazione, cioè lo sviluppo delle competenze tecniche e trasversali dei dipendenti.",
+      "bold": [
+        [
+          3,
+          13
+        ]
+      ]
     },
     {
       "text": "La valutazione delle prestazioni, cioè la misurazione periodica dei risultati raggiunti, utile anche per orientare percorsi di carriera e sistemi premianti.",
-      "speech": "La valutazione delle prestazioni, cioè la misurazione periodica dei risultati raggiunti, utile anche per orientare percorsi di carriera e sistemi premianti."
+      "speech": "La valutazione delle prestazioni, cioè la misurazione periodica dei risultati raggiunti, utile anche per orientare percorsi di carriera e sistemi premianti.",
+      "bold": [
+        [
+          3,
+          32
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su queste tre fasi, perché insieme formano un ciclo continuo:",
@@ -46,19 +74,47 @@
     },
     {
       "text": "Accanto a questi aspetti più strategici, esiste l'amministrazione del personale, che si occupa degli aspetti operativi e contrattuali del rapporto di lavoro:",
-      "speech": "Accanto a questi aspetti più strategici, esiste l'amministrazione del personale, che si occupa degli aspetti operativi e contrattuali del rapporto di lavoro:"
+      "speech": "Accanto a questi aspetti più strategici, esiste l'amministrazione del personale, che si occupa degli aspetti operativi e contrattuali del rapporto di lavoro:",
+      "bold": [
+        [
+          50,
+          79
+        ]
+      ]
     },
     {
       "text": "la gestione delle presenze, il calcolo delle retribuzioni e la loro documentazione attraverso la busta paga, o cedolino paga, gli adempimenti verso gli enti previdenziali e assistenziali,",
-      "speech": "la gestione delle presenze, il calcolo delle retribuzioni e la loro documentazione attraverso la busta paga, o cedolino paga, gli adempimenti verso gli enti previdenziali e assistenziali,"
+      "speech": "la gestione delle presenze, il calcolo delle retribuzioni e la loro documentazione attraverso la busta paga, o cedolino paga, gli adempimenti verso gli enti previdenziali e assistenziali,",
+      "bold": [
+        [
+          97,
+          107
+        ]
+      ]
     },
     {
       "text": "in particolare l'INPS, a cui l'azienda versa i contributi previdenziali sia a proprio carico sia trattenuti dalla retribuzione del dipendente,",
-      "speech": "in particolare l'INPS, a cui l'azienda versa i contributi previdenziali sia a proprio carico sia trattenuti dalla retribuzione del dipendente,"
+      "speech": "in particolare l'INPS, a cui l'azienda versa i contributi previdenziali sia a proprio carico sia trattenuti dalla retribuzione del dipendente,",
+      "bold": [
+        [
+          17,
+          21
+        ],
+        [
+          47,
+          71
+        ]
+      ]
     },
     {
       "text": "e la tenuta del Libro Unico del Lavoro, il registro obbligatorio in cui sono annotati i dati anagrafici, retributivi e presenze di ciascun lavoratore.",
-      "speech": "e la tenuta del Libro Unico del Lavoro, il registro obbligatorio in cui sono annotati i dati anagrafici, retributivi e presenze di ciascun lavoratore."
+      "speech": "e la tenuta del Libro Unico del Lavoro, il registro obbligatorio in cui sono annotati i dati anagrafici, retributivi e presenze di ciascun lavoratore.",
+      "bold": [
+        [
+          16,
+          38
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, l'esercizio svolto sul calcolo della retribuzione netta: un dipendente ha una retribuzione lorda mensile di milleottocento euro.",
@@ -66,7 +122,13 @@
     },
     {
       "text": "I contributi previdenziali a carico del lavoratore ammontano al nove virgola diciannove per cento della retribuzione lorda, e le ritenute fiscali, l'IRPEF, sono stimate in duecentocinquanta euro.",
-      "speech": "I contributi previdenziali a carico del lavoratore ammontano al nove virgola diciannove per cento della retribuzione lorda, e le ritenute fiscali, l'IRPEF, sono stimate in duecentocinquanta euro."
+      "speech": "I contributi previdenziali a carico del lavoratore ammontano al nove virgola diciannove per cento della retribuzione lorda, e le ritenute fiscali, l'IRPEF, sono stimate in duecentocinquanta euro.",
+      "bold": [
+        [
+          149,
+          154
+        ]
+      ]
     },
     {
       "text": "Calcolare la retribuzione netta.",
@@ -74,11 +136,23 @@
     },
     {
       "text": "I contributi INPS a carico del lavoratore sono milleottocento per nove virgola diciannove per cento, cioè circa centosessantacinque euro e quarantadue centesimi.",
-      "speech": "I contributi INPS a carico del lavoratore sono milleottocento per nove virgola diciannove per cento, cioè circa centosessantacinque euro e quarantadue centesimi."
+      "speech": "I contributi INPS a carico del lavoratore sono milleottocento per nove virgola diciannove per cento, cioè circa centosessantacinque euro e quarantadue centesimi.",
+      "bold": [
+        [
+          2,
+          17
+        ]
+      ]
     },
     {
       "text": "La retribuzione netta è milleottocento meno centosessantacinque euro e quarantadue centesimi, meno duecentocinquanta euro, cioè circa milletrecentottantaquattro euro e cinquantotto centesimi.",
-      "speech": "La retribuzione netta è milleottocento meno centosessantacinque euro e quarantadue centesimi, meno duecentocinquanta euro, cioè circa milletrecentottantaquattro euro e cinquantotto centesimi."
+      "speech": "La retribuzione netta è milleottocento meno centosessantacinque euro e quarantadue centesimi, meno duecentocinquanta euro, cioè circa milletrecentottantaquattro euro e cinquantotto centesimi.",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se le ritenute fiscali di quello stesso dipendente aumentassero a trecento euro,",
@@ -102,15 +176,49 @@
     },
     {
       "text": "Primo: la gestione delle risorse umane comprende selezione, formazione e valutazione delle prestazioni, in un ciclo continuo.",
-      "speech": "Primo: la gestione delle risorse umane comprende selezione, formazione e valutazione delle prestazioni, in un ciclo continuo."
+      "speech": "Primo: la gestione delle risorse umane comprende selezione, formazione e valutazione delle prestazioni, in un ciclo continuo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          49,
+          102
+        ]
+      ]
     },
     {
       "text": "Secondo: l'amministrazione del personale si occupa di presenze, retribuzioni, busta paga, adempimenti INPS e Libro Unico del Lavoro.",
-      "speech": "Secondo: l'amministrazione del personale si occupa di presenze, retribuzioni, busta paga, adempimenti INPS e Libro Unico del Lavoro."
+      "speech": "Secondo: l'amministrazione del personale si occupa di presenze, retribuzioni, busta paga, adempimenti INPS e Libro Unico del Lavoro.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          109,
+          131
+        ]
+      ]
     },
     {
       "text": "Terzo: la retribuzione netta si calcola sottraendo dalla retribuzione lorda i contributi previdenziali a carico del lavoratore e le ritenute fiscali.",
-      "speech": "Terzo: la retribuzione netta si calcola sottraendo dalla retribuzione lorda i contributi previdenziali a carico del lavoratore e le ritenute fiscali."
+      "speech": "Terzo: la retribuzione netta si calcola sottraendo dalla retribuzione lorda i contributi previdenziali a carico del lavoratore e le ritenute fiscali.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          28
+        ],
+        [
+          57,
+          75
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato la sesta unità della dispensa.",

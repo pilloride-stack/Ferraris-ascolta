@@ -10,11 +10,27 @@
     },
     {
       "text": "Oggi entriamo nel pensiero di Aristotele, cominciando dalla sua vita, dalla logica e dalle categorie.",
-      "speech": "Oggi entriamo nel pensiero di Aristotele, cominciando dalla sua vita, dalla logica e dalle categorie."
+      "speech": "Oggi entriamo nel pensiero di Aristotele, cominciando dalla sua vita, dalla logica e dalle categorie.",
+      "bold": [
+        [
+          30,
+          40
+        ]
+      ]
     },
     {
       "text": "Aristotele nasce a Stagira, in Calcidica, nel trecentottantaquattro avanti Cristo, figlio di un medico alla corte macedone;",
-      "speech": "Aristotele nasce a Stagira, in Calcidica, nel trecentottantaquattro avanti Cristo, figlio di un medico alla corte macedone;"
+      "speech": "Aristotele nasce a Stagira, in Calcidica, nel trecentottantaquattro avanti Cristo, figlio di un medico alla corte macedone;",
+      "bold": [
+        [
+          19,
+          26
+        ],
+        [
+          46,
+          81
+        ]
+      ]
     },
     {
       "text": "allievo di Platone all'Accademia per vent'anni, se ne allontana progressivamente sul piano teorico pur mantenendo grande rispetto per il maestro, secondo un adagio a lui attribuito: Platone è amico ma più amica è la verità.",
@@ -22,7 +38,17 @@
     },
     {
       "text": "Fu precettore di Alessandro Magno e fondò ad Atene, nel trecentotrentacinque avanti Cristo, il Liceo, scuola caratterizzata da un'intensa attività di ricerca e catalogazione del sapere in ogni campo.",
-      "speech": "Fu precettore di Alessandro Magno e fondò ad Atene, nel trecentotrentacinque avanti Cristo, il Liceo, scuola caratterizzata da un'intensa attività di ricerca e catalogazione del sapere in ogni campo."
+      "speech": "Fu precettore di Alessandro Magno e fondò ad Atene, nel trecentotrentacinque avanti Cristo, il Liceo, scuola caratterizzata da un'intensa attività di ricerca e catalogazione del sapere in ogni campo.",
+      "bold": [
+        [
+          17,
+          33
+        ],
+        [
+          95,
+          100
+        ]
+      ]
     },
     {
       "text": "Le opere giunte fino a noi sono per lo più appunti di lezioni destinati all'uso interno della scuola, a differenza dei dialoghi platonici, eleganti e destinati alla pubblicazione.",
@@ -30,15 +56,37 @@
     },
     {
       "text": "Fermatevi un momento sulle categorie, perché sono uno strumento fondamentale della logica aristotelica.",
-      "speech": "Fermatevi un momento sulle categorie, perché sono uno strumento fondamentale della logica aristotelica."
+      "speech": "Fermatevi un momento sulle categorie, perché sono uno strumento fondamentale della logica aristotelica.",
+      "bold": [
+        [
+          27,
+          36
+        ]
+      ]
     },
     {
       "text": "Aristotele fonda la logica come scienza autonoma del ragionamento corretto, uno strumento per ogni altra scienza.",
-      "speech": "Aristotele fonda la logica come scienza autonoma del ragionamento corretto, uno strumento per ogni altra scienza."
+      "speech": "Aristotele fonda la logica come scienza autonoma del ragionamento corretto, uno strumento per ogni altra scienza.",
+      "bold": [
+        [
+          20,
+          26
+        ]
+      ]
     },
     {
       "text": "Nelle Categorie, individua dieci generi supremi sotto cui si possono ordinare tutti i predicati che si possono dire di una sostanza:",
-      "speech": "Nelle Categorie, individua dieci generi supremi sotto cui si possono ordinare tutti i predicati che si possono dire di una sostanza:"
+      "speech": "Nelle Categorie, individua dieci generi supremi sotto cui si possono ordinare tutti i predicati che si possono dire di una sostanza:",
+      "bold": [
+        [
+          6,
+          15
+        ],
+        [
+          27,
+          47
+        ]
+      ]
     },
     {
       "text": "sostanza, quantità, qualità, relazione, luogo, tempo, posizione, avere, agire, subire.",
@@ -46,11 +94,27 @@
     },
     {
       "text": "La categoria fondamentale è la sostanza, ciò che esiste in sé, mentre tutte le altre nove sono accidenti, che esistono solo in altro, cioè in una sostanza.",
-      "speech": "La categoria fondamentale è la sostanza, ciò che esiste in sé, mentre tutte le altre nove sono accidenti, che esistono solo in altro, cioè in una sostanza."
+      "speech": "La categoria fondamentale è la sostanza, ciò che esiste in sé, mentre tutte le altre nove sono accidenti, che esistono solo in altro, cioè in una sostanza.",
+      "bold": [
+        [
+          31,
+          39
+        ],
+        [
+          95,
+          104
+        ]
+      ]
     },
     {
       "text": "Alla base di ogni logica e di ogni conoscenza, secondo Aristotele, sta il principio di non contraddizione:",
-      "speech": "Alla base di ogni logica e di ogni conoscenza, secondo Aristotele, sta il principio di non contraddizione:"
+      "speech": "Alla base di ogni logica e di ogni conoscenza, secondo Aristotele, sta il principio di non contraddizione:",
+      "bold": [
+        [
+          74,
+          105
+        ]
+      ]
     },
     {
       "text": "è impossibile che il medesimo attributo, nel medesimo tempo, appartenga e non appartenga al medesimo soggetto, sotto il medesimo rispetto.",
@@ -58,11 +122,23 @@
     },
     {
       "text": "Questo principio non può essere dimostrato, perché ogni dimostrazione lo presuppone già, ed è la condizione stessa della possibilità del pensiero e della comunicazione.",
-      "speech": "Questo principio non può essere dimostrato, perché ogni dimostrazione lo presuppone già, ed è la condizione stessa della possibilità del pensiero e della comunicazione."
+      "speech": "Questo principio non può essere dimostrato, perché ogni dimostrazione lo presuppone già, ed è la condizione stessa della possibilità del pensiero e della comunicazione.",
+      "bold": [
+        [
+          17,
+          42
+        ]
+      ]
     },
     {
       "text": "Lo strumento principale della logica aristotelica è il sillogismo: un ragionamento deduttivo composto da due premesse e una conclusione che deriva necessariamente da esse, come nell'esempio classico:",
-      "speech": "Lo strumento principale della logica aristotelica è il sillogismo: un ragionamento deduttivo composto da due premesse e una conclusione che deriva necessariamente da esse, come nell'esempio classico:"
+      "speech": "Lo strumento principale della logica aristotelica è il sillogismo: un ragionamento deduttivo composto da due premesse e una conclusione che deriva necessariamente da esse, come nell'esempio classico:",
+      "bold": [
+        [
+          55,
+          65
+        ]
+      ]
     },
     {
       "text": "tutti gli uomini sono mortali, Socrate è un uomo, dunque Socrate è mortale.",
@@ -70,11 +146,27 @@
     },
     {
       "text": "Aristotele distingue il sillogismo scientifico, che parte da premesse vere e produce conoscenza certa, dal sillogismo dialettico, che parte da premesse probabili,",
-      "speech": "Aristotele distingue il sillogismo scientifico, che parte da premesse vere e produce conoscenza certa, dal sillogismo dialettico, che parte da premesse probabili,"
+      "speech": "Aristotele distingue il sillogismo scientifico, che parte da premesse vere e produce conoscenza certa, dal sillogismo dialettico, che parte da premesse probabili,",
+      "bold": [
+        [
+          24,
+          46
+        ],
+        [
+          107,
+          128
+        ]
+      ]
     },
     {
       "text": "e dal sillogismo eristico o sofistico, apparentemente corretto ma in realtà fallace.",
-      "speech": "e dal sillogismo eristico o sofistico, apparentemente corretto ma in realtà fallace."
+      "speech": "e dal sillogismo eristico o sofistico, apparentemente corretto ma in realtà fallace.",
+      "bold": [
+        [
+          6,
+          37
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: perché, secondo Aristotele, il principio di non contraddizione non può essere dimostrato, ma è comunque il più certo di tutti i principi?",
@@ -110,15 +202,49 @@
     },
     {
       "text": "Primo: Aristotele fonda la logica come scienza autonoma, individuando dieci categorie, di cui la sostanza è quella fondamentale.",
-      "speech": "Primo: Aristotele fonda la logica come scienza autonoma, individuando dieci categorie, di cui la sostanza è quella fondamentale."
+      "speech": "Primo: Aristotele fonda la logica come scienza autonoma, individuando dieci categorie, di cui la sostanza è quella fondamentale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          97,
+          105
+        ]
+      ]
     },
     {
       "text": "Secondo: il principio di non contraddizione è indimostrabile ma è il fondamento di ogni pensiero e comunicazione.",
-      "speech": "Secondo: il principio di non contraddizione è indimostrabile ma è il fondamento di ogni pensiero e comunicazione."
+      "speech": "Secondo: il principio di non contraddizione è indimostrabile ma è il fondamento di ogni pensiero e comunicazione.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          43
+        ]
+      ]
     },
     {
       "text": "Terzo: il sillogismo è lo strumento centrale della logica aristotelica, distinto in scientifico, dialettico ed eristico.",
-      "speech": "Terzo: il sillogismo è lo strumento centrale della logica aristotelica, distinto in scientifico, dialettico ed eristico."
+      "speech": "Terzo: il sillogismo è lo strumento centrale della logica aristotelica, distinto in scientifico, dialettico ed eristico.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          20
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo la metafisica di Aristotele, con la sua critica alla teoria platonica delle idee.",

@@ -14,7 +14,13 @@
     },
     {
       "text": "La digitalizzazione è il processo con cui un segnale analogico continuo,",
-      "speech": "La digitalizzazione è il processo con cui un segnale analogico continuo,"
+      "speech": "La digitalizzazione è il processo con cui un segnale analogico continuo,",
+      "bold": [
+        [
+          3,
+          19
+        ]
+      ]
     },
     {
       "text": "come un suono o un'immagine in movimento, viene convertito in una sequenza discreta di valori numerici, elaborabile dal computer secondo il sistema binario che abbiamo visto nell'episodio scorso.",
@@ -22,7 +28,17 @@
     },
     {
       "text": "Nel caso dell'audio, il processo di campionamento, sampling in inglese, misura l'ampiezza del segnale sonoro a intervalli di tempo regolari, con una frequenza di campionamento espressa in hertz.",
-      "speech": "Nel caso dell'audio, il processo di campionamento, sampling in inglese, misura l'ampiezza del segnale sonoro a intervalli di tempo regolari, con una frequenza di campionamento espressa in hertz."
+      "speech": "Nel caso dell'audio, il processo di campionamento, sampling in inglese, misura l'ampiezza del segnale sonoro a intervalli di tempo regolari, con una frequenza di campionamento espressa in hertz.",
+      "bold": [
+        [
+          36,
+          49
+        ],
+        [
+          149,
+          175
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo principio, perché è facilmente generalizzabile e vale la pena saperlo esporre con chiarezza:",
@@ -30,19 +46,47 @@
     },
     {
       "text": "più alta è la frequenza di campionamento, e più alta è la profondità in bit di ciascun campione, più fedele sarà la riproduzione digitale del suono originale rispetto al suono analogico di partenza.",
-      "speech": "più alta è la frequenza di campionamento, e più alta è la profondità in bit di ciascun campione, più fedele sarà la riproduzione digitale del suono originale rispetto al suono analogico di partenza."
+      "speech": "più alta è la frequenza di campionamento, e più alta è la profondità in bit di ciascun campione, più fedele sarà la riproduzione digitale del suono originale rispetto al suono analogico di partenza.",
+      "bold": [
+        [
+          58,
+          75
+        ]
+      ]
     },
     {
       "text": "Analogamente, un video digitale è costituito da una sequenza di immagini, chiamate fotogrammi o frame, mostrate in rapida successione, caratterizzata da due parametri tecnici da ricordare:",
-      "speech": "Analogamente, un video digitale è costituito da una sequenza di immagini, chiamate fotogrammi o frame, mostrate in rapida successione, caratterizzata da due parametri tecnici da ricordare:"
+      "speech": "Analogamente, un video digitale è costituito da una sequenza di immagini, chiamate fotogrammi o frame, mostrate in rapida successione, caratterizzata da due parametri tecnici da ricordare:",
+      "bold": [
+        [
+          83,
+          93
+        ]
+      ]
     },
     {
       "text": "la risoluzione, cioè il numero di pixel che compongono ciascuna immagine, e il frame rate, cioè il numero di fotogrammi mostrati al secondo.",
-      "speech": "la risoluzione, cioè il numero di pixel che compongono ciascuna immagine, e il frame rate, cioè il numero di fotogrammi mostrati al secondo."
+      "speech": "la risoluzione, cioè il numero di pixel che compongono ciascuna immagine, e il frame rate, cioè il numero di fotogrammi mostrati al secondo.",
+      "bold": [
+        [
+          3,
+          14
+        ],
+        [
+          79,
+          89
+        ]
+      ]
     },
     {
       "text": "Tra i formati multimediali digitali più comuni, per l'audio troviamo MP3, WAV e FLAC; per le immagini JPEG, PNG e GIF;",
-      "speech": "Tra i formati multimediali digitali più comuni, per l'audio troviamo MP3, WAV e FLAC; per le immagini JPEG, PNG e GIF;"
+      "speech": "Tra i formati multimediali digitali più comuni, per l'audio troviamo MP3, WAV e FLAC; per le immagini JPEG, PNG e GIF;",
+      "bold": [
+        [
+          69,
+          84
+        ]
+      ]
     },
     {
       "text": "per il video MP4, AVI e MOV, sigle che avrete certamente già incontrato usando qualunque dispositivo digitale.",
@@ -58,7 +102,17 @@
     },
     {
       "text": "L'interfaccia a riga di comando, abbreviata CLI dall'inglese Command Line Interface, in cui l'utente digita comandi testuali per interagire con il sistema,",
-      "speech": "L'interfaccia a riga di comando, abbreviata CLI dall'inglese Command Line Interface, in cui l'utente digita comandi testuali per interagire con il sistema,"
+      "speech": "L'interfaccia a riga di comando, abbreviata CLI dall'inglese Command Line Interface, in cui l'utente digita comandi testuali per interagire con il sistema,",
+      "bold": [
+        [
+          2,
+          31
+        ],
+        [
+          44,
+          47
+        ]
+      ]
     },
     {
       "text": "uno stile di interazione più antico ma ancora oggi usato in molti contesti tecnici e professionali.",
@@ -66,11 +120,27 @@
     },
     {
       "text": "E l'interfaccia grafica, abbreviata GUI dall'inglese Graphical User Interface, in cui l'interazione avviene tramite elementi visuali come finestre, icone, menu e il puntatore del mouse,",
-      "speech": "E l'interfaccia grafica, abbreviata GUI dall'inglese Graphical User Interface, in cui l'interazione avviene tramite elementi visuali come finestre, icone, menu e il puntatore del mouse,"
+      "speech": "E l'interfaccia grafica, abbreviata GUI dall'inglese Graphical User Interface, in cui l'interazione avviene tramite elementi visuali come finestre, icone, menu e il puntatore del mouse,",
+      "bold": [
+        [
+          4,
+          23
+        ],
+        [
+          36,
+          39
+        ]
+      ]
     },
     {
       "text": "secondo il cosiddetto paradigma WIMP, un acronimo che vale la pena ricordare perché condensa in quattro lettere l'intera filosofia dell'interfaccia grafica moderna:",
-      "speech": "secondo il cosiddetto paradigma WIMP, un acronimo che vale la pena ricordare perché condensa in quattro lettere l'intera filosofia dell'interfaccia grafica moderna:"
+      "speech": "secondo il cosiddetto paradigma WIMP, un acronimo che vale la pena ricordare perché condensa in quattro lettere l'intera filosofia dell'interfaccia grafica moderna:",
+      "bold": [
+        [
+          22,
+          36
+        ]
+      ]
     },
     {
       "text": "Windows, finestre; Icons, icone; Menus, menu; Pointer, puntatore.",
@@ -82,11 +152,23 @@
     },
     {
       "text": "le interfacce più recenti includono anche modalità di interazione touch, tramite tocco diretto dello schermo,",
-      "speech": "le interfacce più recenti includono anche modalità di interazione touch, tramite tocco diretto dello schermo,"
+      "speech": "le interfacce più recenti includono anche modalità di interazione touch, tramite tocco diretto dello schermo,",
+      "bold": [
+        [
+          54,
+          71
+        ]
+      ]
     },
     {
       "text": "come su smartphone e tablet, e modalità di interazione vocale, come negli assistenti vocali sempre più diffusi.",
-      "speech": "come su smartphone e tablet, e modalità di interazione vocale, come negli assistenti vocali sempre più diffusi."
+      "speech": "come su smartphone e tablet, e modalità di interazione vocale, come negli assistenti vocali sempre più diffusi.",
+      "bold": [
+        [
+          43,
+          61
+        ]
+      ]
     },
     {
       "text": "Queste nuove modalità non sostituiscono necessariamente la GUI tradizionale, ma si aggiungono ad essa, ampliando il ventaglio di modi in cui un utente può comunicare con un dispositivo.",
@@ -114,15 +196,57 @@
     },
     {
       "text": "Primo: la digitalizzazione converte segnali analogici, come suoni e video, in sequenze numeriche discrete elaborabili dal computer, attraverso il campionamento per l'audio e la sequenza di fotogrammi per il video.",
-      "speech": "Primo: la digitalizzazione converte segnali analogici, come suoni e video, in sequenze numeriche discrete elaborabili dal computer, attraverso il campionamento per l'audio e la sequenza di fotogrammi per il video."
+      "speech": "Primo: la digitalizzazione converte segnali analogici, come suoni e video, in sequenze numeriche discrete elaborabili dal computer, attraverso il campionamento per l'audio e la sequenza di fotogrammi per il video.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          26
+        ],
+        [
+          146,
+          159
+        ]
+      ]
     },
     {
       "text": "Secondo: l'interfaccia utente si distingue in CLI, a riga di comando, e GUI, grafica, quest'ultima basata sul paradigma WIMP.",
-      "speech": "Secondo: l'interfaccia utente si distingue in CLI, a riga di comando, e GUI, grafica, quest'ultima basata sul paradigma WIMP."
+      "speech": "Secondo: l'interfaccia utente si distingue in CLI, a riga di comando, e GUI, grafica, quest'ultima basata sul paradigma WIMP.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          46,
+          49
+        ],
+        [
+          72,
+          75
+        ],
+        [
+          120,
+          124
+        ]
+      ]
     },
     {
       "text": "Terzo: le interfacce più recenti aggiungono modalità touch e vocale a quelle tradizionali.",
-      "speech": "Terzo: le interfacce più recenti aggiungono modalità touch e vocale a quelle tradizionali."
+      "speech": "Terzo: le interfacce più recenti aggiungono modalità touch e vocale a quelle tradizionali.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          53,
+          67
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa.",

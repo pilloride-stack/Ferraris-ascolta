@@ -7,79 +7,63 @@
     {
       "text": "Nell'episodio scorso abbiamo visto Cervantes e il Don Quijote.",
       "speech": "Nell'episodio scorso abbiamo visto Cervantes e il Don Quijote.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nell'episodio scorso abbiamo visto Cervantes e il Don"
-        },
-        {
-          "lang": "es",
-          "text": "Quijote."
-        }
+      "bold": [
+        [
+          54,
+          61
+        ]
       ]
     },
     {
       "text": "Oggi restiamo nel Modulo 1 e ci spostiamo dal romanzo al teatro, per conoscere il teatro barocco del Siglo de Oro e la sua formula drammatica caratteristica,",
       "speech": "Oggi restiamo nel Modulo 1 e ci spostiamo dal romanzo al teatro, per conoscere il teatro barocco del Siglo de Oro e la sua formula drammatica caratteristica,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Oggi restiamo nel Modulo 1 e ci spostiamo dal romanzo al teatro, per conoscere il teatro barocco del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro"
-        },
-        {
-          "lang": "it",
-          "text": "e la sua formula drammatica caratteristica,"
-        }
+      "bold": [
+        [
+          82,
+          96
+        ],
+        [
+          101,
+          113
+        ]
       ]
     },
     {
       "text": "la comedia nueva, che rivoluzionò completamente il modo di scrivere e rappresentare opere teatrali nella Spagna del tempo.",
       "speech": "la comedia nueva, che rivoluzionò completamente il modo di scrivere e rappresentare opere teatrali nella Spagna del tempo.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "la comedia nueva,"
-        },
-        {
-          "lang": "it",
-          "text": "che rivoluzionò completamente il modo di scrivere e rappresentare opere teatrali nella Spagna del tempo."
-        }
+      "bold": [
+        [
+          0,
+          16
+        ]
       ]
     },
     {
       "text": "Il teatro fu, insieme al romanzo che abbiamo appena visto con Cervantes, la forma letteraria di maggior successo popolare nella Spagna del Siglo de Oro.",
       "speech": "Il teatro fu, insieme al romanzo che abbiamo appena visto con Cervantes, la forma letteraria di maggior successo popolare nella Spagna del Siglo de Oro.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il teatro fu, insieme al romanzo che abbiamo appena visto con Cervantes, la forma letteraria di maggior successo popolare nella Spagna del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro."
-        }
+      "bold": [
+        [
+          96,
+          121
+        ],
+        [
+          139,
+          151
+        ]
       ]
     },
     {
       "text": "Le rappresentazioni si tenevano nei corrales de comedias, cortili adattati a teatro pubblico, presenti in tutte le maggiori città spagnole, capaci di attirare un pubblico numeroso e socialmente eterogeneo, dal popolo minuto fino alla nobiltà:",
       "speech": "Le rappresentazioni si tenevano nei corrales de comedias, cortili adattati a teatro pubblico, presenti in tutte le maggiori città spagnole, capaci di attirare un pubblico numeroso e socialmente eterogeneo, dal popolo minuto fino alla nobiltà:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Le rappresentazioni si tenevano nei"
-        },
-        {
-          "lang": "es",
-          "text": "corrales de comedias,"
-        },
-        {
-          "lang": "it",
-          "text": "cortili adattati a teatro pubblico, presenti in tutte le maggiori città spagnole, capaci di attirare un pubblico numeroso e socialmente eterogeneo, dal popolo minuto fino alla nobiltà:"
-        }
+      "bold": [
+        [
+          36,
+          56
+        ],
+        [
+          182,
+          204
+        ]
       ]
     },
     {
@@ -89,35 +73,23 @@
     {
       "text": "La formula drammatica del teatro barocco spagnolo, la cosiddetta comedia nueva, fu codificata da Lope de Vega, che incontreremo diffusamente nel prossimo episodio, nel suo trattato teorico Arte nuevo de hacer comedias, pubblicato nel 1609.",
       "speech": "La formula drammatica del teatro barocco spagnolo, la cosiddetta comedia nueva, fu codificata da Lope de Vega, che incontreremo diffusamente nel prossimo episodio, nel suo trattato teorico Arte nuevo de hacer comedias, pubblicato nel 1609.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La formula drammatica del teatro barocco spagnolo, la cosiddetta"
-        },
-        {
-          "lang": "es",
-          "text": "comedia nueva,"
-        },
-        {
-          "lang": "it",
-          "text": "fu codificata da Lope"
-        },
-        {
-          "lang": "es",
-          "text": "de Vega,"
-        },
-        {
-          "lang": "it",
-          "text": "che incontreremo diffusamente nel prossimo episodio, nel suo trattato teorico Arte"
-        },
-        {
-          "lang": "es",
-          "text": "nuevo de hacer comedias,"
-        },
-        {
-          "lang": "it",
-          "text": "pubblicato nel 1609."
-        }
+      "bold": [
+        [
+          65,
+          78
+        ],
+        [
+          102,
+          109
+        ],
+        [
+          194,
+          217
+        ],
+        [
+          234,
+          238
+        ]
       ]
     },
     {
@@ -126,33 +98,77 @@
     },
     {
       "text": "a differenza del teatro classico italiano e francese, fedele alle tre unità aristoteliche di azione, di tempo e di luogo — una sola vicenda, in un solo giorno, in un solo luogo —",
-      "speech": "a differenza del teatro classico italiano e francese, fedele alle tre unità aristoteliche di azione, di tempo e di luogo — una sola vicenda, in un solo giorno, in un solo luogo —"
+      "speech": "a differenza del teatro classico italiano e francese, fedele alle tre unità aristoteliche di azione, di tempo e di luogo — una sola vicenda, in un solo giorno, in un solo luogo —",
+      "bold": [
+        [
+          66,
+          89
+        ],
+        [
+          93,
+          120
+        ]
+      ]
     },
     {
       "text": "la comedia nueva spagnola rompe deliberatamente con queste convenzioni classiche.",
       "speech": "la comedia nueva spagnola rompe deliberatamente con queste convenzioni classiche.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "la comedia nueva"
-        },
-        {
-          "lang": "it",
-          "text": "spagnola rompe deliberatamente con queste convenzioni classiche."
-        }
+      "bold": [
+        [
+          0,
+          16
+        ],
+        [
+          26,
+          47
+        ]
       ]
     },
     {
       "text": "Mescola liberamente il tragico e il comico all'interno della stessa opera, intreccia più trame parallele, spesso una nobile e una popolare, secondo il cosiddetto «imbroglio all'italiana»,",
-      "speech": "Mescola liberamente il tragico e il comico all'interno della stessa opera, intreccia più trame parallele, spesso una nobile e una popolare, secondo il cosiddetto «imbroglio all'italiana»,"
+      "speech": "Mescola liberamente il tragico e il comico all'interno della stessa opera, intreccia più trame parallele, spesso una nobile e una popolare, secondo il cosiddetto «imbroglio all'italiana»,",
+      "bold": [
+        [
+          23,
+          42
+        ],
+        [
+          85,
+          104
+        ],
+        [
+          163,
+          185
+        ]
+      ]
     },
     {
       "text": "e utilizza una grande varietà di metri e forme poetiche a seconda del contenuto della scena rappresentata:",
-      "speech": "e utilizza una grande varietà di metri e forme poetiche a seconda del contenuto della scena rappresentata:"
+      "speech": "e utilizza una grande varietà di metri e forme poetiche a seconda del contenuto della scena rappresentata:",
+      "bold": [
+        [
+          22,
+          38
+        ]
+      ]
     },
     {
       "text": "il romance per i racconti, il sonetto per i monologhi introspettivi più intimi, la redondilla per i dialoghi più vivaci.",
-      "speech": "il romance per i racconti, il sonetto per i monologhi introspettivi più intimi, la redondilla per i dialoghi più vivaci."
+      "speech": "il romance per i racconti, il sonetto per i monologhi introspettivi più intimi, la redondilla per i dialoghi più vivaci.",
+      "bold": [
+        [
+          3,
+          10
+        ],
+        [
+          30,
+          37
+        ],
+        [
+          83,
+          93
+        ]
+      ]
     },
     {
       "text": "Tra i temi ricorrenti del teatro barocco spagnolo figurano tre grandi filoni tematici che vale la pena conoscere con precisione.",
@@ -160,59 +176,61 @@
     },
     {
       "text": "L'amore, naturalmente centrale in ogni tradizione teatrale.",
-      "speech": "L'amore, naturalmente centrale in ogni tradizione teatrale."
+      "speech": "L'amore, naturalmente centrale in ogni tradizione teatrale.",
+      "bold": [
+        [
+          2,
+          7
+        ]
+      ]
     },
     {
       "text": "L'onore, uno dei valori sociali più centrali della Spagna del tempo, spesso motore di conflitti drammatici anche violenti,",
-      "speech": "L'onore, uno dei valori sociali più centrali della Spagna del tempo, spesso motore di conflitti drammatici anche violenti,"
+      "speech": "L'onore, uno dei valori sociali più centrali della Spagna del tempo, spesso motore di conflitti drammatici anche violenti,",
+      "bold": [
+        [
+          2,
+          7
+        ]
+      ]
     },
     {
       "text": "perché nella mentalità del Siglo de Oro la difesa dell'onore personale e familiare giustificava reazioni estreme, incluso il duello o la vendetta.",
       "speech": "perché nella mentalità del Siglo de Oro la difesa dell'onore personale e familiare giustificava reazioni estreme, incluso il duello o la vendetta.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "perché nella mentalità del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro"
-        },
-        {
-          "lang": "it",
-          "text": "la difesa dell'onore personale e familiare giustificava reazioni estreme,"
-        },
-        {
-          "lang": "es",
-          "text": "incluso"
-        },
-        {
-          "lang": "it",
-          "text": "il duello o la vendetta."
-        }
+      "bold": [
+        [
+          27,
+          39
+        ],
+        [
+          114,
+          121
+        ]
       ]
     },
     {
       "text": "E la fede religiosa, quest'ultima al centro anche di un genere specificamente spagnolo, gli autos sacramentales, brevi opere allegoriche di soggetto religioso,",
       "speech": "E la fede religiosa, quest'ultima al centro anche di un genere specificamente spagnolo, gli autos sacramentales, brevi opere allegoriche di soggetto religioso,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "E la fede religiosa, quest'ultima al centro anche di un genere specificamente spagnolo, gli"
-        },
-        {
-          "lang": "es",
-          "text": "autos sacramentales,"
-        },
-        {
-          "lang": "it",
-          "text": "brevi opere allegoriche di soggetto religioso,"
-        }
+      "bold": [
+        [
+          5,
+          19
+        ],
+        [
+          92,
+          111
+        ]
       ]
     },
     {
       "text": "tradizionalmente rappresentate durante la festività del Corpus Domini, spesso su carri mobili nelle piazze delle città.",
-      "speech": "tradizionalmente rappresentate durante la festività del Corpus Domini, spesso su carri mobili nelle piazze delle città."
+      "speech": "tradizionalmente rappresentate durante la festività del Corpus Domini, spesso su carri mobili nelle piazze delle città.",
+      "bold": [
+        [
+          56,
+          69
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su un piccolo esercizio di collegamento, molto utile per fissare le idee:",
@@ -221,20 +239,22 @@
     {
       "text": "se doveste spiegare a un commissario perché il tema dell'onore fosse così centrale nel teatro spagnolo del Siglo de Oro,",
       "speech": "se doveste spiegare a un commissario perché il tema dell'onore fosse così centrale nel teatro spagnolo del Siglo de Oro,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "se doveste spiegare a un commissario perché il tema dell'onore fosse così centrale nel teatro spagnolo del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro,"
-        }
+      "bold": [
+        [
+          107,
+          119
+        ]
       ]
     },
     {
       "text": "e non altrettanto centrale, per esempio, nel teatro comico di Fielding che avete forse incontrato nel modulo di Inglese, come rispondereste?",
-      "speech": "e non altrettanto centrale, per esempio, nel teatro comico di Fielding che avete forse incontrato nel modulo di Inglese, come rispondereste?"
+      "speech": "e non altrettanto centrale, per esempio, nel teatro comico di Fielding che avete forse incontrato nel modulo di Inglese, come rispondereste?",
+      "bold": [
+        [
+          62,
+          70
+        ]
+      ]
     },
     {
       "text": "Potreste osservare che l'onore, in Spagna, non era una questione puramente privata o psicologica,",
@@ -242,7 +262,13 @@
     },
     {
       "text": "ma un valore sociale collettivo, la cui difesa pubblica era percepita come indispensabile per mantenere il proprio status e quello della propria famiglia agli occhi dell'intera comunità:",
-      "speech": "ma un valore sociale collettivo, la cui difesa pubblica era percepita come indispensabile per mantenere il proprio status e quello della propria famiglia agli occhi dell'intera comunità:"
+      "speech": "ma un valore sociale collettivo, la cui difesa pubblica era percepita come indispensabile per mantenere il proprio status e quello della propria famiglia agli occhi dell'intera comunità:",
+      "bold": [
+        [
+          6,
+          31
+        ]
+      ]
     },
     {
       "text": "un contesto culturale specifico che il teatro barocco spagnolo mette costantemente in scena, spesso portandolo alle sue conseguenze più estreme e tragiche.",
@@ -255,75 +281,67 @@
     {
       "text": "Primo: il teatro del Siglo de Oro si rappresentava nei corrales de comedias, luoghi pubblici capaci di attirare un pubblico socialmente eterogeneo.",
       "speech": "Primo: il teatro del Siglo de Oro si rappresentava nei corrales de comedias, luoghi pubblici capaci di attirare un pubblico socialmente eterogeneo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo: il teatro del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro"
-        },
-        {
-          "lang": "it",
-          "text": "si rappresentava nei"
-        },
-        {
-          "lang": "es",
-          "text": "corrales de comedias,"
-        },
-        {
-          "lang": "it",
-          "text": "luoghi pubblici capaci di attirare un pubblico socialmente eterogeneo."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          21,
+          33
+        ],
+        [
+          55,
+          75
+        ]
       ]
     },
     {
       "text": "Secondo: la comedia nueva, codificata da Lope de Vega nell'Arte nuevo de hacer comedias del 1609, rompe con le tre unità aristoteliche, mescolando tragico e comico e intrecciando trame parallele.",
       "speech": "Secondo: la comedia nueva, codificata da Lope de Vega nell'Arte nuevo de hacer comedias del 1609, rompe con le tre unità aristoteliche, mescolando tragico e comico e intrecciando trame parallele.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo:"
-        },
-        {
-          "lang": "es",
-          "text": "la comedia nueva,"
-        },
-        {
-          "lang": "it",
-          "text": "codificata da Lope"
-        },
-        {
-          "lang": "es",
-          "text": "de Vega"
-        },
-        {
-          "lang": "it",
-          "text": "nell'Arte"
-        },
-        {
-          "lang": "es",
-          "text": "nuevo de hacer comedias del 1609,"
-        },
-        {
-          "lang": "it",
-          "text": "rompe con le tre unità aristoteliche, mescolando tragico e comico e intrecciando trame parallele."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          25
+        ],
+        [
+          46,
+          53
+        ],
+        [
+          64,
+          96
+        ],
+        [
+          111,
+          134
+        ],
+        [
+          147,
+          163
+        ]
       ]
     },
     {
       "text": "Terzo: i temi ricorrenti del teatro barocco spagnolo sono l'amore, l'onore e la fede religiosa, quest'ultima centrale anche negli autos sacramentales.",
       "speech": "Terzo: i temi ricorrenti del teatro barocco spagnolo sono l'amore, l'onore e la fede religiosa, quest'ultima centrale anche negli autos sacramentales.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Terzo: i temi ricorrenti del teatro barocco spagnolo sono l'amore, l'onore e la fede religiosa, quest'ultima centrale anche negli"
-        },
-        {
-          "lang": "es",
-          "text": "autos sacramentales."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          60,
+          94
+        ],
+        [
+          130,
+          149
+        ]
       ]
     },
     {
@@ -333,35 +351,23 @@
     {
       "text": "Lope de Vega, fondatore della comedia nueva, e Pedro Calderón de la Barca, l'ultima grande voce del Siglo de Oro.",
       "speech": "Lope de Vega, fondatore della comedia nueva, e Pedro Calderón de la Barca, l'ultima grande voce del Siglo de Oro.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Lope de Vega,"
-        },
-        {
-          "lang": "it",
-          "text": "fondatore della"
-        },
-        {
-          "lang": "es",
-          "text": "comedia nueva,"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "es",
-          "text": "Pedro Calderón de la Barca,"
-        },
-        {
-          "lang": "it",
-          "text": "l'ultima grande voce del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro."
-        }
+      "bold": [
+        [
+          0,
+          12
+        ],
+        [
+          30,
+          43
+        ],
+        [
+          47,
+          73
+        ],
+        [
+          100,
+          112
+        ]
       ]
     },
     {

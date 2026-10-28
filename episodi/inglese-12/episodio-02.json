@@ -11,311 +11,235 @@
     {
       "text": "Oggi affrontiamo il verbo più importante di tutta la lingua inglese, quello su cui si costruiscono innumerevoli altre strutture che incontrerete in questo modulo: il verbo to be, essere.",
       "speech": "Oggi affrontiamo il verbo più importante di tutta la lingua inglese, quello su cui si costruiscono innumerevoli altre strutture che incontrerete in questo modulo: il verbo to be, essere.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Oggi affrontiamo il verbo più importante di tutta la lingua inglese, quello su cui si costruiscono innumerevoli altre strutture che incontrerete in questo modulo: il verbo"
-        },
-        {
-          "lang": "en",
-          "text": "to be,"
-        },
-        {
-          "lang": "it",
-          "text": "essere."
-        }
+      "bold": [
+        [
+          17,
+          40
+        ],
+        [
+          172,
+          177
+        ]
       ]
     },
     {
       "text": "Cominciamo dalla forma affermativa al presente: I am, io sono; you are, tu sei; he is, she is, it is, lui è, lei è, esso è; we are, noi siamo; you are, voi siete; they are, loro sono.",
       "speech": "Cominciamo dalla forma affermativa al presente: I am, io sono; you are, tu sei; he is, she is, it is, lui è, lei è, esso è; we are, noi siamo; you are, voi siete; they are, loro sono.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Cominciamo dalla forma affermativa al presente:"
-        },
-        {
-          "lang": "en",
-          "text": "I am,"
-        },
-        {
-          "lang": "it",
-          "text": "io sono;"
-        },
-        {
-          "lang": "en",
-          "text": "you are,"
-        },
-        {
-          "lang": "it",
-          "text": "tu sei;"
-        },
-        {
-          "lang": "en",
-          "text": "he is, she is, it is,"
-        },
-        {
-          "lang": "it",
-          "text": "lui è, lei è, esso è;"
-        },
-        {
-          "lang": "en",
-          "text": "we are,"
-        },
-        {
-          "lang": "it",
-          "text": "noi siamo;"
-        },
-        {
-          "lang": "en",
-          "text": "you are,"
-        },
-        {
-          "lang": "it",
-          "text": "voi siete;"
-        },
-        {
-          "lang": "en",
-          "text": "they are,"
-        },
-        {
-          "lang": "it",
-          "text": "loro sono."
-        }
+      "bold": [
+        [
+          17,
+          46
+        ],
+        [
+          48,
+          52
+        ],
+        [
+          63,
+          70
+        ],
+        [
+          80,
+          100
+        ],
+        [
+          124,
+          130
+        ],
+        [
+          143,
+          150
+        ],
+        [
+          163,
+          171
+        ]
       ]
     },
     {
       "text": "Nella lingua parlata e scritta informale si usano quasi sempre le forme contratte: I'm, you're, he's, she's, it's, we're, you're, they're.",
       "speech": "Nella lingua parlata e scritta informale si usano quasi sempre le forme contratte: I'm, you're, he's, she's, it's, we're, you're, they're.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nella lingua parlata e scritta informale si usano quasi sempre le forme contratte:"
-        },
-        {
-          "lang": "en",
-          "text": "I'm, you're, he's, she's, it's, we're, you're, they're."
-        }
+      "bold": [
+        [
+          66,
+          81
+        ],
+        [
+          83,
+          137
+        ]
       ]
     },
     {
       "text": "Un dettaglio da fissare bene: to be è l'unico verbo inglese che, alla forma negativa e interrogativa, non ha bisogno dell'ausiliare does o do, perché funziona già da solo come ausiliare di se stesso.",
       "speech": "Un dettaglio da fissare bene: to be è l'unico verbo inglese che, alla forma negativa e interrogativa, non ha bisogno dell'ausiliare does o do, perché funziona già da solo come ausiliare di se stesso.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Un dettaglio da fissare bene:"
-        },
-        {
-          "lang": "en",
-          "text": "to be"
-        },
-        {
-          "lang": "it",
-          "text": "è l'unico verbo inglese che, alla forma negativa e interrogativa, non ha bisogno dell'ausiliare"
-        },
-        {
-          "lang": "en",
-          "text": "does"
-        },
-        {
-          "lang": "it",
-          "text": "o"
-        },
-        {
-          "lang": "en",
-          "text": "do,"
-        },
-        {
-          "lang": "it",
-          "text": "perché funziona già da solo come ausiliare di se stesso."
-        }
+      "bold": [
+        [
+          30,
+          35
+        ],
+        [
+          102,
+          131
+        ],
+        [
+          132,
+          136
+        ],
+        [
+          139,
+          141
+        ]
       ]
     },
     {
       "text": "La forma negativa si costruisce semplicemente aggiungendo not dopo il verbo: I am not, contratto in I'm not; you are not, contratto in you aren't; he is not, contratto in he isn't.",
       "speech": "La forma negativa si costruisce semplicemente aggiungendo not dopo il verbo: I am not, contratto in I'm not; you are not, contratto in you aren't; he is not, contratto in he isn't.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La forma negativa si costruisce semplicemente aggiungendo"
-        },
-        {
-          "lang": "en",
-          "text": "not"
-        },
-        {
-          "lang": "it",
-          "text": "dopo il verbo:"
-        },
-        {
-          "lang": "en",
-          "text": "I am not,"
-        },
-        {
-          "lang": "it",
-          "text": "contratto in"
-        },
-        {
-          "lang": "en",
-          "text": "I'm not; you are not,"
-        },
-        {
-          "lang": "it",
-          "text": "contratto in"
-        },
-        {
-          "lang": "en",
-          "text": "you aren't; he is not,"
-        },
-        {
-          "lang": "it",
-          "text": "contratto in"
-        },
-        {
-          "lang": "en",
-          "text": "he isn't."
-        }
+      "bold": [
+        [
+          3,
+          17
+        ],
+        [
+          58,
+          61
+        ],
+        [
+          77,
+          85
+        ],
+        [
+          100,
+          120
+        ],
+        [
+          135,
+          156
+        ],
+        [
+          171,
+          179
+        ]
       ]
     },
     {
       "text": "La forma interrogativa si costruisce invertendo semplicemente il verbo e il soggetto: Am I late?, sono in ritardo?; Is she a teacher?, è un'insegnante?; Are they ready?, sono pronti?",
       "speech": "La forma interrogativa si costruisce invertendo semplicemente il verbo e il soggetto: Am I late?, sono in ritardo?; Is she a teacher?, è un'insegnante?; Are they ready?, sono pronti?",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La forma interrogativa si costruisce invertendo semplicemente il verbo e il soggetto:"
-        },
-        {
-          "lang": "en",
-          "text": "Am I late?,"
-        },
-        {
-          "lang": "it",
-          "text": "sono in ritardo?;"
-        },
-        {
-          "lang": "en",
-          "text": "Is she a teacher?,"
-        },
-        {
-          "lang": "it",
-          "text": "è un'insegnante?;"
-        },
-        {
-          "lang": "en",
-          "text": "Are they ready?,"
-        },
-        {
-          "lang": "it",
-          "text": "sono pronti?"
-        }
+      "bold": [
+        [
+          3,
+          22
+        ],
+        [
+          37,
+          47
+        ],
+        [
+          86,
+          95
+        ],
+        [
+          116,
+          132
+        ],
+        [
+          153,
+          167
+        ]
       ]
     },
     {
       "text": "Fermatevi un momento sugli usi di to be, perché sono numerosi e ricorrono in moltissime funzioni comunicative che vedremo più avanti in questo modulo.",
       "speech": "Fermatevi un momento sugli usi di to be, perché sono numerosi e ricorrono in moltissime funzioni comunicative che vedremo più avanti in questo modulo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Fermatevi un momento sugli usi di"
-        },
-        {
-          "lang": "en",
-          "text": "to be,"
-        },
-        {
-          "lang": "it",
-          "text": "perché sono numerosi e ricorrono in moltissime funzioni comunicative che vedremo più avanti in questo modulo."
-        }
+      "bold": [
+        [
+          34,
+          39
+        ]
       ]
     },
     {
       "text": "Si usa per l'identità e la professione, «I am a student», sono uno studente; per la provenienza e la nazionalità, «She is from Italy», lei viene dall'Italia;",
       "speech": "Si usa per l'identità e la professione, «I am a student», sono uno studente; per la provenienza e la nazionalità, «She is from Italy», lei viene dall'Italia;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Si usa per l'identità e la professione, «"
-        },
-        {
-          "lang": "en",
-          "text": "I am a student»,"
-        },
-        {
-          "lang": "it",
-          "text": "sono uno studente; per la provenienza e la nazionalità, «"
-        },
-        {
-          "lang": "en",
-          "text": "She is from Italy»,"
-        },
-        {
-          "lang": "it",
-          "text": "lei viene dall'Italia;"
-        }
+      "bold": [
+        [
+          13,
+          38
+        ],
+        [
+          41,
+          55
+        ],
+        [
+          84,
+          112
+        ],
+        [
+          115,
+          132
+        ]
       ]
     },
     {
       "text": "per l'età, dove l'italiano usa avere ma l'inglese usa sempre essere, «I am fifteen years old», ho quindici anni, letteralmente «sono quindici anni vecchio»;",
       "speech": "per l'età, dove l'italiano usa avere ma l'inglese usa sempre essere, «I am fifteen years old», ho quindici anni, letteralmente «sono quindici anni vecchio»;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "per l'età, dove l'italiano usa avere ma l'inglese usa sempre essere, «"
-        },
-        {
-          "lang": "en",
-          "text": "I am fifteen years old»,"
-        },
-        {
-          "lang": "it",
-          "text": "ho quindici anni, letteralmente «sono quindici anni vecchio»;"
-        }
+      "bold": [
+        [
+          6,
+          9
+        ],
+        [
+          70,
+          92
+        ],
+        [
+          128,
+          154
+        ]
       ]
     },
     {
       "text": "per descrivere caratteristiche fisiche o di carattere, «He is tall and friendly», è alto e simpatico; per indicare la posizione nello spazio, «The book is on the table», il libro è sul tavolo;",
       "speech": "per descrivere caratteristiche fisiche o di carattere, «He is tall and friendly», è alto e simpatico; per indicare la posizione nello spazio, «The book is on the table», il libro è sul tavolo;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "per descrivere caratteristiche fisiche o di carattere, «"
-        },
-        {
-          "lang": "en",
-          "text": "He is tall and friendly»,"
-        },
-        {
-          "lang": "it",
-          "text": "è alto e simpatico; per indicare la posizione nello spazio, «"
-        },
-        {
-          "lang": "en",
-          "text": "The book is on the table»,"
-        },
-        {
-          "lang": "it",
-          "text": "il libro è sul tavolo;"
-        }
+      "bold": [
+        [
+          15,
+          38
+        ],
+        [
+          56,
+          79
+        ],
+        [
+          118,
+          140
+        ],
+        [
+          143,
+          167
+        ]
       ]
     },
     {
       "text": "e per esprimere sensazioni fisiche dove ancora una volta l'italiano userebbe avere, «I am hungry», «I am cold», ho fame, ho freddo, letteralmente «sono affamato», «sono freddo».",
       "speech": "e per esprimere sensazioni fisiche dove ancora una volta l'italiano userebbe avere, «I am hungry», «I am cold», ho fame, ho freddo, letteralmente «sono affamato», «sono freddo».",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e per esprimere sensazioni fisiche dove ancora una volta l'italiano userebbe avere, «"
-        },
-        {
-          "lang": "en",
-          "text": "I am hungry», «I am cold»,"
-        },
-        {
-          "lang": "it",
-          "text": "ho fame, ho freddo, letteralmente «sono affamato», «sono freddo»."
-        }
+      "bold": [
+        [
+          16,
+          34
+        ],
+        [
+          85,
+          109
+        ],
+        [
+          147,
+          160
+        ],
+        [
+          164,
+          175
+        ]
       ]
     },
     {
@@ -325,97 +249,67 @@
     {
       "text": "è probabilmente l'errore più frequente commesso dagli studenti italiani alle prime armi, che spesso traducono letteralmente «I have fifteen years» o «I have hungry», entrambe frasi scorrette in inglese:",
       "speech": "è probabilmente l'errore più frequente commesso dagli studenti italiani alle prime armi, che spesso traducono letteralmente «I have fifteen years» o «I have hungry», entrambe frasi scorrette in inglese:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "è probabilmente l'errore più frequente commesso dagli studenti italiani alle prime armi, che spesso traducono letteralmente «"
-        },
-        {
-          "lang": "en",
-          "text": "I have fifteen years»"
-        },
-        {
-          "lang": "it",
-          "text": "o «"
-        },
-        {
-          "lang": "en",
-          "text": "I have hungry»,"
-        },
-        {
-          "lang": "it",
-          "text": "entrambe frasi scorrette in inglese:"
-        }
+      "bold": [
+        [
+          18,
+          38
+        ],
+        [
+          125,
+          145
+        ],
+        [
+          150,
+          163
+        ]
       ]
     },
     {
       "text": "fissate bene, fin da questo episodio, che età e sensazioni fisiche richiedono sempre to be, non to have, che vedremo invece nel prossimo episodio per altri usi.",
       "speech": "fissate bene, fin da questo episodio, che età e sensazioni fisiche richiedono sempre to be, non to have, che vedremo invece nel prossimo episodio per altri usi.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "fissate bene, fin da questo episodio, che età e sensazioni fisiche richiedono sempre"
-        },
-        {
-          "lang": "en",
-          "text": "to be,"
-        },
-        {
-          "lang": "it",
-          "text": "non"
-        },
-        {
-          "lang": "en",
-          "text": "to have,"
-        },
-        {
-          "lang": "it",
-          "text": "che vedremo invece nel prossimo episodio per altri usi."
-        }
+      "bold": [
+        [
+          85,
+          90
+        ],
+        [
+          96,
+          103
+        ]
       ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: come tradurreste in inglese «Ho dodici anni e ho molta sete»?",
-      "speech": "Proviamo un piccolo esercizio insieme: come tradurreste in inglese «Ho dodici anni e ho molta sete»?"
+      "speech": "Proviamo un piccolo esercizio insieme: come tradurreste in inglese «Ho dodici anni e ho molta sete»?",
+      "bold": [
+        [
+          68,
+          98
+        ]
+      ]
     },
     {
       "text": "Poiché sia l'età sia la sensazione fisica della sete richiedono il verbo to be in inglese, la traduzione corretta sarà «I am twelve years old and I am very thirsty»,",
       "speech": "Poiché sia l'età sia la sensazione fisica della sete richiedono il verbo to be in inglese, la traduzione corretta sarà «I am twelve years old and I am very thirsty»,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Poiché sia l'età sia la sensazione fisica della sete richiedono il verbo"
-        },
-        {
-          "lang": "en",
-          "text": "to be"
-        },
-        {
-          "lang": "it",
-          "text": "in inglese, la traduzione corretta sarà «"
-        },
-        {
-          "lang": "en",
-          "text": "I am twelve years old and I am very thirsty»,"
-        }
+      "bold": [
+        [
+          73,
+          78
+        ],
+        [
+          120,
+          163
+        ]
       ]
     },
     {
       "text": "non «I have twelve years and I have very thirsty», un errore che ora, dopo questo episodio, saprete evitare con sicurezza.",
       "speech": "non «I have twelve years and I have very thirsty», un errore che ora, dopo questo episodio, saprete evitare con sicurezza.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "non «"
-        },
-        {
-          "lang": "en",
-          "text": "I have twelve years and I have very thirsty»,"
-        },
-        {
-          "lang": "it",
-          "text": "un errore che ora, dopo questo episodio, saprete evitare con sicurezza."
-        }
+      "bold": [
+        [
+          5,
+          48
+        ]
       ]
     },
     {
@@ -425,83 +319,73 @@
     {
       "text": "Primo: to be funziona da solo come ausiliare, senza bisogno di does o do nella forma negativa e interrogativa.",
       "speech": "Primo: to be funziona da solo come ausiliare, senza bisogno di does o do nella forma negativa e interrogativa.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo:"
-        },
-        {
-          "lang": "en",
-          "text": "to be"
-        },
-        {
-          "lang": "it",
-          "text": "funziona da solo come ausiliare, senza bisogno di"
-        },
-        {
-          "lang": "en",
-          "text": "does"
-        },
-        {
-          "lang": "it",
-          "text": "o"
-        },
-        {
-          "lang": "en",
-          "text": "do"
-        },
-        {
-          "lang": "it",
-          "text": "nella forma negativa e interrogativa."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          35,
+          44
+        ],
+        [
+          63,
+          67
+        ],
+        [
+          70,
+          72
+        ]
       ]
     },
     {
       "text": "Secondo: si usa per identità, provenienza, età, caratteristiche fisiche e posizione nello spazio.",
-      "speech": "Secondo: si usa per identità, provenienza, età, caratteristiche fisiche e posizione nello spazio."
+      "speech": "Secondo: si usa per identità, provenienza, età, caratteristiche fisiche e posizione nello spazio.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          20,
+          46
+        ]
+      ]
     },
     {
       "text": "Terzo: a differenza dell'italiano, l'inglese usa sempre to be, non to have, per l'età e per le sensazioni fisiche come fame, sete, freddo e caldo.",
       "speech": "Terzo: a differenza dell'italiano, l'inglese usa sempre to be, non to have, per l'età e per le sensazioni fisiche come fame, sete, freddo e caldo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Terzo: a differenza dell'italiano, l'inglese usa sempre"
-        },
-        {
-          "lang": "en",
-          "text": "to be,"
-        },
-        {
-          "lang": "it",
-          "text": "non"
-        },
-        {
-          "lang": "en",
-          "text": "to have,"
-        },
-        {
-          "lang": "it",
-          "text": "per l'età e per le sensazioni fisiche come fame, sete, freddo e caldo."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          56,
+          61
+        ],
+        [
+          67,
+          74
+        ],
+        [
+          82,
+          113
+        ]
       ]
     },
     {
       "text": "Nel prossimo episodio vediamo l'altro grande verbo fondamentale della lingua inglese: il verbo to have, avere.",
       "speech": "Nel prossimo episodio vediamo l'altro grande verbo fondamentale della lingua inglese: il verbo to have, avere.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel prossimo episodio vediamo l'altro grande verbo fondamentale della lingua inglese: il verbo"
-        },
-        {
-          "lang": "en",
-          "text": "to have,"
-        },
-        {
-          "lang": "it",
-          "text": "avere."
-        }
+      "bold": [
+        [
+          95,
+          102
+        ]
       ]
     },
     {

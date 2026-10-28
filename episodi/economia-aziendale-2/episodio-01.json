@@ -14,11 +14,27 @@
     },
     {
       "text": "Cominciamo dal primo concetto matematico-finanziario di questo percorso: l'interesse.",
-      "speech": "Cominciamo dal primo concetto matematico-finanziario di questo percorso: l'interesse."
+      "speech": "Cominciamo dal primo concetto matematico-finanziario di questo percorso: l'interesse.",
+      "bold": [
+        [
+          75,
+          84
+        ]
+      ]
     },
     {
       "text": "Quando un soggetto, il creditore, mette a disposizione di un altro soggetto, il debitore, un capitale per un certo periodo di tempo,",
-      "speech": "Quando un soggetto, il creditore, mette a disposizione di un altro soggetto, il debitore, un capitale per un certo periodo di tempo,"
+      "speech": "Quando un soggetto, il creditore, mette a disposizione di un altro soggetto, il debitore, un capitale per un certo periodo di tempo,",
+      "bold": [
+        [
+          23,
+          32
+        ],
+        [
+          80,
+          88
+        ]
+      ]
     },
     {
       "text": "ha diritto a un compenso per la rinuncia temporanea alla disponibilità del proprio denaro: questo compenso si chiama interesse.",
@@ -26,11 +42,31 @@
     },
     {
       "text": "Nel calcolo dell'interesse semplice, in cui l'interesse maturato non si aggiunge al capitale per produrre a sua volta altro interesse,",
-      "speech": "Nel calcolo dell'interesse semplice, in cui l'interesse maturato non si aggiunge al capitale per produrre a sua volta altro interesse,"
+      "speech": "Nel calcolo dell'interesse semplice, in cui l'interesse maturato non si aggiunge al capitale per produrre a sua volta altro interesse,",
+      "bold": [
+        [
+          17,
+          35
+        ]
+      ]
     },
     {
       "text": "l'interesse è direttamente proporzionale al capitale impiegato, al tasso di interesse e al tempo per cui il capitale resta impiegato, secondo la formula:",
-      "speech": "l'interesse è direttamente proporzionale al capitale impiegato, al tasso di interesse e al tempo per cui il capitale resta impiegato, secondo la formula:"
+      "speech": "l'interesse è direttamente proporzionale al capitale impiegato, al tasso di interesse e al tempo per cui il capitale resta impiegato, secondo la formula:",
+      "bold": [
+        [
+          44,
+          52
+        ],
+        [
+          67,
+          85
+        ],
+        [
+          91,
+          96
+        ]
+      ]
     },
     {
       "text": "interesse uguale capitale per tasso per tempo, diviso cento, dove il tasso è espresso in percentuale annua e il tempo in anni, o frazioni di anno.",
@@ -38,7 +74,13 @@
     },
     {
       "text": "La somma tra il capitale iniziale e l'interesse maturato si chiama montante.",
-      "speech": "La somma tra il capitale iniziale e l'interesse maturato si chiama montante."
+      "speech": "La somma tra il capitale iniziale e l'interesse maturato si chiama montante.",
+      "bold": [
+        [
+          67,
+          75
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa formula, perché è la base di tutto il modulo, e da qui derivano quasi tutti i calcoli che vedremo:",
@@ -46,7 +88,13 @@
     },
     {
       "text": "gli elementi coinvolti sono sempre capitale, tasso e tempo, e l'unico vero punto delicato è ricordarsi di esprimere sempre il tempo in anni, convertendo se necessario mesi o giorni, prima di applicare la formula.",
-      "speech": "gli elementi coinvolti sono sempre capitale, tasso e tempo, e l'unico vero punto delicato è ricordarsi di esprimere sempre il tempo in anni, convertendo se necessario mesi o giorni, prima di applicare la formula."
+      "speech": "gli elementi coinvolti sono sempre capitale, tasso e tempo, e l'unico vero punto delicato è ricordarsi di esprimere sempre il tempo in anni, convertendo se necessario mesi o giorni, prima di applicare la formula.",
+      "bold": [
+        [
+          106,
+          139
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, un primo esempio svolto: calcolare l'interesse prodotto da un capitale di ottomila euro impiegato per due anni al tasso annuo del tre per cento.",
@@ -78,7 +126,13 @@
     },
     {
       "text": "Il primo passo sarebbe convertire i tre mesi in anni, cioè tre dodicesimi, uguale zero virgola venticinque anni;",
-      "speech": "Il primo passo sarebbe convertire i tre mesi in anni, cioè tre dodicesimi, uguale zero virgola venticinque anni;"
+      "speech": "Il primo passo sarebbe convertire i tre mesi in anni, cioè tre dodicesimi, uguale zero virgola venticinque anni;",
+      "bold": [
+        [
+          23,
+          52
+        ]
+      ]
     },
     {
       "text": "solo dopo questa conversione si potrebbe applicare correttamente la formula dell'interesse, ottenendo seimila per cinque per zero virgola venticinque, diviso cento, cioè settantacinque euro.",
@@ -90,15 +144,49 @@
     },
     {
       "text": "Primo: l'interesse è il compenso per la disponibilità temporanea di un capitale, e si calcola come capitale per tasso per tempo, diviso cento.",
-      "speech": "Primo: l'interesse è il compenso per la disponibilità temporanea di un capitale, e si calcola come capitale per tasso per tempo, diviso cento."
+      "speech": "Primo: l'interesse è il compenso per la disponibilità temporanea di un capitale, e si calcola come capitale per tasso per tempo, diviso cento.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          99,
+          127
+        ]
+      ]
     },
     {
       "text": "Secondo: il tempo va sempre espresso in anni, convertendo mesi o giorni quando necessario.",
-      "speech": "Secondo: il tempo va sempre espresso in anni, convertendo mesi o giorni quando necessario."
+      "speech": "Secondo: il tempo va sempre espresso in anni, convertendo mesi o giorni quando necessario.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          44
+        ]
+      ]
     },
     {
       "text": "Terzo: il montante è la somma tra capitale iniziale e interesse maturato.",
-      "speech": "Terzo: il montante è la somma tra capitale iniziale e interesse maturato."
+      "speech": "Terzo: il montante è la somma tra capitale iniziale e interesse maturato.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          18
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo lo sconto, il compenso per l'anticipato pagamento di un debito, insieme all'unificazione e alla suddivisione di più capitali.",

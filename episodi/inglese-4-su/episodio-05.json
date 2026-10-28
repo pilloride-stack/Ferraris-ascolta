@@ -7,15 +7,11 @@
     {
       "text": "Nell'episodio scorso abbiamo visto William Blake e le due versioni di The Chimney Sweeper.",
       "speech": "Nell'episodio scorso abbiamo visto William Blake e le due versioni di The Chimney Sweeper.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nell'episodio scorso abbiamo visto William Blake e le due versioni di"
-        },
-        {
-          "lang": "en",
-          "text": "The Chimney Sweeper."
-        }
+      "bold": [
+        [
+          70,
+          89
+        ]
       ]
     },
     {
@@ -25,63 +21,73 @@
     {
       "text": "Charles Dickens, vissuto tra il 1812 e il 1870, attraverso il suo secondo romanzo, Oliver Twist, pubblicato a puntate tra il 1837 e il 1839.",
       "speech": "Charles Dickens, vissuto tra il 1812 e il 1870, attraverso il suo secondo romanzo, Oliver Twist, pubblicato a puntate tra il 1837 e il 1839.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Charles Dickens, vissuto tra il 1812 e il 1870, attraverso il suo secondo romanzo,"
-        },
-        {
-          "lang": "en",
-          "text": "Oliver Twist,"
-        },
-        {
-          "lang": "it",
-          "text": "pubblicato a puntate tra il 1837 e il 1839."
-        }
+      "bold": [
+        [
+          0,
+          15
+        ],
+        [
+          32,
+          36
+        ],
+        [
+          42,
+          46
+        ],
+        [
+          83,
+          95
+        ],
+        [
+          125,
+          129
+        ],
+        [
+          135,
+          139
+        ]
       ]
     },
     {
       "text": "Oliver Twist racconta la storia dell'omonimo orfano, nato in un workhouse — l'istituto di ricovero per i poveri, dalle condizioni di vita durissime, previsto dalla legge sui poveri allora in vigore, il Poor Law Amendment Act del 1834 —",
       "speech": "Oliver Twist racconta la storia dell'omonimo orfano, nato in un workhouse — l'istituto di ricovero per i poveri, dalle condizioni di vita durissime, previsto dalla legge sui poveri allora in vigore, il Poor Law Amendment Act del 1834 —",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Oliver Twist"
-        },
-        {
-          "lang": "it",
-          "text": "racconta la storia dell'omonimo orfano, nato in un workhouse — l'istituto di ricovero per i poveri, dalle condizioni di vita durissime, previsto dalla legge sui poveri allora in vigore, il"
-        },
-        {
-          "lang": "en",
-          "text": "Poor Law Amendment Act"
-        },
-        {
-          "lang": "it",
-          "text": "del 1834 —"
-        }
+      "bold": [
+        [
+          0,
+          12
+        ],
+        [
+          64,
+          73
+        ],
+        [
+          202,
+          224
+        ]
       ]
     },
     {
       "text": "e costretto, dopo la fuga dall'istituto, a sopravvivere nei bassifondi di Londra.",
-      "speech": "e costretto, dopo la fuga dall'istituto, a sopravvivere nei bassifondi di Londra."
+      "speech": "e costretto, dopo la fuga dall'istituto, a sopravvivere nei bassifondi di Londra.",
+      "bold": [
+        [
+          60,
+          80
+        ]
+      ]
     },
     {
       "text": "In questo ambiente degradato, Oliver viene reclutato in una banda di giovani borseggiatori guidata dal losco Fagin e dal violento Bill Sikes, due tra i personaggi più memorabili e inquietanti dell'intera narrativa dickensiana.",
       "speech": "In questo ambiente degradato, Oliver viene reclutato in una banda di giovani borseggiatori guidata dal losco Fagin e dal violento Bill Sikes, due tra i personaggi più memorabili e inquietanti dell'intera narrativa dickensiana.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "In questo ambiente degradato, Oliver viene reclutato in una banda di giovani borseggiatori guidata dal losco Fagin e dal violento"
-        },
-        {
-          "lang": "en",
-          "text": "Bill Sikes,"
-        },
-        {
-          "lang": "it",
-          "text": "due tra i personaggi più memorabili e inquietanti dell'intera narrativa dickensiana."
-        }
+      "bold": [
+        [
+          109,
+          114
+        ],
+        [
+          130,
+          140
+        ]
       ]
     },
     {
@@ -98,11 +104,23 @@
     },
     {
       "text": "ma critica apertamente l'ipocrisia delle istituzioni caritatevoli ufficiali — il sistema dei workhouse, presentato come un luogo di fame, umiliazione e disciplina disumana anziché di reale assistenza —",
-      "speech": "ma critica apertamente l'ipocrisia delle istituzioni caritatevoli ufficiali — il sistema dei workhouse, presentato come un luogo di fame, umiliazione e disciplina disumana anziché di reale assistenza —"
+      "speech": "ma critica apertamente l'ipocrisia delle istituzioni caritatevoli ufficiali — il sistema dei workhouse, presentato come un luogo di fame, umiliazione e disciplina disumana anziché di reale assistenza —",
+      "bold": [
+        [
+          25,
+          65
+        ]
+      ]
     },
     {
       "text": "e la disumanizzante indifferenza delle classi agiate verso la povertà urbana, incarnata da funzionari e amministratori del workhouse più preoccupati di risparmiare denaro pubblico che di alleviare la sofferenza dei poveri loro affidati.",
-      "speech": "e la disumanizzante indifferenza delle classi agiate verso la povertà urbana, incarnata da funzionari e amministratori del workhouse più preoccupati di risparmiare denaro pubblico che di alleviare la sofferenza dei poveri loro affidati."
+      "speech": "e la disumanizzante indifferenza delle classi agiate verso la povertà urbana, incarnata da funzionari e amministratori del workhouse più preoccupati di risparmiare denaro pubblico che di alleviare la sofferenza dei poveri loro affidati.",
+      "bold": [
+        [
+          20,
+          52
+        ]
+      ]
     },
     {
       "text": "Un tratto tipico dello stile di Dickens, che vale la pena riconoscere anche in questo romanzo,",
@@ -114,11 +132,23 @@
     },
     {
       "text": "nonostante gli orrori attraversati, la vicenda di Oliver si risolve infatti in un finale sostanzialmente positivo, in cui il bambino scopre le proprie vere origini familiari e trova finalmente un ambiente domestico sicuro e affettuoso.",
-      "speech": "nonostante gli orrori attraversati, la vicenda di Oliver si risolve infatti in un finale sostanzialmente positivo, in cui il bambino scopre le proprie vere origini familiari e trova finalmente un ambiente domestico sicuro e affettuoso."
+      "speech": "nonostante gli orrori attraversati, la vicenda di Oliver si risolve infatti in un finale sostanzialmente positivo, in cui il bambino scopre le proprie vere origini familiari e trova finalmente un ambiente domestico sicuro e affettuoso.",
+      "bold": [
+        [
+          82,
+          113
+        ]
+      ]
     },
     {
       "text": "Questa combinazione di denuncia sociale acuta e risoluzione narrativa consolatoria è, in un certo senso, la cifra stilistica caratteristica di Dickens,",
-      "speech": "Questa combinazione di denuncia sociale acuta e risoluzione narrativa consolatoria è, in un certo senso, la cifra stilistica caratteristica di Dickens,"
+      "speech": "Questa combinazione di denuncia sociale acuta e risoluzione narrativa consolatoria è, in un certo senso, la cifra stilistica caratteristica di Dickens,",
+      "bold": [
+        [
+          23,
+          45
+        ]
+      ]
     },
     {
       "text": "capace di rendere popolare e accessibile a un vastissimo pubblico vittoriano temi sociali altrimenti scomodi e disturbanti.",
@@ -134,7 +164,13 @@
     },
     {
       "text": "Una buona risposta potrebbe osservare che la figura del bambino innocente e indifeso permette a Dickens di rendere ancora più intollerabile, agli occhi del lettore, l'indifferenza delle istituzioni e della società verso la povertà:",
-      "speech": "Una buona risposta potrebbe osservare che la figura del bambino innocente e indifeso permette a Dickens di rendere ancora più intollerabile, agli occhi del lettore, l'indifferenza delle istituzioni e della società verso la povertà:"
+      "speech": "Una buona risposta potrebbe osservare che la figura del bambino innocente e indifeso permette a Dickens di rendere ancora più intollerabile, agli occhi del lettore, l'indifferenza delle istituzioni e della società verso la povertà:",
+      "bold": [
+        [
+          56,
+          84
+        ]
+      ]
     },
     {
       "text": "un adulto povero può sempre, nell'immaginario vittoriano, essere sospettato di essere in qualche modo responsabile della propria condizione, per pigrizia o per vizio;",
@@ -151,42 +187,32 @@
     {
       "text": "Vale anche la pena ricordare, come collegamento utile per gli episodi successivi di questo modulo, che Oliver Twist non è un caso isolato nella produzione di Dickens:",
       "speech": "Vale anche la pena ricordare, come collegamento utile per gli episodi successivi di questo modulo, che Oliver Twist non è un caso isolato nella produzione di Dickens:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Vale anche la pena ricordare, come collegamento utile per gli episodi successivi di questo modulo, che Oliver"
-        },
-        {
-          "lang": "en",
-          "text": "Twist"
-        },
-        {
-          "lang": "it",
-          "text": "non è un caso isolato nella produzione di Dickens:"
-        }
+      "bold": [
+        [
+          110,
+          115
+        ]
       ]
     },
     {
       "text": "la denuncia della povertà urbana, delle istituzioni ipocrite e delle ingiustizie sociali dell'Inghilterra vittoriana è un filo conduttore che attraverserà anche l'opera che incontreremo nel prossimo episodio, Hard Times, sia pure con un bersaglio polemico diverso:",
       "speech": "la denuncia della povertà urbana, delle istituzioni ipocrite e delle ingiustizie sociali dell'Inghilterra vittoriana è un filo conduttore che attraverserà anche l'opera che incontreremo nel prossimo episodio, Hard Times, sia pure con un bersaglio polemico diverso:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "la denuncia della povertà urbana, delle istituzioni ipocrite e delle ingiustizie sociali dell'Inghilterra vittoriana è un filo conduttore che attraverserà anche l'opera che incontreremo nel prossimo episodio,"
-        },
-        {
-          "lang": "en",
-          "text": "Hard Times,"
-        },
-        {
-          "lang": "it",
-          "text": "sia pure con un bersaglio polemico diverso:"
-        }
+      "bold": [
+        [
+          209,
+          219
+        ]
       ]
     },
     {
       "text": "non più il sistema dei workhouse per l'infanzia abbandonata, ma il sistema industriale e utilitaristico della città-fabbrica.",
-      "speech": "non più il sistema dei workhouse per l'infanzia abbandonata, ma il sistema industriale e utilitaristico della città-fabbrica."
+      "speech": "non più il sistema dei workhouse per l'infanzia abbandonata, ma il sistema industriale e utilitaristico della città-fabbrica.",
+      "bold": [
+        [
+          67,
+          103
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -195,45 +221,65 @@
     {
       "text": "Primo: Charles Dickens, il maggiore romanziere vittoriano, racconta in Oliver Twist la vicenda di un orfano nato in un workhouse e costretto a sopravvivere nei bassifondi londinesi in una banda di borseggiatori.",
       "speech": "Primo: Charles Dickens, il maggiore romanziere vittoriano, racconta in Oliver Twist la vicenda di un orfano nato in un workhouse e costretto a sopravvivere nei bassifondi londinesi in una banda di borseggiatori.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo: Charles Dickens, il maggiore romanziere vittoriano, racconta in Oliver"
-        },
-        {
-          "lang": "en",
-          "text": "Twist"
-        },
-        {
-          "lang": "it",
-          "text": "la vicenda di un orfano nato in un workhouse e costretto a sopravvivere nei bassifondi londinesi in una banda di borseggiatori."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          22
+        ],
+        [
+          78,
+          83
+        ],
+        [
+          119,
+          128
+        ],
+        [
+          197,
+          210
+        ]
       ]
     },
     {
       "text": "Secondo: attraverso questa vicenda, Dickens denuncia l'ipocrisia delle istituzioni caritatevoli ufficiali e l'indifferenza delle classi agiate verso la povertà urbana.",
-      "speech": "Secondo: attraverso questa vicenda, Dickens denuncia l'ipocrisia delle istituzioni caritatevoli ufficiali e l'indifferenza delle classi agiate verso la povertà urbana."
+      "speech": "Secondo: attraverso questa vicenda, Dickens denuncia l'ipocrisia delle istituzioni caritatevoli ufficiali e l'indifferenza delle classi agiate verso la povertà urbana.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          55,
+          95
+        ]
+      ]
     },
     {
       "text": "Terzo: lo stile di Dickens concilia tipicamente la denuncia sociale più cruda con un finale sostanzialmente consolatorio, un tratto che ha contribuito enormemente alla sua popolarità presso il vasto pubblico vittoriano.",
-      "speech": "Terzo: lo stile di Dickens concilia tipicamente la denuncia sociale più cruda con un finale sostanzialmente consolatorio, un tratto che ha contribuito enormemente alla sua popolarità presso il vasto pubblico vittoriano."
+      "speech": "Terzo: lo stile di Dickens concilia tipicamente la denuncia sociale più cruda con un finale sostanzialmente consolatorio, un tratto che ha contribuito enormemente alla sua popolarità presso il vasto pubblico vittoriano.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          85,
+          120
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio restiamo con Dickens, ma ci spostiamo dagli orfani londinesi alla città industriale immaginaria di Coketown, protagonista del romanzo Hard Times e del suo celebre estratto descrittivo.",
       "speech": "Nel prossimo episodio restiamo con Dickens, ma ci spostiamo dagli orfani londinesi alla città industriale immaginaria di Coketown, protagonista del romanzo Hard Times e del suo celebre estratto descrittivo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel prossimo episodio restiamo con Dickens, ma ci spostiamo dagli orfani londinesi alla città industriale immaginaria di Coketown, protagonista del romanzo"
-        },
-        {
-          "lang": "en",
-          "text": "Hard Times"
-        },
-        {
-          "lang": "it",
-          "text": "e del suo celebre estratto descrittivo."
-        }
+      "bold": [
+        [
+          156,
+          166
+        ]
       ]
     },
     {

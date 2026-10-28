@@ -14,19 +14,47 @@
     },
     {
       "text": "Il ciclo di vita del software descrive l'insieme delle fasi coordinate attraverso cui un prodotto software viene ideato, realizzato, distribuito e mantenuto nel tempo:",
-      "speech": "Il ciclo di vita del software descrive l'insieme delle fasi coordinate attraverso cui un prodotto software viene ideato, realizzato, distribuito e mantenuto nel tempo:"
+      "speech": "Il ciclo di vita del software descrive l'insieme delle fasi coordinate attraverso cui un prodotto software viene ideato, realizzato, distribuito e mantenuto nel tempo:",
+      "bold": [
+        [
+          3,
+          29
+        ]
+      ]
     },
     {
       "text": "analisi dei requisiti, progettazione, sviluppo, test, rilascio e manutenzione.",
-      "speech": "analisi dei requisiti, progettazione, sviluppo, test, rilascio e manutenzione."
+      "speech": "analisi dei requisiti, progettazione, sviluppo, test, rilascio e manutenzione.",
+      "bold": [
+        [
+          0,
+          21
+        ]
+      ]
     },
     {
       "text": "Il modello a cascata, o waterfall, storicamente il primo modello proposto, prevede l'esecuzione sequenziale di queste fasi, ciascuna completata prima di passare alla successiva;",
-      "speech": "Il modello a cascata, o waterfall, storicamente il primo modello proposto, prevede l'esecuzione sequenziale di queste fasi, ciascuna completata prima di passare alla successiva;"
+      "speech": "Il modello a cascata, o waterfall, storicamente il primo modello proposto, prevede l'esecuzione sequenziale di queste fasi, ciascuna completata prima di passare alla successiva;",
+      "bold": [
+        [
+          3,
+          20
+        ],
+        [
+          24,
+          33
+        ]
+      ]
     },
     {
       "text": "i modelli iterativi, oggi prevalenti, permettono invece di tornare su fasi già affrontate, affinando progressivamente il prodotto attraverso cicli successivi.",
-      "speech": "i modelli iterativi, oggi prevalenti, permettono invece di tornare su fasi già affrontate, affinando progressivamente il prodotto attraverso cicli successivi."
+      "speech": "i modelli iterativi, oggi prevalenti, permettono invece di tornare su fasi già affrontate, affinando progressivamente il prodotto attraverso cicli successivi.",
+      "bold": [
+        [
+          2,
+          19
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa differenza tra modello a cascata e modelli iterativi, perché è uno dei confronti più richiesti su questo argomento:",
@@ -46,19 +74,43 @@
     },
     {
       "text": "Prima di avviare un progetto software è inoltre opportuno condurre uno studio di fattibilità, che ne valuta tre aspetti distinti:",
-      "speech": "Prima di avviare un progetto software è inoltre opportuno condurre uno studio di fattibilità, che ne valuta tre aspetti distinti:"
+      "speech": "Prima di avviare un progetto software è inoltre opportuno condurre uno studio di fattibilità, che ne valuta tre aspetti distinti:",
+      "bold": [
+        [
+          71,
+          92
+        ]
+      ]
     },
     {
       "text": "la fattibilità tecnica, cioè se le tecnologie disponibili sono adeguate al progetto;",
-      "speech": "la fattibilità tecnica, cioè se le tecnologie disponibili sono adeguate al progetto;"
+      "speech": "la fattibilità tecnica, cioè se le tecnologie disponibili sono adeguate al progetto;",
+      "bold": [
+        [
+          3,
+          22
+        ]
+      ]
     },
     {
       "text": "la fattibilità economica, cioè se i costi sono sostenibili rispetto ai benefici attesi;",
-      "speech": "la fattibilità economica, cioè se i costi sono sostenibili rispetto ai benefici attesi;"
+      "speech": "la fattibilità economica, cioè se i costi sono sostenibili rispetto ai benefici attesi;",
+      "bold": [
+        [
+          3,
+          24
+        ]
+      ]
     },
     {
       "text": "e la fattibilità operativa, cioè se il sistema sarà effettivamente utilizzabile nel contesto organizzativo dell'azienda che lo adotterà.",
-      "speech": "e la fattibilità operativa, cioè se il sistema sarà effettivamente utilizzabile nel contesto organizzativo dell'azienda che lo adotterà."
+      "speech": "e la fattibilità operativa, cioè se il sistema sarà effettivamente utilizzabile nel contesto organizzativo dell'azienda che lo adotterà.",
+      "bold": [
+        [
+          5,
+          26
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un'azienda volesse sviluppare un nuovo software gestionale,",
@@ -74,7 +126,13 @@
     },
     {
       "text": "si tratterebbe soprattutto di un problema di fattibilità operativa,",
-      "speech": "si tratterebbe soprattutto di un problema di fattibilità operativa,"
+      "speech": "si tratterebbe soprattutto di un problema di fattibilità operativa,",
+      "bold": [
+        [
+          45,
+          66
+        ]
+      ]
     },
     {
       "text": "perché il sistema, per quanto tecnicamente valido, rischierebbe di non essere accettato e utilizzato correttamente all'interno dell'organizzazione.",
@@ -82,11 +140,27 @@
     },
     {
       "text": "Passiamo ora alla correttezza del software: un software si dice corretto quando il suo comportamento rispecchia fedelmente le specifiche definite in fase di analisi, senza errori, o bug, che ne compromettano il funzionamento;",
-      "speech": "Passiamo ora alla correttezza del software: un software si dice corretto quando il suo comportamento rispecchia fedelmente le specifiche definite in fase di analisi, senza errori, o bug, che ne compromettano il funzionamento;"
+      "speech": "Passiamo ora alla correttezza del software: un software si dice corretto quando il suo comportamento rispecchia fedelmente le specifiche definite in fase di analisi, senza errori, o bug, che ne compromettano il funzionamento;",
+      "bold": [
+        [
+          47,
+          72
+        ],
+        [
+          182,
+          185
+        ]
+      ]
     },
     {
       "text": "la correttezza viene verificata attraverso attività sistematiche di test, che confrontano il comportamento effettivo del programma con quello atteso.",
-      "speech": "la correttezza viene verificata attraverso attività sistematiche di test, che confrontano il comportamento effettivo del programma con quello atteso."
+      "speech": "la correttezza viene verificata attraverso attività sistematiche di test, che confrontano il comportamento effettivo del programma con quello atteso.",
+      "bold": [
+        [
+          68,
+          72
+        ]
+      ]
     },
     {
       "text": "Dopo il rilascio, un software richiede tipicamente diverse forme di manutenzione, ed è importante saperle distinguere con precisione:",
@@ -94,15 +168,37 @@
     },
     {
       "text": "la manutenzione correttiva risolve errori individuati dopo il rilascio;",
-      "speech": "la manutenzione correttiva risolve errori individuati dopo il rilascio;"
+      "speech": "la manutenzione correttiva risolve errori individuati dopo il rilascio;",
+      "bold": [
+        [
+          3,
+          26
+        ]
+      ]
     },
     {
       "text": "la manutenzione evolutiva aggiunge nuove funzionalità richieste dagli utenti; la manutenzione adattativa adegua il software a nuovi ambienti tecnologici o a nuove normative;",
-      "speech": "la manutenzione evolutiva aggiunge nuove funzionalità richieste dagli utenti; la manutenzione adattativa adegua il software a nuovi ambienti tecnologici o a nuove normative;"
+      "speech": "la manutenzione evolutiva aggiunge nuove funzionalità richieste dagli utenti; la manutenzione adattativa adegua il software a nuovi ambienti tecnologici o a nuove normative;",
+      "bold": [
+        [
+          3,
+          25
+        ],
+        [
+          81,
+          104
+        ]
+      ]
     },
     {
       "text": "e la manutenzione perfettiva ne migliora le prestazioni o l'usabilità senza modificarne le funzionalità.",
-      "speech": "e la manutenzione perfettiva ne migliora le prestazioni o l'usabilità senza modificarne le funzionalità."
+      "speech": "e la manutenzione perfettiva ne migliora le prestazioni o l'usabilità senza modificarne le funzionalità.",
+      "bold": [
+        [
+          5,
+          28
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -110,15 +206,49 @@
     },
     {
       "text": "Primo: il ciclo di vita del software comprende analisi, progettazione, sviluppo, test, rilascio e manutenzione, secondo un modello a cascata, sequenziale, oppure iterativo, progressivo.",
-      "speech": "Primo: il ciclo di vita del software comprende analisi, progettazione, sviluppo, test, rilascio e manutenzione, secondo un modello a cascata, sequenziale, oppure iterativo, progressivo."
+      "speech": "Primo: il ciclo di vita del software comprende analisi, progettazione, sviluppo, test, rilascio e manutenzione, secondo un modello a cascata, sequenziale, oppure iterativo, progressivo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          123,
+          140
+        ],
+        [
+          162,
+          171
+        ]
+      ]
     },
     {
       "text": "Secondo: lo studio di fattibilità valuta un progetto software sotto tre aspetti, tecnico, economico e operativo.",
-      "speech": "Secondo: lo studio di fattibilità valuta un progetto software sotto tre aspetti, tecnico, economico e operativo."
+      "speech": "Secondo: lo studio di fattibilità valuta un progetto software sotto tre aspetti, tecnico, economico e operativo.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          81,
+          111
+        ]
+      ]
     },
     {
       "text": "Terzo: un software corretto rispecchia le proprie specifiche, e la sua manutenzione può essere correttiva, evolutiva, adattativa o perfettiva.",
-      "speech": "Terzo: un software corretto rispecchia le proprie specifiche, e la sua manutenzione può essere correttiva, evolutiva, adattativa o perfettiva."
+      "speech": "Terzo: un software corretto rispecchia le proprie specifiche, e la sua manutenzione può essere correttiva, evolutiva, adattativa o perfettiva.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          95,
+          141
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo il testing del software, con i suoi diversi livelli e le sue diverse modalità di verifica.",

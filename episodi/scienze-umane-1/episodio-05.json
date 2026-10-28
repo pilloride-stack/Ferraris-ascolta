@@ -10,15 +10,33 @@
     },
     {
       "text": "Oggi entriamo nell'indirizzo teorico probabilmente più conosciuto nell'immaginario comune: la psicoanalisi di Sigmund Freud, con la sua teoria della personalità e dello sviluppo psicosessuale.",
-      "speech": "Oggi entriamo nell'indirizzo teorico probabilmente più conosciuto nell'immaginario comune: la psicoanalisi di Sigmund Freud, con la sua teoria della personalità e dello sviluppo psicosessuale."
+      "speech": "Oggi entriamo nell'indirizzo teorico probabilmente più conosciuto nell'immaginario comune: la psicoanalisi di Sigmund Freud, con la sua teoria della personalità e dello sviluppo psicosessuale.",
+      "bold": [
+        [
+          110,
+          123
+        ]
+      ]
     },
     {
       "text": "La psicoanalisi nasce con Sigmund Freud, medico viennese, tra la fine dell'Ottocento e l'inizio del Novecento, e rappresenta una vera e propria rivoluzione nella comprensione della mente umana.",
-      "speech": "La psicoanalisi nasce con Sigmund Freud, medico viennese, tra la fine dell'Ottocento e l'inizio del Novecento, e rappresenta una vera e propria rivoluzione nella comprensione della mente umana."
+      "speech": "La psicoanalisi nasce con Sigmund Freud, medico viennese, tra la fine dell'Ottocento e l'inizio del Novecento, e rappresenta una vera e propria rivoluzione nella comprensione della mente umana.",
+      "bold": [
+        [
+          3,
+          15
+        ]
+      ]
     },
     {
       "text": "Secondo Freud, gran parte della vita psichica si svolge a livello inconscio, al di fuori della consapevolezza dell'individuo,",
-      "speech": "Secondo Freud, gran parte della vita psichica si svolge a livello inconscio, al di fuori della consapevolezza dell'individuo,"
+      "speech": "Secondo Freud, gran parte della vita psichica si svolge a livello inconscio, al di fuori della consapevolezza dell'individuo,",
+      "bold": [
+        [
+          66,
+          75
+        ]
+      ]
     },
     {
       "text": "e proprio i contenuti rimossi nell'inconscio, desideri, pulsioni, traumi, sono spesso all'origine dei sintomi nevrotici e dei comportamenti apparentemente inspiegabili:",
@@ -38,7 +56,17 @@
     },
     {
       "text": "L'Es è la componente più primitiva e inconscia, sede delle pulsioni istintuali, regolata dal principio di piacere:",
-      "speech": "L'Es è la componente più primitiva e inconscia, sede delle pulsioni istintuali, regolata dal principio di piacere:"
+      "speech": "L'Es è la componente più primitiva e inconscia, sede delle pulsioni istintuali, regolata dal principio di piacere:",
+      "bold": [
+        [
+          2,
+          4
+        ],
+        [
+          93,
+          113
+        ]
+      ]
     },
     {
       "text": "cerca soddisfazione immediata, senza alcun riguardo per la realtà esterna o per le norme morali.",
@@ -46,7 +74,21 @@
     },
     {
       "text": "L'Io media tra le richieste dell'Es, le esigenze della realtà esterna e le limitazioni imposte dal Super-Io, ed è regolato dal principio di realtà:",
-      "speech": "L'Io media tra le richieste dell'Es, le esigenze della realtà esterna e le limitazioni imposte dal Super-Io, ed è regolato dal principio di realtà:"
+      "speech": "L'Io media tra le richieste dell'Es, le esigenze della realtà esterna e le limitazioni imposte dal Super-Io, ed è regolato dal principio di realtà:",
+      "bold": [
+        [
+          2,
+          4
+        ],
+        [
+          99,
+          107
+        ],
+        [
+          127,
+          146
+        ]
+      ]
     },
     {
       "text": "è, in un certo senso, l'istanza mediatrice e realistica della personalità.",
@@ -54,7 +96,13 @@
     },
     {
       "text": "Il Super-Io, infine, rappresenta la coscienza morale interiorizzata, formata attraverso l'educazione e l'identificazione con le figure genitoriali:",
-      "speech": "Il Super-Io, infine, rappresenta la coscienza morale interiorizzata, formata attraverso l'educazione e l'identificazione con le figure genitoriali:"
+      "speech": "Il Super-Io, infine, rappresenta la coscienza morale interiorizzata, formata attraverso l'educazione e l'identificazione con le figure genitoriali:",
+      "bold": [
+        [
+          36,
+          67
+        ]
+      ]
     },
     {
       "text": "è la voce interiore che giudica, approva o condanna i propri pensieri e comportamenti.",
@@ -66,23 +114,69 @@
     },
     {
       "text": "Freud descrive lo sviluppo della personalità infantile attraverso una serie di fasi psicosessuali, ciascuna caratterizzata da una diversa zona erogena su cui si concentra la libido, cioè l'energia pulsionale.",
-      "speech": "Freud descrive lo sviluppo della personalità infantile attraverso una serie di fasi psicosessuali, ciascuna caratterizzata da una diversa zona erogena su cui si concentra la libido, cioè l'energia pulsionale."
+      "speech": "Freud descrive lo sviluppo della personalità infantile attraverso una serie di fasi psicosessuali, ciascuna caratterizzata da una diversa zona erogena su cui si concentra la libido, cioè l'energia pulsionale.",
+      "bold": [
+        [
+          79,
+          97
+        ],
+        [
+          174,
+          180
+        ]
+      ]
     },
     {
       "text": "Vediamole in ordine cronologico: la fase orale, dalla nascita a circa un anno, centrata sulla bocca; la fase anale, dai uno ai tre anni, centrata sul controllo sfinterico;",
-      "speech": "Vediamole in ordine cronologico: la fase orale, dalla nascita a circa un anno, centrata sulla bocca; la fase anale, dai uno ai tre anni, centrata sul controllo sfinterico;"
+      "speech": "Vediamole in ordine cronologico: la fase orale, dalla nascita a circa un anno, centrata sulla bocca; la fase anale, dai uno ai tre anni, centrata sul controllo sfinterico;",
+      "bold": [
+        [
+          36,
+          46
+        ],
+        [
+          104,
+          114
+        ]
+      ]
     },
     {
       "text": "la fase fallica, dai tre ai sei anni, in cui si colloca il celebre complesso di Edipo;",
-      "speech": "la fase fallica, dai tre ai sei anni, in cui si colloca il celebre complesso di Edipo;"
+      "speech": "la fase fallica, dai tre ai sei anni, in cui si colloca il celebre complesso di Edipo;",
+      "bold": [
+        [
+          3,
+          15
+        ],
+        [
+          67,
+          85
+        ]
+      ]
     },
     {
       "text": "un periodo di latenza, dai sei agli undici anni circa, in cui la pulsione sessuale è come sopita; e infine la fase genitale, dalla pubertà in poi.",
-      "speech": "un periodo di latenza, dai sei agli undici anni circa, in cui la pulsione sessuale è come sopita; e infine la fase genitale, dalla pubertà in poi."
+      "speech": "un periodo di latenza, dai sei agli undici anni circa, in cui la pulsione sessuale è come sopita; e infine la fase genitale, dalla pubertà in poi.",
+      "bold": [
+        [
+          14,
+          21
+        ],
+        [
+          110,
+          123
+        ]
+      ]
     },
     {
       "text": "Secondo Freud, un fissarsi eccessivo su una di queste fasi durante l'infanzia, a causa di frustrazioni o gratificazioni eccessive, può lasciare tracce durature nella personalità adulta:",
-      "speech": "Secondo Freud, un fissarsi eccessivo su una di queste fasi durante l'infanzia, a causa di frustrazioni o gratificazioni eccessive, può lasciare tracce durature nella personalità adulta:"
+      "speech": "Secondo Freud, un fissarsi eccessivo su una di queste fasi durante l'infanzia, a causa di frustrazioni o gratificazioni eccessive, può lasciare tracce durature nella personalità adulta:",
+      "bold": [
+        [
+          18,
+          36
+        ]
+      ]
     },
     {
       "text": "è questo il meccanismo con cui la teoria freudiana spiega molti tratti caratteriali dell'età adulta come esiti di conflitti irrisolti dell'infanzia.",
@@ -110,15 +204,53 @@
     },
     {
       "text": "Primo: la psicoanalisi di Freud sostiene che gran parte della vita psichica si svolge a livello inconscio, contrapponendosi radicalmente al comportamentismo.",
-      "speech": "Primo: la psicoanalisi di Freud sostiene che gran parte della vita psichica si svolge a livello inconscio, contrapponendosi radicalmente al comportamentismo."
+      "speech": "Primo: la psicoanalisi di Freud sostiene che gran parte della vita psichica si svolge a livello inconscio, contrapponendosi radicalmente al comportamentismo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          96,
+          105
+        ]
+      ]
     },
     {
       "text": "Secondo: la personalità è composta da tre istanze in conflitto, l'Es regolato dal principio di piacere, l'Io regolato dal principio di realtà, il Super-Io come coscienza morale interiorizzata.",
-      "speech": "Secondo: la personalità è composta da tre istanze in conflitto, l'Es regolato dal principio di piacere, l'Io regolato dal principio di realtà, il Super-Io come coscienza morale interiorizzata."
+      "speech": "Secondo: la personalità è composta da tre istanze in conflitto, l'Es regolato dal principio di piacere, l'Io regolato dal principio di realtà, il Super-Io come coscienza morale interiorizzata.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          66,
+          68
+        ],
+        [
+          106,
+          108
+        ],
+        [
+          146,
+          154
+        ]
+      ]
     },
     {
       "text": "Terzo: lo sviluppo psicosessuale attraversa cinque fasi, orale, anale, fallica, di latenza e genitale, ciascuna centrata su una diversa zona erogena.",
-      "speech": "Terzo: lo sviluppo psicosessuale attraversa cinque fasi, orale, anale, fallica, di latenza e genitale, ciascuna centrata su una diversa zona erogena."
+      "speech": "Terzo: lo sviluppo psicosessuale attraversa cinque fasi, orale, anale, fallica, di latenza e genitale, ciascuna centrata su una diversa zona erogena.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          32
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo un indirizzo nato proprio in reazione, sia al determinismo del comportamentismo sia al pessimismo della psicoanalisi: le teorie umanistiche di Rogers e Maslow.",

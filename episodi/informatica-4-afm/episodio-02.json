@@ -18,7 +18,13 @@
     },
     {
       "text": "L'usabilità di un sito web indica la facilità con cui un utente riesce a raggiungere i propri obiettivi di navigazione in modo efficace,",
-      "speech": "L'usabilità di un sito web indica la facilità con cui un utente riesce a raggiungere i propri obiettivi di navigazione in modo efficace,"
+      "speech": "L'usabilità di un sito web indica la facilità con cui un utente riesce a raggiungere i propri obiettivi di navigazione in modo efficace,",
+      "bold": [
+        [
+          2,
+          11
+        ]
+      ]
     },
     {
       "text": "efficiente e soddisfacente, senza dover dedicare uno sforzo cognitivo eccessivo alla comprensione dell'interfaccia.",
@@ -26,7 +32,13 @@
     },
     {
       "text": "L'accessibilità indica invece qualcosa di diverso, anche se collegato:",
-      "speech": "L'accessibilità indica invece qualcosa di diverso, anche se collegato:"
+      "speech": "L'accessibilità indica invece qualcosa di diverso, anche se collegato:",
+      "bold": [
+        [
+          2,
+          15
+        ]
+      ]
     },
     {
       "text": "la possibilità, per tutti gli utenti, incluse le persone con disabilità visive, uditive, motorie o cognitive, di percepire, comprendere, navigare e interagire con un sito web.",
@@ -34,11 +46,27 @@
     },
     {
       "text": "Gli standard internazionali di riferimento per l'accessibilità sono le WCAG, le Web Content Accessibility Guidelines,",
-      "speech": "Gli standard internazionali di riferimento per l'accessibilità sono le WCAG, le Web Content Accessibility Guidelines,"
+      "speech": "Gli standard internazionali di riferimento per l'accessibilità sono le WCAG, le Web Content Accessibility Guidelines,",
+      "bold": [
+        [
+          71,
+          75
+        ]
+      ]
     },
     {
       "text": "mentre in Italia la materia è disciplinata dalla cosiddetta Legge Stanca, la Legge 4 del 2004.",
-      "speech": "mentre in Italia la materia è disciplinata dalla cosiddetta Legge Stanca, la Legge 4 del 2004."
+      "speech": "mentre in Italia la materia è disciplinata dalla cosiddetta Legge Stanca, la Legge 4 del 2004.",
+      "bold": [
+        [
+          60,
+          72
+        ],
+        [
+          77,
+          93
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa coppia di concetti, perché è tra le distinzioni più delicate dell'intero modulo, e vale la pena fissarla con una formula semplice da ricordare in sede d'esame:",
@@ -46,7 +74,13 @@
     },
     {
       "text": "l'accessibilità è il prerequisito che garantisce a tutti la possibilità di accedere a un servizio, l'usabilità ne ottimizza l'esperienza d'uso una volta che l'accesso è garantito.",
-      "speech": "l'accessibilità è il prerequisito che garantisce a tutti la possibilità di accedere a un servizio, l'usabilità ne ottimizza l'esperienza d'uso una volta che l'accesso è garantito."
+      "speech": "l'accessibilità è il prerequisito che garantisce a tutti la possibilità di accedere a un servizio, l'usabilità ne ottimizza l'esperienza d'uso una volta che l'accesso è garantito.",
+      "bold": [
+        [
+          21,
+          33
+        ]
+      ]
     },
     {
       "text": "In altre parole, un sito potrebbe essere tecnicamente accessibile ma poco usabile, se ad esempio è navigabile da chiunque ma con un'interfaccia confusa;",
@@ -66,7 +100,13 @@
     },
     {
       "text": "Un sito web statico è composto da pagine HTML il cui contenuto è fisso e identico per tutti gli utenti che lo visitano, e richiede l'intervento manuale di uno sviluppatore per essere aggiornato:",
-      "speech": "Un sito web statico è composto da pagine HTML il cui contenuto è fisso e identico per tutti gli utenti che lo visitano, e richiede l'intervento manuale di uno sviluppatore per essere aggiornato:"
+      "speech": "Un sito web statico è composto da pagine HTML il cui contenuto è fisso e identico per tutti gli utenti che lo visitano, e richiede l'intervento manuale di uno sviluppatore per essere aggiornato:",
+      "bold": [
+        [
+          3,
+          19
+        ]
+      ]
     },
     {
       "text": "è una soluzione adatta a siti semplici, con contenuti che cambiano raramente.",
@@ -74,15 +114,41 @@
     },
     {
       "text": "Un sito web dinamico, invece, genera le proprie pagine al momento della richiesta, combinando modelli di pagina, i cosiddetti template, con dati recuperati in tempo reale, tipicamente da un database.",
-      "speech": "Un sito web dinamico, invece, genera le proprie pagine al momento della richiesta, combinando modelli di pagina, i cosiddetti template, con dati recuperati in tempo reale, tipicamente da un database."
+      "speech": "Un sito web dinamico, invece, genera le proprie pagine al momento della richiesta, combinando modelli di pagina, i cosiddetti template, con dati recuperati in tempo reale, tipicamente da un database.",
+      "bold": [
+        [
+          3,
+          20
+        ],
+        [
+          126,
+          134
+        ]
+      ]
     },
     {
       "text": "Questo avviene grazie a linguaggi di programmazione lato server, come PHP o ASP.NET,",
-      "speech": "Questo avviene grazie a linguaggi di programmazione lato server, come PHP o ASP.NET,"
+      "speech": "Questo avviene grazie a linguaggi di programmazione lato server, come PHP o ASP.NET,",
+      "bold": [
+        [
+          70,
+          83
+        ]
+      ]
     },
     {
       "text": "oppure attraverso un CMS, un Content Management System come WordPress, che permette anche a utenti non tecnici di aggiornare autonomamente i contenuti del sito.",
-      "speech": "oppure attraverso un CMS, un Content Management System come WordPress, che permette anche a utenti non tecnici di aggiornare autonomamente i contenuti del sito."
+      "speech": "oppure attraverso un CMS, un Content Management System come WordPress, che permette anche a utenti non tecnici di aggiornare autonomamente i contenuti del sito.",
+      "bold": [
+        [
+          21,
+          24
+        ],
+        [
+          60,
+          69
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: immaginate un piccolo sito vetrina di un'attività locale, con poche pagine che cambiano forse una volta all'anno,",
@@ -98,11 +164,23 @@
     },
     {
       "text": "Il sito vetrina, con contenuti fissi e aggiornamenti manuali rari, è tipicamente un sito statico.",
-      "speech": "Il sito vetrina, con contenuti fissi e aggiornamenti manuali rari, è tipicamente un sito statico."
+      "speech": "Il sito vetrina, con contenuti fissi e aggiornamenti manuali rari, è tipicamente un sito statico.",
+      "bold": [
+        [
+          84,
+          96
+        ]
+      ]
     },
     {
       "text": "Il sito di e-commerce, invece, è necessariamente dinamico, perché ogni pagina prodotto viene generata combinando un template con i dati recuperati in tempo reale dal database,",
-      "speech": "Il sito di e-commerce, invece, è necessariamente dinamico, perché ogni pagina prodotto viene generata combinando un template con i dati recuperati in tempo reale dal database,"
+      "speech": "Il sito di e-commerce, invece, è necessariamente dinamico, perché ogni pagina prodotto viene generata combinando un template con i dati recuperati in tempo reale dal database,",
+      "bold": [
+        [
+          49,
+          57
+        ]
+      ]
     },
     {
       "text": "che magazzino e ufficio commerciale aggiornano costantemente senza che nessuno debba riscrivere manualmente le pagine HTML.",
@@ -126,23 +204,77 @@
     },
     {
       "text": "Primo: l'accessibilità garantisce a tutti, incluse le persone con disabilità, la possibilità di accedere a un sito, secondo standard come le WCAG e, in Italia, la Legge Stanca;",
-      "speech": "Primo: l'accessibilità garantisce a tutti, incluse le persone con disabilità, la possibilità di accedere a un sito, secondo standard come le WCAG e, in Italia, la Legge Stanca;"
+      "speech": "Primo: l'accessibilità garantisce a tutti, incluse le persone con disabilità, la possibilità di accedere a un sito, secondo standard come le WCAG e, in Italia, la Legge Stanca;",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          9,
+          22
+        ],
+        [
+          141,
+          145
+        ],
+        [
+          163,
+          175
+        ]
+      ]
     },
     {
       "text": "l'usabilità ne rende l'esperienza d'uso efficace, efficiente e soddisfacente.",
-      "speech": "l'usabilità ne rende l'esperienza d'uso efficace, efficiente e soddisfacente."
+      "speech": "l'usabilità ne rende l'esperienza d'uso efficace, efficiente e soddisfacente.",
+      "bold": [
+        [
+          2,
+          11
+        ]
+      ]
     },
     {
       "text": "Secondo: un sito statico ha contenuti fissi e aggiornamenti manuali, adatto a esigenze semplici.",
-      "speech": "Secondo: un sito statico ha contenuti fissi e aggiornamenti manuali, adatto a esigenze semplici."
+      "speech": "Secondo: un sito statico ha contenuti fissi e aggiornamenti manuali, adatto a esigenze semplici.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          24
+        ]
+      ]
     },
     {
       "text": "Terzo: un sito dinamico genera le pagine al momento della richiesta combinando template e dati da un database, spesso tramite un CMS.",
-      "speech": "Terzo: un sito dinamico genera le pagine al momento della richiesta combinando template e dati da un database, spesso tramite un CMS."
+      "speech": "Terzo: un sito dinamico genera le pagine al momento della richiesta combinando template e dati da un database, spesso tramite un CMS.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          129,
+          132
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo che cosa succede «dietro le quinte» di un sito dinamico:",
-      "speech": "Nel prossimo episodio vediamo che cosa succede «dietro le quinte» di un sito dinamico:"
+      "speech": "Nel prossimo episodio vediamo che cosa succede «dietro le quinte» di un sito dinamico:",
+      "bold": [
+        [
+          48,
+          64
+        ]
+      ]
     },
     {
       "text": "la differenza tra i linguaggi di programmazione lato client e lato server, e come un sito dialoga concretamente con un database.",

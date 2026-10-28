@@ -14,19 +14,55 @@
     },
     {
       "text": "la conquista normanna del 1066, e il sistema feudale che essa introduce in Inghilterra.",
-      "speech": "la conquista normanna del 1066, e il sistema feudale che essa introduce in Inghilterra."
+      "speech": "la conquista normanna del 1066, e il sistema feudale che essa introduce in Inghilterra.",
+      "bold": [
+        [
+          3,
+          30
+        ],
+        [
+          37,
+          52
+        ]
+      ]
     },
     {
       "text": "Nel 1066 Guglielmo, duca di Normandia — una regione della Francia settentrionale —",
-      "speech": "Nel 1066 Guglielmo, duca di Normandia — una regione della Francia settentrionale —"
+      "speech": "Nel 1066 Guglielmo, duca di Normandia — una regione della Francia settentrionale —",
+      "bold": [
+        [
+          9,
+          37
+        ]
+      ]
     },
     {
       "text": "attraversa la Manica con il proprio esercito e sconfigge il re anglosassone Aroldo II nella celebre battaglia di Hastings.",
-      "speech": "attraversa la Manica con il proprio esercito e sconfigge il re anglosassone Aroldo II nella celebre battaglia di Hastings."
+      "speech": "attraversa la Manica con il proprio esercito e sconfigge il re anglosassone Aroldo II nella celebre battaglia di Hastings.",
+      "bold": [
+        [
+          76,
+          85
+        ],
+        [
+          100,
+          121
+        ]
+      ]
     },
     {
       "text": "Guglielmo diventa così re d'Inghilterra con il nome di Guglielmo I, passato alla storia con l'appellativo \"il Conquistatore\".",
-      "speech": "Guglielmo diventa così re d'Inghilterra con il nome di Guglielmo I, passato alla storia con l'appellativo \"il Conquistatore\"."
+      "speech": "Guglielmo diventa così re d'Inghilterra con il nome di Guglielmo I, passato alla storia con l'appellativo \"il Conquistatore\".",
+      "bold": [
+        [
+          55,
+          66
+        ],
+        [
+          107,
+          123
+        ]
+      ]
     },
     {
       "text": "Non si tratta di un semplice cambio di sovrano, come tanti ne aveva già conosciuti l'Inghilterra anglosassone:",
@@ -34,7 +70,13 @@
     },
     {
       "text": "la conquista normanna è un evento epocale, che segna una cesura profondissima nella storia inglese, capace di trasformare radicalmente la società, l'amministrazione e persino la lingua stessa del paese.",
-      "speech": "la conquista normanna è un evento epocale, che segna una cesura profondissima nella storia inglese, capace di trasformare radicalmente la società, l'amministrazione e persino la lingua stessa del paese."
+      "speech": "la conquista normanna è un evento epocale, che segna una cesura profondissima nella storia inglese, capace di trasformare radicalmente la società, l'amministrazione e persino la lingua stessa del paese.",
+      "bold": [
+        [
+          27,
+          41
+        ]
+      ]
     },
     {
       "text": "Vediamo perché questa trasformazione è così profonda.",
@@ -46,25 +88,37 @@
     },
     {
       "text": "introduce un'intera nuova aristocrazia, di lingua e cultura francese, che sostituisce quasi completamente la vecchia nobiltà anglosassone, spesso confiscandone le terre e distribuendole ai propri seguaci normanni.",
-      "speech": "introduce un'intera nuova aristocrazia, di lingua e cultura francese, che sostituisce quasi completamente la vecchia nobiltà anglosassone, spesso confiscandone le terre e distribuendole ai propri seguaci normanni."
+      "speech": "introduce un'intera nuova aristocrazia, di lingua e cultura francese, che sostituisce quasi completamente la vecchia nobiltà anglosassone, spesso confiscandone le terre e distribuendole ai propri seguaci normanni.",
+      "bold": [
+        [
+          20,
+          38
+        ]
+      ]
     },
     {
       "text": "È proprio da questo evento che nasce quello che i linguisti chiamano inglese medievale, Middle English:",
       "speech": "È proprio da questo evento che nasce quello che i linguisti chiamano inglese medievale, Middle English:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "È proprio da questo evento che nasce quello che i linguisti chiamano inglese medievale,"
-        },
-        {
-          "lang": "en",
-          "text": "Middle English:"
-        }
+      "bold": [
+        [
+          69,
+          86
+        ],
+        [
+          88,
+          102
+        ]
       ]
     },
     {
       "text": "una lingua che, pur mantenendo la propria base germanica ereditata dagli Anglosassoni, assorbe un vastissimo lessico francese, introdotto dalla nuova classe dirigente normanna.",
-      "speech": "una lingua che, pur mantenendo la propria base germanica ereditata dagli Anglosassoni, assorbe un vastissimo lessico francese, introdotto dalla nuova classe dirigente normanna."
+      "speech": "una lingua che, pur mantenendo la propria base germanica ereditata dagli Anglosassoni, assorbe un vastissimo lessico francese, introdotto dalla nuova classe dirigente normanna.",
+      "bold": [
+        [
+          109,
+          125
+        ]
+      ]
     },
     {
       "text": "Pensate a quante parole inglesi di uso comune, ancora oggi, hanno un'origine francese evidente — parole legate al diritto, al governo, alla cucina raffinata, alla vita di corte —",
@@ -76,7 +130,13 @@
     },
     {
       "text": "Accanto alla trasformazione linguistica, i Normanni impongono in Inghilterra un sistema sociale ed economico che l'isola non aveva mai conosciuto in una forma così rigida e gerarchica: il feudalesimo.",
-      "speech": "Accanto alla trasformazione linguistica, i Normanni impongono in Inghilterra un sistema sociale ed economico che l'isola non aveva mai conosciuto in una forma così rigida e gerarchica: il feudalesimo."
+      "speech": "Accanto alla trasformazione linguistica, i Normanni impongono in Inghilterra un sistema sociale ed economico che l'isola non aveva mai conosciuto in una forma così rigida e gerarchica: il feudalesimo.",
+      "bold": [
+        [
+          188,
+          199
+        ]
+      ]
     },
     {
       "text": "Il meccanismo funziona secondo una precisa catena di obblighi reciproci, che vale la pena ricostruire con chiarezza perché è un concetto che tornerà utile anche quando, in altri moduli, incontrerete il feudalesimo europeo continentale.",
@@ -84,15 +144,45 @@
     },
     {
       "text": "Al vertice della piramide sta il re, che concede grandi estensioni di terra ai propri baroni, i grandi nobili del regno, in cambio della loro fedeltà personale e del loro servizio militare in caso di guerra.",
-      "speech": "Al vertice della piramide sta il re, che concede grandi estensioni di terra ai propri baroni, i grandi nobili del regno, in cambio della loro fedeltà personale e del loro servizio militare in caso di guerra."
+      "speech": "Al vertice della piramide sta il re, che concede grandi estensioni di terra ai propri baroni, i grandi nobili del regno, in cambio della loro fedeltà personale e del loro servizio militare in caso di guerra.",
+      "bold": [
+        [
+          33,
+          35
+        ],
+        [
+          86,
+          92
+        ],
+        [
+          142,
+          159
+        ],
+        [
+          171,
+          188
+        ]
+      ]
     },
     {
       "text": "I baroni, a loro volta, concedono porzioni più piccole di quella stessa terra a cavalieri vassalli, che si impegnano anch'essi a fedeltà e servizio militare verso il proprio signore diretto, il barone.",
-      "speech": "I baroni, a loro volta, concedono porzioni più piccole di quella stessa terra a cavalieri vassalli, che si impegnano anch'essi a fedeltà e servizio militare verso il proprio signore diretto, il barone."
+      "speech": "I baroni, a loro volta, concedono porzioni più piccole di quella stessa terra a cavalieri vassalli, che si impegnano anch'essi a fedeltà e servizio militare verso il proprio signore diretto, il barone.",
+      "bold": [
+        [
+          80,
+          98
+        ]
+      ]
     },
     {
       "text": "Alla base di questa piramide sociale si trovano infine i contadini, i cosiddetti servi della gleba, che lavorano materialmente la terra ma non ne sono proprietari,",
-      "speech": "Alla base di questa piramide sociale si trovano infine i contadini, i cosiddetti servi della gleba, che lavorano materialmente la terra ma non ne sono proprietari,"
+      "speech": "Alla base di questa piramide sociale si trovano infine i contadini, i cosiddetti servi della gleba, che lavorano materialmente la terra ma non ne sono proprietari,",
+      "bold": [
+        [
+          81,
+          98
+        ]
+      ]
     },
     {
       "text": "e che sono legati al proprio signore locale da vincoli di dipendenza economica e personale molto stringenti.",
@@ -104,7 +194,13 @@
     },
     {
       "text": "re, baroni, cavalieri vassalli, servi della gleba, ciascun livello legato al successivo da un doppio vincolo di concessione di terra da un lato e di fedeltà e servizio dall'altro.",
-      "speech": "re, baroni, cavalieri vassalli, servi della gleba, ciascun livello legato al successivo da un doppio vincolo di concessione di terra da un lato e di fedeltà e servizio dall'altro."
+      "speech": "re, baroni, cavalieri vassalli, servi della gleba, ciascun livello legato al successivo da un doppio vincolo di concessione di terra da un lato e di fedeltà e servizio dall'altro.",
+      "bold": [
+        [
+          32,
+          49
+        ]
+      ]
     },
     {
       "text": "È un sistema che assicura al re un esercito prontamente mobilitabile senza bisogno di un apparato statale centralizzato e costoso,",
@@ -121,24 +217,26 @@
     {
       "text": "pochi anni dopo la conquista, Guglielmo ordina la compilazione di un censimento dettagliatissimo di tutte le terre, le proprietà e le ricchezze del regno, noto come Domesday Book, completato nel 1086.",
       "speech": "pochi anni dopo la conquista, Guglielmo ordina la compilazione di un censimento dettagliatissimo di tutte le terre, le proprietà e le ricchezze del regno, noto come Domesday Book, completato nel 1086.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "pochi anni dopo la conquista, Guglielmo ordina la compilazione di un censimento dettagliatissimo di tutte le terre, le proprietà e le ricchezze del regno, noto come Domesday"
-        },
-        {
-          "lang": "en",
-          "text": "Book,"
-        },
-        {
-          "lang": "it",
-          "text": "completato nel 1086."
-        }
+      "bold": [
+        [
+          174,
+          178
+        ],
+        [
+          195,
+          199
+        ]
       ]
     },
     {
       "text": "Si tratta di un documento straordinario per l'epoca, che permetteva alla corona di sapere con precisione quali risorse fossero disponibili in ogni angolo del regno, ai fini della tassazione e del controllo amministrativo:",
-      "speech": "Si tratta di un documento straordinario per l'epoca, che permetteva alla corona di sapere con precisione quali risorse fossero disponibili in ogni angolo del regno, ai fini della tassazione e del controllo amministrativo:"
+      "speech": "Si tratta di un documento straordinario per l'epoca, che permetteva alla corona di sapere con precisione quali risorse fossero disponibili in ogni angolo del regno, ai fini della tassazione e del controllo amministrativo:",
+      "bold": [
+        [
+          179,
+          189
+        ]
+      ]
     },
     {
       "text": "un livello di organizzazione burocratica che pochi altri regni europei del tempo potevano vantare,",
@@ -158,7 +256,17 @@
     },
     {
       "text": "Provate a tenerlo a mente, perché è esattamente il filo che collegherà questo episodio al prossimo, dedicato a re Giovanni Senzaterra e alla Magna Carta:",
-      "speech": "Provate a tenerlo a mente, perché è esattamente il filo che collegherà questo episodio al prossimo, dedicato a re Giovanni Senzaterra e alla Magna Carta:"
+      "speech": "Provate a tenerlo a mente, perché è esattamente il filo che collegherà questo episodio al prossimo, dedicato a re Giovanni Senzaterra e alla Magna Carta:",
+      "bold": [
+        [
+          114,
+          133
+        ],
+        [
+          141,
+          152
+        ]
+      ]
     },
     {
       "text": "un sistema feudale fondato sulla fedeltà dei baroni funziona finché il re rispetta, a sua volta, i propri obblighi verso di loro;",
@@ -174,37 +282,85 @@
     },
     {
       "text": "Primo: nel 1066 Guglielmo di Normandia sconfigge Aroldo II ad Hastings e diventa re d'Inghilterra, introducendo una nuova aristocrazia di lingua francese.",
-      "speech": "Primo: nel 1066 Guglielmo di Normandia sconfigge Aroldo II ad Hastings e diventa re d'Inghilterra, introducendo una nuova aristocrazia di lingua francese."
+      "speech": "Primo: nel 1066 Guglielmo di Normandia sconfigge Aroldo II ad Hastings e diventa re d'Inghilterra, introducendo una nuova aristocrazia di lingua francese.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          62,
+          70
+        ]
+      ]
     },
     {
       "text": "Secondo: da questo evento nasce l'inglese medievale, il Middle English, che assorbe un vastissimo lessico francese pur mantenendo la propria base germanica anglosassone.",
       "speech": "Secondo: da questo evento nasce l'inglese medievale, il Middle English, che assorbe un vastissimo lessico francese pur mantenendo la propria base germanica anglosassone.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo: da questo evento nasce l'inglese medievale, il"
-        },
-        {
-          "lang": "en",
-          "text": "Middle English,"
-        },
-        {
-          "lang": "it",
-          "text": "che assorbe un vastissimo lessico francese pur mantenendo la propria base germanica anglosassone."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          56,
+          70
+        ],
+        [
+          98,
+          114
+        ]
       ]
     },
     {
       "text": "Terzo: i Normanni impongono un sistema feudale rigidamente gerarchico, fondato su una catena di concessioni di terra in cambio di fedeltà e servizio militare, dal re ai baroni, dai baroni ai cavalieri vassalli, fino ai servi della gleba.",
-      "speech": "Terzo: i Normanni impongono un sistema feudale rigidamente gerarchico, fondato su una catena di concessioni di terra in cambio di fedeltà e servizio militare, dal re ai baroni, dai baroni ai cavalieri vassalli, fino ai servi della gleba."
+      "speech": "Terzo: i Normanni impongono un sistema feudale rigidamente gerarchico, fondato su una catena di concessioni di terra in cambio di fedeltà e servizio militare, dal re ai baroni, dai baroni ai cavalieri vassalli, fino ai servi della gleba.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          31,
+          46
+        ],
+        [
+          86,
+          116
+        ],
+        [
+          219,
+          236
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo come proprio questo sistema di obblighi reciproci tra re e baroni porterà, nel 1215, a uno dei documenti più importanti di tutta la storia costituzionale occidentale:",
-      "speech": "Nel prossimo episodio vediamo come proprio questo sistema di obblighi reciproci tra re e baroni porterà, nel 1215, a uno dei documenti più importanti di tutta la storia costituzionale occidentale:"
+      "speech": "Nel prossimo episodio vediamo come proprio questo sistema di obblighi reciproci tra re e baroni porterà, nel 1215, a uno dei documenti più importanti di tutta la storia costituzionale occidentale:",
+      "bold": [
+        [
+          109,
+          113
+        ]
+      ]
     },
     {
       "text": "la Magna Carta, insieme alla nascita del Parlamento inglese.",
-      "speech": "la Magna Carta, insieme alla nascita del Parlamento inglese."
+      "speech": "la Magna Carta, insieme alla nascita del Parlamento inglese.",
+      "bold": [
+        [
+          3,
+          14
+        ],
+        [
+          41,
+          59
+        ]
+      ]
     },
     {
       "text": "Ci vediamo lì.",

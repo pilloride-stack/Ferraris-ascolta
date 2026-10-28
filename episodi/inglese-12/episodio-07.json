@@ -7,23 +7,15 @@
     {
       "text": "Nell'episodio scorso abbiamo chiarito la differenza tra simple past e present perfect.",
       "speech": "Nell'episodio scorso abbiamo chiarito la differenza tra simple past e present perfect.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nell'episodio scorso abbiamo chiarito la differenza tra"
-        },
-        {
-          "lang": "en",
-          "text": "simple past"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "en",
-          "text": "present perfect."
-        }
+      "bold": [
+        [
+          56,
+          67
+        ],
+        [
+          70,
+          85
+        ]
       ]
     },
     {
@@ -33,27 +25,19 @@
     {
       "text": "i sostantivi, il modo in cui formano il plurale, i dimostrativi this, that, these, those, e la struttura there is / there are, che serve ad affermare l'esistenza di qualcosa.",
       "speech": "i sostantivi, il modo in cui formano il plurale, i dimostrativi this, that, these, those, e la struttura there is / there are, che serve ad affermare l'esistenza di qualcosa.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "i sostantivi, il modo in cui formano il plurale, i dimostrativi"
-        },
-        {
-          "lang": "en",
-          "text": "this, that, these, those,"
-        },
-        {
-          "lang": "it",
-          "text": "e la struttura"
-        },
-        {
-          "lang": "en",
-          "text": "there is / there are,"
-        },
-        {
-          "lang": "it",
-          "text": "che serve ad affermare l'esistenza di qualcosa."
-        }
+      "bold": [
+        [
+          51,
+          63
+        ],
+        [
+          64,
+          88
+        ],
+        [
+          105,
+          125
+        ]
       ]
     },
     {
@@ -63,31 +47,23 @@
     {
       "text": "La regola generale, quella che si applica alla maggior parte dei nomi inglesi, è semplicissima: si aggiunge una -s alla forma singolare, book diventa books, car diventa cars.",
       "speech": "La regola generale, quella che si applica alla maggior parte dei nomi inglesi, è semplicissima: si aggiunge una -s alla forma singolare, book diventa books, car diventa cars.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La regola generale, quella che si applica alla maggior parte dei nomi inglesi, è semplicissima: si aggiunge una -s alla forma singolare,"
-        },
-        {
-          "lang": "en",
-          "text": "book"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "books, car"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "cars."
-        }
+      "bold": [
+        [
+          112,
+          135
+        ],
+        [
+          137,
+          141
+        ],
+        [
+          150,
+          160
+        ],
+        [
+          169,
+          173
+        ]
       ]
     },
     {
@@ -96,244 +72,174 @@
     },
     {
       "text": "I nomi che terminano in -s, -ss, -sh, -ch, -x, -z aggiungono -es, non semplicemente -s, per una ragione puramente fonetica:",
-      "speech": "I nomi che terminano in -s, -ss, -sh, -ch, -x, -z aggiungono -es, non semplicemente -s, per una ragione puramente fonetica:"
+      "speech": "I nomi che terminano in -s, -ss, -sh, -ch, -x, -z aggiungono -es, non semplicemente -s, per una ragione puramente fonetica:",
+      "bold": [
+        [
+          24,
+          49
+        ],
+        [
+          61,
+          64
+        ]
+      ]
     },
     {
       "text": "provate a pronunciare \"boxs\" invece di \"boxes\", e capirete subito perché la lingua inglese ha bisogno di quella vocale in più per rendere la parola pronunciabile — box diventa dunque boxes, bus diventa buses, watch diventa watches.",
       "speech": "provate a pronunciare \"boxs\" invece di \"boxes\", e capirete subito perché la lingua inglese ha bisogno di quella vocale in più per rendere la parola pronunciabile — box diventa dunque boxes, bus diventa buses, watch diventa watches.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "provate a pronunciare \"boxs\" invece di \""
-        },
-        {
-          "lang": "en",
-          "text": "boxes\","
-        },
-        {
-          "lang": "it",
-          "text": "e capirete subito perché la lingua inglese ha bisogno di quella vocale in più per rendere la parola pronunciabile —"
-        },
-        {
-          "lang": "en",
-          "text": "box"
-        },
-        {
-          "lang": "it",
-          "text": "diventa dunque"
-        },
-        {
-          "lang": "en",
-          "text": "boxes,"
-        },
-        {
-          "lang": "it",
-          "text": "bus diventa"
-        },
-        {
-          "lang": "en",
-          "text": "buses, watch"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "watches."
-        }
+      "bold": [
+        [
+          40,
+          45
+        ],
+        [
+          164,
+          167
+        ],
+        [
+          183,
+          188
+        ],
+        [
+          202,
+          214
+        ],
+        [
+          223,
+          230
+        ]
       ]
     },
     {
       "text": "I nomi che terminano in consonante seguita da y trasformano la y in i e aggiungono -es:",
-      "speech": "I nomi che terminano in consonante seguita da y trasformano la y in i e aggiungono -es:"
+      "speech": "I nomi che terminano in consonante seguita da y trasformano la y in i e aggiungono -es:",
+      "bold": [
+        [
+          24,
+          47
+        ]
+      ]
     },
     {
       "text": "city diventa cities, baby diventa babies — attenzione, questa regola vale solo quando prima della y c'è una consonante;",
       "speech": "city diventa cities, baby diventa babies — attenzione, questa regola vale solo quando prima della y cè una consonante;",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "city"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "cities, baby"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "babies —"
-        },
-        {
-          "lang": "it",
-          "text": "attenzione, questa regola vale solo quando prima della y cè una consonante;"
-        }
+      "bold": [
+        [
+          0,
+          4
+        ],
+        [
+          13,
+          25
+        ],
+        [
+          34,
+          40
+        ]
       ]
     },
     {
       "text": "se prima della y c'è una vocale, come in boy o in day, il plurale è semplicemente regolare, boys, days, senza alcuna trasformazione.",
       "speech": "se prima della y cè una vocale, come in boy o in day, il plurale è semplicemente regolare, boys, days, senza alcuna trasformazione.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "se prima della y cè una vocale, come in"
-        },
-        {
-          "lang": "en",
-          "text": "boy"
-        },
-        {
-          "lang": "it",
-          "text": "o in"
-        },
-        {
-          "lang": "en",
-          "text": "day,"
-        },
-        {
-          "lang": "it",
-          "text": "il plurale è semplicemente regolare,"
-        },
-        {
-          "lang": "en",
-          "text": "boys, days,"
-        },
-        {
-          "lang": "it",
-          "text": "senza alcuna trasformazione."
-        }
+      "bold": [
+        [
+          25,
+          31
+        ],
+        [
+          41,
+          44
+        ],
+        [
+          50,
+          53
+        ],
+        [
+          92,
+          102
+        ]
       ]
     },
     {
       "text": "Accanto a queste regole, esistono alcuni plurali irregolari che è indispensabile memorizzare uno per uno, perché non seguono alcuno schema logico prevedibile:",
-      "speech": "Accanto a queste regole, esistono alcuni plurali irregolari che è indispensabile memorizzare uno per uno, perché non seguono alcuno schema logico prevedibile:"
+      "speech": "Accanto a queste regole, esistono alcuni plurali irregolari che è indispensabile memorizzare uno per uno, perché non seguono alcuno schema logico prevedibile:",
+      "bold": [
+        [
+          41,
+          59
+        ]
+      ]
     },
     {
       "text": "man diventa men, woman diventa women — attenzione qui alla pronuncia, perché la seconda sillaba cambia suono anche se la scrittura sembra simile —",
       "speech": "man diventa men, woman diventa women — attenzione qui alla pronuncia, perché la seconda sillaba cambia suono anche se la scrittura sembra simile —",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "man"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "men, woman"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "women —"
-        },
-        {
-          "lang": "it",
-          "text": "attenzione qui alla pronuncia, perché la seconda sillaba cambia suono anche se la scrittura sembra simile —"
-        }
+      "bold": [
+        [
+          0,
+          3
+        ],
+        [
+          12,
+          22
+        ],
+        [
+          31,
+          36
+        ]
       ]
     },
     {
       "text": "child diventa children, foot diventa feet, tooth diventa teeth, mouse diventa mice,",
       "speech": "child diventa children, foot diventa feet, tooth diventa teeth, mouse diventa mice,",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "child"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "children, foot"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "feet, tooth"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "teeth,"
-        },
-        {
-          "lang": "it",
-          "text": "mouse diventa"
-        },
-        {
-          "lang": "en",
-          "text": "mice,"
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          14,
+          28
+        ],
+        [
+          37,
+          48
+        ],
+        [
+          57,
+          62
+        ],
+        [
+          78,
+          82
+        ]
       ]
     },
     {
       "text": "e person diventa people, non \"persons\" come uno studente italiano potrebbe essere tentato di dire per analogia con la propria lingua madre.",
       "speech": "e person diventa people, non \"persons\" come uno studente italiano potrebbe essere tentato di dire per analogia con la propria lingua madre.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "en",
-          "text": "person"
-        },
-        {
-          "lang": "it",
-          "text": "diventa"
-        },
-        {
-          "lang": "en",
-          "text": "people,"
-        },
-        {
-          "lang": "it",
-          "text": "non \""
-        },
-        {
-          "lang": "en",
-          "text": "persons\""
-        },
-        {
-          "lang": "it",
-          "text": "come uno studente italiano potrebbe essere tentato di dire per analogia con la propria lingua madre."
-        }
+      "bold": [
+        [
+          2,
+          8
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          30,
+          37
+        ]
       ]
     },
     {
       "text": "Passiamo ora ai dimostrativi: this, that, these, those.",
       "speech": "Passiamo ora ai dimostrativi: this, that, these, those.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Passiamo ora ai dimostrativi:"
-        },
-        {
-          "lang": "en",
-          "text": "this, that, these, those."
-        }
+      "bold": [
+        [
+          30,
+          54
+        ]
       ]
     },
     {
@@ -342,110 +248,84 @@
     },
     {
       "text": "da una parte c'è la distinzione tra singolare e plurale, dall'altra c'è la distinzione tra vicinanza e lontananza rispetto a chi parla.",
-      "speech": "da una parte cè la distinzione tra singolare e plurale, dall'altra cè la distinzione tra vicinanza e lontananza rispetto a chi parla."
+      "speech": "da una parte cè la distinzione tra singolare e plurale, dall'altra cè la distinzione tra vicinanza e lontananza rispetto a chi parla.",
+      "bold": [
+        [
+          91,
+          113
+        ]
+      ]
     },
     {
       "text": "This (questo) e these (questi) indicano vicinanza fisica o temporale — this book, il libro che ho qui, vicino a me; these books, questi libri, qui vicino a me, al plurale.",
       "speech": "This (questo) e these (questi) indicano vicinanza fisica o temporale — this book, il libro che ho qui, vicino a me; these books, questi libri, qui vicino a me, al plurale.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "This ("
-        },
-        {
-          "lang": "it",
-          "text": "questo) e"
-        },
-        {
-          "lang": "en",
-          "text": "these ("
-        },
-        {
-          "lang": "it",
-          "text": "questi) indicano vicinanza fisica o temporale —"
-        },
-        {
-          "lang": "en",
-          "text": "this book,"
-        },
-        {
-          "lang": "it",
-          "text": "il libro che ho qui, vicino a me;"
-        },
-        {
-          "lang": "en",
-          "text": "these books,"
-        },
-        {
-          "lang": "it",
-          "text": "questi libri, qui vicino a me, al plurale."
-        }
+      "bold": [
+        [
+          0,
+          4
+        ],
+        [
+          16,
+          21
+        ],
+        [
+          40,
+          68
+        ],
+        [
+          71,
+          80
+        ],
+        [
+          116,
+          127
+        ]
       ]
     },
     {
       "text": "That (quello) e those (quelli) indicano invece distanza, sia fisica sia temporale — that book, quel libro, laggiù, lontano da me; those books, quei libri, laggiù, al plurale.",
       "speech": "That (quello) e those (quelli) indicano invece distanza, sia fisica sia temporale — that book, quel libro, laggiù, lontano da me; those books, quei libri, laggiù, al plurale.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "That ("
-        },
-        {
-          "lang": "it",
-          "text": "quello) e"
-        },
-        {
-          "lang": "en",
-          "text": "those ("
-        },
-        {
-          "lang": "it",
-          "text": "quelli) indicano invece distanza, sia fisica sia temporale —"
-        },
-        {
-          "lang": "en",
-          "text": "that book,"
-        },
-        {
-          "lang": "it",
-          "text": "quel libro, laggiù, lontano da me;"
-        },
-        {
-          "lang": "en",
-          "text": "those books,"
-        },
-        {
-          "lang": "it",
-          "text": "quei libri, laggiù, al plurale."
-        }
+      "bold": [
+        [
+          0,
+          4
+        ],
+        [
+          16,
+          21
+        ],
+        [
+          47,
+          55
+        ],
+        [
+          84,
+          93
+        ],
+        [
+          130,
+          141
+        ]
       ]
     },
     {
       "text": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo \"this\",",
       "speech": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo \"this\",",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo \""
-        },
-        {
-          "lang": "en",
-          "text": "this\","
-        }
+      "bold": [
+        [
+          173,
+          177
+        ]
       ]
     },
     {
       "text": "e poi indicare con il braccio teso un oggetto lontano dicendo \"that\":",
       "speech": "e poi indicare con il braccio teso un oggetto lontano dicendo \"that\":",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e poi indicare con il braccio teso un oggetto lontano dicendo \""
-        },
-        {
-          "lang": "en",
-          "text": "that\":"
-        }
+      "bold": [
+        [
+          63,
+          67
+        ]
       ]
     },
     {
@@ -455,89 +335,69 @@
     {
       "text": "Vediamo ora la struttura there is / there are, che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a \"c'è\" / \"ci sono\".",
       "speech": "Vediamo ora la struttura there is / there are, che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a \"cè\" / \"ci sono\".",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Vediamo ora la struttura"
-        },
-        {
-          "lang": "en",
-          "text": "there is / there are,"
-        },
-        {
-          "lang": "it",
-          "text": "che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a \"cè\" / \"ci sono\"."
-        }
+      "bold": [
+        [
+          25,
+          45
+        ],
+        [
+          74,
+          95
+        ]
       ]
     },
     {
       "text": "There is si usa con i nomi singolari e con i nomi non numerabili — «There is a book on the table», c'è un libro sul tavolo;",
       "speech": "There is si usa con i nomi singolari e con i nomi non numerabili — «There is a book on the table», cè un libro sul tavolo;",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "There is"
-        },
-        {
-          "lang": "it",
-          "text": "si usa con i nomi singolari e con i nomi non numerabili — «"
-        },
-        {
-          "lang": "en",
-          "text": "There is a book on the table»,"
-        },
-        {
-          "lang": "it",
-          "text": "cè un libro sul tavolo;"
-        }
+      "bold": [
+        [
+          0,
+          8
+        ],
+        [
+          22,
+          36
+        ],
+        [
+          45,
+          64
+        ],
+        [
+          68,
+          96
+        ]
       ]
     },
     {
       "text": "there are si usa con i nomi plurali — «There are three books on the table», ci sono tre libri sul tavolo.",
       "speech": "there are si usa con i nomi plurali — «There are three books on the table», ci sono tre libri sul tavolo.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "there are"
-        },
-        {
-          "lang": "it",
-          "text": "si usa con i nomi plurali — «"
-        },
-        {
-          "lang": "en",
-          "text": "There are three books on the table»,"
-        },
-        {
-          "lang": "it",
-          "text": "ci sono tre libri sul tavolo."
-        }
+      "bold": [
+        [
+          0,
+          9
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          39,
+          73
+        ]
       ]
     },
     {
       "text": "Alla forma negativa si usa there isn't / there aren't, e alla forma interrogativa si usa is there...? / are there...?, con l'inversione tipica delle domande inglesi.",
       "speech": "Alla forma negativa si usa there isn't / there aren't, e alla forma interrogativa si usa is there...? / are there...?, con l'inversione tipica delle domande inglesi.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Alla forma negativa si usa"
-        },
-        {
-          "lang": "en",
-          "text": "there isn't / there aren't,"
-        },
-        {
-          "lang": "it",
-          "text": "e alla forma interrogativa si usa"
-        },
-        {
-          "lang": "en",
-          "text": "is there...? / are there...?,"
-        },
-        {
-          "lang": "it",
-          "text": "con l'inversione tipica delle domande inglesi."
-        }
+      "bold": [
+        [
+          27,
+          53
+        ],
+        [
+          89,
+          113
+        ]
       ]
     },
     {
@@ -547,51 +407,63 @@
     {
       "text": "e che vi conviene tenere a mente insieme ai dimostrativi e a there is/there are:",
       "speech": "e che vi conviene tenere a mente insieme ai dimostrativi e a there is/there are:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e che vi conviene tenere a mente insieme ai dimostrativi e a"
-        },
-        {
-          "lang": "en",
-          "text": "there is/there are:"
-        }
+      "bold": [
+        [
+          61,
+          79
+        ]
       ]
     },
     {
       "text": "la distinzione tra nomi numerabili (countable) e non numerabili (uncountable).",
-      "speech": "la distinzione tra nomi numerabili (countable) e non numerabili (uncountable)."
+      "speech": "la distinzione tra nomi numerabili (countable) e non numerabili (uncountable).",
+      "bold": [
+        [
+          24,
+          34
+        ],
+        [
+          49,
+          63
+        ]
+      ]
     },
     {
       "text": "I nomi numerabili indicano cose che si possono contare singolarmente, e hanno sia una forma singolare sia una forma plurale: a book, two books.",
       "speech": "I nomi numerabili indicano cose che si possono contare singolarmente, e hanno sia una forma singolare sia una forma plurale: a book, two books.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "I nomi numerabili indicano cose che si possono contare singolarmente, e hanno sia una forma singolare sia una forma plurale:"
-        },
-        {
-          "lang": "en",
-          "text": "a book, two books."
-        }
+      "bold": [
+        [
+          2,
+          17
+        ],
+        [
+          125,
+          142
+        ]
       ]
     },
     {
       "text": "I nomi non numerabili indicano invece sostanze, concetti astratti o categorie generali che non si possono dividere in unità contabili singolarmente,",
-      "speech": "I nomi non numerabili indicano invece sostanze, concetti astratti o categorie generali che non si possono dividere in unità contabili singolarmente,"
+      "speech": "I nomi non numerabili indicano invece sostanze, concetti astratti o categorie generali che non si possono dividere in unità contabili singolarmente,",
+      "bold": [
+        [
+          2,
+          21
+        ]
+      ]
     },
     {
       "text": "e si usano solo al singolare, senza l'articolo indeterminativo a/an: water, information, furniture, advice, money.",
       "speech": "e si usano solo al singolare, senza l'articolo indeterminativo a/an: water, information, furniture, advice, money.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e si usano solo al singolare, senza l'articolo indeterminativo a/"
-        },
-        {
-          "lang": "en",
-          "text": "an: water, information, furniture, advice, money."
-        }
+      "bold": [
+        [
+          11,
+          28
+        ],
+        [
+          65,
+          113
+        ]
       ]
     },
     {
@@ -605,49 +477,29 @@
     {
       "text": "Furniture, per esempio, spesso confonde gli studenti italiani, perché in italiano diciamo \"i mobili\", al plurale, ma in inglese furniture è sempre singolare e non numerabile:",
       "speech": "Furniture, per esempio, spesso confonde gli studenti italiani, perché in italiano diciamo \"i mobili\", al plurale, ma in inglese furniture è sempre singolare e non numerabile:",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Furniture,"
-        },
-        {
-          "lang": "it",
-          "text": "per esempio, spesso confonde gli studenti italiani, perché in italiano diciamo \"i mobili\", al plurale, ma in inglese"
-        },
-        {
-          "lang": "en",
-          "text": "furniture"
-        },
-        {
-          "lang": "it",
-          "text": "è sempre singolare e non numerabile:"
-        }
+      "bold": [
+        [
+          0,
+          9
+        ],
+        [
+          128,
+          137
+        ]
       ]
     },
     {
       "text": "non diremo mai \"two furnitures\", ma \"two pieces of furniture\", due pezzi di arredamento.",
       "speech": "non diremo mai \"two furnitures\", ma \"two pieces of furniture\", due pezzi di arredamento.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "non diremo mai \""
-        },
-        {
-          "lang": "en",
-          "text": "two furnitures\","
-        },
-        {
-          "lang": "it",
-          "text": "ma \""
-        },
-        {
-          "lang": "en",
-          "text": "two pieces of furniture\","
-        },
-        {
-          "lang": "it",
-          "text": "due pezzi di arredamento."
-        }
+      "bold": [
+        [
+          16,
+          30
+        ],
+        [
+          37,
+          60
+        ]
       ]
     },
     {
@@ -656,7 +508,13 @@
     },
     {
       "text": "pensate alla frase «In questa stanza ci sono due sedie e un tavolo, e quel quadro laggiù è molto antico».",
-      "speech": "pensate alla frase «In questa stanza ci sono due sedie e un tavolo, e quel quadro laggiù è molto antico»."
+      "speech": "pensate alla frase «In questa stanza ci sono due sedie e un tavolo, e quel quadro laggiù è molto antico».",
+      "bold": [
+        [
+          20,
+          103
+        ]
+      ]
     },
     {
       "text": "Come costruireste questa frase in inglese?",
@@ -665,77 +523,49 @@
     {
       "text": "La prima parte richiede there are, perché parliamo di più oggetti — sedie e un tavolo —",
       "speech": "La prima parte richiede there are, perché parliamo di più oggetti — sedie e un tavolo —",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La prima parte richiede"
-        },
-        {
-          "lang": "en",
-          "text": "there are,"
-        },
-        {
-          "lang": "it",
-          "text": "perché parliamo di più oggetti — sedie e un tavolo —"
-        }
+      "bold": [
+        [
+          24,
+          33
+        ]
       ]
     },
     {
       "text": "e il dimostrativo this, perché la stanza in cui vi trovate è vicina a chi parla: «In this room there are two chairs and a table».",
       "speech": "e il dimostrativo this, perché la stanza in cui vi trovate è vicina a chi parla: «In this room there are two chairs and a table».",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e il dimostrativo"
-        },
-        {
-          "lang": "en",
-          "text": "this,"
-        },
-        {
-          "lang": "it",
-          "text": "perché la stanza in cui vi trovate è vicina a chi parla: «"
-        },
-        {
-          "lang": "en",
-          "text": "In this room there are two chairs and a table»."
-        }
+      "bold": [
+        [
+          18,
+          22
+        ],
+        [
+          82,
+          127
+        ]
       ]
     },
     {
       "text": "La seconda parte richiede il dimostrativo that, perché il quadro è \"laggiù\", lontano: «and that painting is very old».",
       "speech": "La seconda parte richiede il dimostrativo that, perché il quadro è \"laggiù\", lontano: «and that painting is very old».",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La seconda parte richiede il dimostrativo"
-        },
-        {
-          "lang": "en",
-          "text": "that,"
-        },
-        {
-          "lang": "it",
-          "text": "perché il quadro è \"laggiù\", lontano: «"
-        },
-        {
-          "lang": "en",
-          "text": "and that painting is very old»."
-        }
+      "bold": [
+        [
+          42,
+          46
+        ],
+        [
+          87,
+          116
+        ]
       ]
     },
     {
       "text": "Se siete riusciti a costruire questa frase seguendo questo ragionamento, avete applicato correttamente sia la logica della vicinanza e della lontananza, sia la struttura there is/are.",
       "speech": "Se siete riusciti a costruire questa frase seguendo questo ragionamento, avete applicato correttamente sia la logica della vicinanza e della lontananza, sia la struttura there is/are.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Se siete riusciti a costruire questa frase seguendo questo ragionamento, avete applicato correttamente sia la logica della vicinanza e della lontananza, sia la struttura"
-        },
-        {
-          "lang": "en",
-          "text": "there is/are."
-        }
+      "bold": [
+        [
+          170,
+          182
+        ]
       ]
     },
     {
@@ -744,118 +574,120 @@
     },
     {
       "text": "Primo: il plurale regolare dei sostantivi si forma con -s, con alcune eccezioni regolari per i nomi che terminano in suoni sibilanti (-es) o in consonante più y (-ies), oltre a un gruppo di plurali irregolari da memorizzare singolarmente.",
-      "speech": "Primo: il plurale regolare dei sostantivi si forma con -s, con alcune eccezioni regolari per i nomi che terminano in suoni sibilanti (-es) o in consonante più y (-ies), oltre a un gruppo di plurali irregolari da memorizzare singolarmente."
+      "speech": "Primo: il plurale regolare dei sostantivi si forma con -s, con alcune eccezioni regolari per i nomi che terminano in suoni sibilanti (-es) o in consonante più y (-ies), oltre a un gruppo di plurali irregolari da memorizzare singolarmente.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          26
+        ],
+        [
+          134,
+          137
+        ],
+        [
+          162,
+          166
+        ],
+        [
+          190,
+          208
+        ]
+      ]
     },
     {
       "text": "Secondo: this/these indicano vicinanza, that/those indicano lontananza, sempre rispettando la distinzione tra singolare e plurale.",
       "speech": "Secondo: this/these indicano vicinanza, that/those indicano lontananza, sempre rispettando la distinzione tra singolare e plurale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo:"
-        },
-        {
-          "lang": "en",
-          "text": "this/these"
-        },
-        {
-          "lang": "it",
-          "text": "indicano vicinanza,"
-        },
-        {
-          "lang": "en",
-          "text": "that/those"
-        },
-        {
-          "lang": "it",
-          "text": "indicano lontananza, sempre rispettando la distinzione tra singolare e plurale."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          29,
+          38
+        ],
+        [
+          40,
+          50
+        ],
+        [
+          60,
+          70
+        ]
       ]
     },
     {
       "text": "Terzo: there is/there are affermano l'esistenza di qualcosa, rispettivamente al singolare e al plurale.",
       "speech": "Terzo: there is/there are affermano l'esistenza di qualcosa, rispettivamente al singolare e al plurale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Terzo:"
-        },
-        {
-          "lang": "en",
-          "text": "there is/there are"
-        },
-        {
-          "lang": "it",
-          "text": "affermano l'esistenza di qualcosa, rispettivamente al singolare e al plurale."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          25
+        ],
+        [
+          38,
+          59
+        ]
       ]
     },
     {
       "text": "Quarto: i nomi non numerabili, come furniture, information o advice, si usano sempre al singolare e senza articolo indeterminativo, anche quando l'italiano userebbe naturalmente un plurale.",
       "speech": "Quarto: i nomi non numerabili, come furniture, information o advice, si usano sempre al singolare e senza articolo indeterminativo, anche quando l'italiano userebbe naturalmente un plurale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quarto: i nomi non numerabili, come"
-        },
-        {
-          "lang": "en",
-          "text": "furniture, information"
-        },
-        {
-          "lang": "it",
-          "text": "o"
-        },
-        {
-          "lang": "en",
-          "text": "advice,"
-        },
-        {
-          "lang": "it",
-          "text": "si usano sempre al singolare e senza articolo indeterminativo, anche quando l'italiano userebbe naturalmente un plurale."
-        }
+      "bold": [
+        [
+          0,
+          6
+        ],
+        [
+          10,
+          29
+        ],
+        [
+          36,
+          58
+        ],
+        [
+          61,
+          67
+        ],
+        [
+          100,
+          130
+        ]
       ]
     },
     {
       "text": "Nel prossimo episodio completiamo il programma grammaticale di Classe Prima con i verbi modali di base can e will, i quantificatori come some, any, much e many, e i comparativi e superlativi degli aggettivi.",
       "speech": "Nel prossimo episodio completiamo il programma grammaticale di Classe Prima con i verbi modali di base can e will, i quantificatori come some, any, much e many, e i comparativi e superlativi degli aggettivi.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel prossimo episodio completiamo il programma grammaticale di Classe Prima con i verbi modali di base"
-        },
-        {
-          "lang": "en",
-          "text": "can"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "en",
-          "text": "will,"
-        },
-        {
-          "lang": "it",
-          "text": "i quantificatori come"
-        },
-        {
-          "lang": "en",
-          "text": "some, any, much"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "en",
-          "text": "many,"
-        },
-        {
-          "lang": "it",
-          "text": "e i comparativi e superlativi degli aggettivi."
-        }
+      "bold": [
+        [
+          103,
+          106
+        ],
+        [
+          109,
+          113
+        ],
+        [
+          137,
+          152
+        ],
+        [
+          155,
+          159
+        ]
       ]
     },
     {

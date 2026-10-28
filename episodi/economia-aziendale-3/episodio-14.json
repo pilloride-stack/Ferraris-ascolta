@@ -14,19 +14,55 @@
     },
     {
       "text": "Terminate le scritture di assestamento, si procede alla redazione del bilancio attraverso le scritture di epilogo e di chiusura.",
-      "speech": "Terminate le scritture di assestamento, si procede alla redazione del bilancio attraverso le scritture di epilogo e di chiusura."
+      "speech": "Terminate le scritture di assestamento, si procede alla redazione del bilancio attraverso le scritture di epilogo e di chiusura.",
+      "bold": [
+        [
+          93,
+          127
+        ]
+      ]
     },
     {
       "text": "Le scritture di epilogo raccolgono tutti i conti economici, di costo e di ricavo, in un conto riassuntivo denominato Conto Economico, o Profitti e perdite, la cui differenza tra Avere e Dare determina il reddito d'esercizio.",
-      "speech": "Le scritture di epilogo raccolgono tutti i conti economici, di costo e di ricavo, in un conto riassuntivo denominato Conto Economico, o Profitti e perdite, la cui differenza tra Avere e Dare determina il reddito d'esercizio."
+      "speech": "Le scritture di epilogo raccolgono tutti i conti economici, di costo e di ricavo, in un conto riassuntivo denominato Conto Economico, o Profitti e perdite, la cui differenza tra Avere e Dare determina il reddito d'esercizio.",
+      "bold": [
+        [
+          3,
+          23
+        ],
+        [
+          117,
+          132
+        ]
+      ]
     },
     {
       "text": "Le scritture di chiusura patrimoniale raccolgono invece tutti i conti finanziari e patrimoniali in un conto riassuntivo denominato Stato Patrimoniale.",
-      "speech": "Le scritture di chiusura patrimoniale raccolgono invece tutti i conti finanziari e patrimoniali in un conto riassuntivo denominato Stato Patrimoniale."
+      "speech": "Le scritture di chiusura patrimoniale raccolgono invece tutti i conti finanziari e patrimoniali in un conto riassuntivo denominato Stato Patrimoniale.",
+      "bold": [
+        [
+          3,
+          37
+        ],
+        [
+          131,
+          149
+        ]
+      ]
     },
     {
       "text": "Infine, con la chiusura generale dei conti, si azzerano tutti i conti e si trasferisce il risultato economico, utile o perdita, nel Patrimonio Netto.",
-      "speech": "Infine, con la chiusura generale dei conti, si azzerano tutti i conti e si trasferisce il risultato economico, utile o perdita, nel Patrimonio Netto."
+      "speech": "Infine, con la chiusura generale dei conti, si azzerano tutti i conti e si trasferisce il risultato economico, utile o perdita, nel Patrimonio Netto.",
+      "bold": [
+        [
+          15,
+          42
+        ],
+        [
+          132,
+          148
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo passaggio, perché chiude idealmente il cerchio aperto nel secondo modulo:",
@@ -38,7 +74,13 @@
     },
     {
       "text": "ma viene trasferito nel Patrimonio Netto, esattamente come avevamo visto con l'esempio del patrimonio netto iniziale che aumentava per effetto di un utile.",
-      "speech": "ma viene trasferito nel Patrimonio Netto, esattamente come avevamo visto con l'esempio del patrimonio netto iniziale che aumentava per effetto di un utile."
+      "speech": "ma viene trasferito nel Patrimonio Netto, esattamente come avevamo visto con l'esempio del patrimonio netto iniziale che aumentava per effetto di un utile.",
+      "bold": [
+        [
+          91,
+          116
+        ]
+      ]
     },
     {
       "text": "Le scritture di epilogo e chiusura sono, in un certo senso, la dimostrazione contabile concreta di quel legame.",
@@ -70,7 +112,17 @@
     },
     {
       "text": "Il Conto Economico presenta, in questo esempio semplificato, un'eccedenza di Dare, corrispondente a una perdita d'esercizio di tremiladuecentotrenta euro:",
-      "speech": "Il Conto Economico presenta, in questo esempio semplificato, un'eccedenza di Dare, corrispondente a una perdita d'esercizio di tremiladuecentotrenta euro:"
+      "speech": "Il Conto Economico presenta, in questo esempio semplificato, un'eccedenza di Dare, corrispondente a una perdita d'esercizio di tremiladuecentotrenta euro:",
+      "bold": [
+        [
+          64,
+          81
+        ],
+        [
+          104,
+          123
+        ]
+      ]
     },
     {
       "text": "infatti i costi, milletrecento più quattromiladuecento, cioè cinquemilacinquecento euro, superano i ricavi, duemilacentocinquanta più centoventi, cioè duemiladuecentosettanta euro.",
@@ -102,11 +154,23 @@
     },
     {
       "text": "Il risultato di queste scritture confluisce nel bilancio d'esercizio, il documento che riepiloga la situazione patrimoniale,",
-      "speech": "Il risultato di queste scritture confluisce nel bilancio d'esercizio, il documento che riepiloga la situazione patrimoniale,"
+      "speech": "Il risultato di queste scritture confluisce nel bilancio d'esercizio, il documento che riepiloga la situazione patrimoniale,",
+      "bold": [
+        [
+          48,
+          68
+        ]
+      ]
     },
     {
       "text": "finanziaria ed economica dell'azienda attraverso lo Stato Patrimoniale e il Conto Economico, accompagnati dalla Nota Integrativa.",
-      "speech": "finanziaria ed economica dell'azienda attraverso lo Stato Patrimoniale e il Conto Economico, accompagnati dalla Nota Integrativa."
+      "speech": "finanziaria ed economica dell'azienda attraverso lo Stato Patrimoniale e il Conto Economico, accompagnati dalla Nota Integrativa.",
+      "bold": [
+        [
+          112,
+          128
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: quali sono i tre principi fondamentali che il bilancio deve rispettare nella sua redazione, e cosa significa ciascuno?",
@@ -114,15 +178,33 @@
     },
     {
       "text": "Il primo è la chiarezza, cioè la comprensibilità delle informazioni esposte.",
-      "speech": "Il primo è la chiarezza, cioè la comprensibilità delle informazioni esposte."
+      "speech": "Il primo è la chiarezza, cioè la comprensibilità delle informazioni esposte.",
+      "bold": [
+        [
+          14,
+          23
+        ]
+      ]
     },
     {
       "text": "Il secondo è la verità, cioè la corrispondenza del bilancio ai fatti di gestione realmente avvenuti.",
-      "speech": "Il secondo è la verità, cioè la corrispondenza del bilancio ai fatti di gestione realmente avvenuti."
+      "speech": "Il secondo è la verità, cioè la corrispondenza del bilancio ai fatti di gestione realmente avvenuti.",
+      "bold": [
+        [
+          16,
+          22
+        ]
+      ]
     },
     {
       "text": "Il terzo è la correttezza, cioè l'applicazione corretta dei criteri e dei principi contabili, in modo da rappresentare in modo veritiero e corretto la situazione dell'azienda a beneficio di tutti i soggetti interessati:",
-      "speech": "Il terzo è la correttezza, cioè l'applicazione corretta dei criteri e dei principi contabili, in modo da rappresentare in modo veritiero e corretto la situazione dell'azienda a beneficio di tutti i soggetti interessati:"
+      "speech": "Il terzo è la correttezza, cioè l'applicazione corretta dei criteri e dei principi contabili, in modo da rappresentare in modo veritiero e corretto la situazione dell'azienda a beneficio di tutti i soggetti interessati:",
+      "bold": [
+        [
+          14,
+          25
+        ]
+      ]
     },
     {
       "text": "il titolare, le banche, i fornitori, l'Amministrazione finanziaria.",
@@ -134,15 +216,53 @@
     },
     {
       "text": "Primo: le scritture di epilogo raccolgono i conti economici nel Conto Economico, determinando il reddito d'esercizio.",
-      "speech": "Primo: le scritture di epilogo raccolgono i conti economici nel Conto Economico, determinando il reddito d'esercizio."
+      "speech": "Primo: le scritture di epilogo raccolgono i conti economici nel Conto Economico, determinando il reddito d'esercizio.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          97,
+          116
+        ]
+      ]
     },
     {
       "text": "Secondo: le scritture di chiusura raccolgono i conti patrimoniali nello Stato Patrimoniale, e il risultato economico confluisce nel Patrimonio Netto.",
-      "speech": "Secondo: le scritture di chiusura raccolgono i conti patrimoniali nello Stato Patrimoniale, e il risultato economico confluisce nel Patrimonio Netto."
+      "speech": "Secondo: le scritture di chiusura raccolgono i conti patrimoniali nello Stato Patrimoniale, e il risultato economico confluisce nel Patrimonio Netto.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          33
+        ],
+        [
+          132,
+          148
+        ]
+      ]
     },
     {
       "text": "Terzo: il bilancio d'esercizio deve rispettare i principi di chiarezza, verità e correttezza.",
-      "speech": "Terzo: il bilancio d'esercizio deve rispettare i principi di chiarezza, verità e correttezza."
+      "speech": "Terzo: il bilancio d'esercizio deve rispettare i principi di chiarezza, verità e correttezza.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          61,
+          92
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato tutti i contenuti nuovi dell'intera dispensa.",

@@ -18,19 +18,43 @@
     },
     {
       "text": "La documentazione tipica comprende quattro elementi: lo schema concettuale E-R, che riporta entità, attributi e relazioni individuati nella progettazione concettuale;",
-      "speech": "La documentazione tipica comprende quattro elementi: lo schema concettuale E-R, che riporta entità, attributi e relazioni individuati nella progettazione concettuale;"
+      "speech": "La documentazione tipica comprende quattro elementi: lo schema concettuale E-R, che riporta entità, attributi e relazioni individuati nella progettazione concettuale;",
+      "bold": [
+        [
+          56,
+          78
+        ]
+      ]
     },
     {
       "text": "il dizionario dei dati, che descrive in dettaglio ogni entità e ogni attributo, con il relativo tipo di dato e gli eventuali vincoli;",
-      "speech": "il dizionario dei dati, che descrive in dettaglio ogni entità e ogni attributo, con il relativo tipo di dato e gli eventuali vincoli;"
+      "speech": "il dizionario dei dati, che descrive in dettaglio ogni entità e ogni attributo, con il relativo tipo di dato e gli eventuali vincoli;",
+      "bold": [
+        [
+          3,
+          22
+        ]
+      ]
     },
     {
       "text": "lo schema logico relazionale, che mostra le tabelle e le chiavi individuate nella progettazione logica;",
-      "speech": "lo schema logico relazionale, che mostra le tabelle e le chiavi individuate nella progettazione logica;"
+      "speech": "lo schema logico relazionale, che mostra le tabelle e le chiavi individuate nella progettazione logica;",
+      "bold": [
+        [
+          3,
+          28
+        ]
+      ]
     },
     {
       "text": "e un manuale utente, che illustra le modalità di utilizzo del database agli operatori aziendali che non hanno partecipato alla progettazione.",
-      "speech": "e un manuale utente, che illustra le modalità di utilizzo del database agli operatori aziendali che non hanno partecipato alla progettazione."
+      "speech": "e un manuale utente, che illustra le modalità di utilizzo del database agli operatori aziendali che non hanno partecipato alla progettazione.",
+      "bold": [
+        [
+          5,
+          19
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo ultimo elemento, il manuale utente, perché ha uno scopo diverso dagli altri tre:",
@@ -54,19 +78,59 @@
     },
     {
       "text": "Microsoft Access è un sistema di gestione di basi di dati relazionali, un RDBMS, dotato di un'interfaccia grafica intuitiva, pensato per la creazione di database di piccole e medie dimensioni anche da parte di utenti non specialisti.",
-      "speech": "Microsoft Access è un sistema di gestione di basi di dati relazionali, un RDBMS, dotato di un'interfaccia grafica intuitiva, pensato per la creazione di database di piccole e medie dimensioni anche da parte di utenti non specialisti."
+      "speech": "Microsoft Access è un sistema di gestione di basi di dati relazionali, un RDBMS, dotato di un'interfaccia grafica intuitiva, pensato per la creazione di database di piccole e medie dimensioni anche da parte di utenti non specialisti.",
+      "bold": [
+        [
+          0,
+          16
+        ],
+        [
+          74,
+          79
+        ]
+      ]
     },
     {
       "text": "I principali oggetti che compongono un database Access sono quattro: le tabelle, che memorizzano effettivamente i dati, organizzati in record, cioè le righe, e campi, cioè le colonne;",
-      "speech": "I principali oggetti che compongono un database Access sono quattro: le tabelle, che memorizzano effettivamente i dati, organizzati in record, cioè le righe, e campi, cioè le colonne;"
+      "speech": "I principali oggetti che compongono un database Access sono quattro: le tabelle, che memorizzano effettivamente i dati, organizzati in record, cioè le righe, e campi, cioè le colonne;",
+      "bold": [
+        [
+          72,
+          79
+        ],
+        [
+          135,
+          141
+        ],
+        [
+          160,
+          165
+        ]
+      ]
     },
     {
       "text": "le query, che permettono di interrogare e filtrare i dati secondo criteri specifici;",
-      "speech": "le query, che permettono di interrogare e filtrare i dati secondo criteri specifici;"
+      "speech": "le query, che permettono di interrogare e filtrare i dati secondo criteri specifici;",
+      "bold": [
+        [
+          3,
+          8
+        ]
+      ]
     },
     {
       "text": "le maschere, dette anche form, che offrono un'interfaccia semplificata per l'inserimento e la consultazione dei dati; e i report, che presentano i dati in un formato ottimizzato per la stampa.",
-      "speech": "le maschere, dette anche form, che offrono un'interfaccia semplificata per l'inserimento e la consultazione dei dati; e i report, che presentano i dati in un formato ottimizzato per la stampa."
+      "speech": "le maschere, dette anche form, che offrono un'interfaccia semplificata per l'inserimento e la consultazione dei dati; e i report, che presentano i dati in un formato ottimizzato per la stampa.",
+      "bold": [
+        [
+          3,
+          11
+        ],
+        [
+          122,
+          128
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, come si crea concretamente una tabella in Access.",
@@ -78,7 +142,13 @@
     },
     {
       "text": "Poi, si seleziona la scheda Crea e quindi Tabella, passando alla visualizzazione struttura per definire i campi.",
-      "speech": "Poi, si seleziona la scheda Crea e quindi Tabella, passando alla visualizzazione struttura per definire i campi."
+      "speech": "Poi, si seleziona la scheda Crea e quindi Tabella, passando alla visualizzazione struttura per definire i campi.",
+      "bold": [
+        [
+          65,
+          90
+        ]
+      ]
     },
     {
       "text": "Poi ancora, per ciascun campo si indica il nome, il tipo di dato, per esempio testo, numero o data e ora, e le eventuali proprietà.",
@@ -86,7 +156,13 @@
     },
     {
       "text": "Infine, si imposta come chiave primaria il campo che identifica in modo univoco ciascun record, e si salva la tabella:",
-      "speech": "Infine, si imposta come chiave primaria il campo che identifica in modo univoco ciascun record, e si salva la tabella:"
+      "speech": "Infine, si imposta come chiave primaria il campo che identifica in modo univoco ciascun record, e si salva la tabella:",
+      "bold": [
+        [
+          24,
+          39
+        ]
+      ]
     },
     {
       "text": "a questo punto la tabella è pronta per essere popolata con i dati e utilizzata da query, maschere e report.",
@@ -98,11 +174,23 @@
     },
     {
       "text": "è il campo, o l'insieme di campi, che identifica in modo univoco ciascun record di una tabella,",
-      "speech": "è il campo, o l'insieme di campi, che identifica in modo univoco ciascun record di una tabella,"
+      "speech": "è il campo, o l'insieme di campi, che identifica in modo univoco ciascun record di una tabella,",
+      "bold": [
+        [
+          38,
+          79
+        ]
+      ]
     },
     {
       "text": "garantendo che non esistano due righe identiche e permettendo di collegare correttamente le tabelle tra loro tramite le chiavi esterne di cui abbiamo parlato nella progettazione logica.",
-      "speech": "garantendo che non esistano due righe identiche e permettendo di collegare correttamente le tabelle tra loro tramite le chiavi esterne di cui abbiamo parlato nella progettazione logica."
+      "speech": "garantendo che non esistano due righe identiche e permettendo di collegare correttamente le tabelle tra loro tramite le chiavi esterne di cui abbiamo parlato nella progettazione logica.",
+      "bold": [
+        [
+          120,
+          134
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un commissario vi chiedesse quali sono i quattro oggetti principali di un database Access e a cosa serve ciascuno, come rispondereste in ordine?",
@@ -126,15 +214,57 @@
     },
     {
       "text": "Primo: la documentazione di un progetto di database comprende schema E-R, dizionario dei dati, schema logico e manuale utente.",
-      "speech": "Primo: la documentazione di un progetto di database comprende schema E-R, dizionario dei dati, schema logico e manuale utente."
+      "speech": "Primo: la documentazione di un progetto di database comprende schema E-R, dizionario dei dati, schema logico e manuale utente.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          62,
+          72
+        ],
+        [
+          74,
+          93
+        ],
+        [
+          111,
+          125
+        ]
+      ]
     },
     {
       "text": "Secondo: Access è un RDBMS con quattro oggetti principali, tabelle, query, maschere e report.",
-      "speech": "Secondo: Access è un RDBMS con quattro oggetti principali, tabelle, query, maschere e report."
+      "speech": "Secondo: Access è un RDBMS con quattro oggetti principali, tabelle, query, maschere e report.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          21,
+          26
+        ],
+        [
+          59,
+          92
+        ]
+      ]
     },
     {
       "text": "Terzo: creare una tabella in Access richiede di definire i campi, il loro tipo di dato e la chiave primaria, prima di salvare e popolare la tabella.",
-      "speech": "Terzo: creare una tabella in Access richiede di definire i campi, il loro tipo di dato e la chiave primaria, prima di salvare e popolare la tabella."
+      "speech": "Terzo: creare una tabella in Access richiede di definire i campi, il loro tipo di dato e la chiave primaria, prima di salvare e popolare la tabella.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          92,
+          107
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio entriamo nel terzo modulo, dedicato al web, partendo dagli aspetti hardware e software di un sistema informatico orientato alla rete.",

@@ -14,15 +14,41 @@
     },
     {
       "text": "Émile Durkheim, vissuto tra il 1858 e il 1917, è considerato il fondatore della sociologia come disciplina accademica rigorosa.",
-      "speech": "Émile Durkheim, vissuto tra il 1858 e il 1917, è considerato il fondatore della sociologia come disciplina accademica rigorosa."
+      "speech": "Émile Durkheim, vissuto tra il 1858 e il 1917, è considerato il fondatore della sociologia come disciplina accademica rigorosa.",
+      "bold": [
+        [
+          0,
+          14
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          41,
+          45
+        ]
+      ]
     },
     {
       "text": "Nella sua opera metodologica \"Le regole del metodo sociologico\", Durkheim afferma un principio fondamentale, già anticipato nel primo episodio di questo modulo:",
-      "speech": "Nella sua opera metodologica \"Le regole del metodo sociologico\", Durkheim afferma un principio fondamentale, già anticipato nel primo episodio di questo modulo:"
+      "speech": "Nella sua opera metodologica \"Le regole del metodo sociologico\", Durkheim afferma un principio fondamentale, già anticipato nel primo episodio di questo modulo:",
+      "bold": [
+        [
+          30,
+          62
+        ]
+      ]
     },
     {
       "text": "i fatti sociali vanno trattati \"come cose\", cioè come realtà osservabili oggettivamente dall'esterno, esterne alla coscienza individuale e dotate di un potere coercitivo su di essa.",
-      "speech": "i fatti sociali vanno trattati \"come cose\", cioè come realtà osservabili oggettivamente dall'esterno, esterne alla coscienza individuale e dotate di un potere coercitivo su di essa."
+      "speech": "i fatti sociali vanno trattati \"come cose\", cioè come realtà osservabili oggettivamente dall'esterno, esterne alla coscienza individuale e dotate di un potere coercitivo su di essa.",
+      "bold": [
+        [
+          32,
+          41
+        ]
+      ]
     },
     {
       "text": "Le norme giuridiche, la lingua, i sistemi di credenze religiose sono tutti esempi concreti di fatti sociali in questo senso.",
@@ -34,7 +60,13 @@
     },
     {
       "text": "Nella sua opera \"Il suicidio\", Durkheim dimostra empiricamente, attraverso l'analisi di dati statistici, un risultato sorprendente:",
-      "speech": "Nella sua opera \"Il suicidio\", Durkheim dimostra empiricamente, attraverso l'analisi di dati statistici, un risultato sorprendente:"
+      "speech": "Nella sua opera \"Il suicidio\", Durkheim dimostra empiricamente, attraverso l'analisi di dati statistici, un risultato sorprendente:",
+      "bold": [
+        [
+          17,
+          28
+        ]
+      ]
     },
     {
       "text": "anche un atto apparentemente individuale ed estremo come il suicidio presenta regolarità statistiche legate a fattori sociali, in particolare il grado di integrazione e di regolazione sociale del gruppo di appartenenza.",
@@ -42,7 +74,13 @@
     },
     {
       "text": "Durkheim distingue diversi tipi di suicidio a seconda del tipo di squilibrio sociale sottostante: egoistico, altruistico, anomico, fatalistico.",
-      "speech": "Durkheim distingue diversi tipi di suicidio a seconda del tipo di squilibrio sociale sottostante: egoistico, altruistico, anomico, fatalistico."
+      "speech": "Durkheim distingue diversi tipi di suicidio a seconda del tipo di squilibrio sociale sottostante: egoistico, altruistico, anomico, fatalistico.",
+      "bold": [
+        [
+          98,
+          142
+        ]
+      ]
     },
     {
       "text": "È un esempio paradigmatico, spesso citato all'orale, di come anche un fenomeno che sembra riguardare esclusivamente la psicologia individuale possa essere spiegato, almeno in parte, attraverso fattori propriamente sociali.",
@@ -54,11 +92,31 @@
     },
     {
       "text": "Durkheim analizza il passaggio storico dalla solidarietà meccanica, tipica delle società tradizionali, poco differenziate, tenute insieme dalla somiglianza tra i membri e da una coscienza collettiva forte e condivisa,",
-      "speech": "Durkheim analizza il passaggio storico dalla solidarietà meccanica, tipica delle società tradizionali, poco differenziate, tenute insieme dalla somiglianza tra i membri e da una coscienza collettiva forte e condivisa,"
+      "speech": "Durkheim analizza il passaggio storico dalla solidarietà meccanica, tipica delle società tradizionali, poco differenziate, tenute insieme dalla somiglianza tra i membri e da una coscienza collettiva forte e condivisa,",
+      "bold": [
+        [
+          45,
+          66
+        ],
+        [
+          178,
+          198
+        ]
+      ]
     },
     {
       "text": "alla solidarietà organica, tipica delle società moderne, caratterizzata da un'elevata divisione del lavoro sociale, in cui la coesione deriva dall'interdipendenza reciproca tra individui diversi e specializzati.",
-      "speech": "alla solidarietà organica, tipica delle società moderne, caratterizzata da un'elevata divisione del lavoro sociale, in cui la coesione deriva dall'interdipendenza reciproca tra individui diversi e specializzati."
+      "speech": "alla solidarietà organica, tipica delle società moderne, caratterizzata da un'elevata divisione del lavoro sociale, in cui la coesione deriva dall'interdipendenza reciproca tra individui diversi e specializzati.",
+      "bold": [
+        [
+          5,
+          25
+        ],
+        [
+          86,
+          114
+        ]
+      ]
     },
     {
       "text": "Notate un punto interessante: nella solidarietà meccanica c'è scarso spazio per l'individualità, dal momento che i membri si assomigliano tra loro;",
@@ -70,7 +128,13 @@
     },
     {
       "text": "Un concetto durkheimiano di grande rilievo, strettamente collegato a questo passaggio storico, è quello di anomia:",
-      "speech": "Un concetto durkheimiano di grande rilievo, strettamente collegato a questo passaggio storico, è quello di anomia:"
+      "speech": "Un concetto durkheimiano di grande rilievo, strettamente collegato a questo passaggio storico, è quello di anomia:",
+      "bold": [
+        [
+          107,
+          113
+        ]
+      ]
     },
     {
       "text": "una condizione di indebolimento o di assenza di norme sociali condivise, che può insorgere nei periodi di rapido cambiamento sociale,",
@@ -98,15 +162,57 @@
     },
     {
       "text": "Primo: Durkheim afferma che i fatti sociali vanno trattati \"come cose\", oggettivamente osservabili e dotate di potere coercitivo sull'individuo.",
-      "speech": "Primo: Durkheim afferma che i fatti sociali vanno trattati \"come cose\", oggettivamente osservabili e dotate di potere coercitivo sull'individuo."
+      "speech": "Primo: Durkheim afferma che i fatti sociali vanno trattati \"come cose\", oggettivamente osservabili e dotate di potere coercitivo sull'individuo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          30,
+          43
+        ],
+        [
+          60,
+          69
+        ]
+      ]
     },
     {
       "text": "Secondo: nella ricerca sul suicidio, Durkheim mostra come anche questo atto individuale presenti regolarità sociali, distinguendo suicidio egoistico, altruistico, anomico e fatalistico.",
-      "speech": "Secondo: nella ricerca sul suicidio, Durkheim mostra come anche questo atto individuale presenti regolarità sociali, distinguendo suicidio egoistico, altruistico, anomico e fatalistico."
+      "speech": "Secondo: nella ricerca sul suicidio, Durkheim mostra come anche questo atto individuale presenti regolarità sociali, distinguendo suicidio egoistico, altruistico, anomico e fatalistico.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          130,
+          184
+        ]
+      ]
     },
     {
       "text": "Terzo: il passaggio dalla solidarietà meccanica, delle società tradizionali, a quella organica, delle società moderne, si accompagna al rischio dell'anomia nei periodi di rapido cambiamento.",
-      "speech": "Terzo: il passaggio dalla solidarietà meccanica, delle società tradizionali, a quella organica, delle società moderne, si accompagna al rischio dell'anomia nei periodi di rapido cambiamento."
+      "speech": "Terzo: il passaggio dalla solidarietà meccanica, delle società tradizionali, a quella organica, delle società moderne, si accompagna al rischio dell'anomia nei periodi di rapido cambiamento.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          26,
+          47
+        ],
+        [
+          86,
+          94
+        ],
+        [
+          149,
+          155
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo il terzo grande classico della sociologia, Max Weber, con il suo studio dell'agire sociale e il celebre concetto di tipo ideale.",

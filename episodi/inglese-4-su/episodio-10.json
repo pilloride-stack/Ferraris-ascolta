@@ -7,28 +7,26 @@
     {
       "text": "Nell'episodio scorso abbiamo visto Coleridge e la vicenda dell'albatro in The Rime of the Ancient Mariner.",
       "speech": "Nell'episodio scorso abbiamo visto Coleridge e la vicenda dell'albatro in The Rime of the Ancient Mariner.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nell'episodio scorso abbiamo visto Coleridge e la vicenda dell'albatro in"
-        },
-        {
-          "lang": "en",
-          "text": "The"
-        },
-        {
-          "lang": "it",
-          "text": "Rime"
-        },
-        {
-          "lang": "en",
-          "text": "of the Ancient Mariner."
-        }
+      "bold": [
+        [
+          74,
+          77
+        ],
+        [
+          83,
+          105
+        ]
       ]
     },
     {
       "text": "Oggi completiamo il Modulo 3 con la seconda generazione dei poeti romantici inglesi:",
-      "speech": "Oggi completiamo il Modulo 3 con la seconda generazione dei poeti romantici inglesi:"
+      "speech": "Oggi completiamo il Modulo 3 con la seconda generazione dei poeti romantici inglesi:",
+      "bold": [
+        [
+          36,
+          55
+        ]
+      ]
     },
     {
       "text": "accanto alla prima generazione di Wordsworth e Coleridge, attiva a partire dagli ultimi anni del Settecento, la critica letteraria individua infatti una seconda generazione di poeti,",
@@ -36,46 +34,62 @@
     },
     {
       "text": "attivi nel secondo decennio dell'Ottocento e accomunati da un tratto biografico tanto suggestivo quanto tragico: una vita breve, spesso interrotta prematuramente.",
-      "speech": "attivi nel secondo decennio dell'Ottocento e accomunati da un tratto biografico tanto suggestivo quanto tragico: una vita breve, spesso interrotta prematuramente."
+      "speech": "attivi nel secondo decennio dell'Ottocento e accomunati da un tratto biografico tanto suggestivo quanto tragico: una vita breve, spesso interrotta prematuramente.",
+      "bold": [
+        [
+          117,
+          127
+        ]
+      ]
     },
     {
       "text": "Ci concentriamo oggi su due di questi poeti, John Keats e Percy Bysshe Shelley, entrambi appartenenti, insieme a Lord Byron, a questa seconda generazione.",
       "speech": "Ci concentriamo oggi su due di questi poeti, John Keats e Percy Bysshe Shelley, entrambi appartenenti, insieme a Lord Byron, a questa seconda generazione.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Ci concentriamo oggi su due di questi poeti, John Keats e Percy Bysshe Shelley, entrambi appartenenti, insieme a"
-        },
-        {
-          "lang": "en",
-          "text": "Lord Byron,"
-        },
-        {
-          "lang": "it",
-          "text": "a questa seconda generazione."
-        }
+      "bold": [
+        [
+          45,
+          55
+        ],
+        [
+          58,
+          78
+        ],
+        [
+          113,
+          123
+        ]
       ]
     },
     {
       "text": "John Keats, morto di tubercolosi a soli venticinque anni nel 1821, compone nel 1819 — il suo annus mirabilis creativo, cioè l'anno straordinariamente fecondo della sua breve carriera —",
-      "speech": "John Keats, morto di tubercolosi a soli venticinque anni nel 1821, compone nel 1819 — il suo annus mirabilis creativo, cioè l'anno straordinariamente fecondo della sua breve carriera —"
+      "speech": "John Keats, morto di tubercolosi a soli venticinque anni nel 1821, compone nel 1819 — il suo annus mirabilis creativo, cioè l'anno straordinariamente fecondo della sua breve carriera —",
+      "bold": [
+        [
+          61,
+          65
+        ],
+        [
+          79,
+          83
+        ],
+        [
+          93,
+          108
+        ]
+      ]
     },
     {
       "text": "le sue sei grandi odi, tra cui Ode to a Nightingale, l'ode all'usignolo.",
       "speech": "le sue sei grandi odi, tra cui Ode to a Nightingale, l'ode all'usignolo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "le sue sei grandi odi, tra cui Ode"
-        },
-        {
-          "lang": "en",
-          "text": "to a Nightingale,"
-        },
-        {
-          "lang": "it",
-          "text": "l'ode all'usignolo."
-        }
+      "bold": [
+        [
+          7,
+          21
+        ],
+        [
+          35,
+          51
+        ]
       ]
     },
     {
@@ -84,7 +98,13 @@
     },
     {
       "text": "mentre l'uccello, con il suo canto, sembra incarnare una bellezza e una gioia senza tempo, indifferente alla sofferenza e alla morte, il poeta è dolorosamente consapevole della caducità della propria esistenza umana.",
-      "speech": "mentre l'uccello, con il suo canto, sembra incarnare una bellezza e una gioia senza tempo, indifferente alla sofferenza e alla morte, il poeta è dolorosamente consapevole della caducità della propria esistenza umana."
+      "speech": "mentre l'uccello, con il suo canto, sembra incarnare una bellezza e una gioia senza tempo, indifferente alla sofferenza e alla morte, il poeta è dolorosamente consapevole della caducità della propria esistenza umana.",
+      "bold": [
+        [
+          177,
+          185
+        ]
+      ]
     },
     {
       "text": "Attraverso l'immaginazione poetica, Keats tenta per alcuni istanti di fondersi simbolicamente con il canto dell'usignolo, di dimenticare così, almeno per un momento,",
@@ -93,55 +113,49 @@
     {
       "text": "il dolore dell'esistenza umana — salvo essere infine richiamato bruscamente alla propria condizione reale da una singola parola, «forlorn», abbandonato, desolato, che lo riporta bruscamente al proprio «sole self», al proprio io solitario e mortale.",
       "speech": "il dolore dell'esistenza umana — salvo essere infine richiamato bruscamente alla propria condizione reale da una singola parola, «forlorn», abbandonato, desolato, che lo riporta bruscamente al proprio «sole self», al proprio io solitario e mortale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "il dolore dell'esistenza umana — salvo essere infine richiamato bruscamente alla propria condizione reale da una singola parola, «forlorn», abbandonato, desolato, che lo riporta bruscamente al proprio «sole"
-        },
-        {
-          "lang": "en",
-          "text": "self»,"
-        },
-        {
-          "lang": "it",
-          "text": "al proprio io solitario e mortale."
-        }
+      "bold": [
+        [
+          130,
+          137
+        ],
+        [
+          202,
+          211
+        ]
       ]
     },
     {
       "text": "Fermatevi un momento su un concetto teorico che Keats stesso elaborò nelle proprie lettere private, e che la poesia esprime in forma esemplare: la nozione di «negative capability», capacità negativa.",
       "speech": "Fermatevi un momento su un concetto teorico che Keats stesso elaborò nelle proprie lettere private, e che la poesia esprime in forma esemplare: la nozione di «negative capability», capacità negativa.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Fermatevi un momento su un concetto teorico che Keats stesso elaborò nelle proprie lettere private, e che la poesia esprime in forma esemplare: la nozione di «"
-        },
-        {
-          "lang": "en",
-          "text": "negative capability»,"
-        },
-        {
-          "lang": "it",
-          "text": "capacità negativa."
-        }
+      "bold": [
+        [
+          159,
+          178
+        ],
+        [
+          181,
+          198
+        ]
       ]
     },
     {
       "text": "Si tratta della capacità del poeta di sostare nell'incertezza, nel mistero e nel dubbio, senza il bisogno affannoso di una spiegazione razionale definitiva per ogni cosa.",
-      "speech": "Si tratta della capacità del poeta di sostare nell'incertezza, nel mistero e nel dubbio, senza il bisogno affannoso di una spiegazione razionale definitiva per ogni cosa."
+      "speech": "Si tratta della capacità del poeta di sostare nell'incertezza, nel mistero e nel dubbio, senza il bisogno affannoso di una spiegazione razionale definitiva per ogni cosa.",
+      "bold": [
+        [
+          38,
+          61
+        ]
+      ]
     },
     {
       "text": "In Ode to a Nightingale, questa capacità negativa si manifesta proprio nell'oscillazione, mai risolta in una sintesi definitiva,",
       "speech": "In Ode to a Nightingale, questa capacità negativa si manifesta proprio nell'oscillazione, mai risolta in una sintesi definitiva,",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "In Ode to a Nightingale,"
-        },
-        {
-          "lang": "it",
-          "text": "questa capacità negativa si manifesta proprio nell'oscillazione, mai risolta in una sintesi definitiva,"
-        }
+      "bold": [
+        [
+          0,
+          23
+        ]
       ]
     },
     {
@@ -154,37 +168,65 @@
     },
     {
       "text": "Passiamo ora a Percy Bysshe Shelley, poeta radicale e visionario vissuto tra il 1792 e il 1822, che compone nel 1817 il celebre sonetto Ozymandias.",
-      "speech": "Passiamo ora a Percy Bysshe Shelley, poeta radicale e visionario vissuto tra il 1792 e il 1822, che compone nel 1817 il celebre sonetto Ozymandias."
+      "speech": "Passiamo ora a Percy Bysshe Shelley, poeta radicale e visionario vissuto tra il 1792 e il 1822, che compone nel 1817 il celebre sonetto Ozymandias.",
+      "bold": [
+        [
+          80,
+          84
+        ],
+        [
+          90,
+          94
+        ],
+        [
+          112,
+          116
+        ]
+      ]
     },
     {
       "text": "Il componimento è ispirato al racconto, tramandato dallo storico antico Diodoro Siculo, di una colossale statua in rovina del faraone Ramses II, il cui nome greco era, appunto, Ozymandias.",
-      "speech": "Il componimento è ispirato al racconto, tramandato dallo storico antico Diodoro Siculo, di una colossale statua in rovina del faraone Ramses II, il cui nome greco era, appunto, Ozymandias."
+      "speech": "Il componimento è ispirato al racconto, tramandato dallo storico antico Diodoro Siculo, di una colossale statua in rovina del faraone Ramses II, il cui nome greco era, appunto, Ozymandias.",
+      "bold": [
+        [
+          72,
+          86
+        ],
+        [
+          134,
+          143
+        ]
+      ]
     },
     {
       "text": "Il sonetto è costruito come il resoconto di un viaggiatore che descrive i resti frantumati della statua, isolata in un deserto sconfinato:",
-      "speech": "Il sonetto è costruito come il resoconto di un viaggiatore che descrive i resti frantumati della statua, isolata in un deserto sconfinato:"
+      "speech": "Il sonetto è costruito come il resoconto di un viaggiatore che descrive i resti frantumati della statua, isolata in un deserto sconfinato:",
+      "bold": [
+        [
+          31,
+          58
+        ]
+      ]
     },
     {
       "text": "sul piedistallo si legge ancora scolpita l'iscrizione orgogliosa del sovrano, «My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair!» — io sono Ozymandias, re dei re; guardate le mie opere, o potenti, e disperate.",
       "speech": "sul piedistallo si legge ancora scolpita l'iscrizione orgogliosa del sovrano, «My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair!» — io sono Ozymandias, re dei re; guardate le mie opere, o potenti, e disperate.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "sul piedistallo si legge ancora scolpita l'iscrizione orgogliosa del sovrano, «"
-        },
-        {
-          "lang": "en",
-          "text": "My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair!» —"
-        },
-        {
-          "lang": "it",
-          "text": "io sono Ozymandias, re dei re; guardate le mie opere, o potenti, e disperate."
-        }
+      "bold": [
+        [
+          79,
+          159
+        ]
       ]
     },
     {
       "text": "Fermatevi un momento sull'ironia amara che struttura l'intero sonetto, perché è esattamente il meccanismo retorico che vale la pena saper analizzare con precisione in un'interrogazione:",
-      "speech": "Fermatevi un momento sull'ironia amara che struttura l'intero sonetto, perché è esattamente il meccanismo retorico che vale la pena saper analizzare con precisione in un'interrogazione:"
+      "speech": "Fermatevi un momento sull'ironia amara che struttura l'intero sonetto, perché è esattamente il meccanismo retorico che vale la pena saper analizzare con precisione in un'interrogazione:",
+      "bold": [
+        [
+          26,
+          38
+        ]
+      ]
     },
     {
       "text": "l'affermazione orgogliosa di un potere assoluto e imperituro, scolpita nella pietra dallo stesso sovrano, viene smentita in modo beffardo proprio dal contesto circostante, in cui,",
@@ -193,24 +235,26 @@
     {
       "text": "come recita l'ultimo verso del sonetto, «nothing beside remains» — nulla rimane, accanto alla statua in rovina, se non le rovine stesse, disperse in un deserto piatto e infinito che si estende a perdita d'occhio.",
       "speech": "come recita l'ultimo verso del sonetto, «nothing beside remains» — nulla rimane, accanto alla statua in rovina, se non le rovine stesse, disperse in un deserto piatto e infinito che si estende a perdita d'occhio.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "come recita l'ultimo verso del sonetto, «"
-        },
-        {
-          "lang": "en",
-          "text": "nothing beside remains» —"
-        },
-        {
-          "lang": "it",
-          "text": "nulla rimane, accanto alla statua in rovina, se non le rovine stesse, disperse in un deserto piatto e infinito che si estende a perdita d'occhio."
-        }
+      "bold": [
+        [
+          41,
+          63
+        ]
       ]
     },
     {
       "text": "Il sonetto condensa così, in appena quattordici versi, una riflessione tipicamente romantica sulla vanità del potere umano e sulla forza corrosiva e ineluttabile del tempo,",
-      "speech": "Il sonetto condensa così, in appena quattordici versi, una riflessione tipicamente romantica sulla vanità del potere umano e sulla forza corrosiva e ineluttabile del tempo,"
+      "speech": "Il sonetto condensa così, in appena quattordici versi, una riflessione tipicamente romantica sulla vanità del potere umano e sulla forza corrosiva e ineluttabile del tempo,",
+      "bold": [
+        [
+          36,
+          53
+        ],
+        [
+          99,
+          122
+        ]
+      ]
     },
     {
       "text": "capace di ridurre in polvere anche le ambizioni più smisurate di un re dei re.",
@@ -230,11 +274,23 @@
     },
     {
       "text": "mentre la seconda generazione sviluppa una sensibilità più intensamente malinconica, spesso venata di ribellione politica e sociale,",
-      "speech": "mentre la seconda generazione sviluppa una sensibilità più intensamente malinconica, spesso venata di ribellione politica e sociale,"
+      "speech": "mentre la seconda generazione sviluppa una sensibilità più intensamente malinconica, spesso venata di ribellione politica e sociale,",
+      "bold": [
+        [
+          43,
+          83
+        ]
+      ]
     },
     {
       "text": "come nel radicalismo di Shelley, e attraversata da un senso più acuto e ravvicinato della propria mortalità, comprensibile anche alla luce delle biografie brevi e tragiche di questi poeti, morti tutti prima dei trent'anni.",
-      "speech": "come nel radicalismo di Shelley, e attraversata da un senso più acuto e ravvicinato della propria mortalità, comprensibile anche alla luce delle biografie brevi e tragiche di questi poeti, morti tutti prima dei trent'anni."
+      "speech": "come nel radicalismo di Shelley, e attraversata da un senso più acuto e ravvicinato della propria mortalità, comprensibile anche alla luce delle biografie brevi e tragiche di questi poeti, morti tutti prima dei trent'anni.",
+      "bold": [
+        [
+          9,
+          31
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -242,33 +298,49 @@
     },
     {
       "text": "Primo: la seconda generazione dei poeti romantici comprende Keats, Shelley e Byron, accomunati da una vita breve e da una sensibilità intensamente malinconica.",
-      "speech": "Primo: la seconda generazione dei poeti romantici comprende Keats, Shelley e Byron, accomunati da una vita breve e da una sensibilità intensamente malinconica."
+      "speech": "Primo: la seconda generazione dei poeti romantici comprende Keats, Shelley e Byron, accomunati da una vita breve e da una sensibilità intensamente malinconica.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          60,
+          82
+        ]
+      ]
     },
     {
       "text": "Secondo: in Ode to a Nightingale, Keats contrappone la bellezza senza tempo del canto dell'usignolo alla propria condizione umana mortale, esprimendo la propria idea di «negative capability».",
       "speech": "Secondo: in Ode to a Nightingale, Keats contrappone la bellezza senza tempo del canto dell'usignolo alla propria condizione umana mortale, esprimendo la propria idea di «negative capability».",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo:"
-        },
-        {
-          "lang": "en",
-          "text": "in Ode to a Nightingale,"
-        },
-        {
-          "lang": "it",
-          "text": "Keats contrappone la bellezza senza tempo del canto dell'usignolo alla propria condizione umana mortale, esprimendo la propria idea di «"
-        },
-        {
-          "lang": "en",
-          "text": "negative capability»."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          32
+        ],
+        [
+          170,
+          189
+        ]
       ]
     },
     {
       "text": "Terzo: in Ozymandias, Shelley riflette sulla vanità del potere umano attraverso l'ironia amara di un'iscrizione orgogliosa smentita dalle rovine circostanti.",
-      "speech": "Terzo: in Ozymandias, Shelley riflette sulla vanità del potere umano attraverso l'ironia amara di un'iscrizione orgogliosa smentita dalle rovine circostanti."
+      "speech": "Terzo: in Ozymandias, Shelley riflette sulla vanità del potere umano attraverso l'ironia amara di un'iscrizione orgogliosa smentita dalle rovine circostanti.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          45,
+          68
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 3, dedicato al Romanticismo inglese.",
@@ -277,23 +349,15 @@
     {
       "text": "Nel prossimo episodio entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana, tornando a Hard Times di Dickens per analizzare la filosofia educativa di Mr Gradgrind.",
       "speech": "Nel prossimo episodio entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana, tornando a Hard Times di Dickens per analizzare la filosofia educativa di Mr Gradgrind.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel prossimo episodio entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana, tornando a"
-        },
-        {
-          "lang": "en",
-          "text": "Hard Times"
-        },
-        {
-          "lang": "it",
-          "text": "di Dickens per analizzare la filosofia educativa di"
-        },
-        {
-          "lang": "en",
-          "text": "Mr Gradgrind."
-        }
+      "bold": [
+        [
+          126,
+          136
+        ],
+        [
+          189,
+          201
+        ]
       ]
     },
     {

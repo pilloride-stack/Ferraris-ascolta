@@ -14,7 +14,13 @@
     },
     {
       "text": "e chiudiamo con uno strumento di controllo fondamentale prima della redazione del bilancio: il bilancio di verifica.",
-      "speech": "e chiudiamo con uno strumento di controllo fondamentale prima della redazione del bilancio: il bilancio di verifica."
+      "speech": "e chiudiamo con uno strumento di controllo fondamentale prima della redazione del bilancio: il bilancio di verifica.",
+      "bold": [
+        [
+          95,
+          115
+        ]
+      ]
     },
     {
       "text": "I rapporti con le banche riguardano soprattutto la gestione del conto corrente, attraverso il quale l'azienda effettua versamenti, prelevamenti, e regola gran parte dei propri pagamenti e incassi.",
@@ -22,11 +28,23 @@
     },
     {
       "text": "Periodicamente la banca accredita gli interessi attivi maturati sulle giacenze di conto corrente, un ricavo per l'azienda,",
-      "speech": "Periodicamente la banca accredita gli interessi attivi maturati sulle giacenze di conto corrente, un ricavo per l'azienda,"
+      "speech": "Periodicamente la banca accredita gli interessi attivi maturati sulle giacenze di conto corrente, un ricavo per l'azienda,",
+      "bold": [
+        [
+          38,
+          54
+        ]
+      ]
     },
     {
       "text": "e addebita competenze e interessi passivi per il servizio prestato, un costo per l'azienda.",
-      "speech": "e addebita competenze e interessi passivi per il servizio prestato, un costo per l'azienda."
+      "speech": "e addebita competenze e interessi passivi per il servizio prestato, un costo per l'azienda.",
+      "bold": [
+        [
+          24,
+          41
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, tre brevi esercizi su queste operazioni bancarie.",
@@ -34,7 +52,13 @@
     },
     {
       "text": "Primo: si versano tremila euro prelevati dalla cassa contanti sul conto corrente bancario.",
-      "speech": "Primo: si versano tremila euro prelevati dalla cassa contanti sul conto corrente bancario."
+      "speech": "Primo: si versano tremila euro prelevati dalla cassa contanti sul conto corrente bancario.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ]
     },
     {
       "text": "Si addebita Banca conto corrente e si accredita Cassa, per tremila euro: notate che qui entrambi i conti sono finanziari attivi, quindi uno aumenta in Dare e l'altro diminuisce in Avere.",
@@ -42,19 +66,43 @@
     },
     {
       "text": "Secondo: la banca accredita sul conto corrente interessi attivi maturati per quarantacinque euro.",
-      "speech": "Secondo: la banca accredita sul conto corrente interessi attivi maturati per quarantacinque euro."
+      "speech": "Secondo: la banca accredita sul conto corrente interessi attivi maturati per quarantacinque euro.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "Si addebita Banca conto corrente, che aumenta, e si accredita Interessi attivi bancari, un ricavo.",
-      "speech": "Si addebita Banca conto corrente, che aumenta, e si accredita Interessi attivi bancari, un ricavo."
+      "speech": "Si addebita Banca conto corrente, che aumenta, e si accredita Interessi attivi bancari, un ricavo.",
+      "bold": [
+        [
+          62,
+          86
+        ]
+      ]
     },
     {
       "text": "Terzo: la banca addebita sul conto corrente competenze e interessi passivi per sessanta euro.",
-      "speech": "Terzo: la banca addebita sul conto corrente competenze e interessi passivi per sessanta euro."
+      "speech": "Terzo: la banca addebita sul conto corrente competenze e interessi passivi per sessanta euro.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ]
     },
     {
       "text": "Si addebita Interessi passivi bancari, un costo, e si accredita Banca conto corrente, che diminuisce.",
-      "speech": "Si addebita Interessi passivi bancari, un costo, e si accredita Banca conto corrente, che diminuisce."
+      "speech": "Si addebita Interessi passivi bancari, un costo, e si accredita Banca conto corrente, che diminuisce.",
+      "bold": [
+        [
+          12,
+          37
+        ]
+      ]
     },
     {
       "text": "Oltre a queste operazioni tipiche, l'azienda ne compie numerose altre nella gestione corrente, tra cui il pagamento delle retribuzioni al personale dipendente e il pagamento di premi assicurativi a tutela dei beni aziendali.",
@@ -70,11 +118,23 @@
     },
     {
       "text": "si addebita Salari e stipendi, un costo, e si accredita Banca conto corrente.",
-      "speech": "si addebita Salari e stipendi, un costo, e si accredita Banca conto corrente."
+      "speech": "si addebita Salari e stipendi, un costo, e si accredita Banca conto corrente.",
+      "bold": [
+        [
+          12,
+          29
+        ]
+      ]
     },
     {
       "text": "Si paga tramite banca un premio assicurativo annuale contro gli incendi per novecento euro; si addebita Assicurazioni, un costo, e si accredita Banca conto corrente.",
-      "speech": "Si paga tramite banca un premio assicurativo annuale contro gli incendi per novecento euro; si addebita Assicurazioni, un costo, e si accredita Banca conto corrente."
+      "speech": "Si paga tramite banca un premio assicurativo annuale contro gli incendi per novecento euro; si addebita Assicurazioni, un costo, e si accredita Banca conto corrente.",
+      "bold": [
+        [
+          104,
+          117
+        ]
+      ]
     },
     {
       "text": "In entrambi i casi la logica è identica a quella già vista molte volte in questo modulo: costo in Dare, conto finanziario che si riduce in Avere.",
@@ -90,7 +150,17 @@
     },
     {
       "text": "Lo strumento utilizzato a questo scopo è il bilancio di verifica, o situazione contabile, un prospetto che elenca tutti i conti utilizzati con i rispettivi totali e saldi di Dare e Avere.",
-      "speech": "Lo strumento utilizzato a questo scopo è il bilancio di verifica, o situazione contabile, un prospetto che elenca tutti i conti utilizzati con i rispettivi totali e saldi di Dare e Avere."
+      "speech": "Lo strumento utilizzato a questo scopo è il bilancio di verifica, o situazione contabile, un prospetto che elenca tutti i conti utilizzati con i rispettivi totali e saldi di Dare e Avere.",
+      "bold": [
+        [
+          44,
+          64
+        ],
+        [
+          68,
+          88
+        ]
+      ]
     },
     {
       "text": "Per il principio della partita doppia, quale relazione deve sempre valere tra il totale generale della colonna Dare e il totale generale della colonna Avere?",
@@ -98,7 +168,13 @@
     },
     {
       "text": "Devono sempre coincidere esattamente, perché ogni operazione registrata ha addebitato e accreditato conti per lo stesso identico importo:",
-      "speech": "Devono sempre coincidere esattamente, perché ogni operazione registrata ha addebitato e accreditato conti per lo stesso identico importo:"
+      "speech": "Devono sempre coincidere esattamente, perché ogni operazione registrata ha addebitato e accreditato conti per lo stesso identico importo:",
+      "bold": [
+        [
+          0,
+          24
+        ]
+      ]
     },
     {
       "text": "se i due totali non coincidessero, significherebbe che è stato commesso un errore di registrazione da qualche parte,",
@@ -114,15 +190,45 @@
     },
     {
       "text": "Primo: le operazioni con le banche riguardano versamenti, prelevamenti, interessi attivi e passivi sul conto corrente.",
-      "speech": "Primo: le operazioni con le banche riguardano versamenti, prelevamenti, interessi attivi e passivi sul conto corrente."
+      "speech": "Primo: le operazioni con le banche riguardano versamenti, prelevamenti, interessi attivi e passivi sul conto corrente.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          72,
+          98
+        ]
+      ]
     },
     {
       "text": "Secondo: anche il pagamento di retribuzioni e premi assicurativi segue le regole della partita doppia, con un costo in Dare e un conto finanziario in Avere.",
-      "speech": "Secondo: anche il pagamento di retribuzioni e premi assicurativi segue le regole della partita doppia, con un costo in Dare e un conto finanziario in Avere."
+      "speech": "Secondo: anche il pagamento di retribuzioni e premi assicurativi segue le regole della partita doppia, con un costo in Dare e un conto finanziario in Avere.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "Terzo: il bilancio di verifica controlla che il totale Dare coincida sempre con il totale Avere, individuando eventuali errori prima della redazione del bilancio.",
-      "speech": "Terzo: il bilancio di verifica controlla che il totale Dare coincida sempre con il totale Avere, individuando eventuali errori prima della redazione del bilancio."
+      "speech": "Terzo: il bilancio di verifica controlla che il totale Dare coincida sempre con il totale Avere, individuando eventuali errori prima della redazione del bilancio.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          48,
+          68
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato il quarto modulo della dispensa.",

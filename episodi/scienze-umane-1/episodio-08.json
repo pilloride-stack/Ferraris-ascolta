@@ -18,7 +18,17 @@
     },
     {
       "text": "Le emozioni sono reazioni psicofisiche complesse e di breve durata che l'individuo prova di fronte a uno stimolo, interno o esterno, ritenuto significativo.",
-      "speech": "Le emozioni sono reazioni psicofisiche complesse e di breve durata che l'individuo prova di fronte a uno stimolo, interno o esterno, ritenuto significativo."
+      "speech": "Le emozioni sono reazioni psicofisiche complesse e di breve durata che l'individuo prova di fronte a uno stimolo, interno o esterno, ritenuto significativo.",
+      "bold": [
+        [
+          3,
+          11
+        ],
+        [
+          17,
+          38
+        ]
+      ]
     },
     {
       "text": "È importante notare che un'emozione coinvolge simultaneamente quattro componenti diverse, che vi conviene saper distinguere con precisione.",
@@ -26,23 +36,53 @@
     },
     {
       "text": "C'è una componente soggettiva, cioè il vissuto interiore, per esempio la paura provata dalla persona;",
-      "speech": "Cè una componente soggettiva, cioè il vissuto interiore, per esempio la paura provata dalla persona;"
+      "speech": "Cè una componente soggettiva, cioè il vissuto interiore, per esempio la paura provata dalla persona;",
+      "bold": [
+        [
+          8,
+          29
+        ]
+      ]
     },
     {
       "text": "una componente fisiologica, cioè le modificazioni corporee, come l'accelerazione del battito cardiaco;",
-      "speech": "una componente fisiologica, cioè le modificazioni corporee, come l'accelerazione del battito cardiaco;"
+      "speech": "una componente fisiologica, cioè le modificazioni corporee, come l'accelerazione del battito cardiaco;",
+      "bold": [
+        [
+          4,
+          26
+        ]
+      ]
     },
     {
       "text": "una componente espressiva, cioè la mimica facciale, la postura, il tono di voce;",
-      "speech": "una componente espressiva, cioè la mimica facciale, la postura, il tono di voce;"
+      "speech": "una componente espressiva, cioè la mimica facciale, la postura, il tono di voce;",
+      "bold": [
+        [
+          4,
+          25
+        ]
+      ]
     },
     {
       "text": "e una componente comportamentale, cioè la tendenza ad agire in un certo modo, per esempio fuggire o attaccare di fronte a un pericolo.",
-      "speech": "e una componente comportamentale, cioè la tendenza ad agire in un certo modo, per esempio fuggire o attaccare di fronte a un pericolo."
+      "speech": "e una componente comportamentale, cioè la tendenza ad agire in un certo modo, per esempio fuggire o attaccare di fronte a un pericolo.",
+      "bold": [
+        [
+          6,
+          32
+        ]
+      ]
     },
     {
       "text": "Le emozioni svolgono importanti funzioni adattive, che vale la pena elencare con ordine.",
-      "speech": "Le emozioni svolgono importanti funzioni adattive, che vale la pena elencare con ordine."
+      "speech": "Le emozioni svolgono importanti funzioni adattive, che vale la pena elencare con ordine.",
+      "bold": [
+        [
+          32,
+          49
+        ]
+      ]
     },
     {
       "text": "Segnalano rapidamente all'individuo se una situazione è favorevole o pericolosa; predispongono l'organismo a reagire in modo adeguato, per esempio la paura prepara concretamente alla fuga;",
@@ -54,7 +94,13 @@
     },
     {
       "text": "e regolano le relazioni sociali stesse, dal momento che le emozioni morali,",
-      "speech": "e regolano le relazioni sociali stesse, dal momento che le emozioni morali,"
+      "speech": "e regolano le relazioni sociali stesse, dal momento che le emozioni morali,",
+      "bold": [
+        [
+          59,
+          74
+        ]
+      ]
     },
     {
       "text": "come la vergogna o il senso di colpa, contribuiscono a orientare il comportamento secondo le norme condivise del gruppo sociale di appartenenza.",
@@ -66,15 +112,41 @@
     },
     {
       "text": "Numerosi studiosi, in particolare Paul Ekman, attraverso ricerche interculturali sull'espressione facciale condotte in diverse parti del mondo,",
-      "speech": "Numerosi studiosi, in particolare Paul Ekman, attraverso ricerche interculturali sull'espressione facciale condotte in diverse parti del mondo,"
+      "speech": "Numerosi studiosi, in particolare Paul Ekman, attraverso ricerche interculturali sull'espressione facciale condotte in diverse parti del mondo,",
+      "bold": [
+        [
+          34,
+          44
+        ]
+      ]
     },
     {
       "text": "hanno individuato un ristretto numero di emozioni primarie, considerate universali e riconoscibili in tutte le culture umane attraverso caratteristiche espressioni facciali specifiche:",
-      "speech": "hanno individuato un ristretto numero di emozioni primarie, considerate universali e riconoscibili in tutte le culture umane attraverso caratteristiche espressioni facciali specifiche:"
+      "speech": "hanno individuato un ristretto numero di emozioni primarie, considerate universali e riconoscibili in tutte le culture umane attraverso caratteristiche espressioni facciali specifiche:",
+      "bold": [
+        [
+          41,
+          58
+        ]
+      ]
     },
     {
       "text": "la gioia, la tristezza, la paura, la rabbia, il disgusto e la sorpresa.",
-      "speech": "la gioia, la tristezza, la paura, la rabbia, il disgusto e la sorpresa."
+      "speech": "la gioia, la tristezza, la paura, la rabbia, il disgusto e la sorpresa.",
+      "bold": [
+        [
+          3,
+          8
+        ],
+        [
+          27,
+          32
+        ],
+        [
+          37,
+          43
+        ]
+      ]
     },
     {
       "text": "È un elenco che vi conviene saper ripetere a memoria, perché ricorre spesso nelle interrogazioni.",
@@ -82,7 +154,13 @@
     },
     {
       "text": "Da queste emozioni di base derivano poi, attraverso combinazioni e sfumature progressivamente più complesse, le emozioni secondarie, più legate all'apprendimento sociale e culturale specifico di ciascun gruppo umano,",
-      "speech": "Da queste emozioni di base derivano poi, attraverso combinazioni e sfumature progressivamente più complesse, le emozioni secondarie, più legate all'apprendimento sociale e culturale specifico di ciascun gruppo umano,"
+      "speech": "Da queste emozioni di base derivano poi, attraverso combinazioni e sfumature progressivamente più complesse, le emozioni secondarie, più legate all'apprendimento sociale e culturale specifico di ciascun gruppo umano,",
+      "bold": [
+        [
+          112,
+          131
+        ]
+      ]
     },
     {
       "text": "come la gelosia, l'orgoglio, il senso di colpa e la vergogna.",
@@ -106,19 +184,55 @@
     },
     {
       "text": "Primo: le emozioni sono reazioni psicofisiche di breve durata, composte da una componente soggettiva, fisiologica, espressiva e comportamentale.",
-      "speech": "Primo: le emozioni sono reazioni psicofisiche di breve durata, composte da una componente soggettiva, fisiologica, espressiva e comportamentale."
+      "speech": "Primo: le emozioni sono reazioni psicofisiche di breve durata, composte da una componente soggettiva, fisiologica, espressiva e comportamentale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          79,
+          100
+        ]
+      ]
     },
     {
       "text": "Secondo: svolgono funzioni adattive di segnalazione, preparazione all'azione, comunicazione e regolazione sociale.",
-      "speech": "Secondo: svolgono funzioni adattive di segnalazione, preparazione all'azione, comunicazione e regolazione sociale."
+      "speech": "Secondo: svolgono funzioni adattive di segnalazione, preparazione all'azione, comunicazione e regolazione sociale.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "Terzo: le sei emozioni primarie individuate da Ekman, gioia, tristezza, paura, rabbia, disgusto e sorpresa, sono universali,",
-      "speech": "Terzo: le sei emozioni primarie individuate da Ekman, gioia, tristezza, paura, rabbia, disgusto e sorpresa, sono universali,"
+      "speech": "Terzo: le sei emozioni primarie individuate da Ekman, gioia, tristezza, paura, rabbia, disgusto e sorpresa, sono universali,",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          31
+        ],
+        [
+          47,
+          52
+        ]
+      ]
     },
     {
       "text": "mentre le emozioni secondarie, come gelosia e orgoglio, dipendono maggiormente dall'apprendimento sociale e culturale.",
-      "speech": "mentre le emozioni secondarie, come gelosia e orgoglio, dipendono maggiormente dall'apprendimento sociale e culturale."
+      "speech": "mentre le emozioni secondarie, come gelosia e orgoglio, dipendono maggiormente dall'apprendimento sociale e culturale.",
+      "bold": [
+        [
+          10,
+          29
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio restiamo nel campo delle emozioni per affrontare i meccanismi di difesa, di origine psicoanalitica, e la differenza tra un'emozione e uno stato d'animo.",

@@ -14,11 +14,27 @@
     },
     {
       "text": "La domanda individuale di un bene è la quantità di quel bene che un consumatore è disposto ad acquistare a un determinato prezzo, in un dato periodo di tempo.",
-      "speech": "La domanda individuale di un bene è la quantità di quel bene che un consumatore è disposto ad acquistare a un determinato prezzo, in un dato periodo di tempo."
+      "speech": "La domanda individuale di un bene è la quantità di quel bene che un consumatore è disposto ad acquistare a un determinato prezzo, in un dato periodo di tempo.",
+      "bold": [
+        [
+          3,
+          22
+        ]
+      ]
     },
     {
       "text": "In base alla legge della domanda, la quantità domandata di un bene varia in genere in senso inverso rispetto al suo prezzo:",
-      "speech": "In base alla legge della domanda, la quantità domandata di un bene varia in genere in senso inverso rispetto al suo prezzo:"
+      "speech": "In base alla legge della domanda, la quantità domandata di un bene varia in genere in senso inverso rispetto al suo prezzo:",
+      "bold": [
+        [
+          13,
+          32
+        ],
+        [
+          83,
+          99
+        ]
+      ]
     },
     {
       "text": "al crescere del prezzo, la quantità domandata diminuisce, e viceversa, esattamente come vi aspettereste dal comportamento di un consumatore che, di fronte a un prezzo più alto, tende a ridurre gli acquisti di quel bene.",
@@ -30,15 +46,41 @@
     },
     {
       "text": "la sensibilità della quantità domandata alle variazioni di prezzo è misurata dall'elasticità della domanda al prezzo, che mette in relazione la variazione percentuale della quantità domandata con la variazione percentuale del prezzo.",
-      "speech": "la sensibilità della quantità domandata alle variazioni di prezzo è misurata dall'elasticità della domanda al prezzo, che mette in relazione la variazione percentuale della quantità domandata con la variazione percentuale del prezzo."
+      "speech": "la sensibilità della quantità domandata alle variazioni di prezzo è misurata dall'elasticità della domanda al prezzo, che mette in relazione la variazione percentuale della quantità domandata con la variazione percentuale del prezzo.",
+      "bold": [
+        [
+          82,
+          116
+        ]
+      ]
     },
     {
       "text": "Una domanda si dice elastica quando varia più che proporzionalmente rispetto al prezzo, cioè quando una piccola variazione di prezzo produce una grande variazione della quantità domandata.",
-      "speech": "Una domanda si dice elastica quando varia più che proporzionalmente rispetto al prezzo, cioè quando una piccola variazione di prezzo produce una grande variazione della quantità domandata."
+      "speech": "Una domanda si dice elastica quando varia più che proporzionalmente rispetto al prezzo, cioè quando una piccola variazione di prezzo produce una grande variazione della quantità domandata.",
+      "bold": [
+        [
+          4,
+          28
+        ],
+        [
+          42,
+          67
+        ]
+      ]
     },
     {
       "text": "Una domanda si dice invece rigida, o anelastica, quando varia meno che proporzionalmente,",
-      "speech": "Una domanda si dice invece rigida, o anelastica, quando varia meno che proporzionalmente,"
+      "speech": "Una domanda si dice invece rigida, o anelastica, quando varia meno che proporzionalmente,",
+      "bold": [
+        [
+          27,
+          47
+        ],
+        [
+          62,
+          88
+        ]
+      ]
     },
     {
       "text": "cioè quando anche una grande variazione di prezzo produce solo una piccola variazione della quantità domandata.",
@@ -58,7 +100,17 @@
     },
     {
       "text": "L'elasticità si calcola dividendo la variazione percentuale della quantità per la variazione percentuale del prezzo:",
-      "speech": "L'elasticità si calcola dividendo la variazione percentuale della quantità per la variazione percentuale del prezzo:"
+      "speech": "L'elasticità si calcola dividendo la variazione percentuale della quantità per la variazione percentuale del prezzo:",
+      "bold": [
+        [
+          37,
+          74
+        ],
+        [
+          82,
+          115
+        ]
+      ]
     },
     {
       "text": "meno quindici per cento diviso più venti per cento, cioè meno zero virgola settantacinque, che in valore assoluto è zero virgola settantacinque.",
@@ -66,7 +118,13 @@
     },
     {
       "text": "Essendo questo valore assoluto minore di uno, la domanda di questo bene è rigida, o anelastica, rispetto al prezzo:",
-      "speech": "Essendo questo valore assoluto minore di uno, la domanda di questo bene è rigida, o anelastica, rispetto al prezzo:"
+      "speech": "Essendo questo valore assoluto minore di uno, la domanda di questo bene è rigida, o anelastica, rispetto al prezzo:",
+      "bold": [
+        [
+          31,
+          44
+        ]
+      ]
     },
     {
       "text": "la quantità domandata reagisce meno che proporzionalmente alla variazione del prezzo.",
@@ -86,7 +144,13 @@
     },
     {
       "text": "Essendo questo valore assoluto maggiore di uno, la domanda di questo secondo bene sarebbe elastica, a differenza del primo bene che era rigido:",
-      "speech": "Essendo questo valore assoluto maggiore di uno, la domanda di questo secondo bene sarebbe elastica, a differenza del primo bene che era rigido:"
+      "speech": "Essendo questo valore assoluto maggiore di uno, la domanda di questo secondo bene sarebbe elastica, a differenza del primo bene che era rigido:",
+      "bold": [
+        [
+          31,
+          46
+        ]
+      ]
     },
     {
       "text": "la quantità domandata di questo secondo bene reagisce più che proporzionalmente alla variazione del prezzo.",
@@ -98,15 +162,45 @@
     },
     {
       "text": "Primo: la domanda individuale varia in genere in senso inverso rispetto al prezzo del bene.",
-      "speech": "Primo: la domanda individuale varia in genere in senso inverso rispetto al prezzo del bene."
+      "speech": "Primo: la domanda individuale varia in genere in senso inverso rispetto al prezzo del bene.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ]
     },
     {
       "text": "Secondo: l'elasticità della domanda al prezzo misura quanto la quantità domandata reagisce a una variazione percentuale del prezzo.",
-      "speech": "Secondo: l'elasticità della domanda al prezzo misura quanto la quantità domandata reagisce a una variazione percentuale del prezzo."
+      "speech": "Secondo: l'elasticità della domanda al prezzo misura quanto la quantità domandata reagisce a una variazione percentuale del prezzo.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          11,
+          45
+        ]
+      ]
     },
     {
       "text": "Terzo: una domanda è elastica quando reagisce più che proporzionalmente al prezzo, rigida quando reagisce meno che proporzionalmente.",
-      "speech": "Terzo: una domanda è elastica quando reagisce più che proporzionalmente al prezzo, rigida quando reagisce meno che proporzionalmente."
+      "speech": "Terzo: una domanda è elastica quando reagisce più che proporzionalmente al prezzo, rigida quando reagisce meno che proporzionalmente.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          21,
+          29
+        ],
+        [
+          83,
+          89
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo il problema delle scelte per l'impresa, e la teoria della produzione.",

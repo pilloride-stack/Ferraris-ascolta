@@ -10,7 +10,13 @@
     },
     {
       "text": "Oggi vediamo Socrate, una delle figure più influenti dell'intera storia della filosofia, il suo metodo e la sua etica.",
-      "speech": "Oggi vediamo Socrate, una delle figure più influenti dell'intera storia della filosofia, il suo metodo e la sua etica."
+      "speech": "Oggi vediamo Socrate, una delle figure più influenti dell'intera storia della filosofia, il suo metodo e la sua etica.",
+      "bold": [
+        [
+          13,
+          20
+        ]
+      ]
     },
     {
       "text": "Socrate nasce ad Atene nel quattrocentosettanta avanti Cristo circa, figlio di uno scultore e di una levatrice,",
@@ -18,19 +24,47 @@
     },
     {
       "text": "e vi muore nel trecentonovantanove avanti Cristo, condannato a morte con l'accusa di empietà e di corruzione dei giovani, in un clima politico segnato dalla crisi della democrazia ateniese.",
-      "speech": "e vi muore nel trecentonovantanove avanti Cristo, condannato a morte con l'accusa di empietà e di corruzione dei giovani, in un clima politico segnato dalla crisi della democrazia ateniese."
+      "speech": "e vi muore nel trecentonovantanove avanti Cristo, condannato a morte con l'accusa di empietà e di corruzione dei giovani, in un clima politico segnato dalla crisi della democrazia ateniese.",
+      "bold": [
+        [
+          15,
+          48
+        ],
+        [
+          85,
+          92
+        ]
+      ]
     },
     {
       "text": "Non scrisse nulla: la sua figura ci è nota soprattutto attraverso i dialoghi di Platone.",
-      "speech": "Non scrisse nulla: la sua figura ci è nota soprattutto attraverso i dialoghi di Platone."
+      "speech": "Non scrisse nulla: la sua figura ci è nota soprattutto attraverso i dialoghi di Platone.",
+      "bold": [
+        [
+          68,
+          87
+        ]
+      ]
     },
     {
       "text": "Nell'Apologia di Socrate, Platone narra come Socrate, davanti ai giudici, rifiuti di supplicare e difenda il proprio dovere filosofico, affermando che una vita senza ricerca non è degna per l'uomo di essere vissuta.",
-      "speech": "Nell'Apologia di Socrate, Platone narra come Socrate, davanti ai giudici, rifiuti di supplicare e difenda il proprio dovere filosofico, affermando che una vita senza ricerca non è degna per l'uomo di essere vissuta."
+      "speech": "Nell'Apologia di Socrate, Platone narra come Socrate, davanti ai giudici, rifiuti di supplicare e difenda il proprio dovere filosofico, affermando che una vita senza ricerca non è degna per l'uomo di essere vissuta.",
+      "bold": [
+        [
+          5,
+          24
+        ]
+      ]
     },
     {
       "text": "Nel Critone, pur avendo la possibilità di fuggire di prigione, Socrate rifiuta, sostenendo che sarebbe ingiusto violare le leggi della propria città, con cui ha stipulato un implicito patto di obbedienza vivendovi per tutta la vita.",
-      "speech": "Nel Critone, pur avendo la possibilità di fuggire di prigione, Socrate rifiuta, sostenendo che sarebbe ingiusto violare le leggi della propria città, con cui ha stipulato un implicito patto di obbedienza vivendovi per tutta la vita."
+      "speech": "Nel Critone, pur avendo la possibilità di fuggire di prigione, Socrate rifiuta, sostenendo che sarebbe ingiusto violare le leggi della propria città, con cui ha stipulato un implicito patto di obbedienza vivendovi per tutta la vita.",
+      "bold": [
+        [
+          4,
+          11
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento sul rapporto tra Socrate e i Sofisti, perché è insieme di vicinanza e di contrasto.",
@@ -42,11 +76,23 @@
     },
     {
       "text": "a differenza loro, però, non accetta compensi per il proprio insegnamento e soprattutto non è relativista,",
-      "speech": "a differenza loro, però, non accetta compensi per il proprio insegnamento e soprattutto non è relativista,"
+      "speech": "a differenza loro, però, non accetta compensi per il proprio insegnamento e soprattutto non è relativista,",
+      "bold": [
+        [
+          88,
+          105
+        ]
+      ]
     },
     {
       "text": "poiché crede fermamente nell'esistenza di una verità oggettiva e universale sul bene, raggiungibile attraverso il dialogo razionale.",
-      "speech": "poiché crede fermamente nell'esistenza di una verità oggettiva e universale sul bene, raggiungibile attraverso il dialogo razionale."
+      "speech": "poiché crede fermamente nell'esistenza di una verità oggettiva e universale sul bene, raggiungibile attraverso il dialogo razionale.",
+      "bold": [
+        [
+          46,
+          75
+        ]
+      ]
     },
     {
       "text": "Il metodo di Socrate si articola in due momenti complementari.",
@@ -54,15 +100,45 @@
     },
     {
       "text": "L'ironia: Socrate finge di non sapere e interroga l'interlocutore che si crede sapiente, portandolo a riconoscere le contraddizioni delle proprie opinioni e la propria ignoranza, secondo la celebre affermazione so di non sapere.",
-      "speech": "L'ironia: Socrate finge di non sapere e interroga l'interlocutore che si crede sapiente, portandolo a riconoscere le contraddizioni delle proprie opinioni e la propria ignoranza, secondo la celebre affermazione so di non sapere."
+      "speech": "L'ironia: Socrate finge di non sapere e interroga l'interlocutore che si crede sapiente, portandolo a riconoscere le contraddizioni delle proprie opinioni e la propria ignoranza, secondo la celebre affermazione so di non sapere.",
+      "bold": [
+        [
+          2,
+          8
+        ],
+        [
+          211,
+          227
+        ]
+      ]
     },
     {
       "text": "La maieutica, l'arte della levatrice: una volta demolite le false certezze, Socrate aiuta l'interlocutore a far partorire da sé, con il dialogo, un'idea più vera e fondata, proprio come faceva sua madre Fenarete.",
-      "speech": "La maieutica, l'arte della levatrice: una volta demolite le false certezze, Socrate aiuta l'interlocutore a far partorire da sé, con il dialogo, un'idea più vera e fondata, proprio come faceva sua madre Fenarete."
+      "speech": "La maieutica, l'arte della levatrice: una volta demolite le false certezze, Socrate aiuta l'interlocutore a far partorire da sé, con il dialogo, un'idea più vera e fondata, proprio come faceva sua madre Fenarete.",
+      "bold": [
+        [
+          3,
+          12
+        ],
+        [
+          203,
+          211
+        ]
+      ]
     },
     {
       "text": "Per Socrate la virtù coincide con il sapere: chi conosce veramente il bene non può che agire bene, perché nessuno sbaglia volontariamente, il cosiddetto intellettualismo etico.",
-      "speech": "Per Socrate la virtù coincide con il sapere: chi conosce veramente il bene non può che agire bene, perché nessuno sbaglia volontariamente, il cosiddetto intellettualismo etico."
+      "speech": "Per Socrate la virtù coincide con il sapere: chi conosce veramente il bene non può che agire bene, perché nessuno sbaglia volontariamente, il cosiddetto intellettualismo etico.",
+      "bold": [
+        [
+          12,
+          43
+        ],
+        [
+          153,
+          175
+        ]
+      ]
     },
     {
       "text": "Il male è dunque frutto di ignoranza, non di malvagità intenzionale.",
@@ -70,7 +146,13 @@
     },
     {
       "text": "Da qui l'importanza della cura dell'anima come compito primario dell'esistenza, superiore alla cura del corpo e delle ricchezze.",
-      "speech": "Da qui l'importanza della cura dell'anima come compito primario dell'esistenza, superiore alla cura del corpo e delle ricchezze."
+      "speech": "Da qui l'importanza della cura dell'anima come compito primario dell'esistenza, superiore alla cura del corpo e delle ricchezze.",
+      "bold": [
+        [
+          26,
+          41
+        ]
+      ]
     },
     {
       "text": "Dopo la morte di Socrate, diversi suoi allievi fondano scuole che ne sviluppano, in direzioni anche opposte, singoli aspetti dell'insegnamento:",
@@ -78,7 +160,21 @@
     },
     {
       "text": "i Cinici radicalizzano l'ideale dell'autosufficienza, i Cirenaici sviluppano un edonismo del piacere presente, i Megarici uniscono l'etica socratica alla logica eleatica.",
-      "speech": "i Cinici radicalizzano l'ideale dell'autosufficienza, i Cirenaici sviluppano un edonismo del piacere presente, i Megarici uniscono l'etica socratica alla logica eleatica."
+      "speech": "i Cinici radicalizzano l'ideale dell'autosufficienza, i Cirenaici sviluppano un edonismo del piacere presente, i Megarici uniscono l'etica socratica alla logica eleatica.",
+      "bold": [
+        [
+          2,
+          8
+        ],
+        [
+          56,
+          65
+        ],
+        [
+          113,
+          121
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: perché, secondo l'intellettualismo etico di Socrate, chi compie il male lo fa sempre per ignoranza e mai per malvagità intenzionale?",
@@ -106,15 +202,45 @@
     },
     {
       "text": "Primo: Socrate, pur vicino ai Sofisti nel metodo del dialogo pubblico, crede in una verità oggettiva sul bene.",
-      "speech": "Primo: Socrate, pur vicino ai Sofisti nel metodo del dialogo pubblico, crede in una verità oggettiva sul bene."
+      "speech": "Primo: Socrate, pur vicino ai Sofisti nel metodo del dialogo pubblico, crede in una verità oggettiva sul bene.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ]
     },
     {
       "text": "Secondo: il suo metodo si articola in ironia e maieutica, per portare l'interlocutore a riconoscere l'ignoranza e a far emergere una verità più fondata.",
-      "speech": "Secondo: il suo metodo si articola in ironia e maieutica, per portare l'interlocutore a riconoscere l'ignoranza e a far emergere una verità più fondata."
+      "speech": "Secondo: il suo metodo si articola in ironia e maieutica, per portare l'interlocutore a riconoscere l'ignoranza e a far emergere una verità più fondata.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          38,
+          56
+        ]
+      ]
     },
     {
       "text": "Terzo: per l'intellettualismo etico, la virtù coincide con il sapere, e il male è sempre frutto di ignoranza.",
-      "speech": "Terzo: per l'intellettualismo etico, la virtù coincide con il sapere, e il male è sempre frutto di ignoranza."
+      "speech": "Terzo: per l'intellettualismo etico, la virtù coincide con il sapere, e il male è sempre frutto di ignoranza.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          13,
+          35
+        ],
+        [
+          40,
+          68
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo Platone: la sua vita, le sue opere e la dottrina delle idee.",

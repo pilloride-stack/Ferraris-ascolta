@@ -26,7 +26,25 @@
     },
     {
       "text": "Il termine informatica nasce dalla fusione delle parole «informazione» e «automatica», e indica la scienza che si occupa del trattamento automatico delle informazioni per mezzo del computer.",
-      "speech": "Il termine informatica nasce dalla fusione delle parole «informazione» e «automatica», e indica la scienza che si occupa del trattamento automatico delle informazioni per mezzo del computer."
+      "speech": "Il termine informatica nasce dalla fusione delle parole «informazione» e «automatica», e indica la scienza che si occupa del trattamento automatico delle informazioni per mezzo del computer.",
+      "bold": [
+        [
+          11,
+          22
+        ],
+        [
+          57,
+          69
+        ],
+        [
+          74,
+          84
+        ],
+        [
+          125,
+          166
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su uno schema che vale la pena avere sempre presente,",
@@ -34,11 +52,27 @@
     },
     {
       "text": "perché descrive in tre semplici passaggi il funzionamento di qualunque elaborazione informatica, dalla più semplice alla più complessa: input, elaborazione, output.",
-      "speech": "perché descrive in tre semplici passaggi il funzionamento di qualunque elaborazione informatica, dalla più semplice alla più complessa: input, elaborazione, output."
+      "speech": "perché descrive in tre semplici passaggi il funzionamento di qualunque elaborazione informatica, dalla più semplice alla più complessa: input, elaborazione, output.",
+      "bold": [
+        [
+          136,
+          163
+        ]
+      ]
     },
     {
       "text": "I dati vengono acquisiti, cioè l'input; vengono elaborati secondo un programma, cioè l'elaborazione vera e propria; e vengono restituiti come risultato, cioè l'output.",
-      "speech": "I dati vengono acquisiti, cioè l'input; vengono elaborati secondo un programma, cioè l'elaborazione vera e propria; e vengono restituiti come risultato, cioè l'output."
+      "speech": "I dati vengono acquisiti, cioè l'input; vengono elaborati secondo un programma, cioè l'elaborazione vera e propria; e vengono restituiti come risultato, cioè l'output.",
+      "bold": [
+        [
+          33,
+          38
+        ],
+        [
+          160,
+          166
+        ]
+      ]
     },
     {
       "text": "Qualunque cosa faccia un computer, da un semplice calcolo a un videogioco complesso, può sempre essere ricondotta a questo schema fondamentale.",
@@ -54,11 +88,23 @@
     },
     {
       "text": "Nella gestione aziendale, per la contabilità, la gestione del magazzino e la fatturazione elettronica.",
-      "speech": "Nella gestione aziendale, per la contabilità, la gestione del magazzino e la fatturazione elettronica."
+      "speech": "Nella gestione aziendale, per la contabilità, la gestione del magazzino e la fatturazione elettronica.",
+      "bold": [
+        [
+          6,
+          24
+        ]
+      ]
     },
     {
       "text": "Nella ricerca scientifica e medica, per simulazioni e diagnostica per immagini.",
-      "speech": "Nella ricerca scientifica e medica, per simulazioni e diagnostica per immagini."
+      "speech": "Nella ricerca scientifica e medica, per simulazioni e diagnostica per immagini.",
+      "bold": [
+        [
+          6,
+          25
+        ]
+      ]
     },
     {
       "text": "Nella comunicazione, attraverso la posta elettronica, i social media e le videoconferenze.",
@@ -70,7 +116,13 @@
     },
     {
       "text": "E nella domotica, l'automazione delle abitazioni attraverso dispositivi intelligenti connessi in rete, il cosiddetto Internet delle Cose.",
-      "speech": "E nella domotica, l'automazione delle abitazioni attraverso dispositivi intelligenti connessi in rete, il cosiddetto Internet delle Cose."
+      "speech": "E nella domotica, l'automazione delle abitazioni attraverso dispositivi intelligenti connessi in rete, il cosiddetto Internet delle Cose.",
+      "bold": [
+        [
+          8,
+          16
+        ]
+      ]
     },
     {
       "text": "Prima di addentrarci nel funzionamento tecnico del computer, la dispensa dedica giustamente un momento all'ergonomia della postazione di lavoro, un argomento spesso sottovalutato ma di grande importanza pratica.",
@@ -78,7 +130,13 @@
     },
     {
       "text": "L'ergonomia è la scienza che studia l'interazione tra l'uomo e gli strumenti che utilizza, con l'obiettivo di progettare postazioni di lavoro sicure, confortevoli ed efficienti.",
-      "speech": "L'ergonomia è la scienza che studia l'interazione tra l'uomo e gli strumenti che utilizza, con l'obiettivo di progettare postazioni di lavoro sicure, confortevoli ed efficienti."
+      "speech": "L'ergonomia è la scienza che studia l'interazione tra l'uomo e gli strumenti che utilizza, con l'obiettivo di progettare postazioni di lavoro sicure, confortevoli ed efficienti.",
+      "bold": [
+        [
+          2,
+          11
+        ]
+      ]
     },
     {
       "text": "Nell'uso quotidiano del computer, una corretta postazione ergonomica previene disturbi muscolo-scheletrici e affaticamento visivo:",
@@ -102,7 +160,13 @@
     },
     {
       "text": "in Italia, il D.Lgs. 81/2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, impone il rispetto dei principi ergonomici nell'organizzazione delle postazioni di lavoro dotate di videoterminali,",
-      "speech": "in Italia, il D.Lgs. 81/2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, impone il rispetto dei principi ergonomici nell'organizzazione delle postazioni di lavoro dotate di videoterminali,"
+      "speech": "in Italia, il D.Lgs. 81/2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, impone il rispetto dei principi ergonomici nell'organizzazione delle postazioni di lavoro dotate di videoterminali,",
+      "bold": [
+        [
+          14,
+          28
+        ]
+      ]
     },
     {
       "text": "riconoscendo così l'importanza di questi accorgimenti anche a livello di tutela legale del lavoratore.",
@@ -110,11 +174,27 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché l'informatica non riguarda solo «i computer» in senso stretto, ma un campo molto più ampio, come rispondereste?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché l'informatica non riguarda solo «i computer» in senso stretto, ma un campo molto più ampio, come rispondereste?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché l'informatica non riguarda solo «i computer» in senso stretto, ma un campo molto più ampio, come rispondereste?",
+      "bold": [
+        [
+          116,
+          126
+        ]
+      ]
     },
     {
       "text": "Potreste osservare che lo schema input-elaborazione-output si applica a innumerevoli dispositivi che nemmeno riconosciamo come «computer» in senso tradizionale, dai bancomat ai semafori intelligenti,",
-      "speech": "Potreste osservare che lo schema input-elaborazione-output si applica a innumerevoli dispositivi che nemmeno riconosciamo come «computer» in senso tradizionale, dai bancomat ai semafori intelligenti,"
+      "speech": "Potreste osservare che lo schema input-elaborazione-output si applica a innumerevoli dispositivi che nemmeno riconosciamo come «computer» in senso tradizionale, dai bancomat ai semafori intelligenti,",
+      "bold": [
+        [
+          33,
+          58
+        ],
+        [
+          128,
+          136
+        ]
+      ]
     },
     {
       "text": "dimostrando come l'informatica sia ormai una componente pervasiva e spesso invisibile della vita quotidiana, ben oltre il personal computer sulla nostra scrivania.",
@@ -126,15 +206,53 @@
     },
     {
       "text": "Primo: l'informatica è la scienza del trattamento automatico delle informazioni, secondo lo schema input-elaborazione-output.",
-      "speech": "Primo: l'informatica è la scienza del trattamento automatico delle informazioni, secondo lo schema input-elaborazione-output."
+      "speech": "Primo: l'informatica è la scienza del trattamento automatico delle informazioni, secondo lo schema input-elaborazione-output.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          99,
+          124
+        ]
+      ]
     },
     {
       "text": "Secondo: il computer trova applicazione in ambiti diversissimi, dalla gestione aziendale alla domotica.",
-      "speech": "Secondo: il computer trova applicazione in ambiti diversissimi, dalla gestione aziendale alla domotica."
+      "speech": "Secondo: il computer trova applicazione in ambiti diversissimi, dalla gestione aziendale alla domotica.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          43,
+          62
+        ]
+      ]
     },
     {
       "text": "Terzo: l'ergonomia della postazione di lavoro previene disturbi fisici ed è disciplinata in Italia dal D.Lgs. 81/2008.",
-      "speech": "Terzo: l'ergonomia della postazione di lavoro previene disturbi fisici ed è disciplinata in Italia dal D.Lgs. 81/2008."
+      "speech": "Terzo: l'ergonomia della postazione di lavoro previene disturbi fisici ed è disciplinata in Italia dal D.Lgs. 81/2008.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          103,
+          117
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio entriamo più nel dettaglio del computer stesso, distinguendo hardware e software e vedendo come si classificano gli elaboratori in base alla loro potenza di calcolo.",

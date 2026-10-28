@@ -10,23 +10,53 @@
     },
     {
       "text": "Oggi vediamo l'operazione speculare: le vendite di merci e il loro regolamento, con il meccanismo dell'IVA nostro debito.",
-      "speech": "Oggi vediamo l'operazione speculare: le vendite di merci e il loro regolamento, con il meccanismo dell'IVA nostro debito."
+      "speech": "Oggi vediamo l'operazione speculare: le vendite di merci e il loro regolamento, con il meccanismo dell'IVA nostro debito.",
+      "bold": [
+        [
+          103,
+          120
+        ]
+      ]
     },
     {
       "text": "Le vendite di merci si rilevano in modo esattamente speculare rispetto agli acquisti visti nell'episodio scorso:",
-      "speech": "Le vendite di merci si rilevano in modo esattamente speculare rispetto agli acquisti visti nell'episodio scorso:"
+      "speech": "Le vendite di merci si rilevano in modo esattamente speculare rispetto agli acquisti visti nell'episodio scorso:",
+      "bold": [
+        [
+          52,
+          61
+        ]
+      ]
     },
     {
       "text": "si accredita il conto economico di ricavo Merci conto vendite, per il valore della merce venduta,",
-      "speech": "si accredita il conto economico di ricavo Merci conto vendite, per il valore della merce venduta,"
+      "speech": "si accredita il conto economico di ricavo Merci conto vendite, per il valore della merce venduta,",
+      "bold": [
+        [
+          42,
+          61
+        ]
+      ]
     },
     {
       "text": "e si accredita il conto finanziario IVA nostro debito, cioè l'imposta incassata dal cliente, che l'azienda dovrà poi versare all'Erario.",
-      "speech": "e si accredita il conto finanziario IVA nostro debito, cioè l'imposta incassata dal cliente, che l'azienda dovrà poi versare all'Erario."
+      "speech": "e si accredita il conto finanziario IVA nostro debito, cioè l'imposta incassata dal cliente, che l'azienda dovrà poi versare all'Erario.",
+      "bold": [
+        [
+          36,
+          53
+        ]
+      ]
     },
     {
       "text": "Il conto da addebitare dipende dalla modalità di incasso: Cassa o Banca conto corrente se immediato, Crediti verso clienti se dilazionato.",
-      "speech": "Il conto da addebitare dipende dalla modalità di incasso: Cassa o Banca conto corrente se immediato, Crediti verso clienti se dilazionato."
+      "speech": "Il conto da addebitare dipende dalla modalità di incasso: Cassa o Banca conto corrente se immediato, Crediti verso clienti se dilazionato.",
+      "bold": [
+        [
+          101,
+          122
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento sulla simmetria tra questa operazione e quella dell'episodio scorso:",
@@ -34,7 +64,17 @@
     },
     {
       "text": "se negli acquisti l'IVA era nostro credito, perché l'azienda l'aveva pagata al fornitore e la recupererà in seguito, nelle vendite l'IVA è nostro debito,",
-      "speech": "se negli acquisti l'IVA era nostro credito, perché l'azienda l'aveva pagata al fornitore e la recupererà in seguito, nelle vendite l'IVA è nostro debito,"
+      "speech": "se negli acquisti l'IVA era nostro credito, perché l'azienda l'aveva pagata al fornitore e la recupererà in seguito, nelle vendite l'IVA è nostro debito,",
+      "bold": [
+        [
+          28,
+          42
+        ],
+        [
+          139,
+          152
+        ]
+      ]
     },
     {
       "text": "perché l'azienda l'ha incassata dal cliente ma dovrà poi versarla all'Erario.",
@@ -58,7 +98,13 @@
     },
     {
       "text": "Si addebita Crediti verso clienti per il totale di milleottocentotrenta euro, e si accreditano Merci conto vendite per millecinquecento euro e IVA nostro debito per trecentotrenta euro.",
-      "speech": "Si addebita Crediti verso clienti per il totale di milleottocentotrenta euro, e si accreditano Merci conto vendite per millecinquecento euro e IVA nostro debito per trecentotrenta euro."
+      "speech": "Si addebita Crediti verso clienti per il totale di milleottocentotrenta euro, e si accreditano Merci conto vendite per millecinquecento euro e IVA nostro debito per trecentotrenta euro.",
+      "bold": [
+        [
+          12,
+          33
+        ]
+      ]
     },
     {
       "text": "Vediamo un secondo esercizio, questa volta con incasso immediato:",
@@ -82,7 +128,13 @@
     },
     {
       "text": "Si emette una nota di credito a favore del cliente.",
-      "speech": "Si emette una nota di credito a favore del cliente."
+      "speech": "Si emette una nota di credito a favore del cliente.",
+      "bold": [
+        [
+          14,
+          29
+        ]
+      ]
     },
     {
       "text": "Come si rileva questa operazione?",
@@ -90,7 +142,13 @@
     },
     {
       "text": "Anche qui la scrittura è speculare rispetto alla vendita originaria:",
-      "speech": "Anche qui la scrittura è speculare rispetto alla vendita originaria:"
+      "speech": "Anche qui la scrittura è speculare rispetto alla vendita originaria:",
+      "bold": [
+        [
+          25,
+          34
+        ]
+      ]
     },
     {
       "text": "si addebitano Merci conto vendite per centocinquanta euro e IVA nostro debito per trentatré euro, riducendo così ricavo e debito d'imposta,",
@@ -106,15 +164,45 @@
     },
     {
       "text": "Primo: le vendite di merci si rilevano accreditando Merci conto vendite ed eventualmente IVA nostro debito, in modo speculare rispetto agli acquisti.",
-      "speech": "Primo: le vendite di merci si rilevano accreditando Merci conto vendite ed eventualmente IVA nostro debito, in modo speculare rispetto agli acquisti."
+      "speech": "Primo: le vendite di merci si rilevano accreditando Merci conto vendite ed eventualmente IVA nostro debito, in modo speculare rispetto agli acquisti.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          52,
+          71
+        ],
+        [
+          89,
+          106
+        ]
+      ]
     },
     {
       "text": "Secondo: il conto da addebitare dipende dalla modalità di incasso, Cassa o Banca se immediato, Crediti verso clienti se dilazionato.",
-      "speech": "Secondo: il conto da addebitare dipende dalla modalità di incasso, Cassa o Banca se immediato, Crediti verso clienti se dilazionato."
+      "speech": "Secondo: il conto da addebitare dipende dalla modalità di incasso, Cassa o Banca se immediato, Crediti verso clienti se dilazionato.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "Terzo: un reso su vendite riduce, in modo speculare, sia il ricavo e il debito IVA, sia il credito verso il cliente.",
-      "speech": "Terzo: un reso su vendite riduce, in modo speculare, sia il ricavo e il debito IVA, sia il credito verso il cliente."
+      "speech": "Terzo: un reso su vendite riduce, in modo speculare, sia il ricavo e il debito IVA, sia il credito verso il cliente.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          25
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo le operazioni relative ai beni strumentali, e in particolare il meccanismo dell'ammortamento.",

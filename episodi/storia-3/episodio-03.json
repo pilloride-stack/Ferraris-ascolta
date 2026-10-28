@@ -22,15 +22,41 @@
     },
     {
       "text": "Il Ducato di Milano, retto dai Visconti e poi, dal 1450, dagli Sforza, è la potenza terrestre dominante nell'Italia settentrionale.",
-      "speech": "Il Ducato di Milano, retto dai Visconti e poi, dal 1450, dagli Sforza, è la potenza terrestre dominante nell'Italia settentrionale."
+      "speech": "Il Ducato di Milano, retto dai Visconti e poi, dal 1450, dagli Sforza, è la potenza terrestre dominante nell'Italia settentrionale.",
+      "bold": [
+        [
+          3,
+          19
+        ],
+        [
+          63,
+          69
+        ]
+      ]
     },
     {
       "text": "La Repubblica di Venezia è invece una potenza marittima e commerciale, dotata di un vasto impero coloniale nel Mediterraneo orientale, il cosiddetto \"stato da mar\", oltre a un dominio territoriale in terraferma, lo \"stato da tera\".",
-      "speech": "La Repubblica di Venezia è invece una potenza marittima e commerciale, dotata di un vasto impero coloniale nel Mediterraneo orientale, il cosiddetto \"stato da mar\", oltre a un dominio territoriale in terraferma, lo \"stato da tera\"."
+      "speech": "La Repubblica di Venezia è invece una potenza marittima e commerciale, dotata di un vasto impero coloniale nel Mediterraneo orientale, il cosiddetto \"stato da mar\", oltre a un dominio territoriale in terraferma, lo \"stato da tera\".",
+      "bold": [
+        [
+          150,
+          162
+        ],
+        [
+          216,
+          229
+        ]
+      ]
     },
     {
       "text": "La Repubblica di Firenze resta formalmente una repubblica, ma è di fatto governata dalla famiglia Medici,",
-      "speech": "La Repubblica di Firenze resta formalmente una repubblica, ma è di fatto governata dalla famiglia Medici,"
+      "speech": "La Repubblica di Firenze resta formalmente una repubblica, ma è di fatto governata dalla famiglia Medici,",
+      "bold": [
+        [
+          89,
+          104
+        ]
+      ]
     },
     {
       "text": "che ne controlla la vita politica attraverso il prestigio economico e culturale, senza assumere formalmente un titolo signorile: un caso particolare, su cui torneremo tra poco.",
@@ -38,11 +64,23 @@
     },
     {
       "text": "Lo Stato della Chiesa è sotto il governo temporale del papato, ed è esteso nell'Italia centrale.",
-      "speech": "Lo Stato della Chiesa è sotto il governo temporale del papato, ed è esteso nell'Italia centrale."
+      "speech": "Lo Stato della Chiesa è sotto il governo temporale del papato, ed è esteso nell'Italia centrale.",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "Infine il Regno di Napoli, sotto la dinastia aragonese, domina l'Italia meridionale.",
-      "speech": "Infine il Regno di Napoli, sotto la dinastia aragonese, domina l'Italia meridionale."
+      "speech": "Infine il Regno di Napoli, sotto la dinastia aragonese, domina l'Italia meridionale.",
+      "bold": [
+        [
+          10,
+          25
+        ]
+      ]
     },
     {
       "text": "Provate a fissare questi cinque Stati con le loro caratteristiche essenziali, perché è uno schema che ricorre spesso alle interrogazioni: forma di governo e area di dominio per ciascuno.",
@@ -54,7 +92,13 @@
     },
     {
       "text": "Venezia è una repubblica aristocratica, guidata dal Doge, con un vasto impero marittimo mediterraneo.",
-      "speech": "Venezia è una repubblica aristocratica, guidata dal Doge, con un vasto impero marittimo mediterraneo."
+      "speech": "Venezia è una repubblica aristocratica, guidata dal Doge, con un vasto impero marittimo mediterraneo.",
+      "bold": [
+        [
+          52,
+          56
+        ]
+      ]
     },
     {
       "text": "Firenze è una repubblica di fatto controllata dai Medici, in Toscana.",
@@ -70,15 +114,45 @@
     },
     {
       "text": "Un momento chiave è il 1454: la pace di Lodi pone fine a decenni di conflitti tra questi Stati,",
-      "speech": "Un momento chiave è il 1454: la pace di Lodi pone fine a decenni di conflitti tra questi Stati,"
+      "speech": "Un momento chiave è il 1454: la pace di Lodi pone fine a decenni di conflitti tra questi Stati,",
+      "bold": [
+        [
+          23,
+          27
+        ],
+        [
+          32,
+          44
+        ]
+      ]
     },
     {
       "text": "dando vita a un sistema di equilibrio che gli storici chiamano \"equilibrio italiano\", garantito dalla Lega Italica, un'alleanza difensiva tra i principali Stati della penisola.",
-      "speech": "dando vita a un sistema di equilibrio che gli storici chiamano \"equilibrio italiano\", garantito dalla Lega Italica, un'alleanza difensiva tra i principali Stati della penisola."
+      "speech": "dando vita a un sistema di equilibrio che gli storici chiamano \"equilibrio italiano\", garantito dalla Lega Italica, un'alleanza difensiva tra i principali Stati della penisola.",
+      "bold": [
+        [
+          64,
+          83
+        ],
+        [
+          102,
+          114
+        ]
+      ]
     },
     {
       "text": "In questi decenni Lorenzo de' Medici, detto il Magnifico, svolge un ruolo diplomatico decisivo, spesso descritto con l'immagine dell'\"ago della bilancia\" tra le potenze italiane:",
-      "speech": "In questi decenni Lorenzo de' Medici, detto il Magnifico, svolge un ruolo diplomatico decisivo, spesso descritto con l'immagine dell'\"ago della bilancia\" tra le potenze italiane:"
+      "speech": "In questi decenni Lorenzo de' Medici, detto il Magnifico, svolge un ruolo diplomatico decisivo, spesso descritto con l'immagine dell'\"ago della bilancia\" tra le potenze italiane:",
+      "bold": [
+        [
+          18,
+          36
+        ],
+        [
+          134,
+          152
+        ]
+      ]
     },
     {
       "text": "la sua abilità diplomatica contribuisce non poco a mantenere stabile questo delicato equilibrio.",
@@ -90,7 +164,21 @@
     },
     {
       "text": "Si spezza definitivamente nel 1494, quando la discesa in Italia del re di Francia Carlo VIII apre la stagione delle guerre d'Italia:",
-      "speech": "Si spezza definitivamente nel 1494, quando la discesa in Italia del re di Francia Carlo VIII apre la stagione delle guerre d'Italia:"
+      "speech": "Si spezza definitivamente nel 1494, quando la discesa in Italia del re di Francia Carlo VIII apre la stagione delle guerre d'Italia:",
+      "bold": [
+        [
+          30,
+          34
+        ],
+        [
+          82,
+          92
+        ],
+        [
+          116,
+          131
+        ]
+      ]
     },
     {
       "text": "le grandi potenze straniere, Francia, Spagna e Impero, si contenderanno il controllo della penisola per oltre sessant'anni, segnando la fine della centralità politica autonoma degli Stati italiani nello scacchiere europeo.",
@@ -122,15 +210,53 @@
     },
     {
       "text": "Primo: nel Quattrocento la penisola italiana si consolida in cinque grandi Stati regionali, Milano, Venezia, Firenze, lo Stato della Chiesa e il Regno di Napoli.",
-      "speech": "Primo: nel Quattrocento la penisola italiana si consolida in cinque grandi Stati regionali, Milano, Venezia, Firenze, lo Stato della Chiesa e il Regno di Napoli."
+      "speech": "Primo: nel Quattrocento la penisola italiana si consolida in cinque grandi Stati regionali, Milano, Venezia, Firenze, lo Stato della Chiesa e il Regno di Napoli.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          61,
+          90
+        ]
+      ]
     },
     {
       "text": "Secondo: la pace di Lodi del 1454 istituisce un equilibrio garantito dalla Lega Italica, con Lorenzo il Magnifico nel ruolo di mediatore diplomatico.",
-      "speech": "Secondo: la pace di Lodi del 1454 istituisce un equilibrio garantito dalla Lega Italica, con Lorenzo il Magnifico nel ruolo di mediatore diplomatico."
+      "speech": "Secondo: la pace di Lodi del 1454 istituisce un equilibrio garantito dalla Lega Italica, con Lorenzo il Magnifico nel ruolo di mediatore diplomatico.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          33
+        ],
+        [
+          75,
+          87
+        ]
+      ]
     },
     {
       "text": "Terzo: questo equilibrio si spezza nel 1494 con la discesa in Italia di Carlo VIII di Francia, aprendo le guerre d'Italia.",
-      "speech": "Terzo: questo equilibrio si spezza nel 1494 con la discesa in Italia di Carlo VIII di Francia, aprendo le guerre d'Italia."
+      "speech": "Terzo: questo equilibrio si spezza nel 1494 con la discesa in Italia di Carlo VIII di Francia, aprendo le guerre d'Italia.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          39,
+          43
+        ],
+        [
+          106,
+          121
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio usciamo dalla penisola per seguire un conflitto europeo altrettanto lungo e decisivo:",

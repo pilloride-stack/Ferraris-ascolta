@@ -18,23 +18,53 @@
     },
     {
       "text": "Le tabelle sono utili per organizzare dati in righe e colonne, per esempio un calendario o un elenco di prezzi.",
-      "speech": "Le tabelle sono utili per organizzare dati in righe e colonne, per esempio un calendario o un elenco di prezzi."
+      "speech": "Le tabelle sono utili per organizzare dati in righe e colonne, per esempio un calendario o un elenco di prezzi.",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ]
     },
     {
       "text": "Le immagini possono essere inserite da file, cioè da una foto già salvata sul computer, oppure da una raccolta online.",
-      "speech": "Le immagini possono essere inserite da file, cioè da una foto già salvata sul computer, oppure da una raccolta online."
+      "speech": "Le immagini possono essere inserite da file, cioè da una foto già salvata sul computer, oppure da una raccolta online.",
+      "bold": [
+        [
+          3,
+          11
+        ]
+      ]
     },
     {
       "text": "Le forme e la WordArt permettono di aggiungere elementi grafici e testo decorativo.",
-      "speech": "Le forme e la WordArt permettono di aggiungere elementi grafici e testo decorativo."
+      "speech": "Le forme e la WordArt permettono di aggiungere elementi grafici e testo decorativo.",
+      "bold": [
+        [
+          14,
+          21
+        ]
+      ]
     },
     {
       "text": "E lo SmartArt permette di rappresentare visivamente processi, gerarchie o relazioni, per esempio un organigramma aziendale.",
-      "speech": "E lo SmartArt permette di rappresentare visivamente processi, gerarchie o relazioni, per esempio un organigramma aziendale."
+      "speech": "E lo SmartArt permette di rappresentare visivamente processi, gerarchie o relazioni, per esempio un organigramma aziendale.",
+      "bold": [
+        [
+          5,
+          13
+        ]
+      ]
     },
     {
       "text": "Tutti questi elementi si inseriscono, coerentemente con quanto visto nell'episodio scorso sulla logica della barra multifunzione, dalla scheda Inserisci.",
-      "speech": "Tutti questi elementi si inseriscono, coerentemente con quanto visto nell'episodio scorso sulla logica della barra multifunzione, dalla scheda Inserisci."
+      "speech": "Tutti questi elementi si inseriscono, coerentemente con quanto visto nell'episodio scorso sulla logica della barra multifunzione, dalla scheda Inserisci.",
+      "bold": [
+        [
+          136,
+          152
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, come inserire una tabella di tre colonne per tre righe, un'operazione molto semplice ma che vale la pena saper descrivere con ordine in un esercizio pratico.",
@@ -50,15 +80,33 @@
     },
     {
       "text": "Infine si compilano le celle della tabella con il testo desiderato, spostandosi tra una cella e l'altra con il tasto Tab:",
-      "speech": "Infine si compilano le celle della tabella con il testo desiderato, spostandosi tra una cella e l'altra con il tasto Tab:"
+      "speech": "Infine si compilano le celle della tabella con il testo desiderato, spostandosi tra una cella e l'altra con il tasto Tab:",
+      "bold": [
+        [
+          111,
+          120
+        ]
+      ]
     },
     {
       "text": "la tabella viene così creata, e può essere ulteriormente formattata dalla scheda contestuale Progettazione tabella, che appare automaticamente non appena selezionate la tabella stessa.",
-      "speech": "la tabella viene così creata, e può essere ulteriormente formattata dalla scheda contestuale Progettazione tabella, che appare automaticamente non appena selezionate la tabella stessa."
+      "speech": "la tabella viene così creata, e può essere ulteriormente formattata dalla scheda contestuale Progettazione tabella, che appare automaticamente non appena selezionate la tabella stessa.",
+      "bold": [
+        [
+          93,
+          114
+        ]
+      ]
     },
     {
       "text": "Prima di stampare un documento, è buona norma utilizzare l'anteprima di stampa, accessibile da File, poi Stampa, per verificare l'impaginazione, i margini e l'orientamento del foglio prima di inviarlo effettivamente alla stampante.",
-      "speech": "Prima di stampare un documento, è buona norma utilizzare l'anteprima di stampa, accessibile da File, poi Stampa, per verificare l'impaginazione, i margini e l'orientamento del foglio prima di inviarlo effettivamente alla stampante."
+      "speech": "Prima di stampare un documento, è buona norma utilizzare l'anteprima di stampa, accessibile da File, poi Stampa, per verificare l'impaginazione, i margini e l'orientamento del foglio prima di inviarlo effettivamente alla stampante.",
+      "bold": [
+        [
+          59,
+          78
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo consiglio pratico, perché previene uno degli errori più comuni e fastidiosi nell'uso quotidiano di Word:",
@@ -74,7 +122,17 @@
     },
     {
       "text": "Microsoft PowerPoint, il programma più diffuso per la creazione di presentazioni multimediali organizzate in diapositive, o slide in inglese.",
-      "speech": "Microsoft PowerPoint, il programma più diffuso per la creazione di presentazioni multimediali organizzate in diapositive, o slide in inglese."
+      "speech": "Microsoft PowerPoint, il programma più diffuso per la creazione di presentazioni multimediali organizzate in diapositive, o slide in inglese.",
+      "bold": [
+        [
+          0,
+          20
+        ],
+        [
+          109,
+          120
+        ]
+      ]
     },
     {
       "text": "Anche PowerPoint, come Word, utilizza la barra multifunzione, con schede dedicate specifiche per questo tipo di lavoro:",
@@ -82,7 +140,13 @@
     },
     {
       "text": "Home, Inserisci, Progettazione, Transizioni, Animazioni e Presentazione, le ultime tre delle quali non hanno un vero equivalente in Word,",
-      "speech": "Home, Inserisci, Progettazione, Transizioni, Animazioni e Presentazione, le ultime tre delle quali non hanno un vero equivalente in Word,"
+      "speech": "Home, Inserisci, Progettazione, Transizioni, Animazioni e Presentazione, le ultime tre delle quali non hanno un vero equivalente in Word,",
+      "bold": [
+        [
+          32,
+          71
+        ]
+      ]
     },
     {
       "text": "proprio perché rispondono a esigenze specifiche della comunicazione visiva e sequenziale tipica di una presentazione.",
@@ -94,7 +158,13 @@
     },
     {
       "text": "lo sviluppo di una presentazione richiede innanzitutto una pianificazione dei contenuti, individuando il messaggio principale,",
-      "speech": "lo sviluppo di una presentazione richiede innanzitutto una pianificazione dei contenuti, individuando il messaggio principale,"
+      "speech": "lo sviluppo di una presentazione richiede innanzitutto una pianificazione dei contenuti, individuando il messaggio principale,",
+      "bold": [
+        [
+          59,
+          87
+        ]
+      ]
     },
     {
       "text": "organizzando le informazioni in una sequenza logica di diapositive, scegliendo un layout coerente e leggibile, ed evitando di sovraccaricare ogni diapositiva di testo.",
@@ -122,15 +192,53 @@
     },
     {
       "text": "Primo: Word permette di inserire tabelle, immagini, forme, WordArt e SmartArt dalla scheda Inserisci, e l'anteprima di stampa previene errori di impaginazione.",
-      "speech": "Primo: Word permette di inserire tabelle, immagini, forme, WordArt e SmartArt dalla scheda Inserisci, e l'anteprima di stampa previene errori di impaginazione."
+      "speech": "Primo: Word permette di inserire tabelle, immagini, forme, WordArt e SmartArt dalla scheda Inserisci, e l'anteprima di stampa previene errori di impaginazione.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          33,
+          77
+        ]
+      ]
     },
     {
       "text": "Secondo: PowerPoint è il programma più diffuso per creare presentazioni organizzate in diapositive, con schede specifiche come Transizioni e Animazioni.",
-      "speech": "Secondo: PowerPoint è il programma più diffuso per creare presentazioni organizzate in diapositive, con schede specifiche come Transizioni e Animazioni."
+      "speech": "Secondo: PowerPoint è il programma più diffuso per creare presentazioni organizzate in diapositive, con schede specifiche come Transizioni e Animazioni.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          127,
+          151
+        ]
+      ]
     },
     {
       "text": "Terzo: una presentazione efficace richiede pianificazione dei contenuti e un layout sobrio, senza sovraccaricare le diapositive di testo.",
-      "speech": "Terzo: una presentazione efficace richiede pianificazione dei contenuti e un layout sobrio, senza sovraccaricare le diapositive di testo."
+      "speech": "Terzo: una presentazione efficace richiede pianificazione dei contenuti e un layout sobrio, senza sovraccaricare le diapositive di testo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          43,
+          71
+        ],
+        [
+          77,
+          90
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio restiamo in PowerPoint e vediamo nel dettaglio la struttura di una diapositiva, insieme agli effetti speciali di transizione e animazione.",

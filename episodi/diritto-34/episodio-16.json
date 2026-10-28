@@ -14,11 +14,23 @@
     },
     {
       "text": "La società per azioni è il modello tipico di società di capitali, adatta a raccogliere ingenti capitali anche presso il pubblico risparmio, specie se quotata in borsa:",
-      "speech": "La società per azioni è il modello tipico di società di capitali, adatta a raccogliere ingenti capitali anche presso il pubblico risparmio, specie se quotata in borsa:"
+      "speech": "La società per azioni è il modello tipico di società di capitali, adatta a raccogliere ingenti capitali anche presso il pubblico risparmio, specie se quotata in borsa:",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "il capitale sociale è diviso in azioni, liberamente trasferibili salvo clausole statutarie di limitazione,",
-      "speech": "il capitale sociale è diviso in azioni, liberamente trasferibili salvo clausole statutarie di limitazione,"
+      "speech": "il capitale sociale è diviso in azioni, liberamente trasferibili salvo clausole statutarie di limitazione,",
+      "bold": [
+        [
+          3,
+          38
+        ]
+      ]
     },
     {
       "text": "e i soci rispondono delle obbligazioni sociali esclusivamente nei limiti del capitale conferito.",
@@ -26,7 +38,21 @@
     },
     {
       "text": "Gli organi sociali tipici sono l'assemblea dei soci, organo deliberativo, l'organo amministrativo, il consiglio di amministrazione o l'amministratore unico, e l'organo di controllo, il collegio sindacale.",
-      "speech": "Gli organi sociali tipici sono l'assemblea dei soci, organo deliberativo, l'organo amministrativo, il consiglio di amministrazione o l'amministratore unico, e l'organo di controllo, il collegio sindacale."
+      "speech": "Gli organi sociali tipici sono l'assemblea dei soci, organo deliberativo, l'organo amministrativo, il consiglio di amministrazione o l'amministratore unico, e l'organo di controllo, il collegio sindacale.",
+      "bold": [
+        [
+          33,
+          51
+        ],
+        [
+          102,
+          130
+        ],
+        [
+          185,
+          203
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento sulle differenze tra i tre modelli di società di capitali, perché rispondono a esigenze imprenditoriali diverse.",
@@ -34,11 +60,23 @@
     },
     {
       "text": "La società a responsabilità limitata è pensata per imprese di dimensioni minori, con una compagine sociale più ristretta e spesso fondata su rapporti personali tra i soci:",
-      "speech": "La società a responsabilità limitata è pensata per imprese di dimensioni minori, con una compagine sociale più ristretta e spesso fondata su rapporti personali tra i soci:"
+      "speech": "La società a responsabilità limitata è pensata per imprese di dimensioni minori, con una compagine sociale più ristretta e spesso fondata su rapporti personali tra i soci:",
+      "bold": [
+        [
+          3,
+          36
+        ]
+      ]
     },
     {
       "text": "le quote di partecipazione, non azioni, non sono di regola liberamente trasferibili come le azioni,",
-      "speech": "le quote di partecipazione, non azioni, non sono di regola liberamente trasferibili come le azioni,"
+      "speech": "le quote di partecipazione, non azioni, non sono di regola liberamente trasferibili come le azioni,",
+      "bold": [
+        [
+          3,
+          26
+        ]
+      ]
     },
     {
       "text": "e la struttura organizzativa è più snella e flessibile rispetto alla società per azioni, con ampi margini di autonomia statutaria.",
@@ -46,11 +84,27 @@
     },
     {
       "text": "La società in accomandita per azioni riproduce, nell'ambito delle società di capitali, la distinzione tra soci accomandatari, che rispondono illimitatamente e solidalmente e sono di diritto amministratori,",
-      "speech": "La società in accomandita per azioni riproduce, nell'ambito delle società di capitali, la distinzione tra soci accomandatari, che rispondono illimitatamente e solidalmente e sono di diritto amministratori,"
+      "speech": "La società in accomandita per azioni riproduce, nell'ambito delle società di capitali, la distinzione tra soci accomandatari, che rispondono illimitatamente e solidalmente e sono di diritto amministratori,",
+      "bold": [
+        [
+          3,
+          36
+        ],
+        [
+          106,
+          124
+        ]
+      ]
     },
     {
       "text": "e soci accomandanti, che rispondono limitatamente alle azioni sottoscritte:",
-      "speech": "e soci accomandanti, che rispondono limitatamente alle azioni sottoscritte:"
+      "speech": "e soci accomandanti, che rispondono limitatamente alle azioni sottoscritte:",
+      "bold": [
+        [
+          2,
+          19
+        ]
+      ]
     },
     {
       "text": "è un modello raro nella pratica, utilizzato principalmente per garantire una stabilità di comando agli accomandatari-amministratori anche in presenza di un vasto azionariato diffuso.",
@@ -58,15 +112,41 @@
     },
     {
       "text": "Il bilancio d'esercizio è il documento contabile con cui, al termine di ogni esercizio sociale, di norma annuale, gli amministratori rappresentano la situazione patrimoniale, finanziaria ed economica della società.",
-      "speech": "Il bilancio d'esercizio è il documento contabile con cui, al termine di ogni esercizio sociale, di norma annuale, gli amministratori rappresentano la situazione patrimoniale, finanziaria ed economica della società."
+      "speech": "Il bilancio d'esercizio è il documento contabile con cui, al termine di ogni esercizio sociale, di norma annuale, gli amministratori rappresentano la situazione patrimoniale, finanziaria ed economica della società.",
+      "bold": [
+        [
+          3,
+          23
+        ]
+      ]
     },
     {
       "text": "È composto dallo stato patrimoniale, che espone attività, passività e patrimonio netto alla data di chiusura, dal conto economico, che espone costi e ricavi dell'esercizio,",
-      "speech": "È composto dallo stato patrimoniale, che espone attività, passività e patrimonio netto alla data di chiusura, dal conto economico, che espone costi e ricavi dell'esercizio,"
+      "speech": "È composto dallo stato patrimoniale, che espone attività, passività e patrimonio netto alla data di chiusura, dal conto economico, che espone costi e ricavi dell'esercizio,",
+      "bold": [
+        [
+          17,
+          35
+        ],
+        [
+          114,
+          129
+        ]
+      ]
     },
     {
       "text": "determinando l'utile o la perdita, dal rendiconto finanziario e dalla nota integrativa, che illustra e commenta i dati esposti nei prospetti contabili.",
-      "speech": "determinando l'utile o la perdita, dal rendiconto finanziario e dalla nota integrativa, che illustra e commenta i dati esposti nei prospetti contabili."
+      "speech": "determinando l'utile o la perdita, dal rendiconto finanziario e dalla nota integrativa, che illustra e commenta i dati esposti nei prospetti contabili.",
+      "bold": [
+        [
+          39,
+          61
+        ],
+        [
+          70,
+          86
+        ]
+      ]
     },
     {
       "text": "Il bilancio deve essere redatto con chiarezza e deve rappresentare in modo veritiero e corretto la situazione patrimoniale e finanziaria della società e il risultato economico dell'esercizio,",
@@ -74,7 +154,13 @@
     },
     {
       "text": "il cosiddetto principio della rappresentazione veritiera e corretta.",
-      "speech": "il cosiddetto principio della rappresentazione veritiera e corretta."
+      "speech": "il cosiddetto principio della rappresentazione veritiera e corretta.",
+      "bold": [
+        [
+          30,
+          67
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: una famiglia vuole avviare una piccola impresa a conduzione familiare, con pochi soci legati da rapporti personali,",
@@ -90,7 +176,13 @@
     },
     {
       "text": "Il modello più adatto è la società a responsabilità limitata, proprio perché è pensata per imprese di dimensioni minori, con una compagine sociale ristretta e spesso fondata su rapporti personali tra i soci,",
-      "speech": "Il modello più adatto è la società a responsabilità limitata, proprio perché è pensata per imprese di dimensioni minori, con una compagine sociale ristretta e spesso fondata su rapporti personali tra i soci,"
+      "speech": "Il modello più adatto è la società a responsabilità limitata, proprio perché è pensata per imprese di dimensioni minori, con una compagine sociale ristretta e spesso fondata su rapporti personali tra i soci,",
+      "bold": [
+        [
+          27,
+          60
+        ]
+      ]
     },
     {
       "text": "e offre una struttura organizzativa più snella e flessibile, con ampi margini di autonomia statutaria, rispetto alla società per azioni,",
@@ -106,19 +198,63 @@
     },
     {
       "text": "Primo: la società per azioni ha capitale diviso in azioni e organi sociali distinti, assemblea, amministratori e collegio sindacale.",
-      "speech": "Primo: la società per azioni ha capitale diviso in azioni e organi sociali distinti, assemblea, amministratori e collegio sindacale."
+      "speech": "Primo: la società per azioni ha capitale diviso in azioni e organi sociali distinti, assemblea, amministratori e collegio sindacale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          32,
+          57
+        ],
+        [
+          113,
+          131
+        ]
+      ]
     },
     {
       "text": "Secondo: la società a responsabilità limitata è più snella e adatta a compagini sociali ristrette,",
-      "speech": "Secondo: la società a responsabilità limitata è più snella e adatta a compagini sociali ristrette,"
+      "speech": "Secondo: la società a responsabilità limitata è più snella e adatta a compagini sociali ristrette,",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          45
+        ]
+      ]
     },
     {
       "text": "mentre la società in accomandita per azioni distingue accomandatari e accomandanti anche tra le società di capitali.",
-      "speech": "mentre la società in accomandita per azioni distingue accomandatari e accomandanti anche tra le società di capitali."
+      "speech": "mentre la società in accomandita per azioni distingue accomandatari e accomandanti anche tra le società di capitali.",
+      "bold": [
+        [
+          10,
+          43
+        ]
+      ]
     },
     {
       "text": "Terzo: il bilancio d'esercizio, composto da stato patrimoniale, conto economico, rendiconto finanziario e nota integrativa, deve rappresentare in modo veritiero e corretto la situazione della società.",
-      "speech": "Terzo: il bilancio d'esercizio, composto da stato patrimoniale, conto economico, rendiconto finanziario e nota integrativa, deve rappresentare in modo veritiero e corretto la situazione della società."
+      "speech": "Terzo: il bilancio d'esercizio, composto da stato patrimoniale, conto economico, rendiconto finanziario e nota integrativa, deve rappresentare in modo veritiero e corretto la situazione della società.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          151,
+          171
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio entriamo nella parte di economia della classe quarta, vedendo la macroeconomia, l'impresa e il mercato del lavoro, e il contratto di lavoro.",

@@ -14,7 +14,13 @@
     },
     {
       "text": "L'azienda è anche un sistema organizzato, perché al suo interno gli elementi non sono semplicemente presenti,",
-      "speech": "L'azienda è anche un sistema organizzato, perché al suo interno gli elementi non sono semplicemente presenti,"
+      "speech": "L'azienda è anche un sistema organizzato, perché al suo interno gli elementi non sono semplicemente presenti,",
+      "bold": [
+        [
+          21,
+          40
+        ]
+      ]
     },
     {
       "text": "ma sono coordinati secondo regole precise, per raggiungere in modo efficace ed efficiente gli obiettivi comuni.",
@@ -26,7 +32,13 @@
     },
     {
       "text": "Il primo elemento sono i soggetti, cioè le persone che, a vario titolo, partecipano alla vita dell'azienda:",
-      "speech": "Il primo elemento sono i soggetti, cioè le persone che, a vario titolo, partecipano alla vita dell'azienda:"
+      "speech": "Il primo elemento sono i soggetti, cioè le persone che, a vario titolo, partecipano alla vita dell'azienda:",
+      "bold": [
+        [
+          25,
+          33
+        ]
+      ]
     },
     {
       "text": "l'imprenditore o i soci, i dipendenti, i collaboratori, ma anche, in senso più ampio, tutti coloro che entrano in relazione con essa, come fornitori e clienti.",
@@ -34,7 +46,13 @@
     },
     {
       "text": "Il secondo elemento sono i beni, cioè le risorse materiali e immateriali di cui l'azienda dispone per svolgere la propria attività:",
-      "speech": "Il secondo elemento sono i beni, cioè le risorse materiali e immateriali di cui l'azienda dispone per svolgere la propria attività:"
+      "speech": "Il secondo elemento sono i beni, cioè le risorse materiali e immateriali di cui l'azienda dispone per svolgere la propria attività:",
+      "bold": [
+        [
+          27,
+          31
+        ]
+      ]
     },
     {
       "text": "denaro, macchinari, materie prime, ma anche beni immateriali come i brevetti o il marchio.",
@@ -42,11 +60,23 @@
     },
     {
       "text": "Il terzo elemento sono le operazioni, cioè tutti gli atti economici che l'azienda compie nello svolgimento della propria attività, come acquisti, vendite, pagamenti e incassi.",
-      "speech": "Il terzo elemento sono le operazioni, cioè tutti gli atti economici che l'azienda compie nello svolgimento della propria attività, come acquisti, vendite, pagamenti e incassi."
+      "speech": "Il terzo elemento sono le operazioni, cioè tutti gli atti economici che l'azienda compie nello svolgimento della propria attività, come acquisti, vendite, pagamenti e incassi.",
+      "bold": [
+        [
+          26,
+          36
+        ]
+      ]
     },
     {
       "text": "Il quarto elemento sono le regole organizzative, cioè l'insieme di norme, procedure e criteri che disciplinano i rapporti tra i soggetti e stabiliscono come devono essere svolte le operazioni, assicurando ordine e coerenza all'intero sistema.",
-      "speech": "Il quarto elemento sono le regole organizzative, cioè l'insieme di norme, procedure e criteri che disciplinano i rapporti tra i soggetti e stabiliscono come devono essere svolte le operazioni, assicurando ordine e coerenza all'intero sistema."
+      "speech": "Il quarto elemento sono le regole organizzative, cioè l'insieme di norme, procedure e criteri che disciplinano i rapporti tra i soggetti e stabiliscono come devono essere svolte le operazioni, assicurando ordine e coerenza all'intero sistema.",
+      "bold": [
+        [
+          27,
+          47
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questi quattro elementi, perché tra di loro esiste una gerarchia logica precisa che vi aiuta a ricordarli:",
@@ -54,7 +84,13 @@
     },
     {
       "text": "i soggetti utilizzano i beni per compiere le operazioni, e tutto questo avviene secondo le regole organizzative, che rappresentano la cornice entro cui i primi tre elementi si combinano in modo ordinato.",
-      "speech": "i soggetti utilizzano i beni per compiere le operazioni, e tutto questo avviene secondo le regole organizzative, che rappresentano la cornice entro cui i primi tre elementi si combinano in modo ordinato."
+      "speech": "i soggetti utilizzano i beni per compiere le operazioni, e tutto questo avviene secondo le regole organizzative, che rappresentano la cornice entro cui i primi tre elementi si combinano in modo ordinato.",
+      "bold": [
+        [
+          134,
+          141
+        ]
+      ]
     },
     {
       "text": "Senza le regole organizzative, soggetti, beni e operazioni resterebbero elementi scoordinati, incapaci di produrre un risultato coerente.",
@@ -90,15 +126,45 @@
     },
     {
       "text": "Primo: l'azienda, oltre a essere un sistema di trasformazione, è anche un sistema organizzato.",
-      "speech": "Primo: l'azienda, oltre a essere un sistema di trasformazione, è anche un sistema organizzato."
+      "speech": "Primo: l'azienda, oltre a essere un sistema di trasformazione, è anche un sistema organizzato.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          74,
+          93
+        ]
+      ]
     },
     {
       "text": "Secondo: questo sistema è composto da soggetti, beni e operazioni, coordinati tra loro.",
-      "speech": "Secondo: questo sistema è composto da soggetti, beni e operazioni, coordinati tra loro."
+      "speech": "Secondo: questo sistema è composto da soggetti, beni e operazioni, coordinati tra loro.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          38,
+          65
+        ]
+      ]
     },
     {
       "text": "Terzo: a coordinare questi tre elementi intervengono le regole organizzative, che assicurano ordine ed efficacia all'intera struttura.",
-      "speech": "Terzo: a coordinare questi tre elementi intervengono le regole organizzative, che assicurano ordine ed efficacia all'intera struttura."
+      "speech": "Terzo: a coordinare questi tre elementi intervengono le regole organizzative, che assicurano ordine ed efficacia all'intera struttura.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          56,
+          76
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato il primo modulo della dispensa.",

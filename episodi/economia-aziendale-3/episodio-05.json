@@ -14,19 +14,43 @@
     },
     {
       "text": "L'aspetto economico riguarda le variazioni di costi e ricavi prodotte dalle operazioni di gestione.",
-      "speech": "L'aspetto economico riguarda le variazioni di costi e ricavi prodotte dalle operazioni di gestione."
+      "speech": "L'aspetto economico riguarda le variazioni di costi e ricavi prodotte dalle operazioni di gestione.",
+      "bold": [
+        [
+          2,
+          19
+        ]
+      ]
     },
     {
       "text": "È fondamentale distinguere il momento della manifestazione finanziaria di un costo o di un ricavo, cioè quando si genera un'entrata o un'uscita di denaro,",
-      "speech": "È fondamentale distinguere il momento della manifestazione finanziaria di un costo o di un ricavo, cioè quando si genera un'entrata o un'uscita di denaro,"
+      "speech": "È fondamentale distinguere il momento della manifestazione finanziaria di un costo o di un ricavo, cioè quando si genera un'entrata o un'uscita di denaro,",
+      "bold": [
+        [
+          44,
+          70
+        ]
+      ]
     },
     {
       "text": "oppure un credito o un debito, dal momento della sua competenza economica, cioè il periodo amministrativo a cui il costo o il ricavo si riferisce effettivamente.",
-      "speech": "oppure un credito o un debito, dal momento della sua competenza economica, cioè il periodo amministrativo a cui il costo o il ricavo si riferisce effettivamente."
+      "speech": "oppure un credito o un debito, dal momento della sua competenza economica, cioè il periodo amministrativo a cui il costo o il ricavo si riferisce effettivamente.",
+      "bold": [
+        [
+          53,
+          73
+        ]
+      ]
     },
     {
       "text": "I due momenti non sempre coincidono, e questa distinzione sarà ripresa più avanti, quando studieremo le scritture di assestamento.",
-      "speech": "I due momenti non sempre coincidono, e questa distinzione sarà ripresa più avanti, quando studieremo le scritture di assestamento."
+      "speech": "I due momenti non sempre coincidono, e questa distinzione sarà ripresa più avanti, quando studieremo le scritture di assestamento.",
+      "bold": [
+        [
+          104,
+          129
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su un esempio che chiarisce bene questa distinzione: il primo dicembre un'azienda paga un premio assicurativo annuale di milleduecento euro.",
@@ -50,15 +74,33 @@
     },
     {
       "text": "Da questa distinzione deriva il concetto di reddito d'esercizio: la variazione subita dal patrimonio netto per effetto della gestione svolta in un determinato periodo amministrativo.",
-      "speech": "Da questa distinzione deriva il concetto di reddito d'esercizio: la variazione subita dal patrimonio netto per effetto della gestione svolta in un determinato periodo amministrativo."
+      "speech": "Da questa distinzione deriva il concetto di reddito d'esercizio: la variazione subita dal patrimonio netto per effetto della gestione svolta in un determinato periodo amministrativo.",
+      "bold": [
+        [
+          44,
+          63
+        ]
+      ]
     },
     {
       "text": "Si distingue dal reddito globale, cioè il risultato economico complessivo prodotto dall'azienda durante l'intera sua vita, che si può conoscere con certezza solo al termine dell'attività aziendale.",
-      "speech": "Si distingue dal reddito globale, cioè il risultato economico complessivo prodotto dall'azienda durante l'intera sua vita, che si può conoscere con certezza solo al termine dell'attività aziendale."
+      "speech": "Si distingue dal reddito globale, cioè il risultato economico complessivo prodotto dall'azienda durante l'intera sua vita, che si può conoscere con certezza solo al termine dell'attività aziendale.",
+      "bold": [
+        [
+          17,
+          32
+        ]
+      ]
     },
     {
       "text": "Poiché non è possibile attendere la cessazione dell'azienda per conoscere il risultato economico, si ricorre alla misurazione periodica del reddito,",
-      "speech": "Poiché non è possibile attendere la cessazione dell'azienda per conoscere il risultato economico, si ricorre alla misurazione periodica del reddito,"
+      "speech": "Poiché non è possibile attendere la cessazione dell'azienda per conoscere il risultato economico, si ricorre alla misurazione periodica del reddito,",
+      "bold": [
+        [
+          114,
+          147
+        ]
+      ]
     },
     {
       "text": "confrontando i componenti positivi e negativi di competenza di ciascun esercizio: questo è, appunto, il reddito d'esercizio.",
@@ -78,7 +120,13 @@
     },
     {
       "text": "Il reddito d'esercizio è la differenza tra componenti positivi e componenti negativi: duecentodiecimila meno centottantacinquemila, cioè venticinquemila euro di utile.",
-      "speech": "Il reddito d'esercizio è la differenza tra componenti positivi e componenti negativi: duecentodiecimila meno centottantacinquemila, cioè venticinquemila euro di utile."
+      "speech": "Il reddito d'esercizio è la differenza tra componenti positivi e componenti negativi: duecentodiecimila meno centottantacinquemila, cioè venticinquemila euro di utile.",
+      "bold": [
+        [
+          43,
+          84
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, questa volta per vedere l'effetto del reddito sul patrimonio netto: il patrimonio netto di un'azienda all'inizio dell'esercizio è di centoventimila euro.",
@@ -94,7 +142,13 @@
     },
     {
       "text": "Il patrimonio netto finale è uguale al patrimonio netto iniziale più il reddito d'esercizio: centoventimila più quindicimila, cioè centotrentacinquemila euro.",
-      "speech": "Il patrimonio netto finale è uguale al patrimonio netto iniziale più il reddito d'esercizio: centoventimila più quindicimila, cioè centotrentacinquemila euro."
+      "speech": "Il patrimonio netto finale è uguale al patrimonio netto iniziale più il reddito d'esercizio: centoventimila più quindicimila, cioè centotrentacinquemila euro.",
+      "bold": [
+        [
+          39,
+          64
+        ]
+      ]
     },
     {
       "text": "Questo esercizio mostra concretamente il legame profondo tra i due aspetti visti in questo modulo:",
@@ -110,15 +164,53 @@
     },
     {
       "text": "Primo: l'aspetto economico distingue la manifestazione finanziaria di un costo o ricavo dalla sua competenza economica, che possono non coincidere nel tempo.",
-      "speech": "Primo: l'aspetto economico distingue la manifestazione finanziaria di un costo o ricavo dalla sua competenza economica, che possono non coincidere nel tempo."
+      "speech": "Primo: l'aspetto economico distingue la manifestazione finanziaria di un costo o ricavo dalla sua competenza economica, che possono non coincidere nel tempo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          40,
+          66
+        ],
+        [
+          98,
+          118
+        ]
+      ]
     },
     {
       "text": "Secondo: il reddito d'esercizio è la variazione del patrimonio netto dovuta alla gestione di un periodo, e si distingue dal reddito globale, conoscibile solo a fine vita aziendale.",
-      "speech": "Secondo: il reddito d'esercizio è la variazione del patrimonio netto dovuta alla gestione di un periodo, e si distingue dal reddito globale, conoscibile solo a fine vita aziendale."
+      "speech": "Secondo: il reddito d'esercizio è la variazione del patrimonio netto dovuta alla gestione di un periodo, e si distingue dal reddito globale, conoscibile solo a fine vita aziendale.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          31
+        ],
+        [
+          124,
+          139
+        ]
+      ]
     },
     {
       "text": "Terzo: un reddito d'esercizio positivo aumenta il patrimonio netto, mentre una perdita lo diminuisce.",
-      "speech": "Terzo: un reddito d'esercizio positivo aumenta il patrimonio netto, mentre una perdita lo diminuisce."
+      "speech": "Terzo: un reddito d'esercizio positivo aumenta il patrimonio netto, mentre una perdita lo diminuisce.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          79,
+          86
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato il secondo modulo della dispensa.",

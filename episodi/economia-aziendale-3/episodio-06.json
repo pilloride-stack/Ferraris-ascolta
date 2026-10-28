@@ -14,23 +14,53 @@
     },
     {
       "text": "Il sistema informativo aziendale raccoglie, elabora e trasmette le informazioni necessarie al funzionamento dell'azienda.",
-      "speech": "Il sistema informativo aziendale raccoglie, elabora e trasmette le informazioni necessarie al funzionamento dell'azienda."
+      "speech": "Il sistema informativo aziendale raccoglie, elabora e trasmette le informazioni necessarie al funzionamento dell'azienda.",
+      "bold": [
+        [
+          3,
+          32
+        ]
+      ]
     },
     {
       "text": "Una parte fondamentale di questo sistema è la comunicazione aziendale, che può essere di due tipi.",
-      "speech": "Una parte fondamentale di questo sistema è la comunicazione aziendale, che può essere di due tipi."
+      "speech": "Una parte fondamentale di questo sistema è la comunicazione aziendale, che può essere di due tipi.",
+      "bold": [
+        [
+          46,
+          69
+        ]
+      ]
     },
     {
       "text": "La comunicazione interna è rivolta ai soggetti che operano all'interno dell'azienda, per coordinare le attività e supportare le decisioni.",
-      "speech": "La comunicazione interna è rivolta ai soggetti che operano all'interno dell'azienda, per coordinare le attività e supportare le decisioni."
+      "speech": "La comunicazione interna è rivolta ai soggetti che operano all'interno dell'azienda, per coordinare le attività e supportare le decisioni.",
+      "bold": [
+        [
+          3,
+          24
+        ]
+      ]
     },
     {
       "text": "La comunicazione esterna è invece rivolta a soggetti terzi, come clienti, fornitori, banche e Pubblica Amministrazione, con finalità informative, promozionali, o di adempimento di obblighi di legge, come nel caso del bilancio d'esercizio.",
-      "speech": "La comunicazione esterna è invece rivolta a soggetti terzi, come clienti, fornitori, banche e Pubblica Amministrazione, con finalità informative, promozionali, o di adempimento di obblighi di legge, come nel caso del bilancio d'esercizio."
+      "speech": "La comunicazione esterna è invece rivolta a soggetti terzi, come clienti, fornitori, banche e Pubblica Amministrazione, con finalità informative, promozionali, o di adempimento di obblighi di legge, come nel caso del bilancio d'esercizio.",
+      "bold": [
+        [
+          3,
+          24
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa distinzione, perché il bilancio d'esercizio, che studieremo nell'ultimo modulo di questa dispensa, è l'esempio più importante di comunicazione esterna obbligatoria:",
-      "speech": "Fermatevi un momento su questa distinzione, perché il bilancio d'esercizio, che studieremo nell'ultimo modulo di questa dispensa, è l'esempio più importante di comunicazione esterna obbligatoria:"
+      "speech": "Fermatevi un momento su questa distinzione, perché il bilancio d'esercizio, che studieremo nell'ultimo modulo di questa dispensa, è l'esempio più importante di comunicazione esterna obbligatoria:",
+      "bold": [
+        [
+          54,
+          74
+        ]
+      ]
     },
     {
       "text": "attraverso di esso l'azienda informa banche, fornitori e Amministrazione finanziaria sulla propria situazione, adempiendo contemporaneamente a un obbligo di legge.",
@@ -38,7 +68,13 @@
     },
     {
       "text": "Per svolgere questa comunicazione, e più in generale per rilevare le proprie operazioni, l'azienda si serve delle scritture aziendali, i documenti attraverso cui vengono registrate le operazioni di gestione.",
-      "speech": "Per svolgere questa comunicazione, e più in generale per rilevare le proprie operazioni, l'azienda si serve delle scritture aziendali, i documenti attraverso cui vengono registrate le operazioni di gestione."
+      "speech": "Per svolgere questa comunicazione, e più in generale per rilevare le proprie operazioni, l'azienda si serve delle scritture aziendali, i documenti attraverso cui vengono registrate le operazioni di gestione.",
+      "bold": [
+        [
+          114,
+          133
+        ]
+      ]
     },
     {
       "text": "Si distinguono due tipi di scritture.",
@@ -46,15 +82,41 @@
     },
     {
       "text": "Le scritture elementari si limitano a registrare una singola operazione così come si è manifestata, per esempio una fattura o una ricevuta.",
-      "speech": "Le scritture elementari si limitano a registrare una singola operazione così come si è manifestata, per esempio una fattura o una ricevuta."
+      "speech": "Le scritture elementari si limitano a registrare una singola operazione così come si è manifestata, per esempio una fattura o una ricevuta.",
+      "bold": [
+        [
+          3,
+          23
+        ]
+      ]
     },
     {
       "text": "Le scritture complesse, invece, rielaborano i dati per ottenere informazioni più articolate: sono scritture di calcolo, statistiche, e soprattutto scritture contabili.",
-      "speech": "Le scritture complesse, invece, rielaborano i dati per ottenere informazioni più articolate: sono scritture di calcolo, statistiche, e soprattutto scritture contabili."
+      "speech": "Le scritture complesse, invece, rielaborano i dati per ottenere informazioni più articolate: sono scritture di calcolo, statistiche, e soprattutto scritture contabili.",
+      "bold": [
+        [
+          3,
+          22
+        ],
+        [
+          147,
+          166
+        ]
+      ]
     },
     {
       "text": "Tra le scritture contabili obbligatorie per legge troviamo il libro giornale, che registra le operazioni in ordine cronologico, e il libro degli inventari.",
-      "speech": "Tra le scritture contabili obbligatorie per legge troviamo il libro giornale, che registra le operazioni in ordine cronologico, e il libro degli inventari."
+      "speech": "Tra le scritture contabili obbligatorie per legge troviamo il libro giornale, che registra le operazioni in ordine cronologico, e il libro degli inventari.",
+      "bold": [
+        [
+          62,
+          76
+        ],
+        [
+          133,
+          154
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: classificate i seguenti documenti come scrittura elementare o scrittura complessa.",
@@ -66,11 +128,23 @@
     },
     {
       "text": "La fattura di vendita è una scrittura elementare, perché registra una singola operazione così come si è manifestata.",
-      "speech": "La fattura di vendita è una scrittura elementare, perché registra una singola operazione così come si è manifestata."
+      "speech": "La fattura di vendita è una scrittura elementare, perché registra una singola operazione così come si è manifestata.",
+      "bold": [
+        [
+          28,
+          48
+        ]
+      ]
     },
     {
       "text": "Il libro giornale è una scrittura complessa, perché rielabora sistematicamente tutte le operazioni per fornire un quadro organico della gestione.",
-      "speech": "Il libro giornale è una scrittura complessa, perché rielabora sistematicamente tutte le operazioni per fornire un quadro organico della gestione."
+      "speech": "Il libro giornale è una scrittura complessa, perché rielabora sistematicamente tutte le operazioni per fornire un quadro organico della gestione.",
+      "bold": [
+        [
+          24,
+          43
+        ]
+      ]
     },
     {
       "text": "La ricevuta di pagamento della bolletta è anch'essa una scrittura elementare, per lo stesso motivo della fattura.",
@@ -82,15 +156,57 @@
     },
     {
       "text": "Primo: il sistema informativo aziendale si basa sulla comunicazione, che può essere interna, verso i soggetti che operano nell'azienda, o esterna, verso soggetti terzi.",
-      "speech": "Primo: il sistema informativo aziendale si basa sulla comunicazione, che può essere interna, verso i soggetti che operano nell'azienda, o esterna, verso soggetti terzi."
+      "speech": "Primo: il sistema informativo aziendale si basa sulla comunicazione, che può essere interna, verso i soggetti che operano nell'azienda, o esterna, verso soggetti terzi.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          84,
+          91
+        ],
+        [
+          138,
+          145
+        ]
+      ]
     },
     {
       "text": "Secondo: le scritture aziendali si distinguono in elementari, che registrano una singola operazione, e complesse, che rielaborano i dati in forma più articolata.",
-      "speech": "Secondo: le scritture aziendali si distinguono in elementari, che registrano una singola operazione, e complesse, che rielaborano i dati in forma più articolata."
+      "speech": "Secondo: le scritture aziendali si distinguono in elementari, che registrano una singola operazione, e complesse, che rielaborano i dati in forma più articolata.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          50,
+          60
+        ],
+        [
+          103,
+          112
+        ]
+      ]
     },
     {
       "text": "Terzo: tra le scritture contabili obbligatorie troviamo il libro giornale e il libro degli inventari.",
-      "speech": "Terzo: tra le scritture contabili obbligatorie troviamo il libro giornale e il libro degli inventari."
+      "speech": "Terzo: tra le scritture contabili obbligatorie troviamo il libro giornale e il libro degli inventari.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          59,
+          73
+        ],
+        [
+          79,
+          100
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo il cuore del sistema informativo contabile: la contabilità generale e il metodo della partita doppia.",

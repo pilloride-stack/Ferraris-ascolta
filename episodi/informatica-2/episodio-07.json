@@ -14,11 +14,23 @@
     },
     {
       "text": "Oltre alle formule di calcolo, Excel permette di organizzare i dati in vere e proprie tabelle strutturate, che facilitano operazioni come l'ordinamento e il filtro dei dati,",
-      "speech": "Oltre alle formule di calcolo, Excel permette di organizzare i dati in vere e proprie tabelle strutturate, che facilitano operazioni come l'ordinamento e il filtro dei dati,"
+      "speech": "Oltre alle formule di calcolo, Excel permette di organizzare i dati in vere e proprie tabelle strutturate, che facilitano operazioni come l'ordinamento e il filtro dei dati,",
+      "bold": [
+        [
+          86,
+          105
+        ]
+      ]
     },
     {
       "text": "e di applicare la formattazione condizionale, che modifica automaticamente l'aspetto delle celle, per esempio il colore, in base al loro contenuto:",
-      "speech": "e di applicare la formattazione condizionale, che modifica automaticamente l'aspetto delle celle, per esempio il colore, in base al loro contenuto:"
+      "speech": "e di applicare la formattazione condizionale, che modifica automaticamente l'aspetto delle celle, per esempio il colore, in base al loro contenuto:",
+      "bold": [
+        [
+          18,
+          44
+        ]
+      ]
     },
     {
       "text": "una funzione molto utile per far emergere a colpo d'occhio i valori più significativi di un insieme di dati, senza doverli leggere uno per uno.",
@@ -34,15 +46,33 @@
     },
     {
       "text": "Gli istogrammi sono adatti a confrontare valori tra categorie diverse, per esempio le vendite di più prodotti nello stesso mese.",
-      "speech": "Gli istogrammi sono adatti a confrontare valori tra categorie diverse, per esempio le vendite di più prodotti nello stesso mese."
+      "speech": "Gli istogrammi sono adatti a confrontare valori tra categorie diverse, per esempio le vendite di più prodotti nello stesso mese.",
+      "bold": [
+        [
+          0,
+          14
+        ]
+      ]
     },
     {
       "text": "I grafici a torta sono adatti a mostrare la composizione percentuale di un totale, per esempio come si ripartiscono le vendite complessive tra le diverse categorie di prodotto.",
-      "speech": "I grafici a torta sono adatti a mostrare la composizione percentuale di un totale, per esempio come si ripartiscono le vendite complessive tra le diverse categorie di prodotto."
+      "speech": "I grafici a torta sono adatti a mostrare la composizione percentuale di un totale, per esempio come si ripartiscono le vendite complessive tra le diverse categorie di prodotto.",
+      "bold": [
+        [
+          0,
+          17
+        ]
+      ]
     },
     {
       "text": "I grafici a linee, infine, sono adatti a mostrare l'andamento di un valore nel tempo, per esempio le vendite mese per mese nel corso di un anno.",
-      "speech": "I grafici a linee, infine, sono adatti a mostrare l'andamento di un valore nel tempo, per esempio le vendite mese per mese nel corso di un anno."
+      "speech": "I grafici a linee, infine, sono adatti a mostrare l'andamento di un valore nel tempo, per esempio le vendite mese per mese nel corso di un anno.",
+      "bold": [
+        [
+          0,
+          17
+        ]
+      ]
     },
     {
       "text": "Scegliere il grafico sbagliato per il tipo di dato che si vuole comunicare rende il grafico stesso poco utile, anche se i dati alla base sono corretti.",
@@ -54,7 +84,13 @@
     },
     {
       "text": "La risposta corretta è il grafico a torta, perché è pensato esattamente per mostrare la composizione percentuale di un totale,",
-      "speech": "La risposta corretta è il grafico a torta, perché è pensato esattamente per mostrare la composizione percentuale di un totale,"
+      "speech": "La risposta corretta è il grafico a torta, perché è pensato esattamente per mostrare la composizione percentuale di un totale,",
+      "bold": [
+        [
+          26,
+          41
+        ]
+      ]
     },
     {
       "text": "mentre un istogramma sarebbe più adatto se voleste semplicemente confrontare i valori assoluti delle vendite tra le categorie,",
@@ -74,11 +110,23 @@
     },
     {
       "text": "Poi si seleziona la scheda Inserisci, quindi Grafici, quindi Grafico a torta.",
-      "speech": "Poi si seleziona la scheda Inserisci, quindi Grafici, quindi Grafico a torta."
+      "speech": "Poi si seleziona la scheda Inserisci, quindi Grafici, quindi Grafico a torta.",
+      "bold": [
+        [
+          61,
+          76
+        ]
+      ]
     },
     {
       "text": "Infine si sceglie la variante desiderata e si personalizzano titolo e legenda dalla scheda contestuale Progettazione grafico.",
-      "speech": "Infine si sceglie la variante desiderata e si personalizzano titolo e legenda dalla scheda contestuale Progettazione grafico."
+      "speech": "Infine si sceglie la variante desiderata e si personalizzano titolo e legenda dalla scheda contestuale Progettazione grafico.",
+      "bold": [
+        [
+          103,
+          124
+        ]
+      ]
     },
     {
       "text": "Il grafico a torta viene così inserito nel foglio di lavoro, e si aggiorna automaticamente se in seguito i dati di origine cambiano, senza bisogno di ricrearlo da capo.",
@@ -90,15 +138,33 @@
     },
     {
       "text": "Prima di stampare un foglio di calcolo è opportuno verificarne l'impaginazione tramite l'anteprima di stampa, raggiungibile da File e poi Stampa;",
-      "speech": "Prima di stampare un foglio di calcolo è opportuno verificarne l'impaginazione tramite l'anteprima di stampa, raggiungibile da File e poi Stampa;"
+      "speech": "Prima di stampare un foglio di calcolo è opportuno verificarne l'impaginazione tramite l'anteprima di stampa, raggiungibile da File e poi Stampa;",
+      "bold": [
+        [
+          89,
+          108
+        ]
+      ]
     },
     {
       "text": "definire l'area di stampa, cioè la porzione di foglio da includere;",
-      "speech": "definire l'area di stampa, cioè la porzione di foglio da includere;"
+      "speech": "definire l'area di stampa, cioè la porzione di foglio da includere;",
+      "bold": [
+        [
+          11,
+          25
+        ]
+      ]
     },
     {
       "text": "scegliere l'orientamento della pagina, verticale oppure orizzontale, spesso preferibile per tabelle molto larghe che altrimenti verrebbero tagliate;",
-      "speech": "scegliere l'orientamento della pagina, verticale oppure orizzontale, spesso preferibile per tabelle molto larghe che altrimenti verrebbero tagliate;"
+      "speech": "scegliere l'orientamento della pagina, verticale oppure orizzontale, spesso preferibile per tabelle molto larghe che altrimenti verrebbero tagliate;",
+      "bold": [
+        [
+          12,
+          37
+        ]
+      ]
     },
     {
       "text": "e, se necessario, adattare il contenuto a un numero prestabilito di pagine.",
@@ -106,7 +172,13 @@
     },
     {
       "text": "È inoltre possibile inserire intestazioni e piè di pagina personalizzati, utili per esempio per includere il numero di pagina, la data o il nome del documento su ogni foglio stampato.",
-      "speech": "È inoltre possibile inserire intestazioni e piè di pagina personalizzati, utili per esempio per includere il numero di pagina, la data o il nome del documento su ogni foglio stampato."
+      "speech": "È inoltre possibile inserire intestazioni e piè di pagina personalizzati, utili per esempio per includere il numero di pagina, la data o il nome del documento su ogni foglio stampato.",
+      "bold": [
+        [
+          29,
+          57
+        ]
+      ]
     },
     {
       "text": "Con questi ultimi strumenti abbiamo completato un percorso che ci ha portato dall'infrastruttura di Internet e dalle regole che ne disciplinano l'uso, all'utilizzo concreto dei suoi servizi principali,",
@@ -122,19 +194,63 @@
     },
     {
       "text": "Primo: Excel permette di organizzare i dati in tabelle strutturate, con ordinamento, filtro e formattazione condizionale.",
-      "speech": "Primo: Excel permette di organizzare i dati in tabelle strutturate, con ordinamento, filtro e formattazione condizionale."
+      "speech": "Primo: Excel permette di organizzare i dati in tabelle strutturate, con ordinamento, filtro e formattazione condizionale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          47,
+          66
+        ],
+        [
+          94,
+          120
+        ]
+      ]
     },
     {
       "text": "Secondo: i tre principali tipi di grafico sono l'istogramma, per confrontare categorie, il grafico a torta, per mostrare composizioni percentuali,",
-      "speech": "Secondo: i tre principali tipi di grafico sono l'istogramma, per confrontare categorie, il grafico a torta, per mostrare composizioni percentuali,"
+      "speech": "Secondo: i tre principali tipi di grafico sono l'istogramma, per confrontare categorie, il grafico a torta, per mostrare composizioni percentuali,",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          49,
+          59
+        ],
+        [
+          91,
+          106
+        ]
+      ]
     },
     {
       "text": "e il grafico a linee, per mostrare andamenti nel tempo, ciascuno da scegliere in base al messaggio che si vuole comunicare.",
-      "speech": "e il grafico a linee, per mostrare andamenti nel tempo, ciascuno da scegliere in base al messaggio che si vuole comunicare."
+      "speech": "e il grafico a linee, per mostrare andamenti nel tempo, ciascuno da scegliere in base al messaggio che si vuole comunicare.",
+      "bold": [
+        [
+          5,
+          20
+        ]
+      ]
     },
     {
       "text": "Terzo: prima di stampare un foglio di calcolo occorre controllare l'anteprima di stampa, l'area di stampa, l'orientamento della pagina ed eventualmente intestazioni e piè di pagina.",
-      "speech": "Terzo: prima di stampare un foglio di calcolo occorre controllare l'anteprima di stampa, l'area di stampa, l'orientamento della pagina ed eventualmente intestazioni e piè di pagina."
+      "speech": "Terzo: prima di stampare un foglio di calcolo occorre controllare l'anteprima di stampa, l'area di stampa, l'orientamento della pagina ed eventualmente intestazioni e piè di pagina.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          91,
+          105
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 3, e con esso tutti gli argomenti di questa dispensa.",

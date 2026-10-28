@@ -14,7 +14,17 @@
     },
     {
       "text": "Il testing, o collaudo, del software è l'attività, parte integrante del ciclo di vita del software, volta a individuare difetti di correttezza, completezza e affidabilità di un programma prima che venga rilasciato agli utenti finali.",
-      "speech": "Il testing, o collaudo, del software è l'attività, parte integrante del ciclo di vita del software, volta a individuare difetti di correttezza, completezza e affidabilità di un programma prima che venga rilasciato agli utenti finali."
+      "speech": "Il testing, o collaudo, del software è l'attività, parte integrante del ciclo di vita del software, volta a individuare difetti di correttezza, completezza e affidabilità di un programma prima che venga rilasciato agli utenti finali.",
+      "bold": [
+        [
+          3,
+          10
+        ],
+        [
+          14,
+          22
+        ]
+      ]
     },
     {
       "text": "Si distinguono diversi livelli di test, organizzati in una sorta di scala che va dal più piccolo al più ampio.",
@@ -22,19 +32,43 @@
     },
     {
       "text": "Lo unit test verifica il corretto funzionamento delle singole componenti elementari del software, per esempio una singola funzione.",
-      "speech": "Lo unit test verifica il corretto funzionamento delle singole componenti elementari del software, per esempio una singola funzione."
+      "speech": "Lo unit test verifica il corretto funzionamento delle singole componenti elementari del software, per esempio una singola funzione.",
+      "bold": [
+        [
+          3,
+          12
+        ]
+      ]
     },
     {
       "text": "L'integration test verifica la corretta interazione tra più componenti già testate singolarmente.",
-      "speech": "L'integration test verifica la corretta interazione tra più componenti già testate singolarmente."
+      "speech": "L'integration test verifica la corretta interazione tra più componenti già testate singolarmente.",
+      "bold": [
+        [
+          2,
+          18
+        ]
+      ]
     },
     {
       "text": "Il system test verifica il funzionamento del sistema completo nel suo insieme.",
-      "speech": "Il system test verifica il funzionamento del sistema completo nel suo insieme."
+      "speech": "Il system test verifica il funzionamento del sistema completo nel suo insieme.",
+      "bold": [
+        [
+          3,
+          14
+        ]
+      ]
     },
     {
       "text": "E l'acceptance test è condotto direttamente dal committente o dagli utenti finali, per verificare che il software soddisfi effettivamente i requisiti concordati.",
-      "speech": "E l'acceptance test è condotto direttamente dal committente o dagli utenti finali, per verificare che il software soddisfi effettivamente i requisiti concordati."
+      "speech": "E l'acceptance test è condotto direttamente dal committente o dagli utenti finali, per verificare che il software soddisfi effettivamente i requisiti concordati.",
+      "bold": [
+        [
+          4,
+          19
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa scala di quattro livelli, perché il modo migliore per fissarla in memoria è pensarla come dei cerchi via via più ampi:",
@@ -54,7 +88,13 @@
     },
     {
       "text": "Il test black box è condotto senza conoscere i dettagli interni del codice, verificando solamente input e output:",
-      "speech": "Il test black box è condotto senza conoscere i dettagli interni del codice, verificando solamente input e output:"
+      "speech": "Il test black box è condotto senza conoscere i dettagli interni del codice, verificando solamente input e output:",
+      "bold": [
+        [
+          3,
+          17
+        ]
+      ]
     },
     {
       "text": "si fornisce un dato in ingresso e si controlla che il risultato in uscita sia quello atteso, indipendentemente da come il programma arrivi a produrlo.",
@@ -62,7 +102,13 @@
     },
     {
       "text": "Il test white box è condotto invece con piena visibilità della struttura interna del codice, e permette di verificare che ogni singolo percorso logico del programma si comporti correttamente.",
-      "speech": "Il test white box è condotto invece con piena visibilità della struttura interna del codice, e permette di verificare che ogni singolo percorso logico del programma si comporti correttamente."
+      "speech": "Il test white box è condotto invece con piena visibilità della struttura interna del codice, e permette di verificare che ogni singolo percorso logico del programma si comporti correttamente.",
+      "bold": [
+        [
+          3,
+          17
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un tester dovesse verificare una calcolatrice online semplicemente inserendo diversi numeri e controllando che i risultati delle operazioni siano corretti,",
@@ -74,7 +120,13 @@
     },
     {
       "text": "Starebbe svolgendo un test black box, perché sta valutando esclusivamente la relazione tra input e output, senza alcuna conoscenza di come il codice interno elabori effettivamente il calcolo.",
-      "speech": "Starebbe svolgendo un test black box, perché sta valutando esclusivamente la relazione tra input e output, senza alcuna conoscenza di come il codice interno elabori effettivamente il calcolo."
+      "speech": "Starebbe svolgendo un test black box, perché sta valutando esclusivamente la relazione tra input e output, senza alcuna conoscenza di come il codice interno elabori effettivamente il calcolo.",
+      "bold": [
+        [
+          22,
+          36
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, come si inserisce concettualmente il testing all'interno del ciclo di vita più ampio del software di cui abbiamo parlato nell'episodio scorso:",
@@ -98,15 +150,49 @@
     },
     {
       "text": "Primo: il testing individua difetti prima del rilascio, e si articola in quattro livelli crescenti, unit test, integration test, system test e acceptance test.",
-      "speech": "Primo: il testing individua difetti prima del rilascio, e si articola in quattro livelli crescenti, unit test, integration test, system test e acceptance test."
+      "speech": "Primo: il testing individua difetti prima del rilascio, e si articola in quattro livelli crescenti, unit test, integration test, system test e acceptance test.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          73,
+          98
+        ]
+      ]
     },
     {
       "text": "Secondo: il test black box valuta solo input e output senza conoscere il codice interno, mentre il test white box lo valuta conoscendone a fondo la struttura.",
-      "speech": "Secondo: il test black box valuta solo input e output senza conoscere il codice interno, mentre il test white box lo valuta conoscendone a fondo la struttura."
+      "speech": "Secondo: il test black box valuta solo input e output senza conoscere il codice interno, mentre il test white box lo valuta conoscendone a fondo la struttura.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          26
+        ],
+        [
+          99,
+          113
+        ]
+      ]
     },
     {
       "text": "Terzo: questi livelli di test si inseriscono in sequenza dopo la fase di sviluppo, prima del rilascio definitivo del software.",
-      "speech": "Terzo: questi livelli di test si inseriscono in sequenza dopo la fase di sviluppo, prima del rilascio definitivo del software."
+      "speech": "Terzo: questi livelli di test si inseriscono in sequenza dopo la fase di sviluppo, prima del rilascio definitivo del software.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          57,
+          81
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo la contabilità integrata e i sistemi ERP, insieme agli strumenti software per la gestione della comunicazione aziendale.",

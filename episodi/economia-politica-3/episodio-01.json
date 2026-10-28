@@ -18,15 +18,45 @@
     },
     {
       "text": "I bisogni umani sono illimitati, mentre le risorse disponibili per soddisfarli sono scarse:",
-      "speech": "I bisogni umani sono illimitati, mentre le risorse disponibili per soddisfarli sono scarse:"
+      "speech": "I bisogni umani sono illimitati, mentre le risorse disponibili per soddisfarli sono scarse:",
+      "bold": [
+        [
+          2,
+          31
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          84,
+          90
+        ]
+      ]
     },
     {
       "text": "da questa condizione di scarsità nasce il problema economico fondamentale, cioè la necessità di compiere scelte su come impiegare al meglio le risorse disponibili.",
-      "speech": "da questa condizione di scarsità nasce il problema economico fondamentale, cioè la necessità di compiere scelte su come impiegare al meglio le risorse disponibili."
+      "speech": "da questa condizione di scarsità nasce il problema economico fondamentale, cioè la necessità di compiere scelte su come impiegare al meglio le risorse disponibili.",
+      "bold": [
+        [
+          24,
+          32
+        ],
+        [
+          42,
+          73
+        ]
+      ]
     },
     {
       "text": "L'economia politica è proprio la scienza sociale che studia i fenomeni economici,",
-      "speech": "L'economia politica è proprio la scienza sociale che studia i fenomeni economici,"
+      "speech": "L'economia politica è proprio la scienza sociale che studia i fenomeni economici,",
+      "bold": [
+        [
+          2,
+          19
+        ]
+      ]
     },
     {
       "text": "cioè il modo in cui gli individui, le imprese e le collettività organizzano la produzione, lo scambio, la distribuzione e il consumo dei beni e dei servizi necessari a soddisfare i bisogni.",
@@ -42,7 +72,13 @@
     },
     {
       "text": "È proprio la scarsità, cioè il fatto che le risorse non bastano mai per tutti i bisogni che vorremmo soddisfare, a costringerci a scegliere,",
-      "speech": "È proprio la scarsità, cioè il fatto che le risorse non bastano mai per tutti i bisogni che vorremmo soddisfare, a costringerci a scegliere,"
+      "speech": "È proprio la scarsità, cioè il fatto che le risorse non bastano mai per tutti i bisogni che vorremmo soddisfare, a costringerci a scegliere,",
+      "bold": [
+        [
+          13,
+          21
+        ]
+      ]
     },
     {
       "text": "e a rendere necessaria una scienza che studi come si fanno, o come si dovrebbero fare, queste scelte.",
@@ -50,23 +86,61 @@
     },
     {
       "text": "L'attività economica si articola in un circuito continuo, composto da quattro fasi.",
-      "speech": "L'attività economica si articola in un circuito continuo, composto da quattro fasi."
+      "speech": "L'attività economica si articola in un circuito continuo, composto da quattro fasi.",
+      "bold": [
+        [
+          39,
+          56
+        ],
+        [
+          70,
+          82
+        ]
+      ]
     },
     {
       "text": "La produzione è la creazione di beni e servizi mediante la combinazione dei fattori produttivi.",
-      "speech": "La produzione è la creazione di beni e servizi mediante la combinazione dei fattori produttivi."
+      "speech": "La produzione è la creazione di beni e servizi mediante la combinazione dei fattori produttivi.",
+      "bold": [
+        [
+          3,
+          13
+        ],
+        [
+          76,
+          94
+        ]
+      ]
     },
     {
       "text": "Lo scambio è il processo attraverso cui i beni prodotti raggiungono chi ne ha bisogno.",
-      "speech": "Lo scambio è il processo attraverso cui i beni prodotti raggiungono chi ne ha bisogno."
+      "speech": "Lo scambio è il processo attraverso cui i beni prodotti raggiungono chi ne ha bisogno.",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ]
     },
     {
       "text": "Il consumo è l'utilizzo dei beni e servizi per soddisfare i bisogni.",
-      "speech": "Il consumo è l'utilizzo dei beni e servizi per soddisfare i bisogni."
+      "speech": "Il consumo è l'utilizzo dei beni e servizi per soddisfare i bisogni.",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ]
     },
     {
       "text": "Il risparmio è la parte di reddito non consumata, destinata a essere investita.",
-      "speech": "Il risparmio è la parte di reddito non consumata, destinata a essere investita."
+      "speech": "Il risparmio è la parte di reddito non consumata, destinata a essere investita.",
+      "bold": [
+        [
+          3,
+          12
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: seguite il percorso di un panino, dalla coltivazione del grano fino a quando lo mangiate,",
@@ -98,15 +172,45 @@
     },
     {
       "text": "Primo: il problema economico nasce dalla scarsità delle risorse rispetto ai bisogni illimitati, e rende necessarie delle scelte.",
-      "speech": "Primo: il problema economico nasce dalla scarsità delle risorse rispetto ai bisogni illimitati, e rende necessarie delle scelte."
+      "speech": "Primo: il problema economico nasce dalla scarsità delle risorse rispetto ai bisogni illimitati, e rende necessarie delle scelte.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          41,
+          63
+        ]
+      ]
     },
     {
       "text": "Secondo: l'economia politica studia come individui, imprese e collettività organizzano produzione, scambio, distribuzione e consumo.",
-      "speech": "Secondo: l'economia politica studia come individui, imprese e collettività organizzano produzione, scambio, distribuzione e consumo."
+      "speech": "Secondo: l'economia politica studia come individui, imprese e collettività organizzano produzione, scambio, distribuzione e consumo.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          11,
+          28
+        ]
+      ]
     },
     {
       "text": "Terzo: l'attività economica si articola in un circuito continuo di produzione, scambio, consumo e risparmio.",
-      "speech": "Terzo: l'attività economica si articola in un circuito continuo di produzione, scambio, consumo e risparmio."
+      "speech": "Terzo: l'attività economica si articola in un circuito continuo di produzione, scambio, consumo e risparmio.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          46,
+          63
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio iniziamo un percorso storico attraverso l'evoluzione del pensiero economico, partendo dallo schiavismo fino allo stato mercantile.",

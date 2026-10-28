@@ -14,27 +14,83 @@
     },
     {
       "text": "Il Conto Economico rappresenta la situazione economica dell'azienda relativa a un intero esercizio, evidenziando il risultato economico, utile o perdita, attraverso il confronto tra componenti positivi di reddito, il valore della produzione,",
-      "speech": "Il Conto Economico rappresenta la situazione economica dell'azienda relativa a un intero esercizio, evidenziando il risultato economico, utile o perdita, attraverso il confronto tra componenti positivi di reddito, il valore della produzione,"
+      "speech": "Il Conto Economico rappresenta la situazione economica dell'azienda relativa a un intero esercizio, evidenziando il risultato economico, utile o perdita, attraverso il confronto tra componenti positivi di reddito, il valore della produzione,",
+      "bold": [
+        [
+          3,
+          18
+        ],
+        [
+          182,
+          212
+        ],
+        [
+          217,
+          240
+        ]
+      ]
     },
     {
       "text": "cioè ricavi di vendita e altri ricavi, e componenti negativi di reddito, i costi della produzione, cioè materie prime, personale, ammortamenti, oneri finanziari e imposte.",
-      "speech": "cioè ricavi di vendita e altri ricavi, e componenti negativi di reddito, i costi della produzione, cioè materie prime, personale, ammortamenti, oneri finanziari e imposte."
+      "speech": "cioè ricavi di vendita e altri ricavi, e componenti negativi di reddito, i costi della produzione, cioè materie prime, personale, ammortamenti, oneri finanziari e imposte.",
+      "bold": [
+        [
+          41,
+          71
+        ],
+        [
+          75,
+          97
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento sulla struttura scalare del Conto Economico, perché è diversa da quella dello Stato Patrimoniale visto nell'episodio scorso, e vale la pena saperla ricostruire con ordine:",
-      "speech": "Fermatevi un momento sulla struttura scalare del Conto Economico, perché è diversa da quella dello Stato Patrimoniale visto nell'episodio scorso, e vale la pena saperla ricostruire con ordine:"
+      "speech": "Fermatevi un momento sulla struttura scalare del Conto Economico, perché è diversa da quella dello Stato Patrimoniale visto nell'episodio scorso, e vale la pena saperla ricostruire con ordine:",
+      "bold": [
+        [
+          27,
+          44
+        ]
+      ]
     },
     {
       "text": "si parte dalla differenza tra valore della produzione e costi della produzione, che dà il risultato operativo;",
-      "speech": "si parte dalla differenza tra valore della produzione e costi della produzione, che dà il risultato operativo;"
+      "speech": "si parte dalla differenza tra valore della produzione e costi della produzione, che dà il risultato operativo;",
+      "bold": [
+        [
+          90,
+          109
+        ]
+      ]
     },
     {
       "text": "a questo si aggiungono o sottraggono i proventi e oneri finanziari, ottenendo il risultato prima delle imposte;",
-      "speech": "a questo si aggiungono o sottraggono i proventi e oneri finanziari, ottenendo il risultato prima delle imposte;"
+      "speech": "a questo si aggiungono o sottraggono i proventi e oneri finanziari, ottenendo il risultato prima delle imposte;",
+      "bold": [
+        [
+          39,
+          66
+        ],
+        [
+          81,
+          110
+        ]
+      ]
     },
     {
       "text": "infine si sottraggono le imposte sul reddito, arrivando all'utile, o alla perdita, d'esercizio.",
-      "speech": "infine si sottraggono le imposte sul reddito, arrivando all'utile, o alla perdita, d'esercizio."
+      "speech": "infine si sottraggono le imposte sul reddito, arrivando all'utile, o alla perdita, d'esercizio.",
+      "bold": [
+        [
+          60,
+          65
+        ],
+        [
+          74,
+          81
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, un primo esercizio svolto: classificare le seguenti voci in componenti positivi o negativi di reddito, e calcolare il risultato economico.",
@@ -70,15 +126,33 @@
     },
     {
       "text": "Per prima cosa la differenza tra valore e costi della produzione: duecentocinquantamila meno centonovantamila, cioè un risultato operativo di sessantamila euro.",
-      "speech": "Per prima cosa la differenza tra valore e costi della produzione: duecentocinquantamila meno centonovantamila, cioè un risultato operativo di sessantamila euro."
+      "speech": "Per prima cosa la differenza tra valore e costi della produzione: duecentocinquantamila meno centonovantamila, cioè un risultato operativo di sessantamila euro.",
+      "bold": [
+        [
+          119,
+          138
+        ]
+      ]
     },
     {
       "text": "Poi si sottraggono gli oneri finanziari: sessantamila meno ottomila, cioè un risultato prima delle imposte di cinquantaduemila euro.",
-      "speech": "Poi si sottraggono gli oneri finanziari: sessantamila meno ottomila, cioè un risultato prima delle imposte di cinquantaduemila euro."
+      "speech": "Poi si sottraggono gli oneri finanziari: sessantamila meno ottomila, cioè un risultato prima delle imposte di cinquantaduemila euro.",
+      "bold": [
+        [
+          77,
+          106
+        ]
+      ]
     },
     {
       "text": "Infine si sottraggono le imposte: cinquantaduemila meno quattordicimila, cioè un utile netto d'esercizio di trentottomila euro.",
-      "speech": "Infine si sottraggono le imposte: cinquantaduemila meno quattordicimila, cioè un utile netto d'esercizio di trentottomila euro."
+      "speech": "Infine si sottraggono le imposte: cinquantaduemila meno quattordicimila, cioè un utile netto d'esercizio di trentottomila euro.",
+      "bold": [
+        [
+          81,
+          104
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, questa volta al contrario, per determinare i costi conoscendo l'utile netto:",
@@ -94,7 +168,13 @@
     },
     {
       "text": "Si procede a ritroso lungo la struttura scalare: il risultato prima delle imposte è l'utile netto più le imposte, quarantacinquemila più quindicimila, cioè sessantamila euro;",
-      "speech": "Si procede a ritroso lungo la struttura scalare: il risultato prima delle imposte è l'utile netto più le imposte, quarantacinquemila più quindicimila, cioè sessantamila euro;"
+      "speech": "Si procede a ritroso lungo la struttura scalare: il risultato prima delle imposte è l'utile netto più le imposte, quarantacinquemila più quindicimila, cioè sessantamila euro;",
+      "bold": [
+        [
+          11,
+          20
+        ]
+      ]
     },
     {
       "text": "il risultato operativo è quel valore più gli oneri finanziari, sessantamila più cinquemila, cioè sessantacinquemila euro;",
@@ -110,15 +190,49 @@
     },
     {
       "text": "Primo: il Conto Economico confronta componenti positivi e negativi di reddito per determinare il risultato economico dell'esercizio.",
-      "speech": "Primo: il Conto Economico confronta componenti positivi e negativi di reddito per determinare il risultato economico dell'esercizio."
+      "speech": "Primo: il Conto Economico confronta componenti positivi e negativi di reddito per determinare il risultato economico dell'esercizio.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          36,
+          77
+        ]
+      ]
     },
     {
       "text": "Secondo: la sua struttura scalare procede da valore e costi della produzione, al risultato operativo, agli oneri finanziari, alle imposte, fino all'utile o alla perdita netta.",
-      "speech": "Secondo: la sua struttura scalare procede da valore e costi della produzione, al risultato operativo, agli oneri finanziari, alle imposte, fino all'utile o alla perdita netta."
+      "speech": "Secondo: la sua struttura scalare procede da valore e costi della produzione, al risultato operativo, agli oneri finanziari, alle imposte, fino all'utile o alla perdita netta.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          81,
+          100
+        ]
+      ]
     },
     {
       "text": "Terzo: conoscendo alcuni valori della struttura scalare, si possono sempre ricavare gli altri procedendo in avanti o a ritroso lungo lo schema.",
-      "speech": "Terzo: conoscendo alcuni valori della struttura scalare, si possono sempre ricavare gli altri procedendo in avanti o a ritroso lungo lo schema."
+      "speech": "Terzo: conoscendo alcuni valori della struttura scalare, si possono sempre ricavare gli altri procedendo in avanti o a ritroso lungo lo schema.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          117,
+          126
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato tutti i contenuti nuovi dell'intero modulo.",

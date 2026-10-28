@@ -18,19 +18,43 @@
     },
     {
       "text": "Il settore primario comprende le attività legate allo sfruttamento diretto delle risorse naturali: agricoltura, allevamento, pesca e attività estrattive.",
-      "speech": "Il settore primario comprende le attività legate allo sfruttamento diretto delle risorse naturali: agricoltura, allevamento, pesca e attività estrattive."
+      "speech": "Il settore primario comprende le attività legate allo sfruttamento diretto delle risorse naturali: agricoltura, allevamento, pesca e attività estrattive.",
+      "bold": [
+        [
+          3,
+          19
+        ]
+      ]
     },
     {
       "text": "Il settore secondario comprende le attività industriali di trasformazione delle materie prime in prodotti finiti: industria manifatturiera, edilizia e artigianato.",
-      "speech": "Il settore secondario comprende le attività industriali di trasformazione delle materie prime in prodotti finiti: industria manifatturiera, edilizia e artigianato."
+      "speech": "Il settore secondario comprende le attività industriali di trasformazione delle materie prime in prodotti finiti: industria manifatturiera, edilizia e artigianato.",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "Il settore terziario comprende infine le attività di produzione ed erogazione di servizi: commercio, trasporti, turismo, credito, assicurazioni e pubblica amministrazione;",
-      "speech": "Il settore terziario comprende infine le attività di produzione ed erogazione di servizi: commercio, trasporti, turismo, credito, assicurazioni e pubblica amministrazione;"
+      "speech": "Il settore terziario comprende infine le attività di produzione ed erogazione di servizi: commercio, trasporti, turismo, credito, assicurazioni e pubblica amministrazione;",
+      "bold": [
+        [
+          3,
+          20
+        ]
+      ]
     },
     {
       "text": "una parte del terziario, definita terziario avanzato, comprende servizi ad alto valore aggiunto e contenuto tecnologico o professionale, come la consulenza, la ricerca e i servizi informatici.",
-      "speech": "una parte del terziario, definita terziario avanzato, comprende servizi ad alto valore aggiunto e contenuto tecnologico o professionale, come la consulenza, la ricerca e i servizi informatici."
+      "speech": "una parte del terziario, definita terziario avanzato, comprende servizi ad alto valore aggiunto e contenuto tecnologico o professionale, come la consulenza, la ricerca e i servizi informatici.",
+      "bold": [
+        [
+          34,
+          52
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su quest'ultima distinzione, tra terziario e terziario avanzato, perché è un dettaglio che arricchisce molto una risposta altrimenti troppo generica:",
@@ -38,7 +62,13 @@
     },
     {
       "text": "se vi limitate a dire che il terziario comprende «i servizi», rischiate una risposta piatta;",
-      "speech": "se vi limitate a dire che il terziario comprende «i servizi», rischiate una risposta piatta;"
+      "speech": "se vi limitate a dire che il terziario comprende «i servizi», rischiate una risposta piatta;",
+      "bold": [
+        [
+          50,
+          59
+        ]
+      ]
     },
     {
       "text": "se invece precisate che una parte di quel settore, il terziario avanzato, riguarda servizi ad alto contenuto tecnologico o professionale come la consulenza o la ricerca, dimostrate una conoscenza più fine dell'argomento.",
@@ -50,11 +80,23 @@
     },
     {
       "text": "Sotto il profilo giuridico, un'attività d'impresa può essere esercitata in forma individuale, dall'imprenditore individuale, che risponde con tutto il proprio patrimonio delle obbligazioni assunte,",
-      "speech": "Sotto il profilo giuridico, un'attività d'impresa può essere esercitata in forma individuale, dall'imprenditore individuale, che risponde con tutto il proprio patrimonio delle obbligazioni assunte,"
+      "speech": "Sotto il profilo giuridico, un'attività d'impresa può essere esercitata in forma individuale, dall'imprenditore individuale, che risponde con tutto il proprio patrimonio delle obbligazioni assunte,",
+      "bold": [
+        [
+          99,
+          123
+        ]
+      ]
     },
     {
       "text": "oppure in forma collettiva, attraverso una società, cioè un contratto con cui due o più persone conferiscono beni o servizi per l'esercizio in comune di un'attività economica.",
-      "speech": "oppure in forma collettiva, attraverso una società, cioè un contratto con cui due o più persone conferiscono beni o servizi per l'esercizio in comune di un'attività economica."
+      "speech": "oppure in forma collettiva, attraverso una società, cioè un contratto con cui due o più persone conferiscono beni o servizi per l'esercizio in comune di un'attività economica.",
+      "bold": [
+        [
+          43,
+          50
+        ]
+      ]
     },
     {
       "text": "Le società si distinguono in due grandi categorie.",
@@ -62,15 +104,37 @@
     },
     {
       "text": "Le società di persone, come la società semplice, la società in nome collettivo e la società in accomandita semplice, in cui prevale l'elemento personale e i soci rispondono generalmente in modo illimitato e solidale per le obbligazioni sociali.",
-      "speech": "Le società di persone, come la società semplice, la società in nome collettivo e la società in accomandita semplice, in cui prevale l'elemento personale e i soci rispondono generalmente in modo illimitato e solidale per le obbligazioni sociali."
+      "speech": "Le società di persone, come la società semplice, la società in nome collettivo e la società in accomandita semplice, in cui prevale l'elemento personale e i soci rispondono generalmente in modo illimitato e solidale per le obbligazioni sociali.",
+      "bold": [
+        [
+          3,
+          21
+        ]
+      ]
     },
     {
       "text": "E le società di capitali, come la società per azioni, la società a responsabilità limitata e la società in accomandita per azioni, dotate di personalità giuridica propria, in cui i soci rispondono limitatamente al capitale conferito.",
-      "speech": "E le società di capitali, come la società per azioni, la società a responsabilità limitata e la società in accomandita per azioni, dotate di personalità giuridica propria, in cui i soci rispondono limitatamente al capitale conferito."
+      "speech": "E le società di capitali, come la società per azioni, la società a responsabilità limitata e la società in accomandita per azioni, dotate di personalità giuridica propria, in cui i soci rispondono limitatamente al capitale conferito.",
+      "bold": [
+        [
+          5,
+          24
+        ],
+        [
+          141,
+          162
+        ]
+      ]
     },
     {
       "text": "Una categoria a parte è costituita dalle società cooperative, a scopo mutualistico anziché di puro lucro.",
-      "speech": "Una categoria a parte è costituita dalle società cooperative, a scopo mutualistico anziché di puro lucro."
+      "speech": "Una categoria a parte è costituita dalle società cooperative, a scopo mutualistico anziché di puro lucro.",
+      "bold": [
+        [
+          41,
+          60
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se due amici volessero avviare un'attività economica insieme,",
@@ -94,19 +158,59 @@
     },
     {
       "text": "Primo: l'attività economica di un paese si divide in settore primario, secondario e terziario, con il terziario avanzato come sua componente ad alto valore tecnologico o professionale.",
-      "speech": "Primo: l'attività economica di un paese si divide in settore primario, secondario e terziario, con il terziario avanzato come sua componente ad alto valore tecnologico o professionale."
+      "speech": "Primo: l'attività economica di un paese si divide in settore primario, secondario e terziario, con il terziario avanzato come sua componente ad alto valore tecnologico o professionale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          53,
+          93
+        ]
+      ]
     },
     {
       "text": "Secondo: un'impresa può essere individuale o collettiva, tramite una società.",
-      "speech": "Secondo: un'impresa può essere individuale o collettiva, tramite una società."
+      "speech": "Secondo: un'impresa può essere individuale o collettiva, tramite una società.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "Terzo: le società si distinguono in società di persone, con responsabilità generalmente illimitata dei soci,",
-      "speech": "Terzo: le società si distinguono in società di persone, con responsabilità generalmente illimitata dei soci,"
+      "speech": "Terzo: le società si distinguono in società di persone, con responsabilità generalmente illimitata dei soci,",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          36,
+          54
+        ],
+        [
+          60,
+          98
+        ]
+      ]
     },
     {
       "text": "e società di capitali, con responsabilità limitata al capitale conferito, oltre alla categoria a parte delle cooperative.",
-      "speech": "e società di capitali, con responsabilità limitata al capitale conferito, oltre alla categoria a parte delle cooperative."
+      "speech": "e società di capitali, con responsabilità limitata al capitale conferito, oltre alla categoria a parte delle cooperative.",
+      "bold": [
+        [
+          2,
+          21
+        ],
+        [
+          27,
+          72
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo la differenza tra soggetto giuridico e soggetto economico, e come si classificano le aziende in base alla loro dimensione.",

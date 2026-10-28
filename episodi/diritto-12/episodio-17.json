@@ -18,7 +18,21 @@
     },
     {
       "text": "L'equilibrio di mercato si realizza nel punto in cui la curva di domanda e la curva di offerta si incontrano, individuando un prezzo di equilibrio e una quantità di equilibrio:",
-      "speech": "L'equilibrio di mercato si realizza nel punto in cui la curva di domanda e la curva di offerta si incontrano, individuando un prezzo di equilibrio e una quantità di equilibrio:"
+      "speech": "L'equilibrio di mercato si realizza nel punto in cui la curva di domanda e la curva di offerta si incontrano, individuando un prezzo di equilibrio e una quantità di equilibrio:",
+      "bold": [
+        [
+          2,
+          23
+        ],
+        [
+          126,
+          146
+        ],
+        [
+          153,
+          175
+        ]
+      ]
     },
     {
       "text": "a quel prezzo, la quantità che i consumatori sono disposti ad acquistare coincide esattamente con la quantità che i produttori sono disposti a offrire.",
@@ -26,7 +40,17 @@
     },
     {
       "text": "Se il prezzo di mercato si trova sopra il livello di equilibrio, si genera una situazione di surplus, o eccesso di offerta:",
-      "speech": "Se il prezzo di mercato si trova sopra il livello di equilibrio, si genera una situazione di surplus, o eccesso di offerta:"
+      "speech": "Se il prezzo di mercato si trova sopra il livello di equilibrio, si genera una situazione di surplus, o eccesso di offerta:",
+      "bold": [
+        [
+          93,
+          100
+        ],
+        [
+          104,
+          122
+        ]
+      ]
     },
     {
       "text": "i produttori offrono più di quanto i consumatori siano disposti ad acquistare a quel prezzo, e la conseguente pressione al ribasso tende a riportare il prezzo verso l'equilibrio.",
@@ -34,7 +58,17 @@
     },
     {
       "text": "Se invece il prezzo si trova sotto il livello di equilibrio, si genera una situazione di carenza, o eccesso di domanda:",
-      "speech": "Se invece il prezzo si trova sotto il livello di equilibrio, si genera una situazione di carenza, o eccesso di domanda:"
+      "speech": "Se invece il prezzo si trova sotto il livello di equilibrio, si genera una situazione di carenza, o eccesso di domanda:",
+      "bold": [
+        [
+          89,
+          96
+        ],
+        [
+          100,
+          118
+        ]
+      ]
     },
     {
       "text": "i consumatori desiderano acquistare più di quanto i produttori siano disposti a offrire a quel prezzo, e la conseguente pressione al rialzo tende anch'essa a riportare il prezzo verso l'equilibrio.",
@@ -50,7 +84,13 @@
     },
     {
       "text": "Nella concorrenza perfetta, un numero molto elevato di imprese, tutte di piccole dimensioni, offre un prodotto omogeneo,",
-      "speech": "Nella concorrenza perfetta, un numero molto elevato di imprese, tutte di piccole dimensioni, offre un prodotto omogeneo,"
+      "speech": "Nella concorrenza perfetta, un numero molto elevato di imprese, tutte di piccole dimensioni, offre un prodotto omogeneo,",
+      "bold": [
+        [
+          6,
+          26
+        ]
+      ]
     },
     {
       "text": "e nessuna di esse è in grado, da sola, di influenzare il prezzo di mercato, che si forma quindi liberamente dall'incontro tra domanda e offerta complessive.",
@@ -58,7 +98,13 @@
     },
     {
       "text": "Nel monopolio, all'estremo opposto, un'unica impresa controlla l'intera offerta di un bene o servizio, privo di sostituti validi,",
-      "speech": "Nel monopolio, all'estremo opposto, un'unica impresa controlla l'intera offerta di un bene o servizio, privo di sostituti validi,"
+      "speech": "Nel monopolio, all'estremo opposto, un'unica impresa controlla l'intera offerta di un bene o servizio, privo di sostituti validi,",
+      "bold": [
+        [
+          4,
+          13
+        ]
+      ]
     },
     {
       "text": "e può quindi influenzare direttamente il prezzo di mercato, orientandolo a proprio vantaggio.",
@@ -66,7 +112,13 @@
     },
     {
       "text": "Nell'oligopolio, poche grandi imprese si spartiscono la maggior parte dell'offerta di un mercato,",
-      "speech": "Nell'oligopolio, poche grandi imprese si spartiscono la maggior parte dell'offerta di un mercato,"
+      "speech": "Nell'oligopolio, poche grandi imprese si spartiscono la maggior parte dell'offerta di un mercato,",
+      "bold": [
+        [
+          5,
+          15
+        ]
+      ]
     },
     {
       "text": "e le decisioni di ciascuna, sui prezzi o sulle quantità, influenzano direttamente il comportamento delle altre, generando forme di interdipendenza strategica.",
@@ -74,7 +126,13 @@
     },
     {
       "text": "Nella concorrenza monopolistica, infine, molte imprese offrono prodotti simili ma non identici, differenziati per marca, qualità o servizi collegati,",
-      "speech": "Nella concorrenza monopolistica, infine, molte imprese offrono prodotti simili ma non identici, differenziati per marca, qualità o servizi collegati,"
+      "speech": "Nella concorrenza monopolistica, infine, molte imprese offrono prodotti simili ma non identici, differenziati per marca, qualità o servizi collegati,",
+      "bold": [
+        [
+          6,
+          31
+        ]
+      ]
     },
     {
       "text": "così che ciascuna dispone di un margine limitato di potere sul prezzo del proprio prodotto specifico, pur restando l'intero mercato competitivo nel suo complesso.",
@@ -90,7 +148,13 @@
     },
     {
       "text": "Si tratta di una situazione di surplus, o eccesso di offerta, poiché il prezzo praticato è superiore al prezzo di equilibrio;",
-      "speech": "Si tratta di una situazione di surplus, o eccesso di offerta, poiché il prezzo praticato è superiore al prezzo di equilibrio;"
+      "speech": "Si tratta di una situazione di surplus, o eccesso di offerta, poiché il prezzo praticato è superiore al prezzo di equilibrio;",
+      "bold": [
+        [
+          31,
+          38
+        ]
+      ]
     },
     {
       "text": "ci si può aspettare che il prezzo tenda a scendere, perché i produttori, non riuscendo a vendere tutta la quantità offerta, saranno spinti a ridurre il prezzo per collocare il proprio prodotto sul mercato,",
@@ -106,15 +170,53 @@
     },
     {
       "text": "Primo: l'equilibrio di mercato si realizza nel punto di incontro tra domanda e offerta, mentre surplus e carenza generano rispettivamente pressioni al ribasso e al rialzo sul prezzo.",
-      "speech": "Primo: l'equilibrio di mercato si realizza nel punto di incontro tra domanda e offerta, mentre surplus e carenza generano rispettivamente pressioni al ribasso e al rialzo sul prezzo."
+      "speech": "Primo: l'equilibrio di mercato si realizza nel punto di incontro tra domanda e offerta, mentre surplus e carenza generano rispettivamente pressioni al ribasso e al rialzo sul prezzo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          95,
+          112
+        ]
+      ]
     },
     {
       "text": "Secondo: le forme di mercato si distinguono in base al grado di concorrenza: concorrenza perfetta, monopolio, oligopolio e concorrenza monopolistica.",
-      "speech": "Secondo: le forme di mercato si distinguono in base al grado di concorrenza: concorrenza perfetta, monopolio, oligopolio e concorrenza monopolistica."
+      "speech": "Secondo: le forme di mercato si distinguono in base al grado di concorrenza: concorrenza perfetta, monopolio, oligopolio e concorrenza monopolistica.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          77,
+          97
+        ],
+        [
+          99,
+          108
+        ],
+        [
+          110,
+          120
+        ]
+      ]
     },
     {
       "text": "Terzo: il grado di potere di un'impresa sul prezzo dipende dalla forma di mercato in cui opera.",
-      "speech": "Terzo: il grado di potere di un'impresa sul prezzo dipende dalla forma di mercato in cui opera."
+      "speech": "Terzo: il grado di potere di un'impresa sul prezzo dipende dalla forma di mercato in cui opera.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          19,
+          50
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero programma di diritto ed economia delle classi prima e seconda.",

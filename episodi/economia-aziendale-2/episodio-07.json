@@ -14,15 +14,37 @@
     },
     {
       "text": "Il patrimonio aziendale è l'insieme dei beni economici a disposizione dell'azienda in un determinato momento.",
-      "speech": "Il patrimonio aziendale è l'insieme dei beni economici a disposizione dell'azienda in un determinato momento."
+      "speech": "Il patrimonio aziendale è l'insieme dei beni economici a disposizione dell'azienda in un determinato momento.",
+      "bold": [
+        [
+          3,
+          23
+        ]
+      ]
     },
     {
       "text": "Da un lato le attività, cioè gli impieghi, tutti i beni, i crediti e le disponibilità liquide; dall'altro le passività, cioè i debiti verso terzi.",
-      "speech": "Da un lato le attività, cioè gli impieghi, tutti i beni, i crediti e le disponibilità liquide; dall'altro le passività, cioè i debiti verso terzi."
+      "speech": "Da un lato le attività, cioè gli impieghi, tutti i beni, i crediti e le disponibilità liquide; dall'altro le passività, cioè i debiti verso terzi.",
+      "bold": [
+        [
+          14,
+          22
+        ],
+        [
+          109,
+          118
+        ]
+      ]
     },
     {
       "text": "La differenza tra attività e passività costituisce il patrimonio netto, o capitale netto, che rappresenta la ricchezza propria dell'azienda, al netto degli impegni assunti verso i finanziatori esterni.",
-      "speech": "La differenza tra attività e passività costituisce il patrimonio netto, o capitale netto, che rappresenta la ricchezza propria dell'azienda, al netto degli impegni assunti verso i finanziatori esterni."
+      "speech": "La differenza tra attività e passività costituisce il patrimonio netto, o capitale netto, che rappresenta la ricchezza propria dell'azienda, al netto degli impegni assunti verso i finanziatori esterni.",
+      "bold": [
+        [
+          54,
+          70
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, un primo esempio svolto: un'azienda dispone di attività per complessivi duecentoventimila euro e ha contratto passività, debiti, per novantacinquemila euro.",
@@ -34,7 +56,13 @@
     },
     {
       "text": "Il patrimonio netto è uguale alle attività meno le passività: duecentoventimila meno novantacinquemila, cioè centoventicinquemila euro.",
-      "speech": "Il patrimonio netto è uguale alle attività meno le passività: duecentoventimila meno novantacinquemila, cioè centoventicinquemila euro."
+      "speech": "Il patrimonio netto è uguale alle attività meno le passività: duecentoventimila meno novantacinquemila, cioè centoventicinquemila euro.",
+      "bold": [
+        [
+          34,
+          60
+        ]
+      ]
     },
     {
       "text": "Vediamo ora un secondo esempio, che riguarda la variazione del patrimonio netto nel tempo: il patrimonio netto iniziale di un'azienda è sessantacinquemila euro.",
@@ -50,7 +78,17 @@
     },
     {
       "text": "Il patrimonio netto finale è uguale al patrimonio netto iniziale, più gli apporti, più l'utile: sessantacinquemila più diecimila più ottomila, cioè ottantatremila euro.",
-      "speech": "Il patrimonio netto finale è uguale al patrimonio netto iniziale, più gli apporti, più l'utile: sessantacinquemila più diecimila più ottomila, cioè ottantatremila euro."
+      "speech": "Il patrimonio netto finale è uguale al patrimonio netto iniziale, più gli apporti, più l'utile: sessantacinquemila più diecimila più ottomila, cioè ottantatremila euro.",
+      "bold": [
+        [
+          39,
+          64
+        ],
+        [
+          74,
+          81
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo secondo esempio, perché mostra concretamente come il patrimonio netto di un'azienda cambi nel tempo per due ragioni distinte:",
@@ -58,23 +96,65 @@
     },
     {
       "text": "gli apporti dei soci, una decisione volontaria di conferire nuove risorse, e il reddito d'esercizio, il risultato della gestione, che può aumentarlo, in caso di utile, o ridurlo, in caso di perdita.",
-      "speech": "gli apporti dei soci, una decisione volontaria di conferire nuove risorse, e il reddito d'esercizio, il risultato della gestione, che può aumentarlo, in caso di utile, o ridurlo, in caso di perdita."
+      "speech": "gli apporti dei soci, una decisione volontaria di conferire nuove risorse, e il reddito d'esercizio, il risultato della gestione, che può aumentarlo, in caso di utile, o ridurlo, in caso di perdita.",
+      "bold": [
+        [
+          4,
+          20
+        ],
+        [
+          80,
+          99
+        ]
+      ]
     },
     {
       "text": "Passiamo proprio al reddito d'esercizio: è la variazione subita dal patrimonio netto per effetto della gestione svolta durante un esercizio amministrativo.",
-      "speech": "Passiamo proprio al reddito d'esercizio: è la variazione subita dal patrimonio netto per effetto della gestione svolta durante un esercizio amministrativo."
+      "speech": "Passiamo proprio al reddito d'esercizio: è la variazione subita dal patrimonio netto per effetto della gestione svolta durante un esercizio amministrativo.",
+      "bold": [
+        [
+          20,
+          39
+        ]
+      ]
     },
     {
       "text": "Si determina confrontando i componenti positivi di reddito, i ricavi conseguiti, con i componenti negativi di reddito, i costi sostenuti, di competenza dell'esercizio,",
-      "speech": "Si determina confrontando i componenti positivi di reddito, i ricavi conseguiti, con i componenti negativi di reddito, i costi sostenuti, di competenza dell'esercizio,"
+      "speech": "Si determina confrontando i componenti positivi di reddito, i ricavi conseguiti, con i componenti negativi di reddito, i costi sostenuti, di competenza dell'esercizio,",
+      "bold": [
+        [
+          28,
+          58
+        ],
+        [
+          87,
+          117
+        ]
+      ]
     },
     {
       "text": "indipendentemente dal fatto che le relative entrate o uscite di denaro si siano già manifestate: questo si chiama principio di competenza economica.",
-      "speech": "indipendentemente dal fatto che le relative entrate o uscite di denaro si siano già manifestate: questo si chiama principio di competenza economica."
+      "speech": "indipendentemente dal fatto che le relative entrate o uscite di denaro si siano già manifestate: questo si chiama principio di competenza economica.",
+      "bold": [
+        [
+          114,
+          147
+        ]
+      ]
     },
     {
       "text": "Se i ricavi superano i costi si ha un utile d'esercizio, che incrementa il patrimonio netto; in caso contrario si ha una perdita d'esercizio, che lo riduce.",
-      "speech": "Se i ricavi superano i costi si ha un utile d'esercizio, che incrementa il patrimonio netto; in caso contrario si ha una perdita d'esercizio, che lo riduce."
+      "speech": "Se i ricavi superano i costi si ha un utile d'esercizio, che incrementa il patrimonio netto; in caso contrario si ha una perdita d'esercizio, che lo riduce.",
+      "bold": [
+        [
+          38,
+          55
+        ],
+        [
+          121,
+          140
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme un esempio di calcolo: nel corso dell'esercizio un'azienda ha conseguito ricavi per centottantamila euro e ha sostenuto costi di competenza per centocinquantacinquemila euro.",
@@ -86,7 +166,13 @@
     },
     {
       "text": "Il reddito d'esercizio è uguale ai ricavi di competenza meno i costi di competenza: centottantamila meno centocinquantacinquemila, cioè venticinquemila euro, un utile.",
-      "speech": "Il reddito d'esercizio è uguale ai ricavi di competenza meno i costi di competenza: centottantamila meno centocinquantacinquemila, cioè venticinquemila euro, un utile."
+      "speech": "Il reddito d'esercizio è uguale ai ricavi di competenza meno i costi di competenza: centottantamila meno centocinquantacinquemila, cioè venticinquemila euro, un utile.",
+      "bold": [
+        [
+          35,
+          68
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, con il caso opposto: se un'azienda avesse conseguito ricavi di competenza per centoquarantamila euro e sostenuto costi di competenza per centosessantaduemila euro, quale sarebbe il risultato, e come lo chiamereste?",
@@ -98,7 +184,13 @@
     },
     {
       "text": "un risultato negativo, che chiamereste perdita d'esercizio, e che ridurrebbe il patrimonio netto dell'azienda di quell'importo.",
-      "speech": "un risultato negativo, che chiamereste perdita d'esercizio, e che ridurrebbe il patrimonio netto dell'azienda di quell'importo."
+      "speech": "un risultato negativo, che chiamereste perdita d'esercizio, e che ridurrebbe il patrimonio netto dell'azienda di quell'importo.",
+      "bold": [
+        [
+          39,
+          58
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -106,15 +198,53 @@
     },
     {
       "text": "Primo: il patrimonio netto è la differenza tra attività e passività, e rappresenta la ricchezza propria dell'azienda.",
-      "speech": "Primo: il patrimonio netto è la differenza tra attività e passività, e rappresenta la ricchezza propria dell'azienda."
+      "speech": "Primo: il patrimonio netto è la differenza tra attività e passività, e rappresenta la ricchezza propria dell'azienda.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          26
+        ]
+      ]
     },
     {
       "text": "Secondo: il patrimonio netto varia nel tempo per apporti dei soci e per il reddito d'esercizio, utile o perdita.",
-      "speech": "Secondo: il patrimonio netto varia nel tempo per apporti dei soci e per il reddito d'esercizio, utile o perdita."
+      "speech": "Secondo: il patrimonio netto varia nel tempo per apporti dei soci e per il reddito d'esercizio, utile o perdita.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          49,
+          65
+        ],
+        [
+          75,
+          94
+        ]
+      ]
     },
     {
       "text": "Terzo: il reddito d'esercizio si calcola come differenza tra ricavi e costi di competenza, secondo il principio di competenza economica.",
-      "speech": "Terzo: il reddito d'esercizio si calcola come differenza tra ricavi e costi di competenza, secondo il principio di competenza economica."
+      "speech": "Terzo: il reddito d'esercizio si calcola come differenza tra ricavi e costi di competenza, secondo il principio di competenza economica.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          61,
+          89
+        ],
+        [
+          102,
+          135
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero terzo modulo.",

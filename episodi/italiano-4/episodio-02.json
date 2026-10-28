@@ -14,11 +14,27 @@
     },
     {
       "text": "Cominciamo dal Razionalismo, la cui figura centrale è il filosofo francese René Descartes, che gli italiani chiamano abitualmente Cartesio.",
-      "speech": "Cominciamo dal Razionalismo, la cui figura centrale è il filosofo francese René Descartes, che gli italiani chiamano abitualmente Cartesio."
+      "speech": "Cominciamo dal Razionalismo, la cui figura centrale è il filosofo francese René Descartes, che gli italiani chiamano abitualmente Cartesio.",
+      "bold": [
+        [
+          15,
+          27
+        ],
+        [
+          75,
+          89
+        ]
+      ]
     },
     {
       "text": "Cartesio fonda la filosofia moderna su un gesto metodologico radicale: il dubbio metodico.",
-      "speech": "Cartesio fonda la filosofia moderna su un gesto metodologico radicale: il dubbio metodico."
+      "speech": "Cartesio fonda la filosofia moderna su un gesto metodologico radicale: il dubbio metodico.",
+      "bold": [
+        [
+          74,
+          89
+        ]
+      ]
     },
     {
       "text": "Per giungere a una conoscenza davvero certa, sostiene Cartesio, occorre dubitare sistematicamente di tutto ciò che può in qualche modo essere messo in discussione — i sensi, per esempio, possono ingannarci, e persino il mondo esterno, in linea di principio, potrebbe rivelarsi un'illusione.",
@@ -30,23 +46,65 @@
     },
     {
       "text": "Da qui nasce il principio più celebre di tutta la filosofia moderna: \"cogito ergo sum\", penso dunque sono.",
-      "speech": "Da qui nasce il principio più celebre di tutta la filosofia moderna: \"cogito ergo sum\", penso dunque sono."
+      "speech": "Da qui nasce il principio più celebre di tutta la filosofia moderna: \"cogito ergo sum\", penso dunque sono.",
+      "bold": [
+        [
+          70,
+          85
+        ]
+      ]
     },
     {
       "text": "A partire da questa unica certezza iniziale, Cartesio ricostruisce, attraverso la sola ragione e un procedimento rigorosamente deduttivo che lui stesso definisce \"more geometrico\", cioè sul modello della geometria, l'intero edificio della conoscenza umana.",
-      "speech": "A partire da questa unica certezza iniziale, Cartesio ricostruisce, attraverso la sola ragione e un procedimento rigorosamente deduttivo che lui stesso definisce \"more geometrico\", cioè sul modello della geometria, l'intero edificio della conoscenza umana."
+      "speech": "A partire da questa unica certezza iniziale, Cartesio ricostruisce, attraverso la sola ragione e un procedimento rigorosamente deduttivo che lui stesso definisce \"more geometrico\", cioè sul modello della geometria, l'intero edificio della conoscenza umana.",
+      "bold": [
+        [
+          163,
+          178
+        ]
+      ]
     },
     {
       "text": "Dall'altra parte della Manica si sviluppa, nello stesso periodo, una corrente filosofica per molti versi opposta: l'Empirismo inglese, di cui i due nomi principali sono Francis Bacone e John Locke.",
-      "speech": "Dall'altra parte della Manica si sviluppa, nello stesso periodo, una corrente filosofica per molti versi opposta: l'Empirismo inglese, di cui i due nomi principali sono Francis Bacone e John Locke."
+      "speech": "Dall'altra parte della Manica si sviluppa, nello stesso periodo, una corrente filosofica per molti versi opposta: l'Empirismo inglese, di cui i due nomi principali sono Francis Bacone e John Locke.",
+      "bold": [
+        [
+          116,
+          133
+        ],
+        [
+          169,
+          183
+        ],
+        [
+          186,
+          196
+        ]
+      ]
     },
     {
       "text": "Bacone critica duramente quelli che lui stesso chiama gli \"idola\", cioè i pregiudizi e le false credenze che ostacolano la vera conoscenza scientifica, e propone al loro posto un metodo induttivo: si parte dall'osservazione paziente dei singoli fatti particolari, per risalire poi, per generalizzazione progressiva, alle leggi universali della natura.",
-      "speech": "Bacone critica duramente quelli che lui stesso chiama gli \"idola\", cioè i pregiudizi e le false credenze che ostacolano la vera conoscenza scientifica, e propone al loro posto un metodo induttivo: si parte dall'osservazione paziente dei singoli fatti particolari, per risalire poi, per generalizzazione progressiva, alle leggi universali della natura."
+      "speech": "Bacone critica duramente quelli che lui stesso chiama gli \"idola\", cioè i pregiudizi e le false credenze che ostacolano la vera conoscenza scientifica, e propone al loro posto un metodo induttivo: si parte dall'osservazione paziente dei singoli fatti particolari, per risalire poi, per generalizzazione progressiva, alle leggi universali della natura.",
+      "bold": [
+        [
+          59,
+          64
+        ],
+        [
+          179,
+          195
+        ]
+      ]
     },
     {
       "text": "John Locke, qualche decennio più tardi, porta questa prospettiva empirista alle sue estreme conseguenze filosofiche, sostenendo che la mente umana, alla nascita, è una \"tabula rasa\", una tavola completamente vuota: non esistono, per Locke, idee innate di alcun tipo, e ogni conoscenza che possediamo deriva interamente dall'esperienza sensibile.",
-      "speech": "John Locke, qualche decennio più tardi, porta questa prospettiva empirista alle sue estreme conseguenze filosofiche, sostenendo che la mente umana, alla nascita, è una \"tabula rasa\", una tavola completamente vuota: non esistono, per Locke, idee innate di alcun tipo, e ogni conoscenza che possediamo deriva interamente dall'esperienza sensibile."
+      "speech": "John Locke, qualche decennio più tardi, porta questa prospettiva empirista alle sue estreme conseguenze filosofiche, sostenendo che la mente umana, alla nascita, è una \"tabula rasa\", una tavola completamente vuota: non esistono, per Locke, idee innate di alcun tipo, e ogni conoscenza che possediamo deriva interamente dall'esperienza sensibile.",
+      "bold": [
+        [
+          169,
+          180
+        ]
+      ]
     },
     {
       "text": "Il modo migliore per fissare bene la differenza tra queste due correnti, così importanti per capire tutta la cultura filosofica moderna, è metterle direttamente a confronto.",
@@ -54,7 +112,13 @@
     },
     {
       "text": "Per il Razionalismo di Cartesio, la fonte della conoscenza è la ragione stessa, con le sue idee chiare e distinte, e il metodo è deduttivo, \"more geometrico\".",
-      "speech": "Per il Razionalismo di Cartesio, la fonte della conoscenza è la ragione stessa, con le sue idee chiare e distinte, e il metodo è deduttivo, \"more geometrico\"."
+      "speech": "Per il Razionalismo di Cartesio, la fonte della conoscenza è la ragione stessa, con le sue idee chiare e distinte, e il metodo è deduttivo, \"more geometrico\".",
+      "bold": [
+        [
+          91,
+          113
+        ]
+      ]
     },
     {
       "text": "Per l'Empirismo di Bacone e Locke, la fonte della conoscenza è invece l'esperienza sensibile, e il metodo è induttivo, dai fatti particolari alle leggi generali.",
@@ -70,7 +134,13 @@
     },
     {
       "text": "Ma prima del Barocco vero e proprio, dobbiamo fare un passo indietro fino al Manierismo, un fenomeno artistico che nasce già alla fine del Cinquecento dalla crisi del classicismo rinascimentale.",
-      "speech": "Ma prima del Barocco vero e proprio, dobbiamo fare un passo indietro fino al Manierismo, un fenomeno artistico che nasce già alla fine del Cinquecento dalla crisi del classicismo rinascimentale."
+      "speech": "Ma prima del Barocco vero e proprio, dobbiamo fare un passo indietro fino al Manierismo, un fenomeno artistico che nasce già alla fine del Cinquecento dalla crisi del classicismo rinascimentale.",
+      "bold": [
+        [
+          77,
+          87
+        ]
+      ]
     },
     {
       "text": "Gli artisti manieristi, consapevoli di non poter mai eguagliare i grandi modelli assoluti di Raffaello, Michelangelo e Leonardo, ne assumono la \"maniera\" puramente esteriore, ricercando effetti originali, spesso artificiosi ed elaborati, con un gusto particolare per l'inquietudine e per la deformazione, anche vistosa, delle proporzioni classiche.",
@@ -78,15 +148,37 @@
     },
     {
       "text": "Il Barocco vero e proprio, che occupa tutto il secolo XVII, rappresenta la piena maturazione di questo gusto per l'artificio: la meraviglia e lo stupore diventano essi stessi il criterio del bello.",
-      "speech": "Il Barocco vero e proprio, che occupa tutto il secolo XVII, rappresenta la piena maturazione di questo gusto per l'artificio: la meraviglia e lo stupore diventano essi stessi il criterio del bello."
+      "speech": "Il Barocco vero e proprio, che occupa tutto il secolo XVII, rappresenta la piena maturazione di questo gusto per l'artificio: la meraviglia e lo stupore diventano essi stessi il criterio del bello.",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ]
     },
     {
       "text": "Il maggior rappresentante della lirica barocca italiana è Giovan Battista Marino, da cui deriva per l'appunto il termine \"Marinismo\", usato per indicare la poesia barocca costruita a imitazione del suo stile.",
-      "speech": "Il maggior rappresentante della lirica barocca italiana è Giovan Battista Marino, da cui deriva per l'appunto il termine \"Marinismo\", usato per indicare la poesia barocca costruita a imitazione del suo stile."
+      "speech": "Il maggior rappresentante della lirica barocca italiana è Giovan Battista Marino, da cui deriva per l'appunto il termine \"Marinismo\", usato per indicare la poesia barocca costruita a imitazione del suo stile.",
+      "bold": [
+        [
+          58,
+          80
+        ],
+        [
+          122,
+          131
+        ]
+      ]
     },
     {
       "text": "Nel poema Adone, Marino sintetizza in un solo verso, diventato proverbiale, l'intera propria poetica: \"è del poeta il fin la meraviglia\" — chi non sa stupire, aggiunge subito dopo con arguzia, vada alla striglia, cioè non merita di chiamarsi poeta.",
-      "speech": "Nel poema Adone, Marino sintetizza in un solo verso, diventato proverbiale, l'intera propria poetica: \"è del poeta il fin la meraviglia\" — chi non sa stupire, aggiunge subito dopo con arguzia, vada alla striglia, cioè non merita di chiamarsi poeta."
+      "speech": "Nel poema Adone, Marino sintetizza in un solo verso, diventato proverbiale, l'intera propria poetica: \"è del poeta il fin la meraviglia\" — chi non sa stupire, aggiunge subito dopo con arguzia, vada alla striglia, cioè non merita di chiamarsi poeta.",
+      "bold": [
+        [
+          10,
+          15
+        ]
+      ]
     },
     {
       "text": "Non è più, come voleva la tradizione classica risalente a Orazio, insegnare dilettando: per Marino e per tutto il gusto barocco, la finalità della poesia è stupire ed emozionare a qualunque costo.",
@@ -98,19 +190,51 @@
     },
     {
       "text": "Il concettismo è la ricerca di arguzie intellettuali, cioè di associazioni concettuali insolite e ingegnose tra idee lontanissime tra loro.",
-      "speech": "Il concettismo è la ricerca di arguzie intellettuali, cioè di associazioni concettuali insolite e ingegnose tra idee lontanissime tra loro."
+      "speech": "Il concettismo è la ricerca di arguzie intellettuali, cioè di associazioni concettuali insolite e ingegnose tra idee lontanissime tra loro.",
+      "bold": [
+        [
+          0,
+          14
+        ]
+      ]
     },
     {
       "text": "La metafora ardita è l'accostamento di immagini quanto più possibile distanti, proprio per creare un effetto di sorpresa nel lettore: è, in un certo senso, la figura retorica-chiave di tutto il Barocco.",
-      "speech": "La metafora ardita è l'accostamento di immagini quanto più possibile distanti, proprio per creare un effetto di sorpresa nel lettore: è, in un certo senso, la figura retorica-chiave di tutto il Barocco."
+      "speech": "La metafora ardita è l'accostamento di immagini quanto più possibile distanti, proprio per creare un effetto di sorpresa nel lettore: è, in un certo senso, la figura retorica-chiave di tutto il Barocco.",
+      "bold": [
+        [
+          3,
+          18
+        ]
+      ]
     },
     {
       "text": "A questo si aggiungono un gusto marcato per l'iperbole e per l'eccesso espressivo in generale, la ridondanza, l'accumulo quasi ossessivo di ornamenti.",
-      "speech": "A questo si aggiungono un gusto marcato per l'iperbole e per l'eccesso espressivo in generale, la ridondanza, l'accumulo quasi ossessivo di ornamenti."
+      "speech": "A questo si aggiungono un gusto marcato per l'iperbole e per l'eccesso espressivo in generale, la ridondanza, l'accumulo quasi ossessivo di ornamenti.",
+      "bold": [
+        [
+          46,
+          54
+        ]
+      ]
     },
     {
       "text": "Ed è importante ricordare che questo gusto barocco non è un fenomeno solo italiano: fenomeni del tutto analoghi si registrano in Spagna, con il cosiddetto Gongorismo, dal nome del poeta Luis de Góngora, e in Inghilterra, con la poesia metafisica di John Donne — una conferma ulteriore della dimensione autenticamente europea di questo gusto estetico.",
-      "speech": "Ed è importante ricordare che questo gusto barocco non è un fenomeno solo italiano: fenomeni del tutto analoghi si registrano in Spagna, con il cosiddetto Gongorismo, dal nome del poeta Luis de Góngora, e in Inghilterra, con la poesia metafisica di John Donne — una conferma ulteriore della dimensione autenticamente europea di questo gusto estetico."
+      "speech": "Ed è importante ricordare che questo gusto barocco non è un fenomeno solo italiano: fenomeni del tutto analoghi si registrano in Spagna, con il cosiddetto Gongorismo, dal nome del poeta Luis de Góngora, e in Inghilterra, con la poesia metafisica di John Donne — una conferma ulteriore della dimensione autenticamente europea di questo gusto estetico.",
+      "bold": [
+        [
+          155,
+          165
+        ],
+        [
+          186,
+          201
+        ],
+        [
+          249,
+          259
+        ]
+      ]
     },
     {
       "text": "Un buon modo per fissare in modo chiaro la differenza tra Manierismo e Barocco, di nuovo utile per l'orale, è pensarli in sequenza cronologica e concettuale: il Manierismo, a fine Cinquecento, nasce dalla crisi dell'imitazione classica e cerca una \"maniera\" personale ma ancora incerta, quasi in cerca di una propria identità; il Barocco, nel pieno Seicento, porta questa ricerca a piena e consapevole maturità, facendo della meraviglia e dello stupore il fine dichiarato dell'arte, attraverso strumenti precisi come la metafora ardita e il concettismo.",
@@ -126,23 +250,81 @@
     },
     {
       "text": "Primo: il Razionalismo di Cartesio fonda la conoscenza sul dubbio metodico e sul \"cogito ergo sum\", procedendo per via deduttiva, \"more geometrico\".",
-      "speech": "Primo: il Razionalismo di Cartesio fonda la conoscenza sul dubbio metodico e sul \"cogito ergo sum\", procedendo per via deduttiva, \"more geometrico\"."
+      "speech": "Primo: il Razionalismo di Cartesio fonda la conoscenza sul dubbio metodico e sul \"cogito ergo sum\", procedendo per via deduttiva, \"more geometrico\".",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          34
+        ],
+        [
+          59,
+          74
+        ]
+      ]
     },
     {
       "text": "Secondo: l'Empirismo di Bacone e Locke fonda invece la conoscenza sull'esperienza sensibile, procedendo per via induttiva; per Locke la mente alla nascita è una \"tabula rasa\".",
-      "speech": "Secondo: l'Empirismo di Bacone e Locke fonda invece la conoscenza sull'esperienza sensibile, procedendo per via induttiva; per Locke la mente alla nascita è una \"tabula rasa\"."
+      "speech": "Secondo: l'Empirismo di Bacone e Locke fonda invece la conoscenza sull'esperienza sensibile, procedendo per via induttiva; per Locke la mente alla nascita è una \"tabula rasa\".",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          11,
+          38
+        ],
+        [
+          71,
+          91
+        ]
+      ]
     },
     {
       "text": "Terzo: il Manierismo di fine Cinquecento e il Barocco del pieno Seicento condividono il gusto per l'artificio e la ricerca di una maniera personale, ma è il Barocco a fare della meraviglia il fine dichiarato dell'arte.",
-      "speech": "Terzo: il Manierismo di fine Cinquecento e il Barocco del pieno Seicento condividono il gusto per l'artificio e la ricerca di una maniera personale, ma è il Barocco a fare della meraviglia il fine dichiarato dell'arte."
+      "speech": "Terzo: il Manierismo di fine Cinquecento e il Barocco del pieno Seicento condividono il gusto per l'artificio e la ricerca di una maniera personale, ma è il Barocco a fare della meraviglia il fine dichiarato dell'arte.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          46,
+          53
+        ]
+      ]
     },
     {
       "text": "Quarto: concettismo, metafora ardita e iperbole sono gli strumenti retorici principali della poesia barocca, di cui Giovan Battista Marino è il massimo rappresentante italiano, in dialogo con fenomeni analoghi in Spagna e Inghilterra.",
-      "speech": "Quarto: concettismo, metafora ardita e iperbole sono gli strumenti retorici principali della poesia barocca, di cui Giovan Battista Marino è il massimo rappresentante italiano, in dialogo con fenomeni analoghi in Spagna e Inghilterra."
+      "speech": "Quarto: concettismo, metafora ardita e iperbole sono gli strumenti retorici principali della poesia barocca, di cui Giovan Battista Marino è il massimo rappresentante italiano, in dialogo con fenomeni analoghi in Spagna e Inghilterra.",
+      "bold": [
+        [
+          0,
+          6
+        ],
+        [
+          8,
+          47
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio conosciamo da vicino il più grande poeta italiano di questo secolo di crisi e di straordinaria creatività: Torquato Tasso, la sua vita segnata da una profonda crisi psicologica e religiosa, e le sue opere principali.",
-      "speech": "Nel prossimo episodio conosciamo da vicino il più grande poeta italiano di questo secolo di crisi e di straordinaria creatività: Torquato Tasso, la sua vita segnata da una profonda crisi psicologica e religiosa, e le sue opere principali."
+      "speech": "Nel prossimo episodio conosciamo da vicino il più grande poeta italiano di questo secolo di crisi e di straordinaria creatività: Torquato Tasso, la sua vita segnata da una profonda crisi psicologica e religiosa, e le sue opere principali.",
+      "bold": [
+        [
+          129,
+          143
+        ]
+      ]
     },
     {
       "text": "Ci vediamo lì.",

@@ -124,6 +124,11 @@ button {
   background: #ffe66d;
 }
 
+.sentence strong {
+  font-weight: 700;
+  color: #063f7f;
+}
+
 .lesson-title {
   margin-top: 30px;
   font-size: 22px;
@@ -346,7 +351,17 @@ async function loadEpisode() {
       .join("\n");
     sentences = document.querySelectorAll(".sentence");
     sentences.forEach((element, index) => {
-      element.textContent = episode.sentences[index].text;
+      const s = episode.sentences[index];
+      if (!s.bold || !s.bold.length) { element.textContent = s.text; return; }
+      let pos = 0;
+      s.bold.forEach(([a, b]) => {
+        if (a > pos) element.appendChild(document.createTextNode(s.text.slice(pos, a)));
+        const strong = document.createElement("strong");
+        strong.textContent = s.text.slice(a, b);
+        element.appendChild(strong);
+        pos = b;
+      });
+      if (pos < s.text.length) element.appendChild(document.createTextNode(s.text.slice(pos)));
     });
   } catch (error) {
     document.getElementById("status").innerText = "Episodio non disponibile";

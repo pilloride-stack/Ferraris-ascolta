@@ -14,7 +14,13 @@
     },
     {
       "text": "Le periferiche sono dispositivi hardware collegati al computer che ne estendono le funzionalità.",
-      "speech": "Le periferiche sono dispositivi hardware collegati al computer che ne estendono le funzionalità."
+      "speech": "Le periferiche sono dispositivi hardware collegati al computer che ne estendono le funzionalità.",
+      "bold": [
+        [
+          3,
+          14
+        ]
+      ]
     },
     {
       "text": "Si distinguono in tre categorie, ed è fondamentale saperle classificare correttamente perché è un esercizio classico d'esame.",
@@ -22,15 +28,33 @@
     },
     {
       "text": "Le periferiche di input permettono di inserire dati e comandi nel sistema: tastiera, mouse, scanner, webcam, microfono.",
-      "speech": "Le periferiche di input permettono di inserire dati e comandi nel sistema: tastiera, mouse, scanner, webcam, microfono."
+      "speech": "Le periferiche di input permettono di inserire dati e comandi nel sistema: tastiera, mouse, scanner, webcam, microfono.",
+      "bold": [
+        [
+          3,
+          23
+        ]
+      ]
     },
     {
       "text": "Le periferiche di output permettono al sistema di restituire informazioni all'utente: monitor, stampante, altoparlanti.",
-      "speech": "Le periferiche di output permettono al sistema di restituire informazioni all'utente: monitor, stampante, altoparlanti."
+      "speech": "Le periferiche di output permettono al sistema di restituire informazioni all'utente: monitor, stampante, altoparlanti.",
+      "bold": [
+        [
+          3,
+          24
+        ]
+      ]
     },
     {
       "text": "E alcune periferiche svolgono entrambe le funzioni contemporaneamente, come lo schermo touchscreen, che riceve il tocco dell'utente come input e mostra immagini come output,",
-      "speech": "E alcune periferiche svolgono entrambe le funzioni contemporaneamente, come lo schermo touchscreen, che riceve il tocco dell'utente come input e mostra immagini come output,"
+      "speech": "E alcune periferiche svolgono entrambe le funzioni contemporaneamente, come lo schermo touchscreen, che riceve il tocco dell'utente come input e mostra immagini come output,",
+      "bold": [
+        [
+          87,
+          98
+        ]
+      ]
     },
     {
       "text": "oppure le unità disco, che permettono sia di scrivere sia di leggere dati.",
@@ -50,11 +74,31 @@
     },
     {
       "text": "Passiamo ora alle memorie di massa, dette anche memorie secondarie:",
-      "speech": "Passiamo ora alle memorie di massa, dette anche memorie secondarie:"
+      "speech": "Passiamo ora alle memorie di massa, dette anche memorie secondarie:",
+      "bold": [
+        [
+          18,
+          34
+        ]
+      ]
     },
     {
       "text": "dispositivi di memorizzazione non volatile, capaci cioè di conservare i dati anche quando il computer viene spento, a differenza della memoria RAM, che è invece volatile e perde il proprio contenuto in assenza di alimentazione elettrica.",
-      "speech": "dispositivi di memorizzazione non volatile, capaci cioè di conservare i dati anche quando il computer viene spento, a differenza della memoria RAM, che è invece volatile e perde il proprio contenuto in assenza di alimentazione elettrica."
+      "speech": "dispositivi di memorizzazione non volatile, capaci cioè di conservare i dati anche quando il computer viene spento, a differenza della memoria RAM, che è invece volatile e perde il proprio contenuto in assenza di alimentazione elettrica.",
+      "bold": [
+        [
+          30,
+          42
+        ],
+        [
+          143,
+          146
+        ],
+        [
+          161,
+          169
+        ]
+      ]
     },
     {
       "text": "Questa distinzione tra memoria volatile e non volatile è probabilmente il concetto più importante di questo intero episodio:",
@@ -70,19 +114,43 @@
     },
     {
       "text": "L'hard disk magnetico, HDD, che memorizza i dati su dischi rotanti rivestiti di materiale magnetico, con velocità media ma capacità elevata a basso costo.",
-      "speech": "L'hard disk magnetico, HDD, che memorizza i dati su dischi rotanti rivestiti di materiale magnetico, con velocità media ma capacità elevata a basso costo."
+      "speech": "L'hard disk magnetico, HDD, che memorizza i dati su dischi rotanti rivestiti di materiale magnetico, con velocità media ma capacità elevata a basso costo.",
+      "bold": [
+        [
+          2,
+          26
+        ]
+      ]
     },
     {
       "text": "L'unità a stato solido, SSD, più veloce e resistente agli urti poiché priva di parti meccaniche in movimento, e quindi oggi sempre più diffusa nei computer moderni.",
-      "speech": "L'unità a stato solido, SSD, più veloce e resistente agli urti poiché priva di parti meccaniche in movimento, e quindi oggi sempre più diffusa nei computer moderni."
+      "speech": "L'unità a stato solido, SSD, più veloce e resistente agli urti poiché priva di parti meccaniche in movimento, e quindi oggi sempre più diffusa nei computer moderni.",
+      "bold": [
+        [
+          2,
+          27
+        ]
+      ]
     },
     {
       "text": "Le unità ottiche, come CD, DVD e Blu-ray, che leggono e scrivono dati tramite un raggio laser, con velocità più bassa e ormai in progressivo declino d'uso.",
-      "speech": "Le unità ottiche, come CD, DVD e Blu-ray, che leggono e scrivono dati tramite un raggio laser, con velocità più bassa e ormai in progressivo declino d'uso."
+      "speech": "Le unità ottiche, come CD, DVD e Blu-ray, che leggono e scrivono dati tramite un raggio laser, con velocità più bassa e ormai in progressivo declino d'uso.",
+      "bold": [
+        [
+          3,
+          16
+        ]
+      ]
     },
     {
       "text": "E le memorie flash, come le chiavette USB e le schede di memoria SD, compatte, portatili e prive di parti mobili, con velocità medio-alta.",
-      "speech": "E le memorie flash, come le chiavette USB e le schede di memoria SD, compatte, portatili e prive di parti mobili, con velocità medio-alta."
+      "speech": "E le memorie flash, come le chiavette USB e le schede di memoria SD, compatte, portatili e prive di parti mobili, con velocità medio-alta.",
+      "bold": [
+        [
+          5,
+          18
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste distinzioni:",
@@ -114,15 +182,61 @@
     },
     {
       "text": "Primo: le periferiche si distinguono in input, output e input/output, a seconda della direzione del flusso di informazione rispetto al computer.",
-      "speech": "Primo: le periferiche si distinguono in input, output e input, output, a seconda della direzione del flusso di informazione rispetto al computer."
+      "speech": "Primo: le periferiche si distinguono in input, output e input, output, a seconda della direzione del flusso di informazione rispetto al computer.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          40,
+          68
+        ]
+      ]
     },
     {
       "text": "Secondo: le memorie di massa sono non volatili, a differenza della RAM, e conservano i dati anche a computer spento.",
-      "speech": "Secondo: le memorie di massa sono non volatili, a differenza della RAM, e conservano i dati anche a computer spento."
+      "speech": "Secondo: le memorie di massa sono non volatili, a differenza della RAM, e conservano i dati anche a computer spento.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          34,
+          46
+        ],
+        [
+          67,
+          70
+        ]
+      ]
     },
     {
       "text": "Terzo: le principali memorie di massa sono l'hard disk magnetico, l'SSD, le unità ottiche e le memorie flash, con velocità e caratteristiche diverse tra loro.",
-      "speech": "Terzo: le principali memorie di massa sono l'hard disk magnetico, l'SSD, le unità ottiche e le memorie flash, con velocità e caratteristiche diverse tra loro."
+      "speech": "Terzo: le principali memorie di massa sono l'hard disk magnetico, l'SSD, le unità ottiche e le memorie flash, con velocità e caratteristiche diverse tra loro.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          45,
+          64
+        ],
+        [
+          68,
+          71
+        ],
+        [
+          76,
+          89
+        ],
+        [
+          95,
+          108
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio concludiamo il Modulo 2 con i sistemi operativi e con un focus specifico sul sistema operativo più diffuso al mondo, Windows.",

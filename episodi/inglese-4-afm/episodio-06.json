@@ -14,24 +14,26 @@
     },
     {
       "text": "e come combina le proprie leve strategiche per raggiungere gli obiettivi commerciali, attraverso il celebre marketing mix.",
-      "speech": "e come combina le proprie leve strategiche per raggiungere gli obiettivi commerciali, attraverso il celebre marketing mix."
+      "speech": "e come combina le proprie leve strategiche per raggiungere gli obiettivi commerciali, attraverso il celebre marketing mix.",
+      "bold": [
+        [
+          108,
+          121
+        ]
+      ]
     },
     {
       "text": "Cominciamo dalla ricerca di mercato, market research: il processo attraverso cui un'impresa raccoglie sistematicamente informazioni sui propri clienti,",
       "speech": "Cominciamo dalla ricerca di mercato, market research: il processo attraverso cui un'impresa raccoglie sistematicamente informazioni sui propri clienti,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Cominciamo dalla ricerca di mercato,"
-        },
-        {
-          "lang": "en",
-          "text": "market research:"
-        },
-        {
-          "lang": "it",
-          "text": "il processo attraverso cui un'impresa raccoglie sistematicamente informazioni sui propri clienti,"
-        }
+      "bold": [
+        [
+          17,
+          35
+        ],
+        [
+          37,
+          52
+        ]
       ]
     },
     {
@@ -45,27 +47,19 @@
     {
       "text": "La ricerca primaria, primary research, comprende sondaggi, interviste e focus group condotti direttamente dall'impresa stessa, appositamente per rispondere a una domanda specifica che le interessa in quel momento:",
       "speech": "La ricerca primaria, primary research, comprende sondaggi, interviste e focus group condotti direttamente dall'impresa stessa, appositamente per rispondere a una domanda specifica che le interessa in quel momento:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La ricerca primaria,"
-        },
-        {
-          "lang": "en",
-          "text": "primary research,"
-        },
-        {
-          "lang": "it",
-          "text": "comprende sondaggi, interviste e"
-        },
-        {
-          "lang": "en",
-          "text": "focus group"
-        },
-        {
-          "lang": "it",
-          "text": "condotti direttamente dall'impresa stessa, appositamente per rispondere a una domanda specifica che le interessa in quel momento:"
-        }
+      "bold": [
+        [
+          3,
+          19
+        ],
+        [
+          21,
+          37
+        ],
+        [
+          72,
+          83
+        ]
       ]
     },
     {
@@ -75,19 +69,15 @@
     {
       "text": "La ricerca secondaria, secondary research, consiste invece nell'analisi di dati e studi già esistenti, prodotti da terzi — istituti statistici, associazioni di categoria, altre ricerche pubblicate —",
       "speech": "La ricerca secondaria, secondary research, consiste invece nell'analisi di dati e studi già esistenti, prodotti da terzi — istituti statistici, associazioni di categoria, altre ricerche pubblicate —",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "La ricerca secondaria,"
-        },
-        {
-          "lang": "en",
-          "text": "secondary research,"
-        },
-        {
-          "lang": "it",
-          "text": "consiste invece nell'analisi di dati e studi già esistenti, prodotti da terzi — istituti statistici, associazioni di categoria, altre ricerche pubblicate —"
-        }
+      "bold": [
+        [
+          3,
+          21
+        ],
+        [
+          23,
+          41
+        ]
       ]
     },
     {
@@ -96,20 +86,30 @@
     },
     {
       "text": "Passiamo ora al cuore di questo episodio: il marketing mix, l'insieme delle leve strategiche che un'impresa combina per raggiungere i propri obiettivi commerciali, tradizionalmente sintetizzato in un acronimo molto semplice da ricordare, le «4 P».",
-      "speech": "Passiamo ora al cuore di questo episodio: il marketing mix, l'insieme delle leve strategiche che un'impresa combina per raggiungere i propri obiettivi commerciali, tradizionalmente sintetizzato in un acronimo molto semplice da ricordare, le «4 P»."
+      "speech": "Passiamo ora al cuore di questo episodio: il marketing mix, l'insieme delle leve strategiche che un'impresa combina per raggiungere i propri obiettivi commerciali, tradizionalmente sintetizzato in un acronimo molto semplice da ricordare, le «4 P».",
+      "bold": [
+        [
+          45,
+          58
+        ],
+        [
+          242,
+          245
+        ]
+      ]
     },
     {
       "text": "Product, il prodotto: le caratteristiche, la qualità, il design del prodotto o del servizio offerto, il punto di partenza di ogni strategia di marketing,",
       "speech": "Product, il prodotto: le caratteristiche, la qualità, il design del prodotto o del servizio offerto, il punto di partenza di ogni strategia di marketing,",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Product,"
-        },
-        {
-          "lang": "it",
-          "text": "il prodotto: le caratteristiche, la qualità, il design del prodotto o del servizio offerto, il punto di partenza di ogni strategia di marketing,"
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          20
+        ]
       ]
     },
     {
@@ -119,33 +119,47 @@
     {
       "text": "Price, il prezzo: la politica di prezzo scelta dall'impresa, che può essere per esempio una strategia premium, con prezzi elevati per posizionarsi come prodotto di lusso o di alta qualità percepita,",
       "speech": "Price, il prezzo: la politica di prezzo scelta dall'impresa, che può essere per esempio una strategia premium, con prezzi elevati per posizionarsi come prodotto di lusso o di alta qualità percepita,",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Price,"
-        },
-        {
-          "lang": "it",
-          "text": "il prezzo: la politica di prezzo scelta dall'impresa, che può essere per esempio una strategia premium, con prezzi elevati per posizionarsi come prodotto di lusso o di alta qualità percepita,"
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          92,
+          109
+        ]
       ]
     },
     {
       "text": "oppure una strategia competitiva, allineata ai concorrenti, oppure ancora una strategia di penetrazione, con prezzi inizialmente bassi per conquistare rapidamente quote di mercato in un nuovo settore.",
-      "speech": "oppure una strategia competitiva, allineata ai concorrenti, oppure ancora una strategia di penetrazione, con prezzi inizialmente bassi per conquistare rapidamente quote di mercato in un nuovo settore."
+      "speech": "oppure una strategia competitiva, allineata ai concorrenti, oppure ancora una strategia di penetrazione, con prezzi inizialmente bassi per conquistare rapidamente quote di mercato in un nuovo settore.",
+      "bold": [
+        [
+          11,
+          32
+        ],
+        [
+          78,
+          103
+        ]
+      ]
     },
     {
       "text": "Place, la distribuzione: i canali attraverso cui il prodotto raggiunge concretamente il cliente finale, i punti vendita fisici, la vendita online, i distributori intermedi,",
       "speech": "Place, la distribuzione: i canali attraverso cui il prodotto raggiunge concretamente il cliente finale, i punti vendita fisici, la vendita online, i distributori intermedi,",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Place,"
-        },
-        {
-          "lang": "it",
-          "text": "la distribuzione: i canali attraverso cui il prodotto raggiunge concretamente il cliente finale, i punti vendita fisici, la vendita online, i distributori intermedi,"
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          23
+        ]
       ]
     },
     {
@@ -155,15 +169,15 @@
     {
       "text": "Promotion, la promozione: le attività di comunicazione e di promozione attraverso cui l'impresa fa conoscere il proprio prodotto al pubblico — la pubblicità tradizionale,",
       "speech": "Promotion, la promozione: le attività di comunicazione e di promozione attraverso cui l'impresa fa conoscere il proprio prodotto al pubblico — la pubblicità tradizionale,",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Promotion,"
-        },
-        {
-          "lang": "it",
-          "text": "la promozione: le attività di comunicazione e di promozione attraverso cui l'impresa fa conoscere il proprio prodotto al pubblico — la pubblicità tradizionale,"
-        }
+      "bold": [
+        [
+          0,
+          9
+        ],
+        [
+          11,
+          24
+        ]
       ]
     },
     {
@@ -176,58 +190,40 @@
     },
     {
       "text": "le 4 P non vanno mai pensate come leve isolate e indipendenti tra loro, ma come un sistema coerente che deve essere calibrato nel suo insieme.",
-      "speech": "le 4 P non vanno mai pensate come leve isolate e indipendenti tra loro, ma come un sistema coerente che deve essere calibrato nel suo insieme."
+      "speech": "le 4 P non vanno mai pensate come leve isolate e indipendenti tra loro, ma come un sistema coerente che deve essere calibrato nel suo insieme.",
+      "bold": [
+        [
+          83,
+          99
+        ]
+      ]
     },
     {
       "text": "Un prodotto di altissima qualità (Product) con un prezzo molto basso (Price) rischia di comunicare, paradossalmente, un messaggio di scarsa qualità al consumatore, che tende ad associare istintivamente prezzo basso a valore basso;",
       "speech": "Un prodotto di altissima qualità (Product) con un prezzo molto basso (Price) rischia di comunicare, paradossalmente, un messaggio di scarsa qualità al consumatore, che tende ad associare istintivamente prezzo basso a valore basso;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Un prodotto di altissima qualità ("
-        },
-        {
-          "lang": "en",
-          "text": "Product)"
-        },
-        {
-          "lang": "it",
-          "text": "con un prezzo molto basso ("
-        },
-        {
-          "lang": "en",
-          "text": "Price)"
-        },
-        {
-          "lang": "it",
-          "text": "rischia di comunicare, paradossalmente, un messaggio di scarsa qualità al consumatore, che tende ad associare istintivamente prezzo basso a valore basso;"
-        }
+      "bold": [
+        [
+          34,
+          42
+        ],
+        [
+          70,
+          76
+        ]
       ]
     },
     {
       "text": "allo stesso modo, un prodotto premium venduto attraverso canali di distribuzione (Place) poco curati o poco coerenti con l'immagine del brand rischia di svalutarne la percezione agli occhi del pubblico.",
       "speech": "allo stesso modo, un prodotto premium venduto attraverso canali di distribuzione (Place) poco curati o poco coerenti con l'immagine del brand rischia di svalutarne la percezione agli occhi del pubblico.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "allo stesso modo, un prodotto premium venduto attraverso canali di distribuzione ("
-        },
-        {
-          "lang": "en",
-          "text": "Place)"
-        },
-        {
-          "lang": "it",
-          "text": "poco curati o poco coerenti con l'immagine del"
-        },
-        {
-          "lang": "en",
-          "text": "brand"
-        },
-        {
-          "lang": "it",
-          "text": "rischia di svalutarne la percezione agli occhi del pubblico."
-        }
+      "bold": [
+        [
+          82,
+          88
+        ],
+        [
+          136,
+          141
+        ]
       ]
     },
     {
@@ -240,55 +236,67 @@
     },
     {
       "text": "Vediamo ora, per completare il quadro di questo episodio, il marketing digitale, online marketing, che negli ultimi decenni ha trasformato profondamente il modo in cui le imprese comunicano con i propri clienti,",
-      "speech": "Vediamo ora, per completare il quadro di questo episodio, il marketing digitale, online marketing, che negli ultimi decenni ha trasformato profondamente il modo in cui le imprese comunicano con i propri clienti,"
+      "speech": "Vediamo ora, per completare il quadro di questo episodio, il marketing digitale, online marketing, che negli ultimi decenni ha trasformato profondamente il modo in cui le imprese comunicano con i propri clienti,",
+      "bold": [
+        [
+          61,
+          79
+        ]
+      ]
     },
     {
       "text": "e che rientra soprattutto, ma non solo, nella leva Promotion delle 4 P che abbiamo appena visto.",
       "speech": "e che rientra soprattutto, ma non solo, nella leva Promotion delle 4 P che abbiamo appena visto.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e che rientra soprattutto, ma non solo, nella leva"
-        },
-        {
-          "lang": "en",
-          "text": "Promotion"
-        },
-        {
-          "lang": "it",
-          "text": "delle 4 P che abbiamo appena visto."
-        }
+      "bold": [
+        [
+          51,
+          60
+        ]
       ]
     },
     {
       "text": "Comprende diverse strategie specifiche: l'ottimizzazione per i motori di ricerca, SEO, Search Engine Optimization, che mira a far comparire il proprio sito web tra i primi risultati di una ricerca online;",
       "speech": "Comprende diverse strategie specifiche: l'ottimizzazione per i motori di ricerca, SEO, Search Engine Optimization, che mira a far comparire il proprio sito web tra i primi risultati di una ricerca online;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Comprende diverse strategie specifiche: l'ottimizzazione per i motori di ricerca, SEO,"
-        },
-        {
-          "lang": "en",
-          "text": "Search Engine Optimization,"
-        },
-        {
-          "lang": "it",
-          "text": "che mira a far comparire il proprio sito web tra i primi risultati di una ricerca online;"
-        }
+      "bold": [
+        [
+          82,
+          85
+        ],
+        [
+          87,
+          113
+        ]
       ]
     },
     {
       "text": "il marketing sui social media, social media marketing, che sfrutta piattaforme come Instagram, Facebook o LinkedIn per raggiungere il pubblico dove trascorre gran parte del proprio tempo;",
-      "speech": "il marketing sui social media, social media marketing, che sfrutta piattaforme come Instagram, Facebook o LinkedIn per raggiungere il pubblico dove trascorre gran parte del proprio tempo;"
+      "speech": "il marketing sui social media, social media marketing, che sfrutta piattaforme come Instagram, Facebook o LinkedIn per raggiungere il pubblico dove trascorre gran parte del proprio tempo;",
+      "bold": [
+        [
+          17,
+          29
+        ]
+      ]
     },
     {
       "text": "l'email marketing, l'invio mirato di comunicazioni commerciali via posta elettronica;",
-      "speech": "l'email marketing, l'invio mirato di comunicazioni commerciali via posta elettronica;"
+      "speech": "l'email marketing, l'invio mirato di comunicazioni commerciali via posta elettronica;",
+      "bold": [
+        [
+          2,
+          17
+        ]
+      ]
     },
     {
       "text": "e il marketing tramite influencer, influencer marketing, che sfrutta la credibilità e il seguito di personaggi popolari sui social media per promuovere prodotti o servizi in modo più naturale e meno percepito come pubblicità tradizionale.",
-      "speech": "e il marketing tramite influencer, influencer marketing, che sfrutta la credibilità e il seguito di personaggi popolari sui social media per promuovere prodotti o servizi in modo più naturale e meno percepito come pubblicità tradizionale."
+      "speech": "e il marketing tramite influencer, influencer marketing, che sfrutta la credibilità e il seguito di personaggi popolari sui social media per promuovere prodotti o servizi in modo più naturale e meno percepito come pubblicità tradizionale.",
+      "bold": [
+        [
+          23,
+          33
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: immaginate un'impresa che lancia un nuovo smartphone di fascia alta.",
@@ -301,73 +309,49 @@
     {
       "text": "Product: caratteristiche tecniche avanzate e design curato.",
       "speech": "Product: caratteristiche tecniche avanzate e design curato.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Product:"
-        },
-        {
-          "lang": "it",
-          "text": "caratteristiche tecniche avanzate e design curato."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ]
       ]
     },
     {
       "text": "Price: una strategia premium, coerente con il posizionamento di alta gamma.",
       "speech": "Price: una strategia premium, coerente con il posizionamento di alta gamma.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Price:"
-        },
-        {
-          "lang": "it",
-          "text": "una strategia premium, coerente con il posizionamento di alta gamma."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ]
       ]
     },
     {
       "text": "Place: distribuzione selettiva, magari attraverso negozi ufficiali del brand e pochi partner selezionati, non discount generalisti.",
       "speech": "Place: distribuzione selettiva, magari attraverso negozi ufficiali del brand e pochi partner selezionati, non discount generalisti.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Place:"
-        },
-        {
-          "lang": "it",
-          "text": "distribuzione selettiva, magari attraverso negozi ufficiali del"
-        },
-        {
-          "lang": "en",
-          "text": "brand"
-        },
-        {
-          "lang": "it",
-          "text": "e pochi partner selezionati, non"
-        },
-        {
-          "lang": "en",
-          "text": "discount"
-        },
-        {
-          "lang": "it",
-          "text": "generalisti."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          71,
+          76
+        ],
+        [
+          110,
+          118
+        ]
       ]
     },
     {
       "text": "Promotion: campagne di influencer marketing e social media marketing rivolte a un pubblico attento alla tecnologia e disposto a spendere per prodotti di qualità.",
       "speech": "Promotion: campagne di influencer marketing e social media marketing rivolte a un pubblico attento alla tecnologia e disposto a spendere per prodotti di qualità.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Promotion:"
-        },
-        {
-          "lang": "it",
-          "text": "campagne di influencer marketing e social media marketing rivolte a un pubblico attento alla tecnologia e disposto a spendere per prodotti di qualità."
-        }
+      "bold": [
+        [
+          0,
+          9
+        ]
       ]
     },
     {
@@ -380,29 +364,53 @@
     },
     {
       "text": "Primo: la ricerca di mercato si distingue in primaria, condotta direttamente dall'impresa, e secondaria, basata su dati già esistenti prodotti da terzi.",
-      "speech": "Primo: la ricerca di mercato si distingue in primaria, condotta direttamente dall'impresa, e secondaria, basata su dati già esistenti prodotti da terzi."
+      "speech": "Primo: la ricerca di mercato si distingue in primaria, condotta direttamente dall'impresa, e secondaria, basata su dati già esistenti prodotti da terzi.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          45,
+          53
+        ],
+        [
+          93,
+          103
+        ]
+      ]
     },
     {
       "text": "Secondo: il marketing mix si articola nelle 4 P — Product, Price, Place, Promotion — che vanno sempre calibrate insieme in modo coerente, non isolatamente.",
       "speech": "Secondo: il marketing mix si articola nelle 4 P — Product, Price, Place, Promotion — che vanno sempre calibrate insieme in modo coerente, non isolatamente.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo: il marketing mix si articola nelle 4 P —"
-        },
-        {
-          "lang": "en",
-          "text": "Product, Price, Place, Promotion —"
-        },
-        {
-          "lang": "it",
-          "text": "che vanno sempre calibrate insieme in modo coerente, non isolatamente."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          50,
+          82
+        ]
       ]
     },
     {
       "text": "Terzo: il marketing digitale comprende SEO, social media marketing, email marketing e influencer marketing, strumenti sempre più centrali nella strategia commerciale contemporanea.",
-      "speech": "Terzo: il marketing digitale comprende SEO, social media marketing, email marketing e influencer marketing, strumenti sempre più centrali nella strategia commerciale contemporanea."
+      "speech": "Terzo: il marketing digitale comprende SEO, social media marketing, email marketing e influencer marketing, strumenti sempre più centrali nella strategia commerciale contemporanea.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          28
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo la pubblicità nel dettaglio, con il celebre modello AIDA, e le fiere commerciali come strumento di promozione e di ricerca di mercato.",

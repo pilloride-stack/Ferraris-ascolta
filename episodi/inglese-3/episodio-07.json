@@ -10,20 +10,30 @@
     },
     {
       "text": "Oggi cambiamo completamente registro e iniziamo il modulo dedicato alla letteratura, cominciando dal testo più antico di tutta la tradizione letteraria inglese: Beowulf, il grande poema epico anglosassone.",
-      "speech": "Oggi cambiamo completamente registro e iniziamo il modulo dedicato alla letteratura, cominciando dal testo più antico di tutta la tradizione letteraria inglese: Beowulf, il grande poema epico anglosassone."
+      "speech": "Oggi cambiamo completamente registro e iniziamo il modulo dedicato alla letteratura, cominciando dal testo più antico di tutta la tradizione letteraria inglese: Beowulf, il grande poema epico anglosassone.",
+      "bold": [
+        [
+          161,
+          168
+        ],
+        [
+          180,
+          204
+        ]
+      ]
     },
     {
       "text": "Beowulf è il più importante poema epico della letteratura anglosassone, composto in inglese antico, quello che abbiamo già incontrato con il nome tecnico di Old English,",
       "speech": "Beowulf è il più importante poema epico della letteratura anglosassone, composto in inglese antico, quello che abbiamo già incontrato con il nome tecnico di Old English,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Beowulf è il più importante poema epico della letteratura anglosassone, composto in inglese antico, quello che abbiamo già incontrato con il nome tecnico di"
-        },
-        {
-          "lang": "en",
-          "text": "Old English,"
-        }
+      "bold": [
+        [
+          84,
+          98
+        ],
+        [
+          157,
+          168
+        ]
       ]
     },
     {
@@ -32,11 +42,23 @@
     },
     {
       "text": "L'autore è anonimo, e la datazione stessa dell'opera resta oggetto di discussione tra gli studiosi:",
-      "speech": "L'autore è anonimo, e la datazione stessa dell'opera resta oggetto di discussione tra gli studiosi:"
+      "speech": "L'autore è anonimo, e la datazione stessa dell'opera resta oggetto di discussione tra gli studiosi:",
+      "bold": [
+        [
+          2,
+          18
+        ]
+      ]
     },
     {
       "text": "si colloca probabilmente tra il settimo e il decimo secolo, un margine temporale piuttosto ampio che riflette proprio la difficoltà di stabilire con certezza l'origine di un testo tramandato,",
-      "speech": "si colloca probabilmente tra il settimo e il decimo secolo, un margine temporale piuttosto ampio che riflette proprio la difficoltà di stabilire con certezza l'origine di un testo tramandato,"
+      "speech": "si colloca probabilmente tra il settimo e il decimo secolo, un margine temporale piuttosto ampio che riflette proprio la difficoltà di stabilire con certezza l'origine di un testo tramandato,",
+      "bold": [
+        [
+          32,
+          58
+        ]
+      ]
     },
     {
       "text": "almeno inizialmente, in una cultura in cui la trasmissione orale aveva ancora un ruolo centrale.",
@@ -48,19 +70,51 @@
     },
     {
       "text": "Beowulf è un guerriero geata — i Geati erano un popolo scandinavo, stanziato nell'attuale Svezia meridionale — che compie una serie di imprese eroiche destinate a renderlo leggendario.",
-      "speech": "Beowulf è un guerriero geata — i Geati erano un popolo scandinavo, stanziato nell'attuale Svezia meridionale — che compie una serie di imprese eroiche destinate a renderlo leggendario."
+      "speech": "Beowulf è un guerriero geata — i Geati erano un popolo scandinavo, stanziato nell'attuale Svezia meridionale — che compie una serie di imprese eroiche destinate a renderlo leggendario.",
+      "bold": [
+        [
+          13,
+          28
+        ],
+        [
+          33,
+          38
+        ]
+      ]
     },
     {
       "text": "Nella prima parte del poema, ancora giovane, Beowulf attraversa il mare per aiutare Hrothgar, re dei Danesi, il cui grande salone reale è tormentato da un mostro terrificante, Grendel, che uccide e divora i guerrieri danesi durante la notte.",
-      "speech": "Nella prima parte del poema, ancora giovane, Beowulf attraversa il mare per aiutare Hrothgar, re dei Danesi, il cui grande salone reale è tormentato da un mostro terrificante, Grendel, che uccide e divora i guerrieri danesi durante la notte."
+      "speech": "Nella prima parte del poema, ancora giovane, Beowulf attraversa il mare per aiutare Hrothgar, re dei Danesi, il cui grande salone reale è tormentato da un mostro terrificante, Grendel, che uccide e divora i guerrieri danesi durante la notte.",
+      "bold": [
+        [
+          84,
+          92
+        ],
+        [
+          176,
+          183
+        ]
+      ]
     },
     {
       "text": "Beowulf affronta Grendel a mani nude, in un combattimento memorabile, e riesce a strappargli un braccio, ferita che si rivelerà mortale per il mostro.",
-      "speech": "Beowulf affronta Grendel a mani nude, in un combattimento memorabile, e riesce a strappargli un braccio, ferita che si rivelerà mortale per il mostro."
+      "speech": "Beowulf affronta Grendel a mani nude, in un combattimento memorabile, e riesce a strappargli un braccio, ferita che si rivelerà mortale per il mostro.",
+      "bold": [
+        [
+          25,
+          36
+        ]
+      ]
     },
     {
       "text": "Ma la vicenda non si conclude qui: la madre di Grendel, per vendicare il figlio ucciso, attacca a sua volta il salone reale,",
-      "speech": "Ma la vicenda non si conclude qui: la madre di Grendel, per vendicare il figlio ucciso, attacca a sua volta il salone reale,"
+      "speech": "Ma la vicenda non si conclude qui: la madre di Grendel, per vendicare il figlio ucciso, attacca a sua volta il salone reale,",
+      "bold": [
+        [
+          38,
+          54
+        ]
+      ]
     },
     {
       "text": "e Beowulf deve inseguirla fino alla sua tana sottomarina per sconfiggerla definitivamente, in un secondo, decisivo combattimento.",
@@ -72,7 +126,13 @@
     },
     {
       "text": "Beowulf, ormai anziano re dei Geati dopo un lungo e glorioso regno, deve affrontare un drago che minaccia il proprio popolo, dopo che un tesoro custodito dal mostro viene disturbato.",
-      "speech": "Beowulf, ormai anziano re dei Geati dopo un lungo e glorioso regno, deve affrontare un drago che minaccia il proprio popolo, dopo che un tesoro custodito dal mostro viene disturbato."
+      "speech": "Beowulf, ormai anziano re dei Geati dopo un lungo e glorioso regno, deve affrontare un drago che minaccia il proprio popolo, dopo che un tesoro custodito dal mostro viene disturbato.",
+      "bold": [
+        [
+          87,
+          92
+        ]
+      ]
     },
     {
       "text": "In questo scontro finale, Beowulf sconfigge il drago ma viene mortalmente ferito nel combattimento,",
@@ -88,15 +148,33 @@
     },
     {
       "text": "Beowulf è scritto in versi allitterativi, una tecnica metrica completamente diversa da quella che avete incontrato studiando la poesia italiana.",
-      "speech": "Beowulf è scritto in versi allitterativi, una tecnica metrica completamente diversa da quella che avete incontrato studiando la poesia italiana."
+      "speech": "Beowulf è scritto in versi allitterativi, una tecnica metrica completamente diversa da quella che avete incontrato studiando la poesia italiana.",
+      "bold": [
+        [
+          21,
+          40
+        ]
+      ]
     },
     {
       "text": "Mentre la poesia italiana, come avete visto in altri moduli, si basa tipicamente sulla rima e sul computo delle sillabe, i versi allitterativi anglosassoni sono privi di rima,",
-      "speech": "Mentre la poesia italiana, come avete visto in altri moduli, si basa tipicamente sulla rima e sul computo delle sillabe, i versi allitterativi anglosassoni sono privi di rima,"
+      "speech": "Mentre la poesia italiana, come avete visto in altri moduli, si basa tipicamente sulla rima e sul computo delle sillabe, i versi allitterativi anglosassoni sono privi di rima,",
+      "bold": [
+        [
+          87,
+          91
+        ]
+      ]
     },
     {
       "text": "ma legati tra loro dalla ripetizione dello stesso suono consonantico all'inizio di più parole accentate all'interno dello stesso verso:",
-      "speech": "ma legati tra loro dalla ripetizione dello stesso suono consonantico all'inizio di più parole accentate all'interno dello stesso verso:"
+      "speech": "ma legati tra loro dalla ripetizione dello stesso suono consonantico all'inizio di più parole accentate all'interno dello stesso verso:",
+      "bold": [
+        [
+          25,
+          68
+        ]
+      ]
     },
     {
       "text": "un effetto sonoro molto diverso dalla rima, ma altrettanto potente ai fini della memorizzazione e della recitazione orale del poema, in una tradizione che,",
@@ -112,28 +190,44 @@
     },
     {
       "text": "Beowulf riflette i valori tipici del mondo germanico pre-cristiano, come l'onore guerriero, la lealtà personale al proprio signore,",
-      "speech": "Beowulf riflette i valori tipici del mondo germanico pre-cristiano, come l'onore guerriero, la lealtà personale al proprio signore,"
+      "speech": "Beowulf riflette i valori tipici del mondo germanico pre-cristiano, come l'onore guerriero, la lealtà personale al proprio signore,",
+      "bold": [
+        [
+          37,
+          66
+        ],
+        [
+          75,
+          90
+        ],
+        [
+          95,
+          111
+        ]
+      ]
     },
     {
       "text": "e soprattutto il valore della fama eterna, cioè l'idea che un guerriero debba affrontare il pericolo,",
-      "speech": "e soprattutto il valore della fama eterna, cioè l'idea che un guerriero debba affrontare il pericolo,"
+      "speech": "e soprattutto il valore della fama eterna, cioè l'idea che un guerriero debba affrontare il pericolo,",
+      "bold": [
+        [
+          30,
+          41
+        ]
+      ]
     },
     {
       "text": "e persino la morte, pur di essere ricordato per le proprie imprese dalle generazioni future — un concetto che, se vi ricordate, avevamo già incontrato a proposito di Achille nell'Iliade,",
       "speech": "e persino la morte, pur di essere ricordato per le proprie imprese dalle generazioni future — un concetto che, se vi ricordate, avevamo già incontrato a proposito di Achille nell'Iliade,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e persino la morte, pur di essere ricordato per le proprie imprese dalle generazioni"
-        },
-        {
-          "lang": "en",
-          "text": "future —"
-        },
-        {
-          "lang": "it",
-          "text": "un concetto che, se vi ricordate, avevamo già incontrato a proposito di Achille nell'Iliade,"
-        }
+      "bold": [
+        [
+          85,
+          91
+        ],
+        [
+          166,
+          185
+        ]
       ]
     },
     {
@@ -142,7 +236,13 @@
     },
     {
       "text": "Allo stesso tempo, però, il poema riflette anche una sensibilità già in parte cristianizzata:",
-      "speech": "Allo stesso tempo, però, il poema riflette anche una sensibilità già in parte cristianizzata:"
+      "speech": "Allo stesso tempo, però, il poema riflette anche una sensibilità già in parte cristianizzata:",
+      "bold": [
+        [
+          78,
+          92
+        ]
+      ]
     },
     {
       "text": "l'autore anonimo, pur raccontando un mondo pagano di guerrieri e di mostri, inserisce riferimenti e sfumature morali che riflettono la fede cristiana ormai diffusa in Inghilterra al momento della composizione scritta del poema,",
@@ -159,32 +259,66 @@
     {
       "text": "Primo: Beowulf è il più importante poema epico anglosassone, composto in Old English da un autore anonimo tra il settimo e il decimo secolo.",
       "speech": "Primo: Beowulf è il più importante poema epico anglosassone, composto in Old English da un autore anonimo tra il settimo e il decimo secolo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo: Beowulf è il più importante poema epico anglosassone, composto in"
-        },
-        {
-          "lang": "en",
-          "text": "Old English"
-        },
-        {
-          "lang": "it",
-          "text": "da un autore anonimo tra il settimo e il decimo secolo."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          73,
+          84
+        ],
+        [
+          98,
+          105
+        ]
       ]
     },
     {
       "text": "Secondo: la trama segue le tre grandi imprese eroiche di Beowulf — la sconfitta di Grendel, quella della madre di Grendel, e infine lo scontro finale, fatale, contro un drago.",
-      "speech": "Secondo: la trama segue le tre grandi imprese eroiche di Beowulf — la sconfitta di Grendel, quella della madre di Grendel, e infine lo scontro finale, fatale, contro un drago."
+      "speech": "Secondo: la trama segue le tre grandi imprese eroiche di Beowulf — la sconfitta di Grendel, quella della madre di Grendel, e infine lo scontro finale, fatale, contro un drago.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          83,
+          90
+        ],
+        [
+          169,
+          174
+        ]
+      ]
     },
     {
       "text": "Terzo: il poema è scritto in versi allitterativi, legati dalla ripetizione di suoni consonantici anziché dalla rima.",
-      "speech": "Terzo: il poema è scritto in versi allitterativi, legati dalla ripetizione di suoni consonantici anziché dalla rima."
+      "speech": "Terzo: il poema è scritto in versi allitterativi, legati dalla ripetizione di suoni consonantici anziché dalla rima.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          29,
+          48
+        ]
+      ]
     },
     {
       "text": "Quarto: Beowulf riflette i valori del mondo germanico pre-cristiano — onore, lealtà, fama eterna — filtrati attraverso una sensibilità già in parte cristianizzata.",
-      "speech": "Quarto: Beowulf riflette i valori del mondo germanico pre-cristiano — onore, lealtà, fama eterna — filtrati attraverso una sensibilità già in parte cristianizzata."
+      "speech": "Quarto: Beowulf riflette i valori del mondo germanico pre-cristiano — onore, lealtà, fama eterna — filtrati attraverso una sensibilità già in parte cristianizzata.",
+      "bold": [
+        [
+          0,
+          6
+        ],
+        [
+          70,
+          96
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio restiamo nella letteratura medievale, ma cambiamo genere:",
@@ -193,23 +327,15 @@
     {
       "text": "vedremo le ballate popolari, con l'esempio di Lord Randal, e la grande opera di Geoffrey Chaucer, i Racconti di Canterbury.",
       "speech": "vedremo le ballate popolari, con l'esempio di Lord Randal, e la grande opera di Geoffrey Chaucer, i Racconti di Canterbury.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "vedremo le ballate popolari, con l'esempio di"
-        },
-        {
-          "lang": "en",
-          "text": "Lord Randal,"
-        },
-        {
-          "lang": "it",
-          "text": "e la grande opera di Geoffrey Chaucer, i Racconti di"
-        },
-        {
-          "lang": "en",
-          "text": "Canterbury."
-        }
+      "bold": [
+        [
+          46,
+          57
+        ],
+        [
+          112,
+          122
+        ]
       ]
     },
     {

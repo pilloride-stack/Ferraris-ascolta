@@ -14,15 +14,37 @@
     },
     {
       "text": "Lo sconto è il compenso che spetta a chi anticipa il pagamento di un debito rispetto alla scadenza pattuita,",
-      "speech": "Lo sconto è il compenso che spetta a chi anticipa il pagamento di un debito rispetto alla scadenza pattuita,"
+      "speech": "Lo sconto è il compenso che spetta a chi anticipa il pagamento di un debito rispetto alla scadenza pattuita,",
+      "bold": [
+        [
+          3,
+          9
+        ]
+      ]
     },
     {
       "text": "oppure a chi richiede la liquidità immediata di un credito non ancora scaduto, per esempio smobilizzando presso una banca una cambiale ricevuta da un cliente, un'operazione detta sconto cambiario o sconto bancario.",
-      "speech": "oppure a chi richiede la liquidità immediata di un credito non ancora scaduto, per esempio smobilizzando presso una banca una cambiale ricevuta da un cliente, un'operazione detta sconto cambiario o sconto bancario."
+      "speech": "oppure a chi richiede la liquidità immediata di un credito non ancora scaduto, per esempio smobilizzando presso una banca una cambiale ricevuta da un cliente, un'operazione detta sconto cambiario o sconto bancario.",
+      "bold": [
+        [
+          179,
+          195
+        ]
+      ]
     },
     {
       "text": "Lo sconto commerciale si calcola in modo analogo all'interesse, ma applicando la formula al valore nominale del credito anziché al capitale iniziale:",
-      "speech": "Lo sconto commerciale si calcola in modo analogo all'interesse, ma applicando la formula al valore nominale del credito anziché al capitale iniziale:"
+      "speech": "Lo sconto commerciale si calcola in modo analogo all'interesse, ma applicando la formula al valore nominale del credito anziché al capitale iniziale:",
+      "bold": [
+        [
+          3,
+          21
+        ],
+        [
+          92,
+          107
+        ]
+      ]
     },
     {
       "text": "sconto uguale valore nominale per tasso per tempo, diviso cento.",
@@ -30,7 +52,13 @@
     },
     {
       "text": "Il valore attuale, cioè la somma effettivamente incassata anticipatamente, si ottiene sottraendo lo sconto dal valore nominale.",
-      "speech": "Il valore attuale, cioè la somma effettivamente incassata anticipatamente, si ottiene sottraendo lo sconto dal valore nominale."
+      "speech": "Il valore attuale, cioè la somma effettivamente incassata anticipatamente, si ottiene sottraendo lo sconto dal valore nominale.",
+      "bold": [
+        [
+          3,
+          17
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo parallelismo con l'interesse visto nell'episodio scorso, perché è la chiave per non confondersi:",
@@ -42,7 +70,13 @@
     },
     {
       "text": "e il fatto che alla fine si sottrae, anziché sommare come nel montante, per ottenere il valore attuale.",
-      "speech": "e il fatto che alla fine si sottrae, anziché sommare come nel montante, per ottenere il valore attuale."
+      "speech": "e il fatto che alla fine si sottrae, anziché sommare come nel montante, per ottenere il valore attuale.",
+      "bold": [
+        [
+          25,
+          35
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, un esempio svolto: un'azienda presenta in banca per lo sconto una cambiale con valore nominale di cinquemila euro, in scadenza tra novanta giorni,",
@@ -86,7 +120,13 @@
     },
     {
       "text": "Passiamo ora a un'operazione più articolata: l'unificazione di più capitali,",
-      "speech": "Passiamo ora a un'operazione più articolata: l'unificazione di più capitali,"
+      "speech": "Passiamo ora a un'operazione più articolata: l'unificazione di più capitali,",
+      "bold": [
+        [
+          47,
+          75
+        ]
+      ]
     },
     {
       "text": "cioè l'operazione finanziaria con cui più capitali, disponibili o esigibili a scadenze diverse, vengono sostituiti con un unico capitale equivalente,",
@@ -94,11 +134,23 @@
     },
     {
       "text": "esigibile a una data comune, detta epoca di unificazione, in modo tale che il nuovo capitale unico produca lo stesso effetto economico dei capitali originari.",
-      "speech": "esigibile a una data comune, detta epoca di unificazione, in modo tale che il nuovo capitale unico produca lo stesso effetto economico dei capitali originari."
+      "speech": "esigibile a una data comune, detta epoca di unificazione, in modo tale che il nuovo capitale unico produca lo stesso effetto economico dei capitali originari.",
+      "bold": [
+        [
+          35,
+          56
+        ]
+      ]
     },
     {
       "text": "L'operazione inversa, la suddivisione, consiste invece nel sostituire un unico capitale con più capitali di importo prestabilito, esigibili a scadenze diverse, anch'essi finanziariamente equivalenti al capitale di partenza.",
-      "speech": "L'operazione inversa, la suddivisione, consiste invece nel sostituire un unico capitale con più capitali di importo prestabilito, esigibili a scadenze diverse, anch'essi finanziariamente equivalenti al capitale di partenza."
+      "speech": "L'operazione inversa, la suddivisione, consiste invece nel sostituire un unico capitale con più capitali di importo prestabilito, esigibili a scadenze diverse, anch'essi finanziariamente equivalenti al capitale di partenza.",
+      "bold": [
+        [
+          25,
+          37
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento sul principio che regge entrambe queste operazioni, perché è più importante del singolo calcolo numerico:",
@@ -106,7 +158,13 @@
     },
     {
       "text": "sia nell'unificazione sia nella suddivisione, la somma degli interessi, o degli sconti, di spostamento deve lasciare inalterato il valore finanziario complessivo dei capitali coinvolti.",
-      "speech": "sia nell'unificazione sia nella suddivisione, la somma degli interessi, o degli sconti, di spostamento deve lasciare inalterato il valore finanziario complessivo dei capitali coinvolti."
+      "speech": "sia nell'unificazione sia nella suddivisione, la somma degli interessi, o degli sconti, di spostamento deve lasciare inalterato il valore finanziario complessivo dei capitali coinvolti.",
+      "bold": [
+        [
+          131,
+          161
+        ]
+      ]
     },
     {
       "text": "Se un'azienda deve incassare tremila euro tra trenta giorni e duemila euro tra novanta giorni,",
@@ -126,15 +184,53 @@
     },
     {
       "text": "Primo: lo sconto si calcola come l'interesse ma sul valore nominale del credito, e il valore attuale si ottiene sottraendo lo sconto dal valore nominale.",
-      "speech": "Primo: lo sconto si calcola come l'interesse ma sul valore nominale del credito, e il valore attuale si ottiene sottraendo lo sconto dal valore nominale."
+      "speech": "Primo: lo sconto si calcola come l'interesse ma sul valore nominale del credito, e il valore attuale si ottiene sottraendo lo sconto dal valore nominale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          52,
+          67
+        ],
+        [
+          86,
+          100
+        ]
+      ]
     },
     {
       "text": "Secondo: l'unificazione sostituisce più capitali con uno equivalente a scadenza comune, la suddivisione fa l'operazione inversa.",
-      "speech": "Secondo: l'unificazione sostituisce più capitali con uno equivalente a scadenza comune, la suddivisione fa l'operazione inversa."
+      "speech": "Secondo: l'unificazione sostituisce più capitali con uno equivalente a scadenza comune, la suddivisione fa l'operazione inversa.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          11,
+          23
+        ],
+        [
+          91,
+          103
+        ]
+      ]
     },
     {
       "text": "Terzo: in entrambe le operazioni, la somma degli interessi o sconti di spostamento deve lasciare inalterato il valore finanziario complessivo.",
-      "speech": "Terzo: in entrambe le operazioni, la somma degli interessi o sconti di spostamento deve lasciare inalterato il valore finanziario complessivo."
+      "speech": "Terzo: in entrambe le operazioni, la somma degli interessi o sconti di spostamento deve lasciare inalterato il valore finanziario complessivo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          97,
+          141
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero primo modulo.",

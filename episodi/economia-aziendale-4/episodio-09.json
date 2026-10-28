@@ -14,7 +14,17 @@
     },
     {
       "text": "Il mercato dei cambi è il mercato in cui si scambiano valute di paesi diversi, e in cui si determina il tasso di cambio, cioè il rapporto di conversione tra due valute:",
-      "speech": "Il mercato dei cambi è il mercato in cui si scambiano valute di paesi diversi, e in cui si determina il tasso di cambio, cioè il rapporto di conversione tra due valute:"
+      "speech": "Il mercato dei cambi è il mercato in cui si scambiano valute di paesi diversi, e in cui si determina il tasso di cambio, cioè il rapporto di conversione tra due valute:",
+      "bold": [
+        [
+          3,
+          20
+        ],
+        [
+          104,
+          119
+        ]
+      ]
     },
     {
       "text": "per esempio, quante unità di dollaro statunitense sono necessarie per acquistare un euro.",
@@ -22,11 +32,31 @@
     },
     {
       "text": "Nei regimi di cambio flessibile, come quello adottato dall'euro nei confronti delle principali valute, il tasso di cambio si forma liberamente in base all'incontro tra domanda e offerta sul mercato interbancario dei cambi.",
-      "speech": "Nei regimi di cambio flessibile, come quello adottato dall'euro nei confronti delle principali valute, il tasso di cambio si forma liberamente in base all'incontro tra domanda e offerta sul mercato interbancario dei cambi."
+      "speech": "Nei regimi di cambio flessibile, come quello adottato dall'euro nei confronti delle principali valute, il tasso di cambio si forma liberamente in base all'incontro tra domanda e offerta sul mercato interbancario dei cambi.",
+      "bold": [
+        [
+          14,
+          31
+        ],
+        [
+          190,
+          221
+        ]
+      ]
     },
     {
       "text": "In un regime di cambio fisso, invece, la banca centrale interviene per mantenere il cambio entro margini prestabiliti.",
-      "speech": "In un regime di cambio fisso, invece, la banca centrale interviene per mantenere il cambio entro margini prestabiliti."
+      "speech": "In un regime di cambio fisso, invece, la banca centrale interviene per mantenere il cambio entro margini prestabiliti.",
+      "bold": [
+        [
+          16,
+          28
+        ],
+        [
+          41,
+          55
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa distinzione tra regime flessibile e regime fisso, perché ha conseguenze pratiche importanti per le aziende che commerciano con l'estero:",
@@ -34,7 +64,13 @@
     },
     {
       "text": "in un regime flessibile, come quello dell'euro, il valore della propria valuta rispetto alle altre può oscillare liberamente giorno per giorno, esponendo le aziende esportatrici e importatrici a un rischio di cambio,",
-      "speech": "in un regime flessibile, come quello dell'euro, il valore della propria valuta rispetto alle altre può oscillare liberamente giorno per giorno, esponendo le aziende esportatrici e importatrici a un rischio di cambio,"
+      "speech": "in un regime flessibile, come quello dell'euro, il valore della propria valuta rispetto alle altre può oscillare liberamente giorno per giorno, esponendo le aziende esportatrici e importatrici a un rischio di cambio,",
+      "bold": [
+        [
+          198,
+          215
+        ]
+      ]
     },
     {
       "text": "cioè al rischio che una variazione del tasso di cambio modifichi, in positivo o in negativo, il valore in valuta nazionale di un'operazione concordata in valuta estera.",
@@ -54,7 +90,13 @@
     },
     {
       "text": "L'importo in euro si ottiene dividendo l'importo in dollari per il cambio euro dollaro: dodicimila diviso uno virgola zero otto, cioè circa undicimilacentoundici euro e undici centesimi.",
-      "speech": "L'importo in euro si ottiene dividendo l'importo in dollari per il cambio euro dollaro: dodicimila diviso uno virgola zero otto, cioè circa undicimilacentoundici euro e undici centesimi."
+      "speech": "L'importo in euro si ottiene dividendo l'importo in dollari per il cambio euro dollaro: dodicimila diviso uno virgola zero otto, cioè circa undicimilacentoundici euro e undici centesimi.",
+      "bold": [
+        [
+          41,
+          59
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se il giorno del pagamento il cambio euro dollaro fosse invece salito a uno virgola dodici,",
@@ -70,7 +112,13 @@
     },
     {
       "text": "Questo accade perché, se un euro vale di più in dollari, servono meno euro per ottenere lo stesso numero di dollari necessari a pagare la fornitura:",
-      "speech": "Questo accade perché, se un euro vale di più in dollari, servono meno euro per ottenere lo stesso numero di dollari necessari a pagare la fornitura:"
+      "speech": "Questo accade perché, se un euro vale di più in dollari, servono meno euro per ottenere lo stesso numero di dollari necessari a pagare la fornitura:",
+      "bold": [
+        [
+          65,
+          74
+        ]
+      ]
     },
     {
       "text": "è esattamente questo il rischio, o l'opportunità, di cambio a cui è esposta un'azienda che opera con valute estere.",
@@ -82,19 +130,55 @@
     },
     {
       "text": "Primo: il mercato dei cambi determina il tasso di cambio, il rapporto di conversione tra due valute.",
-      "speech": "Primo: il mercato dei cambi determina il tasso di cambio, il rapporto di conversione tra due valute."
+      "speech": "Primo: il mercato dei cambi determina il tasso di cambio, il rapporto di conversione tra due valute.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          41,
+          56
+        ]
+      ]
     },
     {
       "text": "Secondo: nei regimi di cambio flessibile, come quello dell'euro, il tasso si forma liberamente da domanda e offerta;",
-      "speech": "Secondo: nei regimi di cambio flessibile, come quello dell'euro, il tasso si forma liberamente da domanda e offerta;"
+      "speech": "Secondo: nei regimi di cambio flessibile, come quello dell'euro, il tasso si forma liberamente da domanda e offerta;",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          23,
+          40
+        ]
+      ]
     },
     {
       "text": "in un regime fisso, la banca centrale interviene per mantenerlo entro margini prestabiliti.",
-      "speech": "in un regime fisso, la banca centrale interviene per mantenerlo entro margini prestabiliti."
+      "speech": "in un regime fisso, la banca centrale interviene per mantenerlo entro margini prestabiliti.",
+      "bold": [
+        [
+          6,
+          18
+        ]
+      ]
     },
     {
       "text": "Terzo: le variazioni del tasso di cambio espongono le aziende che operano con valute estere a un rischio di cambio, che può tradursi in un vantaggio o in uno svantaggio.",
-      "speech": "Terzo: le variazioni del tasso di cambio espongono le aziende che operano con valute estere a un rischio di cambio, che può tradursi in un vantaggio o in uno svantaggio."
+      "speech": "Terzo: le variazioni del tasso di cambio espongono le aziende che operano con valute estere a un rischio di cambio, che può tradursi in un vantaggio o in uno svantaggio.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          97,
+          114
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato la quarta unità della dispensa.",

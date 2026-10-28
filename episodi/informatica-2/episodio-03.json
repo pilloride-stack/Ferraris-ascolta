@@ -14,7 +14,13 @@
     },
     {
       "text": "Il diritto informatico è l'insieme delle norme giuridiche che regolano i rapporti riguardanti l'uso delle tecnologie dell'informazione e della comunicazione.",
-      "speech": "Il diritto informatico è l'insieme delle norme giuridiche che regolano i rapporti riguardanti l'uso delle tecnologie dell'informazione e della comunicazione."
+      "speech": "Il diritto informatico è l'insieme delle norme giuridiche che regolano i rapporti riguardanti l'uso delle tecnologie dell'informazione e della comunicazione.",
+      "bold": [
+        [
+          3,
+          22
+        ]
+      ]
     },
     {
       "text": "È un argomento che tocca ambiti molto diversi tra loro, ed è utile conoscerli distintamente, perché un commissario potrebbe chiedervene uno specifico.",
@@ -22,19 +28,51 @@
     },
     {
       "text": "Il primo ambito è la proprietà intellettuale, cioè il diritto d'autore applicato ai contenuti digitali, come software, musica e video.",
-      "speech": "Il primo ambito è la proprietà intellettuale, cioè il diritto d'autore applicato ai contenuti digitali, come software, musica e video."
+      "speech": "Il primo ambito è la proprietà intellettuale, cioè il diritto d'autore applicato ai contenuti digitali, come software, musica e video.",
+      "bold": [
+        [
+          21,
+          44
+        ]
+      ]
     },
     {
       "text": "Il secondo è la protezione dei dati personali, in Europa disciplinata dal Regolamento generale sulla protezione dei dati, il GDPR.",
-      "speech": "Il secondo è la protezione dei dati personali, in Europa disciplinata dal Regolamento generale sulla protezione dei dati, il GDPR."
+      "speech": "Il secondo è la protezione dei dati personali, in Europa disciplinata dal Regolamento generale sulla protezione dei dati, il GDPR.",
+      "bold": [
+        [
+          16,
+          45
+        ],
+        [
+          125,
+          129
+        ]
+      ]
     },
     {
       "text": "Il terzo sono i reati informatici, il cosiddetto cybercrime, che comprende per esempio l'accesso abusivo a sistemi informatici, la diffusione di virus o il furto di identità digitale.",
-      "speech": "Il terzo sono i reati informatici, il cosiddetto cybercrime, che comprende per esempio l'accesso abusivo a sistemi informatici, la diffusione di virus o il furto di identità digitale."
+      "speech": "Il terzo sono i reati informatici, il cosiddetto cybercrime, che comprende per esempio l'accesso abusivo a sistemi informatici, la diffusione di virus o il furto di identità digitale.",
+      "bold": [
+        [
+          16,
+          33
+        ],
+        [
+          49,
+          59
+        ]
+      ]
     },
     {
       "text": "Il quarto è la regolamentazione del commercio elettronico e della firma digitale, che attribuisce valore legale ai documenti informatici.",
-      "speech": "Il quarto è la regolamentazione del commercio elettronico e della firma digitale, che attribuisce valore legale ai documenti informatici."
+      "speech": "Il quarto è la regolamentazione del commercio elettronico e della firma digitale, che attribuisce valore legale ai documenti informatici.",
+      "bold": [
+        [
+          66,
+          80
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questi quattro ambiti, perché è facile confonderli tra loro se non li tenete ben distinti:",
@@ -66,19 +104,55 @@
     },
     {
       "text": "Ogni scambio di dati in rete avviene secondo il modello client-server:",
-      "speech": "Ogni scambio di dati in rete avviene secondo il modello client-server:"
+      "speech": "Ogni scambio di dati in rete avviene secondo il modello client-server:",
+      "bold": [
+        [
+          48,
+          69
+        ]
+      ]
     },
     {
       "text": "il client, per esempio il browser installato sul dispositivo dell'utente, invia una richiesta a un server, che elabora la richiesta e restituisce una risposta.",
-      "speech": "il client, per esempio il browser installato sul dispositivo dell'utente, invia una richiesta a un server, che elabora la richiesta e restituisce una risposta."
+      "speech": "il client, per esempio il browser installato sul dispositivo dell'utente, invia una richiesta a un server, che elabora la richiesta e restituisce una risposta.",
+      "bold": [
+        [
+          3,
+          9
+        ],
+        [
+          99,
+          105
+        ]
+      ]
     },
     {
       "text": "I dati trasmessi vengono suddivisi in pacchetti, ciascuno instradato indipendentemente attraverso la rete e poi ricomposto a destinazione, esattamente secondo la logica del protocollo TCP/IP che abbiamo incontrato nel primo episodio di questo modulo.",
-      "speech": "I dati trasmessi vengono suddivisi in pacchetti, ciascuno instradato indipendentemente attraverso la rete e poi ricomposto a destinazione, esattamente secondo la logica del protocollo TCP, IP che abbiamo incontrato nel primo episodio di questo modulo."
+      "speech": "I dati trasmessi vengono suddivisi in pacchetti, ciascuno instradato indipendentemente attraverso la rete e poi ricomposto a destinazione, esattamente secondo la logica del protocollo TCP, IP che abbiamo incontrato nel primo episodio di questo modulo.",
+      "bold": [
+        [
+          38,
+          47
+        ],
+        [
+          184,
+          190
+        ]
+      ]
     },
     {
       "text": "L'operazione di trasferimento di un file dal server al dispositivo dell'utente si chiama download; l'operazione inversa, dal dispositivo dell'utente verso il server, si chiama upload.",
-      "speech": "L'operazione di trasferimento di un file dal server al dispositivo dell'utente si chiama download; l'operazione inversa, dal dispositivo dell'utente verso il server, si chiama upload."
+      "speech": "L'operazione di trasferimento di un file dal server al dispositivo dell'utente si chiama download; l'operazione inversa, dal dispositivo dell'utente verso il server, si chiama upload.",
+      "bold": [
+        [
+          89,
+          97
+        ],
+        [
+          176,
+          182
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento anche su questo modello, perché è talmente scontato nell'uso quotidiano da rischiare di non essere mai spiegato esplicitamente:",
@@ -118,15 +192,49 @@
     },
     {
       "text": "Primo: il diritto informatico disciplina quattro ambiti distinti, proprietà intellettuale, protezione dei dati personali con il GDPR, reati informatici e commercio elettronico con la firma digitale.",
-      "speech": "Primo: il diritto informatico disciplina quattro ambiti distinti, proprietà intellettuale, protezione dei dati personali con il GDPR, reati informatici e commercio elettronico con la firma digitale."
+      "speech": "Primo: il diritto informatico disciplina quattro ambiti distinti, proprietà intellettuale, protezione dei dati personali con il GDPR, reati informatici e commercio elettronico con la firma digitale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          41,
+          64
+        ]
+      ]
     },
     {
       "text": "Secondo: lo scambio di dati in rete segue il modello client-server, con il client che invia richieste e il server che le elabora e risponde.",
-      "speech": "Secondo: lo scambio di dati in rete segue il modello client-server, con il client che invia richieste e il server che le elabora e risponde."
+      "speech": "Secondo: lo scambio di dati in rete segue il modello client-server, con il client che invia richieste e il server che le elabora e risponde.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          45,
+          66
+        ]
+      ]
     },
     {
       "text": "Terzo: il download è il trasferimento di dati dal server al dispositivo dell'utente, l'upload è l'operazione inversa.",
-      "speech": "Terzo: il download è il trasferimento di dati dal server al dispositivo dell'utente, l'upload è l'operazione inversa."
+      "speech": "Terzo: il download è il trasferimento di dati dal server al dispositivo dell'utente, l'upload è l'operazione inversa.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          87,
+          93
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo come si naviga concretamente in rete, che cos'è un URL, e come funzionano i motori di ricerca.",

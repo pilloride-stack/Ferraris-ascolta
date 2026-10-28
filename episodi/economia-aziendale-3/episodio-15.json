@@ -18,15 +18,37 @@
     },
     {
       "text": "Perché l'azienda può essere definita un sistema aperto, dinamico e probabilistico?",
-      "speech": "Perché l'azienda può essere definita un sistema aperto, dinamico e probabilistico?"
+      "speech": "Perché l'azienda può essere definita un sistema aperto, dinamico e probabilistico?",
+      "bold": [
+        [
+          40,
+          81
+        ]
+      ]
     },
     {
       "text": "È aperta perché scambia continuamente risorse, informazioni e prodotti con l'ambiente esterno; è dinamica perché si evolve e si trasforma nel tempo per adattarsi ai cambiamenti;",
-      "speech": "È aperta perché scambia continuamente risorse, informazioni e prodotti con l'ambiente esterno; è dinamica perché si evolve e si trasforma nel tempo per adattarsi ai cambiamenti;"
+      "speech": "È aperta perché scambia continuamente risorse, informazioni e prodotti con l'ambiente esterno; è dinamica perché si evolve e si trasforma nel tempo per adattarsi ai cambiamenti;",
+      "bold": [
+        [
+          2,
+          8
+        ],
+        [
+          97,
+          105
+        ]
+      ]
     },
     {
       "text": "è probabilistica perché opera in condizioni di incertezza sul verificarsi degli eventi futuri.",
-      "speech": "è probabilistica perché opera in condizioni di incertezza sul verificarsi degli eventi futuri."
+      "speech": "è probabilistica perché opera in condizioni di incertezza sul verificarsi degli eventi futuri.",
+      "bold": [
+        [
+          2,
+          16
+        ]
+      ]
     },
     {
       "text": "Quali sono gli elementi del sistema organizzato azienda?",
@@ -34,11 +56,31 @@
     },
     {
       "text": "Sono i soggetti, le persone che vi operano, i beni, le risorse materiali e immateriali impiegate, le operazioni, le attività e relazioni svolte,",
-      "speech": "Sono i soggetti, le persone che vi operano, i beni, le risorse materiali e immateriali impiegate, le operazioni, le attività e relazioni svolte,"
+      "speech": "Sono i soggetti, le persone che vi operano, i beni, le risorse materiali e immateriali impiegate, le operazioni, le attività e relazioni svolte,",
+      "bold": [
+        [
+          7,
+          15
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          101,
+          111
+        ]
+      ]
     },
     {
       "text": "e le regole organizzative, che disciplinano come questi elementi si combinano tra loro.",
-      "speech": "e le regole organizzative, che disciplinano come questi elementi si combinano tra loro."
+      "speech": "e le regole organizzative, che disciplinano come questi elementi si combinano tra loro.",
+      "bold": [
+        [
+          5,
+          25
+        ]
+      ]
     },
     {
       "text": "Passiamo al secondo modulo, dedicato alla gestione tra patrimonio e reddito.",
@@ -50,15 +92,45 @@
     },
     {
       "text": "Sono la gestione caratteristica, l'attività tipica di acquisto, produzione e vendita, la gestione accessoria, operazioni collaterali non essenziali,",
-      "speech": "Sono la gestione caratteristica, l'attività tipica di acquisto, produzione e vendita, la gestione accessoria, operazioni collaterali non essenziali,"
+      "speech": "Sono la gestione caratteristica, l'attività tipica di acquisto, produzione e vendita, la gestione accessoria, operazioni collaterali non essenziali,",
+      "bold": [
+        [
+          8,
+          31
+        ],
+        [
+          89,
+          108
+        ]
+      ]
     },
     {
       "text": "la gestione finanziaria, i rapporti con i finanziatori, e la gestione straordinaria, le operazioni non ricorrenti.",
-      "speech": "la gestione finanziaria, i rapporti con i finanziatori, e la gestione straordinaria, le operazioni non ricorrenti."
+      "speech": "la gestione finanziaria, i rapporti con i finanziatori, e la gestione straordinaria, le operazioni non ricorrenti.",
+      "bold": [
+        [
+          3,
+          23
+        ],
+        [
+          61,
+          83
+        ]
+      ]
     },
     {
       "text": "Che cos'è il patrimonio lordo e come si distingue dal patrimonio netto?",
-      "speech": "Che cosa è il patrimonio lordo e come si distingue dal patrimonio netto?"
+      "speech": "Che cosa è il patrimonio lordo e come si distingue dal patrimonio netto?",
+      "bold": [
+        [
+          13,
+          29
+        ],
+        [
+          54,
+          70
+        ]
+      ]
     },
     {
       "text": "Fai un esempio.",
@@ -66,7 +138,17 @@
     },
     {
       "text": "Il patrimonio lordo è il totale delle attività, senza considerare i debiti; il patrimonio netto è la differenza tra attività e passività.",
-      "speech": "Il patrimonio lordo è il totale delle attività, senza considerare i debiti; il patrimonio netto è la differenza tra attività e passività."
+      "speech": "Il patrimonio lordo è il totale delle attività, senza considerare i debiti; il patrimonio netto è la differenza tra attività e passività.",
+      "bold": [
+        [
+          25,
+          46
+        ],
+        [
+          101,
+          136
+        ]
+      ]
     },
     {
       "text": "Per esempio, attività per centottantamila euro e passività per ottantaduemila euro danno un patrimonio netto di novantottomila euro.",
@@ -74,11 +156,23 @@
     },
     {
       "text": "Che cos'è un deficit patrimoniale?",
-      "speech": "Che cosa è un deficit patrimoniale?"
+      "speech": "Che cosa è un deficit patrimoniale?",
+      "bold": [
+        [
+          13,
+          33
+        ]
+      ]
     },
     {
       "text": "È la situazione in cui le passività superano le attività, rendendo il patrimonio netto negativo, e quindi il capitale proprio dell'imprenditore interamente eroso.",
-      "speech": "È la situazione in cui le passività superano le attività, rendendo il patrimonio netto negativo, e quindi il capitale proprio dell'imprenditore interamente eroso."
+      "speech": "È la situazione in cui le passività superano le attività, rendendo il patrimonio netto negativo, e quindi il capitale proprio dell'imprenditore interamente eroso.",
+      "bold": [
+        [
+          26,
+          56
+        ]
+      ]
     },
     {
       "text": "Che differenza c'è tra manifestazione finanziaria e competenza economica di un costo o ricavo?",
@@ -86,11 +180,23 @@
     },
     {
       "text": "La manifestazione finanziaria è il momento in cui si genera un'entrata o un'uscita di denaro, o un credito o un debito;",
-      "speech": "La manifestazione finanziaria è il momento in cui si genera un'entrata o un'uscita di denaro, o un credito o un debito;"
+      "speech": "La manifestazione finanziaria è il momento in cui si genera un'entrata o un'uscita di denaro, o un credito o un debito;",
+      "bold": [
+        [
+          3,
+          29
+        ]
+      ]
     },
     {
       "text": "la competenza economica è il periodo amministrativo a cui il costo o il ricavo si riferisce effettivamente, e i due momenti possono non coincidere.",
-      "speech": "la competenza economica è il periodo amministrativo a cui il costo o il ricavo si riferisce effettivamente, e i due momenti possono non coincidere."
+      "speech": "la competenza economica è il periodo amministrativo a cui il costo o il ricavo si riferisce effettivamente, e i due momenti possono non coincidere.",
+      "bold": [
+        [
+          3,
+          23
+        ]
+      ]
     },
     {
       "text": "Che cos'è il reddito d'esercizio e come si distingue dal reddito globale?",
@@ -98,11 +204,23 @@
     },
     {
       "text": "Il reddito d'esercizio è la variazione del patrimonio netto dovuta alla gestione di un determinato periodo amministrativo;",
-      "speech": "Il reddito d'esercizio è la variazione del patrimonio netto dovuta alla gestione di un determinato periodo amministrativo;"
+      "speech": "Il reddito d'esercizio è la variazione del patrimonio netto dovuta alla gestione di un determinato periodo amministrativo;",
+      "bold": [
+        [
+          3,
+          22
+        ]
+      ]
     },
     {
       "text": "il reddito globale è invece il risultato economico complessivo dell'intera vita dell'azienda, conoscibile con certezza solo alla sua cessazione.",
-      "speech": "il reddito globale è invece il risultato economico complessivo dell'intera vita dell'azienda, conoscibile con certezza solo alla sua cessazione."
+      "speech": "il reddito globale è invece il risultato economico complessivo dell'intera vita dell'azienda, conoscibile con certezza solo alla sua cessazione.",
+      "bold": [
+        [
+          3,
+          18
+        ]
+      ]
     },
     {
       "text": "Passiamo al terzo modulo, dedicato al sistema informativo aziendale.",
@@ -114,11 +232,27 @@
     },
     {
       "text": "Le scritture elementari registrano una singola operazione così come si è manifestata, come una fattura;",
-      "speech": "Le scritture elementari registrano una singola operazione così come si è manifestata, come una fattura;"
+      "speech": "Le scritture elementari registrano una singola operazione così come si è manifestata, come una fattura;",
+      "bold": [
+        [
+          3,
+          23
+        ]
+      ]
     },
     {
       "text": "le scritture complesse rielaborano i dati per ottenere informazioni più articolate, come il libro giornale.",
-      "speech": "le scritture complesse rielaborano i dati per ottenere informazioni più articolate, come il libro giornale."
+      "speech": "le scritture complesse rielaborano i dati per ottenere informazioni più articolate, come il libro giornale.",
+      "bold": [
+        [
+          3,
+          22
+        ],
+        [
+          92,
+          106
+        ]
+      ]
     },
     {
       "text": "In che cosa consiste il metodo della partita doppia?",
@@ -126,7 +260,21 @@
     },
     {
       "text": "Consiste nel registrare ogni operazione simultaneamente in almeno due conti, uno in Dare e uno in Avere, per lo stesso importo, controllando così sia l'aspetto finanziario sia l'aspetto economico dell'operazione.",
-      "speech": "Consiste nel registrare ogni operazione simultaneamente in almeno due conti, uno in Dare e uno in Avere, per lo stesso importo, controllando così sia l'aspetto finanziario sia l'aspetto economico dell'operazione."
+      "speech": "Consiste nel registrare ogni operazione simultaneamente in almeno due conti, uno in Dare e uno in Avere, per lo stesso importo, controllando così sia l'aspetto finanziario sia l'aspetto economico dell'operazione.",
+      "bold": [
+        [
+          59,
+          75
+        ],
+        [
+          84,
+          88
+        ],
+        [
+          98,
+          103
+        ]
+      ]
     },
     {
       "text": "Quali sono le regole di funzionamento dei conti finanziari e dei conti economici?",
@@ -134,7 +282,17 @@
     },
     {
       "text": "I conti finanziari attivi e i conti economici di costo aumentano in Dare; i conti finanziari passivi e i conti economici di ricavo aumentano in Avere.",
-      "speech": "I conti finanziari attivi e i conti economici di costo aumentano in Dare; i conti finanziari passivi e i conti economici di ricavo aumentano in Avere."
+      "speech": "I conti finanziari attivi e i conti economici di costo aumentano in Dare; i conti finanziari passivi e i conti economici di ricavo aumentano in Avere.",
+      "bold": [
+        [
+          55,
+          72
+        ],
+        [
+          131,
+          149
+        ]
+      ]
     },
     {
       "text": "Passiamo al quarto modulo, dedicato alla contabilità generale delle aziende individuali.",
@@ -146,7 +304,13 @@
     },
     {
       "text": "Si addebitano i conti finanziari relativi ai beni conferiti dal titolare, e si accredita il conto Capitale, per il valore complessivo del conferimento.",
-      "speech": "Si addebitano i conti finanziari relativi ai beni conferiti dal titolare, e si accredita il conto Capitale, per il valore complessivo del conferimento."
+      "speech": "Si addebitano i conti finanziari relativi ai beni conferiti dal titolare, e si accredita il conto Capitale, per il valore complessivo del conferimento.",
+      "bold": [
+        [
+          92,
+          106
+        ]
+      ]
     },
     {
       "text": "Come si rileva in partita doppia un acquisto di merci con IVA a credito?",
@@ -154,7 +318,17 @@
     },
     {
       "text": "Si addebitano Merci conto acquisti e IVA nostro credito, e si accredita Debiti verso fornitori per il totale della fattura.",
-      "speech": "Si addebitano Merci conto acquisti e IVA nostro credito, e si accredita Debiti verso fornitori per il totale della fattura."
+      "speech": "Si addebitano Merci conto acquisti e IVA nostro credito, e si accredita Debiti verso fornitori per il totale della fattura.",
+      "bold": [
+        [
+          14,
+          34
+        ],
+        [
+          37,
+          55
+        ]
+      ]
     },
     {
       "text": "Come si rileva in partita doppia una vendita di merci con IVA a credito?",
@@ -162,7 +336,17 @@
     },
     {
       "text": "Si addebita Crediti verso clienti per il totale della fattura, e si accreditano Merci conto vendite e IVA nostro debito.",
-      "speech": "Si addebita Crediti verso clienti per il totale della fattura, e si accreditano Merci conto vendite e IVA nostro debito."
+      "speech": "Si addebita Crediti verso clienti per il totale della fattura, e si accreditano Merci conto vendite e IVA nostro debito.",
+      "bold": [
+        [
+          80,
+          99
+        ],
+        [
+          102,
+          119
+        ]
+      ]
     },
     {
       "text": "Come si rileva l'acquisto di un bene strumentale e la relativa quota di ammortamento?",
@@ -174,7 +358,17 @@
     },
     {
       "text": "la quota di ammortamento si rileva addebitando il conto di costo Ammortamento e accreditando il Fondo Ammortamento, applicando un'aliquota al costo del bene.",
-      "speech": "la quota di ammortamento si rileva addebitando il conto di costo Ammortamento e accreditando il Fondo Ammortamento, applicando un'aliquota al costo del bene."
+      "speech": "la quota di ammortamento si rileva addebitando il conto di costo Ammortamento e accreditando il Fondo Ammortamento, applicando un'aliquota al costo del bene.",
+      "bold": [
+        [
+          65,
+          77
+        ],
+        [
+          96,
+          114
+        ]
+      ]
     },
     {
       "text": "Quali operazioni tipiche si registrano nei rapporti con le banche?",
@@ -182,11 +376,27 @@
     },
     {
       "text": "Versamenti e prelevamenti tra Cassa e Banca, l'accredito di interessi attivi maturati sulle giacenze, e l'addebito di competenze e interessi passivi per il servizio bancario.",
-      "speech": "Versamenti e prelevamenti tra Cassa e Banca, l'accredito di interessi attivi maturati sulle giacenze, e l'addebito di competenze e interessi passivi per il servizio bancario."
+      "speech": "Versamenti e prelevamenti tra Cassa e Banca, l'accredito di interessi attivi maturati sulle giacenze, e l'addebito di competenze e interessi passivi per il servizio bancario.",
+      "bold": [
+        [
+          60,
+          76
+        ],
+        [
+          131,
+          148
+        ]
+      ]
     },
     {
       "text": "Che cos'è il bilancio di verifica e a cosa serve?",
-      "speech": "Che cosa è il bilancio di verifica e a cosa serve?"
+      "speech": "Che cosa è il bilancio di verifica e a cosa serve?",
+      "bold": [
+        [
+          13,
+          33
+        ]
+      ]
     },
     {
       "text": "È un prospetto che elenca tutti i conti con i rispettivi totali e saldi di Dare e Avere,",
@@ -194,7 +404,13 @@
     },
     {
       "text": "e serve a controllare che il totale Dare coincida sempre con il totale Avere, individuando eventuali errori di registrazione.",
-      "speech": "e serve a controllare che il totale Dare coincida sempre con il totale Avere, individuando eventuali errori di registrazione."
+      "speech": "e serve a controllare che il totale Dare coincida sempre con il totale Avere, individuando eventuali errori di registrazione.",
+      "bold": [
+        [
+          29,
+          49
+        ]
+      ]
     },
     {
       "text": "Concludiamo con il quinto modulo, dedicato al bilancio d'esercizio.",
@@ -206,7 +422,17 @@
     },
     {
       "text": "È la rilevazione e valutazione di tutti gli elementi attivi e passivi del patrimonio alla data di chiusura dell'esercizio, e costituisce la base per le scritture di assestamento.",
-      "speech": "È la rilevazione e valutazione di tutti gli elementi attivi e passivi del patrimonio alla data di chiusura dell'esercizio, e costituisce la base per le scritture di assestamento."
+      "speech": "È la rilevazione e valutazione di tutti gli elementi attivi e passivi del patrimonio alla data di chiusura dell'esercizio, e costituisce la base per le scritture di assestamento.",
+      "bold": [
+        [
+          5,
+          30
+        ],
+        [
+          152,
+          177
+        ]
+      ]
     },
     {
       "text": "Che differenza c'è tra scritture di integrazione e scritture di rettifica?",
@@ -214,11 +440,31 @@
     },
     {
       "text": "Le scritture di integrazione aggiungono componenti di reddito non ancora rilevati, come i ratei;",
-      "speech": "Le scritture di integrazione aggiungono componenti di reddito non ancora rilevati, come i ratei;"
+      "speech": "Le scritture di integrazione aggiungono componenti di reddito non ancora rilevati, come i ratei;",
+      "bold": [
+        [
+          3,
+          28
+        ],
+        [
+          90,
+          95
+        ]
+      ]
     },
     {
       "text": "le scritture di rettifica correggono componenti già rilevati ma non di competenza, come i risconti, o ripartiscono il costo delle immobilizzazioni, come l'ammortamento.",
-      "speech": "le scritture di rettifica correggono componenti già rilevati ma non di competenza, come i risconti, o ripartiscono il costo delle immobilizzazioni, come l'ammortamento."
+      "speech": "le scritture di rettifica correggono componenti già rilevati ma non di competenza, come i risconti, o ripartiscono il costo delle immobilizzazioni, come l'ammortamento.",
+      "bold": [
+        [
+          3,
+          25
+        ],
+        [
+          90,
+          98
+        ]
+      ]
     },
     {
       "text": "Che cos'è un rateo?",
@@ -234,11 +480,23 @@
     },
     {
       "text": "Il rateo è una quota di costo o ricavo già maturata ma non ancora manifestata finanziariamente, per esempio interessi attivi maturati ma non ancora incassati;",
-      "speech": "Il rateo è una quota di costo o ricavo già maturata ma non ancora manifestata finanziariamente, per esempio interessi attivi maturati ma non ancora incassati;"
+      "speech": "Il rateo è una quota di costo o ricavo già maturata ma non ancora manifestata finanziariamente, per esempio interessi attivi maturati ma non ancora incassati;",
+      "bold": [
+        [
+          3,
+          8
+        ]
+      ]
     },
     {
       "text": "il risconto è una quota di costo o ricavo già manifestata finanziariamente ma non ancora di competenza, per esempio un fitto attivo semestrale incassato in anticipo, di cui una parte riguarda l'esercizio successivo.",
-      "speech": "il risconto è una quota di costo o ricavo già manifestata finanziariamente ma non ancora di competenza, per esempio un fitto attivo semestrale incassato in anticipo, di cui una parte riguarda l'esercizio successivo."
+      "speech": "il risconto è una quota di costo o ricavo già manifestata finanziariamente ma non ancora di competenza, per esempio un fitto attivo semestrale incassato in anticipo, di cui una parte riguarda l'esercizio successivo.",
+      "bold": [
+        [
+          3,
+          11
+        ]
+      ]
     },
     {
       "text": "Che cosa avviene con le scritture di epilogo e con le scritture di chiusura dei conti?",
@@ -246,15 +504,41 @@
     },
     {
       "text": "Le scritture di epilogo raccolgono i conti economici nel Conto Economico, determinando il reddito d'esercizio;",
-      "speech": "Le scritture di epilogo raccolgono i conti economici nel Conto Economico, determinando il reddito d'esercizio;"
+      "speech": "Le scritture di epilogo raccolgono i conti economici nel Conto Economico, determinando il reddito d'esercizio;",
+      "bold": [
+        [
+          3,
+          23
+        ],
+        [
+          90,
+          109
+        ]
+      ]
     },
     {
       "text": "le scritture di chiusura raccolgono i conti finanziari e patrimoniali nello Stato Patrimoniale,",
-      "speech": "le scritture di chiusura raccolgono i conti finanziari e patrimoniali nello Stato Patrimoniale,"
+      "speech": "le scritture di chiusura raccolgono i conti finanziari e patrimoniali nello Stato Patrimoniale,",
+      "bold": [
+        [
+          3,
+          24
+        ],
+        [
+          76,
+          94
+        ]
+      ]
     },
     {
       "text": "e con la chiusura generale si azzerano tutti i conti, trasferendo il risultato economico nel Patrimonio Netto.",
-      "speech": "e con la chiusura generale si azzerano tutti i conti, trasferendo il risultato economico nel Patrimonio Netto."
+      "speech": "e con la chiusura generale si azzerano tutti i conti, trasferendo il risultato economico nel Patrimonio Netto.",
+      "bold": [
+        [
+          9,
+          26
+        ]
+      ]
     },
     {
       "text": "Quali sono i principi fondamentali di redazione del bilancio d'esercizio?",
@@ -262,11 +546,27 @@
     },
     {
       "text": "Sono la chiarezza, la comprensibilità delle informazioni, la verità, la corrispondenza ai fatti di gestione realmente avvenuti,",
-      "speech": "Sono la chiarezza, la comprensibilità delle informazioni, la verità, la corrispondenza ai fatti di gestione realmente avvenuti,"
+      "speech": "Sono la chiarezza, la comprensibilità delle informazioni, la verità, la corrispondenza ai fatti di gestione realmente avvenuti,",
+      "bold": [
+        [
+          8,
+          17
+        ],
+        [
+          61,
+          67
+        ]
+      ]
     },
     {
       "text": "e la correttezza, la corretta applicazione dei criteri e dei principi contabili.",
-      "speech": "e la correttezza, la corretta applicazione dei criteri e dei principi contabili."
+      "speech": "e la correttezza, la corretta applicazione dei criteri e dei principi contabili.",
+      "bold": [
+        [
+          5,
+          16
+        ]
+      ]
     },
     {
       "text": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questa dispensa:",
@@ -298,15 +598,49 @@
     },
     {
       "text": "Primo: il primo e il secondo modulo ci hanno insegnato il sistema azienda, le aree della gestione, il patrimonio e il reddito d'esercizio.",
-      "speech": "Primo: il primo e il secondo modulo ci hanno insegnato il sistema azienda, le aree della gestione, il patrimonio e il reddito d'esercizio."
+      "speech": "Primo: il primo e il secondo modulo ci hanno insegnato il sistema azienda, le aree della gestione, il patrimonio e il reddito d'esercizio.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          58,
+          73
+        ],
+        [
+          78,
+          97
+        ]
+      ]
     },
     {
       "text": "Secondo: il terzo e il quarto modulo ci hanno introdotto la partita doppia e la sua applicazione a costituzione, acquisti, vendite, beni strumentali e operazioni bancarie.",
-      "speech": "Secondo: il terzo e il quarto modulo ci hanno introdotto la partita doppia e la sua applicazione a costituzione, acquisti, vendite, beni strumentali e operazioni bancarie."
+      "speech": "Secondo: il terzo e il quarto modulo ci hanno introdotto la partita doppia e la sua applicazione a costituzione, acquisti, vendite, beni strumentali e operazioni bancarie.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          60,
+          74
+        ]
+      ]
     },
     {
       "text": "Terzo: il quinto modulo ci ha mostrato come, attraverso inventario, scritture di assestamento, epilogo e chiusura, si arrivi alla redazione del bilancio d'esercizio nel rispetto dei principi di chiarezza, verità e correttezza.",
-      "speech": "Terzo: il quinto modulo ci ha mostrato come, attraverso inventario, scritture di assestamento, epilogo e chiusura, si arrivi alla redazione del bilancio d'esercizio nel rispetto dei principi di chiarezza, verità e correttezza."
+      "speech": "Terzo: il quinto modulo ci ha mostrato come, attraverso inventario, scritture di assestamento, epilogo e chiusura, si arrivi alla redazione del bilancio d'esercizio nel rispetto dei principi di chiarezza, verità e correttezza.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          194,
+          225
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero modulo di Economia Aziendale per la classe terza.",

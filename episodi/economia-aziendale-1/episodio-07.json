@@ -18,19 +18,47 @@
     },
     {
       "text": "L'ordine è il documento con cui il compratore richiede formalmente al venditore la fornitura di determinati beni, specificandone quantità, prezzo e condizioni.",
-      "speech": "L'ordine è il documento con cui il compratore richiede formalmente al venditore la fornitura di determinati beni, specificandone quantità, prezzo e condizioni."
+      "speech": "L'ordine è il documento con cui il compratore richiede formalmente al venditore la fornitura di determinati beni, specificandone quantità, prezzo e condizioni.",
+      "bold": [
+        [
+          2,
+          8
+        ]
+      ]
     },
     {
       "text": "Il documento di trasporto, detto anche DDT, emesso dal venditore, accompagna fisicamente la merce durante il trasporto e ne attesta la consegna.",
-      "speech": "Il documento di trasporto, detto anche DDT, emesso dal venditore, accompagna fisicamente la merce durante il trasporto e ne attesta la consegna."
+      "speech": "Il documento di trasporto, detto anche DDT, emesso dal venditore, accompagna fisicamente la merce durante il trasporto e ne attesta la consegna.",
+      "bold": [
+        [
+          3,
+          25
+        ],
+        [
+          39,
+          42
+        ]
+      ]
     },
     {
       "text": "La fattura è il documento fiscale, emesso dal venditore dopo la consegna, o contestualmente ad essa, che formalizza la vendita, riepiloga gli importi dovuti, compresa l'eventuale IVA, e costituisce titolo per il pagamento.",
-      "speech": "La fattura è il documento fiscale, emesso dal venditore dopo la consegna, o contestualmente ad essa, che formalizza la vendita, riepiloga gli importi dovuti, compresa l'eventuale IVA, e costituisce titolo per il pagamento."
+      "speech": "La fattura è il documento fiscale, emesso dal venditore dopo la consegna, o contestualmente ad essa, che formalizza la vendita, riepiloga gli importi dovuti, compresa l'eventuale IVA, e costituisce titolo per il pagamento.",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ]
     },
     {
       "text": "In caso di resi, errori o rettifiche successive alla fattura, si utilizza infine la nota di variazione, nota di credito o nota di debito, che modifica gli importi originariamente fatturati.",
-      "speech": "In caso di resi, errori o rettifiche successive alla fattura, si utilizza infine la nota di variazione, nota di credito o nota di debito, che modifica gli importi originariamente fatturati."
+      "speech": "In caso di resi, errori o rettifiche successive alla fattura, si utilizza infine la nota di variazione, nota di credito o nota di debito, che modifica gli importi originariamente fatturati.",
+      "bold": [
+        [
+          84,
+          102
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa sequenza, perché è facile confondere l'ordine cronologico dei documenti sotto la pressione di un'interrogazione:",
@@ -38,19 +66,43 @@
     },
     {
       "text": "prima viene sempre l'ordine, che nasce dalla volontà del compratore;",
-      "speech": "prima viene sempre l'ordine, che nasce dalla volontà del compratore;"
+      "speech": "prima viene sempre l'ordine, che nasce dalla volontà del compratore;",
+      "bold": [
+        [
+          21,
+          27
+        ]
+      ]
     },
     {
       "text": "poi il documento di trasporto, che accompagna fisicamente la merce quando il venditore la spedisce;",
-      "speech": "poi il documento di trasporto, che accompagna fisicamente la merce quando il venditore la spedisce;"
+      "speech": "poi il documento di trasporto, che accompagna fisicamente la merce quando il venditore la spedisce;",
+      "bold": [
+        [
+          7,
+          29
+        ]
+      ]
     },
     {
       "text": "poi la fattura, che arriva dopo, o al momento, della consegna, e formalizza fiscalmente la vendita;",
-      "speech": "poi la fattura, che arriva dopo, o al momento, della consegna, e formalizza fiscalmente la vendita;"
+      "speech": "poi la fattura, che arriva dopo, o al momento, della consegna, e formalizza fiscalmente la vendita;",
+      "bold": [
+        [
+          7,
+          14
+        ]
+      ]
     },
     {
       "text": "ed eventualmente, solo in un secondo momento e solo se necessario, la nota di variazione, che corregge quanto già fatturato.",
-      "speech": "ed eventualmente, solo in un secondo momento e solo se necessario, la nota di variazione, che corregge quanto già fatturato."
+      "speech": "ed eventualmente, solo in un secondo momento e solo se necessario, la nota di variazione, che corregge quanto già fatturato.",
+      "bold": [
+        [
+          70,
+          88
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, un esempio svolto che riassume questa sequenza: un'azienda ordina cento unità di un prodotto a un fornitore.",
@@ -82,7 +134,13 @@
     },
     {
       "text": "Entrerebbe in gioco la nota di variazione, in questo caso una nota di credito, che ridurrebbe l'importo dovuto in proporzione alla merce resa, correggendo così quanto originariamente indicato nella fattura.",
-      "speech": "Entrerebbe in gioco la nota di variazione, in questo caso una nota di credito, che ridurrebbe l'importo dovuto in proporzione alla merce resa, correggendo così quanto originariamente indicato nella fattura."
+      "speech": "Entrerebbe in gioco la nota di variazione, in questo caso una nota di credito, che ridurrebbe l'importo dovuto in proporzione alla merce resa, correggendo così quanto originariamente indicato nella fattura.",
+      "bold": [
+        [
+          62,
+          77
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -90,15 +148,49 @@
     },
     {
       "text": "Primo: l'ordine è il documento con cui il compratore richiede la fornitura, specificando quantità, prezzo e condizioni.",
-      "speech": "Primo: l'ordine è il documento con cui il compratore richiede la fornitura, specificando quantità, prezzo e condizioni."
+      "speech": "Primo: l'ordine è il documento con cui il compratore richiede la fornitura, specificando quantità, prezzo e condizioni.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          9,
+          15
+        ]
+      ]
     },
     {
       "text": "Secondo: il documento di trasporto accompagna fisicamente la merce e ne attesta la consegna, mentre la fattura formalizza fiscalmente la vendita e richiede il pagamento.",
-      "speech": "Secondo: il documento di trasporto accompagna fisicamente la merce e ne attesta la consegna, mentre la fattura formalizza fiscalmente la vendita e richiede il pagamento."
+      "speech": "Secondo: il documento di trasporto accompagna fisicamente la merce e ne attesta la consegna, mentre la fattura formalizza fiscalmente la vendita e richiede il pagamento.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          34
+        ],
+        [
+          103,
+          110
+        ]
+      ]
     },
     {
       "text": "Terzo: la nota di variazione rettifica gli importi di una fattura già emessa, in caso di resi, errori o altre correzioni.",
-      "speech": "Terzo: la nota di variazione rettifica gli importi di una fattura già emessa, in caso di resi, errori o altre correzioni."
+      "speech": "Terzo: la nota di variazione rettifica gli importi di una fattura già emessa, in caso di resi, errori o altre correzioni.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          28
+        ]
+      ]
     },
     {
       "text": "Nel prossimo e ultimo episodio dedichiamo l'intero tempo all'imposta sul valore aggiunto, il suo meccanismo e i suoi calcoli, prima di passare al ripasso organico delle domande guida.",

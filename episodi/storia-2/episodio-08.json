@@ -14,7 +14,13 @@
     },
     {
       "text": "L'Italia è una penisola dell'Europa meridionale, protesa nel Mar Mediterraneo, di cui occupa una posizione centrale che ne ha storicamente favorito il ruolo di ponte tra le diverse sponde del bacino mediterraneo:",
-      "speech": "L'Italia è una penisola dell'Europa meridionale, protesa nel Mar Mediterraneo, di cui occupa una posizione centrale che ne ha storicamente favorito il ruolo di ponte tra le diverse sponde del bacino mediterraneo:"
+      "speech": "L'Italia è una penisola dell'Europa meridionale, protesa nel Mar Mediterraneo, di cui occupa una posizione centrale che ne ha storicamente favorito il ruolo di ponte tra le diverse sponde del bacino mediterraneo:",
+      "bold": [
+        [
+          15,
+          23
+        ]
+      ]
     },
     {
       "text": "una posizione geografica che, non a caso, avevate già visto avere un ruolo importante nella storia, per esempio nell'espansione commerciale delle repubbliche marinare durante le Crociate, nell'episodio scorso.",
@@ -22,19 +28,47 @@
     },
     {
       "text": "Il territorio italiano è caratterizzato da un'elevata presenza di rilievi montuosi e collinari, che insieme costituiscono oltre i tre quarti della superficie nazionale:",
-      "speech": "Il territorio italiano è caratterizzato da un'elevata presenza di rilievi montuosi e collinari, che insieme costituiscono oltre i tre quarti della superficie nazionale:"
+      "speech": "Il territorio italiano è caratterizzato da un'elevata presenza di rilievi montuosi e collinari, che insieme costituiscono oltre i tre quarti della superficie nazionale:",
+      "bold": [
+        [
+          66,
+          94
+        ]
+      ]
     },
     {
       "text": "a nord la catena alpina segna il confine con la Francia, la Svizzera, l'Austria e la Slovenia,",
-      "speech": "a nord la catena alpina segna il confine con la Francia, la Svizzera, l'Austria e la Slovenia,"
+      "speech": "a nord la catena alpina segna il confine con la Francia, la Svizzera, l'Austria e la Slovenia,",
+      "bold": [
+        [
+          10,
+          23
+        ]
+      ]
     },
     {
       "text": "mentre lungo l'intera penisola, da nord-ovest a sud-est, si estende la dorsale appenninica, che ne costituisce la spina dorsale geografica.",
-      "speech": "mentre lungo l'intera penisola, da nord-ovest a sud-est, si estende la dorsale appenninica, che ne costituisce la spina dorsale geografica."
+      "speech": "mentre lungo l'intera penisola, da nord-ovest a sud-est, si estende la dorsale appenninica, che ne costituisce la spina dorsale geografica.",
+      "bold": [
+        [
+          71,
+          90
+        ]
+      ]
     },
     {
       "text": "Tra le Alpi e gli Appennini settentrionali si estende la Pianura Padana, la più estesa pianura italiana, attraversata dal fiume Po, il più lungo corso d'acqua della penisola,",
-      "speech": "Tra le Alpi e gli Appennini settentrionali si estende la Pianura Padana, la più estesa pianura italiana, attraversata dal fiume Po, il più lungo corso d'acqua della penisola,"
+      "speech": "Tra le Alpi e gli Appennini settentrionali si estende la Pianura Padana, la più estesa pianura italiana, attraversata dal fiume Po, il più lungo corso d'acqua della penisola,",
+      "bold": [
+        [
+          57,
+          71
+        ],
+        [
+          122,
+          130
+        ]
+      ]
     },
     {
       "text": "e storicamente una delle aree più fertili e densamente popolate del paese.",
@@ -42,15 +76,37 @@
     },
     {
       "text": "L'Italia è inoltre caratterizzata da un'intensa attività sismica e vulcanica, dovuta alla propria collocazione lungo il margine di contatto tra la placca africana e quella eurasiatica,",
-      "speech": "L'Italia è inoltre caratterizzata da un'intensa attività sismica e vulcanica, dovuta alla propria collocazione lungo il margine di contatto tra la placca africana e quella eurasiatica,"
+      "speech": "L'Italia è inoltre caratterizzata da un'intensa attività sismica e vulcanica, dovuta alla propria collocazione lungo il margine di contatto tra la placca africana e quella eurasiatica,",
+      "bold": [
+        [
+          48,
+          76
+        ]
+      ]
     },
     {
       "text": "testimoniata dalla presenza di vulcani attivi come il Vesuvio, l'Etna e i Campi Flegrei.",
-      "speech": "testimoniata dalla presenza di vulcani attivi come il Vesuvio, l'Etna e i Campi Flegrei."
+      "speech": "testimoniata dalla presenza di vulcani attivi come il Vesuvio, l'Etna e i Campi Flegrei.",
+      "bold": [
+        [
+          54,
+          87
+        ]
+      ]
     },
     {
       "text": "Sul piano climatico, il territorio italiano presenta una notevole varietà, che va dal clima alpino delle zone montane al clima mediterraneo delle coste e delle isole maggiori, Sicilia e Sardegna:",
-      "speech": "Sul piano climatico, il territorio italiano presenta una notevole varietà, che va dal clima alpino delle zone montane al clima mediterraneo delle coste e delle isole maggiori, Sicilia e Sardegna:"
+      "speech": "Sul piano climatico, il territorio italiano presenta una notevole varietà, che va dal clima alpino delle zone montane al clima mediterraneo delle coste e delle isole maggiori, Sicilia e Sardegna:",
+      "bold": [
+        [
+          86,
+          98
+        ],
+        [
+          121,
+          139
+        ]
+      ]
     },
     {
       "text": "una diversità climatica che riflette la varietà morfologica del territorio appena descritta, dalle vette alpine alle coste mediterranee.",
@@ -70,15 +126,53 @@
     },
     {
       "text": "Primo: l'Italia è una penisola mediterranea caratterizzata da un territorio prevalentemente montuoso e collinare, con le Alpi a nord e gli Appennini lungo tutta la penisola.",
-      "speech": "Primo: l'Italia è una penisola mediterranea caratterizzata da un territorio prevalentemente montuoso e collinare, con le Alpi a nord e gli Appennini lungo tutta la penisola."
+      "speech": "Primo: l'Italia è una penisola mediterranea caratterizzata da un territorio prevalentemente montuoso e collinare, con le Alpi a nord e gli Appennini lungo tutta la penisola.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          121,
+          125
+        ],
+        [
+          139,
+          148
+        ]
+      ]
     },
     {
       "text": "Secondo: la Pianura Padana, attraversata dal fiume Po, è la principale pianura italiana.",
-      "speech": "Secondo: la Pianura Padana, attraversata dal fiume Po, è la principale pianura italiana."
+      "speech": "Secondo: la Pianura Padana, attraversata dal fiume Po, è la principale pianura italiana.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          26
+        ]
+      ]
     },
     {
       "text": "Terzo: l'Italia presenta un'intensa attività sismica e vulcanica e una notevole varietà climatica, dal clima alpino a quello mediterraneo.",
-      "speech": "Terzo: l'Italia presenta un'intensa attività sismica e vulcanica e una notevole varietà climatica, dal clima alpino a quello mediterraneo."
+      "speech": "Terzo: l'Italia presenta un'intensa attività sismica e vulcanica e una notevole varietà climatica, dal clima alpino a quello mediterraneo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          36,
+          64
+        ],
+        [
+          80,
+          97
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio completiamo la parte di Geografia con l'Europa fisica e la formazione dell'Unione Europea.",

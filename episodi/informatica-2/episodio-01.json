@@ -22,15 +22,41 @@
     },
     {
       "text": "Internet è, per definizione, la «rete delle reti»: un'infrastruttura globale che collega tra loro milioni di reti informatiche private, pubbliche, accademiche e commerciali, permettendo lo scambio di dati tra dispositivi di tutto il mondo.",
-      "speech": "Internet è, per definizione, la «rete delle reti»: un'infrastruttura globale che collega tra loro milioni di reti informatiche private, pubbliche, accademiche e commerciali, permettendo lo scambio di dati tra dispositivi di tutto il mondo."
+      "speech": "Internet è, per definizione, la «rete delle reti»: un'infrastruttura globale che collega tra loro milioni di reti informatiche private, pubbliche, accademiche e commerciali, permettendo lo scambio di dati tra dispositivi di tutto il mondo.",
+      "bold": [
+        [
+          33,
+          48
+        ]
+      ]
     },
     {
       "text": "Le sue origini risalgono al 1969, con la nascita di ARPANET, una rete sperimentale creata negli Stati Uniti dall'agenzia governativa ARPA per collegare alcuni centri di ricerca universitari.",
-      "speech": "Le sue origini risalgono al 1969, con la nascita di ARPANET, una rete sperimentale creata negli Stati Uniti dall'agenzia governativa ARPA per collegare alcuni centri di ricerca universitari."
+      "speech": "Le sue origini risalgono al 1969, con la nascita di ARPANET, una rete sperimentale creata negli Stati Uniti dall'agenzia governativa ARPA per collegare alcuni centri di ricerca universitari.",
+      "bold": [
+        [
+          28,
+          32
+        ],
+        [
+          52,
+          59
+        ]
+      ]
     },
     {
       "text": "L'Italia si collegò a Internet il 30 aprile 1986, dal CNUCE di Pisa, diventando il quarto paese europeo a farlo:",
-      "speech": "L'Italia si collegò a Internet il 30 aprile 1986, dal CNUCE di Pisa, diventando il quarto paese europeo a farlo:"
+      "speech": "L'Italia si collegò a Internet il 30 aprile 1986, dal CNUCE di Pisa, diventando il quarto paese europeo a farlo:",
+      "bold": [
+        [
+          34,
+          48
+        ],
+        [
+          54,
+          67
+        ]
+      ]
     },
     {
       "text": "una data e un luogo che vale la pena ricordare con precisione, perché sono il tipo di dettaglio che un commissario può chiedervi direttamente.",
@@ -38,7 +64,13 @@
     },
     {
       "text": "Il funzionamento di Internet si basa sul protocollo TCP/IP, che regola la suddivisione dei dati in pacchetti, il loro instradamento attraverso la rete e la loro ricomposizione a destinazione.",
-      "speech": "Il funzionamento di Internet si basa sul protocollo TCP, IP, che regola la suddivisione dei dati in pacchetti, il loro instradamento attraverso la rete e la loro ricomposizione a destinazione."
+      "speech": "Il funzionamento di Internet si basa sul protocollo TCP, IP, che regola la suddivisione dei dati in pacchetti, il loro instradamento attraverso la rete e la loro ricomposizione a destinazione.",
+      "bold": [
+        [
+          41,
+          58
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su uno schema che vale la pena avere ben chiaro, perché riguarda un aspetto che si presta facilmente a confusione in sede d'esame:",
@@ -46,19 +78,43 @@
     },
     {
       "text": "le reti si classificano per estensione geografica in LAN, MAN e WAN.",
-      "speech": "le reti si classificano per estensione geografica in LAN, MAN e WAN."
+      "speech": "le reti si classificano per estensione geografica in LAN, MAN e WAN.",
+      "bold": [
+        [
+          53,
+          67
+        ]
+      ]
     },
     {
       "text": "Una LAN, Local Area Network, è una rete locale, limitata per esempio a un edificio o a un ufficio, come la rete di un'azienda o di una scuola.",
-      "speech": "Una LAN, Local Area Network, è una rete locale, limitata per esempio a un edificio o a un ufficio, come la rete di un'azienda o di una scuola."
+      "speech": "Una LAN, Local Area Network, è una rete locale, limitata per esempio a un edificio o a un ufficio, come la rete di un'azienda o di una scuola.",
+      "bold": [
+        [
+          4,
+          7
+        ]
+      ]
     },
     {
       "text": "Una MAN, Metropolitan Area Network, ha un'estensione cittadina, come la rete civica di una città.",
-      "speech": "Una MAN, Metropolitan Area Network, ha un'estensione cittadina, come la rete civica di una città."
+      "speech": "Una MAN, Metropolitan Area Network, ha un'estensione cittadina, come la rete civica di una città.",
+      "bold": [
+        [
+          4,
+          7
+        ]
+      ]
     },
     {
       "text": "Una WAN, Wide Area Network, ha un'estensione geografica, nazionale o internazionale:",
-      "speech": "Una WAN, Wide Area Network, ha un'estensione geografica, nazionale o internazionale:"
+      "speech": "Una WAN, Wide Area Network, ha un'estensione geografica, nazionale o internazionale:",
+      "bold": [
+        [
+          4,
+          7
+        ]
+      ]
     },
     {
       "text": "e Internet stessa, in questo senso, è l'esempio per eccellenza di una WAN, anzi la WAN più grande che esista, formata dall'interconnessione di innumerevoli reti più piccole.",
@@ -66,7 +122,13 @@
     },
     {
       "text": "Per collegarsi concretamente a Internet è necessario rivolgersi a un fornitore di servizi, l'ISP, Internet Service Provider, che fornisce l'accesso fisico alla rete.",
-      "speech": "Per collegarsi concretamente a Internet è necessario rivolgersi a un fornitore di servizi, l'ISP, Internet Service Provider, che fornisce l'accesso fisico alla rete."
+      "speech": "Per collegarsi concretamente a Internet è necessario rivolgersi a un fornitore di servizi, l'ISP, Internet Service Provider, che fornisce l'accesso fisico alla rete.",
+      "bold": [
+        [
+          93,
+          96
+        ]
+      ]
     },
     {
       "text": "Le principali modalità di connessione sono tre.",
@@ -74,19 +136,47 @@
     },
     {
       "text": "La connessione fissa a banda larga, tramite ADSL, che sfrutta il doppino telefonico tradizionale con velocità moderata, oppure, più recentemente, la fibra ottica, che offre velocità molto più elevate e stabili.",
-      "speech": "La connessione fissa a banda larga, tramite ADSL, che sfrutta il doppino telefonico tradizionale con velocità moderata, oppure, più recentemente, la fibra ottica, che offre velocità molto più elevate e stabili."
+      "speech": "La connessione fissa a banda larga, tramite ADSL, che sfrutta il doppino telefonico tradizionale con velocità moderata, oppure, più recentemente, la fibra ottica, che offre velocità molto più elevate e stabili.",
+      "bold": [
+        [
+          44,
+          48
+        ],
+        [
+          149,
+          161
+        ]
+      ]
     },
     {
       "text": "La connessione mobile, tramite le reti cellulari di terza, quarta e quinta generazione, cioè 3G, 4G o LTE, e 5G.",
-      "speech": "La connessione mobile, tramite le reti cellulari di terza, quarta e quinta generazione, cioè 3G, 4G o LTE, e 5G."
+      "speech": "La connessione mobile, tramite le reti cellulari di terza, quarta e quinta generazione, cioè 3G, 4G o LTE, e 5G.",
+      "bold": [
+        [
+          93,
+          111
+        ]
+      ]
     },
     {
       "text": "E la connessione Wi-Fi, una rete locale senza fili che distribuisce l'accesso a Internet all'interno di un'area limitata, come una casa, un ufficio o uno spazio pubblico.",
-      "speech": "E la connessione Wi-Fi, una rete locale senza fili che distribuisce l'accesso a Internet all'interno di un'area limitata, come una casa, un ufficio o uno spazio pubblico."
+      "speech": "E la connessione Wi-Fi, una rete locale senza fili che distribuisce l'accesso a Internet all'interno di un'area limitata, come una casa, un ufficio o uno spazio pubblico.",
+      "bold": [
+        [
+          17,
+          22
+        ]
+      ]
     },
     {
       "text": "La velocità di una connessione si misura in megabit al secondo, Mbps, e indica la quantità di dati che è possibile trasferire nell'unità di tempo.",
-      "speech": "La velocità di una connessione si misura in megabit al secondo, Mbps, e indica la quantità di dati che è possibile trasferire nell'unità di tempo."
+      "speech": "La velocità di una connessione si misura in megabit al secondo, Mbps, e indica la quantità di dati che è possibile trasferire nell'unità di tempo.",
+      "bold": [
+        [
+          44,
+          62
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se a casa vostra il router distribuisce Internet tramite Wi-Fi al vostro telefono e al vostro computer, il Wi-Fi è la vostra connessione a Internet?",
@@ -94,7 +184,13 @@
     },
     {
       "text": "La risposta corretta è no, o meglio, non da sola: il Wi-Fi è soltanto la tecnologia con cui il router distribuisce localmente, senza fili, un accesso che deve comunque arrivare dall'esterno tramite un ISP, per esempio via ADSL o fibra ottica.",
-      "speech": "La risposta corretta è no, o meglio, non da sola: il Wi-Fi è soltanto la tecnologia con cui il router distribuisce localmente, senza fili, un accesso che deve comunque arrivare dall'esterno tramite un ISP, per esempio via ADSL o fibra ottica."
+      "speech": "La risposta corretta è no, o meglio, non da sola: il Wi-Fi è soltanto la tecnologia con cui il router distribuisce localmente, senza fili, un accesso che deve comunque arrivare dall'esterno tramite un ISP, per esempio via ADSL o fibra ottica.",
+      "bold": [
+        [
+          201,
+          204
+        ]
+      ]
     },
     {
       "text": "Il Wi-Fi, insomma, è l'ultimo tratto locale del percorso, non l'origine della connessione: un punto che spesso genera confusione e che vale la pena avere chiaro per un'interrogazione.",
@@ -106,15 +202,57 @@
     },
     {
       "text": "Primo: Internet è la rete delle reti, nata nel 1969 con ARPANET e arrivata in Italia nel 1986 dal CNUCE di Pisa, e si basa sul protocollo TCP/IP.",
-      "speech": "Primo: Internet è la rete delle reti, nata nel 1969 con ARPANET e arrivata in Italia nel 1986 dal CNUCE di Pisa, e si basa sul protocollo TCP, IP."
+      "speech": "Primo: Internet è la rete delle reti, nata nel 1969 con ARPANET e arrivata in Italia nel 1986 dal CNUCE di Pisa, e si basa sul protocollo TCP, IP.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          21,
+          36
+        ],
+        [
+          47,
+          51
+        ],
+        [
+          89,
+          93
+        ]
+      ]
     },
     {
       "text": "Secondo: le reti si classificano per estensione geografica in LAN, MAN e WAN, con Internet stessa che rappresenta l'esempio di WAN per eccellenza.",
-      "speech": "Secondo: le reti si classificano per estensione geografica in LAN, MAN e WAN, con Internet stessa che rappresenta l'esempio di WAN per eccellenza."
+      "speech": "Secondo: le reti si classificano per estensione geografica in LAN, MAN e WAN, con Internet stessa che rappresenta l'esempio di WAN per eccellenza.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          62,
+          76
+        ]
+      ]
     },
     {
       "text": "Terzo: le principali modalità di connessione sono ADSL, fibra ottica, rete mobile 3G/4G/5G e Wi-Fi, quest'ultimo una semplice distribuzione locale e non una connessione autonoma, con la velocità misurata in Mbps.",
-      "speech": "Terzo: le principali modalità di connessione sono ADSL, fibra ottica, rete mobile 3G, 4G, 5G e Wi-Fi, quest'ultimo una semplice distribuzione locale e non una connessione autonoma, con la velocità misurata in Mbps."
+      "speech": "Terzo: le principali modalità di connessione sono ADSL, fibra ottica, rete mobile 3G, 4G, 5G e Wi-Fi, quest'ultimo una semplice distribuzione locale e non una connessione autonoma, con la velocità misurata in Mbps.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          93,
+          98
+        ],
+        [
+          207,
+          211
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo quali servizi si sono sviluppati su questa infrastruttura, e le regole di buona educazione che regolano il comportamento online, la netiquette.",

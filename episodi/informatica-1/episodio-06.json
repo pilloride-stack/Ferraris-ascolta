@@ -14,7 +14,13 @@
     },
     {
       "text": "Il sistema operativo è il software di base che gestisce le risorse hardware del computer, come il processore, la memoria e le periferiche,",
-      "speech": "Il sistema operativo è il software di base che gestisce le risorse hardware del computer, come il processore, la memoria e le periferiche,"
+      "speech": "Il sistema operativo è il software di base che gestisce le risorse hardware del computer, come il processore, la memoria e le periferiche,",
+      "bold": [
+        [
+          3,
+          20
+        ]
+      ]
     },
     {
       "text": "e fornisce all'utente e ai programmi applicativi un'interfaccia uniforme per interagire con la macchina.",
@@ -26,11 +32,31 @@
     },
     {
       "text": "le funzioni principali di un sistema operativo comprendono la gestione del processore e l'esecuzione dei programmi, la gestione della memoria, la gestione del file system,",
-      "speech": "le funzioni principali di un sistema operativo comprendono la gestione del processore e l'esecuzione dei programmi, la gestione della memoria, la gestione del file system,"
+      "speech": "le funzioni principali di un sistema operativo comprendono la gestione del processore e l'esecuzione dei programmi, la gestione della memoria, la gestione del file system,",
+      "bold": [
+        [
+          62,
+          85
+        ],
+        [
+          119,
+          141
+        ],
+        [
+          146,
+          170
+        ]
+      ]
     },
     {
       "text": "cioè l'organizzazione di file e cartelle, la gestione delle periferiche, e l'interfaccia con l'utente.",
-      "speech": "cioè l'organizzazione di file e cartelle, la gestione delle periferiche, e l'interfaccia con l'utente."
+      "speech": "cioè l'organizzazione di file e cartelle, la gestione delle periferiche, e l'interfaccia con l'utente.",
+      "bold": [
+        [
+          45,
+          71
+        ]
+      ]
     },
     {
       "text": "Senza un sistema operativo, un computer sarebbe soltanto un insieme di componenti elettroniche incapaci di dialogare tra loro in modo coordinato.",
@@ -42,11 +68,23 @@
     },
     {
       "text": "Windows e macOS per i personal computer, Linux, diffuso anche in ambito server per la sua stabilità e flessibilità,",
-      "speech": "Windows e macOS per i personal computer, Linux, diffuso anche in ambito server per la sua stabilità e flessibilità,"
+      "speech": "Windows e macOS per i personal computer, Linux, diffuso anche in ambito server per la sua stabilità e flessibilità,",
+      "bold": [
+        [
+          41,
+          46
+        ]
+      ]
     },
     {
       "text": "e Android e iOS per i dispositivi mobili, rispettivamente per smartphone di produttori diversi da Apple e per i dispositivi Apple stessi.",
-      "speech": "e Android e iOS per i dispositivi mobili, rispettivamente per smartphone di produttori diversi da Apple e per i dispositivi Apple stessi."
+      "speech": "e Android e iOS per i dispositivi mobili, rispettivamente per smartphone di produttori diversi da Apple e per i dispositivi Apple stessi.",
+      "bold": [
+        [
+          2,
+          15
+        ]
+      ]
     },
     {
       "text": "Notate come, pur essendo tutti sistemi operativi nel senso tecnico appena definito, ciascuno di questi sia stato progettato e ottimizzato per un contesto d'uso specifico, dal personal computer da scrivania al telefono che portate sempre con voi.",
@@ -54,7 +92,17 @@
     },
     {
       "text": "Concentriamoci ora su Windows, sviluppato da Microsoft, il sistema operativo più diffuso al mondo sui personal computer.",
-      "speech": "Concentriamoci ora su Windows, sviluppato da Microsoft, il sistema operativo più diffuso al mondo sui personal computer."
+      "speech": "Concentriamoci ora su Windows, sviluppato da Microsoft, il sistema operativo più diffuso al mondo sui personal computer.",
+      "bold": [
+        [
+          22,
+          29
+        ],
+        [
+          45,
+          54
+        ]
+      ]
     },
     {
       "text": "La sua interfaccia grafica si basa su alcuni elementi ormai familiari a chiunque abbia usato un computer, ma che vale la pena saper elencare con precisione tecnica in un'interrogazione.",
@@ -62,19 +110,47 @@
     },
     {
       "text": "Il desktop, la scrivania virtuale su cui sono presenti icone di programmi e file, il primo elemento che vedete quando accendete il computer.",
-      "speech": "Il desktop, la scrivania virtuale su cui sono presenti icone di programmi e file, il primo elemento che vedete quando accendete il computer."
+      "speech": "Il desktop, la scrivania virtuale su cui sono presenti icone di programmi e file, il primo elemento che vedete quando accendete il computer.",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ]
     },
     {
       "text": "La barra delle applicazioni, o taskbar, che mostra i programmi in esecuzione e, tipicamente, l'orologio di sistema.",
-      "speech": "La barra delle applicazioni, o taskbar, che mostra i programmi in esecuzione e, tipicamente, l'orologio di sistema."
+      "speech": "La barra delle applicazioni, o taskbar, che mostra i programmi in esecuzione e, tipicamente, l'orologio di sistema.",
+      "bold": [
+        [
+          3,
+          27
+        ],
+        [
+          31,
+          38
+        ]
+      ]
     },
     {
       "text": "Il menu Start, da cui si accede rapidamente a programmi e impostazioni.",
-      "speech": "Il menu Start, da cui si accede rapidamente a programmi e impostazioni."
+      "speech": "Il menu Start, da cui si accede rapidamente a programmi e impostazioni.",
+      "bold": [
+        [
+          3,
+          13
+        ]
+      ]
     },
     {
       "text": "Ed Esplora file, il programma che permette di navigare tra cartelle e file, copiarli, spostarli, rinominarli ed eliminarli, lo strumento fondamentale per organizzare concretamente i propri documenti.",
-      "speech": "Ed Esplora file, il programma che permette di navigare tra cartelle e file, copiarli, spostarli, rinominarli ed eliminarli, lo strumento fondamentale per organizzare concretamente i propri documenti."
+      "speech": "Ed Esplora file, il programma che permette di navigare tra cartelle e file, copiarli, spostarli, rinominarli ed eliminarli, lo strumento fondamentale per organizzare concretamente i propri documenti.",
+      "bold": [
+        [
+          3,
+          15
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su un collegamento che vale la pena esplicitare, perché unisce questo episodio a quello di due episodi fa sulle memorie di massa:",
@@ -82,7 +158,13 @@
     },
     {
       "text": "quando usate Esplora file per navigare tra le vostre cartelle, state in realtà interagendo con il file system gestito dal sistema operativo, che organizza fisicamente i dati sulla memoria di massa,",
-      "speech": "quando usate Esplora file per navigare tra le vostre cartelle, state in realtà interagendo con il file system gestito dal sistema operativo, che organizza fisicamente i dati sulla memoria di massa,"
+      "speech": "quando usate Esplora file per navigare tra le vostre cartelle, state in realtà interagendo con il file system gestito dal sistema operativo, che organizza fisicamente i dati sulla memoria di massa,",
+      "bold": [
+        [
+          98,
+          109
+        ]
+      ]
     },
     {
       "text": "hard disk o SSD che sia, in una struttura logica di cartelle e sottocartelle comprensibile e navigabile per l'utente umano, nascondendo la complessità tecnica di come i dati siano effettivamente disposti sul disco.",
@@ -106,15 +188,49 @@
     },
     {
       "text": "Primo: il sistema operativo gestisce processore, memoria, file system e periferiche, fornendo un'interfaccia uniforme tra hardware e utente.",
-      "speech": "Primo: il sistema operativo gestisce processore, memoria, file system e periferiche, fornendo un'interfaccia uniforme tra hardware e utente."
+      "speech": "Primo: il sistema operativo gestisce processore, memoria, file system e periferiche, fornendo un'interfaccia uniforme tra hardware e utente.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          27
+        ]
+      ]
     },
     {
       "text": "Secondo: le principali famiglie sono Windows e macOS per i PC, Linux per i server, Android e iOS per i dispositivi mobili.",
-      "speech": "Secondo: le principali famiglie sono Windows e macOS per i PC, Linux per i server, Android e iOS per i dispositivi mobili."
+      "speech": "Secondo: le principali famiglie sono Windows e macOS per i PC, Linux per i server, Android e iOS per i dispositivi mobili.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "Terzo: l'interfaccia di Windows si basa su desktop, barra delle applicazioni, menu Start ed Esplora file.",
-      "speech": "Terzo: l'interfaccia di Windows si basa su desktop, barra delle applicazioni, menu Start ed Esplora file."
+      "speech": "Terzo: l'interfaccia di Windows si basa su desktop, barra delle applicazioni, menu Start ed Esplora file.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          78,
+          88
+        ],
+        [
+          92,
+          104
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 2.",

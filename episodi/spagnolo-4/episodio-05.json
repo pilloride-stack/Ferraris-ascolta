@@ -7,23 +7,15 @@
     {
       "text": "Nell'episodio scorso abbiamo chiuso il Modulo 1 con Lope de Vega e Calderón de la Barca.",
       "speech": "Nell'episodio scorso abbiamo chiuso il Modulo 1 con Lope de Vega e Calderón de la Barca.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nell'episodio scorso abbiamo chiuso il Modulo 1 con Lope"
-        },
-        {
-          "lang": "es",
-          "text": "de Vega"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "es",
-          "text": "Calderón de la Barca."
-        }
+      "bold": [
+        [
+          57,
+          64
+        ],
+        [
+          67,
+          87
+        ]
       ]
     },
     {
@@ -33,77 +25,65 @@
     {
       "text": "Diego Velázquez, esponente stesso del Siglo de Oro, e Francisco Goya, che ne raccoglie l'eredità quasi un secolo più tardi.",
       "speech": "Diego Velázquez, esponente stesso del Siglo de Oro, e Francisco Goya, che ne raccoglie l'eredità quasi un secolo più tardi.",
-      "parts": [
-        {
-          "lang": "es",
-          "text": "Diego Velázquez,"
-        },
-        {
-          "lang": "it",
-          "text": "esponente stesso del"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro,"
-        },
-        {
-          "lang": "it",
-          "text": "e Francisco Goya, che ne raccoglie l'eredità quasi un secolo più tardi."
-        }
+      "bold": [
+        [
+          0,
+          15
+        ],
+        [
+          38,
+          50
+        ],
+        [
+          54,
+          68
+        ]
       ]
     },
     {
       "text": "Se il Siglo de Oro è ricordato soprattutto per i suoi grandi scrittori, che abbiamo incontrato nei tre episodi precedenti, lo stesso periodo storico coincide, in campo pittorico,",
       "speech": "Se il Siglo de Oro è ricordato soprattutto per i suoi grandi scrittori, che abbiamo incontrato nei tre episodi precedenti, lo stesso periodo storico coincide, in campo pittorico,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Se il"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro"
-        },
-        {
-          "lang": "it",
-          "text": "è ricordato soprattutto per i suoi grandi scrittori, che abbiamo incontrato nei tre episodi precedenti, lo stesso periodo storico coincide, in campo pittorico,"
-        }
+      "bold": [
+        [
+          6,
+          18
+        ]
       ]
     },
     {
       "text": "con l'attività di Diego Velázquez, vissuto tra il 1599 e il 1660, pittore di corte di Filippo IV e tra i massimi ritrattisti dell'intera storia dell'arte europea.",
       "speech": "con l'attività di Diego Velázquez, vissuto tra il 1599 e il 1660, pittore di corte di Filippo IV e tra i massimi ritrattisti dell'intera storia dell'arte europea.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "con l'attività di Diego"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez,"
-        },
-        {
-          "lang": "it",
-          "text": "vissuto tra il 1599 e il 1660, pittore di corte di Filippo IV e tra i massimi ritrattisti dell'intera storia dell'arte europea."
-        }
+      "bold": [
+        [
+          24,
+          33
+        ],
+        [
+          43,
+          64
+        ],
+        [
+          66,
+          96
+        ]
       ]
     },
     {
       "text": "Il suo capolavoro assoluto, Las Meninas, dipinto nel 1656, rappresenta con straordinaria complessità compositiva l'infanta Margherita circondata dalle proprie dame di compagnia,",
       "speech": "Il suo capolavoro assoluto, Las Meninas, dipinto nel 1656, rappresenta con straordinaria complessità compositiva l'infanta Margherita circondata dalle proprie dame di compagnia,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il suo capolavoro assoluto,"
-        },
-        {
-          "lang": "es",
-          "text": "Las Meninas,"
-        },
-        {
-          "lang": "it",
-          "text": "dipinto nel 1656, rappresenta con straordinaria complessità compositiva l'infanta Margherita circondata dalle proprie dame di compagnia,"
-        }
+      "bold": [
+        [
+          28,
+          39
+        ],
+        [
+          53,
+          57
+        ],
+        [
+          115,
+          133
+        ]
       ]
     },
     {
@@ -117,41 +97,35 @@
     {
       "text": "nel quadro compare anche lo stesso Velázquez, intento a dipingere, in un gioco di sguardi e di livelli di rappresentazione che ha affascinato filosofi e storici dell'arte fino ai giorni nostri,",
       "speech": "nel quadro compare anche lo stesso Velázquez, intento a dipingere, in un gioco di sguardi e di livelli di rappresentazione che ha affascinato filosofi e storici dell'arte fino ai giorni nostri,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "nel quadro compare anche lo stesso"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez,"
-        },
-        {
-          "lang": "it",
-          "text": "intento a dipingere, in un gioco di sguardi e di livelli di rappresentazione che ha affascinato filosofi e storici dell'arte fino ai giorni nostri,"
-        }
+      "bold": [
+        [
+          35,
+          44
+        ],
+        [
+          73,
+          89
+        ]
       ]
     },
     {
       "text": "tanto da essere analizzato dal filosofo francese Michel Foucault come esempio paradigmatico dei problemi filosofici della rappresentazione pittorica: chi guarda chi, in questo quadro?",
-      "speech": "tanto da essere analizzato dal filosofo francese Michel Foucault come esempio paradigmatico dei problemi filosofici della rappresentazione pittorica: chi guarda chi, in questo quadro?"
+      "speech": "tanto da essere analizzato dal filosofo francese Michel Foucault come esempio paradigmatico dei problemi filosofici della rappresentazione pittorica: chi guarda chi, in questo quadro?",
+      "bold": [
+        [
+          49,
+          64
+        ]
+      ]
     },
     {
       "text": "Lo spettatore guarda i sovrani riflessi nello specchio, che a loro volta sono ciò che Velázquez sta dipingendo sulla tela che noi non vediamo,",
       "speech": "Lo spettatore guarda i sovrani riflessi nello specchio, che a loro volta sono ciò che Velázquez sta dipingendo sulla tela che noi non vediamo,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Lo spettatore guarda i sovrani riflessi nello specchio, che a loro volta sono ciò che"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez"
-        },
-        {
-          "lang": "it",
-          "text": "sta dipingendo sulla tela che noi non vediamo,"
-        }
+      "bold": [
+        [
+          86,
+          95
+        ]
       ]
     },
     {
@@ -161,19 +135,19 @@
     {
       "text": "Passiamo ora a Francisco Goya, vissuto tra il 1746 e il 1828, attivo circa un secolo dopo Velázquez e considerato, in una formula molto citata dagli storici dell'arte, l'ultimo dei grandi maestri antichi e insieme il primo pittore moderno.",
       "speech": "Passiamo ora a Francisco Goya, vissuto tra il 1746 e il 1828, attivo circa un secolo dopo Velázquez e considerato, in una formula molto citata dagli storici dell'arte, l'ultimo dei grandi maestri antichi e insieme il primo pittore moderno.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Passiamo ora a Francisco Goya, vissuto tra il 1746 e il 1828, attivo circa un secolo dopo"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez"
-        },
-        {
-          "lang": "it",
-          "text": "e considerato, in una formula molto citata dagli storici dell'arte, l'ultimo dei grandi maestri antichi e insieme il primo pittore moderno."
-        }
+      "bold": [
+        [
+          39,
+          60
+        ],
+        [
+          90,
+          99
+        ],
+        [
+          217,
+          238
+        ]
       ]
     },
     {
@@ -183,19 +157,15 @@
     {
       "text": "Dai ritratti ufficiali della famiglia reale, come La familia de Carlos IV, dipinto tra il 1800 e il 1801, in cui l'artista, con sottile ironia,",
       "speech": "Dai ritratti ufficiali della famiglia reale, come La familia de Carlos IV, dipinto tra il 1800 e il 1801, in cui l'artista, con sottile ironia,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Dai ritratti ufficiali della famiglia reale, come La"
-        },
-        {
-          "lang": "es",
-          "text": "familia de Carlos IV,"
-        },
-        {
-          "lang": "it",
-          "text": "dipinto tra il 1800 e il 1801, in cui l'artista, con sottile ironia,"
-        }
+      "bold": [
+        [
+          53,
+          73
+        ],
+        [
+          90,
+          104
+        ]
       ]
     },
     {
@@ -204,33 +174,51 @@
     },
     {
       "text": "Alle opere drammatiche ispirate agli orrori della guerra d'indipendenza spagnola contro Napoleone,",
-      "speech": "Alle opere drammatiche ispirate agli orrori della guerra d'indipendenza spagnola contro Napoleone,"
+      "speech": "Alle opere drammatiche ispirate agli orrori della guerra d'indipendenza spagnola contro Napoleone,",
+      "bold": [
+        [
+          50,
+          80
+        ]
+      ]
     },
     {
       "text": "come Il 3 maggio 1808, dipinto nel 1814, che raffigura con crudo realismo l'esecuzione di civili spagnoli da parte delle truppe francesi, un'immagine di straordinaria forza emotiva e politica.",
-      "speech": "come Il 3 maggio 1808, dipinto nel 1814, che raffigura con crudo realismo l'esecuzione di civili spagnoli da parte delle truppe francesi, un'immagine di straordinaria forza emotiva e politica."
+      "speech": "come Il 3 maggio 1808, dipinto nel 1814, che raffigura con crudo realismo l'esecuzione di civili spagnoli da parte delle truppe francesi, un'immagine di straordinaria forza emotiva e politica.",
+      "bold": [
+        [
+          5,
+          21
+        ],
+        [
+          35,
+          39
+        ]
+      ]
     },
     {
       "text": "Fino alle inquietanti Pitture nere, Pinturas negras, dipinte direttamente sui muri della propria casa negli ultimi anni di vita,",
       "speech": "Fino alle inquietanti Pitture nere, Pinturas negras, dipinte direttamente sui muri della propria casa negli ultimi anni di vita,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Fino alle inquietanti Pitture nere,"
-        },
-        {
-          "lang": "es",
-          "text": "Pinturas negras,"
-        },
-        {
-          "lang": "it",
-          "text": "dipinte direttamente sui muri della propria casa negli ultimi anni di vita,"
-        }
+      "bold": [
+        [
+          22,
+          34
+        ],
+        [
+          36,
+          51
+        ]
       ]
     },
     {
       "text": "cariche di angoscia esistenziale e di visioni quasi allucinatorie, tra cui il celebre e sconvolgente Saturno che divora i suoi figli.",
-      "speech": "cariche di angoscia esistenziale e di visioni quasi allucinatorie, tra cui il celebre e sconvolgente Saturno che divora i suoi figli."
+      "speech": "cariche di angoscia esistenziale e di visioni quasi allucinatorie, tra cui il celebre e sconvolgente Saturno che divora i suoi figli.",
+      "bold": [
+        [
+          101,
+          132
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su un legame artistico molto suggestivo tra i due pittori, perché arricchisce enormemente una risposta d'esame che voglia collegare i due episodi di questo modulo:",
@@ -239,19 +227,15 @@
     {
       "text": "Goya stesso riconobbe in Velázquez uno dei propri tre grandi maestri, insieme a Rembrandt e alla natura stessa, studiandone a lungo le opere e realizzandone diverse incisioni di riproduzione.",
       "speech": "Goya stesso riconobbe in Velázquez uno dei propri tre grandi maestri, insieme a Rembrandt e alla natura stessa, studiandone a lungo le opere e realizzandone diverse incisioni di riproduzione.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Goya stesso riconobbe in"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez"
-        },
-        {
-          "lang": "it",
-          "text": "uno dei propri tre grandi maestri, insieme a Rembrandt e alla natura stessa, studiandone a lungo le opere e realizzandone diverse incisioni di riproduzione."
-        }
+      "bold": [
+        [
+          25,
+          34
+        ],
+        [
+          80,
+          89
+        ]
       ]
     },
     {
@@ -260,7 +244,13 @@
     },
     {
       "text": "dal classicismo controllato del Barocco secentesco fino all'inquietudine anticipatrice del Romanticismo e della modernità ottocentesca, di cui Goya è considerato un precursore diretto.",
-      "speech": "dal classicismo controllato del Barocco secentesco fino all'inquietudine anticipatrice del Romanticismo e della modernità ottocentesca, di cui Goya è considerato un precursore diretto."
+      "speech": "dal classicismo controllato del Barocco secentesco fino all'inquietudine anticipatrice del Romanticismo e della modernità ottocentesca, di cui Goya è considerato un precursore diretto.",
+      "bold": [
+        [
+          91,
+          103
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio di confronto tra i due pittori, molto utile per fissare le idee in vista dell'esame.",
@@ -269,89 +259,81 @@
     {
       "text": "Quanto al periodo, Velázquez appartiene al XVII secolo, in pieno Siglo de Oro barocco, mentre Goya appartiene alla fine del XVIII e all'inizio del XIX secolo.",
       "speech": "Quanto al periodo, Velázquez appartiene al XVII secolo, in pieno Siglo de Oro barocco, mentre Goya appartiene alla fine del XVIII e all'inizio del XIX secolo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quanto al periodo,"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez"
-        },
-        {
-          "lang": "it",
-          "text": "appartiene al XVII secolo, in pieno"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro"
-        },
-        {
-          "lang": "it",
-          "text": "barocco, mentre Goya appartiene alla fine del XVIII e all'inizio del XIX secolo."
-        }
+      "bold": [
+        [
+          19,
+          28
+        ],
+        [
+          43,
+          54
+        ],
+        [
+          65,
+          77
+        ]
       ]
     },
     {
       "text": "Quanto al ruolo, Velázquez fu pittore di corte di Filippo IV, Goya di Carlo IV e poi di Ferdinando VII.",
       "speech": "Quanto al ruolo, Velázquez fu pittore di corte di Filippo IV, Goya di Carlo IV e poi di Ferdinando VII.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quanto al ruolo,"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez"
-        },
-        {
-          "lang": "it",
-          "text": "fu pittore di corte di Filippo IV, Goya di Carlo IV e poi di Ferdinando VII."
-        }
+      "bold": [
+        [
+          17,
+          26
+        ],
+        [
+          50,
+          60
+        ],
+        [
+          70,
+          78
+        ],
+        [
+          88,
+          102
+        ]
       ]
     },
     {
       "text": "Quanto all'opera-simbolo, Velázquez è ricordato per Las Meninas, Goya per Il 3 maggio 1808 e per le Pitture nere.",
       "speech": "Quanto all'opera-simbolo, Velázquez è ricordato per Las Meninas, Goya per Il 3 maggio 1808 e per le Pitture nere.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quanto all'opera-simbolo,"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez"
-        },
-        {
-          "lang": "it",
-          "text": "è ricordato per"
-        },
-        {
-          "lang": "es",
-          "text": "Las Meninas,"
-        },
-        {
-          "lang": "it",
-          "text": "Goya per Il 3 maggio 1808 e per le Pitture nere."
-        }
+      "bold": [
+        [
+          26,
+          35
+        ],
+        [
+          52,
+          63
+        ],
+        [
+          74,
+          90
+        ],
+        [
+          100,
+          112
+        ]
       ]
     },
     {
       "text": "Quanto all'eredità, Velázquez è considerato un modello per il realismo e persino per l'impressionismo di Manet, mentre Goya è considerato un ponte tra il tardo Settecento e l'arte moderna.",
       "speech": "Quanto all'eredità, Velázquez è considerato un modello per il realismo e persino per l'impressionismo di Manet, mentre Goya è considerato un ponte tra il tardo Settecento e l'arte moderna.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Quanto all'eredità,"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez"
-        },
-        {
-          "lang": "it",
-          "text": "è considerato un modello per il realismo e persino per l'impressionismo di Manet, mentre Goya è considerato un ponte tra il tardo Settecento e l'arte moderna."
-        }
+      "bold": [
+        [
+          20,
+          29
+        ],
+        [
+          87,
+          110
+        ],
+        [
+          141,
+          146
+        ]
       ]
     },
     {
@@ -361,67 +343,77 @@
     {
       "text": "Primo: Diego Velázquez, pittore di corte di Filippo IV, dipinse Las Meninas, capolavoro di straordinaria complessità compositiva sul tema dello sguardo e della rappresentazione.",
       "speech": "Primo: Diego Velázquez, pittore di corte di Filippo IV, dipinse Las Meninas, capolavoro di straordinaria complessità compositiva sul tema dello sguardo e della rappresentazione.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo:"
-        },
-        {
-          "lang": "es",
-          "text": "Diego Velázquez,"
-        },
-        {
-          "lang": "it",
-          "text": "pittore di corte di Filippo IV, dipinse"
-        },
-        {
-          "lang": "es",
-          "text": "Las Meninas,"
-        },
-        {
-          "lang": "it",
-          "text": "capolavoro di straordinaria complessità compositiva sul tema dello sguardo e della rappresentazione."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          22
+        ],
+        [
+          44,
+          54
+        ],
+        [
+          64,
+          75
+        ],
+        [
+          144,
+          176
+        ]
       ]
     },
     {
       "text": "Secondo: Francisco Goya attraversò un'evoluzione stilistica radicale, dai ritratti di corte alle opere drammatiche sulla guerra d'indipendenza fino alle inquietanti Pitture nere.",
-      "speech": "Secondo: Francisco Goya attraversò un'evoluzione stilistica radicale, dai ritratti di corte alle opere drammatiche sulla guerra d'indipendenza fino alle inquietanti Pitture nere."
+      "speech": "Secondo: Francisco Goya attraversò un'evoluzione stilistica radicale, dai ritratti di corte alle opere drammatiche sulla guerra d'indipendenza fino alle inquietanti Pitture nere.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          38,
+          68
+        ],
+        [
+          121,
+          142
+        ],
+        [
+          165,
+          177
+        ]
+      ]
     },
     {
       "text": "Terzo: Goya riconobbe in Velázquez uno dei propri maestri, testimoniando la continuità della grande tradizione pittorica spagnola dal Barocco fino alla modernità.",
       "speech": "Terzo: Goya riconobbe in Velázquez uno dei propri maestri, testimoniando la continuità della grande tradizione pittorica spagnola dal Barocco fino alla modernità.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Terzo: Goya riconobbe in"
-        },
-        {
-          "lang": "es",
-          "text": "Velázquez"
-        },
-        {
-          "lang": "it",
-          "text": "uno dei propri maestri, testimoniando la continuità della grande tradizione pittorica spagnola dal Barocco fino alla modernità."
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          25,
+          34
+        ],
+        [
+          100,
+          129
+        ]
       ]
     },
     {
       "text": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo alla sintesi comparativa dell'intero Siglo de Oro e a un ripasso organico di tutte le domande guida della Classe IV.",
       "speech": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo alla sintesi comparativa dell'intero Siglo de Oro e a un ripasso organico di tutte le domande guida della Classe IV.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo alla sintesi comparativa dell'intero"
-        },
-        {
-          "lang": "es",
-          "text": "Siglo de Oro"
-        },
-        {
-          "lang": "it",
-          "text": "e a un ripasso organico di tutte le domande guida della Classe IV."
-        }
+      "bold": [
+        [
+          111,
+          123
+        ]
       ]
     },
     {

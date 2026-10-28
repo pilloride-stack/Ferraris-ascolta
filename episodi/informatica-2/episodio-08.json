@@ -22,11 +22,35 @@
     },
     {
       "text": "Internet è la rete delle reti, l'infrastruttura globale che collega milioni di reti private, pubbliche, accademiche e commerciali;",
-      "speech": "Internet è la rete delle reti, l'infrastruttura globale che collega milioni di reti private, pubbliche, accademiche e commerciali;"
+      "speech": "Internet è la rete delle reti, l'infrastruttura globale che collega milioni di reti private, pubbliche, accademiche e commerciali;",
+      "bold": [
+        [
+          14,
+          29
+        ]
+      ]
     },
     {
       "text": "nacque nel 1969 con ARPANET negli Stati Uniti, e l'Italia si collegò il 30 aprile 1986 dal CNUCE di Pisa, quarto paese europeo a farlo, con il funzionamento basato sul protocollo TCP/IP.",
-      "speech": "nacque nel 1969 con ARPANET negli Stati Uniti, e l'Italia si collegò il 30 aprile 1986 dal CNUCE di Pisa, quarto paese europeo a farlo, con il funzionamento basato sul protocollo TCP, IP."
+      "speech": "nacque nel 1969 con ARPANET negli Stati Uniti, e l'Italia si collegò il 30 aprile 1986 dal CNUCE di Pisa, quarto paese europeo a farlo, con il funzionamento basato sul protocollo TCP, IP.",
+      "bold": [
+        [
+          11,
+          15
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          72,
+          86
+        ],
+        [
+          91,
+          104
+        ]
+      ]
     },
     {
       "text": "Quali sono le principali modalità di connessione a Internet?",
@@ -38,7 +62,13 @@
     },
     {
       "text": "e la connessione Wi-Fi, che distribuisce localmente e senza fili un accesso che deve comunque arrivare da un ISP.",
-      "speech": "e la connessione Wi-Fi, che distribuisce localmente e senza fili un accesso che deve comunque arrivare da un ISP."
+      "speech": "e la connessione Wi-Fi, che distribuisce localmente e senza fili un accesso che deve comunque arrivare da un ISP.",
+      "bold": [
+        [
+          17,
+          22
+        ]
+      ]
     },
     {
       "text": "Quali sono i principali servizi offerti da Internet?",
@@ -50,7 +80,13 @@
     },
     {
       "text": "fermatevi un momento su questo elenco, perché ricordare che Internet e Web non coincidono, essendo il secondo soltanto uno dei servizi che si appoggiano sulla prima, è un punto che vale la pena rimarcare con precisione davanti a un commissario.",
-      "speech": "fermatevi un momento su questo elenco, perché ricordare che Internet e Web non coincidono, essendo il secondo soltanto uno dei servizi che si appoggiano sulla prima, è un punto che vale la pena rimarcare con precisione davanti a un commissario."
+      "speech": "fermatevi un momento su questo elenco, perché ricordare che Internet e Web non coincidono, essendo il secondo soltanto uno dei servizi che si appoggiano sulla prima, è un punto che vale la pena rimarcare con precisione davanti a un commissario.",
+      "bold": [
+        [
+          60,
+          89
+        ]
+      ]
     },
     {
       "text": "Che cos'è la netiquette, e quali sono alcune delle sue regole fondamentali?",
@@ -58,11 +94,23 @@
     },
     {
       "text": "È l'insieme delle regole di buona educazione, non scritte ma condivise, che regolano il comportamento online:",
-      "speech": "È l'insieme delle regole di buona educazione, non scritte ma condivise, che regolano il comportamento online:"
+      "speech": "È l'insieme delle regole di buona educazione, non scritte ma condivise, che regolano il comportamento online:",
+      "bold": [
+        [
+          18,
+          44
+        ]
+      ]
     },
     {
       "text": "tra queste, rispettare gli altri utenti evitando linguaggio offensivo, non scrivere in maiuscolo perché equivale a urlare, citare le fonti dei contenuti condivisi ed evitare lo spam.",
-      "speech": "tra queste, rispettare gli altri utenti evitando linguaggio offensivo, non scrivere in maiuscolo perché equivale a urlare, citare le fonti dei contenuti condivisi ed evitare lo spam."
+      "speech": "tra queste, rispettare gli altri utenti evitando linguaggio offensivo, non scrivere in maiuscolo perché equivale a urlare, citare le fonti dei contenuti condivisi ed evitare lo spam.",
+      "bold": [
+        [
+          177,
+          181
+        ]
+      ]
     },
     {
       "text": "Che cos'è il diritto informatico e quali ambiti disciplina?",
@@ -70,15 +118,33 @@
     },
     {
       "text": "È l'insieme delle norme giuridiche sull'uso delle tecnologie digitali, e disciplina quattro ambiti distinti:",
-      "speech": "È l'insieme delle norme giuridiche sull'uso delle tecnologie digitali, e disciplina quattro ambiti distinti:"
+      "speech": "È l'insieme delle norme giuridiche sull'uso delle tecnologie digitali, e disciplina quattro ambiti distinti:",
+      "bold": [
+        [
+          84,
+          107
+        ]
+      ]
     },
     {
       "text": "la proprietà intellettuale sui contenuti digitali, la protezione dei dati personali tramite il GDPR, i reati informatici come l'accesso abusivo o il furto di identità digitale,",
-      "speech": "la proprietà intellettuale sui contenuti digitali, la protezione dei dati personali tramite il GDPR, i reati informatici come l'accesso abusivo o il furto di identità digitale,"
+      "speech": "la proprietà intellettuale sui contenuti digitali, la protezione dei dati personali tramite il GDPR, i reati informatici come l'accesso abusivo o il furto di identità digitale,",
+      "bold": [
+        [
+          95,
+          99
+        ]
+      ]
     },
     {
       "text": "e la regolamentazione del commercio elettronico e della firma digitale.",
-      "speech": "e la regolamentazione del commercio elettronico e della firma digitale."
+      "speech": "e la regolamentazione del commercio elettronico e della firma digitale.",
+      "bold": [
+        [
+          56,
+          70
+        ]
+      ]
     },
     {
       "text": "Passiamo alle domande del Modulo 2.",
@@ -90,11 +156,31 @@
     },
     {
       "text": "Il client, per esempio il browser, invia una richiesta a un server, che la elabora e restituisce una risposta;",
-      "speech": "Il client, per esempio il browser, invia una richiesta a un server, che la elabora e restituisce una risposta;"
+      "speech": "Il client, per esempio il browser, invia una richiesta a un server, che la elabora e restituisce una risposta;",
+      "bold": [
+        [
+          3,
+          9
+        ],
+        [
+          60,
+          66
+        ]
+      ]
     },
     {
       "text": "i dati viaggiano suddivisi in pacchetti, e il trasferimento dal server all'utente si chiama download, quello dall'utente al server upload.",
-      "speech": "i dati viaggiano suddivisi in pacchetti, e il trasferimento dal server all'utente si chiama download, quello dall'utente al server upload."
+      "speech": "i dati viaggiano suddivisi in pacchetti, e il trasferimento dal server all'utente si chiama download, quello dall'utente al server upload.",
+      "bold": [
+        [
+          30,
+          39
+        ],
+        [
+          92,
+          100
+        ]
+      ]
     },
     {
       "text": "Che cos'è un URL e quali sono i suoi elementi principali?",
@@ -102,7 +188,21 @@
     },
     {
       "text": "È l'indirizzo univoco che identifica una pagina web, composto da protocollo, come https://, dominio, come il nome del sito, e percorso, cioè la posizione della risorsa specifica.",
-      "speech": "È l'indirizzo univoco che identifica una pagina web, composto da protocollo, come https://, dominio, come il nome del sito, e percorso, cioè la posizione della risorsa specifica."
+      "speech": "È l'indirizzo univoco che identifica una pagina web, composto da protocollo, come https://, dominio, come il nome del sito, e percorso, cioè la posizione della risorsa specifica.",
+      "bold": [
+        [
+          65,
+          75
+        ],
+        [
+          92,
+          99
+        ],
+        [
+          126,
+          134
+        ]
+      ]
     },
     {
       "text": "Che differenza c'è tra HTTP e HTTPS?",
@@ -110,11 +210,23 @@
     },
     {
       "text": "Entrambi sono protocolli di trasferimento delle pagine web, ma HTTPS ne è la variante sicura e crittografata, oggi lo standard raccomandato per proteggere la riservatezza dei dati scambiati:",
-      "speech": "Entrambi sono protocolli di trasferimento delle pagine web, ma HTTPS ne è la variante sicura e crittografata, oggi lo standard raccomandato per proteggere la riservatezza dei dati scambiati:"
+      "speech": "Entrambi sono protocolli di trasferimento delle pagine web, ma HTTPS ne è la variante sicura e crittografata, oggi lo standard raccomandato per proteggere la riservatezza dei dati scambiati:",
+      "bold": [
+        [
+          63,
+          68
+        ]
+      ]
     },
     {
       "text": "fermatevi un momento su questa distinzione, perché riconoscere la presenza della «s» e del lucchetto nel browser è un'abilità pratica, oltre che nozionistica, utile ogni giorno.",
-      "speech": "fermatevi un momento su questa distinzione, perché riconoscere la presenza della «s» e del lucchetto nel browser è un'abilità pratica, oltre che nozionistica, utile ogni giorno."
+      "speech": "fermatevi un momento su questa distinzione, perché riconoscere la presenza della «s» e del lucchetto nel browser è un'abilità pratica, oltre che nozionistica, utile ogni giorno.",
+      "bold": [
+        [
+          82,
+          83
+        ]
+      ]
     },
     {
       "text": "Come funzionano i motori di ricerca, e come si può effettuare una ricerca efficace?",
@@ -122,7 +234,13 @@
     },
     {
       "text": "I motori di ricerca indicizzano automaticamente il contenuto delle pagine web e restituiscono un elenco ordinato di risultati pertinenti;",
-      "speech": "I motori di ricerca indicizzano automaticamente il contenuto delle pagine web e restituiscono un elenco ordinato di risultati pertinenti;"
+      "speech": "I motori di ricerca indicizzano automaticamente il contenuto delle pagine web e restituiscono un elenco ordinato di risultati pertinenti;",
+      "bold": [
+        [
+          2,
+          19
+        ]
+      ]
     },
     {
       "text": "una ricerca efficace usa parole chiave specifiche, le virgolette per un'espressione esatta, l'operatore meno per escludere termini indesiderati,",
@@ -138,11 +256,31 @@
     },
     {
       "text": "È il servizio, nato nel 1972 con Ray Tomlinson, che permette di scambiare messaggi digitali tramite indirizzi nella forma utente@dominio;",
-      "speech": "È il servizio, nato nel 1972 con Ray Tomlinson, che permette di scambiare messaggi digitali tramite indirizzi nella forma utente@dominio;"
+      "speech": "È il servizio, nato nel 1972 con Ray Tomlinson, che permette di scambiare messaggi digitali tramite indirizzi nella forma utente@dominio;",
+      "bold": [
+        [
+          24,
+          28
+        ],
+        [
+          33,
+          46
+        ]
+      ]
     },
     {
       "text": "un messaggio è composto da mittente, destinatari, eventualmente in copia conoscenza CC o in copia conoscenza nascosta CCN, oggetto, corpo ed eventuali allegati.",
-      "speech": "un messaggio è composto da mittente, destinatari, eventualmente in copia conoscenza CC o in copia conoscenza nascosta CCN, oggetto, corpo ed eventuali allegati."
+      "speech": "un messaggio è composto da mittente, destinatari, eventualmente in copia conoscenza CC o in copia conoscenza nascosta CCN, oggetto, corpo ed eventuali allegati.",
+      "bold": [
+        [
+          84,
+          86
+        ],
+        [
+          118,
+          121
+        ]
+      ]
     },
     {
       "text": "Quali sono i principali rischi legati a un uso non consapevole della rete?",
@@ -150,11 +288,27 @@
     },
     {
       "text": "Il cyberbullismo, il phishing, che imita comunicazioni ufficiali per carpire dati personali,",
-      "speech": "Il cyberbullismo, il phishing, che imita comunicazioni ufficiali per carpire dati personali,"
+      "speech": "Il cyberbullismo, il phishing, che imita comunicazioni ufficiali per carpire dati personali,",
+      "bold": [
+        [
+          3,
+          16
+        ],
+        [
+          21,
+          29
+        ]
+      ]
     },
     {
       "text": "e la scarsa tutela della propria privacy, a cui si risponde con password sicure e diverse per ogni servizio, l'autenticazione a due fattori e il rispetto del copyright.",
-      "speech": "e la scarsa tutela della propria privacy, a cui si risponde con password sicure e diverse per ogni servizio, l'autenticazione a due fattori e il rispetto del copyright."
+      "speech": "e la scarsa tutela della propria privacy, a cui si risponde con password sicure e diverse per ogni servizio, l'autenticazione a due fattori e il rispetto del copyright.",
+      "bold": [
+        [
+          111,
+          139
+        ]
+      ]
     },
     {
       "text": "Concludiamo con le domande del Modulo 3, dedicato a Excel.",
@@ -166,7 +320,13 @@
     },
     {
       "text": "È l'unità base del foglio di calcolo, identificata da una lettera per la colonna e un numero per la riga, come A1; un insieme contiguo di celle è un intervallo, come A1:C5.",
-      "speech": "È l'unità base del foglio di calcolo, identificata da una lettera per la colonna e un numero per la riga, come A1; un insieme contiguo di celle è un intervallo, come A1:C5."
+      "speech": "È l'unità base del foglio di calcolo, identificata da una lettera per la colonna e un numero per la riga, come A1; un insieme contiguo di celle è un intervallo, come A1:C5.",
+      "bold": [
+        [
+          149,
+          159
+        ]
+      ]
     },
     {
       "text": "Qual è la differenza tra un riferimento relativo e uno assoluto?",
@@ -178,11 +338,23 @@
     },
     {
       "text": "il riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata altrove,",
-      "speech": "il riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata altrove,"
+      "speech": "il riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata altrove,",
+      "bold": [
+        [
+          3,
+          23
+        ]
+      ]
     },
     {
       "text": "mentre quello assoluto, fissato con il simbolo del dollaro come $A$1, resta sempre ancorato alla stessa cella.",
-      "speech": "mentre quello assoluto, fissato con il simbolo del dollaro come $A$1, resta sempre ancorato alla stessa cella."
+      "speech": "mentre quello assoluto, fissato con il simbolo del dollaro come $A$1, resta sempre ancorato alla stessa cella.",
+      "bold": [
+        [
+          14,
+          22
+        ]
+      ]
     },
     {
       "text": "Come si utilizza la funzione SOMMA in Excel?",
@@ -190,7 +362,13 @@
     },
     {
       "text": "Si digita nella cella del risultato =SOMMA seguito, tra parentesi, dall'intervallo da sommare, per esempio =SOMMA(A1:A5).",
-      "speech": "Si digita nella cella del risultato =SOMMA seguito, tra parentesi, dall'intervallo da sommare, per esempio =SOMMA(A1:A5)."
+      "speech": "Si digita nella cella del risultato =SOMMA seguito, tra parentesi, dall'intervallo da sommare, per esempio =SOMMA(A1:A5).",
+      "bold": [
+        [
+          107,
+          120
+        ]
+      ]
     },
     {
       "text": "Quali tipi di grafico offre Excel, e quando si utilizzano?",
@@ -198,11 +376,27 @@
     },
     {
       "text": "L'istogramma per confrontare valori tra categorie diverse, il grafico a torta per mostrare la composizione percentuale di un totale,",
-      "speech": "L'istogramma per confrontare valori tra categorie diverse, il grafico a torta per mostrare la composizione percentuale di un totale,"
+      "speech": "L'istogramma per confrontare valori tra categorie diverse, il grafico a torta per mostrare la composizione percentuale di un totale,",
+      "bold": [
+        [
+          2,
+          12
+        ],
+        [
+          62,
+          77
+        ]
+      ]
     },
     {
       "text": "e il grafico a linee per mostrare l'andamento di un valore nel tempo.",
-      "speech": "e il grafico a linee per mostrare l'andamento di un valore nel tempo."
+      "speech": "e il grafico a linee per mostrare l'andamento di un valore nel tempo.",
+      "bold": [
+        [
+          5,
+          20
+        ]
+      ]
     },
     {
       "text": "Quali accorgimenti si devono adottare prima di stampare un foglio di calcolo?",
@@ -210,7 +404,17 @@
     },
     {
       "text": "Controllare l'anteprima di stampa, definire l'area di stampa, scegliere l'orientamento verticale o orizzontale della pagina, adattare eventualmente il contenuto al numero di pagine desiderato, e inserire se utile intestazioni e piè di pagina.",
-      "speech": "Controllare l'anteprima di stampa, definire l'area di stampa, scegliere l'orientamento verticale o orizzontale della pagina, adattare eventualmente il contenuto al numero di pagine desiderato, e inserire se utile intestazioni e piè di pagina."
+      "speech": "Controllare l'anteprima di stampa, definire l'area di stampa, scegliere l'orientamento verticale o orizzontale della pagina, adattare eventualmente il contenuto al numero di pagine desiderato, e inserire se utile intestazioni e piè di pagina.",
+      "bold": [
+        [
+          14,
+          33
+        ],
+        [
+          46,
+          60
+        ]
+      ]
     },
     {
       "text": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:",
@@ -246,15 +450,33 @@
     },
     {
       "text": "Primo: Internet, la sua storia, i suoi servizi, la netiquette e il diritto informatico costituiscono le basi concettuali dell'intero percorso.",
-      "speech": "Primo: Internet, la sua storia, i suoi servizi, la netiquette e il diritto informatico costituiscono le basi concettuali dell'intero percorso."
+      "speech": "Primo: Internet, la sua storia, i suoi servizi, la netiquette e il diritto informatico costituiscono le basi concettuali dell'intero percorso.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ]
     },
     {
       "text": "Secondo: il modello client-server, la navigazione, la ricerca in rete, la posta elettronica e i rischi di un uso non consapevole descrivono come utilizziamo concretamente e responsabilmente questi servizi.",
-      "speech": "Secondo: il modello client-server, la navigazione, la ricerca in rete, la posta elettronica e i rischi di un uso non consapevole descrivono come utilizziamo concretamente e responsabilmente questi servizi."
+      "speech": "Secondo: il modello client-server, la navigazione, la ricerca in rete, la posta elettronica e i rischi di un uso non consapevole descrivono come utilizziamo concretamente e responsabilmente questi servizi.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "Terzo: Excel traduce questi concetti in uno strumento professionale pratico, con celle, formule, riferimenti, tabelle, grafici e stampa, ciascuno con la propria logica e il proprio utilizzo specifico.",
-      "speech": "Terzo: Excel traduce questi concetti in uno strumento professionale pratico, con celle, formule, riferimenti, tabelle, grafici e stampa, ciascuno con la propria logica e il proprio utilizzo specifico."
+      "speech": "Terzo: Excel traduce questi concetti in uno strumento professionale pratico, con celle, formule, riferimenti, tabelle, grafici e stampa, ciascuno con la propria logica e il proprio utilizzo specifico.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero modulo di Informatica per la classe seconda.",

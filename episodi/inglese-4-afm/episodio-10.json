@@ -10,7 +10,13 @@
     },
     {
       "text": "Oggi chiudiamo il modulo con gli ultimi due argomenti di contenuto — il governo britannico e quello statunitense, i rispettivi sistemi partitici e la differenza tra sistema parlamentare e presidenziale —",
-      "speech": "Oggi chiudiamo il modulo con gli ultimi due argomenti di contenuto — il governo britannico e quello statunitense, i rispettivi sistemi partitici e la differenza tra sistema parlamentare e presidenziale —"
+      "speech": "Oggi chiudiamo il modulo con gli ultimi due argomenti di contenuto — il governo britannico e quello statunitense, i rispettivi sistemi partitici e la differenza tra sistema parlamentare e presidenziale —",
+      "bold": [
+        [
+          165,
+          201
+        ]
+      ]
     },
     {
       "text": "e poi dedichiamo la parte finale dell'episodio a un ripasso organico di tutte le quindici domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato e collegato agli altri.",
@@ -19,43 +25,39 @@
     {
       "text": "Cominciamo dal governo del Regno Unito, the UK government.",
       "speech": "Cominciamo dal governo del Regno Unito, the UK government.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Cominciamo dal governo del Regno Unito,"
-        },
-        {
-          "lang": "en",
-          "text": "the UK government."
-        }
+      "bold": [
+        [
+          40,
+          57
+        ]
       ]
     },
     {
       "text": "Il Regno Unito è una monarchia costituzionale, constitutional monarchy:",
       "speech": "Il Regno Unito è una monarchia costituzionale, constitutional monarchy:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il Regno Unito è una monarchia costituzionale,"
-        },
-        {
-          "lang": "en",
-          "text": "constitutional monarchy:"
-        }
+      "bold": [
+        [
+          21,
+          45
+        ],
+        [
+          47,
+          70
+        ]
       ]
     },
     {
       "text": "il monarca, attualmente Re Carlo III, è il capo dello Stato, Head of State,",
       "speech": "il monarca, attualmente Re Carlo III, è il capo dello Stato, Head of State,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "il monarca, attualmente Re Carlo III, è il capo dello Stato,"
-        },
-        {
-          "lang": "en",
-          "text": "Head of State,"
-        }
+      "bold": [
+        [
+          24,
+          36
+        ],
+        [
+          61,
+          74
+        ]
       ]
     },
     {
@@ -65,165 +67,121 @@
     {
       "text": "Il potere esecutivo effettivo è invece esercitato dal governo, guidato dal Primo Ministro, Prime Minister, che è il leader del partito che detiene la maggioranza dei seggi alla Camera dei Comuni.",
       "speech": "Il potere esecutivo effettivo è invece esercitato dal governo, guidato dal Primo Ministro, Prime Minister, che è il leader del partito che detiene la maggioranza dei seggi alla Camera dei Comuni.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il potere esecutivo effettivo è invece esercitato dal governo, guidato dal Primo Ministro,"
-        },
-        {
-          "lang": "en",
-          "text": "Prime Minister,"
-        },
-        {
-          "lang": "it",
-          "text": "che è il leader del partito che detiene la maggioranza dei seggi alla Camera dei Comuni."
-        }
+      "bold": [
+        [
+          75,
+          89
+        ],
+        [
+          91,
+          105
+        ],
+        [
+          177,
+          194
+        ]
       ]
     },
     {
       "text": "Il Parlamento britannico, Parliament, è bicamerale, composto da due camere ben distinte:",
       "speech": "Il Parlamento britannico, Parliament, è bicamerale, composto da due camere ben distinte:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il Parlamento britannico,"
-        },
-        {
-          "lang": "en",
-          "text": "Parliament,"
-        },
-        {
-          "lang": "it",
-          "text": "è bicamerale, composto da due camere ben distinte:"
-        }
+      "bold": [
+        [
+          26,
+          36
+        ],
+        [
+          40,
+          50
+        ]
       ]
     },
     {
       "text": "la Camera dei Comuni, House of Commons, formata da membri eletti direttamente dal popolo, i cosiddetti MPs, Members of Parliament;",
       "speech": "la Camera dei Comuni, House of Commons, formata da membri eletti direttamente dal popolo, i cosiddetti MPs, Members of Parliament;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "la Camera dei Comuni,"
-        },
-        {
-          "lang": "en",
-          "text": "House of Commons,"
-        },
-        {
-          "lang": "it",
-          "text": "formata da membri eletti direttamente dal popolo, i cosiddetti"
-        },
-        {
-          "lang": "en",
-          "text": "MPs, Members of Parliament;"
-        }
+      "bold": [
+        [
+          22,
+          38
+        ],
+        [
+          103,
+          129
+        ]
       ]
     },
     {
       "text": "e la Camera dei Lord, House of Lords, composta prevalentemente da membri nominati, i life peers, insieme a un numero ormai ristretto di pari ereditari,",
       "speech": "e la Camera dei Lord, House of Lords, composta prevalentemente da membri nominati, i life peers, insieme a un numero ormai ristretto di pari ereditari,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e la Camera dei"
-        },
-        {
-          "lang": "en",
-          "text": "Lord, House of Lords,"
-        },
-        {
-          "lang": "it",
-          "text": "composta prevalentemente da membri nominati,"
-        },
-        {
-          "lang": "en",
-          "text": "i life peers,"
-        },
-        {
-          "lang": "it",
-          "text": "insieme a un numero ormai ristretto di pari ereditari,"
-        }
+      "bold": [
+        [
+          16,
+          36
+        ],
+        [
+          83,
+          95
+        ]
       ]
     },
     {
       "text": "hereditary peers, che hanno mantenuto il proprio seggio per diritto di nascita secondo un'antica tradizione in via di progressivo superamento.",
       "speech": "hereditary peers, che hanno mantenuto il proprio seggio per diritto di nascita secondo un'antica tradizione in via di progressivo superamento.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "hereditary peers,"
-        },
-        {
-          "lang": "it",
-          "text": "che hanno mantenuto il proprio seggio per diritto di nascita secondo un'antica tradizione in via di progressivo superamento."
-        }
+      "bold": [
+        [
+          0,
+          16
+        ]
       ]
     },
     {
       "text": "Passiamo al governo degli Stati Uniti, the US government.",
       "speech": "Passiamo al governo degli Stati Uniti, the US government.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Passiamo al governo degli Stati Uniti,"
-        },
-        {
-          "lang": "en",
-          "text": "the US government."
-        }
+      "bold": [
+        [
+          39,
+          56
+        ]
       ]
     },
     {
       "text": "Gli Stati Uniti sono una repubblica federale, federal republic, fondata su un principio costituzionale molto più rigido di separazione dei poteri, separation of powers, tra tre organi pienamente indipendenti tra loro.",
       "speech": "Gli Stati Uniti sono una repubblica federale, federal republic, fondata su un principio costituzionale molto più rigido di separazione dei poteri, separation of powers, tra tre organi pienamente indipendenti tra loro.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Gli Stati Uniti sono una repubblica federale,"
-        },
-        {
-          "lang": "en",
-          "text": "federal republic,"
-        },
-        {
-          "lang": "it",
-          "text": "fondata su un principio costituzionale molto più rigido di separazione dei poteri,"
-        },
-        {
-          "lang": "en",
-          "text": "separation of powers,"
-        },
-        {
-          "lang": "it",
-          "text": "tra tre organi pienamente indipendenti tra loro."
-        }
+      "bold": [
+        [
+          25,
+          44
+        ],
+        [
+          46,
+          62
+        ],
+        [
+          123,
+          145
+        ],
+        [
+          147,
+          167
+        ]
       ]
     },
     {
       "text": "Il potere esecutivo, Executive, è incarnato dal Presidente, President, eletto ogni quattro anni e che riveste contemporaneamente il ruolo di capo dello Stato e di capo del governo,",
       "speech": "Il potere esecutivo, Executive, è incarnato dal Presidente, President, eletto ogni quattro anni e che riveste contemporaneamente il ruolo di capo dello Stato e di capo del governo,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il potere esecutivo,"
-        },
-        {
-          "lang": "en",
-          "text": "Executive,"
-        },
-        {
-          "lang": "it",
-          "text": "è incarnato dal Presidente,"
-        },
-        {
-          "lang": "en",
-          "text": "President,"
-        },
-        {
-          "lang": "it",
-          "text": "eletto ogni quattro anni e che riveste contemporaneamente il ruolo di capo dello Stato e di capo del governo,"
-        }
+      "bold": [
+        [
+          21,
+          30
+        ],
+        [
+          48,
+          58
+        ],
+        [
+          60,
+          69
+        ]
       ]
     },
     {
@@ -233,95 +191,75 @@
     {
       "text": "Il potere legislativo, Legislative, è esercitato dal Congresso, Congress, a sua volta diviso in due camere:",
       "speech": "Il potere legislativo, Legislative, è esercitato dal Congresso, Congress, a sua volta diviso in due camere:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il potere legislativo, Legislative, è esercitato dal Congresso,"
-        },
-        {
-          "lang": "en",
-          "text": "Congress,"
-        },
-        {
-          "lang": "it",
-          "text": "a sua volta diviso in due camere:"
-        }
+      "bold": [
+        [
+          53,
+          62
+        ],
+        [
+          64,
+          72
+        ]
       ]
     },
     {
       "text": "il Senato, Senate, composto da due senatori per ciascuno dei cinquanta Stati, a prescindere dalla loro popolazione;",
       "speech": "il Senato, Senate, composto da due senatori per ciascuno dei cinquanta Stati, a prescindere dalla loro popolazione;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "il Senato,"
-        },
-        {
-          "lang": "en",
-          "text": "Senate,"
-        },
-        {
-          "lang": "it",
-          "text": "composto da due senatori per ciascuno dei cinquanta Stati, a prescindere dalla loro popolazione;"
-        }
+      "bold": [
+        [
+          3,
+          9
+        ],
+        [
+          11,
+          17
+        ]
       ]
     },
     {
       "text": "e la Camera dei Rappresentanti, House of Representatives, i cui membri sono invece eletti in proporzione alla popolazione di ciascuno Stato.",
       "speech": "e la Camera dei Rappresentanti, House of Representatives, i cui membri sono invece eletti in proporzione alla popolazione di ciascuno Stato.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e la Camera dei Rappresentanti,"
-        },
-        {
-          "lang": "en",
-          "text": "House of Representatives,"
-        },
-        {
-          "lang": "it",
-          "text": "i cui membri sono invece eletti in proporzione alla popolazione di ciascuno Stato."
-        }
+      "bold": [
+        [
+          5,
+          30
+        ],
+        [
+          32,
+          56
+        ]
       ]
     },
     {
       "text": "Il potere giudiziario, Judicial, è infine incarnato dalla Corte Suprema, Supreme Court.",
       "speech": "Il potere giudiziario, Judicial, è infine incarnato dalla Corte Suprema, Supreme Court.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il potere giudiziario,"
-        },
-        {
-          "lang": "en",
-          "text": "Judicial,"
-        },
-        {
-          "lang": "it",
-          "text": "è infine incarnato dalla Corte Suprema,"
-        },
-        {
-          "lang": "en",
-          "text": "Supreme Court."
-        }
+      "bold": [
+        [
+          23,
+          31
+        ],
+        [
+          58,
+          71
+        ],
+        [
+          73,
+          86
+        ]
       ]
     },
     {
       "text": "L'intero sistema è retto da un meccanismo chiamato checks and balances, pesi e contrappesi, che garantisce che nessuno di questi tre poteri possa prevalere stabilmente sugli altri due.",
       "speech": "L'intero sistema è retto da un meccanismo chiamato checks and balances, pesi e contrappesi, che garantisce che nessuno di questi tre poteri possa prevalere stabilmente sugli altri due.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "L'intero sistema è retto da un meccanismo chiamato"
-        },
-        {
-          "lang": "en",
-          "text": "checks and balances,"
-        },
-        {
-          "lang": "it",
-          "text": "pesi e contrappesi, che garantisce che nessuno di questi tre poteri possa prevalere stabilmente sugli altri due."
-        }
+      "bold": [
+        [
+          51,
+          70
+        ],
+        [
+          72,
+          90
+        ]
       ]
     },
     {
@@ -335,93 +273,69 @@
     {
       "text": "il Partito Conservatore, Conservative Party, di orientamento centro-destra,",
       "speech": "il Partito Conservatore, Conservative Party, di orientamento centro-destra,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "il Partito Conservatore,"
-        },
-        {
-          "lang": "en",
-          "text": "Conservative Party,"
-        },
-        {
-          "lang": "it",
-          "text": "di orientamento centro-destra,"
-        }
+      "bold": [
+        [
+          3,
+          23
+        ],
+        [
+          25,
+          43
+        ]
       ]
     },
     {
       "text": "e il Partito Laburista, Labour Party, di orientamento centro-sinistra, accanto ai quali opera anche un partito più piccolo ma non trascurabile, il Partito Liberal Democratico, Liberal Democrats.",
       "speech": "e il Partito Laburista, Labour Party, di orientamento centro-sinistra, accanto ai quali opera anche un partito più piccolo ma non trascurabile, il Partito Liberal Democratico, Liberal Democrats.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e il Partito Laburista,"
-        },
-        {
-          "lang": "en",
-          "text": "Labour Party,"
-        },
-        {
-          "lang": "it",
-          "text": "di orientamento centro-sinistra, accanto ai quali opera anche un partito più piccolo ma non trascurabile, il Partito"
-        },
-        {
-          "lang": "en",
-          "text": "Liberal"
-        },
-        {
-          "lang": "it",
-          "text": "Democratico,"
-        },
-        {
-          "lang": "en",
-          "text": "Liberal Democrats."
-        }
+      "bold": [
+        [
+          5,
+          22
+        ],
+        [
+          24,
+          36
+        ],
+        [
+          155,
+          162
+        ],
+        [
+          176,
+          193
+        ]
       ]
     },
     {
       "text": "Negli Stati Uniti il sistema politico è invece un bipartitismo assai più rigido, two-party system, dominato esclusivamente dal Partito Repubblicano, Republican Party, di orientamento conservatore,",
       "speech": "Negli Stati Uniti il sistema politico è invece un bipartitismo assai più rigido, two-party system, dominato esclusivamente dal Partito Repubblicano, Republican Party, di orientamento conservatore,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Negli Stati Uniti il sistema politico è invece un bipartitismo assai più rigido,"
-        },
-        {
-          "lang": "en",
-          "text": "two-party system,"
-        },
-        {
-          "lang": "it",
-          "text": "dominato esclusivamente dal Partito Repubblicano,"
-        },
-        {
-          "lang": "en",
-          "text": "Republican Party,"
-        },
-        {
-          "lang": "it",
-          "text": "di orientamento conservatore,"
-        }
+      "bold": [
+        [
+          50,
+          62
+        ],
+        [
+          81,
+          97
+        ],
+        [
+          149,
+          165
+        ]
       ]
     },
     {
       "text": "e dal Partito Democratico, Democratic Party, di orientamento progressista, senza terze forze politiche in grado di ottenere una rappresentanza istituzionale significativa a livello nazionale.",
       "speech": "e dal Partito Democratico, Democratic Party, di orientamento progressista, senza terze forze politiche in grado di ottenere una rappresentanza istituzionale significativa a livello nazionale.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e dal Partito Democratico,"
-        },
-        {
-          "lang": "en",
-          "text": "Democratic Party,"
-        },
-        {
-          "lang": "it",
-          "text": "di orientamento progressista, senza terze forze politiche in grado di ottenere una rappresentanza istituzionale significativa a livello nazionale."
-        }
+      "bold": [
+        [
+          6,
+          25
+        ],
+        [
+          27,
+          43
+        ]
       ]
     },
     {
@@ -435,59 +349,45 @@
     {
       "text": "Nel sistema parlamentare britannico, parliamentary system, il potere esecutivo — cioè il governo, guidato dal Primo Ministro —",
       "speech": "Nel sistema parlamentare britannico, parliamentary system, il potere esecutivo — cioè il governo, guidato dal Primo Ministro —",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel sistema parlamentare britannico,"
-        },
-        {
-          "lang": "en",
-          "text": "parliamentary system,"
-        },
-        {
-          "lang": "it",
-          "text": "il potere esecutivo — cioè il governo, guidato dal Primo Ministro —"
-        }
+      "bold": [
+        [
+          37,
+          57
+        ]
       ]
     },
     {
       "text": "nasce direttamente dalla maggioranza parlamentare e resta politicamente responsabile di fronte al Parlamento stesso, che può sfiduciarlo e farlo cadere in qualunque momento attraverso una mozione di sfiducia:",
-      "speech": "nasce direttamente dalla maggioranza parlamentare e resta politicamente responsabile di fronte al Parlamento stesso, che può sfiduciarlo e farlo cadere in qualunque momento attraverso una mozione di sfiducia:"
+      "speech": "nasce direttamente dalla maggioranza parlamentare e resta politicamente responsabile di fronte al Parlamento stesso, che può sfiduciarlo e farlo cadere in qualunque momento attraverso una mozione di sfiducia:",
+      "bold": [
+        [
+          188,
+          207
+        ]
+      ]
     },
     {
       "text": "si parla per questo di fusione dei poteri, fusion of powers, perché esecutivo e legislativo restano intimamente legati e interdipendenti.",
       "speech": "si parla per questo di fusione dei poteri, fusion of powers, perché esecutivo e legislativo restano intimamente legati e interdipendenti.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "si parla per questo di fusione dei poteri,"
-        },
-        {
-          "lang": "en",
-          "text": "fusion of powers,"
-        },
-        {
-          "lang": "it",
-          "text": "perché esecutivo e legislativo restano intimamente legati e interdipendenti."
-        }
+      "bold": [
+        [
+          23,
+          41
+        ],
+        [
+          43,
+          59
+        ]
       ]
     },
     {
       "text": "Nel sistema presidenziale statunitense, presidential system, il Presidente viene invece eletto separatamente dal Congresso, attraverso un proprio processo elettorale autonomo,",
       "speech": "Nel sistema presidenziale statunitense, presidential system, il Presidente viene invece eletto separatamente dal Congresso, attraverso un proprio processo elettorale autonomo,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nel sistema presidenziale statunitense,"
-        },
-        {
-          "lang": "en",
-          "text": "presidential system,"
-        },
-        {
-          "lang": "it",
-          "text": "il Presidente viene invece eletto separatamente dal Congresso, attraverso un proprio processo elettorale autonomo,"
-        }
+      "bold": [
+        [
+          40,
+          59
+        ]
       ]
     },
     {
@@ -497,19 +397,15 @@
     {
       "text": "si parla in questo caso di una più netta separazione dei poteri, separation of powers, proprio in contrapposizione alla fusione dei poteri tipica del modello britannico.",
       "speech": "si parla in questo caso di una più netta separazione dei poteri, separation of powers, proprio in contrapposizione alla fusione dei poteri tipica del modello britannico.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "si parla in questo caso di una più netta separazione dei poteri,"
-        },
-        {
-          "lang": "en",
-          "text": "separation of powers,"
-        },
-        {
-          "lang": "it",
-          "text": "proprio in contrapposizione alla fusione dei poteri tipica del modello britannico."
-        }
+      "bold": [
+        [
+          41,
+          63
+        ],
+        [
+          65,
+          85
+        ]
       ]
     },
     {
@@ -531,19 +427,11 @@
     {
       "text": "Questa singola differenza istituzionale spiega, da sola, buona parte delle differenze pratiche tra il modo in cui la politica viene condotta a Westminster e a Washington.",
       "speech": "Questa singola differenza istituzionale spiega, da sola, buona parte delle differenze pratiche tra il modo in cui la politica viene condotta a Westminster e a Washington.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Questa singola differenza istituzionale spiega, da sola, buona parte delle differenze pratiche tra il modo in cui la politica viene condotta a"
-        },
-        {
-          "lang": "en",
-          "text": "Westminster"
-        },
-        {
-          "lang": "it",
-          "text": "e a Washington."
-        }
+      "bold": [
+        [
+          143,
+          154
+        ]
       ]
     },
     {
@@ -552,7 +440,13 @@
     },
     {
       "text": "Sulla UDA 1: una lettera di reclamo efficace deve descrivere il problema con precisione, allegare le prove necessarie e richiedere una soluzione chiara,",
-      "speech": "Sulla UDA 1: una lettera di reclamo efficace deve descrivere il problema con precisione, allegare le prove necessarie e richiedere una soluzione chiara,"
+      "speech": "Sulla UDA 1: una lettera di reclamo efficace deve descrivere il problema con precisione, allegare le prove necessarie e richiedere una soluzione chiara,",
+      "bold": [
+        [
+          17,
+          44
+        ]
+      ]
     },
     {
       "text": "mentre la risposta a un reclamo deve scusarsi, spiegare la causa del problema e proporre una soluzione concreta;",
@@ -560,7 +454,13 @@
     },
     {
       "text": "il sollecito di pagamento attraversa tre fasi di tono crescente, dal promemoria gentile all'avviso più fermo fino all'ultimatum formale;",
-      "speech": "il sollecito di pagamento attraversa tre fasi di tono crescente, dal promemoria gentile all'avviso più fermo fino all'ultimatum formale;"
+      "speech": "il sollecito di pagamento attraversa tre fasi di tono crescente, dal promemoria gentile all'avviso più fermo fino all'ultimatum formale;",
+      "bold": [
+        [
+          37,
+          45
+        ]
+      ]
     },
     {
       "text": "le quattro modalità di trasporto — strada, ferrovia, aereo, mare — si scelgono bilanciando natura della merce, urgenza e costo;",
@@ -573,149 +473,103 @@
     {
       "text": "tra i tre documenti di trasporto, solo il Bill of Lading marittimo può essere negoziabile e fungere da titolo di proprietà, mentre la Road Consignment Note e l'Air Waybill non lo sono mai;",
       "speech": "tra i tre documenti di trasporto, solo il Bill of Lading marittimo può essere negoziabile e fungere da titolo di proprietà, mentre la Road Consignment Note e l'Air Waybill non lo sono mai;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "tra i tre documenti di trasporto, solo il"
-        },
-        {
-          "lang": "en",
-          "text": "Bill of"
-        },
-        {
-          "lang": "it",
-          "text": "Lading marittimo può essere negoziabile e fungere da titolo di proprietà, mentre la"
-        },
-        {
-          "lang": "en",
-          "text": "Road Consignment"
-        },
-        {
-          "lang": "it",
-          "text": "Note e"
-        },
-        {
-          "lang": "en",
-          "text": "l'Air"
-        },
-        {
-          "lang": "it",
-          "text": "Waybill non lo sono mai;"
-        }
+      "bold": [
+        [
+          42,
+          49
+        ],
+        [
+          103,
+          122
+        ],
+        [
+          134,
+          150
+        ],
+        [
+          158,
+          163
+        ]
       ]
     },
     {
       "text": "e tra i metodi di pagamento, la Letter of Credit offre la massima sicurezza, spostando la garanzia dalla parola del compratore alla solidità di un'intera banca.",
       "speech": "e tra i metodi di pagamento, la Letter of Credit offre la massima sicurezza, spostando la garanzia dalla parola del compratore alla solidità di un'intera banca.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e tra i metodi di pagamento, la"
-        },
-        {
-          "lang": "en",
-          "text": "Letter of Credit"
-        },
-        {
-          "lang": "it",
-          "text": "offre la massima sicurezza, spostando la garanzia dalla parola del compratore alla solidità di un'intera banca."
-        }
+      "bold": [
+        [
+          32,
+          48
+        ]
       ]
     },
     {
       "text": "Sulla UDA 2: sulla Borsa valori operano broker, investitori istituzionali e privati, società quotate e autorità di vigilanza come la FCA e la SEC,",
-      "speech": "Sulla UDA 2: sulla Borsa valori operano broker, investitori istituzionali e privati, società quotate e autorità di vigilanza come la FCA e la SEC,"
+      "speech": "Sulla UDA 2: sulla Borsa valori operano broker, investitori istituzionali e privati, società quotate e autorità di vigilanza come la FCA e la SEC,",
+      "bold": [
+        [
+          19,
+          31
+        ]
+      ]
     },
     {
       "text": "e il confronto tra Londra e New York si gioca su sede, anno di fondazione e indice principale, rispettivamente FTSE 100 e Dow Jones;",
       "speech": "e il confronto tra Londra e New York si gioca su sede, anno di fondazione e indice principale, rispettivamente FTSE 100 e Dow Jones;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e il confronto tra Londra e"
-        },
-        {
-          "lang": "en",
-          "text": "New"
-        },
-        {
-          "lang": "it",
-          "text": "York si gioca su sede, anno di fondazione e indice principale, rispettivamente FTSE 100 e Dow Jones;"
-        }
+      "bold": [
+        [
+          28,
+          31
+        ]
       ]
     },
     {
       "text": "le 4 P del marketing mix sono Product, Price, Place e Promotion, da calibrare sempre insieme in modo coerente;",
       "speech": "le 4 P del marketing mix sono Product, Price, Place e Promotion, da calibrare sempre insieme in modo coerente;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "le 4 P del marketing mix sono"
-        },
-        {
-          "lang": "en",
-          "text": "Product, Price, Place"
-        },
-        {
-          "lang": "it",
-          "text": "e"
-        },
-        {
-          "lang": "en",
-          "text": "Promotion,"
-        },
-        {
-          "lang": "it",
-          "text": "da calibrare sempre insieme in modo coerente;"
-        }
+      "bold": [
+        [
+          3,
+          6
+        ],
+        [
+          30,
+          51
+        ],
+        [
+          54,
+          63
+        ]
       ]
     },
     {
       "text": "e il modello AIDA descrive quattro fasi progressive di un messaggio pubblicitario efficace, Attention, Interest, Desire, Action.",
       "speech": "e il modello AIDA descrive quattro fasi progressive di un messaggio pubblicitario efficace, Attention, Interest, Desire, Action.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e il modello AIDA descrive quattro fasi"
-        },
-        {
-          "lang": "en",
-          "text": "progressive"
-        },
-        {
-          "lang": "it",
-          "text": "di un messaggio pubblicitario efficace,"
-        },
-        {
-          "lang": "en",
-          "text": "Attention, Interest, Desire, Action."
-        }
+      "bold": [
+        [
+          5,
+          17
+        ],
+        [
+          40,
+          51
+        ],
+        [
+          92,
+          127
+        ]
       ]
     },
     {
       "text": "Sulla UDA 3, infine: il Fair Trade garantisce un prezzo equo ai piccoli produttori, e la Grameen Foundation, ispirata a Muhammad Yunus, applica la microfinanza alla lotta alla povertà;",
       "speech": "Sulla UDA 3, infine: il Fair Trade garantisce un prezzo equo ai piccoli produttori, e la Grameen Foundation, ispirata a Muhammad Yunus, applica la microfinanza alla lotta alla povertà;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Sulla UDA 3, infine: il"
-        },
-        {
-          "lang": "en",
-          "text": "Fair Trade"
-        },
-        {
-          "lang": "it",
-          "text": "garantisce un prezzo equo ai piccoli produttori, e la Grameen"
-        },
-        {
-          "lang": "en",
-          "text": "Foundation,"
-        },
-        {
-          "lang": "it",
-          "text": "ispirata a Muhammad Yunus, applica la microfinanza alla lotta alla povertà;"
-        }
+      "bold": [
+        [
+          24,
+          34
+        ],
+        [
+          97,
+          107
+        ]
       ]
     },
     {
@@ -724,20 +578,42 @@
     },
     {
       "text": "outsourcing riguarda il passaggio da gestione interna a esterna, offshoring riguarda lo spostamento geografico all'estero;",
-      "speech": "outsourcing riguarda il passaggio da gestione interna a esterna, offshoring riguarda lo spostamento geografico all'estero;"
+      "speech": "outsourcing riguarda il passaggio da gestione interna a esterna, offshoring riguarda lo spostamento geografico all'estero;",
+      "bold": [
+        [
+          0,
+          11
+        ],
+        [
+          65,
+          75
+        ]
+      ]
     },
     {
       "text": "il governo britannico è una monarchia costituzionale con fusione dei poteri, quello statunitense una repubblica federale con separazione dei poteri e checks and balances;",
       "speech": "il governo britannico è una monarchia costituzionale con fusione dei poteri, quello statunitense una repubblica federale con separazione dei poteri e checks and balances;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "il governo britannico è una monarchia costituzionale con fusione dei poteri, quello statunitense una repubblica federale con separazione dei poteri e"
-        },
-        {
-          "lang": "en",
-          "text": "checks and balances;"
-        }
+      "bold": [
+        [
+          28,
+          52
+        ],
+        [
+          57,
+          75
+        ],
+        [
+          101,
+          120
+        ],
+        [
+          125,
+          147
+        ],
+        [
+          150,
+          169
+        ]
       ]
     },
     {
@@ -754,29 +630,67 @@
     },
     {
       "text": "Primo: il Regno Unito è una monarchia costituzionale con Parlamento bicamerale e fusione dei poteri tra governo e maggioranza parlamentare.",
-      "speech": "Primo: il Regno Unito è una monarchia costituzionale con Parlamento bicamerale e fusione dei poteri tra governo e maggioranza parlamentare."
+      "speech": "Primo: il Regno Unito è una monarchia costituzionale con Parlamento bicamerale e fusione dei poteri tra governo e maggioranza parlamentare.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          28,
+          52
+        ],
+        [
+          81,
+          99
+        ]
+      ]
     },
     {
       "text": "Secondo: gli Stati Uniti sono una repubblica federale con rigida separazione dei poteri tra Presidente, Congresso e Corte Suprema, garantita dal sistema dei checks and balances.",
       "speech": "Secondo: gli Stati Uniti sono una repubblica federale con rigida separazione dei poteri tra Presidente, Congresso e Corte Suprema, garantita dal sistema dei checks and balances.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo: gli Stati Uniti sono una repubblica federale con rigida separazione dei poteri tra Presidente, Congresso e Corte Suprema, garantita dal sistema dei"
-        },
-        {
-          "lang": "en",
-          "text": "checks and balances."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          65,
+          87
+        ],
+        [
+          157,
+          176
+        ]
       ]
     },
     {
       "text": "Terzo: il Regno Unito ha un sistema politico dominato da due grandi partiti più uno minore, gli Stati Uniti un bipartitismo rigido senza terze forze rilevanti.",
-      "speech": "Terzo: il Regno Unito ha un sistema politico dominato da due grandi partiti più uno minore, gli Stati Uniti un bipartitismo rigido senza terze forze rilevanti."
+      "speech": "Terzo: il Regno Unito ha un sistema politico dominato da due grandi partiti più uno minore, gli Stati Uniti un bipartitismo rigido senza terze forze rilevanti.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          111,
+          130
+        ]
+      ]
     },
     {
       "text": "Quarto: la distinzione tra sistema parlamentare e presidenziale dipende dal grado di dipendenza reciproca tra potere esecutivo e potere legislativo.",
-      "speech": "Quarto: la distinzione tra sistema parlamentare e presidenziale dipende dal grado di dipendenza reciproca tra potere esecutivo e potere legislativo."
+      "speech": "Quarto: la distinzione tra sistema parlamentare e presidenziale dipende dal grado di dipendenza reciproca tra potere esecutivo e potere legislativo.",
+      "bold": [
+        [
+          0,
+          6
+        ],
+        [
+          27,
+          63
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero modulo di Inglese per la classe quarta, indirizzo AFM:",

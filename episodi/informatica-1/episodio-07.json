@@ -14,19 +14,59 @@
     },
     {
       "text": "Microsoft Word è il programma utilizzato per creare, modificare e formattare documenti testuali.",
-      "speech": "Microsoft Word è il programma utilizzato per creare, modificare e formattare documenti testuali."
+      "speech": "Microsoft Word è il programma utilizzato per creare, modificare e formattare documenti testuali.",
+      "bold": [
+        [
+          0,
+          14
+        ]
+      ]
     },
     {
       "text": "La sua interfaccia si organizza attorno alla barra multifunzione, chiamata anche Ribbon dall'inglese, suddivisa in schede tematiche, ciascuna dedicata a un gruppo di funzioni correlate: Home, per la formattazione di base;",
-      "speech": "La sua interfaccia si organizza attorno alla barra multifunzione, chiamata anche Ribbon dall'inglese, suddivisa in schede tematiche, ciascuna dedicata a un gruppo di funzioni correlate: Home, per la formattazione di base;"
+      "speech": "La sua interfaccia si organizza attorno alla barra multifunzione, chiamata anche Ribbon dall'inglese, suddivisa in schede tematiche, ciascuna dedicata a un gruppo di funzioni correlate: Home, per la formattazione di base;",
+      "bold": [
+        [
+          45,
+          64
+        ],
+        [
+          81,
+          87
+        ]
+      ]
     },
     {
       "text": "Inserisci, per aggiungere elementi come tabelle e immagini; Layout, per l'impostazione della pagina; Riferimenti, per note e bibliografie;",
-      "speech": "Inserisci, per aggiungere elementi come tabelle e immagini; Layout, per l'impostazione della pagina; Riferimenti, per note e bibliografie;"
+      "speech": "Inserisci, per aggiungere elementi come tabelle e immagini; Layout, per l'impostazione della pagina; Riferimenti, per note e bibliografie;",
+      "bold": [
+        [
+          0,
+          9
+        ],
+        [
+          60,
+          66
+        ],
+        [
+          101,
+          112
+        ]
+      ]
     },
     {
       "text": "Revisione, per il controllo ortografico e i commenti; e Visualizza, per le diverse modalità di visualizzazione del documento.",
-      "speech": "Revisione, per il controllo ortografico e i commenti; e Visualizza, per le diverse modalità di visualizzazione del documento."
+      "speech": "Revisione, per il controllo ortografico e i commenti; e Visualizza, per le diverse modalità di visualizzazione del documento.",
+      "bold": [
+        [
+          0,
+          9
+        ],
+        [
+          56,
+          66
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa organizzazione, perché comprendere la logica della barra multifunzione vi aiuterà a orientarvi rapidamente in qualunque comando vi venga richiesto in un esercizio pratico:",
@@ -42,7 +82,13 @@
     },
     {
       "text": "tipicamente nel formato .docx, oppure, per compatibilità con software più datati o per la condivisione, nei formati .doc o .pdf, e la formattazione del testo.",
-      "speech": "tipicamente nel formato .docx, oppure, per compatibilità con software più datati o per la condivisione, nei formati .doc o .pdf, e la formattazione del testo."
+      "speech": "tipicamente nel formato .docx, oppure, per compatibilità con software più datati o per la condivisione, nei formati .doc o .pdf, e la formattazione del testo.",
+      "bold": [
+        [
+          24,
+          29
+        ]
+      ]
     },
     {
       "text": "Quest'ultima merita un approfondimento, perché agisce su due livelli distinti che è importante saper distinguere:",
@@ -50,11 +96,23 @@
     },
     {
       "text": "la formattazione a livello di carattere, che riguarda il tipo di font, la dimensione, il colore, il grassetto e il corsivo,",
-      "speech": "la formattazione a livello di carattere, che riguarda il tipo di font, la dimensione, il colore, il grassetto e il corsivo,"
+      "speech": "la formattazione a livello di carattere, che riguarda il tipo di font, la dimensione, il colore, il grassetto e il corsivo,",
+      "bold": [
+        [
+          3,
+          39
+        ]
+      ]
     },
     {
       "text": "e la formattazione a livello di paragrafo, che riguarda l'allineamento, l'interlinea, la spaziatura e gli elenchi puntati o numerati.",
-      "speech": "e la formattazione a livello di paragrafo, che riguarda l'allineamento, l'interlinea, la spaziatura e gli elenchi puntati o numerati."
+      "speech": "e la formattazione a livello di paragrafo, che riguarda l'allineamento, l'interlinea, la spaziatura e gli elenchi puntati o numerati.",
+      "bold": [
+        [
+          5,
+          41
+        ]
+      ]
     },
     {
       "text": "Vediamo ora, passo dopo passo, come creare e salvare un nuovo documento, una procedura semplice ma che vale la pena saper descrivere con ordine in un esercizio pratico.",
@@ -62,7 +120,13 @@
     },
     {
       "text": "Per prima cosa si avvia Word e si seleziona «Documento vuoto» nella schermata iniziale.",
-      "speech": "Per prima cosa si avvia Word e si seleziona «Documento vuoto» nella schermata iniziale."
+      "speech": "Per prima cosa si avvia Word e si seleziona «Documento vuoto» nella schermata iniziale.",
+      "bold": [
+        [
+          45,
+          60
+        ]
+      ]
     },
     {
       "text": "Poi si digita il testo desiderato e si applica la formattazione voluta dalla scheda Home.",
@@ -78,11 +142,31 @@
     },
     {
       "text": "Fermatevi un momento su un piccolo dettaglio pratico che vale la pena ricordare, perché previene un errore molto comune tra chi inizia a usare Word: la differenza tra «Salva» e «Salva con nome».",
-      "speech": "Fermatevi un momento su un piccolo dettaglio pratico che vale la pena ricordare, perché previene un errore molto comune tra chi inizia a usare Word: la differenza tra «Salva» e «Salva con nome»."
+      "speech": "Fermatevi un momento su un piccolo dettaglio pratico che vale la pena ricordare, perché previene un errore molto comune tra chi inizia a usare Word: la differenza tra «Salva» e «Salva con nome».",
+      "bold": [
+        [
+          168,
+          173
+        ],
+        [
+          178,
+          192
+        ]
+      ]
     },
     {
       "text": "«Salva» sovrascrive il file esistente con le modifiche appena fatte, mentre «Salva con nome» crea una nuova copia del documento con un nome o in una posizione diversa, lasciando intatto l'originale.",
-      "speech": "«Salva» sovrascrive il file esistente con le modifiche appena fatte, mentre «Salva con nome» crea una nuova copia del documento con un nome o in una posizione diversa, lasciando intatto l'originale."
+      "speech": "«Salva» sovrascrive il file esistente con le modifiche appena fatte, mentre «Salva con nome» crea una nuova copia del documento con un nome o in una posizione diversa, lasciando intatto l'originale.",
+      "bold": [
+        [
+          1,
+          6
+        ],
+        [
+          77,
+          91
+        ]
+      ]
     },
     {
       "text": "Confondere le due funzioni può portare, per esempio, a perdere involontariamente una versione precedente di un documento importante che si voleva invece conservare separatamente.",
@@ -106,15 +190,49 @@
     },
     {
       "text": "Primo: Word organizza i propri comandi nella barra multifunzione, suddivisa in schede tematiche come Home, Inserisci e Layout.",
-      "speech": "Primo: Word organizza i propri comandi nella barra multifunzione, suddivisa in schede tematiche come Home, Inserisci e Layout."
+      "speech": "Primo: Word organizza i propri comandi nella barra multifunzione, suddivisa in schede tematiche come Home, Inserisci e Layout.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          45,
+          64
+        ]
+      ]
     },
     {
       "text": "Secondo: le operazioni di base comprendono creare, aprire, salvare e formattare un documento, quest'ultima distinta in formattazione di carattere e di paragrafo.",
-      "speech": "Secondo: le operazioni di base comprendono creare, aprire, salvare e formattare un documento, quest'ultima distinta in formattazione di carattere e di paragrafo."
+      "speech": "Secondo: le operazioni di base comprendono creare, aprire, salvare e formattare un documento, quest'ultima distinta in formattazione di carattere e di paragrafo.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          119,
+          160
+        ]
+      ]
     },
     {
       "text": "Terzo: «Salva» e «Salva con nome» svolgono funzioni diverse, rispettivamente sovrascrivere il file esistente o crearne una nuova copia.",
-      "speech": "Terzo: «Salva» e «Salva con nome» svolgono funzioni diverse, rispettivamente sovrascrivere il file esistente o crearne una nuova copia."
+      "speech": "Terzo: «Salva» e «Salva con nome» svolgono funzioni diverse, rispettivamente sovrascrivere il file esistente o crearne una nuova copia.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          18,
+          32
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio restiamo in Word e vediamo come inserire elementi più complessi in un documento, come tabelle e immagini, insieme a come gestire correttamente la stampa.",

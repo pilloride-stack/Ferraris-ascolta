@@ -18,7 +18,13 @@
     },
     {
       "text": "L'iperuranio è il luogo al di sopra del cielo dove risiedono le idee, i modelli perfetti e universali di cui le cose sensibili sono copie imperfette.",
-      "speech": "L'iperuranio è il luogo al di sopra del cielo dove risiedono le idee, i modelli perfetti e universali di cui le cose sensibili sono copie imperfette."
+      "speech": "L'iperuranio è il luogo al di sopra del cielo dove risiedono le idee, i modelli perfetti e universali di cui le cose sensibili sono copie imperfette.",
+      "bold": [
+        [
+          2,
+          12
+        ]
+      ]
     },
     {
       "text": "Quali sono i quattro gradi della conoscenza descritti dalla linea divisa di Platone?",
@@ -26,7 +32,25 @@
     },
     {
       "text": "Congettura, riguardo a immagini e ombre; credenza, riguardo agli oggetti sensibili; pensiero discorsivo, riguardo agli enti matematici; intellezione, riguardo alle idee stesse.",
-      "speech": "Congettura, riguardo a immagini e ombre; credenza, riguardo agli oggetti sensibili; pensiero discorsivo, riguardo agli enti matematici; intellezione, riguardo alle idee stesse."
+      "speech": "Congettura, riguardo a immagini e ombre; credenza, riguardo agli oggetti sensibili; pensiero discorsivo, riguardo agli enti matematici; intellezione, riguardo alle idee stesse.",
+      "bold": [
+        [
+          0,
+          10
+        ],
+        [
+          41,
+          49
+        ],
+        [
+          84,
+          103
+        ],
+        [
+          136,
+          148
+        ]
+      ]
     },
     {
       "text": "Come è strutturata l'anima secondo Platone e quale immagine mitica la rappresenta?",
@@ -34,7 +58,17 @@
     },
     {
       "text": "L'anima è tripartita in razionale, irascibile e concupiscibile, rappresentata dal mito del carro alato nel Fedro, con l'auriga che guida due cavalli, uno docile e uno ribelle.",
-      "speech": "L'anima è tripartita in razionale, irascibile e concupiscibile, rappresentata dal mito del carro alato nel Fedro, con l'auriga che guida due cavalli, uno docile e uno ribelle."
+      "speech": "L'anima è tripartita in razionale, irascibile e concupiscibile, rappresentata dal mito del carro alato nel Fedro, con l'auriga che guida due cavalli, uno docile e uno ribelle.",
+      "bold": [
+        [
+          10,
+          20
+        ],
+        [
+          82,
+          102
+        ]
+      ]
     },
     {
       "text": "Che cosa rappresenta il mito della caverna e quali fasi della conoscenza descrive?",
@@ -42,7 +76,13 @@
     },
     {
       "text": "Rappresenta il percorso dall'ignoranza sensibile, le ombre, alla sapienza filosofica, il sole, simbolo dell'Idea del Bene, ed è anche un'allegoria del destino di Socrate.",
-      "speech": "Rappresenta il percorso dall'ignoranza sensibile, le ombre, alla sapienza filosofica, il sole, simbolo dell'Idea del Bene, ed è anche un'allegoria del destino di Socrate."
+      "speech": "Rappresenta il percorso dall'ignoranza sensibile, le ombre, alla sapienza filosofica, il sole, simbolo dell'Idea del Bene, ed è anche un'allegoria del destino di Socrate.",
+      "bold": [
+        [
+          108,
+          121
+        ]
+      ]
     },
     {
       "text": "Come si struttura lo Stato ideale di Platone e quale virtù corrisponde a ciascuna classe?",
@@ -50,7 +90,13 @@
     },
     {
       "text": "Governanti-filosofi con la sapienza, guerrieri-custodi con il coraggio, produttori con la temperanza; la giustizia è l'armonia in cui ciascuna classe svolge il proprio compito.",
-      "speech": "Governanti-filosofi con la sapienza, guerrieri-custodi con il coraggio, produttori con la temperanza; la giustizia è l'armonia in cui ciascuna classe svolge il proprio compito."
+      "speech": "Governanti-filosofi con la sapienza, guerrieri-custodi con il coraggio, produttori con la temperanza; la giustizia è l'armonia in cui ciascuna classe svolge il proprio compito.",
+      "bold": [
+        [
+          105,
+          126
+        ]
+      ]
     },
     {
       "text": "Quali sono le forme di governo degenerate secondo Platone e in che ordine si succedono?",
@@ -58,7 +104,13 @@
     },
     {
       "text": "Aristocrazia, timocrazia, oligarchia, democrazia, tirannide, in un processo di progressiva corruzione generato dal prevalere di parti sempre più basse dell'anima.",
-      "speech": "Aristocrazia, timocrazia, oligarchia, democrazia, tirannide, in un processo di progressiva corruzione generato dal prevalere di parti sempre più basse dell'anima."
+      "speech": "Aristocrazia, timocrazia, oligarchia, democrazia, tirannide, in un processo di progressiva corruzione generato dal prevalere di parti sempre più basse dell'anima.",
+      "bold": [
+        [
+          0,
+          59
+        ]
+      ]
     },
     {
       "text": "In che cosa le Leggi di Platone correggono il progetto della Repubblica?",
@@ -66,7 +118,13 @@
     },
     {
       "text": "Propongono un modello più realistico, fondato sul governo della legge scritta uguale per tutti, invece del governo diretto e assoluto dei filosofi.",
-      "speech": "Propongono un modello più realistico, fondato sul governo della legge scritta uguale per tutti, invece del governo diretto e assoluto dei filosofi."
+      "speech": "Propongono un modello più realistico, fondato sul governo della legge scritta uguale per tutti, invece del governo diretto e assoluto dei filosofi.",
+      "bold": [
+        [
+          50,
+          77
+        ]
+      ]
     },
     {
       "text": "Su quali punti Aristotele critica la teoria platonica delle idee?",
@@ -74,7 +132,17 @@
     },
     {
       "text": "Critica la separazione, il chorismos, fra idee e cose sensibili, sostenendo che la forma è immanente alla materia, e solleva il problema del terzo uomo.",
-      "speech": "Critica la separazione, il chorismos, fra idee e cose sensibili, sostenendo che la forma è immanente alla materia, e solleva il problema del terzo uomo."
+      "speech": "Critica la separazione, il chorismos, fra idee e cose sensibili, sostenendo che la forma è immanente alla materia, e solleva il problema del terzo uomo.",
+      "bold": [
+        [
+          27,
+          36
+        ],
+        [
+          141,
+          151
+        ]
+      ]
     },
     {
       "text": "Che cos'è il principio di non contraddizione e perché per Aristotele non può essere dimostrato?",
@@ -82,7 +150,13 @@
     },
     {
       "text": "È il principio per cui una cosa non può essere e non essere allo stesso tempo; non può essere dimostrato perché ogni dimostrazione lo presuppone già come condizione del pensiero stesso.",
-      "speech": "È il principio per cui una cosa non può essere e non essere allo stesso tempo; non può essere dimostrato perché ogni dimostrazione lo presuppone già come condizione del pensiero stesso."
+      "speech": "È il principio per cui una cosa non può essere e non essere allo stesso tempo; non può essere dimostrato perché ogni dimostrazione lo presuppone già come condizione del pensiero stesso.",
+      "bold": [
+        [
+          32,
+          59
+        ]
+      ]
     },
     {
       "text": "Che cos'è il sillogismo e quali sono le sue componenti?",
@@ -94,11 +168,27 @@
     },
     {
       "text": "Il sillogismo è un ragionamento deduttivo con due premesse e una conclusione necessaria;",
-      "speech": "Il sillogismo è un ragionamento deduttivo con due premesse e una conclusione necessaria;"
+      "speech": "Il sillogismo è un ragionamento deduttivo con due premesse e una conclusione necessaria;",
+      "bold": [
+        [
+          19,
+          41
+        ]
+      ]
     },
     {
       "text": "quello scientifico parte da premesse vere e produce conoscenza certa, quello dialettico parte da premesse solo probabili.",
-      "speech": "quello scientifico parte da premesse vere e produce conoscenza certa, quello dialettico parte da premesse solo probabili."
+      "speech": "quello scientifico parte da premesse vere e produce conoscenza certa, quello dialettico parte da premesse solo probabili.",
+      "bold": [
+        [
+          7,
+          18
+        ],
+        [
+          77,
+          87
+        ]
+      ]
     },
     {
       "text": "Che cosa sono materia e forma e in che senso costituiscono il sinolo?",
@@ -106,7 +196,13 @@
     },
     {
       "text": "La materia è il sostrato indeterminato di cui una cosa è fatta, la forma è il principio che la organizza; insieme costituiscono il sinolo, l'unione inscindibile che è ogni sostanza sensibile.",
-      "speech": "La materia è il sostrato indeterminato di cui una cosa è fatta, la forma è il principio che la organizza; insieme costituiscono il sinolo, l'unione inscindibile che è ogni sostanza sensibile."
+      "speech": "La materia è il sostrato indeterminato di cui una cosa è fatta, la forma è il principio che la organizza; insieme costituiscono il sinolo, l'unione inscindibile che è ogni sostanza sensibile.",
+      "bold": [
+        [
+          131,
+          137
+        ]
+      ]
     },
     {
       "text": "Quali sono le quattro cause aristoteliche?",
@@ -118,7 +214,13 @@
     },
     {
       "text": "Materiale, formale, efficiente e finale; per una statua: il marmo, la forma scolpita, lo scultore, e lo scopo per cui è stata realizzata.",
-      "speech": "Materiale, formale, efficiente e finale; per una statua: il marmo, la forma scolpita, lo scultore, e lo scopo per cui è stata realizzata."
+      "speech": "Materiale, formale, efficiente e finale; per una statua: il marmo, la forma scolpita, lo scultore, e lo scopo per cui è stata realizzata.",
+      "bold": [
+        [
+          0,
+          39
+        ]
+      ]
     },
     {
       "text": "In che modo la coppia potenza-atto spiega il divenire per Aristotele?",
@@ -126,7 +228,17 @@
     },
     {
       "text": "Il divenire è il passaggio graduale dalla potenza, la capacità di diventare altro, all'atto, la piena realizzazione di quella possibilità.",
-      "speech": "Il divenire è il passaggio graduale dalla potenza, la capacità di diventare altro, all'atto, la piena realizzazione di quella possibilità."
+      "speech": "Il divenire è il passaggio graduale dalla potenza, la capacità di diventare altro, all'atto, la piena realizzazione di quella possibilità.",
+      "bold": [
+        [
+          42,
+          49
+        ],
+        [
+          87,
+          91
+        ]
+      ]
     },
     {
       "text": "Quali sono i quattro tipi di movimento distinti da Aristotele nella Fisica?",
@@ -134,7 +246,25 @@
     },
     {
       "text": "Sostanziale, generazione e corruzione; qualitativo, alterazione; quantitativo, accrescimento e diminuzione; locale, spostamento nello spazio.",
-      "speech": "Sostanziale, generazione e corruzione; qualitativo, alterazione; quantitativo, accrescimento e diminuzione; locale, spostamento nello spazio."
+      "speech": "Sostanziale, generazione e corruzione; qualitativo, alterazione; quantitativo, accrescimento e diminuzione; locale, spostamento nello spazio.",
+      "bold": [
+        [
+          0,
+          11
+        ],
+        [
+          39,
+          50
+        ],
+        [
+          65,
+          77
+        ],
+        [
+          108,
+          114
+        ]
+      ]
     },
     {
       "text": "Come distingue Aristotele l'infinito in atto dall'infinito in potenza?",
@@ -142,7 +272,17 @@
     },
     {
       "text": "L'infinito in atto, una grandezza realmente e simultaneamente infinita, non esiste in natura; l'infinito in potenza, sempre ulteriormente divisibile ma mai completato, è l'unico ammesso.",
-      "speech": "L'infinito in atto, una grandezza realmente e simultaneamente infinita, non esiste in natura; l'infinito in potenza, sempre ulteriormente divisibile ma mai completato, è l'unico ammesso."
+      "speech": "L'infinito in atto, una grandezza realmente e simultaneamente infinita, non esiste in natura; l'infinito in potenza, sempre ulteriormente divisibile ma mai completato, è l'unico ammesso.",
+      "bold": [
+        [
+          2,
+          18
+        ],
+        [
+          96,
+          115
+        ]
+      ]
     },
     {
       "text": "Come è strutturato il cosmo secondo Aristotele?",
@@ -150,7 +290,17 @@
     },
     {
       "text": "Il mondo sublunare, soggetto a mutamento, composto dai quattro elementi; il mondo celeste, incorruttibile ed eterno, composto dall'etere e dotato di moto circolare perfetto.",
-      "speech": "Il mondo sublunare, soggetto a mutamento, composto dai quattro elementi; il mondo celeste, incorruttibile ed eterno, composto dall'etere e dotato di moto circolare perfetto."
+      "speech": "Il mondo sublunare, soggetto a mutamento, composto dai quattro elementi; il mondo celeste, incorruttibile ed eterno, composto dall'etere e dotato di moto circolare perfetto.",
+      "bold": [
+        [
+          3,
+          18
+        ],
+        [
+          76,
+          89
+        ]
+      ]
     },
     {
       "text": "Che cos'è l'anima secondo Aristotele e quali sono le sue tre funzioni?",
@@ -158,7 +308,17 @@
     },
     {
       "text": "È l'atto primo di un corpo naturale che ha la vita in potenza; le sue funzioni sono vegetativa, sensitiva e razionale, gerarchicamente ordinate.",
-      "speech": "È l'atto primo di un corpo naturale che ha la vita in potenza; le sue funzioni sono vegetativa, sensitiva e razionale, gerarchicamente ordinate."
+      "speech": "È l'atto primo di un corpo naturale che ha la vita in potenza; le sue funzioni sono vegetativa, sensitiva e razionale, gerarchicamente ordinate.",
+      "bold": [
+        [
+          4,
+          35
+        ],
+        [
+          84,
+          117
+        ]
+      ]
     },
     {
       "text": "Qual è il fine ultimo dell'agire umano secondo l'Etica Nicomachea?",
@@ -166,7 +326,13 @@
     },
     {
       "text": "La felicità, eudaimonia, intesa come l'esercizio pieno e continuativo dell'attività razionale secondo virtù nel corso di un'intera vita.",
-      "speech": "La felicità, eudaimonia, intesa come l'esercizio pieno e continuativo dell'attività razionale secondo virtù nel corso di un'intera vita."
+      "speech": "La felicità, eudaimonia, intesa come l'esercizio pieno e continuativo dell'attività razionale secondo virtù nel corso di un'intera vita.",
+      "bold": [
+        [
+          13,
+          23
+        ]
+      ]
     },
     {
       "text": "Che differenza c'è fra virtù etiche e virtù dianoetiche?",
@@ -174,7 +340,17 @@
     },
     {
       "text": "Le virtù dianoetiche riguardano la parte razionale e si acquisiscono con lo studio; le virtù etiche riguardano il carattere e si acquisiscono con l'abitudine.",
-      "speech": "Le virtù dianoetiche riguardano la parte razionale e si acquisiscono con lo studio; le virtù etiche riguardano il carattere e si acquisiscono con l'abitudine."
+      "speech": "Le virtù dianoetiche riguardano la parte razionale e si acquisiscono con lo studio; le virtù etiche riguardano il carattere e si acquisiscono con l'abitudine.",
+      "bold": [
+        [
+          3,
+          20
+        ],
+        [
+          87,
+          99
+        ]
+      ]
     },
     {
       "text": "In che cosa consiste la dottrina del giusto mezzo?",
@@ -186,7 +362,13 @@
     },
     {
       "text": "Ogni virtù etica è un giusto mezzo fra due vizi opposti, per eccesso e per difetto; il coraggio è il giusto mezzo fra la temerarietà e la viltà.",
-      "speech": "Ogni virtù etica è un giusto mezzo fra due vizi opposti, per eccesso e per difetto; il coraggio è il giusto mezzo fra la temerarietà e la viltà."
+      "speech": "Ogni virtù etica è un giusto mezzo fra due vizi opposti, per eccesso e per difetto; il coraggio è il giusto mezzo fra la temerarietà e la viltà.",
+      "bold": [
+        [
+          22,
+          55
+        ]
+      ]
     },
     {
       "text": "Che cosa significa che l'uomo è animale politico per natura?",
@@ -194,7 +376,13 @@
     },
     {
       "text": "Solo vivendo nella polis l'uomo può realizzare pienamente le proprie capacità razionali e morali.",
-      "speech": "Solo vivendo nella polis l'uomo può realizzare pienamente le proprie capacità razionali e morali."
+      "speech": "Solo vivendo nella polis l'uomo può realizzare pienamente le proprie capacità razionali e morali.",
+      "bold": [
+        [
+          19,
+          24
+        ]
+      ]
     },
     {
       "text": "Quali sono le forme di governo rette e degenerate secondo Aristotele?",
@@ -202,7 +390,21 @@
     },
     {
       "text": "Monarchia e tirannide, aristocrazia e oligarchia, politia e democrazia, distinte per numero di governanti e fine perseguito.",
-      "speech": "Monarchia e tirannide, aristocrazia e oligarchia, politia e democrazia, distinte per numero di governanti e fine perseguito."
+      "speech": "Monarchia e tirannide, aristocrazia e oligarchia, politia e democrazia, distinte per numero di governanti e fine perseguito.",
+      "bold": [
+        [
+          0,
+          21
+        ],
+        [
+          23,
+          48
+        ],
+        [
+          50,
+          70
+        ]
+      ]
     },
     {
       "text": "Su quali punti Aristotele critica il progetto politico della Repubblica di Platone?",
@@ -210,7 +412,13 @@
     },
     {
       "text": "Critica l'abolizione della proprietà privata e della famiglia per i governanti, ritenendo che generino meno cura e più conflitti rispetto alla proprietà privata.",
-      "speech": "Critica l'abolizione della proprietà privata e della famiglia per i governanti, ritenendo che generino meno cura e più conflitti rispetto alla proprietà privata."
+      "speech": "Critica l'abolizione della proprietà privata e della famiglia per i governanti, ritenendo che generino meno cura e più conflitti rispetto alla proprietà privata.",
+      "bold": [
+        [
+          10,
+          44
+        ]
+      ]
     },
     {
       "text": "Quali sono gli attributi del motore immobile aristotelico e in che cosa differisce dal demiurgo platonico?",
@@ -218,11 +426,27 @@
     },
     {
       "text": "Il motore immobile è la causa prima e immobile di ogni movimento, atto puro identificato con Dio,",
-      "speech": "Il motore immobile è la causa prima e immobile di ogni movimento, atto puro identificato con Dio,"
+      "speech": "Il motore immobile è la causa prima e immobile di ogni movimento, atto puro identificato con Dio,",
+      "bold": [
+        [
+          3,
+          18
+        ],
+        [
+          66,
+          75
+        ]
+      ]
     },
     {
       "text": "mentre il demiurgo platonico è un artefice che ordina una materia preesistente guardando al modello delle idee.",
-      "speech": "mentre il demiurgo platonico è un artefice che ordina una materia preesistente guardando al modello delle idee."
+      "speech": "mentre il demiurgo platonico è un artefice che ordina una materia preesistente guardando al modello delle idee.",
+      "bold": [
+        [
+          10,
+          28
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato il ripasso di tutto il programma di filosofia della classe terza.",

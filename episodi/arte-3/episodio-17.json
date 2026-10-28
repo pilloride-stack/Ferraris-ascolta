@@ -14,19 +14,51 @@
     },
     {
       "text": "La pittura conosce, fra la fine del tredicesimo e l'inizio del quattordicesimo secolo, una svolta fondamentale grazie a Giotto,",
-      "speech": "La pittura conosce, fra la fine del tredicesimo e l'inizio del quattordicesimo secolo, una svolta fondamentale grazie a Giotto,"
+      "speech": "La pittura conosce, fra la fine del tredicesimo e l'inizio del quattordicesimo secolo, una svolta fondamentale grazie a Giotto,",
+      "bold": [
+        [
+          120,
+          126
+        ]
+      ]
     },
     {
       "text": "che abbandona la rigidità bizantina, incontrata in un episodio precedente, per restituire ai personaggi volume, peso e soprattutto un'espressività emotiva nuova.",
-      "speech": "che abbandona la rigidità bizantina, incontrata in un episodio precedente, per restituire ai personaggi volume, peso e soprattutto un'espressività emotiva nuova."
+      "speech": "che abbandona la rigidità bizantina, incontrata in un episodio precedente, per restituire ai personaggi volume, peso e soprattutto un'espressività emotiva nuova.",
+      "bold": [
+        [
+          17,
+          35
+        ],
+        [
+          104,
+          116
+        ]
+      ]
     },
     {
       "text": "Nel Bacio di Giuda, nella Cappella degli Scrovegni a Padova, l'incontro fra Cristo e Giuda è costruito su sguardi che si cercano al centro della scena, circondata dalla folla concitata di soldati e torce;",
-      "speech": "Nel Bacio di Giuda, nella Cappella degli Scrovegni a Padova, l'incontro fra Cristo e Giuda è costruito su sguardi che si cercano al centro della scena, circondata dalla folla concitata di soldati e torce;"
+      "speech": "Nel Bacio di Giuda, nella Cappella degli Scrovegni a Padova, l'incontro fra Cristo e Giuda è costruito su sguardi che si cercano al centro della scena, circondata dalla folla concitata di soldati e torce;",
+      "bold": [
+        [
+          4,
+          18
+        ],
+        [
+          26,
+          50
+        ]
+      ]
     },
     {
       "text": "nella Deposizione, il corpo di Cristo disteso è circondato da figure che esprimono il dolore con gesti e posture naturali,",
-      "speech": "nella Deposizione, il corpo di Cristo disteso è circondato da figure che esprimono il dolore con gesti e posture naturali,"
+      "speech": "nella Deposizione, il corpo di Cristo disteso è circondato da figure che esprimono il dolore con gesti e posture naturali,",
+      "bold": [
+        [
+          6,
+          17
+        ]
+      ]
     },
     {
       "text": "mentre la linea diagonale del pendio roccioso guida lo sguardo dello spettatore verso il volto di Cristo.",
@@ -38,7 +70,13 @@
     },
     {
       "text": "Cimabue, probabile maestro di Giotto, resta ancora legato agli stilemi bizantini, fondo oro e figure allungate ed eleganti,",
-      "speech": "Cimabue, probabile maestro di Giotto, resta ancora legato agli stilemi bizantini, fondo oro e figure allungate ed eleganti,"
+      "speech": "Cimabue, probabile maestro di Giotto, resta ancora legato agli stilemi bizantini, fondo oro e figure allungate ed eleganti,",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
     },
     {
       "text": "ma introduce i primi timidi tentativi di rendere volume e tridimensionalità ai corpi.",
@@ -46,7 +84,17 @@
     },
     {
       "text": "Duccio di Buoninsegna, capofila della scuola senese, realizza la grande Maestà per il Duomo di Siena:",
-      "speech": "Duccio di Buoninsegna, capofila della scuola senese, realizza la grande Maestà per il Duomo di Siena:"
+      "speech": "Duccio di Buoninsegna, capofila della scuola senese, realizza la grande Maestà per il Duomo di Siena:",
+      "bold": [
+        [
+          0,
+          21
+        ],
+        [
+          72,
+          78
+        ]
+      ]
     },
     {
       "text": "pur mantenendo il fondo oro e una raffinatezza lineare di ascendenza bizantina e gotico-cortese, popola le tavolette con la storia della Passione narrata con grande finezza psicologica,",
@@ -58,11 +106,27 @@
     },
     {
       "text": "Accanto a Giotto opera a Siena Simone Martini, il maggior interprete del cosiddetto \"gotico cortese\":",
-      "speech": "Accanto a Giotto opera a Siena Simone Martini, il maggior interprete del cosiddetto \"gotico cortese\":"
+      "speech": "Accanto a Giotto opera a Siena Simone Martini, il maggior interprete del cosiddetto \"gotico cortese\":",
+      "bold": [
+        [
+          31,
+          45
+        ],
+        [
+          85,
+          99
+        ]
+      ]
     },
     {
       "text": "nel Guidoriccio da Fogliano, nel Palazzo Pubblico di Siena, il condottiero a cavallo attraversa da solo un ampio paesaggio vuoto tra due accampamenti fortificati,",
-      "speech": "nel Guidoriccio da Fogliano, nel Palazzo Pubblico di Siena, il condottiero a cavallo attraversa da solo un ampio paesaggio vuoto tra due accampamenti fortificati,"
+      "speech": "nel Guidoriccio da Fogliano, nel Palazzo Pubblico di Siena, il condottiero a cavallo attraversa da solo un ampio paesaggio vuoto tra due accampamenti fortificati,",
+      "bold": [
+        [
+          4,
+          27
+        ]
+      ]
     },
     {
       "text": "in una composizione elegante dominata dalla linea sinuosa del contorno più che dal volume plastico.",
@@ -70,7 +134,17 @@
     },
     {
       "text": "Sempre a Siena, Ambrogio Lorenzetti realizza per la stessa sede pubblica l'Allegoria ed effetti del Buono e del Cattivo Governo, un ciclo che mette a confronto,",
-      "speech": "Sempre a Siena, Ambrogio Lorenzetti realizza per la stessa sede pubblica l'Allegoria ed effetti del Buono e del Cattivo Governo, un ciclo che mette a confronto,"
+      "speech": "Sempre a Siena, Ambrogio Lorenzetti realizza per la stessa sede pubblica l'Allegoria ed effetti del Buono e del Cattivo Governo, un ciclo che mette a confronto,",
+      "bold": [
+        [
+          16,
+          35
+        ],
+        [
+          100,
+          127
+        ]
+      ]
     },
     {
       "text": "in due scene simmetriche, gli effetti concreti, sulla città e sulla campagna, di un governo giusto, edifici ordinati e campagna coltivata e prospera,",
@@ -82,11 +156,23 @@
     },
     {
       "text": "un'opera che testimonia la nascita, nella pittura del Trecento, di un tema civile e politico oltre che religioso.",
-      "speech": "un'opera che testimonia la nascita, nella pittura del Trecento, di un tema civile e politico oltre che religioso."
+      "speech": "un'opera che testimonia la nascita, nella pittura del Trecento, di un tema civile e politico oltre che religioso.",
+      "bold": [
+        [
+          70,
+          92
+        ]
+      ]
     },
     {
       "text": "Tra la fine del Trecento e i primi decenni del Quattrocento si diffonde infine nelle corti europee uno stile raffinato e omogeneo, il gotico internazionale:",
-      "speech": "Tra la fine del Trecento e i primi decenni del Quattrocento si diffonde infine nelle corti europee uno stile raffinato e omogeneo, il gotico internazionale:"
+      "speech": "Tra la fine del Trecento e i primi decenni del Quattrocento si diffonde infine nelle corti europee uno stile raffinato e omogeneo, il gotico internazionale:",
+      "bold": [
+        [
+          134,
+          155
+        ]
+      ]
     },
     {
       "text": "linee sinuose ed eleganti, colori preziosi e dettagli minuziosi, un gusto cortese e fiabesco che privilegia la grazia decorativa rispetto alla resa spaziale e plastica.",
@@ -110,7 +196,13 @@
     },
     {
       "text": "Giotto, invece, rompe con entrambe queste tradizioni: costruisce figure solide e dotate di peso reale, colloca i personaggi in uno spazio credibile e coerente,",
-      "speech": "Giotto, invece, rompe con entrambe queste tradizioni: costruisce figure solide e dotate di peso reale, colloca i personaggi in uno spazio credibile e coerente,"
+      "speech": "Giotto, invece, rompe con entrambe queste tradizioni: costruisce figure solide e dotate di peso reale, colloca i personaggi in uno spazio credibile e coerente,",
+      "bold": [
+        [
+          0,
+          6
+        ]
+      ]
     },
     {
       "text": "e soprattutto affida l'espressività drammatica non più a convenzioni stilizzate ma a gesti, sguardi e posture naturali, aprendo la strada a tutta la pittura successiva.",
@@ -122,15 +214,57 @@
     },
     {
       "text": "Primo: Giotto rinnova la pittura restituendo volume, peso ed espressività emotiva ai personaggi, come nel Bacio di Giuda e nella Deposizione.",
-      "speech": "Primo: Giotto rinnova la pittura restituendo volume, peso ed espressività emotiva ai personaggi, come nel Bacio di Giuda e nella Deposizione."
+      "speech": "Primo: Giotto rinnova la pittura restituendo volume, peso ed espressività emotiva ai personaggi, come nel Bacio di Giuda e nella Deposizione.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          106,
+          120
+        ],
+        [
+          129,
+          140
+        ]
+      ]
     },
     {
       "text": "Secondo: Cimabue e Duccio rappresentano vie diverse, fra persistenza bizantina e raffinatezza decorativa senese, mentre Martini e Lorenzetti sviluppano il gotico cortese e il tema civile.",
-      "speech": "Secondo: Cimabue e Duccio rappresentano vie diverse, fra persistenza bizantina e raffinatezza decorativa senese, mentre Martini e Lorenzetti sviluppano il gotico cortese e il tema civile."
+      "speech": "Secondo: Cimabue e Duccio rappresentano vie diverse, fra persistenza bizantina e raffinatezza decorativa senese, mentre Martini e Lorenzetti sviluppano il gotico cortese e il tema civile.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          25
+        ],
+        [
+          155,
+          169
+        ]
+      ]
     },
     {
       "text": "Terzo: il gotico internazionale chiude, con il suo gusto cortese e decorativo, la cultura figurativa medievale prima del Rinascimento.",
-      "speech": "Terzo: il gotico internazionale chiude, con il suo gusto cortese e decorativo, la cultura figurativa medievale prima del Rinascimento."
+      "speech": "Terzo: il gotico internazionale chiude, con il suo gusto cortese e decorativo, la cultura figurativa medievale prima del Rinascimento.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          31
+        ]
+      ]
     },
     {
       "text": "Nei prossimi tre episodi, dedicati al ripasso, ripercorreremo insieme tutte le sessantasette domande guida di questo modulo.",

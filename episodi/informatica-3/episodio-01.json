@@ -10,7 +10,13 @@
     },
     {
       "text": "In questo percorso affronteremo tre grandi moduli: il ruolo dell'ICT nella vita sociale e in azienda, l'organizzazione dei dati aziendali attraverso i database,",
-      "speech": "In questo percorso affronteremo tre grandi moduli: il ruolo dell'ICT nella vita sociale e in azienda, l'organizzazione dei dati aziendali attraverso i database,"
+      "speech": "In questo percorso affronteremo tre grandi moduli: il ruolo dell'ICT nella vita sociale e in azienda, l'organizzazione dei dati aziendali attraverso i database,",
+      "bold": [
+        [
+          65,
+          68
+        ]
+      ]
     },
     {
       "text": "e il mondo del web, con i suoi aspetti hardware, software e di sicurezza.",
@@ -26,19 +32,47 @@
     },
     {
       "text": "affaticamento visivo, disturbi muscolo-scheletrici a collo, spalle e polsi, e stress da lavoro correlato.",
-      "speech": "affaticamento visivo, disturbi muscolo-scheletrici a collo, spalle e polsi, e stress da lavoro correlato."
+      "speech": "affaticamento visivo, disturbi muscolo-scheletrici a collo, spalle e polsi, e stress da lavoro correlato.",
+      "bold": [
+        [
+          0,
+          20
+        ]
+      ]
     },
     {
       "text": "In Italia questa materia è disciplinata dal D.Lgs. 81/2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, che impone al datore di lavoro precisi obblighi nei confronti di chi utilizza il videoterminale.",
-      "speech": "In Italia questa materia è disciplinata dal D.Lgs. 81/2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, che impone al datore di lavoro precisi obblighi nei confronti di chi utilizza il videoterminale."
+      "speech": "In Italia questa materia è disciplinata dal D.Lgs. 81/2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, che impone al datore di lavoro precisi obblighi nei confronti di chi utilizza il videoterminale.",
+      "bold": [
+        [
+          44,
+          58
+        ]
+      ]
     },
     {
       "text": "Il datore di lavoro deve effettuare la valutazione dei rischi specifici della postazione, organizzare il lavoro in modo da prevedere pause regolari o cambi di attività, garantire la sorveglianza sanitaria periodica da parte del medico competente,",
-      "speech": "Il datore di lavoro deve effettuare la valutazione dei rischi specifici della postazione, organizzare il lavoro in modo da prevedere pause regolari o cambi di attività, garantire la sorveglianza sanitaria periodica da parte del medico competente,"
+      "speech": "Il datore di lavoro deve effettuare la valutazione dei rischi specifici della postazione, organizzare il lavoro in modo da prevedere pause regolari o cambi di attività, garantire la sorveglianza sanitaria periodica da parte del medico competente,",
+      "bold": [
+        [
+          39,
+          61
+        ],
+        [
+          182,
+          204
+        ]
+      ]
     },
     {
       "text": "e assicurare la formazione del personale sui corretti principi ergonomici.",
-      "speech": "e assicurare la formazione del personale sui corretti principi ergonomici."
+      "speech": "e assicurare la formazione del personale sui corretti principi ergonomici.",
+      "bold": [
+        [
+          16,
+          40
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questi quattro obblighi, perché in un'interrogazione è facile citarne solo uno o due e dimenticare gli altri:",
@@ -54,11 +88,27 @@
     },
     {
       "text": "Passiamo ora a un tema diverso, ma ugualmente importante nel primo modulo: la tutela giuridica del software.",
-      "speech": "Passiamo ora a un tema diverso, ma ugualmente importante nel primo modulo: la tutela giuridica del software."
+      "speech": "Passiamo ora a un tema diverso, ma ugualmente importante nel primo modulo: la tutela giuridica del software.",
+      "bold": [
+        [
+          78,
+          107
+        ]
+      ]
     },
     {
       "text": "Il software, in quanto opera dell'ingegno, è tutelato dal diritto d'autore, disciplinato in Italia principalmente dalla Legge 22 aprile 1941, n. 633.",
-      "speech": "Il software, in quanto opera dell'ingegno, è tutelato dal diritto d'autore, disciplinato in Italia principalmente dalla Legge 22 aprile 1941, n. 633."
+      "speech": "Il software, in quanto opera dell'ingegno, è tutelato dal diritto d'autore, disciplinato in Italia principalmente dalla Legge 22 aprile 1941, n. 633.",
+      "bold": [
+        [
+          58,
+          74
+        ],
+        [
+          120,
+          148
+        ]
+      ]
     },
     {
       "text": "Questa tutela attribuisce all'autore due categorie di diritti:",
@@ -66,7 +116,17 @@
     },
     {
       "text": "i diritti morali, come il diritto alla paternità dell'opera, che restano sempre legati alla persona dell'autore, e i diritti patrimoniali,",
-      "speech": "i diritti morali, come il diritto alla paternità dell'opera, che restano sempre legati alla persona dell'autore, e i diritti patrimoniali,"
+      "speech": "i diritti morali, come il diritto alla paternità dell'opera, che restano sempre legati alla persona dell'autore, e i diritti patrimoniali,",
+      "bold": [
+        [
+          2,
+          16
+        ],
+        [
+          117,
+          137
+        ]
+      ]
     },
     {
       "text": "come il diritto di riprodurre, distribuire e modificare il programma, che invece possono essere ceduti o concessi in licenza ad altri soggetti, per esempio un'azienda produttrice di software.",
@@ -90,19 +150,47 @@
     },
     {
       "text": "Il software proprietario richiede l'acquisto di una licenza d'uso e non consente di modificarne il codice.",
-      "speech": "Il software proprietario richiede l'acquisto di una licenza d'uso e non consente di modificarne il codice."
+      "speech": "Il software proprietario richiede l'acquisto di una licenza d'uso e non consente di modificarne il codice.",
+      "bold": [
+        [
+          3,
+          24
+        ]
+      ]
     },
     {
       "text": "Il freeware è distribuito gratuitamente, ma senza cessione del codice sorgente.",
-      "speech": "Il freeware è distribuito gratuitamente, ma senza cessione del codice sorgente."
+      "speech": "Il freeware è distribuito gratuitamente, ma senza cessione del codice sorgente.",
+      "bold": [
+        [
+          3,
+          11
+        ]
+      ]
     },
     {
       "text": "Lo shareware è distribuito gratuitamente per un periodo di prova, prima dell'eventuale acquisto definitivo.",
-      "speech": "Lo shareware è distribuito gratuitamente per un periodo di prova, prima dell'eventuale acquisto definitivo."
+      "speech": "Lo shareware è distribuito gratuitamente per un periodo di prova, prima dell'eventuale acquisto definitivo.",
+      "bold": [
+        [
+          3,
+          12
+        ]
+      ]
     },
     {
       "text": "E il software open source è distribuito insieme al proprio codice sorgente, liberamente consultabile, modificabile e ridistribuibile da chiunque.",
-      "speech": "E il software open source è distribuito insieme al proprio codice sorgente, liberamente consultabile, modificabile e ridistribuibile da chiunque."
+      "speech": "E il software open source è distribuito insieme al proprio codice sorgente, liberamente consultabile, modificabile e ridistribuibile da chiunque.",
+      "bold": [
+        [
+          5,
+          25
+        ],
+        [
+          59,
+          74
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un commissario vi chiedesse di distinguere freeware, shareware e open source, come rispondereste in poche frasi?",
@@ -126,15 +214,57 @@
     },
     {
       "text": "Primo: il D.Lgs. 81/2008 impone al datore di lavoro quattro obblighi precisi per chi lavora al videoterminale, valutazione dei rischi, pause regolari, sorveglianza sanitaria e formazione.",
-      "speech": "Primo: il D.Lgs. 81/2008 impone al datore di lavoro quattro obblighi precisi per chi lavora al videoterminale, valutazione dei rischi, pause regolari, sorveglianza sanitaria e formazione."
+      "speech": "Primo: il D.Lgs. 81/2008 impone al datore di lavoro quattro obblighi precisi per chi lavora al videoterminale, valutazione dei rischi, pause regolari, sorveglianza sanitaria e formazione.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          52,
+          68
+        ]
+      ]
     },
     {
       "text": "Secondo: il software è tutelato dalla Legge 633/1941 attraverso diritti morali, non cedibili, e diritti patrimoniali, cedibili tramite licenza.",
-      "speech": "Secondo: il software è tutelato dalla Legge 633/1941 attraverso diritti morali, non cedibili, e diritti patrimoniali, cedibili tramite licenza."
+      "speech": "Secondo: il software è tutelato dalla Legge 633/1941 attraverso diritti morali, non cedibili, e diritti patrimoniali, cedibili tramite licenza.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          38,
+          52
+        ],
+        [
+          64,
+          78
+        ],
+        [
+          96,
+          116
+        ]
+      ]
     },
     {
       "text": "Terzo: in base al tipo di licenza il software si classifica in proprietario, freeware, shareware e open source.",
-      "speech": "Terzo: in base al tipo di licenza il software si classifica in proprietario, freeware, shareware e open source."
+      "speech": "Terzo: in base al tipo di licenza il software si classifica in proprietario, freeware, shareware e open source.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          63,
+          110
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio completiamo il primo modulo parlando della classificazione dei software per funzione, della tutela della privacy con il GDPR, e dei sistemi informativi aziendali.",

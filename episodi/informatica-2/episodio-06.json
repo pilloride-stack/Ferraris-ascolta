@@ -10,27 +10,75 @@
     },
     {
       "text": "Oggi entriamo nel Modulo 3 e cominciamo a conoscere Microsoft Excel, il programma più diffuso per la creazione e la gestione di fogli di calcolo.",
-      "speech": "Oggi entriamo nel Modulo 3 e cominciamo a conoscere Microsoft Excel, il programma più diffuso per la creazione e la gestione di fogli di calcolo."
+      "speech": "Oggi entriamo nel Modulo 3 e cominciamo a conoscere Microsoft Excel, il programma più diffuso per la creazione e la gestione di fogli di calcolo.",
+      "bold": [
+        [
+          52,
+          67
+        ]
+      ]
     },
     {
       "text": "Un foglio di calcolo, o foglio elettronico, è un'applicazione che permette di organizzare dati in tabelle ed eseguire calcoli automatici.",
-      "speech": "Un foglio di calcolo, o foglio elettronico, è un'applicazione che permette di organizzare dati in tabelle ed eseguire calcoli automatici."
+      "speech": "Un foglio di calcolo, o foglio elettronico, è un'applicazione che permette di organizzare dati in tabelle ed eseguire calcoli automatici.",
+      "bold": [
+        [
+          3,
+          20
+        ]
+      ]
     },
     {
       "text": "Come Word e PowerPoint, che avete già incontrato lo scorso anno, anche Excel utilizza la barra multifunzione, organizzata in schede come Home, Inserisci, Formule e Dati.",
-      "speech": "Come Word e PowerPoint, che avete già incontrato lo scorso anno, anche Excel utilizza la barra multifunzione, organizzata in schede come Home, Inserisci, Formule e Dati."
+      "speech": "Come Word e PowerPoint, che avete già incontrato lo scorso anno, anche Excel utilizza la barra multifunzione, organizzata in schede come Home, Inserisci, Formule e Dati.",
+      "bold": [
+        [
+          89,
+          108
+        ]
+      ]
     },
     {
       "text": "L'area di lavoro è suddivisa in una griglia di celle, ciascuna identificata da un riferimento univoco composto da una lettera, che indica la colonna, e da un numero, che indica la riga: per esempio A1 o C5.",
-      "speech": "L'area di lavoro è suddivisa in una griglia di celle, ciascuna identificata da un riferimento univoco composto da una lettera, che indica la colonna, e da un numero, che indica la riga: per esempio A1 o C5."
+      "speech": "L'area di lavoro è suddivisa in una griglia di celle, ciascuna identificata da un riferimento univoco composto da una lettera, che indica la colonna, e da un numero, che indica la riga: per esempio A1 o C5.",
+      "bold": [
+        [
+          47,
+          52
+        ],
+        [
+          198,
+          205
+        ]
+      ]
     },
     {
       "text": "Un insieme contiguo di celle è detto intervallo, o range, indicato per esempio come A1:C5.",
-      "speech": "Un insieme contiguo di celle è detto intervallo, o range, indicato per esempio come A1:C5."
+      "speech": "Un insieme contiguo di celle è detto intervallo, o range, indicato per esempio come A1:C5.",
+      "bold": [
+        [
+          37,
+          47
+        ],
+        [
+          84,
+          89
+        ]
+      ]
     },
     {
       "text": "Un file di Excel è detto cartella di lavoro, o workbook, e può contenere al proprio interno più fogli di lavoro, o worksheet, visualizzati come schede nella parte inferiore della finestra:",
-      "speech": "Un file di Excel è detto cartella di lavoro, o workbook, e può contenere al proprio interno più fogli di lavoro, o worksheet, visualizzati come schede nella parte inferiore della finestra:"
+      "speech": "Un file di Excel è detto cartella di lavoro, o workbook, e può contenere al proprio interno più fogli di lavoro, o worksheet, visualizzati come schede nella parte inferiore della finestra:",
+      "bold": [
+        [
+          25,
+          43
+        ],
+        [
+          96,
+          111
+        ]
+      ]
     },
     {
       "text": "è possibile inserire, eliminare, rinominare e riordinare i fogli a seconda delle esigenze.",
@@ -42,15 +90,37 @@
     },
     {
       "text": "una formula inizia sempre con il simbolo uguale e può contenere riferimenti ad altre celle, come per esempio uguale A1 più B1, e funzioni predefinite, come SOMMA o MEDIA.",
-      "speech": "una formula inizia sempre con il simbolo uguale e può contenere riferimenti ad altre celle, come per esempio uguale A1 più B1, e funzioni predefinite, come SOMMA o MEDIA."
+      "speech": "una formula inizia sempre con il simbolo uguale e può contenere riferimenti ad altre celle, come per esempio uguale A1 più B1, e funzioni predefinite, come SOMMA o MEDIA.",
+      "bold": [
+        [
+          4,
+          11
+        ],
+        [
+          156,
+          169
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su una distinzione che è tra le più importanti dell'intero modulo, ed è anche tra le più delicate: la differenza tra riferimento relativo e riferimento assoluto.",
-      "speech": "Fermatevi un momento su una distinzione che è tra le più importanti dell'intero modulo, ed è anche tra le più delicate: la differenza tra riferimento relativo e riferimento assoluto."
+      "speech": "Fermatevi un momento su una distinzione che è tra le più importanti dell'intero modulo, ed è anche tra le più delicate: la differenza tra riferimento relativo e riferimento assoluto.",
+      "bold": [
+        [
+          138,
+          181
+        ]
+      ]
     },
     {
       "text": "Un riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata in altre celle:",
-      "speech": "Un riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata in altre celle:"
+      "speech": "Un riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata in altre celle:",
+      "bold": [
+        [
+          3,
+          23
+        ]
+      ]
     },
     {
       "text": "se copiate una formula che contiene A1 dalla riga 1 alla riga 2, il riferimento diventerà automaticamente A2.",
@@ -58,7 +128,17 @@
     },
     {
       "text": "Un riferimento assoluto, invece, si fissa con il simbolo del dollaro, come $A$1, e non cambia quando la formula viene copiata altrove, restando sempre ancorato alla stessa cella.",
-      "speech": "Un riferimento assoluto, invece, si fissa con il simbolo del dollaro, come $A$1, e non cambia quando la formula viene copiata altrove, restando sempre ancorato alla stessa cella."
+      "speech": "Un riferimento assoluto, invece, si fissa con il simbolo del dollaro, come $A$1, e non cambia quando la formula viene copiata altrove, restando sempre ancorato alla stessa cella.",
+      "bold": [
+        [
+          3,
+          23
+        ],
+        [
+          75,
+          79
+        ]
+      ]
     },
     {
       "text": "Questa distinzione è fondamentale ogni volta che dovete copiare una formula su più righe o colonne mantenendo fisso un valore di riferimento, per esempio un'aliquota o un totale generale,",
@@ -74,7 +154,13 @@
     },
     {
       "text": "La risposta è semplice ma va scritta con precisione: uguale SOMMA, apri parentesi, A1 due punti A5, chiudi parentesi, cioè =SOMMA(A1:A5).",
-      "speech": "La risposta è semplice ma va scritta con precisione: uguale SOMMA, apri parentesi, A1 due punti A5, chiudi parentesi, cioè =SOMMA(A1:A5)."
+      "speech": "La risposta è semplice ma va scritta con precisione: uguale SOMMA, apri parentesi, A1 due punti A5, chiudi parentesi, cioè =SOMMA(A1:A5).",
+      "bold": [
+        [
+          123,
+          136
+        ]
+      ]
     },
     {
       "text": "Excel calcolerà automaticamente il totale di quell'intervallo,",
@@ -90,7 +176,17 @@
     },
     {
       "text": "la cartella di lavoro è il file nel suo insieme, mentre i fogli di lavoro sono le singole schede che quel file può contenere, anche numerose, ciascuna con le proprie tabelle e i propri calcoli, ma tutte salvate insieme in un unico file.",
-      "speech": "la cartella di lavoro è il file nel suo insieme, mentre i fogli di lavoro sono le singole schede che quel file può contenere, anche numerose, ciascuna con le proprie tabelle e i propri calcoli, ma tutte salvate insieme in un unico file."
+      "speech": "la cartella di lavoro è il file nel suo insieme, mentre i fogli di lavoro sono le singole schede che quel file può contenere, anche numerose, ciascuna con le proprie tabelle e i propri calcoli, ma tutte salvate insieme in un unico file.",
+      "bold": [
+        [
+          3,
+          21
+        ],
+        [
+          58,
+          73
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -98,15 +194,57 @@
     },
     {
       "text": "Primo: Excel organizza i dati in una griglia di celle, identificate da colonna e riga, raggruppabili in intervalli, e utilizza la barra multifunzione come Word e PowerPoint.",
-      "speech": "Primo: Excel organizza i dati in una griglia di celle, identificate da colonna e riga, raggruppabili in intervalli, e utilizza la barra multifunzione come Word e PowerPoint."
+      "speech": "Primo: Excel organizza i dati in una griglia di celle, identificate da colonna e riga, raggruppabili in intervalli, e utilizza la barra multifunzione come Word e PowerPoint.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          48,
+          53
+        ],
+        [
+          104,
+          114
+        ]
+      ]
     },
     {
       "text": "Secondo: un file di Excel è una cartella di lavoro che può contenere più fogli di lavoro, e ogni formula inizia con il simbolo uguale e può contenere funzioni come SOMMA o MEDIA.",
-      "speech": "Secondo: un file di Excel è una cartella di lavoro che può contenere più fogli di lavoro, e ogni formula inizia con il simbolo uguale e può contenere funzioni come SOMMA o MEDIA."
+      "speech": "Secondo: un file di Excel è una cartella di lavoro che può contenere più fogli di lavoro, e ogni formula inizia con il simbolo uguale e può contenere funzioni come SOMMA o MEDIA.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          32,
+          50
+        ],
+        [
+          73,
+          88
+        ]
+      ]
     },
     {
       "text": "Terzo: i riferimenti di cella possono essere relativi, che si adattano quando la formula viene copiata, oppure assoluti, fissati con il simbolo del dollaro, che restano invariati.",
-      "speech": "Terzo: i riferimenti di cella possono essere relativi, che si adattano quando la formula viene copiata, oppure assoluti, fissati con il simbolo del dollaro, che restano invariati."
+      "speech": "Terzo: i riferimenti di cella possono essere relativi, che si adattano quando la formula viene copiata, oppure assoluti, fissati con il simbolo del dollaro, che restano invariati.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          45,
+          53
+        ],
+        [
+          111,
+          119
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo come organizzare i dati in tabelle vere e proprie e come rappresentarli con i grafici.",

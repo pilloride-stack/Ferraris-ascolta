@@ -14,7 +14,17 @@
     },
     {
       "text": "La firma digitale è uno strumento crittografico che consente di attribuire con certezza la paternità di un documento informatico al proprio autore e di garantirne l'integrità,",
-      "speech": "La firma digitale è uno strumento crittografico che consente di attribuire con certezza la paternità di un documento informatico al proprio autore e di garantirne l'integrità,"
+      "speech": "La firma digitale è uno strumento crittografico che consente di attribuire con certezza la paternità di un documento informatico al proprio autore e di garantirne l'integrità,",
+      "bold": [
+        [
+          3,
+          17
+        ],
+        [
+          24,
+          47
+        ]
+      ]
     },
     {
       "text": "poiché qualsiasi modifica successiva alla firma ne invalida la validità;",
@@ -22,15 +32,37 @@
     },
     {
       "text": "in Italia è regolata dal Codice dell'Amministrazione Digitale e ha lo stesso valore legale della firma autografa apposta su un documento cartaceo.",
-      "speech": "in Italia è regolata dal Codice dell'Amministrazione Digitale e ha lo stesso valore legale della firma autografa apposta su un documento cartaceo."
+      "speech": "in Italia è regolata dal Codice dell'Amministrazione Digitale e ha lo stesso valore legale della firma autografa apposta su un documento cartaceo.",
+      "bold": [
+        [
+          25,
+          61
+        ],
+        [
+          97,
+          112
+        ]
+      ]
     },
     {
       "text": "Strettamente collegata è la conservazione sostitutiva, detta anche conservazione digitale a norma, la procedura che garantisce nel tempo la validità legale e fiscale dei documenti informatici,",
-      "speech": "Strettamente collegata è la conservazione sostitutiva, detta anche conservazione digitale a norma, la procedura che garantisce nel tempo la validità legale e fiscale dei documenti informatici,"
+      "speech": "Strettamente collegata è la conservazione sostitutiva, detta anche conservazione digitale a norma, la procedura che garantisce nel tempo la validità legale e fiscale dei documenti informatici,",
+      "bold": [
+        [
+          28,
+          53
+        ]
+      ]
     },
     {
       "text": "tramite l'apposizione di firma digitale e marca temporale, permettendo alle aziende di eliminare l'archiviazione cartacea di fatture, contratti e altri documenti rilevanti.",
-      "speech": "tramite l'apposizione di firma digitale e marca temporale, permettendo alle aziende di eliminare l'archiviazione cartacea di fatture, contratti e altri documenti rilevanti."
+      "speech": "tramite l'apposizione di firma digitale e marca temporale, permettendo alle aziende di eliminare l'archiviazione cartacea di fatture, contratti e altri documenti rilevanti.",
+      "bold": [
+        [
+          42,
+          57
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questo collegamento tra i due concetti, perché è facile parlarne come se fossero sinonimi, mentre rispondono a esigenze diverse e complementari:",
@@ -38,11 +70,23 @@
     },
     {
       "text": "la firma digitale garantisce chi ha creato un singolo documento e che non sia stato alterato nel momento in cui è stato firmato;",
-      "speech": "la firma digitale garantisce chi ha creato un singolo documento e che non sia stato alterato nel momento in cui è stato firmato;"
+      "speech": "la firma digitale garantisce chi ha creato un singolo documento e che non sia stato alterato nel momento in cui è stato firmato;",
+      "bold": [
+        [
+          3,
+          17
+        ]
+      ]
     },
     {
       "text": "la conservazione sostitutiva garantisce che quello stesso documento, firmato digitalmente e dotato di marca temporale, mantenga nel tempo,",
-      "speech": "la conservazione sostitutiva garantisce che quello stesso documento, firmato digitalmente e dotato di marca temporale, mantenga nel tempo,"
+      "speech": "la conservazione sostitutiva garantisce che quello stesso documento, firmato digitalmente e dotato di marca temporale, mantenga nel tempo,",
+      "bold": [
+        [
+          3,
+          28
+        ]
+      ]
     },
     {
       "text": "anche a distanza di anni, il proprio valore legale e fiscale, sostituendo a tutti gli effetti l'archiviazione cartacea tradizionale.",
@@ -54,19 +98,47 @@
     },
     {
       "text": "La perdita dei dati aziendali, dovuta a guasti hardware, errori umani o attacchi informatici come il ransomware, può avere conseguenze molto gravi per un'impresa:",
-      "speech": "La perdita dei dati aziendali, dovuta a guasti hardware, errori umani o attacchi informatici come il ransomware, può avere conseguenze molto gravi per un'impresa:"
+      "speech": "La perdita dei dati aziendali, dovuta a guasti hardware, errori umani o attacchi informatici come il ransomware, può avere conseguenze molto gravi per un'impresa:",
+      "bold": [
+        [
+          101,
+          111
+        ]
+      ]
     },
     {
       "text": "per questo motivo l'esecuzione di backup periodici è una prassi essenziale.",
-      "speech": "per questo motivo l'esecuzione di backup periodici è una prassi essenziale."
+      "speech": "per questo motivo l'esecuzione di backup periodici è una prassi essenziale.",
+      "bold": [
+        [
+          34,
+          50
+        ]
+      ]
     },
     {
       "text": "Si distingue tra backup completo, la copia integrale di tutti i dati; backup incrementale, la copia solo dei dati modificati dall'ultimo backup, di qualunque tipo esso sia stato;",
-      "speech": "Si distingue tra backup completo, la copia integrale di tutti i dati; backup incrementale, la copia solo dei dati modificati dall'ultimo backup, di qualunque tipo esso sia stato;"
+      "speech": "Si distingue tra backup completo, la copia integrale di tutti i dati; backup incrementale, la copia solo dei dati modificati dall'ultimo backup, di qualunque tipo esso sia stato;",
+      "bold": [
+        [
+          17,
+          32
+        ],
+        [
+          70,
+          89
+        ]
+      ]
     },
     {
       "text": "e backup differenziale, la copia dei dati modificati dall'ultimo backup completo.",
-      "speech": "e backup differenziale, la copia dei dati modificati dall'ultimo backup completo."
+      "speech": "e backup differenziale, la copia dei dati modificati dall'ultimo backup completo.",
+      "bold": [
+        [
+          2,
+          22
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento sulla differenza tra backup incrementale e differenziale, perché è il punto più delicato di questo argomento e capita spesso di confonderli:",
@@ -74,11 +146,23 @@
     },
     {
       "text": "il backup incrementale guarda sempre all'ultimo backup effettuato, di qualsiasi tipo, e copia solo ciò che è cambiato da allora;",
-      "speech": "il backup incrementale guarda sempre all'ultimo backup effettuato, di qualsiasi tipo, e copia solo ciò che è cambiato da allora;"
+      "speech": "il backup incrementale guarda sempre all'ultimo backup effettuato, di qualsiasi tipo, e copia solo ciò che è cambiato da allora;",
+      "bold": [
+        [
+          41,
+          65
+        ]
+      ]
     },
     {
       "text": "il backup differenziale guarda invece sempre all'ultimo backup completo, e copia tutto ciò che è cambiato da quel momento, anche se nel frattempo sono stati fatti altri backup differenziali.",
-      "speech": "il backup differenziale guarda invece sempre all'ultimo backup completo, e copia tutto ciò che è cambiato da quel momento, anche se nel frattempo sono stati fatti altri backup differenziali."
+      "speech": "il backup differenziale guarda invece sempre all'ultimo backup completo, e copia tutto ciò che è cambiato da quel momento, anche se nel frattempo sono stati fatti altri backup differenziali.",
+      "bold": [
+        [
+          49,
+          71
+        ]
+      ]
     },
     {
       "text": "Il backup incrementale genera copie più piccole e veloci, ma il ripristino richiede di riapplicarle tutte in ordine;",
@@ -90,11 +174,31 @@
     },
     {
       "text": "I supporti utilizzabili comprendono dischi esterni, sistemi NAS, Network Attached Storage, servizi di backup su cloud e, in passato, anche la masterizzazione su supporti ottici come CD e DVD.",
-      "speech": "I supporti utilizzabili comprendono dischi esterni, sistemi NAS, Network Attached Storage, servizi di backup su cloud e, in passato, anche la masterizzazione su supporti ottici come CD e DVD."
+      "speech": "I supporti utilizzabili comprendono dischi esterni, sistemi NAS, Network Attached Storage, servizi di backup su cloud e, in passato, anche la masterizzazione su supporti ottici come CD e DVD.",
+      "bold": [
+        [
+          60,
+          63
+        ],
+        [
+          65,
+          89
+        ]
+      ]
     },
     {
       "text": "Una buona pratica ampiamente diffusa è la regola del backup 3-2-1: mantenere almeno 3 copie dei dati, su 2 tipi di supporto diversi, con 1 copia conservata in un luogo fisicamente separato, offsite.",
-      "speech": "Una buona pratica ampiamente diffusa è la regola del backup 3-2-1: mantenere almeno 3 copie dei dati, su 2 tipi di supporto diversi, con 1 copia conservata in un luogo fisicamente separato, offsite."
+      "speech": "Una buona pratica ampiamente diffusa è la regola del backup 3-2-1: mantenere almeno 3 copie dei dati, su 2 tipi di supporto diversi, con 1 copia conservata in un luogo fisicamente separato, offsite.",
+      "bold": [
+        [
+          42,
+          65
+        ],
+        [
+          190,
+          197
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: un'azienda vuole proteggere l'archivio dei propri dati contabili applicando la regola 3-2-1.",
@@ -110,7 +214,13 @@
     },
     {
       "text": "e la copia offsite è proprio quella su cloud, fisicamente separata dalla sede aziendale, capace di proteggere i dati anche in caso di incendio o furto in azienda.",
-      "speech": "e la copia offsite è proprio quella su cloud, fisicamente separata dalla sede aziendale, capace di proteggere i dati anche in caso di incendio o furto in azienda."
+      "speech": "e la copia offsite è proprio quella su cloud, fisicamente separata dalla sede aziendale, capace di proteggere i dati anche in caso di incendio o furto in azienda.",
+      "bold": [
+        [
+          11,
+          18
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -118,15 +228,49 @@
     },
     {
       "text": "Primo: la firma digitale attribuisce paternità e integrità a un documento informatico, mentre la conservazione sostitutiva ne garantisce nel tempo la validità legale e fiscale.",
-      "speech": "Primo: la firma digitale attribuisce paternità e integrità a un documento informatico, mentre la conservazione sostitutiva ne garantisce nel tempo la validità legale e fiscale."
+      "speech": "Primo: la firma digitale attribuisce paternità e integrità a un documento informatico, mentre la conservazione sostitutiva ne garantisce nel tempo la validità legale e fiscale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          97,
+          122
+        ]
+      ]
     },
     {
       "text": "Secondo: i backup possono essere completi, incrementali o differenziali, a seconda di cosa copiano e rispetto a quale backup precedente.",
-      "speech": "Secondo: i backup possono essere completi, incrementali o differenziali, a seconda di cosa copiano e rispetto a quale backup precedente."
+      "speech": "Secondo: i backup possono essere completi, incrementali o differenziali, a seconda di cosa copiano e rispetto a quale backup precedente.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          33,
+          71
+        ]
+      ]
     },
     {
       "text": "Terzo: la regola del backup 3-2-1, tre copie su due supporti diversi con una copia offsite, è una buona pratica per proteggere i dati aziendali.",
-      "speech": "Terzo: la regola del backup 3-2-1, tre copie su due supporti diversi con una copia offsite, è una buona pratica per proteggere i dati aziendali."
+      "speech": "Terzo: la regola del backup 3-2-1, tre copie su due supporti diversi con una copia offsite, è una buona pratica per proteggere i dati aziendali.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          33
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato tutti i contenuti nuovi dell'intero modulo.",

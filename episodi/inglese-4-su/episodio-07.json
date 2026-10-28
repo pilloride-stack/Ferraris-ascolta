@@ -7,15 +7,11 @@
     {
       "text": "Nell'episodio scorso abbiamo visto Coketown e la critica dickensiana dell'industrializzazione in Hard Times.",
       "speech": "Nell'episodio scorso abbiamo visto Coketown e la critica dickensiana dell'industrializzazione in Hard Times.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Nell'episodio scorso abbiamo visto Coketown e la critica dickensiana dell'industrializzazione in"
-        },
-        {
-          "lang": "en",
-          "text": "Hard Times."
-        }
+      "bold": [
+        [
+          97,
+          107
+        ]
       ]
     },
     {
@@ -24,32 +20,42 @@
     },
     {
       "text": "Elizabeth Gaskell, vissuta tra il 1810 e il 1865, una delle maggiori romanziere dell'epoca e un'attenta osservatrice delle trasformazioni sociali prodotte dall'industrializzazione.",
-      "speech": "Elizabeth Gaskell, vissuta tra il 1810 e il 1865, una delle maggiori romanziere dell'epoca e un'attenta osservatrice delle trasformazioni sociali prodotte dall'industrializzazione."
+      "speech": "Elizabeth Gaskell, vissuta tra il 1810 e il 1865, una delle maggiori romanziere dell'epoca e un'attenta osservatrice delle trasformazioni sociali prodotte dall'industrializzazione.",
+      "bold": [
+        [
+          0,
+          17
+        ],
+        [
+          34,
+          38
+        ],
+        [
+          44,
+          48
+        ]
+      ]
     },
     {
       "text": "Il romanzo di Gaskell che affronteremo oggi è North and South, pubblicato a puntate tra il 1854 e il 1855 sulla rivista Household Words, diretta — dettaglio non secondario —",
       "speech": "Il romanzo di Gaskell che affronteremo oggi è North and South, pubblicato a puntate tra il 1854 e il 1855 sulla rivista Household Words, diretta — dettaglio non secondario —",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Il romanzo di Gaskell che affronteremo oggi è"
-        },
-        {
-          "lang": "en",
-          "text": "North and South,"
-        },
-        {
-          "lang": "it",
-          "text": "pubblicato a puntate tra il 1854 e il 1855 sulla rivista"
-        },
-        {
-          "lang": "en",
-          "text": "Household Words,"
-        },
-        {
-          "lang": "it",
-          "text": "diretta — dettaglio non secondario —"
-        }
+      "bold": [
+        [
+          46,
+          61
+        ],
+        [
+          91,
+          95
+        ],
+        [
+          101,
+          105
+        ],
+        [
+          120,
+          135
+        ]
       ]
     },
     {
@@ -59,60 +65,54 @@
     {
       "text": "North and South appartiene a un filone narrativo specifico, che vale la pena conoscere con il proprio nome tecnico:",
       "speech": "North and South appartiene a un filone narrativo specifico, che vale la pena conoscere con il proprio nome tecnico:",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "North and South"
-        },
-        {
-          "lang": "it",
-          "text": "appartiene a un filone narrativo specifico, che vale la pena conoscere con il proprio nome tecnico:"
-        }
+      "bold": [
+        [
+          0,
+          15
+        ]
       ]
     },
     {
       "text": "l'industrial novel, o anche «Condition of England novel», il romanzo industriale che affronta direttamente le tensioni sociali tra industriali e operai nell'Inghilterra vittoriana,",
       "speech": "l'industrial novel, o anche «Condition of England novel», il romanzo industriale che affronta direttamente le tensioni sociali tra industriali e operai nell'Inghilterra vittoriana,",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "l'industrial novel,"
-        },
-        {
-          "lang": "it",
-          "text": "o anche «"
-        },
-        {
-          "lang": "en",
-          "text": "Condition of England novel»,"
-        },
-        {
-          "lang": "it",
-          "text": "il romanzo industriale che affronta direttamente le tensioni sociali tra industriali e operai nell'Inghilterra vittoriana,"
-        }
+      "bold": [
+        [
+          0,
+          18
+        ],
+        [
+          29,
+          55
+        ],
+        [
+          61,
+          80
+        ]
       ]
     },
     {
       "text": "dando corpo narrativo proprio a quella «Condition of England question» che abbiamo introdotto all'inizio di questo modulo.",
       "speech": "dando corpo narrativo proprio a quella «Condition of England question» che abbiamo introdotto all'inizio di questo modulo.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "dando corpo narrativo proprio a quella «"
-        },
-        {
-          "lang": "en",
-          "text": "Condition of England question»"
-        },
-        {
-          "lang": "it",
-          "text": "che abbiamo introdotto all'inizio di questo modulo."
-        }
+      "bold": [
+        [
+          40,
+          69
+        ]
       ]
     },
     {
       "text": "Il romanzo racconta la vicenda di Margaret Hale, che si trasferisce con la propria famiglia dalla tranquilla campagna del sud dell'Inghilterra alla città industriale immaginaria di Milton,",
-      "speech": "Il romanzo racconta la vicenda di Margaret Hale, che si trasferisce con la propria famiglia dalla tranquilla campagna del sud dell'Inghilterra alla città industriale immaginaria di Milton,"
+      "speech": "Il romanzo racconta la vicenda di Margaret Hale, che si trasferisce con la propria famiglia dalla tranquilla campagna del sud dell'Inghilterra alla città industriale immaginaria di Milton,",
+      "bold": [
+        [
+          34,
+          47
+        ],
+        [
+          181,
+          187
+        ]
+      ]
     },
     {
       "text": "nel nord del paese, modellata sulla Manchester che Gaskell conosceva molto bene per esperienza diretta.",
@@ -124,7 +124,13 @@
     },
     {
       "text": "Al centro del romanzo si sviluppa il contrasto, inizialmente aspro, tra Margaret e John Thornton, un facoltoso industriale del cotone, che Margaret giudica dapprima con il pregiudizio tipico della propria educazione rurale e signorile.",
-      "speech": "Al centro del romanzo si sviluppa il contrasto, inizialmente aspro, tra Margaret e John Thornton, un facoltoso industriale del cotone, che Margaret giudica dapprima con il pregiudizio tipico della propria educazione rurale e signorile."
+      "speech": "Al centro del romanzo si sviluppa il contrasto, inizialmente aspro, tra Margaret e John Thornton, un facoltoso industriale del cotone, che Margaret giudica dapprima con il pregiudizio tipico della propria educazione rurale e signorile.",
+      "bold": [
+        [
+          83,
+          96
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su come si evolve questo rapporto nel corso del romanzo,",
@@ -133,28 +139,32 @@
     {
       "text": "perché è esattamente il punto che rende North and South un'opera più sfumata rispetto a una semplice denuncia sociale unilaterale:",
       "speech": "perché è esattamente il punto che rende North and South un'opera più sfumata rispetto a una semplice denuncia sociale unilaterale:",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "perché è esattamente il punto che rende"
-        },
-        {
-          "lang": "en",
-          "text": "North and South"
-        },
-        {
-          "lang": "it",
-          "text": "un'opera più sfumata rispetto a una semplice denuncia sociale unilaterale:"
-        }
+      "bold": [
+        [
+          40,
+          55
+        ]
       ]
     },
     {
       "text": "il contrasto iniziale tra Margaret e Thornton si trasforma gradualmente, capitolo dopo capitolo, in una reciproca comprensione,",
-      "speech": "il contrasto iniziale tra Margaret e Thornton si trasforma gradualmente, capitolo dopo capitolo, in una reciproca comprensione,"
+      "speech": "il contrasto iniziale tra Margaret e Thornton si trasforma gradualmente, capitolo dopo capitolo, in una reciproca comprensione,",
+      "bold": [
+        [
+          104,
+          126
+        ]
+      ]
     },
     {
       "text": "che Gaskell utilizza sapientemente come simbolo di una possibile riconciliazione tra due mondi contrapposti — quello rurale e tradizionale del Sud e quello industriale e moderno del Nord —",
-      "speech": "che Gaskell utilizza sapientemente come simbolo di una possibile riconciliazione tra due mondi contrapposti — quello rurale e tradizionale del Sud e quello industriale e moderno del Nord —"
+      "speech": "che Gaskell utilizza sapientemente come simbolo di una possibile riconciliazione tra due mondi contrapposti — quello rurale e tradizionale del Sud e quello industriale e moderno del Nord —",
+      "bold": [
+        [
+          65,
+          80
+        ]
+      ]
     },
     {
       "text": "e, più in generale, tra le esigenze del capitale e quelle del lavoro, senza mai negare la realtà del conflitto sociale,",
@@ -167,23 +177,15 @@
     {
       "text": "Vale la pena inquadrare North and South all'interno del più ampio filone del «Condition of England novel»,",
       "speech": "Vale la pena inquadrare North and South all'interno del più ampio filone del «Condition of England novel»,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Vale la pena inquadrare"
-        },
-        {
-          "lang": "en",
-          "text": "North and South"
-        },
-        {
-          "lang": "it",
-          "text": "all'interno del più ampio filone del «"
-        },
-        {
-          "lang": "en",
-          "text": "Condition of England novel»,"
-        }
+      "bold": [
+        [
+          24,
+          39
+        ],
+        [
+          78,
+          104
+        ]
       ]
     },
     {
@@ -193,24 +195,42 @@
     {
       "text": "Sybil, or the Two Nations, pubblicato nel 1845 da Benjamin Disraeli, futuro primo ministro britannico, il cui titolo allude esplicitamente alla spaccatura tra le «due nazioni» dei ricchi e dei poveri all'interno dello stesso paese;",
       "speech": "Sybil, or the Two Nations, pubblicato nel 1845 da Benjamin Disraeli, futuro primo ministro britannico, il cui titolo allude esplicitamente alla spaccatura tra le «due nazioni» dei ricchi e dei poveri all'interno dello stesso paese;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Sybil,"
-        },
-        {
-          "lang": "en",
-          "text": "or the Two Nations,"
-        },
-        {
-          "lang": "it",
-          "text": "pubblicato nel 1845 da Benjamin Disraeli, futuro primo ministro britannico, il cui titolo allude esplicitamente alla spaccatura tra le «due nazioni» dei ricchi e dei poveri all'interno dello stesso paese;"
-        }
+      "bold": [
+        [
+          7,
+          25
+        ],
+        [
+          42,
+          46
+        ],
+        [
+          50,
+          67
+        ],
+        [
+          163,
+          174
+        ]
       ]
     },
     {
       "text": "e Alton Locke, pubblicato nel 1850 da Charles Kingsley, incentrato sulla vita di un sarto londinese.",
-      "speech": "e Alton Locke, pubblicato nel 1850 da Charles Kingsley, incentrato sulla vita di un sarto londinese."
+      "speech": "e Alton Locke, pubblicato nel 1850 da Charles Kingsley, incentrato sulla vita di un sarto londinese.",
+      "bold": [
+        [
+          2,
+          13
+        ],
+        [
+          30,
+          34
+        ],
+        [
+          38,
+          54
+        ]
+      ]
     },
     {
       "text": "Ciò che distingue il contributo specifico di Gaskell all'interno di questo filone narrativo condiviso è la sua capacità di dare voce, con equilibrio ed empatia,",
@@ -222,7 +242,13 @@
     },
     {
       "text": "e proponendo, proprio attraverso la relazione tra Margaret e Thornton, un modello di dialogo e di reciproco riconoscimento tra classi sociali contrapposte.",
-      "speech": "e proponendo, proprio attraverso la relazione tra Margaret e Thornton, un modello di dialogo e di reciproco riconoscimento tra classi sociali contrapposte."
+      "speech": "e proponendo, proprio attraverso la relazione tra Margaret e Thornton, un modello di dialogo e di reciproco riconoscimento tra classi sociali contrapposte.",
+      "bold": [
+        [
+          98,
+          122
+        ]
+      ]
     },
     {
       "text": "Proviamo ora a fissare bene, con uno schema mentale utile per il ripasso, le tre opere sull'industrializzazione viste finora in questo modulo, oltre a Blake.",
@@ -231,48 +257,46 @@
     {
       "text": "Oliver Twist di Dickens denuncia la condizione degli orfani e del sistema dei workhouse.",
       "speech": "Oliver Twist di Dickens denuncia la condizione degli orfani e del sistema dei workhouse.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Oliver Twist"
-        },
-        {
-          "lang": "it",
-          "text": "di Dickens denuncia la condizione degli orfani e del sistema dei workhouse."
-        }
+      "bold": [
+        [
+          0,
+          12
+        ]
       ]
     },
     {
       "text": "Hard Times, sempre di Dickens, attraverso l'estratto Coketown, denuncia la disumanizzazione prodotta dalla città industriale nel suo complesso.",
       "speech": "Hard Times, sempre di Dickens, attraverso l'estratto Coketown, denuncia la disumanizzazione prodotta dalla città industriale nel suo complesso.",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "Hard Times,"
-        },
-        {
-          "lang": "it",
-          "text": "sempre di Dickens, attraverso l'estratto Coketown, denuncia la disumanizzazione prodotta dalla città industriale nel suo complesso."
-        }
+      "bold": [
+        [
+          0,
+          10
+        ],
+        [
+          75,
+          91
+        ]
       ]
     },
     {
       "text": "North and South di Gaskell affronta invece direttamente il conflitto tra industriali e operai,",
       "speech": "North and South di Gaskell affronta invece direttamente il conflitto tra industriali e operai,",
-      "parts": [
-        {
-          "lang": "en",
-          "text": "North and South"
-        },
-        {
-          "lang": "it",
-          "text": "di Gaskell affronta invece direttamente il conflitto tra industriali e operai,"
-        }
+      "bold": [
+        [
+          0,
+          15
+        ]
       ]
     },
     {
       "text": "e la spaccatura geografica e culturale tra il Nord industriale e il Sud agricolo dell'Inghilterra, proponendo però, a differenza delle due opere di Dickens, una prospettiva di possibile riconciliazione tra le parti in conflitto.",
-      "speech": "e la spaccatura geografica e culturale tra il Nord industriale e il Sud agricolo dell'Inghilterra, proponendo però, a differenza delle due opere di Dickens, una prospettiva di possibile riconciliazione tra le parti in conflitto."
+      "speech": "e la spaccatura geografica e culturale tra il Nord industriale e il Sud agricolo dell'Inghilterra, proponendo però, a differenza delle due opere di Dickens, una prospettiva di possibile riconciliazione tra le parti in conflitto.",
+      "bold": [
+        [
+          46,
+          80
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -281,19 +305,15 @@
     {
       "text": "Primo: Elizabeth Gaskell, in North and South, racconta la vicenda di Margaret Hale, trasferitasi dal Sud agricolo al Nord industriale dell'Inghilterra,",
       "speech": "Primo: Elizabeth Gaskell, in North and South, racconta la vicenda di Margaret Hale, trasferitasi dal Sud agricolo al Nord industriale dell'Inghilterra,",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Primo: Elizabeth Gaskell,"
-        },
-        {
-          "lang": "en",
-          "text": "in North and South,"
-        },
-        {
-          "lang": "it",
-          "text": "racconta la vicenda di Margaret Hale, trasferitasi dal Sud agricolo al Nord industriale dell'Inghilterra,"
-        }
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          26,
+          44
+        ]
       ]
     },
     {
@@ -303,24 +323,30 @@
     {
       "text": "Secondo: il romanzo appartiene al filone del «Condition of England novel», insieme a opere come Sybil di Disraeli e Alton Locke di Kingsley.",
       "speech": "Secondo: il romanzo appartiene al filone del «Condition of England novel», insieme a opere come Sybil di Disraeli e Alton Locke di Kingsley.",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Secondo: il romanzo appartiene al filone del «"
-        },
-        {
-          "lang": "en",
-          "text": "Condition of England novel»,"
-        },
-        {
-          "lang": "it",
-          "text": "insieme a opere come Sybil di Disraeli e Alton Locke di Kingsley."
-        }
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          46,
+          72
+        ]
       ]
     },
     {
       "text": "Terzo: a differenza della critica più aspra di Dickens, Gaskell propone un modello di dialogo e di reciproco riconoscimento tra industriali e operai, senza negare la realtà del conflitto sociale.",
-      "speech": "Terzo: a differenza della critica più aspra di Dickens, Gaskell propone un modello di dialogo e di reciproco riconoscimento tra industriali e operai, senza negare la realtà del conflitto sociale."
+      "speech": "Terzo: a differenza della critica più aspra di Dickens, Gaskell propone un modello di dialogo e di reciproco riconoscimento tra industriali e operai, senza negare la realtà del conflitto sociale.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          86,
+          123
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 2, dedicato all'industrializzazione e al lavoro minorile.",

@@ -14,7 +14,21 @@
     },
     {
       "text": "La Costituzione è la legge fondamentale dello Stato italiano, approvata dall'Assemblea Costituente il ventidue dicembre millenovecentoquarantasette ed entrata in vigore il primo gennaio millenovecentoquarantotto,",
-      "speech": "La Costituzione è la legge fondamentale dello Stato italiano, approvata dall'Assemblea Costituente il ventidue dicembre millenovecentoquarantasette ed entrata in vigore il primo gennaio millenovecentoquarantotto,"
+      "speech": "La Costituzione è la legge fondamentale dello Stato italiano, approvata dall'Assemblea Costituente il ventidue dicembre millenovecentoquarantasette ed entrata in vigore il primo gennaio millenovecentoquarantotto,",
+      "bold": [
+        [
+          77,
+          98
+        ],
+        [
+          102,
+          147
+        ],
+        [
+          172,
+          211
+        ]
+      ]
     },
     {
       "text": "dopo la caduta del fascismo, la fine della seconda guerra mondiale,",
@@ -22,19 +36,47 @@
     },
     {
       "text": "e il referendum istituzionale del due giugno millenovecentoquarantasei, con cui gli italiani scelsero la forma repubblicana in luogo della monarchia.",
-      "speech": "e il referendum istituzionale del due giugno millenovecentoquarantasei, con cui gli italiani scelsero la forma repubblicana in luogo della monarchia."
+      "speech": "e il referendum istituzionale del due giugno millenovecentoquarantasei, con cui gli italiani scelsero la forma repubblicana in luogo della monarchia.",
+      "bold": [
+        [
+          5,
+          70
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su due caratteristiche fondamentali della nostra Costituzione, perché la distinguono nettamente dallo Statuto Albertino che l'aveva preceduta:",
-      "speech": "Fermatevi un momento su due caratteristiche fondamentali della nostra Costituzione, perché la distinguono nettamente dallo Statuto Albertino che l'aveva preceduta:"
+      "speech": "Fermatevi un momento su due caratteristiche fondamentali della nostra Costituzione, perché la distinguono nettamente dallo Statuto Albertino che l'aveva preceduta:",
+      "bold": [
+        [
+          123,
+          140
+        ]
+      ]
     },
     {
       "text": "è una Costituzione rigida, cioè non modificabile con una legge ordinaria, ma solo attraverso il procedimento aggravato dell'articolo centotrentotto, ed è lunga,",
-      "speech": "è una Costituzione rigida, cioè non modificabile con una legge ordinaria, ma solo attraverso il procedimento aggravato dell'articolo centotrentotto, ed è lunga,"
+      "speech": "è una Costituzione rigida, cioè non modificabile con una legge ordinaria, ma solo attraverso il procedimento aggravato dell'articolo centotrentotto, ed è lunga,",
+      "bold": [
+        [
+          6,
+          25
+        ],
+        [
+          124,
+          147
+        ]
+      ]
     },
     {
       "text": "cioè non si limita a disciplinare l'organizzazione dei poteri pubblici, ma enuncia anche un ampio catalogo di princìpi e diritti fondamentali.",
-      "speech": "cioè non si limita a disciplinare l'organizzazione dei poteri pubblici, ma enuncia anche un ampio catalogo di princìpi e diritti fondamentali."
+      "speech": "cioè non si limita a disciplinare l'organizzazione dei poteri pubblici, ma enuncia anche un ampio catalogo di princìpi e diritti fondamentali.",
+      "bold": [
+        [
+          98,
+          141
+        ]
+      ]
     },
     {
       "text": "La struttura della Costituzione si articola in tre parti.",
@@ -42,7 +84,13 @@
     },
     {
       "text": "I principi fondamentali, dall'articolo uno all'articolo dodici, enunciano i valori-cardine dell'ordinamento repubblicano:",
-      "speech": "I principi fondamentali, dall'articolo uno all'articolo dodici, enunciano i valori-cardine dell'ordinamento repubblicano:"
+      "speech": "I principi fondamentali, dall'articolo uno all'articolo dodici, enunciano i valori-cardine dell'ordinamento repubblicano:",
+      "bold": [
+        [
+          2,
+          23
+        ]
+      ]
     },
     {
       "text": "la sovranità popolare, il lavoro come fondamento della Repubblica, il riconoscimento dei diritti inviolabili dell'uomo,",
@@ -54,15 +102,33 @@
     },
     {
       "text": "La Parte prima, dedicata ai diritti e doveri dei cittadini, dall'articolo tredici all'articolo cinquantaquattro, disciplina i rapporti civili, etico-sociali, economici e politici tra i cittadini e lo Stato.",
-      "speech": "La Parte prima, dedicata ai diritti e doveri dei cittadini, dall'articolo tredici all'articolo cinquantaquattro, disciplina i rapporti civili, etico-sociali, economici e politici tra i cittadini e lo Stato."
+      "speech": "La Parte prima, dedicata ai diritti e doveri dei cittadini, dall'articolo tredici all'articolo cinquantaquattro, disciplina i rapporti civili, etico-sociali, economici e politici tra i cittadini e lo Stato.",
+      "bold": [
+        [
+          3,
+          14
+        ]
+      ]
     },
     {
       "text": "La Parte seconda, dedicata all'ordinamento della Repubblica, dall'articolo cinquantacinque all'articolo centotrentanove, disciplina l'organizzazione e il funzionamento degli organi costituzionali:",
-      "speech": "La Parte seconda, dedicata all'ordinamento della Repubblica, dall'articolo cinquantacinque all'articolo centotrentanove, disciplina l'organizzazione e il funzionamento degli organi costituzionali:"
+      "speech": "La Parte seconda, dedicata all'ordinamento della Repubblica, dall'articolo cinquantacinque all'articolo centotrentanove, disciplina l'organizzazione e il funzionamento degli organi costituzionali:",
+      "bold": [
+        [
+          3,
+          16
+        ]
+      ]
     },
     {
       "text": "Parlamento, Presidente della Repubblica, Governo, Magistratura, Regioni ed enti locali, Corte Costituzionale.",
-      "speech": "Parlamento, Presidente della Repubblica, Governo, Magistratura, Regioni ed enti locali, Corte Costituzionale."
+      "speech": "Parlamento, Presidente della Repubblica, Governo, Magistratura, Regioni ed enti locali, Corte Costituzionale.",
+      "bold": [
+        [
+          88,
+          108
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se il Parlamento volesse modificare un articolo della Costituzione, potrebbe farlo con la stessa procedura utilizzata per approvare una legge ordinaria, come per esempio il codice della strada?",
@@ -74,7 +140,13 @@
     },
     {
       "text": "No, non potrebbe farlo con la stessa procedura: essendo la Costituzione rigida, ogni sua modifica richiede il procedimento aggravato previsto dall'articolo centotrentotto,",
-      "speech": "No, non potrebbe farlo con la stessa procedura: essendo la Costituzione rigida, ogni sua modifica richiede il procedimento aggravato previsto dall'articolo centotrentotto,"
+      "speech": "No, non potrebbe farlo con la stessa procedura: essendo la Costituzione rigida, ogni sua modifica richiede il procedimento aggravato previsto dall'articolo centotrentotto,",
+      "bold": [
+        [
+          110,
+          132
+        ]
+      ]
     },
     {
       "text": "con passaggi e maggioranze più complessi rispetto a quelli richiesti per una legge ordinaria come il codice della strada, proprio per proteggere la stabilità dei princìpi fondamentali dell'ordinamento da modifiche troppo facili o improvvise.",
@@ -86,15 +158,41 @@
     },
     {
       "text": "Primo: la Costituzione italiana è entrata in vigore il primo gennaio millenovecentoquarantotto, dopo il referendum istituzionale del millenovecentoquarantasei.",
-      "speech": "Primo: la Costituzione italiana è entrata in vigore il primo gennaio millenovecentoquarantotto, dopo il referendum istituzionale del millenovecentoquarantasei."
+      "speech": "Primo: la Costituzione italiana è entrata in vigore il primo gennaio millenovecentoquarantotto, dopo il referendum istituzionale del millenovecentoquarantasei.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          55,
+          94
+        ]
+      ]
     },
     {
       "text": "Secondo: è una Costituzione rigida e lunga.",
-      "speech": "Secondo: è una Costituzione rigida e lunga."
+      "speech": "Secondo: è una Costituzione rigida e lunga.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          28,
+          42
+        ]
+      ]
     },
     {
       "text": "Terzo: si articola in principi fondamentali, Parte prima sui diritti e doveri dei cittadini, e Parte seconda sull'ordinamento della Repubblica.",
-      "speech": "Terzo: si articola in principi fondamentali, Parte prima sui diritti e doveri dei cittadini, e Parte seconda sull'ordinamento della Repubblica."
+      "speech": "Terzo: si articola in principi fondamentali, Parte prima sui diritti e doveri dei cittadini, e Parte seconda sull'ordinamento della Repubblica.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo i diritti di libertà garantiti dalla Costituzione a ogni cittadino.",

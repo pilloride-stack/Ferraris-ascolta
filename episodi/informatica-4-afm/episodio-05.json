@@ -14,31 +14,93 @@
     },
     {
       "text": "Il commercio elettronico, o e-commerce, è l'insieme delle transazioni di vendita e acquisto di beni e servizi condotte attraverso Internet.",
-      "speech": "Il commercio elettronico, o e-commerce, è l'insieme delle transazioni di vendita e acquisto di beni e servizi condotte attraverso Internet."
+      "speech": "Il commercio elettronico, o e-commerce, è l'insieme delle transazioni di vendita e acquisto di beni e servizi condotte attraverso Internet.",
+      "bold": [
+        [
+          3,
+          24
+        ],
+        [
+          28,
+          38
+        ]
+      ]
     },
     {
       "text": "Si distingue innanzitutto in commercio elettronico diretto, in cui l'intero processo di acquisto, pagamento e consegna avviene in formato digitale, come nel caso di software o contenuti scaricabili,",
-      "speech": "Si distingue innanzitutto in commercio elettronico diretto, in cui l'intero processo di acquisto, pagamento e consegna avviene in formato digitale, come nel caso di software o contenuti scaricabili,"
+      "speech": "Si distingue innanzitutto in commercio elettronico diretto, in cui l'intero processo di acquisto, pagamento e consegna avviene in formato digitale, come nel caso di software o contenuti scaricabili,",
+      "bold": [
+        [
+          29,
+          58
+        ]
+      ]
     },
     {
       "text": "e commercio elettronico indiretto, in cui la transazione avviene online ma la consegna del bene richiede comunque una logistica fisica tradizionale.",
-      "speech": "e commercio elettronico indiretto, in cui la transazione avviene online ma la consegna del bene richiede comunque una logistica fisica tradizionale."
+      "speech": "e commercio elettronico indiretto, in cui la transazione avviene online ma la consegna del bene richiede comunque una logistica fisica tradizionale.",
+      "bold": [
+        [
+          2,
+          33
+        ]
+      ]
     },
     {
       "text": "In base ai soggetti coinvolti si distingue inoltre tra e-commerce B2C, Business to Consumer, tra impresa e consumatore finale, come in un negozio online di abbigliamento;",
-      "speech": "In base ai soggetti coinvolti si distingue inoltre tra e-commerce B2C, Business to Consumer, tra impresa e consumatore finale, come in un negozio online di abbigliamento;"
+      "speech": "In base ai soggetti coinvolti si distingue inoltre tra e-commerce B2C, Business to Consumer, tra impresa e consumatore finale, come in un negozio online di abbigliamento;",
+      "bold": [
+        [
+          66,
+          69
+        ],
+        [
+          71,
+          91
+        ]
+      ]
     },
     {
       "text": "B2B, Business to Business, tra imprese, come in una piattaforma di approvvigionamento aziendale; e C2C, Consumer to Consumer, tra privati, come in un marketplace dell'usato.",
-      "speech": "B2B, Business to Business, tra imprese, come in una piattaforma di approvvigionamento aziendale; e C2C, Consumer to Consumer, tra privati, come in un marketplace dell'usato."
+      "speech": "B2B, Business to Business, tra imprese, come in una piattaforma di approvvigionamento aziendale; e C2C, Consumer to Consumer, tra privati, come in un marketplace dell'usato.",
+      "bold": [
+        [
+          0,
+          3
+        ],
+        [
+          99,
+          102
+        ]
+      ]
     },
     {
       "text": "I principali metodi di pagamento online comprendono la carta di credito o debito, il bonifico bancario, i portafogli digitali come PayPal,",
-      "speech": "I principali metodi di pagamento online comprendono la carta di credito o debito, il bonifico bancario, i portafogli digitali come PayPal,"
+      "speech": "I principali metodi di pagamento online comprendono la carta di credito o debito, il bonifico bancario, i portafogli digitali come PayPal,",
+      "bold": [
+        [
+          55,
+          80
+        ],
+        [
+          85,
+          102
+        ],
+        [
+          131,
+          137
+        ]
+      ]
     },
     {
       "text": "e i sistemi di pagamento contactless da smartphone, sempre più diffusi.",
-      "speech": "e i sistemi di pagamento contactless da smartphone, sempre più diffusi."
+      "speech": "e i sistemi di pagamento contactless da smartphone, sempre più diffusi.",
+      "bold": [
+        [
+          25,
+          36
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su queste due classificazioni, perché rispondono a domande diverse e vanno tenute distinte:",
@@ -46,11 +108,23 @@
     },
     {
       "text": "diretto e indiretto rispondono alla domanda «come avviene la consegna del bene», digitale oppure fisica;",
-      "speech": "diretto e indiretto rispondono alla domanda «come avviene la consegna del bene», digitale oppure fisica;"
+      "speech": "diretto e indiretto rispondono alla domanda «come avviene la consegna del bene», digitale oppure fisica;",
+      "bold": [
+        [
+          45,
+          78
+        ]
+      ]
     },
     {
       "text": "B2C, B2B e C2C rispondono invece alla domanda «chi sono i soggetti della transazione», impresa, consumatore o entrambi combinati diversamente.",
-      "speech": "B2C, B2B e C2C rispondono invece alla domanda «chi sono i soggetti della transazione», impresa, consumatore o entrambi combinati diversamente."
+      "speech": "B2C, B2B e C2C rispondono invece alla domanda «chi sono i soggetti della transazione», impresa, consumatore o entrambi combinati diversamente.",
+      "bold": [
+        [
+          47,
+          84
+        ]
+      ]
     },
     {
       "text": "Un acquisto può quindi essere, allo stesso tempo, indiretto perché richiede una spedizione fisica, e B2C perché avviene tra un'impresa e un consumatore finale:",
@@ -66,11 +140,31 @@
     },
     {
       "text": "La fattura elettronica è un documento fiscale digitale, tipicamente in formato XML, che sostituisce la tradizionale fattura cartacea.",
-      "speech": "La fattura elettronica è un documento fiscale digitale, tipicamente in formato XML, che sostituisce la tradizionale fattura cartacea."
+      "speech": "La fattura elettronica è un documento fiscale digitale, tipicamente in formato XML, che sostituisce la tradizionale fattura cartacea.",
+      "bold": [
+        [
+          3,
+          22
+        ],
+        [
+          79,
+          82
+        ]
+      ]
     },
     {
       "text": "In Italia è gestita attraverso il Sistema di Interscambio, il cosiddetto SdI, la piattaforma dell'Agenzia delle Entrate che riceve le fatture elettroniche emesse,",
-      "speech": "In Italia è gestita attraverso il Sistema di Interscambio, il cosiddetto SdI, la piattaforma dell'Agenzia delle Entrate che riceve le fatture elettroniche emesse,"
+      "speech": "In Italia è gestita attraverso il Sistema di Interscambio, il cosiddetto SdI, la piattaforma dell'Agenzia delle Entrate che riceve le fatture elettroniche emesse,",
+      "bold": [
+        [
+          34,
+          57
+        ],
+        [
+          73,
+          76
+        ]
+      ]
     },
     {
       "text": "ne verifica la correttezza formale e le recapita ai destinatari, conservandole per gli adempimenti fiscali.",
@@ -78,11 +172,27 @@
     },
     {
       "text": "La fatturazione elettronica è obbligatoria verso la Pubblica Amministrazione dal 2014 e, salvo specifiche deroghe, tra soggetti privati dal 2019.",
-      "speech": "La fatturazione elettronica è obbligatoria verso la Pubblica Amministrazione dal 2014 e, salvo specifiche deroghe, tra soggetti privati dal 2019."
+      "speech": "La fatturazione elettronica è obbligatoria verso la Pubblica Amministrazione dal 2014 e, salvo specifiche deroghe, tra soggetti privati dal 2019.",
+      "bold": [
+        [
+          81,
+          85
+        ],
+        [
+          140,
+          144
+        ]
+      ]
     },
     {
       "text": "Più in generale, la digitalizzazione dei rapporti con la PA comprende anche strumenti come lo SPID, il Sistema Pubblico di Identità Digitale,",
-      "speech": "Più in generale, la digitalizzazione dei rapporti con la PA comprende anche strumenti come lo SPID, il Sistema Pubblico di Identità Digitale,"
+      "speech": "Più in generale, la digitalizzazione dei rapporti con la PA comprende anche strumenti come lo SPID, il Sistema Pubblico di Identità Digitale,",
+      "bold": [
+        [
+          94,
+          98
+        ]
+      ]
     },
     {
       "text": "che permette di accedere in modo sicuro ai servizi online della Pubblica Amministrazione con un'unica identità digitale.",
@@ -102,15 +212,37 @@
     },
     {
       "text": "La prima è un esempio di commercio elettronico diretto, perché anche la «consegna», cioè il download del software, avviene interamente in formato digitale;",
-      "speech": "La prima è un esempio di commercio elettronico diretto, perché anche la «consegna», cioè il download del software, avviene interamente in formato digitale;"
+      "speech": "La prima è un esempio di commercio elettronico diretto, perché anche la «consegna», cioè il download del software, avviene interamente in formato digitale;",
+      "bold": [
+        [
+          25,
+          54
+        ],
+        [
+          73,
+          81
+        ]
+      ]
     },
     {
       "text": "la seconda è invece commercio elettronico indiretto, perché la carta acquistata online richiede comunque una consegna fisica tradizionale.",
-      "speech": "la seconda è invece commercio elettronico indiretto, perché la carta acquistata online richiede comunque una consegna fisica tradizionale."
+      "speech": "la seconda è invece commercio elettronico indiretto, perché la carta acquistata online richiede comunque una consegna fisica tradizionale.",
+      "bold": [
+        [
+          20,
+          51
+        ]
+      ]
     },
     {
       "text": "Entrambe le transazioni, in questo caso, sono B2B, perché coinvolgono due imprese.",
-      "speech": "Entrambe le transazioni, in questo caso, sono B2B, perché coinvolgono due imprese."
+      "speech": "Entrambe le transazioni, in questo caso, sono B2B, perché coinvolgono due imprese.",
+      "bold": [
+        [
+          46,
+          49
+        ]
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -118,19 +250,59 @@
     },
     {
       "text": "Primo: il commercio elettronico si distingue in diretto e indiretto in base a come avviene la consegna,",
-      "speech": "Primo: il commercio elettronico si distingue in diretto e indiretto in base a come avviene la consegna,"
+      "speech": "Primo: il commercio elettronico si distingue in diretto e indiretto in base a come avviene la consegna,",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          48,
+          67
+        ]
+      ]
     },
     {
       "text": "e in B2C, B2B e C2C in base ai soggetti coinvolti, con carta, bonifico, portafogli digitali e pagamenti contactless come principali metodi di pagamento.",
-      "speech": "e in B2C, B2B e C2C in base ai soggetti coinvolti, con carta, bonifico, portafogli digitali e pagamenti contactless come principali metodi di pagamento."
+      "speech": "e in B2C, B2B e C2C in base ai soggetti coinvolti, con carta, bonifico, portafogli digitali e pagamenti contactless come principali metodi di pagamento.",
+      "bold": [
+        [
+          5,
+          19
+        ]
+      ]
     },
     {
       "text": "Secondo: la fattura elettronica, in formato XML, ha sostituito la fattura cartacea ed è gestita in Italia dal Sistema di Interscambio dell'Agenzia delle Entrate.",
-      "speech": "Secondo: la fattura elettronica, in formato XML, ha sostituito la fattura cartacea ed è gestita in Italia dal Sistema di Interscambio dell'Agenzia delle Entrate."
+      "speech": "Secondo: la fattura elettronica, in formato XML, ha sostituito la fattura cartacea ed è gestita in Italia dal Sistema di Interscambio dell'Agenzia delle Entrate.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          31
+        ],
+        [
+          110,
+          133
+        ]
+      ]
     },
     {
       "text": "Terzo: la digitalizzazione dei rapporti con la Pubblica Amministrazione comprende anche strumenti come lo SPID, per l'accesso sicuro ai servizi online.",
-      "speech": "Terzo: la digitalizzazione dei rapporti con la Pubblica Amministrazione comprende anche strumenti come lo SPID, per l'accesso sicuro ai servizi online."
+      "speech": "Terzo: la digitalizzazione dei rapporti con la Pubblica Amministrazione comprende anche strumenti come lo SPID, per l'accesso sicuro ai servizi online.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          106,
+          110
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo i servizi finanziari online, dall'home banking al trading, e il telelavoro insieme al cloud computing, la tecnologia che oggi lo rende possibile su larga scala.",

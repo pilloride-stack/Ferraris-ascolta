@@ -10,15 +10,41 @@
     },
     {
       "text": "Oggi vediamo una categoria di beni diversa dalle merci: i beni strumentali, e il meccanismo con cui il loro costo viene ripartito nel tempo, l'ammortamento.",
-      "speech": "Oggi vediamo una categoria di beni diversa dalle merci: i beni strumentali, e il meccanismo con cui il loro costo viene ripartito nel tempo, l'ammortamento."
+      "speech": "Oggi vediamo una categoria di beni diversa dalle merci: i beni strumentali, e il meccanismo con cui il loro costo viene ripartito nel tempo, l'ammortamento.",
+      "bold": [
+        [
+          58,
+          74
+        ],
+        [
+          143,
+          155
+        ]
+      ]
     },
     {
       "text": "I beni strumentali, o immobilizzazioni, sono fattori produttivi a utilità pluriennale, impiegati stabilmente nell'attività aziendale: impianti, macchinari, attrezzature, fabbricati.",
-      "speech": "I beni strumentali, o immobilizzazioni, sono fattori produttivi a utilità pluriennale, impiegati stabilmente nell'attività aziendale: impianti, macchinari, attrezzature, fabbricati."
+      "speech": "I beni strumentali, o immobilizzazioni, sono fattori produttivi a utilità pluriennale, impiegati stabilmente nell'attività aziendale: impianti, macchinari, attrezzature, fabbricati.",
+      "bold": [
+        [
+          22,
+          38
+        ],
+        [
+          66,
+          85
+        ]
+      ]
     },
     {
       "text": "Il loro acquisto si rileva in modo analogo a quello delle merci, ma addebitando il conto patrimoniale relativo al bene,",
-      "speech": "Il loro acquisto si rileva in modo analogo a quello delle merci, ma addebitando il conto patrimoniale relativo al bene,"
+      "speech": "Il loro acquisto si rileva in modo analogo a quello delle merci, ma addebitando il conto patrimoniale relativo al bene,",
+      "bold": [
+        [
+          83,
+          101
+        ]
+      ]
     },
     {
       "text": "come Impianti o Attrezzature, anziché un conto di costo d'esercizio come Merci conto acquisti.",
@@ -30,7 +56,13 @@
     },
     {
       "text": "ma ripartito nel tempo attraverso l'ammortamento, una quota di costo di competenza di ciascun esercizio di utilizzo del bene.",
-      "speech": "ma ripartito nel tempo attraverso l'ammortamento, una quota di costo di competenza di ciascun esercizio di utilizzo del bene."
+      "speech": "ma ripartito nel tempo attraverso l'ammortamento, una quota di costo di competenza di ciascun esercizio di utilizzo del bene.",
+      "bold": [
+        [
+          36,
+          48
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su questa differenza fondamentale rispetto alle merci:",
@@ -50,7 +82,13 @@
     },
     {
       "text": "Ecco perché nasce l'ammortamento: un meccanismo che ripartisce il costo lungo tutta la vita utile del bene.",
-      "speech": "Ecco perché nasce l'ammortamento: un meccanismo che ripartisce il costo lungo tutta la vita utile del bene."
+      "speech": "Ecco perché nasce l'ammortamento: un meccanismo che ripartisce il costo lungo tutta la vita utile del bene.",
+      "bold": [
+        [
+          87,
+          97
+        ]
+      ]
     },
     {
       "text": "Vediamo insieme, passo dopo passo, un primo esercizio svolto: si acquista un impianto per quindicimila euro più IVA al ventidue per cento, cioè tremilatrecento euro, con pagamento dilazionato.",
@@ -62,7 +100,13 @@
     },
     {
       "text": "Vediamo un secondo esercizio, questa volta sull'ammortamento: l'impianto acquistato per quindicimila euro ha un'aliquota di ammortamento annuo del dieci per cento.",
-      "speech": "Vediamo un secondo esercizio, questa volta sull'ammortamento: l'impianto acquistato per quindicimila euro ha un'aliquota di ammortamento annuo del dieci per cento."
+      "speech": "Vediamo un secondo esercizio, questa volta sull'ammortamento: l'impianto acquistato per quindicimila euro ha un'aliquota di ammortamento annuo del dieci per cento.",
+      "bold": [
+        [
+          112,
+          136
+        ]
+      ]
     },
     {
       "text": "Calcolare e rilevare la quota di ammortamento di competenza dell'esercizio.",
@@ -70,15 +114,37 @@
     },
     {
       "text": "La quota di ammortamento si calcola applicando l'aliquota al costo del bene: quindicimila per dieci per cento, cioè millecinquecento euro.",
-      "speech": "La quota di ammortamento si calcola applicando l'aliquota al costo del bene: quindicimila per dieci per cento, cioè millecinquecento euro."
+      "speech": "La quota di ammortamento si calcola applicando l'aliquota al costo del bene: quindicimila per dieci per cento, cioè millecinquecento euro.",
+      "bold": [
+        [
+          49,
+          75
+        ]
+      ]
     },
     {
       "text": "Si addebita il conto di costo Ammortamento Impianti per millecinquecento euro, e si accredita il conto Fondo Ammortamento Impianti per lo stesso importo:",
-      "speech": "Si addebita il conto di costo Ammortamento Impianti per millecinquecento euro, e si accredita il conto Fondo Ammortamento Impianti per lo stesso importo:"
+      "speech": "Si addebita il conto di costo Ammortamento Impianti per millecinquecento euro, e si accredita il conto Fondo Ammortamento Impianti per lo stesso importo:",
+      "bold": [
+        [
+          30,
+          51
+        ],
+        [
+          103,
+          130
+        ]
+      ]
     },
     {
       "text": "quest'ultimo è un conto che, esercizio dopo esercizio, accumula tutte le quote già stanziate, riducendo progressivamente il valore netto contabile del bene.",
-      "speech": "quest'ultimo è un conto che, esercizio dopo esercizio, accumula tutte le quote già stanziate, riducendo progressivamente il valore netto contabile del bene."
+      "speech": "quest'ultimo è un conto che, esercizio dopo esercizio, accumula tutte le quote già stanziate, riducendo progressivamente il valore netto contabile del bene.",
+      "bold": [
+        [
+          124,
+          146
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se lo stesso impianto di quindicimila euro venisse ammortizzato ogni anno con la stessa aliquota del dieci per cento,",
@@ -106,15 +172,53 @@
     },
     {
       "text": "Primo: i beni strumentali sono fattori produttivi a utilità pluriennale, il cui acquisto si rileva addebitando un conto patrimoniale specifico.",
-      "speech": "Primo: i beni strumentali sono fattori produttivi a utilità pluriennale, il cui acquisto si rileva addebitando un conto patrimoniale specifico."
+      "speech": "Primo: i beni strumentali sono fattori produttivi a utilità pluriennale, il cui acquisto si rileva addebitando un conto patrimoniale specifico.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          9,
+          25
+        ],
+        [
+          52,
+          71
+        ]
+      ]
     },
     {
       "text": "Secondo: il loro costo non viene attribuito interamente all'esercizio dell'acquisto, ma ripartito nel tempo attraverso l'ammortamento.",
-      "speech": "Secondo: il loro costo non viene attribuito interamente all'esercizio dell'acquisto, ma ripartito nel tempo attraverso l'ammortamento."
+      "speech": "Secondo: il loro costo non viene attribuito interamente all'esercizio dell'acquisto, ma ripartito nel tempo attraverso l'ammortamento.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          121,
+          133
+        ]
+      ]
     },
     {
       "text": "Terzo: la quota di ammortamento si calcola applicando un'aliquota al costo del bene, e si accumula esercizio dopo esercizio nel Fondo Ammortamento.",
-      "speech": "Terzo: la quota di ammortamento si calcola applicando un'aliquota al costo del bene, e si accumula esercizio dopo esercizio nel Fondo Ammortamento."
+      "speech": "Terzo: la quota di ammortamento si calcola applicando un'aliquota al costo del bene, e si accumula esercizio dopo esercizio nel Fondo Ammortamento.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          57,
+          65
+        ],
+        [
+          128,
+          146
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo le operazioni con le banche e le altre operazioni correnti di gestione.",

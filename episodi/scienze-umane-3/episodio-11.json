@@ -10,7 +10,17 @@
     },
     {
       "text": "Oggi vediamo concretamente quali tecniche i ricercatori delle scienze umane utilizzano per raccogliere i propri dati: osservazione, intervista, questionario, esperimento e studio di caso.",
-      "speech": "Oggi vediamo concretamente quali tecniche i ricercatori delle scienze umane utilizzano per raccogliere i propri dati: osservazione, intervista, questionario, esperimento e studio di caso."
+      "speech": "Oggi vediamo concretamente quali tecniche i ricercatori delle scienze umane utilizzano per raccogliere i propri dati: osservazione, intervista, questionario, esperimento e studio di caso.",
+      "bold": [
+        [
+          118,
+          130
+        ],
+        [
+          144,
+          156
+        ]
+      ]
     },
     {
       "text": "Una volta definiti il problema di ricerca e le ipotesi, il ricercatore deve scegliere le tecniche più adatte a raccogliere le informazioni necessarie a verificarle.",
@@ -26,7 +36,13 @@
     },
     {
       "text": "L'osservazione consiste nel rilevare sistematicamente i comportamenti dei soggetti studiati, distinguendo tra osservazione partecipante,",
-      "speech": "L'osservazione consiste nel rilevare sistematicamente i comportamenti dei soggetti studiati, distinguendo tra osservazione partecipante,"
+      "speech": "L'osservazione consiste nel rilevare sistematicamente i comportamenti dei soggetti studiati, distinguendo tra osservazione partecipante,",
+      "bold": [
+        [
+          110,
+          135
+        ]
+      ]
     },
     {
       "text": "in cui il ricercatore prende parte alla vita del gruppo osservato, un metodo che avevamo già incontrato parlando di Malinowski nell'episodio sull'antropologia,",
@@ -34,23 +50,57 @@
     },
     {
       "text": "e osservazione non partecipante, in cui il ricercatore resta esterno alla situazione osservata.",
-      "speech": "e osservazione non partecipante, in cui il ricercatore resta esterno alla situazione osservata."
+      "speech": "e osservazione non partecipante, in cui il ricercatore resta esterno alla situazione osservata.",
+      "bold": [
+        [
+          2,
+          31
+        ]
+      ]
     },
     {
       "text": "L'intervista consiste in un colloquio diretto tra ricercatore e soggetto intervistato, e può assumere tre forme diverse a seconda del grado di standardizzazione:",
-      "speech": "L'intervista consiste in un colloquio diretto tra ricercatore e soggetto intervistato, e può assumere tre forme diverse a seconda del grado di standardizzazione:"
+      "speech": "L'intervista consiste in un colloquio diretto tra ricercatore e soggetto intervistato, e può assumere tre forme diverse a seconda del grado di standardizzazione:",
+      "bold": [
+        [
+          2,
+          12
+        ]
+      ]
     },
     {
       "text": "strutturata, con domande fisse e predefinite, uguali per tutti gli intervistati;",
-      "speech": "strutturata, con domande fisse e predefinite, uguali per tutti gli intervistati;"
+      "speech": "strutturata, con domande fisse e predefinite, uguali per tutti gli intervistati;",
+      "bold": [
+        [
+          0,
+          11
+        ]
+      ]
     },
     {
       "text": "semi-strutturata, con una traccia di domande che può essere adattata nel corso del colloquio; o non strutturata, un colloquio libero, orientato solo da un tema generale, senza domande predefinite.",
-      "speech": "semi-strutturata, con una traccia di domande che può essere adattata nel corso del colloquio; o non strutturata, un colloquio libero, orientato solo da un tema generale, senza domande predefinite."
+      "speech": "semi-strutturata, con una traccia di domande che può essere adattata nel corso del colloquio; o non strutturata, un colloquio libero, orientato solo da un tema generale, senza domande predefinite.",
+      "bold": [
+        [
+          0,
+          16
+        ],
+        [
+          96,
+          111
+        ]
+      ]
     },
     {
       "text": "Il questionario è uno strumento di rilevazione standardizzato, composto da una serie di domande a cui il soggetto risponde in forma scritta, spesso somministrato a un ampio campione:",
-      "speech": "Il questionario è uno strumento di rilevazione standardizzato, composto da una serie di domande a cui il soggetto risponde in forma scritta, spesso somministrato a un ampio campione:"
+      "speech": "Il questionario è uno strumento di rilevazione standardizzato, composto da una serie di domande a cui il soggetto risponde in forma scritta, spesso somministrato a un ampio campione:",
+      "bold": [
+        [
+          3,
+          15
+        ]
+      ]
     },
     {
       "text": "permette di raccogliere dati quantitativi facilmente confrontabili e analizzabili statisticamente,",
@@ -62,7 +112,13 @@
     },
     {
       "text": "L'esperimento consiste nel manipolare deliberatamente una variabile indipendente in condizioni controllate, per osservarne l'effetto su una variabile dipendente:",
-      "speech": "L'esperimento consiste nel manipolare deliberatamente una variabile indipendente in condizioni controllate, per osservarne l'effetto su una variabile dipendente:"
+      "speech": "L'esperimento consiste nel manipolare deliberatamente una variabile indipendente in condizioni controllate, per osservarne l'effetto su una variabile dipendente:",
+      "bold": [
+        [
+          2,
+          13
+        ]
+      ]
     },
     {
       "text": "è la tecnica che offre il maggior controllo sulle variabili in gioco, esattamente come avevamo visto a proposito del metodo sperimentale nel modulo di Scienze Umane Classe Prima,",
@@ -74,7 +130,13 @@
     },
     {
       "text": "Lo studio di caso, infine, è l'analisi approfondita di un singolo caso, un individuo, un gruppo, un'istituzione, condotta combinando spesso più tecniche insieme, osservazione,",
-      "speech": "Lo studio di caso, infine, è l'analisi approfondita di un singolo caso, un individuo, un gruppo, un'istituzione, condotta combinando spesso più tecniche insieme, osservazione,"
+      "speech": "Lo studio di caso, infine, è l'analisi approfondita di un singolo caso, un individuo, un gruppo, un'istituzione, condotta combinando spesso più tecniche insieme, osservazione,",
+      "bold": [
+        [
+          3,
+          17
+        ]
+      ]
     },
     {
       "text": "interviste, analisi documentale, per coglierne la specificità nel modo più completo possibile, pur al costo di una limitata generalizzabilità dei risultati ottenuti:",
@@ -122,15 +184,53 @@
     },
     {
       "text": "Primo: l'osservazione può essere partecipante o non partecipante, e l'intervista strutturata, semi-strutturata o non strutturata.",
-      "speech": "Primo: l'osservazione può essere partecipante o non partecipante, e l'intervista strutturata, semi-strutturata o non strutturata."
+      "speech": "Primo: l'osservazione può essere partecipante o non partecipante, e l'intervista strutturata, semi-strutturata o non strutturata.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          33,
+          64
+        ],
+        [
+          81,
+          128
+        ]
+      ]
     },
     {
       "text": "Secondo: il questionario produce dati quantitativi su ampi campioni, mentre l'esperimento offre il massimo controllo sulle variabili a scapito della rappresentatività.",
-      "speech": "Secondo: il questionario produce dati quantitativi su ampi campioni, mentre l'esperimento offre il massimo controllo sulle variabili a scapito della rappresentatività."
+      "speech": "Secondo: il questionario produce dati quantitativi su ampi campioni, mentre l'esperimento offre il massimo controllo sulle variabili a scapito della rappresentatività.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          12,
+          24
+        ],
+        [
+          78,
+          89
+        ]
+      ]
     },
     {
       "text": "Terzo: lo studio di caso approfondisce un singolo caso combinando più tecniche, al costo di una limitata generalizzabilità.",
-      "speech": "Terzo: lo studio di caso approfondisce un singolo caso combinando più tecniche, al costo di una limitata generalizzabilità."
+      "speech": "Terzo: lo studio di caso approfondisce un singolo caso combinando più tecniche, al costo di una limitata generalizzabilità.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          10,
+          24
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato il percorso teorico di questo modulo; nell'ultimo episodio ripercorriamo insieme tutte le domande guida per prepararvi al meglio all'esame.",

@@ -14,7 +14,17 @@
     },
     {
       "text": "Un computer, o elaboratore elettronico, è una macchina elettronica capace di acquisire, memorizzare ed elaborare dati in modo automatico, seguendo le istruzioni di un programma.",
-      "speech": "Un computer, o elaboratore elettronico, è una macchina elettronica capace di acquisire, memorizzare ed elaborare dati in modo automatico, seguendo le istruzioni di un programma."
+      "speech": "Un computer, o elaboratore elettronico, è una macchina elettronica capace di acquisire, memorizzare ed elaborare dati in modo automatico, seguendo le istruzioni di un programma.",
+      "bold": [
+        [
+          3,
+          11
+        ],
+        [
+          15,
+          38
+        ]
+      ]
     },
     {
       "text": "Il computer si compone di due elementi complementari, ed è fondamentale saperli distinguere con precisione fin da subito,",
@@ -26,11 +36,23 @@
     },
     {
       "text": "L'hardware è l'insieme delle componenti fisiche e tangibili della macchina: il processore, la memoria, i dischi, le periferiche, tutto ciò che potete letteralmente toccare con mano.",
-      "speech": "L'hardware è l'insieme delle componenti fisiche e tangibili della macchina: il processore, la memoria, i dischi, le periferiche, tutto ciò che potete letteralmente toccare con mano."
+      "speech": "L'hardware è l'insieme delle componenti fisiche e tangibili della macchina: il processore, la memoria, i dischi, le periferiche, tutto ciò che potete letteralmente toccare con mano.",
+      "bold": [
+        [
+          2,
+          10
+        ]
+      ]
     },
     {
       "text": "Il software è invece l'insieme dei programmi che definiscono il funzionamento del computer e permettono di svolgere compiti specifici: istruzioni, non oggetti fisici.",
-      "speech": "Il software è invece l'insieme dei programmi che definiscono il funzionamento del computer e permettono di svolgere compiti specifici: istruzioni, non oggetti fisici."
+      "speech": "Il software è invece l'insieme dei programmi che definiscono il funzionamento del computer e permettono di svolgere compiti specifici: istruzioni, non oggetti fisici.",
+      "bold": [
+        [
+          3,
+          11
+        ]
+      ]
     },
     {
       "text": "Fermatevi un momento su una distinzione ulteriore, interna al software stesso, perché è un dettaglio che arricchisce molto una risposta d'esame su questo argomento:",
@@ -38,11 +60,27 @@
     },
     {
       "text": "il software si distingue in software di sistema, come il sistema operativo, che gestisce le risorse hardware del computer,",
-      "speech": "il software si distingue in software di sistema, come il sistema operativo, che gestisce le risorse hardware del computer,"
+      "speech": "il software si distingue in software di sistema, come il sistema operativo, che gestisce le risorse hardware del computer,",
+      "bold": [
+        [
+          28,
+          47
+        ],
+        [
+          57,
+          74
+        ]
+      ]
     },
     {
       "text": "e software applicativo, i programmi utilizzati per svolgere compiti specifici, come l'elaborazione testi o la navigazione web, di cui parleremo diffusamente più avanti in questo modulo.",
-      "speech": "e software applicativo, i programmi utilizzati per svolgere compiti specifici, come l'elaborazione testi o la navigazione web, di cui parleremo diffusamente più avanti in questo modulo."
+      "speech": "e software applicativo, i programmi utilizzati per svolgere compiti specifici, come l'elaborazione testi o la navigazione web, di cui parleremo diffusamente più avanti in questo modulo.",
+      "bold": [
+        [
+          2,
+          22
+        ]
+      ]
     },
     {
       "text": "Un modo semplice per ricordare la differenza tra hardware e software: l'hardware, se si rompe, va sostituito fisicamente;",
@@ -58,27 +96,63 @@
     },
     {
       "text": "I supercomputer sono dedicati a calcoli scientifici estremamente complessi, come le previsioni meteorologiche o le simulazioni fisiche, e rappresentano la massima potenza di calcolo disponibile.",
-      "speech": "I supercomputer sono dedicati a calcoli scientifici estremamente complessi, come le previsioni meteorologiche o le simulazioni fisiche, e rappresentano la massima potenza di calcolo disponibile."
+      "speech": "I supercomputer sono dedicati a calcoli scientifici estremamente complessi, come le previsioni meteorologiche o le simulazioni fisiche, e rappresentano la massima potenza di calcolo disponibile.",
+      "bold": [
+        [
+          2,
+          15
+        ]
+      ]
     },
     {
       "text": "I mainframe sono grandi sistemi centralizzati usati da banche e grandi aziende per elaborare enormi quantità di dati e transazioni, spesso in modo continuativo e senza interruzioni.",
-      "speech": "I mainframe sono grandi sistemi centralizzati usati da banche e grandi aziende per elaborare enormi quantità di dati e transazioni, spesso in modo continuativo e senza interruzioni."
+      "speech": "I mainframe sono grandi sistemi centralizzati usati da banche e grandi aziende per elaborare enormi quantità di dati e transazioni, spesso in modo continuativo e senza interruzioni.",
+      "bold": [
+        [
+          2,
+          11
+        ]
+      ]
     },
     {
       "text": "I server sono dedicati a fornire servizi e risorse ad altri computer collegati in rete, come quando visitate un sito web o inviate un'email.",
-      "speech": "I server sono dedicati a fornire servizi e risorse ad altri computer collegati in rete, come quando visitate un sito web o inviate un'email."
+      "speech": "I server sono dedicati a fornire servizi e risorse ad altri computer collegati in rete, come quando visitate un sito web o inviate un'email.",
+      "bold": [
+        [
+          2,
+          8
+        ]
+      ]
     },
     {
       "text": "I personal computer, i PC, sono destinati all'uso individuale, nelle varianti desktop, cioè fisso, e laptop, cioè portatile.",
-      "speech": "I personal computer, i PC, sono destinati all'uso individuale, nelle varianti desktop, cioè fisso, e laptop, cioè portatile."
+      "speech": "I personal computer, i PC, sono destinati all'uso individuale, nelle varianti desktop, cioè fisso, e laptop, cioè portatile.",
+      "bold": [
+        [
+          2,
+          19
+        ]
+      ]
     },
     {
       "text": "I dispositivi mobili comprendono tablet e smartphone.",
-      "speech": "I dispositivi mobili comprendono tablet e smartphone."
+      "speech": "I dispositivi mobili comprendono tablet e smartphone.",
+      "bold": [
+        [
+          2,
+          20
+        ]
+      ]
     },
     {
       "text": "E infine i sistemi embedded sono elaboratori dedicati integrati all'interno di altri dispositivi,",
-      "speech": "E infine i sistemi embedded sono elaboratori dedicati integrati all'interno di altri dispositivi,"
+      "speech": "E infine i sistemi embedded sono elaboratori dedicati integrati all'interno di altri dispositivi,",
+      "bold": [
+        [
+          11,
+          27
+        ]
+      ]
     },
     {
       "text": "come elettrodomestici, automobili o macchinari industriali, spesso invisibili all'utente finale ma indispensabili al funzionamento dell'oggetto che li contiene.",
@@ -94,7 +168,13 @@
     },
     {
       "text": "Si tratta di un sistema embedded, un elaboratore dedicato integrato all'interno di un altro dispositivo, l'automobile stessa, invisibile al conducente ma essenziale per il funzionamento del motore.",
-      "speech": "Si tratta di un sistema embedded, un elaboratore dedicato integrato all'interno di un altro dispositivo, l'automobile stessa, invisibile al conducente ma essenziale per il funzionamento del motore."
+      "speech": "Si tratta di un sistema embedded, un elaboratore dedicato integrato all'interno di un altro dispositivo, l'automobile stessa, invisibile al conducente ma essenziale per il funzionamento del motore.",
+      "bold": [
+        [
+          16,
+          32
+        ]
+      ]
     },
     {
       "text": "E se doveste indicare la categoria di un grande data center che gestisce le email di milioni di utenti contemporaneamente?",
@@ -110,15 +190,45 @@
     },
     {
       "text": "Primo: il computer si compone di hardware, le componenti fisiche, e software, i programmi e le istruzioni, quest'ultimo distinto in software di sistema e software applicativo.",
-      "speech": "Primo: il computer si compone di hardware, le componenti fisiche, e software, i programmi e le istruzioni, quest'ultimo distinto in software di sistema e software applicativo."
+      "speech": "Primo: il computer si compone di hardware, le componenti fisiche, e software, i programmi e le istruzioni, quest'ultimo distinto in software di sistema e software applicativo.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          33,
+          41
+        ],
+        [
+          68,
+          76
+        ]
+      ]
     },
     {
       "text": "Secondo: gli elaboratori si classificano in supercomputer, mainframe, server, personal computer, dispositivi mobili e sistemi embedded, in base a potenza, dimensioni e ambito d'uso.",
-      "speech": "Secondo: gli elaboratori si classificano in supercomputer, mainframe, server, personal computer, dispositivi mobili e sistemi embedded, in base a potenza, dimensioni e ambito d'uso."
+      "speech": "Secondo: gli elaboratori si classificano in supercomputer, mainframe, server, personal computer, dispositivi mobili e sistemi embedded, in base a potenza, dimensioni e ambito d'uso.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          44,
+          76
+        ]
+      ]
     },
     {
       "text": "Terzo: la differenza pratica tra hardware e software si vede anche nella manutenzione, che richiede sostituzione fisica per il primo e aggiornamento o reinstallazione per il secondo.",
-      "speech": "Terzo: la differenza pratica tra hardware e software si vede anche nella manutenzione, che richiede sostituzione fisica per il primo e aggiornamento o reinstallazione per il secondo."
+      "speech": "Terzo: la differenza pratica tra hardware e software si vede anche nella manutenzione, che richiede sostituzione fisica per il primo e aggiornamento o reinstallazione per il secondo.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio affrontiamo il cuore tecnico di questo primo modulo: il sistema binario, il modo in cui i computer rappresentano al proprio interno ogni tipo di informazione.",

@@ -14,7 +14,17 @@
     },
     {
       "text": "Il Governo è l'organo costituzionale titolare del potere esecutivo, cioè del compito di dare attuazione concreta alle leggi e di guidare la politica generale del Paese.",
-      "speech": "Il Governo è l'organo costituzionale titolare del potere esecutivo, cioè del compito di dare attuazione concreta alle leggi e di guidare la politica generale del Paese."
+      "speech": "Il Governo è l'organo costituzionale titolare del potere esecutivo, cioè del compito di dare attuazione concreta alle leggi e di guidare la politica generale del Paese.",
+      "bold": [
+        [
+          3,
+          10
+        ],
+        [
+          50,
+          66
+        ]
+      ]
     },
     {
       "text": "È un organo complesso, composto da tre elementi.",
@@ -22,15 +32,37 @@
     },
     {
       "text": "Il Presidente del Consiglio dei ministri dirige la politica generale del Governo e ne è responsabile, mantenendo l'unità di indirizzo politico e amministrativo di tutti i ministeri.",
-      "speech": "Il Presidente del Consiglio dei ministri dirige la politica generale del Governo e ne è responsabile, mantenendo l'unità di indirizzo politico e amministrativo di tutti i ministeri."
+      "speech": "Il Presidente del Consiglio dei ministri dirige la politica generale del Governo e ne è responsabile, mantenendo l'unità di indirizzo politico e amministrativo di tutti i ministeri.",
+      "bold": [
+        [
+          3,
+          40
+        ]
+      ]
     },
     {
       "text": "I ministri, alcuni con portafoglio, cioè a capo di un ministero con proprie risorse e competenze, altri senza portafoglio, con incarichi specifici ma privi di un ministero autonomo, dirigono ciascuno il proprio settore.",
-      "speech": "I ministri, alcuni con portafoglio, cioè a capo di un ministero con proprie risorse e competenze, altri senza portafoglio, con incarichi specifici ma privi di un ministero autonomo, dirigono ciascuno il proprio settore."
+      "speech": "I ministri, alcuni con portafoglio, cioè a capo di un ministero con proprie risorse e competenze, altri senza portafoglio, con incarichi specifici ma privi di un ministero autonomo, dirigono ciascuno il proprio settore.",
+      "bold": [
+        [
+          2,
+          10
+        ],
+        [
+          23,
+          34
+        ]
+      ]
     },
     {
       "text": "Il Consiglio dei ministri, infine, è l'organo collegiale che riunisce il Presidente del Consiglio e tutti i ministri,",
-      "speech": "Il Consiglio dei ministri, infine, è l'organo collegiale che riunisce il Presidente del Consiglio e tutti i ministri,"
+      "speech": "Il Consiglio dei ministri, infine, è l'organo collegiale che riunisce il Presidente del Consiglio e tutti i ministri,",
+      "bold": [
+        [
+          3,
+          25
+        ]
+      ]
     },
     {
       "text": "e delibera collegialmente sugli indirizzi politici generali e sui provvedimenti più importanti.",
@@ -42,7 +74,17 @@
     },
     {
       "text": "Dopo le elezioni, o in caso di crisi di governo, il Presidente della Repubblica avvia le consultazioni con i partiti e conferisce l'incarico di formare il nuovo Governo a una personalità politica,",
-      "speech": "Dopo le elezioni, o in caso di crisi di governo, il Presidente della Repubblica avvia le consultazioni con i partiti e conferisce l'incarico di formare il nuovo Governo a una personalità politica,"
+      "speech": "Dopo le elezioni, o in caso di crisi di governo, il Presidente della Repubblica avvia le consultazioni con i partiti e conferisce l'incarico di formare il nuovo Governo a una personalità politica,",
+      "bold": [
+        [
+          89,
+          102
+        ],
+        [
+          132,
+          140
+        ]
+      ]
     },
     {
       "text": "di norma quella che appare in grado di ottenere la fiducia del Parlamento.",
@@ -50,11 +92,31 @@
     },
     {
       "text": "Il Presidente incaricato accetta con riserva, forma la lista dei ministri e, sciolta la riserva, il Presidente della Repubblica nomina con proprio decreto il Presidente del Consiglio e, su proposta di questo, i singoli ministri.",
-      "speech": "Il Presidente incaricato accetta con riserva, forma la lista dei ministri e, sciolta la riserva, il Presidente della Repubblica nomina con proprio decreto il Presidente del Consiglio e, su proposta di questo, i singoli ministri."
+      "speech": "Il Presidente incaricato accetta con riserva, forma la lista dei ministri e, sciolta la riserva, il Presidente della Repubblica nomina con proprio decreto il Presidente del Consiglio e, su proposta di questo, i singoli ministri.",
+      "bold": [
+        [
+          25,
+          44
+        ]
+      ]
     },
     {
       "text": "Il nuovo Governo presta giuramento nelle mani del Presidente della Repubblica e, entro dieci giorni dalla nomina, deve presentarsi alle Camere per ottenere il voto di fiducia:",
-      "speech": "Il nuovo Governo presta giuramento nelle mani del Presidente della Repubblica e, entro dieci giorni dalla nomina, deve presentarsi alle Camere per ottenere il voto di fiducia:"
+      "speech": "Il nuovo Governo presta giuramento nelle mani del Presidente della Repubblica e, entro dieci giorni dalla nomina, deve presentarsi alle Camere per ottenere il voto di fiducia:",
+      "bold": [
+        [
+          24,
+          34
+        ],
+        [
+          87,
+          99
+        ],
+        [
+          159,
+          174
+        ]
+      ]
     },
     {
       "text": "solo con la fiducia di entrambe le Camere il Governo entra pienamente in carica ed esercita le proprie funzioni.",
@@ -66,23 +128,57 @@
     },
     {
       "text": "La funzione di indirizzo politico consiste nel definire gli obiettivi generali dell'azione statale e nel proporli al Parlamento, per esempio attraverso disegni di legge.",
-      "speech": "La funzione di indirizzo politico consiste nel definire gli obiettivi generali dell'azione statale e nel proporli al Parlamento, per esempio attraverso disegni di legge."
+      "speech": "La funzione di indirizzo politico consiste nel definire gli obiettivi generali dell'azione statale e nel proporli al Parlamento, per esempio attraverso disegni di legge.",
+      "bold": [
+        [
+          3,
+          33
+        ]
+      ]
     },
     {
       "text": "La funzione normativa consiste nell'adottare atti con forza di legge nei casi previsti dalla Costituzione, i decreti legge,",
-      "speech": "La funzione normativa consiste nell'adottare atti con forza di legge nei casi previsti dalla Costituzione, i decreti legge,"
+      "speech": "La funzione normativa consiste nell'adottare atti con forza di legge nei casi previsti dalla Costituzione, i decreti legge,",
+      "bold": [
+        [
+          3,
+          21
+        ],
+        [
+          109,
+          122
+        ]
+      ]
     },
     {
       "text": "in casi di necessità e urgenza, con effetto immediato ma da convertire in legge dal Parlamento entro sessanta giorni, pena la decadenza,",
-      "speech": "in casi di necessità e urgenza, con effetto immediato ma da convertire in legge dal Parlamento entro sessanta giorni, pena la decadenza,"
+      "speech": "in casi di necessità e urgenza, con effetto immediato ma da convertire in legge dal Parlamento entro sessanta giorni, pena la decadenza,",
+      "bold": [
+        [
+          101,
+          116
+        ]
+      ]
     },
     {
       "text": "e i decreti legislativi, emanati su delega del Parlamento, oltre ai regolamenti governativi, che danno attuazione alle leggi già vigenti.",
-      "speech": "e i decreti legislativi, emanati su delega del Parlamento, oltre ai regolamenti governativi, che danno attuazione alle leggi già vigenti."
+      "speech": "e i decreti legislativi, emanati su delega del Parlamento, oltre ai regolamenti governativi, che danno attuazione alle leggi già vigenti.",
+      "bold": [
+        [
+          4,
+          23
+        ]
+      ]
     },
     {
       "text": "La funzione amministrativa consiste nella direzione della pubblica amministrazione e nell'attuazione concreta delle politiche pubbliche attraverso i ministeri e gli enti pubblici.",
-      "speech": "La funzione amministrativa consiste nella direzione della pubblica amministrazione e nell'attuazione concreta delle politiche pubbliche attraverso i ministeri e gli enti pubblici."
+      "speech": "La funzione amministrativa consiste nella direzione della pubblica amministrazione e nell'attuazione concreta delle politiche pubbliche attraverso i ministeri e gli enti pubblici.",
+      "bold": [
+        [
+          3,
+          26
+        ]
+      ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: un nuovo Governo viene nominato dal Presidente della Repubblica, ma alla Camera dei Deputati non ottiene la maggioranza dei voti sulla mozione di fiducia.",
@@ -102,7 +198,13 @@
     },
     {
       "text": "e la sua mancata concessione, anche da parte di una sola Camera, dato il bicameralismo perfetto visto a proposito del Parlamento,",
-      "speech": "e la sua mancata concessione, anche da parte di una sola Camera, dato il bicameralismo perfetto visto a proposito del Parlamento,"
+      "speech": "e la sua mancata concessione, anche da parte di una sola Camera, dato il bicameralismo perfetto visto a proposito del Parlamento,",
+      "bold": [
+        [
+          73,
+          95
+        ]
+      ]
     },
     {
       "text": "comporta le dimissioni del Governo e l'avvio di una nuova fase di consultazioni da parte del Presidente della Repubblica.",
@@ -114,15 +216,53 @@
     },
     {
       "text": "Primo: il Governo è composto dal Presidente del Consiglio, dai ministri e dal Consiglio dei ministri.",
-      "speech": "Primo: il Governo è composto dal Presidente del Consiglio, dai ministri e dal Consiglio dei ministri."
+      "speech": "Primo: il Governo è composto dal Presidente del Consiglio, dai ministri e dal Consiglio dei ministri.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          33,
+          57
+        ],
+        [
+          78,
+          100
+        ]
+      ]
     },
     {
       "text": "Secondo: si forma attraverso l'incarico presidenziale, la nomina e il voto di fiducia parlamentare.",
-      "speech": "Secondo: si forma attraverso l'incarico presidenziale, la nomina e il voto di fiducia parlamentare."
+      "speech": "Secondo: si forma attraverso l'incarico presidenziale, la nomina e il voto di fiducia parlamentare.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          31,
+          53
+        ],
+        [
+          70,
+          85
+        ]
+      ]
     },
     {
       "text": "Terzo: le sue funzioni sono di indirizzo politico, normativa e amministrativa.",
-      "speech": "Terzo: le sue funzioni sono di indirizzo politico, normativa e amministrativa."
+      "speech": "Terzo: le sue funzioni sono di indirizzo politico, normativa e amministrativa.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          31,
+          77
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo la Magistratura e la Corte Costituzionale, altri due organi fondamentali del nostro ordinamento.",
