@@ -442,6 +442,7 @@ function playSentence(index) {
   document.getElementById("status").innerText =
     "In ascolto…";
 
+  audio.dataset.idx = index;
   audio.src = audioFile(index);
   audio.play().catch((err) => {
     if (err && err.name === "NotAllowedError") {
@@ -454,11 +455,14 @@ function playSentence(index) {
 }
 
 audio.addEventListener("error", function() {
-  // audio di una frase non disponibile: passa alla successiva invece di fermarsi
-  if (paused || !speaking) {
-    return;
-  }
+  // audio di una frase non disponibile: passa alla successiva invece di fermarsi.
+  // Si ignorano gli errori di caricamento interrotto (cambio frase con Avanti/Indietro)
+  // e quelli di una frase diversa da quella corrente.
+  if (!audio.error || audio.error.code === 1) return;
+  const idx = Number(audio.dataset.idx);
+  if (paused || !speaking || idx !== currentSentence) return;
   setTimeout(function() {
+    if (paused || !speaking || idx !== currentSentence) return;
     currentSentence++;
     updateProgress();
     playSentence(currentSentence);
@@ -466,7 +470,7 @@ audio.addEventListener("error", function() {
 });
 
 audio.addEventListener("ended", function() {
-  if (paused || !speaking) {
+  if (paused || !speaking || Number(audio.dataset.idx) !== currentSentence) {
     return;
   }
 
