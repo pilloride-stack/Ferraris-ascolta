@@ -44,6 +44,12 @@
           "lang": "it",
           "text": "lo strumento base per la gestione quotidiana della liquidità;"
         }
+      ],
+      "lingua": [
+        [
+          36,
+          61
+        ]
       ]
     },
     {
@@ -72,6 +78,12 @@
           "lang": "it",
           "text": "e overdrafts, per sostenere investimenti o coprire momentanee esigenze di cassa;"
         }
+      ],
+      "lingua": [
+        [
+          41,
+          46
+        ]
       ]
     },
     {
@@ -100,6 +112,12 @@
           "lang": "it",
           "text": "che comprendono strumenti come le lettere di credito e le garanzie bancarie, di cui parleremo tra poco;"
         }
+      ],
+      "lingua": [
+        [
+          66,
+          79
+        ]
       ]
     },
     {
@@ -128,6 +146,12 @@
           "lang": "it",
           "text": "indispensabili per chi opera con clienti o fornitori in paesi con valute diverse;"
         }
+      ],
+      "lingua": [
+        [
+          28,
+          53
+        ]
       ]
     },
     {
@@ -157,7 +181,13 @@
           "text": "accessible banking:"
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          164,
+          182
+        ]
+      ]
     },
     {
       "text": "la possibilità, per le imprese e per i clienti privati, di accedere ai servizi bancari in modo semplice e inclusivo,",
@@ -197,6 +227,16 @@
           "lang": "it",
           "text": "riducendo le barriere fisiche e burocratiche che tradizionalmente limitavano l'accesso al credito."
         }
+      ],
+      "lingua": [
+        [
+          47,
+          54
+        ],
+        [
+          67,
+          74
+        ]
       ]
     },
     {
@@ -225,6 +265,12 @@
           "lang": "it",
           "text": "l'inclusione finanziaria,"
         }
+      ],
+      "lingua": [
+        [
+          52,
+          71
+        ]
       ]
     },
     {
@@ -262,6 +308,12 @@
           "lang": "en",
           "text": "Statement of Account:"
         }
+      ],
+      "lingua": [
+        [
+          54,
+          74
+        ]
       ]
     },
     {
@@ -299,7 +351,13 @@
           "text": "un trasferimento diretto di fondi tra conti correnti,"
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          42,
+          55
+        ]
+      ]
     },
     {
       "text": "spesso effettuato tramite il sistema internazionale SWIFT, che collega le banche di tutto il mondo permettendo trasferimenti sicuri e tracciabili.",
@@ -343,6 +401,12 @@
           "lang": "it",
           "text": "nella transazione stessa."
         }
+      ],
+      "lingua": [
+        [
+          185,
+          196
+        ]
       ]
     },
     {
@@ -384,7 +448,17 @@
           "text": "Bill of Exchange:"
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          41,
+          46
+        ],
+        [
+          49,
+          65
+        ]
+      ]
     },
     {
       "text": "un ordine scritto con cui una parte richiede a un'altra il pagamento di una somma determinata, che può essere a vista, sight draft,",
@@ -408,6 +482,12 @@
           "lang": "en",
           "text": "sight draft,"
         }
+      ],
+      "lingua": [
+        [
+          119,
+          130
+        ]
       ]
     },
     {
@@ -436,6 +516,12 @@
           "lang": "it",
           "text": "cioè pagabile dopo un periodo di tempo concordato."
         }
+      ],
+      "lingua": [
+        [
+          78,
+          88
+        ]
       ]
     },
     {
@@ -469,7 +555,13 @@
           "text": "Letter of Credit:"
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          96,
+          112
+        ]
+      ]
     },
     {
       "text": "una garanzia di pagamento emessa dalla banca dell'importatore a favore dell'esportatore.",
@@ -507,6 +599,12 @@
           "lang": "en",
           "text": "Bill of Lading,"
         }
+      ],
+      "lingua": [
+        [
+          127,
+          141
+        ]
       ]
     },
     {
@@ -574,6 +672,16 @@
           "lang": "it",
           "text": "offre un livello medio;"
         }
+      ],
+      "lingua": [
+        [
+          3,
+          15
+        ],
+        [
+          98,
+          111
+        ]
       ]
     },
     {
@@ -598,6 +706,12 @@
           "lang": "it",
           "text": "offre un livello medio-alto, formalizzando l'impegno di pagamento in un documento vincolante;"
         }
+      ],
+      "lingua": [
+        [
+          3,
+          8
+        ]
       ]
     },
     {
@@ -626,6 +740,12 @@
           "lang": "it",
           "text": "offre il livello massimo di sicurezza, perché sposta la garanzia di pagamento dalla parola del compratore alla solidità di un'intera banca."
         }
+      ],
+      "lingua": [
+        [
+          5,
+          21
+        ]
       ]
     },
     {
@@ -660,7 +780,13 @@
           "text": "cambio valuta e strumenti di gestione della liquidità, in un contesto di crescente accessibilità digitale."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          80,
+          93
+        ]
+      ]
     },
     {
       "text": "Secondo: lo Statement of Account è il metodo di pagamento più semplice, adatto a clienti abituali e fidati.",
@@ -693,7 +819,13 @@
           "text": "Account è il metodo di pagamento più semplice, adatto a clienti abituali e fidati."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          12,
+          24
+        ]
+      ]
     },
     {
       "text": "Terzo: il Bank Transfer offre sicurezza media tramite il sistema SWIFT, mentre il Draft formalizza l'impegno di pagamento in un documento scritto, a vista o a scadenza differita.",
@@ -738,7 +870,17 @@
           "text": "formalizza l'impegno di pagamento in un documento scritto, a vista o a scadenza differita."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          10,
+          23
+        ],
+        [
+          82,
+          87
+        ]
+      ]
     },
     {
       "text": "Quarto: la Letter of Credit offre la massima sicurezza, spostando la garanzia di pagamento sulla banca dell'importatore, ed è particolarmente utile con nuovi partner commerciali o importi elevati.",
@@ -771,7 +913,13 @@
           "text": "offre la massima sicurezza, spostando la garanzia di pagamento sulla banca dell'importatore, ed è particolarmente utile con nuovi partner commerciali o importi elevati."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          11,
+          27
+        ]
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intera UDA 1.",
@@ -797,7 +945,13 @@
           "text": "New York."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          151,
+          159
+        ]
+      ]
     },
     {
       "text": "Ci vediamo lì.",

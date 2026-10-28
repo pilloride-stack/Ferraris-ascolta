@@ -9,13 +9,14 @@ VOICE = os.environ.get("TTS_VOICE", "it-IT-Chirp3-HD-Charon")
 VOICE_EN = os.environ.get("TTS_VOICE_EN", "en-GB-Chirp3-HD-Charon")
 VOICE_ES = os.environ.get("TTS_VOICE_ES", "es-ES-Chirp3-HD-Charon")
 RATE = float(os.environ.get("TTS_RATE", "0.94"))
+SLOW = float(os.environ.get("TTS_RATE_SHORT", "0.82"))
 WORKERS = int(os.environ.get("TTS_WORKERS", "10"))
 
-def tts(text, lang="it"):
+def tts(text, lang="it", rate=None):
     voice = {"en": VOICE_EN, "es": VOICE_ES}.get(lang, VOICE)
     body = json.dumps({"input": {"text": text},
                        "voice": {"languageCode": voice[:5], "name": voice},
-                       "audioConfig": {"audioEncoding": "LINEAR16", "speakingRate": RATE,
+                       "audioConfig": {"audioEncoding": "LINEAR16", "speakingRate": rate or RATE,
                                        "sampleRateHertz": 24000}}).encode()
     for attempt in range(6):
         try:
@@ -38,8 +39,8 @@ def pcm(wav_bytes):
         a = array.array("h", w.readframes(w.getnframes()))
     return a
 
-def trim(a, thr=350, margin=480):
-    """Toglie il silenzio iniziale e finale (lascia 20 ms) per evitare stacchi tra le voci."""
+def trim(a, thr=120, margin=1440):
+    """Toglie il silenzio iniziale e finale (lascia 60 ms, per non tagliare consonanti deboli come la s) per evitare stacchi tra le voci."""
     i = next((k for k, v in enumerate(a) if abs(v) > thr), 0)
     j = next((k for k in range(len(a) - 1, -1, -1) if abs(a[k]) > thr), len(a) - 1)
     return a[max(0, i - margin): min(len(a), j + margin)]
@@ -60,7 +61,10 @@ def make(job):
             src = f.name
     else:
         # piu' voci: taglia i silenzi, allinea il volume alla parte italiana, pause brevi e naturali
-        clips = [(p, trim(pcm(tts(p["text"].strip(), p.get("lang", "it"))))) for p in parts]
+        def short(p):
+            return p.get("lang", "it") != "it" and len(p["text"].split()) <= 3
+        # le parole straniere brevi (es. "ser") vengono lette un po' piu' lente e con un respiro attorno
+        clips = [(p, trim(pcm(tts(p["text"].strip(), p.get("lang", "it"), SLOW if short(p) else None)))) for p in parts]
         ref = [rms(c) for p, c in clips if p.get("lang", "it") == "it"] or [rms(c) for p, c in clips]
         target = sorted(ref)[len(ref) // 2]
         res = array.array("h", [0] * 1200)
@@ -70,6 +74,8 @@ def make(job):
             res.extend(int(max(-32767, min(32767, v * g))) for v in c)
             if k < len(clips) - 1:
                 gap = GAP.get(p["text"].strip()[-1:], 0.07)
+                if short(p) or short(clips[k + 1][0]):
+                    gap = max(gap, 0.14)
                 res.extend([0] * int(24000 * gap))
         res.extend([0] * 2400)
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:

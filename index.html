@@ -124,6 +124,11 @@ button {
   background: #ffe66d;
 }
 
+.sentence.newline::before {
+  content: "";
+  display: block;
+}
+
 .sentence.newpar::before {
   content: "";
   display: block;
@@ -132,7 +137,11 @@ button {
 
 .sentence strong {
   font-weight: 700;
-  color: #063f7f;
+  color: #111;
+}
+
+.sentence strong.lingua {
+  color: #0a5bb5;
 }
 
 .lesson-title {
@@ -356,19 +365,43 @@ async function loadEpisode() {
       .map(() => `<span class="sentence"></span>`)
       .join("\n");
     sentences = document.querySelectorAll(".sentence");
+    const listFlags = [];
     sentences.forEach((element, index) => {
       const s = episode.sentences[index];
       if (s.p) element.classList.add("newpar");
-      if (!s.bold || !s.bold.length) { element.textContent = s.text; return; }
-      let pos = 0;
-      s.bold.forEach(([a, b]) => {
-        if (a > pos) element.appendChild(document.createTextNode(s.text.slice(pos, a)));
-        const strong = document.createElement("strong");
-        strong.textContent = s.text.slice(a, b);
-        element.appendChild(strong);
-        pos = b;
-      });
-      if (pos < s.text.length) element.appendChild(document.createTextNode(s.text.slice(pos)));
+      const t = s.text;
+      const bold = s.bold || [];
+      // elenchi (almeno due ";"): ogni voce su una riga
+      const prev = index > 0 ? episode.sentences[index - 1].text.trim() : "";
+      const prevEnds = prev.endsWith(";");
+      const isList = (t.match(/;/g) || []).length >= 2 || (prevEnds && t.includes(";"));
+      if (isList || (index > 0 && listFlags[index - 1])) {
+        if (!s.p) element.classList.add("newline");
+      }
+      listFlags[index] = isList;
+      const br = [];
+      if (isList) {
+        let m; const re = /; /g;
+        while ((m = re.exec(t)) !== null) br.push(m.index + 2);
+        const c = t.indexOf(": ");
+        if (c >= 0 && br.length && c + 2 < br[0]) br.unshift(c + 2);
+      }
+      const lingua = s.lingua || [];
+      const cuts = [...new Set([0, t.length, ...br, ...bold.flat(), ...lingua.flat()])].sort((x, y) => x - y);
+      for (let k = 0; k < cuts.length - 1; k++) {
+        const a = cuts[k], b = cuts[k + 1];
+        if (br.includes(a)) element.appendChild(document.createElement("br"));
+        const piece = t.slice(a, b);
+        const inLingua = lingua.some(([x, y]) => x <= a && b <= y);
+        if (inLingua || bold.some(([x, y]) => x <= a && b <= y)) {
+          const strong = document.createElement("strong");
+          if (inLingua) strong.className = "lingua";
+          strong.textContent = piece;
+          element.appendChild(strong);
+        } else {
+          element.appendChild(document.createTextNode(piece));
+        }
+      }
     });
   } catch (error) {
     document.getElementById("status").innerText = "Episodio non disponibile";

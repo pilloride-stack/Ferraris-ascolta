@@ -81,7 +81,17 @@
           "text": "Convention relative au contrat de transport international de Marchandises par Route."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          52,
+          87
+        ],
+        [
+          133,
+          216
+        ]
+      ]
     },
     {
       "text": "È il documento che accompagna il trasporto su strada, emesso dal vettore stradale, cioè dall'azienda di autotrasporto che effettua materialmente il trasferimento della merce.",
@@ -142,7 +152,13 @@
           "text": "spesso abbreviata con l'acronimo AWB."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          42,
+          53
+        ]
+      ]
     },
     {
       "text": "È il documento che accompagna il trasporto aereo, emesso dalla compagnia aerea stessa oppure dallo spedizioniere per suo conto.",
@@ -174,6 +190,12 @@
           "lang": "it",
           "text": "Waybill non è un documento negoziabile:"
         }
+      ],
+      "lingua": [
+        [
+          80,
+          85
+        ]
       ]
     },
     {
@@ -219,6 +241,12 @@
           "lang": "it",
           "text": "spesso abbreviata B/L, il documento che accompagna il trasporto marittimo, emesso dalla compagnia di navigazione."
         }
+      ],
+      "lingua": [
+        [
+          22,
+          36
+        ]
       ]
     },
     {
@@ -243,6 +271,12 @@
           "lang": "en",
           "text": "negotiable Bill of Lading —"
         }
+      ],
+      "lingua": [
+        [
+          116,
+          141
+        ]
       ]
     },
     {
@@ -358,7 +392,13 @@
           "text": "o CMR, riguarda il trasporto su strada, viene emessa dal vettore stradale, e non è negoziabile."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          81,
+          102
+        ]
+      ]
     },
     {
       "text": "L'Air Waybill riguarda il trasporto aereo, viene emessa dalla compagnia aerea o dallo spedizioniere, e non è negoziabile.",
@@ -378,6 +418,12 @@
           "lang": "it",
           "text": "Waybill riguarda il trasporto aereo, viene emessa dalla compagnia aerea o dallo spedizioniere, e non è negoziabile."
         }
+      ],
+      "lingua": [
+        [
+          0,
+          5
+        ]
       ]
     },
     {
@@ -402,6 +448,12 @@
           "lang": "it",
           "text": "Lading riguarda il trasporto marittimo, viene emesso dalla compagnia di navigazione,"
         }
+      ],
+      "lingua": [
+        [
+          3,
+          10
+        ]
       ]
     },
     {
@@ -430,6 +482,12 @@
           "lang": "it",
           "text": "cioè all'ordine di un soggetto specifico che può a sua volta girarlo ad altri."
         }
+      ],
+      "lingua": [
+        [
+          37,
+          45
+        ]
       ]
     },
     {
@@ -487,6 +545,20 @@
           "lang": "en",
           "text": "Air Waybill."
         }
+      ],
+      "lingua": [
+        [
+          30,
+          37
+        ],
+        [
+          176,
+          192
+        ],
+        [
+          207,
+          218
+        ]
       ]
     },
     {
@@ -552,7 +624,17 @@
           "text": "AWB) non sono negoziabili, e attestano solo la presa in carico della merce e le condizioni di trasporto."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          12,
+          33
+        ],
+        [
+          42,
+          55
+        ]
+      ]
     },
     {
       "text": "Terzo: il Bill of Lading (B/L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale.",
@@ -585,7 +667,13 @@
           "text": "Lading (B/L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          10,
+          17
+        ]
+      ]
     },
     {
       "text": "Nel prossimo episodio vediamo i servizi bancari alle imprese e i principali metodi di pagamento nel commercio internazionale, dalla semplice rimessa bancaria fino alla lettera di credito.",

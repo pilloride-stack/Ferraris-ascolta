@@ -42,7 +42,13 @@
           "text": "the UK government."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          40,
+          57
+        ]
+      ]
     },
     {
       "text": "Il Regno Unito è una monarchia costituzionale, constitutional monarchy:",
@@ -66,6 +72,12 @@
           "lang": "en",
           "text": "constitutional monarchy:"
         }
+      ],
+      "lingua": [
+        [
+          47,
+          70
+        ]
       ]
     },
     {
@@ -90,6 +102,12 @@
           "lang": "en",
           "text": "Head of State,"
         }
+      ],
+      "lingua": [
+        [
+          61,
+          74
+        ]
       ]
     },
     {
@@ -126,6 +144,12 @@
           "lang": "it",
           "text": "che è il leader del partito che detiene la maggioranza dei seggi alla Camera dei Comuni."
         }
+      ],
+      "lingua": [
+        [
+          91,
+          105
+        ]
       ]
     },
     {
@@ -154,6 +178,12 @@
           "lang": "it",
           "text": "è bicamerale, composto da due camere ben distinte:"
         }
+      ],
+      "lingua": [
+        [
+          26,
+          36
+        ]
       ]
     },
     {
@@ -186,6 +216,16 @@
           "lang": "en",
           "text": "MPs, Members of Parliament;"
         }
+      ],
+      "lingua": [
+        [
+          22,
+          38
+        ],
+        [
+          103,
+          129
+        ]
       ]
     },
     {
@@ -222,6 +262,16 @@
           "lang": "it",
           "text": "insieme a un numero ormai ristretto di pari ereditari,"
         }
+      ],
+      "lingua": [
+        [
+          16,
+          36
+        ],
+        [
+          83,
+          95
+        ]
       ]
     },
     {
@@ -242,6 +292,12 @@
           "lang": "it",
           "text": "che hanno mantenuto il proprio seggio per diritto di nascita secondo un'antica tradizione in via di progressivo superamento."
         }
+      ],
+      "lingua": [
+        [
+          0,
+          16
+        ]
       ]
     },
     {
@@ -263,7 +319,13 @@
           "text": "the US government."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          39,
+          56
+        ]
+      ]
     },
     {
       "text": "Gli Stati Uniti sono una repubblica federale, federal republic, fondata su un principio costituzionale molto più rigido di separazione dei poteri, separation of powers, tra tre organi pienamente indipendenti tra loro.",
@@ -307,6 +369,16 @@
           "lang": "it",
           "text": "tra tre organi pienamente indipendenti tra loro."
         }
+      ],
+      "lingua": [
+        [
+          46,
+          62
+        ],
+        [
+          147,
+          167
+        ]
       ]
     },
     {
@@ -347,6 +419,16 @@
           "lang": "it",
           "text": "eletto ogni quattro anni e che riveste contemporaneamente il ruolo di capo dello Stato e di capo del governo,"
         }
+      ],
+      "lingua": [
+        [
+          21,
+          30
+        ],
+        [
+          60,
+          69
+        ]
       ]
     },
     {
@@ -379,6 +461,12 @@
           "lang": "it",
           "text": "a sua volta diviso in due camere:"
         }
+      ],
+      "lingua": [
+        [
+          64,
+          72
+        ]
       ]
     },
     {
@@ -407,6 +495,12 @@
           "lang": "it",
           "text": "composto da due senatori per ciascuno dei cinquanta Stati, a prescindere dalla loro popolazione;"
         }
+      ],
+      "lingua": [
+        [
+          11,
+          17
+        ]
       ]
     },
     {
@@ -435,6 +529,12 @@
           "lang": "it",
           "text": "i cui membri sono invece eletti in proporzione alla popolazione di ciascuno Stato."
         }
+      ],
+      "lingua": [
+        [
+          32,
+          56
+        ]
       ]
     },
     {
@@ -471,6 +571,16 @@
           "lang": "en",
           "text": "Supreme Court."
         }
+      ],
+      "lingua": [
+        [
+          23,
+          31
+        ],
+        [
+          73,
+          86
+        ]
       ]
     },
     {
@@ -499,6 +609,12 @@
           "lang": "it",
           "text": "pesi e contrappesi, che garantisce che nessuno di questi tre poteri possa prevalere stabilmente sugli altri due."
         }
+      ],
+      "lingua": [
+        [
+          51,
+          70
+        ]
       ]
     },
     {
@@ -536,6 +652,12 @@
           "lang": "it",
           "text": "di orientamento centro-destra,"
         }
+      ],
+      "lingua": [
+        [
+          25,
+          43
+        ]
       ]
     },
     {
@@ -584,6 +706,20 @@
           "lang": "en",
           "text": "Liberal Democrats."
         }
+      ],
+      "lingua": [
+        [
+          24,
+          36
+        ],
+        [
+          155,
+          162
+        ],
+        [
+          176,
+          193
+        ]
       ]
     },
     {
@@ -624,6 +760,16 @@
           "lang": "it",
           "text": "di orientamento conservatore,"
         }
+      ],
+      "lingua": [
+        [
+          81,
+          97
+        ],
+        [
+          149,
+          165
+        ]
       ]
     },
     {
@@ -652,6 +798,12 @@
           "lang": "it",
           "text": "di orientamento progressista, senza terze forze politiche in grado di ottenere una rappresentanza istituzionale significativa a livello nazionale."
         }
+      ],
+      "lingua": [
+        [
+          27,
+          43
+        ]
       ]
     },
     {
@@ -685,6 +837,12 @@
           "lang": "it",
           "text": "il potere esecutivo — cioè il governo, guidato dal Primo Ministro —"
         }
+      ],
+      "lingua": [
+        [
+          37,
+          57
+        ]
       ]
     },
     {
@@ -723,6 +881,12 @@
           "lang": "it",
           "text": "perché esecutivo e legislativo restano intimamente legati e interdipendenti."
         }
+      ],
+      "lingua": [
+        [
+          43,
+          59
+        ]
       ]
     },
     {
@@ -747,6 +911,12 @@
           "lang": "it",
           "text": "il Presidente viene invece eletto separatamente dal Congresso, attraverso un proprio processo elettorale autonomo,"
         }
+      ],
+      "lingua": [
+        [
+          40,
+          59
+        ]
       ]
     },
     {
@@ -779,6 +949,12 @@
           "lang": "it",
           "text": "proprio in contrapposizione alla fusione dei poteri tipica del modello britannico."
         }
+      ],
+      "lingua": [
+        [
+          65,
+          85
+        ]
       ]
     },
     {
@@ -820,6 +996,12 @@
           "lang": "it",
           "text": "e a Washington."
         }
+      ],
+      "lingua": [
+        [
+          143,
+          154
+        ]
       ]
     },
     {
@@ -909,6 +1091,20 @@
           "lang": "it",
           "text": "Waybill non lo sono mai;"
         }
+      ],
+      "lingua": [
+        [
+          42,
+          49
+        ],
+        [
+          134,
+          150
+        ],
+        [
+          158,
+          163
+        ]
       ]
     },
     {
@@ -933,6 +1129,12 @@
           "lang": "it",
           "text": "offre la massima sicurezza, spostando la garanzia dalla parola del compratore alla solidità di un'intera banca."
         }
+      ],
+      "lingua": [
+        [
+          32,
+          48
+        ]
       ]
     },
     {
@@ -968,6 +1170,12 @@
           "lang": "it",
           "text": "York si gioca su sede, anno di fondazione e indice principale, rispettivamente FTSE 100 e Dow Jones;"
         }
+      ],
+      "lingua": [
+        [
+          28,
+          31
+        ]
       ]
     },
     {
@@ -1008,6 +1216,16 @@
           "lang": "it",
           "text": "da calibrare sempre insieme in modo coerente;"
         }
+      ],
+      "lingua": [
+        [
+          30,
+          51
+        ],
+        [
+          54,
+          63
+        ]
       ]
     },
     {
@@ -1044,6 +1262,16 @@
           "lang": "en",
           "text": "Attention, Interest, Desire, Action."
         }
+      ],
+      "lingua": [
+        [
+          40,
+          51
+        ],
+        [
+          92,
+          127
+        ]
       ]
     },
     {
@@ -1081,7 +1309,17 @@
           "text": "ispirata a Muhammad Yunus, applica la microfinanza alla lotta alla povertà;"
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          24,
+          34
+        ],
+        [
+          97,
+          107
+        ]
+      ]
     },
     {
       "text": "la globalizzazione comporta vantaggi come maggiore scelta e nuovi mercati, e svantaggi come perdita di posti di lavoro e disuguaglianze crescenti;",
@@ -1135,6 +1373,12 @@
           "lang": "en",
           "text": "checks and balances;"
         }
+      ],
+      "lingua": [
+        [
+          150,
+          169
+        ]
       ]
     },
     {
@@ -1196,7 +1440,13 @@
           "text": "checks and balances."
         }
       ],
-      "p": 1
+      "p": 1,
+      "lingua": [
+        [
+          157,
+          176
+        ]
+      ]
     },
     {
       "text": "Terzo: il Regno Unito ha un sistema politico dominato da due grandi partiti più uno minore, gli Stati Uniti un bipartitismo rigido senza terze forze rilevanti.",
