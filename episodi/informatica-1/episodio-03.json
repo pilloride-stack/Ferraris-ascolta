@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi affrontiamo il cuore tecnico di questo primo modulo, un argomento molto amato dai commissari perché unisce teoria e calcolo pratico:",
-      "speech": "Oggi affrontiamo il cuore tecnico di questo primo modulo, un argomento molto amato dai commissari perché unisce teoria e calcolo pratico:"
+      "speech": "Oggi affrontiamo il cuore tecnico di questo primo modulo, un argomento molto amato dai commissari perché unisce teoria e calcolo pratico:",
+      "p": 1
     },
     {
       "text": "il sistema binario, il modo in cui i computer rappresentano al proprio interno ogni tipo di informazione.",
@@ -28,11 +29,13 @@
           170,
           176
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione, perché è probabilmente la più richiesta su questo argomento:",
-      "speech": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione, perché è probabilmente la più richiesta su questo argomento:"
+      "speech": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione, perché è probabilmente la più richiesta su questo argomento:",
+      "p": 1
     },
     {
       "text": "perché proprio due simboli, e non dieci come nel nostro sistema decimale quotidiano?",
@@ -60,7 +63,8 @@
           36,
           39
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Un gruppo di otto bit forma un byte, l'unità base con cui si misura la capacità delle memorie.",
@@ -102,7 +106,8 @@
     },
     {
       "text": "Veniamo ora alla parte più pratica di questo episodio, che vi consiglio di provare a rifare autonomamente con carta e penna dopo l'ascolto,",
-      "speech": "Veniamo ora alla parte più pratica di questo episodio, che vi consiglio di provare a rifare autonomamente con carta e penna dopo l'ascolto,"
+      "speech": "Veniamo ora alla parte più pratica di questo episodio, che vi consiglio di provare a rifare autonomamente con carta e penna dopo l'ascolto,",
+      "p": 1
     },
     {
       "text": "perché è esattamente il tipo di esercizio che potrebbe capitarvi all'esame: la conversione tra sistema binario e sistema decimale.",
@@ -140,7 +145,8 @@
           67,
           93
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Prendiamo il numero decimale 13: tredici diviso due fa sei, resto uno; sei diviso due fa tre, resto zero; tre diviso due fa uno, resto uno; uno diviso due fa zero, resto uno.",
@@ -168,7 +174,8 @@
     },
     {
       "text": "Fermatevi un momento su questo doppio procedimento, perché saperlo eseguire con sicurezza, senza esitazioni, è probabilmente la competenza tecnica più concreta e verificabile di tutto questo modulo:",
-      "speech": "Fermatevi un momento su questo doppio procedimento, perché saperlo eseguire con sicurezza, senza esitazioni, è probabilmente la competenza tecnica più concreta e verificabile di tutto questo modulo:"
+      "speech": "Fermatevi un momento su questo doppio procedimento, perché saperlo eseguire con sicurezza, senza esitazioni, è probabilmente la competenza tecnica più concreta e verificabile di tutto questo modulo:",
+      "p": 1
     },
     {
       "text": "a differenza di molti concetti teorici, la conversione binario-decimale è un calcolo che si può controllare oggettivamente, giusto o sbagliato,",
@@ -186,7 +193,8 @@
           113,
           117
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Applicando la regola: 1 per 2 alla terza, più 1 per 2 alla seconda, più 0 per 2 alla prima, più 0 per 2 alla zero, cioè 8 più 4 più 0 più 0, che fa 12.",
@@ -198,7 +206,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: i computer usano il sistema binario, in base 2, perché i circuiti elettronici distinguono più facilmente due soli stati piuttosto che dieci.",
@@ -212,7 +221,8 @@
           27,
           42
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: l'unità minima di informazione è il bit, e un gruppo di otto bit forma un byte, da cui derivano kilobyte, megabyte, gigabyte e terabyte.",
@@ -230,7 +240,8 @@
           83,
           87
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: la conversione da binario a decimale si effettua moltiplicando ogni cifra per la potenza di 2 corrispondente alla sua posizione,",
@@ -244,7 +255,8 @@
           88,
           100
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "mentre quella da decimale a binario si effettua con divisioni successive per 2, leggendo i resti dal basso verso l'alto.",
@@ -258,7 +270,8 @@
     },
     {
       "text": "Nel prossimo episodio entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme al concetto di interfaccia utente.",
-      "speech": "Nel prossimo episodio entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme al concetto di interfaccia utente."
+      "speech": "Nel prossimo episodio entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme al concetto di interfaccia utente.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

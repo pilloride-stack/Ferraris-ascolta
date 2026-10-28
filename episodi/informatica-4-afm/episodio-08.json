@@ -10,11 +10,13 @@
     },
     {
       "text": "Oggi chiudiamo il Modulo 2 con un tema che riguarda ogni singola transazione che abbiamo incontrato finora, dall'e-commerce all'home banking: la sicurezza nelle transazioni online.",
-      "speech": "Oggi chiudiamo il Modulo 2 con un tema che riguarda ogni singola transazione che abbiamo incontrato finora, dall'e-commerce all'home banking: la sicurezza nelle transazioni online."
+      "speech": "Oggi chiudiamo il Modulo 2 con un tema che riguarda ogni singola transazione che abbiamo incontrato finora, dall'e-commerce all'home banking: la sicurezza nelle transazioni online.",
+      "p": 1
     },
     {
       "text": "La sicurezza delle transazioni online si basa su diversi livelli di protezione, che è utile saper distinguere con precisione, perché ciascuno interviene in un momento diverso del processo.",
-      "speech": "La sicurezza delle transazioni online si basa su diversi livelli di protezione, che è utile saper distinguere con precisione, perché ciascuno interviene in un momento diverso del processo."
+      "speech": "La sicurezza delle transazioni online si basa su diversi livelli di protezione, che è utile saper distinguere con precisione, perché ciascuno interviene in un momento diverso del processo.",
+      "p": 1
     },
     {
       "text": "Il protocollo HTTPS crittografa la comunicazione tra browser e server tramite i protocolli SSL e TLS, impedendo l'intercettazione dei dati da parte di terzi mentre viaggiano in rete.",
@@ -62,7 +64,8 @@
     },
     {
       "text": "Fermatevi un momento su un punto che vale la pena chiarire con estrema attenzione, perché è la causa di molti errori pratici e di molte truffe reali:",
-      "speech": "Fermatevi un momento su un punto che vale la pena chiarire con estrema attenzione, perché è la causa di molti errori pratici e di molte truffe reali:"
+      "speech": "Fermatevi un momento su un punto che vale la pena chiarire con estrema attenzione, perché è la causa di molti errori pratici e di molte truffe reali:",
+      "p": 1
     },
     {
       "text": "nessuna di queste misure tecniche, per quanto solida, protegge automaticamente un utente che venga ingannato con l'inganno più antico e ancora oggi più efficace, il phishing.",
@@ -124,7 +127,8 @@
           162,
           172
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Quali elementi, tra quelli visti oggi, dovreste considerare prima di agire?",
@@ -150,7 +154,8 @@
     },
     {
       "text": "Accanto al phishing, che riguarda l'inganno dell'utente, le altre misure viste oggi proteggono invece la comunicazione e i pagamenti da un punto di vista più propriamente tecnico:",
-      "speech": "Accanto al phishing, che riguarda l'inganno dell'utente, le altre misure viste oggi proteggono invece la comunicazione e i pagamenti da un punto di vista più propriamente tecnico:"
+      "speech": "Accanto al phishing, che riguarda l'inganno dell'utente, le altre misure viste oggi proteggono invece la comunicazione e i pagamenti da un punto di vista più propriamente tecnico:",
+      "p": 1
     },
     {
       "text": "HTTPS protegge i dati in transito da un'eventuale intercettazione, i certificati digitali attestano l'identità del sito con cui si sta comunicando, la firma digitale garantisce che un documento non sia stato alterato,",
@@ -182,7 +187,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: HTTPS, tramite SSL e TLS, crittografa la comunicazione tra browser e server, mentre i certificati digitali ne attestano l'identità.",
@@ -200,7 +206,8 @@
           93,
           113
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: la firma digitale garantisce autenticità e integrità di un documento informatico, e il 3D Secure aggiunge un'autenticazione rafforzata ai pagamenti con carta.",
@@ -218,7 +225,8 @@
           96,
           105
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: nessuna misura tecnica protegge da sola dal phishing, che inganna direttamente l'utente imitando comunicazioni di banche o servizi di pagamento,",
@@ -232,7 +240,8 @@
           51,
           59
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "e richiede quindi attenzione personale oltre alla tecnologia.",
@@ -240,11 +249,13 @@
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 2.",
-      "speech": "Con questo abbiamo completato l'intero Modulo 2."
+      "speech": "Con questo abbiamo completato l'intero Modulo 2.",
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio entriamo nel Modulo 3, dedicato ai software gestionali, cominciando dal ciclo di vita del software e da come si valuta la fattibilità di un progetto informatico.",
-      "speech": "Nel prossimo episodio entriamo nel Modulo 3, dedicato ai software gestionali, cominciando dal ciclo di vita del software e da come si valuta la fattibilità di un progetto informatico."
+      "speech": "Nel prossimo episodio entriamo nel Modulo 3, dedicato ai software gestionali, cominciando dal ciclo di vita del software e da come si valuta la fattibilità di un progetto informatico.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

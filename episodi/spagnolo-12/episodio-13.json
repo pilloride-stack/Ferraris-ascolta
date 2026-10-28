@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi concludiamo il programma della Classe II con un argomento di civiltà molto suggestivo e ricco di collegamenti culturali:",
-      "speech": "Oggi concludiamo il programma della Classe II con un argomento di civiltà molto suggestivo e ricco di collegamenti culturali:"
+      "speech": "Oggi concludiamo il programma della Classe II con un argomento di civiltà molto suggestivo e ricco di collegamenti culturali:",
+      "p": 1
     },
     {
       "text": "el Camino de Santiago, il celebre itinerario di pellegrinaggio medievale che attraversa il nord della Spagna.",
@@ -24,6 +25,16 @@
           48,
           72
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "el Camino de Santiago,"
+        },
+        {
+          "lang": "it",
+          "text": "il celebre itinerario di pellegrinaggio medievale che attraversa il nord della Spagna."
+        }
       ]
     },
     {
@@ -38,7 +49,18 @@
           142,
           155
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il Cammino di Santiago è una rete di itinerari di pellegrinaggio che, fin dal Medioevo, conduce i pellegrini fino alla cattedrale di Santiago"
+        },
+        {
+          "lang": "es",
+          "text": "de Compostela,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "in Galizia, dove, secondo la tradizione, sono custodite le reliquie dell'apostolo San Giacomo il Maggiore, Santiago el Mayor.",
@@ -56,11 +78,22 @@
           107,
           124
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "in Galizia, dove, secondo la tradizione, sono custodite le reliquie dell'apostolo San Giacomo il Maggiore,"
+        },
+        {
+          "lang": "es",
+          "text": "Santiago el Mayor."
+        }
       ]
     },
     {
       "text": "Fermatevi un momento su un dato storico preciso, molto utile da citare in un'interrogazione:",
-      "speech": "Fermatevi un momento su un dato storico preciso, molto utile da citare in un'interrogazione:"
+      "speech": "Fermatevi un momento su un dato storico preciso, molto utile da citare in un'interrogazione:",
+      "p": 1
     },
     {
       "text": "la scoperta della presunta tomba dell'apostolo, avvenuta nel IX secolo, diede origine a uno dei più importanti fenomeni di pellegrinaggio dell'intera Europa medievale,",
@@ -102,7 +135,30 @@
           147,
           154
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'itinerario più conosciuto e percorso è il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino Francés,"
+        },
+        {
+          "lang": "it",
+          "text": "che attraversa il nord della Spagna per circa ottocento chilometri, da Saint-Jean-Pied-"
+        },
+        {
+          "lang": "es",
+          "text": "de-Port,"
+        },
+        {
+          "lang": "it",
+          "text": "ai piedi dei Pirenei francesi,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "fino a Santiago de Compostela, e viene solitamente completato in circa un mese di cammino a piedi.",
@@ -112,6 +168,20 @@
           16,
           29
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "fino a Santiago"
+        },
+        {
+          "lang": "es",
+          "text": "de Compostela,"
+        },
+        {
+          "lang": "it",
+          "text": "e viene solitamente completato in circa un mese di cammino a piedi."
+        }
       ]
     },
     {
@@ -122,6 +192,20 @@
           103,
           119
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Esistono tuttavia numerosi altri itinerari storici che vale la pena conoscere, anche solo per nome: il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino del Norte,"
+        },
+        {
+          "lang": "it",
+          "text": "che segue la costa cantabrica per circa ottocentoventi chilometri;"
+        }
       ]
     },
     {
@@ -132,6 +216,20 @@
           3,
           19
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino Portugués,"
+        },
+        {
+          "lang": "it",
+          "text": "che parte dal Portogallo, da Lisbona o da Porto, con una lunghezza variabile tra i duecentoquaranta e i seicentodieci chilometri;"
+        }
       ]
     },
     {
@@ -146,6 +244,20 @@
           100,
           116
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e la"
+        },
+        {
+          "lang": "es",
+          "text": "Vía de la Plata,"
+        },
+        {
+          "lang": "it",
+          "text": "che attraversa l'intera Spagna da sud a nord, partendo da Siviglia, per circa mille chilometri, il più lungo tra tutti gli itinerari principali."
+        }
       ]
     },
     {
@@ -160,7 +272,8 @@
           160,
           195
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "e già dal 1987, il Consiglio d'Europa lo aveva riconosciuto come il primo «Itinerario Culturale Europeo» in assoluto, un titolo che testimonia il valore simbolico del Cammino come ponte culturale tra le diverse nazioni europee.",
@@ -184,7 +297,22 @@
           8,
           26
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Oggi il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino de Santiago"
+        },
+        {
+          "lang": "it",
+          "text": "è percorso ogni anno da centinaia di migliaia di persone, non solo per motivi religiosi,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "ma anche culturali, sportivi e semplicemente personali, ed è riconoscibile lungo tutto il percorso grazie al simbolo della concha de vieira, la conchiglia di San Giacomo, che i pellegrini, los peregrinos, portano tradizionalmente appesa allo zaino.",
@@ -198,11 +326,34 @@
           189,
           203
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "ma anche culturali, sportivi e semplicemente personali, ed è riconoscibile lungo tutto il percorso grazie al simbolo della"
+        },
+        {
+          "lang": "es",
+          "text": "concha de vieira,"
+        },
+        {
+          "lang": "it",
+          "text": "la conchiglia di San Giacomo, che i pellegrini,"
+        },
+        {
+          "lang": "es",
+          "text": "los peregrinos,"
+        },
+        {
+          "lang": "it",
+          "text": "portano tradizionalmente appesa allo zaino."
+        }
       ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, per fissare i quattro itinerari principali: se doveste indicare il punto di partenza e la lunghezza approssimativa di ciascuno, come rispondereste?",
-      "speech": "Proviamo un piccolo esercizio insieme, per fissare i quattro itinerari principali: se doveste indicare il punto di partenza e la lunghezza approssimativa di ciascuno, come rispondereste?"
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare i quattro itinerari principali: se doveste indicare il punto di partenza e la lunghezza approssimativa di ciascuno, come rispondereste?",
+      "p": 1
     },
     {
       "text": "Il Camino Francés parte da Saint-Jean-Pied-de-Port, in Francia, per circa ottocento chilometri.",
@@ -216,6 +367,28 @@
           43,
           50
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino Francés"
+        },
+        {
+          "lang": "it",
+          "text": "parte da Saint-Jean-Pied-"
+        },
+        {
+          "lang": "es",
+          "text": "de-Port,"
+        },
+        {
+          "lang": "it",
+          "text": "in Francia, per circa ottocento chilometri."
+        }
       ]
     },
     {
@@ -230,6 +403,28 @@
           29,
           33
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino del Norte"
+        },
+        {
+          "lang": "it",
+          "text": "parte da"
+        },
+        {
+          "lang": "es",
+          "text": "Irún,"
+        },
+        {
+          "lang": "it",
+          "text": "lungo la costa cantabrica, per circa ottocentoventi chilometri."
+        }
       ]
     },
     {
@@ -240,6 +435,20 @@
           3,
           19
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino Portugués"
+        },
+        {
+          "lang": "it",
+          "text": "parte da Lisbona o Porto, in Portogallo, per una lunghezza variabile."
+        }
       ]
     },
     {
@@ -250,11 +459,22 @@
           0,
           18
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "La Vía de la Plata"
+        },
+        {
+          "lang": "it",
+          "text": "parte da Siviglia, per circa mille chilometri, il percorso più lungo di tutti."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il Camino de Santiago è un itinerario di pellegrinaggio medievale verso la tomba dell'apostolo Giacomo a Santiago de Compostela, in Galizia, la cui scoperta nel IX secolo diede origine a uno dei maggiori fenomeni di pellegrinaggio d'Europa.",
@@ -276,7 +496,30 @@
           168,
           177
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino de Santiago"
+        },
+        {
+          "lang": "it",
+          "text": "è un itinerario di pellegrinaggio medievale verso la tomba dell'apostolo Giacomo a Santiago"
+        },
+        {
+          "lang": "es",
+          "text": "de Compostela,"
+        },
+        {
+          "lang": "it",
+          "text": "in Galizia, la cui scoperta nel IX secolo diede origine a uno dei maggiori fenomeni di pellegrinaggio d'Europa."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: l'itinerario principale è il Camino Francés, di circa ottocento chilometri, accanto ad altri percorsi storici come il Camino del Norte, il Camino Portugués e la Vía de la Plata.",
@@ -302,7 +545,42 @@
           170,
           185
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: l'itinerario principale è il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino Francés,"
+        },
+        {
+          "lang": "it",
+          "text": "di circa ottocento chilometri, accanto ad altri percorsi storici come il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino del Norte,"
+        },
+        {
+          "lang": "it",
+          "text": "il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino Portugués"
+        },
+        {
+          "lang": "it",
+          "text": "e la"
+        },
+        {
+          "lang": "es",
+          "text": "Vía de la Plata."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il Cammino è stato riconosciuto Patrimonio dell'Umanità dall'UNESCO nel 1993 e primo Itinerario Culturale Europeo dal 1987.",
@@ -324,11 +602,13 @@
           125,
           129
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero programma della Classe II.",
-      "speech": "Con questo abbiamo completato l'intero programma della Classe II."
+      "speech": "Con questo abbiamo completato l'intero programma della Classe II.",
+      "p": 1
     },
     {
       "text": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida delle Classi I e II, per arrivare all'esame con ogni argomento ben fissato nella memoria.",

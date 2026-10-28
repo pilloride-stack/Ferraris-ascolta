@@ -124,6 +124,12 @@ button {
   background: #ffe66d;
 }
 
+.sentence.newpar::before {
+  content: "";
+  display: block;
+  height: 16px;
+}
+
 .sentence strong {
   font-weight: 700;
   color: #063f7f;
@@ -352,6 +358,7 @@ async function loadEpisode() {
     sentences = document.querySelectorAll(".sentence");
     sentences.forEach((element, index) => {
       const s = episode.sentences[index];
+      if (s.p) element.classList.add("newpar");
       if (!s.bold || !s.bold.length) { element.textContent = s.text; return; }
       let pos = 0;
       s.bold.forEach(([a, b]) => {

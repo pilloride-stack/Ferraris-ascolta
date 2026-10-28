@@ -29,33 +29,57 @@ def tts(text, lang="it"):
             time.sleep(5 * (attempt + 1))
     raise RuntimeError("TTS fallita: " + text[:60])
 
+GAP = {",": 0.20, ";": 0.24, ":": 0.24, ".": 0.32, "?": 0.32, "!": 0.32, "»": 0.12, ")": 0.12}
+
+def pcm(wav_bytes):
+    """Estrae i campioni 16 bit da un WAV LINEAR16 restituito da Google."""
+    import io, wave, array
+    with wave.open(io.BytesIO(wav_bytes)) as w:
+        a = array.array("h", w.readframes(w.getnframes()))
+    return a
+
+def trim(a, thr=350, margin=480):
+    """Toglie il silenzio iniziale e finale (lascia 20 ms) per evitare stacchi tra le voci."""
+    i = next((k for k, v in enumerate(a) if abs(v) > thr), 0)
+    j = next((k for k in range(len(a) - 1, -1, -1) if abs(a[k]) > thr), len(a) - 1)
+    return a[max(0, i - margin): min(len(a), j + margin)]
+
+def rms(a):
+    return (sum(v * v for v in a[::4]) / max(1, len(a[::4]))) ** 0.5
+
 def make(job):
+    import array, wave
     text, out = job
-    # text: stringa (una sola voce) oppure lista di parti [{"lang": "it"|"en", "text": ...}]
-    parts = text if isinstance(text, list) else [{"lang": "it", "text": text}]
-    wavs = []
-    for p in parts:
-        if not p["text"].strip():
-            continue
-        with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
-            f.write(tts(p["text"].strip(), p.get("lang", "it")))
-            wavs.append(f.name)
+    # text: stringa (una sola voce) oppure lista di parti [{"lang": "it"|"en"|"es", "text": ...}]
+    parts = [p for p in (text if isinstance(text, list) else [{"lang": "it", "text": text}]) if p["text"].strip()]
     os.makedirs(os.path.dirname(out), exist_ok=True)
     part = out + ".part.mp3"
-    if len(wavs) == 1:
-        inp = ["-i", wavs[0]]
+    if len(parts) == 1:
+        with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
+            f.write(tts(parts[0]["text"].strip(), parts[0].get("lang", "it")))
+            src = f.name
     else:
-        lst = out + ".list.txt"
-        with open(lst, "w") as f:
-            f.write("".join(f"file '{w}'\n" for w in wavs))
-        inp = ["-f", "concat", "-safe", "0", "-i", lst]
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inp, "-ac", "1", "-ar", "24000",
+        # piu' voci: taglia i silenzi, allinea il volume alla parte italiana, pause brevi e naturali
+        clips = [(p, trim(pcm(tts(p["text"].strip(), p.get("lang", "it"))))) for p in parts]
+        ref = [rms(c) for p, c in clips if p.get("lang", "it") == "it"] or [rms(c) for p, c in clips]
+        target = sorted(ref)[len(ref) // 2]
+        res = array.array("h", [0] * 1200)
+        for k, (p, c) in enumerate(clips):
+            g = target / max(1.0, rms(c))
+            g = min(2.0, max(0.5, g))
+            res.extend(int(max(-32767, min(32767, v * g))) for v in c)
+            if k < len(clips) - 1:
+                gap = GAP.get(p["text"].strip()[-1:], 0.07)
+                res.extend([0] * int(24000 * gap))
+        res.extend([0] * 2400)
+        with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
+            src = f.name
+        with wave.open(src, "wb") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(24000); w.writeframes(res.tobytes())
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-ac", "1", "-ar", "24000",
                     "-c:a", "libmp3lame", "-b:a", "96k", part], check=True)
     os.replace(part, out)
-    for w in wavs:
-        os.remove(w)
-    if len(wavs) > 1:
-        os.remove(lst)
+    os.remove(src)
     return out
 
 def jobs_for(materia):

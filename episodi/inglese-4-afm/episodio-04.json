@@ -10,11 +10,13 @@
     },
     {
       "text": "Oggi chiudiamo la UDA 1 con un argomento strettamente collegato: i servizi bancari alle imprese e i principali metodi di pagamento nel commercio internazionale, dal più semplice al più sicuro.",
-      "speech": "Oggi chiudiamo la UDA 1 con un argomento strettamente collegato: i servizi bancari alle imprese e i principali metodi di pagamento nel commercio internazionale, dal più semplice al più sicuro."
+      "speech": "Oggi chiudiamo la UDA 1 con un argomento strettamente collegato: i servizi bancari alle imprese e i principali metodi di pagamento nel commercio internazionale, dal più semplice al più sicuro.",
+      "p": 1
     },
     {
       "text": "Le banche offrono alle imprese una gamma piuttosto ampia di servizi, che vale la pena conoscere nelle loro linee essenziali.",
-      "speech": "Le banche offrono alle imprese una gamma piuttosto ampia di servizi, che vale la pena conoscere nelle loro linee essenziali."
+      "speech": "Le banche offrono alle imprese una gamma piuttosto ampia di servizi, che vale la pena conoscere nelle loro linee essenziali.",
+      "p": 1
     },
     {
       "text": "Ci sono i conti correnti aziendali, business current accounts, lo strumento base per la gestione quotidiana della liquidità;",
@@ -28,6 +30,20 @@
           36,
           61
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ci sono i conti correnti aziendali,"
+        },
+        {
+          "lang": "en",
+          "text": "business current accounts,"
+        },
+        {
+          "lang": "it",
+          "text": "lo strumento base per la gestione quotidiana della liquidità;"
+        }
       ]
     },
     {
@@ -42,6 +58,20 @@
           41,
           46
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i finanziamenti a breve e lungo termine,"
+        },
+        {
+          "lang": "en",
+          "text": "loans"
+        },
+        {
+          "lang": "it",
+          "text": "e overdrafts, per sostenere investimenti o coprire momentanee esigenze di cassa;"
+        }
       ]
     },
     {
@@ -56,6 +86,20 @@
           66,
           79
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i servizi di finanza commerciale per il commercio internazionale,"
+        },
+        {
+          "lang": "en",
+          "text": "trade finance,"
+        },
+        {
+          "lang": "it",
+          "text": "che comprendono strumenti come le lettere di credito e le garanzie bancarie, di cui parleremo tra poco;"
+        }
       ]
     },
     {
@@ -70,6 +114,20 @@
           28,
           53
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i servizi di cambio valuta,"
+        },
+        {
+          "lang": "en",
+          "text": "foreign exchange services,"
+        },
+        {
+          "lang": "it",
+          "text": "indispensabili per chi opera con clienti o fornitori in paesi con valute diverse;"
+        }
       ]
     },
     {
@@ -88,7 +146,18 @@
           164,
           182
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un concetto che vale la pena menzionare, perché riflette una tendenza sempre più centrale nel settore bancario contemporaneo, è quello dell'accessibilità bancaria,"
+        },
+        {
+          "lang": "en",
+          "text": "accessible banking:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "la possibilità, per le imprese e per i clienti privati, di accedere ai servizi bancari in modo semplice e inclusivo,",
@@ -106,6 +175,28 @@
           67,
           74
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "anche attraverso canali digitali come l'online"
+        },
+        {
+          "lang": "en",
+          "text": "banking"
+        },
+        {
+          "lang": "it",
+          "text": "e il mobile"
+        },
+        {
+          "lang": "en",
+          "text": "banking,"
+        },
+        {
+          "lang": "it",
+          "text": "riducendo le barriere fisiche e burocratiche che tradizionalmente limitavano l'accesso al credito."
+        }
       ]
     },
     {
@@ -120,6 +211,20 @@
           75,
           97
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Questo processo favorisce quella che viene chiamata"
+        },
+        {
+          "lang": "en",
+          "text": "financial inclusion,"
+        },
+        {
+          "lang": "it",
+          "text": "l'inclusione finanziaria,"
+        }
       ]
     },
     {
@@ -128,7 +233,8 @@
     },
     {
       "text": "Veniamo ora al cuore di questo episodio: i metodi di pagamento nelle transazioni commerciali, in particolare internazionali, che si distinguono per diversi livelli di sicurezza,",
-      "speech": "Veniamo ora al cuore di questo episodio: i metodi di pagamento nelle transazioni commerciali, in particolare internazionali, che si distinguono per diversi livelli di sicurezza,"
+      "speech": "Veniamo ora al cuore di questo episodio: i metodi di pagamento nelle transazioni commerciali, in particolare internazionali, che si distinguono per diversi livelli di sicurezza,",
+      "p": 1
     },
     {
       "text": "costo e rapidità, ed è fondamentale saperli confrontare con precisione, perché è uno degli argomenti più gettonati all'orale.",
@@ -146,6 +252,16 @@
           54,
           74
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il primo metodo, il più semplice, è l'estratto conto,"
+        },
+        {
+          "lang": "en",
+          "text": "Statement of Account:"
+        }
       ]
     },
     {
@@ -168,7 +284,22 @@
           42,
           55
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il secondo metodo è il bonifico bancario,"
+        },
+        {
+          "lang": "en",
+          "text": "Bank Transfer:"
+        },
+        {
+          "lang": "it",
+          "text": "un trasferimento diretto di fondi tra conti correnti,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "spesso effettuato tramite il sistema internazionale SWIFT, che collega le banche di tutto il mondo permettendo trasferimenti sicuri e tracciabili.",
@@ -198,6 +329,20 @@
           185,
           196
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "ma che presuppone comunque un certo grado di fiducia reciproca tra le parti, dato che il pagamento avviene generalmente prima o dopo la consegna della merce, senza garanzie automatiche"
+        },
+        {
+          "lang": "en",
+          "text": "incorporate"
+        },
+        {
+          "lang": "it",
+          "text": "nella transazione stessa."
+        }
       ]
     },
     {
@@ -220,7 +365,26 @@
           49,
           65
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il terzo metodo è la tratta, o cambiale,"
+        },
+        {
+          "lang": "en",
+          "text": "Draft"
+        },
+        {
+          "lang": "it",
+          "text": "o"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of Exchange:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "un ordine scritto con cui una parte richiede a un'altra il pagamento di una somma determinata, che può essere a vista, sight draft,",
@@ -234,6 +398,16 @@
           119,
           130
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "un ordine scritto con cui una parte richiede a un'altra il pagamento di una somma determinata, che può essere a vista,"
+        },
+        {
+          "lang": "en",
+          "text": "sight draft,"
+        }
       ]
     },
     {
@@ -248,6 +422,20 @@
           78,
           88
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "cioè pagabile immediatamente alla presentazione, oppure a scadenza differita,"
+        },
+        {
+          "lang": "en",
+          "text": "term draft,"
+        },
+        {
+          "lang": "it",
+          "text": "cioè pagabile dopo un periodo di tempo concordato."
+        }
       ]
     },
     {
@@ -270,7 +458,18 @@
           96,
           112
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il quarto e ultimo metodo, quello con il massimo livello di sicurezza, è la lettera di credito,"
+        },
+        {
+          "lang": "en",
+          "text": "Letter of Credit:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "una garanzia di pagamento emessa dalla banca dell'importatore a favore dell'esportatore.",
@@ -298,6 +497,16 @@
           127,
           141
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la banca si impegna così a pagare l'esportatore non appena questi dimostri, attraverso documenti specifici — spesso proprio un"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of Lading,"
+        }
       ]
     },
     {
@@ -324,7 +533,8 @@
     },
     {
       "text": "Proviamo a fissare bene, come farebbe un insegnante in aula, la scala crescente di sicurezza tra questi quattro metodi:",
-      "speech": "Proviamo a fissare bene, come farebbe un insegnante in aula, la scala crescente di sicurezza tra questi quattro metodi:"
+      "speech": "Proviamo a fissare bene, come farebbe un insegnante in aula, la scala crescente di sicurezza tra questi quattro metodi:",
+      "p": 1
     },
     {
       "text": "lo Statement of Account offre il livello più basso di sicurezza, adatto solo a clienti fidati; il Bank Transfer offre un livello medio;",
@@ -342,6 +552,28 @@
           98,
           111
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "lo"
+        },
+        {
+          "lang": "en",
+          "text": "Statement of"
+        },
+        {
+          "lang": "it",
+          "text": "Account offre il livello più basso di sicurezza, adatto solo a clienti fidati; il"
+        },
+        {
+          "lang": "en",
+          "text": "Bank Transfer"
+        },
+        {
+          "lang": "it",
+          "text": "offre un livello medio;"
+        }
       ]
     },
     {
@@ -352,6 +584,20 @@
           3,
           8
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il"
+        },
+        {
+          "lang": "en",
+          "text": "Draft"
+        },
+        {
+          "lang": "it",
+          "text": "offre un livello medio-alto, formalizzando l'impegno di pagamento in un documento vincolante;"
+        }
       ]
     },
     {
@@ -366,11 +612,26 @@
           31,
           59
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e la"
+        },
+        {
+          "lang": "en",
+          "text": "Letter of Credit"
+        },
+        {
+          "lang": "it",
+          "text": "offre il livello massimo di sicurezza, perché sposta la garanzia di pagamento dalla parola del compratore alla solidità di un'intera banca."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: le banche offrono alle imprese conti correnti, finanziamenti, servizi di trade finance, cambio valuta e strumenti di gestione della liquidità, in un contesto di crescente accessibilità digitale.",
@@ -384,7 +645,22 @@
           80,
           93
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: le banche offrono alle imprese conti correnti, finanziamenti, servizi di"
+        },
+        {
+          "lang": "en",
+          "text": "trade finance,"
+        },
+        {
+          "lang": "it",
+          "text": "cambio valuta e strumenti di gestione della liquidità, in un contesto di crescente accessibilità digitale."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: lo Statement of Account è il metodo di pagamento più semplice, adatto a clienti abituali e fidati.",
@@ -402,7 +678,22 @@
           38,
           70
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: lo"
+        },
+        {
+          "lang": "en",
+          "text": "Statement of"
+        },
+        {
+          "lang": "it",
+          "text": "Account è il metodo di pagamento più semplice, adatto a clienti abituali e fidati."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il Bank Transfer offre sicurezza media tramite il sistema SWIFT, mentre il Draft formalizza l'impegno di pagamento in un documento scritto, a vista o a scadenza differita.",
@@ -424,7 +715,30 @@
           82,
           87
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: il"
+        },
+        {
+          "lang": "en",
+          "text": "Bank Transfer"
+        },
+        {
+          "lang": "it",
+          "text": "offre sicurezza media tramite il sistema SWIFT, mentre il"
+        },
+        {
+          "lang": "en",
+          "text": "Draft"
+        },
+        {
+          "lang": "it",
+          "text": "formalizza l'impegno di pagamento in un documento scritto, a vista o a scadenza differita."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: la Letter of Credit offre la massima sicurezza, spostando la garanzia di pagamento sulla banca dell'importatore, ed è particolarmente utile con nuovi partner commerciali o importi elevati.",
@@ -442,11 +756,27 @@
           37,
           54
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto: la"
+        },
+        {
+          "lang": "en",
+          "text": "Letter of Credit"
+        },
+        {
+          "lang": "it",
+          "text": "offre la massima sicurezza, spostando la garanzia di pagamento sulla banca dell'importatore, ed è particolarmente utile con nuovi partner commerciali o importi elevati."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intera UDA 1.",
-      "speech": "Con questo abbiamo completato l'intera UDA 1."
+      "speech": "Con questo abbiamo completato l'intera UDA 1.",
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio entriamo nella UDA 2, cominciando dalla Borsa valori: che cos'è, chi vi opera, e il confronto tra la Borsa di Londra e quella di New York.",
@@ -456,7 +786,18 @@
           151,
           159
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio entriamo nella UDA 2, cominciando dalla Borsa valori: che cosa è, chi vi opera, e il confronto tra la Borsa di Londra e quella di"
+        },
+        {
+          "lang": "en",
+          "text": "New York."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

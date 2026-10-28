@@ -16,7 +16,8 @@
           52,
           67
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Un foglio di calcolo, o foglio elettronico, è un'applicazione che permette di organizzare dati in tabelle ed eseguire calcoli automatici.",
@@ -26,7 +27,8 @@
           3,
           20
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Come Word e PowerPoint, che avete già incontrato lo scorso anno, anche Excel utilizza la barra multifunzione, organizzata in schede come Home, Inserisci, Formule e Dati.",
@@ -78,7 +80,8 @@
           96,
           111
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "è possibile inserire, eliminare, rinominare e riordinare i fogli a seconda delle esigenze.",
@@ -110,7 +113,8 @@
           138,
           181
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Un riferimento relativo, come A1, si adatta automaticamente quando la formula viene copiata in altre celle:",
@@ -150,7 +154,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste calcolare la somma dei valori contenuti nelle celle da A1 ad A5, quale formula digitereste nella cella del risultato?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste calcolare la somma dei valori contenuti nelle celle da A1 ad A5, quale formula digitereste nella cella del risultato?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste calcolare la somma dei valori contenuti nelle celle da A1 ad A5, quale formula digitereste nella cella del risultato?",
+      "p": 1
     },
     {
       "text": "La risposta è semplice ma va scritta con precisione: uguale SOMMA, apri parentesi, A1 due punti A5, chiudi parentesi, cioè =SOMMA(A1:A5).",
@@ -172,7 +177,8 @@
     },
     {
       "text": "Vale la pena notare, prima di chiudere, come cartella di lavoro e foglio di lavoro non siano la stessa cosa, anche se nel linguaggio comune si tende a usarli in modo intercambiabile:",
-      "speech": "Vale la pena notare, prima di chiudere, come cartella di lavoro e foglio di lavoro non siano la stessa cosa, anche se nel linguaggio comune si tende a usarli in modo intercambiabile:"
+      "speech": "Vale la pena notare, prima di chiudere, come cartella di lavoro e foglio di lavoro non siano la stessa cosa, anche se nel linguaggio comune si tende a usarli in modo intercambiabile:",
+      "p": 1
     },
     {
       "text": "la cartella di lavoro è il file nel suo insieme, mentre i fogli di lavoro sono le singole schede che quel file può contenere, anche numerose, ciascuna con le proprie tabelle e i propri calcoli, ma tutte salvate insieme in un unico file.",
@@ -190,7 +196,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: Excel organizza i dati in una griglia di celle, identificate da colonna e riga, raggruppabili in intervalli, e utilizza la barra multifunzione come Word e PowerPoint.",
@@ -208,7 +215,8 @@
           104,
           114
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: un file di Excel è una cartella di lavoro che può contenere più fogli di lavoro, e ogni formula inizia con il simbolo uguale e può contenere funzioni come SOMMA o MEDIA.",
@@ -226,7 +234,8 @@
           73,
           88
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: i riferimenti di cella possono essere relativi, che si adattano quando la formula viene copiata, oppure assoluti, fissati con il simbolo del dollaro, che restano invariati.",
@@ -244,11 +253,13 @@
           111,
           119
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo come organizzare i dati in tabelle vere e proprie e come rappresentarli con i grafici.",
-      "speech": "Nel prossimo episodio vediamo come organizzare i dati in tabelle vere e proprie e come rappresentarli con i grafici."
+      "speech": "Nel prossimo episodio vediamo come organizzare i dati in tabelle vere e proprie e come rappresentarli con i grafici.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi completiamo il quadro della UDA 2 con due strumenti di promozione molto amati dai commissari:",
-      "speech": "Oggi completiamo il quadro della UDA 2 con due strumenti di promozione molto amati dai commissari:"
+      "speech": "Oggi completiamo il quadro della UDA 2 con due strumenti di promozione molto amati dai commissari:",
+      "p": 1
     },
     {
       "text": "il modello AIDA per analizzare l'efficacia di un messaggio pubblicitario, e le fiere commerciali come occasione di promozione e di ricerca di mercato allo stesso tempo.",
@@ -38,7 +39,22 @@
           29,
           40
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dalla pubblicità,"
+        },
+        {
+          "lang": "en",
+          "text": "advertising:"
+        },
+        {
+          "lang": "it",
+          "text": "lo strumento attraverso cui un'impresa comunica al pubblico i pregi di un prodotto o di un servizio, con l'obiettivo dichiarato di persuadere il consumatore all'acquisto."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Non tutta la pubblicità funziona allo stesso modo, naturalmente, ed è proprio per analizzare che cosa renda efficace un messaggio pubblicitario che è stato elaborato,",
@@ -62,7 +78,8 @@
           91,
           103
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "La prima fase è Attention, l'attenzione: il messaggio deve prima di tutto catturare lo sguardo o l'ascolto del destinatario,",
@@ -76,6 +93,20 @@
           27,
           39
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La prima fase è"
+        },
+        {
+          "lang": "en",
+          "text": "Attention,"
+        },
+        {
+          "lang": "it",
+          "text": "l'attenzione: il messaggio deve prima di tutto catturare lo sguardo o l'ascolto del destinatario,"
+        }
       ]
     },
     {
@@ -94,6 +125,20 @@
           28,
           39
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La seconda fase è"
+        },
+        {
+          "lang": "en",
+          "text": "Interest,"
+        },
+        {
+          "lang": "it",
+          "text": "l'interesse: catturata l'attenzione iniziale, il messaggio deve trattenere il destinatario abbastanza a lungo da comunicargli qualcosa di rilevante sul prodotto,"
+        }
       ]
     },
     {
@@ -112,7 +157,22 @@
           24,
           36
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La terza fase è"
+        },
+        {
+          "lang": "en",
+          "text": "Desire,"
+        },
+        {
+          "lang": "it",
+          "text": "il desiderio: non basta suscitare interesse intellettuale, occorre trasformarlo in un desiderio più profondo ed emotivo di possedere quel prodotto o di usufruire di quel servizio,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "spesso collegandolo a un'aspirazione, a uno stile di vita, a un'immagine di sé che il consumatore vorrebbe proiettare.",
@@ -146,6 +206,28 @@
           219,
           240
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La quarta e ultima fase è"
+        },
+        {
+          "lang": "en",
+          "text": "Action,"
+        },
+        {
+          "lang": "it",
+          "text": "l'azione: il messaggio deve infine spingere concretamente il destinatario a compiere l'acquisto, tipicamente attraverso una"
+        },
+        {
+          "lang": "en",
+          "text": "call to action"
+        },
+        {
+          "lang": "it",
+          "text": "esplicita — «acquista ora», «scopri di più», «visita il nostro sito» —"
+        }
       ]
     },
     {
@@ -154,7 +236,8 @@
     },
     {
       "text": "Fermatevi un momento su un punto che vale la pena saper argomentare con un esempio concreto,",
-      "speech": "Fermatevi un momento su un punto che vale la pena saper argomentare con un esempio concreto,"
+      "speech": "Fermatevi un momento su un punto che vale la pena saper argomentare con un esempio concreto,",
+      "p": 1
     },
     {
       "text": "perché è esattamente il tipo di applicazione pratica che rende una risposta d'esame memorabile: pensate a uno spot televisivo per un profumo di lusso.",
@@ -172,6 +255,24 @@
           96,
           106
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "L'Attention"
+        },
+        {
+          "lang": "it",
+          "text": "viene catturata da immagini di grande impatto visivo ed estetico nei primi secondi;"
+        },
+        {
+          "lang": "en",
+          "text": "l'Interest"
+        },
+        {
+          "lang": "it",
+          "text": "viene generato mostrando ingredienti pregiati o un'ambientazione esclusiva;"
+        }
       ]
     },
     {
@@ -182,6 +283,20 @@
           3,
           9
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il"
+        },
+        {
+          "lang": "en",
+          "text": "Desire"
+        },
+        {
+          "lang": "it",
+          "text": "viene costruito associando il prodotto a un'idea di eleganza, di successo, di seduzione;"
+        }
       ]
     },
     {
@@ -196,6 +311,28 @@
           89,
           94
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "l'Action"
+        },
+        {
+          "lang": "it",
+          "text": "viene infine sollecitata mostrando il prodotto in bella vista con il nome del"
+        },
+        {
+          "lang": "en",
+          "text": "brand,"
+        },
+        {
+          "lang": "it",
+          "text": "magari accompagnato dall'indicazione dei punti vendita."
+        }
       ]
     },
     {
@@ -214,7 +351,22 @@
           37,
           48
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo ora alle fiere commerciali,"
+        },
+        {
+          "lang": "en",
+          "text": "trade fairs:"
+        },
+        {
+          "lang": "it",
+          "text": "eventi periodici, spesso annuali, in cui le imprese di un determinato settore espongono i propri prodotti in un unico luogo fisico,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "incontrando in un solo momento un gran numero di potenziali clienti, fornitori e partner commerciali che sarebbe molto più costoso e dispersivo raggiungere singolarmente.",
@@ -266,6 +418,24 @@
           153,
           158
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "sulle tendenze del settore e sulle reazioni dirette dei visitatori, spesso attraverso questionari di mercato,"
+        },
+        {
+          "lang": "en",
+          "text": "marketing questionnaires,"
+        },
+        {
+          "lang": "it",
+          "text": "distribuiti agli"
+        },
+        {
+          "lang": "en",
+          "text": "stand."
+        }
       ]
     },
     {
@@ -280,7 +450,18 @@
           128,
           147
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un elemento sempre più importante nell'organizzazione di una fiera commerciale contemporanea è il sito web dedicato all'evento,"
+        },
+        {
+          "lang": "en",
+          "text": "trade fair web site:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "uno strumento che permette agli espositori di registrarsi, ai visitatori di pianificare la propria visita consultando in anticipo l'elenco degli espositori presenti,",
@@ -292,7 +473,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché un'impresa dovrebbe investire sia in pubblicità sia in fiere commerciali, invece di scegliere uno solo dei due strumenti, come rispondereste?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché un'impresa dovrebbe investire sia in pubblicità sia in fiere commerciali, invece di scegliere uno solo dei due strumenti, come rispondereste?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché un'impresa dovrebbe investire sia in pubblicità sia in fiere commerciali, invece di scegliere uno solo dei due strumenti, come rispondereste?",
+      "p": 1
     },
     {
       "text": "Una buona risposta potrebbe osservare che la pubblicità, soprattutto attraverso i mezzi di massa, raggiunge un pubblico ampio ma generico, costruendo consapevolezza di marca su larga scala;",
@@ -318,7 +500,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il modello AIDA descrive le quattro fasi di un messaggio pubblicitario efficace — Attention, Interest, Desire, Action —",
@@ -336,7 +519,18 @@
           89,
           124
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il modello AIDA descrive le quattro fasi di un messaggio pubblicitario efficace —"
+        },
+        {
+          "lang": "en",
+          "text": "Attention, Interest, Desire, Action —"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "in una progressione logica dall'attenzione iniziale fino alla decisione d'acquisto.",
@@ -358,7 +552,22 @@
           57,
           73
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: le fiere commerciali,"
+        },
+        {
+          "lang": "en",
+          "text": "trade fairs,"
+        },
+        {
+          "lang": "it",
+          "text": "svolgono una duplice funzione di promozione e di ricerca di mercato, permettendo un contatto diretto con un pubblico specializzato."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il sito web dedicato alla fiera prolunga l'impatto dell'evento ben oltre la sua durata fisica.",
@@ -372,11 +581,13 @@
           10,
           38
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intera UDA 2.",
-      "speech": "Con questo abbiamo completato l'intera UDA 2."
+      "speech": "Con questo abbiamo completato l'intera UDA 2.",
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio entriamo in un tema molto attuale: il Fair Trade, la microfinanza e la banca etica, con un approfondimento sulla Grameen Foundation e su Muhammad Yunus.",
@@ -390,7 +601,30 @@
           143,
           153
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio entriamo in un tema molto attuale: il"
+        },
+        {
+          "lang": "en",
+          "text": "Fair Trade,"
+        },
+        {
+          "lang": "it",
+          "text": "la microfinanza e la banca etica, con un approfondimento sulla Grameen"
+        },
+        {
+          "lang": "en",
+          "text": "Foundation"
+        },
+        {
+          "lang": "it",
+          "text": "e su Muhammad Yunus."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

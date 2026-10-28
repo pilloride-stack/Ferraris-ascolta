@@ -16,7 +16,8 @@
           44,
           65
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "le situazioni concrete in cui dovrete saper usare l'inglese in modo naturale, parlando di voi stessi, della vostra famiglia, delle vostre attività quotidiane e dei vostri progetti futuri.",
@@ -40,7 +41,22 @@
           47,
           74
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dal fornire informazioni personali,"
+        },
+        {
+          "lang": "en",
+          "text": "giving personal information,"
+        },
+        {
+          "lang": "it",
+          "text": "la funzione più elementare ma anche quella con cui quasi certamente si aprirà il vostro colloquio d'esame."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Le strutture di base sono semplici, ma vale la pena costruirle con naturalezza, senza esitazioni: «My name is...», mi chiamo, seguito da «I'm... years old», ho... anni;",
@@ -54,6 +70,28 @@
           138,
           154
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le strutture di base sono semplici, ma vale la pena costruirle con naturalezza, senza esitazioni: «"
+        },
+        {
+          "lang": "en",
+          "text": "My name is...»,"
+        },
+        {
+          "lang": "it",
+          "text": "mi chiamo, seguito da «"
+        },
+        {
+          "lang": "en",
+          "text": "I'm... years old»,"
+        },
+        {
+          "lang": "it",
+          "text": "ho... anni;"
+        }
       ]
     },
     {
@@ -76,6 +114,36 @@
           163,
           170
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "«I come"
+        },
+        {
+          "lang": "en",
+          "text": "from...»"
+        },
+        {
+          "lang": "it",
+          "text": "oppure «"
+        },
+        {
+          "lang": "en",
+          "text": "I live in...»,"
+        },
+        {
+          "lang": "it",
+          "text": "per indicare la propria provenienza o il luogo in cui si vive, con una distinzione utile da ricordare — come"
+        },
+        {
+          "lang": "en",
+          "text": "from"
+        },
+        {
+          "lang": "it",
+          "text": "indica l'origine, la nazionalità o la città di nascita,"
+        }
       ]
     },
     {
@@ -90,6 +158,20 @@
           25,
           43
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "mentre"
+        },
+        {
+          "lang": "en",
+          "text": "live"
+        },
+        {
+          "lang": "it",
+          "text": "in indica il luogo di residenza attuale, che può anche essere diverso;"
+        }
       ]
     },
     {
@@ -104,6 +186,24 @@
           44,
           55
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I'm a student»,"
+        },
+        {
+          "lang": "it",
+          "text": "sono uno studente, oppure «"
+        },
+        {
+          "lang": "en",
+          "text": "I work as a...»,"
+        },
+        {
+          "lang": "it",
+          "text": "lavoro come..., per chi già svolge un'attività;"
+        }
       ]
     },
     {
@@ -118,6 +218,28 @@
           37,
           54
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e infine «"
+        },
+        {
+          "lang": "en",
+          "text": "My hobbies are...»"
+        },
+        {
+          "lang": "it",
+          "text": "oppure «"
+        },
+        {
+          "lang": "en",
+          "text": "I'm interested in...»,"
+        },
+        {
+          "lang": "it",
+          "text": "per parlare dei propri interessi e passatempi."
+        }
       ]
     },
     {
@@ -140,7 +262,30 @@
           173,
           183
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo a"
+        },
+        {
+          "lang": "en",
+          "text": "talking about the family tree,"
+        },
+        {
+          "lang": "it",
+          "text": "parlare del proprio albero genealogico, una funzione che richiede soprattutto un lessico specifico di parentela, unito a strutture"
+        },
+        {
+          "lang": "en",
+          "text": "possessive"
+        },
+        {
+          "lang": "it",
+          "text": "per descrivere i legami familiari."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Il vocabolario di base comprende parents, i genitori, mother e father, siblings, i fratelli e le sorelle nel loro insieme, brother e sister, grandparents, i nonni, grandmother e grandfather, e poi il lessico della famiglia allargata:",
@@ -178,6 +323,68 @@
           200,
           232
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il vocabolario di base comprende"
+        },
+        {
+          "lang": "en",
+          "text": "parents,"
+        },
+        {
+          "lang": "it",
+          "text": "i genitori,"
+        },
+        {
+          "lang": "en",
+          "text": "mother"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "father, siblings,"
+        },
+        {
+          "lang": "it",
+          "text": "i fratelli e le sorelle nel loro insieme,"
+        },
+        {
+          "lang": "en",
+          "text": "brother"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "sister, grandparents,"
+        },
+        {
+          "lang": "it",
+          "text": "i nonni,"
+        },
+        {
+          "lang": "en",
+          "text": "grandmother"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "grandfather,"
+        },
+        {
+          "lang": "it",
+          "text": "e poi il lessico della famiglia allargata:"
+        }
       ]
     },
     {
@@ -200,6 +407,32 @@
           98,
           121
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "uncle,"
+        },
+        {
+          "lang": "it",
+          "text": "lo zio,"
+        },
+        {
+          "lang": "en",
+          "text": "aunt,"
+        },
+        {
+          "lang": "it",
+          "text": "la zia,"
+        },
+        {
+          "lang": "en",
+          "text": "cousin,"
+        },
+        {
+          "lang": "it",
+          "text": "il cugino o la cugina — attenzione, in inglese questa parola non distingue il genere, a differenza dell'italiano che ha \"cugino\" e \"cugina\" —"
+        }
       ]
     },
     {
@@ -214,6 +447,24 @@
           52,
           57
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "nephew,"
+        },
+        {
+          "lang": "it",
+          "text": "il nipote (figlio di fratello o sorella), e"
+        },
+        {
+          "lang": "en",
+          "text": "niece,"
+        },
+        {
+          "lang": "it",
+          "text": "la nipote nello stesso senso."
+        }
       ]
     },
     {
@@ -228,6 +479,24 @@
           128,
           140
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le strutture principali per presentare i membri della propria famiglia sono «"
+        },
+        {
+          "lang": "en",
+          "text": "This is my...»,"
+        },
+        {
+          "lang": "it",
+          "text": "seguito dal grado di parentela, e «"
+        },
+        {
+          "lang": "en",
+          "text": "He/She is my...»."
+        }
       ]
     },
     {
@@ -246,7 +515,22 @@
           14,
           46
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Veniamo ora a"
+        },
+        {
+          "lang": "en",
+          "text": "talking about present activities,"
+        },
+        {
+          "lang": "it",
+          "text": "parlare di attività in corso di svolgimento nel momento presente:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "qui, come avrete già intuito dal collegamento con l'episodio dedicato ai tempi verbali, la struttura grammaticale di riferimento è il present continuous,",
@@ -256,6 +540,16 @@
           134,
           152
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "qui, come avrete già intuito dal collegamento con l'episodio dedicato ai tempi verbali, la struttura grammaticale di riferimento è il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous,"
+        }
       ]
     },
     {
@@ -274,6 +568,36 @@
           113,
           122
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "spesso accompagnata da espressioni temporali come"
+        },
+        {
+          "lang": "en",
+          "text": "right now,"
+        },
+        {
+          "lang": "it",
+          "text": "proprio adesso,"
+        },
+        {
+          "lang": "en",
+          "text": "at the moment,"
+        },
+        {
+          "lang": "it",
+          "text": "in questo momento, o"
+        },
+        {
+          "lang": "en",
+          "text": "currently,"
+        },
+        {
+          "lang": "it",
+          "text": "attualmente."
+        }
       ]
     },
     {
@@ -284,6 +608,20 @@
           55,
           83
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le domande e risposte tipiche di questa funzione sono «"
+        },
+        {
+          "lang": "en",
+          "text": "What are you doing right now?»,"
+        },
+        {
+          "lang": "it",
+          "text": "che cosa stai facendo proprio ora?,"
+        }
       ]
     },
     {
@@ -298,6 +636,28 @@
           87,
           106
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "a cui si può rispondere con «"
+        },
+        {
+          "lang": "en",
+          "text": "I'm studying», «I'm having lunch»,"
+        },
+        {
+          "lang": "it",
+          "text": "sto pranzando, oppure «"
+        },
+        {
+          "lang": "en",
+          "text": "I'm watching a film»,"
+        },
+        {
+          "lang": "it",
+          "text": "sto guardando un film."
+        }
       ]
     },
     {
@@ -308,7 +668,22 @@
           11,
           37
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo a"
+        },
+        {
+          "lang": "en",
+          "text": "talking about future plans,"
+        },
+        {
+          "lang": "it",
+          "text": "parlare di programmi futuri:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "qui la struttura di riferimento è tipicamente il present continuous con valore di futuro, che abbiamo già incontrato nell'episodio sui tempi verbali,",
@@ -318,6 +693,20 @@
           49,
           67
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "qui la struttura di riferimento è tipicamente il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous"
+        },
+        {
+          "lang": "it",
+          "text": "con valore di futuro, che abbiamo già incontrato nell'episodio sui tempi verbali,"
+        }
       ]
     },
     {
@@ -340,6 +729,36 @@
           159,
           171
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "accompagnato da espressioni temporali che rendono chiaro che ci si riferisce al futuro e non al presente —"
+        },
+        {
+          "lang": "en",
+          "text": "tomorrow,"
+        },
+        {
+          "lang": "it",
+          "text": "domani,"
+        },
+        {
+          "lang": "en",
+          "text": "next week,"
+        },
+        {
+          "lang": "it",
+          "text": "la prossima settimana,"
+        },
+        {
+          "lang": "en",
+          "text": "this weekend,"
+        },
+        {
+          "lang": "it",
+          "text": "questo fine settimana."
+        }
       ]
     },
     {
@@ -354,6 +773,24 @@
           79,
           119
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«What are you doing next weekend?»,"
+        },
+        {
+          "lang": "it",
+          "text": "che cosa fai il prossimo fine settimana?, «"
+        },
+        {
+          "lang": "en",
+          "text": "I'm visiting my grandparents next Sunday»,"
+        },
+        {
+          "lang": "it",
+          "text": "domenica prossima vado a trovare i miei nonni."
+        }
       ]
     },
     {
@@ -364,6 +801,20 @@
           116,
           122
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Notate che qui, formalmente, la frase è identica nella struttura a quella che useremmo per un'azione in corso ora —"
+        },
+        {
+          "lang": "en",
+          "text": "is/are"
+        },
+        {
+          "lang": "it",
+          "text": "più ing —"
+        }
       ]
     },
     {
@@ -378,6 +829,20 @@
           35,
           46
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "ed è solo l'espressione temporale,"
+        },
+        {
+          "lang": "en",
+          "text": "next Sunday,"
+        },
+        {
+          "lang": "it",
+          "text": "a chiarire che si tratta di un piano futuro e non di un'azione presente:"
+        }
       ]
     },
     {
@@ -392,7 +857,22 @@
           16,
           51
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Concludiamo con"
+        },
+        {
+          "lang": "en",
+          "text": "making predictions about the future,"
+        },
+        {
+          "lang": "it",
+          "text": "fare previsioni sul futuro:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "qui la struttura tipica è will, spesso accompagnata da espressioni come I think, penso che, probably, probabilmente, o maybe, forse, che attenuano il grado di certezza della previsione.",
@@ -414,6 +894,44 @@
           119,
           124
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "qui la struttura tipica è"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso accompagnata da espressioni come I"
+        },
+        {
+          "lang": "en",
+          "text": "think,"
+        },
+        {
+          "lang": "it",
+          "text": "penso che,"
+        },
+        {
+          "lang": "en",
+          "text": "probably,"
+        },
+        {
+          "lang": "it",
+          "text": "probabilmente, o"
+        },
+        {
+          "lang": "en",
+          "text": "maybe,"
+        },
+        {
+          "lang": "it",
+          "text": "forse, che attenuano il grado di certezza della previsione."
+        }
       ]
     },
     {
@@ -428,11 +946,30 @@
           60,
           91
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I think it will rain tomorrow»,"
+        },
+        {
+          "lang": "it",
+          "text": "penso che domani pioverà; «"
+        },
+        {
+          "lang": "en",
+          "text": "She will probably pass the exam»,"
+        },
+        {
+          "lang": "it",
+          "text": "probabilmente supererà l'esame."
+        }
       ]
     },
     {
       "text": "Fermatevi un momento su questo collegamento, perché unisce grammatica e funzione in modo molto naturale:",
-      "speech": "Fermatevi un momento su questo collegamento, perché unisce grammatica e funzione in modo molto naturale:"
+      "speech": "Fermatevi un momento su questo collegamento, perché unisce grammatica e funzione in modo molto naturale:",
+      "p": 1
     },
     {
       "text": "will esprime qui una previsione senza prove concrete, esattamente come abbiamo definito questo modale nell'episodio dedicato ai verbi base — non sto guardando fuori dalla finestra e vedendo nuvole nere,",
@@ -446,6 +983,16 @@
           21,
           52
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "will"
+        },
+        {
+          "lang": "it",
+          "text": "esprime qui una previsione senza prove concrete, esattamente come abbiamo definito questo modale nell'episodio dedicato ai verbi base — non sto guardando fuori dalla finestra e vedendo nuvole nere,"
+        }
       ]
     },
     {
@@ -454,7 +1001,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio finale, come farebbe un insegnante prima di un test orale:",
-      "speech": "Proviamo un piccolo esercizio finale, come farebbe un insegnante prima di un test orale:"
+      "speech": "Proviamo un piccolo esercizio finale, come farebbe un insegnante prima di un test orale:",
+      "p": 1
     },
     {
       "text": "provate a costruire, mentalmente o ad alta voce, un breve monologo di presentazione che unisca tutte le funzioni di oggi — chi siete,",
@@ -470,7 +1018,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: dare informazioni personali richiede strutture semplici al present simple, come my name is, I come from, I'm interested in.",
@@ -492,7 +1041,34 @@
           106,
           129
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: dare informazioni personali richiede strutture semplici al"
+        },
+        {
+          "lang": "en",
+          "text": "present simple,"
+        },
+        {
+          "lang": "it",
+          "text": "come"
+        },
+        {
+          "lang": "en",
+          "text": "my name is,"
+        },
+        {
+          "lang": "it",
+          "text": "I come"
+        },
+        {
+          "lang": "en",
+          "text": "from, I'm interested in."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: parlare della famiglia richiede un lessico specifico di parentela unito a strutture possessive.",
@@ -510,7 +1086,18 @@
           93,
           103
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: parlare della famiglia richiede un lessico specifico di parentela unito a strutture"
+        },
+        {
+          "lang": "en",
+          "text": "possessive."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: parlare di attività presenti richiede il present continuous, mentre parlare di piani futuri richiede spesso lo stesso tempo verbale accompagnato da un'espressione temporale futura.",
@@ -528,7 +1115,22 @@
           158,
           186
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: parlare di attività presenti richiede il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous,"
+        },
+        {
+          "lang": "it",
+          "text": "mentre parlare di piani futuri richiede spesso lo stesso tempo verbale accompagnato da un'espressione temporale futura."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: fare previsioni richiede will, spesso rafforzato o attenuato da espressioni come I think o probably.",
@@ -550,11 +1152,39 @@
           99,
           107
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto: fare previsioni richiede"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso rafforzato o attenuato da espressioni come I"
+        },
+        {
+          "lang": "en",
+          "text": "think"
+        },
+        {
+          "lang": "it",
+          "text": "o"
+        },
+        {
+          "lang": "en",
+          "text": "probably."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio passiamo al programma di Classe Seconda, cominciando dal ripasso dei tempi già visti e da due nuovi tempi del passato:",
-      "speech": "Nel prossimo episodio passiamo al programma di Classe Seconda, cominciando dal ripasso dei tempi già visti e da due nuovi tempi del passato:"
+      "speech": "Nel prossimo episodio passiamo al programma di Classe Seconda, cominciando dal ripasso dei tempi già visti e da due nuovi tempi del passato:",
+      "p": 1
     },
     {
       "text": "il past continuous e il past perfect, che ci permetteranno di raccontare eventi passati con una precisione narrativa maggiore.",
@@ -568,6 +1198,28 @@
           24,
           36
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il"
+        },
+        {
+          "lang": "en",
+          "text": "past continuous"
+        },
+        {
+          "lang": "it",
+          "text": "e il"
+        },
+        {
+          "lang": "en",
+          "text": "past perfect,"
+        },
+        {
+          "lang": "it",
+          "text": "che ci permetteranno di raccontare eventi passati con una precisione narrativa maggiore."
+        }
       ]
     },
     {

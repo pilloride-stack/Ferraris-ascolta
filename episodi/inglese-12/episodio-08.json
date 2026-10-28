@@ -12,11 +12,22 @@
           79,
           97
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto i sostantivi, i dimostrativi e la struttura"
+        },
+        {
+          "lang": "en",
+          "text": "there is/there are."
+        }
       ]
     },
     {
       "text": "Oggi completiamo il programma grammaticale di Classe Prima con tre argomenti distinti ma altrettanto importanti:",
-      "speech": "Oggi completiamo il programma grammaticale di Classe Prima con tre argomenti distinti ma altrettanto importanti:"
+      "speech": "Oggi completiamo il programma grammaticale di Classe Prima con tre argomenti distinti ma altrettanto importanti:",
+      "p": 1
     },
     {
       "text": "i verbi modali di base can e will, i quantificatori, e i comparativi e superlativi degli aggettivi.",
@@ -42,11 +53,34 @@
           57,
           82
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i verbi modali di base"
+        },
+        {
+          "lang": "en",
+          "text": "can"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "i quantificatori, e i comparativi e superlativi degli aggettivi."
+        }
       ]
     },
     {
       "text": "Cominciamo dai verbi modali.",
-      "speech": "Cominciamo dai verbi modali."
+      "speech": "Cominciamo dai verbi modali.",
+      "p": 1
     },
     {
       "text": "Prima di entrare nel merito di can e will, è fondamentale capire una caratteristica strutturale che accomuna tutti i verbi modali dell'inglese, e che vi eviterà moltissimi errori:",
@@ -60,6 +94,28 @@
           37,
           41
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Prima di entrare nel merito di"
+        },
+        {
+          "lang": "en",
+          "text": "can"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "è fondamentale capire una caratteristica strutturale che accomuna tutti i verbi modali dell'inglese, e che vi eviterà moltissimi errori:"
+        }
       ]
     },
     {
@@ -74,6 +130,16 @@
           164,
           166
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "sono verbi ausiliari che non si coniugano, cioè non prendono mai la s alla terza persona singolare, e sono sempre seguiti dall'infinito del verbo principale senza"
+        },
+        {
+          "lang": "en",
+          "text": "to."
+        }
       ]
     },
     {
@@ -100,6 +166,52 @@
           85,
           87
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Diciamo dunque «"
+        },
+        {
+          "lang": "en",
+          "text": "she can swim»,"
+        },
+        {
+          "lang": "it",
+          "text": "non «"
+        },
+        {
+          "lang": "en",
+          "text": "she cans swims»:"
+        },
+        {
+          "lang": "it",
+          "text": "nessuna s su"
+        },
+        {
+          "lang": "en",
+          "text": "can,"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "swim"
+        },
+        {
+          "lang": "it",
+          "text": "senza"
+        },
+        {
+          "lang": "en",
+          "text": "to"
+        },
+        {
+          "lang": "it",
+          "text": "davanti."
+        }
       ]
     },
     {
@@ -114,6 +226,28 @@
           78,
           82
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È una regola che vale per tutti i modali che incontrerete, non solo per"
+        },
+        {
+          "lang": "en",
+          "text": "can"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "quindi conviene fissarla bene fin da subito."
+        }
       ]
     },
     {
@@ -132,7 +266,26 @@
           50,
           60
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Can"
+        },
+        {
+          "lang": "it",
+          "text": "esprime capacità o possibilità nel presente: «"
+        },
+        {
+          "lang": "en",
+          "text": "I can swim»"
+        },
+        {
+          "lang": "it",
+          "text": "significa che sono fisicamente in grado di nuotare, ho questa capacità."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "La sua negazione, can't (o cannot, nella forma più formale), esprime l'incapacità o l'impossibilità: «I can't swim», non so nuotare.",
@@ -158,6 +311,44 @@
           121,
           123
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La sua negazione,"
+        },
+        {
+          "lang": "en",
+          "text": "can't ("
+        },
+        {
+          "lang": "it",
+          "text": "o"
+        },
+        {
+          "lang": "en",
+          "text": "cannot,"
+        },
+        {
+          "lang": "it",
+          "text": "nella forma più formale), esprime l'incapacità o l'impossibilità: «"
+        },
+        {
+          "lang": "en",
+          "text": "I can't swim»,"
+        },
+        {
+          "lang": "it",
+          "text": "non"
+        },
+        {
+          "lang": "en",
+          "text": "so"
+        },
+        {
+          "lang": "it",
+          "text": "nuotare."
+        }
       ]
     },
     {
@@ -172,6 +363,16 @@
           26,
           32
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Will,"
+        },
+        {
+          "lang": "it",
+          "text": "invece, riguarda il futuro, ed esprime tre sfumature diverse che è utile distinguere fin da questo primo incontro con il verbo,"
+        }
       ]
     },
     {
@@ -204,6 +405,16 @@
           1,
           16
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I will help you»"
+        },
+        {
+          "lang": "it",
+          "text": "può essere, a seconda del contesto, una decisione istantanea — mi offro di aiutarti proprio ora, mentre ne parliamo — oppure una promessa."
+        }
       ]
     },
     {
@@ -222,11 +433,42 @@
           96,
           115
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La sua negazione,"
+        },
+        {
+          "lang": "en",
+          "text": "won't,"
+        },
+        {
+          "lang": "it",
+          "text": "contrazione di"
+        },
+        {
+          "lang": "en",
+          "text": "will not,"
+        },
+        {
+          "lang": "it",
+          "text": "nega semplicemente questa intenzione futura: «"
+        },
+        {
+          "lang": "en",
+          "text": "I won't tell anyone»,"
+        },
+        {
+          "lang": "it",
+          "text": "non lo dirò a nessuno."
+        }
       ]
     },
     {
       "text": "Passiamo ora ai quantificatori, che indicano quantità approssimative o precise, e che è fondamentale saper scegliere correttamente a seconda del tipo di frase e del tipo di nome.",
-      "speech": "Passiamo ora ai quantificatori, che indicano quantità approssimative o precise, e che è fondamentale saper scegliere correttamente a seconda del tipo di frase e del tipo di nome."
+      "speech": "Passiamo ora ai quantificatori, che indicano quantità approssimative o precise, e che è fondamentale saper scegliere correttamente a seconda del tipo di frase e del tipo di nome.",
+      "p": 1
     },
     {
       "text": "Some si usa tipicamente nelle frasi affermative, sia con nomi numerabili sia con nomi non numerabili: «I have some money», ho un po' di soldi.",
@@ -244,6 +486,24 @@
           103,
           120
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Some"
+        },
+        {
+          "lang": "it",
+          "text": "si usa tipicamente nelle frasi affermative, sia con nomi numerabili sia con nomi non numerabili: «"
+        },
+        {
+          "lang": "en",
+          "text": "I have some money»,"
+        },
+        {
+          "lang": "it",
+          "text": "ho un po' di soldi."
+        }
       ]
     },
     {
@@ -266,6 +526,32 @@
           97,
           118
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Any"
+        },
+        {
+          "lang": "it",
+          "text": "si usa invece nelle frasi negative e interrogative: «"
+        },
+        {
+          "lang": "en",
+          "text": "I don't have any money»,"
+        },
+        {
+          "lang": "it",
+          "text": "non ho soldi; «"
+        },
+        {
+          "lang": "en",
+          "text": "Do you have any money?»,"
+        },
+        {
+          "lang": "it",
+          "text": "hai dei soldi?"
+        }
       ]
     },
     {
@@ -280,6 +566,28 @@
           56,
           59
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Notate che questa distinzione —"
+        },
+        {
+          "lang": "en",
+          "text": "some"
+        },
+        {
+          "lang": "it",
+          "text": "per l'affermativa,"
+        },
+        {
+          "lang": "en",
+          "text": "any"
+        },
+        {
+          "lang": "it",
+          "text": "per la negativa e l'interrogativa —"
+        }
       ]
     },
     {
@@ -302,7 +610,30 @@
           104,
           130
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Per quanto riguarda le quantità più specifiche,"
+        },
+        {
+          "lang": "en",
+          "text": "much"
+        },
+        {
+          "lang": "it",
+          "text": "si usa esclusivamente con i nomi non numerabili — «"
+        },
+        {
+          "lang": "en",
+          "text": "How much water do you need?»,"
+        },
+        {
+          "lang": "it",
+          "text": "quanta acqua ti serve? —"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "mentre many si usa esclusivamente con i nomi numerabili plurali — «How many books do you have?», quanti libri hai?",
@@ -320,6 +651,28 @@
           67,
           93
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "mentre"
+        },
+        {
+          "lang": "en",
+          "text": "many"
+        },
+        {
+          "lang": "it",
+          "text": "si usa esclusivamente con i nomi numerabili plurali — «"
+        },
+        {
+          "lang": "en",
+          "text": "How many books do you have?»,"
+        },
+        {
+          "lang": "it",
+          "text": "quanti libri hai?"
+        }
       ]
     },
     {
@@ -338,6 +691,24 @@
           66,
           89
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "A lot of,"
+        },
+        {
+          "lang": "it",
+          "text": "o la forma equivalente"
+        },
+        {
+          "lang": "en",
+          "text": "lots of,"
+        },
+        {
+          "lang": "it",
+          "text": "si può invece usare con entrambi i tipi di nome, soprattutto nelle frasi affermative:"
+        }
       ]
     },
     {
@@ -352,6 +723,24 @@
           27,
           48
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I have a lot of books»"
+        },
+        {
+          "lang": "it",
+          "text": "e «"
+        },
+        {
+          "lang": "en",
+          "text": "I have a lot of water»"
+        },
+        {
+          "lang": "it",
+          "text": "sono entrambe corrette."
+        }
       ]
     },
     {
@@ -370,6 +759,28 @@
           79,
           97
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Esistono infine a"
+        },
+        {
+          "lang": "en",
+          "text": "little"
+        },
+        {
+          "lang": "it",
+          "text": "e a"
+        },
+        {
+          "lang": "en",
+          "text": "few,"
+        },
+        {
+          "lang": "it",
+          "text": "che indicano una piccola quantità ma con una sfumatura positiva:"
+        }
       ]
     },
     {
@@ -384,6 +795,24 @@
           45,
           65
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "a little"
+        },
+        {
+          "lang": "it",
+          "text": "si usa con i nomi non numerabili — «"
+        },
+        {
+          "lang": "en",
+          "text": "I have a little time»,"
+        },
+        {
+          "lang": "it",
+          "text": "ho un po' di tempo, quanto basta —"
+        }
       ]
     },
     {
@@ -398,6 +827,28 @@
           41,
           61
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e a"
+        },
+        {
+          "lang": "en",
+          "text": "few"
+        },
+        {
+          "lang": "it",
+          "text": "con i nomi numerabili plurali — «"
+        },
+        {
+          "lang": "en",
+          "text": "I have a few friends»,"
+        },
+        {
+          "lang": "it",
+          "text": "ho alcuni amici, quanto basta per non sentirmi solo."
+        }
       ]
     },
     {
@@ -416,6 +867,28 @@
           98,
           120
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È una sfumatura sottile ma reale rispetto a"
+        },
+        {
+          "lang": "en",
+          "text": "little"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "few"
+        },
+        {
+          "lang": "it",
+          "text": "senza articolo, che invece comunicano un'accezione più negativa, quasi di scarsità:"
+        }
       ]
     },
     {
@@ -430,11 +903,30 @@
           81,
           101
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I have little time»"
+        },
+        {
+          "lang": "it",
+          "text": "suona più come \"ho pochissimo tempo, quasi niente\", mentre «"
+        },
+        {
+          "lang": "en",
+          "text": "I have a little time»"
+        },
+        {
+          "lang": "it",
+          "text": "suona come \"ho un po' di tempo, sufficiente\"."
+        }
       ]
     },
     {
       "text": "Concludiamo con i comparativi e i superlativi degli aggettivi, un argomento che vi servirà costantemente ogni volta che dovrete descrivere o confrontare persone, luoghi od oggetti.",
-      "speech": "Concludiamo con i comparativi e i superlativi degli aggettivi, un argomento che vi servirà costantemente ogni volta che dovrete descrivere o confrontare persone, luoghi od oggetti."
+      "speech": "Concludiamo con i comparativi e i superlativi degli aggettivi, un argomento che vi servirà costantemente ogni volta che dovrete descrivere o confrontare persone, luoghi od oggetti.",
+      "p": 1
     },
     {
       "text": "La regola dipende dalla lunghezza dell'aggettivo.",
@@ -470,6 +962,32 @@
           90,
           101
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e il superlativo aggiungendo est, preceduto dall'articolo"
+        },
+        {
+          "lang": "en",
+          "text": "the: tall"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "taller"
+        },
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "en",
+          "text": "the tallest;"
+        }
       ]
     },
     {
@@ -488,6 +1006,28 @@
           145,
           157
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "happy"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "happier —"
+        },
+        {
+          "lang": "it",
+          "text": "con la y che si trasforma in i, esattamente come abbiamo visto per i plurali dei sostantivi nell'episodio scorso — e poi"
+        },
+        {
+          "lang": "en",
+          "text": "the happiest."
+        }
       ]
     },
     {
@@ -502,6 +1042,28 @@
           128,
           136
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Gli aggettivi lunghi, di due o più sillabe che non terminano in y, formano invece il comparativo con"
+        },
+        {
+          "lang": "en",
+          "text": "more"
+        },
+        {
+          "lang": "it",
+          "text": "e il superlativo con"
+        },
+        {
+          "lang": "en",
+          "text": "the most,"
+        },
+        {
+          "lang": "it",
+          "text": "senza modificare l'aggettivo stesso:"
+        }
       ]
     },
     {
@@ -520,6 +1082,28 @@
           43,
           63
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "interesting"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "more interesting"
+        },
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "en",
+          "text": "the most interesting."
+        }
       ]
     },
     {
@@ -546,7 +1130,42 @@
           217,
           225
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Esistono infine alcuni aggettivi comuni, e proprio per questo particolarmente importanti, che hanno forme"
+        },
+        {
+          "lang": "en",
+          "text": "comparative"
+        },
+        {
+          "lang": "it",
+          "text": "e superlative del tutto irregolari, che vanno semplicemente memorizzate:"
+        },
+        {
+          "lang": "en",
+          "text": "good"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "better"
+        },
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "en",
+          "text": "the best;"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "bad diventa worse e poi the worst; far diventa further oppure farther, e poi the furthest oppure the farthest; little diventa less e poi the least.",
@@ -578,6 +1197,10 @@
         ],
         [
           97,
+          109
+        ],
+        [
+          111,
           117
         ],
         [
@@ -588,6 +1211,76 @@
           137,
           146
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "bad"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "worse"
+        },
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "en",
+          "text": "the worst;"
+        },
+        {
+          "lang": "it",
+          "text": "far diventa"
+        },
+        {
+          "lang": "en",
+          "text": "further"
+        },
+        {
+          "lang": "it",
+          "text": "oppure"
+        },
+        {
+          "lang": "en",
+          "text": "farther,"
+        },
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "en",
+          "text": "the furthest"
+        },
+        {
+          "lang": "it",
+          "text": "oppure"
+        },
+        {
+          "lang": "en",
+          "text": "the farthest; little"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "less"
+        },
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "en",
+          "text": "the least."
+        }
       ]
     },
     {
@@ -602,6 +1295,16 @@
           97,
           108
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "ed è un parallelo che può aiutarvi a ricordare perché l'inglese si comporti allo stesso modo con"
+        },
+        {
+          "lang": "en",
+          "text": "good/better."
+        }
       ]
     },
     {
@@ -612,7 +1315,8 @@
           59,
           129
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "\"Grande\", big, è un aggettivo breve di una sillaba, quindi il comparativo si forma con -er: «This city is bigger than that one».",
@@ -626,6 +1330,24 @@
           93,
           126
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "\"Grande\","
+        },
+        {
+          "lang": "en",
+          "text": "big,"
+        },
+        {
+          "lang": "it",
+          "text": "è un aggettivo breve di una sillaba, quindi il comparativo si forma con er: «"
+        },
+        {
+          "lang": "en",
+          "text": "This city is bigger than that one»."
+        }
       ]
     },
     {
@@ -640,6 +1362,24 @@
           77,
           129
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "\"Bella\","
+        },
+        {
+          "lang": "en",
+          "text": "beautiful,"
+        },
+        {
+          "lang": "it",
+          "text": "è un aggettivo lungo, quindi il superlativo si forma con"
+        },
+        {
+          "lang": "en",
+          "text": "the most: «but that one is the most beautiful of all»."
+        }
       ]
     },
     {
@@ -648,7 +1388,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: i verbi modali come can e will non si coniugano e sono seguiti dall'infinito senza to; can esprime capacità, will esprime previsioni, decisioni istantanee o promesse riguardo al futuro.",
@@ -672,6 +1413,10 @@
         ],
         [
           90,
+          92
+        ],
+        [
+          94,
           97
         ],
         [
@@ -686,7 +1431,46 @@
           129,
           172
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: i verbi modali come"
+        },
+        {
+          "lang": "en",
+          "text": "can"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "will"
+        },
+        {
+          "lang": "it",
+          "text": "non si coniugano e sono seguiti dall'infinito senza"
+        },
+        {
+          "lang": "en",
+          "text": "to; can"
+        },
+        {
+          "lang": "it",
+          "text": "esprime capacità,"
+        },
+        {
+          "lang": "en",
+          "text": "will"
+        },
+        {
+          "lang": "it",
+          "text": "esprime previsioni, decisioni istantanee o promesse riguardo al futuro."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: some si usa nelle affermative, any nelle negative e interrogative, indipendentemente dal tipo di nome.",
@@ -704,7 +1488,30 @@
           40,
           43
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo:"
+        },
+        {
+          "lang": "en",
+          "text": "some"
+        },
+        {
+          "lang": "it",
+          "text": "si usa nelle affermative,"
+        },
+        {
+          "lang": "en",
+          "text": "any"
+        },
+        {
+          "lang": "it",
+          "text": "nelle negative e interrogative, indipendentemente dal tipo di nome."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: much si usa con i non numerabili, many con i numerabili plurali, a lot of con entrambi.",
@@ -726,7 +1533,38 @@
           72,
           80
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo:"
+        },
+        {
+          "lang": "en",
+          "text": "much"
+        },
+        {
+          "lang": "it",
+          "text": "si usa con i non numerabili,"
+        },
+        {
+          "lang": "en",
+          "text": "many"
+        },
+        {
+          "lang": "it",
+          "text": "con i numerabili plurali,"
+        },
+        {
+          "lang": "en",
+          "text": "a lot of"
+        },
+        {
+          "lang": "it",
+          "text": "con entrambi."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: gli aggettivi brevi formano comparativo e superlativo con -er/-est, quelli lunghi con more/the most, con alcune importanti eccezioni irregolari come good/better/the best.",
@@ -748,15 +1586,36 @@
           157,
           177
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto: gli aggettivi brevi formano comparativo e superlativo con er/est, quelli lunghi con"
+        },
+        {
+          "lang": "en",
+          "text": "more/the most,"
+        },
+        {
+          "lang": "it",
+          "text": "con alcune importanti eccezioni irregolari come"
+        },
+        {
+          "lang": "en",
+          "text": "good/better/the best."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero programma grammaticale di Classe Prima.",
-      "speech": "Con questo abbiamo completato l'intero programma grammaticale di Classe Prima."
+      "speech": "Con questo abbiamo completato l'intero programma grammaticale di Classe Prima.",
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio ci dedichiamo alle funzioni comunicative previste dal programma: parlare di sé, della propria famiglia, delle attività in corso e dei progetti futuri.",
-      "speech": "Nel prossimo episodio ci dedichiamo alle funzioni comunicative previste dal programma: parlare di sé, della propria famiglia, delle attività in corso e dei progetti futuri."
+      "speech": "Nel prossimo episodio ci dedichiamo alle funzioni comunicative previste dal programma: parlare di sé, della propria famiglia, delle attività in corso e dei progetti futuri.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

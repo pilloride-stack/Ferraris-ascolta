@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi concludiamo il Modulo 1 dedicato alla programmazione web parlando proprio del linguaggio con cui quella query verso il database viene scritta: SQL.",
-      "speech": "Oggi concludiamo il Modulo 1 dedicato alla programmazione web parlando proprio del linguaggio con cui quella query verso il database viene scritta: SQL."
+      "speech": "Oggi concludiamo il Modulo 1 dedicato alla programmazione web parlando proprio del linguaggio con cui quella query verso il database viene scritta: SQL.",
+      "p": 1
     },
     {
       "text": "SQL, acronimo di Structured Query Language, è il linguaggio standard utilizzato per creare, interrogare e manipolare i dati memorizzati in un database relazionale,",
@@ -24,7 +25,8 @@
           17,
           42
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "indipendentemente dal DBMS specifico utilizzato, che si tratti di MySQL, SQL Server, Oracle o dello stesso Access.",
@@ -102,7 +104,8 @@
           127,
           137
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Il DDL agisce sull'impalcatura, cioè sulle tabelle stesse, sulle loro colonne e sui loro vincoli, un'operazione che tipicamente compie chi progetta il database, non chi lo usa quotidianamente.",
@@ -134,7 +137,8 @@
     },
     {
       "text": "Vediamo insieme, passo dopo passo, come si costruisce una semplice interrogazione SQL, prendendo l'esempio di dover estrarre da una tabella Clienti tutti i clienti residenti a Torino, ordinati per cognome.",
-      "speech": "Vediamo insieme, passo dopo passo, come si costruisce una semplice interrogazione SQL, prendendo l'esempio di dover estrarre da una tabella Clienti tutti i clienti residenti a Torino, ordinati per cognome."
+      "speech": "Vediamo insieme, passo dopo passo, come si costruisce una semplice interrogazione SQL, prendendo l'esempio di dover estrarre da una tabella Clienti tutti i clienti residenti a Torino, ordinati per cognome.",
+      "p": 1
     },
     {
       "text": "Per prima cosa si indica che cosa si vuole estrarre e da quale tabella, con SELECT seguito da un asterisco per indicare tutte le colonne, e FROM seguito dal nome della tabella, in questo caso Clienti.",
@@ -182,7 +186,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste estrarre, dalla stessa tabella Clienti, tutti i clienti che hanno superato i sessantacinque anni di età,",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste estrarre, dalla stessa tabella Clienti, tutti i clienti che hanno superato i sessantacinque anni di età,"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste estrarre, dalla stessa tabella Clienti, tutti i clienti che hanno superato i sessantacinque anni di età,",
+      "p": 1
     },
     {
       "text": "ordinati per data di nascita, quale struttura di query utilizzereste, e a quale categoria di istruzioni SQL apparterrebbe?",
@@ -204,7 +209,8 @@
     },
     {
       "text": "Con SQL si chiude il quadro tecnico della programmazione web che abbiamo costruito in queste puntate:",
-      "speech": "Con SQL si chiude il quadro tecnico della programmazione web che abbiamo costruito in queste puntate:"
+      "speech": "Con SQL si chiude il quadro tecnico della programmazione web che abbiamo costruito in queste puntate:",
+      "p": 1
     },
     {
       "text": "dai linguaggi che girano nel browser a quelli che girano sul server, fino al linguaggio con cui il server stesso interroga i dati custoditi nel database.",
@@ -212,7 +218,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: SQL è il linguaggio standard per creare, interrogare e manipolare i dati di un database relazionale, indipendentemente dal DBMS utilizzato.",
@@ -230,7 +237,8 @@
           86,
           106
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: le istruzioni SQL si dividono in DDL per definire la struttura, DML per inserire, modificare ed eliminare dati, e DQL per interrogarli tramite SELECT.",
@@ -252,7 +260,8 @@
           123,
           126
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: una query SELECT si costruisce componendo che cosa estrarre, quali condizioni di filtro applicare con WHERE, e quale ordinamento applicare con ORDER BY.",
@@ -270,15 +279,18 @@
           150,
           158
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 1.",
-      "speech": "Con questo abbiamo completato l'intero Modulo 1."
+      "speech": "Con questo abbiamo completato l'intero Modulo 1.",
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio entriamo nel Modulo 2, dedicato al rapporto tra il Web e l'azienda, cominciando dal commercio elettronico e dai metodi di pagamento online.",
-      "speech": "Nel prossimo episodio entriamo nel Modulo 2, dedicato al rapporto tra il Web e l'azienda, cominciando dal commercio elettronico e dai metodi di pagamento online."
+      "speech": "Nel prossimo episodio entriamo nel Modulo 2, dedicato al rapporto tra il Web e l'azienda, cominciando dal commercio elettronico e dai metodi di pagamento online.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

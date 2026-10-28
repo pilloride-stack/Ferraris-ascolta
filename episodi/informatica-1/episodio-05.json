@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa che permettono al computer di conservare i dati nel tempo.",
-      "speech": "Oggi restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa che permettono al computer di conservare i dati nel tempo."
+      "speech": "Oggi restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa che permettono al computer di conservare i dati nel tempo.",
+      "p": 1
     },
     {
       "text": "Le periferiche sono dispositivi hardware collegati al computer che ne estendono le funzionalità.",
@@ -20,7 +21,8 @@
           3,
           14
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Si distinguono in tre categorie, ed è fondamentale saperle classificare correttamente perché è un esercizio classico d'esame.",
@@ -62,7 +64,8 @@
     },
     {
       "text": "Fermatevi un momento su questo terzo caso, perché è quello più spesso frainteso in un esercizio di classificazione:",
-      "speech": "Fermatevi un momento su questo terzo caso, perché è quello più spesso frainteso in un esercizio di classificazione:"
+      "speech": "Fermatevi un momento su questo terzo caso, perché è quello più spesso frainteso in un esercizio di classificazione:",
+      "p": 1
     },
     {
       "text": "quando vi viene chiesto se una periferica è di input, di output o di entrambi i tipi, il criterio decisivo è sempre chiedersi se il flusso di informazione va dall'utente verso il computer, dal computer verso l'utente, o in entrambe le direzioni.",
@@ -80,7 +83,8 @@
           18,
           34
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "dispositivi di memorizzazione non volatile, capaci cioè di conservare i dati anche quando il computer viene spento, a differenza della memoria RAM, che è invece volatile e perde il proprio contenuto in assenza di alimentazione elettrica.",
@@ -110,7 +114,8 @@
     },
     {
       "text": "Le principali tipologie di memoria di massa, dalla più tradizionale alla più moderna, sono quattro.",
-      "speech": "Le principali tipologie di memoria di massa, dalla più tradizionale alla più moderna, sono quattro."
+      "speech": "Le principali tipologie di memoria di massa, dalla più tradizionale alla più moderna, sono quattro.",
+      "p": 1
     },
     {
       "text": "L'hard disk magnetico, HDD, che memorizza i dati su dischi rotanti rivestiti di materiale magnetico, con velocità media ma capacità elevata a basso costo.",
@@ -154,7 +159,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, per fissare bene queste distinzioni:",
-      "speech": "Proviamo un piccolo esercizio insieme, per fissare bene queste distinzioni:"
+      "speech": "Proviamo un piccolo esercizio insieme, per fissare bene queste distinzioni:",
+      "p": 1
     },
     {
       "text": "se un vostro compagno vi dicesse di aver perso tutti i file del proprio computer a causa di un blackout improvviso mentre stava scrivendo un documento,",
@@ -178,7 +184,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: le periferiche si distinguono in input, output e input/output, a seconda della direzione del flusso di informazione rispetto al computer.",
@@ -192,7 +199,8 @@
           40,
           68
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: le memorie di massa sono non volatili, a differenza della RAM, e conservano i dati anche a computer spento.",
@@ -210,7 +218,8 @@
           67,
           70
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: le principali memorie di massa sono l'hard disk magnetico, l'SSD, le unità ottiche e le memorie flash, con velocità e caratteristiche diverse tra loro.",
@@ -236,11 +245,13 @@
           95,
           108
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio concludiamo il Modulo 2 con i sistemi operativi e con un focus specifico sul sistema operativo più diffuso al mondo, Windows.",
-      "speech": "Nel prossimo episodio concludiamo il Modulo 2 con i sistemi operativi e con un focus specifico sul sistema operativo più diffuso al mondo, Windows."
+      "speech": "Nel prossimo episodio concludiamo il Modulo 2 con i sistemi operativi e con un focus specifico sul sistema operativo più diffuso al mondo, Windows.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

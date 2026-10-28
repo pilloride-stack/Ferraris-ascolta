@@ -12,11 +12,22 @@
           72,
           87
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo chiuso il Modulo 2 con Elizabeth Gaskell e"
+        },
+        {
+          "lang": "en",
+          "text": "North and South."
+        }
       ]
     },
     {
       "text": "Oggi entriamo nel Modulo 3 e cambiamo completamente registro:",
-      "speech": "Oggi entriamo nel Modulo 3 e cambiamo completamente registro:"
+      "speech": "Oggi entriamo nel Modulo 3 e cambiamo completamente registro:",
+      "p": 1
     },
     {
       "text": "dalla denuncia sociale del romanzo vittoriano ci spostiamo alla stagione poetica del Romanticismo inglese, un movimento culturale e letterario che,",
@@ -40,7 +51,8 @@
     },
     {
       "text": "Prima di entrare nel dettaglio dei singoli poeti, è utile fissare bene i tratti caratteristici generali del Romanticismo inglese,",
-      "speech": "Prima di entrare nel dettaglio dei singoli poeti, è utile fissare bene i tratti caratteristici generali del Romanticismo inglese,"
+      "speech": "Prima di entrare nel dettaglio dei singoli poeti, è utile fissare bene i tratti caratteristici generali del Romanticismo inglese,",
+      "p": 1
     },
     {
       "text": "perché costituiscono la cornice concettuale entro cui leggere tutte le poesie che incontreremo in questo modulo.",
@@ -70,7 +82,8 @@
     },
     {
       "text": "Tra i tratti caratteristici del movimento, vale la pena ricordarne cinque in particolare, perché ricorreranno in tutte le poesie che analizzeremo.",
-      "speech": "Tra i tratti caratteristici del movimento, vale la pena ricordarne cinque in particolare, perché ricorreranno in tutte le poesie che analizzeremo."
+      "speech": "Tra i tratti caratteristici del movimento, vale la pena ricordarne cinque in particolare, perché ricorreranno in tutte le poesie che analizzeremo.",
+      "p": 1
     },
     {
       "text": "Primo, la centralità dell'immaginazione, considerata una facoltà creativa superiore alla fredda razionalità illuminista.",
@@ -80,7 +93,8 @@
           10,
           39
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo, l'esaltazione della natura, vissuta non come semplice sfondo decorativo ma come fonte di verità spirituale e specchio degli stati d'animo del poeta.",
@@ -90,7 +104,8 @@
           11,
           35
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo, la valorizzazione dell'individuo, dei suoi sentimenti soggettivi e della sua sensibilità unica e irripetibile.",
@@ -100,7 +115,8 @@
           10,
           39
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Quarto, l'interesse per il passato medievale e per l'esotico, il misterioso e il sovrannaturale.",
@@ -110,7 +126,8 @@
           27,
           44
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Quinto, un uso del linguaggio poetico più semplice e vicino al parlato comune, in aperta polemica con lo stile elevato e artificioso della poesia neoclassica precedente.",
@@ -120,7 +137,8 @@
           19,
           50
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Questo quinto tratto viene dichiarato in modo esplicito e programmatico da William Wordsworth, vissuto tra il 1770 e il 1850 e tra i maggiori poeti romantici inglesi,",
@@ -138,7 +156,8 @@
           120,
           124
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "nella prefazione alle Lyrical Ballads, raccolta pubblicata nel 1798 insieme a Samuel Taylor Coleridge e considerata l'atto di nascita ufficiale del Romanticismo inglese in senso stretto.",
@@ -160,11 +179,26 @@
           118,
           143
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "nella prefazione alle"
+        },
+        {
+          "lang": "en",
+          "text": "Lyrical Ballads,"
+        },
+        {
+          "lang": "it",
+          "text": "raccolta pubblicata nel 1798 insieme a Samuel Taylor Coleridge e considerata l'atto di nascita ufficiale del Romanticismo inglese in senso stretto."
+        }
       ]
     },
     {
       "text": "Fermatevi un momento su questo dato, perché è un ottimo aggancio da usare in apertura di una risposta d'esame sul Romanticismo:",
-      "speech": "Fermatevi un momento su questo dato, perché è un ottimo aggancio da usare in apertura di una risposta d'esame sul Romanticismo:"
+      "speech": "Fermatevi un momento su questo dato, perché è un ottimo aggancio da usare in apertura di una risposta d'esame sul Romanticismo:",
+      "p": 1
     },
     {
       "text": "a differenza di molti altri movimenti letterari, di cui è spesso difficile individuare un momento di nascita preciso,",
@@ -190,7 +224,22 @@
           155,
           159
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Tra le liriche più celebri e rappresentative di Wordsworth troviamo Daffodils, il cui titolo originale è I"
+        },
+        {
+          "lang": "en",
+          "text": "Wandered Lonely as a Cloud,"
+        },
+        {
+          "lang": "it",
+          "text": "composta intorno al 1804."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "La poesia è ispirata a un episodio autobiografico: l'incontro, durante una passeggiata nella regione dei laghi inglesi, con un lungo campo di narcisi mossi dal vento.",
@@ -220,6 +269,20 @@
           110,
           138
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il ricordo di quella visione, riaffiorando nella mente del poeta nei momenti di solitudine e di malinconia — «"
+        },
+        {
+          "lang": "en",
+          "text": "in vacant or in pensive mood»,"
+        },
+        {
+          "lang": "it",
+          "text": "in uno stato d'animo vuoto o pensoso —"
+        }
       ]
     },
     {
@@ -228,7 +291,8 @@
     },
     {
       "text": "Fermatevi un momento su questo meccanismo, perché è esattamente il tipo di analisi che rende una risposta d'esame su questa poesia particolarmente convincente:",
-      "speech": "Fermatevi un momento su questo meccanismo, perché è esattamente il tipo di analisi che rende una risposta d'esame su questa poesia particolarmente convincente:"
+      "speech": "Fermatevi un momento su questo meccanismo, perché è esattamente il tipo di analisi che rende una risposta d'esame su questa poesia particolarmente convincente:",
+      "p": 1
     },
     {
       "text": "Daffodils illustra in modo esemplare la concezione romantica della natura come fonte inesauribile di consolazione spirituale,",
@@ -264,7 +328,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario in che modo Daffodils incarna i tratti generali del Romanticismo che abbiamo appena elencato, quali collegamenti fareste?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario in che modo Daffodils incarna i tratti generali del Romanticismo che abbiamo appena elencato, quali collegamenti fareste?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario in che modo Daffodils incarna i tratti generali del Romanticismo che abbiamo appena elencato, quali collegamenti fareste?",
+      "p": 1
     },
     {
       "text": "Potreste osservare che la poesia esalta la natura come fonte di verità spirituale, non come semplice sfondo;",
@@ -286,11 +351,22 @@
           213,
           228
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e che utilizza un linguaggio semplice e vicino al parlato comune, ben lontano dallo stile elevato e artificioso della poesia neoclassica precedente, coerentemente con il programma dichiarato nella prefazione alle"
+        },
+        {
+          "lang": "en",
+          "text": "Lyrical Ballads."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il Romanticismo inglese si sviluppa tra fine Settecento e inizio Ottocento, in reazione al razionalismo illuminista, ed è caratterizzato da immaginazione,",
@@ -304,7 +380,8 @@
           98,
           122
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "esaltazione della natura, valorizzazione dell'individuo, interesse per il passato e per il sovrannaturale, e linguaggio semplice.",
@@ -326,7 +403,22 @@
           70,
           74
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: le"
+        },
+        {
+          "lang": "en",
+          "text": "Lyrical Ballads"
+        },
+        {
+          "lang": "it",
+          "text": "di Wordsworth e Coleridge, pubblicate nel 1798, ne costituiscono l'atto di nascita ufficiale."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: in Daffodils, Wordsworth rappresenta la natura come fonte di consolazione spirituale, resa duratura nel tempo attraverso il potere della memoria e dell'immaginazione poetica.",
@@ -340,7 +432,8 @@
           68,
           91
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 3 e incontriamo il coautore delle Lyrical Ballads, Samuel Taylor Coleridge, attraverso il suo capolavoro sovrannaturale, The Rime of the Ancient Mariner.",
@@ -362,7 +455,34 @@
           172,
           194
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio restiamo nel Modulo 3 e incontriamo il coautore delle"
+        },
+        {
+          "lang": "en",
+          "text": "Lyrical Ballads,"
+        },
+        {
+          "lang": "it",
+          "text": "Samuel Taylor Coleridge, attraverso il suo capolavoro sovrannaturale,"
+        },
+        {
+          "lang": "en",
+          "text": "The"
+        },
+        {
+          "lang": "it",
+          "text": "Rime"
+        },
+        {
+          "lang": "en",
+          "text": "of the Ancient Mariner."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi entriamo nella UDA 3, dedicata al contesto globale e istituzionale, cominciando da un tema che negli ultimi anni è diventato sempre più centrale anche nei programmi scolastici di economia aziendale:",
-      "speech": "Oggi entriamo nella UDA 3, dedicata al contesto globale e istituzionale, cominciando da un tema che negli ultimi anni è diventato sempre più centrale anche nei programmi scolastici di economia aziendale:"
+      "speech": "Oggi entriamo nella UDA 3, dedicata al contesto globale e istituzionale, cominciando da un tema che negli ultimi anni è diventato sempre più centrale anche nei programmi scolastici di economia aziendale:",
+      "p": 1
     },
     {
       "text": "il commercio equo e solidale, la microfinanza e la banca etica, tre strumenti diversi ma accomunati da un obiettivo comune, quello di correggere alcune storture del mercato globale tradizionale.",
@@ -42,7 +43,22 @@
           138,
           149
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dal commercio equo e solidale,"
+        },
+        {
+          "lang": "en",
+          "text": "Fair Trade:"
+        },
+        {
+          "lang": "it",
+          "text": "un modello commerciale che garantisce ai produttori dei paesi in via di sviluppo un prezzo equo per i propri prodotti — tipicamente materie prime agricole come caffè, cacao, cotone o banane —"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "insieme a condizioni di lavoro dignitose e a una maggiore stabilità economica nel tempo, in alternativa alle logiche puramente speculative del mercato globale,",
@@ -52,6 +68,20 @@
           127,
           138
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "insieme a condizioni di lavoro dignitose e a una maggiore stabilità economica nel tempo, in alternativa alle logiche puramente"
+        },
+        {
+          "lang": "en",
+          "text": "speculative"
+        },
+        {
+          "lang": "it",
+          "text": "del mercato globale,"
+        }
       ]
     },
     {
@@ -66,6 +96,16 @@
           93,
           106
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il marchio di certificazione Fairtrade, gestito dall'organizzazione internazionale Fairtrade"
+        },
+        {
+          "lang": "en",
+          "text": "International,"
+        }
       ]
     },
     {
@@ -80,7 +120,8 @@
           92,
           104
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "e di altri servizi finanziari di base a persone e piccoli imprenditori privi di accesso al sistema bancario tradizionale, tipicamente nei paesi in via di sviluppo,",
@@ -122,7 +163,22 @@
           26,
           41
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Veniamo alla banca etica,"
+        },
+        {
+          "lang": "en",
+          "text": "ethical banking:"
+        },
+        {
+          "lang": "it",
+          "text": "un modello bancario in cui le scelte di finanziamento e di investimento vengono orientate non soltanto dal criterio del profitto,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "ma anche da criteri sociali e ambientali espliciti, escludendo per esempio il finanziamento di settori considerati controversi,",
@@ -150,6 +206,20 @@
           69,
           87
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un concetto strettamente collegato è quello dell'investimento etico,"
+        },
+        {
+          "lang": "en",
+          "text": "ethical investment,"
+        },
+        {
+          "lang": "it",
+          "text": "che applica criteri analoghi alle scelte di investimento sui mercati finanziari,"
+        }
       ]
     },
     {
@@ -164,6 +234,20 @@
           45,
           58
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "spesso attraverso i cosiddetti criteri ESG —"
+        },
+        {
+          "lang": "en",
+          "text": "Environmental,"
+        },
+        {
+          "lang": "it",
+          "text": "Social, Governance, cioè ambientale, sociale e di governance aziendale —"
+        }
       ]
     },
     {
@@ -178,7 +262,18 @@
           162,
           172
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Dedichiamo ora un approfondimento a un caso concreto molto amato dai commissari, perché unisce in un solo esempio tutti e tre i concetti visti finora: la Grameen"
+        },
+        {
+          "lang": "en",
+          "text": "Foundation."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Fondata nel 1997, la Grameen Foundation si ispira al lavoro pionieristico dell'economista bengalese Muhammad Yunus,",
@@ -196,6 +291,20 @@
           100,
           114
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fondata nel 1997, la Grameen"
+        },
+        {
+          "lang": "en",
+          "text": "Foundation"
+        },
+        {
+          "lang": "it",
+          "text": "si ispira al lavoro pionieristico dell'economista bengalese Muhammad Yunus,"
+        }
       ]
     },
     {
@@ -214,6 +323,20 @@
           69,
           73
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "insignito del premio Nobel per la pace nel 2006 insieme alla Grameen"
+        },
+        {
+          "lang": "en",
+          "text": "Bank"
+        },
+        {
+          "lang": "it",
+          "text": "da lui stesso fondata in Bangladesh alla fine degli anni Settanta."
+        }
       ]
     },
     {
@@ -228,6 +351,28 @@
           46,
           52
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La Grameen"
+        },
+        {
+          "lang": "en",
+          "text": "Foundation"
+        },
+        {
+          "lang": "it",
+          "text": "è un'organizzazione non"
+        },
+        {
+          "lang": "en",
+          "text": "profit"
+        },
+        {
+          "lang": "it",
+          "text": "che promuove l'uso della microfinanza, unita alle moderne tecnologie digitali, per combattere la povertà nel mondo, offrendo strumenti finanziari e formativi alle famiglie più povere,"
+        }
       ]
     },
     {
@@ -236,7 +381,8 @@
     },
     {
       "text": "Fermatevi un momento su questo punto, perché è esattamente il tipo di collegamento che arricchisce una risposta d'esame:",
-      "speech": "Fermatevi un momento su questo punto, perché è esattamente il tipo di collegamento che arricchisce una risposta d'esame:"
+      "speech": "Fermatevi un momento su questo punto, perché è esattamente il tipo di collegamento che arricchisce una risposta d'esame:",
+      "p": 1
     },
     {
       "text": "perché proprio le donne sono spesso al centro dei programmi di microfinanza come quelli della Grameen Foundation?",
@@ -246,6 +392,16 @@
           102,
           112
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "perché proprio le donne sono spesso al centro dei programmi di microfinanza come quelli della Grameen"
+        },
+        {
+          "lang": "en",
+          "text": "Foundation?"
+        }
       ]
     },
     {
@@ -256,6 +412,16 @@
           102,
           106
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Muhammad Yunus stesso ha più volte osservato, nelle proprie riflessioni sull'esperienza della Grameen"
+        },
+        {
+          "lang": "en",
+          "text": "Bank,"
+        }
       ]
     },
     {
@@ -278,7 +444,8 @@
     },
     {
       "text": "Proviamo a fissare bene, come farebbe un insegnante prima di un'interrogazione, la differenza tra questi tre strumenti, perché è facile confonderli se non li si tiene ben distinti.",
-      "speech": "Proviamo a fissare bene, come farebbe un insegnante prima di un'interrogazione, la differenza tra questi tre strumenti, perché è facile confonderli se non li si tiene ben distinti."
+      "speech": "Proviamo a fissare bene, come farebbe un insegnante prima di un'interrogazione, la differenza tra questi tre strumenti, perché è facile confonderli se non li si tiene ben distinti.",
+      "p": 1
     },
     {
       "text": "Il Fair Trade agisce sul prezzo e sulle condizioni commerciali di uno scambio già esistente, garantendo equità a chi produce materie prime agricole.",
@@ -288,6 +455,20 @@
           3,
           13
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "en",
+          "text": "Fair Trade"
+        },
+        {
+          "lang": "it",
+          "text": "agisce sul prezzo e sulle condizioni commerciali di uno scambio già esistente, garantendo equità a chi produce materie prime agricole."
+        }
       ]
     },
     {
@@ -306,7 +487,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il Fair Trade garantisce ai produttori dei paesi in via di sviluppo un prezzo equo e condizioni di lavoro dignitose, certificate dal marchio Fairtrade.",
@@ -328,7 +510,30 @@
           124,
           135
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il"
+        },
+        {
+          "lang": "en",
+          "text": "Fair Trade"
+        },
+        {
+          "lang": "it",
+          "text": "garantisce ai produttori dei paesi in via di sviluppo un prezzo equo e condizioni di lavoro dignitose,"
+        },
+        {
+          "lang": "en",
+          "text": "certificate"
+        },
+        {
+          "lang": "it",
+          "text": "dal marchio Fairtrade."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: la microfinanza offre piccoli prestiti a chi è escluso dal sistema bancario tradizionale, favorendone l'autonomia economica.",
@@ -342,7 +547,8 @@
           12,
           24
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: la banca etica orienta finanziamenti e investimenti secondo criteri sociali e ambientali, spesso attraverso i criteri ESG.",
@@ -360,7 +566,8 @@
           117,
           128
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: la Grameen Foundation, ispirata a Muhammad Yunus, unisce microfinanza e tecnologia digitale nella lotta alla povertà, con un'attenzione particolare all'empowerment economico delle donne.",
@@ -374,11 +581,27 @@
           19,
           29
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto: la Grameen"
+        },
+        {
+          "lang": "en",
+          "text": "Foundation,"
+        },
+        {
+          "lang": "it",
+          "text": "ispirata a Muhammad Yunus, unisce microfinanza e tecnologia digitale nella lotta alla povertà, con un'attenzione particolare all'empowerment economico delle donne."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio restiamo nella UDA 3 e vediamo la globalizzazione: che cos'è, i suoi vantaggi e svantaggi, e la differenza, spesso fraintesa, tra outsourcing e offshoring.",
-      "speech": "Nel prossimo episodio restiamo nella UDA 3 e vediamo la globalizzazione: che cosa è, i suoi vantaggi e svantaggi, e la differenza, spesso fraintesa, tra outsourcing e offshoring."
+      "speech": "Nel prossimo episodio restiamo nella UDA 3 e vediamo la globalizzazione: che cosa è, i suoi vantaggi e svantaggi, e la differenza, spesso fraintesa, tra outsourcing e offshoring.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

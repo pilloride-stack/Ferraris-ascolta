@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi vediamo le operazioni con le banche, alcune altre operazioni correnti di gestione,",
-      "speech": "Oggi vediamo le operazioni con le banche, alcune altre operazioni correnti di gestione,"
+      "speech": "Oggi vediamo le operazioni con le banche, alcune altre operazioni correnti di gestione,",
+      "p": 1
     },
     {
       "text": "e chiudiamo con uno strumento di controllo fondamentale prima della redazione del bilancio: il bilancio di verifica.",
@@ -24,7 +25,8 @@
     },
     {
       "text": "I rapporti con le banche riguardano soprattutto la gestione del conto corrente, attraverso il quale l'azienda effettua versamenti, prelevamenti, e regola gran parte dei propri pagamenti e incassi.",
-      "speech": "I rapporti con le banche riguardano soprattutto la gestione del conto corrente, attraverso il quale l'azienda effettua versamenti, prelevamenti, e regola gran parte dei propri pagamenti e incassi."
+      "speech": "I rapporti con le banche riguardano soprattutto la gestione del conto corrente, attraverso il quale l'azienda effettua versamenti, prelevamenti, e regola gran parte dei propri pagamenti e incassi.",
+      "p": 1
     },
     {
       "text": "Periodicamente la banca accredita gli interessi attivi maturati sulle giacenze di conto corrente, un ricavo per l'azienda,",
@@ -48,7 +50,8 @@
     },
     {
       "text": "Vediamo insieme, passo dopo passo, tre brevi esercizi su queste operazioni bancarie.",
-      "speech": "Vediamo insieme, passo dopo passo, tre brevi esercizi su queste operazioni bancarie."
+      "speech": "Vediamo insieme, passo dopo passo, tre brevi esercizi su queste operazioni bancarie.",
+      "p": 1
     },
     {
       "text": "Primo: si versano tremila euro prelevati dalla cassa contanti sul conto corrente bancario.",
@@ -58,7 +61,8 @@
           0,
           5
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Si addebita Banca conto corrente e si accredita Cassa, per tremila euro: notate che qui entrambi i conti sono finanziari attivi, quindi uno aumenta in Dare e l'altro diminuisce in Avere.",
@@ -72,7 +76,8 @@
           0,
           7
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Si addebita Banca conto corrente, che aumenta, e si accredita Interessi attivi bancari, un ricavo.",
@@ -92,7 +97,8 @@
           0,
           5
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Si addebita Interessi passivi bancari, un costo, e si accredita Banca conto corrente, che diminuisce.",
@@ -106,7 +112,8 @@
     },
     {
       "text": "Oltre a queste operazioni tipiche, l'azienda ne compie numerose altre nella gestione corrente, tra cui il pagamento delle retribuzioni al personale dipendente e il pagamento di premi assicurativi a tutela dei beni aziendali.",
-      "speech": "Oltre a queste operazioni tipiche, l'azienda ne compie numerose altre nella gestione corrente, tra cui il pagamento delle retribuzioni al personale dipendente e il pagamento di premi assicurativi a tutela dei beni aziendali."
+      "speech": "Oltre a queste operazioni tipiche, l'azienda ne compie numerose altre nella gestione corrente, tra cui il pagamento delle retribuzioni al personale dipendente e il pagamento di premi assicurativi a tutela dei beni aziendali.",
+      "p": 1
     },
     {
       "text": "Anche queste seguono le medesime regole della partita doppia: un conto di costo economico viene addebitato, mentre un conto finanziario, Cassa, Banca, o un debito, viene accreditato.",
@@ -114,7 +121,8 @@
     },
     {
       "text": "Fermatevi un momento su due esempi di queste altre operazioni: si pagano tramite banca le retribuzioni nette al personale dipendente per complessivi quattromiladuecento euro;",
-      "speech": "Fermatevi un momento su due esempi di queste altre operazioni: si pagano tramite banca le retribuzioni nette al personale dipendente per complessivi quattromiladuecento euro;"
+      "speech": "Fermatevi un momento su due esempi di queste altre operazioni: si pagano tramite banca le retribuzioni nette al personale dipendente per complessivi quattromiladuecento euro;",
+      "p": 1
     },
     {
       "text": "si addebita Salari e stipendi, un costo, e si accredita Banca conto corrente.",
@@ -142,7 +150,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, questa volta sul bilancio di verifica:",
-      "speech": "Proviamo un piccolo esercizio insieme, questa volta sul bilancio di verifica:"
+      "speech": "Proviamo un piccolo esercizio insieme, questa volta sul bilancio di verifica:",
+      "p": 1
     },
     {
       "text": "periodicamente, e comunque al termine dell'esercizio prima della redazione del bilancio, è opportuno verificare la correttezza formale delle registrazioni contabili effettuate.",
@@ -186,7 +195,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: le operazioni con le banche riguardano versamenti, prelevamenti, interessi attivi e passivi sul conto corrente.",
@@ -200,7 +210,8 @@
           72,
           98
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: anche il pagamento di retribuzioni e premi assicurativi segue le regole della partita doppia, con un costo in Dare e un conto finanziario in Avere.",
@@ -210,7 +221,8 @@
           0,
           7
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il bilancio di verifica controlla che il totale Dare coincida sempre con il totale Avere, individuando eventuali errori prima della redazione del bilancio.",
@@ -228,7 +240,8 @@
           48,
           68
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato il quarto modulo della dispensa.",
@@ -236,7 +249,8 @@
     },
     {
       "text": "Nel prossimo episodio entriamo nell'ultimo modulo, dedicato al bilancio d'esercizio, partendo dall'inventario e dalle scritture di assestamento.",
-      "speech": "Nel prossimo episodio entriamo nell'ultimo modulo, dedicato al bilancio d'esercizio, partendo dall'inventario e dalle scritture di assestamento."
+      "speech": "Nel prossimo episodio entriamo nell'ultimo modulo, dedicato al bilancio d'esercizio, partendo dall'inventario e dalle scritture di assestamento.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

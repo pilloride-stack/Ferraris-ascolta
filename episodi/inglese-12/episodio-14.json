@@ -34,7 +34,22 @@
           91,
           112
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dai pronomi relativi,"
+        },
+        {
+          "lang": "en",
+          "text": "who, which, that, whose, where, when,"
+        },
+        {
+          "lang": "it",
+          "text": "che introducono una proposizione relativa, cioè aggiungono informazioni su un nome già presente nella proposizione principale."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Who si usa per le persone, in funzione di soggetto: «The man who called you is my uncle», l'uomo che ti ha chiamato è mio zio.",
@@ -52,6 +67,24 @@
           53,
           87
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Who"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per le persone, in funzione di soggetto: «"
+        },
+        {
+          "lang": "en",
+          "text": "The man who called you is my uncle»,"
+        },
+        {
+          "lang": "it",
+          "text": "l'uomo che ti ha chiamato è mio zio."
+        }
       ]
     },
     {
@@ -70,6 +103,24 @@
           45,
           77
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Which"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per le cose e per gli animali: «"
+        },
+        {
+          "lang": "en",
+          "text": "The book which I bought is great»,"
+        },
+        {
+          "lang": "it",
+          "text": "il libro che ho comprato è bellissimo."
+        }
       ]
     },
     {
@@ -84,6 +135,16 @@
           72,
           94
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "That"
+        },
+        {
+          "lang": "it",
+          "text": "si può usare sia per le persone sia per le cose, soprattutto nelle relative determinative, cioè quelle che sono indispensabili per identificare di chi o di che cosa si sta parlando:"
+        }
       ]
     },
     {
@@ -94,6 +155,16 @@
           1,
           34
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«The film that we watched was long»,"
+        },
+        {
+          "lang": "it",
+          "text": "il film che abbiamo visto era lungo."
+        }
       ]
     },
     {
@@ -112,6 +183,16 @@
           57,
           63
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Whose"
+        },
+        {
+          "lang": "it",
+          "text": "indica il possesso, ed è l'equivalente del nostro \"il cui\", \"la cui\":"
+        }
       ]
     },
     {
@@ -126,6 +207,24 @@
           127,
           132
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«The girl whose bag was stolen called the police»,"
+        },
+        {
+          "lang": "it",
+          "text": "la ragazza la cui borsa è stata rubata ha chiamato la polizia — notate come"
+        },
+        {
+          "lang": "en",
+          "text": "whose"
+        },
+        {
+          "lang": "it",
+          "text": "si comporti in modo diverso dagli altri relativi,"
+        }
       ]
     },
     {
@@ -148,6 +247,24 @@
           28,
           61
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Where"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per i luoghi: «"
+        },
+        {
+          "lang": "en",
+          "text": "This is the house where I grew up»,"
+        },
+        {
+          "lang": "it",
+          "text": "questa è la casa dove sono cresciuto."
+        }
       ]
     },
     {
@@ -166,6 +283,28 @@
           120,
           139
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "E"
+        },
+        {
+          "lang": "en",
+          "text": "when,"
+        },
+        {
+          "lang": "it",
+          "text": "non presente nello schema principale della dispensa ma utile da ricordare per completezza, si usa per il tempo:"
+        },
+        {
+          "lang": "en",
+          "text": "the day when we met,"
+        },
+        {
+          "lang": "it",
+          "text": "il giorno in cui ci siamo incontrati."
+        }
       ]
     },
     {
@@ -180,7 +319,22 @@
           123,
           142
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo ora alle funzioni comunicative di Classe Seconda, cominciando da"
+        },
+        {
+          "lang": "en",
+          "text": "talking about environmental problems,"
+        },
+        {
+          "lang": "it",
+          "text": "parlare di problemi ambientali, un argomento sempre più centrale anche nei programmi scolastici e negli esami."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Il lessico di base comprende pollution, l'inquinamento, climate change, il cambiamento climatico, global warming, il riscaldamento globale, greenhouse effect, l'effetto serra,",
@@ -202,6 +356,44 @@
           140,
           157
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il lessico di base comprende"
+        },
+        {
+          "lang": "en",
+          "text": "pollution,"
+        },
+        {
+          "lang": "it",
+          "text": "l'inquinamento,"
+        },
+        {
+          "lang": "en",
+          "text": "climate change,"
+        },
+        {
+          "lang": "it",
+          "text": "il cambiamento climatico,"
+        },
+        {
+          "lang": "en",
+          "text": "global warming,"
+        },
+        {
+          "lang": "it",
+          "text": "il riscaldamento globale,"
+        },
+        {
+          "lang": "en",
+          "text": "greenhouse effect,"
+        },
+        {
+          "lang": "it",
+          "text": "l'effetto serra,"
+        }
       ]
     },
     {
@@ -224,6 +416,44 @@
           109,
           127
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "en",
+          "text": "recycling,"
+        },
+        {
+          "lang": "it",
+          "text": "il riciclaggio,"
+        },
+        {
+          "lang": "en",
+          "text": "renewable energy,"
+        },
+        {
+          "lang": "it",
+          "text": "le energie rinnovabili,"
+        },
+        {
+          "lang": "en",
+          "text": "deforestation,"
+        },
+        {
+          "lang": "it",
+          "text": "la deforestazione,"
+        },
+        {
+          "lang": "en",
+          "text": "endangered species,"
+        },
+        {
+          "lang": "it",
+          "text": "le specie in via di estinzione."
+        }
       ]
     },
     {
@@ -238,6 +468,24 @@
           176,
           211
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le domande e risposte tipiche di questa funzione sono «"
+        },
+        {
+          "lang": "en",
+          "text": "What can we do to protect the environment?»,"
+        },
+        {
+          "lang": "it",
+          "text": "che cosa possiamo fare per proteggere l'ambiente?, a cui si può rispondere «"
+        },
+        {
+          "lang": "en",
+          "text": "We should reduce, reuse and recycle»,"
+        }
       ]
     },
     {
@@ -248,6 +496,20 @@
           61,
           67
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "dovremmo ridurre, riutilizzare e riciclare — notate l'uso di"
+        },
+        {
+          "lang": "en",
+          "text": "should,"
+        },
+        {
+          "lang": "it",
+          "text": "il modale del consiglio che abbiamo visto qualche episodio fa, perfettamente adatto a questo contesto."
+        }
       ]
     },
     {
@@ -266,6 +528,28 @@
           132,
           143
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Veniamo a"
+        },
+        {
+          "lang": "en",
+          "text": "describing people and places,"
+        },
+        {
+          "lang": "it",
+          "text": "descrivere persone e luoghi, una funzione che richiede aggettivi appropriati e le strutture"
+        },
+        {
+          "lang": "en",
+          "text": "comparative"
+        },
+        {
+          "lang": "it",
+          "text": "che abbiamo già visto in dettaglio."
+        }
       ]
     },
     {
@@ -280,6 +564,28 @@
           126,
           145
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Per descrivere l'aspetto fisico: «"
+        },
+        {
+          "lang": "en",
+          "text": "She has long, curly hair and brown eyes»,"
+        },
+        {
+          "lang": "it",
+          "text": "ha i capelli lunghi e ricci e gli occhi marroni; «"
+        },
+        {
+          "lang": "en",
+          "text": "He is tall and slim»,"
+        },
+        {
+          "lang": "it",
+          "text": "è alto e snello."
+        }
       ]
     },
     {
@@ -290,6 +596,20 @@
           30,
           68
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Per descrivere il carattere: «"
+        },
+        {
+          "lang": "en",
+          "text": "She is kind, hard-working and reliable»,"
+        },
+        {
+          "lang": "it",
+          "text": "è gentile, laboriosa e affidabile."
+        }
       ]
     },
     {
@@ -304,6 +624,16 @@
           1,
           57
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«The city is bigger and more crowded than the countryside»,"
+        },
+        {
+          "lang": "it",
+          "text": "la città è più grande e più affollata della campagna — notate come qui si usino insieme sia un comparativo breve,"
+        }
       ]
     },
     {
@@ -318,6 +648,24 @@
           23,
           35
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "bigger,"
+        },
+        {
+          "lang": "it",
+          "text": "sia uno lungo,"
+        },
+        {
+          "lang": "en",
+          "text": "more crowded,"
+        },
+        {
+          "lang": "it",
+          "text": "esattamente secondo le regole che abbiamo già imparato."
+        }
       ]
     },
     {
@@ -332,7 +680,30 @@
           49,
           84
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Per quanto riguarda"
+        },
+        {
+          "lang": "en",
+          "text": "talking about future plans"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "making predictions about the future,"
+        },
+        {
+          "lang": "it",
+          "text": "applicate qui in un contesto leggermente diverso rispetto a Classe Prima,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "ritroviamo le stesse strutture già viste — will, be going to, present continuous — ma applicate a contesti più maturi:",
@@ -342,6 +713,20 @@
           43,
           80
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "ritroviamo le stesse strutture già viste —"
+        },
+        {
+          "lang": "en",
+          "text": "will, be going to, present continuous —"
+        },
+        {
+          "lang": "it",
+          "text": "ma applicate a contesti più maturi:"
+        }
       ]
     },
     {
@@ -352,6 +737,16 @@
           1,
           36
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I'm going to study abroad next year»,"
+        },
+        {
+          "lang": "it",
+          "text": "studierò all'estero il prossimo anno, un piano già deciso;"
+        }
       ]
     },
     {
@@ -362,6 +757,16 @@
           1,
           35
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I'm meeting my friends on Saturday»,"
+        },
+        {
+          "lang": "it",
+          "text": "ho un appuntamento con i miei amici sabato, già concordato."
+        }
       ]
     },
     {
@@ -380,6 +785,24 @@
           123,
           142
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Per le previsioni, spesso rafforzate da avverbi di probabilità come"
+        },
+        {
+          "lang": "en",
+          "text": "probably, definitely, certainly,"
+        },
+        {
+          "lang": "it",
+          "text": "o da espressioni come"
+        },
+        {
+          "lang": "en",
+          "text": "I'm sure, I believe:"
+        }
       ]
     },
     {
@@ -390,6 +813,16 @@
           1,
           48
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«Robots will probably do most jobs in the future»,"
+        },
+        {
+          "lang": "it",
+          "text": "probabilmente i robot faranno la maggior parte dei lavori in futuro;"
+        }
       ]
     },
     {
@@ -400,6 +833,16 @@
           1,
           32
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I'm sure things will get better»,"
+        },
+        {
+          "lang": "it",
+          "text": "sono sicuro che le cose miglioreranno."
+        }
       ]
     },
     {
@@ -414,7 +857,22 @@
           39,
           50
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Infine,"
+        },
+        {
+          "lang": "en",
+          "text": "talking about jobs,"
+        },
+        {
+          "lang": "it",
+          "text": "parlare di professioni, richiede il lessico dei mestieri e alcune strutture per descrivere compiti, luoghi di lavoro e aspirazioni personali:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "«What do you do?», che lavoro fai?, oppure, per parlare del futuro, «What would you like to be in the future?»,",
@@ -428,6 +886,20 @@
           69,
           108
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«What do you do?»,"
+        },
+        {
+          "lang": "it",
+          "text": "che lavoro fai?, oppure, per parlare del futuro, «"
+        },
+        {
+          "lang": "en",
+          "text": "What would you like to be in the future?»,"
+        }
       ]
     },
     {
@@ -442,6 +914,28 @@
           135,
           139
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "che cosa vorresti fare da grande? — notate qui l'uso di"
+        },
+        {
+          "lang": "en",
+          "text": "would like,"
+        },
+        {
+          "lang": "it",
+          "text": "la forma cortese e naturale per esprimere un desiderio, diversa da"
+        },
+        {
+          "lang": "en",
+          "text": "want,"
+        },
+        {
+          "lang": "it",
+          "text": "più diretto."
+        }
       ]
     },
     {
@@ -452,6 +946,16 @@
           1,
           52
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«She works as a doctor / teacher / engineer / lawyer»,"
+        },
+        {
+          "lang": "it",
+          "text": "lavora come medico, insegnante, ingegnere, avvocato;"
+        }
       ]
     },
     {
@@ -462,11 +966,22 @@
           1,
           50
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«I'd like to become a... because I'm interested in...»,"
+        },
+        {
+          "lang": "it",
+          "text": "vorrei diventare... perché mi interessa..."
+        }
       ]
     },
     {
       "text": "Arriviamo ora al momento del ripasso finale, che vi propongo in forma di rapida rassegna delle domande guida più importanti dell'intero modulo, con un suggerimento sintetico per ciascuna,",
-      "speech": "Arriviamo ora al momento del ripasso finale, che vi propongo in forma di rapida rassegna delle domande guida più importanti dell'intero modulo, con un suggerimento sintetico per ciascuna,"
+      "speech": "Arriviamo ora al momento del ripasso finale, che vi propongo in forma di rapida rassegna delle domande guida più importanti dell'intero modulo, con un suggerimento sintetico per ciascuna,",
+      "p": 1
     },
     {
       "text": "così da avere un quadro d'insieme completo prima dell'esame.",
@@ -500,6 +1015,48 @@
           135,
           145
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Sul"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "e il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous:"
+        },
+        {
+          "lang": "it",
+          "text": "ricordate la s alla terza persona per il"
+        },
+        {
+          "lang": "en",
+          "text": "simple,"
+        },
+        {
+          "lang": "it",
+          "text": "e l'eccezione degli stative"
+        },
+        {
+          "lang": "en",
+          "text": "verbs"
+        },
+        {
+          "lang": "it",
+          "text": "per il"
+        },
+        {
+          "lang": "en",
+          "text": "continuous."
+        }
       ]
     },
     {
@@ -518,6 +1075,28 @@
           101,
           130
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Su"
+        },
+        {
+          "lang": "en",
+          "text": "simple past"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "present perfect:"
+        },
+        {
+          "lang": "it",
+          "text": "ricordate che il criterio decisivo è la presenza o l'assenza di un'indicazione temporale precisa."
+        }
       ]
     },
     {
@@ -532,6 +1111,16 @@
           84,
           131
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Sui plurali irregolari: uomo, donna, bambino, piede, dente, topo, persona diventano"
+        },
+        {
+          "lang": "en",
+          "text": "men, women, children, feet, teeth, mice, people."
+        }
       ]
     },
     {
@@ -550,6 +1139,28 @@
           28,
           55
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Su"
+        },
+        {
+          "lang": "en",
+          "text": "this/that"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "these/those:"
+        },
+        {
+          "lang": "it",
+          "text": "vicinanza contro lontananza, singolare contro plurale."
+        }
       ]
     },
     {
@@ -564,6 +1175,28 @@
           14,
           23
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Su"
+        },
+        {
+          "lang": "en",
+          "text": "there is"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "there are:"
+        },
+        {
+          "lang": "it",
+          "text": "singolare e non numerabili contro plurale."
+        }
       ]
     },
     {
@@ -582,6 +1215,32 @@
           29,
           74
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Sui modali"
+        },
+        {
+          "lang": "en",
+          "text": "can"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "will,"
+        },
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "en",
+          "text": "could, may, might, shall, should, would, must:"
+        }
       ]
     },
     {
@@ -612,6 +1271,20 @@
           3,
           24
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Su"
+        },
+        {
+          "lang": "en",
+          "text": "some, any, much, many:"
+        },
+        {
+          "lang": "it",
+          "text": "affermativa contro negativa/interrogativa, e numerabile contro non numerabile."
+        }
       ]
     },
     {
@@ -626,6 +1299,28 @@
           24,
           42
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Sul"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "e il"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous"
+        },
+        {
+          "lang": "it",
+          "text": "con valore di futuro: orari fissi contro appuntamenti concordati."
+        }
       ]
     },
     {
@@ -644,6 +1339,24 @@
           125,
           145
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Su comparativi e superlativi: aggettivi brevi con er/est, aggettivi lunghi con"
+        },
+        {
+          "lang": "en",
+          "text": "more/the most,"
+        },
+        {
+          "lang": "it",
+          "text": "più le forme irregolari come"
+        },
+        {
+          "lang": "en",
+          "text": "good/better/the best."
+        }
       ]
     },
     {
@@ -658,6 +1371,28 @@
           21,
           33
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Su"
+        },
+        {
+          "lang": "en",
+          "text": "past continuous"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "past perfect:"
+        },
+        {
+          "lang": "it",
+          "text": "azione in corso interrotta, contro azione anteriore a un'altra azione passata."
+        }
       ]
     },
     {
@@ -668,6 +1403,20 @@
           3,
           10
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Su"
+        },
+        {
+          "lang": "en",
+          "text": "used to:"
+        },
+        {
+          "lang": "it",
+          "text": "abitudine passata non più vera, contrapposta esplicitamente al presente."
+        }
       ]
     },
     {
@@ -682,6 +1431,28 @@
           10,
           21
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Su"
+        },
+        {
+          "lang": "en",
+          "text": "will"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "be going to:"
+        },
+        {
+          "lang": "it",
+          "text": "previsione senza prove contro previsione con prove concrete, e decisione istantanea contro piano già deciso."
+        }
       ]
     },
     {
@@ -732,11 +1503,58 @@
           132,
           137
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Sui pronomi relativi:"
+        },
+        {
+          "lang": "en",
+          "text": "who"
+        },
+        {
+          "lang": "it",
+          "text": "per le persone,"
+        },
+        {
+          "lang": "en",
+          "text": "which"
+        },
+        {
+          "lang": "it",
+          "text": "per le cose,"
+        },
+        {
+          "lang": "en",
+          "text": "that"
+        },
+        {
+          "lang": "it",
+          "text": "per entrambi nelle relative determinative,"
+        },
+        {
+          "lang": "en",
+          "text": "whose"
+        },
+        {
+          "lang": "it",
+          "text": "per il possesso,"
+        },
+        {
+          "lang": "en",
+          "text": "where"
+        },
+        {
+          "lang": "it",
+          "text": "per i luoghi."
+        }
       ]
     },
     {
       "text": "Un consiglio pratico finale, prima di lasciarvi: l'esame di lingua inglese, più ancora di altre materie, premia la capacità di costruire frasi corrette al momento, non solo di ripetere regole a memoria.",
-      "speech": "Un consiglio pratico finale, prima di lasciarvi: l'esame di lingua inglese, più ancora di altre materie, premia la capacità di costruire frasi corrette al momento, non solo di ripetere regole a memoria."
+      "speech": "Un consiglio pratico finale, prima di lasciarvi: l'esame di lingua inglese, più ancora di altre materie, premia la capacità di costruire frasi corrette al momento, non solo di ripetere regole a memoria.",
+      "p": 1
     },
     {
       "text": "Per questo il consiglio più efficace che posso darvi è di esercitarvi, nei giorni prima dell'esame, a costruire ad alta voce, in inglese, piccole frasi che usino uno dei punti grammaticali di questo modulo,",
@@ -754,7 +1572,22 @@
           90,
           104
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vi ringrazio per aver seguito questo intero percorso di grammatica e funzioni inglesi, da"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "fino ai pronomi relativi e al periodo ipotetico."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Con questo si conclude il modulo di Inglese dedicato a Classe Prima e Classe Seconda.",

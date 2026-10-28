@@ -34,7 +34,8 @@
           80,
           88
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "ha diritto a un compenso per la rinuncia temporanea alla disponibilità del proprio denaro: questo compenso si chiama interesse.",
@@ -84,7 +85,8 @@
     },
     {
       "text": "Fermatevi un momento su questa formula, perché è la base di tutto il modulo, e da qui derivano quasi tutti i calcoli che vedremo:",
-      "speech": "Fermatevi un momento su questa formula, perché è la base di tutto il modulo, e da qui derivano quasi tutti i calcoli che vedremo:"
+      "speech": "Fermatevi un momento su questa formula, perché è la base di tutto il modulo, e da qui derivano quasi tutti i calcoli che vedremo:",
+      "p": 1
     },
     {
       "text": "gli elementi coinvolti sono sempre capitale, tasso e tempo, e l'unico vero punto delicato è ricordarsi di esprimere sempre il tempo in anni, convertendo se necessario mesi o giorni, prima di applicare la formula.",
@@ -98,7 +100,8 @@
     },
     {
       "text": "Vediamo insieme, passo dopo passo, un primo esempio svolto: calcolare l'interesse prodotto da un capitale di ottomila euro impiegato per due anni al tasso annuo del tre per cento.",
-      "speech": "Vediamo insieme, passo dopo passo, un primo esempio svolto: calcolare l'interesse prodotto da un capitale di ottomila euro impiegato per due anni al tasso annuo del tre per cento."
+      "speech": "Vediamo insieme, passo dopo passo, un primo esempio svolto: calcolare l'interesse prodotto da un capitale di ottomila euro impiegato per due anni al tasso annuo del tre per cento.",
+      "p": 1
     },
     {
       "text": "Applicando la formula, l'interesse è uguale a ottomila per tre per due, diviso cento, cioè quattrocentottanta euro.",
@@ -106,7 +109,8 @@
     },
     {
       "text": "Vediamo ora un secondo esempio, leggermente più complesso, in cui il tempo è espresso in mesi anziché in anni:",
-      "speech": "Vediamo ora un secondo esempio, leggermente più complesso, in cui il tempo è espresso in mesi anziché in anni:"
+      "speech": "Vediamo ora un secondo esempio, leggermente più complesso, in cui il tempo è espresso in mesi anziché in anni:",
+      "p": 1
     },
     {
       "text": "calcolare l'interesse prodotto da un capitale di dodicimila euro impiegato per otto mesi al tasso annuo del quattro per cento.",
@@ -122,7 +126,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste calcolare l'interesse di un capitale di seimila euro impiegato per tre mesi al tasso annuo del cinque per cento, quale sarebbe il primo passo da compiere, prima ancora di applicare la formula?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste calcolare l'interesse di un capitale di seimila euro impiegato per tre mesi al tasso annuo del cinque per cento, quale sarebbe il primo passo da compiere, prima ancora di applicare la formula?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste calcolare l'interesse di un capitale di seimila euro impiegato per tre mesi al tasso annuo del cinque per cento, quale sarebbe il primo passo da compiere, prima ancora di applicare la formula?",
+      "p": 1
     },
     {
       "text": "Il primo passo sarebbe convertire i tre mesi in anni, cioè tre dodicesimi, uguale zero virgola venticinque anni;",
@@ -140,7 +145,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: l'interesse è il compenso per la disponibilità temporanea di un capitale, e si calcola come capitale per tasso per tempo, diviso cento.",
@@ -158,7 +164,8 @@
           99,
           127
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: il tempo va sempre espresso in anni, convertendo mesi o giorni quando necessario.",
@@ -172,7 +179,8 @@
           12,
           44
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il montante è la somma tra capitale iniziale e interesse maturato.",
@@ -186,11 +194,13 @@
           10,
           18
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo lo sconto, il compenso per l'anticipato pagamento di un debito, insieme all'unificazione e alla suddivisione di più capitali.",
-      "speech": "Nel prossimo episodio vediamo lo sconto, il compenso per l'anticipato pagamento di un debito, insieme all'unificazione e alla suddivisione di più capitali."
+      "speech": "Nel prossimo episodio vediamo lo sconto, il compenso per l'anticipato pagamento di un debito, insieme all'unificazione e alla suddivisione di più capitali.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

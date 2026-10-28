@@ -18,7 +18,8 @@
     },
     {
       "text": "Cominciamo dal Modulo 1.",
-      "speech": "Cominciamo dal Modulo 1."
+      "speech": "Cominciamo dal Modulo 1.",
+      "p": 1
     },
     {
       "text": "Perché il romanzo nasce in Inghilterra nel Settecento?",
@@ -54,6 +55,16 @@
           224,
           230
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Robinson Crusoe di Defoe racconta, in forma di diario, la sopravvivenza di un naufrago attraverso lavoro, ingegno e fede puritana, riflettendo i valori borghesi dell'individualismo insieme a un atteggiamento coloniale verso"
+        },
+        {
+          "lang": "en",
+          "text": "Friday."
+        }
       ]
     },
     {
@@ -68,6 +79,16 @@
           50,
           79
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Gulliver's Travels"
+        },
+        {
+          "lang": "it",
+          "text": "di Swift racconta, in forma di resoconto di viaggio satirico, le avventure di Gulliver a Lilliput, Brobdingnag, Laputa e nel paese degli Houyhnhnms, usando la satira per criticare la politica e la natura umana,"
+        }
       ]
     },
     {
@@ -88,6 +109,20 @@
           46,
           53
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il confronto tra Robinson Crusoe e Gulliver's"
+        },
+        {
+          "lang": "en",
+          "text": "Travels"
+        },
+        {
+          "lang": "it",
+          "text": "si gioca sul tono, serio e moraleggiante in Defoe, ironico e pessimista in Swift,"
+        }
       ]
     },
     {
@@ -102,7 +137,22 @@
           19,
           30
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le due versioni di"
+        },
+        {
+          "lang": "en",
+          "text": "The Chimney"
+        },
+        {
+          "lang": "it",
+          "text": "Sweeper di Blake — le vedremo tra poco, appartengono in realtà al Modulo 2, ma restiamo un momento sul Modulo 1:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Pamela di Richardson, romanzo epistolare scritto «al momento» degli eventi, mette al centro la virtù femminile e la sua ricompensa;",
@@ -124,6 +174,20 @@
           95,
           110
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Pamela di"
+        },
+        {
+          "lang": "en",
+          "text": "Richardson,"
+        },
+        {
+          "lang": "it",
+          "text": "romanzo epistolare scritto «al momento» degli eventi, mette al centro la virtù femminile e la sua ricompensa;"
+        }
       ]
     },
     {
@@ -138,6 +202,20 @@
           23,
           47
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Tom Jones di"
+        },
+        {
+          "lang": "en",
+          "text": "Fielding,"
+        },
+        {
+          "lang": "it",
+          "text": "romanzo comico-picaresco affidato a un narratore onnisciente e ironico, segue le avventure di un trovatello impulsivo ma di buon cuore."
+        }
       ]
     },
     {
@@ -174,7 +252,22 @@
           19,
           30
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le due versioni di"
+        },
+        {
+          "lang": "en",
+          "text": "The Chimney"
+        },
+        {
+          "lang": "it",
+          "text": "Sweeper di Blake si distinguono così:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "quella delle Songs of Innocence nasconde una critica implicita sotto un tono consolatorio, un sogno di liberazione angelica che induce però rassegnazione;",
@@ -188,6 +281,20 @@
           45,
           62
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "quella delle"
+        },
+        {
+          "lang": "en",
+          "text": "Songs of Innocence"
+        },
+        {
+          "lang": "it",
+          "text": "nasconde una critica implicita sotto un tono consolatorio, un sogno di liberazione angelica che induce però rassegnazione;"
+        }
       ]
     },
     {
@@ -202,6 +309,20 @@
           33,
           53
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "quella delle"
+        },
+        {
+          "lang": "en",
+          "text": "Songs of Experience"
+        },
+        {
+          "lang": "it",
+          "text": "denuncia apertamente la complicità di genitori, Chiesa e Stato nello sfruttamento infantile."
+        }
       ]
     },
     {
@@ -216,6 +337,20 @@
           153,
           163
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Oliver Twist"
+        },
+        {
+          "lang": "it",
+          "text": "di Dickens racconta la vicenda di un orfano nato in un workhouse, costretto a sopravvivere in una banda di borseggiatori guidata da Fagin e"
+        },
+        {
+          "lang": "en",
+          "text": "Bill Sikes,"
+        }
       ]
     },
     {
@@ -238,6 +373,20 @@
           40,
           52
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'estratto «Coketown» da"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "usa tre immagini per descrivere la città industriale:"
+        }
       ]
     },
     {
@@ -266,6 +415,16 @@
           99,
           128
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "North and South"
+        },
+        {
+          "lang": "it",
+          "text": "di Gaskell racconta il conflitto tra industriali e operai attraverso la vicenda di Margaret Hale e John Thornton,"
+        }
       ]
     },
     {
@@ -274,7 +433,8 @@
     },
     {
       "text": "Passiamo al Modulo 3.",
-      "speech": "Passiamo al Modulo 3."
+      "speech": "Passiamo al Modulo 3.",
+      "p": 1
     },
     {
       "text": "Le caratteristiche generali del Romanticismo inglese sono: centralità dell'immaginazione, esaltazione della natura come fonte di verità spirituale,",
@@ -322,6 +482,28 @@
           36,
           58
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La vicenda dell'albatro in"
+        },
+        {
+          "lang": "en",
+          "text": "The"
+        },
+        {
+          "lang": "it",
+          "text": "Rime"
+        },
+        {
+          "lang": "en",
+          "text": "of the Ancient Mariner:"
+        },
+        {
+          "lang": "it",
+          "text": "il marinaio uccide senza motivo l'uccello che aveva guidato la nave fuori da una tempesta, scatenando una maledizione sull'equipaggio;"
+        }
       ]
     },
     {
@@ -354,7 +536,22 @@
           39,
           84
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La «"
+        },
+        {
+          "lang": "en",
+          "text": "negative capability»"
+        },
+        {
+          "lang": "it",
+          "text": "di Keats è la capacità del poeta di sostare nell'incertezza e nel mistero senza cercare una spiegazione razionale definitiva,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "e si manifesta in Ode to a Nightingale nell'oscillazione mai risolta tra il desiderio di fusione con l'eternità del canto dell'usignolo e la consapevolezza della propria mortalità.",
@@ -364,6 +561,20 @@
           22,
           24
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e si manifesta in Ode"
+        },
+        {
+          "lang": "en",
+          "text": "to"
+        },
+        {
+          "lang": "it",
+          "text": "a Nightingale nell'oscillazione mai risolta tra il desiderio di fusione con l'eternità del canto dell'usignolo e la consapevolezza della propria mortalità."
+        }
       ]
     },
     {
@@ -392,7 +603,8 @@
     },
     {
       "text": "Passiamo infine al Modulo 4.",
-      "speech": "Passiamo infine al Modulo 4."
+      "speech": "Passiamo infine al Modulo 4.",
+      "p": 1
     },
     {
       "text": "La filosofia educativa di Mr Gradgrind in Hard Times si fonda sul culto arido dei «fatti» e sul rifiuto dell'immaginazione,",
@@ -410,6 +622,20 @@
           96,
           122
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La filosofia educativa di"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Gradgrind in Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "si fonda sul culto arido dei «fatti» e sul rifiuto dell'immaginazione,"
+        }
       ]
     },
     {
@@ -434,6 +660,20 @@
           124,
           150
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il tema dell'educazione in"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "si contrappone ai valori del Romanticismo perché Gradgrind incarna esattamente quella razionalità utilitaristica che i poeti romantici, con la loro esaltazione dell'immaginazione, avevano contestato."
+        }
       ]
     },
     {
@@ -448,6 +688,28 @@
           148,
           153
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'istituto di Lowood in Jane Eyre, diretto dall'ipocrita"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Brocklehurst,"
+        },
+        {
+          "lang": "it",
+          "text": "che predica la privazione ma vive nel lusso, culmina nella morte di Helen"
+        },
+        {
+          "lang": "en",
+          "text": "Burns"
+        },
+        {
+          "lang": "it",
+          "text": "per tifo,"
+        }
       ]
     },
     {
@@ -466,6 +728,20 @@
           54,
           78
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Concludiamo con la «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England question»:"
+        },
+        {
+          "lang": "it",
+          "text": "l'interrogativo vittoriano su come conciliare il progresso industriale con la dignità della classe operaia, a cui gli autori di questo modulo — Blake, Dickens, Gaskell —"
+        }
       ]
     },
     {
@@ -474,7 +750,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo.",
-      "speech": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo."
+      "speech": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo.",
+      "p": 1
     },
     {
       "text": "Primo: il romanzo inglese nasce nel Settecento con Defoe, Swift, Richardson e Fielding, in quattro forme narrative diverse.",
@@ -496,7 +773,38 @@
           105,
           114
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il romanzo inglese nasce nel Settecento con Defoe, Swift,"
+        },
+        {
+          "lang": "en",
+          "text": "Richardson"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "Fielding,"
+        },
+        {
+          "lang": "it",
+          "text": "in quattro forme"
+        },
+        {
+          "lang": "en",
+          "text": "narrative"
+        },
+        {
+          "lang": "it",
+          "text": "diverse."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: l'Ottocento vittoriano sviluppa, con Blake, Dickens e Gaskell, una denuncia sociale dell'industrializzazione e dello sfruttamento infantile, rispondendo alla «Condition of England question».",
@@ -514,7 +822,18 @@
           168,
           197
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: l'Ottocento vittoriano sviluppa, con Blake, Dickens e Gaskell, una denuncia sociale dell'industrializzazione e dello sfruttamento infantile, rispondendo alla «"
+        },
+        {
+          "lang": "en",
+          "text": "Condition of England question»."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il Romanticismo di Wordsworth, Coleridge, Keats e Shelley esalta immaginazione, natura e sovrannaturale, in aperto contrasto con l'utilitarismo educativo denunciato da Dickens e Brontë nell'ultimo modulo.",
@@ -528,11 +847,13 @@
           26,
           64
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero modulo di Inglese per la classe quarta, indirizzo Scienze Umane:",
-      "speech": "Con questo abbiamo completato l'intero modulo di Inglese per la classe quarta, indirizzo Scienze Umane:"
+      "speech": "Con questo abbiamo completato l'intero modulo di Inglese per la classe quarta, indirizzo Scienze Umane:",
+      "p": 1
     },
     {
       "text": "dalla nascita del romanzo settecentesco fino al romanzo sociale vittoriano, passando per la grande stagione della poesia romantica.",

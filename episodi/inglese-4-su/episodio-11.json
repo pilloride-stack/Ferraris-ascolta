@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana,",
-      "speech": "Oggi entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana,"
+      "speech": "Oggi entriamo nell'ultimo modulo di questa dispensa, dedicato al tema dell'educazione vittoriana,",
+      "p": 1
     },
     {
       "text": "e torniamo a un romanzo già incontrato in questo percorso, Hard Times di Dickens, per analizzarne un secondo bersaglio polemico, distinto dalla critica dell'industrializzazione vista qualche episodio fa:",
@@ -20,6 +21,20 @@
           59,
           69
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e torniamo a un romanzo già incontrato in questo percorso,"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "di Dickens, per analizzarne un secondo bersaglio polemico, distinto dalla critica dell'industrializzazione vista qualche episodio fa:"
+        }
       ]
     },
     {
@@ -30,6 +45,20 @@
           52,
           71
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la filosofia educativa incarnata dal personaggio di"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Thomas Gradgrind,"
+        },
+        {
+          "lang": "it",
+          "text": "direttore di una scuola di Coketown."
+        }
       ]
     },
     {
@@ -40,7 +69,8 @@
           88,
           96
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Hard Times sviluppa infatti una polemica altrettanto incisiva contro un modello educativo fondato esclusivamente sull'utilitarismo e sulla trasmissione arida di fatti e nozioni.",
@@ -54,6 +84,16 @@
           118,
           130
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Hard Times"
+        },
+        {
+          "lang": "it",
+          "text": "sviluppa infatti una polemica altrettanto incisiva contro un modello educativo fondato esclusivamente sull'utilitarismo e sulla trasmissione arida di fatti e nozioni."
+        }
       ]
     },
     {
@@ -64,6 +104,16 @@
           177,
           203
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel celebre incipit del romanzo, Gradgrind espone in modo programmatico la propria filosofia educativa con una battuta rimasta scolpita nella storia della letteratura inglese: «"
+        },
+        {
+          "lang": "en",
+          "text": "Now, what I want is, Facts..."
+        }
       ]
     },
     {
@@ -74,6 +124,16 @@
           0,
           30
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Facts alone are wanted in life» —"
+        },
+        {
+          "lang": "it",
+          "text": "ciò che voglio sono i fatti; nella vita servono solo i fatti."
+        }
       ]
     },
     {
@@ -88,7 +148,8 @@
     },
     {
       "text": "Fermatevi un momento su un episodio molto citato in sede d'esame, perché esemplifica in modo concreto e quasi comico, se non fosse in realtà tragico, questa filosofia arida:",
-      "speech": "Fermatevi un momento su un episodio molto citato in sede d'esame, perché esemplifica in modo concreto e quasi comico, se non fosse in realtà tragico, questa filosofia arida:"
+      "speech": "Fermatevi un momento su un episodio molto citato in sede d'esame, perché esemplifica in modo concreto e quasi comico, se non fosse in realtà tragico, questa filosofia arida:",
+      "p": 1
     },
     {
       "text": "il rimprovero che Gradgrind rivolge alla piccola Sissy Jupe per aver definito un cavallo attraverso la propria esperienza personale e affettiva,",
@@ -130,7 +191,8 @@
           145,
           180
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Da adulti, né Louisa né Tom sono capaci di gestire i propri sentimenti e le proprie relazioni umane:",
@@ -170,7 +232,8 @@
     },
     {
       "text": "Passiamo ora alla seconda opera di questo modulo, che affronta il tema dell'educazione vittoriana da una prospettiva diversa da quella di Dickens:",
-      "speech": "Passiamo ora alla seconda opera di questo modulo, che affronta il tema dell'educazione vittoriana da una prospettiva diversa da quella di Dickens:"
+      "speech": "Passiamo ora alla seconda opera di questo modulo, che affronta il tema dell'educazione vittoriana da una prospettiva diversa da quella di Dickens:",
+      "p": 1
     },
     {
       "text": "Jane Eyre, pubblicato nel 1847 da Charlotte Brontë, vissuta tra il 1816 e il 1855.",
@@ -216,7 +279,22 @@
           39,
           54
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Lowood, diretto dall'ipocrita e severo"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Brocklehurst,"
+        },
+        {
+          "lang": "it",
+          "text": "è presentato da Brontë come un'istituzione fredda e repressiva, che predica la privazione e la mortificazione del corpo in nome di una presunta disciplina cristiana,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "mentre lo stesso Brocklehurst conduce, nella vita privata, un'esistenza agiata e priva di privazioni:",
@@ -230,6 +308,16 @@
           130,
           141
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "un'ipocrisia istituzionale che culmina in un episodio particolarmente drammatico, la morte per tifo della migliore amica di Jane,"
+        },
+        {
+          "lang": "en",
+          "text": "Helen Burns,"
+        }
       ]
     },
     {
@@ -248,7 +336,8 @@
     },
     {
       "text": "Fermatevi un momento su questo confronto, perché è esattamente il tipo di analisi comparativa che chiude in modo brillante una risposta d'esame su questo modulo:",
-      "speech": "Fermatevi un momento su questo confronto, perché è esattamente il tipo di analisi comparativa che chiude in modo brillante una risposta d'esame su questo modulo:"
+      "speech": "Fermatevi un momento su questo confronto, perché è esattamente il tipo di analisi comparativa che chiude in modo brillante una risposta d'esame su questo modulo:",
+      "p": 1
     },
     {
       "text": "il percorso di Jane a Lowood riflette, come in Hard Times, una critica delle istituzioni educative vittoriane, fondate su un'ipocrisia strutturale tra i principi predicati e la pratica effettiva;",
@@ -262,6 +351,20 @@
           125,
           146
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il percorso di Jane a Lowood riflette, come in"
+        },
+        {
+          "lang": "en",
+          "text": "Hard Times,"
+        },
+        {
+          "lang": "it",
+          "text": "una critica delle istituzioni educative vittoriane, fondate su un'ipocrisia strutturale tra i principi predicati e la pratica effettiva;"
+        }
       ]
     },
     {
@@ -298,7 +401,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio di confronto diretto tra Gradgrind e Brocklehurst, molto utile per fissare le idee in vista dell'esame.",
-      "speech": "Proviamo un piccolo esercizio di confronto diretto tra Gradgrind e Brocklehurst, molto utile per fissare le idee in vista dell'esame."
+      "speech": "Proviamo un piccolo esercizio di confronto diretto tra Gradgrind e Brocklehurst, molto utile per fissare le idee in vista dell'esame.",
+      "p": 1
     },
     {
       "text": "Quanto alla filosofia educativa, Gradgrind incarna l'utilitarismo e il culto arido dei «fatti», mentre Brocklehurst incarna una disciplina repressiva predicata in nome della fede religiosa.",
@@ -336,6 +440,20 @@
           76,
           81
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "mentre l'istituto di Brocklehurst produce la sofferenza e la morte di Helen"
+        },
+        {
+          "lang": "en",
+          "text": "Burns,"
+        },
+        {
+          "lang": "it",
+          "text": "pur non impedendo, paradossalmente, l'affermazione finale di Jane stessa."
+        }
       ]
     },
     {
@@ -354,6 +472,28 @@
           88,
           96
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "dal romanzo d'avventura e satirico del primo Settecento, con Defoe, Swift,"
+        },
+        {
+          "lang": "en",
+          "text": "Richardson"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "Fielding,"
+        },
+        {
+          "lang": "it",
+          "text": "incentrato sull'individualismo borghese e sulla satira;"
+        }
       ]
     },
     {
@@ -386,7 +526,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: in Hard Times, Mr Gradgrind incarna una filosofia educativa utilitaristica fondata sul culto dei «fatti», che produce il fallimento affettivo dei propri figli Louisa e Tom.",
@@ -408,7 +549,22 @@
           105,
           110
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo:"
+        },
+        {
+          "lang": "en",
+          "text": "in Hard Times, Mr"
+        },
+        {
+          "lang": "it",
+          "text": "Gradgrind incarna una filosofia educativa utilitaristica fondata sul culto dei «fatti», che produce il fallimento affettivo dei propri figli Louisa e Tom."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: in Jane Eyre, l'istituto di Lowood, diretto dall'ipocrita Mr Brocklehurst, è un'istituzione repressiva che culmina nella morte di Helen Burns,",
@@ -426,7 +582,26 @@
           145,
           150
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: in Jane Eyre, l'istituto di Lowood, diretto dall'ipocrita"
+        },
+        {
+          "lang": "en",
+          "text": "Mr Brocklehurst,"
+        },
+        {
+          "lang": "it",
+          "text": "è un'istituzione repressiva che culmina nella morte di Helen"
+        },
+        {
+          "lang": "en",
+          "text": "Burns,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "ma permette comunque a Jane di raggiungere l'indipendenza economica e morale da adulta.",
@@ -444,7 +619,8 @@
           38,
           70
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: il romanzo inglese, da Defoe a Brontë, amplia progressivamente il proprio sguardo dall'avventura individuale alla piena maturità del romanzo sociale vittoriano.",
@@ -454,11 +630,13 @@
           0,
           6
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni autore, ogni opera e ogni collegamento ben fissato nella memoria.",
-      "speech": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni autore, ogni opera e ogni collegamento ben fissato nella memoria."
+      "speech": "Nel prossimo e ultimo episodio di questo modulo dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni autore, ogni opera e ogni collegamento ben fissato nella memoria.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

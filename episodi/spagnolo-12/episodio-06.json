@@ -16,11 +16,30 @@
           128,
           133
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nei quattro episodi scorsi abbiamo costruito le fondamenta della grammatica spagnola: pronomi, articoli, e i verbi"
+        },
+        {
+          "lang": "es",
+          "text": "ser, estar"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "tener."
+        }
       ]
     },
     {
       "text": "Oggi entriamo nel Modulo 2, dedicato alla grammatica dei tempi verbali, e affrontiamo il primo grande tempo verbale della lingua spagnola:",
-      "speech": "Oggi entriamo nel Modulo 2, dedicato alla grammatica dei tempi verbali, e affrontiamo il primo grande tempo verbale della lingua spagnola:"
+      "speech": "Oggi entriamo nel Modulo 2, dedicato alla grammatica dei tempi verbali, e affrontiamo il primo grande tempo verbale della lingua spagnola:",
+      "p": 1
     },
     {
       "text": "il presente indicativo, insieme al pretérito perfecto, il tempo composto che permette di parlare di un passato ancora collegato al presente.",
@@ -38,6 +57,20 @@
           58,
           72
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il presente indicativo, insieme al"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto,"
+        },
+        {
+          "lang": "it",
+          "text": "il tempo composto che permette di parlare di un passato ancora collegato al presente."
+        }
       ]
     },
     {
@@ -48,7 +81,8 @@
           44,
           59
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "I verbi regolari spagnoli si dividono in tre coniugazioni, riconoscibili dalla desinenza dell'infinito: -AR, come hablar, parlare; -ER, come comer, mangiare; e -IR, come vivir, vivere.",
@@ -74,6 +108,44 @@
           170,
           175
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "I verbi regolari spagnoli si dividono in tre coniugazioni, riconoscibili dalla desinenza dell'infinito: AR, come"
+        },
+        {
+          "lang": "es",
+          "text": "hablar,"
+        },
+        {
+          "lang": "it",
+          "text": "parlare; ER, come"
+        },
+        {
+          "lang": "es",
+          "text": "comer,"
+        },
+        {
+          "lang": "it",
+          "text": "mangiare; e"
+        },
+        {
+          "lang": "es",
+          "text": "IR,"
+        },
+        {
+          "lang": "it",
+          "text": "come"
+        },
+        {
+          "lang": "es",
+          "text": "vivir,"
+        },
+        {
+          "lang": "it",
+          "text": "vivere."
+        }
       ]
     },
     {
@@ -84,6 +156,16 @@
           20,
           127
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Coniughiamo insieme"
+        },
+        {
+          "lang": "es",
+          "text": "hablar al presente: yo hablo, tú hablas, él o ella habla, nosotros hablamos, vosotros habláis, ellos hablan."
+        }
       ]
     },
     {
@@ -102,11 +184,38 @@
           133,
           181
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Lo stesso schema di desinenze, con le opportune vocali tematiche, si applica a"
+        },
+        {
+          "lang": "es",
+          "text": "comer (como,"
+        },
+        {
+          "lang": "it",
+          "text": "comes, come,"
+        },
+        {
+          "lang": "es",
+          "text": "comemos, coméis, comen)"
+        },
+        {
+          "lang": "it",
+          "text": "e a"
+        },
+        {
+          "lang": "es",
+          "text": "vivir (vivo, vives, vive, vivimos, vivís, viven)."
+        }
       ]
     },
     {
       "text": "Fermatevi un momento su un punto importante da ricordare fin da subito:",
-      "speech": "Fermatevi un momento su un punto importante da ricordare fin da subito:"
+      "speech": "Fermatevi un momento su un punto importante da ricordare fin da subito:",
+      "p": 1
     },
     {
       "text": "alcuni verbi molto frequenti sono irregolari al presente, tra cui ser, estar, tener, ir e hacer, che approfondiremo nei prossimi episodi.",
@@ -124,21 +233,54 @@
           90,
           95
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "alcuni verbi molto frequenti sono irregolari al presente, tra cui"
+        },
+        {
+          "lang": "es",
+          "text": "ser, estar, tener, ir"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "hacer,"
+        },
+        {
+          "lang": "it",
+          "text": "che approfondiremo nei prossimi episodi."
+        }
       ]
     },
     {
       "text": "Proviamo un esempio pratico: come completereste la frase «Todos los días, yo ______ (estudiar) español y mi hermana ______ (leer) un libro»?",
-      "speech": "Proviamo un esempio pratico: come completereste la frase «Todos los días, yo … (estudiar) español i mi hermana … (leer) un libro»?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase «Todos los días, yo … (estudiar) español y mi hermana … (leer) un libro»?",
       "bold": [
         [
           58,
           138
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un esempio pratico: come completereste la frase «"
+        },
+        {
+          "lang": "es",
+          "text": "Todos los días, yo … (estudiar) español y mi hermana … (leer) un libro»?"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "La soluzione è: Todos los días, yo estudio español y mi hermana lee un libro — estudiar prende la desinenza -o alla prima persona singolare, leer prende la desinenza -e alla terza persona singolare.",
-      "speech": "La soluzione è: Todos los días, yo estudio español i mi hermana lee un libro — estudiar prende la desinenza o alla prima persona singolare, leer prende la desinenza e alla terza persona singolare.",
+      "speech": "La soluzione è: Todos los días, yo estudio español y mi hermana lee un libro — estudiar prende la desinenza o alla prima persona singolare, leer prende la desinenza e alla terza persona singolare.",
       "bold": [
         [
           16,
@@ -148,6 +290,28 @@
           141,
           145
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La soluzione è:"
+        },
+        {
+          "lang": "es",
+          "text": "Todos los días, yo estudio español y mi hermana lee un libro — estudiar"
+        },
+        {
+          "lang": "it",
+          "text": "prende la desinenza o alla prima persona singolare,"
+        },
+        {
+          "lang": "es",
+          "text": "leer"
+        },
+        {
+          "lang": "it",
+          "text": "prende la desinenza e alla terza persona singolare."
+        }
       ]
     },
     {
@@ -166,7 +330,30 @@
           112,
           130
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo ora al"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto,"
+        },
+        {
+          "lang": "it",
+          "text": "che si forma con il presente indicativo del verbo"
+        },
+        {
+          "lang": "es",
+          "text": "haber,"
+        },
+        {
+          "lang": "it",
+          "text": "avere, seguito dal participio passato del verbo principale,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "e si usa per esprimere azioni passate collegate al presente o concluse in un lasso di tempo non ancora terminato,",
@@ -194,6 +381,36 @@
           50,
           58
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "come"
+        },
+        {
+          "lang": "es",
+          "text": "hoy ("
+        },
+        {
+          "lang": "it",
+          "text": "oggi),"
+        },
+        {
+          "lang": "es",
+          "text": "esta semana ("
+        },
+        {
+          "lang": "it",
+          "text": "questa settimana) o"
+        },
+        {
+          "lang": "es",
+          "text": "este año ("
+        },
+        {
+          "lang": "it",
+          "text": "quest'anno) — esattamente come il nostro passato prossimo in contesti analoghi."
+        }
       ]
     },
     {
@@ -236,6 +453,72 @@
           178,
           184
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il participio passato si forma aggiungendo ado ai verbi in AR, come"
+        },
+        {
+          "lang": "es",
+          "text": "hablar"
+        },
+        {
+          "lang": "it",
+          "text": "che diventa"
+        },
+        {
+          "lang": "es",
+          "text": "hablado,"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "ido"
+        },
+        {
+          "lang": "it",
+          "text": "ai verbi in ER e"
+        },
+        {
+          "lang": "es",
+          "text": "IR,"
+        },
+        {
+          "lang": "it",
+          "text": "come"
+        },
+        {
+          "lang": "es",
+          "text": "comer"
+        },
+        {
+          "lang": "it",
+          "text": "che diventa"
+        },
+        {
+          "lang": "es",
+          "text": "comido"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "vivir"
+        },
+        {
+          "lang": "it",
+          "text": "che diventa"
+        },
+        {
+          "lang": "es",
+          "text": "vivido."
+        }
       ]
     },
     {
@@ -246,7 +529,8 @@
           121,
           149
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Hacer diventa hecho, decir diventa dicho, escribir diventa escrito, ver diventa visto, poner diventa puesto, volver diventa vuelto, abrir diventa abierto, romper diventa roto, morir diventa muerto e descubrir diventa descubierto.",
@@ -300,6 +584,100 @@
           217,
           228
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Hacer"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "hecho, decir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "dicho, escribir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "escrito, ver"
+        },
+        {
+          "lang": "it",
+          "text": "diventa visto,"
+        },
+        {
+          "lang": "es",
+          "text": "poner"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "puesto, volver"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "vuelto, abrir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "abierto, romper"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "roto, morir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "muerto"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "descubrir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "descubierto."
+        }
       ]
     },
     {
@@ -314,21 +692,46 @@
           121,
           124
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Notate come diversi di questi participi irregolari terminino in to o in cho, invece della normale desinenza in ado o"
+        },
+        {
+          "lang": "es",
+          "text": "ido,"
+        },
+        {
+          "lang": "it",
+          "text": "un pattern che vi aiuterà a riconoscerli e a ricordarli più facilmente."
+        }
       ]
     },
     {
       "text": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase «Esta mañana, nosotros ______ (hacer) los deberes y ______ (escribir) un correo»?",
-      "speech": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase «Esta mañana, nosotros … (hacer) los deberes i … (escribir) un correo»?",
+      "speech": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase «Esta mañana, nosotros … (hacer) los deberes y … (escribir) un correo»?",
       "bold": [
         [
           89,
           167
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un esempio pratico anche per questo tempo verbale: come completereste la frase «"
+        },
+        {
+          "lang": "es",
+          "text": "Esta mañana, nosotros … (hacer) los deberes y … (escribir) un correo»?"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "La soluzione è: Esta mañana, nosotros hemos hecho los deberes y hemos escrito un correo — hemos è la prima persona plurale di haber, seguita dai participi irregolari hecho ed escrito.",
-      "speech": "La soluzione è: Esta mañana, nosotros hemos hecho los deberes i hemos escrito un correo — hemos è la prima persona plurale di haber, seguita dai participi irregolari hecho ed escrito.",
+      "speech": "La soluzione è: Esta mañana, nosotros hemos hecho los deberes y hemos escrito un correo — hemos è la prima persona plurale di haber, seguita dai participi irregolari hecho ed escrito.",
       "bold": [
         [
           16,
@@ -346,11 +749,46 @@
           175,
           182
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La soluzione è:"
+        },
+        {
+          "lang": "es",
+          "text": "Esta mañana, nosotros hemos hecho los deberes y hemos escrito un correo — hemos"
+        },
+        {
+          "lang": "it",
+          "text": "è la prima persona plurale di"
+        },
+        {
+          "lang": "es",
+          "text": "haber,"
+        },
+        {
+          "lang": "it",
+          "text": "seguita dai participi irregolari"
+        },
+        {
+          "lang": "es",
+          "text": "hecho"
+        },
+        {
+          "lang": "it",
+          "text": "ed"
+        },
+        {
+          "lang": "es",
+          "text": "escrito."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il presente indicativo dei verbi regolari si coniuga secondo tre schemi di desinenze, per i verbi in -AR, -ER e -IR, con alcuni verbi frequenti irregolari come ser, estar, tener, ir e hacer.",
@@ -376,7 +814,34 @@
           191,
           196
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il presente indicativo dei verbi regolari si coniuga secondo tre schemi di desinenze, per i verbi in AR, ER e"
+        },
+        {
+          "lang": "es",
+          "text": "IR,"
+        },
+        {
+          "lang": "it",
+          "text": "con alcuni verbi frequenti irregolari come"
+        },
+        {
+          "lang": "es",
+          "text": "ser, estar, tener, ir"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "hacer."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: il pretérito perfecto si forma con haber più il participio passato, e si usa per un passato ancora collegato al presente.",
@@ -390,7 +855,22 @@
           12,
           49
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto si forma con haber"
+        },
+        {
+          "lang": "it",
+          "text": "più il participio passato, e si usa per un passato ancora collegato al presente."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: numerosi verbi molto comuni hanno un participio passato irregolare, come hecho, dicho, escrito, visto e puesto.",
@@ -412,11 +892,31 @@
           111,
           117
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: numerosi verbi molto comuni hanno un participio passato irregolare, come"
+        },
+        {
+          "lang": "es",
+          "text": "hecho, dicho, escrito,"
+        },
+        {
+          "lang": "it",
+          "text": "visto e"
+        },
+        {
+          "lang": "es",
+          "text": "puesto."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 2 e affrontiamo altri due tempi verbali fondamentali per parlare del passato, l'imperfecto e il pluscuamperfecto, insieme al gerundio.",
-      "speech": "Nel prossimo episodio restiamo nel Modulo 2 e affrontiamo altri due tempi verbali fondamentali per parlare del passato, l'imperfecto e il pluscuamperfecto, insieme al gerundio."
+      "speech": "Nel prossimo episodio restiamo nel Modulo 2 e affrontiamo altri due tempi verbali fondamentali per parlare del passato, l'imperfecto e il pluscuamperfecto, insieme al gerundio.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

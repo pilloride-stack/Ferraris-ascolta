@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi vediamo la prima grande categoria di operazioni correnti: gli acquisti di merci e il loro regolamento, con particolare attenzione al meccanismo dell'IVA.",
-      "speech": "Oggi vediamo la prima grande categoria di operazioni correnti: gli acquisti di merci e il loro regolamento, con particolare attenzione al meccanismo dell'IVA."
+      "speech": "Oggi vediamo la prima grande categoria di operazioni correnti: gli acquisti di merci e il loro regolamento, con particolare attenzione al meccanismo dell'IVA.",
+      "p": 1
     },
     {
       "text": "Gli acquisti di merci destinate alla vendita si rilevano addebitando il conto economico di costo Merci conto acquisti.",
@@ -20,7 +21,8 @@
           97,
           117
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Se l'operazione è soggetta a IVA, occorre inoltre addebitare il conto finanziario IVA nostro credito, cioè l'imposta pagata al fornitore, che l'azienda potrà in seguito detrarre.",
@@ -44,7 +46,8 @@
     },
     {
       "text": "Fermatevi un momento sul ruolo dell'IVA in questa scrittura, perché è un punto che genera spesso confusione:",
-      "speech": "Fermatevi un momento sul ruolo dell'IVA in questa scrittura, perché è un punto che genera spesso confusione:"
+      "speech": "Fermatevi un momento sul ruolo dell'IVA in questa scrittura, perché è un punto che genera spesso confusione:",
+      "p": 1
     },
     {
       "text": "l'IVA pagata al fornitore non è un costo per l'azienda, ma un credito verso l'Erario, perché l'azienda la recupererà in seguito, detraendola dall'IVA che a sua volta incasserà dai propri clienti.",
@@ -68,7 +71,8 @@
     },
     {
       "text": "Vediamo insieme, passo dopo passo, un primo esercizio svolto: si acquistano merci per mille euro più IVA al ventidue per cento, con pagamento dilazionato a trenta giorni.",
-      "speech": "Vediamo insieme, passo dopo passo, un primo esercizio svolto: si acquistano merci per mille euro più IVA al ventidue per cento, con pagamento dilazionato a trenta giorni."
+      "speech": "Vediamo insieme, passo dopo passo, un primo esercizio svolto: si acquistano merci per mille euro più IVA al ventidue per cento, con pagamento dilazionato a trenta giorni.",
+      "p": 1
     },
     {
       "text": "L'IVA ammonta a duecentoventi euro, per un totale fattura di milleduecentoventi euro.",
@@ -100,7 +104,8 @@
     },
     {
       "text": "Vediamo un secondo esercizio, questa volta con pagamento immediato:",
-      "speech": "Vediamo un secondo esercizio, questa volta con pagamento immediato:"
+      "speech": "Vediamo un secondo esercizio, questa volta con pagamento immediato:",
+      "p": 1
     },
     {
       "text": "si acquistano merci per cinquecento euro più IVA al ventidue per cento, cioè centodieci euro, con pagamento immediato tramite bonifico bancario.",
@@ -122,7 +127,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, questa volta su un caso particolare:",
-      "speech": "Proviamo un piccolo esercizio insieme, questa volta su un caso particolare:"
+      "speech": "Proviamo un piccolo esercizio insieme, questa volta su un caso particolare:",
+      "p": 1
     },
     {
       "text": "si restituisce al fornitore merce difettosa per un valore di duecento euro più IVA al ventidue per cento, cioè quarantaquattro euro, precedentemente acquistata a credito.",
@@ -168,7 +174,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: gli acquisti di merci si rilevano addebitando Merci conto acquisti, ed eventualmente IVA nostro credito se l'operazione è soggetta a imposta.",
@@ -186,7 +193,8 @@
           92,
           110
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: il conto da accreditare dipende dalla modalità di regolamento, Cassa o Banca se immediato, Debiti verso fornitori se dilazionato.",
@@ -196,7 +204,8 @@
           0,
           7
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: un reso su acquisti si rileva in modo speculare, riducendo il debito verso il fornitore e, contemporaneamente, il costo e il credito IVA originariamente rilevati.",
@@ -210,11 +219,13 @@
           10,
           26
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo l'operazione speculare: le vendite di merci e il loro regolamento.",
-      "speech": "Nel prossimo episodio vediamo l'operazione speculare: le vendite di merci e il loro regolamento."
+      "speech": "Nel prossimo episodio vediamo l'operazione speculare: le vendite di merci e il loro regolamento.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

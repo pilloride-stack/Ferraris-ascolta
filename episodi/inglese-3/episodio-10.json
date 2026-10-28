@@ -20,7 +20,8 @@
     },
     {
       "text": "Prima di affrontarle, vale la pena ricordare la sintesi comparativa proposta dalla dispensa stessa, perché è un ottimo strumento per organizzare tutte le vostre conoscenze in uno schema unico:",
-      "speech": "Prima di affrontarle, vale la pena ricordare la sintesi comparativa proposta dalla dispensa stessa, perché è un ottimo strumento per organizzare tutte le vostre conoscenze in uno schema unico:"
+      "speech": "Prima di affrontarle, vale la pena ricordare la sintesi comparativa proposta dalla dispensa stessa, perché è un ottimo strumento per organizzare tutte le vostre conoscenze in uno schema unico:",
+      "p": 1
     },
     {
       "text": "ogni fase della storia inglese che abbiamo visto corrisponde a una fase precisa della lingua e della letteratura.",
@@ -42,6 +43,20 @@
           96,
           103
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "All'età anglosassone, dal quinto all'undicesimo secolo, corrisponde"
+        },
+        {
+          "lang": "en",
+          "text": "l'Old English"
+        },
+        {
+          "lang": "it",
+          "text": "e il poema di Beowulf."
+        }
       ]
     },
     {
@@ -60,6 +75,20 @@
           116,
           123
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Al tardo Medioevo, in particolare il Trecento, corrisponde il"
+        },
+        {
+          "lang": "en",
+          "text": "Middle English,"
+        },
+        {
+          "lang": "it",
+          "text": "la lingua delle ballate popolari e di Chaucer."
+        }
       ]
     },
     {
@@ -78,6 +107,20 @@
           111,
           122
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "All'età Tudor e al Rinascimento del Cinquecento corrisponde"
+        },
+        {
+          "lang": "en",
+          "text": "l'Early Modern English,"
+        },
+        {
+          "lang": "it",
+          "text": "la lingua del sonetto e di Shakespeare."
+        }
       ]
     },
     {
@@ -92,7 +135,8 @@
     },
     {
       "text": "Prima domanda: chi erano i Celti e che ruolo hanno avuto nella storia delle isole britanniche?",
-      "speech": "Prima domanda: chi erano i Celti e che ruolo hanno avuto nella storia delle isole britanniche?"
+      "speech": "Prima domanda: chi erano i Celti e che ruolo hanno avuto nella storia delle isole britanniche?",
+      "p": 1
     },
     {
       "text": "Ricordate che erano organizzati in tribù guidate da capi guerrieri e druidi, con una ricca cultura orale, e che la loro lingua sopravvive ancora oggi in Galles, Scozia, Irlanda e Cornovaglia.",
@@ -114,7 +158,8 @@
     },
     {
       "text": "Seconda domanda: descrivi il passaggio dalla Britannia romana all'insediamento degli Anglosassoni.",
-      "speech": "Seconda domanda: descrivi il passaggio dalla Britannia romana all'insediamento degli Anglosassoni."
+      "speech": "Seconda domanda: descrivi il passaggio dalla Britannia romana all'insediamento degli Anglosassoni.",
+      "p": 1
     },
     {
       "text": "Ricordate la conquista romana del 43 dopo Cristo, il ritiro delle legioni nel quinto secolo, e l'arrivo di Angli, Sassoni e Juti, da cui derivano il nome «Inghilterra» e la lingua inglese antica.",
@@ -136,7 +181,8 @@
     },
     {
       "text": "Terza domanda: che cos'è la conquista normanna del 1066 e quali conseguenze ebbe sulla società e sulla lingua inglese?",
-      "speech": "Terza domanda: che cosa è la conquista normanna del 1066 e quali conseguenze ebbe sulla società e sulla lingua inglese?"
+      "speech": "Terza domanda: che cosa è la conquista normanna del 1066 e quali conseguenze ebbe sulla società e sulla lingua inglese?",
+      "p": 1
     },
     {
       "text": "Ricordate la vittoria di Guglielmo ad Hastings, la nuova aristocrazia di lingua francese, il sistema feudale gerarchico, e la nascita del Middle English.",
@@ -158,11 +204,22 @@
           138,
           152
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ricordate la vittoria di Guglielmo ad Hastings, la nuova aristocrazia di lingua francese, il sistema feudale gerarchico, e la nascita del"
+        },
+        {
+          "lang": "en",
+          "text": "Middle English."
+        }
       ]
     },
     {
       "text": "Quarta domanda: che cos'è la Magna Carta e perché è considerata così importante?",
-      "speech": "Quarta domanda: che cosa è la Magna Carta e perché è considerata così importante?"
+      "speech": "Quarta domanda: che cosa è la Magna Carta e perché è considerata così importante?",
+      "p": 1
     },
     {
       "text": "Ricordate re Giovanni Senzaterra, la firma del 1215 a Runnymede, e i due principi fondamentali: niente tasse senza consenso, e diritto a un giusto processo.",
@@ -206,11 +263,26 @@
           185,
           189
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ricordate il Parlamento di Simon de Montfort del 1265, che include per la prima volta rappresentanti eletti delle contee e delle città, precedente della futura divisione tra Camera dei"
+        },
+        {
+          "lang": "en",
+          "text": "Lord"
+        },
+        {
+          "lang": "it",
+          "text": "e Camera dei Comuni."
+        }
       ]
     },
     {
       "text": "Sesta domanda: quali furono le conseguenze sociali ed economiche della peste nera in Inghilterra?",
-      "speech": "Sesta domanda: quali furono le conseguenze sociali ed economiche della peste nera in Inghilterra?"
+      "speech": "Sesta domanda: quali furono le conseguenze sociali ed economiche della peste nera in Inghilterra?",
+      "p": 1
     },
     {
       "text": "Ricordate la morte di circa un terzo della popolazione nel 1348, l'aumento del potere contrattuale dei lavoratori superstiti, e l'accelerazione del declino del sistema feudale.",
@@ -232,7 +304,8 @@
     },
     {
       "text": "Settima domanda: chi furono i Tudor e quali eventi principali caratterizzano il loro regno?",
-      "speech": "Settima domanda: chi furono i Tudor e quali eventi principali caratterizzano il loro regno?"
+      "speech": "Settima domanda: chi furono i Tudor e quali eventi principali caratterizzano il loro regno?",
+      "p": 1
     },
     {
       "text": "Ricordate Enrico VII dopo la Guerra delle due rose, Enrico VIII e la rottura con Roma, ed Elisabetta I con la sua età di stabilità e fioritura culturale.",
@@ -254,7 +327,8 @@
     },
     {
       "text": "Ottava domanda: che cos'è il Rinascimento inglese e in che senso si differenzia da quello italiano?",
-      "speech": "Ottava domanda: che cosa è il Rinascimento inglese e in che senso si differenzia da quello italiano?"
+      "speech": "Ottava domanda: che cosa è il Rinascimento inglese e in che senso si differenzia da quello italiano?",
+      "p": 1
     },
     {
       "text": "Ricordate il ritardo cronologico rispetto all'Italia, e la maggiore centralità della letteratura e del teatro rispetto alle arti figurative.",
@@ -272,7 +346,8 @@
     },
     {
       "text": "Nona domanda: racconta la trama di Beowulf e spiega quali valori riflette.",
-      "speech": "Nona domanda: racconta la trama di Beowulf e spiega quali valori riflette."
+      "speech": "Nona domanda: racconta la trama di Beowulf e spiega quali valori riflette.",
+      "p": 1
     },
     {
       "text": "Ricordate le tre imprese eroiche — Grendel, la madre di Grendel, il drago finale —",
@@ -304,7 +379,8 @@
     },
     {
       "text": "Decima domanda: che caratteristiche hanno le ballate medievali?",
-      "speech": "Decima domanda: che caratteristiche hanno le ballate medievali?"
+      "speech": "Decima domanda: che caratteristiche hanno le ballate medievali?",
+      "p": 1
     },
     {
       "text": "Racconta la trama di Lord Randal.",
@@ -314,6 +390,16 @@
           21,
           32
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Racconta la trama di"
+        },
+        {
+          "lang": "en",
+          "text": "Lord Randal."
+        }
       ]
     },
     {
@@ -338,7 +424,18 @@
           81,
           97
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Undicesima domanda: chi era Geoffrey Chaucer e qual è la struttura narrativa dei"
+        },
+        {
+          "lang": "en",
+          "text": "Canterbury Tales?"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Ricordate la cornice del pellegrinaggio verso Canterbury, la varietà sociale dei personaggi-narratori, e la scelta di scrivere in Middle English.",
@@ -356,11 +453,30 @@
           130,
           144
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ricordate la cornice del pellegrinaggio verso"
+        },
+        {
+          "lang": "en",
+          "text": "Canterbury,"
+        },
+        {
+          "lang": "it",
+          "text": "la varietà sociale dei personaggi-narratori, e la scelta di scrivere in"
+        },
+        {
+          "lang": "en",
+          "text": "Middle English."
+        }
       ]
     },
     {
       "text": "Dodicesima domanda: che differenza c'è tra il sonetto petrarchesco e quello elisabettiano?",
-      "speech": "Dodicesima domanda: che differenza cè tra il sonetto petrarchesco e quello elisabettiano?"
+      "speech": "Dodicesima domanda: che differenza cè tra il sonetto petrarchesco e quello elisabettiano?",
+      "p": 1
     },
     {
       "text": "Ricordate ottava più sestina contro tre quartine più distico finale, e i diversi schemi di rime, ABBA ABBA CDECDE contro ABAB CDCD EFEF GG.",
@@ -378,7 +494,8 @@
     },
     {
       "text": "Tredicesima domanda: analizza il Sonetto 130 di Shakespeare: come si distacca dalla tradizione petrarchesca?",
-      "speech": "Tredicesima domanda: analizza il Sonetto 130 di Shakespeare: come si distacca dalla tradizione petrarchesca?"
+      "speech": "Tredicesima domanda: analizza il Sonetto 130 di Shakespeare: come si distacca dalla tradizione petrarchesca?",
+      "p": 1
     },
     {
       "text": "Ricordate il capovolgimento ironico delle iperboli convenzionali, e la dichiarazione finale di un amore autentico proprio perché privo di false esagerazioni.",
@@ -398,7 +515,22 @@
           61,
           64
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quattordicesima e ultima domanda: racconta la trama di Romeo"
+        },
+        {
+          "lang": "en",
+          "text": "and"
+        },
+        {
+          "lang": "it",
+          "text": "Juliet e i suoi temi principali."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Ricordate l'amore contrastato tra le due famiglie rivali, il ruolo di frate Lorenzo, il finale tragico per un fatale equivoco,",
@@ -426,7 +558,8 @@
     },
     {
       "text": "Un consiglio pratico finale, prima di lasciarvi: come avete visto in questo intero modulo, la storia e la letteratura inglese di questo periodo sono strettamente intrecciate tra loro,",
-      "speech": "Un consiglio pratico finale, prima di lasciarvi: come avete visto in questo intero modulo, la storia e la letteratura inglese di questo periodo sono strettamente intrecciate tra loro,"
+      "speech": "Un consiglio pratico finale, prima di lasciarvi: come avete visto in questo intero modulo, la storia e la letteratura inglese di questo periodo sono strettamente intrecciate tra loro,",
+      "p": 1
     },
     {
       "text": "e il modo migliore per prepararvi all'esame è proprio quello di mostrare questi collegamenti — la lingua di Beowulf che riflette l'età anglosassone,",
@@ -450,6 +583,20 @@
           71,
           92
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il"
+        },
+        {
+          "lang": "en",
+          "text": "Middle English"
+        },
+        {
+          "lang": "it",
+          "text": "di Chaucer che riflette la società post-normanna, il sonetto elisabettiano che riflette la fioritura culturale dei Tudor —"
+        }
       ]
     },
     {

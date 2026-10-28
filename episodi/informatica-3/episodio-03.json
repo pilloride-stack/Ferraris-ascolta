@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dal problema degli archivi tradizionali e dalla soluzione offerta dai database, per poi vedere come si progetta concretamente una base di dati.",
-      "speech": "Oggi entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dal problema degli archivi tradizionali e dalla soluzione offerta dai database, per poi vedere come si progetta concretamente una base di dati."
+      "speech": "Oggi entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dal problema degli archivi tradizionali e dalla soluzione offerta dai database, per poi vedere come si progetta concretamente una base di dati.",
+      "p": 1
     },
     {
       "text": "Negli archivi tradizionali, ogni programma applicativo gestisce un proprio file di dati indipendente dagli altri.",
@@ -20,7 +21,8 @@
           6,
           26
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Questa impostazione genera facilmente due problemi seri: la ridondanza, cioè gli stessi dati memorizzati più volte in archivi diversi,",
@@ -58,7 +60,8 @@
     },
     {
       "text": "Fermatevi un momento su questi due problemi, ridondanza e inconsistenza, perché sono spesso citati insieme ma indicano cose diverse:",
-      "speech": "Fermatevi un momento su questi due problemi, ridondanza e inconsistenza, perché sono spesso citati insieme ma indicano cose diverse:"
+      "speech": "Fermatevi un momento su questi due problemi, ridondanza e inconsistenza, perché sono spesso citati insieme ma indicano cose diverse:",
+      "p": 1
     },
     {
       "text": "la ridondanza riguarda la ripetizione fisica dello stesso dato in più punti, mentre l'inconsistenza è la conseguenza pratica più pericolosa di questa ripetizione,",
@@ -80,7 +83,8 @@
           158,
           167
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "cioè la correttezza e la coerenza dei dati, e la sicurezza, cioè il controllo degli accessi.",
@@ -94,7 +98,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario quali sono i vantaggi di un database rispetto a un archivio tradizionale, come rispondereste?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario quali sono i vantaggi di un database rispetto a un archivio tradizionale, come rispondereste?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario quali sono i vantaggi di un database rispetto a un archivio tradizionale, come rispondereste?",
+      "p": 1
     },
     {
       "text": "Potreste elencare proprio questi quattro vantaggi: meno ridondanza, dati indipendenti dai programmi, maggiore integrità e maggiore sicurezza,",
@@ -106,7 +111,8 @@
     },
     {
       "text": "Vediamo ora come si progetta concretamente una base di dati: la progettazione si articola in tre fasi successive, ciascuna con un obiettivo diverso.",
-      "speech": "Vediamo ora come si progetta concretamente una base di dati: la progettazione si articola in tre fasi successive, ciascuna con un obiettivo diverso."
+      "speech": "Vediamo ora come si progetta concretamente una base di dati: la progettazione si articola in tre fasi successive, ciascuna con un obiettivo diverso.",
+      "p": 1
     },
     {
       "text": "La progettazione concettuale traduce la realtà da modellare in uno schema concettuale astratto, indipendente dalla tecnologia, tipicamente rappresentato con il modello Entità-Relazione, o modello E-R, che individua le entità,",
@@ -148,7 +154,8 @@
           128,
           147
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "La progettazione fisica, infine, implementa concretamente lo schema logico su uno specifico DBMS, definendo tabelle, indici e strutture di memorizzazione effettive.",
@@ -162,7 +169,8 @@
     },
     {
       "text": "Fermatevi un momento su questa sequenza delle tre fasi, perché l'ordine e l'indipendenza dalla tecnologia sono spesso al centro delle domande d'esame:",
-      "speech": "Fermatevi un momento su questa sequenza delle tre fasi, perché l'ordine e l'indipendenza dalla tecnologia sono spesso al centro delle domande d'esame:"
+      "speech": "Fermatevi un momento su questa sequenza delle tre fasi, perché l'ordine e l'indipendenza dalla tecnologia sono spesso al centro delle domande d'esame:",
+      "p": 1
     },
     {
       "text": "la progettazione concettuale, con il suo schema E-R, non dipende affatto dal software che userete in seguito,",
@@ -182,7 +190,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: gli archivi tradizionali soffrono di ridondanza e inconsistenza, problemi che un database centralizzato, gestito da un DBMS, permette di superare.",
@@ -200,7 +209,8 @@
           57,
           70
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: un database garantisce controllo della ridondanza, indipendenza dei dati, integrità e sicurezza.",
@@ -218,7 +228,8 @@
           60,
           81
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: la progettazione di un database si articola in tre fasi, concettuale con il modello E-R, logica con il modello relazionale, e fisica sullo specifico DBMS.",
@@ -240,11 +251,13 @@
           110,
           129
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo come si documenta un progetto di database e facciamo una prima introduzione pratica ad Access.",
-      "speech": "Nel prossimo episodio vediamo come si documenta un progetto di database e facciamo una prima introduzione pratica ad Access."
+      "speech": "Nel prossimo episodio vediamo come si documenta un progetto di database e facciamo una prima introduzione pratica ad Access.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

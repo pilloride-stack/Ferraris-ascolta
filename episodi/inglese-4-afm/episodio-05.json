@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi entriamo nella UDA 2, dedicata a finanza e marketing, cominciando dal cuore del mondo finanziario:",
-      "speech": "Oggi entriamo nella UDA 2, dedicata a finanza e marketing, cominciando dal cuore del mondo finanziario:"
+      "speech": "Oggi entriamo nella UDA 2, dedicata a finanza e marketing, cominciando dal cuore del mondo finanziario:",
+      "p": 1
     },
     {
       "text": "la Borsa valori, chi vi opera, e il confronto tra le due borse più importanti del mondo anglosassone, quella di Londra e quella di New York.",
@@ -24,6 +25,16 @@
           131,
           139
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la Borsa valori, chi vi opera, e il confronto tra le due borse più importanti del mondo anglosassone, quella di Londra e quella di"
+        },
+        {
+          "lang": "en",
+          "text": "New York."
+        }
       ]
     },
     {
@@ -46,7 +57,38 @@
           124,
           129
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La Borsa valori,"
+        },
+        {
+          "lang": "en",
+          "text": "Stock Exchange,"
+        },
+        {
+          "lang": "it",
+          "text": "è il mercato regolamentato in cui si acquistano e si vendono azioni,"
+        },
+        {
+          "lang": "en",
+          "text": "shares,"
+        },
+        {
+          "lang": "it",
+          "text": "obbligazioni,"
+        },
+        {
+          "lang": "en",
+          "text": "bonds,"
+        },
+        {
+          "lang": "it",
+          "text": "e altri strumenti finanziari emessi da società quotate."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "È importante avere chiara fin da subito la distinzione tra azioni e obbligazioni, anche se la dispensa non la sviluppa in dettaglio:",
@@ -74,7 +116,8 @@
     },
     {
       "text": "Vediamo ora chi opera concretamente su questo mercato, perché è un punto molto richiesto all'esame e vale la pena saperlo esporre con ordine.",
-      "speech": "Vediamo ora chi opera concretamente su questo mercato, perché è un punto molto richiesto all'esame e vale la pena saperlo esporre con ordine."
+      "speech": "Vediamo ora chi opera concretamente su questo mercato, perché è un punto molto richiesto all'esame e vale la pena saperlo esporre con ordine.",
+      "p": 1
     },
     {
       "text": "Ci sono innanzitutto i broker, gli intermediari che eseguono materialmente gli ordini di compravendita per conto dei propri clienti, senza operare direttamente con capitali propri.",
@@ -108,6 +151,20 @@
           79,
           95
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "che gestiscono ingenti capitali per conto di terzi, e gli investitori privati,"
+        },
+        {
+          "lang": "en",
+          "text": "retail investors,"
+        },
+        {
+          "lang": "it",
+          "text": "cioè i singoli cittadini che investono i propri risparmi personali."
+        }
       ]
     },
     {
@@ -122,6 +179,20 @@
           28,
           44
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ci sono le società quotate,"
+        },
+        {
+          "lang": "en",
+          "text": "listed companies,"
+        },
+        {
+          "lang": "it",
+          "text": "che raccolgono capitali proprio emettendo azioni od obbligazioni sul mercato, in cambio dell'impegno a rendere pubbliche informazioni finanziarie periodiche e trasparenti."
+        }
       ]
     },
     {
@@ -152,6 +223,36 @@
           133,
           167
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "E infine ci sono le autorità di vigilanza,"
+        },
+        {
+          "lang": "en",
+          "text": "i regulators —"
+        },
+        {
+          "lang": "it",
+          "text": "come la FCA, la"
+        },
+        {
+          "lang": "en",
+          "text": "Financial Conduct Authority,"
+        },
+        {
+          "lang": "it",
+          "text": "nel Regno Unito, o la SEC, la"
+        },
+        {
+          "lang": "en",
+          "text": "Securities and Exchange Commission,"
+        },
+        {
+          "lang": "it",
+          "text": "negli Stati Uniti —"
+        }
       ]
     },
     {
@@ -178,7 +279,30 @@
           114,
           118
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo ora alla Borsa di Londra,"
+        },
+        {
+          "lang": "en",
+          "text": "London Stock Exchange,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso abbreviata LSE, fondata nel 1801 e situata nella"
+        },
+        {
+          "lang": "en",
+          "text": "City"
+        },
+        {
+          "lang": "it",
+          "text": "di Londra, il tradizionale distretto finanziario della capitale britannica."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "È una delle borse valori più antiche e più importanti al mondo, e il suo principale indice azionario, il FTSE 100 — che si pronuncia \"footsie one hundred\" —",
@@ -192,6 +316,16 @@
           134,
           153
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È una delle borse valori più antiche e più importanti al mondo, e il suo principale indice azionario, il FTSE 100 — che si pronuncia \""
+        },
+        {
+          "lang": "en",
+          "text": "footsie one hundred\" —"
+        }
       ]
     },
     {
@@ -224,6 +358,44 @@
           155,
           166
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo poi alla Borsa di"
+        },
+        {
+          "lang": "en",
+          "text": "New York, New York Stock Exchange,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso abbreviata"
+        },
+        {
+          "lang": "en",
+          "text": "NYSE"
+        },
+        {
+          "lang": "it",
+          "text": "e soprannominata familiarmente «"
+        },
+        {
+          "lang": "en",
+          "text": "the Big Board»,"
+        },
+        {
+          "lang": "it",
+          "text": "situata nella celebre"
+        },
+        {
+          "lang": "en",
+          "text": "Wall Street,"
+        },
+        {
+          "lang": "it",
+          "text": "nel distretto finanziario di Manhattan."
+        }
       ]
     },
     {
@@ -244,6 +416,20 @@
           49,
           67
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il suo indice storico più celebre è il Dow Jones"
+        },
+        {
+          "lang": "en",
+          "text": "Industrial Average,"
+        },
+        {
+          "lang": "it",
+          "text": "che segue trenta grandi società industriali americane,"
+        }
       ]
     },
     {
@@ -254,6 +440,20 @@
           59,
           65
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "mentre esiste anche un'altra grande borsa statunitense, il"
+        },
+        {
+          "lang": "en",
+          "text": "NASDAQ,"
+        },
+        {
+          "lang": "it",
+          "text": "particolarmente specializzato nella quotazione di società tecnologiche, un dettaglio interessante da citare perché spiega perché,"
+        }
       ]
     },
     {
@@ -272,11 +472,38 @@
           157,
           161
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "quando si parla di titoli tecnologici americani come le grandi aziende della Silicon"
+        },
+        {
+          "lang": "en",
+          "text": "Valley,"
+        },
+        {
+          "lang": "it",
+          "text": "si faccia spesso riferimento proprio al"
+        },
+        {
+          "lang": "en",
+          "text": "NASDAQ"
+        },
+        {
+          "lang": "it",
+          "text": "piuttosto che al"
+        },
+        {
+          "lang": "en",
+          "text": "NYSE."
+        }
       ]
     },
     {
       "text": "Vediamo un confronto sintetico tra le due borse, utile da avere pronto per l'esame:",
-      "speech": "Vediamo un confronto sintetico tra le due borse, utile da avere pronto per l'esame:"
+      "speech": "Vediamo un confronto sintetico tra le due borse, utile da avere pronto per l'esame:",
+      "p": 1
     },
     {
       "text": "quanto alla sede, la London Stock Exchange si trova nella City di Londra, mentre la New York Stock Exchange si trova a Wall Street, a Manhattan.",
@@ -298,6 +525,44 @@
           119,
           130
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "quanto alla sede, la"
+        },
+        {
+          "lang": "en",
+          "text": "London Stock Exchange"
+        },
+        {
+          "lang": "it",
+          "text": "si trova nella"
+        },
+        {
+          "lang": "en",
+          "text": "City"
+        },
+        {
+          "lang": "it",
+          "text": "di Londra, mentre la"
+        },
+        {
+          "lang": "en",
+          "text": "New York Stock Exchange"
+        },
+        {
+          "lang": "it",
+          "text": "si trova a"
+        },
+        {
+          "lang": "en",
+          "text": "Wall Street,"
+        },
+        {
+          "lang": "it",
+          "text": "a Manhattan."
+        }
       ]
     },
     {
@@ -308,6 +573,20 @@
           54,
           57
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quanto all'anno di fondazione, Londra nasce nel 1801,"
+        },
+        {
+          "lang": "en",
+          "text": "New"
+        },
+        {
+          "lang": "it",
+          "text": "York nel 1792,"
+        }
       ]
     },
     {
@@ -334,11 +613,50 @@
           132,
           136
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quanto all'indice principale, Londra ha il FTSE 100,"
+        },
+        {
+          "lang": "en",
+          "text": "New"
+        },
+        {
+          "lang": "it",
+          "text": "York ha il Dow Jones"
+        },
+        {
+          "lang": "en",
+          "text": "Industrial Average,"
+        },
+        {
+          "lang": "it",
+          "text": "pur con il"
+        },
+        {
+          "lang": "en",
+          "text": "NASDAQ"
+        },
+        {
+          "lang": "it",
+          "text": "che affianca il"
+        },
+        {
+          "lang": "en",
+          "text": "NYSE"
+        },
+        {
+          "lang": "it",
+          "text": "nel panorama borsistico statunitense per il settore tecnologico."
+        }
       ]
     },
     {
       "text": "Fermatevi un momento su una domanda che vale la pena saper affrontare in modo articolato:",
-      "speech": "Fermatevi un momento su una domanda che vale la pena saper affrontare in modo articolato:"
+      "speech": "Fermatevi un momento su una domanda che vale la pena saper affrontare in modo articolato:",
+      "p": 1
     },
     {
       "text": "perché esistono autorità di vigilanza come la FCA o la SEC, e perché sono così importanti per il corretto funzionamento di una borsa valori?",
@@ -356,6 +674,16 @@
           126,
           133
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e che nessun operatore possa arricchirsi sfruttando informazioni riservate non disponibili al pubblico, il cosiddetto insider"
+        },
+        {
+          "lang": "en",
+          "text": "trading."
+        }
       ]
     },
     {
@@ -368,7 +696,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: la Borsa valori è il mercato regolamentato di azioni, obbligazioni e altri strumenti finanziari, su cui operano broker, investitori istituzionali e privati, società quotate e autorità di vigilanza.",
@@ -382,7 +711,8 @@
           10,
           22
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: la London Stock Exchange, fondata nel 1801, ha come indice principale il FTSE 100.",
@@ -404,7 +734,22 @@
           82,
           90
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: la"
+        },
+        {
+          "lang": "en",
+          "text": "London Stock Exchange,"
+        },
+        {
+          "lang": "it",
+          "text": "fondata nel 1801, ha come indice principale il FTSE 100."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: la New York Stock Exchange, fondata nel 1792 e situata a Wall Street, è la più grande borsa al mondo, con il Dow Jones Industrial Average come indice storico, affiancata dal NASDAQ per i titoli tecnologici.",
@@ -434,11 +779,51 @@
           181,
           187
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: la"
+        },
+        {
+          "lang": "en",
+          "text": "New York Stock Exchange,"
+        },
+        {
+          "lang": "it",
+          "text": "fondata nel 1792 e situata a"
+        },
+        {
+          "lang": "en",
+          "text": "Wall Street,"
+        },
+        {
+          "lang": "it",
+          "text": "è la più grande borsa al mondo, con il Dow Jones"
+        },
+        {
+          "lang": "en",
+          "text": "Industrial Average"
+        },
+        {
+          "lang": "it",
+          "text": "come indice storico, affiancata dal"
+        },
+        {
+          "lang": "en",
+          "text": "NASDAQ"
+        },
+        {
+          "lang": "it",
+          "text": "per i titoli tecnologici."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio restiamo nella UDA 2 e vediamo il marketing: la ricerca di mercato e il marketing mix, le celebri 4 P che ogni impresa deve saper combinare.",
-      "speech": "Nel prossimo episodio restiamo nella UDA 2 e vediamo il marketing: la ricerca di mercato e il marketing mix, le celebri 4 P che ogni impresa deve saper combinare."
+      "speech": "Nel prossimo episodio restiamo nella UDA 2 e vediamo il marketing: la ricerca di mercato e il marketing mix, le celebri 4 P che ogni impresa deve saper combinare.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

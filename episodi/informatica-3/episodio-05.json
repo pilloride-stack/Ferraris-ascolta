@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi entriamo nel terzo modulo, dedicato al web, cominciando dagli aspetti hardware e software di un sistema informatico aziendale orientato alla rete.",
-      "speech": "Oggi entriamo nel terzo modulo, dedicato al web, cominciando dagli aspetti hardware e software di un sistema informatico aziendale orientato alla rete."
+      "speech": "Oggi entriamo nel terzo modulo, dedicato al web, cominciando dagli aspetti hardware e software di un sistema informatico aziendale orientato alla rete.",
+      "p": 1
     },
     {
       "text": "In un sistema informatico aziendale orientato al web, oltre ai personal computer utilizzati dagli utenti, giocano un ruolo centrale i server,",
@@ -20,7 +21,8 @@
           134,
           140
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "cioè elaboratori dedicati a fornire servizi e risorse in rete, spesso ospitati in strutture specializzate chiamate data center,",
@@ -38,7 +40,8 @@
     },
     {
       "text": "La componente di rete è affidata invece a dispositivi specifici, ciascuno con una funzione precisa.",
-      "speech": "La componente di rete è affidata invece a dispositivi specifici, ciascuno con una funzione precisa."
+      "speech": "La componente di rete è affidata invece a dispositivi specifici, ciascuno con una funzione precisa.",
+      "p": 1
     },
     {
       "text": "Il router instrada i pacchetti di dati tra reti diverse.",
@@ -72,7 +75,8 @@
     },
     {
       "text": "Fermatevi un momento su router e switch, perché è la coppia di termini che genera più confusione in questo argomento:",
-      "speech": "Fermatevi un momento su router e switch, perché è la coppia di termini che genera più confusione in questo argomento:"
+      "speech": "Fermatevi un momento su router e switch, perché è la coppia di termini che genera più confusione in questo argomento:",
+      "p": 1
     },
     {
       "text": "il router lavora \"tra\" reti diverse, per esempio tra la vostra rete locale e Internet, decidendo verso quale rete instradare ogni pacchetto di dati;",
@@ -100,7 +104,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario la differenza tra router, switch e modem con un solo esempio pratico, come fareste?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario la differenza tra router, switch e modem con un solo esempio pratico, come fareste?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario la differenza tra router, switch e modem con un solo esempio pratico, come fareste?",
+      "p": 1
     },
     {
       "text": "Potreste immaginare un ufficio collegato a Internet tramite linea in fibra ottica: il modem converte il segnale della linea in un segnale utilizzabile dai dispositivi dell'ufficio;",
@@ -116,7 +121,8 @@
     },
     {
       "text": "Passiamo ora al versante software di questo stesso sistema informatico orientato al web, che si articola su più livelli distinti.",
-      "speech": "Passiamo ora al versante software di questo stesso sistema informatico orientato al web, che si articola su più livelli distinti."
+      "speech": "Passiamo ora al versante software di questo stesso sistema informatico orientato al web, che si articola su più livelli distinti.",
+      "p": 1
     },
     {
       "text": "Il software di base comprende il sistema operativo e il firmware, che gestiscono direttamente l'hardware.",
@@ -168,7 +174,8 @@
     },
     {
       "text": "Fermatevi un momento su questi quattro livelli software, perché mostrano con chiarezza come, dietro a un semplice clic su un sito web, agiscano insieme diversi strati di software:",
-      "speech": "Fermatevi un momento su questi quattro livelli software, perché mostrano con chiarezza come, dietro a un semplice clic su un sito web, agiscano insieme diversi strati di software:"
+      "speech": "Fermatevi un momento su questi quattro livelli software, perché mostrano con chiarezza come, dietro a un semplice clic su un sito web, agiscano insieme diversi strati di software:",
+      "p": 1
     },
     {
       "text": "il vostro browser, che è software applicativo lato client, dialoga tramite i protocolli del software di rete con il server web, che è software applicativo lato server,",
@@ -180,7 +187,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: server e data center forniscono servizi e risorse in rete, con sistemi ridondanti di alimentazione e raffreddamento.",
@@ -198,7 +206,8 @@
           16,
           27
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: router, switch e modem svolgono funzioni distinte, instradare tra reti diverse, smistare dentro la stessa rete locale, e convertire il segnale per la linea di connessione.",
@@ -212,7 +221,8 @@
           9,
           31
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il software di un sistema orientato al web si articola in software di base, middleware, applicativo e di rete, quest'ultimo basato su protocolli come TCP/IP e HTTP/HTTPS.",
@@ -230,11 +240,13 @@
           83,
           93
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo la sicurezza dei dati, i principali servizi offerti da Internet alle aziende, e la differenza tra Intranet ed Extranet.",
-      "speech": "Nel prossimo episodio vediamo la sicurezza dei dati, i principali servizi offerti da Internet alle aziende, e la differenza tra Intranet ed Extranet."
+      "speech": "Nel prossimo episodio vediamo la sicurezza dei dati, i principali servizi offerti da Internet alle aziende, e la differenza tra Intranet ed Extranet.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

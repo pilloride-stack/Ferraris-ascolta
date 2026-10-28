@@ -20,7 +20,8 @@
           180,
           204
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Beowulf è il più importante poema epico della letteratura anglosassone, composto in inglese antico, quello che abbiamo già incontrato con il nome tecnico di Old English,",
@@ -34,7 +35,18 @@
           157,
           168
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Beowulf è il più importante poema epico della letteratura anglosassone, composto in inglese antico, quello che abbiamo già incontrato con il nome tecnico di"
+        },
+        {
+          "lang": "en",
+          "text": "Old English,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "la lingua germanica portata in Britannia dagli Angli, dai Sassoni e dai Juti di cui abbiamo parlato qualche episodio fa.",
@@ -66,7 +78,8 @@
     },
     {
       "text": "Vediamo la trama del poema.",
-      "speech": "Vediamo la trama del poema."
+      "speech": "Vediamo la trama del poema.",
+      "p": 1
     },
     {
       "text": "Beowulf è un guerriero geata — i Geati erano un popolo scandinavo, stanziato nell'attuale Svezia meridionale — che compie una serie di imprese eroiche destinate a renderlo leggendario.",
@@ -122,7 +135,8 @@
     },
     {
       "text": "La terza e ultima parte del poema si sposta molti anni più avanti nel tempo:",
-      "speech": "La terza e ultima parte del poema si sposta molti anni più avanti nel tempo:"
+      "speech": "La terza e ultima parte del poema si sposta molti anni più avanti nel tempo:",
+      "p": 1
     },
     {
       "text": "Beowulf, ormai anziano re dei Geati dopo un lungo e glorioso regno, deve affrontare un drago che minaccia il proprio popolo, dopo che un tesoro custodito dal mostro viene disturbato.",
@@ -144,7 +158,8 @@
     },
     {
       "text": "Vale la pena soffermarsi un momento sulla forma poetica del testo, perché è un dettaglio tecnico che i commissari amano molto e che vi distingue da chi conosce solo la trama superficiale del poema:",
-      "speech": "Vale la pena soffermarsi un momento sulla forma poetica del testo, perché è un dettaglio tecnico che i commissari amano molto e che vi distingue da chi conosce solo la trama superficiale del poema:"
+      "speech": "Vale la pena soffermarsi un momento sulla forma poetica del testo, perché è un dettaglio tecnico che i commissari amano molto e che vi distingue da chi conosce solo la trama superficiale del poema:",
+      "p": 1
     },
     {
       "text": "Beowulf è scritto in versi allitterativi, una tecnica metrica completamente diversa da quella che avete incontrato studiando la poesia italiana.",
@@ -186,7 +201,8 @@
     },
     {
       "text": "Concludiamo con i valori che il poema riflette, perché è esattamente il tipo di domanda interpretativa che un commissario può porvi, oltre alla semplice trama:",
-      "speech": "Concludiamo con i valori che il poema riflette, perché è esattamente il tipo di domanda interpretativa che un commissario può porvi, oltre alla semplice trama:"
+      "speech": "Concludiamo con i valori che il poema riflette, perché è esattamente il tipo di domanda interpretativa che un commissario può porvi, oltre alla semplice trama:",
+      "p": 1
     },
     {
       "text": "Beowulf riflette i valori tipici del mondo germanico pre-cristiano, come l'onore guerriero, la lealtà personale al proprio signore,",
@@ -228,6 +244,20 @@
           166,
           185
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e persino la morte, pur di essere ricordato per le proprie imprese dalle generazioni"
+        },
+        {
+          "lang": "en",
+          "text": "future —"
+        },
+        {
+          "lang": "it",
+          "text": "un concetto che, se vi ricordate, avevamo già incontrato a proposito di Achille nell'Iliade,"
+        }
       ]
     },
     {
@@ -254,7 +284,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: Beowulf è il più importante poema epico anglosassone, composto in Old English da un autore anonimo tra il settimo e il decimo secolo.",
@@ -272,7 +303,22 @@
           98,
           105
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: Beowulf è il più importante poema epico anglosassone, composto in"
+        },
+        {
+          "lang": "en",
+          "text": "Old English"
+        },
+        {
+          "lang": "it",
+          "text": "da un autore anonimo tra il settimo e il decimo secolo."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: la trama segue le tre grandi imprese eroiche di Beowulf — la sconfitta di Grendel, quella della madre di Grendel, e infine lo scontro finale, fatale, contro un drago.",
@@ -290,7 +336,8 @@
           169,
           174
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il poema è scritto in versi allitterativi, legati dalla ripetizione di suoni consonantici anziché dalla rima.",
@@ -304,7 +351,8 @@
           29,
           48
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: Beowulf riflette i valori del mondo germanico pre-cristiano — onore, lealtà, fama eterna — filtrati attraverso una sensibilità già in parte cristianizzata.",
@@ -318,11 +366,13 @@
           70,
           96
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio restiamo nella letteratura medievale, ma cambiamo genere:",
-      "speech": "Nel prossimo episodio restiamo nella letteratura medievale, ma cambiamo genere:"
+      "speech": "Nel prossimo episodio restiamo nella letteratura medievale, ma cambiamo genere:",
+      "p": 1
     },
     {
       "text": "vedremo le ballate popolari, con l'esempio di Lord Randal, e la grande opera di Geoffrey Chaucer, i Racconti di Canterbury.",
@@ -336,6 +386,24 @@
           112,
           122
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "vedremo le ballate popolari, con l'esempio di"
+        },
+        {
+          "lang": "en",
+          "text": "Lord Randal,"
+        },
+        {
+          "lang": "it",
+          "text": "e la grande opera di Geoffrey Chaucer, i Racconti di"
+        },
+        {
+          "lang": "en",
+          "text": "Canterbury."
+        }
       ]
     },
     {

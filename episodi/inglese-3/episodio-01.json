@@ -36,7 +36,8 @@
     },
     {
       "text": "Il programma di Classe Terza richiede innanzitutto un solido ripasso di tutte le strutture grammaticali già incontrate:",
-      "speech": "Il programma di Classe Terza richiede innanzitutto un solido ripasso di tutte le strutture grammaticali già incontrate:"
+      "speech": "Il programma di Classe Terza richiede innanzitutto un solido ripasso di tutte le strutture grammaticali già incontrate:",
+      "p": 1
     },
     {
       "text": "il contrasto tra present simple e present continuous, quello tra present perfect e simple past, con i loro avverbi tipici just, already, yet, still, for, since, ago;",
@@ -62,6 +63,48 @@
           122,
           164
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il contrasto tra"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous,"
+        },
+        {
+          "lang": "it",
+          "text": "quello tra"
+        },
+        {
+          "lang": "en",
+          "text": "present perfect"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "simple past,"
+        },
+        {
+          "lang": "it",
+          "text": "con i loro avverbi tipici"
+        },
+        {
+          "lang": "en",
+          "text": "just, already, yet, still, for, since, ago;"
+        }
       ]
     },
     {
@@ -76,6 +119,28 @@
           24,
           36
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il"
+        },
+        {
+          "lang": "en",
+          "text": "past continuous"
+        },
+        {
+          "lang": "it",
+          "text": "e il"
+        },
+        {
+          "lang": "en",
+          "text": "past perfect"
+        },
+        {
+          "lang": "it",
+          "text": "per raccontare sequenze di eventi passati;"
+        }
       ]
     },
     {
@@ -102,6 +167,48 @@
           102,
           120
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "used to"
+        },
+        {
+          "lang": "it",
+          "text": "per le abitudini non più vere; il futuro con"
+        },
+        {
+          "lang": "en",
+          "text": "will"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "be going to,"
+        },
+        {
+          "lang": "it",
+          "text": "oltre al"
+        },
+        {
+          "lang": "en",
+          "text": "present simple"
+        },
+        {
+          "lang": "it",
+          "text": "e al"
+        },
+        {
+          "lang": "en",
+          "text": "present continuous"
+        },
+        {
+          "lang": "it",
+          "text": "con valore di futuro;"
+        }
       ]
     },
     {
@@ -116,6 +223,28 @@
           40,
           85
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i verbi modali, dal semplice"
+        },
+        {
+          "lang": "en",
+          "text": "can"
+        },
+        {
+          "lang": "it",
+          "text": "fino a"
+        },
+        {
+          "lang": "en",
+          "text": "could, may, might, shall, should, would, must;"
+        },
+        {
+          "lang": "it",
+          "text": "la forma passiva; i quattro tipi di periodo ipotetico; e i pronomi relativi."
+        }
       ]
     },
     {
@@ -138,7 +267,26 @@
           215,
           217
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vediamo dunque i due argomenti nuovi di questo primo modulo, cominciando da un dubbio che accompagna praticamente ogni studente italiano di inglese per tutta la propria carriera scolastica: la differenza tra"
+        },
+        {
+          "lang": "en",
+          "text": "make"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "do."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Entrambi i verbi corrispondono, all'incirca, al nostro «fare»,",
@@ -174,6 +322,32 @@
           126,
           141
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Make"
+        },
+        {
+          "lang": "it",
+          "text": "si usa tipicamente quando si crea o si produce qualcosa di concreto o di ben definito:"
+        },
+        {
+          "lang": "en",
+          "text": "make a cake,"
+        },
+        {
+          "lang": "it",
+          "text": "preparare una torta;"
+        },
+        {
+          "lang": "en",
+          "text": "make a decision,"
+        },
+        {
+          "lang": "it",
+          "text": "prendere una decisione;"
+        }
       ]
     },
     {
@@ -196,6 +370,40 @@
           99,
           111
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "make a mistake,"
+        },
+        {
+          "lang": "it",
+          "text": "commettere un errore;"
+        },
+        {
+          "lang": "en",
+          "text": "make an effort,"
+        },
+        {
+          "lang": "it",
+          "text": "fare uno sforzo;"
+        },
+        {
+          "lang": "en",
+          "text": "make a plan,"
+        },
+        {
+          "lang": "it",
+          "text": "fare un piano;"
+        },
+        {
+          "lang": "en",
+          "text": "make friends,"
+        },
+        {
+          "lang": "it",
+          "text": "farsi degli amici."
+        }
       ]
     },
     {
@@ -218,6 +426,32 @@
           111,
           126
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Do"
+        },
+        {
+          "lang": "it",
+          "text": "si usa invece per attività, compiti e azioni più generiche, spesso di routine:"
+        },
+        {
+          "lang": "en",
+          "text": "do homework,"
+        },
+        {
+          "lang": "it",
+          "text": "fare i compiti;"
+        },
+        {
+          "lang": "en",
+          "text": "do the shopping,"
+        },
+        {
+          "lang": "it",
+          "text": "fare la spesa;"
+        }
       ]
     },
     {
@@ -240,6 +474,40 @@
           112,
           123
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "do a favour,"
+        },
+        {
+          "lang": "it",
+          "text": "fare un favore;"
+        },
+        {
+          "lang": "en",
+          "text": "do exercise,"
+        },
+        {
+          "lang": "it",
+          "text": "fare esercizio fisico;"
+        },
+        {
+          "lang": "en",
+          "text": "do the housework,"
+        },
+        {
+          "lang": "it",
+          "text": "fare le faccende domestiche;"
+        },
+        {
+          "lang": "en",
+          "text": "do business,"
+        },
+        {
+          "lang": "it",
+          "text": "fare affari."
+        }
       ]
     },
     {
@@ -262,6 +530,16 @@
           60,
           73
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "make"
+        },
+        {
+          "lang": "it",
+          "text": "tende ad accompagnarsi a un risultato tangibile o a un atto creativo — una torta, una decisione, un errore sono tutti \"prodotti\", nel senso più ampio del termine, di un'azione —"
+        }
       ]
     },
     {
@@ -272,6 +550,20 @@
           7,
           9
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "mentre"
+        },
+        {
+          "lang": "en",
+          "text": "do"
+        },
+        {
+          "lang": "it",
+          "text": "tende ad accompagnarsi ad attività più generiche, spesso ripetitive o doverose, che non producono un oggetto nuovo e riconoscibile."
+        }
       ]
     },
     {
@@ -290,7 +582,8 @@
           42,
           59
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "I prefissi più comuni sono un-, in- (che diventa im- prima di alcune consonanti, il- prima di l, ir- prima di r), dis-, e non-.",
@@ -338,6 +631,60 @@
           109,
           118
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vediamoli con alcuni esempi:"
+        },
+        {
+          "lang": "en",
+          "text": "happy"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "unhappy,"
+        },
+        {
+          "lang": "it",
+          "text": "infelice;"
+        },
+        {
+          "lang": "en",
+          "text": "fair"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "unfair,"
+        },
+        {
+          "lang": "it",
+          "text": "ingiusto;"
+        },
+        {
+          "lang": "en",
+          "text": "correct"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "incorrect,"
+        },
+        {
+          "lang": "it",
+          "text": "scorretto;"
+        }
       ]
     },
     {
@@ -352,6 +699,24 @@
           17,
           27
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "possible"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "impossible,"
+        },
+        {
+          "lang": "it",
+          "text": "impossibile — qui in- diventa imperché la parola comincia con p;"
+        }
       ]
     },
     {
@@ -374,6 +739,40 @@
           103,
           112
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "legal"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "illegal,"
+        },
+        {
+          "lang": "it",
+          "text": "illegale — qui in- diventa il- perché la parola comincia con l;"
+        },
+        {
+          "lang": "en",
+          "text": "regular"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "irregular,"
+        },
+        {
+          "lang": "it",
+          "text": "irregolare — qui in- diventa ir- perché la parola comincia con r;"
+        }
       ]
     },
     {
@@ -396,11 +795,46 @@
           60,
           68
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "honest"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "dishonest,"
+        },
+        {
+          "lang": "it",
+          "text": "disonesto; e infine"
+        },
+        {
+          "lang": "en",
+          "text": "sense"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "en",
+          "text": "nonsense,"
+        },
+        {
+          "lang": "it",
+          "text": "che possiamo tradurre come \"assurdità\" o \"sciocchezza\"."
+        }
       ]
     },
     {
       "text": "Fermatevi un momento su un punto importante, che vi eviterà errori sia nello scritto sia nell'orale:",
-      "speech": "Fermatevi un momento su un punto importante, che vi eviterà errori sia nello scritto sia nell'orale:"
+      "speech": "Fermatevi un momento su un punto importante, che vi eviterà errori sia nello scritto sia nell'orale:",
+      "p": 1
     },
     {
       "text": "non esiste una regola fissa e prevedibile che stabilisca quale prefisso si applichi a quale aggettivo.",
@@ -420,6 +854,20 @@
           15,
           22
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Perché diciamo"
+        },
+        {
+          "lang": "en",
+          "text": "unhappy"
+        },
+        {
+          "lang": "it",
+          "text": "ma non \"inhappy\"?"
+        }
       ]
     },
     {
@@ -430,6 +878,20 @@
           15,
           25
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Perché diciamo"
+        },
+        {
+          "lang": "en",
+          "text": "impossible"
+        },
+        {
+          "lang": "it",
+          "text": "ma non \"unpossible\"?"
+        }
       ]
     },
     {
@@ -452,7 +914,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, come farebbe un insegnante prima di lasciarvi lavorare da soli:",
-      "speech": "Proviamo un piccolo esercizio insieme, come farebbe un insegnante prima di lasciarvi lavorare da soli:"
+      "speech": "Proviamo un piccolo esercizio insieme, come farebbe un insegnante prima di lasciarvi lavorare da soli:",
+      "p": 1
     },
     {
       "text": "provate a costruire la frase «Ho fatto un errore quando ho preso quella decisione, ed è stato irresponsabile da parte mia non fare uno sforzo per evitarlo».",
@@ -476,6 +939,24 @@
           57,
           99
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Qui abbiamo bisogno di"
+        },
+        {
+          "lang": "en",
+          "text": "make"
+        },
+        {
+          "lang": "it",
+          "text": "per \"errore\" e \"decisione\" —"
+        },
+        {
+          "lang": "en",
+          "text": "I made a mistake when I made that decision —"
+        }
       ]
     },
     {
@@ -494,6 +975,32 @@
           110,
           143
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e di un prefisso negativo per \"irresponsabile\" —"
+        },
+        {
+          "lang": "en",
+          "text": "it was irresponsible of"
+        },
+        {
+          "lang": "it",
+          "text": "me — e ancora di"
+        },
+        {
+          "lang": "en",
+          "text": "make"
+        },
+        {
+          "lang": "it",
+          "text": "per \"sforzo\" —"
+        },
+        {
+          "lang": "en",
+          "text": "not to make an effort to avoid it."
+        }
       ]
     },
     {
@@ -504,11 +1011,26 @@
           82,
           89
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Se siete riusciti a costruire questa frase, avete già applicato correttamente sia"
+        },
+        {
+          "lang": "en",
+          "text": "make/do"
+        },
+        {
+          "lang": "it",
+          "text": "sia i prefissi negativi."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il programma di Classe Terza richiede una piena padronanza di tutte le strutture grammaticali di Classe Prima e Seconda, che dovete considerare ormai acquisite.",
@@ -526,7 +1048,8 @@
           78,
           100
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: make si usa per la creazione o la produzione di qualcosa, do per attività e compiti generici, ed entrambi vanno appresi soprattutto come combinazioni fisse da memorizzare.",
@@ -548,7 +1071,30 @@
           146,
           164
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo:"
+        },
+        {
+          "lang": "en",
+          "text": "make"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per la creazione o la produzione di qualcosa,"
+        },
+        {
+          "lang": "en",
+          "text": "do"
+        },
+        {
+          "lang": "it",
+          "text": "per attività e compiti generici, ed entrambi vanno appresi soprattutto come combinazioni fisse da memorizzare."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: i prefissi negativi un-, in-/im-/il-/ir-, dis- e non- non seguono una regola prevedibile e vanno imparati caso per caso, parola per parola.",
@@ -566,11 +1112,13 @@
           61,
           95
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio entriamo nel vivo del programma di storia inglese, cominciando dai Celti e dal passaggio dalla Britannia romana all'insediamento degli Anglosassoni.",
-      "speech": "Nel prossimo episodio entriamo nel vivo del programma di storia inglese, cominciando dai Celti e dal passaggio dalla Britannia romana all'insediamento degli Anglosassoni."
+      "speech": "Nel prossimo episodio entriamo nel vivo del programma di storia inglese, cominciando dai Celti e dal passaggio dalla Britannia romana all'insediamento degli Anglosassoni.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

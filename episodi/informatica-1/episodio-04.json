@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme a un concetto fondamentale per capire come interagiamo concretamente con le macchine: l'interfaccia utente.",
-      "speech": "Oggi entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme a un concetto fondamentale per capire come interagiamo concretamente con le macchine: l'interfaccia utente."
+      "speech": "Oggi entriamo nel Modulo 2 di questa dispensa e vediamo come i computer digitalizzano suoni e video, insieme a un concetto fondamentale per capire come interagiamo concretamente con le macchine: l'interfaccia utente.",
+      "p": 1
     },
     {
       "text": "La digitalizzazione è il processo con cui un segnale analogico continuo,",
@@ -20,7 +21,8 @@
           3,
           19
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "come un suono o un'immagine in movimento, viene convertito in una sequenza discreta di valori numerici, elaborabile dal computer secondo il sistema binario che abbiamo visto nell'episodio scorso.",
@@ -42,7 +44,8 @@
     },
     {
       "text": "Fermatevi un momento su questo principio, perché è facilmente generalizzabile e vale la pena saperlo esporre con chiarezza:",
-      "speech": "Fermatevi un momento su questo principio, perché è facilmente generalizzabile e vale la pena saperlo esporre con chiarezza:"
+      "speech": "Fermatevi un momento su questo principio, perché è facilmente generalizzabile e vale la pena saperlo esporre con chiarezza:",
+      "p": 1
     },
     {
       "text": "più alta è la frequenza di campionamento, e più alta è la profondità in bit di ciascun campione, più fedele sarà la riproduzione digitale del suono originale rispetto al suono analogico di partenza.",
@@ -62,7 +65,8 @@
           83,
           93
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "la risoluzione, cioè il numero di pixel che compongono ciascuna immagine, e il frame rate, cioè il numero di fotogrammi mostrati al secondo.",
@@ -94,7 +98,8 @@
     },
     {
       "text": "Passiamo ora all'interfaccia utente, cioè l'insieme degli strumenti attraverso cui una persona interagisce con un dispositivo o un programma.",
-      "speech": "Passiamo ora all'interfaccia utente, cioè l'insieme degli strumenti attraverso cui una persona interagisce con un dispositivo o un programma."
+      "speech": "Passiamo ora all'interfaccia utente, cioè l'insieme degli strumenti attraverso cui una persona interagisce con un dispositivo o un programma.",
+      "p": 1
     },
     {
       "text": "Si distingue tra due grandi categorie che vale la pena saper confrontare con precisione.",
@@ -148,7 +153,8 @@
     },
     {
       "text": "Fermatevi un momento su un'evoluzione più recente di questo concetto, perché è un ottimo collegamento con la tecnologia che quasi certamente state usando in questo momento:",
-      "speech": "Fermatevi un momento su un'evoluzione più recente di questo concetto, perché è un ottimo collegamento con la tecnologia che quasi certamente state usando in questo momento:"
+      "speech": "Fermatevi un momento su un'evoluzione più recente di questo concetto, perché è un ottimo collegamento con la tecnologia che quasi certamente state usando in questo momento:",
+      "p": 1
     },
     {
       "text": "le interfacce più recenti includono anche modalità di interazione touch, tramite tocco diretto dello schermo,",
@@ -176,7 +182,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché l'interfaccia grafica ha reso il computer accessibile a un pubblico molto più ampio rispetto all'interfaccia a riga di comando, come rispondereste?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché l'interfaccia grafica ha reso il computer accessibile a un pubblico molto più ampio rispetto all'interfaccia a riga di comando, come rispondereste?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste spiegare a un commissario perché l'interfaccia grafica ha reso il computer accessibile a un pubblico molto più ampio rispetto all'interfaccia a riga di comando, come rispondereste?",
+      "p": 1
     },
     {
       "text": "Potreste osservare che la CLI richiede la conoscenza esatta di comandi testuali specifici, spesso in inglese e con una sintassi rigida,",
@@ -192,7 +199,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: la digitalizzazione converte segnali analogici, come suoni e video, in sequenze numeriche discrete elaborabili dal computer, attraverso il campionamento per l'audio e la sequenza di fotogrammi per il video.",
@@ -210,7 +218,8 @@
           146,
           159
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: l'interfaccia utente si distingue in CLI, a riga di comando, e GUI, grafica, quest'ultima basata sul paradigma WIMP.",
@@ -232,7 +241,8 @@
           120,
           124
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: le interfacce più recenti aggiungono modalità touch e vocale a quelle tradizionali.",
@@ -246,11 +256,13 @@
           53,
           67
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa.",
-      "speech": "Nel prossimo episodio restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa."
+      "speech": "Nel prossimo episodio restiamo nel Modulo 2 e vediamo le periferiche di input e di output, insieme alle diverse tipologie di memorie di massa.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

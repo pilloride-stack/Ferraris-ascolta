@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi completiamo il Modulo 3, e con esso l'intera dispensa, vedendo come organizzare i dati in tabelle, come rappresentarli con i grafici, e come impaginarli correttamente prima di stamparli.",
-      "speech": "Oggi completiamo il Modulo 3, e con esso l'intera dispensa, vedendo come organizzare i dati in tabelle, come rappresentarli con i grafici, e come impaginarli correttamente prima di stamparli."
+      "speech": "Oggi completiamo il Modulo 3, e con esso l'intera dispensa, vedendo come organizzare i dati in tabelle, come rappresentarli con i grafici, e come impaginarli correttamente prima di stamparli.",
+      "p": 1
     },
     {
       "text": "Oltre alle formule di calcolo, Excel permette di organizzare i dati in vere e proprie tabelle strutturate, che facilitano operazioni come l'ordinamento e il filtro dei dati,",
@@ -20,7 +21,8 @@
           86,
           105
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "e di applicare la formattazione condizionale, che modifica automaticamente l'aspetto delle celle, per esempio il colore, in base al loro contenuto:",
@@ -38,7 +40,8 @@
     },
     {
       "text": "Per rappresentare visivamente i dati, Excel offre diversi tipi di grafici, e qui arriviamo a un altro punto su cui è bene fermarsi un momento con attenzione:",
-      "speech": "Per rappresentare visivamente i dati, Excel offre diversi tipi di grafici, e qui arriviamo a un altro punto su cui è bene fermarsi un momento con attenzione:"
+      "speech": "Per rappresentare visivamente i dati, Excel offre diversi tipi di grafici, e qui arriviamo a un altro punto su cui è bene fermarsi un momento con attenzione:",
+      "p": 1
     },
     {
       "text": "la scelta del tipo di grafico non è indifferente, perché ciascun tipo si adatta a un utilizzo specifico, ed è un errore frequente usarli in modo intercambiabile.",
@@ -80,7 +83,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste rappresentare come le vendite complessive di un negozio si ripartiscono percentualmente tra quattro categorie di prodotto, quale grafico scegliereste?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste rappresentare come le vendite complessive di un negozio si ripartiscono percentualmente tra quattro categorie di prodotto, quale grafico scegliereste?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste rappresentare come le vendite complessive di un negozio si ripartiscono percentualmente tra quattro categorie di prodotto, quale grafico scegliereste?",
+      "p": 1
     },
     {
       "text": "La risposta corretta è il grafico a torta, perché è pensato esattamente per mostrare la composizione percentuale di un totale,",
@@ -102,7 +106,8 @@
     },
     {
       "text": "Vediamo insieme, passo dopo passo, come si crea un grafico a torta in Excel.",
-      "speech": "Vediamo insieme, passo dopo passo, come si crea un grafico a torta in Excel."
+      "speech": "Vediamo insieme, passo dopo passo, come si crea un grafico a torta in Excel.",
+      "p": 1
     },
     {
       "text": "Per prima cosa si seleziona l'intervallo di celle contenente i dati da rappresentare, comprese le etichette che identificano ciascuna categoria.",
@@ -134,7 +139,8 @@
     },
     {
       "text": "Concludiamo con l'impaginazione e la stampa.",
-      "speech": "Concludiamo con l'impaginazione e la stampa."
+      "speech": "Concludiamo con l'impaginazione e la stampa.",
+      "p": 1
     },
     {
       "text": "Prima di stampare un foglio di calcolo è opportuno verificarne l'impaginazione tramite l'anteprima di stampa, raggiungibile da File e poi Stampa;",
@@ -182,7 +188,8 @@
     },
     {
       "text": "Con questi ultimi strumenti abbiamo completato un percorso che ci ha portato dall'infrastruttura di Internet e dalle regole che ne disciplinano l'uso, all'utilizzo concreto dei suoi servizi principali,",
-      "speech": "Con questi ultimi strumenti abbiamo completato un percorso che ci ha portato dall'infrastruttura di Internet e dalle regole che ne disciplinano l'uso, all'utilizzo concreto dei suoi servizi principali,"
+      "speech": "Con questi ultimi strumenti abbiamo completato un percorso che ci ha portato dall'infrastruttura di Internet e dalle regole che ne disciplinano l'uso, all'utilizzo concreto dei suoi servizi principali,",
+      "p": 1
     },
     {
       "text": "fino a uno strumento professionale fondamentale come il foglio di calcolo Excel, con le sue formule, le sue tabelle e i suoi grafici.",
@@ -190,7 +197,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: Excel permette di organizzare i dati in tabelle strutturate, con ordinamento, filtro e formattazione condizionale.",
@@ -208,7 +216,8 @@
           94,
           120
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: i tre principali tipi di grafico sono l'istogramma, per confrontare categorie, il grafico a torta, per mostrare composizioni percentuali,",
@@ -226,7 +235,8 @@
           91,
           106
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "e il grafico a linee, per mostrare andamenti nel tempo, ciascuno da scegliere in base al messaggio che si vuole comunicare.",
@@ -250,15 +260,18 @@
           91,
           105
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero Modulo 3, e con esso tutti gli argomenti di questa dispensa.",
-      "speech": "Con questo abbiamo completato l'intero Modulo 3, e con esso tutti gli argomenti di questa dispensa."
+      "speech": "Con questo abbiamo completato l'intero Modulo 3, e con esso tutti gli argomenti di questa dispensa.",
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio dedichiamo un intero ripasso a tutte le domande guida, per arrivare preparati all'esame.",
-      "speech": "Nel prossimo episodio dedichiamo un intero ripasso a tutte le domande guida, per arrivare preparati all'esame."
+      "speech": "Nel prossimo episodio dedichiamo un intero ripasso a tutte le domande guida, per arrivare preparati all'esame.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

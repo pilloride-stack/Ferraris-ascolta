@@ -10,11 +10,13 @@
     },
     {
       "text": "Oggi completiamo il primo modulo occupandoci della classificazione dei software per funzione, della tutela della privacy attraverso il GDPR, e dei sistemi informativi aziendali.",
-      "speech": "Oggi completiamo il primo modulo occupandoci della classificazione dei software per funzione, della tutela della privacy attraverso il GDPR, e dei sistemi informativi aziendali."
+      "speech": "Oggi completiamo il primo modulo occupandoci della classificazione dei software per funzione, della tutela della privacy attraverso il GDPR, e dei sistemi informativi aziendali.",
+      "p": 1
     },
     {
       "text": "Accanto alla classificazione per tipo di licenza che abbiamo visto la scorsa volta, i software si distinguono anche per la funzione che svolgono.",
-      "speech": "Accanto alla classificazione per tipo di licenza che abbiamo visto la scorsa volta, i software si distinguono anche per la funzione che svolgono."
+      "speech": "Accanto alla classificazione per tipo di licenza che abbiamo visto la scorsa volta, i software si distinguono anche per la funzione che svolgono.",
+      "p": 1
     },
     {
       "text": "Il software di sistema comprende il sistema operativo e i driver, cioè i programmi che gestiscono direttamente le risorse hardware del computer.",
@@ -58,7 +60,8 @@
           71,
           78
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "In Europa questa materia è disciplinata dal Regolamento generale sulla protezione dei dati, il GDPR, Regolamento UE 2016/679, che individua ruoli precisi,",
@@ -108,7 +111,8 @@
     },
     {
       "text": "Fermatevi un momento su questi tre diritti, perché sono spesso richiesti con precisione in un'interrogazione:",
-      "speech": "Fermatevi un momento su questi tre diritti, perché sono spesso richiesti con precisione in un'interrogazione:"
+      "speech": "Fermatevi un momento su questi tre diritti, perché sono spesso richiesti con precisione in un'interrogazione:",
+      "p": 1
     },
     {
       "text": "il diritto di accesso permette all'interessato di sapere quali dati un'azienda detiene su di lui, il diritto di rettifica permette di farli correggere se inesatti,",
@@ -124,7 +128,8 @@
     },
     {
       "text": "Spostiamoci ora su un argomento diverso ma collegato, quello dei sistemi informativi aziendali.",
-      "speech": "Spostiamoci ora su un argomento diverso ma collegato, quello dei sistemi informativi aziendali."
+      "speech": "Spostiamoci ora su un argomento diverso ma collegato, quello dei sistemi informativi aziendali.",
+      "p": 1
     },
     {
       "text": "Il sistema informativo aziendale è l'insieme organizzato di persone, procedure, dati e tecnologie che raccoglie, elabora, archivia e distribuisce le informazioni necessarie al funzionamento dell'azienda e al supporto delle decisioni.",
@@ -138,7 +143,8 @@
     },
     {
       "text": "Fermatevi un momento su una distinzione che genera facilmente confusione, tra sistema informativo e sistema informatico:",
-      "speech": "Fermatevi un momento su una distinzione che genera facilmente confusione, tra sistema informativo e sistema informatico:"
+      "speech": "Fermatevi un momento su una distinzione che genera facilmente confusione, tra sistema informativo e sistema informatico:",
+      "p": 1
     },
     {
       "text": "il sistema informativo, come abbiamo appena detto, comprende persone, procedure, dati e tecnologie, cioè è un concetto molto ampio;",
@@ -160,7 +166,8 @@
     },
     {
       "text": "I sistemi informativi si classificano in base al livello decisionale a cui sono destinati.",
-      "speech": "I sistemi informativi si classificano in base al livello decisionale a cui sono destinati."
+      "speech": "I sistemi informativi si classificano in base al livello decisionale a cui sono destinati.",
+      "p": 1
     },
     {
       "text": "I sistemi di elaborazione delle transazioni, detti TPS, gestiscono le operazioni quotidiane e ripetitive, al livello operativo.",
@@ -194,7 +201,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: immaginate un'azienda che deve registrare ogni vendita effettuata in giornata, un responsabile di reparto che deve leggere un report mensile delle vendite,",
-      "speech": "Proviamo un piccolo esercizio insieme: immaginate un'azienda che deve registrare ogni vendita effettuata in giornata, un responsabile di reparto che deve leggere un report mensile delle vendite,"
+      "speech": "Proviamo un piccolo esercizio insieme: immaginate un'azienda che deve registrare ogni vendita effettuata in giornata, un responsabile di reparto che deve leggere un report mensile delle vendite,",
+      "p": 1
     },
     {
       "text": "e un direttore generale che deve decidere se aprire un nuovo punto vendita.",
@@ -218,7 +226,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: i software si classificano per funzione in software di sistema, applicativo e gestionale.",
@@ -232,7 +241,8 @@
           50,
           95
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: il GDPR tutela la privacy attribuendo agli interessati il diritto di accesso, di rettifica e di cancellazione, il diritto all'oblio.",
@@ -250,7 +260,8 @@
           123,
           140
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il sistema informativo, più ampio del sistema informatico, si classifica in base al livello decisionale in TPS, MIS e DSS.",
@@ -268,15 +279,18 @@
           114,
           128
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero primo modulo.",
-      "speech": "Con questo abbiamo completato l'intero primo modulo."
+      "speech": "Con questo abbiamo completato l'intero primo modulo.",
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dagli archivi e dai database.",
-      "speech": "Nel prossimo episodio entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dagli archivi e dai database."
+      "speech": "Nel prossimo episodio entriamo nel secondo modulo, dedicato all'organizzazione dei dati in azienda, partendo dagli archivi e dai database.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

@@ -16,7 +16,8 @@
           19,
           41
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "ser ed estar, i due verbi che in italiano si traducono entrambi con «essere».",
@@ -34,6 +35,24 @@
           69,
           75
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "ser"
+        },
+        {
+          "lang": "it",
+          "text": "ed"
+        },
+        {
+          "lang": "es",
+          "text": "estar,"
+        },
+        {
+          "lang": "it",
+          "text": "i due verbi che in italiano si traducono entrambi con «essere»."
+        }
       ]
     },
     {
@@ -64,7 +83,50 @@
           155,
           160
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nella forma"
+        },
+        {
+          "lang": "es",
+          "text": "tú,"
+        },
+        {
+          "lang": "it",
+          "text": "i verbi regolari all'imperativo coincidono con la terza persona singolare del presente indicativo:"
+        },
+        {
+          "lang": "es",
+          "text": "habla"
+        },
+        {
+          "lang": "it",
+          "text": "da"
+        },
+        {
+          "lang": "es",
+          "text": "hablar,"
+        },
+        {
+          "lang": "it",
+          "text": "come da"
+        },
+        {
+          "lang": "es",
+          "text": "comer,"
+        },
+        {
+          "lang": "it",
+          "text": "vive da"
+        },
+        {
+          "lang": "es",
+          "text": "vivir."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Alcuni verbi molto comuni hanno però una forma irregolare in tú, che vale la pena memorizzare in blocco:",
@@ -74,6 +136,20 @@
           61,
           63
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Alcuni verbi molto comuni hanno però una forma irregolare in"
+        },
+        {
+          "lang": "es",
+          "text": "tú,"
+        },
+        {
+          "lang": "it",
+          "text": "che vale la pena memorizzare in blocco:"
+        }
       ]
     },
     {
@@ -112,21 +188,94 @@
           100,
           103
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "ven"
+        },
+        {
+          "lang": "it",
+          "text": "da venir, ten da"
+        },
+        {
+          "lang": "es",
+          "text": "tener,"
+        },
+        {
+          "lang": "it",
+          "text": "sal da"
+        },
+        {
+          "lang": "es",
+          "text": "salir,"
+        },
+        {
+          "lang": "it",
+          "text": "pon da"
+        },
+        {
+          "lang": "es",
+          "text": "poner, haz"
+        },
+        {
+          "lang": "it",
+          "text": "da"
+        },
+        {
+          "lang": "es",
+          "text": "hacer,"
+        },
+        {
+          "lang": "it",
+          "text": "di da"
+        },
+        {
+          "lang": "es",
+          "text": "decir,"
+        },
+        {
+          "lang": "it",
+          "text": "ve da"
+        },
+        {
+          "lang": "es",
+          "text": "ir"
+        },
+        {
+          "lang": "it",
+          "text": "e sé da"
+        },
+        {
+          "lang": "es",
+          "text": "ser."
+        }
       ]
     },
     {
       "text": "Proviamo un esempio pratico: come completereste la frase «(tú, hacer) los deberes y (tú, venir) aquí, por favor»?",
-      "speech": "Proviamo un esempio pratico: come completereste la frase «(tú, hacer) los deberes i (tú, venir) aquí, por favor»?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase «(tú, hacer) los deberes y (tú, venir) aquí, por favor»?",
       "bold": [
         [
           59,
           111
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un esempio pratico: come completereste la frase «("
+        },
+        {
+          "lang": "es",
+          "text": "tú, hacer) los deberes y (tú, venir) aquí, por favor»?"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "La soluzione è: ¡Haz los deberes y ven aquí, por favor! — entrambi gli imperativi, haz e ven, appartengono proprio alla lista di forme irregolari appena vista.",
-      "speech": "La soluzione è: Haz los deberes i ven aquí, por favor. — entrambi gli imperativi, haz e ven, appartengono proprio alla lista di forme irregolari appena vista.",
+      "speech": "La soluzione è: ¡Haz los deberes y ven aquí, por favor! — entrambi gli imperativi, haz e ven, appartengono proprio alla lista di forme irregolari appena vista.",
       "bold": [
         [
           17,
@@ -140,6 +289,36 @@
           89,
           92
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La soluzione è: ¡"
+        },
+        {
+          "lang": "es",
+          "text": "Haz los deberes y ven aquí, por favor. —"
+        },
+        {
+          "lang": "it",
+          "text": "entrambi gli imperativi,"
+        },
+        {
+          "lang": "es",
+          "text": "haz"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "ven,"
+        },
+        {
+          "lang": "it",
+          "text": "appartengono proprio alla lista di forme irregolari appena vista."
+        }
       ]
     },
     {
@@ -154,7 +333,26 @@
           104,
           109
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo ora a una delle distinzioni più importanti e più temute di tutta la grammatica spagnola:"
+        },
+        {
+          "lang": "es",
+          "text": "muy"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "mucho."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Muy è un avverbio invariabile che si usa davanti ad aggettivi e avverbi, come in muy interesante o muy bien;",
@@ -172,6 +370,20 @@
           81,
           107
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Muy"
+        },
+        {
+          "lang": "it",
+          "text": "è un avverbio invariabile che si usa davanti ad aggettivi e avverbi, come in"
+        },
+        {
+          "lang": "es",
+          "text": "muy interesante o muy bien;"
+        }
       ]
     },
     {
@@ -186,6 +398,16 @@
           18,
           37
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "mucho"
+        },
+        {
+          "lang": "it",
+          "text": "è invece un aggettivo o pronome che concorda in genere e numero con il sostantivo che accompagna,"
+        }
       ]
     },
     {
@@ -200,6 +422,28 @@
           105,
           118
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "come in"
+        },
+        {
+          "lang": "es",
+          "text": "mucho tiempo o muchas personas,"
+        },
+        {
+          "lang": "it",
+          "text": "oppure un avverbio invariabile quando modifica un verbo, come in"
+        },
+        {
+          "lang": "es",
+          "text": "Estudio mucho,"
+        },
+        {
+          "lang": "it",
+          "text": "studio molto."
+        }
       ]
     },
     {
@@ -214,6 +458,28 @@
           80,
           85
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La regola pratica da ricordare è semplice:"
+        },
+        {
+          "lang": "es",
+          "text": "muy"
+        },
+        {
+          "lang": "it",
+          "text": "davanti ad aggettivo o avverbio,"
+        },
+        {
+          "lang": "es",
+          "text": "mucho"
+        },
+        {
+          "lang": "it",
+          "text": "davanti a sostantivo o dopo un verbo."
+        }
       ]
     },
     {
@@ -228,7 +494,26 @@
           21,
           26
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Veniamo ora a"
+        },
+        {
+          "lang": "es",
+          "text": "ser"
+        },
+        {
+          "lang": "it",
+          "text": "ed"
+        },
+        {
+          "lang": "es",
+          "text": "estar."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Ser si usa per caratteristiche permanenti o essenziali — identità, nazionalità, professione, materia, ora e data — come in Soy profesor, sono professore, o Es española, è spagnola.",
@@ -250,6 +535,32 @@
           154,
           167
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Ser"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per caratteristiche permanenti o essenziali — identità, nazionalità, professione, materia, ora e data — come in"
+        },
+        {
+          "lang": "es",
+          "text": "Soy profesor,"
+        },
+        {
+          "lang": "it",
+          "text": "sono professore,"
+        },
+        {
+          "lang": "es",
+          "text": "o Es española,"
+        },
+        {
+          "lang": "it",
+          "text": "è spagnola."
+        }
       ]
     },
     {
@@ -272,11 +583,38 @@
           141,
           164
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Estar"
+        },
+        {
+          "lang": "it",
+          "text": "si usa invece per stati e condizioni temporanee, per la posizione e per il risultato di un'azione, come in"
+        },
+        {
+          "lang": "es",
+          "text": "Estoy cansado,"
+        },
+        {
+          "lang": "it",
+          "text": "sono stanco,"
+        },
+        {
+          "lang": "es",
+          "text": "o Madrid está en España,"
+        },
+        {
+          "lang": "it",
+          "text": "Madrid si trova in Spagna."
+        }
       ]
     },
     {
       "text": "Fermatevi un momento su questa distinzione, perché è probabilmente il punto grammaticale più richiesto in assoluto in sede d'esame:",
-      "speech": "Fermatevi un momento su questa distinzione, perché è probabilmente il punto grammaticale più richiesto in assoluto in sede d'esame:"
+      "speech": "Fermatevi un momento su questa distinzione, perché è probabilmente il punto grammaticale più richiesto in assoluto in sede d'esame:",
+      "p": 1
     },
     {
       "text": "se in italiano diciamo sempre «essere», in spagnolo la scelta tra ser ed estar comunica un'informazione implicita fondamentale, se una caratteristica è considerata stabile e definitoria oppure transitoria e circostanziale.",
@@ -298,6 +636,28 @@
           91,
           113
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "se in italiano diciamo sempre «essere», in spagnolo la scelta tra"
+        },
+        {
+          "lang": "es",
+          "text": "ser"
+        },
+        {
+          "lang": "it",
+          "text": "ed"
+        },
+        {
+          "lang": "es",
+          "text": "estar"
+        },
+        {
+          "lang": "it",
+          "text": "comunica un'informazione implicita fondamentale, se una caratteristica è considerata stabile e definitoria oppure transitoria e circostanziale."
+        }
       ]
     },
     {
@@ -312,6 +672,24 @@
           63,
           73
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Strettamente collegata a questa distinzione è quella tra"
+        },
+        {
+          "lang": "es",
+          "text": "hay"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "está/están:"
+        }
       ]
     },
     {
@@ -330,6 +708,24 @@
           62,
           71
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "hay,"
+        },
+        {
+          "lang": "it",
+          "text": "forma impersonale del verbo"
+        },
+        {
+          "lang": "es",
+          "text": "haber,"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per indicare l'esistenza di qualcosa, generalmente con un articolo indeterminativo o senza articolo,"
+        }
       ]
     },
     {
@@ -344,6 +740,28 @@
           58,
           73
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "come in"
+        },
+        {
+          "lang": "es",
+          "text": "Hay un libro en la mesa,"
+        },
+        {
+          "lang": "it",
+          "text": "cè un libro sul tavolo,"
+        },
+        {
+          "lang": "es",
+          "text": "o Hay dos gatos,"
+        },
+        {
+          "lang": "it",
+          "text": "ci sono due gatti;"
+        }
       ]
     },
     {
@@ -358,6 +776,16 @@
           43,
           52
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "está o están"
+        },
+        {
+          "lang": "it",
+          "text": "si usa invece per indicare la posizione di qualcosa di già noto e identificato, generalmente con l'articolo determinativo,"
+        }
       ]
     },
     {
@@ -368,6 +796,20 @@
           8,
           32
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "come in"
+        },
+        {
+          "lang": "es",
+          "text": "El libro está en la mesa,"
+        },
+        {
+          "lang": "it",
+          "text": "il libro (quello di cui abbiamo già parlato) si trova sul tavolo."
+        }
       ]
     },
     {
@@ -390,6 +832,32 @@
           137,
           146
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Infine,"
+        },
+        {
+          "lang": "es",
+          "text": "haber,"
+        },
+        {
+          "lang": "it",
+          "text": "oltre alla forma impersonale"
+        },
+        {
+          "lang": "es",
+          "text": "hay,"
+        },
+        {
+          "lang": "it",
+          "text": "funziona come ausiliare dei tempi composti che abbiamo visto negli episodi scorsi, come"
+        },
+        {
+          "lang": "es",
+          "text": "he comido;"
+        }
       ]
     },
     {
@@ -408,6 +876,24 @@
           57,
           71
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "tener"
+        },
+        {
+          "lang": "it",
+          "text": "è invece il verbo che esprime il possesso, come in"
+        },
+        {
+          "lang": "es",
+          "text": "Tengo un coche,"
+        },
+        {
+          "lang": "it",
+          "text": "ho una macchina, e compare in numerose espressioni idiomatiche molto usate,"
+        }
       ]
     },
     {
@@ -430,6 +916,44 @@
           84,
           97
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "come"
+        },
+        {
+          "lang": "es",
+          "text": "tener hambre,"
+        },
+        {
+          "lang": "it",
+          "text": "avere fame,"
+        },
+        {
+          "lang": "es",
+          "text": "tener sed,"
+        },
+        {
+          "lang": "it",
+          "text": "avere sete,"
+        },
+        {
+          "lang": "es",
+          "text": "tener razón,"
+        },
+        {
+          "lang": "it",
+          "text": "avere ragione, e"
+        },
+        {
+          "lang": "es",
+          "text": "tener... años,"
+        },
+        {
+          "lang": "it",
+          "text": "avere... anni."
+        }
       ]
     },
     {
@@ -440,7 +964,18 @@
           97,
           143
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un piccolo esercizio insieme, per fissare tutte queste distinzioni: come completereste «"
+        },
+        {
+          "lang": "es",
+          "text": "Madrid … (ser/estar) la capital de España»?"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Es, perché è una caratteristica permanente.",
@@ -454,6 +989,12 @@
           9,
           42
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«… (hay/está) muchos museos en Madrid»?"
+        }
       ]
     },
     {
@@ -464,6 +1005,16 @@
           0,
           3
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Hay,"
+        },
+        {
+          "lang": "it",
+          "text": "perché indica l'esistenza generica."
+        }
       ]
     },
     {
@@ -474,6 +1025,12 @@
           1,
           50
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«El museo del Prado … (hay/está) en el centro»?"
+        }
       ]
     },
     {
@@ -484,6 +1041,16 @@
           0,
           4
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Está,"
+        },
+        {
+          "lang": "it",
+          "text": "perché indica la posizione di qualcosa di già identificato."
+        }
       ]
     },
     {
@@ -494,6 +1061,12 @@
           1,
           36
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«Yo … (haber/tener) veinte años»?"
+        }
       ]
     },
     {
@@ -504,11 +1077,22 @@
           0,
           5
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Tengo,"
+        },
+        {
+          "lang": "it",
+          "text": "l'espressione idiomatica per l'età."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: l'imperativo affermativo in tú coincide con la terza persona del presente per i verbi regolari, con otto forme irregolari da memorizzare come haz, di e ven.",
@@ -534,7 +1118,34 @@
           159,
           162
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: l'imperativo affermativo in"
+        },
+        {
+          "lang": "es",
+          "text": "tú"
+        },
+        {
+          "lang": "it",
+          "text": "coincide con la terza persona del presente per i verbi regolari, con otto forme irregolari da memorizzare come"
+        },
+        {
+          "lang": "es",
+          "text": "haz,"
+        },
+        {
+          "lang": "it",
+          "text": "di e"
+        },
+        {
+          "lang": "es",
+          "text": "ven."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: muy si usa davanti ad aggettivi e avverbi, mucho davanti a sostantivi o dopo verbi.",
@@ -552,7 +1163,30 @@
           52,
           57
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo:"
+        },
+        {
+          "lang": "es",
+          "text": "muy"
+        },
+        {
+          "lang": "it",
+          "text": "si usa davanti ad aggettivi e avverbi,"
+        },
+        {
+          "lang": "es",
+          "text": "mucho"
+        },
+        {
+          "lang": "it",
+          "text": "davanti a sostantivi o dopo verbi."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: ser esprime caratteristiche permanenti, estar esprime stati temporanei e posizione.",
@@ -578,7 +1212,30 @@
           61,
           89
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo:"
+        },
+        {
+          "lang": "es",
+          "text": "ser"
+        },
+        {
+          "lang": "it",
+          "text": "esprime caratteristiche permanenti,"
+        },
+        {
+          "lang": "es",
+          "text": "estar"
+        },
+        {
+          "lang": "it",
+          "text": "esprime stati temporanei e posizione."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: hay indica l'esistenza generica di qualcosa, está/están la posizione di qualcosa già noto.",
@@ -604,7 +1261,30 @@
           67,
           97
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto:"
+        },
+        {
+          "lang": "es",
+          "text": "hay"
+        },
+        {
+          "lang": "it",
+          "text": "indica l'esistenza generica di qualcosa,"
+        },
+        {
+          "lang": "es",
+          "text": "está/están"
+        },
+        {
+          "lang": "it",
+          "text": "la posizione di qualcosa già noto."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio completiamo il quadro grammaticale della Classe I con altre due coppie di parole ricorrenti, preguntar e pedir, por e para, insieme ai comparativi e ai superlativi.",
@@ -626,7 +1306,38 @@
           157,
           185
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio completiamo il quadro grammaticale della Classe I con altre due coppie di parole ricorrenti,"
+        },
+        {
+          "lang": "es",
+          "text": "preguntar"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "pedir, por"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "para,"
+        },
+        {
+          "lang": "it",
+          "text": "insieme ai comparativi e ai superlativi."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

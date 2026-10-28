@@ -28,7 +28,8 @@
           33,
           48
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Le sue origini risalgono al 1969, con la nascita di ARPANET, una rete sperimentale creata negli Stati Uniti dall'agenzia governativa ARPA per collegare alcuni centri di ricerca universitari.",
@@ -74,7 +75,8 @@
     },
     {
       "text": "Fermatevi un momento su uno schema che vale la pena avere ben chiaro, perché riguarda un aspetto che si presta facilmente a confusione in sede d'esame:",
-      "speech": "Fermatevi un momento su uno schema che vale la pena avere ben chiaro, perché riguarda un aspetto che si presta facilmente a confusione in sede d'esame:"
+      "speech": "Fermatevi un momento su uno schema che vale la pena avere ben chiaro, perché riguarda un aspetto che si presta facilmente a confusione in sede d'esame:",
+      "p": 1
     },
     {
       "text": "le reti si classificano per estensione geografica in LAN, MAN e WAN.",
@@ -128,7 +130,8 @@
           93,
           96
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Le principali modalità di connessione sono tre.",
@@ -180,7 +183,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se a casa vostra il router distribuisce Internet tramite Wi-Fi al vostro telefono e al vostro computer, il Wi-Fi è la vostra connessione a Internet?",
-      "speech": "Proviamo un piccolo esercizio insieme: se a casa vostra il router distribuisce Internet tramite Wi-Fi al vostro telefono e al vostro computer, il Wi-Fi è la vostra connessione a Internet?"
+      "speech": "Proviamo un piccolo esercizio insieme: se a casa vostra il router distribuisce Internet tramite Wi-Fi al vostro telefono e al vostro computer, il Wi-Fi è la vostra connessione a Internet?",
+      "p": 1
     },
     {
       "text": "La risposta corretta è no, o meglio, non da sola: il Wi-Fi è soltanto la tecnologia con cui il router distribuisce localmente, senza fili, un accesso che deve comunque arrivare dall'esterno tramite un ISP, per esempio via ADSL o fibra ottica.",
@@ -198,7 +202,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: Internet è la rete delle reti, nata nel 1969 con ARPANET e arrivata in Italia nel 1986 dal CNUCE di Pisa, e si basa sul protocollo TCP/IP.",
@@ -220,7 +225,8 @@
           89,
           93
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: le reti si classificano per estensione geografica in LAN, MAN e WAN, con Internet stessa che rappresenta l'esempio di WAN per eccellenza.",
@@ -234,7 +240,8 @@
           62,
           76
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: le principali modalità di connessione sono ADSL, fibra ottica, rete mobile 3G/4G/5G e Wi-Fi, quest'ultimo una semplice distribuzione locale e non una connessione autonoma, con la velocità misurata in Mbps.",
@@ -252,11 +259,13 @@
           207,
           211
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo quali servizi si sono sviluppati su questa infrastruttura, e le regole di buona educazione che regolano il comportamento online, la netiquette.",
-      "speech": "Nel prossimo episodio vediamo quali servizi si sono sviluppati su questa infrastruttura, e le regole di buona educazione che regolano il comportamento online, la netiquette."
+      "speech": "Nel prossimo episodio vediamo quali servizi si sono sviluppati su questa infrastruttura, e le regole di buona educazione che regolano il comportamento online, la netiquette.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

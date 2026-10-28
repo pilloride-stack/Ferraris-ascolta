@@ -10,11 +10,13 @@
     },
     {
       "text": "Oggi vediamo come si documenta un progetto di database e facciamo una prima introduzione pratica ad Access, l'applicativo con cui potreste dover lavorare concretamente su una base di dati.",
-      "speech": "Oggi vediamo come si documenta un progetto di database e facciamo una prima introduzione pratica ad Access, l'applicativo con cui potreste dover lavorare concretamente su una base di dati."
+      "speech": "Oggi vediamo come si documenta un progetto di database e facciamo una prima introduzione pratica ad Access, l'applicativo con cui potreste dover lavorare concretamente su una base di dati.",
+      "p": 1
     },
     {
       "text": "Documentare adeguatamente un progetto di database è essenziale per garantirne la corretta manutenzione e i futuri sviluppi, anche da parte di persone diverse da chi lo ha progettato in origine.",
-      "speech": "Documentare adeguatamente un progetto di database è essenziale per garantirne la corretta manutenzione e i futuri sviluppi, anche da parte di persone diverse da chi lo ha progettato in origine."
+      "speech": "Documentare adeguatamente un progetto di database è essenziale per garantirne la corretta manutenzione e i futuri sviluppi, anche da parte di persone diverse da chi lo ha progettato in origine.",
+      "p": 1
     },
     {
       "text": "La documentazione tipica comprende quattro elementi: lo schema concettuale E-R, che riporta entità, attributi e relazioni individuati nella progettazione concettuale;",
@@ -58,7 +60,8 @@
     },
     {
       "text": "Fermatevi un momento su questo ultimo elemento, il manuale utente, perché ha uno scopo diverso dagli altri tre:",
-      "speech": "Fermatevi un momento su questo ultimo elemento, il manuale utente, perché ha uno scopo diverso dagli altri tre:"
+      "speech": "Fermatevi un momento su questo ultimo elemento, il manuale utente, perché ha uno scopo diverso dagli altri tre:",
+      "p": 1
     },
     {
       "text": "mentre lo schema E-R, il dizionario dei dati e lo schema logico sono documenti tecnici, pensati per chi deve progettare o manutenere il database,",
@@ -74,7 +77,8 @@
     },
     {
       "text": "Passiamo ora ad Access.",
-      "speech": "Passiamo ora ad Access."
+      "speech": "Passiamo ora ad Access.",
+      "p": 1
     },
     {
       "text": "Microsoft Access è un sistema di gestione di basi di dati relazionali, un RDBMS, dotato di un'interfaccia grafica intuitiva, pensato per la creazione di database di piccole e medie dimensioni anche da parte di utenti non specialisti.",
@@ -170,7 +174,8 @@
     },
     {
       "text": "Fermatevi un momento sulla chiave primaria appena citata, perché è un concetto che ritroverete continuamente parlando di database:",
-      "speech": "Fermatevi un momento sulla chiave primaria appena citata, perché è un concetto che ritroverete continuamente parlando di database:"
+      "speech": "Fermatevi un momento sulla chiave primaria appena citata, perché è un concetto che ritroverete continuamente parlando di database:",
+      "p": 1
     },
     {
       "text": "è il campo, o l'insieme di campi, che identifica in modo univoco ciascun record di una tabella,",
@@ -194,7 +199,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un commissario vi chiedesse quali sono i quattro oggetti principali di un database Access e a cosa serve ciascuno, come rispondereste in ordine?",
-      "speech": "Proviamo un piccolo esercizio insieme: se un commissario vi chiedesse quali sono i quattro oggetti principali di un database Access e a cosa serve ciascuno, come rispondereste in ordine?"
+      "speech": "Proviamo un piccolo esercizio insieme: se un commissario vi chiedesse quali sono i quattro oggetti principali di un database Access e a cosa serve ciascuno, come rispondereste in ordine?",
+      "p": 1
     },
     {
       "text": "Le tabelle memorizzano i dati; le query li interrogano e li filtrano secondo criteri;",
@@ -210,7 +216,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: la documentazione di un progetto di database comprende schema E-R, dizionario dei dati, schema logico e manuale utente.",
@@ -232,7 +239,8 @@
           111,
           125
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: Access è un RDBMS con quattro oggetti principali, tabelle, query, maschere e report.",
@@ -250,7 +258,8 @@
           59,
           92
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: creare una tabella in Access richiede di definire i campi, il loro tipo di dato e la chiave primaria, prima di salvare e popolare la tabella.",
@@ -264,11 +273,13 @@
           92,
           107
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio entriamo nel terzo modulo, dedicato al web, partendo dagli aspetti hardware e software di un sistema informatico orientato alla rete.",
-      "speech": "Nel prossimo episodio entriamo nel terzo modulo, dedicato al web, partendo dagli aspetti hardware e software di un sistema informatico orientato alla rete."
+      "speech": "Nel prossimo episodio entriamo nel terzo modulo, dedicato al web, partendo dagli aspetti hardware e software di un sistema informatico orientato alla rete.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

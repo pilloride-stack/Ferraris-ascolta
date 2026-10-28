@@ -18,7 +18,8 @@
     },
     {
       "text": "Cominciamo dalla grammatica.",
-      "speech": "Cominciamo dalla grammatica."
+      "speech": "Cominciamo dalla grammatica.",
+      "p": 1
     },
     {
       "text": "Il presente de subjuntivo di un verbo regolare per ciascuna coniugazione: hable per hablar, coma per comer, viva per vivir; si forma invertendo le vocali tematiche rispetto all'indicativo.",
@@ -48,6 +49,52 @@
           133,
           163
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il presente"
+        },
+        {
+          "lang": "es",
+          "text": "de subjuntivo"
+        },
+        {
+          "lang": "it",
+          "text": "di un verbo regolare per ciascuna coniugazione:"
+        },
+        {
+          "lang": "es",
+          "text": "hable"
+        },
+        {
+          "lang": "it",
+          "text": "per"
+        },
+        {
+          "lang": "es",
+          "text": "hablar,"
+        },
+        {
+          "lang": "it",
+          "text": "coma per"
+        },
+        {
+          "lang": "es",
+          "text": "comer,"
+        },
+        {
+          "lang": "it",
+          "text": "viva per"
+        },
+        {
+          "lang": "es",
+          "text": "vivir;"
+        },
+        {
+          "lang": "it",
+          "text": "si forma invertendo le vocali tematiche rispetto all'indicativo."
+        }
       ]
     },
     {
@@ -62,6 +109,16 @@
           90,
           152
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Si usa dopo espressioni con que che esprimono volontà, dubbio, emozione o necessità, come"
+        },
+        {
+          "lang": "es",
+          "text": "Quiero que estudies, Dudo que sepa, Es necesario que lleguemos."
+        }
       ]
     },
     {
@@ -80,6 +137,28 @@
           114,
           142
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "condicional"
+        },
+        {
+          "lang": "it",
+          "text": "si forma con le desinenze"
+        },
+        {
+          "lang": "es",
+          "text": "ía, ías, ía, íamos, íais, ían"
+        },
+        {
+          "lang": "it",
+          "text": "aggiunte all'infinito, con le stesse radici irregolari del futuro:"
+        }
       ]
     },
     {
@@ -90,11 +169,18 @@
           0,
           73
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "tendría, pondría, saldría, vendría, podría, sabría, haría, diría, querría."
+        }
       ]
     },
     {
       "text": "Passiamo alla storia.",
-      "speech": "Passiamo alla storia."
+      "speech": "Passiamo alla storia.",
+      "p": 1
     },
     {
       "text": "Le principali dominazioni che si sono succedute nella Penisola Iberica dall'antichità al Medioevo sono, in ordine:",
@@ -116,6 +202,20 @@
           161,
           182
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "le civiltà iberica e celtiberica preistoriche, le colonizzazioni fenicia, greca e cartaginese, la conquista romana con la provincia di"
+        },
+        {
+          "lang": "es",
+          "text": "Hispania,"
+        },
+        {
+          "lang": "it",
+          "text": "l'invasione dei Visigoti nel V secolo,"
+        }
       ]
     },
     {
@@ -130,6 +230,16 @@
           64,
           71
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e infine l'invasione musulmana del 711, che diede origine ad al-"
+        },
+        {
+          "lang": "es",
+          "text": "Ándalus."
+        }
       ]
     },
     {
@@ -144,6 +254,16 @@
           77,
           92
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "La Reconquista"
+        },
+        {
+          "lang": "it",
+          "text": "è il processo di riconquista cristiana della penisola, durato dal 718 al 1492,"
+        }
       ]
     },
     {
@@ -162,6 +282,20 @@
           79,
           91
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e si conclude con la caduta del Regno di"
+        },
+        {
+          "lang": "es",
+          "text": "Granada"
+        },
+        {
+          "lang": "it",
+          "text": "nel gennaio del 1492, sotto i Re Cattolici Isabella e Ferdinando."
+        }
       ]
     },
     {
@@ -180,6 +314,28 @@
           127,
           136
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino de Santiago"
+        },
+        {
+          "lang": "it",
+          "text": "è legato al contesto storico della"
+        },
+        {
+          "lang": "es",
+          "text": "Reconquista"
+        },
+        {
+          "lang": "it",
+          "text": "perché la scoperta della tomba dell'apostolo Giacomo, nel IX secolo,"
+        }
       ]
     },
     {
@@ -190,11 +346,22 @@
           154,
           163
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "offrì ai regni cristiani del nord un potente simbolo religioso e identitario a sostegno della causa della riconquista, incarnato nella figura di Santiago"
+        },
+        {
+          "lang": "es",
+          "text": "Matamoros."
+        }
       ]
     },
     {
       "text": "Passiamo alla civiltà artistica e geografica.",
-      "speech": "Passiamo alla civiltà artistica e geografica."
+      "speech": "Passiamo alla civiltà artistica e geografica.",
+      "p": 1
     },
     {
       "text": "I tre musei del Triángulo del Arte di Madrid sono il Museo del Prado, che custodisce pittura spagnola, italiana e fiamminga, il Museo Reina Sofía, che custodisce l'arte spagnola del Novecento e del Duemila incluso il Guernica di Picasso,",
@@ -220,6 +387,28 @@
           217,
           236
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "I tre musei del"
+        },
+        {
+          "lang": "es",
+          "text": "Triángulo"
+        },
+        {
+          "lang": "it",
+          "text": "del Arte di Madrid sono il Museo del Prado, che custodisce pittura spagnola, italiana e fiamminga, il Museo"
+        },
+        {
+          "lang": "es",
+          "text": "Reina Sofía,"
+        },
+        {
+          "lang": "it",
+          "text": "che custodisce l'arte spagnola del Novecento e del Duemila incluso il Guernica di Picasso,"
+        }
       ]
     },
     {
@@ -248,6 +437,28 @@
           81,
           112
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La differenza tra"
+        },
+        {
+          "lang": "es",
+          "text": "Hispanoamérica"
+        },
+        {
+          "lang": "it",
+          "text": "e América Latina è che"
+        },
+        {
+          "lang": "es",
+          "text": "Hispanoamérica"
+        },
+        {
+          "lang": "it",
+          "text": "comprende solo i paesi di lingua spagnola,"
+        }
       ]
     },
     {
@@ -312,6 +523,28 @@
           120,
           130
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le principali civiltà precolombiane sono i Maya, in"
+        },
+        {
+          "lang": "es",
+          "text": "Guatemala"
+        },
+        {
+          "lang": "it",
+          "text": "e nello"
+        },
+        {
+          "lang": "es",
+          "text": "Yucatán,"
+        },
+        {
+          "lang": "it",
+          "text": "noti per le conoscenze astronomiche e il calendario;"
+        }
       ]
     },
     {
@@ -338,11 +571,34 @@
           111,
           116
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "gli Aztechi, nel Messico centrale con capitale"
+        },
+        {
+          "lang": "es",
+          "text": "Tenochtitlán;"
+        },
+        {
+          "lang": "it",
+          "text": "e gli Inca, sulla cordigliera"
+        },
+        {
+          "lang": "es",
+          "text": "andina"
+        },
+        {
+          "lang": "it",
+          "text": "con capitale Cusco, noti per la rete stradale e l'organizzazione amministrativa avanzata."
+        }
       ]
     },
     {
       "text": "Proviamo un ultimo piccolo esercizio di sintesi, per collegare grammatica e civiltà come farebbe un commissario particolarmente esigente:",
-      "speech": "Proviamo un ultimo piccolo esercizio di sintesi, per collegare grammatica e civiltà come farebbe un commissario particolarmente esigente:"
+      "speech": "Proviamo un ultimo piccolo esercizio di sintesi, per collegare grammatica e civiltà come farebbe un commissario particolarmente esigente:",
+      "p": 1
     },
     {
       "text": "se doveste usare il condicional di cortesia per chiedere informazioni su una delle comunità autonome viste nel modulo precedente, come formulereste la domanda?",
@@ -352,6 +608,20 @@
           20,
           31
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "se doveste usare il"
+        },
+        {
+          "lang": "es",
+          "text": "condicional"
+        },
+        {
+          "lang": "it",
+          "text": "di cortesia per chiedere informazioni su una delle comunità autonome viste nel modulo precedente, come formulereste la domanda?"
+        }
       ]
     },
     {
@@ -362,11 +632,26 @@
           29,
           73
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Potreste dire, per esempio, ¿"
+        },
+        {
+          "lang": "es",
+          "text": "Podrías hablarme sobre el Camino de Santiago?,"
+        },
+        {
+          "lang": "it",
+          "text": "potresti parlarmi del Cammino di Santiago?, mettendo così in pratica, in un'unica frase, sia la struttura grammaticale sia il contenuto culturale di questo intero modulo."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo.",
-      "speech": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo."
+      "speech": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo.",
+      "p": 1
     },
     {
       "text": "Primo: la Classe III ha completato il quadro grammaticale del triennio con il subjuntivo e il condicional.",
@@ -384,7 +669,26 @@
           94,
           105
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: la Classe III ha completato il quadro grammaticale del triennio con il"
+        },
+        {
+          "lang": "es",
+          "text": "subjuntivo"
+        },
+        {
+          "lang": "it",
+          "text": "e il"
+        },
+        {
+          "lang": "es",
+          "text": "condicional."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: il modulo ha ripercorso la storia della Penisola Iberica dall'antichità alla Reconquista, e il legame tra quest'ultima e il Camino de Santiago.",
@@ -406,7 +710,26 @@
           133,
           151
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: il modulo ha ripercorso la storia della Penisola Iberica dall'antichità alla"
+        },
+        {
+          "lang": "es",
+          "text": "Reconquista,"
+        },
+        {
+          "lang": "it",
+          "text": "e il legame tra quest'ultima e il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino de Santiago."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il modulo ha esplorato l'arte di Madrid attraverso il Triángulo del Arte, e la storia dell'incontro tra Europa e America, dalla scoperta di Colombo alle grandi civiltà precolombiane.",
@@ -424,11 +747,27 @@
           167,
           188
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: il modulo ha esplorato l'arte di Madrid attraverso il"
+        },
+        {
+          "lang": "es",
+          "text": "Triángulo del Arte,"
+        },
+        {
+          "lang": "it",
+          "text": "e la storia dell'incontro tra Europa e America, dalla scoperta di Colombo alle grandi civiltà precolombiane."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero modulo di Spagnolo per la classe terza.",
-      "speech": "Con questo abbiamo completato l'intero modulo di Spagnolo per la classe terza."
+      "speech": "Con questo abbiamo completato l'intero modulo di Spagnolo per la classe terza.",
+      "p": 1
     },
     {
       "text": "In bocca al lupo per l'esame.",

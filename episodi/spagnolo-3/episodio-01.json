@@ -20,6 +20,24 @@
           118,
           129
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "In questo percorso completeremo il quadro grammaticale con due strutture fondamentali, il presente"
+        },
+        {
+          "lang": "es",
+          "text": "de subjuntivo"
+        },
+        {
+          "lang": "it",
+          "text": "e il"
+        },
+        {
+          "lang": "es",
+          "text": "condicional,"
+        }
       ]
     },
     {
@@ -48,11 +66,26 @@
           47,
           59
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dal presente"
+        },
+        {
+          "lang": "es",
+          "text": "de subjuntivo,"
+        },
+        {
+          "lang": "it",
+          "text": "uno dei modi verbali più caratteristici e, per uno studente italiano, più impegnativi dell'intera lingua spagnola."
+        }
       ]
     },
     {
       "text": "Prima di procedere, ricordiamo rapidamente tutte le strutture già viste nei due anni precedenti:",
-      "speech": "Prima di procedere, ricordiamo rapidamente tutte le strutture già viste nei due anni precedenti:"
+      "speech": "Prima di procedere, ricordiamo rapidamente tutte le strutture già viste nei due anni precedenti:",
+      "p": 1
     },
     {
       "text": "il presente indicativo, il pretérito perfecto, l'imperfecto e il pluscuamperfecto, il gerundio, l'imperativo, le coppie di parole ricorrenti come muy/mucho,",
@@ -66,6 +99,24 @@
           146,
           155
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il presente indicativo, il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto,"
+        },
+        {
+          "lang": "it",
+          "text": "l'imperfecto e il pluscuamperfecto, il gerundio, l'imperativo, le coppie di parole ricorrenti come"
+        },
+        {
+          "lang": "es",
+          "text": "muy/mucho,"
+        }
       ]
     },
     {
@@ -84,6 +135,32 @@
           96,
           116
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "ser/estar, hay/está, haber/tener, preguntar/pedir"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "por/para,"
+        },
+        {
+          "lang": "it",
+          "text": "i comparativi e i superlativi, il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido"
+        },
+        {
+          "lang": "it",
+          "text": "e il futuro."
+        }
       ]
     },
     {
@@ -98,6 +175,28 @@
           151,
           162
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Questa dispensa introduce le ultime due grandi strutture morfosintattiche dell'intero programma: il presente"
+        },
+        {
+          "lang": "es",
+          "text": "de subjuntivo,"
+        },
+        {
+          "lang": "it",
+          "text": "che affrontiamo oggi, e il"
+        },
+        {
+          "lang": "es",
+          "text": "condicional,"
+        },
+        {
+          "lang": "it",
+          "text": "che vedremo nel prossimo episodio."
+        }
       ]
     },
     {
@@ -116,7 +215,22 @@
           41,
           71
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il modo congiuntivo,"
+        },
+        {
+          "lang": "es",
+          "text": "subjuntivo,"
+        },
+        {
+          "lang": "it",
+          "text": "esprime desiderio, dubbio, possibilità, emozione, opinione soggettiva o necessità, a differenza dell'indicativo,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "che esprime fatti oggettivi e certi — un principio che, in fondo, non è troppo diverso dal congiuntivo italiano, sia pure con un uso molto più esteso e sistematico in spagnolo.",
@@ -144,6 +258,20 @@
           179,
           188
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il presente"
+        },
+        {
+          "lang": "es",
+          "text": "de subjuntivo si forma,"
+        },
+        {
+          "lang": "it",
+          "text": "per la maggior parte dei verbi regolari, prendendo la radice della prima persona singolare del presente indicativo e aggiungendo le desinenze «invertite» rispetto all'indicativo:"
+        }
       ]
     },
     {
@@ -166,6 +294,20 @@
           78,
           93
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i verbi in AR prendono desinenze in e, mentre i verbi in ER e"
+        },
+        {
+          "lang": "es",
+          "text": "IR"
+        },
+        {
+          "lang": "it",
+          "text": "prendono desinenze in a."
+        }
       ]
     },
     {
@@ -174,16 +316,50 @@
       "bold": [
         [
           12,
+          67
+        ],
+        [
+          69,
           74
         ],
         [
           89,
+          124
+        ],
+        [
+          126,
           131
         ],
         [
           146,
           181
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Coniughiamo"
+        },
+        {
+          "lang": "es",
+          "text": "hablar: hable, hables, hable, hablemos, habléis, hablen; comer"
+        },
+        {
+          "lang": "it",
+          "text": "diventa coma,"
+        },
+        {
+          "lang": "es",
+          "text": "comas, coma, comamos, comáis, coman; vivir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa viva,"
+        },
+        {
+          "lang": "es",
+          "text": "vivas, viva, vivamos, viváis, vivan."
+        }
       ]
     },
     {
@@ -194,7 +370,8 @@
           47,
           57
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "i verbi in -AR, che all'indicativo hanno desinenze in -a (habla), al subjuntivo assumono desinenze in -e (hable);",
@@ -212,6 +389,24 @@
           106,
           112
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i verbi in AR, che all'indicativo hanno desinenze in a ("
+        },
+        {
+          "lang": "es",
+          "text": "habla), al subjuntivo"
+        },
+        {
+          "lang": "it",
+          "text": "assumono desinenze in e ("
+        },
+        {
+          "lang": "es",
+          "text": "hable);"
+        }
       ]
     },
     {
@@ -226,6 +421,28 @@
           86,
           99
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i verbi in ER e"
+        },
+        {
+          "lang": "es",
+          "text": "IR,"
+        },
+        {
+          "lang": "it",
+          "text": "che all'indicativo hanno desinenze in e (come) o in e (vive),"
+        },
+        {
+          "lang": "es",
+          "text": "al subjuntivo"
+        },
+        {
+          "lang": "it",
+          "text": "assumono desinenze in a (coma, viva)."
+        }
       ]
     },
     {
@@ -248,6 +465,24 @@
           100,
           110
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È come se le due vocali caratteristiche,"
+        },
+        {
+          "lang": "es",
+          "text": "la «a»"
+        },
+        {
+          "lang": "it",
+          "text": "e la «e», si scambiassero di posto tra indicativo e"
+        },
+        {
+          "lang": "es",
+          "text": "subjuntivo."
+        }
       ]
     },
     {
@@ -274,6 +509,36 @@
           144,
           153
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "subjuntivo"
+        },
+        {
+          "lang": "it",
+          "text": "si usa tipicamente in frasi subordinate introdotte da que, dopo espressioni di volontà, come"
+        },
+        {
+          "lang": "es",
+          "text": "querer que,"
+        },
+        {
+          "lang": "it",
+          "text": "volere che; dubbio, come"
+        },
+        {
+          "lang": "es",
+          "text": "dudar que,"
+        },
+        {
+          "lang": "it",
+          "text": "dubitare che;"
+        }
       ]
     },
     {
@@ -304,6 +569,36 @@
           130,
           146
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "emozione, come me"
+        },
+        {
+          "lang": "es",
+          "text": "alegro de que,"
+        },
+        {
+          "lang": "it",
+          "text": "mi rallegro che; opinione negata, come"
+        },
+        {
+          "lang": "es",
+          "text": "no creo que,"
+        },
+        {
+          "lang": "it",
+          "text": "non credo che; o necessità impersonale, come"
+        },
+        {
+          "lang": "es",
+          "text": "es necesario que,"
+        },
+        {
+          "lang": "it",
+          "text": "è necessario che."
+        }
       ]
     },
     {
@@ -330,6 +625,40 @@
           150,
           160
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Si usa inoltre nell'imperativo negativo, come"
+        },
+        {
+          "lang": "es",
+          "text": "No hables,"
+        },
+        {
+          "lang": "it",
+          "text": "non parlare, e nell'imperativo di"
+        },
+        {
+          "lang": "es",
+          "text": "usted"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "ustedes,"
+        },
+        {
+          "lang": "it",
+          "text": "che coincide esattamente con le forme del"
+        },
+        {
+          "lang": "es",
+          "text": "subjuntivo."
+        }
       ]
     },
     {
@@ -342,12 +671,42 @@
         ],
         [
           72,
+          86
+        ],
+        [
+          88,
           93
         ],
         [
           102,
           119
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Alcuni verbi molto frequenti sono irregolari al"
+        },
+        {
+          "lang": "es",
+          "text": "subjuntivo: ser"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "sea, seas, sea; estar"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "esté, estés, esté;"
+        }
       ]
     },
     {
@@ -360,31 +719,80 @@
         ],
         [
           11,
+          28
+        ],
+        [
+          30,
           35
         ],
         [
           44,
+          61
+        ],
+        [
+          63,
           68
         ],
         [
           77,
           94
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "ir"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "vaya, vayas, vaya; haber"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "haya, hayas, haya; saber"
+        },
+        {
+          "lang": "it",
+          "text": "diventa"
+        },
+        {
+          "lang": "es",
+          "text": "sepa, sepas, sepa."
+        }
       ]
     },
     {
       "text": "Proviamo un esempio pratico: come completereste la frase «Espero que tú ______ (venir) a la fiesta y que ______ (ser) puntual»?",
-      "speech": "Proviamo un esempio pratico: come completereste la frase «Espero que tú … (venir) a la fiesta i que … (ser) puntual»?",
+      "speech": "Proviamo un esempio pratico: come completereste la frase «Espero que tú … (venir) a la fiesta y que … (ser) puntual»?",
       "bold": [
         [
           58,
           125
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un esempio pratico: come completereste la frase «"
+        },
+        {
+          "lang": "es",
+          "text": "Espero que tú … (venir) a la fiesta y que … (ser) puntual»?"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "La soluzione è: Espero que tú vengas a la fiesta y que seas puntual — subjuntivo dopo espero que, verbo di volontà o desiderio, con venir e ser entrambi irregolari.",
-      "speech": "La soluzione è: Espero que tú vengas a la fiesta i que seas puntual — subjuntivo dopo espero que, verbo di volontà o desiderio, con venir e ser entrambi irregolari.",
+      "speech": "La soluzione è: Espero que tú vengas a la fiesta y que seas puntual — subjuntivo dopo espero que, verbo di volontà o desiderio, con venir e ser entrambi irregolari.",
       "bold": [
         [
           16,
@@ -402,6 +810,36 @@
           140,
           143
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La soluzione è:"
+        },
+        {
+          "lang": "es",
+          "text": "Espero que tú vengas a la fiesta y que seas puntual — subjuntivo"
+        },
+        {
+          "lang": "it",
+          "text": "dopo"
+        },
+        {
+          "lang": "es",
+          "text": "espero que,"
+        },
+        {
+          "lang": "it",
+          "text": "verbo di volontà o desiderio, con venir e"
+        },
+        {
+          "lang": "es",
+          "text": "ser"
+        },
+        {
+          "lang": "it",
+          "text": "entrambi irregolari."
+        }
       ]
     },
     {
@@ -412,7 +850,18 @@
           40,
           88
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un piccolo esercizio insieme: «"
+        },
+        {
+          "lang": "es",
+          "text": "Quiero que ella … (estudiar) más» — estudie."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "«Dudo que ellos ______ (saber) la respuesta» — sepan.",
@@ -422,6 +871,12 @@
           1,
           52
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«Dudo que ellos … (saber) la respuesta» — sepan."
+        }
       ]
     },
     {
@@ -432,6 +887,12 @@
           1,
           64
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«Es necesario que nosotros … (llegar) a tiempo» — lleguemos."
+        }
       ]
     },
     {
@@ -442,11 +903,18 @@
           1,
           48
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«No creo que él … (ir) al concierto» — vaya."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il presente de subjuntivo esprime desiderio, dubbio, emozione, opinione negata o necessità, in contrasto con la certezza dell'indicativo.",
@@ -464,7 +932,22 @@
           41,
           68
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: il presente"
+        },
+        {
+          "lang": "es",
+          "text": "de subjuntivo"
+        },
+        {
+          "lang": "it",
+          "text": "esprime desiderio, dubbio, emozione, opinione negata o necessità, in contrasto con la certezza dell'indicativo."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: si forma invertendo le vocali tematiche rispetto all'indicativo, -e per i verbi in -AR e -a per i verbi in -ER/-IR.",
@@ -482,7 +965,18 @@
           121,
           123
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: si forma invertendo le vocali tematiche rispetto all'indicativo, e per i verbi in AR e a per i verbi in ER/"
+        },
+        {
+          "lang": "es",
+          "text": "IR."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: si usa tipicamente dopo espressioni con que, e coincide con l'imperativo negativo e con l'imperativo di usted/ustedes.",
@@ -504,7 +998,18 @@
           111,
           124
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: si usa tipicamente dopo espressioni con que, e coincide con l'imperativo negativo e con l'imperativo di"
+        },
+        {
+          "lang": "es",
+          "text": "usted/ustedes."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 1 e affrontiamo l'ultima grande struttura verbale del programma, il condicional.",
@@ -514,7 +1019,18 @@
           110,
           121
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio restiamo nel Modulo 1 e affrontiamo l'ultima grande struttura verbale del programma, il"
+        },
+        {
+          "lang": "es",
+          "text": "condicional."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

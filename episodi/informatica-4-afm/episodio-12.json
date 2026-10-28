@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi concludiamo i contenuti nuovi del Modulo 3 con la firma digitale, la conservazione sostitutiva dei documenti, e le strategie di backup dei dati aziendali.",
-      "speech": "Oggi concludiamo i contenuti nuovi del Modulo 3 con la firma digitale, la conservazione sostitutiva dei documenti, e le strategie di backup dei dati aziendali."
+      "speech": "Oggi concludiamo i contenuti nuovi del Modulo 3 con la firma digitale, la conservazione sostitutiva dei documenti, e le strategie di backup dei dati aziendali.",
+      "p": 1
     },
     {
       "text": "La firma digitale è uno strumento crittografico che consente di attribuire con certezza la paternità di un documento informatico al proprio autore e di garantirne l'integrità,",
@@ -24,7 +25,8 @@
           24,
           47
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "poiché qualsiasi modifica successiva alla firma ne invalida la validità;",
@@ -66,7 +68,8 @@
     },
     {
       "text": "Fermatevi un momento su questo collegamento tra i due concetti, perché è facile parlarne come se fossero sinonimi, mentre rispondono a esigenze diverse e complementari:",
-      "speech": "Fermatevi un momento su questo collegamento tra i due concetti, perché è facile parlarne come se fossero sinonimi, mentre rispondono a esigenze diverse e complementari:"
+      "speech": "Fermatevi un momento su questo collegamento tra i due concetti, perché è facile parlarne come se fossero sinonimi, mentre rispondono a esigenze diverse e complementari:",
+      "p": 1
     },
     {
       "text": "la firma digitale garantisce chi ha creato un singolo documento e che non sia stato alterato nel momento in cui è stato firmato;",
@@ -94,7 +97,8 @@
     },
     {
       "text": "Passiamo ora a un tema pratico che riguarda ogni azienda: la protezione dei dati tramite il backup.",
-      "speech": "Passiamo ora a un tema pratico che riguarda ogni azienda: la protezione dei dati tramite il backup."
+      "speech": "Passiamo ora a un tema pratico che riguarda ogni azienda: la protezione dei dati tramite il backup.",
+      "p": 1
     },
     {
       "text": "La perdita dei dati aziendali, dovuta a guasti hardware, errori umani o attacchi informatici come il ransomware, può avere conseguenze molto gravi per un'impresa:",
@@ -142,7 +146,8 @@
     },
     {
       "text": "Fermatevi un momento sulla differenza tra backup incrementale e differenziale, perché è il punto più delicato di questo argomento e capita spesso di confonderli:",
-      "speech": "Fermatevi un momento sulla differenza tra backup incrementale e differenziale, perché è il punto più delicato di questo argomento e capita spesso di confonderli:"
+      "speech": "Fermatevi un momento sulla differenza tra backup incrementale e differenziale, perché è il punto più delicato di questo argomento e capita spesso di confonderli:",
+      "p": 1
     },
     {
       "text": "il backup incrementale guarda sempre all'ultimo backup effettuato, di qualsiasi tipo, e copia solo ciò che è cambiato da allora;",
@@ -184,7 +189,8 @@
           65,
           89
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Una buona pratica ampiamente diffusa è la regola del backup 3-2-1: mantenere almeno 3 copie dei dati, su 2 tipi di supporto diversi, con 1 copia conservata in un luogo fisicamente separato, offsite.",
@@ -202,7 +208,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: un'azienda vuole proteggere l'archivio dei propri dati contabili applicando la regola 3-2-1.",
-      "speech": "Proviamo un piccolo esercizio insieme: un'azienda vuole proteggere l'archivio dei propri dati contabili applicando la regola 3-2-1."
+      "speech": "Proviamo un piccolo esercizio insieme: un'azienda vuole proteggere l'archivio dei propri dati contabili applicando la regola 3-2-1.",
+      "p": 1
     },
     {
       "text": "Come può organizzare le copie di sicurezza?",
@@ -224,7 +231,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: la firma digitale attribuisce paternità e integrità a un documento informatico, mentre la conservazione sostitutiva ne garantisce nel tempo la validità legale e fiscale.",
@@ -242,7 +250,8 @@
           97,
           122
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: i backup possono essere completi, incrementali o differenziali, a seconda di cosa copiano e rispetto a quale backup precedente.",
@@ -256,7 +265,8 @@
           33,
           71
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: la regola del backup 3-2-1, tre copie su due supporti diversi con una copia offsite, è una buona pratica per proteggere i dati aziendali.",
@@ -270,11 +280,13 @@
           10,
           33
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato tutti i contenuti nuovi dell'intero modulo.",
-      "speech": "Con questo abbiamo completato tutti i contenuti nuovi dell'intero modulo."
+      "speech": "Con questo abbiamo completato tutti i contenuti nuovi dell'intero modulo.",
+      "p": 1
     },
     {
       "text": "Nel prossimo e ultimo episodio dedichiamo l'intero tempo a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",

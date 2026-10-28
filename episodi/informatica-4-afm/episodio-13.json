@@ -10,11 +10,13 @@
     },
     {
       "text": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
-      "speech": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria."
+      "speech": "Oggi dedichiamo l'intero episodio a un ripasso organico di tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
+      "p": 1
     },
     {
       "text": "Cominciamo dal Modulo 1, dedicato alla programmazione statica e dinamica sul Web.",
-      "speech": "Cominciamo dal Modulo 1, dedicato alla programmazione statica e dinamica sul Web."
+      "speech": "Cominciamo dal Modulo 1, dedicato alla programmazione statica e dinamica sul Web.",
+      "p": 1
     },
     {
       "text": "Che cos'è un ipertesto e che cos'è un ipermedia?",
@@ -78,7 +80,8 @@
     },
     {
       "text": "Che differenza c'è tra usabilità e accessibilità?",
-      "speech": "Che differenza cè tra usabilità e accessibilità?"
+      "speech": "Che differenza cè tra usabilità e accessibilità?",
+      "p": 1
     },
     {
       "text": "L'accessibilità garantisce a tutti, incluse le persone con disabilità, la possibilità di accedere a un sito;",
@@ -134,7 +137,8 @@
     },
     {
       "text": "Che differenza c'è tra un linguaggio lato client e uno lato server?",
-      "speech": "Che differenza cè tra un linguaggio lato client e uno lato server?"
+      "speech": "Che differenza cè tra un linguaggio lato client e uno lato server?",
+      "p": 1
     },
     {
       "text": "Il linguaggio lato client, come HTML, CSS e JavaScript, viene eseguito nel browser dell'utente e gestisce struttura, grafica e interattività;",
@@ -190,7 +194,8 @@
     },
     {
       "text": "Passiamo al Modulo 2, dedicato al Web e all'azienda.",
-      "speech": "Passiamo al Modulo 2, dedicato al Web e all'azienda."
+      "speech": "Passiamo al Modulo 2, dedicato al Web e all'azienda.",
+      "p": 1
     },
     {
       "text": "Che cos'è il commercio elettronico e come si classifica?",
@@ -234,7 +239,8 @@
     },
     {
       "text": "Che differenza c'è tra telelavoro e lavoro agile?",
-      "speech": "Che differenza cè tra telelavoro e lavoro agile?"
+      "speech": "Che differenza cè tra telelavoro e lavoro agile?",
+      "p": 1
     },
     {
       "text": "Il telelavoro prevede comunque una postazione fissa e orari predeterminati; il lavoro agile, o smart working, introduce maggiore flessibilità di spazio e di tempo.",
@@ -344,7 +350,8 @@
     },
     {
       "text": "Concludiamo con il Modulo 3, dedicato ai software gestionali.",
-      "speech": "Concludiamo con il Modulo 3, dedicato ai software gestionali."
+      "speech": "Concludiamo con il Modulo 3, dedicato ai software gestionali.",
+      "p": 1
     },
     {
       "text": "Quali sono le fasi del ciclo di vita del software?",
@@ -438,7 +445,8 @@
     },
     {
       "text": "Che cos'è un ERP e a cosa serve la contabilità integrata?",
-      "speech": "Che cosa è un ERP e a cosa serve la contabilità integrata?"
+      "speech": "Che cosa è un ERP e a cosa serve la contabilità integrata?",
+      "p": 1
     },
     {
       "text": "Un ERP, Enterprise Resource Planning, collega in un unico sistema informativo le diverse aree funzionali dell'azienda attorno a un database condiviso, evitando la duplicazione dei dati.",
@@ -502,7 +510,8 @@
     },
     {
       "text": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:",
-      "speech": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:"
+      "speech": "Proviamo un ultimo esercizio insieme, che riassume in un solo caso pratico buona parte di questo modulo:",
+      "p": 1
     },
     {
       "text": "immaginate un'azienda che decide di sviluppare un proprio sito di e-commerce B2C, collegato a un ERP interno per la gestione del magazzino, proteggendo poi tutto con backup regolari.",
@@ -526,7 +535,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il Modulo 1 ci ha insegnato ipermedia, progettazione di un sito web, usabilità e accessibilità, siti statici e dinamici, linguaggi lato client e lato server, e il linguaggio SQL.",
@@ -544,7 +554,8 @@
           181,
           184
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: il Modulo 2 ci ha mostrato commercio elettronico, fatturazione elettronica, servizi finanziari online, telelavoro e cloud computing, marketing e pubblicità digitale, e sicurezza nelle transazioni.",
@@ -562,7 +573,8 @@
           125,
           140
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il Modulo 3 ci ha introdotto il ciclo di vita del software, la manutenzione, il testing, i sistemi ERP, la gestione della comunicazione, la firma digitale e le strategie di backup.",
@@ -580,11 +592,13 @@
           98,
           109
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero modulo di Informatica per la classe quarta.",
-      "speech": "Con questo abbiamo completato l'intero modulo di Informatica per la classe quarta."
+      "speech": "Con questo abbiamo completato l'intero modulo di Informatica per la classe quarta.",
+      "p": 1
     },
     {
       "text": "Con questo si conclude anche l'intero percorso di Informatica di questo corso: complimenti per il lavoro svolto, e in bocca al lupo per il vostro esame.",

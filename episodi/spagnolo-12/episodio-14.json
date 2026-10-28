@@ -12,6 +12,16 @@
           72,
           90
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo chiuso il programma della Classe II con il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino de Santiago."
+        }
       ]
     },
     {
@@ -24,7 +34,8 @@
     },
     {
       "text": "Cominciamo dalla Classe I.",
-      "speech": "Cominciamo dalla Classe I."
+      "speech": "Cominciamo dalla Classe I.",
+      "p": 1
     },
     {
       "text": "Il presente indicativo si coniuga con desinenze diverse per le tre coniugazioni -ar, -er, -ir: hablo, como, vivo per la prima persona singolare.",
@@ -42,6 +53,20 @@
           91,
           106
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il presente indicativo si coniuga con desinenze diverse per le tre coniugazioni ar, er,"
+        },
+        {
+          "lang": "es",
+          "text": "ir: hablo, como,"
+        },
+        {
+          "lang": "it",
+          "text": "vivo per la prima persona singolare."
+        }
       ]
     },
     {
@@ -64,6 +89,32 @@
           187,
           198
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto si forma con haber"
+        },
+        {
+          "lang": "it",
+          "text": "più il participio passato, e i participi passati irregolari più comuni sono"
+        },
+        {
+          "lang": "es",
+          "text": "hecho, dicho, escrito, visto, puesto, vuelto, abierto, roto, muerto"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "descubierto."
+        }
       ]
     },
     {
@@ -82,6 +133,24 @@
           95,
           98
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'imperfecto si usa per descrizioni e abitudini nel passato, ed è irregolare solo in"
+        },
+        {
+          "lang": "es",
+          "text": "ser, ir"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "ver;"
+        }
       ]
     },
     {
@@ -96,6 +165,20 @@
           48,
           53
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il pluscuamperfecto, formato dall'imperfecto di"
+        },
+        {
+          "lang": "es",
+          "text": "haber"
+        },
+        {
+          "lang": "it",
+          "text": "più il participio, esprime un'azione anteriore a un'altra azione passata."
+        }
       ]
     },
     {
@@ -110,6 +193,28 @@
           97,
           102
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il gerundio si forma con"
+        },
+        {
+          "lang": "es",
+          "text": "ando o iendo,"
+        },
+        {
+          "lang": "it",
+          "text": "e si usa più frequentemente nella perifrasi progressiva"
+        },
+        {
+          "lang": "es",
+          "text": "estar"
+        },
+        {
+          "lang": "it",
+          "text": "più gerundio."
+        }
       ]
     },
     {
@@ -124,7 +229,30 @@
           47,
           70
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le forme irregolari dell'imperativo in"
+        },
+        {
+          "lang": "es",
+          "text": "tú"
+        },
+        {
+          "lang": "it",
+          "text": "sono"
+        },
+        {
+          "lang": "es",
+          "text": "ven, ten, sal, pon, haz,"
+        },
+        {
+          "lang": "it",
+          "text": "di, ve e sé."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Muy è invariabile e si usa davanti ad aggettivi e avverbi, mentre mucho concorda con il sostantivo o modifica un verbo.",
@@ -142,6 +270,24 @@
           66,
           71
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Muy"
+        },
+        {
+          "lang": "it",
+          "text": "è invariabile e si usa davanti ad aggettivi e avverbi, mentre"
+        },
+        {
+          "lang": "es",
+          "text": "mucho"
+        },
+        {
+          "lang": "it",
+          "text": "concorda con il sostantivo o modifica un verbo."
+        }
       ]
     },
     {
@@ -164,6 +310,24 @@
           96,
           124
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Ser"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per caratteristiche permanenti, come identità e professione, mentre"
+        },
+        {
+          "lang": "es",
+          "text": "estar"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per stati temporanei e posizione."
+        }
       ]
     },
     {
@@ -186,6 +350,24 @@
           75,
           105
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Hay"
+        },
+        {
+          "lang": "it",
+          "text": "indica l'esistenza generica di qualcosa, mentre"
+        },
+        {
+          "lang": "es",
+          "text": "está o están"
+        },
+        {
+          "lang": "it",
+          "text": "indica la posizione di qualcosa già noto."
+        }
       ]
     },
     {
@@ -204,6 +386,24 @@
           46,
           51
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Preguntar"
+        },
+        {
+          "lang": "it",
+          "text": "significa chiedere un'informazione,"
+        },
+        {
+          "lang": "es",
+          "text": "pedir"
+        },
+        {
+          "lang": "it",
+          "text": "significa richiedere qualcosa o un favore."
+        }
       ]
     },
     {
@@ -218,6 +418,24 @@
           52,
           56
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Por indica causa,"
+        },
+        {
+          "lang": "it",
+          "text": "mezzo e moto attraverso un luogo,"
+        },
+        {
+          "lang": "es",
+          "text": "para"
+        },
+        {
+          "lang": "it",
+          "text": "indica scopo, destinazione e scadenza."
+        }
       ]
     },
     {
@@ -256,6 +474,64 @@
           193,
           198
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "I comparativi si formano con"
+        },
+        {
+          "lang": "es",
+          "text": "más/menos/tan... que,"
+        },
+        {
+          "lang": "it",
+          "text": "i superlativi con"
+        },
+        {
+          "lang": "es",
+          "text": "el/la más... de"
+        },
+        {
+          "lang": "it",
+          "text": "oppure con il suffisso"
+        },
+        {
+          "lang": "es",
+          "text": "ísimo,"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "bueno, malo,"
+        },
+        {
+          "lang": "it",
+          "text": "grande e"
+        },
+        {
+          "lang": "es",
+          "text": "pequeño"
+        },
+        {
+          "lang": "it",
+          "text": "hanno forme irregolari,"
+        },
+        {
+          "lang": "es",
+          "text": "mejor, peor, mayor"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "menor."
+        }
       ]
     },
     {
@@ -270,6 +546,16 @@
           40,
           51
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "Le comunidades autónomas de España"
+        },
+        {
+          "lang": "it",
+          "text": "sono diciassette, più due città autonome, ciascuna con proprio governo e parlamento;"
+        }
       ]
     },
     {
@@ -288,11 +574,34 @@
           85,
           101
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "alcune, come"
+        },
+        {
+          "lang": "es",
+          "text": "Cataluña, País Vasco, Galicia"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "Comunidad Valenciana,"
+        },
+        {
+          "lang": "it",
+          "text": "hanno una propria lingua cooficial."
+        }
       ]
     },
     {
       "text": "Passiamo ora alla Classe II.",
-      "speech": "Passiamo ora alla Classe II."
+      "speech": "Passiamo ora alla Classe II.",
+      "p": 1
     },
     {
       "text": "Il pretérito indefinido si usa per azioni concluse in un momento specifico del passato, non collegato al presente, a differenza del pretérito perfecto;",
@@ -306,6 +615,24 @@
           132,
           150
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per azioni concluse in un momento specifico del passato, non collegato al presente, a differenza del"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto;"
+        }
       ]
     },
     {
@@ -332,6 +659,44 @@
           132,
           172
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "numerosi verbi sono irregolari, tra cui"
+        },
+        {
+          "lang": "es",
+          "text": "ser"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "ir,"
+        },
+        {
+          "lang": "it",
+          "text": "che condividono sorprendentemente la stessa coniugazione,"
+        },
+        {
+          "lang": "es",
+          "text": "fui, fuiste, fue,"
+        },
+        {
+          "lang": "it",
+          "text": "e poi"
+        },
+        {
+          "lang": "es",
+          "text": "estar, tener, hacer, poder, poner, decir"
+        },
+        {
+          "lang": "it",
+          "text": "e venir."
+        }
       ]
     },
     {
@@ -346,6 +711,20 @@
           74,
           99
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il futuro si forma aggiungendo le desinenze é,"
+        },
+        {
+          "lang": "es",
+          "text": "ás, á, emos, éis, án"
+        },
+        {
+          "lang": "it",
+          "text": "direttamente all'infinito, identiche per le tre coniugazioni, a differenza dell'italiano che modifica la vocale tematica;"
+        }
       ]
     },
     {
@@ -364,6 +743,24 @@
           106,
           112
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "alcuni verbi hanno una radice irregolare, come"
+        },
+        {
+          "lang": "es",
+          "text": "tendré, pondré, saldré, vendré, podré, sabré, haré, diré"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "querré."
+        }
       ]
     },
     {
@@ -382,7 +779,30 @@
           113,
           126
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino de Santiago"
+        },
+        {
+          "lang": "it",
+          "text": "è l'itinerario di pellegrinaggio medievale verso la tomba dell'apostolo Giacomo a Santiago"
+        },
+        {
+          "lang": "es",
+          "text": "de Compostela,"
+        },
+        {
+          "lang": "it",
+          "text": "in Galizia,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "la cui scoperta nel IX secolo diede origine a uno dei maggiori fenomeni di pellegrinaggio d'Europa, insieme a Roma e Gerusalemme.",
@@ -418,6 +838,48 @@
           180,
           195
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'itinerario principale è il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino Francés,"
+        },
+        {
+          "lang": "it",
+          "text": "di circa ottocento chilometri da Saint-Jean-Pied-"
+        },
+        {
+          "lang": "es",
+          "text": "de-Port,"
+        },
+        {
+          "lang": "it",
+          "text": "accanto ad altri percorsi come il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino del Norte,"
+        },
+        {
+          "lang": "it",
+          "text": "il"
+        },
+        {
+          "lang": "es",
+          "text": "Camino Portugués"
+        },
+        {
+          "lang": "it",
+          "text": "e la"
+        },
+        {
+          "lang": "es",
+          "text": "Vía de la Plata."
+        }
       ]
     },
     {
@@ -440,7 +902,8 @@
     },
     {
       "text": "Proviamo un ultimo piccolo esercizio di sintesi, molto utile per l'esame orale:",
-      "speech": "Proviamo un ultimo piccolo esercizio di sintesi, molto utile per l'esame orale:"
+      "speech": "Proviamo un ultimo piccolo esercizio di sintesi, molto utile per l'esame orale:",
+      "p": 1
     },
     {
       "text": "se doveste spiegare a un commissario la differenza tra pretérito perfecto e pretérito indefinido con un esempio per ciascuno, come rispondereste?",
@@ -454,6 +917,28 @@
           76,
           96
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "se doveste spiegare a un commissario la differenza tra"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido"
+        },
+        {
+          "lang": "it",
+          "text": "con un esempio per ciascuno, come rispondereste?"
+        }
       ]
     },
     {
@@ -476,6 +961,28 @@
           94,
           117
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Potreste dire: «"
+        },
+        {
+          "lang": "es",
+          "text": "Este año he viajado mucho»"
+        },
+        {
+          "lang": "it",
+          "text": "usa il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto"
+        },
+        {
+          "lang": "it",
+          "text": "perché «quest'anno» è un periodo ancora in corso;"
+        }
       ]
     },
     {
@@ -498,6 +1005,24 @@
           91,
           113
         ]
+      ],
+      "parts": [
+        {
+          "lang": "es",
+          "text": "«El año pasado viajé mucho»"
+        },
+        {
+          "lang": "it",
+          "text": "usa invece il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido"
+        },
+        {
+          "lang": "it",
+          "text": "perché «l'anno scorso» è un periodo ormai concluso."
+        }
       ]
     },
     {
@@ -506,7 +1031,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo.",
-      "speech": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo."
+      "speech": "Riassumiamo i punti principali di oggi, e con essi dell'intero modulo.",
+      "p": 1
     },
     {
       "text": "Primo: la Classe I ha introdotto il presente, il pretérito perfecto, l'imperfecto, il pluscuamperfecto, il gerundio, l'imperativo e le principali coppie di parole ricorrenti, insieme alle comunidades autónomas.",
@@ -524,7 +1050,26 @@
           188,
           209
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: la Classe I ha introdotto il presente, il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto,"
+        },
+        {
+          "lang": "it",
+          "text": "l'imperfecto, il pluscuamperfecto, il gerundio, l'imperativo e le principali coppie di parole ricorrenti, insieme alle"
+        },
+        {
+          "lang": "es",
+          "text": "comunidades autónomas."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: la Classe II ha introdotto il pretérito indefinido e il futuro, insieme al Camino de Santiago.",
@@ -542,7 +1087,26 @@
           84,
           102
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: la Classe II ha introdotto il"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido"
+        },
+        {
+          "lang": "it",
+          "text": "e il futuro, insieme al"
+        },
+        {
+          "lang": "es",
+          "text": "Camino de Santiago."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: la distinzione tra pretérito perfecto e pretérito indefinido, basata sul collegamento o meno con il presente, resta uno dei punti più importanti dell'intero programma grammaticale.",
@@ -560,11 +1124,35 @@
           47,
           67
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: la distinzione tra"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito perfecto"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "pretérito indefinido,"
+        },
+        {
+          "lang": "it",
+          "text": "basata sul collegamento o meno con il presente, resta uno dei punti più importanti dell'intero programma grammaticale."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero modulo di Spagnolo per le classi prima e seconda.",
-      "speech": "Con questo abbiamo completato l'intero modulo di Spagnolo per le classi prima e seconda."
+      "speech": "Con questo abbiamo completato l'intero modulo di Spagnolo per le classi prima e seconda.",
+      "p": 1
     },
     {
       "text": "In bocca al lupo per l'esame.",

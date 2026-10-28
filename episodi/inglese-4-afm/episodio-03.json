@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi ci concentriamo su un punto molto tecnico ma frequentissimo all'esame:",
-      "speech": "Oggi ci concentriamo su un punto molto tecnico ma frequentissimo all'esame:"
+      "speech": "Oggi ci concentriamo su un punto molto tecnico ma frequentissimo all'esame:",
+      "p": 1
     },
     {
       "text": "i tre documenti di trasporto fondamentali, ciascuno legato a una specifica modalità, e soprattutto la loro diversa natura giuridica,",
@@ -34,7 +35,8 @@
           184,
           203
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "è proprio questa seconda funzione, quando presente, a fare la differenza cruciale tra i tre documenti che vediamo oggi.",
@@ -60,7 +62,26 @@
           133,
           216
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dalla lettera di vettura internazionale,"
+        },
+        {
+          "lang": "en",
+          "text": "International Road Consignment Note,"
+        },
+        {
+          "lang": "it",
+          "text": "nota anche con l'acronimo CMR, dal francese"
+        },
+        {
+          "lang": "en",
+          "text": "Convention relative au contrat de transport international de Marchandises par Route."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "È il documento che accompagna il trasporto su strada, emesso dal vettore stradale, cioè dall'azienda di autotrasporto che effettua materialmente il trasferimento della merce.",
@@ -106,7 +127,22 @@
           88,
           91
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo alla lettera di trasporto aereo,"
+        },
+        {
+          "lang": "en",
+          "text": "Air Waybill,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso abbreviata con l'acronimo AWB."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "È il documento che accompagna il trasporto aereo, emesso dalla compagnia aerea stessa oppure dallo spedizioniere per suo conto.",
@@ -124,6 +160,20 @@
           94,
           124
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Esattamente come la lettera di vettura stradale che abbiamo appena visto, anche"
+        },
+        {
+          "lang": "en",
+          "text": "l'Air"
+        },
+        {
+          "lang": "it",
+          "text": "Waybill non è un documento negoziabile:"
+        }
       ]
     },
     {
@@ -136,7 +186,8 @@
     },
     {
       "text": "Arriviamo infine al documento davvero speciale di questo terzetto:",
-      "speech": "Arriviamo infine al documento davvero speciale di questo terzetto:"
+      "speech": "Arriviamo infine al documento davvero speciale di questo terzetto:",
+      "p": 1
     },
     {
       "text": "la polizza di carico, Bill of Lading, spesso abbreviata B/L, il documento che accompagna il trasporto marittimo, emesso dalla compagnia di navigazione.",
@@ -154,6 +205,20 @@
           56,
           59
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la polizza di carico,"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of Lading,"
+        },
+        {
+          "lang": "it",
+          "text": "spesso abbreviata B/L, il documento che accompagna il trasporto marittimo, emesso dalla compagnia di navigazione."
+        }
       ]
     },
     {
@@ -168,6 +233,16 @@
           116,
           141
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "A differenza dei due documenti precedenti, la polizza di carico può essere negoziabile — si parla in questo caso di"
+        },
+        {
+          "lang": "en",
+          "text": "negotiable Bill of Lading —"
+        }
       ]
     },
     {
@@ -186,7 +261,8 @@
     },
     {
       "text": "Fermatevi un momento su questo punto, perché è probabilmente il dettaglio più importante di tutto l'episodio e quello che più spesso viene chiesto con precisione all'esame:",
-      "speech": "Fermatevi un momento su questo punto, perché è probabilmente il dettaglio più importante di tutto l'episodio e quello che più spesso viene chiesto con precisione all'esame:"
+      "speech": "Fermatevi un momento su questo punto, perché è probabilmente il dettaglio più importante di tutto l'episodio e quello che più spesso viene chiesto con precisione all'esame:",
+      "p": 1
     },
     {
       "text": "perché proprio il documento marittimo, e non quello stradale o quello aereo, ha questa caratteristica speciale di negoziabilità?",
@@ -232,7 +308,8 @@
           114,
           156
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "pensate, per esempio, al suo uso combinato con una lettera di credito, che incontreremo con maggiore dettaglio nel prossimo episodio dedicato ai metodi di pagamento.",
@@ -266,7 +343,22 @@
           81,
           102
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Vediamo un confronto sintetico, che vi consiglio di fissare bene per l'esame: la"
+        },
+        {
+          "lang": "en",
+          "text": "Road Consignment Note,"
+        },
+        {
+          "lang": "it",
+          "text": "o CMR, riguarda il trasporto su strada, viene emessa dal vettore stradale, e non è negoziabile."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "L'Air Waybill riguarda il trasporto aereo, viene emessa dalla compagnia aerea o dallo spedizioniere, e non è negoziabile.",
@@ -276,6 +368,16 @@
           0,
           5
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "L'Air"
+        },
+        {
+          "lang": "it",
+          "text": "Waybill riguarda il trasporto aereo, viene emessa dalla compagnia aerea o dallo spedizioniere, e non è negoziabile."
+        }
       ]
     },
     {
@@ -286,6 +388,20 @@
           3,
           10
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of"
+        },
+        {
+          "lang": "it",
+          "text": "Lading riguarda il trasporto marittimo, viene emesso dalla compagnia di navigazione,"
+        }
       ]
     },
     {
@@ -300,11 +416,26 @@
           53,
           63
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e può essere negoziabile, se emesso \""
+        },
+        {
+          "lang": "en",
+          "text": "to order\","
+        },
+        {
+          "lang": "it",
+          "text": "cioè all'ordine di un soggetto specifico che può a sua volta girarlo ad altri."
+        }
       ]
     },
     {
       "text": "Proviamo un piccolo esercizio insieme, come farebbe un insegnante prima di un test scritto:",
-      "speech": "Proviamo un piccolo esercizio insieme, come farebbe un insegnante prima di un test scritto:"
+      "speech": "Proviamo un piccolo esercizio insieme, come farebbe un insegnante prima di un test scritto:",
+      "p": 1
     },
     {
       "text": "se un'azienda italiana vende un carico di olio d'oliva a un importatore negli Stati Uniti, trasportandolo via nave,",
@@ -330,11 +461,38 @@
           207,
           218
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La risposta è naturalmente il"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of"
+        },
+        {
+          "lang": "it",
+          "text": "Lading negoziabile, proprio per la caratteristica di negoziabilità che abbiamo appena descritto, impossibile da ottenere con una semplice"
+        },
+        {
+          "lang": "en",
+          "text": "Road Consignment"
+        },
+        {
+          "lang": "it",
+          "text": "Note o con un"
+        },
+        {
+          "lang": "en",
+          "text": "Air Waybill."
+        }
       ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: ogni modalità di trasporto ha un proprio documento specifico, che prova il contratto di trasporto e talvolta anche la proprietà della merce.",
@@ -348,7 +506,8 @@
           48,
           67
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: la Road Consignment Note (CMR) e l'Air Waybill (AWB) non sono negoziabili, e attestano solo la presa in carico della merce e le condizioni di trasporto.",
@@ -370,7 +529,30 @@
           62,
           82
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: la"
+        },
+        {
+          "lang": "en",
+          "text": "Road Consignment Note ("
+        },
+        {
+          "lang": "it",
+          "text": "CMR) e"
+        },
+        {
+          "lang": "en",
+          "text": "l'Air Waybill ("
+        },
+        {
+          "lang": "it",
+          "text": "AWB) non sono negoziabili, e attestano solo la presa in carico della merce e le condizioni di trasporto."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il Bill of Lading (B/L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale.",
@@ -388,11 +570,27 @@
           103,
           122
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: il"
+        },
+        {
+          "lang": "en",
+          "text": "Bill of"
+        },
+        {
+          "lang": "it",
+          "text": "Lading (B/L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo i servizi bancari alle imprese e i principali metodi di pagamento nel commercio internazionale, dalla semplice rimessa bancaria fino alla lettera di credito.",
-      "speech": "Nel prossimo episodio vediamo i servizi bancari alle imprese e i principali metodi di pagamento nel commercio internazionale, dalla semplice rimessa bancaria fino alla lettera di credito."
+      "speech": "Nel prossimo episodio vediamo i servizi bancari alle imprese e i principali metodi di pagamento nel commercio internazionale, dalla semplice rimessa bancaria fino alla lettera di credito.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

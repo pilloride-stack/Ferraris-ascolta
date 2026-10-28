@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi entriamo nel terzo e ultimo modulo, dedicato ai software gestionali, partendo dal ciclo di vita del software, dallo studio di fattibilità e dai concetti di correttezza e manutenzione.",
-      "speech": "Oggi entriamo nel terzo e ultimo modulo, dedicato ai software gestionali, partendo dal ciclo di vita del software, dallo studio di fattibilità e dai concetti di correttezza e manutenzione."
+      "speech": "Oggi entriamo nel terzo e ultimo modulo, dedicato ai software gestionali, partendo dal ciclo di vita del software, dallo studio di fattibilità e dai concetti di correttezza e manutenzione.",
+      "p": 1
     },
     {
       "text": "Il ciclo di vita del software descrive l'insieme delle fasi coordinate attraverso cui un prodotto software viene ideato, realizzato, distribuito e mantenuto nel tempo:",
@@ -20,7 +21,8 @@
           3,
           29
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "analisi dei requisiti, progettazione, sviluppo, test, rilascio e manutenzione.",
@@ -58,7 +60,8 @@
     },
     {
       "text": "Fermatevi un momento su questa differenza tra modello a cascata e modelli iterativi, perché è uno dei confronti più richiesti su questo argomento:",
-      "speech": "Fermatevi un momento su questa differenza tra modello a cascata e modelli iterativi, perché è uno dei confronti più richiesti su questo argomento:"
+      "speech": "Fermatevi un momento su questa differenza tra modello a cascata e modelli iterativi, perché è uno dei confronti più richiesti su questo argomento:",
+      "p": 1
     },
     {
       "text": "nel modello a cascata, una volta completata l'analisi dei requisiti, non si torna indietro se non con grande difficoltà, e questo lo rende rigido ma anche molto ordinato;",
@@ -80,7 +83,8 @@
           71,
           92
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "la fattibilità tecnica, cioè se le tecnologie disponibili sono adeguate al progetto;",
@@ -114,7 +118,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se un'azienda volesse sviluppare un nuovo software gestionale,",
-      "speech": "Proviamo un piccolo esercizio insieme: se un'azienda volesse sviluppare un nuovo software gestionale,"
+      "speech": "Proviamo un piccolo esercizio insieme: se un'azienda volesse sviluppare un nuovo software gestionale,",
+      "p": 1
     },
     {
       "text": "ma i suoi dipendenti fossero fortemente restii a cambiare le proprie abitudini di lavoro consolidate da anni, quale tipo di fattibilità sarebbe messa in discussione?",
@@ -202,7 +207,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il ciclo di vita del software comprende analisi, progettazione, sviluppo, test, rilascio e manutenzione, secondo un modello a cascata, sequenziale, oppure iterativo, progressivo.",
@@ -220,7 +226,8 @@
           162,
           171
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: lo studio di fattibilità valuta un progetto software sotto tre aspetti, tecnico, economico e operativo.",
@@ -234,7 +241,8 @@
           81,
           111
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: un software corretto rispecchia le proprie specifiche, e la sua manutenzione può essere correttiva, evolutiva, adattativa o perfettiva.",
@@ -248,11 +256,13 @@
           95,
           141
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo il testing del software, con i suoi diversi livelli e le sue diverse modalità di verifica.",
-      "speech": "Nel prossimo episodio vediamo il testing del software, con i suoi diversi livelli e le sue diverse modalità di verifica."
+      "speech": "Nel prossimo episodio vediamo il testing del software, con i suoi diversi livelli e le sue diverse modalità di verifica.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

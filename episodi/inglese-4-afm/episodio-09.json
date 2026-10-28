@@ -12,11 +12,26 @@
           35,
           45
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo visto"
+        },
+        {
+          "lang": "en",
+          "text": "Fair Trade,"
+        },
+        {
+          "lang": "it",
+          "text": "microfinanza e banca etica."
+        }
       ]
     },
     {
       "text": "Oggi affrontiamo un fenomeno molto più ampio, che in un certo senso fa da sfondo a tutti i temi visti finora in questo modulo:",
-      "speech": "Oggi affrontiamo un fenomeno molto più ampio, che in un certo senso fa da sfondo a tutti i temi visti finora in questo modulo:"
+      "speech": "Oggi affrontiamo un fenomeno molto più ampio, che in un certo senso fa da sfondo a tutti i temi visti finora in questo modulo:",
+      "p": 1
     },
     {
       "text": "la globalizzazione, i suoi vantaggi e i suoi svantaggi, e la differenza tra due concetti che vengono spessissimo confusi tra loro, outsourcing e offshoring.",
@@ -34,7 +49,8 @@
     },
     {
       "text": "Cominciamo dalla definizione.",
-      "speech": "Cominciamo dalla definizione."
+      "speech": "Cominciamo dalla definizione.",
+      "p": 1
     },
     {
       "text": "La globalizzazione, globalisation, è il processo di crescente interconnessione economica, culturale, politica e tecnologica tra i paesi del mondo, favorito storicamente da tre fattori concomitanti:",
@@ -66,7 +82,8 @@
     },
     {
       "text": "Come ogni fenomeno di portata storica così ampia, la globalizzazione comporta sia vantaggi sia svantaggi,",
-      "speech": "Come ogni fenomeno di portata storica così ampia, la globalizzazione comporta sia vantaggi sia svantaggi,"
+      "speech": "Come ogni fenomeno di portata storica così ampia, la globalizzazione comporta sia vantaggi sia svantaggi,",
+      "p": 1
     },
     {
       "text": "ed è fondamentale saperli esporre in modo bilanciato ed equilibrato, senza scadere in una difesa acritica né in una condanna altrettanto acritica del fenomeno.",
@@ -84,7 +101,8 @@
           11,
           44
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo, l'accesso a nuovi mercati per le imprese, che possono vendere i propri prodotti ben oltre i confini nazionali in cui sono nate.",
@@ -94,15 +112,18 @@
           11,
           34
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo, la diffusione di tecnologie e conoscenze, che si trasferiscono più rapidamente da un paese all'altro grazie all'interconnessione globale.",
-      "speech": "Terzo, la diffusione di tecnologie e conoscenze, che si trasferiscono più rapidamente da un paese all'altro grazie all'interconnessione globale."
+      "speech": "Terzo, la diffusione di tecnologie e conoscenze, che si trasferiscono più rapidamente da un paese all'altro grazie all'interconnessione globale.",
+      "p": 1
     },
     {
       "text": "Quarto, la crescita economica nei paesi in via di sviluppo, che possono attrarre investimenti e inserirsi in catene produttive internazionali altrimenti fuori dalla loro portata.",
-      "speech": "Quarto, la crescita economica nei paesi in via di sviluppo, che possono attrarre investimenti e inserirsi in catene produttive internazionali altrimenti fuori dalla loro portata."
+      "speech": "Quarto, la crescita economica nei paesi in via di sviluppo, che possono attrarre investimenti e inserirsi in catene produttive internazionali altrimenti fuori dalla loro portata.",
+      "p": 1
     },
     {
       "text": "Tra gli svantaggi, altrettanto importanti da saper esporre con onestà intellettuale, ricordiamo la perdita di posti di lavoro nei settori delocalizzati,",
@@ -112,7 +133,8 @@
           99,
           125
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "quando la produzione si sposta verso paesi con costi di manodopera più bassi;",
@@ -156,7 +178,22 @@
           69,
           91
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Concentriamoci ora sulla globalizzazione economica in senso stretto,"
+        },
+        {
+          "lang": "en",
+          "text": "economic globalisation,"
+        },
+        {
+          "lang": "it",
+          "text": "che si manifesta soprattutto attraverso tre fenomeni concreti."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Il primo è la liberalizzazione del commercio internazionale, free trade, cioè la progressiva riduzione di dazi doganali e barriere commerciali tra paesi.",
@@ -170,6 +207,20 @@
           61,
           71
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il primo è la liberalizzazione del commercio internazionale,"
+        },
+        {
+          "lang": "en",
+          "text": "free trade,"
+        },
+        {
+          "lang": "it",
+          "text": "cioè la progressiva riduzione di dazi doganali e barriere commerciali tra paesi."
+        }
       ]
     },
     {
@@ -184,6 +235,20 @@
           65,
           91
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il secondo è la crescente attività delle imprese multinazionali,"
+        },
+        {
+          "lang": "en",
+          "text": "multinational corporations,"
+        },
+        {
+          "lang": "it",
+          "text": "che operano contemporaneamente in più paesi, spesso con sedi produttive, commerciali e amministrative distribuite su scala globale."
+        }
       ]
     },
     {
@@ -198,6 +263,20 @@
           55,
           75
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il terzo è lo sviluppo di catene di fornitura globali,"
+        },
+        {
+          "lang": "en",
+          "text": "global supply chains,"
+        },
+        {
+          "lang": "it",
+          "text": "in cui le diverse fasi della produzione di un singolo bene — la progettazione, l'estrazione delle materie prime, la lavorazione dei componenti, l'assemblaggio finale —"
+        }
       ]
     },
     {
@@ -212,7 +291,8 @@
     },
     {
       "text": "Arriviamo ora alla distinzione che vale davvero la pena fissare con precisione assoluta, perché è uno degli scivoloni più frequenti in sede d'esame: la differenza tra outsourcing e offshoring.",
-      "speech": "Arriviamo ora alla distinzione che vale davvero la pena fissare con precisione assoluta, perché è uno degli scivoloni più frequenti in sede d'esame: la differenza tra outsourcing e offshoring."
+      "speech": "Arriviamo ora alla distinzione che vale davvero la pena fissare con precisione assoluta, perché è uno degli scivoloni più frequenti in sede d'esame: la differenza tra outsourcing e offshoring.",
+      "p": 1
     },
     {
       "text": "L'esternalizzazione, outsourcing, consiste nell'affidare a un'impresa esterna lo svolgimento di un'attività precedentemente gestita internamente — per esempio l'assistenza clienti o l'elaborazione dei dati —",
@@ -264,7 +344,8 @@
     },
     {
       "text": "Fermatevi un momento su un piccolo esercizio che chiarisce definitivamente la differenza:",
-      "speech": "Fermatevi un momento su un piccolo esercizio che chiarisce definitivamente la differenza:"
+      "speech": "Fermatevi un momento su un piccolo esercizio che chiarisce definitivamente la differenza:",
+      "p": 1
     },
     {
       "text": "se un'azienda italiana affida il proprio servizio clienti telefonico a un call center esterno situato ancora in Italia, questo è un caso di outsourcing puro, senza alcun elemento di offshoring, perché l'attività esce dall'azienda ma resta nel paese.",
@@ -278,6 +359,20 @@
           140,
           156
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "se un'azienda italiana affida il proprio servizio clienti telefonico a un"
+        },
+        {
+          "lang": "en",
+          "text": "call center"
+        },
+        {
+          "lang": "it",
+          "text": "esterno situato ancora in Italia, questo è un caso di outsourcing puro, senza alcun elemento di offshoring, perché l'attività esce dall'azienda ma resta nel paese."
+        }
       ]
     },
     {
@@ -306,6 +401,20 @@
           155,
           164
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Se infine l'azienda affida quel medesimo servizio clienti a un"
+        },
+        {
+          "lang": "en",
+          "text": "call center"
+        },
+        {
+          "lang": "it",
+          "text": "esterno situato in un altro paese, questo è un caso di outsourcing e offshoring combinati,"
+        }
       ]
     },
     {
@@ -314,7 +423,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: la globalizzazione è il processo di crescente interconnessione economica, culturale e politica tra i paesi del mondo, con vantaggi come maggiore scelta e nuovi mercati,",
@@ -328,7 +438,8 @@
           10,
           25
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "e svantaggi come perdita di posti di lavoro e disuguaglianze crescenti.",
@@ -354,7 +465,8 @@
           112,
           139
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: l'outsourcing riguarda il passaggio da gestione interna a esterna di un'attività, indipendentemente dalla collocazione geografica,",
@@ -368,7 +480,8 @@
           9,
           20
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "mentre l'offshoring riguarda lo spostamento geografico all'estero di un'attività, a prescindere da chi la gestisca concretamente.",

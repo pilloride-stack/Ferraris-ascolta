@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi completiamo il Modulo 1 con il diritto informatico, e apriamo il Modulo 2 vedendo come avviene, tecnicamente, lo scambio di informazioni in rete.",
-      "speech": "Oggi completiamo il Modulo 1 con il diritto informatico, e apriamo il Modulo 2 vedendo come avviene, tecnicamente, lo scambio di informazioni in rete."
+      "speech": "Oggi completiamo il Modulo 1 con il diritto informatico, e apriamo il Modulo 2 vedendo come avviene, tecnicamente, lo scambio di informazioni in rete.",
+      "p": 1
     },
     {
       "text": "Il diritto informatico è l'insieme delle norme giuridiche che regolano i rapporti riguardanti l'uso delle tecnologie dell'informazione e della comunicazione.",
@@ -20,7 +21,8 @@
           3,
           22
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "È un argomento che tocca ambiti molto diversi tra loro, ed è utile conoscerli distintamente, perché un commissario potrebbe chiedervene uno specifico.",
@@ -76,7 +78,8 @@
     },
     {
       "text": "Fermatevi un momento su questi quattro ambiti, perché è facile confonderli tra loro se non li tenete ben distinti:",
-      "speech": "Fermatevi un momento su questi quattro ambiti, perché è facile confonderli tra loro se non li tenete ben distinti:"
+      "speech": "Fermatevi un momento su questi quattro ambiti, perché è facile confonderli tra loro se non li tenete ben distinti:",
+      "p": 1
     },
     {
       "text": "la proprietà intellettuale riguarda chi ha creato un contenuto e chi può usarlo legalmente;",
@@ -100,7 +103,8 @@
     },
     {
       "text": "Passiamo ora al secondo tema di oggi.",
-      "speech": "Passiamo ora al secondo tema di oggi."
+      "speech": "Passiamo ora al secondo tema di oggi.",
+      "p": 1
     },
     {
       "text": "Ogni scambio di dati in rete avviene secondo il modello client-server:",
@@ -156,7 +160,8 @@
     },
     {
       "text": "Fermatevi un momento anche su questo modello, perché è talmente scontato nell'uso quotidiano da rischiare di non essere mai spiegato esplicitamente:",
-      "speech": "Fermatevi un momento anche su questo modello, perché è talmente scontato nell'uso quotidiano da rischiare di non essere mai spiegato esplicitamente:"
+      "speech": "Fermatevi un momento anche su questo modello, perché è talmente scontato nell'uso quotidiano da rischiare di non essere mai spiegato esplicitamente:",
+      "p": 1
     },
     {
       "text": "ogni volta che aprite un sito, guardate un video o controllate la posta, il vostro dispositivo si comporta da client che chiede qualcosa,",
@@ -172,7 +177,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: quando aprite il browser sul vostro telefono e digitate l'indirizzo di un sito, chi è il client e chi è il server in questa operazione?",
-      "speech": "Proviamo un piccolo esercizio insieme: quando aprite il browser sul vostro telefono e digitate l'indirizzo di un sito, chi è il client e chi è il server in questa operazione?"
+      "speech": "Proviamo un piccolo esercizio insieme: quando aprite il browser sul vostro telefono e digitate l'indirizzo di un sito, chi è il client e chi è il server in questa operazione?",
+      "p": 1
     },
     {
       "text": "Il client è il vostro browser, che invia la richiesta della pagina;",
@@ -188,7 +194,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: il diritto informatico disciplina quattro ambiti distinti, proprietà intellettuale, protezione dei dati personali con il GDPR, reati informatici e commercio elettronico con la firma digitale.",
@@ -202,7 +209,8 @@
           41,
           64
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: lo scambio di dati in rete segue il modello client-server, con il client che invia richieste e il server che le elabora e risponde.",
@@ -216,7 +224,8 @@
           45,
           66
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il download è il trasferimento di dati dal server al dispositivo dell'utente, l'upload è l'operazione inversa.",
@@ -234,11 +243,13 @@
           87,
           93
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo come si naviga concretamente in rete, che cos'è un URL, e come funzionano i motori di ricerca.",
-      "speech": "Nel prossimo episodio vediamo come si naviga concretamente in rete, che cosa è un URL, e come funzionano i motori di ricerca."
+      "speech": "Nel prossimo episodio vediamo come si naviga concretamente in rete, che cosa è un URL, e come funzionano i motori di ricerca.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

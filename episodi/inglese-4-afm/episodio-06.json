@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi restiamo nella UDA 2 e affrontiamo il marketing: come un'impresa raccoglie informazioni sul proprio mercato,",
-      "speech": "Oggi restiamo nella UDA 2 e affrontiamo il marketing: come un'impresa raccoglie informazioni sul proprio mercato,"
+      "speech": "Oggi restiamo nella UDA 2 e affrontiamo il marketing: come un'impresa raccoglie informazioni sul proprio mercato,",
+      "p": 1
     },
     {
       "text": "e come combina le proprie leve strategiche per raggiungere gli obiettivi commerciali, attraverso il celebre marketing mix.",
@@ -34,7 +35,22 @@
           37,
           52
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Cominciamo dalla ricerca di mercato,"
+        },
+        {
+          "lang": "en",
+          "text": "market research:"
+        },
+        {
+          "lang": "it",
+          "text": "il processo attraverso cui un'impresa raccoglie sistematicamente informazioni sui propri clienti,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "sui propri concorrenti e sul mercato di riferimento nel suo complesso, per orientare con maggiore consapevolezza le proprie decisioni commerciali, invece di procedere per semplici intuizioni.",
@@ -60,6 +76,28 @@
           72,
           83
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La ricerca primaria,"
+        },
+        {
+          "lang": "en",
+          "text": "primary research,"
+        },
+        {
+          "lang": "it",
+          "text": "comprende sondaggi, interviste e"
+        },
+        {
+          "lang": "en",
+          "text": "focus group"
+        },
+        {
+          "lang": "it",
+          "text": "condotti direttamente dall'impresa stessa, appositamente per rispondere a una domanda specifica che le interessa in quel momento:"
+        }
       ]
     },
     {
@@ -78,6 +116,20 @@
           23,
           41
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La ricerca secondaria,"
+        },
+        {
+          "lang": "en",
+          "text": "secondary research,"
+        },
+        {
+          "lang": "it",
+          "text": "consiste invece nell'analisi di dati e studi già esistenti, prodotti da terzi — istituti statistici, associazioni di categoria, altre ricerche pubblicate —"
+        }
       ]
     },
     {
@@ -96,7 +148,8 @@
           242,
           245
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Product, il prodotto: le caratteristiche, la qualità, il design del prodotto o del servizio offerto, il punto di partenza di ogni strategia di marketing,",
@@ -110,6 +163,16 @@
           9,
           20
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Product,"
+        },
+        {
+          "lang": "it",
+          "text": "il prodotto: le caratteristiche, la qualità, il design del prodotto o del servizio offerto, il punto di partenza di ogni strategia di marketing,"
+        }
       ]
     },
     {
@@ -132,6 +195,16 @@
           92,
           109
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Price,"
+        },
+        {
+          "lang": "it",
+          "text": "il prezzo: la politica di prezzo scelta dall'impresa, che può essere per esempio una strategia premium, con prezzi elevati per posizionarsi come prodotto di lusso o di alta qualità percepita,"
+        }
       ]
     },
     {
@@ -160,7 +233,18 @@
           7,
           23
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Place,"
+        },
+        {
+          "lang": "it",
+          "text": "la distribuzione: i canali attraverso cui il prodotto raggiunge concretamente il cliente finale, i punti vendita fisici, la vendita online, i distributori intermedi,"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "e così via — una leva spesso sottovalutata ma decisiva, perché anche il miglior prodotto al miglior prezzo non venderà se il cliente non riesce facilmente a trovarlo e ad acquistarlo.",
@@ -178,6 +262,16 @@
           11,
           24
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Promotion,"
+        },
+        {
+          "lang": "it",
+          "text": "la promozione: le attività di comunicazione e di promozione attraverso cui l'impresa fa conoscere il proprio prodotto al pubblico — la pubblicità tradizionale,"
+        }
       ]
     },
     {
@@ -186,7 +280,8 @@
     },
     {
       "text": "Fermatevi un momento su un punto importante, che arricchisce molto una risposta d'esame sul marketing mix:",
-      "speech": "Fermatevi un momento su un punto importante, che arricchisce molto una risposta d'esame sul marketing mix:"
+      "speech": "Fermatevi un momento su un punto importante, che arricchisce molto una risposta d'esame sul marketing mix:",
+      "p": 1
     },
     {
       "text": "le 4 P non vanno mai pensate come leve isolate e indipendenti tra loro, ma come un sistema coerente che deve essere calibrato nel suo insieme.",
@@ -210,6 +305,28 @@
           70,
           76
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un prodotto di altissima qualità ("
+        },
+        {
+          "lang": "en",
+          "text": "Product)"
+        },
+        {
+          "lang": "it",
+          "text": "con un prezzo molto basso ("
+        },
+        {
+          "lang": "en",
+          "text": "Price)"
+        },
+        {
+          "lang": "it",
+          "text": "rischia di comunicare, paradossalmente, un messaggio di scarsa qualità al consumatore, che tende ad associare istintivamente prezzo basso a valore basso;"
+        }
       ]
     },
     {
@@ -224,6 +341,28 @@
           136,
           141
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "allo stesso modo, un prodotto premium venduto attraverso canali di distribuzione ("
+        },
+        {
+          "lang": "en",
+          "text": "Place)"
+        },
+        {
+          "lang": "it",
+          "text": "poco curati o poco coerenti con l'immagine del"
+        },
+        {
+          "lang": "en",
+          "text": "brand"
+        },
+        {
+          "lang": "it",
+          "text": "rischia di svalutarne la percezione agli occhi del pubblico."
+        }
       ]
     },
     {
@@ -242,7 +381,8 @@
           61,
           79
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "e che rientra soprattutto, ma non solo, nella leva Promotion delle 4 P che abbiamo appena visto.",
@@ -252,6 +392,20 @@
           51,
           60
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e che rientra soprattutto, ma non solo, nella leva"
+        },
+        {
+          "lang": "en",
+          "text": "Promotion"
+        },
+        {
+          "lang": "it",
+          "text": "delle 4 P che abbiamo appena visto."
+        }
       ]
     },
     {
@@ -266,6 +420,20 @@
           87,
           113
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Comprende diverse strategie specifiche: l'ottimizzazione per i motori di ricerca, SEO,"
+        },
+        {
+          "lang": "en",
+          "text": "Search Engine Optimization,"
+        },
+        {
+          "lang": "it",
+          "text": "che mira a far comparire il proprio sito web tra i primi risultati di una ricerca online;"
+        }
       ]
     },
     {
@@ -300,7 +468,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: immaginate un'impresa che lancia un nuovo smartphone di fascia alta.",
-      "speech": "Proviamo un piccolo esercizio insieme: immaginate un'impresa che lancia un nuovo smartphone di fascia alta."
+      "speech": "Proviamo un piccolo esercizio insieme: immaginate un'impresa che lancia un nuovo smartphone di fascia alta.",
+      "p": 1
     },
     {
       "text": "Come applichereste le 4 P in modo coerente?",
@@ -314,6 +483,16 @@
           0,
           7
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Product:"
+        },
+        {
+          "lang": "it",
+          "text": "caratteristiche tecniche avanzate e design curato."
+        }
       ]
     },
     {
@@ -324,6 +503,16 @@
           0,
           5
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Price:"
+        },
+        {
+          "lang": "it",
+          "text": "una strategia premium, coerente con il posizionamento di alta gamma."
+        }
       ]
     },
     {
@@ -342,6 +531,32 @@
           110,
           118
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Place:"
+        },
+        {
+          "lang": "it",
+          "text": "distribuzione selettiva, magari attraverso negozi ufficiali del"
+        },
+        {
+          "lang": "en",
+          "text": "brand"
+        },
+        {
+          "lang": "it",
+          "text": "e pochi partner selezionati, non"
+        },
+        {
+          "lang": "en",
+          "text": "discount"
+        },
+        {
+          "lang": "it",
+          "text": "generalisti."
+        }
       ]
     },
     {
@@ -352,6 +567,16 @@
           0,
           9
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Promotion:"
+        },
+        {
+          "lang": "it",
+          "text": "campagne di influencer marketing e social media marketing rivolte a un pubblico attento alla tecnologia e disposto a spendere per prodotti di qualità."
+        }
       ]
     },
     {
@@ -360,7 +585,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: la ricerca di mercato si distingue in primaria, condotta direttamente dall'impresa, e secondaria, basata su dati già esistenti prodotti da terzi.",
@@ -378,7 +604,8 @@
           93,
           103
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: il marketing mix si articola nelle 4 P — Product, Price, Place, Promotion — che vanno sempre calibrate insieme in modo coerente, non isolatamente.",
@@ -396,7 +623,22 @@
           50,
           82
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: il marketing mix si articola nelle 4 P —"
+        },
+        {
+          "lang": "en",
+          "text": "Product, Price, Place, Promotion —"
+        },
+        {
+          "lang": "it",
+          "text": "che vanno sempre calibrate insieme in modo coerente, non isolatamente."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il marketing digitale comprende SEO, social media marketing, email marketing e influencer marketing, strumenti sempre più centrali nella strategia commerciale contemporanea.",
@@ -410,11 +652,13 @@
           10,
           28
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio vediamo la pubblicità nel dettaglio, con il celebre modello AIDA, e le fiere commerciali come strumento di promozione e di ricerca di mercato.",
-      "speech": "Nel prossimo episodio vediamo la pubblicità nel dettaglio, con il celebre modello AIDA, e le fiere commerciali come strumento di promozione e di ricerca di mercato."
+      "speech": "Nel prossimo episodio vediamo la pubblicità nel dettaglio, con il celebre modello AIDA, e le fiere commerciali come strumento di promozione e di ricerca di mercato.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

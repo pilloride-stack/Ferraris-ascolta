@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi completiamo il terzo modulo con la sicurezza dei dati, i principali servizi che Internet offre alle aziende, e la differenza tra Intranet ed Extranet.",
-      "speech": "Oggi completiamo il terzo modulo con la sicurezza dei dati, i principali servizi che Internet offre alle aziende, e la differenza tra Intranet ed Extranet."
+      "speech": "Oggi completiamo il terzo modulo con la sicurezza dei dati, i principali servizi che Internet offre alle aziende, e la differenza tra Intranet ed Extranet.",
+      "p": 1
     },
     {
       "text": "La sicurezza informatica si occupa della salvaguardia dei sistemi informatici e dei dati da rischi e violazioni, garantendo tre proprietà fondamentali.",
@@ -20,7 +21,8 @@
           3,
           24
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "La riservatezza, per cui i dati sono accessibili solo a chi è autorizzato.",
@@ -54,7 +56,8 @@
     },
     {
       "text": "Fermatevi un momento su queste tre proprietà, riservatezza, integrità e disponibilità, perché in un'interrogazione si tende a citarne solo una o due:",
-      "speech": "Fermatevi un momento su queste tre proprietà, riservatezza, integrità e disponibilità, perché in un'interrogazione si tende a citarne solo una o due:"
+      "speech": "Fermatevi un momento su queste tre proprietà, riservatezza, integrità e disponibilità, perché in un'interrogazione si tende a citarne solo una o due:",
+      "p": 1
     },
     {
       "text": "sono invece tre requisiti indipendenti tra loro, e un sistema può, per esempio, garantire la riservatezza dei dati ma non la loro disponibilità, se un attacco informatico rende inaccessibile il servizio pur senza violare i dati custoditi.",
@@ -68,7 +71,8 @@
           60,
           67
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "il ransomware, che cifra i dati chiedendo un riscatto per renderli di nuovo leggibili; e il phishing, cioè tentativi di truffa realizzati tramite comunicazioni ingannevoli.",
@@ -114,7 +118,8 @@
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se doveste abbinare ciascuna minaccia alla sua contromisura più efficace, come fareste?",
-      "speech": "Proviamo un piccolo esercizio insieme: se doveste abbinare ciascuna minaccia alla sua contromisura più efficace, come fareste?"
+      "speech": "Proviamo un piccolo esercizio insieme: se doveste abbinare ciascuna minaccia alla sua contromisura più efficace, come fareste?",
+      "p": 1
     },
     {
       "text": "Contro virus e malware in generale, la difesa principale è un software antivirus sempre aggiornato;",
@@ -140,7 +145,8 @@
     },
     {
       "text": "Spostiamoci ora sui servizi che Internet offre oggi alle aziende, uno strumento ormai imprescindibile.",
-      "speech": "Spostiamoci ora sui servizi che Internet offre oggi alle aziende, uno strumento ormai imprescindibile."
+      "speech": "Spostiamoci ora sui servizi che Internet offre oggi alle aziende, uno strumento ormai imprescindibile.",
+      "p": 1
     },
     {
       "text": "Il sito web aziendale rappresenta la vetrina digitale dell'impresa.",
@@ -188,7 +194,8 @@
     },
     {
       "text": "Concludiamo con Intranet ed Extranet.",
-      "speech": "Concludiamo con Intranet ed Extranet."
+      "speech": "Concludiamo con Intranet ed Extranet.",
+      "p": 1
     },
     {
       "text": "L'intranet è una rete privata aziendale che utilizza le stesse tecnologie di Internet, protocollo TCP/IP, browser, pagine web,",
@@ -224,7 +231,8 @@
     },
     {
       "text": "Fermatevi un momento su questa scala di accesso, perché è un ottimo modo per fissare in mente i tre concetti insieme:",
-      "speech": "Fermatevi un momento su questa scala di accesso, perché è un ottimo modo per fissare in mente i tre concetti insieme:"
+      "speech": "Fermatevi un momento su questa scala di accesso, perché è un ottimo modo per fissare in mente i tre concetti insieme:",
+      "p": 1
     },
     {
       "text": "Internet è pubblico e accessibile a chiunque; l'intranet è riservato al solo personale interno;",
@@ -240,7 +248,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: la sicurezza informatica garantisce riservatezza, integrità e disponibilità, contro minacce come virus, ransomware e phishing, contrastate da antivirus, firewall, crittografia, autenticazione e backup.",
@@ -254,7 +263,8 @@
           43,
           82
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: Internet offre alle aziende sito web, e-commerce, cloud computing, social media e VoIP.",
@@ -268,7 +278,8 @@
           59,
           74
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: Internet, intranet ed extranet si distinguono per il livello di accesso, pubblico, riservato al personale interno, o esteso a soggetti esterni autorizzati.",
@@ -282,15 +293,18 @@
           7,
           37
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Con questo abbiamo completato l'intero terzo modulo.",
-      "speech": "Con questo abbiamo completato l'intero terzo modulo."
+      "speech": "Con questo abbiamo completato l'intero terzo modulo.",
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio dedichiamo un ripasso completo a tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
-      "speech": "Nel prossimo episodio dedichiamo un ripasso completo a tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria."
+      "speech": "Nel prossimo episodio dedichiamo un ripasso completo a tutte le domande guida della dispensa, per arrivare all'esame con ogni argomento ben fissato nella memoria.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",

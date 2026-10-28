@@ -10,7 +10,8 @@
     },
     {
       "text": "Oggi restiamo nel Modulo 1 e incontriamo un autore che porta il romanzo nascente in una direzione molto diversa da quella di Defoe:",
-      "speech": "Oggi restiamo nel Modulo 1 e incontriamo un autore che porta il romanzo nascente in una direzione molto diversa da quella di Defoe:"
+      "speech": "Oggi restiamo nel Modulo 1 e incontriamo un autore che porta il romanzo nascente in una direzione molto diversa da quella di Defoe:",
+      "p": 1
     },
     {
       "text": "non più il resoconto serio e moraleggiante di un naufrago o di un'avventuriera, ma la satira feroce e immaginifica di Jonathan Swift.",
@@ -46,7 +47,22 @@
           162,
           166
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Jonathan Swift, vissuto tra il 1667 e il 1745, scrittore ed ecclesiastico anglo-irlandese, è l'autore de I viaggi di Gulliver,"
+        },
+        {
+          "lang": "en",
+          "text": "Gulliver's Travels,"
+        },
+        {
+          "lang": "it",
+          "text": "pubblicato nel 1726 e considerato uno dei capolavori della satira in lingua inglese."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Il romanzo racconta, sotto forma di resoconto di viaggio — un genere allora molto popolare presso il pubblico inglese, di cui Swift adotta e al tempo stesso parodia sapientemente le convenzioni —",
@@ -70,7 +86,8 @@
     },
     {
       "text": "Vale la pena ricordare, nell'ordine in cui compaiono nel romanzo, ciascuna di queste quattro terre, perché è un dettaglio molto amato dai commissari d'esame.",
-      "speech": "Vale la pena ricordare, nell'ordine in cui compaiono nel romanzo, ciascuna di queste quattro terre, perché è un dettaglio molto amato dai commissari d'esame."
+      "speech": "Vale la pena ricordare, nell'ordine in cui compaiono nel romanzo, ciascuna di queste quattro terre, perché è un dettaglio molto amato dai commissari d'esame.",
+      "p": 1
     },
     {
       "text": "Lilliput, popolata da esseri minuscoli, dove Gulliver appare come un gigante tra la popolazione locale.",
@@ -132,11 +149,13 @@
           58,
           73
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Fermatevi un momento su un esempio molto citato in sede d'esame, perché rende concreto il meccanismo satirico di Swift:",
-      "speech": "Fermatevi un momento su un esempio molto citato in sede d'esame, perché rende concreto il meccanismo satirico di Swift:"
+      "speech": "Fermatevi un momento su un esempio molto citato in sede d'esame, perché rende concreto il meccanismo satirico di Swift:",
+      "p": 1
     },
     {
       "text": "le dispute religiose e politiche del suo tempo vengono ridicolizzate nella disputa, apparentemente assurda,",
@@ -164,7 +183,8 @@
     },
     {
       "text": "Ma la satira di Swift non si esaurisce nella polemica politica contingente:",
-      "speech": "Ma la satira di Swift non si esaurisce nella polemica politica contingente:"
+      "speech": "Ma la satira di Swift non si esaurisce nella polemica politica contingente:",
+      "p": 1
     },
     {
       "text": "il romanzo sviluppa anche una riflessione più generale, e assai pessimista, sulla natura umana e sui limiti della ragione e dell'orgoglio intellettuale dell'uomo.",
@@ -200,7 +220,8 @@
     },
     {
       "text": "Proviamo ora un confronto diretto tra Defoe e Swift, utilissimo per fissare le differenze tra i due autori in vista dell'esame.",
-      "speech": "Proviamo ora un confronto diretto tra Defoe e Swift, utilissimo per fissare le differenze tra i due autori in vista dell'esame."
+      "speech": "Proviamo ora un confronto diretto tra Defoe e Swift, utilissimo per fissare le differenze tra i due autori in vista dell'esame.",
+      "p": 1
     },
     {
       "text": "Quanto al genere, Robinson Crusoe è un romanzo d'avventura in forma di diario e autobiografia, mentre Gulliver's Travels è una satira costruita nella forma del resoconto di viaggio.",
@@ -214,6 +235,20 @@
           113,
           120
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quanto al genere, Robinson Crusoe è un romanzo d'avventura in forma di diario e autobiografia, mentre Gulliver's"
+        },
+        {
+          "lang": "en",
+          "text": "Travels"
+        },
+        {
+          "lang": "it",
+          "text": "è una satira costruita nella forma del resoconto di viaggio."
+        }
       ]
     },
     {
@@ -236,7 +271,8 @@
     },
     {
       "text": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione:",
-      "speech": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione:"
+      "speech": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione:",
+      "p": 1
     },
     {
       "text": "perché, secondo voi, due autori quasi contemporanei, entrambi fondatori del romanzo inglese, scelgono direzioni così diverse?",
@@ -260,7 +296,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: Gulliver's Travels di Jonathan Swift racconta, in forma di resoconto di viaggio satirico, le avventure di Gulliver in quattro terre immaginarie: Lilliput, Brobdingnag, Laputa e il paese degli Houyhnhnms.",
@@ -278,7 +315,22 @@
           66,
           95
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo:"
+        },
+        {
+          "lang": "en",
+          "text": "Gulliver's Travels"
+        },
+        {
+          "lang": "it",
+          "text": "di Jonathan Swift racconta, in forma di resoconto di viaggio satirico, le avventure di Gulliver in quattro terre immaginarie: Lilliput, Brobdingnag, Laputa e il paese degli Houyhnhnms."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Secondo: Swift usa queste terre fantastiche per satireggiare la politica e la società del proprio tempo, come nella disputa sull'uovo tra Lilliput e il regno rivale.",
@@ -292,7 +344,8 @@
           116,
           133
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: il romanzo sviluppa anche una riflessione pessimista sulla natura umana, che culmina nel disgusto di Gulliver per la propria stessa specie al ritorno dal viaggio tra gli Houyhnhnms.",
@@ -306,7 +359,8 @@
           37,
           59
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: rispetto a Defoe, Swift adotta un tono ironico e satirico, in netto contrasto con il realismo moraleggiante di Robinson Crusoe.",
@@ -316,11 +370,13 @@
           0,
           6
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio completiamo il quadro del Modulo 1 con altri due protagonisti della nascita del romanzo, questa volta contrapposti tra loro in una rivalità letteraria memorabile:",
-      "speech": "Nel prossimo episodio completiamo il quadro del Modulo 1 con altri due protagonisti della nascita del romanzo, questa volta contrapposti tra loro in una rivalità letteraria memorabile:"
+      "speech": "Nel prossimo episodio completiamo il quadro del Modulo 1 con altri due protagonisti della nascita del romanzo, questa volta contrapposti tra loro in una rivalità letteraria memorabile:",
+      "p": 1
     },
     {
       "text": "Samuel Richardson, padre del romanzo epistolare, ed Henry Fielding, padre del romanzo comico.",
@@ -342,6 +398,24 @@
           78,
           92
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Samuel Richardson,"
+        },
+        {
+          "lang": "it",
+          "text": "padre del romanzo epistolare, ed Henry"
+        },
+        {
+          "lang": "en",
+          "text": "Fielding,"
+        },
+        {
+          "lang": "it",
+          "text": "padre del romanzo comico."
+        }
       ]
     },
     {

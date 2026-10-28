@@ -16,6 +16,24 @@
           46,
           57
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nell'episodio scorso abbiamo distinto"
+        },
+        {
+          "lang": "en",
+          "text": "will"
+        },
+        {
+          "lang": "it",
+          "text": "da"
+        },
+        {
+          "lang": "en",
+          "text": "be going to."
+        }
       ]
     },
     {
@@ -30,7 +48,18 @@
           113,
           158
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Oggi ampliamo il ventaglio dei verbi modali con le forme più avanzate previste dal programma di Classe Seconda —"
+        },
+        {
+          "lang": "en",
+          "text": "could, may, might, shall, should, would, must —"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "e affrontiamo un argomento strutturalmente diverso ma altrettanto importante: la forma passiva.",
@@ -44,7 +73,8 @@
     },
     {
       "text": "Cominciamo dai modali.",
-      "speech": "Cominciamo dai modali."
+      "speech": "Cominciamo dai modali.",
+      "p": 1
     },
     {
       "text": "Could esprime capacità o possibilità nel passato, come forma passata di can, ma si usa anche, in un registro più cortese, per fare richieste informali nel presente:",
@@ -66,6 +96,24 @@
           131,
           140
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Could"
+        },
+        {
+          "lang": "it",
+          "text": "esprime capacità o possibilità nel passato, come forma passata di"
+        },
+        {
+          "lang": "en",
+          "text": "can,"
+        },
+        {
+          "lang": "it",
+          "text": "ma si usa anche, in un registro più cortese, per fare richieste informali nel presente:"
+        }
       ]
     },
     {
@@ -80,6 +128,20 @@
           75,
           90
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«Could you help me?»,"
+        },
+        {
+          "lang": "it",
+          "text": "potresti aiutarmi?, è più gentile e meno diretto di «"
+        },
+        {
+          "lang": "en",
+          "text": "Can you help me?»."
+        }
       ]
     },
     {
@@ -110,6 +172,36 @@
           107,
           110
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "May"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "might"
+        },
+        {
+          "lang": "it",
+          "text": "esprimono possibilità, e"
+        },
+        {
+          "lang": "en",
+          "text": "might"
+        },
+        {
+          "lang": "it",
+          "text": "comunica un grado di incertezza leggermente maggiore rispetto a"
+        },
+        {
+          "lang": "en",
+          "text": "may:"
+        }
       ]
     },
     {
@@ -128,6 +220,32 @@
           79,
           84
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«It may rain later»"
+        },
+        {
+          "lang": "it",
+          "text": "e «"
+        },
+        {
+          "lang": "en",
+          "text": "It might rain later»"
+        },
+        {
+          "lang": "it",
+          "text": "sono entrambe previsioni caute, ma"
+        },
+        {
+          "lang": "en",
+          "text": "might"
+        },
+        {
+          "lang": "it",
+          "text": "suggerisce una probabilità percepita come leggermente più bassa."
+        }
       ]
     },
     {
@@ -150,6 +268,28 @@
           198,
           201
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "May"
+        },
+        {
+          "lang": "it",
+          "text": "si usa anche per il permesso in un registro formale: «"
+        },
+        {
+          "lang": "en",
+          "text": "You may leave now»,"
+        },
+        {
+          "lang": "it",
+          "text": "può andare ora, un'espressione che un insegnante o un superiore userebbe con un tono più ufficiale rispetto al semplice"
+        },
+        {
+          "lang": "en",
+          "text": "can."
+        }
       ]
     },
     {
@@ -168,7 +308,26 @@
           73,
           75
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Shall"
+        },
+        {
+          "lang": "it",
+          "text": "si usa soprattutto nelle proposte, specialmente con i soggetti I e"
+        },
+        {
+          "lang": "en",
+          "text": "we,"
+        },
+        {
+          "lang": "it",
+          "text": "in un inglese che oggi suona un po' più formale o britannico:"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "«Shall we go?», andiamo?, è un modo elegante per proporre un'azione insieme a qualcun altro.",
@@ -178,6 +337,16 @@
           1,
           12
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«Shall we go?»,"
+        },
+        {
+          "lang": "it",
+          "text": "andiamo?, è un modo elegante per proporre un'azione insieme a qualcun altro."
+        }
       ]
     },
     {
@@ -200,6 +369,32 @@
           153,
           157
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Should"
+        },
+        {
+          "lang": "it",
+          "text": "esprime consiglio od opportunità: «"
+        },
+        {
+          "lang": "en",
+          "text": "You should see a doctor»,"
+        },
+        {
+          "lang": "it",
+          "text": "dovresti andare dal dottore — un consiglio, non un obbligo assoluto, a differenza di"
+        },
+        {
+          "lang": "en",
+          "text": "must,"
+        },
+        {
+          "lang": "it",
+          "text": "di cui parleremo tra poco."
+        }
       ]
     },
     {
@@ -218,6 +413,16 @@
           179,
           196
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "Would"
+        },
+        {
+          "lang": "it",
+          "text": "ha diversi usi, ma i due più importanti per voi in questa fase sono il condizionale, che studieremo con maggiore attenzione tra poco a proposito del periodo ipotetico, e le richieste cortesi:"
+        }
       ]
     },
     {
@@ -228,6 +433,16 @@
           1,
           24
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«Would you like some tea?»,"
+        },
+        {
+          "lang": "it",
+          "text": "gradiresti un tè?, una forma di cortesia molto comune nell'inglese quotidiano."
+        }
       ]
     },
     {
@@ -246,7 +461,22 @@
           50,
           66
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Infine,"
+        },
+        {
+          "lang": "en",
+          "text": "must"
+        },
+        {
+          "lang": "it",
+          "text": "esprime un obbligo forte, oppure una deduzione logica basata su prove evidenti."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "«You must wear a seatbelt», devi indossare la cintura di sicurezza, è un obbligo, spesso di natura normativa o di sicurezza.",
@@ -256,6 +486,16 @@
           1,
           25
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«You must wear a seatbelt»,"
+        },
+        {
+          "lang": "it",
+          "text": "devi indossare la cintura di sicurezza, è un obbligo, spesso di natura normativa o di sicurezza."
+        }
       ]
     },
     {
@@ -266,6 +506,16 @@
           1,
           18
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«She must be tired»,"
+        },
+        {
+          "lang": "it",
+          "text": "deve essere stanca, è invece una deduzione logica:"
+        }
       ]
     },
     {
@@ -280,6 +530,20 @@
           12,
           16
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È un uso di"
+        },
+        {
+          "lang": "en",
+          "text": "must"
+        },
+        {
+          "lang": "it",
+          "text": "che spesso sorprende gli studenti italiani,"
+        }
       ]
     },
     {
@@ -298,6 +562,28 @@
           52,
           56
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un buon modo per fissare la differenza tra"
+        },
+        {
+          "lang": "en",
+          "text": "should"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "must,"
+        },
+        {
+          "lang": "it",
+          "text": "che vale la pena portare all'esame:"
+        }
       ]
     },
     {
@@ -316,6 +602,24 @@
           87,
           108
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "should"
+        },
+        {
+          "lang": "it",
+          "text": "indica un consiglio, qualcosa che sarebbe bene fare ma che non è obbligatorio —"
+        },
+        {
+          "lang": "en",
+          "text": "you should study more,"
+        },
+        {
+          "lang": "it",
+          "text": "sarebbe bene che tu studiassi di più —"
+        }
       ]
     },
     {
@@ -334,6 +638,28 @@
           98,
           138
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "mentre"
+        },
+        {
+          "lang": "en",
+          "text": "must"
+        },
+        {
+          "lang": "it",
+          "text": "indica un obbligo che non si può ignorare, spesso legato a una regola o a una legge —"
+        },
+        {
+          "lang": "en",
+          "text": "you must have a valid passport to travel,"
+        },
+        {
+          "lang": "it",
+          "text": "devi avere un passaporto valido per viaggiare, non è un'opzione."
+        }
       ]
     },
     {
@@ -344,7 +670,22 @@
           33,
           35
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Passiamo ora alla forma passiva,"
+        },
+        {
+          "lang": "en",
+          "text": "be"
+        },
+        {
+          "lang": "it",
+          "text": "più il participio passato del verbo."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "La forma passiva si usa quando l'attenzione della frase è rivolta all'azione stessa, o a chi la subisce, più che a chi la compie — che spesso, nella forma passiva, non viene nemmeno specificato,",
@@ -364,6 +705,20 @@
           43,
           45
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "oppure viene introdotto dalla preposizione"
+        },
+        {
+          "lang": "en",
+          "text": "by"
+        },
+        {
+          "lang": "it",
+          "text": "solo quando è rilevante indicarlo."
+        }
       ]
     },
     {
@@ -374,6 +729,16 @@
           1,
           37
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«English is spoken all over the world»,"
+        },
+        {
+          "lang": "it",
+          "text": "l'inglese è parlato in tutto il mondo: qui non ci interessa affatto chi lo parla in modo specifico, ci interessa il fatto stesso che sia parlato ovunque."
+        }
       ]
     },
     {
@@ -384,6 +749,16 @@
           1,
           47
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«The Mona Lisa was painted by"
+        },
+        {
+          "lang": "it",
+          "text": "Leonardo da Vinci», la Gioconda fu dipinta da Leonardo da Vinci:"
+        }
       ]
     },
     {
@@ -394,11 +769,26 @@
           55,
           57
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "qui, al contrario, l'autore dell'azione, introdotto da"
+        },
+        {
+          "lang": "en",
+          "text": "by,"
+        },
+        {
+          "lang": "it",
+          "text": "è un'informazione rilevante e viene esplicitata."
+        }
       ]
     },
     {
       "text": "Vediamo la trasformazione da attiva a passiva con un esempio concreto, perché è esattamente il tipo di esercizio che vi verrà chiesto all'esame scritto:",
-      "speech": "Vediamo la trasformazione da attiva a passiva con un esempio concreto, perché è esattamente il tipo di esercizio che vi verrà chiesto all'esame scritto:"
+      "speech": "Vediamo la trasformazione da attiva a passiva con un esempio concreto, perché è esattamente il tipo di esercizio che vi verrà chiesto all'esame scritto:",
+      "p": 1
     },
     {
       "text": "la frase attiva «They built this house in 1990», hanno costruito questa casa nel 1990, diventa, alla forma passiva, «This house was built in 1990» — notate che l'oggetto della frase attiva, this house, diventa il soggetto della frase passiva,",
@@ -424,6 +814,36 @@
           213,
           241
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la frase attiva «"
+        },
+        {
+          "lang": "en",
+          "text": "They built this house in 1990»,"
+        },
+        {
+          "lang": "it",
+          "text": "hanno costruito questa casa nel 1990, diventa, alla forma passiva, «"
+        },
+        {
+          "lang": "en",
+          "text": "This house was built in 1990» —"
+        },
+        {
+          "lang": "it",
+          "text": "notate che l'oggetto della frase attiva,"
+        },
+        {
+          "lang": "en",
+          "text": "this house,"
+        },
+        {
+          "lang": "it",
+          "text": "diventa il soggetto della frase passiva,"
+        }
       ]
     },
     {
@@ -434,6 +854,20 @@
           25,
           29
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e il soggetto originale,"
+        },
+        {
+          "lang": "en",
+          "text": "they,"
+        },
+        {
+          "lang": "it",
+          "text": "scompare del tutto, perché non è rilevante sapere esattamente chi, tra \"loro\", abbia costruito la casa."
+        }
       ]
     },
     {
@@ -448,6 +882,28 @@
           68,
           103
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Allo stesso modo, «"
+        },
+        {
+          "lang": "en",
+          "text": "People speak English in many countries»"
+        },
+        {
+          "lang": "it",
+          "text": "diventa «"
+        },
+        {
+          "lang": "en",
+          "text": "English is spoken in many countries»,"
+        },
+        {
+          "lang": "it",
+          "text": "con lo stesso identico meccanismo:"
+        }
       ]
     },
     {
@@ -458,11 +914,26 @@
           30,
           37
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "l'oggetto della frase attiva,"
+        },
+        {
+          "lang": "en",
+          "text": "English,"
+        },
+        {
+          "lang": "it",
+          "text": "diventa il soggetto della frase passiva."
+        }
       ]
     },
     {
       "text": "Fermiamoci un momento su una domanda che vi aiuterà a capire quando usare la forma passiva invece di quella attiva, un ragionamento utile da portare all'esame:",
-      "speech": "Fermiamoci un momento su una domanda che vi aiuterà a capire quando usare la forma passiva invece di quella attiva, un ragionamento utile da portare all'esame:"
+      "speech": "Fermiamoci un momento su una domanda che vi aiuterà a capire quando usare la forma passiva invece di quella attiva, un ragionamento utile da portare all'esame:",
+      "p": 1
     },
     {
       "text": "perché un madrelingua inglese sceglierebbe di dire «This house was built in 1990» invece di «They built this house in 1990»?",
@@ -476,6 +947,24 @@
           93,
           122
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "perché un madrelingua inglese sceglierebbe di dire «"
+        },
+        {
+          "lang": "en",
+          "text": "This house was built in 1990»"
+        },
+        {
+          "lang": "it",
+          "text": "invece di «"
+        },
+        {
+          "lang": "en",
+          "text": "They built this house in 1990»?"
+        }
       ]
     },
     {
@@ -498,7 +987,22 @@
           80,
           114
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Proviamo un piccolo esercizio insieme: trasformate alla forma passiva la frase «"
+        },
+        {
+          "lang": "en",
+          "text": "Someone stole my bicycle yesterday»,"
+        },
+        {
+          "lang": "it",
+          "text": "qualcuno ha rubato la mia bicicletta ieri."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Qui il soggetto della frase attiva, someone, qualcuno, è talmente generico e non specificato che la forma passiva è quasi obbligatoria in un inglese naturale:",
@@ -508,6 +1012,20 @@
           36,
           43
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Qui il soggetto della frase attiva,"
+        },
+        {
+          "lang": "en",
+          "text": "someone,"
+        },
+        {
+          "lang": "it",
+          "text": "qualcuno, è talmente generico e non specificato che la forma passiva è quasi obbligatoria in un inglese naturale:"
+        }
       ]
     },
     {
@@ -522,6 +1040,20 @@
           110,
           120
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "«My bicycle was stolen yesterday»,"
+        },
+        {
+          "lang": "it",
+          "text": "la mia bicicletta è stata rubata ieri, senza nemmeno bisogno di aggiungere"
+        },
+        {
+          "lang": "en",
+          "text": "by someone,"
+        }
       ]
     },
     {
@@ -530,7 +1062,8 @@
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
-      "speech": "Riassumiamo i punti principali di oggi."
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
     },
     {
       "text": "Primo: could esprime capacità passata o richieste cortesi; may e might esprimono possibilità, con might leggermente più incerto;",
@@ -568,7 +1101,46 @@
           98,
           103
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo:"
+        },
+        {
+          "lang": "en",
+          "text": "could"
+        },
+        {
+          "lang": "it",
+          "text": "esprime capacità passata o richieste cortesi;"
+        },
+        {
+          "lang": "en",
+          "text": "may"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "en",
+          "text": "might"
+        },
+        {
+          "lang": "it",
+          "text": "esprimono possibilità, con"
+        },
+        {
+          "lang": "en",
+          "text": "might"
+        },
+        {
+          "lang": "it",
+          "text": "leggermente più incerto;"
+        }
+      ],
+      "p": 1
     },
     {
       "text": "shall si usa per proposte, should per consigli, would per il condizionale e le richieste cortesi.",
@@ -598,6 +1170,32 @@
           61,
           73
         ]
+      ],
+      "parts": [
+        {
+          "lang": "en",
+          "text": "shall"
+        },
+        {
+          "lang": "it",
+          "text": "si usa per proposte,"
+        },
+        {
+          "lang": "en",
+          "text": "should"
+        },
+        {
+          "lang": "it",
+          "text": "per consigli,"
+        },
+        {
+          "lang": "en",
+          "text": "would"
+        },
+        {
+          "lang": "it",
+          "text": "per il condizionale e le richieste cortesi."
+        }
       ]
     },
     {
@@ -624,7 +1222,30 @@
           125,
           131
         ]
-      ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo:"
+        },
+        {
+          "lang": "en",
+          "text": "must"
+        },
+        {
+          "lang": "it",
+          "text": "esprime un obbligo forte oppure una deduzione logica basata su prove evidenti, e va distinto con attenzione da"
+        },
+        {
+          "lang": "en",
+          "text": "should,"
+        },
+        {
+          "lang": "it",
+          "text": "che indica un semplice consiglio."
+        }
+      ],
+      "p": 1
     },
     {
       "text": "Terzo: la forma passiva sposta l'attenzione dall'autore dell'azione all'azione stessa o a chi la subisce, ed è particolarmente frequente quando l'autore dell'azione non è specificato o non è rilevante.",
@@ -642,7 +1263,8 @@
           165,
           182
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Quarto: nella trasformazione da attiva a passiva, l'oggetto della frase attiva diventa il soggetto della frase passiva.",
@@ -660,11 +1282,13 @@
           90,
           118
         ]
-      ]
+      ],
+      "p": 1
     },
     {
       "text": "Nel prossimo episodio affrontiamo uno degli argomenti più complessi e più richiesti di tutto il programma di Classe Seconda: il periodo ipotetico nei suoi quattro tipi, zero, primo, secondo e terzo.",
-      "speech": "Nel prossimo episodio affrontiamo uno degli argomenti più complessi e più richiesti di tutto il programma di Classe Seconda: il periodo ipotetico nei suoi quattro tipi, zero, primo, secondo e terzo."
+      "speech": "Nel prossimo episodio affrontiamo uno degli argomenti più complessi e più richiesti di tutto il programma di Classe Seconda: il periodo ipotetico nei suoi quattro tipi, zero, primo, secondo e terzo.",
+      "p": 1
     },
     {
       "text": "Ci vediamo lì.",
