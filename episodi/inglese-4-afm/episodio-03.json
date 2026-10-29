@@ -469,10 +469,16 @@
           63
         ]
       ],
+      "lingua": [
+        [
+          37,
+          45
+        ]
+      ],
       "parts": [
         {
           "lang": "it",
-          "text": "e può essere negoziabile, se emesso "
+          "text": "e può essere negoziabile, se emesso"
         },
         {
           "lang": "en",
@@ -482,12 +488,6 @@
           "lang": "it",
           "text": "cioè all'ordine di un soggetto specifico che può a sua volta girarlo ad altri."
         }
-      ],
-      "lingua": [
-        [
-          37,
-          45
-        ]
       ]
     },
     {
@@ -653,6 +653,13 @@
           122
         ]
       ],
+      "p": 1,
+      "lingua": [
+        [
+          10,
+          17
+        ]
+      ],
       "parts": [
         {
           "lang": "it",
@@ -660,19 +667,12 @@
         },
         {
           "lang": "en",
-          "text": "Bill of"
+          "text": "Bill of Lading ("
         },
         {
           "lang": "it",
-          "text": "Lading (B L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale."
+          "text": "B L), documento del trasporto marittimo, può essere negoziabile e fungere da titolo di proprietà, un aspetto legato alla lunga durata delle rotte marittime e centrale anche nel finanziamento del commercio internazionale."
         }
-      ],
-      "p": 1,
-      "lingua": [
-        [
-          10,
-          17
-        ]
       ]
     },
     {

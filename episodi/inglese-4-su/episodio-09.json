@@ -195,8 +195,14 @@
     },
     {
       "text": "«Water, water, everywhere, / Nor any drop to drink» — acqua, acqua ovunque, ma nemmeno una goccia da bere, un'immagine potente della scarsità paradossale in mezzo all'abbondanza apparente.",
-      "speech": "Water, water, everywhere,, Nor any drop to drink — acqua, acqua ovunque, ma nemmeno una goccia da bere, un'immagine potente della scarsità paradossale in mezzo all'abbondanza apparente.",
+      "speech": "Water, water, everywhere, Nor any drop to drink — acqua, acqua ovunque, ma nemmeno una goccia da bere, un'immagine potente della scarsità paradossale in mezzo all'abbondanza apparente.",
       "bold": [
+        [
+          1,
+          50
+        ]
+      ],
+      "lingua": [
         [
           1,
           50
@@ -205,18 +211,12 @@
       "parts": [
         {
           "lang": "en",
-          "text": "Water, water, everywhere,, Nor any drop to drink —"
+          "text": "Water, water, everywhere, Nor any drop to drink —"
         },
         {
           "lang": "it",
           "text": "acqua, acqua ovunque, ma nemmeno una goccia da bere, un'immagine potente della scarsità paradossale in mezzo all'abbondanza apparente."
         }
-      ],
-      "lingua": [
-        [
-          1,
-          50
-        ]
       ]
     },
     {

@@ -174,17 +174,17 @@
       "parts": [
         {
           "lang": "en",
-          "text": "I used to play the"
+          "text": "I used to play the piano"
         },
         {
           "lang": "it",
-          "text": "piano significa che una volta suonavo il piano, un'abitudine che avevo in passato, ma sottintende chiaramente che ora non lo faccio più."
+          "text": "significa che una volta suonavo il piano, un'abitudine che avevo in passato, ma sottintende chiaramente che ora non lo faccio più."
         }
       ],
       "lingua": [
         [
           1,
-          19
+          25
         ]
       ]
     },
@@ -234,17 +234,17 @@
         },
         {
           "lang": "en",
-          "text": "I played the"
+          "text": "I played the piano,"
         },
         {
           "lang": "it",
-          "text": "piano, starei probabilmente raccontando un singolo episodio specifico, non un'abitudine prolungata nel tempo con un contrasto esplicito rispetto al presente."
+          "text": "starei probabilmente raccontando un singolo episodio specifico, non un'abitudine prolungata nel tempo con un contrasto esplicito rispetto al presente."
         }
       ],
       "lingua": [
         [
           22,
-          34
+          40
         ]
       ]
     },
@@ -328,10 +328,20 @@
           60
         ]
       ],
+      "lingua": [
+        [
+          11,
+          14
+        ],
+        [
+          57,
+          60
+        ]
+      ],
       "parts": [
         {
           "lang": "it",
-          "text": "la parola "
+          "text": "la parola"
         },
         {
           "lang": "en",
@@ -349,16 +359,6 @@
           "lang": "it",
           "text": "perché l'ausiliare porta già con sé il valore del passato."
         }
-      ],
-      "lingua": [
-        [
-          11,
-          14
-        ],
-        [
-          57,
-          60
-        ]
       ]
     },
     {
@@ -420,24 +420,6 @@
           170
         ]
       ],
-      "parts": [
-        {
-          "lang": "it",
-          "text": "È un dettaglio ortografico piccolo ma che vale la pena notare, perché è un errore frequente scrivere "
-        },
-        {
-          "lang": "en",
-          "text": "didn't used to"
-        },
-        {
-          "lang": "it",
-          "text": "con la d, quando la forma corretta è "
-        },
-        {
-          "lang": "en",
-          "text": "didn't use to."
-        }
-      ],
       "lingua": [
         [
           102,
@@ -446,6 +428,30 @@
         [
           157,
           170
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È un dettaglio ortografico piccolo ma che vale la pena notare, perché è un errore frequente scrivere"
+        },
+        {
+          "lang": "en",
+          "text": "didn't used to"
+        },
+        {
+          "lang": "it",
+          "text": "con la d, quando la forma corretta è"
+        },
+        {
+          "lang": "en",
+          "text": "didn't use to."
+        }
+      ],
+      "errori": [
+        [
+          102,
+          116
         ]
       ]
     },
@@ -1066,15 +1072,7 @@
         },
         {
           "lang": "it",
-          "text": "nella frase Ho già deciso: il prossimo anno mi trasferirò a Londra contro Non"
-        },
-        {
-          "lang": "en",
-          "text": "so"
-        },
-        {
-          "lang": "it",
-          "text": "ancora, ma forse mi trasferirò all'estero."
+          "text": "nella frase Ho già deciso: il prossimo anno mi trasferirò a Londra contro Non so ancora, ma forse mi trasferirò all'estero."
         }
       ],
       "lingua": [
@@ -1085,10 +1083,6 @@
         [
           28,
           39
-        ],
-        [
-          121,
-          123
         ]
       ]
     },

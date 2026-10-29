@@ -140,6 +140,13 @@ button {
   color: #111;
 }
 
+.sentence del.errore {
+  color: #c62828;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  font-weight: 700;
+}
+
 .sentence strong.lingua {
   color: #0a5bb5;
 }
@@ -387,13 +394,19 @@ async function loadEpisode() {
         if (c >= 0 && br.length && c + 2 < br[0]) br.unshift(c + 2);
       }
       const lingua = s.lingua || [];
-      const cuts = [...new Set([0, t.length, ...br, ...bold.flat(), ...lingua.flat()])].sort((x, y) => x - y);
+      const errori = s.errori || [];
+      const cuts = [...new Set([0, t.length, ...br, ...bold.flat(), ...lingua.flat(), ...errori.flat()])].sort((x, y) => x - y);
       for (let k = 0; k < cuts.length - 1; k++) {
         const a = cuts[k], b = cuts[k + 1];
         if (br.includes(a)) element.appendChild(document.createElement("br"));
         const piece = t.slice(a, b);
         const inLingua = lingua.some(([x, y]) => x <= a && b <= y);
-        if (inLingua || bold.some(([x, y]) => x <= a && b <= y)) {
+        if (errori.some(([x, y]) => x <= a && b <= y)) {
+          const del = document.createElement("del");
+          del.className = "errore";
+          del.textContent = piece;
+          element.appendChild(del);
+        } else if (inLingua || bold.some(([x, y]) => x <= a && b <= y)) {
           const strong = document.createElement("strong");
           if (inLingua) strong.className = "lingua";
           strong.textContent = piece;

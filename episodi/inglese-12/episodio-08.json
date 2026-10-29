@@ -266,6 +266,12 @@
           85,
           87
         ]
+      ],
+      "errori": [
+        [
+          36,
+          50
+        ]
       ]
     },
     {
@@ -1643,7 +1649,13 @@
     },
     {
       "text": "Provate a notare un parallelo utile con l'italiano: anche la nostra lingua ha aggettivi con comparativi irregolari — buono diventa migliore, non \"più buono\" nella forma colta —",
-      "speech": "Provate a notare un parallelo utile con l'italiano: anche la nostra lingua ha aggettivi con comparativi irregolari — buono diventa migliore, non più buono nella forma colta —"
+      "speech": "Provate a notare un parallelo utile con l'italiano: anche la nostra lingua ha aggettivi con comparativi irregolari — buono diventa migliore, non più buono nella forma colta —",
+      "errori": [
+        [
+          146,
+          155
+        ]
+      ]
     },
     {
       "text": "ed è un parallelo che può aiutarvi a ricordare perché l'inglese si comporti allo stesso modo con good/better.",

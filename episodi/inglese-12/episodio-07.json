@@ -184,36 +184,6 @@
           61,
           64
         ]
-      ],
-      "parts": [
-        {
-          "lang": "it",
-          "text": "I nomi che terminano in s,"
-        },
-        {
-          "lang": "it",
-          "text": "ss,",
-          "pausa": 0.32
-        },
-        {
-          "lang": "it",
-          "text": "sh,",
-          "pausa": 0.32
-        },
-        {
-          "lang": "it",
-          "text": "ch,",
-          "pausa": 0.32
-        },
-        {
-          "lang": "it",
-          "text": "x,",
-          "pausa": 0.32
-        },
-        {
-          "lang": "it",
-          "text": "z aggiungono es, non semplicemente s, per una ragione puramente fonetica:"
-        }
       ]
     },
     {
@@ -244,7 +214,15 @@
       "parts": [
         {
           "lang": "it",
-          "text": "provate a pronunciare boxs invece di "
+          "text": "provate a pronunciare"
+        },
+        {
+          "lang": "en",
+          "text": "boxs"
+        },
+        {
+          "lang": "it",
+          "text": "invece di"
         },
         {
           "lang": "en",
@@ -285,6 +263,10 @@
       ],
       "lingua": [
         [
+          23,
+          27
+        ],
+        [
           40,
           45
         ],
@@ -303,6 +285,12 @@
         [
           223,
           230
+        ]
+      ],
+      "errori": [
+        [
+          23,
+          27
         ]
       ]
     },
@@ -613,6 +601,20 @@
           37
         ]
       ],
+      "lingua": [
+        [
+          2,
+          8
+        ],
+        [
+          17,
+          23
+        ],
+        [
+          30,
+          37
+        ]
+      ],
       "parts": [
         {
           "lang": "it",
@@ -632,7 +634,7 @@
         },
         {
           "lang": "it",
-          "text": "non "
+          "text": "non"
         },
         {
           "lang": "en",
@@ -643,15 +645,7 @@
           "text": "come uno studente italiano potrebbe essere tentato di dire per analogia con la propria lingua madre."
         }
       ],
-      "lingua": [
-        [
-          2,
-          8
-        ],
-        [
-          17,
-          23
-        ],
+      "errori": [
         [
           30,
           37
@@ -866,21 +860,21 @@
           177
         ]
       ],
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo "
-        },
-        {
-          "lang": "en",
-          "text": "this,"
-        }
-      ],
       "lingua": [
         [
           173,
           177
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo"
+        },
+        {
+          "lang": "en",
+          "text": "this,"
+        }
       ]
     },
     {
@@ -892,21 +886,21 @@
           67
         ]
       ],
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e poi indicare con il braccio teso un oggetto lontano dicendo "
-        },
-        {
-          "lang": "en",
-          "text": "that:"
-        }
-      ],
       "lingua": [
         [
           63,
           67
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e poi indicare con il braccio teso un oggetto lontano dicendo"
+        },
+        {
+          "lang": "en",
+          "text": "that:"
+        }
       ]
     },
     {
@@ -1189,21 +1183,21 @@
           113
         ]
       ],
-      "parts": [
-        {
-          "lang": "it",
-          "text": "e si usano solo al singolare, senza l'articolo indeterminativo a"
-        },
-        {
-          "lang": "en",
-          "text": "an: water, information, furniture, advice, money."
-        }
-      ],
       "lingua": [
         [
           65,
           113
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e si usano solo al singolare, senza l'articolo indeterminativo a,"
+        },
+        {
+          "lang": "en",
+          "text": "an: water, information, furniture, advice, money."
+        }
       ]
     },
     {
@@ -1269,10 +1263,20 @@
           60
         ]
       ],
+      "lingua": [
+        [
+          16,
+          30
+        ],
+        [
+          37,
+          60
+        ]
+      ],
       "parts": [
         {
           "lang": "it",
-          "text": "non diremo mai "
+          "text": "non diremo mai"
         },
         {
           "lang": "en",
@@ -1280,7 +1284,7 @@
         },
         {
           "lang": "it",
-          "text": "ma "
+          "text": "ma"
         },
         {
           "lang": "en",
@@ -1291,14 +1295,10 @@
           "text": "due pezzi di arredamento."
         }
       ],
-      "lingua": [
+      "errori": [
         [
           16,
           30
-        ],
-        [
-          37,
-          60
         ]
       ]
     },

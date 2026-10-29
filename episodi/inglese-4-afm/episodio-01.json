@@ -97,19 +97,7 @@
     },
     {
       "text": "descrive con chiarezza il problema riscontrato, senza ambiguità; allega, quando possibile, prove concrete come fotografie o documenti;",
-      "speech": "descrive con chiarezza il problema riscontrato, senza ambiguità; allega, quando possibile, prove concrete come fotografie o documenti;",
-      "parts": [
-        {
-          "lang": "it",
-          "text": "descrive con chiarezza il problema riscontrato, senza ambiguità;",
-          "pausa": 0.42
-        },
-        {
-          "lang": "it",
-          "text": "allega, quando possibile, prove concrete come fotografie o documenti;",
-          "pausa": 0.42
-        }
-      ]
+      "speech": "descrive con chiarezza il problema riscontrato, senza ambiguità; allega, quando possibile, prove concrete come fotografie o documenti;"
     },
     {
       "text": "e soprattutto richiede un'azione concreta — una sostituzione, un rimborso, uno sconto, delle scuse formali —",
@@ -240,18 +228,6 @@
           23,
           32
         ]
-      ],
-      "parts": [
-        {
-          "lang": "it",
-          "text": "Notate la struttura in tre mosse: primo, il riferimento preciso all'ordine;",
-          "pausa": 0.42
-        },
-        {
-          "lang": "it",
-          "text": "secondo, la descrizione oggettiva del problema, senza aggettivi emotivi;",
-          "pausa": 0.42
-        }
       ]
     },
     {
@@ -570,10 +546,16 @@
           58
         ]
       ],
+      "lingua": [
+        [
+          22,
+          58
+        ]
+      ],
       "parts": [
         {
           "lang": "it",
-          "text": "Notate l'espressione "
+          "text": "Notate l'espressione"
         },
         {
           "lang": "en",
@@ -583,12 +565,6 @@
           "lang": "it",
           "text": "è una scelta linguistica deliberata, che offre al cliente una via d'uscita elegante, senza fargli perdere la faccia."
         }
-      ],
-      "lingua": [
-        [
-          22,
-          58
-        ]
       ]
     },
     {
