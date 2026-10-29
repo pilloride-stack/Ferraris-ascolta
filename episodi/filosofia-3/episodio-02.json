@@ -136,7 +136,37 @@
     },
     {
       "text": "Le regole ascetiche di vita, silenzio, dieta, musica, matematica, sono appunto strumenti di purificazione dell'anima, propedeutici alla sua liberazione dal ciclo delle rinascite.",
-      "speech": "Le regole ascetiche di vita, silenzio, dieta, musica, matematica, sono appunto strumenti di purificazione dell'anima, propedeutici alla sua liberazione dal ciclo delle rinascite."
+      "speech": "Le regole ascetiche di vita, silenzio, dieta, musica, matematica, sono appunto strumenti di purificazione dell'anima, propedeutici alla sua liberazione dal ciclo delle rinascite.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le regole ascetiche di vita,"
+        },
+        {
+          "lang": "it",
+          "text": "silenzio,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "dieta,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "musica,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "matematica,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "sono appunto strumenti di purificazione dell'anima, propedeutici alla sua liberazione dal ciclo delle rinascite."
+        }
+      ]
     },
     {
       "text": "Questa concezione dualistica di anima e corpo, l'anima come prigioniera del corpo, influenzerà profondamente Platone, come vedremo più avanti in questo modulo.",

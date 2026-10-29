@@ -105,7 +105,33 @@
     },
     {
       "text": "dignità, libertà, uguaglianza, solidarietà, cittadinanza e giustizia, i diritti civili, politici, economici e sociali riconosciuti ai cittadini dell'Unione.",
-      "speech": "dignità, libertà, uguaglianza, solidarietà, cittadinanza e giustizia, i diritti civili, politici, economici e sociali riconosciuti ai cittadini dell'Unione."
+      "speech": "dignità, libertà, uguaglianza, solidarietà, cittadinanza e giustizia, i diritti civili, politici, economici e sociali riconosciuti ai cittadini dell'Unione.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "dignità,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "libertà,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "uguaglianza,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "solidarietà,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "cittadinanza e giustizia, i diritti civili, politici, economici e sociali riconosciuti ai cittadini dell'Unione."
+        }
+      ]
     },
     {
       "text": "Con l'entrata in vigore del Trattato di Lisbona, nel duemilanove, la Carta ha acquisito lo stesso valore giuridico vincolante dei trattati europei, diventando pienamente parte del diritto dell'Unione.",

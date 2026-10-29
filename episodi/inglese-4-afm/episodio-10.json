@@ -82,7 +82,7 @@
     },
     {
       "text": "il monarca, attualmente Re Carlo III, è il capo dello Stato, Head of State,",
-      "speech": "il monarca, attualmente Re Carlo III, è il capo dello Stato, Head of State,",
+      "speech": "il monarca, attualmente Re Carlo terzo, è il capo dello Stato, Head of State,",
       "bold": [
         [
           24,
@@ -96,7 +96,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "il monarca, attualmente Re Carlo III, è il capo dello Stato,"
+          "text": "il monarca, attualmente Re Carlo terzo, è il capo dello Stato,"
         },
         {
           "lang": "en",
@@ -214,7 +214,8 @@
         },
         {
           "lang": "en",
-          "text": "MPs, Members of Parliament;"
+          "text": "MPs, Members of Parliament;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -493,7 +494,8 @@
         },
         {
           "lang": "it",
-          "text": "composto da due senatori per ciascuno dei cinquanta Stati, a prescindere dalla loro popolazione;"
+          "text": "composto da due senatori per ciascuno dei cinquanta Stati, a prescindere dalla loro popolazione;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1089,7 +1091,8 @@
         },
         {
           "lang": "it",
-          "text": "Waybill non lo sono mai;"
+          "text": "Waybill non lo sono mai;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1168,7 +1171,8 @@
         },
         {
           "lang": "it",
-          "text": "York si gioca su sede, anno di fondazione e indice principale, rispettivamente FTSE 100 e Dow Jones;"
+          "text": "York si gioca su sede, anno di fondazione e indice principale, rispettivamente FTSE 100 e Dow Jones;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1214,7 +1218,8 @@
         },
         {
           "lang": "it",
-          "text": "da calibrare sempre insieme in modo coerente;"
+          "text": "da calibrare sempre insieme in modo coerente;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1306,7 +1311,8 @@
         },
         {
           "lang": "it",
-          "text": "ispirata a Muhammad Yunus, applica la microfinanza alla lotta alla povertà;"
+          "text": "ispirata a Muhammad Yunus, applica la microfinanza alla lotta alla povertà;",
+          "pausa": 0.42
         }
       ],
       "p": 1,
@@ -1371,7 +1377,8 @@
         },
         {
           "lang": "en",
-          "text": "checks and balances;"
+          "text": "checks and balances;",
+          "pausa": 0.42
         }
       ],
       "lingua": [

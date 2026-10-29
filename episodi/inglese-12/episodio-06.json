@@ -91,7 +91,7 @@
     },
     {
       "text": "Non a caso questo contrasto compare, quasi identico, sia nella dispensa di Classe Prima sia in quella di Classe Seconda come \"ripasso\": è un punto davvero cruciale.",
-      "speech": "Non a caso questo contrasto compare, quasi identico, sia nella dispensa di Classe Prima sia in quella di Classe Seconda come \"ripasso\": è un punto davvero cruciale."
+      "speech": "Non a caso questo contrasto compare, quasi identico, sia nella dispensa di Classe Prima sia in quella di Classe Seconda come ripasso: è un punto davvero cruciale."
     },
     {
       "text": "Cominciamo dal simple past, il tempo che si usa per parlare di azioni concluse in un momento passato definito.",
@@ -337,7 +337,8 @@
         },
         {
           "lang": "it",
-          "text": "ha visitato Roma l'anno scorso;"
+          "text": "ha visitato Roma l'anno scorso;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -379,7 +380,8 @@
         },
         {
           "lang": "en",
-          "text": "didn't, She didn't visit Rome last year;"
+          "text": "didn't, She didn't visit Rome last year;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -718,7 +720,8 @@
         },
         {
           "lang": "it",
-          "text": "vivo qui da cinque anni ed è tuttora così;"
+          "text": "vivo qui da cinque anni ed è tuttora così;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -854,7 +857,8 @@
         },
         {
           "lang": "en",
-          "text": "yesterday, last week, in 2010, two years ago;"
+          "text": "yesterday, last week, in 2010, two years ago;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1098,7 +1102,7 @@
     },
     {
       "text": "Nella prima, \"appena\" (just) segnala un'azione recente senza indicazione di orario preciso, e la sua rilevanza è proprio nel presente — ho appena finito, quindi ora sono libero:",
-      "speech": "Nella prima, \"appena\" (just) segnala un'azione recente senza indicazione di orario preciso, e la sua rilevanza è proprio nel presente — ho appena finito, quindi ora sono libero:",
+      "speech": "Nella prima, appena (just) segnala un'azione recente senza indicazione di orario preciso, e la sua rilevanza è proprio nel presente — ho appena finito, quindi ora sono libero:",
       "bold": [
         [
           23,
@@ -1108,7 +1112,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Nella prima, \"appena\" ("
+          "text": "Nella prima, appena ("
         },
         {
           "lang": "en",
@@ -1154,7 +1158,7 @@
     },
     {
       "text": "Nella seconda, \"ieri sera\" è un'indicazione di tempo precisa: richiede il simple past, «I finished my homework last night».",
-      "speech": "Nella seconda, \"ieri sera\" è un'indicazione di tempo precisa: richiede il simple past, I finished my homework last night.",
+      "speech": "Nella seconda, ieri sera è un'indicazione di tempo precisa: richiede il simple past, I finished my homework last night.",
       "bold": [
         [
           74,
@@ -1164,7 +1168,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Nella seconda, \"ieri sera\" è un'indicazione di tempo precisa: richiede il"
+          "text": "Nella seconda, ieri sera è un'indicazione di tempo precisa: richiede il"
         },
         {
           "lang": "en",

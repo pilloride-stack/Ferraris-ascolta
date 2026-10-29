@@ -89,6 +89,18 @@
           97,
           118
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'azienda di consumo, della famiglia, persegue il soddisfacimento dei bisogni dei suoi membri;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "l'azienda di produzione, dell'impresa, persegue il profitto producendo per il mercato;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -136,6 +148,18 @@
           88,
           106
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il settore primario comprende agricoltura, allevamento, pesca e attività estrattive;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il settore secondario comprende l'industria di trasformazione;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -217,7 +241,7 @@
     },
     {
       "text": "nella Alfa S.p.A., il soggetto giuridico è la società stessa, il soggetto economico è la famiglia Rossi, che detiene la quota di controllo del sessanta per cento.",
-      "speech": "nella Alfa S.p.A., il soggetto giuridico è la società stessa, il soggetto economico è la famiglia Rossi, che detiene la quota di controllo del sessanta per cento.",
+      "speech": "nella Alfa esse pi a, il soggetto giuridico è la società stessa, il soggetto economico è la famiglia Rossi, che detiene la quota di controllo del sessanta per cento.",
       "bold": [
         [
           89,

@@ -155,7 +155,7 @@
     },
     {
       "text": "pensate al sentirsi semplicemente \"di buon umore\" o \"giù di morale\", senza un motivo preciso da poter indicare.",
-      "speech": "pensate al sentirsi semplicemente \"di buon umore\" o \"giù di morale\", senza un motivo preciso da poter indicare."
+      "speech": "pensate al sentirsi semplicemente di buon umore o giù di morale, senza un motivo preciso da poter indicare."
     },
     {
       "text": "Un buon modo per portare questo argomento all'orale è costruire lo schema comparativo tra emozioni e stati d'animo su tre assi: la durata, breve per le emozioni, prolungata per gli stati d'animo;",
@@ -210,7 +210,37 @@
           147
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: i meccanismi di difesa, di origine psicoanalitica,"
+        },
+        {
+          "lang": "it",
+          "text": "includono rimozione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "negazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "proiezione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "razionalizzazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "spostamento e sublimazione, quest'ultima considerata la più matura."
+        }
+      ]
     },
     {
       "text": "Secondo: gli stati d'animo si distinguono dalle emozioni per durata più lunga, intensità più moderata e assenza di una causa scatenante precisa.",

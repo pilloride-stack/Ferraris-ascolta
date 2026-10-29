@@ -25,7 +25,7 @@
     },
     {
       "text": "La psicologia della Gestalt, termine tedesco che significa \"forma\" o \"configurazione\", nasce in Germania nei primi decenni del Novecento, con Max Wertheimer, Wolfgang Köhler e Kurt Koffka, e si concentra soprattutto sullo studio della percezione.",
-      "speech": "La psicologia della Gestalt, termine tedesco che significa \"forma\" o \"configurazione\", nasce in Germania nei primi decenni del Novecento, con Max Wertheimer, Wolfgang Köhler e Kurt Koffka, e si concentra soprattutto sullo studio della percezione.",
+      "speech": "La psicologia della Gestalt, termine tedesco che significa forma o configurazione, nasce in Germania nei primi decenni del Novecento, con Max Wertheimer, Wolfgang Köhler e Kurt Koffka, e si concentra soprattutto sullo studio della percezione.",
       "bold": [
         [
           142,
@@ -54,7 +54,7 @@
     },
     {
       "text": "la mente non percepisce singoli elementi isolati, uno dopo l'altro, ma configurazioni organizzate e dotate di senso, le cosiddette \"forme\", o Gestalten.",
-      "speech": "la mente non percepisce singoli elementi isolati, uno dopo l'altro, ma configurazioni organizzate e dotate di senso, le cosiddette \"forme\", o Gestalten."
+      "speech": "la mente non percepisce singoli elementi isolati, uno dopo l'altro, ma configurazioni organizzate e dotate di senso, le cosiddette forme, o Gestalten."
     },
     {
       "text": "Da questo principio derivano le celebri leggi della percezione individuate dagli psicologi della Gestalt, che vi conviene conoscere una per una, magari con un esempio pratico per ciascuna.",
@@ -120,7 +120,37 @@
     },
     {
       "text": "in tutti i casi, vicinanza, somiglianza, chiusura, continuità, la mente non si limita a registrare passivamente stimoli isolati,",
-      "speech": "in tutti i casi, vicinanza, somiglianza, chiusura, continuità, la mente non si limita a registrare passivamente stimoli isolati,"
+      "speech": "in tutti i casi, vicinanza, somiglianza, chiusura, continuità, la mente non si limita a registrare passivamente stimoli isolati,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "in tutti i casi,"
+        },
+        {
+          "lang": "it",
+          "text": "vicinanza,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "somiglianza,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "chiusura,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "continuità,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la mente non si limita a registrare passivamente stimoli isolati,"
+        }
+      ]
     },
     {
       "text": "ma li organizza attivamente in strutture percettive coerenti e dotate di senso, prima ancora di qualunque elaborazione cosciente e deliberata.",

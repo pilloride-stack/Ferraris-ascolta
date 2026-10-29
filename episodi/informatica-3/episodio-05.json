@@ -80,7 +80,7 @@
     },
     {
       "text": "il router lavora \"tra\" reti diverse, per esempio tra la vostra rete locale e Internet, decidendo verso quale rete instradare ogni pacchetto di dati;",
-      "speech": "il router lavora \"tra\" reti diverse, per esempio tra la vostra rete locale e Internet, decidendo verso quale rete instradare ogni pacchetto di dati;",
+      "speech": "il router lavora tra reti diverse, per esempio tra la vostra rete locale e Internet, decidendo verso quale rete instradare ogni pacchetto di dati;",
       "bold": [
         [
           23,
@@ -90,7 +90,7 @@
     },
     {
       "text": "lo switch invece lavora \"dentro\" un'unica rete locale, smistando il traffico tra i dispositivi che ne fanno parte, per esempio tra i vari computer di un ufficio.",
-      "speech": "lo switch invece lavora \"dentro\" un'unica rete locale, smistando il traffico tra i dispositivi che ne fanno parte, per esempio tra i vari computer di un ufficio.",
+      "speech": "lo switch invece lavora dentro un'unica rete locale, smistando il traffico tra i dispositivi che ne fanno parte, per esempio tra i vari computer di un ufficio.",
       "bold": [
         [
           33,

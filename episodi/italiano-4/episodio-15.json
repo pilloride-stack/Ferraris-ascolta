@@ -72,8 +72,12 @@
       "p": 1
     },
     {
-      "text": "Il metodo si articola in quattro fasi da citare con ordine: osservazione attenta dei fenomeni naturali, formulazione di un'ipotesi, verifica sperimentale rigorosa, ed espressione matematica delle leggi scoperte — sintetizzata dalla stessa frase di Galileo, \"la natura è scritta in lingua matematica\".",
-      "speech": "Il metodo si articola in quattro fasi da citare con ordine: osservazione attenta dei fenomeni naturali, formulazione di un'ipotesi, verifica sperimentale rigorosa, ed espressione matematica delle leggi scoperte — sintetizzata dalla stessa frase di Galileo, \"la natura è scritta in lingua matematica\"."
+      "text": "Il metodo si articola in quattro fasi da citare con ordine: osservazione attenta dei fenomeni naturali, formulazione di un'ipotesi, verifica sperimentale rigorosa,",
+      "speech": "Il metodo si articola in quattro fasi da citare con ordine: osservazione attenta dei fenomeni naturali, formulazione di un'ipotesi, verifica sperimentale rigorosa,"
+    },
+    {
+      "text": "ed espressione matematica delle leggi scoperte — sintetizzata dalla stessa frase di Galileo, \"la natura è scritta in lingua matematica\".",
+      "speech": "ed espressione matematica delle leggi scoperte — sintetizzata dalla stessa frase di Galileo, la natura è scritta in lingua matematica."
     },
     {
       "text": "Potete aggiungere l'esempio concreto del cannocchiale, con cui Galileo osserva i satelliti di Giove e le fasi di Venere, prove decisive a favore del sistema copernicano.",
@@ -110,7 +114,7 @@
     },
     {
       "text": "Il metodo: per Cartesio è deduttivo, \"more geometrico\", a partire dalla certezza del \"cogito ergo sum\"; per gli empiristi è induttivo, dall'osservazione dei fatti particolari alle leggi generali, fino alla \"tabula rasa\" di Locke.",
-      "speech": "Il metodo: per Cartesio è deduttivo, \"more geometrico\", a partire dalla certezza del \"cogito ergo sum\"; per gli empiristi è induttivo, dall'osservazione dei fatti particolari alle leggi generali, fino alla \"tabula rasa\" di Locke.",
+      "speech": "Il metodo: per Cartesio è deduttivo, more geometrico, a partire dalla certezza del cogito ergo sum; per gli empiristi è induttivo, dall'osservazione dei fatti particolari alle leggi generali, fino alla tabula rasa di Locke.",
       "bold": [
         [
           38,
@@ -153,7 +157,7 @@
     },
     {
       "text": "In Marino questo si traduce nel celebre verso dell'Adone, \"è del poeta il fin la meraviglia\": la poesia non deve più insegnare dilettando, come voleva Orazio, ma stupire ed emozionare a ogni costo, attraverso l'iperbole e l'accumulo ornamentale.",
-      "speech": "In Marino questo si traduce nel celebre verso dell'Adone, \"è del poeta il fin la meraviglia\": la poesia non deve più insegnare dilettando, come voleva Orazio, ma stupire ed emozionare a ogni costo, attraverso l'iperbole e l'accumulo ornamentale.",
+      "speech": "In Marino questo si traduce nel celebre verso dell'Adone, è del poeta il fin la meraviglia: la poesia non deve più insegnare dilettando, come voleva Orazio, ma stupire ed emozionare a ogni costo, attraverso l'iperbole e l'accumulo ornamentale.",
       "bold": [
         [
           51,
@@ -167,13 +171,34 @@
       "p": 1
     },
     {
-      "text": "Citate il timore ossessivo di essere eretico, che lo spinge a sottoporsi volontariamente al giudizio di teologi inquisitori; i sintomi paranoici, con la sensazione di essere spiato e perseguitato; la fuga da Ferrara travestito da pastore; e infine il lungo internamento nell'ospedale di Sant'Anna, dal 1579 al 1586.",
-      "speech": "Citate il timore ossessivo di essere eretico, che lo spinge a sottoporsi volontariamente al giudizio di teologi inquisitori; i sintomi paranoici, con la sensazione di essere spiato e perseguitato; la fuga da Ferrara travestito da pastore; e infine il lungo internamento nell'ospedale di Sant'Anna, dal 1579 al 1586.",
+      "text": "Citate il timore ossessivo di essere eretico, che lo spinge a sottoporsi volontariamente al giudizio di teologi inquisitori;",
+      "speech": "Citate il timore ossessivo di essere eretico, che lo spinge a sottoporsi volontariamente al giudizio di teologi inquisitori;"
+    },
+    {
+      "text": "i sintomi paranoici, con la sensazione di essere spiato e perseguitato; la fuga da Ferrara travestito da pastore; e infine il lungo internamento nell'ospedale di Sant'Anna, dal 1579 al 1586.",
+      "speech": "i sintomi paranoici, con la sensazione di essere spiato e perseguitato; la fuga da Ferrara travestito da pastore; e infine il lungo internamento nell'ospedale di Sant'Anna, dal 1579 al 1586.",
       "bold": [
         [
-          287,
-          296
+          162,
+          171
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i sintomi paranoici, con la sensazione di essere spiato e perseguitato;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "la fuga da Ferrara travestito da pastore;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "e infine il lungo internamento nell'ospedale di Sant'Anna, dal 1579 al 1586.",
+          "pausa": 0.2
+        }
       ]
     },
     {
@@ -284,9 +309,13 @@
       ]
     },
     {
-      "text": "Un consiglio pratico, valido per tutte le domande di oggi: quando rispondete su un autore o un movimento, cercate sempre di citare almeno un dettaglio concreto — un verso, un episodio, una data precisa — perché è proprio questo tipo di precisione a distinguere una risposta studiata a memoria da una risposta davvero compresa e rielaborata con le vostre parole.",
-      "speech": "Un consiglio pratico, valido per tutte le domande di oggi: quando rispondete su un autore o un movimento, cercate sempre di citare almeno un dettaglio concreto — un verso, un episodio, una data precisa — perché è proprio questo tipo di precisione a distinguere una risposta studiata a memoria da una risposta davvero compresa e rielaborata con le vostre parole.",
+      "text": "Un consiglio pratico, valido per tutte le domande di oggi: quando rispondete su un autore o un movimento, cercate sempre di citare almeno un dettaglio concreto — un verso, un episodio, una data precisa —",
+      "speech": "Un consiglio pratico, valido per tutte le domande di oggi: quando rispondete su un autore o un movimento, cercate sempre di citare almeno un dettaglio concreto — un verso, un episodio, una data precisa —",
       "p": 1
+    },
+    {
+      "text": "perché è proprio questo tipo di precisione a distinguere una risposta studiata a memoria da una risposta davvero compresa e rielaborata con le vostre parole.",
+      "speech": "perché è proprio questo tipo di precisione a distinguere una risposta studiata a memoria da una risposta davvero compresa e rielaborata con le vostre parole."
     },
     {
       "text": "Riassumiamo rapidamente le otto domande di oggi.",

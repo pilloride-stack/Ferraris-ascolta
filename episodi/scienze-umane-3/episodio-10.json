@@ -34,7 +34,7 @@
     },
     {
       "text": "sulla formulazione esplicita di ipotesi verificabili e sulla loro sottoposizione a un controllo empirico rigoroso, secondo un percorso spesso descritto come \"ciclo della ricerca\":",
-      "speech": "sulla formulazione esplicita di ipotesi verificabili e sulla loro sottoposizione a un controllo empirico rigoroso, secondo un percorso spesso descritto come \"ciclo della ricerca\":",
+      "speech": "sulla formulazione esplicita di ipotesi verificabili e sulla loro sottoposizione a un controllo empirico rigoroso, secondo un percorso spesso descritto come ciclo della ricerca:",
       "bold": [
         [
           158,
@@ -194,7 +194,33 @@
     {
       "text": "Un buon modo per portare questo argomento all'orale è mostrare come tutti questi concetti, ipotesi, variabile, campione, validità,",
       "speech": "Un buon modo per portare questo argomento all'orale è mostrare come tutti questi concetti, ipotesi, variabile, campione, validità,",
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un buon modo per portare questo argomento all'orale è mostrare come tutti questi concetti,"
+        },
+        {
+          "lang": "it",
+          "text": "ipotesi,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "variabile,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "campione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "validità,",
+          "pausa": 0.32
+        }
+      ]
     },
     {
       "text": "attendibilità, siano strumenti concettuali trasversali, utilizzabili non solo nella ricerca sociologica o antropologica di questo modulo,",

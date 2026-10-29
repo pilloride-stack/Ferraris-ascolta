@@ -670,7 +670,8 @@
         },
         {
           "lang": "it",
-          "text": "non ho soldi;"
+          "text": "non ho soldi;",
+          "pausa": 0.42
         },
         {
           "lang": "en",
@@ -744,7 +745,7 @@
     },
     {
       "text": "è diversa dalla logica dell'italiano, dove useremmo \"un po' di\" o \"dei\" in tutti e tre i casi, ed è quindi un punto su cui gli studenti italiani commettono errori con una certa frequenza.",
-      "speech": "è diversa dalla logica dell'italiano, dove useremmo \"un po' di\" o \"dei\" in tutti e tre i casi, ed è quindi un punto su cui gli studenti italiani commettono errori con una certa frequenza."
+      "speech": "è diversa dalla logica dell'italiano, dove useremmo un po' di o dei in tutti e tre i casi, ed è quindi un punto su cui gli studenti italiani commettono errori con una certa frequenza."
     },
     {
       "text": "Per quanto riguarda le quantità più specifiche, much si usa esclusivamente con i nomi non numerabili — «How much water do you need?», quanta acqua ti serve? —",
@@ -1125,7 +1126,7 @@
     },
     {
       "text": "«I have little time» suona più come \"ho pochissimo tempo, quasi niente\", mentre «I have a little time» suona come \"ho un po' di tempo, sufficiente\".",
-      "speech": "I have little time suona più come \"ho pochissimo tempo, quasi niente\", mentre I have a little time suona come \"ho un po' di tempo, sufficiente\".",
+      "speech": "I have little time suona più come ho pochissimo tempo, quasi niente, mentre I have a little time suona come ho un po' di tempo, sufficiente.",
       "bold": [
         [
           1,
@@ -1143,7 +1144,7 @@
         },
         {
           "lang": "it",
-          "text": "suona più come \"ho pochissimo tempo, quasi niente\", mentre"
+          "text": "suona più come ho pochissimo tempo, quasi niente, mentre"
         },
         {
           "lang": "en",
@@ -1151,7 +1152,7 @@
         },
         {
           "lang": "it",
-          "text": "suona come \"ho un po' di tempo, sufficiente\"."
+          "text": "suona come ho un po' di tempo, sufficiente."
         }
       ],
       "lingua": [
@@ -1228,7 +1229,8 @@
         },
         {
           "lang": "en",
-          "text": "the tallest;"
+          "text": "the tallest;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1457,7 +1459,8 @@
         },
         {
           "lang": "en",
-          "text": "the best;"
+          "text": "the best;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1543,7 +1546,8 @@
         },
         {
           "lang": "en",
-          "text": "the worst;"
+          "text": "the worst;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -1639,7 +1643,7 @@
     },
     {
       "text": "Provate a notare un parallelo utile con l'italiano: anche la nostra lingua ha aggettivi con comparativi irregolari — buono diventa migliore, non \"più buono\" nella forma colta —",
-      "speech": "Provate a notare un parallelo utile con l'italiano: anche la nostra lingua ha aggettivi con comparativi irregolari — buono diventa migliore, non \"più buono\" nella forma colta —"
+      "speech": "Provate a notare un parallelo utile con l'italiano: anche la nostra lingua ha aggettivi con comparativi irregolari — buono diventa migliore, non più buono nella forma colta —"
     },
     {
       "text": "ed è un parallelo che può aiutarvi a ricordare perché l'inglese si comporti allo stesso modo con good/better.",
@@ -1680,7 +1684,7 @@
     },
     {
       "text": "\"Grande\", big, è un aggettivo breve di una sillaba, quindi il comparativo si forma con -er: «This city is bigger than that one».",
-      "speech": "\"Grande\", big, è un aggettivo breve di una sillaba, quindi il comparativo si forma con er: This city is bigger than that one.",
+      "speech": "Grande, big, è un aggettivo breve di una sillaba, quindi il comparativo si forma con er: This city is bigger than that one.",
       "bold": [
         [
           10,
@@ -1694,7 +1698,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "\"Grande\","
+          "text": "Grande,"
         },
         {
           "lang": "en",
@@ -1722,7 +1726,7 @@
     },
     {
       "text": "\"Bella\", beautiful, è un aggettivo lungo, quindi il superlativo si forma con the most: «but that one is the most beautiful of all».",
-      "speech": "\"Bella\", beautiful, è un aggettivo lungo, quindi il superlativo si forma con the most: but that one is the most beautiful of all.",
+      "speech": "Bella, beautiful, è un aggettivo lungo, quindi il superlativo si forma con the most: but that one is the most beautiful of all.",
       "bold": [
         [
           9,
@@ -1736,7 +1740,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "\"Bella\","
+          "text": "Bella,"
         },
         {
           "lang": "en",

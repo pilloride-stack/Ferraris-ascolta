@@ -62,7 +62,7 @@
     },
     {
       "text": "Vediamo anzitutto il contributo di Carl Rogers, che sviluppa una terapia centrata sulla persona, detta anche \"non direttiva\".",
-      "speech": "Vediamo anzitutto il contributo di Carl Rogers, che sviluppa una terapia centrata sulla persona, detta anche \"non direttiva\".",
+      "speech": "Vediamo anzitutto il contributo di Carl Rogers, che sviluppa una terapia centrata sulla persona, detta anche non direttiva.",
       "bold": [
         [
           65,
@@ -132,6 +132,23 @@
           95,
           115
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Alla base della piramide si collocano i bisogni fisiologici, come fame, sete, sonno;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "seguono i bisogni di sicurezza;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "poi i bisogni di appartenenza e amore;",
+          "pausa": 0.42
+        }
       ]
     },
     {

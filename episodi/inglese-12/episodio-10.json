@@ -1004,7 +1004,7 @@
     },
     {
       "text": "Immaginate di dover raccontare: \"Sono arrivato alla stazione, ma il treno era già partito\".",
-      "speech": "Immaginate di dover raccontare: \"Sono arrivato alla stazione, ma il treno era già partito\"."
+      "speech": "Immaginate di dover raccontare: Sono arrivato alla stazione, ma il treno era già partito."
     },
     {
       "text": "Qui abbiamo due azioni passate: il mio arrivo alla stazione, e la partenza del treno.",
@@ -1038,7 +1038,8 @@
         },
         {
           "lang": "it",
-          "text": "per l'azione più recente, il mio arrivo;"
+          "text": "per l'azione più recente, il mio arrivo;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1165,7 +1166,8 @@
         },
         {
           "lang": "en",
-          "text": "They were playing football;"
+          "text": "They were playing football;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -1173,7 +1175,8 @@
         },
         {
           "lang": "en",
-          "text": "They weren't playing football;"
+          "text": "They weren't playing football;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -1239,7 +1242,8 @@
         },
         {
           "lang": "en",
-          "text": "She had left before I arrived;"
+          "text": "She had left before I arrived;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -1247,7 +1251,8 @@
         },
         {
           "lang": "en",
-          "text": "She hadn't left before I arrived;"
+          "text": "She hadn't left before I arrived;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -1312,7 +1317,8 @@
         },
         {
           "lang": "en",
-          "text": "past perfect: the teacher had handed out the papers ten minutes before;"
+          "text": "past perfect: the teacher had handed out the papers ten minutes before;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1338,7 +1344,8 @@
         },
         {
           "lang": "en",
-          "text": "past continuous: the students were already writing the test;"
+          "text": "past continuous: the students were already writing the test;",
+          "pausa": 0.42
         }
       ],
       "lingua": [

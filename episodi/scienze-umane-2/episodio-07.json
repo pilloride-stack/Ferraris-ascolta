@@ -42,7 +42,19 @@
     },
     {
       "text": "l'emittente, chi trasmette il messaggio; il destinatario, chi lo riceve;",
-      "speech": "l'emittente, chi trasmette il messaggio; il destinatario, chi lo riceve;"
+      "speech": "l'emittente, chi trasmette il messaggio; il destinatario, chi lo riceve;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "l'emittente, chi trasmette il messaggio;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il destinatario, chi lo riceve;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "il messaggio stesso, cioè il contenuto informativo trasmesso; il canale, il mezzo fisico attraverso cui il messaggio viaggia;",
@@ -56,6 +68,18 @@
           65,
           71
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il messaggio stesso, cioè il contenuto informativo trasmesso;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il canale, il mezzo fisico attraverso cui il messaggio viaggia;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -113,7 +137,7 @@
     },
     {
       "text": "e più utile da citare all'orale: \"non si può non comunicare\".",
-      "speech": "e più utile da citare all'orale: \"non si può non comunicare\".",
+      "speech": "e più utile da citare all'orale: non si può non comunicare.",
       "bold": [
         [
           34,
@@ -158,7 +182,7 @@
     },
     {
       "text": "pensate alla differenza tra dire \"hai sbagliato\" con un tono affettuoso e correttivo, oppure con un tono sprezzante e umiliante.",
-      "speech": "pensate alla differenza tra dire \"hai sbagliato\" con un tono affettuoso e correttivo, oppure con un tono sprezzante e umiliante."
+      "speech": "pensate alla differenza tra dire hai sbagliato con un tono affettuoso e correttivo, oppure con un tono sprezzante e umiliante."
     },
     {
       "text": "Comprendere questa dimensione relazionale della comunicazione è essenziale in tutti i contesti in cui la qualità della relazione tra le persone coinvolte condiziona l'efficacia dello scambio comunicativo stesso,",
@@ -209,7 +233,7 @@
     },
     {
       "text": "Un buon modo per portare questo argomento all'orale è collegare esplicitamente il principio \"non si può non comunicare\" alla dimensione relazionale della comunicazione:",
-      "speech": "Un buon modo per portare questo argomento all'orale è collegare esplicitamente il principio \"non si può non comunicare\" alla dimensione relazionale della comunicazione:",
+      "speech": "Un buon modo per portare questo argomento all'orale è collegare esplicitamente il principio non si può non comunicare alla dimensione relazionale della comunicazione:",
       "p": 1
     },
     {
@@ -242,7 +266,47 @@
           130
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: la comunicazione ha sei elementi costitutivi,"
+        },
+        {
+          "lang": "it",
+          "text": "emittente,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "destinatario,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "messaggio,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "canale,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "codice,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "contesto,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "più il feedback che ne verifica l'efficacia."
+        }
+      ]
     },
     {
       "text": "Secondo: secondo Watzlawick, non si può non comunicare, e ogni comunicazione possiede sia un contenuto sia un aspetto di relazione.",

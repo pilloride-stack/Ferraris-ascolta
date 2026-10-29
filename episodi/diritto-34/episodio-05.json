@@ -214,7 +214,37 @@
           97
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Primo: i diritti reali di godimento,"
+        },
+        {
+          "lang": "it",
+          "text": "superficie,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "usufrutto,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "uso,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "abitazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "servitù ed enfiteusi, attribuiscono facoltà limitate su un bene altrui."
+        }
+      ]
     },
     {
       "text": "Secondo: i diritti reali di garanzia, pegno e ipoteca, attribuiscono al creditore il diritto di soddisfarsi con preferenza sul bene.",

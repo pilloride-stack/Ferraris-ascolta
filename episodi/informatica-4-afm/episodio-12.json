@@ -132,6 +132,18 @@
           70,
           89
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Si distingue tra backup completo, la copia integrale di tutti i dati;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "backup incrementale, la copia solo dei dati modificati dall'ultimo backup, di qualunque tipo esso sia stato;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -217,7 +229,19 @@
     },
     {
       "text": "Le 3 copie sono i dati originali sul server, più 2 copie di backup; i 2 supporti diversi possono essere un disco esterno e un servizio cloud;",
-      "speech": "Le 3 copie sono i dati originali sul server, più 2 copie di backup; i 2 supporti diversi possono essere un disco esterno e un servizio cloud;"
+      "speech": "Le 3 copie sono i dati originali sul server, più 2 copie di backup; i 2 supporti diversi possono essere un disco esterno e un servizio cloud;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le 3 copie sono i dati originali sul server, più 2 copie di backup;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "i 2 supporti diversi possono essere un disco esterno e un servizio cloud;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "e la copia offsite è proprio quella su cloud, fisicamente separata dalla sede aziendale, capace di proteggere i dati anche in caso di incendio o furto in azienda.",

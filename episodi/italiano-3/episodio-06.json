@@ -10,7 +10,7 @@
     },
     {
       "text": "la \"mirabile visione\" finale e la promessa solenne di non scrivere più nulla su Beatrice finché non fosse stato capace di dirne \"quello che mai non fue detto d'alcuna\".",
-      "speech": "la \"mirabile visione\" finale e la promessa solenne di non scrivere più nulla su Beatrice finché non fosse stato capace di dirne \"quello che mai non fue detto d'alcuna\"."
+      "speech": "la mirabile visione finale e la promessa solenne di non scrivere più nulla su Beatrice finché non fosse stato capace di dirne quello che mai non fue detto d'alcuna."
     },
     {
       "text": "Oggi vediamo come quella promessa giovanile si trasforma, più di dieci anni dopo, nell'opera più grande mai scritta in lingua italiana: la Commedia.",
@@ -24,7 +24,7 @@
     },
     {
       "text": "Dante intitola la propria opera semplicemente \"Comedia\" — con questo termine, nel linguaggio medievale, si indicava un'opera che inizia in modo difficile o doloroso e si conclude con un lieto fine,",
-      "speech": "Dante intitola la propria opera semplicemente \"Comedia\" — con questo termine, nel linguaggio medievale, si indicava un'opera che inizia in modo difficile o doloroso e si conclude con un lieto fine,",
+      "speech": "Dante intitola la propria opera semplicemente Comedia — con questo termine, nel linguaggio medievale, si indicava un'opera che inizia in modo difficile o doloroso e si conclude con un lieto fine,",
       "bold": [
         [
           47,
@@ -38,7 +38,7 @@
     },
     {
       "text": "L'aggettivo \"Divina\" non è di Dante: viene aggiunto soltanto nel Cinquecento, per iniziativa dell'editore Ludovico Dolce, proprio per sottolineare la grandezza e la sacralità dell'opera.",
-      "speech": "L'aggettivo \"Divina\" non è di Dante: viene aggiunto soltanto nel Cinquecento, per iniziativa dell'editore Ludovico Dolce, proprio per sottolineare la grandezza e la sacralità dell'opera.",
+      "speech": "L'aggettivo Divina non è di Dante: viene aggiunto soltanto nel Cinquecento, per iniziativa dell'editore Ludovico Dolce, proprio per sottolineare la grandezza e la sacralità dell'opera.",
       "bold": [
         [
           106,
@@ -48,7 +48,7 @@
     },
     {
       "text": "Quando quindi sentite parlare di \"Divina Commedia\" ricordate che si tratta di un titolo che si è imposto solo due secoli e mezzo dopo la sua composizione.",
-      "speech": "Quando quindi sentite parlare di \"Divina Commedia\" ricordate che si tratta di un titolo che si è imposto solo due secoli e mezzo dopo la sua composizione."
+      "speech": "Quando quindi sentite parlare di Divina Commedia ricordate che si tratta di un titolo che si è imposto solo due secoli e mezzo dopo la sua composizione."
     },
     {
       "text": "L'opera viene composta da Dante durante gli anni dell'esilio, tra il 1304 e il 1321, quindi lungo quasi tutto l'arco della sua maturità e vecchiaia, di corte in corte, fino alla morte a Ravenna.",
@@ -226,11 +226,50 @@
           39,
           44
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "poi, nell'ordine, il primo cerchio, il Limbo, per i non battezzati e i grandi spiriti pagani;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il secondo per i lussuriosi;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il terzo per i golosi;",
+          "pausa": 0.42
+        }
       ]
     },
     {
       "text": "il quarto per avari e prodighi; il quinto per iracondi e accidiosi; il sesto per gli eretici; il settimo per i violenti;",
-      "speech": "il quarto per avari e prodighi; il quinto per iracondi e accidiosi; il sesto per gli eretici; il settimo per i violenti;"
+      "speech": "il quarto per avari e prodighi; il quinto per iracondi e accidiosi; il sesto per gli eretici; il settimo per i violenti;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il quarto per avari e prodighi;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il quinto per iracondi e accidiosi;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il sesto per gli eretici;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il settimo per i violenti;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "l'ottavo, chiamato Malebolge, per i fraudolenti; il nono e ultimo, il Cocito, per i traditori, al centro del quale è confitto Lucifero stesso.",
@@ -257,7 +296,7 @@
     },
     {
       "text": "Dante si ritrova, come dice il verso più celebre di tutta la letteratura italiana, \"nel mezzo del cammin di nostra vita\",",
-      "speech": "Dante si ritrova, come dice il verso più celebre di tutta la letteratura italiana, \"nel mezzo del cammin di nostra vita\",",
+      "speech": "Dante si ritrova, come dice il verso più celebre di tutta la letteratura italiana, nel mezzo del cammin di nostra vita,",
       "bold": [
         [
           84,
@@ -267,7 +306,7 @@
     },
     {
       "text": "cioè a trentacinque anni, l'età di mezzo secondo la Bibbia, \"per una selva oscura\", avendo smarrito \"la diritta via\".",
-      "speech": "cioè a trentacinque anni, l'età di mezzo secondo la Bibbia, \"per una selva oscura\", avendo smarrito \"la diritta via\".",
+      "speech": "cioè a trentacinque anni, l'età di mezzo secondo la Bibbia, per una selva oscura, avendo smarrito la diritta via.",
       "bold": [
         [
           7,
@@ -386,7 +425,7 @@
     },
     {
       "text": "\"Io non Enea, io non Paulo sono\", dice, in uno dei versi più diretti e umani di tutto il poema.",
-      "speech": "\"Io non Enea, io non Paulo sono\", dice, in uno dei versi più diretti e umani di tutto il poema.",
+      "speech": "Io non Enea, io non Paulo sono, dice, in uno dei versi più diretti e umani di tutto il poema.",
       "bold": [
         [
           1,
@@ -422,7 +461,7 @@
     },
     {
       "text": "Rinfrancato, Dante può finalmente dire la frase con cui si chiude il canto: \"Tu duca, tu segnore e tu maestro\", e il viaggio comincia davvero.",
-      "speech": "Rinfrancato, Dante può finalmente dire la frase con cui si chiude il canto: \"Tu duca, tu segnore e tu maestro\", e il viaggio comincia davvero.",
+      "speech": "Rinfrancato, Dante può finalmente dire la frase con cui si chiude il canto: Tu duca, tu segnore e tu maestro, e il viaggio comincia davvero.",
       "bold": [
         [
           77,
@@ -441,7 +480,7 @@
     },
     {
       "text": "i versi terminano con \"Lasciate ogne speranza, voi ch'intrate\", \"abbandonate ogni speranza, voi che entrate\" — probabilmente il verso dantesco più citato in assoluto, anche fuori dal contesto letterario.",
-      "speech": "i versi terminano con \"Lasciate ogne speranza, voi ch'intrate\", \"abbandonate ogni speranza, voi che entrate\" — probabilmente il verso dantesco più citato in assoluto, anche fuori dal contesto letterario.",
+      "speech": "i versi terminano con Lasciate ogne speranza, voi ch'intrate, abbandonate ogni speranza, voi che entrate — probabilmente il verso dantesco più citato in assoluto, anche fuori dal contesto letterario.",
       "bold": [
         [
           23,
@@ -455,7 +494,7 @@
     },
     {
       "text": "le anime di coloro che in vita non presero mai posizione, né nel bene né nel male, vivendo \"sanza 'nfamia e sanza lodo\", senza infamia e senza lode.",
-      "speech": "le anime di coloro che in vita non presero mai posizione, né nel bene né nel male, vivendo \"sanza 'nfamia e sanza lodo\", senza infamia e senza lode.",
+      "speech": "le anime di coloro che in vita non presero mai posizione, né nel bene né nel male, vivendo sanza 'nfamia e sanza lodo, senza infamia e senza lode.",
       "bold": [
         [
           92,
@@ -531,7 +570,7 @@
     },
     {
       "text": "Primo: la Commedia, il cui titolo originale non prevede l'aggettivo \"Divina\", aggiunto solo nel Cinquecento,",
-      "speech": "Primo: la Commedia, il cui titolo originale non prevede l'aggettivo \"Divina\", aggiunto solo nel Cinquecento,",
+      "speech": "Primo: la Commedia, il cui titolo originale non prevede l'aggettivo Divina, aggiunto solo nel Cinquecento,",
       "bold": [
         [
           0,
@@ -619,7 +658,19 @@
           61
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Quarto: nel Canto primo Dante si smarrisce nella selva oscura e incontra Virgilio;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "nel Canto secondo supera i propri dubbi grazie al racconto dell'intercessione di Maria, Lucia e Beatrice;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "nel Canto terzo attraversa la porta dell'Inferno, incontra gli ignavi — primo esempio di contrappasso — e raggiunge l'Acheronte, dove Caronte traghetta le anime.",

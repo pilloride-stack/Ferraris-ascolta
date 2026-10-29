@@ -74,6 +74,23 @@
           160,
           166
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "I dati vengono acquisiti, cioè l'input;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "vengono elaborati secondo un programma, cioè l'elaborazione vera e propria;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "e vengono restituiti come risultato, cioè l'output.",
+          "pausa": 0.2
+        }
       ]
     },
     {
@@ -165,7 +182,7 @@
     },
     {
       "text": "in Italia, il D.Lgs. 81/2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, impone il rispetto dei principi ergonomici nell'organizzazione delle postazioni di lavoro dotate di videoterminali,",
-      "speech": "in Italia, il D.Lgs. 81 del 2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, impone il rispetto dei principi ergonomici nell'organizzazione delle postazioni di lavoro dotate di videoterminali,",
+      "speech": "in Italia, il decreto legislativo 81 del 2008, il Testo Unico sulla sicurezza nei luoghi di lavoro, impone il rispetto dei principi ergonomici nell'organizzazione delle postazioni di lavoro dotate di videoterminali,",
       "bold": [
         [
           14,
@@ -247,7 +264,7 @@
     },
     {
       "text": "Terzo: l'ergonomia della postazione di lavoro previene disturbi fisici ed è disciplinata in Italia dal D.Lgs. 81/2008.",
-      "speech": "Terzo: l'ergonomia della postazione di lavoro previene disturbi fisici ed è disciplinata in Italia dal D.Lgs. 81 del 2008.",
+      "speech": "Terzo: l'ergonomia della postazione di lavoro previene disturbi fisici ed è disciplinata in Italia dal decreto legislativo 81 del 2008.",
       "bold": [
         [
           0,

@@ -30,7 +30,37 @@
           176
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "I computer rappresentano ed elaborano ogni tipo di informazione,"
+        },
+        {
+          "lang": "it",
+          "text": "numeri,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "testo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "immagini,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "suoni,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "utilizzando il sistema binario, un sistema di numerazione posizionale in base 2 che utilizza solo due simboli, 0 e 1."
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento su una domanda che vale la pena saper argomentare con precisione, perché è probabilmente la più richiesta su questo argomento:",
@@ -102,6 +132,23 @@
           84,
           92
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il megabyte, circa un milione di byte;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il gigabyte, circa un miliardo di byte;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "e il terabyte, circa mille miliardi di byte.",
+          "pausa": 0.2
+        }
       ]
     },
     {
@@ -156,6 +203,28 @@
           29,
           31
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Prendiamo il numero decimale 13: tredici diviso due fa sei, resto uno;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "sei diviso due fa tre, resto zero;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "tre diviso due fa uno, resto uno;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "uno diviso due fa zero, resto uno.",
+          "pausa": 0.2
+        }
       ]
     },
     {

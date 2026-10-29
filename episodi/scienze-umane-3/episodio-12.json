@@ -109,7 +109,7 @@
     },
     {
       "text": "Ricordate i fatti sociali trattati \"come cose\", e i quattro tipi di suicidio, egoistico, altruistico, anomico, fatalistico, legati al grado di integrazione sociale.",
-      "speech": "Ricordate i fatti sociali trattati \"come cose\", e i quattro tipi di suicidio, egoistico, altruistico, anomico, fatalistico, legati al grado di integrazione sociale.",
+      "speech": "Ricordate i fatti sociali trattati come cose, e i quattro tipi di suicidio, egoistico, altruistico, anomico, fatalistico, legati al grado di integrazione sociale.",
       "bold": [
         [
           36,
@@ -119,6 +119,36 @@
           78,
           122
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ricordate i fatti sociali trattati come cose, e i quattro tipi di suicidio,"
+        },
+        {
+          "lang": "it",
+          "text": "egoistico,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "altruistico,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "anomico,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "fatalistico,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "legati al grado di integrazione sociale."
+        }
       ]
     },
     {
@@ -173,7 +203,7 @@
     },
     {
       "text": "Fate riferimento anche a \"L'etica protestante e lo spirito del capitalismo\".",
-      "speech": "Fate riferimento anche a \"L'etica protestante e lo spirito del capitalismo\"."
+      "speech": "Fate riferimento anche a L'etica protestante e lo spirito del capitalismo."
     },
     {
       "text": "Definite il tipo ideale come costruzione concettuale astratta, e ricordate il ruolo dei valori calvinisti nello sviluppo del capitalismo.",
@@ -267,7 +297,7 @@
     },
     {
       "text": "Ricordate Tylor e Morgan, la scala evolutiva unilineare da \"selvaggio\" a \"civiltà\", e il limite etnocentrico ed eurocentrico di questo impianto.",
-      "speech": "Ricordate Tylor e Morgan, la scala evolutiva unilineare da \"selvaggio\" a \"civiltà\", e il limite etnocentrico ed eurocentrico di questo impianto.",
+      "speech": "Ricordate Tylor e Morgan, la scala evolutiva unilineare da selvaggio a civiltà, e il limite etnocentrico ed eurocentrico di questo impianto.",
       "bold": [
         [
           10,
@@ -309,7 +339,7 @@
     },
     {
       "text": "Ricordate \"L'adolescenza in Samoa\" e la tesi del peso della cultura sulla biologia.",
-      "speech": "Ricordate \"L'adolescenza in Samoa\" e la tesi del peso della cultura sulla biologia.",
+      "speech": "Ricordate L'adolescenza in Samoa e la tesi del peso della cultura sulla biologia.",
       "bold": [
         [
           11,
@@ -388,7 +418,37 @@
     },
     {
       "text": "Ventesima e ultima domanda: descrivete le principali tecniche di raccolta dei dati, osservazione, intervista, questionario, esperimento, studio di caso.",
-      "speech": "Ventesima e ultima domanda: descrivete le principali tecniche di raccolta dei dati, osservazione, intervista, questionario, esperimento, studio di caso."
+      "speech": "Ventesima e ultima domanda: descrivete le principali tecniche di raccolta dei dati, osservazione, intervista, questionario, esperimento, studio di caso.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ventesima e ultima domanda: descrivete le principali tecniche di raccolta dei dati,"
+        },
+        {
+          "lang": "it",
+          "text": "osservazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "intervista,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "questionario,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "esperimento,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "studio di caso."
+        }
+      ]
     },
     {
       "text": "Ricordate le caratteristiche di ciascuna tecnica e il tipo di dati che produce.",

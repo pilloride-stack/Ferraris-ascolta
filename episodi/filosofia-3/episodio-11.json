@@ -93,7 +93,59 @@
     },
     {
       "text": "sostanza, quantità, qualità, relazione, luogo, tempo, posizione, avere, agire, subire.",
-      "speech": "sostanza, quantità, qualità, relazione, luogo, tempo, posizione, avere, agire, subire."
+      "speech": "sostanza, quantità, qualità, relazione, luogo, tempo, posizione, avere, agire, subire.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "sostanza,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "quantità,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "qualità,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "relazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "luogo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "tempo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "posizione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "avere,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "agire,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "subire.",
+          "pausa": 0.32
+        }
+      ]
     },
     {
       "text": "La categoria fondamentale è la sostanza, ciò che esiste in sé, mentre tutte le altre nove sono accidenti, che esistono solo in altro, cioè in una sostanza.",

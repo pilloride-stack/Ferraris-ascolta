@@ -90,6 +90,18 @@
           69,
           84
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Tra i formati multimediali digitali più comuni, per l'audio troviamo MP3, WAV e FLAC;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "per le immagini JPEG, PNG e GIF;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -149,7 +161,29 @@
     },
     {
       "text": "Windows, finestre; Icons, icone; Menus, menu; Pointer, puntatore.",
-      "speech": "Windows, finestre; Icons, icone; Menus, menu; Pointer, puntatore."
+      "speech": "Windows, finestre; Icons, icone; Menus, menu; Pointer, puntatore.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Windows, finestre;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Icons, icone;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Menus, menu;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Pointer, puntatore.",
+          "pausa": 0.2
+        }
+      ]
     },
     {
       "text": "Fermatevi un momento su un'evoluzione più recente di questo concetto, perché è un ottimo collegamento con la tecnologia che quasi certamente state usando in questo momento:",

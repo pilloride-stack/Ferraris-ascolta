@@ -205,6 +205,32 @@
           2,
           10
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'intranet è una rete privata aziendale che utilizza le stesse tecnologie di Internet,"
+        },
+        {
+          "lang": "it",
+          "text": "protocollo TCP,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "IP,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "browser,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "pagine web,",
+          "pausa": 0.32
+        }
       ]
     },
     {
@@ -236,7 +262,19 @@
     },
     {
       "text": "Internet è pubblico e accessibile a chiunque; l'intranet è riservato al solo personale interno;",
-      "speech": "Internet è pubblico e accessibile a chiunque; l'intranet è riservato al solo personale interno;"
+      "speech": "Internet è pubblico e accessibile a chiunque; l'intranet è riservato al solo personale interno;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Internet è pubblico e accessibile a chiunque;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "l'intranet è riservato al solo personale interno;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "l'extranet, infine, si colloca a metà strada, estendendo un accesso controllato anche a soggetti esterni ma autorizzati,",

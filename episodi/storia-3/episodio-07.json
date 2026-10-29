@@ -63,7 +63,37 @@
     },
     {
       "text": "La storia reale non conosce cesure nette e improvvise, ma trasformazioni graduali, economiche, sociali, culturali, religiose, che si sono sviluppate lungo tutto il corso del Quattrocento e proseguiranno ben oltre il 1492.",
-      "speech": "La storia reale non conosce cesure nette e improvvise, ma trasformazioni graduali, economiche, sociali, culturali, religiose, che si sono sviluppate lungo tutto il corso del Quattrocento e proseguiranno ben oltre il 1492."
+      "speech": "La storia reale non conosce cesure nette e improvvise, ma trasformazioni graduali, economiche, sociali, culturali, religiose, che si sono sviluppate lungo tutto il corso del Quattrocento e proseguiranno ben oltre il 1492.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La storia reale non conosce cesure nette e improvvise, ma trasformazioni graduali,"
+        },
+        {
+          "lang": "it",
+          "text": "economiche,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "sociali,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "culturali,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "religiose,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "che si sono sviluppate lungo tutto il corso del Quattrocento e proseguiranno ben oltre il 1492."
+        }
+      ]
     },
     {
       "text": "La periodizzazione resta comunque utile come strumento didattico, per distinguere fasi storiche caratterizzate da tendenze prevalenti diverse:",

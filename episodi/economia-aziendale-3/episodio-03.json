@@ -103,7 +103,29 @@
     },
     {
       "text": "Un'azienda vende la merce che produce; ottiene un prestito da una banca; affitta un capannone che non usa più; vende un vecchio fabbricato realizzando una plusvalenza.",
-      "speech": "Un'azienda vende la merce che produce; ottiene un prestito da una banca; affitta un capannone che non usa più; vende un vecchio fabbricato realizzando una plusvalenza."
+      "speech": "Un'azienda vende la merce che produce; ottiene un prestito da una banca; affitta un capannone che non usa più; vende un vecchio fabbricato realizzando una plusvalenza.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un'azienda vende la merce che produce;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "ottiene un prestito da una banca;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "affitta un capannone che non usa più;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "vende un vecchio fabbricato realizzando una plusvalenza.",
+          "pausa": 0.2
+        }
+      ]
     },
     {
       "text": "La vendita della merce prodotta appartiene alla gestione caratteristica, perché è l'attività tipica dell'azienda.",

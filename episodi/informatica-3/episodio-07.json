@@ -20,7 +20,7 @@
     },
     {
       "text": "Quali obblighi impone il D.Lgs. 81/2008 al datore di lavoro per chi lavora al videoterminale?",
-      "speech": "Quali obblighi impone il D.Lgs. 81 del 2008 al datore di lavoro per chi lavora al videoterminale?"
+      "speech": "Quali obblighi impone il decreto legislativo 81 del 2008 al datore di lavoro per chi lavora al videoterminale?"
     },
     {
       "text": "Quattro obblighi precisi: la valutazione dei rischi specifici della postazione, l'organizzazione di pause regolari o cambi di attività, la sorveglianza sanitaria periodica da parte del medico competente,",
@@ -189,6 +189,18 @@
           64,
           84
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La progettazione concettuale, indipendente dalla tecnologia;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "la progettazione logica, che individua un modello specifico, tipicamente quello relazionale;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -239,6 +251,18 @@
           38,
           52
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le tabelle, che memorizzano i dati in record e campi;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "le query, che li interrogano e li filtrano;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -276,6 +300,18 @@
           52,
           58
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il router, che instrada i dati tra reti diverse;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "lo switch, che smista il traffico all'interno di una stessa rete locale;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -314,6 +350,18 @@
           34,
           43
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Virus e malware, contrastati dall'antivirus;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "ransomware, contrastato soprattutto dai backup periodici;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -356,6 +404,18 @@
           48,
           56
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Internet è pubblico e accessibile a chiunque;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "l'intranet è riservato al personale interno dell'organizzazione;",
+          "pausa": 0.42
+        }
       ]
     },
     {

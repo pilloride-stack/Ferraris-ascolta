@@ -207,7 +207,7 @@
     },
     {
       "text": "Whose indica il possesso, ed è l'equivalente del nostro \"il cui\", \"la cui\":",
-      "speech": "Whose indica il possesso, ed è l'equivalente del nostro \"il cui\", \"la cui\":",
+      "speech": "Whose indica il possesso, ed è l'equivalente del nostro il cui, la cui:",
       "bold": [
         [
           0,
@@ -229,7 +229,7 @@
         },
         {
           "lang": "it",
-          "text": "indica il possesso, ed è l'equivalente del nostro \"il cui\", \"la cui\":"
+          "text": "indica il possesso, ed è l'equivalente del nostro il cui, la cui:"
         }
       ],
       "lingua": [
@@ -718,7 +718,8 @@
         },
         {
           "lang": "it",
-          "text": "ha i capelli lunghi e ricci e gli occhi marroni;"
+          "text": "ha i capelli lunghi e ricci e gli occhi marroni;",
+          "pausa": 0.42
         },
         {
           "lang": "en",
@@ -935,7 +936,8 @@
         },
         {
           "lang": "it",
-          "text": "studierò all'estero il prossimo anno, un piano già deciso;"
+          "text": "studierò all'estero il prossimo anno, un piano già deciso;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1033,7 +1035,8 @@
         },
         {
           "lang": "it",
-          "text": "probabilmente i robot faranno la maggior parte dei lavori in futuro;"
+          "text": "probabilmente i robot faranno la maggior parte dei lavori in futuro;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1204,7 +1207,8 @@
         },
         {
           "lang": "it",
-          "text": "lavora come medico, insegnante, ingegnere, avvocato;"
+          "text": "lavora come medico, insegnante, ingegnere, avvocato;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1589,7 +1593,7 @@
     },
     {
       "text": "Sui numerabili e non numerabili: la domanda da porsi è sempre \"posso contarlo singolarmente?\"",
-      "speech": "Sui numerabili e non numerabili: la domanda da porsi è sempre \"posso contarlo singolarmente?\"",
+      "speech": "Sui numerabili e non numerabili: la domanda da porsi è sempre posso contarlo singolarmente?",
       "bold": [
         [
           4,

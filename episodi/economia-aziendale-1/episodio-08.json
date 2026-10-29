@@ -164,7 +164,19 @@
     },
     {
       "text": "L'IVA sugli acquisti sarebbe di centodieci euro, cinquecento per il ventidue per cento; l'IVA sulle vendite sarebbe di centosettantasei euro, ottocento per il ventidue per cento;",
-      "speech": "L'IVA sugli acquisti sarebbe di centodieci euro, cinquecento per il ventidue per cento; l'IVA sulle vendite sarebbe di centosettantasei euro, ottocento per il ventidue per cento;"
+      "speech": "L'IVA sugli acquisti sarebbe di centodieci euro, cinquecento per il ventidue per cento; l'IVA sulle vendite sarebbe di centosettantasei euro, ottocento per il ventidue per cento;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'IVA sugli acquisti sarebbe di centodieci euro, cinquecento per il ventidue per cento;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "l'IVA sulle vendite sarebbe di centosettantasei euro, ottocento per il ventidue per cento;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "l'azienda verserebbe allo Stato solo la differenza, cioè sessantasei euro, detraendo l'IVA già pagata sui propri acquisti da quella incassata sulle proprie vendite.",

@@ -128,6 +128,41 @@
           144,
           154
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ricordate le tre istanze e il principio che ciascuna segue, e le cinque fasi,"
+        },
+        {
+          "lang": "it",
+          "text": "orale,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "anale,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "fallica,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "latenza,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "genitale,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "con il meccanismo della fissazione."
+        }
       ]
     },
     {
@@ -151,7 +186,7 @@
     },
     {
       "text": "Ottava domanda: in che senso l'essere umano è \"programmato\" per il linguaggio?",
-      "speech": "Ottava domanda: in che senso l'essere umano è \"programmato\" per il linguaggio?"
+      "speech": "Ottava domanda: in che senso l'essere umano è programmato per il linguaggio?"
     },
     {
       "text": "Spiegate l'ipotesi di Chomsky sul dispositivo di acquisizione del linguaggio, innato e biologicamente predisposto, che spiega la somiglianza delle tappe di sviluppo linguistico in tutte le culture.",
@@ -170,7 +205,38 @@
     {
       "text": "Nona domanda: descrivete gli elementi di base del linguaggio verbale, fonetica, morfologia, sintassi, semantica, pragmatica.",
       "speech": "Nona domanda: descrivete gli elementi di base del linguaggio verbale, fonetica, morfologia, sintassi, semantica, pragmatica.",
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nona domanda: descrivete gli elementi di base del linguaggio verbale,"
+        },
+        {
+          "lang": "it",
+          "text": "fonetica,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "morfologia,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "sintassi,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "semantica,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "pragmatica.",
+          "pausa": 0.32
+        }
+      ]
     },
     {
       "text": "Spiegate ciascun livello con un esempio, dai suoni linguistici fino all'uso concreto del linguaggio in un contesto comunicativo reale.",
@@ -192,11 +258,42 @@
     },
     {
       "text": "Elencate emittente, destinatario, messaggio, canale, codice, contesto e feedback.",
-      "speech": "Elencate emittente, destinatario, messaggio, canale, codice, contesto e feedback."
+      "speech": "Elencate emittente, destinatario, messaggio, canale, codice, contesto e feedback.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Elencate emittente,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "destinatario,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "messaggio,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "canale,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "codice,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "contesto e feedback."
+        }
+      ]
     },
     {
       "text": "Dodicesima domanda: spiegate il principio secondo cui \"non si può non comunicare\" e la dimensione relazionale della comunicazione.",
-      "speech": "Dodicesima domanda: spiegate il principio secondo cui \"non si può non comunicare\" e la dimensione relazionale della comunicazione.",
+      "speech": "Dodicesima domanda: spiegate il principio secondo cui non si può non comunicare e la dimensione relazionale della comunicazione.",
       "p": 1
     },
     {

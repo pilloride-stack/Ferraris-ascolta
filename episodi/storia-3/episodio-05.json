@@ -46,7 +46,7 @@
     },
     {
       "text": "In Francia, uscita rafforzata dalla guerra dei Cent'anni come abbiamo visto nell'episodio precedente, la monarchia completa la propria opera di accentramento sotto Luigi XI,",
-      "speech": "In Francia, uscita rafforzata dalla guerra dei Cent'anni come abbiamo visto nell'episodio precedente, la monarchia completa la propria opera di accentramento sotto Luigi XI,",
+      "speech": "In Francia, uscita rafforzata dalla guerra dei Cent'anni come abbiamo visto nell'episodio precedente, la monarchia completa la propria opera di accentramento sotto Luigi undicesimo,",
       "bold": [
         [
           164,
@@ -82,7 +82,7 @@
     },
     {
       "text": "combattuta dal 1455 al 1485 tra le casate rivali di Lancaster e York, sale al trono nel 1485 Enrico VII Tudor, che fonda una nuova dinastia, i Tudor appunto,",
-      "speech": "combattuta dal 1455 al 1485 tra le casate rivali di Lancaster e York, sale al trono nel 1485 Enrico VII Tudor, che fonda una nuova dinastia, i Tudor appunto,",
+      "speech": "combattuta dal 1455 al 1485 tra le casate rivali di Lancaster e York, sale al trono nel 1485 Enrico settimo Tudor, che fonda una nuova dinastia, i Tudor appunto,",
       "bold": [
         [
           52,
@@ -100,7 +100,7 @@
     },
     {
       "text": "Sarà proprio la dinastia Tudor, come vedremo più avanti nel modulo parlando di Enrico VIII, a guidare l'Inghilterra attraverso la Riforma protestante.",
-      "speech": "Sarà proprio la dinastia Tudor, come vedremo più avanti nel modulo parlando di Enrico VIII, a guidare l'Inghilterra attraverso la Riforma protestante."
+      "speech": "Sarà proprio la dinastia Tudor, come vedremo più avanti nel modulo parlando di Enrico ottavo, a guidare l'Inghilterra attraverso la Riforma protestante."
     },
     {
       "text": "In Spagna, infine, il processo passa attraverso un'unione dinastica:",
@@ -156,11 +156,11 @@
     },
     {
       "text": "la Francia si consolida sconfiggendo l'ultimo grande feudatario, Carlo il Temerario di Borgogna, sotto Luigi XI;",
-      "speech": "la Francia si consolida sconfiggendo l'ultimo grande feudatario, Carlo il Temerario di Borgogna, sotto Luigi XI;"
+      "speech": "la Francia si consolida sconfiggendo l'ultimo grande feudatario, Carlo il Temerario di Borgogna, sotto Luigi undicesimo;"
     },
     {
       "text": "l'Inghilterra si consolida con la fine della guerra delle Due Rose e l'avvento di una nuova dinastia, quella dei Tudor con Enrico VII;",
-      "speech": "l'Inghilterra si consolida con la fine della guerra delle Due Rose e l'avvento di una nuova dinastia, quella dei Tudor con Enrico VII;",
+      "speech": "l'Inghilterra si consolida con la fine della guerra delle Due Rose e l'avvento di una nuova dinastia, quella dei Tudor con Enrico settimo;",
       "bold": [
         [
           113,
@@ -213,14 +213,26 @@
     },
     {
       "text": "Secondo: in Francia questo avviene con la sconfitta di Carlo il Temerario sotto Luigi XI; in Inghilterra con la fine della guerra delle Due Rose e l'ascesa dei Tudor con Enrico VII;",
-      "speech": "Secondo: in Francia questo avviene con la sconfitta di Carlo il Temerario sotto Luigi XI; in Inghilterra con la fine della guerra delle Due Rose e l'ascesa dei Tudor con Enrico VII;",
+      "speech": "Secondo: in Francia questo avviene con la sconfitta di Carlo il Temerario sotto Luigi undicesimo; in Inghilterra con la fine della guerra delle Due Rose e l'ascesa dei Tudor con Enrico settimo;",
       "bold": [
         [
           0,
           7
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: in Francia questo avviene con la sconfitta di Carlo il Temerario sotto Luigi undicesimo;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "in Inghilterra con la fine della guerra delle Due Rose e l'ascesa dei Tudor con Enrico settimo;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "in Spagna con l'unione dinastica di Ferdinando e Isabella e la conclusione della Reconquista nel 1492.",

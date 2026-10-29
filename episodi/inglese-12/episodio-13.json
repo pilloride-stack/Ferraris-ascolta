@@ -179,7 +179,7 @@
     },
     {
       "text": "«If you heat water, it boils», se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\".",
-      "speech": "If you heat water, it boils, se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\".",
+      "speech": "If you heat water, it boils, se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a quando più che a se.",
       "bold": [
         [
           1,
@@ -193,7 +193,7 @@
         },
         {
           "lang": "it",
-          "text": "se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a \"quando\" più che a \"se\"."
+          "text": "se riscaldi l'acqua, bolle: è sempre vero, in ogni momento, non si tratta di un'ipotesi ma di una regola generale, quasi equivalente, nella logica, a quando più che a se."
         }
       ],
       "lingua": [
@@ -330,7 +330,7 @@
     },
     {
       "text": "«If it rains, I will stay home», se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il present simple, non will.",
-      "speech": "If it rains, I will stay home, se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il present simple, non will.",
+      "speech": "If it rains, I will stay home, se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del se usiamo il present simple, non will.",
       "bold": [
         [
           1,
@@ -352,7 +352,7 @@
         },
         {
           "lang": "it",
-          "text": "se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del \"se\" usiamo il"
+          "text": "se piove, resterò a casa: è una condizione realistica, possibile, riferita al futuro, e infatti nella parte del se usiamo il"
         },
         {
           "lang": "en",
@@ -528,7 +528,7 @@
     },
     {
       "text": "È un concetto che in italiano corrisponde grosso modo al nostro congiuntivo imperfetto più condizionale — \"se vincessi... viaggerei\" —",
-      "speech": "È un concetto che in italiano corrisponde grosso modo al nostro congiuntivo imperfetto più condizionale — \"se vincessi... viaggerei\" —",
+      "speech": "È un concetto che in italiano corrisponde grosso modo al nostro congiuntivo imperfetto più condizionale — se vincessi... viaggerei —",
       "bold": [
         [
           64,
@@ -716,7 +716,8 @@
         },
         {
           "lang": "it",
-          "text": "per le verità generali;"
+          "text": "per le verità generali;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -786,7 +787,8 @@
         },
         {
           "lang": "it",
-          "text": "per l'irrealtà nel presente o nel futuro;"
+          "text": "per l'irrealtà nel presente o nel futuro;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -856,12 +858,24 @@
     },
     {
       "text": "Un buon modo per ricordare la progressione è pensare al grado di \"distanza dalla realtà\": lo zero non ha alcuna distanza, è sempre vero; il primo ha poca distanza, è realisticamente possibile;",
-      "speech": "Un buon modo per ricordare la progressione è pensare al grado di \"distanza dalla realtà\": lo zero non ha alcuna distanza, è sempre vero; il primo ha poca distanza, è realisticamente possibile;",
+      "speech": "Un buon modo per ricordare la progressione è pensare al grado di distanza dalla realtà: lo zero non ha alcuna distanza, è sempre vero; il primo ha poca distanza, è realisticamente possibile;",
       "bold": [
         [
           66,
           87
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Un buon modo per ricordare la progressione è pensare al grado di distanza dalla realtà: lo zero non ha alcuna distanza, è sempre vero;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il primo ha poca distanza, è realisticamente possibile;",
+          "pausa": 0.42
+        }
       ]
     },
     {

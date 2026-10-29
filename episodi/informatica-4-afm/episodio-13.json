@@ -152,7 +152,7 @@
     },
     {
       "text": "il linguaggio lato server, come PHP, Python, Java o C#, viene eseguito sul server e gestisce la logica applicativa e l'accesso ai dati.",
-      "speech": "il linguaggio lato server, come PHP, Python, Java o C#, viene eseguito sul server e gestisce la logica applicativa e l'accesso ai dati.",
+      "speech": "il linguaggio lato server, come PHP, Python, Java o C sharp, viene eseguito sul server e gestisce la logica applicativa e l'accesso ai dati.",
       "bold": [
         [
           14,
@@ -405,6 +405,28 @@
           120,
           130
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Correttiva, per risolvere errori;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "evolutiva, per aggiungere funzionalità;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "adattativa, per adeguarsi a nuovi ambienti;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "e perfettiva, per migliorare prestazioni e usabilità.",
+          "pausa": 0.2
+        }
       ]
     },
     {

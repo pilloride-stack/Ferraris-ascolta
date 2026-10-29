@@ -322,7 +322,37 @@
     {
       "text": "Nel prossimo episodio vediamo i contratti tipici: vendita, permuta, locazione, comodato, mutuo, opera e donazione.",
       "speech": "Nel prossimo episodio vediamo i contratti tipici: vendita, permuta, locazione, comodato, mutuo, opera e donazione.",
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel prossimo episodio vediamo i contratti tipici: vendita,"
+        },
+        {
+          "lang": "it",
+          "text": "permuta,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "locazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "comodato,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "mutuo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "opera e donazione."
+        }
+      ]
     },
     {
       "text": "Ci vediamo lì.",

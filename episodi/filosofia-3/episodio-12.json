@@ -213,7 +213,19 @@
     },
     {
       "text": "La causa materiale è il legno di cui il tavolo è fatto; la causa formale è la forma specifica del tavolo, la struttura che lo rende riconoscibile come tale rispetto a un semplice pezzo di legno grezzo;",
-      "speech": "La causa materiale è il legno di cui il tavolo è fatto; la causa formale è la forma specifica del tavolo, la struttura che lo rende riconoscibile come tale rispetto a un semplice pezzo di legno grezzo;"
+      "speech": "La causa materiale è il legno di cui il tavolo è fatto; la causa formale è la forma specifica del tavolo, la struttura che lo rende riconoscibile come tale rispetto a un semplice pezzo di legno grezzo;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La causa materiale è il legno di cui il tavolo è fatto;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "la causa formale è la forma specifica del tavolo, la struttura che lo rende riconoscibile come tale rispetto a un semplice pezzo di legno grezzo;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "la causa efficiente è il falegname, che con il proprio lavoro trasforma il legno grezzo nella forma del tavolo;",

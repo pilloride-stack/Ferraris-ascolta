@@ -53,8 +53,8 @@
       ]
     },
     {
-      "text": "Al cuore di tutta l'opera troviamo quello che i critici chiamano il \"dissidio tassiano\": un contrasto continuo, che attraversa letteralmente ogni canto del poema, tra il dovere — la guerra santa, la disciplina militare, l'obbedienza al fine collettivo della crociata — e il sentimento, cioè l'amore, l'avventura individuale, le passioni personali, che continuamente insidiano e ritardano il compimento della missione sacra.",
-      "speech": "Al cuore di tutta l'opera troviamo quello che i critici chiamano il \"dissidio tassiano\": un contrasto continuo, che attraversa letteralmente ogni canto del poema, tra il dovere — la guerra santa, la disciplina militare, l'obbedienza al fine collettivo della crociata — e il sentimento, cioè l'amore, l'avventura individuale, le passioni personali, che continuamente insidiano e ritardano il compimento della missione sacra.",
+      "text": "Al cuore di tutta l'opera troviamo quello che i critici chiamano il \"dissidio tassiano\":",
+      "speech": "Al cuore di tutta l'opera troviamo quello che i critici chiamano il dissidio tassiano:",
       "bold": [
         [
           69,
@@ -62,6 +62,14 @@
         ]
       ],
       "p": 1
+    },
+    {
+      "text": "un contrasto continuo, che attraversa letteralmente ogni canto del poema, tra il dovere — la guerra santa, la disciplina militare, l'obbedienza al fine collettivo della crociata —",
+      "speech": "un contrasto continuo, che attraversa letteralmente ogni canto del poema, tra il dovere — la guerra santa, la disciplina militare, l'obbedienza al fine collettivo della crociata —"
+    },
+    {
+      "text": "e il sentimento, cioè l'amore, l'avventura individuale, le passioni personali, che continuamente insidiano e ritardano il compimento della missione sacra.",
+      "speech": "e il sentimento, cioè l'amore, l'avventura individuale, le passioni personali, che continuamente insidiano e ritardano il compimento della missione sacra."
     },
     {
       "text": "Non è difficile riconoscere, in questo dissidio, un riflesso diretto della stessa lacerazione interiore che avevamo visto animare la biografia di Tasso.",
@@ -83,18 +91,28 @@
       ]
     },
     {
-      "text": "Rinaldo e Tancredi sono invece i due cavalieri più autenticamente \"umani\" di tutto il poema, travolti da amori e passioni individuali che li allontanano temporaneamente dalla missione collettiva: Rinaldo viene sedotto dalla maga Armida nel suo giardino incantato, un luogo di piacere che lo distoglie a lungo dalla guerra; Tancredi si innamora invece della guerriera pagana Clorinda, un amore destinato a un esito tragico.",
-      "speech": "Rinaldo e Tancredi sono invece i due cavalieri più autenticamente \"umani\" di tutto il poema, travolti da amori e passioni individuali che li allontanano temporaneamente dalla missione collettiva: Rinaldo viene sedotto dalla maga Armida nel suo giardino incantato, un luogo di piacere che lo distoglie a lungo dalla guerra; Tancredi si innamora invece della guerriera pagana Clorinda, un amore destinato a un esito tragico.",
+      "text": "Rinaldo e Tancredi sono invece i due cavalieri più autenticamente \"umani\" di tutto il poema, travolti da amori e passioni individuali che li allontanano temporaneamente dalla missione collettiva:",
+      "speech": "Rinaldo e Tancredi sono invece i due cavalieri più autenticamente umani di tutto il poema, travolti da amori e passioni individuali che li allontanano temporaneamente dalla missione collettiva:",
       "bold": [
         [
           0,
           18
-        ],
-        [
-          229,
-          235
         ]
       ]
+    },
+    {
+      "text": "Rinaldo viene sedotto dalla maga Armida nel suo giardino incantato, un luogo di piacere che lo distoglie a lungo dalla guerra;",
+      "speech": "Rinaldo viene sedotto dalla maga Armida nel suo giardino incantato, un luogo di piacere che lo distoglie a lungo dalla guerra;",
+      "bold": [
+        [
+          33,
+          39
+        ]
+      ]
+    },
+    {
+      "text": "Tancredi si innamora invece della guerriera pagana Clorinda, un amore destinato a un esito tragico.",
+      "speech": "Tancredi si innamora invece della guerriera pagana Clorinda, un amore destinato a un esito tragico."
     },
     {
       "text": "Le due grandi figure femminili del poema meritano un discorso a parte.",
@@ -122,8 +140,8 @@
       ]
     },
     {
-      "text": "È esattamente questo l'episodio più celebre e più patetico di tutto il poema, narrato nel canto dodicesimo: Tancredi colpisce a morte Clorinda senza sapere chi sia, e solo in punto di morte lei gli chiede il battesimo, che il cavaliere, ormai disperato per l'orrore di ciò che ha compiuto, le amministra con le proprie stesse mani.",
-      "speech": "È esattamente questo l'episodio più celebre e più patetico di tutto il poema, narrato nel canto dodicesimo: Tancredi colpisce a morte Clorinda senza sapere chi sia, e solo in punto di morte lei gli chiede il battesimo, che il cavaliere, ormai disperato per l'orrore di ciò che ha compiuto, le amministra con le proprie stesse mani.",
+      "text": "È esattamente questo l'episodio più celebre e più patetico di tutto il poema, narrato nel canto dodicesimo:",
+      "speech": "È esattamente questo l'episodio più celebre e più patetico di tutto il poema, narrato nel canto dodicesimo:",
       "bold": [
         [
           90,
@@ -132,8 +150,12 @@
       ]
     },
     {
-      "text": "Un altro episodio spesso ricordato è quello di Sofronia e Olindo, nel secondo canto: due giovani cristiani si accusano a vicenda, davanti alle autorità pagane, di un furto in realtà mai commesso, ciascuno pur di salvare l'altro e proteggere la comunità cristiana dalla rappresaglia, pronti al sacrificio estremo di sé.",
-      "speech": "Un altro episodio spesso ricordato è quello di Sofronia e Olindo, nel secondo canto: due giovani cristiani si accusano a vicenda, davanti alle autorità pagane, di un furto in realtà mai commesso, ciascuno pur di salvare l'altro e proteggere la comunità cristiana dalla rappresaglia, pronti al sacrificio estremo di sé.",
+      "text": "Tancredi colpisce a morte Clorinda senza sapere chi sia, e solo in punto di morte lei gli chiede il battesimo, che il cavaliere, ormai disperato per l'orrore di ciò che ha compiuto, le amministra con le proprie stesse mani.",
+      "speech": "Tancredi colpisce a morte Clorinda senza sapere chi sia, e solo in punto di morte lei gli chiede il battesimo, che il cavaliere, ormai disperato per l'orrore di ciò che ha compiuto, le amministra con le proprie stesse mani."
+    },
+    {
+      "text": "Un altro episodio spesso ricordato è quello di Sofronia e Olindo, nel secondo canto:",
+      "speech": "Un altro episodio spesso ricordato è quello di Sofronia e Olindo, nel secondo canto:",
       "bold": [
         [
           47,
@@ -143,19 +165,31 @@
       "p": 1
     },
     {
+      "text": "due giovani cristiani si accusano a vicenda, davanti alle autorità pagane, di un furto in realtà mai commesso, ciascuno pur di salvare l'altro e proteggere la comunità cristiana dalla rappresaglia, pronti al sacrificio estremo di sé.",
+      "speech": "due giovani cristiani si accusano a vicenda, davanti alle autorità pagane, di un furto in realtà mai commesso, ciascuno pur di salvare l'altro e proteggere la comunità cristiana dalla rappresaglia, pronti al sacrificio estremo di sé."
+    },
+    {
       "text": "È un episodio che mette in scena, in forma quasi esemplare, l'ideale della carità cristiana e di un amore capace di superare persino la paura della morte.",
       "speech": "È un episodio che mette in scena, in forma quasi esemplare, l'ideale della carità cristiana e di un amore capace di superare persino la paura della morte."
     },
     {
-      "text": "Sul piano stilistico, la Gerusalemme Liberata fonde sapientemente un classicismo formale rigoroso — l'imitazione consapevole della struttura e delle formule proprie di Virgilio e Omero — con una sensibilità già decisamente barocca, fatta di patetismo, di effetti musicali ed emotivi calcolati, di quella che i critici hanno definito la \"dolce armonia\" tipica del verso tassiano: un verso che punta dritto al cuore del lettore, prima ancora che alla sua ragione.",
-      "speech": "Sul piano stilistico, la Gerusalemme Liberata fonde sapientemente un classicismo formale rigoroso — l'imitazione consapevole della struttura e delle formule proprie di Virgilio e Omero — con una sensibilità già decisamente barocca, fatta di patetismo, di effetti musicali ed emotivi calcolati, di quella che i critici hanno definito la \"dolce armonia\" tipica del verso tassiano: un verso che punta dritto al cuore del lettore, prima ancora che alla sua ragione.",
+      "text": "Sul piano stilistico, la Gerusalemme Liberata fonde sapientemente un classicismo formale rigoroso — l'imitazione consapevole della struttura e delle formule proprie di Virgilio e Omero —",
+      "speech": "Sul piano stilistico, la Gerusalemme Liberata fonde sapientemente un classicismo formale rigoroso — l'imitazione consapevole della struttura e delle formule proprie di Virgilio e Omero —",
+      "p": 1
+    },
+    {
+      "text": "con una sensibilità già decisamente barocca, fatta di patetismo, di effetti musicali ed emotivi calcolati, di quella che i critici hanno definito la \"dolce armonia\" tipica del verso tassiano:",
+      "speech": "con una sensibilità già decisamente barocca, fatta di patetismo, di effetti musicali ed emotivi calcolati, di quella che i critici hanno definito la dolce armonia tipica del verso tassiano:",
       "bold": [
         [
-          337,
-          350
+          150,
+          163
         ]
-      ],
-      "p": 1
+      ]
+    },
+    {
+      "text": "un verso che punta dritto al cuore del lettore, prima ancora che alla sua ragione.",
+      "speech": "un verso che punta dritto al cuore del lettore, prima ancora che alla sua ragione."
     },
     {
       "text": "Un ottimo modo per fissare la specificità di Tasso è il confronto diretto con Ariosto, che vi sarà molto utile all'orale.",
@@ -163,14 +197,18 @@
       "p": 1
     },
     {
-      "text": "Sul piano della struttura, l'Orlando Furioso si costruisce su molteplici filoni narrativi intrecciati con la tecnica dell'entrelacement, mentre la Gerusalemme Liberata è costruita su un'azione sostanzialmente unitaria, rispettosa dell'unità aristotelica di azione.",
-      "speech": "Sul piano della struttura, l'Orlando Furioso si costruisce su molteplici filoni narrativi intrecciati con la tecnica dell'entrelacement, mentre la Gerusalemme Liberata è costruita su un'azione sostanzialmente unitaria, rispettosa dell'unità aristotelica di azione.",
+      "text": "Sul piano della struttura, l'Orlando Furioso si costruisce su molteplici filoni narrativi intrecciati con la tecnica dell'entrelacement,",
+      "speech": "Sul piano della struttura, l'Orlando Furioso si costruisce su molteplici filoni narrativi intrecciati con la tecnica dell'entrelacement,",
       "bold": [
         [
           122,
           135
         ]
       ]
+    },
+    {
+      "text": "mentre la Gerusalemme Liberata è costruita su un'azione sostanzialmente unitaria, rispettosa dell'unità aristotelica di azione.",
+      "speech": "mentre la Gerusalemme Liberata è costruita su un'azione sostanzialmente unitaria, rispettosa dell'unità aristotelica di azione."
     },
     {
       "text": "Sul piano della visione del mondo, Ariosto resta ironico, relativistico, giocoso nel proprio gioco delle illusioni narrative, mentre Tasso è impegnato, religioso, attraversato da una tensione morale costante.",
@@ -196,8 +234,8 @@
       "p": 1
     },
     {
-      "text": "Il Proemio si inserisce nella tradizione classica del prologo epico, sul modello virgiliano dell'Eneide — \"arma virumque cano\", canto le armi e l'uomo — e su quello, più vicino nel tempo, dello stesso Ariosto, con il celebre incipit \"Le donne, i cavallier, l'arme, gli amori\".",
-      "speech": "Il Proemio si inserisce nella tradizione classica del prologo epico, sul modello virgiliano dell'Eneide — \"arma virumque cano\", canto le armi e l'uomo — e su quello, più vicino nel tempo, dello stesso Ariosto, con il celebre incipit \"Le donne, i cavallier, l'arme, gli amori\".",
+      "text": "Il Proemio si inserisce nella tradizione classica del prologo epico, sul modello virgiliano dell'Eneide — \"arma virumque cano\", canto le armi e l'uomo —",
+      "speech": "Il Proemio si inserisce nella tradizione classica del prologo epico, sul modello virgiliano dell'Eneide — arma virumque cano, canto le armi e l'uomo —",
       "bold": [
         [
           107,
@@ -206,27 +244,43 @@
       ]
     },
     {
-      "text": "Tasso dichiara apertamente l'argomento della propria opera: canterà le armi \"pietose\", cioè la guerra santa, e il condottiero che liberò il Santo Sepolcro dal dominio infedele.",
-      "speech": "Tasso dichiara apertamente l'argomento della propria opera: canterà le armi \"pietose\", cioè la guerra santa, e il condottiero che liberò il Santo Sepolcro dal dominio infedele."
+      "text": "e su quello, più vicino nel tempo, dello stesso Ariosto, con il celebre incipit \"Le donne, i cavallier, l'arme, gli amori\".",
+      "speech": "e su quello, più vicino nel tempo, dello stesso Ariosto, con il celebre incipit Le donne, i cavallier, l'arme, gli amori."
     },
     {
-      "text": "L'invocazione alla Musa, tradizionale in ogni poema epico classico, viene però da Tasso significativamente reinterpretata: non si rivolge a una divinità pagana, ma direttamente alla Vergine Maria, una \"Musa\" cristiana perfettamente coerente con la materia sacra del poema.",
-      "speech": "L'invocazione alla Musa, tradizionale in ogni poema epico classico, viene però da Tasso significativamente reinterpretata: non si rivolge a una divinità pagana, ma direttamente alla Vergine Maria, una \"Musa\" cristiana perfettamente coerente con la materia sacra del poema.",
+      "text": "Tasso dichiara apertamente l'argomento della propria opera: canterà le armi \"pietose\", cioè la guerra santa, e il condottiero che liberò il Santo Sepolcro dal dominio infedele.",
+      "speech": "Tasso dichiara apertamente l'argomento della propria opera: canterà le armi pietose, cioè la guerra santa, e il condottiero che liberò il Santo Sepolcro dal dominio infedele."
+    },
+    {
+      "text": "L'invocazione alla Musa, tradizionale in ogni poema epico classico, viene però da Tasso significativamente reinterpretata:",
+      "speech": "L'invocazione alla Musa, tradizionale in ogni poema epico classico, viene però da Tasso significativamente reinterpretata:"
+    },
+    {
+      "text": "non si rivolge a una divinità pagana, ma direttamente alla Vergine Maria, una \"Musa\" cristiana perfettamente coerente con la materia sacra del poema.",
+      "speech": "non si rivolge a una divinità pagana, ma direttamente alla Vergine Maria, una Musa cristiana perfettamente coerente con la materia sacra del poema.",
       "bold": [
         [
-          182,
-          195
+          59,
+          72
         ]
       ]
     },
     {
-      "text": "Ma il passaggio davvero decisivo del Proemio, quello su cui vi conviene soffermarvi con più attenzione, è la dichiarazione di poetica vera e propria: Tasso ammette apertamente di aver \"cosparso\" il vero storico — la crociata, un fatto realmente accaduto — di \"abbellimenti\" fantastici e invenzioni poetiche, cioè del \"diletto\", ritenuti necessari per rendere gradevole e affascinante la materia agli occhi del lettore.",
-      "speech": "Ma il passaggio davvero decisivo del Proemio, quello su cui vi conviene soffermarvi con più attenzione, è la dichiarazione di poetica vera e propria: Tasso ammette apertamente di aver \"cosparso\" il vero storico — la crociata, un fatto realmente accaduto — di \"abbellimenti\" fantastici e invenzioni poetiche, cioè del \"diletto\", ritenuti necessari per rendere gradevole e affascinante la materia agli occhi del lettore.",
+      "text": "Ma il passaggio davvero decisivo del Proemio, quello su cui vi conviene soffermarvi con più attenzione, è la dichiarazione di poetica vera e propria:",
+      "speech": "Ma il passaggio davvero decisivo del Proemio, quello su cui vi conviene soffermarvi con più attenzione, è la dichiarazione di poetica vera e propria:",
       "p": 1
     },
     {
-      "text": "Per spiegare questa strategia, Tasso ricorre a una metafora diventata proverbiale, quella del \"vaso\": paragona la propria opera al medico che, per far bere ai bambini malati una medicina amara, cosparge di miele l'orlo del vaso, così che il fanciullo, ingannato dalla dolcezza iniziale, finisca per ingerire senza nemmeno accorgersene anche la sostanza salutare.",
-      "speech": "Per spiegare questa strategia, Tasso ricorre a una metafora diventata proverbiale, quella del \"vaso\": paragona la propria opera al medico che, per far bere ai bambini malati una medicina amara, cosparge di miele l'orlo del vaso, così che il fanciullo, ingannato dalla dolcezza iniziale, finisca per ingerire senza nemmeno accorgersene anche la sostanza salutare.",
+      "text": "Tasso ammette apertamente di aver \"cosparso\" il vero storico — la crociata, un fatto realmente accaduto —",
+      "speech": "Tasso ammette apertamente di aver cosparso il vero storico — la crociata, un fatto realmente accaduto —"
+    },
+    {
+      "text": "di \"abbellimenti\" fantastici e invenzioni poetiche, cioè del \"diletto\", ritenuti necessari per rendere gradevole e affascinante la materia agli occhi del lettore.",
+      "speech": "di abbellimenti fantastici e invenzioni poetiche, cioè del diletto, ritenuti necessari per rendere gradevole e affascinante la materia agli occhi del lettore."
+    },
+    {
+      "text": "Per spiegare questa strategia, Tasso ricorre a una metafora diventata proverbiale, quella del \"vaso\":",
+      "speech": "Per spiegare questa strategia, Tasso ricorre a una metafora diventata proverbiale, quella del vaso:",
       "bold": [
         [
           83,
@@ -235,18 +289,34 @@
       ]
     },
     {
-      "text": "Allo stesso modo, sostiene Tasso, il poeta \"condisce\" il vero — la storia sacra, edificante ma di per sé arida — con il piacevole, cioè l'invenzione fantastica, gli amori, le grandi avventure, per istruire dilettando: è la ripresa, in chiave ormai cristiana e controriformistica, dell'antico principio oraziano dell'\"utile dulci\".",
-      "speech": "Allo stesso modo, sostiene Tasso, il poeta \"condisce\" il vero — la storia sacra, edificante ma di per sé arida — con il piacevole, cioè l'invenzione fantastica, gli amori, le grandi avventure, per istruire dilettando: è la ripresa, in chiave ormai cristiana e controriformistica, dell'antico principio oraziano dell'\"utile dulci\".",
+      "text": "paragona la propria opera al medico che, per far bere ai bambini malati una medicina amara, cosparge di miele l'orlo del vaso,",
+      "speech": "paragona la propria opera al medico che, per far bere ai bambini malati una medicina amara, cosparge di miele l'orlo del vaso,"
+    },
+    {
+      "text": "così che il fanciullo, ingannato dalla dolcezza iniziale, finisca per ingerire senza nemmeno accorgersene anche la sostanza salutare.",
+      "speech": "così che il fanciullo, ingannato dalla dolcezza iniziale, finisca per ingerire senza nemmeno accorgersene anche la sostanza salutare."
+    },
+    {
+      "text": "Allo stesso modo, sostiene Tasso, il poeta \"condisce\" il vero — la storia sacra, edificante ma di per sé arida —",
+      "speech": "Allo stesso modo, sostiene Tasso, il poeta condisce il vero — la storia sacra, edificante ma di per sé arida —"
+    },
+    {
+      "text": "con il piacevole, cioè l'invenzione fantastica, gli amori, le grandi avventure, per istruire dilettando:",
+      "speech": "con il piacevole, cioè l'invenzione fantastica, gli amori, le grandi avventure, per istruire dilettando:"
+    },
+    {
+      "text": "è la ripresa, in chiave ormai cristiana e controriformistica, dell'antico principio oraziano dell'\"utile dulci\".",
+      "speech": "è la ripresa, in chiave ormai cristiana e controriformistica, dell'antico principio oraziano dell'utile dulci.",
       "bold": [
         [
-          317,
-          328
+          99,
+          110
         ]
       ]
     },
     {
-      "text": "Il Proemio si chiude infine con la dedica al duca Alfonso II d'Este, protettore e mecenate di Tasso alla corte di Ferrara, a cui il poeta chiede esplicitamente protezione e benevolenza per la propria opera — un gesto convenzionale, ma che vi ricorda ancora una volta quanto stretto fosse, nel Rinascimento e ancora nel Seicento, il legame tra la grande letteratura e il sistema delle corti signorili.",
-      "speech": "Il Proemio si chiude infine con la dedica al duca Alfonso II d'Este, protettore e mecenate di Tasso alla corte di Ferrara, a cui il poeta chiede esplicitamente protezione e benevolenza per la propria opera — un gesto convenzionale, ma che vi ricorda ancora una volta quanto stretto fosse, nel Rinascimento e ancora nel Seicento, il legame tra la grande letteratura e il sistema delle corti signorili.",
+      "text": "Il Proemio si chiude infine con la dedica al duca Alfonso II d'Este, protettore e mecenate di Tasso alla corte di Ferrara, a cui il poeta chiede esplicitamente protezione e benevolenza per la propria opera — un gesto convenzionale,",
+      "speech": "Il Proemio si chiude infine con la dedica al duca Alfonso secondo d'Este, protettore e mecenate di Tasso alla corte di Ferrara, a cui il poeta chiede esplicitamente protezione e benevolenza per la propria opera — un gesto convenzionale,",
       "bold": [
         [
           50,
@@ -256,13 +326,17 @@
       "p": 1
     },
     {
+      "text": "ma che vi ricorda ancora una volta quanto stretto fosse, nel Rinascimento e ancora nel Seicento, il legame tra la grande letteratura e il sistema delle corti signorili.",
+      "speech": "ma che vi ricorda ancora una volta quanto stretto fosse, nel Rinascimento e ancora nel Seicento, il legame tra la grande letteratura e il sistema delle corti signorili."
+    },
+    {
       "text": "Riassumiamo i punti principali di oggi.",
       "speech": "Riassumiamo i punti principali di oggi.",
       "p": 1
     },
     {
-      "text": "Primo: la Gerusalemme Liberata, pubblicata nel 1581 in venti canti di ottave, narra la prima crociata attraverso il costante dissidio tra dovere — incarnato da Goffredo — e sentimento, incarnato da Rinaldo e Tancredi, sedotti rispettivamente da Armida e da Clorinda.",
-      "speech": "Primo: la Gerusalemme Liberata, pubblicata nel 1581 in venti canti di ottave, narra la prima crociata attraverso il costante dissidio tra dovere — incarnato da Goffredo — e sentimento, incarnato da Rinaldo e Tancredi, sedotti rispettivamente da Armida e da Clorinda.",
+      "text": "Primo: la Gerusalemme Liberata, pubblicata nel 1581 in venti canti di ottave, narra la prima crociata attraverso il costante dissidio tra dovere — incarnato da Goffredo —",
+      "speech": "Primo: la Gerusalemme Liberata, pubblicata nel 1581 in venti canti di ottave, narra la prima crociata attraverso il costante dissidio tra dovere — incarnato da Goffredo —",
       "bold": [
         [
           0,
@@ -278,6 +352,10 @@
         ]
       ],
       "p": 1
+    },
+    {
+      "text": "e sentimento, incarnato da Rinaldo e Tancredi, sedotti rispettivamente da Armida e da Clorinda.",
+      "speech": "e sentimento, incarnato da Rinaldo e Tancredi, sedotti rispettivamente da Armida e da Clorinda."
     },
     {
       "text": "Secondo: gli episodi di Clorinda e Tancredi e di Sofronia e Olindo restano tra i più celebri e patetici di tutto il poema.",

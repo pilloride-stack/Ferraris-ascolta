@@ -36,6 +36,32 @@
           3,
           23
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le periferiche di input permettono di inserire dati e comandi nel sistema: tastiera,"
+        },
+        {
+          "lang": "it",
+          "text": "mouse,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "scanner,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "webcam,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "microfono.",
+          "pausa": 0.32
+        }
       ]
     },
     {

@@ -143,7 +143,38 @@
     },
     {
       "text": "saldo Dare, dodicimila euro, Debiti verso fornitori, saldo Avere, diciottomila euro, Capitale, saldo Avere, quarantanovemila euro.",
-      "speech": "saldo Dare, dodicimila euro, Debiti verso fornitori, saldo Avere, diciottomila euro, Capitale, saldo Avere, quarantanovemila euro."
+      "speech": "saldo Dare, dodicimila euro, Debiti verso fornitori, saldo Avere, diciottomila euro, Capitale, saldo Avere, quarantanovemila euro.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "saldo Dare, dodicimila euro, Debiti verso fornitori,"
+        },
+        {
+          "lang": "it",
+          "text": "saldo Avere,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "diciottomila euro,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "Capitale,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "saldo Avere,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "quarantanovemila euro.",
+          "pausa": 0.32
+        }
+      ]
     },
     {
       "text": "Chiudere i conti nello Stato Patrimoniale.",
@@ -151,7 +182,19 @@
     },
     {
       "text": "Si accredita Banca conto corrente e si addebita Stato Patrimoniale Finale per cinquantacinquemila euro; si accredita Crediti verso clienti e si addebita Stato Patrimoniale Finale per dodicimila euro;",
-      "speech": "Si accredita Banca conto corrente e si addebita Stato Patrimoniale Finale per cinquantacinquemila euro; si accredita Crediti verso clienti e si addebita Stato Patrimoniale Finale per dodicimila euro;"
+      "speech": "Si accredita Banca conto corrente e si addebita Stato Patrimoniale Finale per cinquantacinquemila euro; si accredita Crediti verso clienti e si addebita Stato Patrimoniale Finale per dodicimila euro;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Si accredita Banca conto corrente e si addebita Stato Patrimoniale Finale per cinquantacinquemila euro;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "si accredita Crediti verso clienti e si addebita Stato Patrimoniale Finale per dodicimila euro;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "si addebita Debiti verso fornitori e si accredita Stato Patrimoniale Finale per diciottomila euro; si addebita Capitale e si accredita Stato Patrimoniale Finale per quarantanovemila euro.",
@@ -215,7 +258,29 @@
     },
     {
       "text": "il titolare, le banche, i fornitori, l'Amministrazione finanziaria.",
-      "speech": "il titolare, le banche, i fornitori, l'Amministrazione finanziaria."
+      "speech": "il titolare, le banche, i fornitori, l'Amministrazione finanziaria.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il titolare,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "le banche,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "i fornitori,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "l'Amministrazione finanziaria.",
+          "pausa": 0.32
+        }
+      ]
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",

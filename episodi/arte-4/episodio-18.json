@@ -237,7 +237,7 @@
     },
     {
       "text": "La potenza plastica e monumentale, la \"terribilità\", e la concezione della figura liberata dal marmo.",
-      "speech": "La potenza plastica e monumentale, la \"terribilità\", e la concezione della figura liberata dal marmo.",
+      "speech": "La potenza plastica e monumentale, la terribilità, e la concezione della figura liberata dal marmo.",
       "bold": [
         [
           39,
@@ -247,7 +247,7 @@
     },
     {
       "text": "Che cosa sono i Prigioni di Michelangelo e come si interpreta il loro \"non finito\"?",
-      "speech": "Che cosa sono i Prigioni di Michelangelo e come si interpreta il loro \"non finito\"?"
+      "speech": "Che cosa sono i Prigioni di Michelangelo e come si interpreta il loro non finito?"
     },
     {
       "text": "Sculture incompiute che sembrano lottare per liberarsi dalla materia, metafora dell'anima che lotta per liberarsi dal corpo.",
@@ -298,7 +298,7 @@
     },
     {
       "text": "In cosa consiste il \"colorito\" della scuola veneta e come si vede nella Venere di Urbino di Tiziano?",
-      "speech": "In cosa consiste il \"colorito\" della scuola veneta e come si vede nella Venere di Urbino di Tiziano?"
+      "speech": "In cosa consiste il colorito della scuola veneta e come si vede nella Venere di Urbino di Tiziano?"
     },
     {
       "text": "Privilegia il colore sul disegno di contorno, con una tavolozza calda e sensuale.",
@@ -465,7 +465,37 @@
           127
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Riassumendo questa prima parte del ripasso: abbiamo ripercorso il Rinascimento dal concorso del 1401 fino a Bernini e Borromini, passando per Donatello,"
+        },
+        {
+          "lang": "it",
+          "text": "Masaccio,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "Botticelli,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "Leonardo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "Michelangelo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "Raffaello e Caravaggio."
+        }
+      ]
     },
     {
       "text": "Nel prossimo episodio proseguiamo con il Rococò, il vedutismo e il Neoclassicismo.",

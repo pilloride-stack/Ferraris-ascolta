@@ -96,7 +96,8 @@
         },
         {
           "lang": "it",
-          "text": "ho... anni;"
+          "text": "ho... anni;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -200,7 +201,8 @@
         },
         {
           "lang": "it",
-          "text": "in indica il luogo di residenza attuale, che può anche essere diverso;"
+          "text": "in indica il luogo di residenza attuale, che può anche essere diverso;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -238,7 +240,8 @@
         },
         {
           "lang": "it",
-          "text": "lavoro come..., per chi già svolge un'attività;"
+          "text": "lavoro come..., per chi già svolge un'attività;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -485,7 +488,7 @@
     },
     {
       "text": "uncle, lo zio, aunt, la zia, cousin, il cugino o la cugina — attenzione, in inglese questa parola non distingue il genere, a differenza dell'italiano che ha \"cugino\" e \"cugina\" —",
-      "speech": "uncle, lo zio, aunt, la zia, cousin, il cugino o la cugina — attenzione, in inglese questa parola non distingue il genere, a differenza dell'italiano che ha \"cugino\" e \"cugina\" —",
+      "speech": "uncle, lo zio, aunt, la zia, cousin, il cugino o la cugina — attenzione, in inglese questa parola non distingue il genere, a differenza dell'italiano che ha cugino e cugina —",
       "bold": [
         [
           0,
@@ -527,7 +530,7 @@
         },
         {
           "lang": "it",
-          "text": "il cugino o la cugina — attenzione, in inglese questa parola non distingue il genere, a differenza dell'italiano che ha \"cugino\" e \"cugina\" —"
+          "text": "il cugino o la cugina — attenzione, in inglese questa parola non distingue il genere, a differenza dell'italiano che ha cugino e cugina —"
         }
       ],
       "lingua": [
@@ -1198,7 +1201,8 @@
         },
         {
           "lang": "it",
-          "text": "penso che domani pioverà;"
+          "text": "penso che domani pioverà;",
+          "pausa": 0.42
         },
         {
           "lang": "en",

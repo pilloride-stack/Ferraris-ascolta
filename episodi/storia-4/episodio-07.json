@@ -67,7 +67,7 @@
     },
     {
       "text": "Federico II di Prussia promuove la tolleranza religiosa, la codificazione delle leggi e la promozione dell'istruzione.",
-      "speech": "Federico II di Prussia promuove la tolleranza religiosa, la codificazione delle leggi e la promozione dell'istruzione.",
+      "speech": "Federico secondo di Prussia promuove la tolleranza religiosa, la codificazione delle leggi e la promozione dell'istruzione.",
       "bold": [
         [
           0,
@@ -77,7 +77,7 @@
     },
     {
       "text": "Caterina II di Russia attua una riforma amministrativa, accompagnata da un intenso mecenatismo culturale e da alcuni tentativi di modernizzazione del paese.",
-      "speech": "Caterina II di Russia attua una riforma amministrativa, accompagnata da un intenso mecenatismo culturale e da alcuni tentativi di modernizzazione del paese.",
+      "speech": "Caterina seconda di Russia attua una riforma amministrativa, accompagnata da un intenso mecenatismo culturale e da alcuni tentativi di modernizzazione del paese.",
       "bold": [
         [
           0,
@@ -134,7 +134,7 @@
     },
     {
       "text": "secondo il celebre slogan \"no taxation without representation\", maturano progressivamente un movimento di protesta e poi di aperta ribellione.",
-      "speech": "secondo il celebre slogan \"no taxation without representation\", maturano progressivamente un movimento di protesta e poi di aperta ribellione.",
+      "speech": "secondo il celebre slogan no taxation without representation, maturano progressivamente un movimento di protesta e poi di aperta ribellione.",
       "bold": [
         [
           27,
@@ -228,7 +228,37 @@
     },
     {
       "text": "i cosiddetti \"checks and balances\", tra potere esecutivo, il Presidente, legislativo, il Congresso, e giudiziario, la Corte Suprema;",
-      "speech": "i cosiddetti \"checks and balances\", tra potere esecutivo, il Presidente, legislativo, il Congresso, e giudiziario, la Corte Suprema;"
+      "speech": "i cosiddetti checks and balances, tra potere esecutivo, il Presidente, legislativo, il Congresso, e giudiziario, la Corte Suprema;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i cosiddetti checks and balances, tra potere esecutivo,"
+        },
+        {
+          "lang": "it",
+          "text": "il Presidente,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "legislativo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "il Congresso,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "e giudiziario,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la Corte Suprema;"
+        }
+      ]
     },
     {
       "text": "nel 1791 vengono aggiunti i primi dieci emendamenti, noti come Bill of Rights, a tutela delle libertà fondamentali dei cittadini.",
@@ -271,7 +301,7 @@
     },
     {
       "text": "come mostrano gli esempi di Federico II, Caterina II, Giuseppe II e Pietro Leopoldo.",
-      "speech": "come mostrano gli esempi di Federico II, Caterina II, Giuseppe II e Pietro Leopoldo."
+      "speech": "come mostrano gli esempi di Federico secondo, Caterina seconda, Giuseppe II e Pietro Leopoldo."
     },
     {
       "text": "Secondo: le tredici colonie americane, esasperate dalla tassazione senza rappresentanza, proclamano l'indipendenza nel 1776 e ottengono il riconoscimento internazionale nel 1783.",

@@ -98,7 +98,8 @@
         },
         {
           "lang": "es",
-          "text": "hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban;"
+          "text": "hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -144,7 +145,8 @@
         },
         {
           "lang": "es",
-          "text": "comía, comías, comía, comíamos, comíais, comían;"
+          "text": "comía, comías, comía, comíamos, comíais, comían;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -433,7 +435,7 @@
     },
     {
       "text": "Passiamo ora al gerundio, che si forma aggiungendo -ando ai verbi in -AR, come hablando, e -iendo ai verbi in -ER e -IR, come comiendo e viviendo.",
-      "speech": "Passiamo ora al gerundio, che si forma aggiungendo ando ai verbi in AR, come hablando, e iendo ai verbi in ER e IR, come comiendo e viviendo.",
+      "speech": "Passiamo ora al gerundio, che si forma aggiungendo ando ai verbi in ar, come hablando, e iendo ai verbi in er e ir, come comiendo e viviendo.",
       "bold": [
         [
           52,
@@ -472,7 +474,7 @@
         },
         {
           "lang": "it",
-          "text": "ai verbi in AR, come"
+          "text": "ai verbi in ar, come"
         },
         {
           "lang": "es",
@@ -480,7 +482,7 @@
         },
         {
           "lang": "it",
-          "text": "e iendo ai verbi in ER e"
+          "text": "e iendo ai verbi in er e"
         },
         {
           "lang": "es",
@@ -725,7 +727,7 @@
     },
     {
       "text": "come completereste la frase «Ahora mismo, mis padres ______ (dormir, estar+gerundio) y yo ______ (leer, estar+gerundio) un libro»?",
-      "speech": "come completereste la frase Ahora mismo, mis padres … (dormir, estar+gerundio) y yo … (leer, estar+gerundio) un libro?",
+      "speech": "come completereste la frase Ahora mismo, mis padres … (dormir, estar più gerundio) y yo … (leer, estar più gerundio) un libro?",
       "bold": [
         [
           29,
@@ -739,7 +741,7 @@
         },
         {
           "lang": "es",
-          "text": "Ahora mismo, mis padres … (dormir, estar+gerundio) y yo … (leer, estar+gerundio) un libro?"
+          "text": "Ahora mismo, mis padres … (dormir, estar più gerundio) y yo … (leer, estar più gerundio) un libro?"
         }
       ],
       "lingua": [

@@ -301,7 +301,8 @@
         },
         {
           "lang": "it",
-          "text": "termina in ch e richiede la es;"
+          "text": "termina in ch e richiede la es;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -329,7 +330,7 @@
     },
     {
       "text": "«I study» ma «she studies», perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere -es.",
-      "speech": "I study ma she studies, perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere es.",
+      "speech": "I study ma she studies, perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere per esempio",
       "bold": [
         [
           1,
@@ -359,7 +360,7 @@
         },
         {
           "lang": "it",
-          "text": "perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere es."
+          "text": "perché il verbo termina in consonante più y, e la y si trasforma in i prima di aggiungere per esempio"
         }
       ],
       "lingua": [
@@ -727,7 +728,8 @@
         },
         {
           "lang": "it",
-          "text": "significa che in questo preciso istante sto studiando inglese, non che lo faccio ogni giorno alla stessa ora;"
+          "text": "significa che in questo preciso istante sto studiando inglese, non che lo faccio ogni giorno alla stessa ora;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -898,11 +900,11 @@
     },
     {
       "text": "ma \"conoscere\", \"credere\", \"volere\", \"appartenere\" non sono azioni che si \"fanno\" in un istante preciso e poi finiscono, sono condizioni mentali stabili,",
-      "speech": "ma \"conoscere\", \"credere\", \"volere\", \"appartenere\" non sono azioni che si \"fanno\" in un istante preciso e poi finiscono, sono condizioni mentali stabili,"
+      "speech": "ma conoscere, credere, volere, appartenere non sono azioni che si fanno in un istante preciso e poi finiscono, sono condizioni mentali stabili,"
     },
     {
       "text": "e per questo la lingua inglese, a differenza per esempio dell'italiano che userebbe tranquillamente \"sto sapendo\" in alcuni contesti colloquiali, preferisce sempre la forma semplice per questi verbi.",
-      "speech": "e per questo la lingua inglese, a differenza per esempio dell'italiano che userebbe tranquillamente \"sto sapendo\" in alcuni contesti colloquiali, preferisce sempre la forma semplice per questi verbi."
+      "speech": "e per questo la lingua inglese, a differenza per esempio dell'italiano che userebbe tranquillamente sto sapendo in alcuni contesti colloquiali, preferisce sempre la forma semplice per questi verbi."
     },
     {
       "text": "Vediamo ora, fianco a fianco, come si costruiscono le tre forme fondamentali di ciascuno dei due tempi — affermativa, negativa e interrogativa —",
@@ -953,7 +955,8 @@
         },
         {
           "lang": "en",
-          "text": "She works in a hospital;"
+          "text": "She works in a hospital;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -977,7 +980,8 @@
         },
         {
           "lang": "en",
-          "text": "She doesn't work on Sundays;"
+          "text": "She doesn't work on Sundays;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1031,7 +1035,7 @@
     },
     {
       "text": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la -s della terza persona \"si sposta\" sull'ausiliare does,",
-      "speech": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la s della terza persona \"si sposta\" sull'ausiliare does,",
+      "speech": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la s della terza persona si sposta sull'ausiliare does,",
       "bold": [
         [
           99,
@@ -1045,7 +1049,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la s della terza persona \"si sposta\" sull'ausiliare"
+          "text": "Notate un dettaglio fondamentale: nella forma negativa e interrogativa, la s della terza persona si sposta sull'ausiliare"
         },
         {
           "lang": "en",
@@ -1141,7 +1145,8 @@
         },
         {
           "lang": "en",
-          "text": "He is watching TV;"
+          "text": "He is watching TV;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -1149,7 +1154,8 @@
         },
         {
           "lang": "en",
-          "text": "He isn't watching TV;"
+          "text": "He isn't watching TV;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -1260,7 +1266,7 @@
     },
     {
       "text": "Un consiglio pratico, prima di chiudere: quando all'esame vi verrà chiesto di spiegare la differenza tra present simple e present continuous, non limitatevi a dire \"uno è per le abitudini e l'altro per il presente\":",
-      "speech": "Un consiglio pratico, prima di chiudere: quando all'esame vi verrà chiesto di spiegare la differenza tra present simple e present continuous, non limitatevi a dire \"uno è per le abitudini e l'altro per il presente\":",
+      "speech": "Un consiglio pratico, prima di chiudere: quando all'esame vi verrà chiesto di spiegare la differenza tra present simple e present continuous, non limitatevi a dire uno è per le abitudini e l'altro per il presente:",
       "bold": [
         [
           105,
@@ -1291,7 +1297,7 @@
         },
         {
           "lang": "it",
-          "text": "non limitatevi a dire \"uno è per le abitudini e l'altro per il presente\":"
+          "text": "non limitatevi a dire uno è per le abitudini e l'altro per il presente:"
         }
       ],
       "lingua": [

@@ -73,7 +73,7 @@ def make(job):
             g = min(2.0, max(0.5, g))
             res.extend(int(max(-32767, min(32767, v * g))) for v in c)
             if k < len(clips) - 1:
-                gap = GAP.get(p["text"].strip()[-1:], 0.07)
+                gap = p.get("pausa") or GAP.get(p["text"].strip()[-1:], 0.07)
                 if short(p) or short(clips[k + 1][0]):
                     gap = max(gap, 0.14)
                 res.extend([0] * int(24000 * gap))

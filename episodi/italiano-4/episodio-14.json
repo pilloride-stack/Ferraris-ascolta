@@ -20,8 +20,8 @@
       "p": 1
     },
     {
-      "text": "Si tratta di un romanzo epistolare, cioè narrato interamente attraverso uno scambio di lettere tra i personaggi, costruito esplicitamente sul modello dei \"Dolori del giovane Werther\" di Goethe, un'opera che pochi decenni prima aveva conquistato tutta l'Europa colta con la propria storia di amore infelice e suicidio romantico.",
-      "speech": "Si tratta di un romanzo epistolare, cioè narrato interamente attraverso uno scambio di lettere tra i personaggi, costruito esplicitamente sul modello dei \"Dolori del giovane Werther\" di Goethe, un'opera che pochi decenni prima aveva conquistato tutta l'Europa colta con la propria storia di amore infelice e suicidio romantico.",
+      "text": "Si tratta di un romanzo epistolare, cioè narrato interamente attraverso uno scambio di lettere tra i personaggi, costruito esplicitamente sul modello dei \"Dolori del giovane Werther\" di Goethe,",
+      "speech": "Si tratta di un romanzo epistolare, cioè narrato interamente attraverso uno scambio di lettere tra i personaggi, costruito esplicitamente sul modello dei Dolori del giovane Werther di Goethe,",
       "bold": [
         [
           16,
@@ -33,6 +33,10 @@
         ]
       ],
       "p": 1
+    },
+    {
+      "text": "un'opera che pochi decenni prima aveva conquistato tutta l'Europa colta con la propria storia di amore infelice e suicidio romantico.",
+      "speech": "un'opera che pochi decenni prima aveva conquistato tutta l'Europa colta con la propria storia di amore infelice e suicidio romantico."
     },
     {
       "text": "Foscolo pubblica una prima versione del proprio romanzo nel 1798, per poi rielaborarlo più volte nel corso degli anni, fino a raggiungere l'edizione considerata definitiva nel 1802.",
@@ -54,8 +58,8 @@
       "p": 1
     },
     {
-      "text": "Jacopo Ortis è un giovane intellettuale veneziano che si rifugia sui colli Euganei dopo la cessione di Venezia agli austriaci — lo stesso evento storico, il Trattato di Campoformio, che avevamo incontrato parlando della biografia di Foscolo — in preda a una duplice, inestricabile delusione: da un lato quella politica, per la libertà della propria patria ormai definitivamente perduta; dall'altro quella amorosa, per Teresa, una giovane donna promessa in sposa per pura convenienza familiare a Odoardo, un uomo onesto ma privo di ogni slancio ideale o passionale.",
-      "speech": "Jacopo Ortis è un giovane intellettuale veneziano che si rifugia sui colli Euganei dopo la cessione di Venezia agli austriaci — lo stesso evento storico, il Trattato di Campoformio, che avevamo incontrato parlando della biografia di Foscolo — in preda a una duplice, inestricabile delusione: da un lato quella politica, per la libertà della propria patria ormai definitivamente perduta; dall'altro quella amorosa, per Teresa, una giovane donna promessa in sposa per pura convenienza familiare a Odoardo, un uomo onesto ma privo di ogni slancio ideale o passionale.",
+      "text": "Jacopo Ortis è un giovane intellettuale veneziano che si rifugia sui colli Euganei dopo la cessione di Venezia agli austriaci — lo stesso evento storico,",
+      "speech": "Jacopo Ortis è un giovane intellettuale veneziano che si rifugia sui colli Euganei dopo la cessione di Venezia agli austriaci — lo stesso evento storico,",
       "bold": [
         [
           0,
@@ -64,10 +68,24 @@
         [
           69,
           82
-        ],
+        ]
+      ]
+    },
+    {
+      "text": "il Trattato di Campoformio, che avevamo incontrato parlando della biografia di Foscolo — in preda a una duplice, inestricabile delusione:",
+      "speech": "il Trattato di Campoformio, che avevamo incontrato parlando della biografia di Foscolo — in preda a una duplice, inestricabile delusione:"
+    },
+    {
+      "text": "da un lato quella politica, per la libertà della propria patria ormai definitivamente perduta;",
+      "speech": "da un lato quella politica, per la libertà della propria patria ormai definitivamente perduta;"
+    },
+    {
+      "text": "dall'altro quella amorosa, per Teresa, una giovane donna promessa in sposa per pura convenienza familiare a Odoardo, un uomo onesto ma privo di ogni slancio ideale o passionale.",
+      "speech": "dall'altro quella amorosa, per Teresa, una giovane donna promessa in sposa per pura convenienza familiare a Odoardo, un uomo onesto ma privo di ogni slancio ideale o passionale.",
+      "bold": [
         [
-          418,
-          424
+          31,
+          37
         ]
       ]
     },
@@ -76,8 +94,8 @@
       "speech": "Incapace di conciliare in alcun modo i propri ideali assoluti con i limiti concreti della realtà storica e sociale che lo circonda, Jacopo si toglie infine la vita."
     },
     {
-      "text": "Un personaggio secondario ma strutturalmente importante è Lorenzo, l'amico a cui sono indirizzate quasi tutte le lettere del romanzo, e che si presenta anche, nella finzione narrativa costruita da Foscolo, come il \"curatore\" delle lettere stesse, pubblicate come autentiche grazie a una breve prefazione firmata da un fittizio \"editore\" — un espediente narrativo tipico del romanzo epistolare dell'epoca, che rafforza l'illusione di autenticità del racconto.",
-      "speech": "Un personaggio secondario ma strutturalmente importante è Lorenzo, l'amico a cui sono indirizzate quasi tutte le lettere del romanzo, e che si presenta anche, nella finzione narrativa costruita da Foscolo, come il \"curatore\" delle lettere stesse, pubblicate come autentiche grazie a una breve prefazione firmata da un fittizio \"editore\" — un espediente narrativo tipico del romanzo epistolare dell'epoca, che rafforza l'illusione di autenticità del racconto.",
+      "text": "Un personaggio secondario ma strutturalmente importante è Lorenzo, l'amico a cui sono indirizzate quasi tutte le lettere del romanzo,",
+      "speech": "Un personaggio secondario ma strutturalmente importante è Lorenzo, l'amico a cui sono indirizzate quasi tutte le lettere del romanzo,",
       "bold": [
         [
           58,
@@ -87,13 +105,21 @@
       "p": 1
     },
     {
+      "text": "e che si presenta anche, nella finzione narrativa costruita da Foscolo,",
+      "speech": "e che si presenta anche, nella finzione narrativa costruita da Foscolo,"
+    },
+    {
+      "text": "come il \"curatore\" delle lettere stesse, pubblicate come autentiche grazie a una breve prefazione firmata da un fittizio \"editore\" — un espediente narrativo tipico del romanzo epistolare dell'epoca, che rafforza l'illusione di autenticità del racconto.",
+      "speech": "come il curatore delle lettere stesse, pubblicate come autentiche grazie a una breve prefazione firmata da un fittizio editore — un espediente narrativo tipico del romanzo epistolare dell'epoca, che rafforza l'illusione di autenticità del racconto."
+    },
+    {
       "text": "Vediamo ora i temi principali di questo romanzo.",
       "speech": "Vediamo ora i temi principali di questo romanzo.",
       "p": 1
     },
     {
-      "text": "Il primo tema, il più evidente, è l'intreccio inestricabile tra delusione politica e amore infelice: il tradimento degli ideali di libertà, sancito dal Trattato di Campoformio, e l'amore impossibile per Teresa si intrecciano continuamente nelle lettere di Jacopo, rendendo la sua crisi personale insieme intima e collettiva, privata e storica allo stesso tempo — non è mai possibile, leggendo il romanzo, separare del tutto il dolore politico da quello sentimentale.",
-      "speech": "Il primo tema, il più evidente, è l'intreccio inestricabile tra delusione politica e amore infelice: il tradimento degli ideali di libertà, sancito dal Trattato di Campoformio, e l'amore impossibile per Teresa si intrecciano continuamente nelle lettere di Jacopo, rendendo la sua crisi personale insieme intima e collettiva, privata e storica allo stesso tempo — non è mai possibile, leggendo il romanzo, separare del tutto il dolore politico da quello sentimentale.",
+      "text": "Il primo tema, il più evidente, è l'intreccio inestricabile tra delusione politica e amore infelice:",
+      "speech": "Il primo tema, il più evidente, è l'intreccio inestricabile tra delusione politica e amore infelice:",
       "bold": [
         [
           64,
@@ -102,14 +128,34 @@
       ]
     },
     {
-      "text": "Il secondo tema è quella che i critici chiamano la crisi dell'io romantico: Jacopo è un personaggio completamente dominato dalle proprie passioni, incapace di trovare un qualunque compromesso tra l'assolutezza dei propri ideali morali e politici e i limiti oggettivi imposti dalla realtà storica e sociale in cui si trova a vivere.",
-      "speech": "Il secondo tema è quella che i critici chiamano la crisi dell'io romantico: Jacopo è un personaggio completamente dominato dalle proprie passioni, incapace di trovare un qualunque compromesso tra l'assolutezza dei propri ideali morali e politici e i limiti oggettivi imposti dalla realtà storica e sociale in cui si trova a vivere.",
+      "text": "il tradimento degli ideali di libertà, sancito dal Trattato di Campoformio,",
+      "speech": "il tradimento degli ideali di libertà, sancito dal Trattato di Campoformio,"
+    },
+    {
+      "text": "e l'amore impossibile per Teresa si intrecciano continuamente nelle lettere di Jacopo, rendendo la sua crisi personale insieme intima e collettiva,",
+      "speech": "e l'amore impossibile per Teresa si intrecciano continuamente nelle lettere di Jacopo, rendendo la sua crisi personale insieme intima e collettiva,"
+    },
+    {
+      "text": "privata e storica allo stesso tempo — non è mai possibile, leggendo il romanzo, separare del tutto il dolore politico da quello sentimentale.",
+      "speech": "privata e storica allo stesso tempo — non è mai possibile, leggendo il romanzo, separare del tutto il dolore politico da quello sentimentale."
+    },
+    {
+      "text": "Il secondo tema è quella che i critici chiamano la crisi dell'io romantico:",
+      "speech": "Il secondo tema è quella che i critici chiamano la crisi dell'io romantico:",
       "bold": [
         [
           51,
           74
         ]
       ]
+    },
+    {
+      "text": "Jacopo è un personaggio completamente dominato dalle proprie passioni,",
+      "speech": "Jacopo è un personaggio completamente dominato dalle proprie passioni,"
+    },
+    {
+      "text": "incapace di trovare un qualunque compromesso tra l'assolutezza dei propri ideali morali e politici e i limiti oggettivi imposti dalla realtà storica e sociale in cui si trova a vivere.",
+      "speech": "incapace di trovare un qualunque compromesso tra l'assolutezza dei propri ideali morali e politici e i limiti oggettivi imposti dalla realtà storica e sociale in cui si trova a vivere."
     },
     {
       "text": "È un conflitto che, in una forma diversa ma altrettanto radicale, avevamo già incontrato nell'individualismo eroico di Alfieri.",
@@ -127,12 +173,16 @@
       "p": 1
     },
     {
-      "text": "Il suicidio di Jacopo diventa, nella logica interna del romanzo, un gesto estremo ma coerente: l'unico modo per restare fedele fino in fondo ai propri ideali traditi, piuttosto che accettare un compromesso che Jacopo stesso giudicherebbe come una forma di tradimento di se stesso.",
-      "speech": "Il suicidio di Jacopo diventa, nella logica interna del romanzo, un gesto estremo ma coerente: l'unico modo per restare fedele fino in fondo ai propri ideali traditi, piuttosto che accettare un compromesso che Jacopo stesso giudicherebbe come una forma di tradimento di se stesso."
+      "text": "Il suicidio di Jacopo diventa, nella logica interna del romanzo, un gesto estremo ma coerente:",
+      "speech": "Il suicidio di Jacopo diventa, nella logica interna del romanzo, un gesto estremo ma coerente:"
     },
     {
-      "text": "Sul piano della struttura e dello stile, la forma epistolare permette a Foscolo di mescolare liberamente, lettera dopo lettera, vicende private — l'amore per Teresa — e vicende pubbliche — la delusione politica, le riflessioni storiche e filosofiche dello stesso Jacopo — in uno stile lirico, appassionato, spesso frammentario ed esclamativo, che rispecchia fedelmente l'agitazione interiore crescente del protagonista, fino al tragico epilogo finale.",
-      "speech": "Sul piano della struttura e dello stile, la forma epistolare permette a Foscolo di mescolare liberamente, lettera dopo lettera, vicende private — l'amore per Teresa — e vicende pubbliche — la delusione politica, le riflessioni storiche e filosofiche dello stesso Jacopo — in uno stile lirico, appassionato, spesso frammentario ed esclamativo, che rispecchia fedelmente l'agitazione interiore crescente del protagonista, fino al tragico epilogo finale.",
+      "text": "l'unico modo per restare fedele fino in fondo ai propri ideali traditi, piuttosto che accettare un compromesso che Jacopo stesso giudicherebbe come una forma di tradimento di se stesso.",
+      "speech": "l'unico modo per restare fedele fino in fondo ai propri ideali traditi, piuttosto che accettare un compromesso che Jacopo stesso giudicherebbe come una forma di tradimento di se stesso."
+    },
+    {
+      "text": "Sul piano della struttura e dello stile, la forma epistolare permette a Foscolo di mescolare liberamente, lettera dopo lettera, vicende private — l'amore per Teresa —",
+      "speech": "Sul piano della struttura e dello stile, la forma epistolare permette a Foscolo di mescolare liberamente, lettera dopo lettera, vicende private — l'amore per Teresa —",
       "bold": [
         [
           44,
@@ -142,8 +192,16 @@
       "p": 1
     },
     {
-      "text": "Un buon modo per portare questo romanzo all'orale è proprio il confronto esplicito con il Werther di Goethe, di cui le Ultime lettere di Jacopo Ortis sono dichiaratamente debitrici: potete far notare che, se il modello tedesco si concentra quasi esclusivamente sulla dimensione dell'amore infelice, Foscolo aggiunge a questo tema, con piena originalità, la dimensione politica e civile della patria perduta, rendendo il proprio romanzo un'opera insieme sentimentale e storica, personale e collettiva — una sintesi che riflette bene la biografia stessa dell'autore, sospesa per tutta la vita tra illusioni napoleoniche, delusioni politiche ed esilio.",
-      "speech": "Un buon modo per portare questo romanzo all'orale è proprio il confronto esplicito con il Werther di Goethe, di cui le Ultime lettere di Jacopo Ortis sono dichiaratamente debitrici: potete far notare che, se il modello tedesco si concentra quasi esclusivamente sulla dimensione dell'amore infelice, Foscolo aggiunge a questo tema, con piena originalità, la dimensione politica e civile della patria perduta, rendendo il proprio romanzo un'opera insieme sentimentale e storica, personale e collettiva — una sintesi che riflette bene la biografia stessa dell'autore, sospesa per tutta la vita tra illusioni napoleoniche, delusioni politiche ed esilio.",
+      "text": "e vicende pubbliche — la delusione politica, le riflessioni storiche e filosofiche dello stesso Jacopo —",
+      "speech": "e vicende pubbliche — la delusione politica, le riflessioni storiche e filosofiche dello stesso Jacopo —"
+    },
+    {
+      "text": "in uno stile lirico, appassionato, spesso frammentario ed esclamativo, che rispecchia fedelmente l'agitazione interiore crescente del protagonista, fino al tragico epilogo finale.",
+      "speech": "in uno stile lirico, appassionato, spesso frammentario ed esclamativo, che rispecchia fedelmente l'agitazione interiore crescente del protagonista, fino al tragico epilogo finale."
+    },
+    {
+      "text": "Un buon modo per portare questo romanzo all'orale è proprio il confronto esplicito con il Werther di Goethe, di cui le Ultime lettere di Jacopo Ortis sono dichiaratamente debitrici:",
+      "speech": "Un buon modo per portare questo romanzo all'orale è proprio il confronto esplicito con il Werther di Goethe, di cui le Ultime lettere di Jacopo Ortis sono dichiaratamente debitrici:",
       "bold": [
         [
           90,
@@ -153,13 +211,45 @@
       "p": 1
     },
     {
+      "text": "potete far notare che, se il modello tedesco si concentra quasi esclusivamente sulla dimensione dell'amore infelice, Foscolo aggiunge a questo tema, con piena originalità, la dimensione politica e civile della patria perduta,",
+      "speech": "potete far notare che, se il modello tedesco si concentra quasi esclusivamente sulla dimensione dell'amore infelice, Foscolo aggiunge a questo tema, con piena originalità, la dimensione politica e civile della patria perduta,"
+    },
+    {
+      "text": "rendendo il proprio romanzo un'opera insieme sentimentale e storica, personale e collettiva — una sintesi che riflette bene la biografia stessa dell'autore, sospesa per tutta la vita tra illusioni napoleoniche, delusioni politiche ed esilio.",
+      "speech": "rendendo il proprio romanzo un'opera insieme sentimentale e storica, personale e collettiva — una sintesi che riflette bene la biografia stessa dell'autore, sospesa per tutta la vita tra illusioni napoleoniche, delusioni politiche ed esilio."
+    },
+    {
       "text": "Con questo episodio abbiamo completato il ritratto di tutti gli autori principali del Seicento e del Settecento previsti dal programma: da Tasso a Goldoni, da Parini ad Alfieri, fino a Foscolo.",
       "speech": "Con questo episodio abbiamo completato il ritratto di tutti gli autori principali del Seicento e del Settecento previsti dal programma: da Tasso a Goldoni, da Parini ad Alfieri, fino a Foscolo.",
       "p": 1
     },
     {
-      "text": "Prima di lasciarvi definitivamente al ripasso delle domande guida, fissiamo un ultimo sguardo d'insieme sull'opera di Foscolo: A Zacinto, In morte del fratello Giovanni e Alla sera anticipano, in forma di sonetto, i temi della patria perduta, del sepolcro e della morte; Dei Sepolcri porta questi stessi temi a una sintesi civile e filosofica matura; Le Grazie tenta la via della bellezza neoclassica come consolazione; e le Ultime lettere di Jacopo Ortis trasferisce tutto questo travaglio in una forma narrativa moderna, il romanzo epistolare, capace di parlare direttamente al cuore inquieto di un'intera generazione.",
-      "speech": "Prima di lasciarvi definitivamente al ripasso delle domande guida, fissiamo un ultimo sguardo d'insieme sull'opera di Foscolo: A Zacinto, In morte del fratello Giovanni e Alla sera anticipano, in forma di sonetto, i temi della patria perduta, del sepolcro e della morte; Dei Sepolcri porta questi stessi temi a una sintesi civile e filosofica matura; Le Grazie tenta la via della bellezza neoclassica come consolazione; e le Ultime lettere di Jacopo Ortis trasferisce tutto questo travaglio in una forma narrativa moderna, il romanzo epistolare, capace di parlare direttamente al cuore inquieto di un'intera generazione."
+      "text": "Prima di lasciarvi definitivamente al ripasso delle domande guida, fissiamo un ultimo sguardo d'insieme sull'opera di Foscolo:",
+      "speech": "Prima di lasciarvi definitivamente al ripasso delle domande guida, fissiamo un ultimo sguardo d'insieme sull'opera di Foscolo:"
+    },
+    {
+      "text": "A Zacinto, In morte del fratello Giovanni e Alla sera anticipano, in forma di sonetto, i temi della patria perduta, del sepolcro e della morte;",
+      "speech": "A Zacinto, In morte del fratello Giovanni e Alla sera anticipano, in forma di sonetto, i temi della patria perduta, del sepolcro e della morte;"
+    },
+    {
+      "text": "Dei Sepolcri porta questi stessi temi a una sintesi civile e filosofica matura; Le Grazie tenta la via della bellezza neoclassica come consolazione;",
+      "speech": "Dei Sepolcri porta questi stessi temi a una sintesi civile e filosofica matura; Le Grazie tenta la via della bellezza neoclassica come consolazione;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Dei Sepolcri porta questi stessi temi a una sintesi civile e filosofica matura;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Le Grazie tenta la via della bellezza neoclassica come consolazione;",
+          "pausa": 0.42
+        }
+      ]
+    },
+    {
+      "text": "e le Ultime lettere di Jacopo Ortis trasferisce tutto questo travaglio in una forma narrativa moderna, il romanzo epistolare, capace di parlare direttamente al cuore inquieto di un'intera generazione.",
+      "speech": "e le Ultime lettere di Jacopo Ortis trasferisce tutto questo travaglio in una forma narrativa moderna, il romanzo epistolare, capace di parlare direttamente al cuore inquieto di un'intera generazione."
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",

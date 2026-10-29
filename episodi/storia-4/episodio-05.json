@@ -30,7 +30,7 @@
     },
     {
       "text": "La prima è una precedente rivoluzione agricola: nuove tecniche colturali e la recinzione delle terre comuni, le cosiddette \"enclosures\",",
-      "speech": "La prima è una precedente rivoluzione agricola: nuove tecniche colturali e la recinzione delle terre comuni, le cosiddette \"enclosures\",",
+      "speech": "La prima è una precedente rivoluzione agricola: nuove tecniche colturali e la recinzione delle terre comuni, le cosiddette enclosures,",
       "bold": [
         [
           26,
@@ -62,7 +62,7 @@
     },
     {
       "text": "La terza causa sono le innovazioni tecnologiche decisive: nel settore tessile la \"navetta volante\" di Kay e la \"spinning jenny\" di Hargreaves,",
-      "speech": "La terza causa sono le innovazioni tecnologiche decisive: nel settore tessile la \"navetta volante\" di Kay e la \"spinning jenny\" di Hargreaves,",
+      "speech": "La terza causa sono le innovazioni tecnologiche decisive: nel settore tessile la navetta volante di Kay e la spinning jenny di Hargreaves,",
       "bold": [
         [
           82,
@@ -153,7 +153,7 @@
     },
     {
       "text": "È proprio da questa nuova configurazione sociale che emerge la cosiddetta \"questione sociale\".",
-      "speech": "È proprio da questa nuova configurazione sociale che emerge la cosiddetta \"questione sociale\".",
+      "speech": "È proprio da questa nuova configurazione sociale che emerge la cosiddetta questione sociale.",
       "bold": [
         [
           75,
@@ -229,7 +229,19 @@
     },
     {
       "text": "macchina a vapore e meccanizzazione tessile, che danno origine al sistema di fabbrica; concentrazione urbana della produzione, che genera urbanizzazione rapida e spesso disordinata;",
-      "speech": "macchina a vapore e meccanizzazione tessile, che danno origine al sistema di fabbrica; concentrazione urbana della produzione, che genera urbanizzazione rapida e spesso disordinata;"
+      "speech": "macchina a vapore e meccanizzazione tessile, che danno origine al sistema di fabbrica; concentrazione urbana della produzione, che genera urbanizzazione rapida e spesso disordinata;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "macchina a vapore e meccanizzazione tessile, che danno origine al sistema di fabbrica;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "concentrazione urbana della produzione, che genera urbanizzazione rapida e spesso disordinata;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "nuovi rapporti di produzione capitalistici, che generano borghesia industriale, proletariato e infine la questione sociale.",

@@ -62,7 +62,43 @@
     },
     {
       "text": "le istituzioni, la famiglia, la scuola, l'economia, la religione, la politica, ciascuna delle quali svolge una funzione specifica nel mantenimento dell'equilibrio del sistema nel suo complesso.",
-      "speech": "le istituzioni, la famiglia, la scuola, l'economia, la religione, la politica, ciascuna delle quali svolge una funzione specifica nel mantenimento dell'equilibrio del sistema nel suo complesso."
+      "speech": "le istituzioni, la famiglia, la scuola, l'economia, la religione, la politica, ciascuna delle quali svolge una funzione specifica nel mantenimento dell'equilibrio del sistema nel suo complesso.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "le istituzioni,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la famiglia,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la scuola,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "l'economia,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la religione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la politica,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "ciascuna delle quali svolge una funzione specifica nel mantenimento dell'equilibrio del sistema nel suo complesso."
+        }
+      ]
     },
     {
       "text": "È un'immagine molto simile a quella di un organismo vivente, in cui ogni organo contribuisce, con la propria funzione, al mantenimento dell'intero corpo.",

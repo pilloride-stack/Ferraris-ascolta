@@ -144,7 +144,8 @@
         },
         {
           "lang": "it",
-          "text": "io sono;"
+          "text": "io sono;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -152,7 +153,8 @@
         },
         {
           "lang": "it",
-          "text": "tu sei;"
+          "text": "tu sei;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -160,7 +162,8 @@
         },
         {
           "lang": "it",
-          "text": "lui è, lei è, Lei è;"
+          "text": "lui è, lei è, Lei è;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -206,7 +209,8 @@
         },
         {
           "lang": "it",
-          "text": "noi siamo;"
+          "text": "noi siamo;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -214,7 +218,8 @@
         },
         {
           "lang": "it",
-          "text": "voi siete;"
+          "text": "voi siete;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -351,7 +356,8 @@
         },
         {
           "lang": "it",
-          "text": "lei è italiana;"
+          "text": "lei è italiana;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -389,7 +395,8 @@
         },
         {
           "lang": "it",
-          "text": "mio fratello è alto e simpatico;"
+          "text": "mio fratello è alto e simpatico;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -439,7 +446,8 @@
         },
         {
           "lang": "it",
-          "text": "il tavolo è di legno;"
+          "text": "il tavolo è di legno;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -554,7 +562,8 @@
         },
         {
           "lang": "it",
-          "text": "perché una festa è un evento che accade in un luogo, non un oggetto che semplicemente si trova lì;"
+          "text": "perché una festa è un evento che accade in un luogo, non un oggetto che semplicemente si trova lì;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -766,7 +775,42 @@
           154
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Secondo: si usa per identità,"
+        },
+        {
+          "lang": "it",
+          "text": "professione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "nazionalità,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "carattere,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "ora,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "data,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "materiale e possesso, tutte caratteristiche considerate permanenti o stabili."
+        }
+      ]
     },
     {
       "text": "Terzo: si usa anche per collocare nel tempo e nello spazio un evento, non un oggetto fisico.",

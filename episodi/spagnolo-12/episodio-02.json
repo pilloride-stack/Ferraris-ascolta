@@ -149,7 +149,8 @@
         },
         {
           "lang": "it",
-          "text": "per io;"
+          "text": "per io;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -165,7 +166,8 @@
         },
         {
           "lang": "it",
-          "text": "per lui, lei;"
+          "text": "per lui, lei;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -211,7 +213,8 @@
         },
         {
           "lang": "it",
-          "text": "la forma di cortesia che corrisponde al nostro Lei, usata per rivolgersi con rispetto a una persona;"
+          "text": "la forma di cortesia che corrisponde al nostro Lei, usata per rivolgersi con rispetto a una persona;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -253,7 +256,8 @@
         },
         {
           "lang": "it",
-          "text": "per noi, con distinzione di genere;"
+          "text": "per noi, con distinzione di genere;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -261,7 +265,8 @@
         },
         {
           "lang": "it",
-          "text": "per voi, anch'esso con distinzione di genere, forma tipica dello spagnolo peninsulare;"
+          "text": "per voi, anch'esso con distinzione di genere, forma tipica dello spagnolo peninsulare;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -391,6 +396,23 @@
           4,
           26
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Gli articoli determinativi sono el, per il maschile singolare;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "la, per il femminile singolare;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "los, per il maschile plurale;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -421,7 +443,8 @@
         },
         {
           "lang": "it",
-          "text": "il libro;"
+          "text": "il libro;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -429,7 +452,8 @@
         },
         {
           "lang": "it",
-          "text": "il tavolo;"
+          "text": "il tavolo;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -459,6 +483,18 @@
           4,
           28
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Gli articoli indeterminativi sono un, per il maschile singolare;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "una, per il femminile singolare;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -493,7 +529,8 @@
         },
         {
           "lang": "it",
-          "text": "per i rispettivi plurali, con il significato di alcuni, alcune: un libro, un libro;"
+          "text": "per i rispettivi plurali, con il significato di alcuni, alcune: un libro, un libro;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -501,7 +538,8 @@
         },
         {
           "lang": "it",
-          "text": "un tavolo;"
+          "text": "un tavolo;",
+          "pausa": 0.42
         },
         {
           "lang": "es",
@@ -630,7 +668,8 @@
         },
         {
           "lang": "es",
-          "text": "gato;"
+          "text": "gato;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -664,7 +703,8 @@
         },
         {
           "lang": "es",
-          "text": "mesa o casa;"
+          "text": "mesa o casa;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -821,7 +861,8 @@
         },
         {
           "lang": "es",
-          "text": "Las estudiantes;"
+          "text": "Las estudiantes;",
+          "pausa": 0.42
         }
       ],
       "lingua": [

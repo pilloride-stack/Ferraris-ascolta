@@ -100,7 +100,7 @@
     },
     {
       "text": "Ma proprio in quegli anni la fazione dei Neri, appoggiata dal papa Bonifacio VIII, ha la meglio:",
-      "speech": "Ma proprio in quegli anni la fazione dei Neri, appoggiata dal papa Bonifacio VIII, ha la meglio:"
+      "speech": "Ma proprio in quegli anni la fazione dei Neri, appoggiata dal papa Bonifacio ottavo, ha la meglio:"
     },
     {
       "text": "Dante, schierato con i Bianchi, viene condannato all'esilio nel 1302, con l'accusa, del tutto pretestuosa, di corruzione — una condanna che prevede, se fosse mai tornato senza permesso a Firenze, addirittura il rogo.",
@@ -208,7 +208,7 @@
     },
     {
       "text": "È un'opera del tutto originale nella forma: un \"libello\", un piccolo libro, scritto in quello che si chiama prosimetro, cioè un'alternanza di prosa e poesia.",
-      "speech": "È un'opera del tutto originale nella forma: un \"libello\", un piccolo libro, scritto in quello che si chiama prosimetro, cioè un'alternanza di prosa e poesia.",
+      "speech": "È un'opera del tutto originale nella forma: un libello, un piccolo libro, scritto in quello che si chiama prosimetro, cioè un'alternanza di prosa e poesia.",
       "bold": [
         [
           108,
@@ -227,7 +227,19 @@
     {
       "text": "La Vita Nuova racconta, in sostanza, tutta la storia del suo amore per Beatrice: il primo incontro all'età di nove anni; il ritrovamento anni dopo e il dono del saluto, che abbiamo appena descritto;",
       "speech": "La Vita Nuova racconta, in sostanza, tutta la storia del suo amore per Beatrice: il primo incontro all'età di nove anni; il ritrovamento anni dopo e il dono del saluto, che abbiamo appena descritto;",
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La Vita Nuova racconta, in sostanza, tutta la storia del suo amore per Beatrice: il primo incontro all'età di nove anni;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il ritrovamento anni dopo e il dono del saluto, che abbiamo appena descritto;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "e poi un momento di crisi, quando per un certo periodo Beatrice smette di salutarlo,",
@@ -235,7 +247,7 @@
     },
     {
       "text": "perché sono circolate voci — in parte alimentate dallo stesso Dante, che per proteggere il proprio segreto aveva finto di essere innamorato di un'altra donna, la cosiddetta \"donna schermo\",",
-      "speech": "perché sono circolate voci — in parte alimentate dallo stesso Dante, che per proteggere il proprio segreto aveva finto di essere innamorato di un'altra donna, la cosiddetta \"donna schermo\",",
+      "speech": "perché sono circolate voci — in parte alimentate dallo stesso Dante, che per proteggere il proprio segreto aveva finto di essere innamorato di un'altra donna, la cosiddetta donna schermo,",
       "bold": [
         [
           174,
@@ -266,7 +278,7 @@
     },
     {
       "text": "È la cosiddetta \"poetica della lode\", che avevamo già anticipato parlando di Guinizzelli e Cavalcanti nell'episodio scorso, ma che Dante porta a un livello di purezza mai raggiunto prima:",
-      "speech": "È la cosiddetta \"poetica della lode\", che avevamo già anticipato parlando di Guinizzelli e Cavalcanti nell'episodio scorso, ma che Dante porta a un livello di purezza mai raggiunto prima:",
+      "speech": "È la cosiddetta poetica della lode, che avevamo già anticipato parlando di Guinizzelli e Cavalcanti nell'episodio scorso, ma che Dante porta a un livello di purezza mai raggiunto prima:",
       "bold": [
         [
           17,
@@ -280,12 +292,12 @@
     },
     {
       "text": "È esattamente in questa fase della \"lode\" che si colloca il sonetto più celebre di tutta la Vita Nuova, e uno dei più celebri di tutta la letteratura italiana:",
-      "speech": "È esattamente in questa fase della \"lode\" che si colloca il sonetto più celebre di tutta la Vita Nuova, e uno dei più celebri di tutta la letteratura italiana:",
+      "speech": "È esattamente in questa fase della lode che si colloca il sonetto più celebre di tutta la Vita Nuova, e uno dei più celebri di tutta la letteratura italiana:",
       "p": 1
     },
     {
       "text": "\"Tanto gentile e tanto onesta pare\" — \"appare tanto gentile e tanto dignitosa\".",
-      "speech": "\"Tanto gentile e tanto onesta pare\" — \"appare tanto gentile e tanto dignitosa\".",
+      "speech": "Tanto gentile e tanto onesta pare — appare tanto gentile e tanto dignitosa.",
       "bold": [
         [
           1,
@@ -311,7 +323,7 @@
     },
     {
       "text": "Beatrice viene descritta come \"cosa venuta da cielo in terra a miracol mostrare\" — una creatura scesa dal cielo sulla terra proprio per mostrare, concretamente, cosa sia un miracolo.",
-      "speech": "Beatrice viene descritta come \"cosa venuta da cielo in terra a miracol mostrare\" — una creatura scesa dal cielo sulla terra proprio per mostrare, concretamente, cosa sia un miracolo.",
+      "speech": "Beatrice viene descritta come cosa venuta da cielo in terra a miracol mostrare — una creatura scesa dal cielo sulla terra proprio per mostrare, concretamente, cosa sia un miracolo.",
       "bold": [
         [
           31,
@@ -330,7 +342,7 @@
     },
     {
       "text": "C'è solo la descrizione, quasi estatica, di un effetto miracoloso — è la \"poetica della lode\" nella sua forma più pura e compiuta.",
-      "speech": "Cè solo la descrizione, quasi estatica, di un effetto miracoloso — è la \"poetica della lode\" nella sua forma più pura e compiuta."
+      "speech": "Cè solo la descrizione, quasi estatica, di un effetto miracoloso — è la poetica della lode nella sua forma più pura e compiuta."
     },
     {
       "text": "La vicenda della Vita Nuova, però, non si conclude in modo felice:",
@@ -353,7 +365,7 @@
     },
     {
       "text": "alla fine della Vita Nuova, Dante racconta di aver avuto una \"mirabile visione\",",
-      "speech": "alla fine della Vita Nuova, Dante racconta di aver avuto una \"mirabile visione\",",
+      "speech": "alla fine della Vita Nuova, Dante racconta di aver avuto una mirabile visione,",
       "bold": [
         [
           62,
@@ -363,7 +375,7 @@
     },
     {
       "text": "una visione così straordinaria che lo spinge a fare una promessa solenne — non scriverà più nulla su Beatrice finché non sarà in grado di dire di lei \"quello che mai non fue detto d'alcuna\", cioè cose mai dette prima su nessun'altra donna.",
-      "speech": "una visione così straordinaria che lo spinge a fare una promessa solenne — non scriverà più nulla su Beatrice finché non sarà in grado di dire di lei \"quello che mai non fue detto d'alcuna\", cioè cose mai dette prima su nessun'altra donna."
+      "speech": "una visione così straordinaria che lo spinge a fare una promessa solenne — non scriverà più nulla su Beatrice finché non sarà in grado di dire di lei quello che mai non fue detto d'alcuna, cioè cose mai dette prima su nessun'altra donna."
     },
     {
       "text": "Fermiamoci un attimo su questa promessa, perché è letteralmente il seme da cui nascerà, più di dieci anni dopo, il progetto della Commedia.",
@@ -447,7 +459,7 @@
     },
     {
       "text": "Terzo: la Vita Nuova, scritta in prosimetro tra il 1283 e il 1292, racconta la storia del suo amore per Beatrice, dal primo incontro fino alla \"poetica della lode\", che porta alle estreme conseguenze l'idea stilnovista della donna-angelo.",
-      "speech": "Terzo: la Vita Nuova, scritta in prosimetro tra il 1283 e il 1292, racconta la storia del suo amore per Beatrice, dal primo incontro fino alla \"poetica della lode\", che porta alle estreme conseguenze l'idea stilnovista della donna-angelo.",
+      "speech": "Terzo: la Vita Nuova, scritta in prosimetro tra il 1283 e il 1292, racconta la storia del suo amore per Beatrice, dal primo incontro fino alla poetica della lode, che porta alle estreme conseguenze l'idea stilnovista della donna-angelo.",
       "bold": [
         [
           0,
@@ -470,7 +482,7 @@
     },
     {
       "text": "Quarto: il sonetto \"Tanto gentile e tanto onesta pare\" rappresenta il vertice di questa poetica della lode, descrivendo Beatrice come una creatura scesa dal cielo per mostrare un miracolo.",
-      "speech": "Quarto: il sonetto \"Tanto gentile e tanto onesta pare\" rappresenta il vertice di questa poetica della lode, descrivendo Beatrice come una creatura scesa dal cielo per mostrare un miracolo.",
+      "speech": "Quarto: il sonetto Tanto gentile e tanto onesta pare rappresenta il vertice di questa poetica della lode, descrivendo Beatrice come una creatura scesa dal cielo per mostrare un miracolo.",
       "bold": [
         [
           0,
@@ -485,7 +497,7 @@
     },
     {
       "text": "Quinto: la \"mirabile visione\" finale e la promessa di dire di Beatrice \"quello che mai non fue detto d'alcuna\" anticipano direttamente il progetto della Commedia.",
-      "speech": "Quinto: la \"mirabile visione\" finale e la promessa di dire di Beatrice \"quello che mai non fue detto d'alcuna\" anticipano direttamente il progetto della Commedia.",
+      "speech": "Quinto: la mirabile visione finale e la promessa di dire di Beatrice quello che mai non fue detto d'alcuna anticipano direttamente il progetto della Commedia.",
       "bold": [
         [
           0,

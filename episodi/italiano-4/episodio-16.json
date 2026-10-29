@@ -76,14 +76,18 @@
       "p": 1
     },
     {
-      "text": "L'Arcadia, fondata a Roma nel 1690, recupera semplicità e misura classicista contro gli eccessi barocchi, ma scade spesso in una poesia convenzionale, fredda ed elegante, priva di reale tensione conoscitiva o di autentica innovazione, più decorativa che sostanziale.",
-      "speech": "L'Arcadia, fondata a Roma nel 1690, recupera semplicità e misura classicista contro gli eccessi barocchi, ma scade spesso in una poesia convenzionale, fredda ed elegante, priva di reale tensione conoscitiva o di autentica innovazione, più decorativa che sostanziale.",
+      "text": "L'Arcadia, fondata a Roma nel 1690, recupera semplicità e misura classicista contro gli eccessi barocchi,",
+      "speech": "L'Arcadia, fondata a Roma nel 1690, recupera semplicità e misura classicista contro gli eccessi barocchi,",
       "bold": [
         [
           30,
           34
         ]
       ]
+    },
+    {
+      "text": "ma scade spesso in una poesia convenzionale, fredda ed elegante, priva di reale tensione conoscitiva o di autentica innovazione, più decorativa che sostanziale.",
+      "speech": "ma scade spesso in una poesia convenzionale, fredda ed elegante, priva di reale tensione conoscitiva o di autentica innovazione, più decorativa che sostanziale."
     },
     {
       "text": "Quarta domanda: in che cosa consiste la riforma teatrale di Carlo Goldoni?",
@@ -156,7 +160,7 @@
     },
     {
       "text": "È un poemetto satirico in endecasillabi sciolti, diviso in Mattino, Mezzogiorno, Vespro e Notte, che finge di educare un \"giovin signore\" alle occupazioni di una giornata mondana.",
-      "speech": "È un poemetto satirico in endecasillabi sciolti, diviso in Mattino, Mezzogiorno, Vespro e Notte, che finge di educare un \"giovin signore\" alle occupazioni di una giornata mondana.",
+      "speech": "È un poemetto satirico in endecasillabi sciolti, diviso in Mattino, Mezzogiorno, Vespro e Notte, che finge di educare un giovin signore alle occupazioni di una giornata mondana.",
       "bold": [
         [
           26,
@@ -166,7 +170,7 @@
     },
     {
       "text": "È \"alla rovescia\" perché l'intento pedagogico apparente si rovescia in un'ironia tagliente, che mette in ridicolo l'ozio e la vacuità della nobiltà.",
-      "speech": "È \"alla rovescia\" perché l'intento pedagogico apparente si rovescia in un'ironia tagliente, che mette in ridicolo l'ozio e la vacuità della nobiltà."
+      "speech": "È alla rovescia perché l'intento pedagogico apparente si rovescia in un'ironia tagliente, che mette in ridicolo l'ozio e la vacuità della nobiltà."
     },
     {
       "text": "Settima domanda: che cosa rappresenta l'episodio de «La vergine cuccia»?",
@@ -180,14 +184,18 @@
       "p": 1
     },
     {
-      "text": "Nel Mezzogiorno, una damigella viene umiliata pubblicamente per aver accidentalmente colpito la cagnetta della marchesa, mentre un servo, per un errore anche più lieve, rischierebbe la frusta: l'episodio denuncia con amara ironia la disumanità e l'ingiustizia sociale dell'aristocrazia.",
-      "speech": "Nel Mezzogiorno, una damigella viene umiliata pubblicamente per aver accidentalmente colpito la cagnetta della marchesa, mentre un servo, per un errore anche più lieve, rischierebbe la frusta: l'episodio denuncia con amara ironia la disumanità e l'ingiustizia sociale dell'aristocrazia.",
+      "text": "Nel Mezzogiorno, una damigella viene umiliata pubblicamente per aver accidentalmente colpito la cagnetta della marchesa, mentre un servo, per un errore anche più lieve, rischierebbe la frusta:",
+      "speech": "Nel Mezzogiorno, una damigella viene umiliata pubblicamente per aver accidentalmente colpito la cagnetta della marchesa, mentre un servo, per un errore anche più lieve, rischierebbe la frusta:",
       "bold": [
         [
           4,
           15
         ]
       ]
+    },
+    {
+      "text": "l'episodio denuncia con amara ironia la disumanità e l'ingiustizia sociale dell'aristocrazia.",
+      "speech": "l'episodio denuncia con amara ironia la disumanità e l'ingiustizia sociale dell'aristocrazia."
     },
     {
       "text": "Ottava domanda: quali sono i temi principali della poetica di Vittorio Alfieri e quali tragedie meglio li rappresentano?",
@@ -210,7 +218,7 @@
     },
     {
       "text": "Le tragedie principali sono Saul, capolavoro sulla solitudine e la rovina psicologica del re biblico geloso di Davide; Mirra, sulla passione incestuosa e proibita; Filippo, ritratto della tirannia di Filippo II di Spagna.",
-      "speech": "Le tragedie principali sono Saul, capolavoro sulla solitudine e la rovina psicologica del re biblico geloso di Davide; Mirra, sulla passione incestuosa e proibita; Filippo, ritratto della tirannia di Filippo II di Spagna.",
+      "speech": "Le tragedie principali sono Saul, capolavoro sulla solitudine e la rovina psicologica del re biblico geloso di Davide; Mirra, sulla passione incestuosa e proibita; Filippo, ritratto della tirannia di Filippo secondo di Spagna.",
       "bold": [
         [
           28,
@@ -224,6 +232,23 @@
           164,
           171
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le tragedie principali sono Saul, capolavoro sulla solitudine e la rovina psicologica del re biblico geloso di Davide;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Mirra, sulla passione incestuosa e proibita;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Filippo, ritratto della tirannia di Filippo secondo di Spagna.",
+          "pausa": 0.2
+        }
       ]
     },
     {
@@ -232,14 +257,18 @@
       "p": 1
     },
     {
-      "text": "La delusione del Trattato di Campoformio, che cede Venezia all'Austria dopo le illusioni napoleoniche di Foscolo, trasforma la patria in una delle grandi \"illusioni\" necessarie — accanto ad amore, poesia, gloria e sepolcro — capaci di dare senso all'azione umana pur non essendo verità oggettive.",
-      "speech": "La delusione del Trattato di Campoformio, che cede Venezia all'Austria dopo le illusioni napoleoniche di Foscolo, trasforma la patria in una delle grandi \"illusioni\" necessarie — accanto ad amore, poesia, gloria e sepolcro — capaci di dare senso all'azione umana pur non essendo verità oggettive.",
+      "text": "La delusione del Trattato di Campoformio, che cede Venezia all'Austria dopo le illusioni napoleoniche di Foscolo, trasforma la patria in una delle grandi \"illusioni\" necessarie — accanto ad amore, poesia, gloria e sepolcro —",
+      "speech": "La delusione del Trattato di Campoformio, che cede Venezia all'Austria dopo le illusioni napoleoniche di Foscolo, trasforma la patria in una delle grandi illusioni necessarie — accanto ad amore, poesia, gloria e sepolcro —",
       "bold": [
         [
           17,
           40
         ]
       ]
+    },
+    {
+      "text": "capaci di dare senso all'azione umana pur non essendo verità oggettive.",
+      "speech": "capaci di dare senso all'azione umana pur non essendo verità oggettive."
     },
     {
       "text": "Decima domanda: quale parallelo istituisce Foscolo tra sé e Ulisse nel sonetto «A Zacinto»?",
@@ -254,7 +283,7 @@
     },
     {
       "text": "Ulisse, pur tormentato dalle proprie peregrinazioni, fa ritorno alla patria, Itaca; Foscolo, invece, è condannato a un \"diverso esiglio\", privo di ogni speranza di ritorno alla propria isola natale.",
-      "speech": "Ulisse, pur tormentato dalle proprie peregrinazioni, fa ritorno alla patria, Itaca; Foscolo, invece, è condannato a un \"diverso esiglio\", privo di ogni speranza di ritorno alla propria isola natale.",
+      "speech": "Ulisse, pur tormentato dalle proprie peregrinazioni, fa ritorno alla patria, Itaca; Foscolo, invece, è condannato a un diverso esiglio, privo di ogni speranza di ritorno alla propria isola natale.",
       "bold": [
         [
           120,
@@ -292,14 +321,18 @@
       ]
     },
     {
-      "text": "La tesi centrale è che la tomba, pur priva di valore oggettivo per il defunto secondo la ragione materialistica, è un'illusione necessaria per i vivi, perché mantiene la memoria e sprona alle grandi imprese — fino all'esempio di Omero, che eternizza gli eroi di Troia attraverso la sola poesia, senza bisogno di un sepolcro fisico.",
-      "speech": "La tesi centrale è che la tomba, pur priva di valore oggettivo per il defunto secondo la ragione materialistica, è un'illusione necessaria per i vivi, perché mantiene la memoria e sprona alle grandi imprese — fino all'esempio di Omero, che eternizza gli eroi di Troia attraverso la sola poesia, senza bisogno di un sepolcro fisico.",
+      "text": "La tesi centrale è che la tomba, pur priva di valore oggettivo per il defunto secondo la ragione materialistica, è un'illusione necessaria per i vivi,",
+      "speech": "La tesi centrale è che la tomba, pur priva di valore oggettivo per il defunto secondo la ragione materialistica, è un'illusione necessaria per i vivi,",
       "bold": [
         [
           118,
           138
         ]
       ]
+    },
+    {
+      "text": "perché mantiene la memoria e sprona alle grandi imprese — fino all'esempio di Omero, che eternizza gli eroi di Troia attraverso la sola poesia, senza bisogno di un sepolcro fisico.",
+      "speech": "perché mantiene la memoria e sprona alle grandi imprese — fino all'esempio di Omero, che eternizza gli eroi di Troia attraverso la sola poesia, senza bisogno di un sepolcro fisico."
     },
     {
       "text": "Dodicesima e ultima domanda: quali temi accomunano e quali distinguono «Ultime lettere di Jacopo Ortis» dal «Werther» di Goethe?",
@@ -333,8 +366,8 @@
       "speech": "Prima di lasciarvi, qualche consiglio pratico e conclusivo per il giorno dell'esame."
     },
     {
-      "text": "Primo: quando l'esaminatore vi chiede di un autore, cercate sempre di collegarlo agli altri già studiati — abbiamo visto più volte come Tasso dialoghi con Ariosto, Alfieri con il futuro Romanticismo, Foscolo con Parini attraverso gli endecasillabi sciolti — perché è proprio questa capacità di visione d'insieme a fare la differenza.",
-      "speech": "Primo: quando l'esaminatore vi chiede di un autore, cercate sempre di collegarlo agli altri già studiati — abbiamo visto più volte come Tasso dialoghi con Ariosto, Alfieri con il futuro Romanticismo, Foscolo con Parini attraverso gli endecasillabi sciolti — perché è proprio questa capacità di visione d'insieme a fare la differenza.",
+      "text": "Primo: quando l'esaminatore vi chiede di un autore, cercate sempre di collegarlo agli altri già studiati — abbiamo visto più volte come Tasso dialoghi con Ariosto,",
+      "speech": "Primo: quando l'esaminatore vi chiede di un autore, cercate sempre di collegarlo agli altri già studiati — abbiamo visto più volte come Tasso dialoghi con Ariosto,",
       "bold": [
         [
           0,
@@ -342,6 +375,14 @@
         ]
       ],
       "p": 1
+    },
+    {
+      "text": "Alfieri con il futuro Romanticismo, Foscolo con Parini attraverso gli endecasillabi sciolti —",
+      "speech": "Alfieri con il futuro Romanticismo, Foscolo con Parini attraverso gli endecasillabi sciolti —"
+    },
+    {
+      "text": "perché è proprio questa capacità di visione d'insieme a fare la differenza.",
+      "speech": "perché è proprio questa capacità di visione d'insieme a fare la differenza."
     },
     {
       "text": "Secondo: portate sempre, quando potete, un dettaglio testuale preciso — un verso, una metafora, una data — perché dà concretezza e credibilità alla vostra esposizione.",

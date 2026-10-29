@@ -63,6 +63,36 @@
           191,
           208
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "un sistema ERP è tipicamente organizzato in moduli distinti, ciascuno dedicato a una specifica area funzionale,"
+        },
+        {
+          "lang": "it",
+          "text": "contabilità,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "magazzino,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "vendite,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "risorse umane,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "ma tutti condividono lo stesso database centrale."
+        }
       ]
     },
     {

@@ -355,7 +355,7 @@
     },
     {
       "text": "mentre quello assoluto, fissato con il simbolo del dollaro come $A$1, resta sempre ancorato alla stessa cella.",
-      "speech": "mentre quello assoluto, fissato con il simbolo del dollaro come $A$1, resta sempre ancorato alla stessa cella.",
+      "speech": "mentre quello assoluto, fissato con il simbolo del dollaro come dollaro A dollaro 1, resta sempre ancorato alla stessa cella.",
       "bold": [
         [
           14,
@@ -369,7 +369,7 @@
     },
     {
       "text": "Si digita nella cella del risultato =SOMMA seguito, tra parentesi, dall'intervallo da sommare, per esempio =SOMMA(A1:A5).",
-      "speech": "Si digita nella cella del risultato =SOMMA seguito, tra parentesi, dall'intervallo da sommare, per esempio =SOMMA(A1:A5).",
+      "speech": "Si digita nella cella del risultato uguale SOMMA seguito, tra parentesi, dall'intervallo da sommare, per esempio uguale SOMMA, aperta parentesi, A1 due punti A5, chiusa parentesi.",
       "bold": [
         [
           107,
@@ -488,7 +488,37 @@
           5
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: Excel traduce questi concetti in uno strumento professionale pratico,"
+        },
+        {
+          "lang": "it",
+          "text": "con celle,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "formule,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "riferimenti,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "tabelle,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "grafici e stampa, ciascuno con la propria logica e il proprio utilizzo specifico."
+        }
+      ]
     },
     {
       "text": "Con questo abbiamo completato l'intero modulo di Informatica per la classe seconda.",

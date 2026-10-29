@@ -311,7 +311,7 @@
     },
     {
       "text": "Nonostante il nome faccia pensare a un solo secolo, il Siglo de Oro attraversa dunque quasi due secoli di storia spagnola, coincidendo con il regno dei Re Cattolici, di Carlo V e dei sovrani della casa d'Asburgo di Spagna, Filippo II, III e IV:",
-      "speech": "Nonostante il nome faccia pensare a un solo secolo, il Siglo de Oro attraversa dunque quasi due secoli di storia spagnola, coincidendo con il regno dei Re Cattolici, di Carlo V e dei sovrani della casa d'Asburgo di Spagna, Filippo II, III e IV:",
+      "speech": "Nonostante il nome faccia pensare a un solo secolo, il Siglo de Oro attraversa dunque quasi due secoli di storia spagnola, coincidendo con il regno dei Re Cattolici, di Carlo quinto e dei sovrani della casa d'Asburgo di Spagna, Filippo secondo, terzo e quarto:",
       "bold": [
         [
           55,
@@ -345,7 +345,7 @@
         },
         {
           "lang": "it",
-          "text": "attraversa dunque quasi due secoli di storia spagnola, coincidendo con il regno dei Re Cattolici, di Carlo V e dei sovrani della casa d'Asburgo di Spagna, Filippo II, III e IV:"
+          "text": "attraversa dunque quasi due secoli di storia spagnola, coincidendo con il regno dei Re Cattolici, di Carlo quinto e dei sovrani della casa d'Asburgo di Spagna, Filippo secondo, terzo e quarto:"
         }
       ],
       "lingua": [
@@ -357,7 +357,7 @@
     },
     {
       "text": "un periodo in cui la Spagna fu la maggiore potenza politica e militare d'Europa, nonostante una crisi economica e sociale sempre più marcata a partire dalla fine del XVI secolo.",
-      "speech": "un periodo in cui la Spagna fu la maggiore potenza politica e militare d'Europa, nonostante una crisi economica e sociale sempre più marcata a partire dalla fine del XVI secolo.",
+      "speech": "un periodo in cui la Spagna fu la maggiore potenza politica e militare d'Europa, nonostante una crisi economica e sociale sempre più marcata a partire dalla fine del sedicesimo secolo.",
       "bold": [
         [
           34,
@@ -402,7 +402,7 @@
     },
     {
       "text": "Il Renacimiento, il Rinascimento spagnolo, va dal 1492 alla metà del XVI secolo, influenzato dal classicismo italiano e caratterizzato da un'estetica di equilibrio e misura, di cui il poeta Garcilaso de la Vega è il maggiore rappresentante.",
-      "speech": "Il Renacimiento, il Rinascimento spagnolo, va dal 1492 alla metà del XVI secolo, influenzato dal classicismo italiano e caratterizzato da un'estetica di equilibrio e misura, di cui il poeta Garcilaso de la Vega è il maggiore rappresentante.",
+      "speech": "Il Renacimiento, il Rinascimento spagnolo, va dal 1492 alla metà del sedicesimo secolo, influenzato dal classicismo italiano e caratterizzato da un'estetica di equilibrio e misura, di cui il poeta Garcilaso de la Vega è il maggiore rappresentante.",
       "bold": [
         [
           3,
@@ -432,7 +432,7 @@
         },
         {
           "lang": "it",
-          "text": "il Rinascimento spagnolo, va dal 1492 alla metà del XVI secolo, influenzato dal classicismo italiano e caratterizzato da un'estetica di equilibrio e misura, di cui il poeta Garcilaso de la Vega è il maggiore rappresentante."
+          "text": "il Rinascimento spagnolo, va dal 1492 alla metà del sedicesimo secolo, influenzato dal classicismo italiano e caratterizzato da un'estetica di equilibrio e misura, di cui il poeta Garcilaso de la Vega è il maggiore rappresentante."
         }
       ],
       "lingua": [
@@ -444,7 +444,7 @@
     },
     {
       "text": "Il Barroco, il Barocco spagnolo, va dalla fine del XVI secolo fino al 1681, ed è segnato invece da uno stile più complesso, ornato e talvolta angoscioso, che riflette la crisi politica, economica e spirituale della Spagna del tempo.",
-      "speech": "Il Barroco, il Barocco spagnolo, va dalla fine del XVI secolo fino al 1681, ed è segnato invece da uno stile più complesso, ornato e talvolta angoscioso, che riflette la crisi politica, economica e spirituale della Spagna del tempo.",
+      "speech": "Il Barroco, il Barocco spagnolo, va dalla fine del sedicesimo secolo fino al 1681, ed è segnato invece da uno stile più complesso, ornato e talvolta angoscioso, che riflette la crisi politica, economica e spirituale della Spagna del tempo.",
       "bold": [
         [
           3,
@@ -470,7 +470,7 @@
         },
         {
           "lang": "it",
-          "text": "il Barocco spagnolo, va dalla fine del XVI secolo fino al 1681, ed è segnato invece da uno stile più complesso, ornato e talvolta angoscioso, che riflette la crisi politica, economica e spirituale della Spagna del tempo."
+          "text": "il Barocco spagnolo, va dalla fine del sedicesimo secolo fino al 1681, ed è segnato invece da uno stile più complesso, ornato e talvolta angoscioso, che riflette la crisi politica, economica e spirituale della Spagna del tempo."
         }
       ],
       "lingua": [
@@ -594,7 +594,8 @@
         },
         {
           "lang": "it",
-          "text": "e l'inizio della scoperta dell'America;"
+          "text": "e l'inizio della scoperta dell'America;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -606,7 +607,7 @@
     },
     {
       "text": "la metà del XVI secolo come confine tra Renacimiento e Barroco; e il 1681, morte di Calderón de la Barca, come conclusione convenzionale dell'intero periodo.",
-      "speech": "la metà del XVI secolo come confine tra Renacimiento e Barroco; e il 1681, morte di Calderón de la Barca, come conclusione convenzionale dell'intero periodo.",
+      "speech": "la metà del sedicesimo secolo come confine tra Renacimiento e Barroco; e il 1681, morte di Calderón de la Barca, come conclusione convenzionale dell'intero periodo.",
       "bold": [
         [
           3,
@@ -632,7 +633,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "la metà del XVI secolo come confine tra"
+          "text": "la metà del sedicesimo secolo come confine tra"
         },
         {
           "lang": "es",
@@ -644,7 +645,8 @@
         },
         {
           "lang": "es",
-          "text": "Barroco;"
+          "text": "Barroco;",
+          "pausa": 0.42
         },
         {
           "lang": "it",

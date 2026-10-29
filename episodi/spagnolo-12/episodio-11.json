@@ -6,7 +6,7 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo concluso il programma della Classe I con le comunidades autónomas.",
-      "speech": "Nell'episodio scorso abbiamo concluso il programma della Classe I con le comunidades autónomas.",
+      "speech": "Nell'episodio scorso abbiamo concluso il programma della Classe prima con le comunidades autónomas.",
       "bold": [
         [
           73,
@@ -16,7 +16,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Nell'episodio scorso abbiamo concluso il programma della Classe I con le"
+          "text": "Nell'episodio scorso abbiamo concluso il programma della Classe prima con le"
         },
         {
           "lang": "es",
@@ -32,7 +32,7 @@
     },
     {
       "text": "Oggi entriamo nel programma della Classe II e affrontiamo un nuovo tempo verbale fondamentale per parlare del passato: il pretérito indefinido, spesso chiamato anche pretérito simple.",
-      "speech": "Oggi entriamo nel programma della Classe II e affrontiamo un nuovo tempo verbale fondamentale per parlare del passato: il pretérito indefinido, spesso chiamato anche pretérito simple.",
+      "speech": "Oggi entriamo nel programma della Classe seconda e affrontiamo un nuovo tempo verbale fondamentale per parlare del passato: il pretérito indefinido, spesso chiamato anche pretérito simple.",
       "bold": [
         [
           122,
@@ -47,7 +47,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Oggi entriamo nel programma della Classe II e affrontiamo un nuovo tempo verbale fondamentale per parlare del passato: il"
+          "text": "Oggi entriamo nel programma della Classe seconda e affrontiamo un nuovo tempo verbale fondamentale per parlare del passato: il"
         },
         {
           "lang": "es",
@@ -338,7 +338,8 @@
         },
         {
           "lang": "es",
-          "text": "pretérito perfecto;"
+          "text": "pretérito perfecto;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -699,7 +700,8 @@
         },
         {
           "lang": "es",
-          "text": "pude, pudiste, pudo;"
+          "text": "pude, pudiste, pudo;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -793,7 +795,8 @@
         },
         {
           "lang": "es",
-          "text": "dijeron;"
+          "text": "dijeron;",
+          "pausa": 0.42
         },
         {
           "lang": "it",
@@ -1211,7 +1214,7 @@
     },
     {
       "text": "Nel prossimo episodio restiamo nel Modulo 1 della Classe II e affrontiamo il futuro semplice, che in spagnolo si forma in modo diverso rispetto all'italiano.",
-      "speech": "Nel prossimo episodio restiamo nel Modulo 1 della Classe II e affrontiamo il futuro semplice, che in spagnolo si forma in modo diverso rispetto all'italiano.",
+      "speech": "Nel prossimo episodio restiamo nel Modulo 1 della Classe seconda e affrontiamo il futuro semplice, che in spagnolo si forma in modo diverso rispetto all'italiano.",
       "bold": [
         [
           77,

@@ -109,7 +109,7 @@
     },
     {
       "text": "Vediamo la prima poesia, \"Trieste\", appartenente alla sezione del Canzoniere intitolata \"Trieste e una donna\".",
-      "speech": "Vediamo la prima poesia, \"Trieste\", appartenente alla sezione del Canzoniere intitolata \"Trieste e una donna\".",
+      "speech": "Vediamo la prima poesia, Trieste, appartenente alla sezione del Canzoniere intitolata Trieste e una donna.",
       "p": 1
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "text": "La seconda poesia, \"Città vecchia\", appartenente alla stessa sezione, descrive un percorso concreto del poeta tra i vicoli più poveri e più malfamati della città vecchia di Trieste:",
-      "speech": "La seconda poesia, \"Città vecchia\", appartenente alla stessa sezione, descrive un percorso concreto del poeta tra i vicoli più poveri e più malfamati della città vecchia di Trieste:",
+      "speech": "La seconda poesia, Città vecchia, appartenente alla stessa sezione, descrive un percorso concreto del poeta tra i vicoli più poveri e più malfamati della città vecchia di Trieste:",
       "bold": [
         [
           20,
@@ -191,7 +191,7 @@
     },
     {
       "text": "Vale la pena aggiungere un ultimo elemento biografico, spesso trascurato ma significativo per comprendere fino in fondo la sensibilità di Saba verso gli emarginati e i perseguitati di \"Città vecchia\":",
-      "speech": "Vale la pena aggiungere un ultimo elemento biografico, spesso trascurato ma significativo per comprendere fino in fondo la sensibilità di Saba verso gli emarginati e i perseguitati di \"Città vecchia\":",
+      "speech": "Vale la pena aggiungere un ultimo elemento biografico, spesso trascurato ma significativo per comprendere fino in fondo la sensibilità di Saba verso gli emarginati e i perseguitati di Città vecchia:",
       "p": 1
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "text": "sulla sua precoce e istintiva solidarietà giovanile verso gli ultimi e i margini della società triestina descritti già in \"Città vecchia\", scritta ben prima delle leggi razziali:",
-      "speech": "sulla sua precoce e istintiva solidarietà giovanile verso gli ultimi e i margini della società triestina descritti già in \"Città vecchia\", scritta ben prima delle leggi razziali:"
+      "speech": "sulla sua precoce e istintiva solidarietà giovanile verso gli ultimi e i margini della società triestina descritti già in Città vecchia, scritta ben prima delle leggi razziali:"
     },
     {
       "text": "quasi una sensibilità che la storia si sarebbe incaricata, tragicamente, di confermare e approfondire.",
@@ -322,7 +322,19 @@
     },
     {
       "text": "Montale la trova nell'oggetto simbolico che dice più di mille parole astratte; Ungaretti la trova nella parola scarnificata fino all'osso;",
-      "speech": "Montale la trova nell'oggetto simbolico che dice più di mille parole astratte; Ungaretti la trova nella parola scarnificata fino all'osso;"
+      "speech": "Montale la trova nell'oggetto simbolico che dice più di mille parole astratte; Ungaretti la trova nella parola scarnificata fino all'osso;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Montale la trova nell'oggetto simbolico che dice più di mille parole astratte;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Ungaretti la trova nella parola scarnificata fino all'osso;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "Saba la trova nel ritorno consapevole alla semplicità e alla sincerità del linguaggio quotidiano.",
@@ -352,7 +364,7 @@
     },
     {
       "text": "Primo: Saba elabora una poetica \"onesta\", fondata su un linguaggio semplice e vicino al parlato, in aperta controtendenza rispetto alle sperimentazioni linguistiche più radicali del Novecento.",
-      "speech": "Primo: Saba elabora una poetica \"onesta\", fondata su un linguaggio semplice e vicino al parlato, in aperta controtendenza rispetto alle sperimentazioni linguistiche più radicali del Novecento.",
+      "speech": "Primo: Saba elabora una poetica onesta, fondata su un linguaggio semplice e vicino al parlato, in aperta controtendenza rispetto alle sperimentazioni linguistiche più radicali del Novecento.",
       "bold": [
         [
           0,
@@ -367,7 +379,7 @@
     },
     {
       "text": "Secondo: \"Trieste\" e \"Città vecchia\" mostrano il rapporto viscerale del poeta con la propria città e con l'umanità più umile ed emarginata, fonte stessa della sua ispirazione poetica.",
-      "speech": "Secondo: \"Trieste\" e \"Città vecchia\" mostrano il rapporto viscerale del poeta con la propria città e con l'umanità più umile ed emarginata, fonte stessa della sua ispirazione poetica.",
+      "speech": "Secondo: Trieste e Città vecchia mostrano il rapporto viscerale del poeta con la propria città e con l'umanità più umile ed emarginata, fonte stessa della sua ispirazione poetica.",
       "bold": [
         [
           0,

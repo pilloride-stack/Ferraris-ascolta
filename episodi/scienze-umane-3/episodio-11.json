@@ -167,7 +167,19 @@
     },
     {
       "text": "l'intervista produce dati qualitativi di profondità variabile a seconda del grado di strutturazione; il questionario produce prevalentemente dati quantitativi su ampi campioni;",
-      "speech": "l'intervista produce dati qualitativi di profondità variabile a seconda del grado di strutturazione; il questionario produce prevalentemente dati quantitativi su ampi campioni;"
+      "speech": "l'intervista produce dati qualitativi di profondità variabile a seconda del grado di strutturazione; il questionario produce prevalentemente dati quantitativi su ampi campioni;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "l'intervista produce dati qualitativi di profondità variabile a seconda del grado di strutturazione;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il questionario produce prevalentemente dati quantitativi su ampi campioni;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "l'esperimento produce dati quantitativi in condizioni controllate; lo studio di caso produce dati qualitativi molto approfonditi ma su un solo caso.",

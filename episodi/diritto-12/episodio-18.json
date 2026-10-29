@@ -89,7 +89,19 @@
     },
     {
       "text": "al secondo livello le leggi ordinarie, i decreti legge e i decreti legislativi; al terzo livello le leggi regionali;",
-      "speech": "al secondo livello le leggi ordinarie, i decreti legge e i decreti legislativi; al terzo livello le leggi regionali;"
+      "speech": "al secondo livello le leggi ordinarie, i decreti legge e i decreti legislativi; al terzo livello le leggi regionali;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "al secondo livello le leggi ordinarie, i decreti legge e i decreti legislativi;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "al terzo livello le leggi regionali;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "al quarto i regolamenti governativi; al quinto, base della piramide, gli usi e le consuetudini.",
@@ -236,7 +248,19 @@
     },
     {
       "text": "Si articola in tre parti: i principi fondamentali, articoli uno-dodici; i diritti e i doveri dei cittadini, articoli tredici-cinquantaquattro;",
-      "speech": "Si articola in tre parti: i principi fondamentali, articoli uno-dodici; i diritti e i doveri dei cittadini, articoli tredici-cinquantaquattro;"
+      "speech": "Si articola in tre parti: i principi fondamentali, articoli uno-dodici; i diritti e i doveri dei cittadini, articoli tredici-cinquantaquattro;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Si articola in tre parti: i principi fondamentali, articoli uno-dodici;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "i diritti e i doveri dei cittadini, articoli tredici-cinquantaquattro;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "l'ordinamento della Repubblica, articoli cinquantacinque-centotrentanove.",
@@ -411,6 +435,18 @@
           24,
           44
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le sue funzioni sono la funzione legislativa, l'approvazione delle leggi;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "la funzione di indirizzo e controllo politico sull'operato del Governo;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -454,6 +490,18 @@
           120,
           133
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la fase istruttoria e deliberativa in commissione e in aula, con eventuale fenomeno della navetta tra le due Camere;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "la promulgazione da parte del Presidente della Repubblica;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -662,6 +710,18 @@
           69,
           79
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il monopolio, con un'unica impresa che controlla l'intera offerta;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "l'oligopolio, con poche grandi imprese interdipendenti;",
+          "pausa": 0.42
+        }
       ]
     },
     {

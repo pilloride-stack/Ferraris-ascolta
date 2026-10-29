@@ -6,7 +6,7 @@
   "sentences": [
     {
       "text": "Nell'episodio scorso abbiamo chiuso il programma della Classe II con il Camino de Santiago.",
-      "speech": "Nell'episodio scorso abbiamo chiuso il programma della Classe II con il Camino de Santiago.",
+      "speech": "Nell'episodio scorso abbiamo chiuso il programma della Classe seconda con il Camino de Santiago.",
       "bold": [
         [
           72,
@@ -16,7 +16,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Nell'episodio scorso abbiamo chiuso il programma della Classe II con il"
+          "text": "Nell'episodio scorso abbiamo chiuso il programma della Classe seconda con il"
         },
         {
           "lang": "es",
@@ -32,7 +32,7 @@
     },
     {
       "text": "Dedichiamo oggi l'intero episodio a un ripasso organico di tutte le domande guida delle Classi I e II, ripercorrendo in ordine ogni argomento di questo modulo,",
-      "speech": "Dedichiamo oggi l'intero episodio a un ripasso organico di tutte le domande guida delle Classi I e II, ripercorrendo in ordine ogni argomento di questo modulo,"
+      "speech": "Dedichiamo oggi l'intero episodio a un ripasso organico di tutte le domande guida delle Classi prima e II, ripercorrendo in ordine ogni argomento di questo modulo,"
     },
     {
       "text": "così da arrivare all'esame con ogni struttura grammaticale e ogni contenuto di civiltà ben fissati nella memoria.",
@@ -40,7 +40,7 @@
     },
     {
       "text": "Cominciamo dalla Classe I.",
-      "speech": "Cominciamo dalla Classe I.",
+      "speech": "Cominciamo dalla Classe prima.",
       "p": 1
     },
     {
@@ -175,7 +175,8 @@
         },
         {
           "lang": "es",
-          "text": "ver;"
+          "text": "ver;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -696,7 +697,8 @@
         },
         {
           "lang": "it",
-          "text": "sono diciassette, più due città autonome, ciascuna con proprio governo e parlamento;"
+          "text": "sono diciassette, più due città autonome, ciascuna con proprio governo e parlamento;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -758,7 +760,7 @@
     },
     {
       "text": "Passiamo ora alla Classe II.",
-      "speech": "Passiamo ora alla Classe II.",
+      "speech": "Passiamo ora alla Classe seconda.",
       "p": 1
     },
     {
@@ -789,7 +791,8 @@
         },
         {
           "lang": "es",
-          "text": "pretérito perfecto;"
+          "text": "pretérito perfecto;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -909,7 +912,8 @@
         },
         {
           "lang": "it",
-          "text": "direttamente all'infinito, identiche per le tre coniugazioni, a differenza dell'italiano che modifica la vocale tematica;"
+          "text": "direttamente all'infinito, identiche per le tre coniugazioni, a differenza dell'italiano che modifica la vocale tematica;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1018,7 +1022,7 @@
     },
     {
       "text": "la cui scoperta nel IX secolo diede origine a uno dei maggiori fenomeni di pellegrinaggio d'Europa, insieme a Roma e Gerusalemme.",
-      "speech": "la cui scoperta nel IX secolo diede origine a uno dei maggiori fenomeni di pellegrinaggio d'Europa, insieme a Roma e Gerusalemme.",
+      "speech": "la cui scoperta nel nono secolo diede origine a uno dei maggiori fenomeni di pellegrinaggio d'Europa, insieme a Roma e Gerusalemme.",
       "bold": [
         [
           20,
@@ -1225,7 +1229,8 @@
         },
         {
           "lang": "it",
-          "text": "perché quest'anno è un periodo ancora in corso;"
+          "text": "perché quest'anno è un periodo ancora in corso;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1300,7 +1305,7 @@
     },
     {
       "text": "Primo: la Classe I ha introdotto il presente, il pretérito perfecto, l'imperfecto, il pluscuamperfecto, il gerundio, l'imperativo e le principali coppie di parole ricorrenti, insieme alle comunidades autónomas.",
-      "speech": "Primo: la Classe I ha introdotto il presente, il pretérito perfecto, l'imperfecto, il pluscuamperfecto, il gerundio, l'imperativo e le principali coppie di parole ricorrenti, insieme alle comunidades autónomas.",
+      "speech": "Primo: la Classe prima ha introdotto il presente, il pretérito perfecto, l'imperfecto, il pluscuamperfecto, il gerundio, l'imperativo e le principali coppie di parole ricorrenti, insieme alle comunidades autónomas.",
       "bold": [
         [
           0,
@@ -1319,7 +1324,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Primo: la Classe I ha introdotto il presente, il"
+          "text": "Primo: la Classe prima ha introdotto il presente, il"
         },
         {
           "lang": "es",
@@ -1347,7 +1352,7 @@
     },
     {
       "text": "Secondo: la Classe II ha introdotto il pretérito indefinido e il futuro, insieme al Camino de Santiago.",
-      "speech": "Secondo: la Classe II ha introdotto il pretérito indefinido e il futuro, insieme al Camino de Santiago.",
+      "speech": "Secondo: la Classe seconda ha introdotto il pretérito indefinido e il futuro, insieme al Camino de Santiago.",
       "bold": [
         [
           0,
@@ -1366,7 +1371,7 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Secondo: la Classe II ha introdotto il"
+          "text": "Secondo: la Classe seconda ha introdotto il"
         },
         {
           "lang": "es",

@@ -10,7 +10,7 @@
     },
     {
       "text": "Oggi conosciamo da vicino proprio quell'imperatore: Carlo V d'Asburgo, il sovrano che eredita, attraverso un intreccio dinastico senza precedenti nella storia europea, un dominio territoriale davvero vastissimo.",
-      "speech": "Oggi conosciamo da vicino proprio quell'imperatore: Carlo V d'Asburgo, il sovrano che eredita, attraverso un intreccio dinastico senza precedenti nella storia europea, un dominio territoriale davvero vastissimo.",
+      "speech": "Oggi conosciamo da vicino proprio quell'imperatore: Carlo quinto d'Asburgo, il sovrano che eredita, attraverso un intreccio dinastico senza precedenti nella storia europea, un dominio territoriale davvero vastissimo.",
       "bold": [
         [
           52,
@@ -26,7 +26,7 @@
     },
     {
       "text": "Carlo V, nato nel 1500 e morto nel 1558, riceve dalla nonna paterna Maria di Borgogna i Paesi Bassi e la Franca Contea; dal padre Filippo il Bello i territori asburgici d'Austria;",
-      "speech": "Carlo V, nato nel 1500 e morto nel 1558, riceve dalla nonna paterna Maria di Borgogna i Paesi Bassi e la Franca Contea; dal padre Filippo il Bello i territori asburgici d'Austria;",
+      "speech": "Carlo quinto, nato nel 1500 e morto nel 1558, riceve dalla nonna paterna Maria di Borgogna i Paesi Bassi e la Franca Contea; dal padre Filippo il Bello i territori asburgici d'Austria;",
       "bold": [
         [
           68,
@@ -36,6 +36,18 @@
           88,
           99
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Carlo quinto, nato nel 1500 e morto nel 1558, riceve dalla nonna paterna Maria di Borgogna i Paesi Bassi e la Franca Contea;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "dal padre Filippo il Bello i territori asburgici d'Austria;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -44,7 +56,7 @@
     },
     {
       "text": "Nel 1519, dopo una costosissima campagna elettorale contro il re di Francia Francesco I, viene inoltre eletto imperatore del Sacro Romano Impero,",
-      "speech": "Nel 1519, dopo una costosissima campagna elettorale contro il re di Francia Francesco I, viene inoltre eletto imperatore del Sacro Romano Impero,",
+      "speech": "Nel 1519, dopo una costosissima campagna elettorale contro il re di Francia Francesco primo, viene inoltre eletto imperatore del Sacro Romano Impero,",
       "bold": [
         [
           4,
@@ -58,7 +70,7 @@
     },
     {
       "text": "riunendo così nelle proprie mani un potere davvero universale, quello su cui, secondo la celebre espressione dell'epoca, \"non tramontava mai il sole\".",
-      "speech": "riunendo così nelle proprie mani un potere davvero universale, quello su cui, secondo la celebre espressione dell'epoca, \"non tramontava mai il sole\".",
+      "speech": "riunendo così nelle proprie mani un potere davvero universale, quello su cui, secondo la celebre espressione dell'epoca, non tramontava mai il sole.",
       "bold": [
         [
           122,
@@ -68,12 +80,12 @@
     },
     {
       "text": "Un potere così vasto comporta però sfide altrettanto vaste, e conviene distinguerle con precisione, perché rappresentano i tre fronti su cui Carlo V è costretto a combattere per decenni.",
-      "speech": "Un potere così vasto comporta però sfide altrettanto vaste, e conviene distinguerle con precisione, perché rappresentano i tre fronti su cui Carlo V è costretto a combattere per decenni.",
+      "speech": "Un potere così vasto comporta però sfide altrettanto vaste, e conviene distinguerle con precisione, perché rappresentano i tre fronti su cui Carlo quinto è costretto a combattere per decenni.",
       "p": 1
     },
     {
       "text": "Il primo fronte è il conflitto con la Francia: Carlo V è impegnato per decenni in una serie di guerre contro il re Francesco I,",
-      "speech": "Il primo fronte è il conflitto con la Francia: Carlo V è impegnato per decenni in una serie di guerre contro il re Francesco I,",
+      "speech": "Il primo fronte è il conflitto con la Francia: Carlo quinto è impegnato per decenni in una serie di guerre contro il re Francesco primo,",
       "bold": [
         [
           21,
@@ -115,7 +127,7 @@
     },
     {
       "text": "Carlo V deve fronteggiare la crescente forza politico-militare dei principi tedeschi convertiti al luteranesimo, riuniti nella Lega di Smalcalda;",
-      "speech": "Carlo V deve fronteggiare la crescente forza politico-militare dei principi tedeschi convertiti al luteranesimo, riuniti nella Lega di Smalcalda;",
+      "speech": "Carlo quinto deve fronteggiare la crescente forza politico-militare dei principi tedeschi convertiti al luteranesimo, riuniti nella Lega di Smalcalda;",
       "bold": [
         [
           127,
@@ -135,7 +147,7 @@
     },
     {
       "text": "È proprio il fallimento di questo terzo fronte, il più caro forse alle convinzioni personali di Carlo V, a segnarne profondamente il tramonto politico e umano.",
-      "speech": "È proprio il fallimento di questo terzo fronte, il più caro forse alle convinzioni personali di Carlo V, a segnarne profondamente il tramonto politico e umano.",
+      "speech": "È proprio il fallimento di questo terzo fronte, il più caro forse alle convinzioni personali di Carlo quinto, a segnarne profondamente il tramonto politico e umano.",
       "p": 1
     },
     {
@@ -144,7 +156,7 @@
     },
     {
       "text": "e ormai anziano e malato, Carlo V decide nel 1556 di abdicare, dividendo i propri vastissimi domini tra due rami distinti della famiglia asburgica:",
-      "speech": "e ormai anziano e malato, Carlo V decide nel 1556 di abdicare, dividendo i propri vastissimi domini tra due rami distinti della famiglia asburgica:",
+      "speech": "e ormai anziano e malato, Carlo quinto decide nel 1556 di abdicare, dividendo i propri vastissimi domini tra due rami distinti della famiglia asburgica:",
       "bold": [
         [
           45,
@@ -158,7 +170,7 @@
     },
     {
       "text": "al figlio Filippo II lascia la Spagna, i territori italiani, i Paesi Bassi e l'intero impero coloniale americano;",
-      "speech": "al figlio Filippo II lascia la Spagna, i territori italiani, i Paesi Bassi e l'intero impero coloniale americano;",
+      "speech": "al figlio Filippo secondo lascia la Spagna, i territori italiani, i Paesi Bassi e l'intero impero coloniale americano;",
       "bold": [
         [
           10,
@@ -168,7 +180,7 @@
     },
     {
       "text": "al fratello Ferdinando I lascia invece i territori austriaci e il titolo imperiale.",
-      "speech": "al fratello Ferdinando I lascia invece i territori austriaci e il titolo imperiale.",
+      "speech": "al fratello Ferdinando primo lascia invece i territori austriaci e il titolo imperiale.",
       "bold": [
         [
           12,
@@ -214,7 +226,7 @@
     },
     {
       "text": "Primo: Carlo V eredita attraverso quattro linee dinastiche diverse un dominio vastissimo, e nel 1519 diventa anche imperatore del Sacro Romano Impero.",
-      "speech": "Primo: Carlo V eredita attraverso quattro linee dinastiche diverse un dominio vastissimo, e nel 1519 diventa anche imperatore del Sacro Romano Impero.",
+      "speech": "Primo: Carlo quinto eredita attraverso quattro linee dinastiche diverse un dominio vastissimo, e nel 1519 diventa anche imperatore del Sacro Romano Impero.",
       "bold": [
         [
           0,
@@ -229,7 +241,7 @@
     },
     {
       "text": "Secondo: deve affrontare tre fronti di conflitto insieme, la Francia di Francesco I, l'impero ottomano di Solimano il Magnifico, e i principi protestanti tedeschi della Lega di Smalcalda.",
-      "speech": "Secondo: deve affrontare tre fronti di conflitto insieme, la Francia di Francesco I, l'impero ottomano di Solimano il Magnifico, e i principi protestanti tedeschi della Lega di Smalcalda.",
+      "speech": "Secondo: deve affrontare tre fronti di conflitto insieme, la Francia di Francesco primo, l'impero ottomano di Solimano il Magnifico, e i principi protestanti tedeschi della Lega di Smalcalda.",
       "bold": [
         [
           0,
@@ -244,7 +256,7 @@
     },
     {
       "text": "Terzo: deluso dal fallimento del proprio disegno di unità religiosa, abdica nel 1556 dividendo l'eredità tra il figlio Filippo II, ramo spagnolo, e il fratello Ferdinando I, ramo austriaco.",
-      "speech": "Terzo: deluso dal fallimento del proprio disegno di unità religiosa, abdica nel 1556 dividendo l'eredità tra il figlio Filippo II, ramo spagnolo, e il fratello Ferdinando I, ramo austriaco.",
+      "speech": "Terzo: deluso dal fallimento del proprio disegno di unità religiosa, abdica nel 1556 dividendo l'eredità tra il figlio Filippo secondo, ramo spagnolo, e il fratello Ferdinando primo, ramo austriaco.",
       "bold": [
         [
           0,
@@ -259,7 +271,7 @@
     },
     {
       "text": "Nel prossimo episodio restiamo in questi stessi decenni per seguire un'altra grande vicenda dinastica e religiosa: quella di Enrico VIII d'Inghilterra e lo scisma anglicano.",
-      "speech": "Nel prossimo episodio restiamo in questi stessi decenni per seguire un'altra grande vicenda dinastica e religiosa: quella di Enrico VIII d'Inghilterra e lo scisma anglicano.",
+      "speech": "Nel prossimo episodio restiamo in questi stessi decenni per seguire un'altra grande vicenda dinastica e religiosa: quella di Enrico ottavo d'Inghilterra e lo scisma anglicano.",
       "p": 1
     }
   ]

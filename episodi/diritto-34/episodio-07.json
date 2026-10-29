@@ -17,7 +17,37 @@
           51
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Oggi vediamo alcuni dei principali contratti tipici, cioè quelli espressamente disciplinati dal codice civile: vendita,"
+        },
+        {
+          "lang": "it",
+          "text": "permuta,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "locazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "comodato,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "mutuo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "contratto d'opera e donazione."
+        }
+      ]
     },
     {
       "text": "Accanto alla libertà delle parti di concludere contratti atipici, non espressamente disciplinati ma meritevoli di tutela secondo l'ordinamento giuridico,",

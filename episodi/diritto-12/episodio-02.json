@@ -26,7 +26,37 @@
     },
     {
       "text": "Poiché le fonti sono numerose e provengono da organi diversi, Parlamento, Governo, Regioni, comunità locali, è necessario un criterio che stabilisca quale fonte prevalga in caso di contrasto:",
-      "speech": "Poiché le fonti sono numerose e provengono da organi diversi, Parlamento, Governo, Regioni, comunità locali, è necessario un criterio che stabilisca quale fonte prevalga in caso di contrasto:"
+      "speech": "Poiché le fonti sono numerose e provengono da organi diversi, Parlamento, Governo, Regioni, comunità locali, è necessario un criterio che stabilisca quale fonte prevalga in caso di contrasto:",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Poiché le fonti sono numerose e provengono da organi diversi,"
+        },
+        {
+          "lang": "it",
+          "text": "Parlamento,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "Governo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "Regioni,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "comunità locali,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "è necessario un criterio che stabilisca quale fonte prevalga in caso di contrasto:"
+        }
+      ]
     },
     {
       "text": "questo criterio è la gerarchia delle fonti, in base alla quale la fonte di grado superiore prevale sempre su quella di grado inferiore, che non può contraddirla.",

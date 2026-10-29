@@ -60,7 +60,7 @@
     },
     {
       "text": "Johann Joachim Winckelmann, con l'ideale di \"nobile semplicità e quieta grandezza\".",
-      "speech": "Johann Joachim Winckelmann, con l'ideale di \"nobile semplicità e quieta grandezza\".",
+      "speech": "Johann Joachim Winckelmann, con l'ideale di nobile semplicità e quieta grandezza.",
       "bold": [
         [
           0,
@@ -278,6 +278,23 @@
           62,
           90
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Canaletto è precisissimo;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Bellotto documentario e più freddo;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "Guardi più libero ed emotivo.",
+          "pausa": 0.2
+        }
       ]
     },
     {
@@ -388,7 +405,7 @@
     },
     {
       "text": "Colonne incassate nella parete e una scala che sembra \"colare\" verso il basso.",
-      "speech": "Colonne incassate nella parete e una scala che sembra \"colare\" verso il basso.",
+      "speech": "Colonne incassate nella parete e una scala che sembra colare verso il basso.",
       "bold": [
         [
           0,

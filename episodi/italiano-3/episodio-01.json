@@ -22,7 +22,7 @@
     },
     {
       "text": "parlate quella che oggi chiamiamo lingua \"volgare\", nata piano piano dalla trasformazione del latino parlato, nei secoli, dopo la caduta dell'Impero romano d'Occidente, nel 476 dopo Cristo.",
-      "speech": "parlate quella che oggi chiamiamo lingua \"volgare\", nata piano piano dalla trasformazione del latino parlato, nei secoli, dopo la caduta dell'Impero romano d'Occidente, nel 476 dopo Cristo.",
+      "speech": "parlate quella che oggi chiamiamo lingua volgare, nata piano piano dalla trasformazione del latino parlato, nei secoli, dopo la caduta dell'Impero romano d'Occidente, nel 476 dopo Cristo.",
       "bold": [
         [
           42,
@@ -41,7 +41,7 @@
     },
     {
       "text": "E soprattutto: come si passa, nel giro di pochi secoli, da un volgare considerato \"buono solo per parlare\" a un volgare capace di scrivere la Commedia di Dante?",
-      "speech": "E soprattutto: come si passa, nel giro di pochi secoli, da un volgare considerato \"buono solo per parlare\" a un volgare capace di scrivere la Commedia di Dante?"
+      "speech": "E soprattutto: come si passa, nel giro di pochi secoli, da un volgare considerato buono solo per parlare a un volgare capace di scrivere la Commedia di Dante?"
     },
     {
       "text": "È da qui che dobbiamo partire, perché senza capire questo passaggio, tutto il resto della letteratura italiana rischia di sembrare cominciato dal nulla.",
@@ -54,7 +54,7 @@
     },
     {
       "text": "Dopo la caduta dell'Impero romano, il latino parlato quotidianamente — quello che i linguisti chiamano \"latino volgare\",",
-      "speech": "Dopo la caduta dell'Impero romano, il latino parlato quotidianamente — quello che i linguisti chiamano \"latino volgare\",",
+      "speech": "Dopo la caduta dell'Impero romano, il latino parlato quotidianamente — quello che i linguisti chiamano latino volgare,",
       "bold": [
         [
           104,
@@ -82,7 +82,7 @@
     },
     {
       "text": "Basta un esempio per capire quanto la lingua cambi: la parola latina \"civitatem\" — che significa città — perde nel tempo la finale, si semplifica la pronuncia, e diventa, in volgare italiano, \"città\".",
-      "speech": "Basta un esempio per capire quanto la lingua cambi: la parola latina \"civitatem\" — che significa città — perde nel tempo la finale, si semplifica la pronuncia, e diventa, in volgare italiano, \"città\"."
+      "speech": "Basta un esempio per capire quanto la lingua cambi: la parola latina civitatem — che significa città — perde nel tempo la finale, si semplifica la pronuncia, e diventa, in volgare italiano, città."
     },
     {
       "text": "Lo stesso accade a migliaia di altre parole.",
@@ -94,7 +94,7 @@
     },
     {
       "text": "e che nessun parlante dell'epoca avrebbe potuto percepire come la nascita di \"una lingua nuova\" — semplicemente, la lingua di tutti i giorni si allontana sempre di più dal latino scritto nei libri.",
-      "speech": "e che nessun parlante dell'epoca avrebbe potuto percepire come la nascita di \"una lingua nuova\" — semplicemente, la lingua di tutti i giorni si allontana sempre di più dal latino scritto nei libri."
+      "speech": "e che nessun parlante dell'epoca avrebbe potuto percepire come la nascita di una lingua nuova — semplicemente, la lingua di tutti i giorni si allontana sempre di più dal latino scritto nei libri."
     },
     {
       "text": "Nascono così, in tutta l'Europa che era stata romana, quelle che oggi chiamiamo le lingue romanze:",
@@ -109,7 +109,33 @@
     },
     {
       "text": "il francese, lo spagnolo, il portoghese, il rumeno, e naturalmente i volgari italiani — al plurale,",
-      "speech": "il francese, lo spagnolo, il portoghese, il rumeno, e naturalmente i volgari italiani — al plurale,"
+      "speech": "il francese, lo spagnolo, il portoghese, il rumeno, e naturalmente i volgari italiani — al plurale,",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il francese,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "lo spagnolo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "il portoghese,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "il rumeno,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "e naturalmente i volgari italiani — al plurale,"
+        }
+      ]
     },
     {
       "text": "perché in Italia, a differenza della Francia o della Spagna, non esiste ancora nulla che somigli a una lingua nazionale unica.",
@@ -179,7 +205,7 @@
     },
     {
       "text": "Il volgare, la lingua che tutti parlano davvero, viene considerato per secoli una forma \"bassa\", priva di dignità letteraria — buona per intendersi al mercato, non per scrivere cose che contano.",
-      "speech": "Il volgare, la lingua che tutti parlano davvero, viene considerato per secoli una forma \"bassa\", priva di dignità letteraria — buona per intendersi al mercato, non per scrivere cose che contano."
+      "speech": "Il volgare, la lingua che tutti parlano davvero, viene considerato per secoli una forma bassa, priva di dignità letteraria — buona per intendersi al mercato, non per scrivere cose che contano."
     },
     {
       "text": "Gli studiosi chiamano questa situazione diglossia: due lingue, nella stessa società, con due funzioni sociali completamente diverse e gerarchicamente separate.",
@@ -235,11 +261,11 @@
     },
     {
       "text": "\"Sao ko kelle terre, per kelle fini que ki contene, trenta anni le possette parte Sancti Benedicti\" — che possiamo tradurre:",
-      "speech": "\"Sao ko kelle terre, per kelle fini que ki contene, trenta anni le possette parte Sancti Benedicti\" — che possiamo tradurre:"
+      "speech": "Sao ko kelle terre, per kelle fini que ki contene, trenta anni le possette parte Sancti Benedicti — che possiamo tradurre:"
     },
     {
       "text": "\"So che quelle terre, entro quei confini che qui si descrivono, le possedette per trent'anni la parte di San Benedetto\".",
-      "speech": "\"So che quelle terre, entro quei confini che qui si descrivono, le possedette per trent'anni la parte di San Benedetto\"."
+      "speech": "So che quelle terre, entro quei confini che qui si descrivono, le possedette per trent'anni la parte di San Benedetto."
     },
     {
       "text": "Perché proprio in volgare, in mezzo a un documento latino?",
@@ -260,15 +286,15 @@
     },
     {
       "text": "\"Kelle\", che sta per \"quelle\", viene dal latino \"illas\": la \"i\" iniziale cade, il gruppo consonantico si trasforma, e il risultato somiglia già moltissimo all'italiano che parliamo oggi.",
-      "speech": "\"Kelle\", che sta per \"quelle\", viene dal latino \"illas\": la \"i\" iniziale cade, il gruppo consonantico si trasforma, e il risultato somiglia già moltissimo all'italiano che parliamo oggi."
+      "speech": "Kelle, che sta per quelle, viene dal latino illas: la i iniziale cade, il gruppo consonantico si trasforma, e il risultato somiglia già moltissimo all'italiano che parliamo oggi."
     },
     {
       "text": "\"Trenta\" viene direttamente da \"triginta\", con una progressiva semplificazione della pronuncia.",
-      "speech": "\"Trenta\" viene direttamente da \"triginta\", con una progressiva semplificazione della pronuncia."
+      "speech": "Trenta viene direttamente da triginta, con una progressiva semplificazione della pronuncia."
     },
     {
       "text": "Persino la grafia con la \"k\" al posto della \"c\" — \"kelle\" invece di \"quelle\", \"ko\" invece di \"co\" — ci dice qualcosa di importante:",
-      "speech": "Persino la grafia con la \"k\" al posto della \"c\" — \"kelle\" invece di \"quelle\", \"ko\" invece di \"co\" — ci dice qualcosa di importante:"
+      "speech": "Persino la grafia con la k al posto della c — kelle invece di quelle, ko invece di co — ci dice qualcosa di importante:"
     },
     {
       "text": "chi scrive sta cercando di annotare foneticamente dei suoni per cui l'alfabeto latino classico non aveva ancora convenzioni consolidate.",
@@ -293,7 +319,7 @@
     },
     {
       "text": "Perché un conto è usare il volgare per necessità pratica, in un documento legale che nessuno considererà mai \"arte\";",
-      "speech": "Perché un conto è usare il volgare per necessità pratica, in un documento legale che nessuno considererà mai \"arte\";"
+      "speech": "Perché un conto è usare il volgare per necessità pratica, in un documento legale che nessuno considererà mai arte;"
     },
     {
       "text": "un altro conto è considerarlo degno di portare poesia, racconti, riflessioni filosofiche, cioè le cose più prestigiose che una cultura sa produrre.",
@@ -323,7 +349,7 @@
     },
     {
       "text": "la Scuola Siciliana, alla corte di Federico II di Svevia, tra circa il 1230 e il 1250.",
-      "speech": "la Scuola Siciliana, alla corte di Federico II di Svevia, tra circa il 1230 e il 1250.",
+      "speech": "la Scuola Siciliana, alla corte di Federico secondo di Svevia, tra circa il 1230 e il 1250.",
       "bold": [
         [
           3,
@@ -337,7 +363,7 @@
     },
     {
       "text": "Federico II, imperatore ma anche uomo di straordinaria cultura, raccoglie intorno a sé, alla Magna Curia — la sua corte itinerante — funzionari, notai, giuristi che sono anche poeti:",
-      "speech": "Federico II, imperatore ma anche uomo di straordinaria cultura, raccoglie intorno a sé, alla Magna Curia — la sua corte itinerante — funzionari, notai, giuristi che sono anche poeti:"
+      "speech": "Federico secondo, imperatore ma anche uomo di straordinaria cultura, raccoglie intorno a sé, alla Magna Curia — la sua corte itinerante — funzionari, notai, giuristi che sono anche poeti:"
     },
     {
       "text": "Giacomo da Lentini, a cui la tradizione attribuisce l'invenzione stessa del sonetto;",
@@ -359,7 +385,7 @@
     },
     {
       "text": "Scrivono versi d'amore in un volgare siciliano volutamente elevato, raffinato, \"illustre\" — modellato sulla lirica provenzale dei trovatori francesi,",
-      "speech": "Scrivono versi d'amore in un volgare siciliano volutamente elevato, raffinato, \"illustre\" — modellato sulla lirica provenzale dei trovatori francesi,"
+      "speech": "Scrivono versi d'amore in un volgare siciliano volutamente elevato, raffinato, illustre — modellato sulla lirica provenzale dei trovatori francesi,"
     },
     {
       "text": "che cantavano l'amore cortese, il fin'amor, l'amore idealizzato per una donna irraggiungibile e perfetta.",
@@ -410,7 +436,7 @@
     },
     {
       "text": "Quando la dinastia sveva cade — Federico II muore nel 1250, e il suo mondo politico si sgretola nel giro di pochi anni — la Scuola Siciliana come istituzione si esaurisce.",
-      "speech": "Quando la dinastia sveva cade — Federico II muore nel 1250, e il suo mondo politico si sgretola nel giro di pochi anni — la Scuola Siciliana come istituzione si esaurisce.",
+      "speech": "Quando la dinastia sveva cade — Federico secondo muore nel 1250, e il suo mondo politico si sgretola nel giro di pochi anni — la Scuola Siciliana come istituzione si esaurisce.",
       "bold": [
         [
           54,
@@ -429,7 +455,7 @@
     },
     {
       "text": "tra l'altro, che oggi leggiamo i sonetti della Scuola Siciliana già \"tradotti\" in forma toscana nei manoscritti che ci sono arrivati,",
-      "speech": "tra l'altro, che oggi leggiamo i sonetti della Scuola Siciliana già \"tradotti\" in forma toscana nei manoscritti che ci sono arrivati,"
+      "speech": "tra l'altro, che oggi leggiamo i sonetti della Scuola Siciliana già tradotti in forma toscana nei manoscritti che ci sono arrivati,"
     },
     {
       "text": "e gli originali autentici in siciliano stretto si sono quasi del tutto perduti.",
@@ -600,7 +626,7 @@
     },
     {
       "text": "Primo: per secoli l'Italia vive una situazione di diglossia — latino per scrivere, volgare per parlare — e il volgare è considerato a lungo una lingua \"bassa\", priva di dignità letteraria;",
-      "speech": "Primo: per secoli l'Italia vive una situazione di diglossia — latino per scrivere, volgare per parlare — e il volgare è considerato a lungo una lingua \"bassa\", priva di dignità letteraria;",
+      "speech": "Primo: per secoli l'Italia vive una situazione di diglossia — latino per scrivere, volgare per parlare — e il volgare è considerato a lungo una lingua bassa, priva di dignità letteraria;",
       "bold": [
         [
           0,
@@ -638,7 +664,7 @@
     },
     {
       "text": "Terzo: è nel Duecento, con la nuova società comunale e con la Scuola Siciliana alla corte di Federico II, che il volgare comincia per la prima volta a diventare lingua di poesia vera e propria, sul modello della lirica provenzale,",
-      "speech": "Terzo: è nel Duecento, con la nuova società comunale e con la Scuola Siciliana alla corte di Federico II, che il volgare comincia per la prima volta a diventare lingua di poesia vera e propria, sul modello della lirica provenzale,",
+      "speech": "Terzo: è nel Duecento, con la nuova società comunale e con la Scuola Siciliana alla corte di Federico secondo, che il volgare comincia per la prima volta a diventare lingua di poesia vera e propria, sul modello della lirica provenzale,",
       "bold": [
         [
           0,

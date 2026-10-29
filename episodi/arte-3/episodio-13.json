@@ -44,7 +44,7 @@
     },
     {
       "text": "L'ichthys, il pesce, è un acrostico greco per \"Gesù Cristo Figlio di Dio Salvatore\"; il monogramma Chi-Rho unisce le prime due lettere greche di \"Cristo\";",
-      "speech": "L'ichthys, il pesce, è un acrostico greco per \"Gesù Cristo Figlio di Dio Salvatore\"; il monogramma Chi-Rho unisce le prime due lettere greche di \"Cristo\";",
+      "speech": "L'ichthys, il pesce, è un acrostico greco per Gesù Cristo Figlio di Dio Salvatore; il monogramma Chi-Rho unisce le prime due lettere greche di Cristo;",
       "bold": [
         [
           2,
@@ -54,6 +54,18 @@
           88,
           106
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'ichthys, il pesce, è un acrostico greco per Gesù Cristo Figlio di Dio Salvatore;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il monogramma Chi-Rho unisce le prime due lettere greche di Cristo;",
+          "pausa": 0.42
+        }
       ]
     },
     {

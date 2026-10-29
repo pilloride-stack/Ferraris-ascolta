@@ -41,7 +41,7 @@
     },
     {
       "text": "Il modello attualmente più accreditato è quello dei \"Big Five\", i cinque grandi fattori, che vi conviene saper elencare con precisione:",
-      "speech": "Il modello attualmente più accreditato è quello dei \"Big Five\", i cinque grandi fattori, che vi conviene saper elencare con precisione:",
+      "speech": "Il modello attualmente più accreditato è quello dei Big Five, i cinque grandi fattori, che vi conviene saper elencare con precisione:",
       "bold": [
         [
           53,
@@ -65,6 +65,37 @@
           97,
           113
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "estroversione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "gradevolezza,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "o amicalità,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "coscienziosità,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "nevroticismo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "o instabilità emotiva, e apertura mentale."
+        }
       ]
     },
     {

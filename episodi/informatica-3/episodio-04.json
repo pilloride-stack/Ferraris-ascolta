@@ -204,7 +204,19 @@
     },
     {
       "text": "Le tabelle memorizzano i dati; le query li interrogano e li filtrano secondo criteri;",
-      "speech": "Le tabelle memorizzano i dati; le query li interrogano e li filtrano secondo criteri;"
+      "speech": "Le tabelle memorizzano i dati; le query li interrogano e li filtrano secondo criteri;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le tabelle memorizzano i dati;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "le query li interrogano e li filtrano secondo criteri;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "le maschere offrono un'interfaccia semplificata per inserirli e consultarli; e i report li presentano in un formato pronto per la stampa.",

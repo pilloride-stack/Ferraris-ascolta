@@ -145,7 +145,7 @@
     },
     {
       "text": "come vedremo tra qualche episodio, da Dante nella Commedia e da Leopardi ne \"L'infinito\".",
-      "speech": "come vedremo tra qualche episodio, da Dante nella Commedia e da Leopardi ne \"L'infinito\"."
+      "speech": "come vedremo tra qualche episodio, da Dante nella Commedia e da Leopardi ne L'infinito."
     },
     {
       "text": "Il secondo strumento è la strofa, cioè un gruppo di versi organizzato secondo uno schema fisso:",
@@ -187,7 +187,7 @@
     },
     {
       "text": "esistono anche i versi sciolti, senza rima ma con misura fissa — è il caso, per esempio, del già citato \"Infinito\" di Leopardi, composto da endecasillabi sciolti —",
-      "speech": "esistono anche i versi sciolti, senza rima ma con misura fissa — è il caso, per esempio, del già citato \"Infinito\" di Leopardi, composto da endecasillabi sciolti —",
+      "speech": "esistono anche i versi sciolti, senza rima ma con misura fissa — è il caso, per esempio, del già citato Infinito di Leopardi, composto da endecasillabi sciolti —",
       "bold": [
         [
           17,
@@ -230,7 +230,7 @@
     },
     {
       "text": "La similitudine, invece, è un paragone esplicito, introdotto da \"come\" o da espressioni simili: la differenza rispetto alla metafora è proprio questa esplicitazione del confronto.",
-      "speech": "La similitudine, invece, è un paragone esplicito, introdotto da \"come\" o da espressioni simili: la differenza rispetto alla metafora è proprio questa esplicitazione del confronto.",
+      "speech": "La similitudine, invece, è un paragone esplicito, introdotto da come o da espressioni simili: la differenza rispetto alla metafora è proprio questa esplicitazione del confronto.",
       "bold": [
         [
           0,
@@ -250,7 +250,7 @@
     },
     {
       "text": "come vedremo tra poco nella poesia \"Fratelli\" di Ungaretti, costruita proprio attorno alla ripetizione ossessiva di questa singola parola.",
-      "speech": "come vedremo tra poco nella poesia \"Fratelli\" di Ungaretti, costruita proprio attorno alla ripetizione ossessiva di questa singola parola."
+      "speech": "come vedremo tra poco nella poesia Fratelli di Ungaretti, costruita proprio attorno alla ripetizione ossessiva di questa singola parola."
     },
     {
       "text": "L'enjambement è la spezzatura di un'unità sintattica e di significato a cavallo di due versi,",
@@ -279,6 +279,32 @@
           0,
           16
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "L'allitterazione è la ripetizione dello stesso suono consonantico o vocalico in parole vicine, un procedimento che crea un effetto musicale,"
+        },
+        {
+          "lang": "it",
+          "text": "quasi onomatopeico,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "particolarmente caro,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "come vedremo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "a Pascoli.",
+          "pausa": 0.32
+        }
       ]
     },
     {
@@ -293,7 +319,7 @@
     },
     {
       "text": "come il celebre \"dolce naufragar\" con cui Leopardi chiude \"L'infinito\", un accostamento apparentemente contraddittorio — come può un naufragio, evento per definizione terribile, essere \"dolce\"? —",
-      "speech": "come il celebre \"dolce naufragar\" con cui Leopardi chiude \"L'infinito\", un accostamento apparentemente contraddittorio — come può un naufragio, evento per definizione terribile, essere \"dolce\"? —"
+      "speech": "come il celebre dolce naufragar con cui Leopardi chiude L'infinito, un accostamento apparentemente contraddittorio — come può un naufragio, evento per definizione terribile, essere dolce? —"
     },
     {
       "text": "che in realtà racchiude tutto il senso della poesia, come vedremo in dettaglio.",
@@ -387,7 +413,7 @@
     },
     {
       "text": "Proviamo a fare subito un piccolo esercizio, come farebbe un insegnante prima di lasciarvi da soli con un testo nuovo: immaginate il verso \"il mare è una lacrima azzurra\".",
-      "speech": "Proviamo a fare subito un piccolo esercizio, come farebbe un insegnante prima di lasciarvi da soli con un testo nuovo: immaginate il verso \"il mare è una lacrima azzurra\".",
+      "speech": "Proviamo a fare subito un piccolo esercizio, come farebbe un insegnante prima di lasciarvi da soli con un testo nuovo: immaginate il verso il mare è una lacrima azzurra.",
       "p": 1
     },
     {
@@ -396,7 +422,7 @@
     },
     {
       "text": "Non c'è il \"come\", quindi è una metafora, perché il mare viene identificato direttamente con una lacrima, senza dichiarare esplicitamente il confronto.",
-      "speech": "Non cè il \"come\", quindi è una metafora, perché il mare viene identificato direttamente con una lacrima, senza dichiarare esplicitamente il confronto.",
+      "speech": "Non cè il come, quindi è una metafora, perché il mare viene identificato direttamente con una lacrima, senza dichiarare esplicitamente il confronto.",
       "bold": [
         [
           32,
@@ -464,7 +490,48 @@
           5
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: le principali figure retoriche — metafora,"
+        },
+        {
+          "lang": "it",
+          "text": "similitudine,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "anafora,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "enjambement,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "allitterazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "ossimoro,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "sinestesia,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "analogia —",
+          "pausa": 0.32
+        }
+      ]
     },
     {
       "text": "vanno sempre collegate al significato complessivo del testo, non elencate meccanicamente.",
@@ -492,7 +559,7 @@
     },
     {
       "text": "Eugenio Montale, e la sua celebre poesia \"Meriggiare pallido e assorto\", insieme a due liriche di Giovanni Pascoli, \"Lavandare\" e \"X Agosto\".",
-      "speech": "Eugenio Montale, e la sua celebre poesia \"Meriggiare pallido e assorto\", insieme a due liriche di Giovanni Pascoli, \"Lavandare\" e \"X Agosto\".",
+      "speech": "Eugenio Montale, e la sua celebre poesia Meriggiare pallido e assorto, insieme a due liriche di Giovanni Pascoli, Lavandare e X Agosto.",
       "bold": [
         [
           0,

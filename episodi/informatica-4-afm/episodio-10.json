@@ -144,7 +144,19 @@
     },
     {
       "text": "superato questo primo livello, si passa all'integration test, per verificare che le componenti dialoghino correttamente tra loro; poi al system test, sull'intero sistema integrato;",
-      "speech": "superato questo primo livello, si passa all'integration test, per verificare che le componenti dialoghino correttamente tra loro; poi al system test, sull'intero sistema integrato;"
+      "speech": "superato questo primo livello, si passa all'integration test, per verificare che le componenti dialoghino correttamente tra loro; poi al system test, sull'intero sistema integrato;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "superato questo primo livello, si passa all'integration test, per verificare che le componenti dialoghino correttamente tra loro;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "poi al system test, sull'intero sistema integrato;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "e infine, solo dopo aver superato questi tre livelli tecnici, all'acceptance test, l'ultima verifica prima del rilascio definitivo agli utenti.",

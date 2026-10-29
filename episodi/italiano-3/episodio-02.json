@@ -51,7 +51,7 @@
     },
     {
       "text": "figlio di Pietro di Bernardone, appunto un ricco mercante di tessuti che commerciava spesso con la Francia, tanto che pare sia proprio da lì che derivi il soprannome \"Francesco\", cioè \"il francesino\".",
-      "speech": "figlio di Pietro di Bernardone, appunto un ricco mercante di tessuti che commerciava spesso con la Francia, tanto che pare sia proprio da lì che derivi il soprannome \"Francesco\", cioè \"il francesino\".",
+      "speech": "figlio di Pietro di Bernardone, appunto un ricco mercante di tessuti che commerciava spesso con la Francia, tanto che pare sia proprio da lì che derivi il soprannome Francesco, cioè il francesino.",
       "bold": [
         [
           10,
@@ -92,7 +92,7 @@
     },
     {
       "text": "dove Francesco pregando davanti a un crocifisso bizantino sente rivolgersi le parole \"Va' e ripara la mia casa, che come vedi cade in rovina\".",
-      "speech": "dove Francesco pregando davanti a un crocifisso bizantino sente rivolgersi le parole \"Va' e ripara la mia casa, che come vedi cade in rovina\"."
+      "speech": "dove Francesco pregando davanti a un crocifisso bizantino sente rivolgersi le parole Va' e ripara la mia casa, che come vedi cade in rovina."
     },
     {
       "text": "Francesco le interpreta alla lettera, e comincia a restaurare fisicamente piccole chiese abbandonate intorno ad Assisi.",
@@ -129,7 +129,7 @@
     },
     {
       "text": "e nel 1209 Francesco ottiene dal papa Innocenzo III l'approvazione orale della sua \"regola di vita\", l'atto fondativo di quello che diventerà l'Ordine dei Frati Minori — i francescani, come li chiamiamo oggi.",
-      "speech": "e nel 1209 Francesco ottiene dal papa Innocenzo III l'approvazione orale della sua \"regola di vita\", l'atto fondativo di quello che diventerà l'Ordine dei Frati Minori — i francescani, come li chiamiamo oggi.",
+      "speech": "e nel 1209 Francesco ottiene dal papa Innocenzo terzo l'approvazione orale della sua regola di vita, l'atto fondativo di quello che diventerà l'Ordine dei Frati Minori — i francescani, come li chiamiamo oggi.",
       "bold": [
         [
           6,
@@ -157,7 +157,7 @@
     },
     {
       "text": "Un consiglio se vi state preparando per l'esame: non limitatevi a dire che Francesco \"fondò un ordine religioso\" — specificate sempre che si tratta di un ordine mendicante, cioè che vive di elemosina e non possiede beni stabili,",
-      "speech": "Un consiglio se vi state preparando per l'esame: non limitatevi a dire che Francesco \"fondò un ordine religioso\" — specificate sempre che si tratta di un ordine mendicante, cioè che vive di elemosina e non possiede beni stabili,",
+      "speech": "Un consiglio se vi state preparando per l'esame: non limitatevi a dire che Francesco fondò un ordine religioso — specificate sempre che si tratta di un ordine mendicante, cioè che vive di elemosina e non possiede beni stabili,",
       "bold": [
         [
           154,
@@ -265,7 +265,7 @@
     },
     {
       "text": "ma in prosa ritmica, organizzata in brevi versetti scanditi da un ritornello che si ripete: \"Laudato si', mi' Signore\" — lodato sii tu, mio Signore.",
-      "speech": "ma in prosa ritmica, organizzata in brevi versetti scanditi da un ritornello che si ripete: \"Laudato si', mi' Signore\" — lodato sii tu, mio Signore.",
+      "speech": "ma in prosa ritmica, organizzata in brevi versetti scanditi da un ritornello che si ripete: Laudato si', mi' Signore — lodato sii tu, mio Signore.",
       "bold": [
         [
           6,
@@ -288,28 +288,52 @@
     },
     {
       "text": "Si parte dal cielo — il Sole, \"bello e radiante con grande splendore\", che Francesco chiama \"frate Sole\";",
-      "speech": "Si parte dal cielo — il Sole, \"bello e radiante con grande splendore\", che Francesco chiama \"frate Sole\";"
+      "speech": "Si parte dal cielo — il Sole, bello e radiante con grande splendore, che Francesco chiama frate Sole;"
     },
     {
       "text": "poi la Luna e le stelle, \"chiare e preziose e belle\"; poi il vento e l'aria, in ogni tempo, sereno o nuvoloso;",
-      "speech": "poi la Luna e le stelle, \"chiare e preziose e belle\"; poi il vento e l'aria, in ogni tempo, sereno o nuvoloso;"
+      "speech": "poi la Luna e le stelle, chiare e preziose e belle; poi il vento e l'aria, in ogni tempo, sereno o nuvoloso;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "poi la Luna e le stelle, chiare e preziose e belle;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "poi il vento e l'aria, in ogni tempo, sereno o nuvoloso;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "poi l'acqua, \"molto utile e umile e preziosa e casta\"; poi il fuoco, \"bello e giocondo e robusto e forte\";",
-      "speech": "poi l'acqua, \"molto utile e umile e preziosa e casta\"; poi il fuoco, \"bello e giocondo e robusto e forte\";"
+      "speech": "poi l'acqua, molto utile e umile e preziosa e casta; poi il fuoco, bello e giocondo e robusto e forte;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "poi l'acqua, molto utile e umile e preziosa e casta;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "poi il fuoco, bello e giocondo e robusto e forte;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "poi la terra, \"nostra matrigna\" — o \"madre\", a seconda delle diverse redazioni del testo — che ci sostiene e ci governa, e produce frutti, fiori ed erba.",
-      "speech": "poi la terra, \"nostra matrigna\" — o \"madre\", a seconda delle diverse redazioni del testo — che ci sostiene e ci governa, e produce frutti, fiori ed erba."
+      "speech": "poi la terra, nostra matrigna — o madre, a seconda delle diverse redazioni del testo — che ci sostiene e ci governa, e produce frutti, fiori ed erba."
     },
     {
       "text": "Notate un dettaglio linguistico che i commissari amano far notare: ogni elemento è chiamato \"frate\" o \"sora\" — fratello o sorella — mai semplicemente nominato come una cosa.",
-      "speech": "Notate un dettaglio linguistico che i commissari amano far notare: ogni elemento è chiamato \"frate\" o \"sora\" — fratello o sorella — mai semplicemente nominato come una cosa.",
+      "speech": "Notate un dettaglio linguistico che i commissari amano far notare: ogni elemento è chiamato frate o sora — fratello o sorella — mai semplicemente nominato come una cosa.",
       "p": 1
     },
     {
       "text": "Il sole è \"frate sole\", la luna è \"sora luna\", l'acqua è \"sora acqua\".",
-      "speech": "Il sole è \"frate sole\", la luna è \"sora luna\", l'acqua è \"sora acqua\"."
+      "speech": "Il sole è frate sole, la luna è sora luna, l'acqua è sora acqua."
     },
     {
       "text": "Non è un vezzo stilistico: è il cuore teologico dell'intero testo.",
@@ -348,7 +372,7 @@
     },
     {
       "text": "prima la lode per \"quelli che perdonano per lo tuo amore\", un'aggiunta che secondo la tradizione Francesco compose per riconciliare il vescovo e il podestà di Assisi,",
-      "speech": "prima la lode per \"quelli che perdonano per lo tuo amore\", un'aggiunta che secondo la tradizione Francesco compose per riconciliare il vescovo e il podestà di Assisi,"
+      "speech": "prima la lode per quelli che perdonano per lo tuo amore, un'aggiunta che secondo la tradizione Francesco compose per riconciliare il vescovo e il podestà di Assisi,"
     },
     {
       "text": "in aspro conflitto tra loro proprio in quei mesi — un dettaglio che mostra come questo testo non fosse pensato come pura contemplazione astratta,",
@@ -360,7 +384,7 @@
     },
     {
       "text": "Poi, ultima e più sorprendente, la lode per \"sora nostra morte corporale\" — la morte fisica, chiamata anch'essa sorella, non nemica:",
-      "speech": "Poi, ultima e più sorprendente, la lode per \"sora nostra morte corporale\" — la morte fisica, chiamata anch'essa sorella, non nemica:",
+      "speech": "Poi, ultima e più sorprendente, la lode per sora nostra morte corporale — la morte fisica, chiamata anch'essa sorella, non nemica:",
       "bold": [
         [
           45,
@@ -370,7 +394,7 @@
     },
     {
       "text": "un rovesciamento totale della paura medievale della morte, letta invece come passaggio naturale, fraterno, per chi vive \"in santa pace\".",
-      "speech": "un rovesciamento totale della paura medievale della morte, letta invece come passaggio naturale, fraterno, per chi vive \"in santa pace\"."
+      "speech": "un rovesciamento totale della paura medievale della morte, letta invece come passaggio naturale, fraterno, per chi vive in santa pace."
     },
     {
       "text": "Un momento per fermarci e farci una domanda, come farebbe chiunque vi stia interrogando:",
@@ -419,7 +443,7 @@
     },
     {
       "text": "l'anafora di \"Laudato si', mi Signore, per...\" che apre quasi ogni versetto crea un ritmo incalzante, quasi ipnotico, adatto alla recitazione corale;",
-      "speech": "l'anafora di \"Laudato si', mi Signore, per...\" che apre quasi ogni versetto crea un ritmo incalzante, quasi ipnotico, adatto alla recitazione corale;",
+      "speech": "l'anafora di Laudato si', mi Signore, per... che apre quasi ogni versetto crea un ritmo incalzante, quasi ipnotico, adatto alla recitazione corale;",
       "bold": [
         [
           2,
@@ -429,7 +453,7 @@
     },
     {
       "text": "e l'accumulo di aggettivi — \"bello e radiante\", \"chiare e preziose e belle\" —",
-      "speech": "e l'accumulo di aggettivi — \"bello e radiante\", \"chiare e preziose e belle\" —"
+      "speech": "e l'accumulo di aggettivi — bello e radiante, chiare e preziose e belle —"
     },
     {
       "text": "costruisce un'immagine sensoriale ricca, che coinvolge insieme la vista, il suono e l'utilità pratica di ogni elemento, non solo la sua bellezza astratta.",
@@ -532,7 +556,7 @@
     },
     {
       "text": "Terzo: la sua idea centrale è la fraternità universale — ogni elemento del creato è \"frate\" o \"sora\" dell'uomo, in quanto opera dello stesso Creatore.",
-      "speech": "Terzo: la sua idea centrale è la fraternità universale — ogni elemento del creato è \"frate\" o \"sora\" dell'uomo, in quanto opera dello stesso Creatore.",
+      "speech": "Terzo: la sua idea centrale è la fraternità universale — ogni elemento del creato è frate o sora dell'uomo, in quanto opera dello stesso Creatore.",
       "bold": [
         [
           0,

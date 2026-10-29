@@ -77,23 +77,47 @@
       "p": 1
     },
     {
-      "text": "Una delle prime e più influenti definizioni è quella formulata dall'antropologo britannico Edward B.",
-      "speech": "Una delle prime e più influenti definizioni è quella formulata dall'antropologo britannico Edward B.",
+      "text": "Una delle prime e più influenti definizioni è quella formulata dall'antropologo britannico Edward B. Tylor, che definisce la cultura come \"quel complesso insieme che include le conoscenze, le credenze, l'arte, la morale, il diritto, il costume e qualsiasi altra capacità e abitudine acquisita dall'uomo in quanto membro di una società\".",
+      "speech": "Una delle prime e più influenti definizioni è quella formulata dall'antropologo britannico Edward B. Tylor, che definisce la cultura come quel complesso insieme che include le conoscenze, le credenze, l'arte, la morale, il diritto, il costume e qualsiasi altra capacità e abitudine acquisita dall'uomo in quanto membro di una società.",
       "bold": [
         [
           91,
           100
-        ]
-      ]
-    },
-    {
-      "text": "Tylor, che definisce la cultura come \"quel complesso insieme che include le conoscenze, le credenze, l'arte, la morale, il diritto, il costume e qualsiasi altra capacità e abitudine acquisita dall'uomo in quanto membro di una società\".",
-      "speech": "Tylor, che definisce la cultura come \"quel complesso insieme che include le conoscenze, le credenze, l'arte, la morale, il diritto, il costume e qualsiasi altra capacità e abitudine acquisita dall'uomo in quanto membro di una società\".",
-      "bold": [
+        ],
         [
-          0,
-          5
+          101,
+          106
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Una delle prime e più influenti definizioni è quella formulata dall'antropologo britannico Edward B. Tylor, che definisce la cultura come quel complesso insieme che include le conoscenze,"
+        },
+        {
+          "lang": "it",
+          "text": "le credenze,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "l'arte,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la morale,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "il diritto,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "il costume e qualsiasi altra capacità e abitudine acquisita dall'uomo in quanto membro di una società."
+        }
       ]
     },
     {

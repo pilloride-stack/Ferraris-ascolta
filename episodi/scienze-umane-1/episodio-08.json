@@ -89,7 +89,19 @@
     },
     {
       "text": "Segnalano rapidamente all'individuo se una situazione è favorevole o pericolosa; predispongono l'organismo a reagire in modo adeguato, per esempio la paura prepara concretamente alla fuga;",
-      "speech": "Segnalano rapidamente all'individuo se una situazione è favorevole o pericolosa; predispongono l'organismo a reagire in modo adeguato, per esempio la paura prepara concretamente alla fuga;"
+      "speech": "Segnalano rapidamente all'individuo se una situazione è favorevole o pericolosa; predispongono l'organismo a reagire in modo adeguato, per esempio la paura prepara concretamente alla fuga;",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Segnalano rapidamente all'individuo se una situazione è favorevole o pericolosa;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "predispongono l'organismo a reagire in modo adeguato, per esempio la paura prepara concretamente alla fuga;",
+          "pausa": 0.42
+        }
+      ]
     },
     {
       "text": "comunicano agli altri il proprio stato interno attraverso l'espressione emotiva, un canale di comunicazione non verbale fondamentale nelle relazioni sociali;",
@@ -150,6 +162,32 @@
           37,
           43
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la gioia,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la tristezza,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la paura,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "la rabbia,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "il disgusto e la sorpresa."
+        }
       ]
     },
     {
@@ -231,7 +269,37 @@
           52
         ]
       ],
-      "p": 1
+      "p": 1,
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Terzo: le sei emozioni primarie individuate da Ekman,"
+        },
+        {
+          "lang": "it",
+          "text": "gioia,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "tristezza,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "paura,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "rabbia,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "disgusto e sorpresa, sono universali,"
+        }
+      ]
     },
     {
       "text": "mentre le emozioni secondarie, come gelosia e orgoglio, dipendono maggiormente dall'apprendimento sociale e culturale.",

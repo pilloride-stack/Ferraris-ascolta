@@ -132,7 +132,7 @@
     },
     {
       "text": "Un riferimento assoluto, invece, si fissa con il simbolo del dollaro, come $A$1, e non cambia quando la formula viene copiata altrove, restando sempre ancorato alla stessa cella.",
-      "speech": "Un riferimento assoluto, invece, si fissa con il simbolo del dollaro, come $A$1, e non cambia quando la formula viene copiata altrove, restando sempre ancorato alla stessa cella.",
+      "speech": "Un riferimento assoluto, invece, si fissa con il simbolo del dollaro, come dollaro A dollaro 1, e non cambia quando la formula viene copiata altrove, restando sempre ancorato alla stessa cella.",
       "bold": [
         [
           3,
@@ -159,7 +159,7 @@
     },
     {
       "text": "La risposta è semplice ma va scritta con precisione: uguale SOMMA, apri parentesi, A1 due punti A5, chiudi parentesi, cioè =SOMMA(A1:A5).",
-      "speech": "La risposta è semplice ma va scritta con precisione: uguale SOMMA, apri parentesi, A1 due punti A5, chiudi parentesi, cioè =SOMMA(A1:A5).",
+      "speech": "La risposta è semplice ma va scritta con precisione: uguale SOMMA, apri parentesi, A1 due punti A5, chiudi parentesi, cioè uguale SOMMA, aperta parentesi, A1 due punti A5, chiusa parentesi.",
       "bold": [
         [
           123,

@@ -160,7 +160,7 @@
     },
     {
       "text": "è un modo per sottolineare esplicitamente il contrasto tra \"come stavano le cose prima\" e \"come stanno le cose ora\".",
-      "speech": "è un modo per sottolineare esplicitamente il contrasto tra \"come stavano le cose prima\" e \"come stanno le cose ora\"."
+      "speech": "è un modo per sottolineare esplicitamente il contrasto tra come stavano le cose prima e come stanno le cose ora."
     },
     {
       "text": "«I used to play the piano» significa che una volta suonavo il piano, un'abitudine che avevo in passato, ma sottintende chiaramente che ora non lo faccio più.",
@@ -313,7 +313,7 @@
     },
     {
       "text": "la parola \"use\" perde la -d finale quando è preceduta da did, perché l'ausiliare porta già con sé il valore del passato.",
-      "speech": "la parola \"use\" perde la d finale quando è preceduta da did, perché l'ausiliare porta già con sé il valore del passato.",
+      "speech": "la parola use perde la d finale quando è preceduta da did, perché l'ausiliare porta già con sé il valore del passato.",
       "bold": [
         [
           11,
@@ -331,11 +331,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "la parola \""
+          "text": "la parola "
         },
         {
           "lang": "en",
-          "text": "use\""
+          "text": "use"
         },
         {
           "lang": "it",
@@ -409,7 +409,7 @@
     },
     {
       "text": "È un dettaglio ortografico piccolo ma che vale la pena notare, perché è un errore frequente scrivere \"didn't used to\" con la -d, quando la forma corretta è \"didn't use to\".",
-      "speech": "È un dettaglio ortografico piccolo ma che vale la pena notare, perché è un errore frequente scrivere \"didn't used to\" con la d, quando la forma corretta è \"didn't use to\".",
+      "speech": "È un dettaglio ortografico piccolo ma che vale la pena notare, perché è un errore frequente scrivere didn't used to con la d, quando la forma corretta è didn't use to.",
       "bold": [
         [
           102,
@@ -423,19 +423,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "È un dettaglio ortografico piccolo ma che vale la pena notare, perché è un errore frequente scrivere \""
+          "text": "È un dettaglio ortografico piccolo ma che vale la pena notare, perché è un errore frequente scrivere "
         },
         {
           "lang": "en",
-          "text": "didn't used to\""
+          "text": "didn't used to"
         },
         {
           "lang": "it",
-          "text": "con la d, quando la forma corretta è \""
+          "text": "con la d, quando la forma corretta è "
         },
         {
           "lang": "en",
-          "text": "didn't use to\"."
+          "text": "didn't use to."
         }
       ],
       "lingua": [
@@ -550,7 +550,8 @@
         },
         {
           "lang": "it",
-          "text": "penso che vincerà;"
+          "text": "penso che vincerà;",
+          "pausa": 0.42
         }
       ],
       "lingua": [

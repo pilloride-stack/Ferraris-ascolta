@@ -129,7 +129,24 @@
     },
     {
       "text": "Una fattura di vendita ricevuta da un cliente; il libro giornale in cui vengono registrate cronologicamente tutte le operazioni dell'esercizio; una ricevuta di pagamento di una singola bolletta.",
-      "speech": "Una fattura di vendita ricevuta da un cliente; il libro giornale in cui vengono registrate cronologicamente tutte le operazioni dell'esercizio; una ricevuta di pagamento di una singola bolletta."
+      "speech": "Una fattura di vendita ricevuta da un cliente; il libro giornale in cui vengono registrate cronologicamente tutte le operazioni dell'esercizio; una ricevuta di pagamento di una singola bolletta.",
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Una fattura di vendita ricevuta da un cliente;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il libro giornale in cui vengono registrate cronologicamente tutte le operazioni dell'esercizio;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "una ricevuta di pagamento di una singola bolletta.",
+          "pausa": 0.2
+        }
+      ]
     },
     {
       "text": "La fattura di vendita è una scrittura elementare, perché registra una singola operazione così come si è manifestata.",

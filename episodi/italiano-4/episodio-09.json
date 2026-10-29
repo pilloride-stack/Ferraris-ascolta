@@ -20,8 +20,8 @@
       "p": 1
     },
     {
-      "text": "Scritta e rappresentata per la prima volta nel 1753, La Locandiera è una commedia in tre atti, composta in prosa italiana con qualche lieve inflessione veneta, che applica in pieno i principi della riforma goldoniana di cui abbiamo parlato nell'episodio precedente: un testo scritto integralmente dall'autore, personaggi psicologicamente definiti, un'ambientazione borghese pienamente verosimile.",
-      "speech": "Scritta e rappresentata per la prima volta nel 1753, La Locandiera è una commedia in tre atti, composta in prosa italiana con qualche lieve inflessione veneta, che applica in pieno i principi della riforma goldoniana di cui abbiamo parlato nell'episodio precedente: un testo scritto integralmente dall'autore, personaggi psicologicamente definiti, un'ambientazione borghese pienamente verosimile.",
+      "text": "Scritta e rappresentata per la prima volta nel 1753, La Locandiera è una commedia in tre atti, composta in prosa italiana con qualche lieve inflessione veneta,",
+      "speech": "Scritta e rappresentata per la prima volta nel 1753, La Locandiera è una commedia in tre atti, composta in prosa italiana con qualche lieve inflessione veneta,",
       "bold": [
         [
           47,
@@ -33,6 +33,14 @@
         ]
       ],
       "p": 1
+    },
+    {
+      "text": "che applica in pieno i principi della riforma goldoniana di cui abbiamo parlato nell'episodio precedente:",
+      "speech": "che applica in pieno i principi della riforma goldoniana di cui abbiamo parlato nell'episodio precedente:"
+    },
+    {
+      "text": "un testo scritto integralmente dall'autore, personaggi psicologicamente definiti, un'ambientazione borghese pienamente verosimile.",
+      "speech": "un testo scritto integralmente dall'autore, personaggi psicologicamente definiti, un'ambientazione borghese pienamente verosimile."
     },
     {
       "text": "Vediamo la trama.",
@@ -50,41 +58,65 @@
       ]
     },
     {
-      "text": "È corteggiata contemporaneamente da tre pretendenti di condizione sociale molto diversa tra loro: il Marchese di Forlipopoli, un nobile ormai decaduto, che vanta ancora un titolo aristocratico ma non possiede più alcun denaro reale; il Conte d'Albafiorita, un ricco borghese che si è semplicemente comprato il proprio titolo nobiliare con il denaro accumulato nel commercio; e il Cavaliere di Ripafratta, un misogino dichiarato, che disprezza apertamente le donne e si vanta pubblicamente della propria totale insensibilità al loro fascino.",
-      "speech": "È corteggiata contemporaneamente da tre pretendenti di condizione sociale molto diversa tra loro: il Marchese di Forlipopoli, un nobile ormai decaduto, che vanta ancora un titolo aristocratico ma non possiede più alcun denaro reale; il Conte d'Albafiorita, un ricco borghese che si è semplicemente comprato il proprio titolo nobiliare con il denaro accumulato nel commercio; e il Cavaliere di Ripafratta, un misogino dichiarato, che disprezza apertamente le donne e si vanta pubblicamente della propria totale insensibilità al loro fascino.",
+      "text": "È corteggiata contemporaneamente da tre pretendenti di condizione sociale molto diversa tra loro:",
+      "speech": "È corteggiata contemporaneamente da tre pretendenti di condizione sociale molto diversa tra loro:"
+    },
+    {
+      "text": "il Marchese di Forlipopoli, un nobile ormai decaduto, che vanta ancora un titolo aristocratico ma non possiede più alcun denaro reale;",
+      "speech": "il Marchese di Forlipopoli, un nobile ormai decaduto, che vanta ancora un titolo aristocratico ma non possiede più alcun denaro reale;",
       "bold": [
         [
-          101,
-          124
-        ],
-        [
-          236,
-          255
-        ],
-        [
-          380,
-          403
+          3,
+          26
         ]
       ]
     },
     {
-      "text": "Punta sull'orgoglio proprio da questa dichiarazione di disprezzo, Mirandolina decide di sedurre esattamente il misogino Cavaliere, per il puro gusto di dimostrare — a se stessa prima ancora che al pubblico — la superiorità del proprio ingegno femminile su ogni pretesa maschile di totale invulnerabilità sentimentale.",
-      "speech": "Punta sull'orgoglio proprio da questa dichiarazione di disprezzo, Mirandolina decide di sedurre esattamente il misogino Cavaliere, per il puro gusto di dimostrare — a se stessa prima ancora che al pubblico — la superiorità del proprio ingegno femminile su ogni pretesa maschile di totale invulnerabilità sentimentale.",
+      "text": "il Conte d'Albafiorita, un ricco borghese che si è semplicemente comprato il proprio titolo nobiliare con il denaro accumulato nel commercio;",
+      "speech": "il Conte d'Albafiorita, un ricco borghese che si è semplicemente comprato il proprio titolo nobiliare con il denaro accumulato nel commercio;",
+      "bold": [
+        [
+          3,
+          22
+        ]
+      ]
+    },
+    {
+      "text": "e il Cavaliere di Ripafratta, un misogino dichiarato, che disprezza apertamente le donne e si vanta pubblicamente della propria totale insensibilità al loro fascino.",
+      "speech": "e il Cavaliere di Ripafratta, un misogino dichiarato, che disprezza apertamente le donne e si vanta pubblicamente della propria totale insensibilità al loro fascino.",
+      "bold": [
+        [
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "text": "Punta sull'orgoglio proprio da questa dichiarazione di disprezzo, Mirandolina decide di sedurre esattamente il misogino Cavaliere, per il puro gusto di dimostrare — a se stessa prima ancora che al pubblico —",
+      "speech": "Punta sull'orgoglio proprio da questa dichiarazione di disprezzo, Mirandolina decide di sedurre esattamente il misogino Cavaliere, per il puro gusto di dimostrare — a se stessa prima ancora che al pubblico —",
       "p": 1
+    },
+    {
+      "text": "la superiorità del proprio ingegno femminile su ogni pretesa maschile di totale invulnerabilità sentimentale.",
+      "speech": "la superiorità del proprio ingegno femminile su ogni pretesa maschile di totale invulnerabilità sentimentale."
     },
     {
       "text": "Riesce nel proprio intento con un'abilità psicologica quasi chirurgica, portando il Cavaliere sull'orlo di una dichiarazione d'amore che lui stesso, fino a poco prima, avrebbe giudicato impossibile per se stesso.",
       "speech": "Riesce nel proprio intento con un'abilità psicologica quasi chirurgica, portando il Cavaliere sull'orlo di una dichiarazione d'amore che lui stesso, fino a poco prima, avrebbe giudicato impossibile per se stesso."
     },
     {
-      "text": "Alla fine, tuttavia, per prudenza personale e per convenienza sociale, Mirandolina rinuncia a proseguire questo gioco ormai pericoloso e sceglie invece di sposare Fabrizio, il cameriere della locanda, un uomo di condizione sociale pari alla propria, tornando così, nel finale, a un ordine sociale rassicurante e conforme alle convenzioni del tempo.",
-      "speech": "Alla fine, tuttavia, per prudenza personale e per convenienza sociale, Mirandolina rinuncia a proseguire questo gioco ormai pericoloso e sceglie invece di sposare Fabrizio, il cameriere della locanda, un uomo di condizione sociale pari alla propria, tornando così, nel finale, a un ordine sociale rassicurante e conforme alle convenzioni del tempo.",
+      "text": "Alla fine, tuttavia, per prudenza personale e per convenienza sociale, Mirandolina rinuncia a proseguire questo gioco ormai pericoloso e sceglie invece di sposare Fabrizio,",
+      "speech": "Alla fine, tuttavia, per prudenza personale e per convenienza sociale, Mirandolina rinuncia a proseguire questo gioco ormai pericoloso e sceglie invece di sposare Fabrizio,",
       "bold": [
         [
           163,
           171
         ]
       ]
+    },
+    {
+      "text": "il cameriere della locanda, un uomo di condizione sociale pari alla propria, tornando così, nel finale, a un ordine sociale rassicurante e conforme alle convenzioni del tempo.",
+      "speech": "il cameriere della locanda, un uomo di condizione sociale pari alla propria, tornando così, nel finale, a un ordine sociale rassicurante e conforme alle convenzioni del tempo."
     },
     {
       "text": "Per fissare bene la struttura dell'opera, seguiamola atto per atto.",
@@ -112,8 +144,8 @@
       ]
     },
     {
-      "text": "Nell'Atto terzo il Cavaliere è ormai innamorato e persino geloso, ma Mirandolina, con la prudenza che la contraddistingue fin dall'inizio, sceglie infine Fabrizio, ristabilendo così l'ordine sociale che il proprio gioco aveva temporaneamente messo in discussione.",
-      "speech": "Nell'Atto terzo il Cavaliere è ormai innamorato e persino geloso, ma Mirandolina, con la prudenza che la contraddistingue fin dall'inizio, sceglie infine Fabrizio, ristabilendo così l'ordine sociale che il proprio gioco aveva temporaneamente messo in discussione.",
+      "text": "Nell'Atto terzo il Cavaliere è ormai innamorato e persino geloso,",
+      "speech": "Nell'Atto terzo il Cavaliere è ormai innamorato e persino geloso,",
       "bold": [
         [
           5,
@@ -122,13 +154,17 @@
       ]
     },
     {
+      "text": "ma Mirandolina, con la prudenza che la contraddistingue fin dall'inizio, sceglie infine Fabrizio, ristabilendo così l'ordine sociale che il proprio gioco aveva temporaneamente messo in discussione.",
+      "speech": "ma Mirandolina, con la prudenza che la contraddistingue fin dall'inizio, sceglie infine Fabrizio, ristabilendo così l'ordine sociale che il proprio gioco aveva temporaneamente messo in discussione."
+    },
+    {
       "text": "Vediamo ora i temi principali di questa commedia, che vi saranno molto utili per costruire una risposta completa e ben argomentata all'esame.",
       "speech": "Vediamo ora i temi principali di questa commedia, che vi saranno molto utili per costruire una risposta completa e ben argomentata all'esame.",
       "p": 1
     },
     {
-      "text": "Il primo tema è l'intelligenza e l'autonomia femminile: Mirandolina è un personaggio di eccezionale intraprendenza, perfettamente capace di gestire da sola un'attività economica complessa come una locanda, e di manipolare con straordinaria abilità psicologica i propri corteggiatori, dimostrando un'intelligenza pratica ben superiore a quella di tutti gli uomini che la circondano.",
-      "speech": "Il primo tema è l'intelligenza e l'autonomia femminile: Mirandolina è un personaggio di eccezionale intraprendenza, perfettamente capace di gestire da sola un'attività economica complessa come una locanda, e di manipolare con straordinaria abilità psicologica i propri corteggiatori, dimostrando un'intelligenza pratica ben superiore a quella di tutti gli uomini che la circondano.",
+      "text": "Il primo tema è l'intelligenza e l'autonomia femminile: Mirandolina è un personaggio di eccezionale intraprendenza, perfettamente capace di gestire da sola un'attività economica complessa come una locanda,",
+      "speech": "Il primo tema è l'intelligenza e l'autonomia femminile: Mirandolina è un personaggio di eccezionale intraprendenza, perfettamente capace di gestire da sola un'attività economica complessa come una locanda,",
       "bold": [
         [
           18,
@@ -137,8 +173,12 @@
       ]
     },
     {
-      "text": "Il secondo tema è la critica della nobiltà, colpita da Goldoni su due fronti complementari: sia quella decaduta e ormai nullatenente, rappresentata dal Marchese, sia quella semplicemente \"comprata\" dai nuovi ricchi borghesi, rappresentata dal Conte — entrambe oggetto di un'ironia bonaria ma comunque pungente.",
-      "speech": "Il secondo tema è la critica della nobiltà, colpita da Goldoni su due fronti complementari: sia quella decaduta e ormai nullatenente, rappresentata dal Marchese, sia quella semplicemente \"comprata\" dai nuovi ricchi borghesi, rappresentata dal Conte — entrambe oggetto di un'ironia bonaria ma comunque pungente.",
+      "text": "e di manipolare con straordinaria abilità psicologica i propri corteggiatori, dimostrando un'intelligenza pratica ben superiore a quella di tutti gli uomini che la circondano.",
+      "speech": "e di manipolare con straordinaria abilità psicologica i propri corteggiatori, dimostrando un'intelligenza pratica ben superiore a quella di tutti gli uomini che la circondano."
+    },
+    {
+      "text": "Il secondo tema è la critica della nobiltà, colpita da Goldoni su due fronti complementari:",
+      "speech": "Il secondo tema è la critica della nobiltà, colpita da Goldoni su due fronti complementari:",
       "bold": [
         [
           21,
@@ -147,8 +187,12 @@
       ]
     },
     {
-      "text": "Il terzo tema è quella che possiamo chiamare l'ideologia borghese di Goldoni: il valore del lavoro concreto, del buon senso pratico, dell'iniziativa personale, incarnato pienamente da Mirandolina stessa, riflette la nuova mentalità mercantile e borghese in piena ascesa nella Venezia del Settecento, in contrapposizione a un'aristocrazia sempre più incapace di adattarsi ai tempi nuovi.",
-      "speech": "Il terzo tema è quella che possiamo chiamare l'ideologia borghese di Goldoni: il valore del lavoro concreto, del buon senso pratico, dell'iniziativa personale, incarnato pienamente da Mirandolina stessa, riflette la nuova mentalità mercantile e borghese in piena ascesa nella Venezia del Settecento, in contrapposizione a un'aristocrazia sempre più incapace di adattarsi ai tempi nuovi.",
+      "text": "sia quella decaduta e ormai nullatenente, rappresentata dal Marchese, sia quella semplicemente \"comprata\" dai nuovi ricchi borghesi, rappresentata dal Conte — entrambe oggetto di un'ironia bonaria ma comunque pungente.",
+      "speech": "sia quella decaduta e ormai nullatenente, rappresentata dal Marchese, sia quella semplicemente comprata dai nuovi ricchi borghesi, rappresentata dal Conte — entrambe oggetto di un'ironia bonaria ma comunque pungente."
+    },
+    {
+      "text": "Il terzo tema è quella che possiamo chiamare l'ideologia borghese di Goldoni:",
+      "speech": "Il terzo tema è quella che possiamo chiamare l'ideologia borghese di Goldoni:",
       "bold": [
         [
           47,
@@ -158,14 +202,30 @@
       "p": 1
     },
     {
-      "text": "Il quarto tema, infine, riguarda la morale conclusiva dell'opera: il finale, che riporta Mirandolina al proprio ruolo sociale \"naturale\" attraverso il matrimonio con un uomo di pari condizione, rispecchia bene la cautela tipica di Goldoni, sempre attento, anche nelle commedie più audaci, a non urtare troppo apertamente l'ordine costituito e le convenzioni sociali del proprio tempo.",
-      "speech": "Il quarto tema, infine, riguarda la morale conclusiva dell'opera: il finale, che riporta Mirandolina al proprio ruolo sociale \"naturale\" attraverso il matrimonio con un uomo di pari condizione, rispecchia bene la cautela tipica di Goldoni, sempre attento, anche nelle commedie più audaci, a non urtare troppo apertamente l'ordine costituito e le convenzioni sociali del proprio tempo.",
+      "text": "il valore del lavoro concreto, del buon senso pratico, dell'iniziativa personale, incarnato pienamente da Mirandolina stessa,",
+      "speech": "il valore del lavoro concreto, del buon senso pratico, dell'iniziativa personale, incarnato pienamente da Mirandolina stessa,"
+    },
+    {
+      "text": "riflette la nuova mentalità mercantile e borghese in piena ascesa nella Venezia del Settecento, in contrapposizione a un'aristocrazia sempre più incapace di adattarsi ai tempi nuovi.",
+      "speech": "riflette la nuova mentalità mercantile e borghese in piena ascesa nella Venezia del Settecento, in contrapposizione a un'aristocrazia sempre più incapace di adattarsi ai tempi nuovi."
+    },
+    {
+      "text": "Il quarto tema, infine, riguarda la morale conclusiva dell'opera:",
+      "speech": "Il quarto tema, infine, riguarda la morale conclusiva dell'opera:",
       "bold": [
         [
           36,
           53
         ]
       ]
+    },
+    {
+      "text": "il finale, che riporta Mirandolina al proprio ruolo sociale \"naturale\" attraverso il matrimonio con un uomo di pari condizione, rispecchia bene la cautela tipica di Goldoni,",
+      "speech": "il finale, che riporta Mirandolina al proprio ruolo sociale naturale attraverso il matrimonio con un uomo di pari condizione, rispecchia bene la cautela tipica di Goldoni,"
+    },
+    {
+      "text": "sempre attento, anche nelle commedie più audaci, a non urtare troppo apertamente l'ordine costituito e le convenzioni sociali del proprio tempo.",
+      "speech": "sempre attento, anche nelle commedie più audaci, a non urtare troppo apertamente l'ordine costituito e le convenzioni sociali del proprio tempo."
     },
     {
       "text": "Un ultimo aspetto che vale la pena ricordare, perché completa il quadro biografico di Goldoni che abbiamo tracciato nell'episodio precedente, è la polemica con Carlo Gozzi.",
@@ -179,8 +239,8 @@
       "p": 1
     },
     {
-      "text": "Gozzi, nobile veneziano di orientamento decisamente conservatore, difende invece la tradizione della Commedia dell'arte e delle maschere, componendo lui stesso delle \"fiabe teatrali\" — pensate a opere come L'amore delle tre melarance e Turandot — che rivendicano apertamente il valore della fantasia, del meraviglioso e dell'improvvisazione, contro quello che Gozzi giudica il realismo eccessivamente \"borghese\" e moralistico di Goldoni.",
-      "speech": "Gozzi, nobile veneziano di orientamento decisamente conservatore, difende invece la tradizione della Commedia dell'arte e delle maschere, componendo lui stesso delle \"fiabe teatrali\" — pensate a opere come L'amore delle tre melarance e Turandot — che rivendicano apertamente il valore della fantasia, del meraviglioso e dell'improvvisazione, contro quello che Gozzi giudica il realismo eccessivamente \"borghese\" e moralistico di Goldoni.",
+      "text": "Gozzi, nobile veneziano di orientamento decisamente conservatore, difende invece la tradizione della Commedia dell'arte e delle maschere, componendo lui stesso delle \"fiabe teatrali\" — pensate a opere come L'amore delle tre melarance e Turandot —",
+      "speech": "Gozzi, nobile veneziano di orientamento decisamente conservatore, difende invece la tradizione della Commedia dell'arte e delle maschere, componendo lui stesso delle fiabe teatrali — pensate a opere come L'amore delle tre melarance e Turandot —",
       "bold": [
         [
           206,
@@ -193,19 +253,31 @@
       ]
     },
     {
+      "text": "che rivendicano apertamente il valore della fantasia, del meraviglioso e dell'improvvisazione, contro quello che Gozzi giudica il realismo eccessivamente \"borghese\" e moralistico di Goldoni.",
+      "speech": "che rivendicano apertamente il valore della fantasia, del meraviglioso e dell'improvvisazione, contro quello che Gozzi giudica il realismo eccessivamente borghese e moralistico di Goldoni."
+    },
+    {
       "text": "Questa polemica, insieme a quella parallela con Pietro Chiari, contribuisce non poco, come abbiamo visto, alla decisione finale di Goldoni di lasciare Venezia per Parigi.",
       "speech": "Questa polemica, insieme a quella parallela con Pietro Chiari, contribuisce non poco, come abbiamo visto, alla decisione finale di Goldoni di lasciare Venezia per Parigi."
     },
     {
-      "text": "Un buon modo per portare La Locandiera all'orale è collegarla esplicitamente ai principi della riforma goldoniana studiati nell'episodio precedente: potete far notare come Mirandolina sia l'esempio perfetto del personaggio \"di carattere\" voluto da Goldoni — psicologicamente definito, coerente, capace di evolvere nel corso dell'azione — e come l'intera commedia realizzi concretamente quell'ideale di osservazione verosimile della realtà sociale contemporanea che Goldoni stesso dichiarava come proprio obiettivo dichiarato.",
-      "speech": "Un buon modo per portare La Locandiera all'orale è collegarla esplicitamente ai principi della riforma goldoniana studiati nell'episodio precedente: potete far notare come Mirandolina sia l'esempio perfetto del personaggio \"di carattere\" voluto da Goldoni — psicologicamente definito, coerente, capace di evolvere nel corso dell'azione — e come l'intera commedia realizzi concretamente quell'ideale di osservazione verosimile della realtà sociale contemporanea che Goldoni stesso dichiarava come proprio obiettivo dichiarato.",
+      "text": "Un buon modo per portare La Locandiera all'orale è collegarla esplicitamente ai principi della riforma goldoniana studiati nell'episodio precedente:",
+      "speech": "Un buon modo per portare La Locandiera all'orale è collegarla esplicitamente ai principi della riforma goldoniana studiati nell'episodio precedente:",
+      "p": 1
+    },
+    {
+      "text": "potete far notare come Mirandolina sia l'esempio perfetto del personaggio \"di carattere\" voluto da Goldoni — psicologicamente definito, coerente, capace di evolvere nel corso dell'azione —",
+      "speech": "potete far notare come Mirandolina sia l'esempio perfetto del personaggio di carattere voluto da Goldoni — psicologicamente definito, coerente, capace di evolvere nel corso dell'azione —",
       "bold": [
         [
-          211,
-          237
+          62,
+          88
         ]
-      ],
-      "p": 1
+      ]
+    },
+    {
+      "text": "e come l'intera commedia realizzi concretamente quell'ideale di osservazione verosimile della realtà sociale contemporanea che Goldoni stesso dichiarava come proprio obiettivo dichiarato.",
+      "speech": "e come l'intera commedia realizzi concretamente quell'ideale di osservazione verosimile della realtà sociale contemporanea che Goldoni stesso dichiarava come proprio obiettivo dichiarato."
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",

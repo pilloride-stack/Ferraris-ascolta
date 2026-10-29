@@ -186,6 +186,18 @@
           69,
           80
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il nome, o sostantivo, che indica persone, animali, cose o concetti;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "l'aggettivo, che qualifica o determina il nome;",
+          "pausa": 0.42
+        }
       ]
     },
     {
@@ -204,21 +216,64 @@
           101,
           111
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il pronome, che sostituisce il nome;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "il verbo, che esprime un'azione, uno stato o un modo di essere;",
+          "pausa": 0.42
+        },
+        {
+          "lang": "it",
+          "text": "l'avverbio, che modifica il significato di un verbo, di un aggettivo o di un altro avverbio;",
+          "pausa": 0.42
+        }
       ]
     },
     {
       "text": "la preposizione, che collega parole o frasi indicando un rapporto, come \"di\", \"a\", \"da\", \"in\";",
-      "speech": "la preposizione, che collega parole o frasi indicando un rapporto, come \"di\", \"a\", \"da\", \"in\";",
+      "speech": "la preposizione, che collega parole o frasi indicando un rapporto, come di, a, da, in;",
       "bold": [
         [
           0,
           15
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "la preposizione, che collega parole o frasi indicando un rapporto,"
+        },
+        {
+          "lang": "it",
+          "text": "come di,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "a,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "da,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "in;",
+          "pausa": 0.32
+        }
       ]
     },
     {
       "text": "la congiunzione, che collega parole o frasi, come \"e\", \"ma\", \"o\", \"perché\"; e infine l'interiezione, che esprime un'emozione improvvisa, come \"ah!\" o \"ahimè!\".",
-      "speech": "la congiunzione, che collega parole o frasi, come \"e\", \"ma\", \"o\", \"perché\"; e infine l'interiezione, che esprime un'emozione improvvisa, come \"ah!\" o \"ahimè!\".",
+      "speech": "la congiunzione, che collega parole o frasi, come e, ma, o, perché; e infine l'interiezione, che esprime un'emozione improvvisa, come ah! o ahimè!.",
       "bold": [
         [
           0,
@@ -281,6 +336,51 @@
           3,
           22
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "il complemento oggetto,"
+        },
+        {
+          "lang": "it",
+          "text": "di specificazione,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "di termine,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "d'agente,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "di luogo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "di tempo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "di causa,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "di modo,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "e molti altri ancora."
+        }
       ]
     },
     {
@@ -289,11 +389,11 @@
     },
     {
       "text": "nella frase \"Enea porta il vecchio padre sulle spalle\", l'analisi grammaticale vi direbbe che \"Enea\" è un nome proprio, \"porta\" un verbo, \"il\" un articolo, \"vecchio\" un aggettivo, e così via;",
-      "speech": "nella frase \"Enea porta il vecchio padre sulle spalle\", l'analisi grammaticale vi direbbe che \"Enea\" è un nome proprio, \"porta\" un verbo, \"il\" un articolo, \"vecchio\" un aggettivo, e così via;"
+      "speech": "nella frase Enea porta il vecchio padre sulle spalle, l'analisi grammaticale vi direbbe che Enea è un nome proprio, porta un verbo, il un articolo, vecchio un aggettivo, e così via;"
     },
     {
       "text": "l'analisi logica, invece, vi direbbe che \"Enea\" è il soggetto, \"porta\" il predicato verbale, \"il vecchio padre\" il complemento oggetto, e \"sulle spalle\" un complemento di luogo.",
-      "speech": "l'analisi logica, invece, vi direbbe che \"Enea\" è il soggetto, \"porta\" il predicato verbale, \"il vecchio padre\" il complemento oggetto, e \"sulle spalle\" un complemento di luogo."
+      "speech": "l'analisi logica, invece, vi direbbe che Enea è il soggetto, porta il predicato verbale, il vecchio padre il complemento oggetto, e sulle spalle un complemento di luogo."
     },
     {
       "text": "Il terzo livello, infine, è l'analisi del periodo, che studia i rapporti tra le proposizioni che compongono un periodo, cioè una frase complessa formata da più proposizioni collegate tra loro.",
@@ -308,7 +408,7 @@
     },
     {
       "text": "Qui si distingue anzitutto la proposizione principale, indipendente dal punto di vista sintattico, dalle proposizioni coordinate, collegate alla principale o tra loro sullo stesso piano grammaticale, spesso tramite congiunzioni come \"e\", \"ma\", \"o\",",
-      "speech": "Qui si distingue anzitutto la proposizione principale, indipendente dal punto di vista sintattico, dalle proposizioni coordinate, collegate alla principale o tra loro sullo stesso piano grammaticale, spesso tramite congiunzioni come \"e\", \"ma\", \"o\",",
+      "speech": "Qui si distingue anzitutto la proposizione principale, indipendente dal punto di vista sintattico, dalle proposizioni coordinate, collegate alla principale o tra loro sullo stesso piano grammaticale, spesso tramite congiunzioni come e, ma, o,",
       "bold": [
         [
           30,
@@ -336,11 +436,11 @@
     },
     {
       "text": "nel periodo \"Priamo indossa le armi perché vuole difendere la reggia\", \"Priamo indossa le armi\" è la proposizione principale,",
-      "speech": "nel periodo \"Priamo indossa le armi perché vuole difendere la reggia\", \"Priamo indossa le armi\" è la proposizione principale,"
+      "speech": "nel periodo Priamo indossa le armi perché vuole difendere la reggia, Priamo indossa le armi è la proposizione principale,"
     },
     {
       "text": "mentre \"perché vuole difendere la reggia\" è una proposizione subordinata causale, che spiega appunto la causa dell'azione espressa nella principale.",
-      "speech": "mentre \"perché vuole difendere la reggia\" è una proposizione subordinata causale, che spiega appunto la causa dell'azione espressa nella principale.",
+      "speech": "mentre perché vuole difendere la reggia è una proposizione subordinata causale, che spiega appunto la causa dell'azione espressa nella principale.",
       "bold": [
         [
           48,
@@ -355,7 +455,7 @@
     },
     {
       "text": "prendete la frase \"Achille uccide Ettore sotto le mura di Troia, ma poi ne oltraggia il cadavere\".",
-      "speech": "prendete la frase \"Achille uccide Ettore sotto le mura di Troia, ma poi ne oltraggia il cadavere\"."
+      "speech": "prendete la frase Achille uccide Ettore sotto le mura di Troia, ma poi ne oltraggia il cadavere."
     },
     {
       "text": "Fermatevi un momento e provate a immaginare come la scomponete sui tre livelli che abbiamo appena visto.",
@@ -364,19 +464,19 @@
     },
     {
       "text": "Sul piano grammaticale, \"Achille\" è un nome proprio, \"uccide\" un verbo, \"Ettore\" un nome proprio, \"sotto\" una preposizione, \"le mura\" un nome preceduto da articolo, \"ma\" una congiunzione, e così via per ogni singola parola.",
-      "speech": "Sul piano grammaticale, \"Achille\" è un nome proprio, \"uccide\" un verbo, \"Ettore\" un nome proprio, \"sotto\" una preposizione, \"le mura\" un nome preceduto da articolo, \"ma\" una congiunzione, e così via per ogni singola parola."
+      "speech": "Sul piano grammaticale, Achille è un nome proprio, uccide un verbo, Ettore un nome proprio, sotto una preposizione, le mura un nome preceduto da articolo, ma una congiunzione, e così via per ogni singola parola."
     },
     {
       "text": "Sul piano logico, \"Achille\" è il soggetto, \"uccide\" il predicato verbale, \"Ettore\" il complemento oggetto, \"sotto le mura di Troia\" un complemento di luogo.",
-      "speech": "Sul piano logico, \"Achille\" è il soggetto, \"uccide\" il predicato verbale, \"Ettore\" il complemento oggetto, \"sotto le mura di Troia\" un complemento di luogo."
+      "speech": "Sul piano logico, Achille è il soggetto, uccide il predicato verbale, Ettore il complemento oggetto, sotto le mura di Troia un complemento di luogo."
     },
     {
       "text": "Sul piano del periodo, infine, avete due proposizioni coordinate tra loro dalla congiunzione \"ma\":",
-      "speech": "Sul piano del periodo, infine, avete due proposizioni coordinate tra loro dalla congiunzione \"ma\":"
+      "speech": "Sul piano del periodo, infine, avete due proposizioni coordinate tra loro dalla congiunzione ma:"
     },
     {
       "text": "\"Achille uccide Ettore sotto le mura di Troia\" e \"poi ne oltraggia il cadavere\", entrambe sullo stesso piano sintattico, nessuna delle due dipendente dall'altra.",
-      "speech": "\"Achille uccide Ettore sotto le mura di Troia\" e \"poi ne oltraggia il cadavere\", entrambe sullo stesso piano sintattico, nessuna delle due dipendente dall'altra."
+      "speech": "Achille uccide Ettore sotto le mura di Troia e poi ne oltraggia il cadavere, entrambe sullo stesso piano sintattico, nessuna delle due dipendente dall'altra."
     },
     {
       "text": "Se siete riusciti a seguire questo ragionamento passo per passo, avete già chiaro il meccanismo che vi servirà per qualunque frase vi venga proposta all'esame.",

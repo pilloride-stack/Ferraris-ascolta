@@ -184,11 +184,41 @@
           61,
           64
         ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "I nomi che terminano in s,"
+        },
+        {
+          "lang": "it",
+          "text": "ss,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "sh,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "ch,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "x,",
+          "pausa": 0.32
+        },
+        {
+          "lang": "it",
+          "text": "z aggiungono es, non semplicemente s, per una ragione puramente fonetica:"
+        }
       ]
     },
     {
       "text": "provate a pronunciare \"boxs\" invece di \"boxes\", e capirete subito perché la lingua inglese ha bisogno di quella vocale in più per rendere la parola pronunciabile — box diventa dunque boxes, bus diventa buses, watch diventa watches.",
-      "speech": "provate a pronunciare \"boxs\" invece di \"boxes\", e capirete subito perché la lingua inglese ha bisogno di quella vocale in più per rendere la parola pronunciabile — box diventa dunque boxes, bus diventa buses, watch diventa watches.",
+      "speech": "provate a pronunciare boxs invece di boxes, e capirete subito perché la lingua inglese ha bisogno di quella vocale in più per rendere la parola pronunciabile — box diventa dunque boxes, bus diventa buses, watch diventa watches.",
       "bold": [
         [
           40,
@@ -214,11 +244,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "provate a pronunciare \"boxs\" invece di \""
+          "text": "provate a pronunciare boxs invece di "
         },
         {
           "lang": "en",
-          "text": "boxes\","
+          "text": "boxes,"
         },
         {
           "lang": "it",
@@ -326,7 +356,8 @@
         },
         {
           "lang": "it",
-          "text": "attenzione, questa regola vale solo quando prima della y cè una consonante;"
+          "text": "attenzione, questa regola vale solo quando prima della y cè una consonante;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -567,7 +598,7 @@
     },
     {
       "text": "e person diventa people, non \"persons\" come uno studente italiano potrebbe essere tentato di dire per analogia con la propria lingua madre.",
-      "speech": "e person diventa people, non \"persons\" come uno studente italiano potrebbe essere tentato di dire per analogia con la propria lingua madre.",
+      "speech": "e person diventa people, non persons come uno studente italiano potrebbe essere tentato di dire per analogia con la propria lingua madre.",
       "bold": [
         [
           2,
@@ -601,11 +632,11 @@
         },
         {
           "lang": "it",
-          "text": "non \""
+          "text": "non "
         },
         {
           "lang": "en",
-          "text": "persons\""
+          "text": "persons"
         },
         {
           "lang": "it",
@@ -716,7 +747,8 @@
         },
         {
           "lang": "it",
-          "text": "il libro che ho qui, vicino a me;"
+          "text": "il libro che ho qui, vicino a me;",
+          "pausa": 0.42
         },
         {
           "lang": "en",
@@ -794,7 +826,8 @@
         },
         {
           "lang": "it",
-          "text": "quel libro, laggiù, lontano da me;"
+          "text": "quel libro, laggiù, lontano da me;",
+          "pausa": 0.42
         },
         {
           "lang": "en",
@@ -826,7 +859,7 @@
     },
     {
       "text": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo \"this\",",
-      "speech": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo \"this\",",
+      "speech": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo this,",
       "bold": [
         [
           173,
@@ -836,11 +869,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo \""
+          "text": "Un buon modo per fissare questa distinzione, come farebbe un insegnante in aula con un gesto concreto, è immaginare di indicare con la mano un oggetto vicino a voi dicendo "
         },
         {
           "lang": "en",
-          "text": "this\","
+          "text": "this,"
         }
       ],
       "lingua": [
@@ -852,7 +885,7 @@
     },
     {
       "text": "e poi indicare con il braccio teso un oggetto lontano dicendo \"that\":",
-      "speech": "e poi indicare con il braccio teso un oggetto lontano dicendo \"that\":",
+      "speech": "e poi indicare con il braccio teso un oggetto lontano dicendo that:",
       "bold": [
         [
           63,
@@ -862,11 +895,11 @@
       "parts": [
         {
           "lang": "it",
-          "text": "e poi indicare con il braccio teso un oggetto lontano dicendo \""
+          "text": "e poi indicare con il braccio teso un oggetto lontano dicendo "
         },
         {
           "lang": "en",
-          "text": "that\":"
+          "text": "that:"
         }
       ],
       "lingua": [
@@ -878,11 +911,11 @@
     },
     {
       "text": "è la stessa logica che in italiano distingue, sia pure in modo un po' diverso, \"questo\" da \"quello\".",
-      "speech": "è la stessa logica che in italiano distingue, sia pure in modo un po' diverso, \"questo\" da \"quello\"."
+      "speech": "è la stessa logica che in italiano distingue, sia pure in modo un po' diverso, questo da quello."
     },
     {
       "text": "Vediamo ora la struttura there is / there are, che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a \"c'è\" / \"ci sono\".",
-      "speech": "Vediamo ora la struttura there is, there are, che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a \"cè\", \"ci sono\".",
+      "speech": "Vediamo ora la struttura there is, there are, che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a cè, ci sono.",
       "bold": [
         [
           25,
@@ -905,7 +938,7 @@
         },
         {
           "lang": "it",
-          "text": "che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a \"cè\", \"ci sono\"."
+          "text": "che si usa per affermare l'esistenza di qualcosa in un determinato luogo, una struttura che in italiano corrisponde grosso modo a cè, ci sono."
         }
       ],
       "lingua": [
@@ -951,7 +984,8 @@
         },
         {
           "lang": "it",
-          "text": "cè un libro sul tavolo;"
+          "text": "cè un libro sul tavolo;",
+          "pausa": 0.42
         }
       ],
       "lingua": [
@@ -1174,7 +1208,7 @@
     },
     {
       "text": "Provate a chiedervi, come fareste con un nuovo sostantivo che incontrate per la prima volta: posso contarlo, \"due di questo, tre di quello\"?",
-      "speech": "Provate a chiedervi, come fareste con un nuovo sostantivo che incontrate per la prima volta: posso contarlo, \"due di questo, tre di quello\"?"
+      "speech": "Provate a chiedervi, come fareste con un nuovo sostantivo che incontrate per la prima volta: posso contarlo, due di questo, tre di quello?"
     },
     {
       "text": "Se la risposta è sì, è numerabile; se la risposta è no, se si tratta di una sostanza continua o di un concetto generale, è non numerabile.",
@@ -1182,7 +1216,7 @@
     },
     {
       "text": "Furniture, per esempio, spesso confonde gli studenti italiani, perché in italiano diciamo \"i mobili\", al plurale, ma in inglese furniture è sempre singolare e non numerabile:",
-      "speech": "Furniture, per esempio, spesso confonde gli studenti italiani, perché in italiano diciamo \"i mobili\", al plurale, ma in inglese furniture è sempre singolare e non numerabile:",
+      "speech": "Furniture, per esempio, spesso confonde gli studenti italiani, perché in italiano diciamo i mobili, al plurale, ma in inglese furniture è sempre singolare e non numerabile:",
       "bold": [
         [
           0,
@@ -1200,7 +1234,7 @@
         },
         {
           "lang": "it",
-          "text": "per esempio, spesso confonde gli studenti italiani, perché in italiano diciamo \"i mobili\", al plurale, ma in inglese"
+          "text": "per esempio, spesso confonde gli studenti italiani, perché in italiano diciamo i mobili, al plurale, ma in inglese"
         },
         {
           "lang": "en",
@@ -1224,7 +1258,7 @@
     },
     {
       "text": "non diremo mai \"two furnitures\", ma \"two pieces of furniture\", due pezzi di arredamento.",
-      "speech": "non diremo mai \"two furnitures\", ma \"two pieces of furniture\", due pezzi di arredamento.",
+      "speech": "non diremo mai two furnitures, ma two pieces of furniture, due pezzi di arredamento.",
       "bold": [
         [
           16,
@@ -1238,19 +1272,19 @@
       "parts": [
         {
           "lang": "it",
-          "text": "non diremo mai \""
+          "text": "non diremo mai "
         },
         {
           "lang": "en",
-          "text": "two furnitures\","
+          "text": "two furnitures,"
         },
         {
           "lang": "it",
-          "text": "ma \""
+          "text": "ma "
         },
         {
           "lang": "en",
-          "text": "two pieces of furniture\","
+          "text": "two pieces of furniture,"
         },
         {
           "lang": "it",
@@ -1361,7 +1395,7 @@
     },
     {
       "text": "La seconda parte richiede il dimostrativo that, perché il quadro è \"laggiù\", lontano: «and that painting is very old».",
-      "speech": "La seconda parte richiede il dimostrativo that, perché il quadro è \"laggiù\", lontano: and that painting is very old.",
+      "speech": "La seconda parte richiede il dimostrativo that, perché il quadro è laggiù, lontano: and that painting is very old.",
       "bold": [
         [
           42,
@@ -1383,7 +1417,7 @@
         },
         {
           "lang": "it",
-          "text": "perché il quadro è \"laggiù\", lontano:"
+          "text": "perché il quadro è laggiù, lontano:"
         },
         {
           "lang": "en",

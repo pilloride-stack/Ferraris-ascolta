@@ -39,22 +39,32 @@
       "p": 1
     },
     {
-      "text": "È dedicato all'amico e poeta Ippolito Pindemonte, e nasce da un'occasione storica precisa: l'editto di Saint-Cloud, promulgato nel 1806 dall'amministrazione napoleonica, che per motivi igienico-sanitari vietava le sepolture all'interno dei centri urbani e imponeva, per tutti indistintamente, l'uguaglianza formale delle tombe, anche per i grandi uomini, senza alcuna distinzione di merito personale o storico.",
-      "speech": "È dedicato all'amico e poeta Ippolito Pindemonte, e nasce da un'occasione storica precisa: l'editto di Saint-Cloud, promulgato nel 1806 dall'amministrazione napoleonica, che per motivi igienico-sanitari vietava le sepolture all'interno dei centri urbani e imponeva, per tutti indistintamente, l'uguaglianza formale delle tombe, anche per i grandi uomini, senza alcuna distinzione di merito personale o storico.",
+      "text": "È dedicato all'amico e poeta Ippolito Pindemonte, e nasce da un'occasione storica precisa:",
+      "speech": "È dedicato all'amico e poeta Ippolito Pindemonte, e nasce da un'occasione storica precisa:",
       "bold": [
         [
           29,
           48
-        ],
-        [
-          93,
-          114
-        ],
-        [
-          131,
-          135
         ]
       ]
+    },
+    {
+      "text": "l'editto di Saint-Cloud, promulgato nel 1806 dall'amministrazione napoleonica, che per motivi igienico-sanitari vietava le sepolture all'interno dei centri urbani e imponeva,",
+      "speech": "l'editto di Saint-Cloud, promulgato nel 1806 dall'amministrazione napoleonica, che per motivi igienico-sanitari vietava le sepolture all'interno dei centri urbani e imponeva,",
+      "bold": [
+        [
+          2,
+          23
+        ],
+        [
+          40,
+          44
+        ]
+      ]
+    },
+    {
+      "text": "per tutti indistintamente, l'uguaglianza formale delle tombe, anche per i grandi uomini, senza alcuna distinzione di merito personale o storico.",
+      "speech": "per tutti indistintamente, l'uguaglianza formale delle tombe, anche per i grandi uomini, senza alcuna distinzione di merito personale o storico."
     },
     {
       "text": "Vediamo la tesi centrale dell'opera, che è anche il cuore della sua argomentazione filosofica.",
@@ -68,20 +78,38 @@
       "p": 1
     },
     {
-      "text": "Dal punto di vista strettamente materialistico e razionale — una posizione di partenza che Foscolo stesso, da intellettuale illuminista, condivide pienamente — la tomba non serve realmente al morto: dopo la morte, secondo la visione materialistica e sensista tipica dell'epoca, non resta più nulla della coscienza individuale del defunto.",
-      "speech": "Dal punto di vista strettamente materialistico e razionale — una posizione di partenza che Foscolo stesso, da intellettuale illuminista, condivide pienamente — la tomba non serve realmente al morto: dopo la morte, secondo la visione materialistica e sensista tipica dell'epoca, non resta più nulla della coscienza individuale del defunto."
+      "text": "Dal punto di vista strettamente materialistico e razionale — una posizione di partenza che Foscolo stesso, da intellettuale illuminista, condivide pienamente — la tomba non serve realmente al morto:",
+      "speech": "Dal punto di vista strettamente materialistico e razionale — una posizione di partenza che Foscolo stesso, da intellettuale illuminista, condivide pienamente — la tomba non serve realmente al morto:"
     },
     {
-      "text": "E tuttavia — ed è qui che si gioca il cuore vero dell'intera argomentazione foscoliana — il sepolcro si rivela un'illusione utile e in un certo senso necessaria per i vivi, perché mantiene viva quella che Foscolo chiama la \"corrispondenza d'amorosi sensi\" fra le generazioni, cioè il dialogo ideale fra chi resta in vita e chi è ormai scomparso, rafforza la memoria storica e civile della comunità, e sprona i vivi a compiere \"egregie cose\", cioè grandi imprese, seguendo l'esempio di chi le ha già compiute prima di loro.",
-      "speech": "E tuttavia — ed è qui che si gioca il cuore vero dell'intera argomentazione foscoliana — il sepolcro si rivela un'illusione utile e in un certo senso necessaria per i vivi, perché mantiene viva quella che Foscolo chiama la \"corrispondenza d'amorosi sensi\" fra le generazioni, cioè il dialogo ideale fra chi resta in vita e chi è ormai scomparso, rafforza la memoria storica e civile della comunità, e sprona i vivi a compiere \"egregie cose\", cioè grandi imprese, seguendo l'esempio di chi le ha già compiute prima di loro.",
+      "text": "dopo la morte, secondo la visione materialistica e sensista tipica dell'epoca, non resta più nulla della coscienza individuale del defunto.",
+      "speech": "dopo la morte, secondo la visione materialistica e sensista tipica dell'epoca, non resta più nulla della coscienza individuale del defunto."
+    },
+    {
+      "text": "E tuttavia — ed è qui che si gioca il cuore vero dell'intera argomentazione foscoliana —",
+      "speech": "E tuttavia — ed è qui che si gioca il cuore vero dell'intera argomentazione foscoliana —"
+    },
+    {
+      "text": "il sepolcro si rivela un'illusione utile e in un certo senso necessaria per i vivi, perché mantiene viva quella che Foscolo chiama la \"corrispondenza d'amorosi sensi\" fra le generazioni,",
+      "speech": "il sepolcro si rivela un'illusione utile e in un certo senso necessaria per i vivi, perché mantiene viva quella che Foscolo chiama la corrispondenza d'amorosi sensi fra le generazioni,",
       "bold": [
         [
-          224,
-          254
-        ],
+          135,
+          165
+        ]
+      ]
+    },
+    {
+      "text": "cioè il dialogo ideale fra chi resta in vita e chi è ormai scomparso, rafforza la memoria storica e civile della comunità,",
+      "speech": "cioè il dialogo ideale fra chi resta in vita e chi è ormai scomparso, rafforza la memoria storica e civile della comunità,"
+    },
+    {
+      "text": "e sprona i vivi a compiere \"egregie cose\", cioè grandi imprese, seguendo l'esempio di chi le ha già compiute prima di loro.",
+      "speech": "e sprona i vivi a compiere egregie cose, cioè grandi imprese, seguendo l'esempio di chi le ha già compiute prima di loro.",
+      "bold": [
         [
-          427,
-          439
+          28,
+          40
         ]
       ]
     },
@@ -101,8 +129,8 @@
       "speech": "Nella prima fase Foscolo sviluppa una riflessione generale sul valore, o meglio sul non-valore oggettivo, delle tombe in assenza di fede religiosa, e sulla funzione consolatoria che l'illusione del sepolcro comunque svolge per chi resta in vita."
     },
     {
-      "text": "Nella seconda fase il discorso si concentra sulle tombe illustri, in particolare quelle della basilica di Santa Croce a Firenze, dove riposano tre grandi italiani — Machiavelli, Michelangelo, Galileo — le cui tombe diventano fonte diretta di ispirazione civile e morale per chiunque le visiti, quasi un pellegrinaggio laico alla grandezza italiana del passato.",
-      "speech": "Nella seconda fase il discorso si concentra sulle tombe illustri, in particolare quelle della basilica di Santa Croce a Firenze, dove riposano tre grandi italiani — Machiavelli, Michelangelo, Galileo — le cui tombe diventano fonte diretta di ispirazione civile e morale per chiunque le visiti, quasi un pellegrinaggio laico alla grandezza italiana del passato.",
+      "text": "Nella seconda fase il discorso si concentra sulle tombe illustri, in particolare quelle della basilica di Santa Croce a Firenze,",
+      "speech": "Nella seconda fase il discorso si concentra sulle tombe illustri, in particolare quelle della basilica di Santa Croce a Firenze,",
       "bold": [
         [
           106,
@@ -111,12 +139,24 @@
       ]
     },
     {
-      "text": "Nella terza fase Foscolo sviluppa il tema delle tombe come monito e stimolo permanente alle grandi imprese: il poeta contrappone esplicitamente le tombe curate e onorate a quelle abbandonate e prive di memoria, che non tramandano più nulla ai posteri, proprio perché nessuno le visita o le ricorda.",
-      "speech": "Nella terza fase Foscolo sviluppa il tema delle tombe come monito e stimolo permanente alle grandi imprese: il poeta contrappone esplicitamente le tombe curate e onorate a quelle abbandonate e prive di memoria, che non tramandano più nulla ai posteri, proprio perché nessuno le visita o le ricorda."
+      "text": "dove riposano tre grandi italiani — Machiavelli, Michelangelo, Galileo —",
+      "speech": "dove riposano tre grandi italiani — Machiavelli, Michelangelo, Galileo —"
     },
     {
-      "text": "Nella quarta e ultima fase, quella conclusiva, Foscolo porta l'esempio supremo di Omero: un poeta che, pur privo di un sepolcro fisico — dato che la sua stessa esistenza storica resta incerta agli studiosi — è riuscito comunque a eternare, attraverso la sola potenza della propria poesia, gli eroi della guerra di Troia.",
-      "speech": "Nella quarta e ultima fase, quella conclusiva, Foscolo porta l'esempio supremo di Omero: un poeta che, pur privo di un sepolcro fisico — dato che la sua stessa esistenza storica resta incerta agli studiosi — è riuscito comunque a eternare, attraverso la sola potenza della propria poesia, gli eroi della guerra di Troia.",
+      "text": "le cui tombe diventano fonte diretta di ispirazione civile e morale per chiunque le visiti, quasi un pellegrinaggio laico alla grandezza italiana del passato.",
+      "speech": "le cui tombe diventano fonte diretta di ispirazione civile e morale per chiunque le visiti, quasi un pellegrinaggio laico alla grandezza italiana del passato."
+    },
+    {
+      "text": "Nella terza fase Foscolo sviluppa il tema delle tombe come monito e stimolo permanente alle grandi imprese:",
+      "speech": "Nella terza fase Foscolo sviluppa il tema delle tombe come monito e stimolo permanente alle grandi imprese:"
+    },
+    {
+      "text": "il poeta contrappone esplicitamente le tombe curate e onorate a quelle abbandonate e prive di memoria, che non tramandano più nulla ai posteri, proprio perché nessuno le visita o le ricorda.",
+      "speech": "il poeta contrappone esplicitamente le tombe curate e onorate a quelle abbandonate e prive di memoria, che non tramandano più nulla ai posteri, proprio perché nessuno le visita o le ricorda."
+    },
+    {
+      "text": "Nella quarta e ultima fase, quella conclusiva, Foscolo porta l'esempio supremo di Omero:",
+      "speech": "Nella quarta e ultima fase, quella conclusiva, Foscolo porta l'esempio supremo di Omero:",
       "bold": [
         [
           82,
@@ -125,17 +165,37 @@
       ]
     },
     {
-      "text": "È la conclusione più alta e più paradossale di tutto il carme: la poesia stessa si rivela capace di \"eternare\" ciò che il tempo e l'oblio altrimenti cancellerebbero per sempre — un'ultima, definitiva illusione consolatoria, che supera per potenza persino quella, pur importante, del sepolcro materiale.",
-      "speech": "È la conclusione più alta e più paradossale di tutto il carme: la poesia stessa si rivela capace di \"eternare\" ciò che il tempo e l'oblio altrimenti cancellerebbero per sempre — un'ultima, definitiva illusione consolatoria, che supera per potenza persino quella, pur importante, del sepolcro materiale."
+      "text": "un poeta che, pur privo di un sepolcro fisico — dato che la sua stessa esistenza storica resta incerta agli studiosi —",
+      "speech": "un poeta che, pur privo di un sepolcro fisico — dato che la sua stessa esistenza storica resta incerta agli studiosi —"
     },
     {
-      "text": "Fermatevi un momento su questo finale, perché è esattamente il tipo di snodo concettuale che un esaminatore ama vedere argomentato con precisione: Dei Sepolcri comincia negando, sul piano strettamente razionale, ogni valore oggettivo alla tomba, e si conclude affermando che esiste comunque un modo, quello della poesia, per sconfiggere davvero l'oblio — un modo che non ha bisogno nemmeno di un sepolcro fisico per funzionare.",
-      "speech": "Fermatevi un momento su questo finale, perché è esattamente il tipo di snodo concettuale che un esaminatore ama vedere argomentato con precisione: Dei Sepolcri comincia negando, sul piano strettamente razionale, ogni valore oggettivo alla tomba, e si conclude affermando che esiste comunque un modo, quello della poesia, per sconfiggere davvero l'oblio — un modo che non ha bisogno nemmeno di un sepolcro fisico per funzionare.",
+      "text": "è riuscito comunque a eternare, attraverso la sola potenza della propria poesia, gli eroi della guerra di Troia.",
+      "speech": "è riuscito comunque a eternare, attraverso la sola potenza della propria poesia, gli eroi della guerra di Troia."
+    },
+    {
+      "text": "È la conclusione più alta e più paradossale di tutto il carme:",
+      "speech": "È la conclusione più alta e più paradossale di tutto il carme:"
+    },
+    {
+      "text": "la poesia stessa si rivela capace di \"eternare\" ciò che il tempo e l'oblio altrimenti cancellerebbero per sempre — un'ultima, definitiva illusione consolatoria, che supera per potenza persino quella, pur importante, del sepolcro materiale.",
+      "speech": "la poesia stessa si rivela capace di eternare ciò che il tempo e l'oblio altrimenti cancellerebbero per sempre — un'ultima, definitiva illusione consolatoria, che supera per potenza persino quella, pur importante, del sepolcro materiale."
+    },
+    {
+      "text": "Fermatevi un momento su questo finale, perché è esattamente il tipo di snodo concettuale che un esaminatore ama vedere argomentato con precisione:",
+      "speech": "Fermatevi un momento su questo finale, perché è esattamente il tipo di snodo concettuale che un esaminatore ama vedere argomentato con precisione:",
       "p": 1
     },
     {
+      "text": "Dei Sepolcri comincia negando, sul piano strettamente razionale, ogni valore oggettivo alla tomba,",
+      "speech": "Dei Sepolcri comincia negando, sul piano strettamente razionale, ogni valore oggettivo alla tomba,"
+    },
+    {
+      "text": "e si conclude affermando che esiste comunque un modo, quello della poesia, per sconfiggere davvero l'oblio — un modo che non ha bisogno nemmeno di un sepolcro fisico per funzionare.",
+      "speech": "e si conclude affermando che esiste comunque un modo, quello della poesia, per sconfiggere davvero l'oblio — un modo che non ha bisogno nemmeno di un sepolcro fisico per funzionare."
+    },
+    {
       "text": "È la stessa illusione della patria che avevamo incontrato nel sonetto \"A Zacinto\", portata qui alle sue estreme e più mature conseguenze filosofiche e poetiche.",
-      "speech": "È la stessa illusione della patria che avevamo incontrato nel sonetto \"A Zacinto\", portata qui alle sue estreme e più mature conseguenze filosofiche e poetiche."
+      "speech": "È la stessa illusione della patria che avevamo incontrato nel sonetto A Zacinto, portata qui alle sue estreme e più mature conseguenze filosofiche e poetiche."
     },
     {
       "text": "Prima di chiudere, una parola su un'altra opera di Foscolo, meno centrale ma comunque significativa per completare il quadro: Le Grazie, un poema rimasto incompiuto, a cui Foscolo lavora per gran parte della propria vita senza mai portarlo a termine.",
@@ -149,8 +209,8 @@
       "p": 1
     },
     {
-      "text": "L'opera celebra, in forma di inno solenne, il mito delle tre Grazie come simbolo della civiltà, della bellezza e dell'armonia, capaci di addolcire la durezza della natura e delle passioni umane più violente: è, in un certo senso, l'estremo tentativo di Foscolo di conciliare l'ideale neoclassico di bellezza pura con il proprio travaglio interiore mai del tutto risolto — lo stesso travaglio, in fondo, che avevamo già incontrato nella sua concezione delle \"illusioni\" necessarie.",
-      "speech": "L'opera celebra, in forma di inno solenne, il mito delle tre Grazie come simbolo della civiltà, della bellezza e dell'armonia, capaci di addolcire la durezza della natura e delle passioni umane più violente: è, in un certo senso, l'estremo tentativo di Foscolo di conciliare l'ideale neoclassico di bellezza pura con il proprio travaglio interiore mai del tutto risolto — lo stesso travaglio, in fondo, che avevamo già incontrato nella sua concezione delle \"illusioni\" necessarie.",
+      "text": "L'opera celebra, in forma di inno solenne, il mito delle tre Grazie come simbolo della civiltà, della bellezza e dell'armonia, capaci di addolcire la durezza della natura e delle passioni umane più violente:",
+      "speech": "L'opera celebra, in forma di inno solenne, il mito delle tre Grazie come simbolo della civiltà, della bellezza e dell'armonia, capaci di addolcire la durezza della natura e delle passioni umane più violente:",
       "bold": [
         [
           57,
@@ -159,8 +219,16 @@
       ]
     },
     {
-      "text": "Un buon modo per portare Dei Sepolcri all'orale è collegarlo esplicitamente all'occasione storica da cui nasce, l'editto di Saint-Cloud, e mostrare come Foscolo trasformi un'occasione polemica apparentemente circoscritta — una legge sanitaria napoleonica sulle sepolture — in una riflessione filosofica e civile di portata universale sul rapporto fra i vivi e i morti, fra la memoria individuale e quella collettiva, fra la storia e la poesia.",
-      "speech": "Un buon modo per portare Dei Sepolcri all'orale è collegarlo esplicitamente all'occasione storica da cui nasce, l'editto di Saint-Cloud, e mostrare come Foscolo trasformi un'occasione polemica apparentemente circoscritta — una legge sanitaria napoleonica sulle sepolture — in una riflessione filosofica e civile di portata universale sul rapporto fra i vivi e i morti, fra la memoria individuale e quella collettiva, fra la storia e la poesia.",
+      "text": "è, in un certo senso, l'estremo tentativo di Foscolo di conciliare l'ideale neoclassico di bellezza pura con il proprio travaglio interiore mai del tutto risolto — lo stesso travaglio,",
+      "speech": "è, in un certo senso, l'estremo tentativo di Foscolo di conciliare l'ideale neoclassico di bellezza pura con il proprio travaglio interiore mai del tutto risolto — lo stesso travaglio,"
+    },
+    {
+      "text": "in fondo, che avevamo già incontrato nella sua concezione delle \"illusioni\" necessarie.",
+      "speech": "in fondo, che avevamo già incontrato nella sua concezione delle illusioni necessarie."
+    },
+    {
+      "text": "Un buon modo per portare Dei Sepolcri all'orale è collegarlo esplicitamente all'occasione storica da cui nasce, l'editto di Saint-Cloud,",
+      "speech": "Un buon modo per portare Dei Sepolcri all'orale è collegarlo esplicitamente all'occasione storica da cui nasce, l'editto di Saint-Cloud,",
       "bold": [
         [
           114,
@@ -168,6 +236,14 @@
         ]
       ],
       "p": 1
+    },
+    {
+      "text": "e mostrare come Foscolo trasformi un'occasione polemica apparentemente circoscritta — una legge sanitaria napoleonica sulle sepolture —",
+      "speech": "e mostrare come Foscolo trasformi un'occasione polemica apparentemente circoscritta — una legge sanitaria napoleonica sulle sepolture —"
+    },
+    {
+      "text": "in una riflessione filosofica e civile di portata universale sul rapporto fra i vivi e i morti, fra la memoria individuale e quella collettiva, fra la storia e la poesia.",
+      "speech": "in una riflessione filosofica e civile di portata universale sul rapporto fra i vivi e i morti, fra la memoria individuale e quella collettiva, fra la storia e la poesia."
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
