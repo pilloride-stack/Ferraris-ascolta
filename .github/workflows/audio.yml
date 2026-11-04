@@ -39,4 +39,10 @@ jobs:
           if git diff --cached --quiet; then echo "Nessun audio nuovo"; exit 0; fi
           git commit -m "Audio generati automaticamente"
           git pull --rebase -q
-          git push
+          for tentativo in 1 2 3; do
+            git push && break
+            if [ "$tentativo" = 3 ]; then exit 1; fi
+            echo "Push non riuscito, nuovo tentativo tra 10 secondi"
+            sleep 10
+            git pull --rebase -q
+          done
