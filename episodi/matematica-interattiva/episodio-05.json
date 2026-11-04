@@ -1,0 +1,85 @@
+{
+  "episode": "05",
+  "title": "Scomposizione con Ruffini",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Zero del polinomio. È il divisore del termine noto che, sostituito alla variabile, annulla il polinomio. Per esempio: Per ics alla terza, meno ics, più sei, lo zero è meno due.",
+      "speech": "Zero del polinomio. È il divisore del termine noto che, sostituito alla variabile, annulla il polinomio. Per esempio: Per ics alla terza, meno ics, più sei, lo zero è meno due.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Zero del polinomio"
+    },
+    {
+      "text": "Polinomio primo. È un polinomio che non si può scomporre, così come esistono i numeri primi. Fai attenzione: non tutti i polinomi si possono scomporre.",
+      "speech": "Polinomio primo. È un polinomio che non si può scomporre, così come esistono i numeri primi. Fai attenzione: non tutti i polinomi si possono scomporre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Polinomio primo"
+    },
+    {
+      "text": "La scheda dice: si ordina il polinomio, si cercano i divisori del termine noto e si sostituiscono uno alla volta. Quello che annulla il polinomio si chiama zero.",
+      "speech": "La scheda dice: si ordina il polinomio, si cercano i divisori del termine noto e si sostituiscono uno alla volta. Quello che annulla il polinomio si chiama zero.",
+      "screen": "Zero del polinomio",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: cerco lo zero. I divisori di sei sono più e meno uno, due, tre, sei. Con uno, meno uno e due non ottengo zero. Con meno due ottengo zero.",
+      "speech": "Passaggio uno: cerco lo zero. I divisori di sei sono più e meno uno, due, tre, sei. Con uno, meno uno e due non ottengo zero. Con meno due ottengo zero.",
+      "screen": "Zero del polinomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: divido con Ruffini. I coefficienti sono uno, zero, meno uno e sei. In basso a sinistra scrivo meno due. L'ultima riga è uno, meno due, tre, zero.",
+      "speech": "Passaggio due: divido con Ruffini. I coefficienti sono uno, zero, meno uno e sei. In basso a sinistra scrivo meno due. L'ultima riga è uno, meno due, tre, zero.",
+      "screen": "Zero del polinomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla seconda meno due ics più tre, per ics più due.",
+      "speech": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla seconda meno due ics più tre, per ics più due.",
+      "screen": "Zero del polinomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: se un polinomio non rientra negli altri metodi, si può provare con Ruffini. Nella griglia si scrive lo zero del polinomio. Il resto deve essere zero.",
+      "speech": "La scheda dice: se un polinomio non rientra negli altri metodi, si può provare con Ruffini. Nella griglia si scrive lo zero del polinomio. Il resto deve essere zero.",
+      "screen": "Polinomio primo",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: ordino il polinomio e cerco lo zero tra i divisori di meno sei. Con meno uno ottengo zero.",
+      "speech": "Passaggio uno: ordino il polinomio e cerco lo zero tra i divisori di meno sei. Con meno uno ottengo zero.",
+      "screen": "Polinomio primo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: divido con Ruffini. I coefficienti sono uno, cinque, cinque, meno cinque e meno sei. L'ultima riga è uno, quattro, uno, meno sei, zero.",
+      "speech": "Passaggio due: divido con Ruffini. I coefficienti sono uno, cinque, cinque, meno cinque e meno sei. L'ultima riga è uno, quattro, uno, meno sei, zero.",
+      "screen": "Polinomio primo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla terza più quattro ics alla seconda più ics meno sei, per ics più uno.",
+      "speech": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla terza più quattro ics alla seconda più ics meno sei, per ics più uno.",
+      "screen": "Polinomio primo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, cerca i divisori del termine noto e prova a sostituirli.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, cerca i divisori del termine noto e prova a sostituirli.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e prova a sostituire un numero. Osserva quando il polinomio si annulla.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e prova a sostituire un numero. Osserva quando il polinomio si annulla.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda la regola. Cerca lo zero tra i divisori del termine noto. Dividi con Ruffini. Il resto deve essere zero, e il polinomio è scomposto.",
+      "speech": "Ricorda la regola. Cerca lo zero tra i divisori del termine noto. Dividi con Ruffini. Il resto deve essere zero, e il polinomio è scomposto.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
