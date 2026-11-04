@@ -1,0 +1,235 @@
+{
+  "episode": "02",
+  "title": "I prodotti notevoli",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Somma per differenza. È il prodotto tra la somma e la differenza degli stessi due termini. Per esempio: Quattro ics più cinque, per quattro ics meno cinque.",
+      "speech": "Somma per differenza. È il prodotto tra la somma e la differenza degli stessi due termini. Per esempio: Quattro ics più cinque, per quattro ics meno cinque.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Somma per differenza"
+    },
+    {
+      "text": "Quadrato di un binomio. È un binomio elevato alla seconda. Per esempio: Due ics più tre, alla seconda.",
+      "speech": "Quadrato di un binomio. È un binomio elevato alla seconda. Per esempio: Due ics più tre, alla seconda.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Quadrato di un binomio"
+    },
+    {
+      "text": "Cubo di un binomio. È un binomio elevato alla terza. Per esempio: Tre ics più due, alla terza.",
+      "speech": "Cubo di un binomio. È un binomio elevato alla terza. Per esempio: Tre ics più due, alla terza.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Cubo di un binomio"
+    },
+    {
+      "text": "Quadrato di un trinomio. È un trinomio elevato alla seconda. Per esempio: Due ics più tre ipsilon più uno, alla seconda.",
+      "speech": "Quadrato di un trinomio. È un trinomio elevato alla seconda. Per esempio: Due ics più tre ipsilon più uno, alla seconda.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Quadrato di un trinomio"
+    },
+    {
+      "text": "Cubo di un trinomio. È un trinomio elevato alla terza. Per esempio: Due ics più tre ipsilon più uno, alla terza.",
+      "speech": "Cubo di un trinomio. È un trinomio elevato alla terza. Per esempio: Due ics più tre ipsilon più uno, alla terza.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Cubo di un trinomio"
+    },
+    {
+      "text": "Particolari prodotti notevoli. Sono prodotti tra un binomio e un trinomio che danno la somma o la differenza di due cubi. ",
+      "speech": "Particolari prodotti notevoli. Sono prodotti tra un binomio e un trinomio che danno la somma o la differenza di due cubi. ",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Particolari prodotti notevoli"
+    },
+    {
+      "text": "Potenza n-sima di un binomio. È un binomio elevato a un esponente. Lo sviluppo è un polinomio completo e omogeneo, formato da un monomio in più dell'esponente. ",
+      "speech": "Potenza n-sima di un binomio. È un binomio elevato a un esponente. Lo sviluppo è un polinomio completo e omogeneo, formato da un monomio in più dell'esponente. ",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Potenza n-sima di un binomio"
+    },
+    {
+      "text": "La regola dice: a più b, per a meno b, è uguale ad a alla seconda meno b alla seconda. Quadrato del primo termine, meno quadrato del secondo.",
+      "speech": "La regola dice: a più b, per a meno b, è uguale ad a alla seconda meno b alla seconda. Quadrato del primo termine, meno quadrato del secondo.",
+      "screen": "Somma per differenza",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i termini. Il primo termine è quattro ics. Il secondo termine è cinque. Cambia solo il segno.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo termine è quattro ics. Il secondo termine è cinque. Cambia solo il segno.",
+      "screen": "Somma per differenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: faccio i quadrati. Quattro ics alla seconda è sedici ics alla seconda. Cinque alla seconda è venticinque.",
+      "speech": "Passaggio due: faccio i quadrati. Quattro ics alla seconda è sedici ics alla seconda. Cinque alla seconda è venticinque.",
+      "screen": "Somma per differenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Quadrato del primo meno quadrato del secondo: sedici ics alla seconda, meno venticinque.",
+      "speech": "Passaggio tre: scrivo il risultato. Quadrato del primo meno quadrato del secondo: sedici ics alla seconda, meno venticinque.",
+      "screen": "Somma per differenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La regola dice: quadrato del primo termine, più o meno il doppio prodotto del primo per il secondo, più il quadrato del secondo termine.",
+      "speech": "La regola dice: quadrato del primo termine, più o meno il doppio prodotto del primo per il secondo, più il quadrato del secondo termine.",
+      "screen": "Quadrato di un binomio",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i termini. Il primo termine è due ics. Il secondo termine è tre.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo termine è due ics. Il secondo termine è tre.",
+      "screen": "Quadrato di un binomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: preparo le tre parti. Il quadrato del primo è quattro ics alla seconda. Il doppio prodotto è dodici ics. Il quadrato del secondo è nove.",
+      "speech": "Passaggio due: preparo le tre parti. Il quadrato del primo è quattro ics alla seconda. Il doppio prodotto è dodici ics. Il quadrato del secondo è nove.",
+      "screen": "Quadrato di un binomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato in ordine. Quattro ics alla seconda, più dodici ics, più nove.",
+      "speech": "Passaggio tre: scrivo il risultato in ordine. Quattro ics alla seconda, più dodici ics, più nove.",
+      "screen": "Quadrato di un binomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La regola dice: cubo del primo, triplo prodotto del quadrato del primo per il secondo, triplo prodotto del primo per il quadrato del secondo, cubo del secondo.",
+      "speech": "La regola dice: cubo del primo, triplo prodotto del quadrato del primo per il secondo, triplo prodotto del primo per il quadrato del secondo, cubo del secondo.",
+      "screen": "Cubo di un binomio",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i termini. Il primo termine è tre ics. Il secondo termine è due.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo termine è tre ics. Il secondo termine è due.",
+      "screen": "Cubo di un binomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: preparo le quattro parti. Ventisette ics alla terza. Tre per nove ics alla seconda per due, cioè cinquantaquattro ics alla seconda. Tre per tre ics per quattro, cioè trentasei ics. Otto.",
+      "speech": "Passaggio due: preparo le quattro parti. Ventisette ics alla terza. Tre per nove ics alla seconda per due, cioè cinquantaquattro ics alla seconda. Tre per tre ics per quattro, cioè trentasei ics. Otto.",
+      "screen": "Cubo di un binomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Ventisette ics alla terza, più cinquantaquattro ics alla seconda, più trentasei ics, più otto.",
+      "speech": "Passaggio tre: scrivo il risultato. Ventisette ics alla terza, più cinquantaquattro ics alla seconda, più trentasei ics, più otto.",
+      "screen": "Cubo di un binomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La regola dice: quadrato dei tre termini, poi i tre doppi prodotti: primo per secondo, primo per terzo, secondo per terzo.",
+      "speech": "La regola dice: quadrato dei tre termini, poi i tre doppi prodotti: primo per secondo, primo per terzo, secondo per terzo.",
+      "screen": "Quadrato di un trinomio",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i termini. Il primo è due ics. Il secondo è tre ipsilon. Il terzo è uno.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo è due ics. Il secondo è tre ipsilon. Il terzo è uno.",
+      "screen": "Quadrato di un trinomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: preparo le parti. I quadrati sono quattro ics alla seconda, nove ipsilon alla seconda e uno. I doppi prodotti sono dodici ics ipsilon, quattro ics e sei ipsilon.",
+      "speech": "Passaggio due: preparo le parti. I quadrati sono quattro ics alla seconda, nove ipsilon alla seconda e uno. I doppi prodotti sono dodici ics ipsilon, quattro ics e sei ipsilon.",
+      "screen": "Quadrato di un trinomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Quattro ics alla seconda, più nove ipsilon alla seconda, più uno, più dodici ics ipsilon, più quattro ics, più sei ipsilon.",
+      "speech": "Passaggio tre: scrivo il risultato. Quattro ics alla seconda, più nove ipsilon alla seconda, più uno, più dodici ics ipsilon, più quattro ics, più sei ipsilon.",
+      "screen": "Quadrato di un trinomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La regola dice: ricorda che lo sviluppo ha dieci termini. Ci sono tre cubi, sei tripli prodotti e il termine sei a b c.",
+      "speech": "La regola dice: ricorda che lo sviluppo ha dieci termini. Ci sono tre cubi, sei tripli prodotti e il termine sei a b c.",
+      "screen": "Cubo di un trinomio",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i termini. Il primo è due ics. Il secondo è tre ipsilon. Il terzo è uno.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo è due ics. Il secondo è tre ipsilon. Il terzo è uno.",
+      "screen": "Cubo di un trinomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: preparo i dieci termini. Prima i tre cubi: otto ics alla terza, ventisette ipsilon alla terza e uno. Poi i sei tripli prodotti e, per ultimo, sei a b c, cioè trentasei ics ipsilon.",
+      "speech": "Passaggio due: preparo i dieci termini. Prima i tre cubi: otto ics alla terza, ventisette ipsilon alla terza e uno. Poi i sei tripli prodotti e, per ultimo, sei a b c, cioè trentasei ics ipsilon.",
+      "screen": "Cubo di un trinomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: i termini sono: otto ics alla terza, ventisette ipsilon alla terza, uno, trentasei ics alla seconda ipsilon, cinquantaquattro ics ipsilon alla seconda, dodici ics alla seconda, sei ics, ventisette ipsilon alla seconda, nove ipsilon, trentasei ics ipsilon.",
+      "speech": "Passaggio tre: i termini sono: otto ics alla terza, ventisette ipsilon alla terza, uno, trentasei ics alla seconda ipsilon, cinquantaquattro ics ipsilon alla seconda, dodici ics alla seconda, sei ics, ventisette ipsilon alla seconda, nove ipsilon, trentasei ics ipsilon.",
+      "screen": "Cubo di un trinomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La regola dice: il risultato è il cubo del primo più il cubo del secondo, oppure il cubo del primo meno il cubo del secondo.",
+      "speech": "La regola dice: il risultato è il cubo del primo più il cubo del secondo, oppure il cubo del primo meno il cubo del secondo.",
+      "screen": "Particolari prodotti notevoli",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il binomio. Due ics meno tre ha il segno meno. Il primo termine è due ics, il secondo è tre.",
+      "speech": "Passaggio uno: riconosco il binomio. Due ics meno tre ha il segno meno. Il primo termine è due ics, il secondo è tre.",
+      "screen": "Particolari prodotti notevoli",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: faccio i cubi. Due ics alla terza è otto ics alla terza. Tre alla terza è ventisette.",
+      "speech": "Passaggio due: faccio i cubi. Due ics alla terza è otto ics alla terza. Tre alla terza è ventisette.",
+      "screen": "Particolari prodotti notevoli",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Cubo del primo meno cubo del secondo: otto ics alla terza, meno ventisette.",
+      "speech": "Passaggio tre: scrivo il risultato. Cubo del primo meno cubo del secondo: otto ics alla terza, meno ventisette.",
+      "screen": "Particolari prodotti notevoli",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ecco il triangolo di Tartaglia. Al vertice c'è uno. Ogni riga inizia e termina con uno. Ogni numero è la somma dei due sopra: dieci è sei più quattro.",
+      "speech": "Ecco il triangolo di Tartaglia. Al vertice c'è uno. Ogni riga inizia e termina con uno. Ogni numero è la somma dei due sopra: dieci è sei più quattro.",
+      "screen": "Potenza n-sima di un binomio",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scelgo la riga del triangolo. L'esponente è cinque, quindi i coefficienti sono uno, cinque, dieci, dieci, cinque e uno.",
+      "speech": "Passaggio uno: scelgo la riga del triangolo. L'esponente è cinque, quindi i coefficienti sono uno, cinque, dieci, dieci, cinque e uno.",
+      "screen": "Potenza n-sima di un binomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scelgo le potenze. Le potenze di a scendono da cinque a zero. Le potenze di b salgono da zero a cinque.",
+      "speech": "Passaggio due: scelgo le potenze. Le potenze di a scendono da cinque a zero. Le potenze di b salgono da zero a cinque.",
+      "screen": "Potenza n-sima di un binomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. A alla quinta, più cinque a alla quarta b, più dieci a alla terza b alla seconda, più dieci a alla seconda b alla terza, più cinque a b alla quarta, più b alla quinta.",
+      "speech": "Passaggio tre: scrivo il risultato. A alla quinta, più cinque a alla quarta b, più dieci a alla terza b alla seconda, più dieci a alla seconda b alla terza, più cinque a b alla quarta, più b alla quinta.",
+      "screen": "Potenza n-sima di un binomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con sette domande. Prima di rispondere, conta i termini e guarda l'esponente. Poi leggi la spiegazione con calma.",
+      "speech": "Ora tocca a te, con sette domande. Prima di rispondere, conta i termini e guarda l'esponente. Poi leggi la spiegazione con calma.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva come cambiano i risultati di tutti i prodotti notevoli.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva come cambiano i risultati di tutti i prodotti notevoli.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Prima di calcolare, riconosci il prodotto notevole: conta i termini, guarda l'esponente e controlla i segni. Poi applica la regola della scheda, parte dopo parte.",
+      "speech": "Prima di calcolare, riconosci il prodotto notevole: conta i termini, guarda l'esponente e controlla i segni. Poi applica la regola della scheda, parte dopo parte.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
