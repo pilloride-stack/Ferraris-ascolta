@@ -5,7 +5,7 @@ import base64, glob, json, os, subprocess, sys, tempfile, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 KEY = os.environ["TTS_KEY"]
-VOICE = os.environ.get("TTS_VOICE", "it-IT-Chirp3-HD-Charon")
+VOICE = os.environ.get("TTS_VOICE", "it-IT-Chirp3-HD-Algieba")
 VOICE_EN = os.environ.get("TTS_VOICE_EN", "en-GB-Chirp3-HD-Charon")
 VOICE_ES = os.environ.get("TTS_VOICE_ES", "es-ES-Chirp3-HD-Charon")
 RATE = float(os.environ.get("TTS_RATE", "0.94"))
