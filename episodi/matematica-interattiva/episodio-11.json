@@ -1,0 +1,205 @@
+{
+  "episode": "11",
+  "title": "Le disequazioni irrazionali",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio. Per esempio: Radice di ics più tre, maggiore di ics più uno.",
+      "speech": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio. Per esempio: Radice di ics più tre, maggiore di ics più uno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: √A > B e √A ≥ B"
+    },
+    {
+      "text": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio. Per esempio: Radice di ics più tre, minore di ics più uno.",
+      "speech": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio. Per esempio: Radice di ics più tre, minore di ics più uno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: √A < B e √A ≤ B"
+    },
+    {
+      "text": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro. Per esempio: Radice di ics meno uno, minore di due.",
+      "speech": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro. Per esempio: Radice di ics meno uno, minore di due.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Casi particolari"
+    },
+    {
+      "text": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari. Per esempio: Radice di ics più uno, maggiore di radice di due ics meno tre.",
+      "speech": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari. Per esempio: Radice di ics più uno, maggiore di radice di due ics meno tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Due radici quadrate"
+    },
+    {
+      "text": "Radici cubiche. Sono disequazioni con una o due radici cubiche. Per esempio: Radice cubica di ics più uno, maggiore di due.",
+      "speech": "Radici cubiche. Sono disequazioni con una o due radici cubiche. Per esempio: Radice cubica di ics più uno, maggiore di due.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Radici cubiche"
+    },
+    {
+      "text": "Radici ad indice diverso. Si riconducono radici con indice diverso allo stesso indice, il minimo comune multiplo degli indici. Per esempio: Radice di A e radice cubica di bi.",
+      "speech": "Radici ad indice diverso. Si riconducono radici con indice diverso allo stesso indice, il minimo comune multiplo degli indici. Per esempio: Radice di A e radice cubica di bi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Radici ad indice diverso"
+    },
+    {
+      "text": "La scheda dice: quando la radice è maggiore del polinomio si risolvono due sistemi, e si fa l'unione delle soluzioni.",
+      "speech": "La scheda dice: quando la radice è maggiore del polinomio si risolvono due sistemi, e si fa l'unione delle soluzioni.",
+      "screen": "√A > B e √A ≥ B",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. A è ics più tre, bi è ics più uno.",
+      "speech": "Passaggio uno: riconosco il caso. A è ics più tre, bi è ics più uno.",
+      "screen": "√A > B e √A ≥ B",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: risolvo i due sistemi. Il primo dà da meno tre a meno uno. Il secondo da meno uno a uno.",
+      "speech": "Passaggio due: risolvo i due sistemi. Il primo dà da meno tre a meno uno. Il secondo da meno uno a uno.",
+      "screen": "√A > B e √A ≥ B",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: unisco le soluzioni. Ics compreso tra meno tre incluso e uno escluso.",
+      "speech": "Passaggio tre: unisco le soluzioni. Ics compreso tra meno tre incluso e uno escluso.",
+      "screen": "√A > B e √A ≥ B",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: quando la radice è minore del polinomio si risolve un solo sistema.",
+      "speech": "La scheda dice: quando la radice è minore del polinomio si risolve un solo sistema.",
+      "screen": "√A < B e √A ≤ B",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. A è ics più tre, bi è ics più uno.",
+      "speech": "Passaggio uno: riconosco il caso. A è ics più tre, bi è ics più uno.",
+      "screen": "√A < B e √A ≤ B",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo il sistema. A non negativo, bi positivo, A minore di bi alla seconda.",
+      "speech": "Passaggio due: scrivo il sistema. A non negativo, bi positivo, A minore di bi alla seconda.",
+      "screen": "√A < B e √A ≤ B",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. La soluzione è ics maggiore di uno.",
+      "speech": "Passaggio tre: scrivo il risultato. La soluzione è ics maggiore di uno.",
+      "screen": "√A < B e √A ≤ B",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: guarda il secondo membro: un numero positivo, un numero negativo o lo zero. Ogni caso ha il suo schema.",
+      "speech": "La scheda dice: guarda il secondo membro: un numero positivo, un numero negativo o lo zero. Ogni caso ha il suo schema.",
+      "screen": "Casi particolari",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. A destra c'è il numero positivo due.",
+      "speech": "Passaggio uno: riconosco il caso. A destra c'è il numero positivo due.",
+      "screen": "Casi particolari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo il sistema. A non negativo, e A minore di due alla seconda, cioè quattro.",
+      "speech": "Passaggio due: scrivo il sistema. A non negativo, e A minore di due alla seconda, cioè quattro.",
+      "screen": "Casi particolari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Ics compreso tra uno incluso e cinque escluso.",
+      "speech": "Passaggio tre: scrivo il risultato. Ics compreso tra uno incluso e cinque escluso.",
+      "screen": "Casi particolari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: si isolano le radici e si risolve il sistema con i radicandi non negativi e la disequazione elevata al quadrato.",
+      "speech": "La scheda dice: si isolano le radici e si risolve il sistema con i radicandi non negativi e la disequazione elevata al quadrato.",
+      "screen": "Due radici quadrate",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. Le due radici sono già ai due membri.",
+      "speech": "Passaggio uno: riconosco il caso. Le due radici sono già ai due membri.",
+      "screen": "Due radici quadrate",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo il sistema. I radicandi non negativi, e A maggiore di bi.",
+      "speech": "Passaggio due: scrivo il sistema. I radicandi non negativi, e A maggiore di bi.",
+      "screen": "Due radici quadrate",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Ics compreso tra tre mezzi incluso e quattro escluso.",
+      "speech": "Passaggio tre: scrivo il risultato. Ics compreso tra tre mezzi incluso e quattro escluso.",
+      "screen": "Due radici quadrate",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: basta isolare la radice o le radici ed elevare entrambi i membri al cubo.",
+      "speech": "La scheda dice: basta isolare la radice o le radici ed elevare entrambi i membri al cubo.",
+      "screen": "Radici cubiche",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. La radice cubica è già isolata.",
+      "speech": "Passaggio uno: riconosco il caso. La radice cubica è già isolata.",
+      "screen": "Radici cubiche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: elevo al cubo. Ics più uno, maggiore di otto.",
+      "speech": "Passaggio due: elevo al cubo. Ics più uno, maggiore di otto.",
+      "screen": "Radici cubiche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Ics maggiore di sette.",
+      "speech": "Passaggio tre: scrivo il risultato. Ics maggiore di sette.",
+      "screen": "Radici cubiche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: si calcola il minimo comune multiplo degli indici e si portano le radici allo stesso indice.",
+      "speech": "La scheda dice: si calcola il minimo comune multiplo degli indici e si portano le radici allo stesso indice.",
+      "screen": "Radici ad indice diverso",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco gli indici. Sono due e tre, indici diversi.",
+      "speech": "Passaggio uno: riconosco gli indici. Sono due e tre, indici diversi.",
+      "screen": "Radici ad indice diverso",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: calcolo il minimo comune multiplo. Tra due e tre è sei.",
+      "speech": "Passaggio due: calcolo il minimo comune multiplo. Tra due e tre è sei.",
+      "screen": "Radici ad indice diverso",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Radice sesta di A alla terza, e radice sesta di bi alla seconda.",
+      "speech": "Passaggio tre: scrivo il risultato. Radice sesta di A alla terza, e radice sesta di bi alla seconda.",
+      "screen": "Radici ad indice diverso",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il verso e il secondo membro.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il verso e il secondo membro.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i numeri e il segno. Osserva come cambia la soluzione.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i numeri e il segno. Osserva come cambia la soluzione.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: radice maggiore, due sistemi. Radice minore, un sistema. Con le radici cubiche basta elevare al cubo entrambi i membri.",
+      "speech": "Ricorda: radice maggiore, due sistemi. Radice minore, un sistema. Con le radici cubiche basta elevare al cubo entrambi i membri.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
