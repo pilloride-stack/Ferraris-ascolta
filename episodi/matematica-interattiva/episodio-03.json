@@ -1,0 +1,85 @@
+{
+  "episode": "03",
+  "title": "La regola di Ruffini",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado. Per esempio: ics alla terza più sei meno ics alla seconda diviso uno più ics.",
+      "speech": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado. Per esempio: ics alla terza più sei meno ics alla seconda diviso uno più ics.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Regola di Ruffini"
+    },
+    {
+      "text": "Quoziente e resto. Il quoziente è il polinomio risultato, di un grado inferiore al dividendo. Il resto è l'ultimo numero dell'ultima riga della griglia. Per esempio: Il dividendo è uguale al quoziente per il divisore, più il resto.",
+      "speech": "Quoziente e resto. Il quoziente è il polinomio risultato, di un grado inferiore al dividendo. Il resto è l'ultimo numero dell'ultima riga della griglia. Per esempio: Il dividendo è uguale al quoziente per il divisore, più il resto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Quoziente e resto"
+    },
+    {
+      "text": "La scheda dice: si ordina e si completa il dividendo. Si scrivono i coefficienti nella griglia. In basso a sinistra va l'opposto del termine noto del divisore.",
+      "speech": "La scheda dice: si ordina e si completa il dividendo. Si scrivono i coefficienti nella griglia. In basso a sinistra va l'opposto del termine noto del divisore.",
+      "screen": "Regola di Ruffini",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: preparo la griglia. Ordino e completo il dividendo: ics alla terza, meno ics alla seconda, più zero ics, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
+      "speech": "Passaggio uno: preparo la griglia. Ordino e completo il dividendo: ics alla terza, meno ics alla seconda, più zero ics, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
+      "screen": "Regola di Ruffini",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: riscrivo uno. Moltiplico e sommo colonna per colonna: meno due, poi due, poi quattro. L'ultima riga è uno, meno due, due, quattro.",
+      "speech": "Passaggio due: riscrivo uno. Moltiplico e sommo colonna per colonna: meno due, poi due, poi quattro. L'ultima riga è uno, meno due, due, quattro.",
+      "screen": "Regola di Ruffini",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Il quoziente è ics alla seconda, meno due ics, più due. Il resto è quattro.",
+      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è ics alla seconda, meno due ics, più due. Il resto è quattro.",
+      "screen": "Regola di Ruffini",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: i numeri dell'ultima riga sono i coefficienti del quoziente. Il quoziente ha un grado in meno del dividendo. L'ultimo numero è il resto.",
+      "speech": "La scheda dice: i numeri dell'ultima riga sono i coefficienti del quoziente. Il quoziente ha un grado in meno del dividendo. L'ultimo numero è il resto.",
+      "screen": "Quoziente e resto",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: preparo la griglia. Il dividendo è completo. I coefficienti sono uno, due, meno cinque e meno sei. In basso a sinistra scrivo più due.",
+      "speech": "Passaggio uno: preparo la griglia. Il dividendo è completo. I coefficienti sono uno, due, meno cinque e meno sei. In basso a sinistra scrivo più due.",
+      "screen": "Quoziente e resto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: riscrivo uno. Moltiplico e sommo colonna per colonna: quattro, poi tre, poi zero. L'ultima riga è uno, quattro, tre, zero.",
+      "speech": "Passaggio due: riscrivo uno. Moltiplico e sommo colonna per colonna: quattro, poi tre, poi zero. L'ultima riga è uno, quattro, tre, zero.",
+      "screen": "Quoziente e resto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Il quoziente è ics alla seconda, più quattro ics, più tre. Il resto è zero.",
+      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è ics alla seconda, più quattro ics, più tre. Il resto è zero.",
+      "screen": "Quoziente e resto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, controlla il divisore e l'opposto del suo termine noto.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, controlla il divisore e l'opposto del suo termine noto.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia il dividendo e il divisore. Osserva come cambiano il quoziente e il resto.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia il dividendo e il divisore. Osserva come cambiano il quoziente e il resto.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda la regola: ordina, completa, scrivi la griglia. Moltiplica e somma colonna per colonna. L'ultimo numero è il resto.",
+      "speech": "Ricorda la regola: ordina, completa, scrivi la griglia. Moltiplica e somma colonna per colonna. L'ultimo numero è il resto.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
