@@ -1,0 +1,205 @@
+{
+  "episode": "06",
+  "title": "Le equazioni di secondo grado",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Equazione completa. È un'equazione di secondo grado con tutti i coefficienti a, b e c. Per esempio: ics alla seconda meno sette ics più dieci è uguale a zero.",
+      "speech": "Equazione completa. È un'equazione di secondo grado con tutti i coefficienti a, b e c. Per esempio: ics alla seconda meno sette ics più dieci è uguale a zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione completa"
+    },
+    {
+      "text": "Equazione completa con b pari. È un'equazione completa in cui il coefficiente b è un numero pari. Per esempio: ics alla seconda più quattro ics più uno è uguale a zero.",
+      "speech": "Equazione completa con b pari. È un'equazione completa in cui il coefficiente b è un numero pari. Per esempio: ics alla seconda più quattro ics più uno è uguale a zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione completa con b pari"
+    },
+    {
+      "text": "Equazione pura. È un'equazione di secondo grado con b uguale a zero. Per esempio: tre ics alla seconda meno ventisette è uguale a zero.",
+      "speech": "Equazione pura. È un'equazione di secondo grado con b uguale a zero. Per esempio: tre ics alla seconda meno ventisette è uguale a zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione pura"
+    },
+    {
+      "text": "Equazione spuria. È un'equazione di secondo grado con c uguale a zero. Per esempio: ics alla seconda più quattro ics è uguale a zero.",
+      "speech": "Equazione spuria. È un'equazione di secondo grado con c uguale a zero. Per esempio: ics alla seconda più quattro ics è uguale a zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione spuria"
+    },
+    {
+      "text": "Equazione monomia. È un'equazione con il solo termine aics alla seconda. Per esempio: tre ics alla seconda è uguale a zero.",
+      "speech": "Equazione monomia. È un'equazione con il solo termine aics alla seconda. Per esempio: tre ics alla seconda è uguale a zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione monomia"
+    },
+    {
+      "text": "Significato del delta. Il delta è il numero bi alla seconda meno quattro a ci. Dal suo segno dipende il tipo di soluzioni. Per esempio: ics alla seconda più ics più dodici è uguale a zero.",
+      "speech": "Significato del delta. Il delta è il numero bi alla seconda meno quattro a ci. Dal suo segno dipende il tipo di soluzioni. Per esempio: ics alla seconda più ics più dodici è uguale a zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Significato del delta"
+    },
+    {
+      "text": "La scheda dice: si applica la formula completa. Ics è uguale a meno bi, più o meno radice di bi alla seconda meno quattro a ci, tutto fratto due a.",
+      "speech": "La scheda dice: si applica la formula completa. Ics è uguale a meno bi, più o meno radice di bi alla seconda meno quattro a ci, tutto fratto due a.",
+      "screen": "Equazione completa",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i coefficienti. A è uguale a uno, bi a meno sette, ci a dieci.",
+      "speech": "Passaggio uno: riconosco i coefficienti. A è uguale a uno, bi a meno sette, ci a dieci.",
+      "screen": "Equazione completa",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: calcolo il delta. Quarantanove meno quaranta fa nove.",
+      "speech": "Passaggio due: calcolo il delta. Quarantanove meno quaranta fa nove.",
+      "screen": "Equazione completa",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: applico la formula. Sette più o meno tre, fratto due. Le soluzioni sono due e cinque.",
+      "speech": "Passaggio tre: applico la formula. Sette più o meno tre, fratto due. Le soluzioni sono due e cinque.",
+      "screen": "Equazione completa",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con bi pari si applica la formula ridotta, che usa la metà di bi.",
+      "speech": "La scheda dice: con bi pari si applica la formula ridotta, che usa la metà di bi.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco che bi, quattro, è pari. La metà di bi è due.",
+      "speech": "Passaggio uno: riconosco che bi, quattro, è pari. La metà di bi è due.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: calcolo sotto radice. Due alla seconda meno uno fa tre.",
+      "speech": "Passaggio due: calcolo sotto radice. Due alla seconda meno uno fa tre.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo le soluzioni. Ics è uguale a meno due, più o meno radice di tre.",
+      "speech": "Passaggio tre: scrivo le soluzioni. Ics è uguale a meno due, più o meno radice di tre.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: si isola ics alla seconda e si estrae la radice quadrata algebrica.",
+      "speech": "La scheda dice: si isola ics alla seconda e si estrae la radice quadrata algebrica.",
+      "screen": "Equazione pura",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'equazione pura. Manca il termine con ics, quindi bi è zero.",
+      "speech": "Passaggio uno: riconosco l'equazione pura. Manca il termine con ics, quindi bi è zero.",
+      "screen": "Equazione pura",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: isolo ics alla seconda. Ottengo ics alla seconda uguale a nove.",
+      "speech": "Passaggio due: isolo ics alla seconda. Ottengo ics alla seconda uguale a nove.",
+      "screen": "Equazione pura",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: estraggo la radice. Ics è uguale a più o meno tre.",
+      "speech": "Passaggio tre: estraggo la radice. Ics è uguale a più o meno tre.",
+      "screen": "Equazione pura",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: si raccoglie la ics e si applica la legge di annullamento del prodotto. Una soluzione è sempre zero.",
+      "speech": "La scheda dice: si raccoglie la ics e si applica la legge di annullamento del prodotto. Una soluzione è sempre zero.",
+      "screen": "Equazione spuria",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'equazione spuria. Manca il termine noto, quindi ci è zero.",
+      "speech": "Passaggio uno: riconosco l'equazione spuria. Manca il termine noto, quindi ci è zero.",
+      "screen": "Equazione spuria",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: raccolgo la ics. Ottengo ics per ics più quattro, uguale a zero.",
+      "speech": "Passaggio due: raccolgo la ics. Ottengo ics per ics più quattro, uguale a zero.",
+      "screen": "Equazione spuria",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo le soluzioni. Ics uguale a zero, e ics uguale a meno quattro.",
+      "speech": "Passaggio tre: scrivo le soluzioni. Ics uguale a zero, e ics uguale a meno quattro.",
+      "screen": "Equazione spuria",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: ha sempre due soluzioni nulle.",
+      "speech": "La scheda dice: ha sempre due soluzioni nulle.",
+      "screen": "Equazione monomia",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'equazione monomia. C'è un solo termine, tre ics alla seconda.",
+      "speech": "Passaggio uno: riconosco l'equazione monomia. C'è un solo termine, tre ics alla seconda.",
+      "screen": "Equazione monomia",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: divido per tre. Ottengo ics alla seconda uguale a zero.",
+      "speech": "Passaggio due: divido per tre. Ottengo ics alla seconda uguale a zero.",
+      "screen": "Equazione monomia",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo le soluzioni. Sono due soluzioni nulle, entrambe uguali a zero.",
+      "speech": "Passaggio tre: scrivo le soluzioni. Sono due soluzioni nulle, entrambe uguali a zero.",
+      "screen": "Equazione monomia",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con delta positivo, soluzioni reali e distinte. Con delta zero, reali e coincidenti. Con delta negativo, soluzioni non reali.",
+      "speech": "La scheda dice: con delta positivo, soluzioni reali e distinte. Con delta zero, reali e coincidenti. Con delta negativo, soluzioni non reali.",
+      "screen": "Significato del delta",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i coefficienti. A è uno, bi è uno, ci è dodici.",
+      "speech": "Passaggio uno: riconosco i coefficienti. A è uno, bi è uno, ci è dodici.",
+      "screen": "Significato del delta",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: calcolo il delta. Uno meno quarantotto fa meno quarantasette.",
+      "speech": "Passaggio due: calcolo il delta. Uno meno quarantotto fa meno quarantasette.",
+      "screen": "Significato del delta",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il delta è negativo, quindi non ci sono soluzioni reali.",
+      "speech": "Passaggio tre: il delta è negativo, quindi non ci sono soluzioni reali.",
+      "screen": "Significato del delta",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, riconosci il tipo di equazione. Poi leggi la spiegazione.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, riconosci il tipo di equazione. Poi leggi la spiegazione.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti. Osserva come cambiano il delta e le soluzioni.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti. Osserva come cambiano il delta e le soluzioni.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Prima riconosci il tipo di equazione. Poi scegli il procedimento della scheda. Ricorda: il segno del delta decide il tipo di soluzioni.",
+      "speech": "Prima riconosci il tipo di equazione. Poi scegli il procedimento della scheda. Ricorda: il segno del delta decide il tipo di soluzioni.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
