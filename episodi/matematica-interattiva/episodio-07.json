@@ -1,0 +1,145 @@
+{
+  "episode": "07",
+  "title": "Le disequazioni di secondo grado",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte. Per esempio: ics alla seconda meno cinque ics più sei, maggiore di zero.",
+      "speech": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte. Per esempio: ics alla seconda meno cinque ics più sei, maggiore di zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Delta positivo"
+    },
+    {
+      "text": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti. Per esempio: ics alla seconda meno due ics più uno, maggiore di zero.",
+      "speech": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti. Per esempio: ics alla seconda meno due ics più uno, maggiore di zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Delta uguale a zero"
+    },
+    {
+      "text": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali. Per esempio: ics alla seconda più ics più dodici, maggiore di zero.",
+      "speech": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali. Per esempio: ics alla seconda più ics più dodici, maggiore di zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Delta negativo"
+    },
+    {
+      "text": "Disequazioni immediate. Sono disequazioni con il solo ics alla seconda al primo membro. Per esempio: Ics alla seconda, minore o uguale a zero.",
+      "speech": "Disequazioni immediate. Sono disequazioni con il solo ics alla seconda al primo membro. Per esempio: Ics alla seconda, minore o uguale a zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazioni immediate"
+    },
+    {
+      "text": "La scheda dice: con delta positivo e segno maggiore, valori esterni alle radici. Con segno minore, valori interni. Con maggiore o uguale, gli estremi sono compresi.",
+      "speech": "La scheda dice: con delta positivo e segno maggiore, valori esterni alle radici. Con segno minore, valori interni. Con maggiore o uguale, gli estremi sono compresi.",
+      "screen": "Delta positivo",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "speech": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "screen": "Delta positivo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: il delta è uno. Le radici sono due e tre, reali e distinte.",
+      "speech": "Passaggio due: il delta è uno. Le radici sono due e tre, reali e distinte.",
+      "screen": "Delta positivo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: ics minore di due, oppure ics maggiore di tre.",
+      "speech": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: ics minore di due, oppure ics maggiore di tre.",
+      "screen": "Delta positivo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con delta zero il primo membro è il quadrato di un binomio. Con segno maggiore, tutti i numeri tranne la radice. Con segno minore, nessuna soluzione.",
+      "speech": "La scheda dice: con delta zero il primo membro è il quadrato di un binomio. Con segno maggiore, tutti i numeri tranne la radice. Con segno minore, nessuna soluzione.",
+      "screen": "Delta uguale a zero",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "speech": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "screen": "Delta uguale a zero",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: il delta è zero. Le radici sono coincidenti, uguali a uno.",
+      "speech": "Passaggio due: il delta è zero. Le radici sono coincidenti, uguali a uno.",
+      "screen": "Delta uguale a zero",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il segno è maggiore, quindi tutti i numeri tranne uno.",
+      "speech": "Passaggio tre: il segno è maggiore, quindi tutti i numeri tranne uno.",
+      "screen": "Delta uguale a zero",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con delta negativo, se il segno è maggiore vanno bene tutti i numeri reali. Se il segno è minore, non c'è nessuna soluzione.",
+      "speech": "La scheda dice: con delta negativo, se il segno è maggiore vanno bene tutti i numeri reali. Se il segno è minore, non c'è nessuna soluzione.",
+      "screen": "Delta negativo",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "speech": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "screen": "Delta negativo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: il delta è meno quarantasette. Non ci sono soluzioni reali.",
+      "speech": "Passaggio due: il delta è meno quarantasette. Non ci sono soluzioni reali.",
+      "screen": "Delta negativo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il segno è maggiore, quindi vanno bene tutti i numeri reali.",
+      "speech": "Passaggio tre: il segno è maggiore, quindi vanno bene tutti i numeri reali.",
+      "screen": "Delta negativo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: ics alla seconda maggiore di zero vale per ics diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
+      "speech": "La scheda dice: ics alla seconda maggiore di zero vale per ics diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
+      "screen": "Disequazioni immediate",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco la disequazione immediata. Al primo membro c'è solo ics alla seconda.",
+      "speech": "Passaggio uno: riconosco la disequazione immediata. Al primo membro c'è solo ics alla seconda.",
+      "screen": "Disequazioni immediate",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: ics alla seconda non è mai negativo. Può solo essere zero.",
+      "speech": "Passaggio due: ics alla seconda non è mai negativo. Può solo essere zero.",
+      "screen": "Disequazioni immediate",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. L'unica soluzione è ics uguale a zero.",
+      "speech": "Passaggio tre: scrivo il risultato. L'unica soluzione è ics uguale a zero.",
+      "screen": "Disequazioni immediate",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, calcola il delta e guarda il segno della disequazione.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, calcola il delta e guarda il segno della disequazione.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia le radici e il segno. Osserva come cambia la zona delle soluzioni.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia le radici e il segno. Osserva come cambia la zona delle soluzioni.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: la tabella vale con a maggiore di zero. Trova il delta e le radici, poi leggi la riga giusta della tabella.",
+      "speech": "Ricorda: la tabella vale con a maggiore di zero. Trova il delta e le radici, poi leggi la riga giusta della tabella.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
