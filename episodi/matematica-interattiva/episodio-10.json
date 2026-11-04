@@ -1,0 +1,235 @@
+{
+  "episode": "10",
+  "title": "Equazioni irrazionali e con valore assoluto",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Equazione con una radice quadrata. È un'equazione con l'incognita sotto una radice quadrata. Per esempio: Radice di ics più tre è uguale a ics più uno.",
+      "speech": "Equazione con una radice quadrata. È un'equazione con l'incognita sotto una radice quadrata. Per esempio: Radice di ics più tre è uguale a ics più uno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione con una radice quadrata"
+    },
+    {
+      "text": "Equazione con due radici quadrate. È un'equazione con due radicali uguagliati, o con la loro somma. Per esempio: Radice di ics più uno è uguale a radice di due ics meno tre.",
+      "speech": "Equazione con due radici quadrate. È un'equazione con due radicali uguagliati, o con la loro somma. Per esempio: Radice di ics più uno è uguale a radice di due ics meno tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione con due radici quadrate"
+    },
+    {
+      "text": "Equazione con radici cubiche. È un'equazione con l'incognita sotto una radice cubica. Per esempio: Radice cubica di ics più uno è uguale a due.",
+      "speech": "Equazione con radici cubiche. È un'equazione con l'incognita sotto una radice cubica. Per esempio: Radice cubica di ics più uno è uguale a due.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione con radici cubiche"
+    },
+    {
+      "text": "Valore assoluto. Il valore assoluto di x è x se x è maggiore o uguale a zero, −x se x è minore di zero. Per esempio: Valore assoluto di meno tre.",
+      "speech": "Valore assoluto. Il valore assoluto di x è x se x è maggiore o uguale a zero, −x se x è minore di zero. Per esempio: Valore assoluto di meno tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Valore assoluto"
+    },
+    {
+      "text": "Equazione con un solo valore assoluto. È un'equazione con un valore assoluto al primo membro. Per esempio: Valore assoluto di ics meno uno è uguale a tre.",
+      "speech": "Equazione con un solo valore assoluto. È un'equazione con un valore assoluto al primo membro. Per esempio: Valore assoluto di ics meno uno è uguale a tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione con un solo valore assoluto"
+    },
+    {
+      "text": "Equazione con due o più valori assoluti. Si studia il segno di ogni valore assoluto e l'equazione si scinde in sistemi. Per esempio: Valore assoluto di ics meno uno, più valore assoluto di ics meno tre, è uguale a quattro.",
+      "speech": "Equazione con due o più valori assoluti. Si studia il segno di ogni valore assoluto e l'equazione si scinde in sistemi. Per esempio: Valore assoluto di ics meno uno, più valore assoluto di ics meno tre, è uguale a quattro.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione con due o più valori assoluti"
+    },
+    {
+      "text": "Due valori assoluti uguali. È il caso particolare con due valori assoluti e termine noto uguale a zero. Per esempio: Valore assoluto di due ics meno uno è uguale a valore assoluto di ics più due.",
+      "speech": "Due valori assoluti uguali. È il caso particolare con due valori assoluti e termine noto uguale a zero. Per esempio: Valore assoluto di due ics meno uno è uguale a valore assoluto di ics più due.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Due valori assoluti uguali"
+    },
+    {
+      "text": "La scheda dice: con un polinomio al secondo membro si risolve il sistema. Con un numero positivo, A è uguale a enne alla seconda. Con un numero negativo non ci sono soluzioni.",
+      "speech": "La scheda dice: con un polinomio al secondo membro si risolve il sistema. Con un numero positivo, A è uguale a enne alla seconda. Con un numero negativo non ci sono soluzioni.",
+      "screen": "Equazione con una radice quadrata",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. A è ics più tre, bi è ics più uno: c'è un polinomio al secondo membro.",
+      "speech": "Passaggio uno: riconosco il caso. A è ics più tre, bi è ics più uno: c'è un polinomio al secondo membro.",
+      "screen": "Equazione con una radice quadrata",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo il sistema. A non negativo, bi non negativo, e A uguale a bi alla seconda. Ottengo ics uno e ics meno due.",
+      "speech": "Passaggio due: scrivo il sistema. A non negativo, bi non negativo, e A uguale a bi alla seconda. Ottengo ics uno e ics meno due.",
+      "screen": "Equazione con una radice quadrata",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: meno due non rispetta la condizione. La soluzione è ics uguale a uno.",
+      "speech": "Passaggio tre: meno due non rispetta la condizione. La soluzione è ics uguale a uno.",
+      "screen": "Equazione con una radice quadrata",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con due radici uguali, A è uguale a bi con A e bi non negativi. Con la somma si eleva al quadrato e si usa lo schema con una radice.",
+      "speech": "La scheda dice: con due radici uguali, A è uguale a bi con A e bi non negativi. Con la somma si eleva al quadrato e si usa lo schema con una radice.",
+      "screen": "Equazione con due radici quadrate",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. A è ics più uno, bi è due ics meno tre.",
+      "speech": "Passaggio uno: riconosco il caso. A è ics più uno, bi è due ics meno tre.",
+      "screen": "Equazione con due radici quadrate",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo il sistema. A e bi non negativi, e A uguale a bi.",
+      "speech": "Passaggio due: scrivo il sistema. A e bi non negativi, e A uguale a bi.",
+      "screen": "Equazione con due radici quadrate",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: ottengo ics uguale a quattro, e le condizioni sono rispettate.",
+      "speech": "Passaggio tre: ottengo ics uguale a quattro, e le condizioni sono rispettate.",
+      "screen": "Equazione con due radici quadrate",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: per risolvere basta isolare la radice o le radici ed elevare al cubo entrambi i membri.",
+      "speech": "La scheda dice: per risolvere basta isolare la radice o le radici ed elevare al cubo entrambi i membri.",
+      "screen": "Equazione con radici cubiche",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. La radice cubica è già isolata al primo membro.",
+      "speech": "Passaggio uno: riconosco il caso. La radice cubica è già isolata al primo membro.",
+      "screen": "Equazione con radici cubiche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: elevo al cubo. Ics più uno è uguale a otto.",
+      "speech": "Passaggio due: elevo al cubo. Ics più uno è uguale a otto.",
+      "screen": "Equazione con radici cubiche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Ics è uguale a sette.",
+      "speech": "Passaggio tre: scrivo il risultato. Ics è uguale a sette.",
+      "screen": "Equazione con radici cubiche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il valore assoluto di ics è ics se ics è maggiore o uguale a zero, meno ics se ics è minore di zero.",
+      "speech": "La scheda dice: il valore assoluto di ics è ics se ics è maggiore o uguale a zero, meno ics se ics è minore di zero.",
+      "screen": "Valore assoluto",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il segno. Meno tre è minore di zero.",
+      "speech": "Passaggio uno: riconosco il segno. Meno tre è minore di zero.",
+      "screen": "Valore assoluto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: uso la seconda riga della definizione: meno, meno tre.",
+      "speech": "Passaggio due: uso la seconda riga della definizione: meno, meno tre.",
+      "screen": "Valore assoluto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Il valore assoluto di meno tre è tre.",
+      "speech": "Passaggio tre: scrivo il risultato. Il valore assoluto di meno tre è tre.",
+      "screen": "Valore assoluto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con un numero positivo, A è uguale a enne oppure a meno enne. Con un numero negativo non ci sono soluzioni. Con lo zero, A è zero.",
+      "speech": "La scheda dice: con un numero positivo, A è uguale a enne oppure a meno enne. Con un numero negativo non ci sono soluzioni. Con lo zero, A è zero.",
+      "screen": "Equazione con un solo valore assoluto",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. A è ics meno uno, e al secondo membro c'è il numero positivo tre.",
+      "speech": "Passaggio uno: riconosco il caso. A è ics meno uno, e al secondo membro c'è il numero positivo tre.",
+      "screen": "Equazione con un solo valore assoluto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo i due casi. Ics meno uno uguale a tre, oppure uguale a meno tre.",
+      "speech": "Passaggio due: scrivo i due casi. Ics meno uno uguale a tre, oppure uguale a meno tre.",
+      "screen": "Equazione con un solo valore assoluto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Ics uguale a quattro, oppure ics uguale a meno due.",
+      "speech": "Passaggio tre: scrivo il risultato. Ics uguale a quattro, oppure ics uguale a meno due.",
+      "screen": "Equazione con un solo valore assoluto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: si studia il segno di A e bi, si rappresenta su un grafico e l'equazione si scinde in tre sistemi. La soluzione è l'unione.",
+      "speech": "La scheda dice: si studia il segno di A e bi, si rappresenta su un grafico e l'equazione si scinde in tre sistemi. La soluzione è l'unione.",
+      "screen": "Equazione con due o più valori assoluti",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: studio i segni. A è positivo per ics maggiore di uno, bi per ics maggiore di tre.",
+      "speech": "Passaggio uno: studio i segni. A è positivo per ics maggiore di uno, bi per ics maggiore di tre.",
+      "screen": "Equazione con due o più valori assoluti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo i tre sistemi. Il primo dà ics zero, il secondo è impossibile, il terzo dà ics quattro.",
+      "speech": "Passaggio due: scrivo i tre sistemi. Il primo dà ics zero, il secondo è impossibile, il terzo dà ics quattro.",
+      "screen": "Equazione con due o più valori assoluti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: unisco le soluzioni. Ics uguale a zero, oppure ics uguale a quattro.",
+      "speech": "Passaggio tre: unisco le soluzioni. Ics uguale a zero, oppure ics uguale a quattro.",
+      "screen": "Equazione con due o più valori assoluti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: un caso particolare è il valore assoluto di A uguale al valore assoluto di bi: A è uguale a bi, oppure a meno bi.",
+      "speech": "La scheda dice: un caso particolare è il valore assoluto di A uguale al valore assoluto di bi: A è uguale a bi, oppure a meno bi.",
+      "screen": "Due valori assoluti uguali",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il caso. A è due ics meno uno, bi è ics più due.",
+      "speech": "Passaggio uno: riconosco il caso. A è due ics meno uno, bi è ics più due.",
+      "screen": "Due valori assoluti uguali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo i due casi. A uguale a bi, oppure A uguale a meno bi.",
+      "speech": "Passaggio due: scrivo i due casi. A uguale a bi, oppure A uguale a meno bi.",
+      "screen": "Due valori assoluti uguali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Ics uguale a tre, oppure ics uguale a meno un terzo.",
+      "speech": "Passaggio tre: scrivo il risultato. Ics uguale a tre, oppure ics uguale a meno un terzo.",
+      "screen": "Due valori assoluti uguali",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda che cosa c'è al secondo membro.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda che cosa c'è al secondo membro.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva come cambiano le soluzioni, e quando non ce ne sono.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva come cambiano le soluzioni, e quando non ce ne sono.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: guarda il secondo membro e scegli lo schema giusto. Se serve, controlla sempre le condizioni. Il valore assoluto dà due casi.",
+      "speech": "Ricorda: guarda il secondo membro e scegli lo schema giusto. Se serve, controlla sempre le condizioni. Il valore assoluto dà due casi.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

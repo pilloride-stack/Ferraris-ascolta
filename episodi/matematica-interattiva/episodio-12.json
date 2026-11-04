@@ -1,0 +1,85 @@
+{
+  "episode": "12",
+  "title": "Il teorema di Pitagora",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Teorema di Pitagora. In ogni triangolo rettangolo, l'area del quadrato costruito sull'ipotenusa è equivalente alla somma delle aree dei quadrati costruiti sui cateti. Per esempio: A alla seconda è uguale a bi alla seconda, più ci alla seconda.",
+      "speech": "Teorema di Pitagora. In ogni triangolo rettangolo, l'area del quadrato costruito sull'ipotenusa è equivalente alla somma delle aree dei quadrati costruiti sui cateti. Per esempio: A alla seconda è uguale a bi alla seconda, più ci alla seconda.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Teorema di Pitagora"
+    },
+    {
+      "text": "Dimostrazione. Si costruisce un quadrato di lato b + c e si calcola la sua area in due modi. Per esempio: Bi più ci, alla seconda, è uguale ad a alla seconda più due bi ci.",
+      "speech": "Dimostrazione. Si costruisce un quadrato di lato b + c e si calcola la sua area in due modi. Per esempio: Bi più ci, alla seconda, è uguale ad a alla seconda più due bi ci.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Dimostrazione"
+    },
+    {
+      "text": "La scheda dice: in ogni triangolo rettangolo, l'area del quadrato sull'ipotenusa è equivalente alla somma delle aree dei quadrati sui cateti.",
+      "speech": "La scheda dice: in ogni triangolo rettangolo, l'area del quadrato sull'ipotenusa è equivalente alla somma delle aree dei quadrati sui cateti.",
+      "screen": "Teorema di Pitagora",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i dati. I cateti sono tre e quattro. Cerco l'ipotenusa a.",
+      "speech": "Passaggio uno: riconosco i dati. I cateti sono tre e quattro. Cerco l'ipotenusa a.",
+      "screen": "Teorema di Pitagora",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico il teorema. Tre alla seconda fa nove, quattro alla seconda fa sedici. La somma è venticinque.",
+      "speech": "Passaggio due: applico il teorema. Tre alla seconda fa nove, quattro alla seconda fa sedici. La somma è venticinque.",
+      "screen": "Teorema di Pitagora",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: estraggo la radice quadrata di venticinque. L'ipotenusa è cinque.",
+      "speech": "Passaggio tre: estraggo la radice quadrata di venticinque. L'ipotenusa è cinque.",
+      "screen": "Teorema di Pitagora",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: si costruisce un quadrato di lato bi più ci. Si ottengono quattro triangoli rettangoli congruenti e un quadrato inscritto di lato a.",
+      "speech": "La scheda dice: si costruisce un quadrato di lato bi più ci. Si ottengono quattro triangoli rettangoli congruenti e un quadrato inscritto di lato a.",
+      "screen": "Dimostrazione",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: calcolo l'area elevando il lato al quadrato. A è uguale a bi più ci, alla seconda.",
+      "speech": "Passaggio uno: calcolo l'area elevando il lato al quadrato. A è uguale a bi più ci, alla seconda.",
+      "screen": "Dimostrazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: sommo il quadrato inscritto e i quattro triangoli. Ottengo a alla seconda, più due bi ci.",
+      "speech": "Passaggio due: sommo il quadrato inscritto e i quattro triangoli. Ottengo a alla seconda, più due bi ci.",
+      "screen": "Dimostrazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: uguaglio i due risultati, sviluppo e semplifico due bi ci. Ottengo la tesi: a alla seconda è uguale a bi alla seconda più ci alla seconda.",
+      "speech": "Passaggio tre: uguaglio i due risultati, sviluppo e semplifico due bi ci. Ottengo la tesi: a alla seconda è uguale a bi alla seconda più ci alla seconda.",
+      "screen": "Dimostrazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, riconosci ipotenusa e cateti. Poi leggi la spiegazione.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, riconosci ipotenusa e cateti. Poi leggi la spiegazione.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i due cursori e cambia i cateti. Osserva come cambia l'ipotenusa.",
+      "speech": "Questo è il laboratorio. Muovi i due cursori e cambia i cateti. Osserva come cambia l'ipotenusa.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda il teorema di Pitagora: a alla seconda è uguale a bi alla seconda più ci alla seconda. Fai i quadrati, sommali, poi estrai la radice.",
+      "speech": "Ricorda il teorema di Pitagora: a alla seconda è uguale a bi alla seconda più ci alla seconda. Fai i quadrati, sommali, poi estrai la radice.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
