@@ -1,0 +1,24 @@
+{
+  "episode": "01",
+  "title": "MCD e mcm",
+  "sentences": [
+    {
+      "text": "M C D significa Massimo Comune Divisore. Serve quando vogliamo dividere due o più quantità in gruppi uguali, più grandi possibile."
+    },
+    {
+      "text": "Consideriamo diciotto, ventiquattro e trenta. Il loro massimo comune divisore è sei: è il divisore comune più grande."
+    },
+    {
+      "text": "Con la scomposizione in fattori primi, per calcolare il massimo comune divisore scegliamo soltanto i fattori comuni, con l’esponente minore."
+    },
+    {
+      "text": "Il minimo comune multiplo serve invece a trovare il primo incontro tra due o più sequenze di multipli."
+    },
+    {
+      "text": "Consideriamo sei, otto e dodici. Il loro minimo comune multiplo è ventiquattro: è il primo multiplo comune."
+    },
+    {
+      "text": "Con la scomposizione in fattori primi, per calcolare il minimo comune multiplo scegliamo tutti i fattori necessari, con l’esponente maggiore."
+    }
+  ]
+}
