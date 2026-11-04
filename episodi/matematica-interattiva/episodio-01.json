@@ -1,0 +1,85 @@
+{
+  "episode": "01",
+  "title": "La divisione tra polinomi",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Divisione di due polinomi. Dividere un polinomio dividendo per un polinomio divisore vuol dire trovare il polinomio quoziente e il polinomio resto. Quoziente e resto sono unici.",
+      "speech": "Divisione di due polinomi. Dividere un polinomio dividendo per un polinomio divisore vuol dire trovare il polinomio quoziente e il polinomio resto. Quoziente e resto sono unici.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Divisione di due polinomi"
+    },
+    {
+      "text": "Divisione esatta. Se il resto è zero, il dividendo si dice divisibile per il divisore, e la divisione si dice esatta.",
+      "speech": "Divisione esatta. Se il resto è zero, il dividendo si dice divisibile per il divisore, e la divisione si dice esatta.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Divisione esatta"
+    },
+    {
+      "text": "La scheda dice: si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
+      "speech": "La scheda dice: si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
+      "screen": "Divisione di due polinomi",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: ordino e completo il dividendo. Tre ics alla quinta, più zero ics alla quarta, più zero ics alla terza, meno tre ics alla seconda, più ics, più cinque.",
+      "speech": "Passaggio uno: ordino e completo il dividendo. Tre ics alla quinta, più zero ics alla quarta, più zero ics alla terza, meno tre ics alla seconda, più ics, più cinque.",
+      "screen": "Divisione di due polinomi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: ripeto i calcoli. Tre ics alla quinta diviso ics alla seconda fa tre ics alla terza. Poi ottengo tre ics alla seconda. Poi ottengo meno sei.",
+      "speech": "Passaggio due: ripeto i calcoli. Tre ics alla quinta diviso ics alla seconda fa tre ics alla terza. Poi ottengo tre ics alla seconda. Poi ottengo meno sei.",
+      "screen": "Divisione di due polinomi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Il quoziente è tre ics alla terza, più tre ics alla seconda, meno sei. Il resto è meno cinque ics, più undici.",
+      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è tre ics alla terza, più tre ics alla seconda, meno sei. Il resto è meno cinque ics, più undici.",
+      "screen": "Divisione di due polinomi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: quando il polinomio resto è zero, il dividendo è uguale al quoziente per il divisore. Il resto non c'è più.",
+      "speech": "La scheda dice: quando il polinomio resto è zero, il dividendo è uguale al quoziente per il divisore. Il resto non c'è più.",
+      "screen": "Divisione esatta",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
+      "speech": "Passaggio uno: controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
+      "screen": "Divisione esatta",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: ripeto i calcoli. Due ics alla terza diviso ics alla seconda fa due ics. Poi meno tre ics alla seconda diviso ics alla seconda fa meno tre.",
+      "speech": "Passaggio due: ripeto i calcoli. Due ics alla terza diviso ics alla seconda fa due ics. Poi meno tre ics alla seconda diviso ics alla seconda fa meno tre.",
+      "screen": "Divisione esatta",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Il quoziente è due ics meno tre. Il resto è zero: la divisione è esatta.",
+      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è due ics meno tre. Il resto è zero: la divisione è esatta.",
+      "screen": "Divisione esatta",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, ordina i polinomi e completa i termini mancanti.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, ordina i polinomi e completa i termini mancanti.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti dei due polinomi. Osserva come cambiano il quoziente e il resto.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti dei due polinomi. Osserva come cambiano il quoziente e il resto.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda la regola. Ordina e completa i polinomi. Dividi, moltiplica, cambia segno e somma. Quando il grado del resto è inferiore, la divisione finisce.",
+      "speech": "Ricorda la regola. Ordina e completa i polinomi. Dividi, moltiplica, cambia segno e somma. Quando il grado del resto è inferiore, la divisione finisce.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
