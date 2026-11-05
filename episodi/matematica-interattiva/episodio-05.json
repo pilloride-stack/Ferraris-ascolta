@@ -5,7 +5,7 @@
   "sentences": [
     {
       "text": "Zero del polinomio. È il divisore del termine noto che, sostituito alla variabile, annulla il polinomio. Per esempio: Per ics alla terza, meno ics, più sei, lo zero è meno due.",
-      "speech": "Zero del polinomio. È il divisore del termine noto che, sostituito alla variabile, annulla il polinomio. Per esempio: Per iks alla terza, meno iks, più sei, lo zero è meno due.",
+      "speech": "Zero del polinomio. È il divisore del termine noto che, sostituito alla variabile, annulla il polinomio. Per esempio: Per __X__ alla terza, meno __X__, più sei, lo zero è meno due.",
       "screen": "Definizioni",
       "purpose": "Definizione: Zero del polinomio"
     },
@@ -35,7 +35,7 @@
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla seconda meno due ics più tre, per ics più due.",
-      "speech": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a iks alla seconda meno due iks più tre, per iks più due.",
+      "speech": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a __X__ alla seconda meno due __X__ più tre, per __X__ più due.",
       "screen": "Zero del polinomio",
       "purpose": "Esempio, passaggio 3"
     },
@@ -59,7 +59,7 @@
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla terza più quattro ics alla seconda più ics meno sei, per ics più uno.",
-      "speech": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a iks alla terza più quattro iks alla seconda più iks meno sei, per iks più uno.",
+      "speech": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a __X__ alla terza più quattro __X__ alla seconda più __X__ meno sei, per __X__ più uno.",
       "screen": "Polinomio primo",
       "purpose": "Esempio, passaggio 3"
     },

@@ -5,25 +5,25 @@
   "sentences": [
     {
       "text": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte. Per esempio: ics alla seconda meno cinque ics più sei, maggiore di zero.",
-      "speech": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte. Per esempio: iks alla seconda meno cinque iks più sei, maggiore di zero.",
+      "speech": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte. Per esempio: __X__ alla seconda meno cinque __X__ più sei, maggiore di zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Delta positivo"
     },
     {
       "text": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti. Per esempio: ics alla seconda meno due ics più uno, maggiore di zero.",
-      "speech": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti. Per esempio: iks alla seconda meno due iks più uno, maggiore di zero.",
+      "speech": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti. Per esempio: __X__ alla seconda meno due __X__ più uno, maggiore di zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Delta uguale a zero"
     },
     {
       "text": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali. Per esempio: ics alla seconda più ics più dodici, maggiore di zero.",
-      "speech": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali. Per esempio: iks alla seconda più iks più dodici, maggiore di zero.",
+      "speech": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali. Per esempio: __X__ alla seconda più __X__ più dodici, maggiore di zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Delta negativo"
     },
     {
       "text": "Disequazioni immediate. Sono disequazioni con il solo ics alla seconda al primo membro. Per esempio: Ics alla seconda, minore o uguale a zero.",
-      "speech": "Disequazioni immediate. Sono disequazioni con il solo iks alla seconda al primo membro. Per esempio: iks alla seconda, minore o uguale a zero.",
+      "speech": "Disequazioni immediate. Sono disequazioni con il solo __X__ alla seconda al primo membro. Per esempio: __X__ alla seconda, minore o uguale a zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Disequazioni immediate"
     },
@@ -47,7 +47,7 @@
     },
     {
       "text": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: ics minore di due, oppure ics maggiore di tre.",
-      "speech": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: iks minore di due, oppure iks maggiore di tre.",
+      "speech": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: __X__ minore di due, oppure __X__ maggiore di tre.",
       "screen": "Delta positivo",
       "purpose": "Esempio, passaggio 3"
     },
@@ -101,25 +101,25 @@
     },
     {
       "text": "La scheda dice: ics alla seconda maggiore di zero vale per ics diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
-      "speech": "La scheda dice: iks alla seconda maggiore di zero vale per iks diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
+      "speech": "La scheda dice: __X__ alla seconda maggiore di zero vale per __X__ diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
       "screen": "Disequazioni immediate",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
       "text": "Passaggio uno: riconosco la disequazione immediata. Al primo membro c'è solo ics alla seconda.",
-      "speech": "Passaggio uno: riconosco la disequazione immediata. Al primo membro c'è solo iks alla seconda.",
+      "speech": "Passaggio uno: riconosco la disequazione immediata. Al primo membro c'è solo __X__ alla seconda.",
       "screen": "Disequazioni immediate",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Passaggio due: ics alla seconda non è mai negativo. Può solo essere zero.",
-      "speech": "Passaggio due: iks alla seconda non è mai negativo. Può solo essere zero.",
+      "speech": "Passaggio due: __X__ alla seconda non è mai negativo. Può solo essere zero.",
       "screen": "Disequazioni immediate",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Passaggio tre: scrivo il risultato. L'unica soluzione è ics uguale a zero.",
-      "speech": "Passaggio tre: scrivo il risultato. L'unica soluzione è iks uguale a zero.",
+      "speech": "Passaggio tre: scrivo il risultato. L'unica soluzione è __X__ uguale a zero.",
       "screen": "Disequazioni immediate",
       "purpose": "Esempio, passaggio 3"
     },

@@ -59,13 +59,13 @@
     },
     {
       "text": "Passaggio due: faccio i quadrati. Quattro ics alla seconda è sedici ics alla seconda. Cinque alla seconda è venticinque.",
-      "speech": "Passaggio due: faccio i quadrati. Quattro iks alla seconda è sedici iks alla seconda. Cinque alla seconda è venticinque.",
+      "speech": "Passaggio due: faccio i quadrati. Quattro __X__ alla seconda è sedici __X__ alla seconda. Cinque alla seconda è venticinque.",
       "screen": "Somma per differenza",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Quadrato del primo meno quadrato del secondo: sedici ics alla seconda, meno venticinque.",
-      "speech": "Passaggio tre: scrivo il risultato. Quadrato del primo meno quadrato del secondo: sedici iks alla seconda, meno venticinque.",
+      "speech": "Passaggio tre: scrivo il risultato. Quadrato del primo meno quadrato del secondo: sedici __X__ alla seconda, meno venticinque.",
       "screen": "Somma per differenza",
       "purpose": "Esempio, passaggio 3"
     },
@@ -77,19 +77,19 @@
     },
     {
       "text": "Passaggio uno: riconosco i termini. Il primo termine è due ics. Il secondo termine è tre.",
-      "speech": "Passaggio uno: riconosco i termini. Il primo termine è due iks. Il secondo termine è tre.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo termine è due __X__. Il secondo termine è tre.",
       "screen": "Quadrato di un binomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Passaggio due: preparo le tre parti. Il quadrato del primo è quattro ics alla seconda. Il doppio prodotto è dodici ics. Il quadrato del secondo è nove.",
-      "speech": "Passaggio due: preparo le tre parti. Il quadrato del primo è quattro iks alla seconda. Il doppio prodotto è dodici iks. Il quadrato del secondo è nove.",
+      "speech": "Passaggio due: preparo le tre parti. Il quadrato del primo è quattro __X__ alla seconda. Il doppio prodotto è dodici __X__. Il quadrato del secondo è nove.",
       "screen": "Quadrato di un binomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Passaggio tre: scrivo il risultato in ordine. Quattro ics alla seconda, più dodici ics, più nove.",
-      "speech": "Passaggio tre: scrivo il risultato in ordine. Quattro iks alla seconda, più dodici iks, più nove.",
+      "speech": "Passaggio tre: scrivo il risultato in ordine. Quattro __X__ alla seconda, più dodici __X__, più nove.",
       "screen": "Quadrato di un binomio",
       "purpose": "Esempio, passaggio 3"
     },
@@ -101,19 +101,19 @@
     },
     {
       "text": "Passaggio uno: riconosco i termini. Il primo termine è tre ics. Il secondo termine è due.",
-      "speech": "Passaggio uno: riconosco i termini. Il primo termine è tre iks. Il secondo termine è due.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo termine è tre __X__. Il secondo termine è due.",
       "screen": "Cubo di un binomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Passaggio due: preparo le quattro parti. Ventisette ics alla terza. Tre per nove ics alla seconda per due, cioè cinquantaquattro ics alla seconda. Tre per tre ics per quattro, cioè trentasei ics. Otto.",
-      "speech": "Passaggio due: preparo le quattro parti. Ventisette iks alla terza. Tre per nove iks alla seconda per due, cioè cinquantaquattro iks alla seconda. Tre per tre iks per quattro, cioè trentasei iks. Otto.",
+      "speech": "Passaggio due: preparo le quattro parti. Ventisette __X__ alla terza. Tre per nove __X__ alla seconda per due, cioè cinquantaquattro __X__ alla seconda. Tre per tre __X__ per quattro, cioè trentasei __X__. Otto.",
       "screen": "Cubo di un binomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Ventisette ics alla terza, più cinquantaquattro ics alla seconda, più trentasei ics, più otto.",
-      "speech": "Passaggio tre: scrivo il risultato. Ventisette iks alla terza, più cinquantaquattro iks alla seconda, più trentasei iks, più otto.",
+      "speech": "Passaggio tre: scrivo il risultato. Ventisette __X__ alla terza, più cinquantaquattro __X__ alla seconda, più trentasei __X__, più otto.",
       "screen": "Cubo di un binomio",
       "purpose": "Esempio, passaggio 3"
     },
@@ -125,19 +125,19 @@
     },
     {
       "text": "Passaggio uno: riconosco i termini. Il primo è due ics. Il secondo è tre ipsilon. Il terzo è uno.",
-      "speech": "Passaggio uno: riconosco i termini. Il primo è due iks. Il secondo è tre ipsilon. Il terzo è uno.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo è due __X__. Il secondo è tre ipsilon. Il terzo è uno.",
       "screen": "Quadrato di un trinomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Passaggio due: preparo le parti. I quadrati sono quattro ics alla seconda, nove ipsilon alla seconda e uno. I doppi prodotti sono dodici ics ipsilon, quattro ics e sei ipsilon.",
-      "speech": "Passaggio due: preparo le parti. I quadrati sono quattro iks alla seconda, nove ipsilon alla seconda e uno. I doppi prodotti sono dodici iks ipsilon, quattro iks e sei ipsilon.",
+      "speech": "Passaggio due: preparo le parti. I quadrati sono quattro __X__ alla seconda, nove ipsilon alla seconda e uno. I doppi prodotti sono dodici __X__ ipsilon, quattro __X__ e sei ipsilon.",
       "screen": "Quadrato di un trinomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Quattro ics alla seconda, più nove ipsilon alla seconda, più uno, più dodici ics ipsilon, più quattro ics, più sei ipsilon.",
-      "speech": "Passaggio tre: scrivo il risultato. Quattro iks alla seconda, più nove ipsilon alla seconda, più uno, più dodici iks ipsilon, più quattro iks, più sei ipsilon.",
+      "speech": "Passaggio tre: scrivo il risultato. Quattro __X__ alla seconda, più nove ipsilon alla seconda, più uno, più dodici __X__ ipsilon, più quattro __X__, più sei ipsilon.",
       "screen": "Quadrato di un trinomio",
       "purpose": "Esempio, passaggio 3"
     },
@@ -149,19 +149,19 @@
     },
     {
       "text": "Passaggio uno: riconosco i termini. Il primo è due ics. Il secondo è tre ipsilon. Il terzo è uno.",
-      "speech": "Passaggio uno: riconosco i termini. Il primo è due iks. Il secondo è tre ipsilon. Il terzo è uno.",
+      "speech": "Passaggio uno: riconosco i termini. Il primo è due __X__. Il secondo è tre ipsilon. Il terzo è uno.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Passaggio due: preparo i dieci termini. Prima i tre cubi: otto ics alla terza, ventisette ipsilon alla terza e uno. Poi i sei tripli prodotti e, per ultimo, sei a b c, cioè trentasei ics ipsilon.",
-      "speech": "Passaggio due: preparo i dieci termini. Prima i tre cubi: otto iks alla terza, ventisette ipsilon alla terza e uno. Poi i sei tripli prodotti e, per ultimo, sei a b c, cioè trentasei iks ipsilon.",
+      "speech": "Passaggio due: preparo i dieci termini. Prima i tre cubi: otto __X__ alla terza, ventisette ipsilon alla terza e uno. Poi i sei tripli prodotti e, per ultimo, sei a b c, cioè trentasei __X__ ipsilon.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Passaggio tre: i termini sono: otto ics alla terza, ventisette ipsilon alla terza, uno, trentasei ics alla seconda ipsilon, cinquantaquattro ics ipsilon alla seconda, dodici ics alla seconda, sei ics, ventisette ipsilon alla seconda, nove ipsilon, trentasei ics ipsilon.",
-      "speech": "Passaggio tre: i termini sono: otto iks alla terza, ventisette ipsilon alla terza, uno, trentasei iks alla seconda ipsilon, cinquantaquattro iks ipsilon alla seconda, dodici iks alla seconda, sei iks, ventisette ipsilon alla seconda, nove ipsilon, trentasei iks ipsilon.",
+      "speech": "Passaggio tre: i termini sono: otto __X__ alla terza, ventisette ipsilon alla terza, uno, trentasei __X__ alla seconda ipsilon, cinquantaquattro __X__ ipsilon alla seconda, dodici __X__ alla seconda, sei __X__, ventisette ipsilon alla seconda, nove ipsilon, trentasei __X__ ipsilon.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 3"
     },
@@ -173,19 +173,19 @@
     },
     {
       "text": "Passaggio uno: riconosco il binomio. Due ics meno tre ha il segno meno. Il primo termine è due ics, il secondo è tre.",
-      "speech": "Passaggio uno: riconosco il binomio. Due iks meno tre ha il segno meno. Il primo termine è due iks, il secondo è tre.",
+      "speech": "Passaggio uno: riconosco il binomio. Due __X__ meno tre ha il segno meno. Il primo termine è due __X__, il secondo è tre.",
       "screen": "Particolari prodotti notevoli",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Passaggio due: faccio i cubi. Due ics alla terza è otto ics alla terza. Tre alla terza è ventisette.",
-      "speech": "Passaggio due: faccio i cubi. Due iks alla terza è otto iks alla terza. Tre alla terza è ventisette.",
+      "speech": "Passaggio due: faccio i cubi. Due __X__ alla terza è otto __X__ alla terza. Tre alla terza è ventisette.",
       "screen": "Particolari prodotti notevoli",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Cubo del primo meno cubo del secondo: otto ics alla terza, meno ventisette.",
-      "speech": "Passaggio tre: scrivo il risultato. Cubo del primo meno cubo del secondo: otto iks alla terza, meno ventisette.",
+      "speech": "Passaggio tre: scrivo il risultato. Cubo del primo meno cubo del secondo: otto __X__ alla terza, meno ventisette.",
       "screen": "Particolari prodotti notevoli",
       "purpose": "Esempio, passaggio 3"
     },
