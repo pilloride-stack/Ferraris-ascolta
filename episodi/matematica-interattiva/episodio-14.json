@@ -1,0 +1,175 @@
+{
+  "episode": "14",
+  "title": "Le disequazioni di primo grado",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Disequazione. È una disuguaglianza tra due espressioni, per la quale si cercano i valori dell'incognita che la rendono vera.",
+      "speech": "Disequazione. È una disuguaglianza tra due espressioni, per la quale si cercano i valori dell'incognita che la rendono vera.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazione"
+    },
+    {
+      "text": "Primo principio di equivalenza. Aggiungendo a entrambi i membri la stessa quantità, si ottiene una disequazione equivalente.",
+      "speech": "Primo principio di equivalenza. Aggiungendo a entrambi i membri la stessa quantità, si ottiene una disequazione equivalente.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Primo principio di equivalenza"
+    },
+    {
+      "text": "Secondo principio di equivalenza. Moltiplicando o dividendo entrambi i membri per un numero positivo, il verso resta. Moltiplicando o dividendo entrambi i membri per un numero negativo, il verso si inverte.",
+      "speech": "Secondo principio di equivalenza. Moltiplicando o dividendo entrambi i membri per un numero positivo, il verso resta. Moltiplicando o dividendo entrambi i membri per un numero negativo, il verso si inverte.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Secondo principio di equivalenza"
+    },
+    {
+      "text": "Disequazione con frazioni. Si eliminano i denominatori con un numero positivo, senza cambiare il verso. Per esempio: Tre quarti ics, maggiore o uguale a due.",
+      "speech": "Disequazione con frazioni. Si eliminano i denominatori con un numero positivo, senza cambiare il verso. Per esempio: Tre quarti __X__, maggiore o uguale a due.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazione con frazioni"
+    },
+    {
+      "text": "Disequazione sempre vera o impossibile. Se le ics si annullano, resta una disuguaglianza tra due numeri.",
+      "speech": "Disequazione sempre vera o impossibile. Se le __X__ si annullano, resta una disuguaglianza tra due numeri.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sempre vera o impossibile"
+    },
+    {
+      "text": "I simboli sono minore, minore o uguale, maggiore, maggiore o uguale. Sulla retta, il cerchietto pieno indica un valore compreso, quello vuoto un valore escluso.",
+      "speech": "I simboli sono minore, minore o uguale, maggiore, maggiore o uguale. Sulla retta, il cerchietto pieno indica un valore compreso, quello vuoto un valore escluso.",
+      "screen": "Disequazione",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il simbolo: minore o uguale.",
+      "speech": "Passaggio uno: riconosco il simbolo: minore o uguale.",
+      "screen": "Disequazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: porto uno a destra, cambiandogli segno.",
+      "speech": "Passaggio due: porto uno a destra, cambiandogli segno.",
+      "screen": "Disequazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: le soluzioni sono i numeri fino a due, e due è compreso: cerchietto pieno.",
+      "speech": "Passaggio tre: le soluzioni sono i numeri fino a due, e due è compreso: cerchietto pieno.",
+      "screen": "Disequazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Aggiungendo la stessa quantità ai due membri la disequazione resta equivalente: un termine si sposta cambiandogli segno.",
+      "speech": "Aggiungendo la stessa quantità ai due membri la disequazione resta equivalente: un termine si sposta cambiandogli segno.",
+      "screen": "Primo principio di equivalenza",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: porto le ics a sinistra e i numeri a destra.",
+      "speech": "Passaggio uno: porto le __X__ a sinistra e i numeri a destra.",
+      "screen": "Primo principio di equivalenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: ottengo due ics maggiore di otto.",
+      "speech": "Passaggio due: ottengo due __X__ maggiore di otto.",
+      "screen": "Primo principio di equivalenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: divido per due, che è positivo. Ics è maggiore di quattro.",
+      "speech": "Passaggio tre: divido per due, che è positivo. __X__ è maggiore di quattro.",
+      "screen": "Primo principio di equivalenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Se si dividono entrambi i membri per un numero positivo, il verso resta invariato. Se si dividono entrambi i membri per un numero negativo, il verso si inverte.",
+      "speech": "Se si dividono entrambi i membri per un numero positivo, il verso resta invariato. Se si dividono entrambi i membri per un numero negativo, il verso si inverte.",
+      "screen": "Secondo principio di equivalenza",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: il coefficiente di ics è meno quattro, un numero negativo.",
+      "speech": "Passaggio uno: il coefficiente di __X__ è meno quattro, un numero negativo.",
+      "screen": "Secondo principio di equivalenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: divido entrambi i membri per meno quattro. Poiché divido per un numero negativo, il segno minore diventa maggiore.",
+      "speech": "Passaggio due: divido entrambi i membri per meno quattro. Poiché divido per un numero negativo, il segno minore diventa maggiore.",
+      "screen": "Secondo principio di equivalenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: ics è maggiore di due.",
+      "speech": "Passaggio tre: __X__ è maggiore di due.",
+      "screen": "Secondo principio di equivalenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si moltiplicano i termini per il minimo comune multiplo dei denominatori, che è positivo, e il verso resta uguale.",
+      "speech": "Si moltiplicano i termini per il minimo comune multiplo dei denominatori, che è positivo, e il verso resta uguale.",
+      "screen": "Disequazione con frazioni",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: il denominatore è quattro, un numero positivo.",
+      "speech": "Passaggio uno: il denominatore è quattro, un numero positivo.",
+      "screen": "Disequazione con frazioni",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: moltiplico per quattro. Ottengo tre ics, maggiore o uguale a otto.",
+      "speech": "Passaggio due: moltiplico per quattro. Ottengo tre __X__, maggiore o uguale a otto.",
+      "screen": "Disequazione con frazioni",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: divido per tre. Ics è maggiore o uguale a otto terzi.",
+      "speech": "Passaggio tre: divido per tre. __X__ è maggiore o uguale a otto terzi.",
+      "screen": "Disequazione con frazioni",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Se la disuguaglianza tra numeri è vera, la soluzione è tutti i numeri reali. Se è falsa, la disequazione è impossibile.",
+      "speech": "Se la disuguaglianza tra numeri è vera, la soluzione è tutti i numeri reali. Se è falsa, la disequazione è impossibile.",
+      "screen": "Sempre vera o impossibile",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: porto le ics a sinistra e i numeri a destra.",
+      "speech": "Passaggio uno: porto le __X__ a sinistra e i numeri a destra.",
+      "screen": "Sempre vera o impossibile",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: le ics si annullano. Resta zero maggiore di cinque.",
+      "speech": "Passaggio due: le __X__ si annullano. Resta zero maggiore di cinque.",
+      "screen": "Sempre vera o impossibile",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: zero non è maggiore di cinque, quindi non ci sono soluzioni.",
+      "speech": "Passaggio tre: zero non è maggiore di cinque, quindi non ci sono soluzioni.",
+      "screen": "Sempre vera o impossibile",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il segno del coefficiente di ics.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il segno del coefficiente di __X__.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva quando il verso della disequazione cambia.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva quando il verso della disequazione cambia.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: si risolve come un'equazione, ma se dividi per un numero negativo devi cambiare il verso.",
+      "speech": "Ricorda: si risolve come un'equazione, ma se dividi per un numero negativo devi cambiare il verso.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

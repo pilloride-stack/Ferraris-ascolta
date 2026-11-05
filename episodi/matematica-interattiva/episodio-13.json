@@ -1,0 +1,205 @@
+{
+  "episode": "13",
+  "title": "Le equazioni di primo grado",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Equazione di primo grado. È un'uguaglianza con un'incognita di grado uno. Risolverla vuol dire trovare il valore che la rende vera.",
+      "speech": "Equazione di primo grado. È un'uguaglianza con un'incognita di grado uno. Risolverla vuol dire trovare il valore che la rende vera.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione di primo grado"
+    },
+    {
+      "text": "Equazione intera. È un'equazione senza l'incognita al denominatore. Per esempio: due per ics meno quattro è uguale a tre per ics meno cinque.",
+      "speech": "Equazione intera. È un'equazione senza l'incognita al denominatore. Per esempio: due per __X__ meno quattro è uguale a tre per __X__ meno cinque.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione intera"
+    },
+    {
+      "text": "Equazione con frazioni numeriche. È un'equazione intera con coefficienti frazionari. Per esempio: Ics mezzi meno uno, uguale a ics terzi più due.",
+      "speech": "Equazione con frazioni numeriche. È un'equazione intera con coefficienti frazionari. Per esempio: __X__ mezzi meno uno, uguale a __X__ terzi più due.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione con frazioni numeriche"
+    },
+    {
+      "text": "Equazioni impossibili e indeterminate. Se, dopo la riduzione, ottengo zero per ics uguale a un numero diverso da zero, l’equazione è impossibile. Se ottengo zero per ics uguale a zero, l’equazione è indeterminata.",
+      "speech": "Equazioni impossibili e indeterminate. Se, dopo la riduzione, ottengo zero per __X__ uguale a un numero diverso da zero, l’equazione è impossibile. Se ottengo zero per __X__ uguale a zero, l’equazione è indeterminata.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazioni impossibili e indeterminate"
+    },
+    {
+      "text": "Coefficienti irrazionali. Sono equazioni in cui compaiono radicali tra i coefficienti. Per esempio: Radice di tre, per ics meno uno, uguale a tre.",
+      "speech": "Coefficienti irrazionali. Sono equazioni in cui compaiono radicali tra i coefficienti. Per esempio: Radice di tre, per __X__ meno uno, uguale a tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Coefficienti irrazionali"
+    },
+    {
+      "text": "Equazione frazionaria. È un'equazione con l'incognita al denominatore. Prima scrivo le condizioni di esistenza. Poi trovo il minimo comune multiplo dei denominatori e moltiplico entrambi i membri: così i denominatori si semplificano.",
+      "speech": "Equazione frazionaria. È un'equazione con l'incognita al denominatore. Prima scrivo le condizioni di esistenza. Poi trovo il minimo comune multiplo dei denominatori e moltiplico entrambi i membri: così i denominatori si semplificano.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione frazionaria"
+    },
+    {
+      "text": "Un'equazione di primo grado si riporta alla forma a ics uguale a bi. Se a non è zero, la soluzione è bi fratto a.",
+      "speech": "Un'equazione di primo grado si riporta alla forma a __X__ uguale a bi. Se a non è zero, la soluzione è bi fratto a.",
+      "screen": "Equazione di primo grado",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i termini. A sinistra ho due ics meno tre, a destra meno cinque.",
+      "speech": "Passaggio uno: riconosco i termini. A sinistra ho due __X__ meno tre, a destra meno cinque.",
+      "screen": "Equazione di primo grado",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: porto meno tre a destra, cambiandogli segno. Ottengo due ics uguale a meno due.",
+      "speech": "Passaggio due: porto meno tre a destra, cambiandogli segno. Ottengo due __X__ uguale a meno due.",
+      "screen": "Equazione di primo grado",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: divido per due. Ics è uguale a meno uno.",
+      "speech": "Passaggio tre: divido per due. __X__ è uguale a meno uno.",
+      "screen": "Equazione di primo grado",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si eliminano le parentesi, si portano i termini con ics da una parte e i numeri dall'altra, e si divide per il coefficiente di ics.",
+      "speech": "Si eliminano le parentesi, si portano i termini con __X__ da una parte e i numeri dall'altra, e si divide per il coefficiente di __X__.",
+      "screen": "Equazione intera",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: tolgo le parentesi. Ottengo due ics meno otto, uguale a tre ics meno quindici.",
+      "speech": "Passaggio uno: tolgo le parentesi. Ottengo due __X__ meno otto, uguale a tre __X__ meno quindici.",
+      "screen": "Equazione intera",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: porto le ics a sinistra e i numeri a destra.",
+      "speech": "Passaggio due: porto le __X__ a sinistra e i numeri a destra.",
+      "screen": "Equazione intera",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: meno ics è uguale a meno sette, quindi ics è uguale a sette.",
+      "speech": "Passaggio tre: meno __X__ è uguale a meno sette, quindi __X__ è uguale a sette.",
+      "screen": "Equazione intera",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si calcola il minimo comune multiplo dei denominatori, si moltiplicano tutti i termini e si risolve come un'equazione intera.",
+      "speech": "Si calcola il minimo comune multiplo dei denominatori, si moltiplicano tutti i termini e si risolve come un'equazione intera.",
+      "screen": "Equazione con frazioni numeriche",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: i denominatori sono due e tre. Il minimo comune multiplo è sei.",
+      "speech": "Passaggio uno: i denominatori sono due e tre. Il minimo comune multiplo è sei.",
+      "screen": "Equazione con frazioni numeriche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: moltiplico tutto per sei. Ottengo tre ics meno sei, uguale a due ics più dodici.",
+      "speech": "Passaggio due: moltiplico tutto per sei. Ottengo tre __X__ meno sei, uguale a due __X__ più dodici.",
+      "screen": "Equazione con frazioni numeriche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: separo e calcolo. Ics è uguale a diciotto.",
+      "speech": "Passaggio tre: separo e calcolo. __X__ è uguale a diciotto.",
+      "screen": "Equazione con frazioni numeriche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Se si ottiene zero ics uguale a un numero diverso da zero, l'equazione è impossibile. Se si ottiene zero uguale a zero, è indeterminata.",
+      "speech": "Se si ottiene zero __X__ uguale a un numero diverso da zero, l'equazione è impossibile. Se si ottiene zero uguale a zero, è indeterminata.",
+      "screen": "Equazioni impossibili e indeterminate",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: tolgo le parentesi. Ottengo otto ics più ventiquattro, uguale a otto ics meno ventiquattro.",
+      "speech": "Passaggio uno: tolgo le parentesi. Ottengo otto __X__ più ventiquattro, uguale a otto __X__ meno ventiquattro.",
+      "screen": "Equazioni impossibili e indeterminate",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: le ics si annullano. Resta zero ics uguale a meno quarantotto.",
+      "speech": "Passaggio due: le __X__ si annullano. Resta zero __X__ uguale a meno quarantotto.",
+      "screen": "Equazioni impossibili e indeterminate",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: nessun numero rende vera questa uguaglianza. L'equazione è impossibile.",
+      "speech": "Passaggio tre: nessun numero rende vera questa uguaglianza. L'equazione è impossibile.",
+      "screen": "Equazioni impossibili e indeterminate",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si risolve come le altre equazioni, trattando il radicale come un coefficiente.",
+      "speech": "Si risolve come le altre equazioni, trattando il radicale come un coefficiente.",
+      "screen": "Coefficienti irrazionali",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: divido per radice di tre.",
+      "speech": "Passaggio uno: divido per radice di tre.",
+      "screen": "Coefficienti irrazionali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: tre fratto radice di tre è uguale a radice di tre.",
+      "speech": "Passaggio due: tre fratto radice di tre è uguale a radice di tre.",
+      "screen": "Coefficienti irrazionali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: ics è uguale a radice di tre più uno.",
+      "speech": "Passaggio tre: __X__ è uguale a radice di tre più uno.",
+      "screen": "Coefficienti irrazionali",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si scrivono le condizioni di esistenza, si eliminano i denominatori e si controlla che la soluzione sia accettabile.",
+      "speech": "Si scrivono le condizioni di esistenza, si eliminano i denominatori e si controlla che la soluzione sia accettabile.",
+      "screen": "Equazione frazionaria",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scrivo le condizioni di esistenza. Ics diverso da meno uno, e ics diverso da tre.",
+      "speech": "Passaggio uno: scrivo le condizioni di esistenza. __X__ diverso da meno uno, e __X__ diverso da tre.",
+      "screen": "Equazione frazionaria",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: il minimo comune multiplo è ics più uno, per ics meno tre. Moltiplico entrambi i membri per questo prodotto: i denominatori si semplificano e ottengo due per ics meno tre, uguale a ics più uno.",
+      "speech": "Passaggio due: il minimo comune multiplo è __X__ più uno, per __X__ meno tre. Moltiplico entrambi i membri per questo prodotto: i denominatori si semplificano e ottengo due per __X__ meno tre, uguale a __X__ più uno.",
+      "screen": "Equazione frazionaria",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: ics è uguale a sette. Rispetta le condizioni, quindi è accettabile.",
+      "speech": "Passaggio tre: __X__ è uguale a sette. Rispetta le condizioni, quindi è accettabile.",
+      "screen": "Equazione frazionaria",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda se ics è al denominatore.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda se __X__ è al denominatore.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti. Osserva quando l'equazione diventa impossibile o indeterminata.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti. Osserva quando l'equazione diventa impossibile o indeterminata.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: togli le parentesi, separa i termini e dividi per il coefficiente di ics. Con ics al denominatore, parti dalle condizioni di esistenza.",
+      "speech": "Ricorda: togli le parentesi, separa i termini e dividi per il coefficiente di __X__. Con __X__ al denominatore, parti dalle condizioni di esistenza.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

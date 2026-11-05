@@ -1,0 +1,265 @@
+{
+  "episode": "15",
+  "title": "Le frazioni algebriche",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Frazione algebrica. Una frazione algebrica ha polinomi al numeratore e al denominatore. Valgono le proprietà delle frazioni numeriche.",
+      "speech": "Frazione algebrica. Una frazione algebrica ha polinomi al numeratore e al denominatore. Valgono le proprietà delle frazioni numeriche.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Frazione algebrica"
+    },
+    {
+      "text": "Condizioni di esistenza. Si scompone il denominatore e si pone ogni fattore diverso da zero. La frazione perde significato dove il denominatore si annulla.",
+      "speech": "Condizioni di esistenza. Si scompone il denominatore e si pone ogni fattore diverso da zero. La frazione perde significato dove il denominatore si annulla.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Condizioni di esistenza"
+    },
+    {
+      "text": "Quando una frazione si annulla. La frazione si annulla se il numeratore è zero e il denominatore no. Si controlla sempre la condizione di esistenza.",
+      "speech": "Quando una frazione si annulla. La frazione si annulla se il numeratore è zero e il denominatore no. Si controlla sempre la condizione di esistenza.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Quando una frazione si annulla"
+    },
+    {
+      "text": "Semplificazione. Si scompongono numeratore e denominatore, poi si semplificano i fattori comuni, considerando verificate le condizioni di esistenza.",
+      "speech": "Semplificazione. Si scompongono numeratore e denominatore, poi si semplificano i fattori comuni, considerando verificate le condizioni di esistenza.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Semplificazione"
+    },
+    {
+      "text": "Somma di frazioni algebriche. Si scompongono i denominatori, si calcola il minimo comune multiplo e si sommano i numeratori.",
+      "speech": "Somma di frazioni algebriche. Si scompongono i denominatori, si calcola il minimo comune multiplo e si sommano i numeratori.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Somma di frazioni algebriche"
+    },
+    {
+      "text": "Moltiplicazione. Si scompongono i polinomi, si semplificano i fattori comuni e si moltiplicano i fattori rimasti.",
+      "speech": "Moltiplicazione. Si scompongono i polinomi, si semplificano i fattori comuni e si moltiplicano i fattori rimasti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Moltiplicazione"
+    },
+    {
+      "text": "Divisione. Si scompone, si trasforma la divisione in moltiplicazione per il reciproco della seconda frazione e si semplifica.",
+      "speech": "Divisione. Si scompone, si trasforma la divisione in moltiplicazione per il reciproco della seconda frazione e si semplifica.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Divisione"
+    },
+    {
+      "text": "Potenza. Si elevano alla potenza il numeratore e il denominatore della frazione.",
+      "speech": "Potenza. Si elevano alla potenza il numeratore e il denominatore della frazione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Potenza"
+    },
+    {
+      "text": "Una frazione algebrica ha polinomi al numeratore e al denominatore. Valgono le proprietà delle frazioni numeriche.",
+      "speech": "Una frazione algebrica ha polinomi al numeratore e al denominatore. Valgono le proprietà delle frazioni numeriche.",
+      "screen": "Frazione algebrica",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: al numeratore c'è tre.",
+      "speech": "Passaggio uno: al numeratore c'è tre.",
+      "screen": "Frazione algebrica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: al denominatore c'è ics meno uno, un polinomio.",
+      "speech": "Passaggio due: al denominatore c'è __X__ meno uno, un polinomio.",
+      "screen": "Frazione algebrica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: è una frazione algebrica.",
+      "speech": "Passaggio tre: è una frazione algebrica.",
+      "screen": "Frazione algebrica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si scompone il denominatore e si pone ogni fattore diverso da zero. La frazione perde significato dove il denominatore si annulla.",
+      "speech": "Si scompone il denominatore e si pone ogni fattore diverso da zero. La frazione perde significato dove il denominatore si annulla.",
+      "screen": "Condizioni di esistenza",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: considero il denominatore.",
+      "speech": "Passaggio uno: considero il denominatore.",
+      "screen": "Condizioni di esistenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: lo scompongo in ics meno uno, per ics meno otto.",
+      "speech": "Passaggio due: lo scompongo in __X__ meno uno, per __X__ meno otto.",
+      "screen": "Condizioni di esistenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: ics è diverso da uno e da otto.",
+      "speech": "Passaggio tre: __X__ è diverso da uno e da otto.",
+      "screen": "Condizioni di esistenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La frazione si annulla se il numeratore è zero e il denominatore no. Si controlla sempre la condizione di esistenza.",
+      "speech": "La frazione si annulla se il numeratore è zero e il denominatore no. Si controlla sempre la condizione di esistenza.",
+      "screen": "Quando una frazione si annulla",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: pongo il numeratore uguale a zero.",
+      "speech": "Passaggio uno: pongo il numeratore uguale a zero.",
+      "screen": "Quando una frazione si annulla",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: ottengo ics uguale a due.",
+      "speech": "Passaggio due: ottengo __X__ uguale a due.",
+      "screen": "Quando una frazione si annulla",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: per ics uguale a due il denominatore vale otto. La soluzione è accettabile.",
+      "speech": "Passaggio tre: per __X__ uguale a due il denominatore vale otto. La soluzione è accettabile.",
+      "screen": "Quando una frazione si annulla",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si scompongono numeratore e denominatore, poi si semplificano i fattori comuni, considerando verificate le condizioni di esistenza.",
+      "speech": "Si scompongono numeratore e denominatore, poi si semplificano i fattori comuni, considerando verificate le condizioni di esistenza.",
+      "screen": "Semplificazione",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scompongo il numeratore in ics meno due, per ics meno tre.",
+      "speech": "Passaggio uno: scompongo il numeratore in __X__ meno due, per __X__ meno tre.",
+      "screen": "Semplificazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scompongo il denominatore in ics meno tre, per ics più tre.",
+      "speech": "Passaggio due: scompongo il denominatore in __X__ meno tre, per __X__ più tre.",
+      "screen": "Semplificazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: semplifico ics meno tre. Resta ics meno due, fratto ics più tre. Mantengo le condizioni di esistenza: ics diverso da meno tre e da tre.",
+      "speech": "Passaggio tre: semplifico __X__ meno tre. Resta __X__ meno due, fratto __X__ più tre. Mantengo le condizioni di esistenza: __X__ diverso da meno tre e da tre.",
+      "screen": "Semplificazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si scompongono i denominatori, si calcola il minimo comune multiplo e si sommano i numeratori.",
+      "speech": "Si scompongono i denominatori, si calcola il minimo comune multiplo e si sommano i numeratori.",
+      "screen": "Somma di frazioni algebriche",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: il denominatore comune è ics meno uno.",
+      "speech": "Passaggio uno: il denominatore comune è __X__ meno uno.",
+      "screen": "Somma di frazioni algebriche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo ics più uno, per ics meno uno, più uno.",
+      "speech": "Passaggio due: scrivo __X__ più uno, per __X__ meno uno, più uno.",
+      "screen": "Somma di frazioni algebriche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il numeratore è ics alla seconda. Il risultato è ics alla seconda fratto ics meno uno, con ics diverso da uno.",
+      "speech": "Passaggio tre: il numeratore è __X__ alla seconda. Il risultato è __X__ alla seconda fratto __X__ meno uno, con __X__ diverso da uno.",
+      "screen": "Somma di frazioni algebriche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si scompongono i polinomi, si semplificano i fattori comuni e si moltiplicano i fattori rimasti.",
+      "speech": "Si scompongono i polinomi, si semplificano i fattori comuni e si moltiplicano i fattori rimasti.",
+      "screen": "Moltiplicazione",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scompongo il denominatore in tre ics meno uno, per ics più uno.",
+      "speech": "Passaggio uno: scompongo il denominatore in tre __X__ meno uno, per __X__ più uno.",
+      "screen": "Moltiplicazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: semplifico il fattore ics più uno.",
+      "speech": "Passaggio due: semplifico il fattore __X__ più uno.",
+      "screen": "Moltiplicazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: resta ics meno uno, fratto tre ics meno uno. Mantengo le condizioni di esistenza: ics diverso da meno uno e da un terzo.",
+      "speech": "Passaggio tre: resta __X__ meno uno, fratto tre __X__ meno uno. Mantengo le condizioni di esistenza: __X__ diverso da meno uno e da un terzo.",
+      "screen": "Moltiplicazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si scompone, si trasforma la divisione in moltiplicazione per il reciproco della seconda frazione e si semplifica.",
+      "speech": "Si scompone, si trasforma la divisione in moltiplicazione per il reciproco della seconda frazione e si semplifica.",
+      "screen": "Divisione",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: trasformo la divisione nella moltiplicazione per il reciproco.",
+      "speech": "Passaggio uno: trasformo la divisione nella moltiplicazione per il reciproco.",
+      "screen": "Divisione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scompongo tutti i polinomi.",
+      "speech": "Passaggio due: scompongo tutti i polinomi.",
+      "screen": "Divisione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: semplifico. Resta ics più due, fratto ics alla seconda. Le condizioni di esistenza sono: ics diverso da meno due, da zero e da due.",
+      "speech": "Passaggio tre: semplifico. Resta __X__ più due, fratto __X__ alla seconda. Le condizioni di esistenza sono: __X__ diverso da meno due, da zero e da due.",
+      "screen": "Divisione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Si elevano alla potenza il numeratore e il denominatore della frazione.",
+      "speech": "Si elevano alla potenza il numeratore e il denominatore della frazione.",
+      "screen": "Potenza",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: l'esponente è due.",
+      "speech": "Passaggio uno: l'esponente è due.",
+      "screen": "Potenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: elevo il numeratore e il denominatore.",
+      "speech": "Passaggio due: elevo il numeratore e il denominatore.",
+      "screen": "Potenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è nove ics alla sesta, fratto ics meno cinque alla seconda, con ics diverso da cinque.",
+      "speech": "Passaggio tre: il risultato è nove __X__ alla sesta, fratto __X__ meno cinque alla seconda, con __X__ diverso da cinque.",
+      "screen": "Potenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, scomponi numeratore e denominatore.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, scomponi numeratore e denominatore.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva quale fattore si semplifica e quale valore resta escluso.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva quale fattore si semplifica e quale valore resta escluso.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: prima le condizioni di esistenza, poi scomponi e semplifica. Con le frazioni algebriche si opera come con quelle numeriche.",
+      "speech": "Ricorda: prima le condizioni di esistenza, poi scomponi e semplifica. Con le frazioni algebriche si opera come con quelle numeriche.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
