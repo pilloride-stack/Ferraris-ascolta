@@ -5,31 +5,31 @@
   "sentences": [
     {
       "text": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio. Per esempio: Radice di ics più tre, maggiore di ics più uno.",
-      "speech": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio. Per esempio: Radice di Ã¬cs più tre, maggiore di Ã¬cs più uno.",
+      "speech": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio. Per esempio: Radice di iks più tre, maggiore di iks più uno.",
       "screen": "Definizioni",
       "purpose": "Definizione: √A > B e √A ≥ B"
     },
     {
       "text": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio. Per esempio: Radice di ics più tre, minore di ics più uno.",
-      "speech": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio. Per esempio: Radice di Ã¬cs più tre, minore di Ã¬cs più uno.",
+      "speech": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio. Per esempio: Radice di iks più tre, minore di iks più uno.",
       "screen": "Definizioni",
       "purpose": "Definizione: √A < B e √A ≤ B"
     },
     {
       "text": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro. Per esempio: Radice di ics meno uno, minore di due.",
-      "speech": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro. Per esempio: Radice di Ã¬cs meno uno, minore di due.",
+      "speech": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro. Per esempio: Radice di iks meno uno, minore di due.",
       "screen": "Definizioni",
       "purpose": "Definizione: Casi particolari"
     },
     {
       "text": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari. Per esempio: Radice di ics più uno, maggiore di radice di due ics meno tre.",
-      "speech": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari. Per esempio: Radice di Ã¬cs più uno, maggiore di radice di due Ã¬cs meno tre.",
+      "speech": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari. Per esempio: Radice di iks più uno, maggiore di radice di due iks meno tre.",
       "screen": "Definizioni",
       "purpose": "Definizione: Due radici quadrate"
     },
     {
       "text": "Radici cubiche. Sono disequazioni con una o due radici cubiche. Per esempio: Radice cubica di ics più uno, maggiore di due.",
-      "speech": "Radici cubiche. Sono disequazioni con una o due radici cubiche. Per esempio: Radice cubica di Ã¬cs più uno, maggiore di due.",
+      "speech": "Radici cubiche. Sono disequazioni con una o due radici cubiche. Per esempio: Radice cubica di iks più uno, maggiore di due.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radici cubiche"
     },
@@ -47,7 +47,7 @@
     },
     {
       "text": "Passaggio uno: riconosco il caso. A è ics più tre, bi è ics più uno.",
-      "speech": "Passaggio uno: riconosco il caso. A è Ã¬cs più tre, bi è Ã¬cs più uno.",
+      "speech": "Passaggio uno: riconosco il caso. A è iks più tre, bi è iks più uno.",
       "screen": "√A > B e √A ≥ B",
       "purpose": "Esempio, passaggio 1"
     },
@@ -59,7 +59,7 @@
     },
     {
       "text": "Passaggio tre: unisco le soluzioni. Ics compreso tra meno tre incluso e uno escluso.",
-      "speech": "Passaggio tre: unisco le soluzioni. Ã¬cs compreso tra meno tre incluso e uno escluso.",
+      "speech": "Passaggio tre: unisco le soluzioni. iks compreso tra meno tre incluso e uno escluso.",
       "screen": "√A > B e √A ≥ B",
       "purpose": "Esempio, passaggio 3"
     },
@@ -71,7 +71,7 @@
     },
     {
       "text": "Passaggio uno: riconosco il caso. A è ics più tre, bi è ics più uno.",
-      "speech": "Passaggio uno: riconosco il caso. A è Ã¬cs più tre, bi è Ã¬cs più uno.",
+      "speech": "Passaggio uno: riconosco il caso. A è iks più tre, bi è iks più uno.",
       "screen": "√A < B e √A ≤ B",
       "purpose": "Esempio, passaggio 1"
     },
@@ -83,7 +83,7 @@
     },
     {
       "text": "Passaggio tre: scrivo il risultato. La soluzione è ics maggiore di uno.",
-      "speech": "Passaggio tre: scrivo il risultato. La soluzione è Ã¬cs maggiore di uno.",
+      "speech": "Passaggio tre: scrivo il risultato. La soluzione è iks maggiore di uno.",
       "screen": "√A < B e √A ≤ B",
       "purpose": "Esempio, passaggio 3"
     },
@@ -107,7 +107,7 @@
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Ics compreso tra uno incluso e cinque escluso.",
-      "speech": "Passaggio tre: scrivo il risultato. Ã¬cs compreso tra uno incluso e cinque escluso.",
+      "speech": "Passaggio tre: scrivo il risultato. iks compreso tra uno incluso e cinque escluso.",
       "screen": "Casi particolari",
       "purpose": "Esempio, passaggio 3"
     },
@@ -131,7 +131,7 @@
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Ics compreso tra tre mezzi incluso e quattro escluso.",
-      "speech": "Passaggio tre: scrivo il risultato. Ã¬cs compreso tra tre mezzi incluso e quattro escluso.",
+      "speech": "Passaggio tre: scrivo il risultato. iks compreso tra tre mezzi incluso e quattro escluso.",
       "screen": "Due radici quadrate",
       "purpose": "Esempio, passaggio 3"
     },
@@ -149,13 +149,13 @@
     },
     {
       "text": "Passaggio due: elevo al cubo. Ics più uno, maggiore di otto.",
-      "speech": "Passaggio due: elevo al cubo. Ã¬cs più uno, maggiore di otto.",
+      "speech": "Passaggio due: elevo al cubo. iks più uno, maggiore di otto.",
       "screen": "Radici cubiche",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Ics maggiore di sette.",
-      "speech": "Passaggio tre: scrivo il risultato. Ã¬cs maggiore di sette.",
+      "speech": "Passaggio tre: scrivo il risultato. iks maggiore di sette.",
       "screen": "Radici cubiche",
       "purpose": "Esempio, passaggio 3"
     },

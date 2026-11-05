@@ -5,7 +5,7 @@
   "sentences": [
     {
       "text": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado. Per esempio: ics alla terza più sei meno ics alla seconda diviso uno più ics.",
-      "speech": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado. Per esempio: Ã¬cs alla terza più sei meno Ã¬cs alla seconda diviso uno più Ã¬cs.",
+      "speech": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado. Per esempio: iks alla terza più sei meno iks alla seconda diviso uno più iks.",
       "screen": "Definizioni",
       "purpose": "Definizione: Regola di Ruffini"
     },
@@ -23,7 +23,7 @@
     },
     {
       "text": "Passaggio uno: preparo la griglia. Ordino e completo il dividendo: ics alla terza, meno ics alla seconda, più zero ics, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
-      "speech": "Passaggio uno: preparo la griglia. Ordino e completo il dividendo: Ã¬cs alla terza, meno Ã¬cs alla seconda, più zero Ã¬cs, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
+      "speech": "Passaggio uno: preparo la griglia. Ordino e completo il dividendo: iks alla terza, meno iks alla seconda, più zero iks, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
       "screen": "Regola di Ruffini",
       "purpose": "Esempio, passaggio 1"
     },
@@ -35,7 +35,7 @@
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Il quoziente è ics alla seconda, meno due ics, più due. Il resto è quattro.",
-      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è Ã¬cs alla seconda, meno due Ã¬cs, più due. Il resto è quattro.",
+      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è iks alla seconda, meno due iks, più due. Il resto è quattro.",
       "screen": "Regola di Ruffini",
       "purpose": "Esempio, passaggio 3"
     },
@@ -59,7 +59,7 @@
     },
     {
       "text": "Passaggio tre: scrivo il risultato. Il quoziente è ics alla seconda, più quattro ics, più tre. Il resto è zero.",
-      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è Ã¬cs alla seconda, più quattro Ã¬cs, più tre. Il resto è zero.",
+      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è iks alla seconda, più quattro iks, più tre. Il resto è zero.",
       "screen": "Quoziente e resto",
       "purpose": "Esempio, passaggio 3"
     },
