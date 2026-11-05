@@ -1,7 +1,7 @@
 """Genera gli audio mancanti (una frase = un mp3) per tutte le materie in episodi/<materia>/.
 Uso: python tools/tts.py [materia ...]   (senza argomenti: tutte le materie)
 Richiede la variabile d'ambiente TTS_KEY (chiave API Google Cloud Text-to-Speech)."""
-import base64, glob, json, os, subprocess, sys, tempfile, time, urllib.request
+import base64, glob, html, json, os, subprocess, sys, tempfile, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 KEY = os.environ["TTS_KEY"]
@@ -14,7 +14,13 @@ WORKERS = int(os.environ.get("TTS_WORKERS", "10"))
 
 def tts(text, lang="it", rate=None):
     voice = {"en": VOICE_EN, "es": VOICE_ES}.get(lang, VOICE)
-    body = json.dumps({"input": {"text": text},
+    if "__X__" in text:
+        marked = html.escape(text).replace(
+            "__X__", '<phoneme alphabet="ipa" ph="iks">x</phoneme>')
+        synthesis_input = {"ssml": f"<speak>{marked}</speak>"}
+    else:
+        synthesis_input = {"text": text}
+    body = json.dumps({"input": synthesis_input,
                        "voice": {"languageCode": voice[:5], "name": voice},
                        "audioConfig": {"audioEncoding": "LINEAR16", "speakingRate": rate or RATE,
                                        "sampleRateHertz": 24000}}).encode()
