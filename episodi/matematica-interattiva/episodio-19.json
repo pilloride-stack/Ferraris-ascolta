@@ -1,0 +1,175 @@
+{
+  "episode": "19",
+  "title": "La parabola",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Definizione di parabola. La parabola è il luogo geometrico dei punti del piano equidistanti da un punto fisso detto fuoco e da una retta detta direttrice. Per esempio: ipsilon è uguale a ics alla seconda meno quattro ics più tre.",
+      "speech": "Definizione di parabola. La parabola è il luogo geometrico dei punti del piano equidistanti da un punto fisso detto fuoco e da una retta detta direttrice. Per esempio: ipsilon è uguale a __X__ alla seconda meno quattro __X__ più tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Definizione di parabola"
+    },
+    {
+      "text": "Vertice, fuoco, asse, direttrice. Sono gli elementi della parabola, ricavati da a, b, c. Per esempio: ipsilon è uguale a ics alla seconda meno quattro ics più tre.",
+      "speech": "Vertice, fuoco, asse, direttrice. Sono gli elementi della parabola, ricavati da a, b, c. Per esempio: ipsilon è uguale a __X__ alla seconda meno quattro __X__ più tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Vertice, fuoco, asse, direttrice"
+    },
+    {
+      "text": "Parabole particolari. Sono parabole con b o c uguali a zero. Per esempio: Ipsilon è uguale a tre ics alla seconda.",
+      "speech": "Parabole particolari. Sono parabole con b o c uguali a zero. Per esempio: Ipsilon è uguale a tre __X__ alla seconda.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Parabole particolari"
+    },
+    {
+      "text": "Equazione per tre punti. Si trova l'equazione sostituendo le coordinate di tre punti. Per esempio: Tre punti: zero uno, uno due, due cinque.",
+      "speech": "Equazione per tre punti. Si trova l'equazione sostituendo le coordinate di tre punti. Per esempio: Tre punti: zero uno, uno due, due cinque.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione per tre punti"
+    },
+    {
+      "text": "Rette tangenti. Si trovano imponendo delta uguale a zero, o con la formula di sdoppiamento. Per esempio: Parabola ipsilon uguale a ics alla seconda.",
+      "speech": "Rette tangenti. Si trovano imponendo delta uguale a zero, o con la formula di sdoppiamento. Per esempio: Parabola ipsilon uguale a __X__ alla seconda.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Rette tangenti"
+    },
+    {
+      "text": "La scheda considera la parabola con asse parallelo all'asse ipsilon, nella forma ipsilon uguale ad a per ics alla seconda, più bi per ics, più ci.",
+      "speech": "La scheda considera la parabola con asse parallelo all'asse ipsilon, nella forma ipsilon uguale ad a per __X__ alla seconda, più bi per __X__, più ci.",
+      "screen": "Definizione di parabola",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco la forma con asse parallelo all'asse ipsilon.",
+      "speech": "Passaggio uno: riconosco la forma con asse parallelo all'asse ipsilon.",
+      "screen": "Definizione di parabola",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: a è uno, bi è meno quattro, ci è tre.",
+      "speech": "Passaggio due: a è uno, bi è meno quattro, ci è tre.",
+      "screen": "Definizione di parabola",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: calcolo il delta. Sedici meno dodici fa quattro.",
+      "speech": "Passaggio tre: calcolo il delta. Sedici meno dodici fa quattro.",
+      "screen": "Definizione di parabola",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dà le formule del vertice, del fuoco, dell'asse e della direttrice per la parabola con asse parallelo all'asse ipsilon.",
+      "speech": "La scheda dà le formule del vertice, del fuoco, dell'asse e della direttrice per la parabola con asse parallelo all'asse ipsilon.",
+      "screen": "Vertice, fuoco, asse, direttrice",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco a, bi e il delta, uguale a quattro.",
+      "speech": "Passaggio uno: riconosco a, bi e il delta, uguale a quattro.",
+      "screen": "Vertice, fuoco, asse, direttrice",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: l'ascissa del vertice è due. L'ordinata è meno uno.",
+      "speech": "Passaggio due: l'ascissa del vertice è due. L'ordinata è meno uno.",
+      "screen": "Vertice, fuoco, asse, direttrice",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il vertice è due, meno uno. L'asse è ics uguale a due.",
+      "speech": "Passaggio tre: il vertice è due, meno uno. L'asse è __X__ uguale a due.",
+      "screen": "Vertice, fuoco, asse, direttrice",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con bi zero il vertice è sull'asse. Con ci zero passa per l'origine. Con a zero degenera in una retta.",
+      "speech": "La scheda dice: con bi zero il vertice è sull'asse. Con ci zero passa per l'origine. Con a zero degenera in una retta.",
+      "screen": "Parabole particolari",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco che bi e ci sono zero.",
+      "speech": "Passaggio uno: riconosco che bi e ci sono zero.",
+      "screen": "Parabole particolari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: cerco nella tabella il caso con bi e ci uguali a zero.",
+      "speech": "Passaggio due: cerco nella tabella il caso con bi e ci uguali a zero.",
+      "screen": "Parabole particolari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il vertice è nell'origine.",
+      "speech": "Passaggio tre: il vertice è nell'origine.",
+      "screen": "Parabole particolari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: per trovare l'equazione servono tre condizioni. Ogni condizione diventa un'equazione nelle incognite a, bi, ci.",
+      "speech": "La scheda dice: per trovare l'equazione servono tre condizioni. Ogni condizione diventa un'equazione nelle incognite a, bi, ci.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: sostituisco le coordinate dei tre punti nella forma ipsilon uguale ad a per ics alla seconda, più bi per ics, più ci. Ottengo un sistema di tre equazioni.",
+      "speech": "Passaggio uno: sostituisco le coordinate dei tre punti nella forma ipsilon uguale ad a per __X__ alla seconda, più bi per __X__, più ci. Ottengo un sistema di tre equazioni.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: risolvo il sistema. A è uno, bi è zero, ci è uno.",
+      "speech": "Passaggio due: risolvo il sistema. A è uno, bi è zero, ci è uno.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: la parabola è ipsilon uguale a ics alla seconda più uno.",
+      "speech": "Passaggio tre: la parabola è ipsilon uguale a __X__ alla seconda più uno.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: per le tangenti si scrive il fascio di rette, si sostituisce nella parabola e si impone il delta uguale a zero.",
+      "speech": "La scheda dice: per le tangenti si scrive il fascio di rette, si sostituisce nella parabola e si impone il delta uguale a zero.",
+      "screen": "Rette tangenti",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: metto a sistema la parabola ipsilon uguale a ics alla seconda e la retta ipsilon uguale a due ics più cu.",
+      "speech": "Passaggio uno: metto a sistema la parabola ipsilon uguale a __X__ alla seconda e la retta ipsilon uguale a due __X__ più cu.",
+      "screen": "Rette tangenti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: sostituisco la retta nella parabola e ottengo ics alla seconda meno due ics meno cu uguale a zero.",
+      "speech": "Passaggio due: sostituisco la retta nella parabola e ottengo __X__ alla seconda meno due __X__ meno cu uguale a zero.",
+      "screen": "Rette tangenti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: per avere un solo punto in comune impongo delta uguale a zero. Ottengo cu uguale a meno uno. La tangente è ipsilon uguale a due ics meno uno.",
+      "speech": "Passaggio tre: per avere un solo punto in comune impongo delta uguale a zero. Ottengo cu uguale a meno uno. La tangente è ipsilon uguale a due __X__ meno uno.",
+      "screen": "Rette tangenti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, leggi a, bi e ci con il loro segno.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, leggi a, bi e ci con il loro segno.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia a, bi e ci. Osserva come si sposta il vertice.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia a, bi e ci. Osserva come si sposta il vertice.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il vertice ha ascissa meno bi su due a. Per l'equazione servono tre condizioni, e per la tangente il delta deve essere zero.",
+      "speech": "Ricorda: il vertice ha ascissa meno bi su due a. Per l'equazione servono tre condizioni, e per la tangente il delta deve essere zero.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

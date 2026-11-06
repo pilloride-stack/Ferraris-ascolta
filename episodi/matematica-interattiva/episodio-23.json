@@ -1,0 +1,61 @@
+{
+  "episode": "23",
+  "title": "Gli esponenziali",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Una potenza a elevato alla ics è definita per ogni ics reale quando la base a è positiva.",
+      "speech": "Una potenza a elevato alla __X__ è definita per ogni __X__ reale quando la base a è positiva.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Potenza a esponente reale"
+    },
+    {
+      "text": "La funzione esponenziale ha forma ipsilon uguale ad a elevato alla ics, con a positiva e diversa da uno. Il grafico passa sempre per il punto zero, uno.",
+      "speech": "La funzione esponenziale ha forma ipsilon uguale ad a elevato alla __X__, con a positiva e diversa da uno. Il grafico passa sempre per il punto zero, uno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Funzione esponenziale"
+    },
+    {
+      "text": "Se a è maggiore di uno la funzione è crescente. Se a è compresa tra zero e uno la funzione è decrescente.",
+      "speech": "Se a è maggiore di uno la funzione è crescente. Se a è compresa tra zero e uno la funzione è decrescente.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Crescita e decrescita"
+    },
+    {
+      "text": "Per risolvere una semplice equazione esponenziale, scrivo i due membri con la stessa base e uguaglio gli esponenti.",
+      "speech": "Per risolvere una semplice equazione esponenziale, scrivo i due membri con la stessa base e uguaglio gli esponenti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazioni esponenziali"
+    },
+    {
+      "text": "Se compaiono a elevato a due ics e a elevato alla ics, pongo ti uguale ad a elevato alla ics. Risolvo l’equazione di secondo grado in ti, con la condizione ti maggiore di zero, poi torno alla variabile ics.",
+      "speech": "Se compaiono a elevato a due __X__ e a elevato alla __X__, pongo ti uguale ad a elevato alla __X__. Risolvo l’equazione di secondo grado in ti, con la condizione ti maggiore di zero, poi torno alla variabile __X__.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazioni esponenziali di secondo grado"
+    },
+    {
+      "text": "Osserviamo ipsilon uguale a due elevato alla ics. La base è maggiore di uno, quindi la funzione cresce e passa per il punto zero, uno.",
+      "speech": "Osserviamo ipsilon uguale a due elevato alla __X__. La base è maggiore di uno, quindi la funzione cresce e passa per il punto zero, uno.",
+      "screen": "Funzione esponenziale",
+      "purpose": "Esempio guidato"
+    },
+    {
+      "text": "In due elevato alla ics uguale a otto, scrivo otto come due alla terza. Le basi sono uguali, quindi ics è uguale a tre.",
+      "speech": "In due elevato alla __X__ uguale a otto, scrivo otto come due alla terza. Le basi sono uguali, quindi __X__ è uguale a tre.",
+      "screen": "Equazioni esponenziali",
+      "purpose": "Esempio guidato"
+    },
+    {
+      "text": "In quattro elevato alla ics meno cinque per due elevato alla ics più quattro uguale a zero, pongo ti uguale a due elevato alla ics. Ottengo ti alla seconda meno cinque ti più quattro uguale a zero. Le soluzioni finali sono ics uguale a zero oppure ics uguale a due.",
+      "speech": "In quattro elevato alla __X__ meno cinque per due elevato alla __X__ più quattro uguale a zero, pongo ti uguale a due elevato alla __X__. Ottengo ti alla seconda meno cinque ti più quattro uguale a zero. Le soluzioni finali sono __X__ uguale a zero oppure __X__ uguale a due.",
+      "screen": "Equazioni esponenziali di secondo grado",
+      "purpose": "Esempio guidato"
+    },
+    {
+      "text": "Modifica la base e l’esponente. Il grafico, il punto e il valore della potenza cambiano subito.",
+      "speech": "Modifica la base e l’esponente. Il grafico, il punto e il valore della potenza cambiano subito.",
+      "screen": "Laboratorio",
+      "purpose": "Laboratorio"
+    }
+  ]
+}

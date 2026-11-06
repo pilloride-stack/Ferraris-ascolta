@@ -1,0 +1,175 @@
+{
+  "episode": "30",
+  "title": "Teoremi sui triangoli qualsiasi",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Teorema della corda. una corda è lunga quanto il diametro per il seno di un angolo alla circonferenza che insiste su di essa.",
+      "speech": "Teorema della corda. una corda è lunga quanto il diametro per il seno di un angolo alla circonferenza che insiste su di essa.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Teorema della corda"
+    },
+    {
+      "text": "Teorema dei seni. in un triangolo ogni lato è direttamente proporzionale al seno dell'angolo opposto.",
+      "speech": "Teorema dei seni. in un triangolo ogni lato è direttamente proporzionale al seno dell'angolo opposto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Teorema dei seni"
+    },
+    {
+      "text": "Teorema delle proiezioni. ogni lato è la somma dei prodotti degli altri due, per il coseno dell'angolo che ciascuno forma con esso.",
+      "speech": "Teorema delle proiezioni. ogni lato è la somma dei prodotti degli altri due, per il coseno dell'angolo che ciascuno forma con esso.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Teorema delle proiezioni"
+    },
+    {
+      "text": "Teorema del coseno. il quadrato di un lato è la somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell'angolo compreso.",
+      "speech": "Teorema del coseno. il quadrato di un lato è la somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell'angolo compreso.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Teorema del coseno"
+    },
+    {
+      "text": "Area di un triangolo. l'area è metà del prodotto di due lati per il seno dell'angolo compreso.",
+      "speech": "Area di un triangolo. l'area è metà del prodotto di due lati per il seno dell'angolo compreso.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Area di un triangolo"
+    },
+    {
+      "text": "La scheda dice: una corda è lunga quanto il diametro per il seno di un angolo alla circonferenza che insiste su di essa.",
+      "speech": "La scheda dice: una corda è lunga quanto il diametro per il seno di un angolo alla circonferenza che insiste su di essa.",
+      "screen": "Teorema della corda",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il raggio, cinque, e l'angolo, trenta gradi.",
+      "speech": "Passaggio uno: riconosco il raggio, cinque, e l'angolo, trenta gradi.",
+      "screen": "Teorema della corda",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula: due per cinque per seno di trenta.",
+      "speech": "Passaggio due: applico la formula: due per cinque per seno di trenta.",
+      "screen": "Teorema della corda",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è cinque.",
+      "speech": "Passaggio tre: il risultato è cinque.",
+      "screen": "Teorema della corda",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: in un triangolo ogni lato è direttamente proporzionale al seno dell'angolo opposto.",
+      "speech": "La scheda dice: in un triangolo ogni lato è direttamente proporzionale al seno dell'angolo opposto.",
+      "screen": "Teorema dei seni",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scrivo la proporzione tra lati e seni.",
+      "speech": "Passaggio uno: scrivo la proporzione tra lati e seni.",
+      "screen": "Teorema dei seni",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: b è dieci per seno di quarantacinque, fratto seno di trenta.",
+      "speech": "Passaggio due: b è dieci per seno di quarantacinque, fratto seno di trenta.",
+      "screen": "Teorema dei seni",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è dieci radice di due.",
+      "speech": "Passaggio tre: il risultato è dieci radice di due.",
+      "screen": "Teorema dei seni",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: ogni lato è la somma dei prodotti degli altri due, per il coseno dell'angolo che ciascuno forma con esso.",
+      "speech": "La scheda dice: ogni lato è la somma dei prodotti degli altri due, per il coseno dell'angolo che ciascuno forma con esso.",
+      "screen": "Teorema delle proiezioni",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i due lati, entrambi sei.",
+      "speech": "Passaggio uno: riconosco i due lati, entrambi sei.",
+      "screen": "Teorema delle proiezioni",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula con coseno di sessanta, un mezzo.",
+      "speech": "Passaggio due: applico la formula con coseno di sessanta, un mezzo.",
+      "screen": "Teorema delle proiezioni",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: tre più tre fa sei.",
+      "speech": "Passaggio tre: tre più tre fa sei.",
+      "screen": "Teorema delle proiezioni",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il quadrato di un lato è la somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell'angolo compreso.",
+      "speech": "La scheda dice: il quadrato di un lato è la somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell'angolo compreso.",
+      "screen": "Teorema del coseno",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i due lati e l'angolo compreso.",
+      "speech": "Passaggio uno: riconosco i due lati e l'angolo compreso.",
+      "screen": "Teorema del coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula: nove più sessantaquattro, meno ventiquattro.",
+      "speech": "Passaggio due: applico la formula: nove più sessantaquattro, meno ventiquattro.",
+      "screen": "Teorema del coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: a alla seconda è quarantanove, quindi a è sette.",
+      "speech": "Passaggio tre: a alla seconda è quarantanove, quindi a è sette.",
+      "screen": "Teorema del coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: l'area è metà del prodotto di due lati per il seno dell'angolo compreso.",
+      "speech": "La scheda dice: l'area è metà del prodotto di due lati per il seno dell'angolo compreso.",
+      "screen": "Area di un triangolo",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i due lati e l'angolo compreso.",
+      "speech": "Passaggio uno: riconosco i due lati e l'angolo compreso.",
+      "screen": "Area di un triangolo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: quattro per sei per un mezzo, tutto fratto due.",
+      "speech": "Passaggio due: quattro per sei per un mezzo, tutto fratto due.",
+      "screen": "Area di un triangolo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: l'area è sei.",
+      "speech": "Passaggio tre: l'area è sei.",
+      "screen": "Area di un triangolo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda quali lati e angoli conosci.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda quali lati e angoli conosci.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i lati e l'angolo. Osserva come cambiano il terzo lato e l'area.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i lati e l'angolo. Osserva come cambiano il terzo lato e l'area.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: seni con un lato e l'angolo opposto, coseno con due lati e l'angolo compreso. L'area è metà prodotto per il seno.",
+      "speech": "Ricorda: seni con un lato e l'angolo opposto, coseno con due lati e l'angolo compreso. L'area è metà prodotto per il seno.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

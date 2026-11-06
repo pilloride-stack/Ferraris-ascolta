@@ -1,0 +1,175 @@
+{
+  "episode": "26",
+  "title": "Relazioni fondamentali",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Relazione fondamentale. È la relazione tra il seno e il coseno dello stesso angolo. Per esempio: Seno di alfa uguale a tre quinti.",
+      "speech": "Relazione fondamentale. È la relazione tra il seno e il coseno dello stesso angolo. Per esempio: Seno di alfa uguale a tre quinti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Relazione fondamentale"
+    },
+    {
+      "text": "Tangente e cotangente. Si ottengono dal rapporto tra seno e coseno. Per esempio: Seno tre quinti, coseno quattro quinti.",
+      "speech": "Tangente e cotangente. Si ottengono dal rapporto tra seno e coseno. Per esempio: Seno tre quinti, coseno quattro quinti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Tangente e cotangente"
+    },
+    {
+      "text": "Secante e cosecante. Sono le reciproche di coseno e seno. Per esempio: Coseno quattro quinti.",
+      "speech": "Secante e cosecante. Sono le reciproche di coseno e seno. Per esempio: Coseno quattro quinti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Secante e cosecante"
+    },
+    {
+      "text": "Una funzione rispetto alle altre. Ogni funzione si esprime con le altre tre. Per esempio: Coseno tre quinti, nel primo quadrante.",
+      "speech": "Una funzione rispetto alle altre. Ogni funzione si esprime con le altre tre. Per esempio: Coseno tre quinti, nel primo quadrante.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Una funzione rispetto alle altre"
+    },
+    {
+      "text": "Grafici. La scheda mostra i grafici di seno, coseno, tangente e cotangente. Per esempio: Il grafico del seno.",
+      "speech": "Grafici. La scheda mostra i grafici di seno, coseno, tangente e cotangente. Per esempio: Il grafico del seno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Grafici"
+    },
+    {
+      "text": "La scheda dice: seno alla seconda di alfa, più coseno alla seconda di alfa, è uguale a uno.",
+      "speech": "La scheda dice: seno alla seconda di alfa, più coseno alla seconda di alfa, è uguale a uno.",
+      "screen": "Relazione fondamentale",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il dato: seno di alfa è tre quinti.",
+      "speech": "Passaggio uno: riconosco il dato: seno di alfa è tre quinti.",
+      "screen": "Relazione fondamentale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: coseno alla seconda è uno meno nove venticinquesimi.",
+      "speech": "Passaggio due: coseno alla seconda è uno meno nove venticinquesimi.",
+      "screen": "Relazione fondamentale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il coseno è più o meno quattro quinti, a seconda del quadrante.",
+      "speech": "Passaggio tre: il coseno è più o meno quattro quinti, a seconda del quadrante.",
+      "screen": "Relazione fondamentale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: la tangente è seno fratto coseno. La cotangente è coseno fratto seno.",
+      "speech": "La scheda dice: la tangente è seno fratto coseno. La cotangente è coseno fratto seno.",
+      "screen": "Tangente e cotangente",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco seno e coseno.",
+      "speech": "Passaggio uno: riconosco seno e coseno.",
+      "screen": "Tangente e cotangente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: divido il seno per il coseno.",
+      "speech": "Passaggio due: divido il seno per il coseno.",
+      "screen": "Tangente e cotangente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: la tangente è tre quarti.",
+      "speech": "Passaggio tre: la tangente è tre quarti.",
+      "screen": "Tangente e cotangente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: la secante è uno fratto il coseno. La cosecante è uno fratto il seno.",
+      "speech": "La scheda dice: la secante è uno fratto il coseno. La cosecante è uno fratto il seno.",
+      "screen": "Secante e cosecante",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il coseno, quattro quinti.",
+      "speech": "Passaggio uno: riconosco il coseno, quattro quinti.",
+      "screen": "Secante e cosecante",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: calcolo il reciproco.",
+      "speech": "Passaggio due: calcolo il reciproco.",
+      "screen": "Secante e cosecante",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: la secante è cinque quarti.",
+      "speech": "Passaggio tre: la secante è cinque quarti.",
+      "screen": "Secante e cosecante",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il segno più o meno va preso a seconda del segno della funzione nel quadrante dell'angolo.",
+      "speech": "La scheda dice: il segno più o meno va preso a seconda del segno della funzione nel quadrante dell'angolo.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: nel primo quadrante il seno è positivo.",
+      "speech": "Passaggio uno: nel primo quadrante il seno è positivo.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula: radice di sedici venticinquesimi.",
+      "speech": "Passaggio due: applico la formula: radice di sedici venticinquesimi.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il seno è quattro quinti.",
+      "speech": "Passaggio tre: il seno è quattro quinti.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda mostra i quattro grafici. Seno e coseno oscillano tra meno uno e uno. Tangente e cotangente hanno asintoti verticali.",
+      "speech": "La scheda mostra i quattro grafici. Seno e coseno oscillano tra meno uno e uno. Tangente e cotangente hanno asintoti verticali.",
+      "screen": "Grafici",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il grafico del seno.",
+      "speech": "Passaggio uno: riconosco il grafico del seno.",
+      "screen": "Grafici",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: leggo il massimo, uno, e il minimo, meno uno.",
+      "speech": "Passaggio due: leggo il massimo, uno, e il minimo, meno uno.",
+      "screen": "Grafici",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il seno oscilla sempre tra meno uno e uno.",
+      "speech": "Passaggio tre: il seno oscilla sempre tra meno uno e uno.",
+      "screen": "Grafici",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il quadrante dell'angolo.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il quadrante dell'angolo.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi il cursore e cambia l'angolo. Osserva che la somma dei due quadrati resta sempre uno.",
+      "speech": "Questo è il laboratorio. Muovi il cursore e cambia l'angolo. Osserva che la somma dei due quadrati resta sempre uno.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda le relazioni: seno alla seconda più coseno alla seconda è uno. La tangente è seno fratto coseno.",
+      "speech": "Ricorda le relazioni: seno alla seconda più coseno alla seconda è uno. La tangente è seno fratto coseno.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

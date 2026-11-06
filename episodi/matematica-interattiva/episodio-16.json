@@ -1,0 +1,235 @@
+{
+  "episode": "16",
+  "title": "Assi e punti",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Assi cartesiani e punti. Un sistema di assi cartesiani ortogonali ha origine o, di coordinate zero e zero, asse ics delle ascisse e asse ipsilon delle ordinate. Per esempio: Punto pi di coordinate due e tre.",
+      "speech": "Assi cartesiani e punti. Un sistema di assi cartesiani ortogonali ha origine o, di coordinate zero e zero, asse __X__ delle ascisse e asse ipsilon delle ordinate. Per esempio: Punto pi di coordinate due e tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Assi cartesiani e punti"
+    },
+    {
+      "text": "Distanza tra due punti. È la lunghezza del segmento AB, ipotenusa di un triangolo rettangolo. Per esempio: A di coordinate uno e due, e bi di coordinate cinque e cinque.",
+      "speech": "Distanza tra due punti. È la lunghezza del segmento AB, ipotenusa di un triangolo rettangolo. Per esempio: A di coordinate uno e due, e bi di coordinate cinque e cinque.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Distanza tra due punti"
+    },
+    {
+      "text": "Punto medio. È il punto del segmento equidistante dagli estremi. Per esempio: A di coordinate uno e due, e bi di coordinate cinque e sei.",
+      "speech": "Punto medio. È il punto del segmento equidistante dagli estremi. Per esempio: A di coordinate uno e due, e bi di coordinate cinque e sei.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Punto medio"
+    },
+    {
+      "text": "Dividere un segmento in parti proporzionali. Il punto P divide AB in modo che il rapporto tra AP e AB sia kappa. Per esempio: Bi di coordinate quattro e otto, con kappa uguale a un quarto.",
+      "speech": "Dividere un segmento in parti proporzionali. Il punto P divide AB in modo che il rapporto tra AP e AB sia kappa. Per esempio: Bi di coordinate quattro e otto, con kappa uguale a un quarto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Dividere un segmento in parti proporzionali"
+    },
+    {
+      "text": "Baricentro. È il punto di incontro delle mediane di un triangolo. Per esempio: Tre vertici: zero zero, tre sei, sei tre.",
+      "speech": "Baricentro. È il punto di incontro delle mediane di un triangolo. Per esempio: Tre vertici: zero zero, tre sei, sei tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Baricentro"
+    },
+    {
+      "text": "Area di un triangolo. Si calcola con il determinante (regola di Sarrus) o sottraendo dal rettangolo circoscritto. Per esempio: Tre vertici: zero zero, quattro zero, zero tre.",
+      "speech": "Area di un triangolo. Si calcola con il determinante (regola di Sarrus) o sottraendo dal rettangolo circoscritto. Per esempio: Tre vertici: zero zero, quattro zero, zero tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Area di un triangolo"
+    },
+    {
+      "text": "Allineamento di tre punti. Tre punti sono allineati se appartengono alla stessa retta. Per esempio: Tre punti: zero zero, uno uno, due due.",
+      "speech": "Allineamento di tre punti. Tre punti sono allineati se appartengono alla stessa retta. Per esempio: Tre punti: zero zero, uno uno, due due.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Allineamento di tre punti"
+    },
+    {
+      "text": "La scheda dice: O è l'origine, l'asse ics è delle ascisse, l'asse ipsilon delle ordinate. Ogni punto ha un'ascissa e un'ordinata.",
+      "speech": "La scheda dice: O è l'origine, l'asse __X__ è delle ascisse, l'asse ipsilon delle ordinate. Ogni punto ha un'ascissa e un'ordinata.",
+      "screen": "Assi cartesiani e punti",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il punto pi, con due numeri tra parentesi.",
+      "speech": "Passaggio uno: riconosco il punto pi, con due numeri tra parentesi.",
+      "screen": "Assi cartesiani e punti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: il primo numero è l'ascissa, due. Il secondo è l'ordinata, tre.",
+      "speech": "Passaggio due: il primo numero è l'ascissa, due. Il secondo è l'ordinata, tre.",
+      "screen": "Assi cartesiani e punti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il punto ha ascissa due e ordinata tre.",
+      "speech": "Passaggio tre: il punto ha ascissa due e ordinata tre.",
+      "screen": "Assi cartesiani e punti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: la distanza AB è l'ipotenusa del triangolo rettangolo ABC e si calcola con il teorema di Pitagora.",
+      "speech": "La scheda dice: la distanza AB è l'ipotenusa del triangolo rettangolo ABC e si calcola con il teorema di Pitagora.",
+      "screen": "Distanza tra due punti",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: calcolo le differenze. Cinque meno uno fa quattro. Cinque meno due fa tre.",
+      "speech": "Passaggio uno: calcolo le differenze. Cinque meno uno fa quattro. Cinque meno due fa tre.",
+      "screen": "Distanza tra due punti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: faccio i quadrati. Sedici più nove fa venticinque.",
+      "speech": "Passaggio due: faccio i quadrati. Sedici più nove fa venticinque.",
+      "screen": "Distanza tra due punti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: estraggo la radice. La distanza è cinque.",
+      "speech": "Passaggio tre: estraggo la radice. La distanza è cinque.",
+      "screen": "Distanza tra due punti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il punto medio ha coordinate uguali alla media delle coordinate degli estremi. Bi è il simmetrico di A rispetto a emme.",
+      "speech": "La scheda dice: il punto medio ha coordinate uguali alla media delle coordinate degli estremi. Bi è il simmetrico di A rispetto a emme.",
+      "screen": "Punto medio",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco le coordinate degli estremi.",
+      "speech": "Passaggio uno: riconosco le coordinate degli estremi.",
+      "screen": "Punto medio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: sommo le ascisse e divido per due. Faccio lo stesso con le ordinate.",
+      "speech": "Passaggio due: sommo le ascisse e divido per due. Faccio lo stesso con le ordinate.",
+      "screen": "Punto medio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il punto medio è emme di coordinate tre e quattro.",
+      "speech": "Passaggio tre: il punto medio è emme di coordinate tre e quattro.",
+      "screen": "Punto medio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il punto pi divide il segmento in parti proporzionali a kappa. Con il punto medio le formule si riducono a quelle già viste.",
+      "speech": "La scheda dice: il punto pi divide il segmento in parti proporzionali a kappa. Con il punto medio le formule si riducono a quelle già viste.",
+      "screen": "Dividere un segmento in parti proporzionali",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco kappa, uguale a un quarto.",
+      "speech": "Passaggio uno: riconosco kappa, uguale a un quarto.",
+      "screen": "Dividere un segmento in parti proporzionali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico le formule alle due coordinate.",
+      "speech": "Passaggio due: applico le formule alle due coordinate.",
+      "screen": "Dividere un segmento in parti proporzionali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il punto è pi di coordinate uno e due.",
+      "speech": "Passaggio tre: il punto è pi di coordinate uno e due.",
+      "screen": "Dividere un segmento in parti proporzionali",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il baricentro è il punto di incontro delle mediane. Le sue coordinate sono la media delle tre ascisse e delle tre ordinate.",
+      "speech": "La scheda dice: il baricentro è il punto di incontro delle mediane. Le sue coordinate sono la media delle tre ascisse e delle tre ordinate.",
+      "screen": "Baricentro",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco le coordinate dei tre vertici.",
+      "speech": "Passaggio uno: riconosco le coordinate dei tre vertici.",
+      "screen": "Baricentro",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: sommo e divido per tre. Ottengo nove diviso tre, per entrambe.",
+      "speech": "Passaggio due: sommo e divido per tre. Ottengo nove diviso tre, per entrambe.",
+      "screen": "Baricentro",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il baricentro è gi di coordinate tre e tre.",
+      "speech": "Passaggio tre: il baricentro è gi di coordinate tre e tre.",
+      "screen": "Baricentro",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: l'area è un mezzo del valore assoluto del determinante. In alternativa si sottraggono tre triangoli dal rettangolo circoscritto.",
+      "speech": "La scheda dice: l'area è un mezzo del valore assoluto del determinante. In alternativa si sottraggono tre triangoli dal rettangolo circoscritto.",
+      "screen": "Area di un triangolo",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i tre vertici del triangolo.",
+      "speech": "Passaggio uno: riconosco i tre vertici del triangolo.",
+      "screen": "Area di un triangolo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: quasi tutti i prodotti valgono zero. Resta quattro per tre, cioè dodici.",
+      "speech": "Passaggio due: quasi tutti i prodotti valgono zero. Resta quattro per tre, cioè dodici.",
+      "screen": "Area di un triangolo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: divido per due. L'area è sei.",
+      "speech": "Passaggio tre: divido per due. L'area è sei.",
+      "screen": "Area di un triangolo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: se l'area è uguale a zero i punti sono allineati. Oppure se la somma di AB e BC è uguale ad AC.",
+      "speech": "La scheda dice: se l'area è uguale a zero i punti sono allineati. Oppure se la somma di AB e BC è uguale ad AC.",
+      "screen": "Allineamento di tre punti",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i tre punti.",
+      "speech": "Passaggio uno: riconosco i tre punti.",
+      "screen": "Allineamento di tre punti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: il determinante vale due meno due, cioè zero.",
+      "speech": "Passaggio due: il determinante vale due meno due, cioè zero.",
+      "screen": "Allineamento di tre punti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: l'area è zero, quindi i punti sono allineati.",
+      "speech": "Passaggio tre: l'area è zero, quindi i punti sono allineati.",
+      "screen": "Allineamento di tre punti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, scrivi bene le coordinate dei punti.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, scrivi bene le coordinate dei punti.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e sposta i punti. Osserva come cambiano la distanza e il punto medio.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e sposta i punti. Osserva come cambiano la distanza e il punto medio.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: la distanza viene da Pitagora, il punto medio è una media, e l'area si ottiene con il determinante.",
+      "speech": "Ricorda: la distanza viene da Pitagora, il punto medio è una media, e l'area si ottiene con il determinante.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

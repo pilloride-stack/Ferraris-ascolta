@@ -1,0 +1,145 @@
+{
+  "episode": "25",
+  "title": "Funzioni goniometriche: definizioni",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Seno. Sulla circonferenza goniometrica di raggio uno, il seno di alfa è il rapporto tra l'ordinata e il raggio. Per esempio: Seno di novanta gradi.",
+      "speech": "Seno. Sulla circonferenza goniometrica di raggio uno, il seno di alfa è il rapporto tra l'ordinata e il raggio. Per esempio: Seno di novanta gradi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Seno"
+    },
+    {
+      "text": "Coseno. Il coseno di alfa è il rapporto tra l'ascissa e il raggio. Per esempio: Coseno di centottanta gradi.",
+      "speech": "Coseno. Il coseno di alfa è il rapporto tra l'ascissa e il raggio. Per esempio: Coseno di centottanta gradi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Coseno"
+    },
+    {
+      "text": "Tangente. La tangente di alfa è il segmento staccato sulla retta tangente alla circonferenza. Per esempio: Tangente di centottanta gradi.",
+      "speech": "Tangente. La tangente di alfa è il segmento staccato sulla retta tangente alla circonferenza. Per esempio: Tangente di centottanta gradi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Tangente"
+    },
+    {
+      "text": "Cotangente, secante, cosecante. Sono le altre funzioni goniometriche definite sulla circonferenza. Per esempio: Cotangente di alfa.",
+      "speech": "Cotangente, secante, cosecante. Sono le altre funzioni goniometriche definite sulla circonferenza. Per esempio: Cotangente di alfa.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Cotangente, secante, cosecante"
+    },
+    {
+      "text": "La scheda dice: il seno vale zero a zero gradi, uno a novanta gradi, zero a centottanta gradi, meno uno a duecentosettanta gradi.",
+      "speech": "La scheda dice: il seno vale zero a zero gradi, uno a novanta gradi, zero a centottanta gradi, meno uno a duecentosettanta gradi.",
+      "screen": "Seno",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'angolo: novanta gradi.",
+      "speech": "Passaggio uno: riconosco l'angolo: novanta gradi.",
+      "screen": "Seno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: cerco il valore nella tabella del seno.",
+      "speech": "Passaggio due: cerco il valore nella tabella del seno.",
+      "screen": "Seno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il seno di novanta gradi è uno.",
+      "speech": "Passaggio tre: il seno di novanta gradi è uno.",
+      "screen": "Seno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il coseno vale uno a zero gradi, zero a novanta gradi, meno uno a centottanta gradi, zero a duecentosettanta gradi.",
+      "speech": "La scheda dice: il coseno vale uno a zero gradi, zero a novanta gradi, meno uno a centottanta gradi, zero a duecentosettanta gradi.",
+      "screen": "Coseno",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'angolo: centottanta gradi.",
+      "speech": "Passaggio uno: riconosco l'angolo: centottanta gradi.",
+      "screen": "Coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: cerco il valore nella tabella del coseno.",
+      "speech": "Passaggio due: cerco il valore nella tabella del coseno.",
+      "screen": "Coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il coseno di centottanta gradi è meno uno.",
+      "speech": "Passaggio tre: il coseno di centottanta gradi è meno uno.",
+      "screen": "Coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: la tangente vale zero a zero gradi e a centottanta gradi. A novanta e a duecentosettanta gradi tende a infinito.",
+      "speech": "La scheda dice: la tangente vale zero a zero gradi e a centottanta gradi. A novanta e a duecentosettanta gradi tende a infinito.",
+      "screen": "Tangente",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'angolo: centottanta gradi.",
+      "speech": "Passaggio uno: riconosco l'angolo: centottanta gradi.",
+      "screen": "Tangente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: cerco il valore nella tabella della tangente.",
+      "speech": "Passaggio due: cerco il valore nella tabella della tangente.",
+      "screen": "Tangente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: la tangente di centottanta gradi è zero.",
+      "speech": "Passaggio tre: la tangente di centottanta gradi è zero.",
+      "screen": "Tangente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda definisce anche cotangente, secante e cosecante, sulla stessa circonferenza goniometrica di raggio uno.",
+      "speech": "La scheda definisce anche cotangente, secante e cosecante, sulla stessa circonferenza goniometrica di raggio uno.",
+      "screen": "Cotangente, secante, cosecante",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco la cotangente.",
+      "speech": "Passaggio uno: riconosco la cotangente.",
+      "screen": "Cotangente, secante, cosecante",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: guardo il segmento sulla figura della scheda.",
+      "speech": "Passaggio due: guardo il segmento sulla figura della scheda.",
+      "screen": "Cotangente, secante, cosecante",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: la cotangente è il segmento bi enne.",
+      "speech": "Passaggio tre: la cotangente è il segmento bi enne.",
+      "screen": "Cotangente, secante, cosecante",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, individua il quadrante dell'angolo.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, individua il quadrante dell'angolo.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi il cursore e cambia l'angolo. Osserva come cambiano seno, coseno e tangente.",
+      "speech": "Questo è il laboratorio. Muovi il cursore e cambia l'angolo. Osserva come cambiano seno, coseno e tangente.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il seno è un'ordinata, il coseno è un'ascissa. Il segno dipende dal quadrante dell'angolo.",
+      "speech": "Ricorda: il seno è un'ordinata, il coseno è un'ascissa. Il segno dipende dal quadrante dell'angolo.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

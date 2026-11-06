@@ -1,0 +1,175 @@
+{
+  "episode": "29",
+  "title": "Teoremi sui triangoli rettangoli",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "a è l'ipotenusa. Bi è il cateto opposto a beta e adiacente a gamma. Ci è opposto a gamma e adiacente a beta.",
+      "speech": "a è l'ipotenusa. Bi è il cateto opposto a beta e adiacente a gamma. Ci è opposto a gamma e adiacente a beta.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Terminologia"
+    },
+    {
+      "text": "un cateto è uguale all'ipotenusa per il seno dell'angolo opposto al cateto.",
+      "speech": "un cateto è uguale all'ipotenusa per il seno dell'angolo opposto al cateto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Cateto con il seno"
+    },
+    {
+      "text": "un cateto è uguale all'ipotenusa per il coseno dell'angolo adiacente al cateto.",
+      "speech": "un cateto è uguale all'ipotenusa per il coseno dell'angolo adiacente al cateto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Cateto con il coseno"
+    },
+    {
+      "text": "un cateto è uguale all'altro cateto per la tangente dell'angolo opposto al primo, oppure per la cotangente dell'angolo adiacente.",
+      "speech": "un cateto è uguale all'altro cateto per la tangente dell'angolo opposto al primo, oppure per la cotangente dell'angolo adiacente.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Cateto con tangente e cotangente"
+    },
+    {
+      "text": "Trovare ipotenusa e funzioni: la scheda riporta tutti i casi: da ogni formula si ricavano l'ipotenusa, il cateto e il valore della funzione.",
+      "speech": "Trovare ipotenusa e funzioni: la scheda riporta tutti i casi: da ogni formula si ricavano l'ipotenusa, il cateto e il valore della funzione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Trovare ipotenusa e funzioni"
+    },
+    {
+      "text": "La scheda dice: a è l'ipotenusa. Bi è il cateto opposto a beta e adiacente a gamma. Ci è opposto a gamma e adiacente a beta.",
+      "speech": "La scheda dice: a è l'ipotenusa. Bi è il cateto opposto a beta e adiacente a gamma. Ci è opposto a gamma e adiacente a beta.",
+      "screen": "Terminologia",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: l'angolo retto è in A.",
+      "speech": "Passaggio uno: l'angolo retto è in A.",
+      "screen": "Terminologia",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: il lato opposto all'angolo retto è a, l'ipotenusa.",
+      "speech": "Passaggio due: il lato opposto all'angolo retto è a, l'ipotenusa.",
+      "screen": "Terminologia",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: i cateti sono bi e ci.",
+      "speech": "Passaggio tre: i cateti sono bi e ci.",
+      "screen": "Terminologia",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: un cateto è uguale all'ipotenusa per il seno dell'angolo opposto al cateto.",
+      "speech": "La scheda dice: un cateto è uguale all'ipotenusa per il seno dell'angolo opposto al cateto.",
+      "screen": "Cateto con il seno",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'ipotenusa, dieci, e l'angolo opposto, trenta gradi.",
+      "speech": "Passaggio uno: riconosco l'ipotenusa, dieci, e l'angolo opposto, trenta gradi.",
+      "screen": "Cateto con il seno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula: dieci per seno di trenta.",
+      "speech": "Passaggio due: applico la formula: dieci per seno di trenta.",
+      "screen": "Cateto con il seno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è cinque.",
+      "speech": "Passaggio tre: il risultato è cinque.",
+      "screen": "Cateto con il seno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: un cateto è uguale all'ipotenusa per il coseno dell'angolo adiacente al cateto.",
+      "speech": "La scheda dice: un cateto è uguale all'ipotenusa per il coseno dell'angolo adiacente al cateto.",
+      "screen": "Cateto con il coseno",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'ipotenusa, dieci, e l'angolo adiacente a ci, sessanta gradi.",
+      "speech": "Passaggio uno: riconosco l'ipotenusa, dieci, e l'angolo adiacente a ci, sessanta gradi.",
+      "screen": "Cateto con il coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula: dieci per coseno di sessanta.",
+      "speech": "Passaggio due: applico la formula: dieci per coseno di sessanta.",
+      "screen": "Cateto con il coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è cinque.",
+      "speech": "Passaggio tre: il risultato è cinque.",
+      "screen": "Cateto con il coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: un cateto è uguale all'altro cateto per la tangente dell'angolo opposto al primo, oppure per la cotangente dell'angolo adiacente.",
+      "speech": "La scheda dice: un cateto è uguale all'altro cateto per la tangente dell'angolo opposto al primo, oppure per la cotangente dell'angolo adiacente.",
+      "screen": "Cateto con tangente e cotangente",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco l'altro cateto, cinque, e l'angolo, quarantacinque gradi.",
+      "speech": "Passaggio uno: riconosco l'altro cateto, cinque, e l'angolo, quarantacinque gradi.",
+      "screen": "Cateto con tangente e cotangente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula: cinque per tangente di quarantacinque.",
+      "speech": "Passaggio due: applico la formula: cinque per tangente di quarantacinque.",
+      "screen": "Cateto con tangente e cotangente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è cinque.",
+      "speech": "Passaggio tre: il risultato è cinque.",
+      "screen": "Cateto con tangente e cotangente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda riporta tutti i casi: da ogni formula si ricavano l'ipotenusa, il cateto e il valore della funzione.",
+      "speech": "La scheda riporta tutti i casi: da ogni formula si ricavano l'ipotenusa, il cateto e il valore della funzione.",
+      "screen": "Trovare ipotenusa e funzioni",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il cateto, tre, e l'ipotenusa, cinque.",
+      "speech": "Passaggio uno: riconosco il cateto, tre, e l'ipotenusa, cinque.",
+      "screen": "Trovare ipotenusa e funzioni",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: il seno di beta è bi fratto a.",
+      "speech": "Passaggio due: il seno di beta è bi fratto a.",
+      "screen": "Trovare ipotenusa e funzioni",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è tre quinti.",
+      "speech": "Passaggio tre: il risultato è tre quinti.",
+      "screen": "Trovare ipotenusa e funzioni",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda se l'angolo è opposto o adiacente al cateto.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda se l'angolo è opposto o adiacente al cateto.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia ipotenusa e angolo. Osserva come cambiano i cateti.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia ipotenusa e angolo. Osserva come cambiano i cateti.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: un cateto è l'ipotenusa per il seno dell'angolo opposto, oppure per il coseno dell'angolo adiacente.",
+      "speech": "Ricorda: un cateto è l'ipotenusa per il seno dell'angolo opposto, oppure per il coseno dell'angolo adiacente.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "episode": "21",
+  "title": "L'iperbole",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Definizione di iperbole. L'iperbole è il luogo geometrico dei punti del piano tali che la differenza in valore assoluto delle distanze da due punti fissi, detti fuochi, è costante. Per esempio: Valore assoluto di pi effe uno meno pi effe due, uguale a due a.",
+      "speech": "Definizione di iperbole. L'iperbole è il luogo geometrico dei punti del piano tali che la differenza in valore assoluto delle distanze da due punti fissi, detti fuochi, è costante. Per esempio: Valore assoluto di pi effe uno meno pi effe due, uguale a due a.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Definizione di iperbole"
+    },
+    {
+      "text": "Equazione, parametri e asintoti. L'iperbole di centro l'origine ha equazione con a, b e la semidistanza focale c. Per esempio: Ics alla seconda fratto sedici, meno ipsilon alla seconda fratto nove, uguale a uno.",
+      "speech": "Equazione, parametri e asintoti. L'iperbole di centro l'origine ha equazione con a, b e la semidistanza focale c. Per esempio: __X__ alla seconda fratto sedici, meno ipsilon alla seconda fratto nove, uguale a uno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione, parametri e asintoti"
+    },
+    {
+      "text": "Equazione dell'iperbole. Servono due condizioni, perché le incognite sono a alla seconda e bi alla seconda. Per esempio: Fuochi in più o meno cinque, e a uguale a quattro.",
+      "speech": "Equazione dell'iperbole. Servono due condizioni, perché le incognite sono a alla seconda e bi alla seconda. Per esempio: Fuochi in più o meno cinque, e a uguale a quattro.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione dell'iperbole"
+    },
+    {
+      "text": "Rette tangenti e iperbole traslata. Le tangenti si trovano con il delta o con lo sdoppiamento; la traslazione sposta il centro. Per esempio: L'iperbole nel punto quattro zero.",
+      "speech": "Rette tangenti e iperbole traslata. Le tangenti si trovano con il delta o con lo sdoppiamento; la traslazione sposta il centro. Per esempio: L'iperbole nel punto quattro zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Rette tangenti e iperbole traslata"
+    },
+    {
+      "text": "Iperbole equilatera. L'iperbole si dice equilatera se i semiassi sono uguali: a uguale a bi. Per esempio: Ics alla seconda meno ipsilon alla seconda, uguale a nove.",
+      "speech": "Iperbole equilatera. L'iperbole si dice equilatera se i semiassi sono uguali: a uguale a bi. Per esempio: __X__ alla seconda meno ipsilon alla seconda, uguale a nove.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Iperbole equilatera"
+    },
+    {
+      "text": "La scheda dice: la differenza in valore assoluto delle distanze dai due fuochi è costante, ed è uguale a due a.",
+      "speech": "La scheda dice: la differenza in valore assoluto delle distanze dai due fuochi è costante, ed è uguale a due a.",
+      "screen": "Definizione di iperbole",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i due fuochi.",
+      "speech": "Passaggio uno: riconosco i due fuochi.",
+      "screen": "Definizione di iperbole",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: da ogni punto misuro le due distanze dai fuochi.",
+      "speech": "Passaggio due: da ogni punto misuro le due distanze dai fuochi.",
+      "screen": "Definizione di iperbole",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: la differenza in valore assoluto è sempre due a.",
+      "speech": "Passaggio tre: la differenza in valore assoluto è sempre due a.",
+      "screen": "Definizione di iperbole",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: ci alla seconda è a alla seconda più bi alla seconda. Gli asintoti sono ipsilon uguale a più o meno bi su a per ics.",
+      "speech": "La scheda dice: ci alla seconda è a alla seconda più bi alla seconda. Gli asintoti sono ipsilon uguale a più o meno bi su a per __X__.",
+      "screen": "Equazione, parametri e asintoti",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: leggo i denominatori. A è quattro, bi è tre.",
+      "speech": "Passaggio uno: leggo i denominatori. A è quattro, bi è tre.",
+      "screen": "Equazione, parametri e asintoti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: ci alla seconda è sedici più nove, cioè venticinque. Ci è cinque.",
+      "speech": "Passaggio due: ci alla seconda è sedici più nove, cioè venticinque. Ci è cinque.",
+      "screen": "Equazione, parametri e asintoti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: gli asintoti sono ipsilon uguale a più o meno tre quarti ics.",
+      "speech": "Passaggio tre: gli asintoti sono ipsilon uguale a più o meno tre quarti __X__.",
+      "screen": "Equazione, parametri e asintoti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: servono due condizioni. Conviene partire dalla forma non canonica. Le incognite sono a alla seconda e bi alla seconda.",
+      "speech": "La scheda dice: servono due condizioni. Conviene partire dalla forma non canonica. Le incognite sono a alla seconda e bi alla seconda.",
+      "screen": "Equazione dell'iperbole",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco ci uguale a cinque, a uguale a quattro.",
+      "speech": "Passaggio uno: riconosco ci uguale a cinque, a uguale a quattro.",
+      "screen": "Equazione dell'iperbole",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: bi alla seconda è venticinque meno sedici, cioè nove.",
+      "speech": "Passaggio due: bi alla seconda è venticinque meno sedici, cioè nove.",
+      "screen": "Equazione dell'iperbole",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: nella forma non canonica ottengo nove ics alla seconda, meno sedici ipsilon alla seconda, uguale a centoquarantaquattro.",
+      "speech": "Passaggio tre: nella forma non canonica ottengo nove __X__ alla seconda, meno sedici ipsilon alla seconda, uguale a centoquarantaquattro.",
+      "screen": "Equazione dell'iperbole",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: nella formula di sdoppiamento si pone ics alla seconda uguale a ics zero per ics, e ipsilon alla seconda uguale a ipsilon zero per ipsilon.",
+      "speech": "La scheda dice: nella formula di sdoppiamento si pone __X__ alla seconda uguale a __X__ zero per __X__, e ipsilon alla seconda uguale a ipsilon zero per ipsilon.",
+      "screen": "Rette tangenti e iperbole traslata",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scrivo l'iperbole in forma non canonica.",
+      "speech": "Passaggio uno: scrivo l'iperbole in forma non canonica.",
+      "screen": "Rette tangenti e iperbole traslata",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: sdoppio con il punto quattro zero.",
+      "speech": "Passaggio due: sdoppio con il punto quattro zero.",
+      "screen": "Rette tangenti e iperbole traslata",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: la tangente è ics uguale a quattro.",
+      "speech": "Passaggio tre: la tangente è __X__ uguale a quattro.",
+      "screen": "Rette tangenti e iperbole traslata",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: nell'iperbole equilatera gli asintoti coincidono con le bisettrici del primo e terzo, e del secondo e quarto quadrante.",
+      "speech": "La scheda dice: nell'iperbole equilatera gli asintoti coincidono con le bisettrici del primo e terzo, e del secondo e quarto quadrante.",
+      "screen": "Iperbole equilatera",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco la forma equilatera. A alla seconda è nove.",
+      "speech": "Passaggio uno: riconosco la forma equilatera. A alla seconda è nove.",
+      "screen": "Iperbole equilatera",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: a è tre, e anche bi è tre.",
+      "speech": "Passaggio due: a è tre, e anche bi è tre.",
+      "screen": "Iperbole equilatera",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: ci è a per radice di due: tre radice di due.",
+      "speech": "Passaggio tre: ci è a per radice di due: tre radice di due.",
+      "screen": "Iperbole equilatera",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, ricorda che nell'iperbole a e bi si sommano.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, ricorda che nell'iperbole a e bi si sommano.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia a e bi. Osserva come cambiano fuochi e asintoti.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia a e bi. Osserva come cambiano fuochi e asintoti.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: nell'iperbole la differenza delle distanze è costante, e ci alla seconda è a alla seconda più bi alla seconda.",
+      "speech": "Ricorda: nell'iperbole la differenza delle distanze è costante, e ci alla seconda è a alla seconda più bi alla seconda.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

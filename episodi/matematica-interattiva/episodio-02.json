@@ -5,31 +5,31 @@
   "sentences": [
     {
       "text": "Somma per differenza. È il prodotto tra la somma e la differenza degli stessi due termini. Per esempio: Quattro ics più cinque, per quattro ics meno cinque.",
-      "speech": "Somma per differenza. Il prodotto della somma di due termini per la loro differenza è uguale al quadrato del primo termine, meno il quadrato del secondo termine.",
+      "speech": "Somma per differenza. È il prodotto tra la somma e la differenza degli stessi due termini. Per esempio: Quattro __X__ più cinque, per quattro __X__ meno cinque.",
       "screen": "Definizioni",
       "purpose": "Definizione: Somma per differenza"
     },
     {
       "text": "Quadrato di un binomio. È un binomio elevato alla seconda. Per esempio: Due ics più tre, alla seconda.",
-      "speech": "Quadrato di un binomio. Il quadrato della somma di due termini è uguale al quadrato del primo termine, più il doppio prodotto del primo per il secondo, più il quadrato del secondo termine. Con la differenza, il doppio prodotto ha segno meno.",
+      "speech": "Quadrato di un binomio. È un binomio elevato alla seconda. Per esempio: Due __X__ più tre, alla seconda.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quadrato di un binomio"
     },
     {
       "text": "Cubo di un binomio. È un binomio elevato alla terza. Per esempio: Tre ics più due, alla terza.",
-      "speech": "Cubo di un binomio. Il cubo della somma di due termini è uguale al cubo del primo termine, più il triplo prodotto del quadrato del primo per il secondo, più il triplo prodotto del primo per il quadrato del secondo, più il cubo del secondo termine.",
+      "speech": "Cubo di un binomio. È un binomio elevato alla terza. Per esempio: Tre __X__ più due, alla terza.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cubo di un binomio"
     },
     {
       "text": "Quadrato di un trinomio. È un trinomio elevato alla seconda. Per esempio: Due ics più tre ipsilon più uno, alla seconda.",
-      "speech": "Quadrato di un trinomio. È uguale alla somma dei quadrati del primo, del secondo e del terzo termine, più i tre doppi prodotti: primo per secondo, primo per terzo, secondo per terzo.",
+      "speech": "Quadrato di un trinomio. È un trinomio elevato alla seconda. Per esempio: Due __X__ più tre ipsilon più uno, alla seconda.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quadrato di un trinomio"
     },
     {
       "text": "Cubo di un trinomio. È un trinomio elevato alla terza. Per esempio: Due ics più tre ipsilon più uno, alla terza.",
-      "speech": "Cubo di un trinomio. È formato dai cubi dei tre termini, dai sei tripli prodotti e da sei volte il prodotto del primo termine per il secondo e per il terzo.",
+      "speech": "Cubo di un trinomio. È un trinomio elevato alla terza. Per esempio: Due __X__ più tre ipsilon più uno, alla terza.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cubo di un trinomio"
     },
@@ -41,7 +41,7 @@
     },
     {
       "text": "Potenza n-sima di un binomio. È un binomio elevato a un esponente. Lo sviluppo è un polinomio completo e omogeneo, formato da un monomio in più dell'esponente. ",
-      "speech": "Potenza ennesima di un binomio. I coefficienti si ricavano dal triangolo di Tartaglia. Le potenze del primo termine diminuiscono, mentre quelle del secondo aumentano.",
+      "speech": "Potenza n-sima di un binomio. È un binomio elevato a un esponente. Lo sviluppo è un polinomio completo e omogeneo, formato da un monomio in più dell'esponente. ",
       "screen": "Definizioni",
       "purpose": "Definizione: Potenza n-sima di un binomio"
     },

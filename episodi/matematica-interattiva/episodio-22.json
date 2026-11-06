@@ -1,0 +1,217 @@
+{
+  "episode": "22",
+  "title": "I logaritmi",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Definizione di logaritmo. Il logaritmo di un numero è l'esponente c da dare alla base a per ottenere l'argomento b. Per esempio: Logaritmo in base due di otto.",
+      "speech": "Definizione di logaritmo. Il logaritmo di un numero è l'esponente c da dare alla base a per ottenere l'argomento b. Per esempio: Logaritmo in base due di otto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Definizione di logaritmo"
+    },
+    {
+      "text": "Teorema del prodotto. Il logaritmo di un prodotto è la somma dei logaritmi. Per esempio: Logaritmo in base due di tre per ics.",
+      "speech": "Teorema del prodotto. Il logaritmo di un prodotto è la somma dei logaritmi. Per esempio: Logaritmo in base due di tre per __X__.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Teorema del prodotto"
+    },
+    {
+      "text": "Teorema del rapporto. Il logaritmo di un rapporto è la differenza dei logaritmi. Per esempio: Logaritmo in base due di ics fratto tre.",
+      "speech": "Teorema del rapporto. Il logaritmo di un rapporto è la differenza dei logaritmi. Per esempio: Logaritmo in base due di __X__ fratto tre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Teorema del rapporto"
+    },
+    {
+      "text": "Teorema della potenza. L'esponente dell'argomento diventa un fattore. Per esempio: Logaritmo in base due di ics alla terza.",
+      "speech": "Teorema della potenza. L'esponente dell'argomento diventa un fattore. Per esempio: Logaritmo in base due di __X__ alla terza.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Teorema della potenza"
+    },
+    {
+      "text": "Cambio di base. Permette di scrivere un logaritmo in un'altra base. Per esempio: Logaritmo in base tre di ics.",
+      "speech": "Cambio di base. Permette di scrivere un logaritmo in un'altra base. Per esempio: Logaritmo in base tre di __X__.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Cambio di base"
+    },
+    {
+      "text": "Numero come logaritmo o potenza. Un numero n si può scrivere come logaritmo o come potenza. Per esempio: Cinque.",
+      "speech": "Numero come logaritmo o potenza. Un numero n si può scrivere come logaritmo o come potenza. Per esempio: Cinque.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Numero come logaritmo o potenza"
+    },
+    {
+      "text": "Nelle equazioni logaritmiche, prima impongo che tutti gli argomenti siano positivi. Poi applico i teoremi, porto i logaritmi alla stessa base, confronto gli argomenti e verifico la soluzione.",
+      "speech": "Nelle equazioni logaritmiche, prima impongo che tutti gli argomenti siano positivi. Poi applico i teoremi, porto i logaritmi alla stessa base, confronto gli argomenti e verifico la soluzione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazioni logaritmiche"
+    },
+    {
+      "text": "In logaritmo in base due di ics meno uno uguale a tre, impongo ics maggiore di uno. Poi scrivo ics meno uno uguale a due alla terza. Ottengo ics uguale a nove, che rispetta la condizione di esistenza.",
+      "speech": "In logaritmo in base due di __X__ meno uno uguale a tre, impongo __X__ maggiore di uno. Poi scrivo __X__ meno uno uguale a due alla terza. Ottengo __X__ uguale a nove, che rispetta la condizione di esistenza.",
+      "screen": "Equazioni logaritmiche",
+      "purpose": "Esempio guidato"
+    },
+    {
+      "text": "La scheda dice: il logaritmo è l'esponente da dare alla base per ottenere l'argomento. La base è positiva e diversa da uno, l'argomento è positivo.",
+      "speech": "La scheda dice: il logaritmo è l'esponente da dare alla base per ottenere l'argomento. La base è positiva e diversa da uno, l'argomento è positivo.",
+      "screen": "Definizione di logaritmo",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco la base due e l'argomento otto.",
+      "speech": "Passaggio uno: riconosco la base due e l'argomento otto.",
+      "screen": "Definizione di logaritmo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: cerco l'esponente: due alla terza fa otto.",
+      "speech": "Passaggio due: cerco l'esponente: due alla terza fa otto.",
+      "screen": "Definizione di logaritmo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il logaritmo è tre.",
+      "speech": "Passaggio tre: il logaritmo è tre.",
+      "screen": "Definizione di logaritmo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il logaritmo di un prodotto è la somma dei logaritmi.",
+      "speech": "La scheda dice: il logaritmo di un prodotto è la somma dei logaritmi.",
+      "screen": "Teorema del prodotto",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco un prodotto nell'argomento.",
+      "speech": "Passaggio uno: riconosco un prodotto nell'argomento.",
+      "screen": "Teorema del prodotto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo un logaritmo per ogni fattore.",
+      "speech": "Passaggio due: scrivo un logaritmo per ogni fattore.",
+      "screen": "Teorema del prodotto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: sommo i due logaritmi.",
+      "speech": "Passaggio tre: sommo i due logaritmi.",
+      "screen": "Teorema del prodotto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: il logaritmo di un rapporto è la differenza dei logaritmi.",
+      "speech": "La scheda dice: il logaritmo di un rapporto è la differenza dei logaritmi.",
+      "screen": "Teorema del rapporto",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco un rapporto nell'argomento.",
+      "speech": "Passaggio uno: riconosco un rapporto nell'argomento.",
+      "screen": "Teorema del rapporto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scrivo un logaritmo per il numeratore e uno per il denominatore.",
+      "speech": "Passaggio due: scrivo un logaritmo per il numeratore e uno per il denominatore.",
+      "screen": "Teorema del rapporto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: sottraggo i due logaritmi.",
+      "speech": "Passaggio tre: sottraggo i due logaritmi.",
+      "screen": "Teorema del rapporto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: l'esponente dell'argomento passa davanti al logaritmo.",
+      "speech": "La scheda dice: l'esponente dell'argomento passa davanti al logaritmo.",
+      "screen": "Teorema della potenza",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco una potenza nell'argomento.",
+      "speech": "Passaggio uno: riconosco una potenza nell'argomento.",
+      "screen": "Teorema della potenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: sposto l'esponente tre davanti.",
+      "speech": "Passaggio due: sposto l'esponente tre davanti.",
+      "screen": "Teorema della potenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo il risultato. Tre logaritmo in base due di ics.",
+      "speech": "Passaggio tre: scrivo il risultato. Tre logaritmo in base due di __X__.",
+      "screen": "Teorema della potenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: la formula del cambio di base serve per calcolare un logaritmo in una base diversa da dieci ed e.",
+      "speech": "La scheda dice: la formula del cambio di base serve per calcolare un logaritmo in una base diversa da dieci ed e.",
+      "screen": "Cambio di base",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco la base tre, da cambiare.",
+      "speech": "Passaggio uno: riconosco la base tre, da cambiare.",
+      "screen": "Cambio di base",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scelgo la nuova base, due.",
+      "speech": "Passaggio due: scelgo la nuova base, due.",
+      "screen": "Cambio di base",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: scrivo logaritmo in base due di ics, fratto logaritmo in base due di tre.",
+      "speech": "Passaggio tre: scrivo logaritmo in base due di __X__, fratto logaritmo in base due di tre.",
+      "screen": "Cambio di base",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: ogni numero enne si può scrivere come logaritmo in base a, oppure come potenza di base a.",
+      "speech": "La scheda dice: ogni numero enne si può scrivere come logaritmo in base a, oppure come potenza di base a.",
+      "screen": "Numero come logaritmo o potenza",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il numero cinque.",
+      "speech": "Passaggio uno: riconosco il numero cinque.",
+      "screen": "Numero come logaritmo o potenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: scelgo la base due.",
+      "speech": "Passaggio due: scelgo la base due.",
+      "screen": "Numero come logaritmo o potenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: cinque è il logaritmo in base due di due alla quinta.",
+      "speech": "Passaggio tre: cinque è il logaritmo in base due di due alla quinta.",
+      "screen": "Numero come logaritmo o potenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, ricorda che il logaritmo è un esponente.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, ricorda che il logaritmo è un esponente.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia la base e l'esponente. Osserva come cambia il risultato.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia la base e l'esponente. Osserva come cambia il risultato.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il logaritmo è un esponente. Il prodotto diventa somma, il rapporto differenza, e l'esponente si sposta davanti.",
+      "speech": "Ricorda: il logaritmo è un esponente. Il prodotto diventa somma, il rapporto differenza, e l'esponente si sposta davanti.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

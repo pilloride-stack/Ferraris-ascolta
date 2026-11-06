@@ -1,0 +1,85 @@
+{
+  "episode": "20",
+  "title": "L'ellisse",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Definizione di ellisse. L'ellisse è il luogo geometrico dei punti del piano tali che la somma delle distanze da due punti fissi, detti fuochi, è costante. Per esempio: Pi effe uno, più pi effe due, è uguale a due a.",
+      "speech": "Definizione di ellisse. L'ellisse è il luogo geometrico dei punti del piano tali che la somma delle distanze da due punti fissi, detti fuochi, è costante. Per esempio: Pi effe uno, più pi effe due, è uguale a due a.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Definizione di ellisse"
+    },
+    {
+      "text": "Equazione canonica e parametri. L'ellisse di centro l'origine ha un'equazione con i semiassi a e b e la semidistanza focale c. Per esempio: Ics alla seconda fratto venticinque, più ipsilon alla seconda fratto nove, uguale a uno.",
+      "speech": "Equazione canonica e parametri. L'ellisse di centro l'origine ha un'equazione con i semiassi a e b e la semidistanza focale c. Per esempio: __X__ alla seconda fratto venticinque, più ipsilon alla seconda fratto nove, uguale a uno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione canonica e parametri"
+    },
+    {
+      "text": "La scheda dice: la somma delle distanze di un punto dai due fuochi è costante, ed è uguale a due a.",
+      "speech": "La scheda dice: la somma delle distanze di un punto dai due fuochi è costante, ed è uguale a due a.",
+      "screen": "Definizione di ellisse",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco i due fuochi, effe uno ed effe due.",
+      "speech": "Passaggio uno: riconosco i due fuochi, effe uno ed effe due.",
+      "screen": "Definizione di ellisse",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: da ogni punto pi misuro le due distanze dai fuochi.",
+      "speech": "Passaggio due: da ogni punto pi misuro le due distanze dai fuochi.",
+      "screen": "Definizione di ellisse",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: la somma è sempre la stessa: due a.",
+      "speech": "Passaggio tre: la somma è sempre la stessa: due a.",
+      "screen": "Definizione di ellisse",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con a maggiore di bi i fuochi sono sull'asse ics. Vale a alla seconda uguale a bi alla seconda più ci alla seconda.",
+      "speech": "La scheda dice: con a maggiore di bi i fuochi sono sull'asse __X__. Vale a alla seconda uguale a bi alla seconda più ci alla seconda.",
+      "screen": "Equazione canonica e parametri",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: leggo i denominatori. A è cinque, bi è tre.",
+      "speech": "Passaggio uno: leggo i denominatori. A è cinque, bi è tre.",
+      "screen": "Equazione canonica e parametri",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: ci alla seconda è venticinque meno nove, cioè sedici. Ci è quattro.",
+      "speech": "Passaggio due: ci alla seconda è venticinque meno nove, cioè sedici. Ci è quattro.",
+      "screen": "Equazione canonica e parametri",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: l'eccentricità è ci fratto a: quattro quinti.",
+      "speech": "Passaggio tre: l'eccentricità è ci fratto a: quattro quinti.",
+      "screen": "Equazione canonica e parametri",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda quale semiasse è maggiore.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda quale semiasse è maggiore.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia a e bi. Osserva come cambiano i fuochi e l'eccentricità.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia a e bi. Osserva come cambiano i fuochi e l'eccentricità.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: nell'ellisse la somma delle distanze dai fuochi è costante. Con a maggiore di bi, a alla seconda è bi alla seconda più ci alla seconda.",
+      "speech": "Ricorda: nell'ellisse la somma delle distanze dai fuochi è costante. Con a maggiore di bi, a alla seconda è bi alla seconda più ci alla seconda.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

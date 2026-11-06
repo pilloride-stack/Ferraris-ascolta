@@ -1,0 +1,205 @@
+{
+  "episode": "28",
+  "title": "Formule goniometriche",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Addizione e sottrazione. Danno seno, coseno, tangente e cotangente di una somma o differenza di angoli.",
+      "speech": "Addizione e sottrazione. Danno seno, coseno, tangente e cotangente di una somma o differenza di angoli.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Addizione e sottrazione"
+    },
+    {
+      "text": "Duplicazione. Danno le funzioni dell'angolo doppio.",
+      "speech": "Duplicazione. Danno le funzioni dell'angolo doppio.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Duplicazione"
+    },
+    {
+      "text": "Bisezione. Danno le funzioni della metà di un angolo.",
+      "speech": "Bisezione. Danno le funzioni della metà di un angolo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Bisezione"
+    },
+    {
+      "text": "Formule parametriche. Esprimono seno, coseno e tangente con t, la tangente di alfa mezzi.",
+      "speech": "Formule parametriche. Esprimono seno, coseno e tangente con t, la tangente di alfa mezzi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Formule parametriche"
+    },
+    {
+      "text": "Prostaferesi. Trasformano una somma di funzioni in un prodotto.",
+      "speech": "Prostaferesi. Trasformano una somma di funzioni in un prodotto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Prostaferesi"
+    },
+    {
+      "text": "Formule di Werner. Trasformano un prodotto di funzioni in una somma.",
+      "speech": "Formule di Werner. Trasformano un prodotto di funzioni in una somma.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Formule di Werner"
+    },
+    {
+      "text": "La scheda dice: seno della somma è seno alfa coseno beta, più seno beta coseno alfa. Nel coseno il segno è opposto.",
+      "speech": "La scheda dice: seno della somma è seno alfa coseno beta, più seno beta coseno alfa. Nel coseno il segno è opposto.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scrivo quindici come quarantacinque meno trenta.",
+      "speech": "Passaggio uno: scrivo quindici come quarantacinque meno trenta.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula: coseno per coseno, più seno per seno.",
+      "speech": "Passaggio due: applico la formula: coseno per coseno, più seno per seno.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è radice di sei più radice di due, fratto quattro.",
+      "speech": "Passaggio tre: il risultato è radice di sei più radice di due, fratto quattro.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: seno di due alfa è due seno alfa coseno alfa. Il coseno di due alfa ha tre forme.",
+      "speech": "La scheda dice: seno di due alfa è due seno alfa coseno alfa. Il coseno di due alfa ha tre forme.",
+      "screen": "Duplicazione",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: scrivo sessanta come due per trenta.",
+      "speech": "Passaggio uno: scrivo sessanta come due per trenta.",
+      "screen": "Duplicazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula: due per seno di trenta per coseno di trenta.",
+      "speech": "Passaggio due: applico la formula: due per seno di trenta per coseno di trenta.",
+      "screen": "Duplicazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è radice di tre mezzi.",
+      "speech": "Passaggio tre: il risultato è radice di tre mezzi.",
+      "screen": "Duplicazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: seno di alfa mezzi è più o meno radice di uno meno coseno alfa, fratto due. Nel coseno c'è uno più coseno alfa.",
+      "speech": "La scheda dice: seno di alfa mezzi è più o meno radice di uno meno coseno alfa, fratto due. Nel coseno c'è uno più coseno alfa.",
+      "screen": "Bisezione",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: l'angolo intero è quarantacinque gradi.",
+      "speech": "Passaggio uno: l'angolo intero è quarantacinque gradi.",
+      "screen": "Bisezione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: uso uno meno coseno, fratto seno.",
+      "speech": "Passaggio due: uso uno meno coseno, fratto seno.",
+      "screen": "Bisezione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è radice di due meno uno.",
+      "speech": "Passaggio tre: il risultato è radice di due meno uno.",
+      "screen": "Bisezione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dice: con ti uguale a tangente di alfa mezzi, seno e coseno diventano frazioni in ti.",
+      "speech": "La scheda dice: con ti uguale a tangente di alfa mezzi, seno e coseno diventano frazioni in ti.",
+      "screen": "Formule parametriche",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: riconosco il dato: ti è uno.",
+      "speech": "Passaggio uno: riconosco il dato: ti è uno.",
+      "screen": "Formule parametriche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: sostituisco in due ti fratto uno più ti alla seconda.",
+      "speech": "Passaggio due: sostituisco in due ti fratto uno più ti alla seconda.",
+      "screen": "Formule parametriche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è uno.",
+      "speech": "Passaggio tre: il risultato è uno.",
+      "screen": "Formule parametriche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dà quattro formule, che trasformano somme o differenze in prodotti, usando p più q mezzi e p meno q mezzi.",
+      "speech": "La scheda dà quattro formule, che trasformano somme o differenze in prodotti, usando p più q mezzi e p meno q mezzi.",
+      "screen": "Prostaferesi",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: la semisomma è quarantacinque gradi.",
+      "speech": "Passaggio uno: la semisomma è quarantacinque gradi.",
+      "screen": "Prostaferesi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: la semidifferenza è trenta gradi.",
+      "speech": "Passaggio due: la semidifferenza è trenta gradi.",
+      "screen": "Prostaferesi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è radice di sei mezzi.",
+      "speech": "Passaggio tre: il risultato è radice di sei mezzi.",
+      "screen": "Prostaferesi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La scheda dà tre formule, che trasformano prodotti di seni e coseni in somme.",
+      "speech": "La scheda dà tre formule, che trasformano prodotti di seni e coseni in somme.",
+      "screen": "Formule di Werner",
+      "purpose": "Spiegazione visiva: regola della scheda"
+    },
+    {
+      "text": "Passaggio uno: i due angoli sono uguali, quarantacinque gradi.",
+      "speech": "Passaggio uno: i due angoli sono uguali, quarantacinque gradi.",
+      "screen": "Formule di Werner",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Passaggio due: applico la formula con seno di zero e seno di novanta.",
+      "speech": "Passaggio due: applico la formula con seno di zero e seno di novanta.",
+      "screen": "Formule di Werner",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Passaggio tre: il risultato è un mezzo.",
+      "speech": "Passaggio tre: il risultato è un mezzo.",
+      "screen": "Formule di Werner",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, riconosci il gruppo di formule.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, riconosci il gruppo di formule.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi i cursori e cambia i due angoli. Controlla che i due lati della formula coincidano.",
+      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i due angoli. Controlla che i due lati della formula coincidano.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: addizione, duplicazione, bisezione, parametriche. Le prostaferesi portano dalla somma al prodotto, le formule di Werner dal prodotto alla somma.",
+      "speech": "Ricorda: addizione, duplicazione, bisezione, parametriche. Le prostaferesi portano dalla somma al prodotto, le formule di Werner dal prodotto alla somma.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
