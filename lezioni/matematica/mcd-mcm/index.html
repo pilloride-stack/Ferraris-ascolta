@@ -54,7 +54,7 @@
     audioQueue=[...(audioMap[current]||[])];
     playNextAudio();
   }
-  function playNextAudio(){const n=audioQueue.shift();if(!n)return;lessonAudio=new Audio(`../../../audio/matematica-1/episodio-02/frase-${n}.mp3`);lessonAudio.onended=playNextAudio;lessonAudio.play().catch(()=>alert('Tocca di nuovo “Ascolta” per avviare la voce.'))}
+  function playNextAudio(){const n=audioQueue.shift();if(!n)return;lessonAudio=new Audio(`https://raw.githubusercontent.com/pilloride-stack/Ferraris-ascolta/main/audio/matematica-1/episodio-02/frase-${n}.mp3`);lessonAudio.onended=playNextAudio;lessonAudio.play().catch(()=>alert('Tocca di nuovo “Ascolta” per avviare la voce.'))}
   function stopVoice(){audioQueue=[];if(lessonAudio){lessonAudio.pause();lessonAudio.currentTime=0;lessonAudio=null}}
   const divisors=n=>Array.from({length:n},(_,i)=>i+1).filter(x=>n%x===0); const multiples=(n,k=10)=>Array.from({length:k},(_,i)=>n*(i+1));
   function setRows(el,sets,common){el.innerHTML=sets.map(([n,a])=>`<div class="setrow"><b>${n}</b><div class="dots">${a.map(x=>`<span class="dot ${common.includes(x)?'common':''}">${x}</span>`).join('')}</div></div>`).join('')}
