@@ -96,4 +96,29 @@ const style=document.createElement('style');
 style.textContent=`.definition-visual{margin-top:16px;padding:14px;background:#edf5fc;border-radius:15px;text-align:center}.definition-visual svg{display:block;width:min(100%,620px);max-height:280px;margin:auto;background:#fff;border-radius:12px}.definition-visual p{margin:9px 0 0;color:var(--ink)}.definition-visual text{fill:var(--b);font:700 13px system-ui;paint-order:stroke fill;stroke:#fff;stroke-width:4px}.dv-axes line{stroke:#9db4ca;stroke-width:1.5}.dv-shape,.dv-circle{fill:#0a57b714;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}.dv-curve{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linecap:round}.dv-ray,.dv-guide{stroke:#0a57b7;stroke-width:4}.dv-guide{stroke-dasharray:6 5}.dv-accent{fill:none;stroke:#d52b2b;stroke-width:4}.dv-point{fill:#ffd429;stroke:#073b82;stroke-width:2}.dv-box{fill:#fff;stroke:#0a57b7;stroke-width:3}.dv-arrow{fill:none;stroke:#f0a800;stroke-width:5;marker-end:url(#none)}.dv-result{fill:#ffd429;stroke:#073b82;stroke-width:3}.dv-balance{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}`;
 document.head.appendChild(style);
 })();
+</script><style id="retta-visuals-v1">
+.retta-drawing{margin:16px 0 4px;padding:12px;background:#edf5fc;border-radius:16px;text-align:center}
+.retta-drawing svg{display:block;width:min(100%,620px);height:auto;margin:auto;background:#fff;border-radius:12px}
+.retta-drawing p{margin:9px 0 0;color:var(--b);font-weight:750}
+.retta-grid{stroke:#e0eaf3;stroke-width:1}.retta-axis{stroke:#879db4;stroke-width:2}.retta-line{stroke:#0a57b7;stroke-width:4;stroke-linecap:round}.retta-line2{stroke:#e0a900;stroke-width:4;stroke-linecap:round}.retta-guide{stroke:#bd2c2c;stroke-width:2;stroke-dasharray:7 6}.retta-point{fill:#ffd429;stroke:#073b82;stroke-width:2}.retta-angle{fill:none;stroke:#ffd429;stroke-width:6}.retta-drawing text{fill:#073b82;font:800 14px system-ui,sans-serif}
+</style><script>
+(function(){
+const grid='<g class="retta-grid"><path d="M40 30H400M40 70H400M40 110H400M40 150H400M40 190H400M80 15V215M130 15V215M180 15V215M230 15V215M280 15V215M330 15V215M380 15V215"/></g><g class="retta-axis"><path d="M25 190H410M80 215V15"/><path d="M410 190l-9-5v10zM80 15l-5 9h10z" fill="#879db4"/></g>';
+const wrap=(body,caption)=>'<div class="retta-drawing"><svg viewBox="0 0 430 230" role="img" aria-label="'+caption+'">'+grid+body+'</svg><p>'+caption+'</p></div>';
+const drawings=[
+wrap('<line class="retta-line" x1="45" y1="175" x2="390" y2="45"/><text x="300" y="56">y = mx + q</text>','Una retta nel piano cartesiano.'),
+wrap('<line class="retta-line" x1="45" y1="115" x2="400" y2="115"/><line class="retta-line2" x1="230" y1="20" x2="230" y2="210"/><text x="325" y="106">y = k</text><text x="240" y="35">x = h</text>','Retta orizzontale e retta verticale.'),
+wrap('<line class="retta-line" x1="50" y1="185" x2="390" y2="35"/><circle class="retta-point" cx="130" cy="150" r="7"/><circle class="retta-point" cx="330" cy="62" r="7"/><path class="retta-guide" d="M130 150H330V62"/><text x="112" y="140">A</text><text x="340" y="60">B</text><text x="220" y="174">Δx</text><text x="338" y="110">Δy</text>','Il coefficiente angolare misura Δy/Δx.'),
+wrap('<line class="retta-line" x1="45" y1="165" x2="390" y2="65"/><line class="retta-line" x1="45" y1="205" x2="390" y2="105"/><line class="retta-line2" x1="115" y1="25" x2="285" y2="215"/><path class="retta-angle" d="M130 140A30 30 0 0 1 150 165"/><text x="285" y="70">r ∥ s</text><text x="175" y="135">t ⟂ r</text>','Rette parallele e perpendicolari.'),
+wrap('<line class="retta-line" x1="50" y1="180" x2="385" y2="40"/><line class="retta-line2" x1="45" y1="45" x2="390" y2="185"/><circle class="retta-point" cx="217" cy="110" r="8"/><text x="227" y="101">P</text>','L’intersezione è il punto comune alle due rette.'),
+wrap('<line class="retta-line" x1="45" y1="170" x2="390" y2="70"/><circle class="retta-point" cx="160" cy="55" r="8"/><line class="retta-guide" x1="160" y1="55" x2="195" y2="126"/><path class="retta-angle" d="M184 128l-5-12 12-5"/><text x="140" y="45">P</text><text x="170" y="95">d</text>','La distanza si misura lungo la perpendicolare.'),
+wrap('<circle class="retta-point" cx="225" cy="115" r="8"/><line class="retta-line" x1="45" y1="170" x2="405" y2="60"/><line class="retta-line2" x1="55" y1="50" x2="395" y2="180"/><line class="retta-guide" x1="225" y1="20" x2="225" y2="210"/><text x="235" y="106">C</text>','Un fascio proprio: molte rette passano per lo stesso centro.')
+];
+function add(hostId,tabsId){
+ const host=document.getElementById(hostId),tabs=document.getElementById(tabsId); if(!host||!tabs)return;
+ const install=()=>{const card=host.querySelector('.card');if(!card||card.querySelector('.retta-drawing'))return;let i=[...tabs.children].findIndex(x=>x.classList.contains('active'));if(i<0)i=0;card.insertAdjacentHTML('beforeend',drawings[i]||drawings[0])};
+ new MutationObserver(install).observe(host,{childList:true,subtree:true});install();
+}
+add('definition','defTabs');add('example','exTabs');
+})();
 </script></body></html>
