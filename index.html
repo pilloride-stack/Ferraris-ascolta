@@ -349,7 +349,7 @@ function updateProgress() {
 
 function audioFile(index) {
   const n = String(index + 1).padStart(2, "0");
-  return `audio/${folder}/episodio-${selectedEpisode}/frase-${n}.mp3`;
+  return `https://raw.githubusercontent.com/pilloride-stack/Ferraris-ascolta/main/audio/${folder}/episodio-${selectedEpisode}/frase-${n}.mp3`;
 }
 
 async function loadEpisode() {
