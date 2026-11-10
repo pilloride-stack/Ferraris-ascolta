@@ -1,4 +1,5 @@
 exclude:
+  - audio
   - consegne
   - video-src
   - staging
