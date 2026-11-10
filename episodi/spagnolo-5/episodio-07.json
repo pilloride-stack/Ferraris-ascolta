@@ -1,0 +1,635 @@
+{
+  "subject": "Spagnolo",
+  "episode": "07",
+  "title": "Rubén Darío y Unamuno",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la Generazione del 98 e il Modernismo.",
+      "speech": "Nell'episodio scorso abbiamo visto la Generazione del 98 e il Modernismo."
+    },
+    {
+      "text": "Oggi studiamo i due autori più importanti: Rubén Darío e Miguel de Unamuno.",
+      "speech": "Oggi studiamo i due autori più importanti: Rubén Darío e Miguel de Unamuno.",
+      "bold": [
+        [
+          43,
+          54
+        ],
+        [
+          57,
+          74
+        ]
+      ]
+    },
+    {
+      "text": "Rubén Darío nasce in Nicaragua nel 1867.",
+      "speech": "Rubén Darío nasce in Nicaragua nel 1867.",
+      "bold": [
+        [
+          0,
+          11
+        ],
+        [
+          21,
+          30
+        ],
+        [
+          35,
+          39
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "È un bambino prodigio: a tredici anni pubblica già poesie e lo chiamano el poeta niño.",
+      "speech": "È un bambino prodigio: a tredici anni pubblica già poesie e lo chiamano el poeta niño.",
+      "bold": [
+        [
+          72,
+          85
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È un bambino prodigio: a tredici anni pubblica già poesie e lo chiamano"
+        },
+        {
+          "lang": "es",
+          "text": "el poeta niño."
+        }
+      ],
+      "lingua": [
+        [
+          72,
+          85
+        ]
+      ]
+    },
+    {
+      "text": "Viaggia moltissimo, tra il Cile, l'Argentina, la Spagna e Parigi, come giornalista e diplomatico.",
+      "speech": "Viaggia moltissimo, tra il Cile, l'Argentina, la Spagna e Parigi, come giornalista e diplomatico."
+    },
+    {
+      "text": "Muore nel 1916.",
+      "speech": "Muore nel 1916.",
+      "bold": [
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "text": "È il poeta che rinnova la poesia in lingua spagnola.",
+      "speech": "È il poeta che rinnova la poesia in lingua spagnola.",
+      "bold": [
+        [
+          15,
+          22
+        ]
+      ]
+    },
+    {
+      "text": "Le sue opere principali sono Azul..., del 1888, che segna l'inizio del Modernismo; Prosas profanas, del 1896, la raccolta più modernista, piena di principesse, cigni e mitologia;",
+      "speech": "Le sue opere principali sono Azul..., del 1888, che segna l'inizio del Modernismo; Prosas profanas, del 1896, la raccolta più modernista, piena di principesse, cigni e mitologia;",
+      "bold": [
+        [
+          29,
+          36
+        ],
+        [
+          42,
+          46
+        ],
+        [
+          83,
+          98
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Le sue opere principali sono"
+        },
+        {
+          "lang": "es",
+          "text": "Azul..."
+        },
+        {
+          "lang": "it",
+          "text": ", del 1888, che segna l'inizio del Modernismo;"
+        },
+        {
+          "lang": "es",
+          "text": "Prosas profanas"
+        },
+        {
+          "lang": "it",
+          "text": ", del 1896, la raccolta più modernista, piena di principesse, cigni e mitologia;"
+        }
+      ],
+      "lingua": [
+        [
+          29,
+          36
+        ],
+        [
+          83,
+          98
+        ]
+      ]
+    },
+    {
+      "text": "e Cantos de vida y esperanza, del 1905, più matura, che riflette sul tempo che passa e sull'identità dei popoli ispanici.",
+      "speech": "e Cantos de vida y esperanza, del 1905, più matura, che riflette sul tempo che passa e sull'identità dei popoli ispanici.",
+      "bold": [
+        [
+          2,
+          28
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "Cantos de vida y esperanza"
+        },
+        {
+          "lang": "it",
+          "text": ", del 1905, più matura, che riflette sul tempo che passa e sull'identità dei popoli ispanici."
+        }
+      ],
+      "lingua": [
+        [
+          2,
+          28
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi su Sonatina, da Prosas profanas.",
+      "speech": "Fermatevi su Sonatina, da Prosas profanas.",
+      "bold": [
+        [
+          13,
+          21
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fermatevi su"
+        },
+        {
+          "lang": "es",
+          "text": "Sonatina"
+        },
+        {
+          "lang": "it",
+          "text": ", da Prosas profanas."
+        }
+      ],
+      "lingua": [
+        [
+          13,
+          21
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Ascoltate l'inizio: La princesa está triste...",
+      "speech": "Ascoltate l'inizio: La princesa está triste..."
+    },
+    {
+      "text": "¿qué tendrá la princesa?",
+      "speech": "¿qué tendrá la princesa?"
+    },
+    {
+      "text": "Los suspiros se escapan de su boca de fresa.",
+      "speech": "Los suspiros se escapan de su boca de fresa.",
+      "bold": [
+        [
+          null,
+          44
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Los suspiros se escapan de su boca de fresa."
+        },
+        {
+          "lang": "es",
+          "text": "Los suspiros se escapan de su boca de fresa."
+        }
+      ],
+      "lingua": [
+        [
+          null,
+          44
+        ]
+      ]
+    },
+    {
+      "text": "La principessa è triste...",
+      "speech": "La principessa è triste..."
+    },
+    {
+      "text": "che cosa avrà la principessa?",
+      "speech": "che cosa avrà la principessa?"
+    },
+    {
+      "text": "I sospiri le sfuggono dalla bocca di fragola.",
+      "speech": "I sospiri le sfuggono dalla bocca di fragola."
+    },
+    {
+      "text": "La principessa vive in un palazzo, ha tutto, ma non è felice: sogna qualcosa di lontano e sconosciuto.",
+      "speech": "La principessa vive in un palazzo, ha tutto, ma non è felice: sogna qualcosa di lontano e sconosciuto."
+    },
+    {
+      "text": "Alla fine la sua fata madrina le annuncia che un cavaliere sta arrivando per portarle l'amore.",
+      "speech": "Alla fine la sua fata madrina le annuncia che un cavaliere sta arrivando per portarle l'amore."
+    },
+    {
+      "text": "La principessa è il simbolo dell'anima del poeta, insoddisfatta della realtà, che cerca la bellezza e l'ideale.",
+      "speech": "La principessa è il simbolo dell'anima del poeta, insoddisfatta della realtà, che cerca la bellezza e l'ideale.",
+      "bold": [
+        [
+          20,
+          27
+        ],
+        [
+          91,
+          99
+        ],
+        [
+          104,
+          110
+        ]
+      ]
+    },
+    {
+      "text": "I versi sono alessandrini, di quattordici sillabe, molto musicali, come dice anche il titolo, Sonatina.",
+      "speech": "I versi sono alessandrini, di quattordici sillabe, molto musicali, come dice anche il titolo, Sonatina.",
+      "bold": [
+        [
+          13,
+          25
+        ]
+      ]
+    },
+    {
+      "text": "Miguel de Unamuno nasce a Bilbao nel 1864.",
+      "speech": "Miguel de Unamuno nasce a Bilbao nel 1864.",
+      "bold": [
+        [
+          0,
+          17
+        ],
+        [
+          26,
+          32
+        ],
+        [
+          37,
+          41
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "È professore di greco e poi rettore dell'Università di Salamanca.",
+      "speech": "È professore di greco e poi rettore dell'Università di Salamanca.",
+      "bold": [
+        [
+          28,
+          35
+        ],
+        [
+          41,
+          64
+        ]
+      ]
+    },
+    {
+      "text": "È un intellettuale appassionato e polemico: il dittatore Primo de Rivera lo manda al confino nelle Canarie.",
+      "speech": "È un intellettuale appassionato e polemico: il dittatore Primo de Rivera lo manda al confino nelle Canarie."
+    },
+    {
+      "text": "Nel 1936, all'inizio della guerra civile, durante una cerimonia all'università, affronta con coraggio un generale franchista e pronuncia una frase celebre: Venceréis, pero no convenceréis.",
+      "speech": "Nel 1936, all'inizio della guerra civile, durante una cerimonia all'università, affronta con coraggio un generale franchista e pronuncia una frase celebre: Venceréis, pero no convenceréis.",
+      "bold": [
+        [
+          4,
+          8
+        ],
+        [
+          27,
+          40
+        ],
+        [
+          156,
+          188
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel 1936, all'inizio della guerra civile, durante una cerimonia all'università, affronta con coraggio un generale franchista e pronuncia una frase celebre:"
+        },
+        {
+          "lang": "es",
+          "text": "Venceréis, pero no convenceréis."
+        }
+      ],
+      "lingua": [
+        [
+          156,
+          188
+        ]
+      ]
+    },
+    {
+      "text": "Vincerete, ma non convincerete.",
+      "speech": "Vincerete, ma non convincerete."
+    },
+    {
+      "text": "Muore pochi mesi dopo, il 31 dicembre 1936.",
+      "speech": "Muore pochi mesi dopo, il 31 dicembre 1936."
+    },
+    {
+      "text": "Unamuno vive una profonda crisi religiosa: vuole credere in Dio e nell'immortalità, ma la ragione glielo impedisce.",
+      "speech": "Unamuno vive una profonda crisi religiosa: vuole credere in Dio e nell'immortalità, ma la ragione glielo impedisce.",
+      "bold": [
+        [
+          26,
+          41
+        ],
+        [
+          71,
+          82
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "È la lotta tra ragione e fede, che lui chiama agonía, cioè lotta.",
+      "speech": "È la lotta tra ragione e fede, che lui chiama agonía, cioè lotta.",
+      "bold": [
+        [
+          15,
+          22
+        ],
+        [
+          25,
+          29
+        ],
+        [
+          46,
+          52
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È la lotta tra ragione e fede, che lui chiama"
+        },
+        {
+          "lang": "es",
+          "text": "agonía"
+        },
+        {
+          "lang": "it",
+          "text": ", cioè lotta."
+        }
+      ],
+      "lingua": [
+        [
+          46,
+          52
+        ]
+      ]
+    },
+    {
+      "text": "Unamuno chiama i suoi romanzi nivolas, per dire che sono diversi dai romanzi realisti: poche descrizioni, molto dialogo, temi filosofici.",
+      "speech": "Unamuno chiama i suoi romanzi nivolas, per dire che sono diversi dai romanzi realisti: poche descrizioni, molto dialogo, temi filosofici.",
+      "bold": [
+        [
+          30,
+          37
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Unamuno chiama i suoi romanzi"
+        },
+        {
+          "lang": "es",
+          "text": "nivolas"
+        },
+        {
+          "lang": "it",
+          "text": ", per dire che sono diversi dai romanzi realisti: poche descrizioni, molto dialogo, temi filosofici."
+        }
+      ],
+      "lingua": [
+        [
+          30,
+          37
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi su Niebla, Nebbia, del 1914.",
+      "speech": "Fermatevi su Niebla, Nebbia, del 1914.",
+      "bold": [
+        [
+          13,
+          19
+        ],
+        [
+          33,
+          37
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fermatevi su"
+        },
+        {
+          "lang": "es",
+          "text": "Niebla"
+        },
+        {
+          "lang": "it",
+          "text": ", Nebbia, del 1914."
+        }
+      ],
+      "lingua": [
+        [
+          13,
+          19
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Augusto Pérez è un giovane ricco e annoiato, che vive senza obiettivi, come nella nebbia.",
+      "speech": "Augusto Pérez è un giovane ricco e annoiato, che vive senza obiettivi, come nella nebbia.",
+      "bold": [
+        [
+          0,
+          13
+        ]
+      ]
+    },
+    {
+      "text": "Si innamora di Eugenia, una professoressa di pianoforte, che accetta di sposarlo per i suoi soldi, ma pochi giorni prima delle nozze scappa con il suo vero fidanzato.",
+      "speech": "Si innamora di Eugenia, una professoressa di pianoforte, che accetta di sposarlo per i suoi soldi, ma pochi giorni prima delle nozze scappa con il suo vero fidanzato.",
+      "bold": [
+        [
+          15,
+          22
+        ],
+        [
+          133,
+          139
+        ]
+      ]
+    },
+    {
+      "text": "Augusto, disperato, decide di suicidarsi, ma prima va a Salamanca a parlare con...",
+      "speech": "Augusto, disperato, decide di suicidarsi, ma prima va a Salamanca a parlare con...",
+      "bold": [
+        [
+          30,
+          40
+        ]
+      ]
+    },
+    {
+      "text": "Miguel de Unamuno, il suo autore.",
+      "speech": "Miguel de Unamuno, il suo autore.",
+      "bold": [
+        [
+          0,
+          17
+        ]
+      ]
+    },
+    {
+      "text": "È il famoso incontro tra il personaggio e il suo autore.",
+      "speech": "È il famoso incontro tra il personaggio e il suo autore.",
+      "bold": [
+        [
+          28,
+          55
+        ]
+      ]
+    },
+    {
+      "text": "Unamuno gli dice che non può suicidarsi, perché non esiste: è solo un personaggio, e sarà lui, l'autore, a decidere la sua morte.",
+      "speech": "Unamuno gli dice che non può suicidarsi, perché non esiste: è solo un personaggio, e sarà lui, l'autore, a decidere la sua morte.",
+      "bold": [
+        [
+          48,
+          58
+        ]
+      ]
+    },
+    {
+      "text": "Augusto si ribella e gli risponde che forse anche Unamuno è un personaggio di Dio, e che morirà anche lui.",
+      "speech": "Augusto si ribella e gli risponde che forse anche Unamuno è un personaggio di Dio, e che morirà anche lui.",
+      "bold": [
+        [
+          89,
+          95
+        ]
+      ]
+    },
+    {
+      "text": "È un ottimo collegamento con Pirandello e i Sei personaggi in cerca d'autore.",
+      "speech": "È un ottimo collegamento con Pirandello e i Sei personaggi in cerca d'autore.",
+      "bold": [
+        [
+          29,
+          39
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: che cosa simboleggia la principessa di Sonatina?",
+      "speech": "Proviamo un piccolo esercizio insieme: che cosa simboleggia la principessa di Sonatina?",
+      "p": 1
+    },
+    {
+      "text": "Simboleggia l'anima del poeta, triste e insoddisfatta della realtà, che cerca un ideale lontano di bellezza e di amore.",
+      "speech": "Simboleggia l'anima del poeta, triste e insoddisfatta della realtà, che cerca un ideale lontano di bellezza e di amore.",
+      "bold": [
+        [
+          14,
+          29
+        ],
+        [
+          81,
+          87
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: Rubén Darío, maestro del Modernismo, scrive Azul..., Prosas profanas e Cantos de vida y esperanza.",
+      "speech": "Primo: Rubén Darío, maestro del Modernismo, scrive Azul..., Prosas profanas e Cantos de vida y esperanza.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: in Sonatina la principessa triste simboleggia l'anima del poeta che cerca l'ideale.",
+      "speech": "Secondo: in Sonatina la principessa triste simboleggia l'anima del poeta che cerca l'ideale.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: Unamuno vive la lotta tra ragione e fede; in Niebla il personaggio Augusto incontra il suo autore.",
+      "speech": "Terzo: Unamuno vive la lotta tra ragione e fede; in Niebla il personaggio Augusto incontra il suo autore.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio parliamo di Frida Kahlo.",
+      "speech": "Nel prossimo episodio parliamo di Frida Kahlo.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

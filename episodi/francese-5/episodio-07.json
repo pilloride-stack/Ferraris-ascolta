@@ -1,0 +1,605 @@
+{
+  "subject": "Francese",
+  "episode": "07",
+  "title": "Baudelaire et Les Fleurs du mal",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto Zola.",
+      "speech": "Nell'episodio scorso abbiamo visto Zola."
+    },
+    {
+      "text": "Oggi studiamo il padre della poesia moderna: Charles Baudelaire.",
+      "speech": "Oggi studiamo il padre della poesia moderna: Charles Baudelaire.",
+      "bold": [
+        [
+          45,
+          63
+        ]
+      ]
+    },
+    {
+      "text": "Baudelaire nasce a Parigi nel 1821.",
+      "speech": "Baudelaire nasce a Parigi nel 1821.",
+      "bold": [
+        [
+          19,
+          25
+        ],
+        [
+          30,
+          34
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il padre muore quando lui ha sei anni, e la madre, che lui adora, sposa un ufficiale severo, il generale Aupick, che il ragazzo detesta.",
+      "speech": "Il padre muore quando lui ha sei anni, e la madre, che lui adora, sposa un ufficiale severo, il generale Aupick, che il ragazzo detesta."
+    },
+    {
+      "text": "Da giovane vive da dandy, elegante e spendaccione.",
+      "speech": "Da giovane vive da dandy, elegante e spendaccione.",
+      "bold": [
+        [
+          19,
+          24
+        ]
+      ]
+    },
+    {
+      "text": "La famiglia lo manda in viaggio verso le Indie per allontanarlo dalle cattive compagnie: si ferma alle isole Mauritius e della Riunione, e quei paesaggi esotici entreranno nella sua poesia.",
+      "speech": "La famiglia lo manda in viaggio verso le Indie per allontanarlo dalle cattive compagnie: si ferma alle isole Mauritius e della Riunione, e quei paesaggi esotici entreranno nella sua poesia."
+    },
+    {
+      "text": "Spende metà della sua eredità in due anni, e la famiglia gli impone un tutore che controlla il suo denaro.",
+      "speech": "Spende metà della sua eredità in due anni, e la famiglia gli impone un tutore che controlla il suo denaro."
+    },
+    {
+      "text": "Ha una lunga relazione con Jeanne Duval, la sua «Venere nera».",
+      "speech": "Ha una lunga relazione con Jeanne Duval, la sua Venere nera.",
+      "bold": [
+        [
+          27,
+          39
+        ]
+      ]
+    },
+    {
+      "text": "È critico d'arte e traduttore dei racconti di Edgar Allan Poe.",
+      "speech": "È critico d'arte e traduttore dei racconti di Edgar Allan Poe.",
+      "bold": [
+        [
+          46,
+          61
+        ]
+      ]
+    },
+    {
+      "text": "Malato, muore nel 1867, a 46 anni.",
+      "speech": "Malato, muore nel 1867, a 46 anni.",
+      "bold": [
+        [
+          18,
+          22
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi su Les Fleurs du mal, I fiori del male, del 1857, l'unica raccolta di poesie di Baudelaire.",
+      "speech": "Fermatevi su Les Fleurs du mal, I fiori del male, del 1857, l'unica raccolta di poesie di Baudelaire.",
+      "bold": [
+        [
+          13,
+          30
+        ],
+        [
+          54,
+          58
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fermatevi su"
+        },
+        {
+          "lang": "fr",
+          "text": "Les Fleurs du mal"
+        },
+        {
+          "lang": "it",
+          "text": ", I fiori del male, del 1857, l'unica raccolta di poesie di Baudelaire."
+        }
+      ],
+      "lingua": [
+        [
+          13,
+          30
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il titolo è un ossimoro: Baudelaire vuole estrarre la bellezza dal male, dalla bruttezza, dalla città, dal vizio.",
+      "speech": "Il titolo è un ossimoro: Baudelaire vuole estrarre la bellezza dal male, dalla bruttezza, dalla città, dal vizio.",
+      "bold": [
+        [
+          15,
+          23
+        ],
+        [
+          54,
+          62
+        ],
+        [
+          67,
+          71
+        ]
+      ]
+    },
+    {
+      "text": "Come Madame Bovary, il libro ha un processo nel 1857: Baudelaire viene condannato e deve togliere sei poesie.",
+      "speech": "Come Madame Bovary, il libro ha un processo nel 1857: Baudelaire viene condannato e deve togliere sei poesie.",
+      "bold": [
+        [
+          35,
+          43
+        ]
+      ]
+    },
+    {
+      "text": "Il libro ha una struttura precisa in sei sezioni, che raccontano il percorso dell'anima del poeta:",
+      "speech": "Il libro ha una struttura precisa in sei sezioni, che raccontano il percorso dell'anima del poeta:"
+    },
+    {
+      "text": "Spleen et Idéal, dove il poeta è diviso tra l'Ideale, cioè la bellezza, l'amore, l'elevazione, e lo Spleen, cioè l'angoscia, la noia, la malinconia;",
+      "speech": "Spleen et Idéal, dove il poeta è diviso tra l'Ideale, cioè la bellezza, l'amore, l'elevazione, e lo Spleen, cioè l'angoscia, la noia, la malinconia;",
+      "bold": [
+        [
+          0,
+          15
+        ],
+        [
+          46,
+          52
+        ],
+        [
+          100,
+          106
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "fr",
+          "text": "Spleen et Idéal"
+        },
+        {
+          "lang": "it",
+          "text": ", dove il poeta è diviso tra l'Ideale, cioè la bellezza, l'amore, l'elevazione, e lo Spleen, cioè l'angoscia, la noia, la malinconia;"
+        }
+      ],
+      "lingua": [
+        [
+          0,
+          15
+        ]
+      ]
+    },
+    {
+      "text": "i Tableaux parisiens, dove cerca evasione nella città di Parigi; Le Vin, l'ebbrezza; Fleurs du mal, il vizio; Révolte, la ribellione contro Dio; e La Mort, la morte come ultimo viaggio verso l'ignoto.",
+      "speech": "i Tableaux parisiens, dove cerca evasione nella città di Parigi; Le Vin, l'ebbrezza; Fleurs du mal, il vizio; Révolte, la ribellione contro Dio; e La Mort, la morte come ultimo viaggio verso l'ignoto.",
+      "bold": [
+        [
+          2,
+          20
+        ],
+        [
+          65,
+          71
+        ],
+        [
+          85,
+          98
+        ],
+        [
+          110,
+          117
+        ],
+        [
+          147,
+          154
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "i"
+        },
+        {
+          "lang": "fr",
+          "text": "Tableaux parisiens"
+        },
+        {
+          "lang": "it",
+          "text": ", dove cerca evasione nella città di Parigi;"
+        },
+        {
+          "lang": "fr",
+          "text": "Le Vin"
+        },
+        {
+          "lang": "it",
+          "text": ", l'ebbrezza;"
+        },
+        {
+          "lang": "fr",
+          "text": "Fleurs du mal"
+        },
+        {
+          "lang": "it",
+          "text": ", il vizio;"
+        },
+        {
+          "lang": "fr",
+          "text": "Révolte"
+        },
+        {
+          "lang": "it",
+          "text": ", la ribellione contro Dio; e"
+        },
+        {
+          "lang": "fr",
+          "text": "La Mort"
+        },
+        {
+          "lang": "it",
+          "text": ", la morte come ultimo viaggio verso l'ignoto."
+        }
+      ],
+      "lingua": [
+        [
+          2,
+          20
+        ],
+        [
+          65,
+          71
+        ],
+        [
+          85,
+          98
+        ],
+        [
+          110,
+          117
+        ],
+        [
+          147,
+          154
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sulla poesia L'Albatros.",
+      "speech": "Fermatevi sulla poesia L'Albatros.",
+      "bold": [
+        [
+          23,
+          33
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fermatevi sulla poesia"
+        },
+        {
+          "lang": "fr",
+          "text": "L'Albatros."
+        }
+      ],
+      "lingua": [
+        [
+          23,
+          33
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "I marinai, per divertirsi, catturano degli albatri, grandi uccelli del mare.",
+      "speech": "I marinai, per divertirsi, catturano degli albatri, grandi uccelli del mare.",
+      "bold": [
+        [
+          43,
+          50
+        ]
+      ]
+    },
+    {
+      "text": "Appena posati sul ponte della nave, questi re dell'azzurro diventano goffi e ridicoli, trascinando le grandi ali bianche come remi.",
+      "speech": "Appena posati sul ponte della nave, questi re dell'azzurro diventano goffi e ridicoli, trascinando le grandi ali bianche come remi."
+    },
+    {
+      "text": "Un marinaio li stuzzica, un altro li imita zoppicando.",
+      "speech": "Un marinaio li stuzzica, un altro li imita zoppicando."
+    },
+    {
+      "text": "E nell'ultima strofa arriva la spiegazione: Le Poète est semblable au prince des nuées qui hante la tempête et se rit de l'archer; exilé sur le sol au milieu des huées, ses ailes de géant l'empêchent de marcher.",
+      "speech": "E nell'ultima strofa arriva la spiegazione: Le Poète est semblable au prince des nuées qui hante la tempête et se rit de l'archer; exilé sur le sol au milieu des huées, ses ailes de géant l'empêchent de marcher.",
+      "bold": [
+        [
+          44,
+          211
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "E nell'ultima strofa arriva la spiegazione:"
+        },
+        {
+          "lang": "fr",
+          "text": "Le Poète est semblable au prince des nuées qui hante la tempête et se rit de l'archer; exilé sur le sol au milieu des huées, ses ailes de géant l'empêchent de marcher."
+        }
+      ],
+      "lingua": [
+        [
+          44,
+          211
+        ]
+      ]
+    },
+    {
+      "text": "Il poeta è simile al principe delle nuvole, che abita la tempesta e ride dell'arciere; esiliato a terra tra gli scherni, le sue ali di gigante gli impediscono di camminare.",
+      "speech": "Il poeta è simile al principe delle nuvole, che abita la tempesta e ride dell'arciere; esiliato a terra tra gli scherni, le sue ali di gigante gli impediscono di camminare."
+    },
+    {
+      "text": "L'albatro è il simbolo del poeta: grande nel mondo dell'Ideale, ma incompreso e deriso nella società.",
+      "speech": "L'albatro è il simbolo del poeta: grande nel mondo dell'Ideale, ma incompreso e deriso nella società.",
+      "bold": [
+        [
+          15,
+          32
+        ],
+        [
+          56,
+          62
+        ],
+        [
+          67,
+          77
+        ]
+      ]
+    },
+    {
+      "text": "È il tema del poeta maledetto.",
+      "speech": "È il tema del poeta maledetto.",
+      "bold": [
+        [
+          14,
+          29
+        ]
+      ]
+    },
+    {
+      "text": "La poesia è un'allegoria, con l'antitesi tra grandezza e miseria.",
+      "speech": "La poesia è un'allegoria, con l'antitesi tra grandezza e miseria.",
+      "bold": [
+        [
+          15,
+          24
+        ],
+        [
+          32,
+          40
+        ]
+      ]
+    },
+    {
+      "text": "Nel sonetto Correspondances, Baudelaire dice che la natura è un tempio pieno di simboli misteriosi.",
+      "speech": "Nel sonetto Correspondances, Baudelaire dice che la natura è un tempio pieno di simboli misteriosi.",
+      "bold": [
+        [
+          12,
+          27
+        ],
+        [
+          52,
+          58
+        ],
+        [
+          64,
+          70
+        ],
+        [
+          80,
+          87
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Nel sonetto"
+        },
+        {
+          "lang": "fr",
+          "text": "Correspondances"
+        },
+        {
+          "lang": "it",
+          "text": ", Baudelaire dice che la natura è un tempio pieno di simboli misteriosi."
+        }
+      ],
+      "lingua": [
+        [
+          12,
+          27
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Esistono legami segreti tra il mondo materiale e quello spirituale, e tra i sensi: i profumi, i colori e i suoni si rispondono.",
+      "speech": "Esistono legami segreti tra il mondo materiale e quello spirituale, e tra i sensi: i profumi, i colori e i suoni si rispondono.",
+      "bold": [
+        [
+          76,
+          81
+        ]
+      ]
+    },
+    {
+      "text": "È la sinestesia.",
+      "speech": "È la sinestesia.",
+      "bold": [
+        [
+          5,
+          15
+        ]
+      ]
+    },
+    {
+      "text": "Il poeta è un veggente che deve decifrare questi simboli.",
+      "speech": "Il poeta è un veggente che deve decifrare questi simboli."
+    },
+    {
+      "text": "Questo sonetto è considerato il manifesto del Simbolismo.",
+      "speech": "Questo sonetto è considerato il manifesto del Simbolismo.",
+      "bold": [
+        [
+          32,
+          56
+        ]
+      ]
+    },
+    {
+      "text": "Dopo Baudelaire, i poeti simbolisti, Verlaine, Rimbaud e Mallarmé, cercheranno di esprimere il mistero della realtà con i simboli e la musica delle parole.",
+      "speech": "Dopo Baudelaire, i poeti simbolisti, Verlaine, Rimbaud e Mallarmé, cercheranno di esprimere il mistero della realtà con i simboli e la musica delle parole.",
+      "bold": [
+        [
+          25,
+          35
+        ],
+        [
+          47,
+          54
+        ],
+        [
+          135,
+          141
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Verlaine li chiamerà poètes maudits, i poeti maledetti.",
+      "speech": "Verlaine li chiamerà poètes maudits, i poeti maledetti.",
+      "bold": [
+        [
+          21,
+          35
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Verlaine li chiamerà"
+        },
+        {
+          "lang": "fr",
+          "text": "poètes maudits"
+        },
+        {
+          "lang": "it",
+          "text": ", i poeti maledetti."
+        }
+      ],
+      "lingua": [
+        [
+          21,
+          35
+        ]
+      ]
+    },
+    {
+      "text": "Baudelaire influenza anche i decadenti italiani, la Scapigliatura, Pascoli e D'Annunzio.",
+      "speech": "Baudelaire influenza anche i decadenti italiani, la Scapigliatura, Pascoli e D'Annunzio."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: che cosa simboleggia l'albatro?",
+      "speech": "Proviamo un piccolo esercizio insieme: che cosa simboleggia l'albatro?",
+      "p": 1
+    },
+    {
+      "text": "Simboleggia il poeta: grande nel cielo dell'Ideale, ma ridicolo e incompreso nella società; le sue «ali di gigante» gli impediscono di camminare.",
+      "speech": "Simboleggia il poeta: grande nel cielo dell'Ideale, ma ridicolo e incompreso nella società; le sue ali di gigante gli impediscono di camminare.",
+      "bold": [
+        [
+          15,
+          20
+        ],
+        [
+          44,
+          50
+        ],
+        [
+          55,
+          63
+        ],
+        [
+          66,
+          76
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: Les Fleurs du mal, del 1857, vuole estrarre la bellezza dal male ed è divisa in sei sezioni.",
+      "speech": "Primo: Les Fleurs du mal, del 1857, vuole estrarre la bellezza dal male ed è divisa in sei sezioni.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: il poeta è diviso tra Spleen e Ideale; nell'Albatros il poeta è un essere incompreso, il poeta maledetto.",
+      "speech": "Secondo: il poeta è diviso tra Spleen e Ideale; nell'Albatros il poeta è un essere incompreso, il poeta maledetto.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: Correspondances, con i simboli e la sinestesia, è il manifesto del Simbolismo.",
+      "speech": "Terzo: Correspondances, con i simboli e la sinestesia, è il manifesto del Simbolismo.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio studiamo Apollinaire e le avanguardie.",
+      "speech": "Nel prossimo episodio studiamo Apollinaire e le avanguardie.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

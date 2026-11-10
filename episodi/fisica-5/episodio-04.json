@@ -1,0 +1,313 @@
+{
+  "subject": "Fisica",
+  "episode": "04",
+  "title": "Il potenziale elettrico e i condensatori",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il campo elettrico.",
+      "speech": "Nell'episodio scorso abbiamo visto il campo elettrico."
+    },
+    {
+      "text": "Oggi parliamo di energia: l'energia potenziale elettrica, il potenziale e i condensatori.",
+      "speech": "Oggi parliamo di energia: l'energia potenziale elettrica, il potenziale e i condensatori.",
+      "bold": [
+        [
+          17,
+          24
+        ],
+        [
+          28,
+          56
+        ],
+        [
+          61,
+          71
+        ],
+        [
+          76,
+          88
+        ]
+      ]
+    },
+    {
+      "text": "Partiamo da un paragone con la gravità.",
+      "speech": "Partiamo da un paragone con la gravità.",
+      "p": 1
+    },
+    {
+      "text": "Un oggetto sollevato a una certa altezza ha energia potenziale gravitazionale: se lo lasciamo cadere, questa energia si trasforma in movimento.",
+      "speech": "Un oggetto sollevato a una certa altezza ha energia potenziale gravitazionale: se lo lasciamo cadere, questa energia si trasforma in movimento.",
+      "bold": [
+        [
+          44,
+          77
+        ]
+      ]
+    },
+    {
+      "text": "Allo stesso modo, una carica che si trova in un campo elettrico possiede un'energia potenziale elettrica, che dipende dalla sua posizione.",
+      "speech": "Allo stesso modo, una carica che si trova in un campo elettrico possiede un'energia potenziale elettrica, che dipende dalla sua posizione.",
+      "bold": [
+        [
+          76,
+          104
+        ]
+      ]
+    },
+    {
+      "text": "La forza elettrica, come la gravità, è una forza conservativa: il lavoro che compie non dipende dal percorso, ma solo dal punto di partenza e di arrivo.",
+      "speech": "La forza elettrica, come la gravità, è una forza conservativa: il lavoro che compie non dipende dal percorso, ma solo dal punto di partenza e di arrivo.",
+      "bold": [
+        [
+          49,
+          61
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sul concetto di potenziale elettrico.",
+      "speech": "Fermatevi sul concetto di potenziale elettrico.",
+      "bold": [
+        [
+          26,
+          46
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il potenziale in un punto è l'energia potenziale che avrebbe una carica in quel punto, divisa per la carica stessa: V uguale a U fratto q.",
+      "speech": "Il potenziale in un punto è l'energia potenziale che avrebbe una carica in quel punto, divisa per la carica stessa: V uguale a U fratto q.",
+      "bold": [
+        [
+          30,
+          48
+        ],
+        [
+          87,
+          107
+        ]
+      ]
+    },
+    {
+      "text": "Si misura in volt: un volt è un joule fratto coulomb.",
+      "speech": "Si misura in volt: un volt è un joule fratto coulomb.",
+      "bold": [
+        [
+          13,
+          17
+        ]
+      ]
+    },
+    {
+      "text": "Ma la grandezza che conta davvero, nella pratica, è la differenza di potenziale, chiamata anche tensione, tra due punti.",
+      "speech": "Ma la grandezza che conta davvero, nella pratica, è la differenza di potenziale, chiamata anche tensione, tra due punti.",
+      "bold": [
+        [
+          55,
+          79
+        ],
+        [
+          96,
+          104
+        ]
+      ]
+    },
+    {
+      "text": "Le cariche positive si muovono spontaneamente dai punti a potenziale più alto verso quelli a potenziale più basso, come l'acqua scende dall'alto verso il basso.",
+      "speech": "Le cariche positive si muovono spontaneamente dai punti a potenziale più alto verso quelli a potenziale più basso, come l'acqua scende dall'alto verso il basso.",
+      "bold": [
+        [
+          69,
+          77
+        ],
+        [
+          104,
+          113
+        ]
+      ]
+    },
+    {
+      "text": "Quando diciamo che una pila è da un virgola cinque volt, o che la presa di casa è a duecentotrenta volt, parliamo proprio di differenza di potenziale.",
+      "speech": "Quando diciamo che una pila è da un virgola cinque volt, o che la presa di casa è a duecentotrenta volt, parliamo proprio di differenza di potenziale."
+    },
+    {
+      "text": "Il lavoro fatto dal campo per spostare una carica q tra due punti è q per la differenza di potenziale.",
+      "speech": "Il lavoro fatto dal campo per spostare una carica q tra due punti è q per la differenza di potenziale."
+    },
+    {
+      "text": "In un campo uniforme, come tra due piastre parallele, la differenza di potenziale è uguale al campo per la distanza: delta V uguale a E per d.",
+      "speech": "In un campo uniforme, come tra due piastre parallele, la differenza di potenziale è uguale al campo per la distanza: delta V uguale a E per d.",
+      "bold": [
+        [
+          94,
+          99
+        ],
+        [
+          107,
+          115
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Passiamo ai condensatori.",
+      "speech": "Passiamo ai condensatori.",
+      "bold": [
+        [
+          12,
+          24
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Un condensatore è un dispositivo che serve ad accumulare carica elettrica, e quindi energia.",
+      "speech": "Un condensatore è un dispositivo che serve ad accumulare carica elettrica, e quindi energia.",
+      "bold": [
+        [
+          3,
+          15
+        ],
+        [
+          46,
+          56
+        ]
+      ]
+    },
+    {
+      "text": "Il più semplice è il condensatore piano: due lastre metalliche parallele, chiamate armature, separate da un piccolo spazio vuoto o da un materiale isolante, il dielettrico.",
+      "speech": "Il più semplice è il condensatore piano: due lastre metalliche parallele, chiamate armature, separate da un piccolo spazio vuoto o da un materiale isolante, il dielettrico.",
+      "bold": [
+        [
+          21,
+          39
+        ],
+        [
+          83,
+          91
+        ],
+        [
+          160,
+          171
+        ]
+      ]
+    },
+    {
+      "text": "Quando colleghiamo il condensatore a una pila, una armatura si carica positivamente e l'altra negativamente, con cariche uguali e opposte.",
+      "speech": "Quando colleghiamo il condensatore a una pila, una armatura si carica positivamente e l'altra negativamente, con cariche uguali e opposte."
+    },
+    {
+      "text": "Tra le armature si crea un campo elettrico uniforme.",
+      "speech": "Tra le armature si crea un campo elettrico uniforme."
+    },
+    {
+      "text": "La grandezza che caratterizza un condensatore è la capacità, cioè quanta carica riesce ad accumulare per ogni volt di differenza di potenziale: C uguale a Q fratto delta V. Si misura in farad.",
+      "speech": "La grandezza che caratterizza un condensatore è la capacità, cioè quanta carica riesce ad accumulare per ogni volt di differenza di potenziale: C uguale a Q fratto delta V. Si misura in farad.",
+      "bold": [
+        [
+          51,
+          59
+        ],
+        [
+          186,
+          191
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Per un condensatore piano, la capacità è direttamente proporzionale all'area delle armature e inversamente proporzionale alla distanza tra loro, e aumenta se tra le armature si mette un dielettrico.",
+      "speech": "Per un condensatore piano, la capacità è direttamente proporzionale all'area delle armature e inversamente proporzionale alla distanza tra loro, e aumenta se tra le armature si mette un dielettrico.",
+      "bold": [
+        [
+          41,
+          67
+        ],
+        [
+          72,
+          76
+        ],
+        [
+          94,
+          120
+        ],
+        [
+          126,
+          134
+        ]
+      ]
+    },
+    {
+      "text": "I condensatori sono presenti in quasi tutti i circuiti elettronici, nei flash delle macchine fotografiche, nei defibrillatori, che rilasciano in un attimo una grande quantità di energia.",
+      "speech": "I condensatori sono presenti in quasi tutti i circuiti elettronici, nei flash delle macchine fotografiche, nei defibrillatori, che rilasciano in un attimo una grande quantità di energia."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: in che verso si muovono spontaneamente le cariche positive?",
+      "speech": "Proviamo un piccolo esercizio insieme: in che verso si muovono spontaneamente le cariche positive?",
+      "p": 1
+    },
+    {
+      "text": "Si muovono dai punti a potenziale più alto verso quelli a potenziale più basso, come l'acqua che scende verso il basso.",
+      "speech": "Si muovono dai punti a potenziale più alto verso quelli a potenziale più basso, come l'acqua che scende verso il basso.",
+      "bold": [
+        [
+          34,
+          42
+        ],
+        [
+          69,
+          78
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: una carica in un campo elettrico ha energia potenziale; la forza elettrica è conservativa.",
+      "speech": "Primo: una carica in un campo elettrico ha energia potenziale; la forza elettrica è conservativa.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: il potenziale è l'energia per unità di carica e si misura in volt; conta la differenza di potenziale, o tensione.",
+      "speech": "Secondo: il potenziale è l'energia per unità di carica e si misura in volt; conta la differenza di potenziale, o tensione.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: il condensatore accumula carica; la sua capacità è Q fratto delta V, si misura in farad e dipende dall'area e dalla distanza delle armature.",
+      "speech": "Terzo: il condensatore accumula carica; la sua capacità è Q fratto delta V, si misura in farad e dipende dall'area e dalla distanza delle armature.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo la corrente elettrica e la legge di Ohm.",
+      "speech": "Nel prossimo episodio vediamo la corrente elettrica e la legge di Ohm.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

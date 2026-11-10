@@ -1,0 +1,382 @@
+{
+  "subject": "Matematica",
+  "episode": "09",
+  "title": "Lo studio di funzione",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto massimi, minimi e flessi.",
+      "speech": "Nell'episodio scorso abbiamo visto massimi, minimi e flessi."
+    },
+    {
+      "text": "Oggi mettiamo insieme tutto quello che abbiamo imparato e facciamo uno studio di funzione completo, che è l'esercizio più importante dell'anno.",
+      "speech": "Oggi mettiamo insieme tutto quello che abbiamo imparato e facciamo uno studio di funzione completo, che è l'esercizio più importante dell'anno.",
+      "bold": [
+        [
+          71,
+          98
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sullo schema dello studio di funzione: è come una ricetta, con passi da seguire sempre nello stesso ordine.",
+      "speech": "Fermatevi sullo schema dello studio di funzione: è come una ricetta, con passi da seguire sempre nello stesso ordine.",
+      "bold": [
+        [
+          16,
+          22
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Primo passo: il dominio, cioè dove la funzione esiste.",
+      "speech": "Primo passo: il dominio, cioè dove la funzione esiste.",
+      "bold": [
+        [
+          16,
+          23
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo passo: le simmetrie, cioè se la funzione è pari o dispari.",
+      "speech": "Secondo passo: le simmetrie, cioè se la funzione è pari o dispari.",
+      "bold": [
+        [
+          18,
+          27
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo passo: le intersezioni con gli assi: con l'asse y, calcolando f di zero, e con l'asse x, risolvendo f di x uguale a zero.",
+      "speech": "Terzo passo: le intersezioni con gli assi: con l'asse y, calcolando f di zero, e con l'asse x, risolvendo f di x uguale a zero.",
+      "bold": [
+        [
+          16,
+          41
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Quarto passo: il segno della funzione, per sapere dove il grafico sta sopra o sotto l'asse x.",
+      "speech": "Quarto passo: il segno della funzione, per sapere dove il grafico sta sopra o sotto l'asse x.",
+      "bold": [
+        [
+          17,
+          22
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Quinto passo: i limiti agli estremi del dominio e gli asintoti: verticali, orizzontali e obliqui.",
+      "speech": "Quinto passo: i limiti agli estremi del dominio e gli asintoti: verticali, orizzontali e obliqui.",
+      "bold": [
+        [
+          16,
+          22
+        ],
+        [
+          54,
+          62
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Sesto passo: la derivata prima, per trovare dove la funzione cresce e decresce e i massimi e minimi.",
+      "speech": "Sesto passo: la derivata prima, per trovare dove la funzione cresce e decresce e i massimi e minimi.",
+      "bold": [
+        [
+          16,
+          30
+        ],
+        [
+          83,
+          90
+        ],
+        [
+          93,
+          99
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Settimo passo: la derivata seconda, per la concavità e i flessi.",
+      "speech": "Settimo passo: la derivata seconda, per la concavità e i flessi.",
+      "bold": [
+        [
+          18,
+          34
+        ],
+        [
+          43,
+          52
+        ],
+        [
+          57,
+          63
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Ottavo passo: il grafico, disegnato mettendo insieme tutte le informazioni.",
+      "speech": "Ottavo passo: il grafico, disegnato mettendo insieme tutte le informazioni.",
+      "bold": [
+        [
+          17,
+          24
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Facciamo un esempio con una funzione razionale fratta: y uguale a x al quadrato fratto x meno uno.",
+      "speech": "Facciamo un esempio con una funzione razionale fratta: y uguale a x al quadrato fratto x meno uno.",
+      "bold": [
+        [
+          28,
+          53
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il dominio: il denominatore deve essere diverso da zero, quindi x diverso da uno.",
+      "speech": "Il dominio: il denominatore deve essere diverso da zero, quindi x diverso da uno.",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Le simmetrie: sostituendo meno x non si ottiene né la stessa funzione né l'opposta, quindi non è né pari né dispari.",
+      "speech": "Le simmetrie: sostituendo meno x non si ottiene né la stessa funzione né l'opposta, quindi non è né pari né dispari.",
+      "bold": [
+        [
+          3,
+          12
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Le intersezioni: per x uguale a zero, y vale zero; e la funzione si annulla solo per x uguale a zero.",
+      "speech": "Le intersezioni: per x uguale a zero, y vale zero; e la funzione si annulla solo per x uguale a zero.",
+      "bold": [
+        [
+          3,
+          15
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il grafico passa per l'origine.",
+      "speech": "Il grafico passa per l'origine.",
+      "bold": [
+        [
+          23,
+          30
+        ]
+      ]
+    },
+    {
+      "text": "Il segno: il numeratore x al quadrato è sempre positivo o nullo, quindi il segno dipende dal denominatore.",
+      "speech": "Il segno: il numeratore x al quadrato è sempre positivo o nullo, quindi il segno dipende dal denominatore.",
+      "bold": [
+        [
+          3,
+          8
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La funzione è positiva per x maggiore di uno e negativa per x minore di uno.",
+      "speech": "La funzione è positiva per x maggiore di uno e negativa per x minore di uno.",
+      "bold": [
+        [
+          14,
+          22
+        ],
+        [
+          47,
+          55
+        ]
+      ]
+    },
+    {
+      "text": "Gli asintoti: per x che tende a uno, il denominatore si annulla e il limite è infinito, quindi la retta x uguale a uno è un asintoto verticale.",
+      "speech": "Gli asintoti: per x che tende a uno, il denominatore si annulla e il limite è infinito, quindi la retta x uguale a uno è un asintoto verticale.",
+      "bold": [
+        [
+          4,
+          12
+        ],
+        [
+          124,
+          142
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Per x che tende a infinito, il grado del numeratore supera di uno quello del denominatore, quindi c'è un asintoto obliquo.",
+      "speech": "Per x che tende a infinito, il grado del numeratore supera di uno quello del denominatore, quindi cè un asintoto obliquo.",
+      "bold": [
+        [
+          105,
+          121
+        ]
+      ]
+    },
+    {
+      "text": "Calcolando, si trova m uguale a uno e q uguale a uno: l'asintoto obliquo è y uguale a x più uno.",
+      "speech": "Calcolando, si trova m uguale a uno e q uguale a uno: l'asintoto obliquo è y uguale a x più uno."
+    },
+    {
+      "text": "La derivata prima, con la regola del quoziente, è x al quadrato meno due x, fratto x meno uno al quadrato.",
+      "speech": "La derivata prima, con la regola del quoziente, è x al quadrato meno due x, fratto x meno uno al quadrato.",
+      "bold": [
+        [
+          3,
+          17
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Si annulla per x uguale a zero e per x uguale a due.",
+      "speech": "Si annulla per x uguale a zero e per x uguale a due."
+    },
+    {
+      "text": "Studiando il segno, troviamo che la funzione ha un massimo in zero, dove vale zero, e un minimo in due, dove vale quattro.",
+      "speech": "Studiando il segno, troviamo che la funzione ha un massimo in zero, dove vale zero, e un minimo in due, dove vale quattro.",
+      "bold": [
+        [
+          51,
+          58
+        ],
+        [
+          89,
+          95
+        ]
+      ]
+    },
+    {
+      "text": "La derivata seconda è due fratto x meno uno al cubo: è positiva per x maggiore di uno, dove la concavità è verso l'alto, e negativa per x minore di uno, dove è verso il basso.",
+      "speech": "La derivata seconda è due fratto x meno uno al cubo: è positiva per x maggiore di uno, dove la concavità è verso l'alto, e negativa per x minore di uno, dove è verso il basso.",
+      "bold": [
+        [
+          3,
+          19
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Non ci sono flessi, perché la derivata seconda non si annulla mai.",
+      "speech": "Non ci sono flessi, perché la derivata seconda non si annulla mai."
+    },
+    {
+      "text": "Ora possiamo disegnare il grafico: due rami, separati dall'asintoto verticale x uguale a uno.",
+      "speech": "Ora possiamo disegnare il grafico: due rami, separati dall'asintoto verticale x uguale a uno.",
+      "bold": [
+        [
+          26,
+          33
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il ramo di sinistra sale fino al massimo nell'origine e poi scende verso meno infinito vicino all'asintoto.",
+      "speech": "Il ramo di sinistra sale fino al massimo nell'origine e poi scende verso meno infinito vicino all'asintoto."
+    },
+    {
+      "text": "Il ramo di destra scende da più infinito fino al minimo nel punto due, quattro, e poi risale avvicinandosi all'asintoto obliquo.",
+      "speech": "Il ramo di destra scende da più infinito fino al minimo nel punto due, quattro, e poi risale avvicinandosi all'asintoto obliquo."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: quali sono i primi tre passi di uno studio di funzione?",
+      "speech": "Proviamo un piccolo esercizio insieme: quali sono i primi tre passi di uno studio di funzione?",
+      "p": 1
+    },
+    {
+      "text": "Il dominio, le simmetrie e le intersezioni con gli assi.",
+      "speech": "Il dominio, le simmetrie e le intersezioni con gli assi.",
+      "bold": [
+        [
+          3,
+          10
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          30,
+          55
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: lo studio di funzione segue uno schema in otto passi, dal dominio al grafico.",
+      "speech": "Primo: lo studio di funzione segue uno schema in otto passi, dal dominio al grafico.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: limiti e asintoti descrivono il comportamento agli estremi; la derivata prima dà crescenza, massimi e minimi; la derivata seconda dà concavità e flessi.",
+      "speech": "Secondo: limiti e asintoti descrivono il comportamento agli estremi; la derivata prima dà crescenza, massimi e minimi; la derivata seconda dà concavità e flessi.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: alla fine si mettono insieme tutte le informazioni per disegnare il grafico.",
+      "speech": "Terzo: alla fine si mettono insieme tutte le informazioni per disegnare il grafico.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo e ultimo episodio facciamo il ripasso con le domande guida.",
+      "speech": "Nel prossimo e ultimo episodio facciamo il ripasso con le domande guida.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

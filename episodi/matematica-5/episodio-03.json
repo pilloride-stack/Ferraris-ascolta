@@ -1,0 +1,344 @@
+{
+  "subject": "Matematica",
+  "episode": "03",
+  "title": "La funzione esponenziale e la funzione logaritmica",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto le funzioni e il dominio.",
+      "speech": "Nell'episodio scorso abbiamo visto le funzioni e il dominio."
+    },
+    {
+      "text": "Oggi vediamo due funzioni molto importanti, anche per le applicazioni economiche e scientifiche: la funzione esponenziale e la funzione logaritmica.",
+      "speech": "Oggi vediamo due funzioni molto importanti, anche per le applicazioni economiche e scientifiche: la funzione esponenziale e la funzione logaritmica.",
+      "bold": [
+        [
+          100,
+          121
+        ],
+        [
+          127,
+          147
+        ]
+      ]
+    },
+    {
+      "text": "La funzione esponenziale è y uguale ad a elevato alla x, dove la base a è un numero positivo e diverso da uno.",
+      "speech": "La funzione esponenziale è y uguale ad a elevato alla x, dove la base a è un numero positivo e diverso da uno.",
+      "bold": [
+        [
+          3,
+          24
+        ],
+        [
+          84,
+          92
+        ],
+        [
+          95,
+          109
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La variabile x sta all'esponente.",
+      "speech": "La variabile x sta all'esponente.",
+      "bold": [
+        [
+          23,
+          32
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sulle sue proprietà.",
+      "speech": "Fermatevi sulle sue proprietà."
+    },
+    {
+      "text": "Il dominio è tutto l'insieme dei reali.",
+      "speech": "Il dominio è tutto l'insieme dei reali.",
+      "bold": [
+        [
+          13,
+          38
+        ]
+      ]
+    },
+    {
+      "text": "I valori della funzione sono sempre positivi: il grafico sta tutto sopra l'asse x.",
+      "speech": "I valori della funzione sono sempre positivi: il grafico sta tutto sopra l'asse x.",
+      "bold": [
+        [
+          29,
+          44
+        ]
+      ]
+    },
+    {
+      "text": "Il grafico passa sempre per il punto zero, uno, perché qualunque numero elevato alla zero fa uno.",
+      "speech": "Il grafico passa sempre per il punto zero, uno, perché qualunque numero elevato alla zero fa uno.",
+      "bold": [
+        [
+          37,
+          46
+        ]
+      ]
+    },
+    {
+      "text": "L'asse x è un asintoto orizzontale: il grafico si avvicina sempre di più all'asse x, senza mai toccarlo.",
+      "speech": "L'asse x è un asintoto orizzontale: il grafico si avvicina sempre di più all'asse x, senza mai toccarlo.",
+      "bold": [
+        [
+          14,
+          34
+        ]
+      ]
+    },
+    {
+      "text": "Ci sono due casi.",
+      "speech": "Ci sono due casi.",
+      "p": 1
+    },
+    {
+      "text": "Se la base a è maggiore di uno, come due alla x o e alla x, la funzione è crescente: all'aumentare della x, la y cresce sempre più velocemente.",
+      "speech": "Se la base a è maggiore di uno, come due alla x o e alla x, la funzione è crescente: all'aumentare della x, la y cresce sempre più velocemente.",
+      "bold": [
+        [
+          15,
+          30
+        ],
+        [
+          74,
+          83
+        ]
+      ]
+    },
+    {
+      "text": "È la crescita esponenziale, quella della popolazione o degli interessi composti in banca, o dei contagi in un'epidemia.",
+      "speech": "È la crescita esponenziale, quella della popolazione o degli interessi composti in banca, o dei contagi in un'epidemia."
+    },
+    {
+      "text": "Se la base è compresa tra zero e uno, come un mezzo alla x, la funzione è decrescente, come il decadimento radioattivo.",
+      "speech": "Se la base è compresa tra zero e uno, come un mezzo alla x, la funzione è decrescente, come il decadimento radioattivo.",
+      "bold": [
+        [
+          13,
+          36
+        ],
+        [
+          74,
+          85
+        ]
+      ]
+    },
+    {
+      "text": "Una base speciale è il numero di Nepero, che si indica con la lettera e, ed è circa due virgola settantuno.",
+      "speech": "Una base speciale è il numero di Nepero, che si indica con la lettera e, ed è circa due virgola settantuno.",
+      "bold": [
+        [
+          23,
+          39
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La funzione e alla x è la più usata in matematica.",
+      "speech": "La funzione e alla x è la più usata in matematica."
+    },
+    {
+      "text": "Passiamo alla funzione logaritmica.",
+      "speech": "Passiamo alla funzione logaritmica.",
+      "bold": [
+        [
+          14,
+          34
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Prima ricordiamo che cosa è un logaritmo.",
+      "speech": "Prima ricordiamo che cosa è un logaritmo."
+    },
+    {
+      "text": "Il logaritmo in base a di b è l'esponente a cui bisogna elevare la base a per ottenere b.",
+      "speech": "Il logaritmo in base a di b è l'esponente a cui bisogna elevare la base a per ottenere b.",
+      "bold": [
+        [
+          3,
+          12
+        ]
+      ]
+    },
+    {
+      "text": "Per esempio, il logaritmo in base due di otto è tre, perché due alla terza fa otto.",
+      "speech": "Per esempio, il logaritmo in base due di otto è tre, perché due alla terza fa otto."
+    },
+    {
+      "text": "La funzione logaritmica y uguale al logaritmo in base a di x è l'inversa della funzione esponenziale: il suo grafico è il simmetrico di quello dell'esponenziale rispetto alla bisettrice del primo e terzo quadrante.",
+      "speech": "La funzione logaritmica y uguale al logaritmo in base a di x è l'inversa della funzione esponenziale: il suo grafico è il simmetrico di quello dell'esponenziale rispetto alla bisettrice del primo e terzo quadrante.",
+      "bold": [
+        [
+          12,
+          23
+        ],
+        [
+          65,
+          72
+        ],
+        [
+          122,
+          132
+        ],
+        [
+          175,
+          185
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sulle proprietà del logaritmo.",
+      "speech": "Fermatevi sulle proprietà del logaritmo.",
+      "p": 1
+    },
+    {
+      "text": "Il dominio è x maggiore di zero: il logaritmo esiste solo per argomenti positivi.",
+      "speech": "Il dominio è x maggiore di zero: il logaritmo esiste solo per argomenti positivi.",
+      "bold": [
+        [
+          15,
+          31
+        ]
+      ]
+    },
+    {
+      "text": "Il grafico sta tutto a destra dell'asse y, che è un asintoto verticale.",
+      "speech": "Il grafico sta tutto a destra dell'asse y, che è un asintoto verticale.",
+      "bold": [
+        [
+          52,
+          70
+        ]
+      ]
+    },
+    {
+      "text": "Il grafico passa sempre per il punto uno, zero, perché il logaritmo di uno è sempre zero.",
+      "speech": "Il grafico passa sempre per il punto uno, zero, perché il logaritmo di uno è sempre zero.",
+      "bold": [
+        [
+          37,
+          46
+        ]
+      ]
+    },
+    {
+      "text": "Se la base è maggiore di uno, la funzione è crescente, ma cresce lentamente.",
+      "speech": "Se la base è maggiore di uno, la funzione è crescente, ma cresce lentamente.",
+      "bold": [
+        [
+          44,
+          53
+        ]
+      ]
+    },
+    {
+      "text": "Se la base è compresa tra zero e uno, è decrescente.",
+      "speech": "Se la base è compresa tra zero e uno, è decrescente.",
+      "bold": [
+        [
+          40,
+          51
+        ]
+      ]
+    },
+    {
+      "text": "Il logaritmo in base e si chiama logaritmo naturale e si scrive l n.",
+      "speech": "Il logaritmo in base e si chiama logaritmo naturale e si scrive l n.",
+      "bold": [
+        [
+          33,
+          51
+        ]
+      ]
+    },
+    {
+      "text": "Ricordiamo anche le proprietà dei logaritmi: il logaritmo di un prodotto è la somma dei logaritmi; il logaritmo di un quoziente è la differenza dei logaritmi; il logaritmo di una potenza è l'esponente per il logaritmo della base.",
+      "speech": "Ricordiamo anche le proprietà dei logaritmi: il logaritmo di un prodotto è la somma dei logaritmi; il logaritmo di un quoziente è la differenza dei logaritmi; il logaritmo di una potenza è l'esponente per il logaritmo della base.",
+      "bold": [
+        [
+          20,
+          43
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: per quali valori di x esiste la funzione logaritmo di x meno cinque?",
+      "speech": "Proviamo un piccolo esercizio insieme: per quali valori di x esiste la funzione logaritmo di x meno cinque?",
+      "p": 1
+    },
+    {
+      "text": "L'argomento deve essere maggiore di zero: x meno cinque maggiore di zero, cioè x maggiore di cinque.",
+      "speech": "L'argomento deve essere maggiore di zero: x meno cinque maggiore di zero, cioè x maggiore di cinque.",
+      "bold": [
+        [
+          24,
+          40
+        ],
+        [
+          81,
+          99
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: la funzione esponenziale a alla x è definita per tutti i reali, è sempre positiva e passa per zero, uno; è crescente se a è maggiore di uno.",
+      "speech": "Primo: la funzione esponenziale a alla x è definita per tutti i reali, è sempre positiva e passa per zero, uno; è crescente se a è maggiore di uno.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: la funzione logaritmica è l'inversa dell'esponenziale; esiste solo per x maggiore di zero e passa per uno, zero.",
+      "speech": "Secondo: la funzione logaritmica è l'inversa dell'esponenziale; esiste solo per x maggiore di zero e passa per uno, zero.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: la base e, il numero di Nepero, dà il logaritmo naturale; il logaritmo trasforma prodotti in somme.",
+      "speech": "Terzo: la base e, il numero di Nepero, dà il logaritmo naturale; il logaritmo trasforma prodotti in somme.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo zeri, segno e altre proprietà delle funzioni.",
+      "speech": "Nel prossimo episodio vediamo zeri, segno e altre proprietà delle funzioni.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

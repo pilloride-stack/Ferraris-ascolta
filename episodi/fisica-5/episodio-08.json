@@ -1,0 +1,372 @@
+{
+  "subject": "Fisica",
+  "episode": "08",
+  "title": "Oersted, Faraday, Ampère e la forza di Lorentz",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto i magneti e il campo magnetico.",
+      "speech": "Nell'episodio scorso abbiamo visto i magneti e il campo magnetico."
+    },
+    {
+      "text": "Oggi vediamo una grande scoperta dell'Ottocento: elettricità e magnetismo sono collegati.",
+      "speech": "Oggi vediamo una grande scoperta dell'Ottocento: elettricità e magnetismo sono collegati.",
+      "bold": [
+        [
+          49,
+          88
+        ]
+      ]
+    },
+    {
+      "text": "Fino all'inizio dell'Ottocento si pensava che l'elettricità e il magnetismo fossero fenomeni completamente separati.",
+      "speech": "Fino all'inizio dell'Ottocento si pensava che l'elettricità e il magnetismo fossero fenomeni completamente separati.",
+      "p": 1
+    },
+    {
+      "text": "Tre esperimenti cambiano tutto.",
+      "speech": "Tre esperimenti cambiano tutto."
+    },
+    {
+      "text": "Fermatevi sull'esperienza di Oersted, del 1820.",
+      "speech": "Fermatevi sull'esperienza di Oersted, del 1820.",
+      "bold": [
+        [
+          15,
+          36
+        ],
+        [
+          42,
+          46
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il fisico danese Hans Christian Oersted, durante una lezione, nota che un ago magnetico posto vicino a un filo si muove quando nel filo passa corrente.",
+      "speech": "Il fisico danese Hans Christian Oersted, durante una lezione, nota che un ago magnetico posto vicino a un filo si muove quando nel filo passa corrente.",
+      "bold": [
+        [
+          17,
+          39
+        ],
+        [
+          74,
+          87
+        ],
+        [
+          114,
+          119
+        ]
+      ]
+    },
+    {
+      "text": "Quindi una corrente elettrica crea un campo magnetico.",
+      "speech": "Quindi una corrente elettrica crea un campo magnetico.",
+      "bold": [
+        [
+          11,
+          53
+        ]
+      ]
+    },
+    {
+      "text": "È la prima prova del legame tra elettricità e magnetismo.",
+      "speech": "È la prima prova del legame tra elettricità e magnetismo."
+    },
+    {
+      "text": "Poi l'esperienza di Faraday.",
+      "speech": "Poi l'esperienza di Faraday.",
+      "bold": [
+        [
+          6,
+          27
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "L'inglese Michael Faraday scopre il fenomeno inverso: un campo magnetico esercita una forza su un filo percorso da corrente.",
+      "speech": "L'inglese Michael Faraday scopre il fenomeno inverso: un campo magnetico esercita una forza su un filo percorso da corrente.",
+      "bold": [
+        [
+          10,
+          25
+        ],
+        [
+          57,
+          72
+        ],
+        [
+          86,
+          91
+        ]
+      ]
+    },
+    {
+      "text": "Se mettiamo un filo con corrente tra i poli di una calamita, il filo viene spinto da una parte.",
+      "speech": "Se mettiamo un filo con corrente tra i poli di una calamita, il filo viene spinto da una parte."
+    },
+    {
+      "text": "La forza è perpendicolare sia al filo sia al campo, ed è massima quando il filo è perpendicolare al campo.",
+      "speech": "La forza è perpendicolare sia al filo sia al campo, ed è massima quando il filo è perpendicolare al campo."
+    },
+    {
+      "text": "Su questo principio funzionano i motori elettrici.",
+      "speech": "Su questo principio funzionano i motori elettrici.",
+      "bold": [
+        [
+          33,
+          49
+        ]
+      ]
+    },
+    {
+      "text": "Infine l'esperienza di Ampère.",
+      "speech": "Infine l'esperienza di Ampère.",
+      "bold": [
+        [
+          9,
+          29
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il francese André-Marie Ampère scopre che due fili paralleli percorsi da corrente si attraggono se le correnti hanno lo stesso verso, e si respingono se hanno verso opposto.",
+      "speech": "Il francese André-Marie Ampère scopre che due fili paralleli percorsi da corrente si attraggono se le correnti hanno lo stesso verso, e si respingono se hanno verso opposto.",
+      "bold": [
+        [
+          12,
+          30
+        ],
+        [
+          42,
+          60
+        ],
+        [
+          85,
+          95
+        ],
+        [
+          120,
+          132
+        ],
+        [
+          139,
+          149
+        ],
+        [
+          159,
+          172
+        ]
+      ]
+    },
+    {
+      "text": "Ogni filo crea un campo magnetico che agisce sull'altro.",
+      "speech": "Ogni filo crea un campo magnetico che agisce sull'altro."
+    },
+    {
+      "text": "La forza è proporzionale al prodotto delle due correnti e alla lunghezza dei fili, e inversamente proporzionale alla distanza tra loro.",
+      "speech": "La forza è proporzionale al prodotto delle due correnti e alla lunghezza dei fili, e inversamente proporzionale alla distanza tra loro."
+    },
+    {
+      "text": "Proprio da questo esperimento si definisce l'unità di misura della corrente, l'ampere.",
+      "speech": "Proprio da questo esperimento si definisce l'unità di misura della corrente, l'ampere.",
+      "bold": [
+        [
+          79,
+          85
+        ]
+      ]
+    },
+    {
+      "text": "Passiamo alla forza di Lorentz.",
+      "speech": "Passiamo alla forza di Lorentz.",
+      "bold": [
+        [
+          14,
+          30
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Se la corrente è un flusso di cariche in movimento, e il campo magnetico agisce sulla corrente, allora il campo magnetico agisce su ogni singola carica in movimento.",
+      "speech": "Se la corrente è un flusso di cariche in movimento, e il campo magnetico agisce sulla corrente, allora il campo magnetico agisce su ogni singola carica in movimento.",
+      "bold": [
+        [
+          132,
+          164
+        ]
+      ]
+    },
+    {
+      "text": "Questa forza si chiama forza di Lorentz, dal fisico olandese Hendrik Lorentz.",
+      "speech": "Questa forza si chiama forza di Lorentz, dal fisico olandese Hendrik Lorentz.",
+      "bold": [
+        [
+          23,
+          39
+        ]
+      ]
+    },
+    {
+      "text": "La sua intensità è F uguale a q per v per B per il seno dell'angolo tra la velocità e il campo.",
+      "speech": "La sua intensità è F uguale a q per v per B per il seno dell'angolo tra la velocità e il campo."
+    },
+    {
+      "text": "Fermatevi su alcune caratteristiche importanti.",
+      "speech": "Fermatevi su alcune caratteristiche importanti."
+    },
+    {
+      "text": "La forza agisce solo sulle cariche in movimento: una carica ferma non sente nessuna forza magnetica.",
+      "speech": "La forza agisce solo sulle cariche in movimento: una carica ferma non sente nessuna forza magnetica.",
+      "bold": [
+        [
+          38,
+          47
+        ]
+      ]
+    },
+    {
+      "text": "La forza è perpendicolare sia alla velocità sia al campo.",
+      "speech": "La forza è perpendicolare sia alla velocità sia al campo.",
+      "bold": [
+        [
+          11,
+          25
+        ]
+      ]
+    },
+    {
+      "text": "Per questo non cambia la velocità in modulo, ma solo la direzione: la forza di Lorentz non compie lavoro.",
+      "speech": "Per questo non cambia la velocità in modulo, ma solo la direzione: la forza di Lorentz non compie lavoro.",
+      "bold": [
+        [
+          11,
+          33
+        ],
+        [
+          56,
+          65
+        ]
+      ]
+    },
+    {
+      "text": "Se una carica entra perpendicolarmente in un campo magnetico uniforme, si muove su una circonferenza.",
+      "speech": "Se una carica entra perpendicolarmente in un campo magnetico uniforme, si muove su una circonferenza.",
+      "bold": [
+        [
+          87,
+          100
+        ]
+      ]
+    },
+    {
+      "text": "La direzione della forza si trova con la regola della mano destra.",
+      "speech": "La direzione della forza si trova con la regola della mano destra.",
+      "bold": [
+        [
+          41,
+          65
+        ]
+      ]
+    },
+    {
+      "text": "La forza di Lorentz spiega molti fenomeni:",
+      "speech": "La forza di Lorentz spiega molti fenomeni:",
+      "p": 1
+    },
+    {
+      "text": "le aurore boreali, in cui le particelle del vento solare vengono deviate dal campo magnetico terrestre; il funzionamento dei vecchi televisori a tubo catodico;",
+      "speech": "le aurore boreali, in cui le particelle del vento solare vengono deviate dal campo magnetico terrestre; il funzionamento dei vecchi televisori a tubo catodico;",
+      "bold": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "text": "e i grandi acceleratori di particelle, come quello del CERN di Ginevra, dove enormi magneti curvano la traiettoria delle particelle.",
+      "speech": "e i grandi acceleratori di particelle, come quello del CERN di Ginevra, dove enormi magneti curvano la traiettoria delle particelle.",
+      "bold": [
+        [
+          11,
+          37
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: che cosa succede a due fili paralleli percorsi da correnti nello stesso verso?",
+      "speech": "Proviamo un piccolo esercizio insieme: che cosa succede a due fili paralleli percorsi da correnti nello stesso verso?",
+      "p": 1
+    },
+    {
+      "text": "Si attraggono; se le correnti hanno verso opposto, invece, si respingono.",
+      "speech": "Si attraggono; se le correnti hanno verso opposto, invece, si respingono.",
+      "bold": [
+        [
+          3,
+          13
+        ],
+        [
+          36,
+          49
+        ],
+        [
+          62,
+          72
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: Oersted scopre che una corrente crea un campo magnetico; Faraday che un campo magnetico esercita una forza su un filo con corrente.",
+      "speech": "Primo: Oersted scopre che una corrente crea un campo magnetico; Faraday che un campo magnetico esercita una forza su un filo con corrente.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: Ampère scopre che due fili con correnti nello stesso verso si attraggono, e in verso opposto si respingono.",
+      "speech": "Secondo: Ampère scopre che due fili con correnti nello stesso verso si attraggono, e in verso opposto si respingono.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: la forza di Lorentz agisce sulle cariche in movimento, è perpendicolare alla velocità e al campo e fa muovere le cariche su traiettorie circolari.",
+      "speech": "Terzo: la forza di Lorentz agisce sulle cariche in movimento, è perpendicolare alla velocità e al campo e fa muovere le cariche su traiettorie circolari.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo il campo magnetico creato da un filo, da una spira e da un solenoide.",
+      "speech": "Nel prossimo episodio vediamo il campo magnetico creato da un filo, da una spira e da un solenoide.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

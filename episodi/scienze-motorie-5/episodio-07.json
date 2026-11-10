@@ -1,0 +1,403 @@
+{
+  "subject": "Scienze Motorie e Sportive",
+  "episode": "07",
+  "title": "Il corpo umano e la traumatologia sportiva",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il calcio a cinque e la pallamano.",
+      "speech": "Nell'episodio scorso abbiamo visto il calcio a cinque e la pallamano."
+    },
+    {
+      "text": "Oggi studiamo un po' di anatomia e gli infortuni dello sport.",
+      "speech": "Oggi studiamo un po' di anatomia e gli infortuni dello sport.",
+      "bold": [
+        [
+          24,
+          32
+        ],
+        [
+          39,
+          48
+        ]
+      ]
+    },
+    {
+      "text": "Lo scheletro dell'adulto ha circa duecentosei ossa.",
+      "speech": "Lo scheletro dell'adulto ha circa duecentosei ossa.",
+      "bold": [
+        [
+          3,
+          12
+        ],
+        [
+          34,
+          50
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Sostiene il corpo, protegge gli organi, come il cranio protegge il cervello, permette il movimento, produce le cellule del sangue nel midollo e fa da riserva di calcio.",
+      "speech": "Sostiene il corpo, protegge gli organi, come il cranio protegge il cervello, permette il movimento, produce le cellule del sangue nel midollo e fa da riserva di calcio.",
+      "bold": [
+        [
+          19,
+          27
+        ]
+      ]
+    },
+    {
+      "text": "Le articolazioni possono essere immobili, come nel cranio, semimobili, come tra le vertebre, o mobili, come la spalla e il ginocchio, rinforzate dai legamenti e lubrificate dal liquido sinoviale.",
+      "speech": "Le articolazioni possono essere immobili, come nel cranio, semimobili, come tra le vertebre, o mobili, come la spalla e il ginocchio, rinforzate dai legamenti e lubrificate dal liquido sinoviale.",
+      "bold": [
+        [
+          3,
+          16
+        ],
+        [
+          95,
+          101
+        ],
+        [
+          149,
+          158
+        ]
+      ]
+    },
+    {
+      "text": "Nel corpo ci sono più di seicento muscoli.",
+      "speech": "Nel corpo ci sono più di seicento muscoli.",
+      "bold": [
+        [
+          34,
+          41
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il muscolo scheletrico è volontario e muove le ossa, a cui è collegato dai tendini; il muscolo liscio è negli organi interni ed è involontario; il muscolo cardiaco forma il cuore.",
+      "speech": "Il muscolo scheletrico è volontario e muove le ossa, a cui è collegato dai tendini; il muscolo liscio è negli organi interni ed è involontario; il muscolo cardiaco forma il cuore.",
+      "bold": [
+        [
+          11,
+          22
+        ],
+        [
+          75,
+          82
+        ],
+        [
+          95,
+          101
+        ],
+        [
+          155,
+          163
+        ]
+      ]
+    },
+    {
+      "text": "I muscoli lavorano in coppia: quando l'agonista si contrae, l'antagonista si rilassa, come il bicipite e il tricipite.",
+      "speech": "I muscoli lavorano in coppia: quando l'agonista si contrae, l'antagonista si rilassa, come il bicipite e il tricipite.",
+      "bold": [
+        [
+          39,
+          47
+        ],
+        [
+          62,
+          73
+        ]
+      ]
+    },
+    {
+      "text": "Il cuore pompa il sangue nelle arterie e lo riceve dalle vene; a riposo batte circa sessanta o ottanta volte al minuto, e negli atleti anche meno, la bradicardia dello sportivo.",
+      "speech": "Il cuore pompa il sangue nelle arterie e lo riceve dalle vene; a riposo batte circa sessanta o ottanta volte al minuto, e negli atleti anche meno, la bradicardia dello sportivo.",
+      "bold": [
+        [
+          3,
+          8
+        ],
+        [
+          84,
+          118
+        ]
+      ]
+    },
+    {
+      "text": "Nei polmoni, negli alveoli, l'ossigeno entra nel sangue e l'anidride carbonica viene eliminata.",
+      "speech": "Nei polmoni, negli alveoli, l'ossigeno entra nel sangue e l'anidride carbonica viene eliminata.",
+      "bold": [
+        [
+          4,
+          11
+        ]
+      ]
+    },
+    {
+      "text": "L'attività fisica regolare rafforza il cuore, aumenta la capacità polmonare, rende i muscoli più forti e le ossa più resistenti.",
+      "speech": "L'attività fisica regolare rafforza il cuore, aumenta la capacità polmonare, rende i muscoli più forti e le ossa più resistenti."
+    },
+    {
+      "text": "Fermatevi sulla traumatologia sportiva.",
+      "speech": "Fermatevi sulla traumatologia sportiva.",
+      "bold": [
+        [
+          16,
+          38
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Partiamo dai traumi ai muscoli.",
+      "speech": "Partiamo dai traumi ai muscoli.",
+      "bold": [
+        [
+          23,
+          30
+        ]
+      ]
+    },
+    {
+      "text": "Il crampo è una contrazione involontaria e dolorosa: si allunga dolcemente il muscolo.",
+      "speech": "Il crampo è una contrazione involontaria e dolorosa: si allunga dolcemente il muscolo.",
+      "bold": [
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "text": "La contrattura è un muscolo che resta contratto e dolente, senza lesione.",
+      "speech": "La contrattura è un muscolo che resta contratto e dolente, senza lesione.",
+      "bold": [
+        [
+          3,
+          14
+        ]
+      ]
+    },
+    {
+      "text": "Lo stiramento è un allungamento eccessivo delle fibre.",
+      "speech": "Lo stiramento è un allungamento eccessivo delle fibre.",
+      "bold": [
+        [
+          3,
+          13
+        ]
+      ]
+    },
+    {
+      "text": "Lo strappo, o lesione muscolare, è la rottura di alcune fibre, con dolore improvviso: serve il medico.",
+      "speech": "Lo strappo, o lesione muscolare, è la rottura di alcune fibre, con dolore improvviso: serve il medico.",
+      "bold": [
+        [
+          3,
+          10
+        ],
+        [
+          38,
+          45
+        ]
+      ]
+    },
+    {
+      "text": "La contusione è un colpo diretto, con livido.",
+      "speech": "La contusione è un colpo diretto, con livido.",
+      "bold": [
+        [
+          3,
+          13
+        ]
+      ]
+    },
+    {
+      "text": "Poi i traumi alle articolazioni e alle ossa.",
+      "speech": "Poi i traumi alle articolazioni e alle ossa.",
+      "bold": [
+        [
+          18,
+          31
+        ],
+        [
+          39,
+          43
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nella distorsione l'articolazione va oltre il suo limite e poi torna a posto; i legamenti possono essere stirati o rotti; è frequente alla caviglia e al ginocchio.",
+      "speech": "Nella distorsione l'articolazione va oltre il suo limite e poi torna a posto; i legamenti possono essere stirati o rotti; è frequente alla caviglia e al ginocchio.",
+      "bold": [
+        [
+          6,
+          17
+        ],
+        [
+          63,
+          76
+        ]
+      ]
+    },
+    {
+      "text": "Nella lussazione le ossa escono dalla loro posizione e non tornano a posto: non bisogna mai rimetterle a posto da soli, ma immobilizzare e andare al pronto soccorso.",
+      "speech": "Nella lussazione le ossa escono dalla loro posizione e non tornano a posto: non bisogna mai rimetterle a posto da soli, ma immobilizzare e andare al pronto soccorso.",
+      "bold": [
+        [
+          6,
+          16
+        ],
+        [
+          25,
+          31
+        ],
+        [
+          55,
+          66
+        ]
+      ]
+    },
+    {
+      "text": "La frattura è la rottura di un osso, che può essere composta, scomposta o esposta: si immobilizza l'arto e si chiama il centododici.",
+      "speech": "La frattura è la rottura di un osso, che può essere composta, scomposta o esposta: si immobilizza l'arto e si chiama il centododici.",
+      "bold": [
+        [
+          3,
+          11
+        ],
+        [
+          120,
+          131
+        ]
+      ]
+    },
+    {
+      "text": "Per i traumi più comuni si usa il metodo RICE, dalle iniziali di quattro parole inglesi: riposo, ghiaccio, per quindici o venti minuti, non direttamente sulla pelle, compressione con una fasciatura e elevazione dell'arto.",
+      "speech": "Per i traumi più comuni si usa il metodo raiss, dalle iniziali di quattro parole inglesi: riposo, ghiaccio, per quindici o venti minuti, non direttamente sulla pelle, compressione con una fasciatura e elevazione dell'arto.",
+      "bold": [
+        [
+          41,
+          45
+        ],
+        [
+          89,
+          95
+        ],
+        [
+          97,
+          105
+        ],
+        [
+          166,
+          178
+        ],
+        [
+          200,
+          210
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Ricordate anche: per il sangue dal naso si sta seduti con la testa leggermente in avanti, non all'indietro, e si preme la narice; dopo un trauma cranico bisogna fermarsi e farsi controllare.",
+      "speech": "Ricordate anche: per il sangue dal naso si sta seduti con la testa leggermente in avanti, non all'indietro, e si preme la narice; dopo un trauma cranico bisogna fermarsi e farsi controllare.",
+      "bold": [
+        [
+          24,
+          39
+        ],
+        [
+          79,
+          88
+        ],
+        [
+          138,
+          152
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: che differenza c'è tra distorsione e lussazione?",
+      "speech": "Proviamo un piccolo esercizio insieme: che differenza cè tra distorsione e lussazione?",
+      "p": 1
+    },
+    {
+      "text": "Nella distorsione l'articolazione va oltre il limite ma torna a posto; nella lussazione le ossa escono dalla loro posizione e non tornano a posto.",
+      "speech": "Nella distorsione l'articolazione va oltre il limite ma torna a posto; nella lussazione le ossa escono dalla loro posizione e non tornano a posto.",
+      "bold": [
+        [
+          6,
+          17
+        ],
+        [
+          56,
+          69
+        ],
+        [
+          77,
+          87
+        ],
+        [
+          96,
+          102
+        ],
+        [
+          126,
+          137
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: lo scheletro ha circa duecentosei ossa; i muscoli lavorano in coppia, agonista e antagonista; l'allenamento rafforza cuore, polmoni, muscoli e ossa.",
+      "speech": "Primo: lo scheletro ha circa duecentosei ossa; i muscoli lavorano in coppia, agonista e antagonista; l'allenamento rafforza cuore, polmoni, muscoli e ossa.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: i traumi muscolari sono crampo, contrattura, stiramento, strappo e contusione; quelli articolari e ossei sono distorsione, lussazione e frattura.",
+      "speech": "Secondo: i traumi muscolari sono crampo, contrattura, stiramento, strappo e contusione; quelli articolari e ossei sono distorsione, lussazione e frattura.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: per i traumi comuni si usa il metodo RICE: riposo, ghiaccio, compressione ed elevazione.",
+      "speech": "Terzo: per i traumi comuni si usa il metodo raiss: riposo, ghiaccio, compressione ed elevazione.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo il primo soccorso.",
+      "speech": "Nel prossimo episodio vediamo il primo soccorso.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

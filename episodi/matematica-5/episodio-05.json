@@ -1,0 +1,345 @@
+{
+  "subject": "Matematica",
+  "episode": "05",
+  "title": "I limiti: significato, operazioni e forme indeterminate",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto zeri, segno e simmetrie.",
+      "speech": "Nell'episodio scorso abbiamo visto zeri, segno e simmetrie."
+    },
+    {
+      "text": "Oggi entriamo nel concetto più importante dell'analisi matematica: il limite.",
+      "speech": "Oggi entriamo nel concetto più importante dell'analisi matematica: il limite.",
+      "bold": [
+        [
+          70,
+          76
+        ]
+      ]
+    },
+    {
+      "text": "Che cosa significa limite?",
+      "speech": "Che cosa significa limite?",
+      "p": 1
+    },
+    {
+      "text": "Il limite ci dice a che cosa si avvicina il valore di una funzione quando la x si avvicina a un certo numero, oppure quando la x diventa grandissima.",
+      "speech": "Il limite ci dice a che cosa si avvicina il valore di una funzione quando la x si avvicina a un certo numero, oppure quando la x diventa grandissima.",
+      "bold": [
+        [
+          18,
+          40
+        ]
+      ]
+    },
+    {
+      "text": "Attenzione: non ci interessa il valore nel punto, ma il comportamento vicino al punto.",
+      "speech": "Attenzione: non ci interessa il valore nel punto, ma il comportamento vicino al punto.",
+      "bold": [
+        [
+          39,
+          42
+        ],
+        [
+          70,
+          76
+        ]
+      ]
+    },
+    {
+      "text": "Scriviamo: limite per x che tende a c di f di x uguale a l.",
+      "speech": "Scriviamo: limite per x che tende a c di f di x uguale a l."
+    },
+    {
+      "text": "Ci sono quattro casi principali.",
+      "speech": "Ci sono quattro casi principali.",
+      "p": 1
+    },
+    {
+      "text": "Il limite finito per x che tende a un numero finito: per esempio, quando x si avvicina a due, x al quadrato si avvicina a quattro.",
+      "speech": "Il limite finito per x che tende a un numero finito: per esempio, quando x si avvicina a due, x al quadrato si avvicina a quattro.",
+      "bold": [
+        [
+          3,
+          51
+        ]
+      ]
+    },
+    {
+      "text": "Il limite infinito per x che tende a un numero finito: per esempio, uno fratto x, quando x si avvicina a zero da destra, diventa grandissimo, tende a più infinito.",
+      "speech": "Il limite infinito per x che tende a un numero finito: per esempio, uno fratto x, quando x si avvicina a zero da destra, diventa grandissimo, tende a più infinito.",
+      "bold": [
+        [
+          3,
+          53
+        ],
+        [
+          150,
+          162
+        ]
+      ]
+    },
+    {
+      "text": "Il limite finito per x che tende a infinito: per esempio, uno fratto x, quando x diventa grandissimo, si avvicina a zero.",
+      "speech": "Il limite finito per x che tende a infinito: per esempio, uno fratto x, quando x diventa grandissimo, si avvicina a zero.",
+      "bold": [
+        [
+          3,
+          43
+        ]
+      ]
+    },
+    {
+      "text": "E il limite infinito per x che tende a infinito: per esempio, x al quadrato, quando x diventa grandissimo, tende a più infinito.",
+      "speech": "E il limite infinito per x che tende a infinito: per esempio, x al quadrato, quando x diventa grandissimo, tende a più infinito.",
+      "bold": [
+        [
+          5,
+          47
+        ]
+      ]
+    },
+    {
+      "text": "A volte bisogna distinguere il limite destro e il limite sinistro, cioè avvicinarsi al punto da destra o da sinistra.",
+      "speech": "A volte bisogna distinguere il limite destro e il limite sinistro, cioè avvicinarsi al punto da destra o da sinistra.",
+      "bold": [
+        [
+          31,
+          44
+        ],
+        [
+          50,
+          65
+        ]
+      ]
+    },
+    {
+      "text": "Come si calcolano i limiti?",
+      "speech": "Come si calcolano i limiti?",
+      "p": 1
+    },
+    {
+      "text": "Nella maggior parte dei casi basta sostituire il valore a cui tende la x.",
+      "speech": "Nella maggior parte dei casi basta sostituire il valore a cui tende la x.",
+      "bold": [
+        [
+          35,
+          45
+        ]
+      ]
+    },
+    {
+      "text": "Poi si usano le operazioni sui limiti: il limite di una somma è la somma dei limiti, il limite di un prodotto è il prodotto dei limiti, e così via.",
+      "speech": "Poi si usano le operazioni sui limiti: il limite di una somma è la somma dei limiti, il limite di un prodotto è il prodotto dei limiti, e così via.",
+      "bold": [
+        [
+          16,
+          26
+        ]
+      ]
+    },
+    {
+      "text": "Ricordate alcune regole con l'infinito: un numero diviso per infinito fa zero; un numero diverso da zero diviso per zero fa infinito; infinito più infinito fa infinito; infinito per infinito fa infinito.",
+      "speech": "Ricordate alcune regole con l'infinito: un numero diviso per infinito fa zero; un numero diverso da zero diviso per zero fa infinito; infinito più infinito fa infinito; infinito per infinito fa infinito."
+    },
+    {
+      "text": "Fermatevi sulle forme indeterminate, perché sono la parte più importante.",
+      "speech": "Fermatevi sulle forme indeterminate, perché sono la parte più importante.",
+      "bold": [
+        [
+          16,
+          35
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Ci sono alcuni casi in cui non si può dire subito il risultato: più infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero.",
+      "speech": "Ci sono alcuni casi in cui non si può dire subito il risultato: più infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero.",
+      "bold": [
+        [
+          64,
+          90
+        ],
+        [
+          92,
+          109
+        ],
+        [
+          111,
+          135
+        ],
+        [
+          138,
+          154
+        ]
+      ]
+    },
+    {
+      "text": "Non vuol dire che il limite non esiste: vuol dire che bisogna fare dei calcoli per scoprirlo.",
+      "speech": "Non vuol dire che il limite non esiste: vuol dire che bisogna fare dei calcoli per scoprirlo."
+    },
+    {
+      "text": "Vediamo come si risolvono i casi principali.",
+      "speech": "Vediamo come si risolvono i casi principali.",
+      "p": 1
+    },
+    {
+      "text": "Per il limite all'infinito di un polinomio, nella forma infinito meno infinito, si raccoglie la x di grado più alto: il limite dipende solo dal termine di grado massimo.",
+      "speech": "Per il limite all'infinito di un polinomio, nella forma infinito meno infinito, si raccoglie la x di grado più alto: il limite dipende solo dal termine di grado massimo.",
+      "bold": [
+        [
+          33,
+          42
+        ],
+        [
+          144,
+          168
+        ]
+      ]
+    },
+    {
+      "text": "Per il limite all'infinito di una funzione fratta, nella forma infinito fratto infinito, si confrontano i gradi del numeratore e del denominatore.",
+      "speech": "Per il limite all'infinito di una funzione fratta, nella forma infinito fratto infinito, si confrontano i gradi del numeratore e del denominatore.",
+      "bold": [
+        [
+          34,
+          49
+        ],
+        [
+          106,
+          111
+        ]
+      ]
+    },
+    {
+      "text": "Se il grado del numeratore è maggiore, il limite è infinito.",
+      "speech": "Se il grado del numeratore è maggiore, il limite è infinito.",
+      "bold": [
+        [
+          29,
+          37
+        ]
+      ]
+    },
+    {
+      "text": "Se i gradi sono uguali, il limite è il rapporto dei coefficienti dei termini di grado massimo.",
+      "speech": "Se i gradi sono uguali, il limite è il rapporto dei coefficienti dei termini di grado massimo.",
+      "bold": [
+        [
+          16,
+          22
+        ],
+        [
+          39,
+          64
+        ]
+      ]
+    },
+    {
+      "text": "Se il grado del numeratore è minore, il limite è zero.",
+      "speech": "Se il grado del numeratore è minore, il limite è zero.",
+      "bold": [
+        [
+          29,
+          35
+        ],
+        [
+          49,
+          53
+        ]
+      ]
+    },
+    {
+      "text": "Per la forma zero fratto zero con le funzioni fratte, si scompongono numeratore e denominatore e si semplifica il fattore comune.",
+      "speech": "Per la forma zero fratto zero con le funzioni fratte, si scompongono numeratore e denominatore e si semplifica il fattore comune.",
+      "bold": [
+        [
+          13,
+          29
+        ],
+        [
+          57,
+          68
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: quanto vale il limite per x che tende a più infinito di tre x al quadrato più uno, fratto x al quadrato meno cinque?",
+      "speech": "Proviamo un piccolo esercizio insieme: quanto vale il limite per x che tende a più infinito di tre x al quadrato più uno, fratto x al quadrato meno cinque?",
+      "p": 1
+    },
+    {
+      "text": "È la forma infinito fratto infinito, e i gradi sono uguali, entrambi due.",
+      "speech": "È la forma infinito fratto infinito, e i gradi sono uguali, entrambi due.",
+      "bold": [
+        [
+          41,
+          58
+        ]
+      ]
+    },
+    {
+      "text": "Quindi il limite è il rapporto dei coefficienti: tre fratto uno, cioè tre.",
+      "speech": "Quindi il limite è il rapporto dei coefficienti: tre fratto uno, cioè tre.",
+      "bold": [
+        [
+          22,
+          47
+        ],
+        [
+          70,
+          73
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: il limite dice a che cosa si avvicina la funzione quando la x si avvicina a un valore o all'infinito.",
+      "speech": "Primo: il limite dice a che cosa si avvicina la funzione quando la x si avvicina a un valore o all'infinito.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: i limiti si calcolano per sostituzione e con le operazioni sui limiti.",
+      "speech": "Secondo: i limiti si calcolano per sostituzione e con le operazioni sui limiti.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: le forme indeterminate, infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero, si risolvono raccogliendo, confrontando i gradi o scomponendo.",
+      "speech": "Terzo: le forme indeterminate, infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero, si risolvono raccogliendo, confrontando i gradi o scomponendo.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo i limiti notevoli, gli asintoti e la continuità.",
+      "speech": "Nel prossimo episodio vediamo i limiti notevoli, gli asintoti e la continuità.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

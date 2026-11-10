@@ -1,0 +1,354 @@
+{
+  "subject": "Fisica",
+  "episode": "03",
+  "title": "Il campo elettrico e il teorema di Gauss",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la legge di Coulomb.",
+      "speech": "Nell'episodio scorso abbiamo visto la legge di Coulomb."
+    },
+    {
+      "text": "Oggi introduciamo un concetto fondamentale della fisica moderna: il campo elettrico.",
+      "speech": "Oggi introduciamo un concetto fondamentale della fisica moderna: il campo elettrico.",
+      "bold": [
+        [
+          68,
+          83
+        ]
+      ]
+    },
+    {
+      "text": "Come fa una carica ad agire su un'altra carica a distanza, senza toccarla?",
+      "speech": "Come fa una carica ad agire su un'altra carica a distanza, senza toccarla?",
+      "p": 1
+    },
+    {
+      "text": "La fisica risponde con il concetto di campo.",
+      "speech": "La fisica risponde con il concetto di campo.",
+      "bold": [
+        [
+          38,
+          43
+        ]
+      ]
+    },
+    {
+      "text": "Una carica elettrica modifica lo spazio intorno a sé, creando un campo elettrico.",
+      "speech": "Una carica elettrica modifica lo spazio intorno a sé, creando un campo elettrico.",
+      "bold": [
+        [
+          21,
+          39
+        ]
+      ]
+    },
+    {
+      "text": "Quando un'altra carica si trova in quello spazio, sente una forza.",
+      "speech": "Quando un'altra carica si trova in quello spazio, sente una forza."
+    },
+    {
+      "text": "È un po' come il campo gravitazionale della Terra, che agisce su tutti i corpi intorno.",
+      "speech": "È un po' come il campo gravitazionale della Terra, che agisce su tutti i corpi intorno."
+    },
+    {
+      "text": "Fermatevi sulla definizione.",
+      "speech": "Fermatevi sulla definizione.",
+      "p": 1
+    },
+    {
+      "text": "Il campo elettrico in un punto si misura mettendo in quel punto una piccola carica di prova positiva, q.",
+      "speech": "Il campo elettrico in un punto si misura mettendo in quel punto una piccola carica di prova positiva, q.",
+      "bold": [
+        [
+          3,
+          18
+        ],
+        [
+          76,
+          91
+        ]
+      ]
+    },
+    {
+      "text": "Il campo E è uguale alla forza F che agisce sulla carica, divisa per la carica stessa: E uguale a F fratto q.",
+      "speech": "Il campo E è uguale alla forza F che agisce sulla carica, divisa per la carica stessa: E uguale a F fratto q.",
+      "bold": [
+        [
+          25,
+          30
+        ]
+      ]
+    },
+    {
+      "text": "È una grandezza vettoriale, cioè ha un'intensità, una direzione e un verso.",
+      "speech": "È una grandezza vettoriale, cioè ha un'intensità, una direzione e un verso.",
+      "bold": [
+        [
+          16,
+          26
+        ]
+      ]
+    },
+    {
+      "text": "Si misura in newton fratto coulomb.",
+      "speech": "Si misura in newton fratto coulomb.",
+      "bold": [
+        [
+          13,
+          34
+        ]
+      ]
+    },
+    {
+      "text": "Una volta noto il campo, la forza su qualsiasi carica è F uguale a q per E.",
+      "speech": "Una volta noto il campo, la forza su qualsiasi carica è F uguale a q per E."
+    },
+    {
+      "text": "Il campo creato da una carica puntiforme Q, a una distanza r, ha intensità E uguale a k per Q fratto r al quadrato.",
+      "speech": "Il campo creato da una carica puntiforme Q, a una distanza r, ha intensità E uguale a k per Q fratto r al quadrato.",
+      "bold": [
+        [
+          23,
+          40
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "È diretto lungo la retta che passa per la carica: è rivolto verso l'esterno se la carica è positiva, e verso la carica se è negativa.",
+      "speech": "È diretto lungo la retta che passa per la carica: è rivolto verso l'esterno se la carica è positiva, e verso la carica se è negativa.",
+      "bold": [
+        [
+          60,
+          75
+        ],
+        [
+          91,
+          99
+        ],
+        [
+          103,
+          118
+        ],
+        [
+          124,
+          132
+        ]
+      ]
+    },
+    {
+      "text": "Per rappresentare il campo usiamo le linee di campo, un'idea di Michael Faraday.",
+      "speech": "Per rappresentare il campo usiamo le linee di campo, un'idea di Michael Faraday.",
+      "bold": [
+        [
+          37,
+          51
+        ],
+        [
+          64,
+          79
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Sono linee immaginarie, tangenti in ogni punto al vettore campo.",
+      "speech": "Sono linee immaginarie, tangenti in ogni punto al vettore campo."
+    },
+    {
+      "text": "Hanno alcune proprietà.",
+      "speech": "Hanno alcune proprietà."
+    },
+    {
+      "text": "Escono dalle cariche positive ed entrano in quelle negative.",
+      "speech": "Escono dalle cariche positive ed entrano in quelle negative.",
+      "bold": [
+        [
+          0,
+          6
+        ],
+        [
+          33,
+          40
+        ]
+      ]
+    },
+    {
+      "text": "Sono più fitte dove il campo è più intenso.",
+      "speech": "Sono più fitte dove il campo è più intenso.",
+      "bold": [
+        [
+          9,
+          14
+        ]
+      ]
+    },
+    {
+      "text": "Non si incrociano mai.",
+      "speech": "Non si incrociano mai.",
+      "bold": [
+        [
+          0,
+          21
+        ]
+      ]
+    },
+    {
+      "text": "Per una carica isolata sono raggi che partono dalla carica.",
+      "speech": "Per una carica isolata sono raggi che partono dalla carica."
+    },
+    {
+      "text": "Tra due piastre parallele con cariche opposte, il campo è uniforme: le linee sono parallele ed equidistanti.",
+      "speech": "Tra due piastre parallele con cariche opposte, il campo è uniforme: le linee sono parallele ed equidistanti.",
+      "bold": [
+        [
+          58,
+          66
+        ]
+      ]
+    },
+    {
+      "text": "Passiamo al flusso del campo elettrico.",
+      "speech": "Passiamo al flusso del campo elettrico.",
+      "bold": [
+        [
+          12,
+          18
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il flusso attraverso una superficie misura, in modo semplice, quante linee di campo attraversano quella superficie.",
+      "speech": "Il flusso attraverso una superficie misura, in modo semplice, quante linee di campo attraversano quella superficie.",
+      "bold": [
+        [
+          3,
+          9
+        ],
+        [
+          62,
+          83
+        ]
+      ]
+    },
+    {
+      "text": "Dipende dall'intensità del campo, dall'area della superficie e dalla sua inclinazione.",
+      "speech": "Dipende dall'intensità del campo, dall'area della superficie e dalla sua inclinazione."
+    },
+    {
+      "text": "Fermatevi sul teorema di Gauss, uno dei pilastri dell'elettromagnetismo.",
+      "speech": "Fermatevi sul teorema di Gauss, uno dei pilastri dell'elettromagnetismo.",
+      "bold": [
+        [
+          14,
+          30
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Dice che il flusso del campo elettrico attraverso una superficie chiusa è uguale alla carica totale contenuta all'interno della superficie, divisa per la costante dielettrica del vuoto, epsilon zero.",
+      "speech": "Dice che il flusso del campo elettrico attraverso una superficie chiusa è uguale alla carica totale contenuta all'interno della superficie, divisa per la costante dielettrica del vuoto, epsilon zero.",
+      "bold": [
+        [
+          54,
+          71
+        ],
+        [
+          86,
+          99
+        ]
+      ]
+    },
+    {
+      "text": "Che cosa significa?",
+      "speech": "Che cosa significa?"
+    },
+    {
+      "text": "Che il flusso dipende solo dalle cariche interne, e non dalle cariche esterne né dalla forma della superficie.",
+      "speech": "Che il flusso dipende solo dalle cariche interne, e non dalle cariche esterne né dalla forma della superficie.",
+      "bold": [
+        [
+          22,
+          48
+        ]
+      ]
+    },
+    {
+      "text": "Se dentro la superficie non c'è carica, o la carica totale è zero, il flusso è zero: tante linee entrano quante ne escono.",
+      "speech": "Se dentro la superficie non cè carica, o la carica totale è zero, il flusso è zero: tante linee entrano quante ne escono."
+    },
+    {
+      "text": "Il teorema di Gauss permette di calcolare facilmente il campo in situazioni simmetriche.",
+      "speech": "Il teorema di Gauss permette di calcolare facilmente il campo in situazioni simmetriche."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: come sono le linee di campo di una carica positiva isolata?",
+      "speech": "Proviamo un piccolo esercizio insieme: come sono le linee di campo di una carica positiva isolata?",
+      "p": 1
+    },
+    {
+      "text": "Sono raggi che escono dalla carica in tutte le direzioni, più fitti vicino alla carica, dove il campo è più intenso.",
+      "speech": "Sono raggi che escono dalla carica in tutte le direzioni, più fitti vicino alla carica, dove il campo è più intenso.",
+      "bold": [
+        [
+          5,
+          10
+        ],
+        [
+          15,
+          21
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: il campo elettrico è la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb.",
+      "speech": "Primo: il campo elettrico è la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: le linee di campo escono dalle cariche positive, entrano nelle negative e sono più fitte dove il campo è intenso.",
+      "speech": "Secondo: le linee di campo escono dalle cariche positive, entrano nelle negative e sono più fitte dove il campo è intenso.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: il teorema di Gauss dice che il flusso attraverso una superficie chiusa dipende solo dalla carica interna.",
+      "speech": "Terzo: il teorema di Gauss dice che il flusso attraverso una superficie chiusa dipende solo dalla carica interna.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo il potenziale elettrico e i condensatori.",
+      "speech": "Nel prossimo episodio vediamo il potenziale elettrico e i condensatori.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

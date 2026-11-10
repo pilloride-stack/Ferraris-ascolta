@@ -1,0 +1,435 @@
+{
+  "subject": "Matematica",
+  "episode": "10",
+  "title": "Domande guida per il ripasso",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo fatto uno studio di funzione completo.",
+      "speech": "Nell'episodio scorso abbiamo fatto uno studio di funzione completo."
+    },
+    {
+      "text": "Oggi, nell'ultimo episodio del corso di matematica della classe quinta, facciamo un grande ripasso.",
+      "speech": "Oggi, nell'ultimo episodio del corso di matematica della classe quinta, facciamo un grande ripasso.",
+      "bold": [
+        [
+          91,
+          98
+        ]
+      ]
+    },
+    {
+      "text": "Provate a rispondere voi prima di ascoltare la risposta.",
+      "speech": "Provate a rispondere voi prima di ascoltare la risposta."
+    },
+    {
+      "text": "Prima domanda: come si risolve una disequazione di secondo grado?",
+      "speech": "Prima domanda: come si risolve una disequazione di secondo grado?",
+      "p": 1
+    },
+    {
+      "text": "Si trovano le soluzioni dell'equazione associata con il delta, poi si usa la parabola: valori esterni se il verso è concorde con il segno di a, interni se è discorde.",
+      "speech": "Si trovano le soluzioni dell'equazione associata con il delta, poi si usa la parabola: valori esterni se il verso è concorde con il segno di a, interni se è discorde.",
+      "bold": [
+        [
+          56,
+          61
+        ],
+        [
+          77,
+          85
+        ],
+        [
+          94,
+          101
+        ],
+        [
+          144,
+          151
+        ]
+      ]
+    },
+    {
+      "text": "Seconda domanda: che cosa è una funzione?",
+      "speech": "Seconda domanda: che cosa è una funzione?",
+      "p": 1
+    },
+    {
+      "text": "È una legge che associa a ogni x uno e un solo valore y.",
+      "speech": "È una legge che associa a ogni x uno e un solo valore y.",
+      "bold": [
+        [
+          26,
+          30
+        ],
+        [
+          33,
+          46
+        ]
+      ]
+    },
+    {
+      "text": "Terza domanda: che cosa è il dominio e come si trova?",
+      "speech": "Terza domanda: che cosa è il dominio e come si trova?",
+      "p": 1
+    },
+    {
+      "text": "È l'insieme delle x per cui la funzione ha senso: il denominatore diverso da zero, il radicando di una radice pari maggiore o uguale a zero, l'argomento del logaritmo maggiore di zero.",
+      "speech": "È l'insieme delle x per cui la funzione ha senso: il denominatore diverso da zero, il radicando di una radice pari maggiore o uguale a zero, l'argomento del logaritmo maggiore di zero.",
+      "bold": [
+        [
+          40,
+          48
+        ],
+        [
+          53,
+          65
+        ],
+        [
+          86,
+          95
+        ],
+        [
+          143,
+          166
+        ]
+      ]
+    },
+    {
+      "text": "Quarta domanda: quali sono le proprietà della funzione esponenziale?",
+      "speech": "Quarta domanda: quali sono le proprietà della funzione esponenziale?",
+      "p": 1
+    },
+    {
+      "text": "È definita per tutti i reali, è sempre positiva, passa per il punto zero, uno, ed è crescente se la base è maggiore di uno.",
+      "speech": "È definita per tutti i reali, è sempre positiva, passa per il punto zero, uno, ed è crescente se la base è maggiore di uno.",
+      "bold": [
+        [
+          32,
+          47
+        ],
+        [
+          68,
+          77
+        ]
+      ]
+    },
+    {
+      "text": "Quinta domanda: che rapporto c'è tra esponenziale e logaritmo?",
+      "speech": "Quinta domanda: che rapporto cè tra esponenziale e logaritmo?",
+      "p": 1
+    },
+    {
+      "text": "Il logaritmo è la funzione inversa dell'esponenziale; i grafici sono simmetrici rispetto alla bisettrice.",
+      "speech": "Il logaritmo è la funzione inversa dell'esponenziale; i grafici sono simmetrici rispetto alla bisettrice.",
+      "bold": [
+        [
+          18,
+          34
+        ]
+      ]
+    },
+    {
+      "text": "Sesta domanda: quando una funzione è pari e quando è dispari?",
+      "speech": "Sesta domanda: quando una funzione è pari e quando è dispari?",
+      "p": 1
+    },
+    {
+      "text": "È pari se f di meno x è uguale a f di x, ed è simmetrica rispetto all'asse y; è dispari se f di meno x è uguale a meno f di x, ed è simmetrica rispetto all'origine.",
+      "speech": "È pari se f di meno x è uguale a f di x, ed è simmetrica rispetto all'asse y; è dispari se f di meno x è uguale a meno f di x, ed è simmetrica rispetto all'origine.",
+      "bold": [
+        [
+          2,
+          6
+        ],
+        [
+          80,
+          87
+        ]
+      ]
+    },
+    {
+      "text": "Settima domanda: quali sono le forme indeterminate?",
+      "speech": "Settima domanda: quali sono le forme indeterminate?",
+      "p": 1
+    },
+    {
+      "text": "Infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero.",
+      "speech": "Infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero.",
+      "bold": [
+        [
+          0,
+          22
+        ],
+        [
+          24,
+          41
+        ],
+        [
+          43,
+          67
+        ],
+        [
+          70,
+          86
+        ]
+      ]
+    },
+    {
+      "text": "Ottava domanda: come si calcola il limite all'infinito di una funzione fratta?",
+      "speech": "Ottava domanda: come si calcola il limite all'infinito di una funzione fratta?",
+      "p": 1
+    },
+    {
+      "text": "Si confrontano i gradi: se il numeratore ha grado maggiore il limite è infinito, se i gradi sono uguali è il rapporto dei coefficienti, se il numeratore ha grado minore è zero.",
+      "speech": "Si confrontano i gradi: se il numeratore ha grado maggiore il limite è infinito, se i gradi sono uguali è il rapporto dei coefficienti, se il numeratore ha grado minore è zero.",
+      "bold": [
+        [
+          17,
+          22
+        ]
+      ]
+    },
+    {
+      "text": "Nona domanda: quali tipi di asintoti esistono?",
+      "speech": "Nona domanda: quali tipi di asintoti esistono?",
+      "p": 1
+    },
+    {
+      "text": "Verticali, orizzontali e obliqui.",
+      "speech": "Verticali, orizzontali e obliqui.",
+      "bold": [
+        [
+          0,
+          9
+        ],
+        [
+          11,
+          22
+        ],
+        [
+          25,
+          32
+        ]
+      ]
+    },
+    {
+      "text": "Decima domanda: quando una funzione è continua?",
+      "speech": "Decima domanda: quando una funzione è continua?",
+      "p": 1
+    },
+    {
+      "text": "Quando il limite in un punto esiste ed è uguale al valore della funzione in quel punto.",
+      "speech": "Quando il limite in un punto esiste ed è uguale al valore della funzione in quel punto.",
+      "bold": [
+        [
+          10,
+          16
+        ],
+        [
+          29,
+          35
+        ],
+        [
+          41,
+          47
+        ]
+      ]
+    },
+    {
+      "text": "Undicesima domanda: che cosa è la derivata e qual è il suo significato geometrico?",
+      "speech": "Undicesima domanda: che cosa è la derivata e qual è il suo significato geometrico?",
+      "p": 1
+    },
+    {
+      "text": "È il limite del rapporto incrementale; geometricamente è il coefficiente angolare della retta tangente.",
+      "speech": "È il limite del rapporto incrementale; geometricamente è il coefficiente angolare della retta tangente.",
+      "bold": [
+        [
+          5,
+          37
+        ],
+        [
+          60,
+          102
+        ]
+      ]
+    },
+    {
+      "text": "Dodicesima domanda: qual è la derivata di x elevato a n?",
+      "speech": "Dodicesima domanda: qual è la derivata di x elevato a n?",
+      "p": 1
+    },
+    {
+      "text": "È n per x elevato a n meno uno.",
+      "speech": "È n per x elevato a n meno uno.",
+      "bold": [
+        [
+          2,
+          30
+        ]
+      ]
+    },
+    {
+      "text": "Tredicesima domanda: come si trovano massimi e minimi?",
+      "speech": "Tredicesima domanda: come si trovano massimi e minimi?",
+      "p": 1
+    },
+    {
+      "text": "Si cercano i punti in cui la derivata prima si annulla e si studia il suo segno: da positiva a negativa è un massimo, da negativa a positiva è un minimo.",
+      "speech": "Si cercano i punti in cui la derivata prima si annulla e si studia il suo segno: da positiva a negativa è un massimo, da negativa a positiva è un minimo.",
+      "bold": [
+        [
+          29,
+          54
+        ],
+        [
+          109,
+          116
+        ],
+        [
+          146,
+          152
+        ]
+      ]
+    },
+    {
+      "text": "Quattordicesima domanda: a che cosa serve la derivata seconda?",
+      "speech": "Quattordicesima domanda: a che cosa serve la derivata seconda?",
+      "p": 1
+    },
+    {
+      "text": "A studiare la concavità e a trovare i flessi.",
+      "speech": "A studiare la concavità e a trovare i flessi.",
+      "bold": [
+        [
+          14,
+          23
+        ],
+        [
+          38,
+          44
+        ]
+      ]
+    },
+    {
+      "text": "Quindicesima domanda: qual è lo schema dello studio di funzione?",
+      "speech": "Quindicesima domanda: qual è lo schema dello studio di funzione?",
+      "p": 1
+    },
+    {
+      "text": "Dominio, simmetrie, intersezioni, segno, limiti e asintoti, derivata prima, derivata seconda e grafico.",
+      "speech": "Dominio, simmetrie, intersezioni, segno, limiti e asintoti, derivata prima, derivata seconda e grafico.",
+      "bold": [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          20,
+          32
+        ],
+        [
+          34,
+          39
+        ],
+        [
+          41,
+          58
+        ],
+        [
+          60,
+          74
+        ],
+        [
+          76,
+          92
+        ],
+        [
+          95,
+          102
+        ]
+      ]
+    },
+    {
+      "text": "Un ultimo consiglio per il colloquio: la matematica si collega a molte materie.",
+      "speech": "Un ultimo consiglio per il colloquio: la matematica si collega a molte materie.",
+      "p": 1
+    },
+    {
+      "text": "La crescita esponenziale si collega all'economia, con gli interessi composti, e alle scienze, con le epidemie;",
+      "speech": "La crescita esponenziale si collega all'economia, con gli interessi composti, e alle scienze, con le epidemie;",
+      "bold": [
+        [
+          3,
+          24
+        ]
+      ]
+    },
+    {
+      "text": "la derivata come velocità di cambiamento si collega alla fisica; e lo studio dei grafici è utile per leggere i dati in economia e in sociologia.",
+      "speech": "la derivata come velocità di cambiamento si collega alla fisica; e lo studio dei grafici è utile per leggere i dati in economia e in sociologia.",
+      "bold": [
+        [
+          3,
+          11
+        ],
+        [
+          111,
+          115
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: abbiamo ripassato equazioni, disequazioni, funzioni, dominio, esponenziale e logaritmo.",
+      "speech": "Primo: abbiamo ripassato equazioni, disequazioni, funzioni, dominio, esponenziale e logaritmo.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: abbiamo ripassato i limiti, le forme indeterminate, gli asintoti e la continuità.",
+      "speech": "Secondo: abbiamo ripassato i limiti, le forme indeterminate, gli asintoti e la continuità.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: abbiamo ripassato le derivate e lo studio completo di una funzione.",
+      "speech": "Terzo: abbiamo ripassato le derivate e lo studio completo di una funzione.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Con questo episodio abbiamo completato il corso di matematica della classe quinta.",
+      "speech": "Con questo episodio abbiamo completato il corso di matematica della classe quinta.",
+      "p": 1
+    },
+    {
+      "text": "In bocca al lupo per l'esame!",
+      "speech": "In bocca al lupo per l'esame!"
+    }
+  ]
+}

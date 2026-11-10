@@ -1,0 +1,291 @@
+{
+  "subject": "Matematica",
+  "episode": "04",
+  "title": "Zeri, segno, simmetrie e proprietà delle funzioni",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto l'esponenziale e il logaritmo.",
+      "speech": "Nell'episodio scorso abbiamo visto l'esponenziale e il logaritmo."
+    },
+    {
+      "text": "Oggi vediamo altri passi dello studio di funzione: gli zeri, il segno, le simmetrie e alcune proprietà generali.",
+      "speech": "Oggi vediamo altri passi dello studio di funzione: gli zeri, il segno, le simmetrie e alcune proprietà generali.",
+      "bold": [
+        [
+          55,
+          59
+        ],
+        [
+          64,
+          69
+        ],
+        [
+          74,
+          83
+        ]
+      ]
+    },
+    {
+      "text": "Partiamo dagli zeri di una funzione, cioè i punti in cui il grafico incontra l'asse x.",
+      "speech": "Partiamo dagli zeri di una funzione, cioè i punti in cui il grafico incontra l'asse x.",
+      "bold": [
+        [
+          15,
+          19
+        ],
+        [
+          68,
+          85
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Si trovano risolvendo l'equazione f di x uguale a zero.",
+      "speech": "Si trovano risolvendo l'equazione f di x uguale a zero."
+    },
+    {
+      "text": "Per esempio, la funzione x al quadrato meno quattro ha due zeri: meno due e due.",
+      "speech": "Per esempio, la funzione x al quadrato meno quattro ha due zeri: meno due e due."
+    },
+    {
+      "text": "Insieme agli zeri, si trova anche l'intersezione con l'asse y, calcolando f di zero, se zero appartiene al dominio.",
+      "speech": "Insieme agli zeri, si trova anche l'intersezione con l'asse y, calcolando f di zero, se zero appartiene al dominio.",
+      "bold": [
+        [
+          36,
+          61
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sul segno della funzione, perché è un passo fondamentale.",
+      "speech": "Fermatevi sul segno della funzione, perché è un passo fondamentale.",
+      "bold": [
+        [
+          14,
+          19
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Studiare il segno significa capire dove la funzione è positiva, cioè dove il grafico sta sopra l'asse x, e dove è negativa, cioè dove sta sotto.",
+      "speech": "Studiare il segno significa capire dove la funzione è positiva, cioè dove il grafico sta sopra l'asse x, e dove è negativa, cioè dove sta sotto.",
+      "bold": [
+        [
+          54,
+          62
+        ],
+        [
+          89,
+          94
+        ],
+        [
+          114,
+          122
+        ],
+        [
+          138,
+          143
+        ]
+      ]
+    },
+    {
+      "text": "Si risolve la disequazione f di x maggiore di zero.",
+      "speech": "Si risolve la disequazione f di x maggiore di zero."
+    },
+    {
+      "text": "Il risultato si riporta sul piano cartesiano, cancellando le zone in cui il grafico non può passare.",
+      "speech": "Il risultato si riporta sul piano cartesiano, cancellando le zone in cui il grafico non può passare."
+    },
+    {
+      "text": "È come preparare una mappa, che ci dice in quali zone del piano cercare il grafico.",
+      "speech": "È come preparare una mappa, che ci dice in quali zone del piano cercare il grafico."
+    },
+    {
+      "text": "Passiamo alle simmetrie.",
+      "speech": "Passiamo alle simmetrie.",
+      "bold": [
+        [
+          14,
+          23
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Una funzione è pari se f di meno x è uguale a f di x: il suo grafico è simmetrico rispetto all'asse y, come la parabola x al quadrato.",
+      "speech": "Una funzione è pari se f di meno x è uguale a f di x: il suo grafico è simmetrico rispetto all'asse y, come la parabola x al quadrato.",
+      "bold": [
+        [
+          15,
+          19
+        ],
+        [
+          71,
+          101
+        ]
+      ]
+    },
+    {
+      "text": "Una funzione è dispari se f di meno x è uguale a meno f di x: il suo grafico è simmetrico rispetto all'origine, come x al cubo.",
+      "speech": "Una funzione è dispari se f di meno x è uguale a meno f di x: il suo grafico è simmetrico rispetto all'origine, come x al cubo.",
+      "bold": [
+        [
+          15,
+          22
+        ],
+        [
+          79,
+          110
+        ]
+      ]
+    },
+    {
+      "text": "Molte funzioni non sono né pari né dispari.",
+      "speech": "Molte funzioni non sono né pari né dispari."
+    },
+    {
+      "text": "Per verificarlo, si sostituisce meno x al posto di x e si confronta il risultato con la funzione di partenza.",
+      "speech": "Per verificarlo, si sostituisce meno x al posto di x e si confronta il risultato con la funzione di partenza."
+    },
+    {
+      "text": "Se una funzione è pari o dispari, ci basta studiarla per x positivo, e poi la completiamo per simmetria.",
+      "speech": "Se una funzione è pari o dispari, ci basta studiarla per x positivo, e poi la completiamo per simmetria."
+    },
+    {
+      "text": "Infine alcune proprietà più teoriche.",
+      "speech": "Infine alcune proprietà più teoriche.",
+      "p": 1
+    },
+    {
+      "text": "Una funzione è iniettiva se a x diversi corrispondono sempre y diversi: ogni retta orizzontale taglia il grafico al massimo in un punto.",
+      "speech": "Una funzione è iniettiva se a x diversi corrispondono sempre y diversi: ogni retta orizzontale taglia il grafico al massimo in un punto.",
+      "bold": [
+        [
+          15,
+          24
+        ]
+      ]
+    },
+    {
+      "text": "Una funzione è suriettiva se ogni elemento dell'insieme di arrivo è immagine di almeno una x.",
+      "speech": "Una funzione è suriettiva se ogni elemento dell'insieme di arrivo è immagine di almeno una x.",
+      "bold": [
+        [
+          15,
+          25
+        ]
+      ]
+    },
+    {
+      "text": "Una funzione è biiettiva, o biunivoca, se è sia iniettiva sia suriettiva: solo le funzioni biiettive sono invertibili, cioè hanno una funzione inversa.",
+      "speech": "Una funzione è biiettiva, o biunivoca, se è sia iniettiva sia suriettiva: solo le funzioni biiettive sono invertibili, cioè hanno una funzione inversa.",
+      "bold": [
+        [
+          15,
+          24
+        ],
+        [
+          106,
+          117
+        ]
+      ]
+    },
+    {
+      "text": "Per esempio l'esponenziale e il logaritmo sono l'una l'inversa dell'altra.",
+      "speech": "Per esempio l'esponenziale e il logaritmo sono l'una l'inversa dell'altra."
+    },
+    {
+      "text": "Ricordiamo anche le funzioni crescenti e decrescenti: una funzione è crescente se, all'aumentare della x, aumenta anche la y; decrescente se la y diminuisce.",
+      "speech": "Ricordiamo anche le funzioni crescenti e decrescenti: una funzione è crescente se, all'aumentare della x, aumenta anche la y; decrescente se la y diminuisce.",
+      "bold": [
+        [
+          29,
+          38
+        ],
+        [
+          41,
+          52
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Lo studieremo con le derivate.",
+      "speech": "Lo studieremo con le derivate."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: la funzione x alla quarta meno x al quadrato è pari o dispari?",
+      "speech": "Proviamo un piccolo esercizio insieme: la funzione x alla quarta meno x al quadrato è pari o dispari?",
+      "p": 1
+    },
+    {
+      "text": "Sostituiamo meno x: meno x alla quarta è x alla quarta, e meno x al quadrato è x al quadrato.",
+      "speech": "Sostituiamo meno x: meno x alla quarta è x alla quarta, e meno x al quadrato è x al quadrato."
+    },
+    {
+      "text": "Otteniamo la stessa funzione, quindi è pari e simmetrica rispetto all'asse y.",
+      "speech": "Otteniamo la stessa funzione, quindi è pari e simmetrica rispetto all'asse y.",
+      "bold": [
+        [
+          13,
+          28
+        ],
+        [
+          39,
+          43
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: gli zeri sono le intersezioni con l'asse x e si trovano risolvendo f di x uguale a zero.",
+      "speech": "Primo: gli zeri sono le intersezioni con l'asse x e si trovano risolvendo f di x uguale a zero.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: il segno dice dove il grafico sta sopra o sotto l'asse x.",
+      "speech": "Secondo: il segno dice dove il grafico sta sopra o sotto l'asse x.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: una funzione pari è simmetrica rispetto all'asse y, una dispari rispetto all'origine; una funzione biiettiva è invertibile.",
+      "speech": "Terzo: una funzione pari è simmetrica rispetto all'asse y, una dispari rispetto all'origine; una funzione biiettiva è invertibile.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nei limiti.",
+      "speech": "Nel prossimo episodio entriamo nei limiti.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

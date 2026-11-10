@@ -1,0 +1,454 @@
+{
+  "subject": "Fisica",
+  "episode": "10",
+  "title": "Domande guida per il ripasso",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il campo magnetico di un filo, di una spira e di un solenoide.",
+      "speech": "Nell'episodio scorso abbiamo visto il campo magnetico di un filo, di una spira e di un solenoide."
+    },
+    {
+      "text": "Oggi, nell'ultimo episodio del corso di fisica della classe quinta, facciamo un grande ripasso.",
+      "speech": "Oggi, nell'ultimo episodio del corso di fisica della classe quinta, facciamo un grande ripasso.",
+      "bold": [
+        [
+          87,
+          94
+        ]
+      ]
+    },
+    {
+      "text": "Provate a rispondere voi prima di ascoltare la risposta.",
+      "speech": "Provate a rispondere voi prima di ascoltare la risposta."
+    },
+    {
+      "text": "Prima domanda: quali sono i modi per elettrizzare un corpo?",
+      "speech": "Prima domanda: quali sono i modi per elettrizzare un corpo?",
+      "p": 1
+    },
+    {
+      "text": "Per strofinio, per contatto e per induzione.",
+      "speech": "Per strofinio, per contatto e per induzione.",
+      "bold": [
+        [
+          4,
+          13
+        ],
+        [
+          19,
+          27
+        ],
+        [
+          34,
+          43
+        ]
+      ]
+    },
+    {
+      "text": "Seconda domanda: che differenza c'è tra conduttori e isolanti?",
+      "speech": "Seconda domanda: che differenza cè tra conduttori e isolanti?",
+      "p": 1
+    },
+    {
+      "text": "Nei conduttori, come i metalli, le cariche si muovono liberamente; negli isolanti, come la plastica, no.",
+      "speech": "Nei conduttori, come i metalli, le cariche si muovono liberamente; negli isolanti, come la plastica, no.",
+      "bold": [
+        [
+          4,
+          14
+        ],
+        [
+          73,
+          81
+        ]
+      ]
+    },
+    {
+      "text": "Terza domanda: che cosa dice la legge di Coulomb?",
+      "speech": "Terza domanda: che cosa dice la legge di Coulomb?",
+      "p": 1
+    },
+    {
+      "text": "Che la forza tra due cariche è proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza.",
+      "speech": "Che la forza tra due cariche è proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza.",
+      "bold": [
+        [
+          48,
+          70
+        ],
+        [
+          103,
+          126
+        ]
+      ]
+    },
+    {
+      "text": "Quarta domanda: che cosa è il campo elettrico?",
+      "speech": "Quarta domanda: che cosa è il campo elettrico?",
+      "p": 1
+    },
+    {
+      "text": "È la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb.",
+      "speech": "È la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb.",
+      "bold": [
+        [
+          5,
+          30
+        ]
+      ]
+    },
+    {
+      "text": "Quinta domanda: che cosa dice il teorema di Gauss?",
+      "speech": "Quinta domanda: che cosa dice il teorema di Gauss?",
+      "p": 1
+    },
+    {
+      "text": "Che il flusso del campo elettrico attraverso una superficie chiusa dipende solo dalla carica interna.",
+      "speech": "Che il flusso del campo elettrico attraverso una superficie chiusa dipende solo dalla carica interna.",
+      "bold": [
+        [
+          7,
+          13
+        ],
+        [
+          86,
+          100
+        ]
+      ]
+    },
+    {
+      "text": "Sesta domanda: che cosa è la differenza di potenziale?",
+      "speech": "Sesta domanda: che cosa è la differenza di potenziale?",
+      "p": 1
+    },
+    {
+      "text": "È la differenza di energia potenziale per unità di carica tra due punti; si misura in volt.",
+      "speech": "È la differenza di energia potenziale per unità di carica tra due punti; si misura in volt.",
+      "bold": [
+        [
+          19,
+          57
+        ],
+        [
+          86,
+          90
+        ]
+      ]
+    },
+    {
+      "text": "Settima domanda: che cosa è un condensatore?",
+      "speech": "Settima domanda: che cosa è un condensatore?",
+      "p": 1
+    },
+    {
+      "text": "Un dispositivo che accumula carica; la sua capacità è Q fratto delta V e si misura in farad.",
+      "speech": "Un dispositivo che accumula carica; la sua capacità è Q fratto delta V e si misura in farad.",
+      "bold": [
+        [
+          19,
+          34
+        ],
+        [
+          43,
+          51
+        ],
+        [
+          86,
+          91
+        ]
+      ]
+    },
+    {
+      "text": "Ottava domanda: che cosa è la corrente elettrica?",
+      "speech": "Ottava domanda: che cosa è la corrente elettrica?",
+      "p": 1
+    },
+    {
+      "text": "Un flusso ordinato di cariche; si misura in ampere.",
+      "speech": "Un flusso ordinato di cariche; si misura in ampere.",
+      "bold": [
+        [
+          3,
+          29
+        ],
+        [
+          44,
+          50
+        ]
+      ]
+    },
+    {
+      "text": "Nona domanda: che cosa dicono le due leggi di Ohm?",
+      "speech": "Nona domanda: che cosa dicono le due leggi di Ohm?",
+      "p": 1
+    },
+    {
+      "text": "La prima: delta V è uguale a R per i.",
+      "speech": "La prima: delta V è uguale a R per i.",
+      "bold": [
+        [
+          3,
+          8
+        ],
+        [
+          29,
+          36
+        ]
+      ]
+    },
+    {
+      "text": "La seconda: la resistenza è proporzionale alla lunghezza del filo e inversamente proporzionale alla sezione.",
+      "speech": "La seconda: la resistenza è proporzionale alla lunghezza del filo e inversamente proporzionale alla sezione.",
+      "bold": [
+        [
+          3,
+          10
+        ],
+        [
+          47,
+          56
+        ],
+        [
+          100,
+          107
+        ]
+      ]
+    },
+    {
+      "text": "Decima domanda: che cosa è l'effetto Joule?",
+      "speech": "Decima domanda: che cosa è l'effetto Joule?",
+      "p": 1
+    },
+    {
+      "text": "Il riscaldamento di un conduttore attraversato da corrente; la potenza è R per i al quadrato.",
+      "speech": "Il riscaldamento di un conduttore attraversato da corrente; la potenza è R per i al quadrato.",
+      "bold": [
+        [
+          3,
+          16
+        ]
+      ]
+    },
+    {
+      "text": "Undicesima domanda: come si calcola la resistenza equivalente in serie e in parallelo?",
+      "speech": "Undicesima domanda: come si calcola la resistenza equivalente in serie e in parallelo?",
+      "p": 1
+    },
+    {
+      "text": "In serie si sommano le resistenze; in parallelo si sommano gli inversi.",
+      "speech": "In serie si sommano le resistenze; in parallelo si sommano gli inversi.",
+      "bold": [
+        [
+          3,
+          8
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          38,
+          47
+        ],
+        [
+          63,
+          70
+        ]
+      ]
+    },
+    {
+      "text": "Dodicesima domanda: che cosa dicono le leggi di Kirchhoff?",
+      "speech": "Dodicesima domanda: che cosa dicono le leggi di Kirchhoff?",
+      "p": 1
+    },
+    {
+      "text": "La legge dei nodi: le correnti entranti uguagliano quelle uscenti.",
+      "speech": "La legge dei nodi: le correnti entranti uguagliano quelle uscenti.",
+      "bold": [
+        [
+          13,
+          17
+        ]
+      ]
+    },
+    {
+      "text": "La legge delle maglie: la somma delle tensioni in un percorso chiuso è zero.",
+      "speech": "La legge delle maglie: la somma delle tensioni in un percorso chiuso è zero.",
+      "bold": [
+        [
+          15,
+          21
+        ]
+      ]
+    },
+    {
+      "text": "Tredicesima domanda: in che cosa i poli magnetici sono diversi dalle cariche elettriche?",
+      "speech": "Tredicesima domanda: in che cosa i poli magnetici sono diversi dalle cariche elettriche?",
+      "p": 1
+    },
+    {
+      "text": "I poli magnetici non si possono separare: non esistono monopoli magnetici.",
+      "speech": "I poli magnetici non si possono separare: non esistono monopoli magnetici.",
+      "bold": [
+        [
+          17,
+          40
+        ]
+      ]
+    },
+    {
+      "text": "Quattordicesima domanda: che cosa scoprirono Oersted, Faraday e Ampère?",
+      "speech": "Quattordicesima domanda: che cosa scoprirono Oersted, Faraday e Ampère?",
+      "p": 1
+    },
+    {
+      "text": "Oersted: la corrente crea un campo magnetico.",
+      "speech": "Oersted: la corrente crea un campo magnetico.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "text": "Faraday: il campo magnetico esercita una forza su un filo con corrente.",
+      "speech": "Faraday: il campo magnetico esercita una forza su un filo con corrente.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "text": "Ampère: due fili con correnti nello stesso verso si attraggono.",
+      "speech": "Ampère: due fili con correnti nello stesso verso si attraggono.",
+      "bold": [
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "text": "Quindicesima domanda: che cosa è la forza di Lorentz?",
+      "speech": "Quindicesima domanda: che cosa è la forza di Lorentz?",
+      "p": 1
+    },
+    {
+      "text": "È la forza che un campo magnetico esercita su una carica in movimento, perpendicolare alla velocità e al campo.",
+      "speech": "È la forza che un campo magnetico esercita su una carica in movimento, perpendicolare alla velocità e al campo.",
+      "bold": [
+        [
+          50,
+          69
+        ]
+      ]
+    },
+    {
+      "text": "Sedicesima domanda: com'è il campo magnetico dentro un solenoide?",
+      "speech": "Sedicesima domanda: come è il campo magnetico dentro un solenoide?",
+      "p": 1
+    },
+    {
+      "text": "È uniforme, e proporzionale al numero di spire e alla corrente.",
+      "speech": "È uniforme, e proporzionale al numero di spire e alla corrente.",
+      "bold": [
+        [
+          2,
+          10
+        ],
+        [
+          31,
+          46
+        ],
+        [
+          54,
+          62
+        ]
+      ]
+    },
+    {
+      "text": "Un ultimo consiglio per il colloquio: la fisica si collega a molte materie.",
+      "speech": "Un ultimo consiglio per il colloquio: la fisica si collega a molte materie.",
+      "p": 1
+    },
+    {
+      "text": "La pila di Volta e l'elettricità si collegano alla seconda rivoluzione industriale in storia; l'energia si collega all'economia e allo sviluppo sostenibile;",
+      "speech": "La pila di Volta e l'elettricità si collegano alla seconda rivoluzione industriale in storia; l'energia si collega all'economia e allo sviluppo sostenibile;",
+      "bold": [
+        [
+          3,
+          16
+        ],
+        [
+          51,
+          82
+        ],
+        [
+          96,
+          103
+        ]
+      ]
+    },
+    {
+      "text": "e la matematica che abbiamo studiato, come le funzioni di proporzionalità diretta e inversa, ci aiuta a leggere le leggi fisiche.",
+      "speech": "e la matematica che abbiamo studiato, come le funzioni di proporzionalità diretta e inversa, ci aiuta a leggere le leggi fisiche.",
+      "bold": [
+        [
+          5,
+          15
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: abbiamo ripassato la carica elettrica, la legge di Coulomb, il campo elettrico e il potenziale.",
+      "speech": "Primo: abbiamo ripassato la carica elettrica, la legge di Coulomb, il campo elettrico e il potenziale.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: abbiamo ripassato la corrente, le leggi di Ohm, l'effetto Joule e i circuiti.",
+      "speech": "Secondo: abbiamo ripassato la corrente, le leggi di Ohm, l'effetto Joule e i circuiti.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: abbiamo ripassato i magneti, le esperienze di Oersted, Faraday e Ampère, la forza di Lorentz e il solenoide.",
+      "speech": "Terzo: abbiamo ripassato i magneti, le esperienze di Oersted, Faraday e Ampère, la forza di Lorentz e il solenoide.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Con questo episodio abbiamo completato il corso di fisica della classe quinta.",
+      "speech": "Con questo episodio abbiamo completato il corso di fisica della classe quinta.",
+      "p": 1
+    },
+    {
+      "text": "In bocca al lupo per l'esame!",
+      "speech": "In bocca al lupo per l'esame!"
+    }
+  ]
+}

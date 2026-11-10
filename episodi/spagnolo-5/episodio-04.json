@@ -1,0 +1,626 @@
+{
+  "subject": "Spagnolo",
+  "episode": "04",
+  "title": "Espronceda y Bécquer",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto Zorrilla e il mito di Don Juan.",
+      "speech": "Nell'episodio scorso abbiamo visto Zorrilla e il mito di Don Juan."
+    },
+    {
+      "text": "Oggi studiamo due grandi poeti dell'Ottocento: José de Espronceda, romantico, e Gustavo Adolfo Bécquer, postromantico.",
+      "speech": "Oggi studiamo due grandi poeti dell'Ottocento: José de Espronceda, romantico, e Gustavo Adolfo Bécquer, postromantico.",
+      "bold": [
+        [
+          47,
+          65
+        ],
+        [
+          80,
+          102
+        ]
+      ]
+    },
+    {
+      "text": "José de Espronceda nasce nel 1808.",
+      "speech": "José de Espronceda nasce nel 1808.",
+      "bold": [
+        [
+          0,
+          18
+        ],
+        [
+          29,
+          33
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La sua è una vera vita romantica.",
+      "speech": "La sua è una vera vita romantica.",
+      "bold": [
+        [
+          18,
+          32
+        ]
+      ]
+    },
+    {
+      "text": "A quindici anni fonda una società segreta contro l'assolutismo e finisce in carcere.",
+      "speech": "A quindici anni fonda una società segreta contro l'assolutismo e finisce in carcere.",
+      "bold": [
+        [
+          26,
+          41
+        ]
+      ]
+    },
+    {
+      "text": "Poi va in esilio a Lisbona, Londra e Parigi, dove partecipa alla rivoluzione del 1830.",
+      "speech": "Poi va in esilio a Lisbona, Londra e Parigi, dove partecipa alla rivoluzione del 1830.",
+      "bold": [
+        [
+          10,
+          16
+        ]
+      ]
+    },
+    {
+      "text": "Vive un amore scandaloso con Teresa Mancha, che lascia il marito per lui.",
+      "speech": "Vive un amore scandaloso con Teresa Mancha, che lascia il marito per lui.",
+      "bold": [
+        [
+          29,
+          42
+        ]
+      ]
+    },
+    {
+      "text": "Muore nel 1842, a soli 34 anni.",
+      "speech": "Muore nel 1842, a soli 34 anni.",
+      "bold": [
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "text": "Le sue Canciones hanno come protagonisti personaggi emarginati e ribelli: il pirata, il mendicante, il condannato a morte, simboli della libertà.",
+      "speech": "Le sue Canciones hanno come protagonisti personaggi emarginati e ribelli: il pirata, il mendicante, il condannato a morte, simboli della libertà.",
+      "bold": [
+        [
+          7,
+          16
+        ],
+        [
+          52,
+          62
+        ],
+        [
+          137,
+          144
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La più famosa è la Canción del pirata, del 1835.",
+      "speech": "La più famosa è la Canción del pirata, del 1835.",
+      "bold": [
+        [
+          19,
+          37
+        ],
+        [
+          43,
+          47
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La più famosa è la"
+        },
+        {
+          "lang": "es",
+          "text": "Canción del pirata"
+        },
+        {
+          "lang": "it",
+          "text": ", del 1835."
+        }
+      ],
+      "lingua": [
+        [
+          19,
+          37
+        ]
+      ]
+    },
+    {
+      "text": "Un capitano pirata naviga sul suo veliero, senza paura di nulla, fuori dalla legge.",
+      "speech": "Un capitano pirata naviga sul suo veliero, senza paura di nulla, fuori dalla legge."
+    },
+    {
+      "text": "Non riconosce re né patria, se non il mare.",
+      "speech": "Non riconosce re né patria, se non il mare."
+    },
+    {
+      "text": "Ascoltate il ritornello: Que es mi barco mi tesoro, que es mi dios la libertad, mi ley, la fuerza y el viento, mi única patria, la mar.",
+      "speech": "Ascoltate il ritornello: Que es mi barco mi tesoro, que es mi dios la libertad, mi ley, la fuerza y el viento, mi única patria, la mar.",
+      "bold": [
+        [
+          25,
+          135
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ascoltate il ritornello:"
+        },
+        {
+          "lang": "es",
+          "text": "Que es mi barco mi tesoro, que es mi dios la libertad, mi ley, la fuerza y el viento, mi única patria, la mar."
+        }
+      ],
+      "lingua": [
+        [
+          25,
+          135
+        ]
+      ]
+    },
+    {
+      "text": "Il mio veliero è il mio tesoro, il mio dio è la libertà, la mia legge la forza e il vento, la mia unica patria il mare.",
+      "speech": "Il mio veliero è il mio tesoro, il mio dio è la libertà, la mia legge la forza e il vento, la mia unica patria il mare."
+    },
+    {
+      "text": "Il tema è la libertà assoluta.",
+      "speech": "Il tema è la libertà assoluta.",
+      "bold": [
+        [
+          13,
+          29
+        ]
+      ]
+    },
+    {
+      "text": "Il pirata è un eroe romantico che disprezza il denaro, il potere e le leggi.",
+      "speech": "Il pirata è un eroe romantico che disprezza il denaro, il potere e le leggi.",
+      "bold": [
+        [
+          15,
+          29
+        ]
+      ]
+    },
+    {
+      "text": "I versi brevi e rapidi creano la sensazione del movimento della nave, e il ritornello dà alla poesia il ritmo di una canzone.",
+      "speech": "I versi brevi e rapidi creano la sensazione del movimento della nave, e il ritornello dà alla poesia il ritmo di una canzone.",
+      "bold": [
+        [
+          48,
+          57
+        ],
+        [
+          117,
+          124
+        ]
+      ]
+    },
+    {
+      "text": "Intorno al 1850 il Romanticismo esaltato e ribelle comincia a spegnersi.",
+      "speech": "Intorno al 1850 il Romanticismo esaltato e ribelle comincia a spegnersi.",
+      "bold": [
+        [
+          11,
+          15
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nasce una poesia più intima, semplice e delicata, che parla dei sentimenti a voce bassa: è il Postromanticismo.",
+      "speech": "Nasce una poesia più intima, semplice e delicata, che parla dei sentimenti a voce bassa: è il Postromanticismo.",
+      "bold": [
+        [
+          21,
+          27
+        ],
+        [
+          94,
+          110
+        ]
+      ]
+    },
+    {
+      "text": "Il suo grande poeta è Bécquer.",
+      "speech": "Il suo grande poeta è Bécquer."
+    },
+    {
+      "text": "Gustavo Adolfo Bécquer nasce a Siviglia nel 1836.",
+      "speech": "Gustavo Adolfo Bécquer nasce a Siviglia nel 1836.",
+      "bold": [
+        [
+          0,
+          22
+        ],
+        [
+          31,
+          39
+        ],
+        [
+          44,
+          48
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Resta presto orfano, va a Madrid per diventare scrittore, ma vive in povertà.",
+      "speech": "Resta presto orfano, va a Madrid per diventare scrittore, ma vive in povertà.",
+      "bold": [
+        [
+          69,
+          76
+        ]
+      ]
+    },
+    {
+      "text": "Soffre per amori infelici e per la tubercolosi, e muore nel 1870, a 34 anni.",
+      "speech": "Soffre per amori infelici e per la tubercolosi, e muore nel 1870, a 34 anni.",
+      "bold": [
+        [
+          35,
+          46
+        ],
+        [
+          60,
+          64
+        ]
+      ]
+    },
+    {
+      "text": "Diventa famoso solo dopo la morte, quando gli amici pubblicano le sue opere.",
+      "speech": "Diventa famoso solo dopo la morte, quando gli amici pubblicano le sue opere.",
+      "bold": [
+        [
+          20,
+          33
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sulle Rimas, circa ottanta poesie brevi pubblicate nel 1871.",
+      "speech": "Fermatevi sulle Rimas, circa ottanta poesie brevi pubblicate nel 1871.",
+      "bold": [
+        [
+          16,
+          21
+        ],
+        [
+          65,
+          69
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fermatevi sulle"
+        },
+        {
+          "lang": "es",
+          "text": "Rimas"
+        },
+        {
+          "lang": "it",
+          "text": ", circa ottanta poesie brevi pubblicate nel 1871."
+        }
+      ],
+      "lingua": [
+        [
+          16,
+          21
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "I temi seguono un ordine: la poesia, l'amore felice, la delusione e infine la solitudine e la morte.",
+      "speech": "I temi seguono un ordine: la poesia, l'amore felice, la delusione e infine la solitudine e la morte.",
+      "bold": [
+        [
+          29,
+          35
+        ],
+        [
+          39,
+          44
+        ],
+        [
+          56,
+          65
+        ],
+        [
+          78,
+          88
+        ],
+        [
+          94,
+          99
+        ]
+      ]
+    },
+    {
+      "text": "Lo stile è semplice e musicale.",
+      "speech": "Lo stile è semplice e musicale.",
+      "bold": [
+        [
+          11,
+          19
+        ]
+      ]
+    },
+    {
+      "text": "Ascoltate la Rima ventuno: ¿Qué es poesía?, dices mientras clavas en mi pupila tu pupila azul.",
+      "speech": "Ascoltate la Rima ventuno: ¿Qué es poesía?, dices mientras clavas en mi pupila tu pupila azul."
+    },
+    {
+      "text": "¿Qué es poesía?",
+      "speech": "¿Qué es poesía?"
+    },
+    {
+      "text": "¿Y tú me lo preguntas?",
+      "speech": "¿Y tú me lo preguntas?"
+    },
+    {
+      "text": "Poesía...",
+      "speech": "Poesía..."
+    },
+    {
+      "text": "eres tú.",
+      "speech": "eres tú.",
+      "bold": [
+        [
+          null,
+          8
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "eres tú."
+        },
+        {
+          "lang": "es",
+          "text": "eres tú."
+        }
+      ],
+      "lingua": [
+        [
+          null,
+          8
+        ]
+      ]
+    },
+    {
+      "text": "Una donna chiede al poeta che cosa è la poesia, e lui risponde: la poesia sei tu.",
+      "speech": "Una donna chiede al poeta che cosa è la poesia, e lui risponde: la poesia sei tu."
+    },
+    {
+      "text": "La poesia non è una teoria, ma la bellezza e l'amore.",
+      "speech": "La poesia non è una teoria, ma la bellezza e l'amore.",
+      "bold": [
+        [
+          34,
+          42
+        ],
+        [
+          47,
+          52
+        ]
+      ]
+    },
+    {
+      "text": "La rima più famosa è la cinquantatré, che comincia così: Volverán las oscuras golondrinas en tu balcón sus nidos a colgar.",
+      "speech": "La rima più famosa è la cinquantatré, che comincia così: Volverán las oscuras golondrinas en tu balcón sus nidos a colgar.",
+      "bold": [
+        [
+          57,
+          122
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "La rima più famosa è la cinquantatré, che comincia così:"
+        },
+        {
+          "lang": "es",
+          "text": "Volverán las oscuras golondrinas en tu balcón sus nidos a colgar."
+        }
+      ],
+      "lingua": [
+        [
+          57,
+          122
+        ]
+      ]
+    },
+    {
+      "text": "Torneranno le scure rondini ad appendere i loro nidi al tuo balcone.",
+      "speech": "Torneranno le scure rondini ad appendere i loro nidi al tuo balcone."
+    },
+    {
+      "text": "Ma, dice il poeta, quelle che hanno visto la nostra felicità non torneranno.",
+      "speech": "Ma, dice il poeta, quelle che hanno visto la nostra felicità non torneranno.",
+      "bold": [
+        [
+          61,
+          75
+        ]
+      ]
+    },
+    {
+      "text": "È il tema del tempo che passa e dell'amore perduto.",
+      "speech": "È il tema del tempo che passa e dell'amore perduto.",
+      "bold": [
+        [
+          14,
+          29
+        ],
+        [
+          37,
+          50
+        ]
+      ]
+    },
+    {
+      "text": "Bécquer scrive anche le Leyendas, racconti fantastici e misteriosi ambientati nel Medioevo, come El monte de las ánimas e Los ojos verdes.",
+      "speech": "Bécquer scrive anche le Leyendas, racconti fantastici e misteriosi ambientati nel Medioevo, come El monte de las ánimas e Los ojos verdes.",
+      "bold": [
+        [
+          24,
+          32
+        ],
+        [
+          97,
+          119
+        ],
+        [
+          122,
+          137
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Bécquer scrive anche le"
+        },
+        {
+          "lang": "es",
+          "text": "Leyendas"
+        },
+        {
+          "lang": "it",
+          "text": ", racconti fantastici e misteriosi ambientati nel Medioevo, come"
+        },
+        {
+          "lang": "es",
+          "text": "El monte de las ánimas"
+        },
+        {
+          "lang": "it",
+          "text": "e"
+        },
+        {
+          "lang": "es",
+          "text": "Los ojos verdes."
+        }
+      ],
+      "lingua": [
+        [
+          24,
+          32
+        ],
+        [
+          97,
+          119
+        ],
+        [
+          122,
+          137
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "È considerato il padre della poesia spagnola moderna.",
+      "speech": "È considerato il padre della poesia spagnola moderna.",
+      "bold": [
+        [
+          17,
+          52
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: che differenza c'è tra il Romanticismo di Espronceda e il Postromanticismo di Bécquer?",
+      "speech": "Proviamo un piccolo esercizio insieme: che differenza cè tra il Romanticismo di Espronceda e il Postromanticismo di Bécquer?",
+      "p": 1
+    },
+    {
+      "text": "Il Romanticismo di Espronceda è ribelle e appassionato; il Postromanticismo di Bécquer è intimo, semplice e delicato.",
+      "speech": "Il Romanticismo di Espronceda è ribelle e appassionato; il Postromanticismo di Bécquer è intimo, semplice e delicato.",
+      "bold": [
+        [
+          3,
+          15
+        ],
+        [
+          32,
+          39
+        ],
+        [
+          59,
+          75
+        ],
+        [
+          89,
+          95
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: Espronceda vive una vita romantica e nella Canción del pirata canta la libertà assoluta.",
+      "speech": "Primo: Espronceda vive una vita romantica e nella Canción del pirata canta la libertà assoluta.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: Bécquer, nelle Rimas, scrive una poesia breve, intima e musicale su poesia, amore, delusione e morte.",
+      "speech": "Secondo: Bécquer, nelle Rimas, scrive una poesia breve, intima e musicale su poesia, amore, delusione e morte.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: nella Rima ventuno la poesia è la donna amata; nella Rima cinquantatré l'amore perduto non torna; Bécquer è il padre della poesia moderna.",
+      "speech": "Terzo: nella Rima ventuno la poesia è la donna amata; nella Rima cinquantatré l'amore perduto non torna; Bécquer è il padre della poesia moderna.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio studiamo il Realismo, con Galdós e Clarín.",
+      "speech": "Nel prossimo episodio studiamo il Realismo, con Galdós e Clarín.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

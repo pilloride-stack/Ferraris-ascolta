@@ -1,0 +1,365 @@
+{
+  "subject": "Fisica",
+  "episode": "01",
+  "title": "La carica elettrica e l'elettrizzazione",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Benvenuti al corso di fisica della classe quinta.",
+      "speech": "Benvenuti al corso di fisica della classe quinta.",
+      "bold": [
+        [
+          22,
+          48
+        ]
+      ]
+    },
+    {
+      "text": "Quest'anno studiamo l'elettricità e il magnetismo, fenomeni che usiamo ogni giorno, ogni volta che accendiamo una luce o carichiamo il telefono.",
+      "speech": "Quest'anno studiamo l'elettricità e il magnetismo, fenomeni che usiamo ogni giorno, ogni volta che accendiamo una luce o carichiamo il telefono.",
+      "bold": [
+        [
+          22,
+          33
+        ],
+        [
+          39,
+          49
+        ]
+      ]
+    },
+    {
+      "text": "Partiamo dalla carica elettrica.",
+      "speech": "Partiamo dalla carica elettrica.",
+      "bold": [
+        [
+          15,
+          31
+        ]
+      ]
+    },
+    {
+      "text": "Già gli antichi greci avevano notato che l'ambra, strofinata con la lana, attira piccoli pezzi di paglia.",
+      "speech": "Già gli antichi greci avevano notato che l'ambra, strofinata con la lana, attira piccoli pezzi di paglia.",
+      "bold": [
+        [
+          43,
+          48
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Proprio dalla parola greca che indica l'ambra, elektron, viene il nome elettricità.",
+      "speech": "Proprio dalla parola greca che indica l'ambra, elektron, viene il nome elettricità."
+    },
+    {
+      "text": "Oggi sappiamo che la materia è formata da atomi, e ogni atomo contiene particelle con una carica elettrica:",
+      "speech": "Oggi sappiamo che la materia è formata da atomi, e ogni atomo contiene particelle con una carica elettrica:",
+      "bold": [
+        [
+          42,
+          47
+        ],
+        [
+          90,
+          106
+        ]
+      ]
+    },
+    {
+      "text": "i protoni, nel nucleo, hanno carica positiva; gli elettroni, che girano intorno al nucleo, hanno carica negativa; i neutroni non hanno carica.",
+      "speech": "i protoni, nel nucleo, hanno carica positiva; gli elettroni, che girano intorno al nucleo, hanno carica negativa; i neutroni non hanno carica.",
+      "bold": [
+        [
+          2,
+          9
+        ],
+        [
+          36,
+          44
+        ],
+        [
+          50,
+          59
+        ],
+        [
+          104,
+          112
+        ],
+        [
+          116,
+          124
+        ]
+      ]
+    },
+    {
+      "text": "Normalmente un atomo ha tanti protoni quanti elettroni, ed è neutro.",
+      "speech": "Normalmente un atomo ha tanti protoni quanti elettroni, ed è neutro.",
+      "bold": [
+        [
+          61,
+          67
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi su due proprietà fondamentali della carica.",
+      "speech": "Fermatevi su due proprietà fondamentali della carica.",
+      "p": 1
+    },
+    {
+      "text": "La prima: cariche dello stesso segno si respingono, cariche di segno opposto si attraggono.",
+      "speech": "La prima: cariche dello stesso segno si respingono, cariche di segno opposto si attraggono.",
+      "bold": [
+        [
+          24,
+          50
+        ],
+        [
+          63,
+          90
+        ]
+      ]
+    },
+    {
+      "text": "La seconda: la carica si conserva, cioè non si crea e non si distrugge, ma si può solo trasferire da un corpo all'altro.",
+      "speech": "La seconda: la carica si conserva, cioè non si crea e non si distrugge, ma si può solo trasferire da un corpo all'altro.",
+      "bold": [
+        [
+          25,
+          33
+        ]
+      ]
+    },
+    {
+      "text": "Nell'elettrizzazione, quello che si sposta sono gli elettroni: un corpo che acquista elettroni diventa negativo, un corpo che li perde diventa positivo.",
+      "speech": "Nell'elettrizzazione, quello che si sposta sono gli elettroni: un corpo che acquista elettroni diventa negativo, un corpo che li perde diventa positivo.",
+      "bold": [
+        [
+          52,
+          61
+        ]
+      ]
+    },
+    {
+      "text": "L'unità di misura della carica è il coulomb.",
+      "speech": "L'unità di misura della carica è il coulomb.",
+      "bold": [
+        [
+          36,
+          43
+        ]
+      ]
+    },
+    {
+      "text": "La carica più piccola che esiste in natura è quella dell'elettrone, chiamata carica elementare.",
+      "speech": "La carica più piccola che esiste in natura è quella dell'elettrone, chiamata carica elementare.",
+      "bold": [
+        [
+          77,
+          94
+        ]
+      ]
+    },
+    {
+      "text": "Vediamo ora i modi in cui un corpo si elettrizza.",
+      "speech": "Vediamo ora i modi in cui un corpo si elettrizza.",
+      "p": 1
+    },
+    {
+      "text": "L'elettrizzazione per strofinio: strofinando due corpi, per esempio una bacchetta di plastica con un panno di lana, alcuni elettroni passano da un corpo all'altro.",
+      "speech": "L'elettrizzazione per strofinio: strofinando due corpi, per esempio una bacchetta di plastica con un panno di lana, alcuni elettroni passano da un corpo all'altro.",
+      "bold": [
+        [
+          22,
+          31
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "I due corpi si caricano con cariche uguali e opposte.",
+      "speech": "I due corpi si caricano con cariche uguali e opposte.",
+      "bold": [
+        [
+          36,
+          52
+        ]
+      ]
+    },
+    {
+      "text": "Succede anche quando vi pettinate e i capelli si sollevano.",
+      "speech": "Succede anche quando vi pettinate e i capelli si sollevano."
+    },
+    {
+      "text": "L'elettrizzazione per contatto: se tocchiamo un corpo neutro con un corpo carico, una parte della carica passa sul corpo neutro, che si carica con lo stesso segno.",
+      "speech": "L'elettrizzazione per contatto: se tocchiamo un corpo neutro con un corpo carico, una parte della carica passa sul corpo neutro, che si carica con lo stesso segno.",
+      "bold": [
+        [
+          22,
+          30
+        ],
+        [
+          150,
+          162
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Prima del terzo modo, distinguiamo i materiali.",
+      "speech": "Prima del terzo modo, distinguiamo i materiali.",
+      "p": 1
+    },
+    {
+      "text": "I conduttori, come i metalli, permettono alle cariche di muoversi liberamente, perché hanno elettroni liberi.",
+      "speech": "I conduttori, come i metalli, permettono alle cariche di muoversi liberamente, perché hanno elettroni liberi.",
+      "bold": [
+        [
+          2,
+          12
+        ],
+        [
+          21,
+          28
+        ]
+      ]
+    },
+    {
+      "text": "Gli isolanti, come la plastica, il vetro, la gomma, il legno secco, non lo permettono.",
+      "speech": "Gli isolanti, come la plastica, il vetro, la gomma, il legno secco, non lo permettono.",
+      "bold": [
+        [
+          4,
+          12
+        ]
+      ]
+    },
+    {
+      "text": "Per questo i fili elettrici sono di rame, ricoperti di plastica.",
+      "speech": "Per questo i fili elettrici sono di rame, ricoperti di plastica."
+    },
+    {
+      "text": "L'elettrizzazione per induzione: avviciniamo un corpo carico, senza toccarlo, a un conduttore neutro.",
+      "speech": "L'elettrizzazione per induzione: avviciniamo un corpo carico, senza toccarlo, a un conduttore neutro.",
+      "bold": [
+        [
+          22,
+          31
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Le cariche del conduttore si separano: quelle di segno opposto si avvicinano al corpo carico, quelle dello stesso segno si allontanano.",
+      "speech": "Le cariche del conduttore si separano: quelle di segno opposto si avvicinano al corpo carico, quelle dello stesso segno si allontanano.",
+      "bold": [
+        [
+          29,
+          37
+        ]
+      ]
+    },
+    {
+      "text": "Il conduttore resta neutro nel complesso, ma è polarizzato.",
+      "speech": "Il conduttore resta neutro nel complesso, ma è polarizzato.",
+      "bold": [
+        [
+          47,
+          58
+        ]
+      ]
+    },
+    {
+      "text": "Se poi colleghiamo il conduttore a terra e togliamo il collegamento, il conduttore resta carico, con carica opposta a quella del corpo induttore.",
+      "speech": "Se poi colleghiamo il conduttore a terra e togliamo il collegamento, il conduttore resta carico, con carica opposta a quella del corpo induttore.",
+      "bold": [
+        [
+          108,
+          115
+        ]
+      ]
+    },
+    {
+      "text": "Lo strumento per rilevare le cariche si chiama elettroscopio: due foglioline metalliche che si allontanano quando sono cariche.",
+      "speech": "Lo strumento per rilevare le cariche si chiama elettroscopio: due foglioline metalliche che si allontanano quando sono cariche.",
+      "bold": [
+        [
+          47,
+          60
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: che cosa si sposta quando un corpo si elettrizza per strofinio?",
+      "speech": "Proviamo un piccolo esercizio insieme: che cosa si sposta quando un corpo si elettrizza per strofinio?",
+      "p": 1
+    },
+    {
+      "text": "Si spostano gli elettroni, cioè le cariche negative: il corpo che li acquista diventa negativo, quello che li perde diventa positivo.",
+      "speech": "Si spostano gli elettroni, cioè le cariche negative: il corpo che li acquista diventa negativo, quello che li perde diventa positivo.",
+      "bold": [
+        [
+          16,
+          25
+        ],
+        [
+          69,
+          77
+        ],
+        [
+          110,
+          115
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: la carica elettrica può essere positiva o negativa; cariche uguali si respingono e opposte si attraggono; la carica si conserva.",
+      "speech": "Primo: la carica elettrica può essere positiva o negativa; cariche uguali si respingono e opposte si attraggono; la carica si conserva.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: i conduttori lasciano muovere le cariche, gli isolanti no.",
+      "speech": "Secondo: i conduttori lasciano muovere le cariche, gli isolanti no.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: un corpo si può elettrizzare per strofinio, per contatto e per induzione.",
+      "speech": "Terzo: un corpo si può elettrizzare per strofinio, per contatto e per induzione.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo la legge di Coulomb.",
+      "speech": "Nel prossimo episodio vediamo la legge di Coulomb.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

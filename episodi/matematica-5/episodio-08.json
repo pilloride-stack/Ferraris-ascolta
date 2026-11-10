@@ -1,0 +1,387 @@
+{
+  "subject": "Matematica",
+  "episode": "08",
+  "title": "Crescenza, massimi, minimi e flessi",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la derivata.",
+      "speech": "Nell'episodio scorso abbiamo visto la derivata."
+    },
+    {
+      "text": "Oggi usiamo la derivata per capire come si muove il grafico: dove cresce, dove decresce, dove ha i massimi e i minimi, e dove cambia concavità.",
+      "speech": "Oggi usiamo la derivata per capire come si muove il grafico: dove cresce, dove decresce, dove ha i massimi e i minimi, e dove cambia concavità.",
+      "bold": [
+        [
+          66,
+          72
+        ],
+        [
+          79,
+          87
+        ],
+        [
+          99,
+          106
+        ],
+        [
+          111,
+          117
+        ],
+        [
+          133,
+          142
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sul legame fondamentale tra derivata e crescenza.",
+      "speech": "Fermatevi sul legame fondamentale tra derivata e crescenza.",
+      "p": 1
+    },
+    {
+      "text": "In un intervallo in cui la derivata prima è positiva, la funzione è crescente: il grafico sale.",
+      "speech": "In un intervallo in cui la derivata prima è positiva, la funzione è crescente: il grafico sale.",
+      "bold": [
+        [
+          27,
+          52
+        ],
+        [
+          68,
+          77
+        ]
+      ]
+    },
+    {
+      "text": "In un intervallo in cui la derivata prima è negativa, la funzione è decrescente: il grafico scende.",
+      "speech": "In un intervallo in cui la derivata prima è negativa, la funzione è decrescente: il grafico scende.",
+      "bold": [
+        [
+          27,
+          52
+        ],
+        [
+          68,
+          79
+        ]
+      ]
+    },
+    {
+      "text": "Quindi, per sapere dove la funzione cresce, basta studiare il segno della derivata prima, risolvendo la disequazione f primo di x maggiore di zero.",
+      "speech": "Quindi, per sapere dove la funzione cresce, basta studiare il segno della derivata prima, risolvendo la disequazione f primo di x maggiore di zero.",
+      "bold": [
+        [
+          50,
+          88
+        ]
+      ]
+    },
+    {
+      "text": "Passiamo ai massimi e ai minimi.",
+      "speech": "Passiamo ai massimi e ai minimi.",
+      "bold": [
+        [
+          12,
+          19
+        ],
+        [
+          25,
+          31
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Un massimo relativo è un punto in cui la funzione ha un valore più alto di tutti i punti vicini: è come la cima di una collina.",
+      "speech": "Un massimo relativo è un punto in cui la funzione ha un valore più alto di tutti i punti vicini: è come la cima di una collina.",
+      "bold": [
+        [
+          3,
+          19
+        ]
+      ]
+    },
+    {
+      "text": "Un minimo relativo è un punto in cui la funzione ha un valore più basso dei punti vicini: è come il fondo di una valle.",
+      "speech": "Un minimo relativo è un punto in cui la funzione ha un valore più basso dei punti vicini: è come il fondo di una valle.",
+      "bold": [
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "text": "Il massimo assoluto e il minimo assoluto sono invece il valore più alto e più basso in tutto il dominio, se esistono.",
+      "speech": "Il massimo assoluto e il minimo assoluto sono invece il valore più alto e più basso in tutto il dominio, se esistono.",
+      "bold": [
+        [
+          3,
+          19
+        ],
+        [
+          25,
+          40
+        ]
+      ]
+    },
+    {
+      "text": "Come si trovano?",
+      "speech": "Come si trovano?",
+      "p": 1
+    },
+    {
+      "text": "Nei punti di massimo e di minimo, se la funzione è derivabile, la tangente è orizzontale, quindi la derivata è zero.",
+      "speech": "Nei punti di massimo e di minimo, se la funzione è derivabile, la tangente è orizzontale, quindi la derivata è zero.",
+      "bold": [
+        [
+          66,
+          88
+        ],
+        [
+          100,
+          115
+        ]
+      ]
+    },
+    {
+      "text": "Questi punti si chiamano punti stazionari.",
+      "speech": "Questi punti si chiamano punti stazionari.",
+      "bold": [
+        [
+          25,
+          41
+        ]
+      ]
+    },
+    {
+      "text": "Ma attenzione: non tutti i punti stazionari sono massimi o minimi.",
+      "speech": "Ma attenzione: non tutti i punti stazionari sono massimi o minimi."
+    },
+    {
+      "text": "Bisogna guardare il segno della derivata prima prima e dopo il punto.",
+      "speech": "Bisogna guardare il segno della derivata prima prima e dopo il punto.",
+      "bold": [
+        [
+          20,
+          46
+        ]
+      ]
+    },
+    {
+      "text": "Se la derivata passa da positiva a negativa, cioè la funzione prima sale e poi scende, c'è un massimo.",
+      "speech": "Se la derivata passa da positiva a negativa, cioè la funzione prima sale e poi scende, cè un massimo.",
+      "bold": [
+        [
+          24,
+          43
+        ],
+        [
+          94,
+          101
+        ]
+      ]
+    },
+    {
+      "text": "Se passa da negativa a positiva, cioè la funzione prima scende e poi sale, c'è un minimo.",
+      "speech": "Se passa da negativa a positiva, cioè la funzione prima scende e poi sale, cè un minimo.",
+      "bold": [
+        [
+          12,
+          31
+        ],
+        [
+          82,
+          88
+        ]
+      ]
+    },
+    {
+      "text": "Se il segno non cambia, c'è un flesso a tangente orizzontale.",
+      "speech": "Se il segno non cambia, cè un flesso a tangente orizzontale.",
+      "bold": [
+        [
+          31,
+          60
+        ]
+      ]
+    },
+    {
+      "text": "Ora la concavità e i flessi, che si studiano con la derivata seconda, cioè la derivata della derivata.",
+      "speech": "Ora la concavità e i flessi, che si studiano con la derivata seconda, cioè la derivata della derivata.",
+      "bold": [
+        [
+          7,
+          16
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          52,
+          68
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Se la derivata seconda è positiva, la funzione ha la concavità verso l'alto, come una coppa che può contenere l'acqua.",
+      "speech": "Se la derivata seconda è positiva, la funzione ha la concavità verso l'alto, come una coppa che può contenere l'acqua.",
+      "bold": [
+        [
+          6,
+          33
+        ],
+        [
+          53,
+          75
+        ]
+      ]
+    },
+    {
+      "text": "Se la derivata seconda è negativa, la concavità è verso il basso, come una coppa capovolta.",
+      "speech": "Se la derivata seconda è negativa, la concavità è verso il basso, come una coppa capovolta.",
+      "bold": [
+        [
+          6,
+          33
+        ],
+        [
+          50,
+          64
+        ]
+      ]
+    },
+    {
+      "text": "Un punto di flesso è un punto in cui la concavità cambia: lì la derivata seconda si annulla e cambia segno.",
+      "speech": "Un punto di flesso è un punto in cui la concavità cambia: lì la derivata seconda si annulla e cambia segno.",
+      "bold": [
+        [
+          3,
+          18
+        ],
+        [
+          50,
+          56
+        ]
+      ]
+    },
+    {
+      "text": "Per trovare i flessi, quindi, si studia il segno della derivata seconda.",
+      "speech": "Per trovare i flessi, quindi, si studia il segno della derivata seconda."
+    },
+    {
+      "text": "Facciamo un esempio.",
+      "speech": "Facciamo un esempio.",
+      "p": 1
+    },
+    {
+      "text": "Prendiamo la funzione x al cubo meno tre x.",
+      "speech": "Prendiamo la funzione x al cubo meno tre x."
+    },
+    {
+      "text": "La derivata prima è tre x al quadrato meno tre, che si annulla per x uguale a meno uno e x uguale a uno.",
+      "speech": "La derivata prima è tre x al quadrato meno tre, che si annulla per x uguale a meno uno e x uguale a uno."
+    },
+    {
+      "text": "Studiando il segno, la derivata è positiva all'esterno, cioè per x minore di meno uno e maggiore di uno, e negativa all'interno.",
+      "speech": "Studiando il segno, la derivata è positiva all'esterno, cioè per x minore di meno uno e maggiore di uno, e negativa all'interno."
+    },
+    {
+      "text": "Quindi la funzione cresce, poi scende, poi cresce di nuovo: in x uguale a meno uno c'è un massimo, in x uguale a uno un minimo.",
+      "speech": "Quindi la funzione cresce, poi scende, poi cresce di nuovo: in x uguale a meno uno cè un massimo, in x uguale a uno un minimo.",
+      "bold": [
+        [
+          90,
+          97
+        ],
+        [
+          120,
+          126
+        ]
+      ]
+    },
+    {
+      "text": "La derivata seconda è sei x, che si annulla in zero e cambia segno: in x uguale a zero c'è un flesso.",
+      "speech": "La derivata seconda è sei x, che si annulla in zero e cambia segno: in x uguale a zero cè un flesso.",
+      "bold": [
+        [
+          94,
+          100
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: se la derivata prima passa da negativa a positiva in un punto, che cosa c'è?",
+      "speech": "Proviamo un piccolo esercizio insieme: se la derivata prima passa da negativa a positiva in un punto, che cosa cè?",
+      "p": 1
+    },
+    {
+      "text": "La funzione prima scende e poi sale, quindi in quel punto c'è un minimo relativo.",
+      "speech": "La funzione prima scende e poi sale, quindi in quel punto cè un minimo relativo.",
+      "bold": [
+        [
+          18,
+          24
+        ],
+        [
+          31,
+          35
+        ],
+        [
+          65,
+          80
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: se la derivata prima è positiva la funzione cresce, se è negativa decresce.",
+      "speech": "Primo: se la derivata prima è positiva la funzione cresce, se è negativa decresce.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: i massimi e i minimi si trovano nei punti in cui la derivata prima si annulla e cambia segno: da positiva a negativa è un massimo, da negativa a positiva è un minimo.",
+      "speech": "Secondo: i massimi e i minimi si trovano nei punti in cui la derivata prima si annulla e cambia segno: da positiva a negativa è un massimo, da negativa a positiva è un minimo.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: la derivata seconda dà la concavità; i flessi sono i punti in cui la concavità cambia.",
+      "speech": "Terzo: la derivata seconda dà la concavità; i flessi sono i punti in cui la concavità cambia.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio mettiamo tutto insieme con lo studio completo di una funzione.",
+      "speech": "Nel prossimo episodio mettiamo tutto insieme con lo studio completo di una funzione.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

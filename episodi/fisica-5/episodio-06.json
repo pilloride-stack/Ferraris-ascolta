@@ -1,0 +1,372 @@
+{
+  "subject": "Fisica",
+  "episode": "06",
+  "title": "L'effetto Joule, i resistori in serie e in parallelo, le leggi di Kirchhoff",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la corrente e le leggi di Ohm.",
+      "speech": "Nell'episodio scorso abbiamo visto la corrente e le leggi di Ohm."
+    },
+    {
+      "text": "Oggi vediamo che cosa succede quando la corrente attraversa un conduttore, e come si calcolano i circuiti con più resistenze.",
+      "speech": "Oggi vediamo che cosa succede quando la corrente attraversa un conduttore, e come si calcolano i circuiti con più resistenze."
+    },
+    {
+      "text": "Partiamo dall'effetto Joule.",
+      "speech": "Partiamo dall'effetto Joule.",
+      "bold": [
+        [
+          14,
+          27
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Quando la corrente attraversa un conduttore, il conduttore si riscalda.",
+      "speech": "Quando la corrente attraversa un conduttore, il conduttore si riscalda.",
+      "bold": [
+        [
+          62,
+          70
+        ]
+      ]
+    },
+    {
+      "text": "Perché?",
+      "speech": "Perché?"
+    },
+    {
+      "text": "Gli elettroni, muovendosi, urtano continuamente gli atomi del materiale e cedono loro energia, che si trasforma in calore.",
+      "speech": "Gli elettroni, muovendosi, urtano continuamente gli atomi del materiale e cedono loro energia, che si trasforma in calore.",
+      "bold": [
+        [
+          115,
+          121
+        ]
+      ]
+    },
+    {
+      "text": "È l'effetto Joule, dal nome del fisico inglese James Joule.",
+      "speech": "È l'effetto Joule, dal nome del fisico inglese James Joule."
+    },
+    {
+      "text": "È il principio di funzionamento del phon, della stufa elettrica, del ferro da stiro, del tostapane, e delle vecchie lampadine a incandescenza.",
+      "speech": "È il principio di funzionamento del phon, della stufa elettrica, del ferro da stiro, del tostapane, e delle vecchie lampadine a incandescenza.",
+      "bold": [
+        [
+          36,
+          40
+        ]
+      ]
+    },
+    {
+      "text": "La potenza dissipata è P uguale a R per i al quadrato, oppure, in generale, P uguale a delta V per i.",
+      "speech": "La potenza dissipata è P uguale a R per i al quadrato, oppure, in generale, P uguale a delta V per i.",
+      "bold": [
+        [
+          3,
+          10
+        ]
+      ]
+    },
+    {
+      "text": "Si misura in watt.",
+      "speech": "Si misura in watt.",
+      "bold": [
+        [
+          13,
+          17
+        ]
+      ]
+    },
+    {
+      "text": "L'effetto Joule è anche la causa dei cortocircuiti e degli incendi; per proteggere gli impianti si usano i fusibili e gli interruttori salvavita.",
+      "speech": "L'effetto Joule è anche la causa dei cortocircuiti e degli incendi; per proteggere gli impianti si usano i fusibili e gli interruttori salvavita.",
+      "bold": [
+        [
+          37,
+          50
+        ],
+        [
+          107,
+          115
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi ora sui collegamenti dei resistori.",
+      "speech": "Fermatevi ora sui collegamenti dei resistori.",
+      "bold": [
+        [
+          35,
+          44
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel collegamento in serie, i resistori sono uno dopo l'altro, sullo stesso filo, come i vagoni di un treno.",
+      "speech": "Nel collegamento in serie, i resistori sono uno dopo l'altro, sullo stesso filo, come i vagoni di un treno.",
+      "bold": [
+        [
+          17,
+          25
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Tutti sono attraversati dalla stessa corrente.",
+      "speech": "Tutti sono attraversati dalla stessa corrente.",
+      "bold": [
+        [
+          30,
+          45
+        ]
+      ]
+    },
+    {
+      "text": "La resistenza equivalente è la somma delle resistenze: R uguale a R uno più R due.",
+      "speech": "La resistenza equivalente è la somma delle resistenze: R uguale a R uno più R due.",
+      "bold": [
+        [
+          3,
+          25
+        ],
+        [
+          31,
+          36
+        ]
+      ]
+    },
+    {
+      "text": "È maggiore di ciascuna resistenza.",
+      "speech": "È maggiore di ciascuna resistenza."
+    },
+    {
+      "text": "Se un elemento si interrompe, si ferma tutto il circuito, come nelle vecchie lucine dell'albero di Natale.",
+      "speech": "Se un elemento si interrompe, si ferma tutto il circuito, come nelle vecchie lucine dell'albero di Natale."
+    },
+    {
+      "text": "Nel collegamento in parallelo, i resistori sono collegati agli stessi due punti, su rami diversi.",
+      "speech": "Nel collegamento in parallelo, i resistori sono collegati agli stessi due punti, su rami diversi.",
+      "bold": [
+        [
+          17,
+          29
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Tutti hanno la stessa differenza di potenziale, mentre la corrente si divide tra i rami.",
+      "speech": "Tutti hanno la stessa differenza di potenziale, mentre la corrente si divide tra i rami.",
+      "bold": [
+        [
+          15,
+          46
+        ],
+        [
+          70,
+          76
+        ]
+      ]
+    },
+    {
+      "text": "L'inverso della resistenza equivalente è la somma degli inversi: uno fratto R uguale a uno fratto R uno più uno fratto R due.",
+      "speech": "L'inverso della resistenza equivalente è la somma degli inversi: uno fratto R uguale a uno fratto R uno più uno fratto R due.",
+      "bold": [
+        [
+          2,
+          9
+        ],
+        [
+          44,
+          63
+        ]
+      ]
+    },
+    {
+      "text": "La resistenza equivalente è minore della più piccola delle resistenze.",
+      "speech": "La resistenza equivalente è minore della più piccola delle resistenze.",
+      "bold": [
+        [
+          28,
+          34
+        ]
+      ]
+    },
+    {
+      "text": "Se un elemento si interrompe, gli altri continuano a funzionare: per questo gli impianti di casa sono collegati in parallelo.",
+      "speech": "Se un elemento si interrompe, gli altri continuano a funzionare: per questo gli impianti di casa sono collegati in parallelo."
+    },
+    {
+      "text": "Facciamo un esempio.",
+      "speech": "Facciamo un esempio.",
+      "p": 1
+    },
+    {
+      "text": "Due resistori da quattro e da sei ohm.",
+      "speech": "Due resistori da quattro e da sei ohm."
+    },
+    {
+      "text": "In serie, la resistenza equivalente è dieci ohm.",
+      "speech": "In serie, la resistenza equivalente è dieci ohm."
+    },
+    {
+      "text": "In parallelo, uno fratto R è un quarto più un sesto, cioè cinque dodicesimi, quindi R è dodici quinti, cioè due virgola quattro ohm.",
+      "speech": "In parallelo, uno fratto R è un quarto più un sesto, cioè cinque dodicesimi, quindi R è dodici quinti, cioè due virgola quattro ohm."
+    },
+    {
+      "text": "Per i circuiti più complessi si usano le leggi di Kirchhoff.",
+      "speech": "Per i circuiti più complessi si usano le leggi di Kirchhoff.",
+      "bold": [
+        [
+          41,
+          59
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La prima legge, o legge dei nodi: in un nodo, cioè in un punto in cui si incontrano tre o più fili, la somma delle correnti entranti è uguale alla somma delle correnti uscenti.",
+      "speech": "La prima legge, o legge dei nodi: in un nodo, cioè in un punto in cui si incontrano tre o più fili, la somma delle correnti entranti è uguale alla somma delle correnti uscenti.",
+      "bold": [
+        [
+          3,
+          14
+        ],
+        [
+          28,
+          32
+        ],
+        [
+          103,
+          132
+        ],
+        [
+          147,
+          175
+        ]
+      ]
+    },
+    {
+      "text": "Le cariche non si accumulano: è una conseguenza della conservazione della carica.",
+      "speech": "Le cariche non si accumulano: è una conseguenza della conservazione della carica.",
+      "bold": [
+        [
+          54,
+          80
+        ]
+      ]
+    },
+    {
+      "text": "La seconda legge, o legge delle maglie: lungo una maglia, cioè un percorso chiuso, la somma delle differenze di potenziale è zero.",
+      "speech": "La seconda legge, o legge delle maglie: lungo una maglia, cioè un percorso chiuso, la somma delle differenze di potenziale è zero.",
+      "bold": [
+        [
+          3,
+          16
+        ],
+        [
+          32,
+          38
+        ],
+        [
+          86,
+          91
+        ],
+        [
+          125,
+          129
+        ]
+      ]
+    },
+    {
+      "text": "Le tensioni fornite dai generatori sono uguali alle cadute di tensione sui resistori.",
+      "speech": "Le tensioni fornite dai generatori sono uguali alle cadute di tensione sui resistori."
+    },
+    {
+      "text": "È una conseguenza della conservazione dell'energia.",
+      "speech": "È una conseguenza della conservazione dell'energia.",
+      "bold": [
+        [
+          24,
+          50
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: perché gli impianti elettrici di casa sono collegati in parallelo?",
+      "speech": "Proviamo un piccolo esercizio insieme: perché gli impianti elettrici di casa sono collegati in parallelo?",
+      "p": 1
+    },
+    {
+      "text": "Perché in parallelo tutti gli apparecchi ricevono la stessa tensione, e se uno si guasta, gli altri continuano a funzionare.",
+      "speech": "Perché in parallelo tutti gli apparecchi ricevono la stessa tensione, e se uno si guasta, gli altri continuano a funzionare.",
+      "bold": [
+        [
+          10,
+          19
+        ],
+        [
+          53,
+          68
+        ],
+        [
+          82,
+          88
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: l'effetto Joule trasforma l'energia elettrica in calore; la potenza è R per i al quadrato e si misura in watt.",
+      "speech": "Primo: l'effetto Joule trasforma l'energia elettrica in calore; la potenza è R per i al quadrato e si misura in watt.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: in serie la corrente è la stessa e le resistenze si sommano; in parallelo la tensione è la stessa e si sommano gli inversi.",
+      "speech": "Secondo: in serie la corrente è la stessa e le resistenze si sommano; in parallelo la tensione è la stessa e si sommano gli inversi.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: la legge dei nodi deriva dalla conservazione della carica, la legge delle maglie dalla conservazione dell'energia.",
+      "speech": "Terzo: la legge dei nodi deriva dalla conservazione della carica, la legge delle maglie dalla conservazione dell'energia.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nel magnetismo.",
+      "speech": "Nel prossimo episodio entriamo nel magnetismo.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

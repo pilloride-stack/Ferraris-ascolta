@@ -1,0 +1,380 @@
+{
+  "subject": "Matematica",
+  "episode": "07",
+  "title": "La derivata",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto gli asintoti e la continuità.",
+      "speech": "Nell'episodio scorso abbiamo visto gli asintoti e la continuità."
+    },
+    {
+      "text": "Oggi vediamo il secondo grande strumento dell'analisi: la derivata.",
+      "speech": "Oggi vediamo il secondo grande strumento dell'analisi: la derivata.",
+      "bold": [
+        [
+          58,
+          66
+        ]
+      ]
+    },
+    {
+      "text": "Partiamo dal rapporto incrementale.",
+      "speech": "Partiamo dal rapporto incrementale.",
+      "bold": [
+        [
+          13,
+          34
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Prendiamo una funzione e un punto x zero.",
+      "speech": "Prendiamo una funzione e un punto x zero."
+    },
+    {
+      "text": "Spostiamoci di un piccolo incremento h, fino al punto x zero più h.",
+      "speech": "Spostiamoci di un piccolo incremento h, fino al punto x zero più h.",
+      "bold": [
+        [
+          26,
+          36
+        ]
+      ]
+    },
+    {
+      "text": "Il rapporto incrementale è la differenza tra i valori della funzione, f di x zero più h meno f di x zero, divisa per h.",
+      "speech": "Il rapporto incrementale è la differenza tra i valori della funzione, f di x zero più h meno f di x zero, divisa per h.",
+      "bold": [
+        [
+          3,
+          24
+        ]
+      ]
+    },
+    {
+      "text": "Geometricamente, il rapporto incrementale è il coefficiente angolare della retta secante che passa per i due punti del grafico.",
+      "speech": "Geometricamente, il rapporto incrementale è il coefficiente angolare della retta secante che passa per i due punti del grafico.",
+      "bold": [
+        [
+          47,
+          68
+        ],
+        [
+          81,
+          88
+        ]
+      ]
+    },
+    {
+      "text": "Ci dice quanto cresce in media la funzione in quell'intervallo.",
+      "speech": "Ci dice quanto cresce in media la funzione in quell'intervallo."
+    },
+    {
+      "text": "Fermatevi ora sulla definizione di derivata.",
+      "speech": "Fermatevi ora sulla definizione di derivata.",
+      "bold": [
+        [
+          35,
+          43
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La derivata della funzione nel punto x zero è il limite del rapporto incrementale quando h tende a zero.",
+      "speech": "La derivata della funzione nel punto x zero è il limite del rapporto incrementale quando h tende a zero.",
+      "bold": [
+        [
+          49,
+          81
+        ]
+      ]
+    },
+    {
+      "text": "Si indica con f primo di x zero.",
+      "speech": "Si indica con f primo di x zero."
+    },
+    {
+      "text": "Che cosa significa geometricamente?",
+      "speech": "Che cosa significa geometricamente?"
+    },
+    {
+      "text": "Quando h diventa piccolissimo, i due punti si avvicinano, e la retta secante diventa la retta tangente al grafico nel punto.",
+      "speech": "Quando h diventa piccolissimo, i due punti si avvicinano, e la retta secante diventa la retta tangente al grafico nel punto.",
+      "bold": [
+        [
+          88,
+          102
+        ]
+      ]
+    },
+    {
+      "text": "Quindi la derivata è il coefficiente angolare della retta tangente, cioè la sua pendenza.",
+      "speech": "Quindi la derivata è il coefficiente angolare della retta tangente, cioè la sua pendenza.",
+      "bold": [
+        [
+          24,
+          66
+        ],
+        [
+          80,
+          88
+        ]
+      ]
+    },
+    {
+      "text": "Dice quanto è ripido il grafico in quel punto.",
+      "speech": "Dice quanto è ripido il grafico in quel punto."
+    },
+    {
+      "text": "Se la derivata è positiva, il grafico sale; se è negativa, scende; se è zero, la tangente è orizzontale.",
+      "speech": "Se la derivata è positiva, il grafico sale; se è negativa, scende; se è zero, la tangente è orizzontale."
+    },
+    {
+      "text": "La derivata ha anche un significato fisico: per esempio, la derivata dello spazio rispetto al tempo è la velocità.",
+      "speech": "La derivata ha anche un significato fisico: per esempio, la derivata dello spazio rispetto al tempo è la velocità.",
+      "bold": [
+        [
+          105,
+          113
+        ]
+      ]
+    },
+    {
+      "text": "L'equazione della retta tangente nel punto x zero è: y meno f di x zero uguale a f primo di x zero per x meno x zero.",
+      "speech": "L'equazione della retta tangente nel punto x zero è: y meno f di x zero uguale a f primo di x zero per x meno x zero.",
+      "p": 1
+    },
+    {
+      "text": "Passiamo alle derivate fondamentali, da sapere a memoria.",
+      "speech": "Passiamo alle derivate fondamentali, da sapere a memoria.",
+      "bold": [
+        [
+          14,
+          35
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La derivata di una costante è zero.",
+      "speech": "La derivata di una costante è zero.",
+      "bold": [
+        [
+          19,
+          27
+        ],
+        [
+          30,
+          34
+        ]
+      ]
+    },
+    {
+      "text": "La derivata di x è uno.",
+      "speech": "La derivata di x è uno.",
+      "bold": [
+        [
+          15,
+          16
+        ],
+        [
+          19,
+          22
+        ]
+      ]
+    },
+    {
+      "text": "La derivata di x elevato a n è n per x elevato a n meno uno: per esempio, la derivata di x al cubo è tre x al quadrato.",
+      "speech": "La derivata di x elevato a n è n per x elevato a n meno uno: per esempio, la derivata di x al cubo è tre x al quadrato.",
+      "bold": [
+        [
+          31,
+          59
+        ]
+      ]
+    },
+    {
+      "text": "La derivata di e alla x è e alla x stessa.",
+      "speech": "La derivata di e alla x è e alla x stessa.",
+      "bold": [
+        [
+          15,
+          23
+        ],
+        [
+          26,
+          34
+        ]
+      ]
+    },
+    {
+      "text": "La derivata del logaritmo naturale di x è uno fratto x.",
+      "speech": "La derivata del logaritmo naturale di x è uno fratto x.",
+      "bold": [
+        [
+          42,
+          54
+        ]
+      ]
+    },
+    {
+      "text": "La derivata di seno di x è coseno di x, e la derivata di coseno di x è meno seno di x.",
+      "speech": "La derivata di seno di x è coseno di x, e la derivata di coseno di x è meno seno di x."
+    },
+    {
+      "text": "Vediamo le regole di derivazione.",
+      "speech": "Vediamo le regole di derivazione.",
+      "bold": [
+        [
+          11,
+          32
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "La derivata di una somma è la somma delle derivate.",
+      "speech": "La derivata di una somma è la somma delle derivate.",
+      "bold": [
+        [
+          19,
+          24
+        ]
+      ]
+    },
+    {
+      "text": "La derivata di una costante per una funzione è la costante per la derivata.",
+      "speech": "La derivata di una costante per una funzione è la costante per la derivata."
+    },
+    {
+      "text": "La derivata di un prodotto è: la derivata del primo per il secondo, più il primo per la derivata del secondo.",
+      "speech": "La derivata di un prodotto è: la derivata del primo per il secondo, più il primo per la derivata del secondo.",
+      "bold": [
+        [
+          18,
+          26
+        ]
+      ]
+    },
+    {
+      "text": "La derivata di un quoziente è: la derivata del numeratore per il denominatore, meno il numeratore per la derivata del denominatore, il tutto fratto il denominatore al quadrato.",
+      "speech": "La derivata di un quoziente è: la derivata del numeratore per il denominatore, meno il numeratore per la derivata del denominatore, il tutto fratto il denominatore al quadrato.",
+      "bold": [
+        [
+          18,
+          27
+        ]
+      ]
+    },
+    {
+      "text": "Infine la derivata di una funzione composta: si deriva la funzione esterna e si moltiplica per la derivata della funzione interna.",
+      "speech": "Infine la derivata di una funzione composta: si deriva la funzione esterna e si moltiplica per la derivata della funzione interna.",
+      "bold": [
+        [
+          26,
+          43
+        ]
+      ]
+    },
+    {
+      "text": "Attenzione: non tutte le funzioni sono derivabili ovunque.",
+      "speech": "Attenzione: non tutte le funzioni sono derivabili ovunque.",
+      "p": 1
+    },
+    {
+      "text": "Ci sono i punti di non derivabilità, come i punti angolosi, in cui la derivata destra e sinistra sono diverse, come nella funzione valore assoluto di x nell'origine, e le cuspidi, in cui le derivate destra e sinistra sono infinite e di segno opposto.",
+      "speech": "Ci sono i punti di non derivabilità, come i punti angolosi, in cui la derivata destra e sinistra sono diverse, come nella funzione valore assoluto di x nell'origine, e le cuspidi, in cui le derivate destra e sinistra sono infinite e di segno opposto.",
+      "bold": [
+        [
+          10,
+          35
+        ],
+        [
+          44,
+          58
+        ],
+        [
+          171,
+          178
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: qual è la derivata di due x al cubo più cinque x meno sette?",
+      "speech": "Proviamo un piccolo esercizio insieme: qual è la derivata di due x al cubo più cinque x meno sette?",
+      "p": 1
+    },
+    {
+      "text": "Deriviamo termine per termine: due per tre x al quadrato fa sei x al quadrato, la derivata di cinque x è cinque, la derivata di meno sette è zero.",
+      "speech": "Deriviamo termine per termine: due per tre x al quadrato fa sei x al quadrato, la derivata di cinque x è cinque, la derivata di meno sette è zero.",
+      "bold": [
+        [
+          60,
+          77
+        ],
+        [
+          105,
+          111
+        ],
+        [
+          141,
+          145
+        ]
+      ]
+    },
+    {
+      "text": "Quindi la derivata è sei x al quadrato più cinque.",
+      "speech": "Quindi la derivata è sei x al quadrato più cinque."
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: la derivata è il limite del rapporto incrementale per h che tende a zero.",
+      "speech": "Primo: la derivata è il limite del rapporto incrementale per h che tende a zero.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: geometricamente è il coefficiente angolare della retta tangente al grafico.",
+      "speech": "Secondo: geometricamente è il coefficiente angolare della retta tangente al grafico.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: bisogna conoscere le derivate fondamentali e le regole per somma, prodotto, quoziente e funzione composta.",
+      "speech": "Terzo: bisogna conoscere le derivate fondamentali e le regole per somma, prodotto, quoziente e funzione composta.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio usiamo la derivata per trovare massimi, minimi e flessi.",
+      "speech": "Nel prossimo episodio usiamo la derivata per trovare massimi, minimi e flessi.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

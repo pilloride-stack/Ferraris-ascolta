@@ -1,0 +1,305 @@
+{
+  "subject": "Fisica",
+  "episode": "02",
+  "title": "La legge di Coulomb",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto la carica elettrica e i modi di elettrizzare un corpo.",
+      "speech": "Nell'episodio scorso abbiamo visto la carica elettrica e i modi di elettrizzare un corpo."
+    },
+    {
+      "text": "Oggi vediamo la legge che misura la forza tra due cariche: la legge di Coulomb.",
+      "speech": "Oggi vediamo la legge che misura la forza tra due cariche: la legge di Coulomb.",
+      "bold": [
+        [
+          36,
+          41
+        ],
+        [
+          62,
+          78
+        ]
+      ]
+    },
+    {
+      "text": "Nel 1785 il fisico francese Charles-Augustin de Coulomb misura con una bilancia di torsione la forza tra due piccole sfere cariche.",
+      "speech": "Nel 1785 il fisico francese Charles-Augustin de Coulomb misura con una bilancia di torsione la forza tra due piccole sfere cariche.",
+      "bold": [
+        [
+          4,
+          8
+        ],
+        [
+          28,
+          55
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Scopre la legge che porta il suo nome.",
+      "speech": "Scopre la legge che porta il suo nome."
+    },
+    {
+      "text": "Fermatevi su questa legge, perché è fondamentale.",
+      "speech": "Fermatevi su questa legge, perché è fondamentale."
+    },
+    {
+      "text": "La forza tra due cariche puntiformi è direttamente proporzionale al prodotto delle cariche ed è inversamente proporzionale al quadrato della distanza tra loro.",
+      "speech": "La forza tra due cariche puntiformi è direttamente proporzionale al prodotto delle cariche ed è inversamente proporzionale al quadrato della distanza tra loro.",
+      "bold": [
+        [
+          38,
+          64
+        ],
+        [
+          68,
+          90
+        ],
+        [
+          96,
+          122
+        ],
+        [
+          126,
+          149
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "In formula: F uguale a k per q uno per q due, fratto r al quadrato.",
+      "speech": "In formula: F uguale a k per q uno per q due, fratto r al quadrato."
+    },
+    {
+      "text": "Qui q uno e q due sono le cariche, r è la distanza, e k è la costante di Coulomb, che nel vuoto vale circa nove per dieci alla nona, in newton per metro quadrato fratto coulomb al quadrato.",
+      "speech": "Qui q uno e q due sono le cariche, r è la distanza, e k è la costante di Coulomb, che nel vuoto vale circa nove per dieci alla nona, in newton per metro quadrato fratto coulomb al quadrato.",
+      "bold": [
+        [
+          61,
+          80
+        ],
+        [
+          107,
+          131
+        ]
+      ]
+    },
+    {
+      "text": "Che cosa significa in pratica?",
+      "speech": "Che cosa significa in pratica?",
+      "p": 1
+    },
+    {
+      "text": "Se raddoppiamo una delle due cariche, la forza raddoppia.",
+      "speech": "Se raddoppiamo una delle due cariche, la forza raddoppia.",
+      "bold": [
+        [
+          47,
+          56
+        ]
+      ]
+    },
+    {
+      "text": "Se raddoppiamo la distanza, la forza diventa quattro volte più piccola, perché la distanza è al quadrato.",
+      "speech": "Se raddoppiamo la distanza, la forza diventa quattro volte più piccola, perché la distanza è al quadrato.",
+      "bold": [
+        [
+          18,
+          26
+        ],
+        [
+          45,
+          70
+        ]
+      ]
+    },
+    {
+      "text": "Se triplichiamo la distanza, la forza diventa nove volte più piccola.",
+      "speech": "Se triplichiamo la distanza, la forza diventa nove volte più piccola."
+    },
+    {
+      "text": "La forza diminuisce molto rapidamente con la distanza.",
+      "speech": "La forza diminuisce molto rapidamente con la distanza."
+    },
+    {
+      "text": "La forza di Coulomb è diretta lungo la retta che congiunge le due cariche.",
+      "speech": "La forza di Coulomb è diretta lungo la retta che congiunge le due cariche.",
+      "bold": [
+        [
+          39,
+          44
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "È repulsiva se le cariche hanno lo stesso segno, attrattiva se hanno segno opposto.",
+      "speech": "È repulsiva se le cariche hanno lo stesso segno, attrattiva se hanno segno opposto.",
+      "bold": [
+        [
+          2,
+          11
+        ],
+        [
+          49,
+          59
+        ]
+      ]
+    },
+    {
+      "text": "Notate una somiglianza importante:",
+      "speech": "Notate una somiglianza importante:",
+      "p": 1
+    },
+    {
+      "text": "la legge di Coulomb ha la stessa forma della legge di gravitazione universale di Newton, che dice che due masse si attraggono con una forza proporzionale al prodotto delle masse e inversamente proporzionale al quadrato della distanza.",
+      "speech": "la legge di Coulomb ha la stessa forma della legge di gravitazione universale di Newton, che dice che due masse si attraggono con una forza proporzionale al prodotto delle masse e inversamente proporzionale al quadrato della distanza.",
+      "bold": [
+        [
+          45,
+          77
+        ]
+      ]
+    },
+    {
+      "text": "Ma ci sono anche differenze.",
+      "speech": "Ma ci sono anche differenze."
+    },
+    {
+      "text": "La forza gravitazionale è sempre attrattiva, mentre quella elettrica può essere attrattiva o repulsiva.",
+      "speech": "La forza gravitazionale è sempre attrattiva, mentre quella elettrica può essere attrattiva o repulsiva.",
+      "bold": [
+        [
+          33,
+          43
+        ]
+      ]
+    },
+    {
+      "text": "E la forza elettrica è enormemente più intensa di quella gravitazionale: tra un protone e un elettrone, la forza elettrica è circa dieci alla trentanovesima volte più grande di quella gravitazionale.",
+      "speech": "E la forza elettrica è enormemente più intensa di quella gravitazionale: tra un protone e un elettrone, la forza elettrica è circa dieci alla trentanovesima volte più grande di quella gravitazionale.",
+      "bold": [
+        [
+          23,
+          46
+        ]
+      ]
+    },
+    {
+      "text": "Se le cariche non sono nel vuoto ma in un materiale, per esempio in acqua, la forza diminuisce.",
+      "speech": "Se le cariche non sono nel vuoto ma in un materiale, per esempio in acqua, la forza diminuisce.",
+      "bold": [
+        [
+          84,
+          94
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il fattore che indica di quanto diminuisce si chiama costante dielettrica relativa del mezzo.",
+      "speech": "Il fattore che indica di quanto diminuisce si chiama costante dielettrica relativa del mezzo.",
+      "bold": [
+        [
+          53,
+          82
+        ]
+      ]
+    },
+    {
+      "text": "Nell'acqua, per esempio, la forza è circa ottanta volte più piccola che nel vuoto.",
+      "speech": "Nell'acqua, per esempio, la forza è circa ottanta volte più piccola che nel vuoto."
+    },
+    {
+      "text": "Per questo l'acqua scioglie così bene il sale.",
+      "speech": "Per questo l'acqua scioglie così bene il sale."
+    },
+    {
+      "text": "Infine, se ci sono più cariche, la forza totale su una carica è la somma vettoriale delle forze esercitate da ciascuna delle altre: è il principio di sovrapposizione.",
+      "speech": "Infine, se ci sono più cariche, la forza totale su una carica è la somma vettoriale delle forze esercitate da ciascuna delle altre: è il principio di sovrapposizione.",
+      "bold": [
+        [
+          67,
+          83
+        ],
+        [
+          137,
+          165
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: due cariche si trovano a una certa distanza.",
+      "speech": "Proviamo un piccolo esercizio insieme: due cariche si trovano a una certa distanza.",
+      "p": 1
+    },
+    {
+      "text": "Se la distanza viene dimezzata, come cambia la forza?",
+      "speech": "Se la distanza viene dimezzata, come cambia la forza?"
+    },
+    {
+      "text": "La forza è inversamente proporzionale al quadrato della distanza: dimezzando la distanza, la forza diventa quattro volte più grande.",
+      "speech": "La forza è inversamente proporzionale al quadrato della distanza: dimezzando la distanza, la forza diventa quattro volte più grande.",
+      "bold": [
+        [
+          41,
+          49
+        ],
+        [
+          107,
+          131
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: la legge di Coulomb dice che la forza tra due cariche è proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza.",
+      "speech": "Primo: la legge di Coulomb dice che la forza tra due cariche è proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: la forza è attrattiva tra cariche opposte e repulsiva tra cariche uguali; la costante k vale circa nove per dieci alla nona.",
+      "speech": "Secondo: la forza è attrattiva tra cariche opposte e repulsiva tra cariche uguali; la costante k vale circa nove per dieci alla nona.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: la legge di Coulomb somiglia alla legge di gravitazione, ma la forza elettrica può essere repulsiva ed è molto più intensa.",
+      "speech": "Terzo: la legge di Coulomb somiglia alla legge di gravitazione, ma la forza elettrica può essere repulsiva ed è molto più intensa.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo il campo elettrico.",
+      "speech": "Nel prossimo episodio vediamo il campo elettrico.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

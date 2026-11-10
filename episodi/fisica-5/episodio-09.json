@@ -1,0 +1,344 @@
+{
+  "subject": "Fisica",
+  "episode": "09",
+  "title": "Il campo magnetico di un filo, di una spira e di un solenoide",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto le esperienze di Oersted, Faraday e Ampère e la forza di Lorentz.",
+      "speech": "Nell'episodio scorso abbiamo visto le esperienze di Oersted, Faraday e Ampère e la forza di Lorentz."
+    },
+    {
+      "text": "Oggi vediamo com'è fatto il campo magnetico prodotto dalle correnti, in tre casi: un filo, una spira e un solenoide.",
+      "speech": "Oggi vediamo come è fatto il campo magnetico prodotto dalle correnti, in tre casi: un filo, una spira e un solenoide.",
+      "bold": [
+        [
+          28,
+          43
+        ],
+        [
+          85,
+          89
+        ],
+        [
+          95,
+          100
+        ],
+        [
+          106,
+          115
+        ]
+      ]
+    },
+    {
+      "text": "Partiamo dal filo rettilineo percorso da corrente.",
+      "speech": "Partiamo dal filo rettilineo percorso da corrente.",
+      "bold": [
+        [
+          13,
+          28
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Le linee del campo magnetico sono circonferenze concentriche intorno al filo, su piani perpendicolari al filo.",
+      "speech": "Le linee del campo magnetico sono circonferenze concentriche intorno al filo, su piani perpendicolari al filo.",
+      "bold": [
+        [
+          34,
+          60
+        ]
+      ]
+    },
+    {
+      "text": "Il verso del campo si trova con la regola della mano destra: se il pollice indica il verso della corrente, le altre dita, piegate, indicano il verso delle linee di campo.",
+      "speech": "Il verso del campo si trova con la regola della mano destra: se il pollice indica il verso della corrente, le altre dita, piegate, indicano il verso delle linee di campo.",
+      "bold": [
+        [
+          35,
+          59
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi sull'intensità, che è data dalla legge di Biot-Savart: il campo è direttamente proporzionale all'intensità di corrente e inversamente proporzionale alla distanza dal filo.",
+      "speech": "Fermatevi sull'intensità, che è data dalla legge di Biot-Savart: il campo è direttamente proporzionale all'intensità di corrente e inversamente proporzionale alla distanza dal filo.",
+      "bold": [
+        [
+          43,
+          63
+        ],
+        [
+          76,
+          102
+        ],
+        [
+          107,
+          128
+        ],
+        [
+          131,
+          157
+        ],
+        [
+          163,
+          171
+        ]
+      ]
+    },
+    {
+      "text": "In formula: B uguale a mu zero per i, fratto due pi greco per r.",
+      "speech": "In formula: B uguale a mu zero per i, fratto due pi greco per r."
+    },
+    {
+      "text": "Qui mu zero è la permeabilità magnetica del vuoto, una costante.",
+      "speech": "Qui mu zero è la permeabilità magnetica del vuoto, una costante.",
+      "bold": [
+        [
+          17,
+          49
+        ]
+      ]
+    },
+    {
+      "text": "Attenzione a una differenza con la legge di Coulomb: qui la distanza non è al quadrato.",
+      "speech": "Attenzione a una differenza con la legge di Coulomb: qui la distanza non è al quadrato.",
+      "bold": [
+        [
+          69,
+          86
+        ]
+      ]
+    },
+    {
+      "text": "Se raddoppiamo la distanza, il campo si dimezza.",
+      "speech": "Se raddoppiamo la distanza, il campo si dimezza."
+    },
+    {
+      "text": "Passiamo alla spira, cioè un filo piegato a forma di anello circolare, percorso da corrente.",
+      "speech": "Passiamo alla spira, cioè un filo piegato a forma di anello circolare, percorso da corrente.",
+      "bold": [
+        [
+          14,
+          19
+        ],
+        [
+          53,
+          69
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Le linee di campo si avvolgono intorno al filo, e al centro della spira sono tutte rivolte nella stessa direzione, perpendicolare al piano della spira.",
+      "speech": "Le linee di campo si avvolgono intorno al filo, e al centro della spira sono tutte rivolte nella stessa direzione, perpendicolare al piano della spira."
+    },
+    {
+      "text": "Il campo al centro della spira è B uguale a mu zero per i, fratto due per r, dove r è il raggio della spira.",
+      "speech": "Il campo al centro della spira è B uguale a mu zero per i, fratto due per r, dove r è il raggio della spira.",
+      "bold": [
+        [
+          12,
+          18
+        ]
+      ]
+    },
+    {
+      "text": "Notate una cosa interessante: una spira percorsa da corrente si comporta come un piccolo magnete, con una faccia che fa da polo nord e una da polo sud.",
+      "speech": "Notate una cosa interessante: una spira percorsa da corrente si comporta come un piccolo magnete, con una faccia che fa da polo nord e una da polo sud.",
+      "bold": [
+        [
+          81,
+          96
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi infine sul solenoide, che è il caso più importante.",
+      "speech": "Fermatevi infine sul solenoide, che è il caso più importante.",
+      "bold": [
+        [
+          21,
+          30
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Un solenoide è un filo avvolto a elica, formato da tante spire una accanto all'altra, come una molla.",
+      "speech": "Un solenoide è un filo avvolto a elica, formato da tante spire una accanto all'altra, come una molla.",
+      "bold": [
+        [
+          3,
+          12
+        ],
+        [
+          33,
+          38
+        ]
+      ]
+    },
+    {
+      "text": "Quando passa la corrente, i campi delle singole spire si sommano.",
+      "speech": "Quando passa la corrente, i campi delle singole spire si sommano."
+    },
+    {
+      "text": "Il risultato è che all'interno del solenoide il campo magnetico è uniforme: le linee sono parallele all'asse, equidistanti, e il campo è intenso.",
+      "speech": "Il risultato è che all'interno del solenoide il campo magnetico è uniforme: le linee sono parallele all'asse, equidistanti, e il campo è intenso.",
+      "bold": [
+        [
+          19,
+          30
+        ],
+        [
+          66,
+          74
+        ]
+      ]
+    },
+    {
+      "text": "All'esterno, invece, il campo è debolissimo, quasi nullo.",
+      "speech": "All'esterno, invece, il campo è debolissimo, quasi nullo.",
+      "bold": [
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "text": "L'intensità del campo all'interno è B uguale a mu zero per N per i, fratto l, dove N è il numero di spire e l la lunghezza del solenoide.",
+      "speech": "L'intensità del campo all'interno è B uguale a mu zero per N per i, fratto l, dove N è il numero di spire e l la lunghezza del solenoide.",
+      "bold": [
+        [
+          90,
+          105
+        ],
+        [
+          113,
+          122
+        ]
+      ]
+    },
+    {
+      "text": "Quindi il campo aumenta se aumentiamo la corrente o il numero di spire per unità di lunghezza.",
+      "speech": "Quindi il campo aumenta se aumentiamo la corrente o il numero di spire per unità di lunghezza."
+    },
+    {
+      "text": "Un solenoide percorso da corrente si comporta come una calamita, con un polo nord e un polo sud.",
+      "speech": "Un solenoide percorso da corrente si comporta come una calamita, con un polo nord e un polo sud.",
+      "bold": [
+        [
+          55,
+          63
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Se dentro il solenoide inseriamo un nucleo di ferro, il campo diventa molto più intenso: otteniamo un elettromagnete.",
+      "speech": "Se dentro il solenoide inseriamo un nucleo di ferro, il campo diventa molto più intenso: otteniamo un elettromagnete.",
+      "bold": [
+        [
+          36,
+          51
+        ],
+        [
+          102,
+          116
+        ]
+      ]
+    },
+    {
+      "text": "Il vantaggio dell'elettromagnete è che si può accendere e spegnere a piacere, interrompendo la corrente, e si può regolare la sua forza.",
+      "speech": "Il vantaggio dell'elettromagnete è che si può accendere e spegnere a piacere, interrompendo la corrente, e si può regolare la sua forza.",
+      "bold": [
+        [
+          46,
+          66
+        ]
+      ]
+    },
+    {
+      "text": "Gli elettromagneti si usano nelle gru che sollevano rottami di ferro, nei campanelli elettrici, negli altoparlanti, nei relè, nella risonanza magnetica degli ospedali e nei treni a levitazione magnetica.",
+      "speech": "Gli elettromagneti si usano nelle gru che sollevano rottami di ferro, nei campanelli elettrici, negli altoparlanti, nei relè, nella risonanza magnetica degli ospedali e nei treni a levitazione magnetica.",
+      "bold": [
+        [
+          34,
+          37
+        ],
+        [
+          132,
+          151
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: come cambia il campo magnetico di un filo se raddoppiamo la distanza dal filo?",
+      "speech": "Proviamo un piccolo esercizio insieme: come cambia il campo magnetico di un filo se raddoppiamo la distanza dal filo?",
+      "p": 1
+    },
+    {
+      "text": "Il campo è inversamente proporzionale alla distanza, non al quadrato: raddoppiando la distanza, il campo si dimezza.",
+      "speech": "Il campo è inversamente proporzionale alla distanza, non al quadrato: raddoppiando la distanza, il campo si dimezza.",
+      "bold": [
+        [
+          43,
+          51
+        ],
+        [
+          108,
+          115
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: il campo di un filo ha linee circolari e, per la legge di Biot-Savart, è proporzionale alla corrente e inversamente proporzionale alla distanza.",
+      "speech": "Primo: il campo di un filo ha linee circolari e, per la legge di Biot-Savart, è proporzionale alla corrente e inversamente proporzionale alla distanza.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: una spira percorsa da corrente si comporta come un piccolo magnete.",
+      "speech": "Secondo: una spira percorsa da corrente si comporta come un piccolo magnete.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: dentro un solenoide il campo è uniforme e proporzionale al numero di spire e alla corrente; con un nucleo di ferro si ottiene un elettromagnete.",
+      "speech": "Terzo: dentro un solenoide il campo è uniforme e proporzionale al numero di spire e alla corrente; con un nucleo di ferro si ottiene un elettromagnete.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo e ultimo episodio facciamo il ripasso con le domande guida.",
+      "speech": "Nel prossimo e ultimo episodio facciamo il ripasso con le domande guida.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "subject": "Francese",
+  "episode": "02",
+  "title": "Chateaubriand",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo visto il Preromanticismo e Madame de Staël.",
+      "speech": "Nell'episodio scorso abbiamo visto il Preromanticismo e Madame de Staël."
+    },
+    {
+      "text": "Oggi studiamo il padre del Romanticismo francese: François-René de Chateaubriand.",
+      "speech": "Oggi studiamo il padre del Romanticismo francese: François-René de Chateaubriand.",
+      "bold": [
+        [
+          50,
+          80
+        ]
+      ]
+    },
+    {
+      "text": "Chateaubriand nasce nel 1768 a Saint-Malo, in Bretagna, in una famiglia nobile.",
+      "speech": "Chateaubriand nasce nel 1768 a Saint-Malo, in Bretagna, in una famiglia nobile.",
+      "bold": [
+        [
+          24,
+          28
+        ],
+        [
+          31,
+          41
+        ],
+        [
+          46,
+          54
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Passa un'infanzia solitaria e malinconica nel castello di Combourg, in mezzo ai boschi, con la sorella Lucile.",
+      "speech": "Passa un'infanzia solitaria e malinconica nel castello di Combourg, in mezzo ai boschi, con la sorella Lucile.",
+      "bold": [
+        [
+          58,
+          66
+        ]
+      ]
+    },
+    {
+      "text": "Durante la Rivoluzione, nel 1791, parte per l'America, dove scopre la natura selvaggia e gli indiani.",
+      "speech": "Durante la Rivoluzione, nel 1791, parte per l'America, dove scopre la natura selvaggia e gli indiani.",
+      "bold": [
+        [
+          46,
+          53
+        ]
+      ]
+    },
+    {
+      "text": "Torna in Francia, combatte con i nobili contro la Rivoluzione, viene ferito e vive in esilio a Londra, in povertà.",
+      "speech": "Torna in Francia, combatte con i nobili contro la Rivoluzione, viene ferito e vive in esilio a Londra, in povertà."
+    },
+    {
+      "text": "Dopo la morte della madre ritrova la fede cattolica.",
+      "speech": "Dopo la morte della madre ritrova la fede cattolica.",
+      "bold": [
+        [
+          37,
+          51
+        ]
+      ]
+    },
+    {
+      "text": "Rientrato in Francia, diventa famosissimo e fa anche una carriera politica e diplomatica, come ambasciatore a Roma e ministro degli Esteri.",
+      "speech": "Rientrato in Francia, diventa famosissimo e fa anche una carriera politica e diplomatica, come ambasciatore a Roma e ministro degli Esteri.",
+      "bold": [
+        [
+          110,
+          114
+        ]
+      ]
+    },
+    {
+      "text": "Muore nel 1848, e viene sepolto, come voleva, su un piccolo isolotto davanti a Saint-Malo, di fronte al mare.",
+      "speech": "Muore nel 1848, e viene sepolto, come voleva, su un piccolo isolotto davanti a Saint-Malo, di fronte al mare.",
+      "bold": [
+        [
+          10,
+          14
+        ],
+        [
+          60,
+          68
+        ]
+      ]
+    },
+    {
+      "text": "Vediamo le sue opere principali.",
+      "speech": "Vediamo le sue opere principali.",
+      "p": 1
+    },
+    {
+      "text": "Le Génie du christianisme, del 1802, è una difesa della religione cristiana.",
+      "speech": "Le Génie du christianisme, del 1802, è una difesa della religione cristiana.",
+      "bold": [
+        [
+          0,
+          25
+        ],
+        [
+          31,
+          35
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "fr",
+          "text": "Le Génie du christianisme"
+        },
+        {
+          "lang": "it",
+          "text": ", del 1802, è una difesa della religione cristiana."
+        }
+      ],
+      "lingua": [
+        [
+          0,
+          25
+        ]
+      ]
+    },
+    {
+      "text": "Chateaubriand non vuole dimostrare con la ragione che il cristianesimo è vero, ma mostrare che è bello: ha ispirato le più belle opere d'arte, come le cattedrali gotiche.",
+      "speech": "Chateaubriand non vuole dimostrare con la ragione che il cristianesimo è vero, ma mostrare che è bello: ha ispirato le più belle opere d'arte, come le cattedrali gotiche.",
+      "bold": [
+        [
+          97,
+          102
+        ]
+      ]
+    },
+    {
+      "text": "Il libro ha un successo enorme, anche perché esce proprio quando Napoleone ristabilisce la religione cattolica in Francia.",
+      "speech": "Il libro ha un successo enorme, anche perché esce proprio quando Napoleone ristabilisce la religione cattolica in Francia."
+    },
+    {
+      "text": "Atala, del 1801, si svolge in America, tra gli indiani.",
+      "speech": "Atala, del 1801, si svolge in America, tra gli indiani.",
+      "bold": [
+        [
+          0,
+          5
+        ],
+        [
+          30,
+          37
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "fr",
+          "text": "Atala"
+        },
+        {
+          "lang": "it",
+          "text": ", del 1801, si svolge in America, tra gli indiani."
+        }
+      ],
+      "lingua": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "L'anziano indiano Chactas racconta il suo amore per Atala, una giovane indiana cristiana che aveva fatto voto di verginità; divisa tra l'amore e la religione, Atala si avvelena.",
+      "speech": "L'anziano indiano Chactas racconta il suo amore per Atala, una giovane indiana cristiana che aveva fatto voto di verginità; divisa tra l'amore e la religione, Atala si avvelena.",
+      "bold": [
+        [
+          168,
+          176
+        ]
+      ]
+    },
+    {
+      "text": "Il racconto è famoso per le sue descrizioni esotiche della natura americana.",
+      "speech": "Il racconto è famoso per le sue descrizioni esotiche della natura americana.",
+      "bold": [
+        [
+          32,
+          52
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi su René, del 1802, un racconto in parte autobiografico.",
+      "speech": "Fermatevi su René, del 1802, un racconto in parte autobiografico.",
+      "bold": [
+        [
+          13,
+          17
+        ],
+        [
+          23,
+          27
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Fermatevi su"
+        },
+        {
+          "lang": "fr",
+          "text": "René"
+        },
+        {
+          "lang": "it",
+          "text": ", del 1802, un racconto in parte autobiografico."
+        }
+      ],
+      "lingua": [
+        [
+          13,
+          17
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il giovane René soffre di una tristezza profonda e senza causa, non trova il suo posto da nessuna parte e cerca la solitudine nella natura.",
+      "speech": "Il giovane René soffre di una tristezza profonda e senza causa, non trova il suo posto da nessuna parte e cerca la solitudine nella natura."
+    },
+    {
+      "text": "È il primo grande ritratto del mal du siècle, il male del secolo.",
+      "speech": "È il primo grande ritratto del mal du siècle, il male del secolo.",
+      "bold": [
+        [
+          31,
+          44
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "È il primo grande ritratto del"
+        },
+        {
+          "lang": "fr",
+          "text": "mal du siècle"
+        },
+        {
+          "lang": "it",
+          "text": ", il male del secolo."
+        }
+      ],
+      "lingua": [
+        [
+          31,
+          44
+        ]
+      ]
+    },
+    {
+      "text": "Che cos'è?",
+      "speech": "Che cosa è?"
+    },
+    {
+      "text": "È il sentimento tipico dei giovani della generazione romantica:",
+      "speech": "È il sentimento tipico dei giovani della generazione romantica:"
+    },
+    {
+      "text": "dopo la Rivoluzione e l'Impero, si sentono inutili, senza ideali e senza futuro; soffrono di malinconia, di noia, di insoddisfazione, e desiderano un infinito irraggiungibile.",
+      "speech": "dopo la Rivoluzione e l'Impero, si sentono inutili, senza ideali e senza futuro; soffrono di malinconia, di noia, di insoddisfazione, e desiderano un infinito irraggiungibile.",
+      "bold": [
+        [
+          43,
+          50
+        ],
+        [
+          93,
+          103
+        ],
+        [
+          108,
+          112
+        ],
+        [
+          150,
+          158
+        ]
+      ]
+    },
+    {
+      "text": "Chateaubriand lo chiama le vague des passions, l'onda indefinita delle passioni: l'anima è piena di desideri, ma senza un oggetto reale.",
+      "speech": "Chateaubriand lo chiama le vague des passions, l'onda indefinita delle passioni: l'anima è piena di desideri, ma senza un oggetto reale.",
+      "bold": [
+        [
+          24,
+          45
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Chateaubriand lo chiama"
+        },
+        {
+          "lang": "fr",
+          "text": "le vague des passions"
+        },
+        {
+          "lang": "it",
+          "text": ", l'onda indefinita delle passioni: l'anima è piena di desideri, ma senza un oggetto reale."
+        }
+      ],
+      "lingua": [
+        [
+          24,
+          45
+        ]
+      ]
+    },
+    {
+      "text": "Ascoltate una frase famosa del racconto, in cui René, solo nella natura d'autunno, invoca le tempeste: Levez-vous vite, orages désirés, qui devez emporter René dans les espaces d'une autre vie!",
+      "speech": "Ascoltate una frase famosa del racconto, in cui René, solo nella natura d'autunno, invoca le tempeste: Levez-vous vite, orages désirés, qui devez emporter René dans les espaces d'une autre vie!",
+      "bold": [
+        [
+          103,
+          193
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Ascoltate una frase famosa del racconto, in cui René, solo nella natura d'autunno, invoca le tempeste:"
+        },
+        {
+          "lang": "fr",
+          "text": "Levez-vous vite, orages désirés, qui devez emporter René dans les espaces d'une autre vie!"
+        }
+      ],
+      "lingua": [
+        [
+          103,
+          193
+        ]
+      ]
+    },
+    {
+      "text": "Alzatevi presto, tempeste desiderate, che dovete portare René negli spazi di un'altra vita.",
+      "speech": "Alzatevi presto, tempeste desiderate, che dovete portare René negli spazi di un'altra vita."
+    },
+    {
+      "text": "Ci sono tutti i temi del mal du siècle: l'insoddisfazione, il desiderio di fuga, l'attrazione per la morte e per l'infinito.",
+      "speech": "Ci sono tutti i temi del mal du siècle: l'insoddisfazione, il desiderio di fuga, l'attrazione per la morte e per l'infinito.",
+      "bold": [
+        [
+          75,
+          79
+        ],
+        [
+          101,
+          106
+        ]
+      ]
+    },
+    {
+      "text": "La natura in tempesta riflette lo stato d'animo del personaggio.",
+      "speech": "La natura in tempesta riflette lo stato d'animo del personaggio."
+    },
+    {
+      "text": "E la frase è ritmata, musicale: è la prosa poetica di Chateaubriand.",
+      "speech": "E la frase è ritmata, musicale: è la prosa poetica di Chateaubriand.",
+      "bold": [
+        [
+          37,
+          50
+        ]
+      ]
+    },
+    {
+      "text": "Infine il suo capolavoro, Mémoires d'outre-tombe, le Memorie d'oltretomba, pubblicate dopo la sua morte.",
+      "speech": "Infine il suo capolavoro, Mémoires d'outre-tombe, le Memorie d'oltretomba, pubblicate dopo la sua morte.",
+      "bold": [
+        [
+          26,
+          48
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Infine il suo capolavoro,"
+        },
+        {
+          "lang": "fr",
+          "text": "Mémoires d'outre-tombe"
+        },
+        {
+          "lang": "it",
+          "text": ", le Memorie d'oltretomba, pubblicate dopo la sua morte."
+        }
+      ],
+      "lingua": [
+        [
+          26,
+          48
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "È un'immensa autobiografia, scritta per più di trent'anni, in cui Chateaubriand racconta la sua vita e insieme la storia della Francia, dall'Antico Regime alla Monarchia di Luglio.",
+      "speech": "È un'immensa autobiografia, scritta per più di trent'anni, in cui Chateaubriand racconta la sua vita e insieme la storia della Francia, dall'Antico Regime alla Monarchia di Luglio.",
+      "bold": [
+        [
+          13,
+          26
+        ],
+        [
+          114,
+          134
+        ]
+      ]
+    },
+    {
+      "text": "Il titolo significa che il libro deve parlare da oltre la tomba, dopo la morte dell'autore.",
+      "speech": "Il titolo significa che il libro deve parlare da oltre la tomba, dopo la morte dell'autore."
+    },
+    {
+      "text": "Il giovane Victor Hugo scriveva in un quaderno: Je veux être Chateaubriand ou rien.",
+      "speech": "Il giovane Victor Hugo scriveva in un quaderno: Je veux être Chateaubriand ou rien.",
+      "bold": [
+        [
+          48,
+          83
+        ]
+      ],
+      "parts": [
+        {
+          "lang": "it",
+          "text": "Il giovane Victor Hugo scriveva in un quaderno:"
+        },
+        {
+          "lang": "fr",
+          "text": "Je veux être Chateaubriand ou rien."
+        }
+      ],
+      "lingua": [
+        [
+          48,
+          83
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Voglio essere Chateaubriand o niente.",
+      "speech": "Voglio essere Chateaubriand o niente."
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: che cosa è il mal du siècle?",
+      "speech": "Proviamo un piccolo esercizio insieme: che cosa è il mal du siècle?",
+      "p": 1
+    },
+    {
+      "text": "È la malinconia senza causa dei giovani della generazione romantica: insoddisfazione, noia, sentimento di essere inutili e desiderio di un infinito irraggiungibile.",
+      "speech": "È la malinconia senza causa dei giovani della generazione romantica: insoddisfazione, noia, sentimento di essere inutili e desiderio di un infinito irraggiungibile.",
+      "bold": [
+        [
+          5,
+          15
+        ],
+        [
+          69,
+          84
+        ],
+        [
+          86,
+          90
+        ],
+        [
+          139,
+          147
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: Chateaubriand, bretone e nobile, è il padre del Romanticismo francese.",
+      "speech": "Primo: Chateaubriand, bretone e nobile, è il padre del Romanticismo francese.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: nel Génie du christianisme difende la bellezza della religione; in Atala descrive la natura esotica dell'America.",
+      "speech": "Secondo: nel Génie du christianisme difende la bellezza della religione; in Atala descrive la natura esotica dell'America.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: René è il primo ritratto del mal du siècle; le Mémoires d'outre-tombe uniscono la sua vita e la storia della Francia.",
+      "speech": "Terzo: René è il primo ritratto del mal du siècle; le Mémoires d'outre-tombe uniscono la sua vita e la storia della Francia.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio studiamo il Romanticismo e Victor Hugo.",
+      "speech": "Nel prossimo episodio studiamo il Romanticismo e Victor Hugo.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

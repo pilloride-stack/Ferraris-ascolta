@@ -1,0 +1,347 @@
+{
+  "subject": "Matematica",
+  "episode": "02",
+  "title": "Le funzioni e il dominio",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo ripassato equazioni e disequazioni.",
+      "speech": "Nell'episodio scorso abbiamo ripassato equazioni e disequazioni."
+    },
+    {
+      "text": "Oggi entriamo nell'argomento centrale dell'anno: le funzioni.",
+      "speech": "Oggi entriamo nell'argomento centrale dell'anno: le funzioni.",
+      "bold": [
+        [
+          52,
+          60
+        ]
+      ]
+    },
+    {
+      "text": "Che cosa è una funzione?",
+      "speech": "Che cosa è una funzione?",
+      "p": 1
+    },
+    {
+      "text": "Una funzione è una legge che associa a ogni elemento di un insieme di partenza uno e un solo elemento di un insieme di arrivo.",
+      "speech": "Una funzione è una legge che associa a ogni elemento di un insieme di partenza uno e un solo elemento di un insieme di arrivo.",
+      "bold": [
+        [
+          4,
+          12
+        ],
+        [
+          39,
+          43
+        ],
+        [
+          79,
+          92
+        ]
+      ]
+    },
+    {
+      "text": "Noi studiamo le funzioni reali di variabile reale, in cui sia la x sia la y sono numeri reali.",
+      "speech": "Noi studiamo le funzioni reali di variabile reale, in cui sia la x sia la y sono numeri reali.",
+      "bold": [
+        [
+          16,
+          49
+        ]
+      ]
+    },
+    {
+      "text": "Scriviamo y uguale a f di x.",
+      "speech": "Scriviamo y uguale a f di x."
+    },
+    {
+      "text": "La x si chiama variabile indipendente, la y variabile dipendente.",
+      "speech": "La x si chiama variabile indipendente, la y variabile dipendente.",
+      "bold": [
+        [
+          15,
+          37
+        ],
+        [
+          44,
+          64
+        ]
+      ]
+    },
+    {
+      "text": "Pensate a una macchina: inserite un numero x, e la macchina restituisce un numero y.",
+      "speech": "Pensate a una macchina: inserite un numero x, e la macchina restituisce un numero y."
+    },
+    {
+      "text": "Il grafico di una funzione è l'insieme dei punti del piano cartesiano di coordinate x e f di x.",
+      "speech": "Il grafico di una funzione è l'insieme dei punti del piano cartesiano di coordinate x e f di x."
+    },
+    {
+      "text": "Le funzioni si classificano in base alla loro espressione.",
+      "speech": "Le funzioni si classificano in base alla loro espressione.",
+      "bold": [
+        [
+          15,
+          27
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Le funzioni algebriche contengono solo operazioni algebriche: somme, prodotti, quozienti, potenze e radici.",
+      "speech": "Le funzioni algebriche contengono solo operazioni algebriche: somme, prodotti, quozienti, potenze e radici.",
+      "bold": [
+        [
+          12,
+          22
+        ]
+      ]
+    },
+    {
+      "text": "Si dividono in razionali intere, cioè i polinomi, come x al quadrato più tre x; razionali fratte, con la x al denominatore; e irrazionali, con la x sotto radice.",
+      "speech": "Si dividono in razionali intere, cioè i polinomi, come x al quadrato più tre x; razionali fratte, con la x al denominatore; e irrazionali, con la x sotto radice.",
+      "bold": [
+        [
+          15,
+          31
+        ],
+        [
+          80,
+          96
+        ],
+        [
+          126,
+          137
+        ]
+      ]
+    },
+    {
+      "text": "Le funzioni trascendenti sono invece l'esponenziale, il logaritmo e le funzioni goniometriche.",
+      "speech": "Le funzioni trascendenti sono invece l'esponenziale, il logaritmo e le funzioni goniometriche.",
+      "bold": [
+        [
+          12,
+          24
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi ora sul dominio, perché è il primo passo di ogni studio di funzione.",
+      "speech": "Fermatevi ora sul dominio, perché è il primo passo di ogni studio di funzione.",
+      "bold": [
+        [
+          18,
+          25
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il dominio, o campo di esistenza, è l'insieme di tutti i valori di x per cui la funzione ha senso, cioè si può calcolare.",
+      "speech": "Il dominio, o campo di esistenza, è l'insieme di tutti i valori di x per cui la funzione ha senso, cioè si può calcolare.",
+      "bold": [
+        [
+          3,
+          10
+        ],
+        [
+          89,
+          97
+        ]
+      ]
+    },
+    {
+      "text": "Ci sono alcune regole da ricordare.",
+      "speech": "Ci sono alcune regole da ricordare."
+    },
+    {
+      "text": "Le funzioni razionali intere, cioè i polinomi, hanno sempre come dominio tutti i numeri reali.",
+      "speech": "Le funzioni razionali intere, cioè i polinomi, hanno sempre come dominio tutti i numeri reali.",
+      "bold": [
+        [
+          12,
+          28
+        ],
+        [
+          73,
+          93
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Le funzioni razionali fratte hanno senso quando il denominatore è diverso da zero.",
+      "speech": "Le funzioni razionali fratte hanno senso quando il denominatore è diverso da zero.",
+      "bold": [
+        [
+          12,
+          28
+        ],
+        [
+          51,
+          63
+        ],
+        [
+          66,
+          81
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Per esempio, per uno fratto x meno tre, il dominio è x diverso da tre.",
+      "speech": "Per esempio, per uno fratto x meno tre, il dominio è x diverso da tre."
+    },
+    {
+      "text": "Le funzioni irrazionali con radice di indice pari, come la radice quadrata, hanno senso quando il radicando è maggiore o uguale a zero.",
+      "speech": "Le funzioni irrazionali con radice di indice pari, come la radice quadrata, hanno senso quando il radicando è maggiore o uguale a zero.",
+      "bold": [
+        [
+          12,
+          23
+        ],
+        [
+          45,
+          49
+        ],
+        [
+          98,
+          107
+        ],
+        [
+          110,
+          134
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Per esempio, per radice di x meno due, il dominio è x maggiore o uguale a due.",
+      "speech": "Per esempio, per radice di x meno due, il dominio è x maggiore o uguale a due."
+    },
+    {
+      "text": "Con radice di indice dispari, invece, il dominio è tutto l'insieme dei reali.",
+      "speech": "Con radice di indice dispari, invece, il dominio è tutto l'insieme dei reali."
+    },
+    {
+      "text": "Le funzioni logaritmiche hanno senso quando l'argomento del logaritmo è strettamente maggiore di zero.",
+      "speech": "Le funzioni logaritmiche hanno senso quando l'argomento del logaritmo è strettamente maggiore di zero.",
+      "bold": [
+        [
+          12,
+          24
+        ],
+        [
+          46,
+          55
+        ],
+        [
+          72,
+          101
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Le funzioni esponenziali, con l'esponente che contiene la x, sono definite per tutti i numeri reali, se l'esponente è definito.",
+      "speech": "Le funzioni esponenziali, con l'esponente che contiene la x, sono definite per tutti i numeri reali, se l'esponente è definito.",
+      "bold": [
+        [
+          12,
+          24
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Se in una funzione ci sono più condizioni, per esempio una frazione e una radice, bisogna metterle tutte insieme in un sistema.",
+      "speech": "Se in una funzione ci sono più condizioni, per esempio una frazione e una radice, bisogna metterle tutte insieme in un sistema.",
+      "bold": [
+        [
+          99,
+          112
+        ],
+        [
+          119,
+          126
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: qual è il dominio della funzione x fratto x al quadrato meno nove?",
+      "speech": "Proviamo un piccolo esercizio insieme: qual è il dominio della funzione x fratto x al quadrato meno nove?",
+      "p": 1
+    },
+    {
+      "text": "È una funzione fratta, quindi il denominatore deve essere diverso da zero: x al quadrato meno nove diverso da zero, cioè x diverso da tre e da meno tre.",
+      "speech": "È una funzione fratta, quindi il denominatore deve essere diverso da zero: x al quadrato meno nove diverso da zero, cioè x diverso da tre e da meno tre.",
+      "bold": [
+        [
+          33,
+          45
+        ],
+        [
+          58,
+          73
+        ],
+        [
+          134,
+          137
+        ],
+        [
+          143,
+          151
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: una funzione associa a ogni x uno e un solo valore y.",
+      "speech": "Primo: una funzione associa a ogni x uno e un solo valore y.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: le funzioni si classificano in algebriche, cioè razionali intere, fratte e irrazionali, e trascendenti.",
+      "speech": "Secondo: le funzioni si classificano in algebriche, cioè razionali intere, fratte e irrazionali, e trascendenti.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: il dominio è l'insieme delle x per cui la funzione ha senso: denominatore diverso da zero, radicando di radice pari maggiore o uguale a zero, argomento del logaritmo maggiore di zero.",
+      "speech": "Terzo: il dominio è l'insieme delle x per cui la funzione ha senso: denominatore diverso da zero, radicando di radice pari maggiore o uguale a zero, argomento del logaritmo maggiore di zero.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo la funzione esponenziale e la funzione logaritmica.",
+      "speech": "Nel prossimo episodio vediamo la funzione esponenziale e la funzione logaritmica.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

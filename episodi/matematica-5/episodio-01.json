@@ -1,0 +1,340 @@
+{
+  "subject": "Matematica",
+  "episode": "01",
+  "title": "Ripasso: equazioni e disequazioni",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Benvenuti al corso di matematica della classe quinta.",
+      "speech": "Benvenuti al corso di matematica della classe quinta.",
+      "bold": [
+        [
+          22,
+          52
+        ]
+      ]
+    },
+    {
+      "text": "Quest'anno il nostro obiettivo è imparare a fare lo studio di una funzione: capire come è fatto il suo grafico usando i limiti e le derivate.",
+      "speech": "Quest'anno il nostro obiettivo è imparare a fare lo studio di una funzione: capire come è fatto il suo grafico usando i limiti e le derivate.",
+      "bold": [
+        [
+          52,
+          74
+        ],
+        [
+          120,
+          126
+        ],
+        [
+          132,
+          140
+        ]
+      ]
+    },
+    {
+      "text": "Ma prima facciamo un ripasso degli strumenti che ci servono: le equazioni e le disequazioni.",
+      "speech": "Ma prima facciamo un ripasso degli strumenti che ci servono: le equazioni e le disequazioni.",
+      "bold": [
+        [
+          64,
+          73
+        ],
+        [
+          79,
+          91
+        ]
+      ]
+    },
+    {
+      "text": "Un'equazione di primo grado ha la forma a per x più b uguale a zero, e ha una sola soluzione: x uguale a meno b fratto a.",
+      "speech": "Un'equazione di primo grado ha la forma a per x più b uguale a zero, e ha una sola soluzione: x uguale a meno b fratto a.",
+      "bold": [
+        [
+          3,
+          27
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Un'equazione di secondo grado ha la forma a x al quadrato più b x più c uguale a zero.",
+      "speech": "Un'equazione di secondo grado ha la forma a x al quadrato più b x più c uguale a zero.",
+      "bold": [
+        [
+          3,
+          29
+        ]
+      ]
+    },
+    {
+      "text": "Per risolverla calcoliamo il delta, o discriminante, che è b al quadrato meno quattro a c.",
+      "speech": "Per risolverla calcoliamo il delta, o discriminante, che è b al quadrato meno quattro a c.",
+      "bold": [
+        [
+          29,
+          34
+        ]
+      ]
+    },
+    {
+      "text": "Fermatevi su tre casi.",
+      "speech": "Fermatevi su tre casi."
+    },
+    {
+      "text": "Se il delta è positivo, ci sono due soluzioni reali e distinte.",
+      "speech": "Se il delta è positivo, ci sono due soluzioni reali e distinte.",
+      "bold": [
+        [
+          14,
+          22
+        ],
+        [
+          32,
+          45
+        ]
+      ]
+    },
+    {
+      "text": "Se il delta è zero, ci sono due soluzioni coincidenti.",
+      "speech": "Se il delta è zero, ci sono due soluzioni coincidenti.",
+      "bold": [
+        [
+          14,
+          18
+        ],
+        [
+          42,
+          53
+        ]
+      ]
+    },
+    {
+      "text": "Se il delta è negativo, non ci sono soluzioni reali.",
+      "speech": "Se il delta è negativo, non ci sono soluzioni reali.",
+      "bold": [
+        [
+          14,
+          22
+        ]
+      ]
+    },
+    {
+      "text": "Le soluzioni si trovano con la formula: x uguale a meno b più o meno la radice del delta, il tutto fratto due a.",
+      "speech": "Le soluzioni si trovano con la formula: x uguale a meno b più o meno la radice del delta, il tutto fratto due a."
+    },
+    {
+      "text": "Passiamo alle disequazioni di secondo grado, del tipo a x al quadrato più b x più c maggiore di zero, oppure minore di zero.",
+      "speech": "Passiamo alle disequazioni di secondo grado, del tipo a x al quadrato più b x più c maggiore di zero, oppure minore di zero.",
+      "bold": [
+        [
+          14,
+          43
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il metodo più semplice è pensare alla parabola.",
+      "speech": "Il metodo più semplice è pensare alla parabola.",
+      "bold": [
+        [
+          38,
+          46
+        ]
+      ]
+    },
+    {
+      "text": "Prima risolviamo l'equazione associata e troviamo le soluzioni, x uno e x due.",
+      "speech": "Prima risolviamo l'equazione associata e troviamo le soluzioni, x uno e x due."
+    },
+    {
+      "text": "Poi guardiamo il segno di a.",
+      "speech": "Poi guardiamo il segno di a."
+    },
+    {
+      "text": "Se a è positivo, la parabola ha la concavità verso l'alto: è positiva all'esterno delle soluzioni e negativa all'interno.",
+      "speech": "Se a è positivo, la parabola ha la concavità verso l'alto: è positiva all'esterno delle soluzioni e negativa all'interno.",
+      "bold": [
+        [
+          61,
+          81
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    },
+    {
+      "text": "C'è una regola facile da ricordare: se il segno della disequazione è concorde con quello di a, si prendono i valori esterni; se è discorde, quelli interni.",
+      "speech": "Cè una regola facile da ricordare: se il segno della disequazione è concorde con quello di a, si prendono i valori esterni; se è discorde, quelli interni.",
+      "bold": [
+        [
+          116,
+          123
+        ],
+        [
+          147,
+          154
+        ]
+      ]
+    },
+    {
+      "text": "Per esempio, x al quadrato meno quattro maggiore di zero: le soluzioni dell'equazione sono meno due e due; a è positivo e il verso è maggiore, quindi prendiamo i valori esterni: x minore di meno due oppure x maggiore di due.",
+      "speech": "Per esempio, x al quadrato meno quattro maggiore di zero: le soluzioni dell'equazione sono meno due e due; a è positivo e il verso è maggiore, quindi prendiamo i valori esterni: x minore di meno due oppure x maggiore di due."
+    },
+    {
+      "text": "Le disequazioni di grado superiore si risolvono scomponendo il polinomio in fattori di primo e secondo grado.",
+      "speech": "Le disequazioni di grado superiore si risolvono scomponendo il polinomio in fattori di primo e secondo grado.",
+      "bold": [
+        [
+          3,
+          34
+        ],
+        [
+          48,
+          59
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Poi si studia il segno di ciascun fattore e si costruisce una tabella dei segni, applicando la regola dei segni del prodotto.",
+      "speech": "Poi si studia il segno di ciascun fattore e si costruisce una tabella dei segni, applicando la regola dei segni del prodotto.",
+      "bold": [
+        [
+          17,
+          41
+        ],
+        [
+          62,
+          79
+        ]
+      ]
+    },
+    {
+      "text": "Infine le disequazioni fratte, cioè con la x anche al denominatore.",
+      "speech": "Infine le disequazioni fratte, cioè con la x anche al denominatore.",
+      "bold": [
+        [
+          10,
+          29
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Fermatevi su un errore frequentissimo: non si può moltiplicare per il denominatore, perché non sappiamo se è positivo o negativo.",
+      "speech": "Fermatevi su un errore frequentissimo: non si può moltiplicare per il denominatore, perché non sappiamo se è positivo o negativo.",
+      "bold": [
+        [
+          39,
+          42
+        ]
+      ]
+    },
+    {
+      "text": "Si procede così:",
+      "speech": "Si procede così:"
+    },
+    {
+      "text": "si porta tutto a primo membro, in modo da avere una frazione confrontata con zero; si studia il segno del numeratore e del denominatore separatamente; si mettono i risultati in una tabella dei segni; e si scelgono gli intervalli richiesti.",
+      "speech": "si porta tutto a primo membro, in modo da avere una frazione confrontata con zero; si studia il segno del numeratore e del denominatore separatamente; si mettono i risultati in una tabella dei segni; e si scelgono gli intervalli richiesti.",
+      "bold": [
+        [
+          106,
+          116
+        ],
+        [
+          123,
+          135
+        ]
+      ]
+    },
+    {
+      "text": "Attenzione: i valori che annullano il denominatore vanno sempre esclusi, perché non si può dividere per zero.",
+      "speech": "Attenzione: i valori che annullano il denominatore vanno sempre esclusi, perché non si può dividere per zero.",
+      "bold": [
+        [
+          25,
+          50
+        ],
+        [
+          64,
+          71
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: quante soluzioni ha l'equazione x al quadrato più uno uguale a zero?",
+      "speech": "Proviamo un piccolo esercizio insieme: quante soluzioni ha l'equazione x al quadrato più uno uguale a zero?",
+      "p": 1
+    },
+    {
+      "text": "Il delta è zero meno quattro, cioè meno quattro, che è negativo: quindi l'equazione non ha soluzioni reali.",
+      "speech": "Il delta è zero meno quattro, cioè meno quattro, che è negativo: quindi l'equazione non ha soluzioni reali.",
+      "bold": [
+        [
+          35,
+          47
+        ],
+        [
+          55,
+          63
+        ],
+        [
+          84,
+          106
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: le equazioni di secondo grado si risolvono con il delta, che dice quante soluzioni ci sono.",
+      "speech": "Primo: le equazioni di secondo grado si risolvono con il delta, che dice quante soluzioni ci sono.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: le disequazioni di secondo grado si risolvono con la parabola: valori esterni se il verso è concorde con a, interni se è discorde.",
+      "speech": "Secondo: le disequazioni di secondo grado si risolvono con la parabola: valori esterni se il verso è concorde con a, interni se è discorde.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: le disequazioni di grado superiore e fratte si risolvono con lo studio del segno dei fattori e la tabella dei segni, escludendo gli zeri del denominatore.",
+      "speech": "Terzo: le disequazioni di grado superiore e fratte si risolvono con lo studio del segno dei fattori e la tabella dei segni, escludendo gli zeri del denominatore.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio entriamo nelle funzioni.",
+      "speech": "Nel prossimo episodio entriamo nelle funzioni.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}

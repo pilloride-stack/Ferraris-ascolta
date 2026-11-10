@@ -1,0 +1,346 @@
+{
+  "subject": "Fisica",
+  "episode": "07",
+  "title": "I magneti e il campo magnetico",
+  "class": "Classe quinta",
+  "sentences": [
+    {
+      "text": "Nell'episodio scorso abbiamo concluso la parte sulla corrente elettrica.",
+      "speech": "Nell'episodio scorso abbiamo concluso la parte sulla corrente elettrica."
+    },
+    {
+      "text": "Oggi entriamo nel magnetismo.",
+      "speech": "Oggi entriamo nel magnetismo.",
+      "bold": [
+        [
+          18,
+          28
+        ]
+      ]
+    },
+    {
+      "text": "Già nell'antichità si conosceva la magnetite, un minerale di ferro capace di attirare oggetti di ferro: è un magnete naturale.",
+      "speech": "Già nell'antichità si conosceva la magnetite, un minerale di ferro capace di attirare oggetti di ferro: è un magnete naturale.",
+      "bold": [
+        [
+          35,
+          44
+        ],
+        [
+          109,
+          125
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il nome viene dalla regione greca della Magnesia, dove si trovava.",
+      "speech": "Il nome viene dalla regione greca della Magnesia, dove si trovava."
+    },
+    {
+      "text": "I magneti artificiali, come le calamite, si ottengono magnetizzando materiali ferromagnetici, come il ferro, il nichel e il cobalto.",
+      "speech": "I magneti artificiali, come le calamite, si ottengono magnetizzando materiali ferromagnetici, come il ferro, il nichel e il cobalto.",
+      "bold": [
+        [
+          2,
+          21
+        ],
+        [
+          78,
+          92
+        ]
+      ]
+    },
+    {
+      "text": "Alcuni magneti sono permanenti, altri temporanei.",
+      "speech": "Alcuni magneti sono permanenti, altri temporanei."
+    },
+    {
+      "text": "Fermatevi sulle proprietà dei magneti.",
+      "speech": "Fermatevi sulle proprietà dei magneti.",
+      "p": 1
+    },
+    {
+      "text": "Ogni magnete ha due poli, chiamati polo nord e polo sud, dove l'attrazione è più forte.",
+      "speech": "Ogni magnete ha due poli, chiamati polo nord e polo sud, dove l'attrazione è più forte.",
+      "bold": [
+        [
+          20,
+          24
+        ],
+        [
+          35,
+          44
+        ],
+        [
+          47,
+          55
+        ]
+      ]
+    },
+    {
+      "text": "Poli dello stesso nome si respingono, poli di nome opposto si attraggono, come le cariche elettriche.",
+      "speech": "Poli dello stesso nome si respingono, poli di nome opposto si attraggono, come le cariche elettriche.",
+      "bold": [
+        [
+          11,
+          36
+        ],
+        [
+          46,
+          72
+        ]
+      ]
+    },
+    {
+      "text": "Ma c'è una differenza fondamentale: i poli magnetici non si possono separare.",
+      "speech": "Ma cè una differenza fondamentale: i poli magnetici non si possono separare.",
+      "bold": [
+        [
+          53,
+          76
+        ]
+      ]
+    },
+    {
+      "text": "Se spezziamo una calamita a metà, non otteniamo un polo nord da solo e un polo sud da solo, ma due calamite più piccole, ciascuna con il suo polo nord e il suo polo sud.",
+      "speech": "Se spezziamo una calamita a metà, non otteniamo un polo nord da solo e un polo sud da solo, ma due calamite più piccole, ciascuna con il suo polo nord e il suo polo sud.",
+      "bold": [
+        [
+          95,
+          107
+        ]
+      ]
+    },
+    {
+      "text": "Non esistono monopoli magnetici.",
+      "speech": "Non esistono monopoli magnetici.",
+      "bold": [
+        [
+          13,
+          31
+        ]
+      ]
+    },
+    {
+      "text": "Come la carica crea un campo elettrico, il magnete crea intorno a sé un campo magnetico.",
+      "speech": "Come la carica crea un campo elettrico, il magnete crea intorno a sé un campo magnetico.",
+      "bold": [
+        [
+          72,
+          87
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il campo magnetico si indica con la lettera B, è un vettore, e si misura in tesla.",
+      "speech": "Il campo magnetico si indica con la lettera B, è un vettore, e si misura in tesla.",
+      "bold": [
+        [
+          44,
+          45
+        ],
+        [
+          76,
+          81
+        ]
+      ]
+    },
+    {
+      "text": "Lo possiamo visualizzare con la limatura di ferro: spargendola su un foglio sopra una calamita, i granellini si dispongono lungo delle linee curve, le linee del campo magnetico.",
+      "speech": "Lo possiamo visualizzare con la limatura di ferro: spargendola su un foglio sopra una calamita, i granellini si dispongono lungo delle linee curve, le linee del campo magnetico.",
+      "bold": [
+        [
+          32,
+          49
+        ],
+        [
+          151,
+          176
+        ]
+      ]
+    },
+    {
+      "text": "Le linee di campo escono dal polo nord ed entrano nel polo sud, all'esterno del magnete.",
+      "speech": "Le linee di campo escono dal polo nord ed entrano nel polo sud, all'esterno del magnete.",
+      "bold": [
+        [
+          18,
+          38
+        ],
+        [
+          42,
+          62
+        ]
+      ]
+    },
+    {
+      "text": "Ma, a differenza delle linee del campo elettrico, le linee del campo magnetico sono sempre chiuse: continuano anche dentro il magnete, dal polo sud al polo nord.",
+      "speech": "Ma, a differenza delle linee del campo elettrico, le linee del campo magnetico sono sempre chiuse: continuano anche dentro il magnete, dal polo sud al polo nord.",
+      "bold": [
+        [
+          91,
+          97
+        ]
+      ]
+    },
+    {
+      "text": "Per questo il flusso del campo magnetico attraverso una superficie chiusa è sempre zero: è il teorema di Gauss per il magnetismo, che esprime proprio il fatto che non esistono monopoli magnetici.",
+      "speech": "Per questo il flusso del campo magnetico attraverso una superficie chiusa è sempre zero: è il teorema di Gauss per il magnetismo, che esprime proprio il fatto che non esistono monopoli magnetici.",
+      "bold": [
+        [
+          83,
+          87
+        ],
+        [
+          94,
+          128
+        ]
+      ]
+    },
+    {
+      "text": "Anche la Terra è un enorme magnete.",
+      "speech": "Anche la Terra è un enorme magnete.",
+      "bold": [
+        [
+          9,
+          14
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Il suo campo magnetico è probabilmente prodotto dai movimenti del ferro fuso nel nucleo terrestre.",
+      "speech": "Il suo campo magnetico è probabilmente prodotto dai movimenti del ferro fuso nel nucleo terrestre.",
+      "bold": [
+        [
+          7,
+          22
+        ]
+      ]
+    },
+    {
+      "text": "È per questo che l'ago della bussola, che è un piccolo magnete, si orienta sempre verso nord.",
+      "speech": "È per questo che l'ago della bussola, che è un piccolo magnete, si orienta sempre verso nord.",
+      "bold": [
+        [
+          19,
+          36
+        ]
+      ]
+    },
+    {
+      "text": "Attenzione a una curiosità: il polo nord geografico corrisponde in realtà a un polo sud magnetico, perché attira il polo nord dell'ago.",
+      "speech": "Attenzione a una curiosità: il polo nord geografico corrisponde in realtà a un polo sud magnetico, perché attira il polo nord dell'ago.",
+      "bold": [
+        [
+          36,
+          51
+        ],
+        [
+          84,
+          97
+        ]
+      ]
+    },
+    {
+      "text": "Inoltre i poli magnetici non coincidono esattamente con quelli geografici, e si spostano lentamente nel tempo.",
+      "speech": "Inoltre i poli magnetici non coincidono esattamente con quelli geografici, e si spostano lentamente nel tempo."
+    },
+    {
+      "text": "Il campo magnetico terrestre è importantissimo per la vita: ci protegge dal vento solare, le particelle cariche che arrivano dal Sole.",
+      "speech": "Il campo magnetico terrestre è importantissimo per la vita: ci protegge dal vento solare, le particelle cariche che arrivano dal Sole.",
+      "bold": [
+        [
+          63,
+          71
+        ],
+        [
+          76,
+          88
+        ]
+      ]
+    },
+    {
+      "text": "Quando alcune di queste particelle entrano nell'atmosfera vicino ai poli, producono le aurore boreali.",
+      "speech": "Quando alcune di queste particelle entrano nell'atmosfera vicino ai poli, producono le aurore boreali.",
+      "bold": [
+        [
+          87,
+          101
+        ]
+      ]
+    },
+    {
+      "text": "Proviamo un piccolo esercizio insieme: che cosa succede se spezziamo una calamita a metà?",
+      "speech": "Proviamo un piccolo esercizio insieme: che cosa succede se spezziamo una calamita a metà?",
+      "p": 1
+    },
+    {
+      "text": "Non otteniamo poli separati, ma due calamite più piccole, ciascuna con un polo nord e un polo sud: i poli magnetici non si possono separare.",
+      "speech": "Non otteniamo poli separati, ma due calamite più piccole, ciascuna con un polo nord e un polo sud: i poli magnetici non si possono separare.",
+      "bold": [
+        [
+          32,
+          44
+        ],
+        [
+          74,
+          83
+        ],
+        [
+          89,
+          97
+        ]
+      ]
+    },
+    {
+      "text": "Riassumiamo i punti principali di oggi.",
+      "speech": "Riassumiamo i punti principali di oggi.",
+      "p": 1
+    },
+    {
+      "text": "Primo: i magneti hanno un polo nord e un polo sud; poli uguali si respingono e opposti si attraggono, ma non si possono separare.",
+      "speech": "Primo: i magneti hanno un polo nord e un polo sud; poli uguali si respingono e opposti si attraggono, ma non si possono separare.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Secondo: il campo magnetico B si misura in tesla; le sue linee escono dal polo nord, entrano nel polo sud e sono sempre chiuse.",
+      "speech": "Secondo: il campo magnetico B si misura in tesla; le sue linee escono dal polo nord, entrano nel polo sud e sono sempre chiuse.",
+      "bold": [
+        [
+          0,
+          7
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Terzo: la Terra è un grande magnete che orienta la bussola e ci protegge dal vento solare.",
+      "speech": "Terzo: la Terra è un grande magnete che orienta la bussola e ci protegge dal vento solare.",
+      "bold": [
+        [
+          0,
+          5
+        ]
+      ],
+      "p": 1
+    },
+    {
+      "text": "Nel prossimo episodio vediamo il legame tra elettricità e magnetismo.",
+      "speech": "Nel prossimo episodio vediamo il legame tra elettricità e magnetismo.",
+      "p": 1
+    },
+    {
+      "text": "Ci vediamo lì.",
+      "speech": "Ci vediamo lì."
+    }
+  ]
+}
