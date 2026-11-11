@@ -42,17 +42,11 @@
       ]
     },
     {
-      "text": "Noi studiamo le funzioni reali di variabile reale, in cui sia la x sia la y sono numeri reali.",
-      "speech": "Noi studiamo le funzioni reali di variabile reale, in cui sia la x sia la y sono numeri reali.",
-      "bold": [
-        [
-          16,
-          49
-        ]
-      ]
+      "text": "Noi studiamo le funzioni reali di variabile reale, in cui sia x sia y sono numeri reali.",
+      "speech": "Noi studiamo le funzioni reali di variabile reale, in cui sia la x sia la y sono numeri reali."
     },
     {
-      "text": "Scriviamo y uguale a f di x.",
+      "text": "Scriviamo y = f(x).",
       "speech": "Scriviamo y uguale a f di x."
     },
     {
@@ -74,7 +68,7 @@
       "speech": "Pensate a una macchina: inserite un numero x, e la macchina restituisce un numero y."
     },
     {
-      "text": "Il grafico di una funzione è l'insieme dei punti del piano cartesiano di coordinate x e f di x.",
+      "text": "Il grafico di una funzione è l'insieme dei punti del piano cartesiano di coordinate (x, f(x)).",
       "speech": "Il grafico di una funzione è l'insieme dei punti del piano cartesiano di coordinate x e f di x."
     },
     {
@@ -99,22 +93,8 @@
       ]
     },
     {
-      "text": "Si dividono in razionali intere, cioè i polinomi, come x al quadrato più tre x; razionali fratte, con la x al denominatore; e irrazionali, con la x sotto radice.",
-      "speech": "Si dividono in razionali intere, cioè i polinomi, come x al quadrato più tre x; razionali fratte, con la x al denominatore; e irrazionali, con la x sotto radice.",
-      "bold": [
-        [
-          15,
-          31
-        ],
-        [
-          80,
-          96
-        ],
-        [
-          126,
-          137
-        ]
-      ]
+      "text": "Si dividono in razionali intere, cioè i polinomi, come x² + 3x; razionali fratte, con x al denominatore; e irrazionali, con x sotto radice.",
+      "speech": "Si dividono in razionali intere, cioè i polinomi, come x al quadrato più tre x; razionali fratte, con la x al denominatore; e irrazionali, con la x sotto radice."
     },
     {
       "text": "Le funzioni trascendenti sono invece l'esponenziale, il logaritmo e le funzioni goniometriche.",
@@ -190,7 +170,7 @@
       "p": 1
     },
     {
-      "text": "Per esempio, per uno fratto x meno tre, il dominio è x diverso da tre.",
+      "text": "Per esempio, per 1/(x − 3), il dominio è x ≠ 3.",
       "speech": "Per esempio, per uno fratto x meno tre, il dominio è x diverso da tre."
     },
     {
@@ -217,7 +197,7 @@
       "p": 1
     },
     {
-      "text": "Per esempio, per radice di x meno due, il dominio è x maggiore o uguale a due.",
+      "text": "Per esempio, per √(x − 2), il dominio è x ≥ 2.",
       "speech": "Per esempio, per radice di x meno due, il dominio è x maggiore o uguale a due."
     },
     {
@@ -270,31 +250,13 @@
       "p": 1
     },
     {
-      "text": "Proviamo un piccolo esercizio insieme: qual è il dominio della funzione x fratto x al quadrato meno nove?",
+      "text": "Proviamo un piccolo esercizio insieme: qual è il dominio della funzione x/(x² − 9)?",
       "speech": "Proviamo un piccolo esercizio insieme: qual è il dominio della funzione x fratto x al quadrato meno nove?",
       "p": 1
     },
     {
-      "text": "È una funzione fratta, quindi il denominatore deve essere diverso da zero: x al quadrato meno nove diverso da zero, cioè x diverso da tre e da meno tre.",
-      "speech": "È una funzione fratta, quindi il denominatore deve essere diverso da zero: x al quadrato meno nove diverso da zero, cioè x diverso da tre e da meno tre.",
-      "bold": [
-        [
-          33,
-          45
-        ],
-        [
-          58,
-          73
-        ],
-        [
-          134,
-          137
-        ],
-        [
-          143,
-          151
-        ]
-      ]
+      "text": "È una funzione fratta, quindi il denominatore deve essere diverso da zero: x² − 9 ≠ 0, cioè x ≠ 3 e x ≠ −3.",
+      "speech": "È una funzione fratta, quindi il denominatore deve essere diverso da zero: x al quadrato meno nove diverso da zero, cioè x diverso da tre e da meno tre."
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",

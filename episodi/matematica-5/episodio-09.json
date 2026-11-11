@@ -52,14 +52,8 @@
       "p": 1
     },
     {
-      "text": "Terzo passo: le intersezioni con gli assi: con l'asse y, calcolando f di zero, e con l'asse x, risolvendo f di x uguale a zero.",
+      "text": "Terzo passo: le intersezioni con gli assi: con l'asse y, calcolando f(0), e con l'asse x, risolvendo f(x) = 0.",
       "speech": "Terzo passo: le intersezioni con gli assi: con l'asse y, calcolando f di zero, e con l'asse x, risolvendo f di x uguale a zero.",
-      "bold": [
-        [
-          16,
-          41
-        ]
-      ],
       "p": 1
     },
     {
@@ -138,25 +132,13 @@
       "p": 1
     },
     {
-      "text": "Facciamo un esempio con una funzione razionale fratta: y uguale a x al quadrato fratto x meno uno.",
+      "text": "Facciamo un esempio con una funzione razionale fratta: y = x²/(x − 1).",
       "speech": "Facciamo un esempio con una funzione razionale fratta: y uguale a x al quadrato fratto x meno uno.",
-      "bold": [
-        [
-          28,
-          53
-        ]
-      ],
       "p": 1
     },
     {
-      "text": "Il dominio: il denominatore deve essere diverso da zero, quindi x diverso da uno.",
+      "text": "Il dominio: il denominatore deve essere diverso da zero, quindi x ≠ 1.",
       "speech": "Il dominio: il denominatore deve essere diverso da zero, quindi x diverso da uno.",
-      "bold": [
-        [
-          3,
-          10
-        ]
-      ],
       "p": 1
     },
     {
@@ -171,14 +153,8 @@
       "p": 1
     },
     {
-      "text": "Le intersezioni: per x uguale a zero, y vale zero; e la funzione si annulla solo per x uguale a zero.",
+      "text": "Le intersezioni: per x = 0, y = 0; e la funzione si annulla solo per x = 0.",
       "speech": "Le intersezioni: per x uguale a zero, y vale zero; e la funzione si annulla solo per x uguale a zero.",
-      "bold": [
-        [
-          3,
-          15
-        ]
-      ],
       "p": 1
     },
     {
@@ -203,32 +179,12 @@
       "p": 1
     },
     {
-      "text": "La funzione è positiva per x maggiore di uno e negativa per x minore di uno.",
-      "speech": "La funzione è positiva per x maggiore di uno e negativa per x minore di uno.",
-      "bold": [
-        [
-          14,
-          22
-        ],
-        [
-          47,
-          55
-        ]
-      ]
+      "text": "La funzione è positiva per x > 1 e negativa per x < 1.",
+      "speech": "La funzione è positiva per x maggiore di uno e negativa per x minore di uno."
     },
     {
-      "text": "Gli asintoti: per x che tende a uno, il denominatore si annulla e il limite è infinito, quindi la retta x uguale a uno è un asintoto verticale.",
+      "text": "Per x → 1, il denominatore si annulla e il limite è infinito, quindi la retta x = 1 è un asintoto verticale.",
       "speech": "Gli asintoti: per x che tende a uno, il denominatore si annulla e il limite è infinito, quindi la retta x uguale a uno è un asintoto verticale.",
-      "bold": [
-        [
-          4,
-          12
-        ],
-        [
-          124,
-          142
-        ]
-      ],
       "p": 1
     },
     {
@@ -242,22 +198,16 @@
       ]
     },
     {
-      "text": "Calcolando, si trova m uguale a uno e q uguale a uno: l'asintoto obliquo è y uguale a x più uno.",
+      "text": "Calcolando, si trova m = 1 e q = 1: l'asintoto obliquo è y = x + 1.",
       "speech": "Calcolando, si trova m uguale a uno e q uguale a uno: l'asintoto obliquo è y uguale a x più uno."
     },
     {
-      "text": "La derivata prima, con la regola del quoziente, è x al quadrato meno due x, fratto x meno uno al quadrato.",
+      "text": "La derivata prima, con la regola del quoziente, è f′(x) = (x² − 2x)/(x − 1)².",
       "speech": "La derivata prima, con la regola del quoziente, è x al quadrato meno due x, fratto x meno uno al quadrato.",
-      "bold": [
-        [
-          3,
-          17
-        ]
-      ],
       "p": 1
     },
     {
-      "text": "Si annulla per x uguale a zero e per x uguale a due.",
+      "text": "Si annulla per x = 0 e per x = 2.",
       "speech": "Si annulla per x uguale a zero e per x uguale a due."
     },
     {
@@ -275,14 +225,8 @@
       ]
     },
     {
-      "text": "La derivata seconda è due fratto x meno uno al cubo: è positiva per x maggiore di uno, dove la concavità è verso l'alto, e negativa per x minore di uno, dove è verso il basso.",
+      "text": "La derivata seconda è f″(x) = 2/(x − 1)³: è positiva per x > 1, dove la concavità è verso l'alto, e negativa per x < 1, dove è verso il basso.",
       "speech": "La derivata seconda è due fratto x meno uno al cubo: è positiva per x maggiore di uno, dove la concavità è verso l'alto, e negativa per x minore di uno, dove è verso il basso.",
-      "bold": [
-        [
-          3,
-          19
-        ]
-      ],
       "p": 1
     },
     {
@@ -290,14 +234,8 @@
       "speech": "Non ci sono flessi, perché la derivata seconda non si annulla mai."
     },
     {
-      "text": "Ora possiamo disegnare il grafico: due rami, separati dall'asintoto verticale x uguale a uno.",
+      "text": "Ora possiamo disegnare il grafico: due rami, separati dall'asintoto verticale x = 1.",
       "speech": "Ora possiamo disegnare il grafico: due rami, separati dall'asintoto verticale x uguale a uno.",
-      "bold": [
-        [
-          26,
-          33
-        ]
-      ],
       "p": 1
     },
     {

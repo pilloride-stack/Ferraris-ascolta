@@ -42,22 +42,16 @@
       "p": 1
     },
     {
-      "text": "Si trovano risolvendo l'equazione f di x uguale a zero.",
+      "text": "Si trovano risolvendo l'equazione f(x) = 0.",
       "speech": "Si trovano risolvendo l'equazione f di x uguale a zero."
     },
     {
-      "text": "Per esempio, la funzione x al quadrato meno quattro ha due zeri: meno due e due.",
+      "text": "Per esempio, la funzione x² − 4 ha due zeri: −2 e 2.",
       "speech": "Per esempio, la funzione x al quadrato meno quattro ha due zeri: meno due e due."
     },
     {
-      "text": "Insieme agli zeri, si trova anche l'intersezione con l'asse y, calcolando f di zero, se zero appartiene al dominio.",
-      "speech": "Insieme agli zeri, si trova anche l'intersezione con l'asse y, calcolando f di zero, se zero appartiene al dominio.",
-      "bold": [
-        [
-          36,
-          61
-        ]
-      ]
+      "text": "Insieme agli zeri, si trova anche l'intersezione con l'asse y, calcolando f(0), se zero appartiene al dominio.",
+      "speech": "Insieme agli zeri, si trova anche l'intersezione con l'asse y, calcolando f di zero, se zero appartiene al dominio."
     },
     {
       "text": "Fermatevi sul segno della funzione, perché è un passo fondamentale.",
@@ -93,7 +87,7 @@
       ]
     },
     {
-      "text": "Si risolve la disequazione f di x maggiore di zero.",
+      "text": "Si risolve la disequazione f(x) > 0.",
       "speech": "Si risolve la disequazione f di x maggiore di zero."
     },
     {
@@ -116,32 +110,12 @@
       "p": 1
     },
     {
-      "text": "Una funzione è pari se f di meno x è uguale a f di x: il suo grafico è simmetrico rispetto all'asse y, come la parabola x al quadrato.",
-      "speech": "Una funzione è pari se f di meno x è uguale a f di x: il suo grafico è simmetrico rispetto all'asse y, come la parabola x al quadrato.",
-      "bold": [
-        [
-          15,
-          19
-        ],
-        [
-          71,
-          101
-        ]
-      ]
+      "text": "Una funzione è pari se f(−x) = f(x): il suo grafico è simmetrico rispetto all'asse y, come la parabola y = x².",
+      "speech": "Una funzione è pari se f di meno x è uguale a f di x: il suo grafico è simmetrico rispetto all'asse y, come la parabola x al quadrato."
     },
     {
-      "text": "Una funzione è dispari se f di meno x è uguale a meno f di x: il suo grafico è simmetrico rispetto all'origine, come x al cubo.",
-      "speech": "Una funzione è dispari se f di meno x è uguale a meno f di x: il suo grafico è simmetrico rispetto all'origine, come x al cubo.",
-      "bold": [
-        [
-          15,
-          22
-        ],
-        [
-          79,
-          110
-        ]
-      ]
+      "text": "Una funzione è dispari se f(−x) = −f(x): il suo grafico è simmetrico rispetto all'origine, come y = x³.",
+      "speech": "Una funzione è dispari se f di meno x è uguale a meno f di x: il suo grafico è simmetrico rispetto all'origine, come x al cubo."
     },
     {
       "text": "Molte funzioni non sono né pari né dispari.",
@@ -218,12 +192,12 @@
       "speech": "Lo studieremo con le derivate."
     },
     {
-      "text": "Proviamo un piccolo esercizio insieme: la funzione x alla quarta meno x al quadrato è pari o dispari?",
+      "text": "Proviamo un piccolo esercizio insieme: la funzione f(x) = x⁴ − x² è pari o dispari?",
       "speech": "Proviamo un piccolo esercizio insieme: la funzione x alla quarta meno x al quadrato è pari o dispari?",
       "p": 1
     },
     {
-      "text": "Sostituiamo meno x: meno x alla quarta è x alla quarta, e meno x al quadrato è x al quadrato.",
+      "text": "Sostituiamo −x: (−x)⁴ = x⁴ e (−x)² = x².",
       "speech": "Sostituiamo meno x: meno x alla quarta è x alla quarta, e meno x al quadrato è x al quadrato."
     },
     {
@@ -246,14 +220,8 @@
       "p": 1
     },
     {
-      "text": "Primo: gli zeri sono le intersezioni con l'asse x e si trovano risolvendo f di x uguale a zero.",
+      "text": "Primo: gli zeri sono le intersezioni con l'asse x e si trovano risolvendo f(x) = 0.",
       "speech": "Primo: gli zeri sono le intersezioni con l'asse x e si trovano risolvendo f di x uguale a zero.",
-      "bold": [
-        [
-          0,
-          5
-        ]
-      ],
       "p": 1
     },
     {

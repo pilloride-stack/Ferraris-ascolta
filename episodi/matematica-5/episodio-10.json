@@ -135,18 +135,8 @@
       "p": 1
     },
     {
-      "text": "È pari se f di meno x è uguale a f di x, ed è simmetrica rispetto all'asse y; è dispari se f di meno x è uguale a meno f di x, ed è simmetrica rispetto all'origine.",
-      "speech": "È pari se f di meno x è uguale a f di x, ed è simmetrica rispetto all'asse y; è dispari se f di meno x è uguale a meno f di x, ed è simmetrica rispetto all'origine.",
-      "bold": [
-        [
-          2,
-          6
-        ],
-        [
-          80,
-          87
-        ]
-      ]
+      "text": "È pari se f(−x) = f(x), ed è simmetrica rispetto all'asse y; è dispari se f(−x) = −f(x), ed è simmetrica rispetto all'origine.",
+      "speech": "È pari se f di meno x è uguale a f di x, ed è simmetrica rispetto all'asse y; è dispari se f di meno x è uguale a meno f di x, ed è simmetrica rispetto all'origine."
     },
     {
       "text": "Settima domanda: quali sono le forme indeterminate?",
@@ -154,26 +144,8 @@
       "p": 1
     },
     {
-      "text": "Infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero.",
-      "speech": "Infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero.",
-      "bold": [
-        [
-          0,
-          22
-        ],
-        [
-          24,
-          41
-        ],
-        [
-          43,
-          67
-        ],
-        [
-          70,
-          86
-        ]
-      ]
+      "text": "∞ − ∞, 0 · ∞, ∞/∞ e 0/0.",
+      "speech": "Infinito meno infinito, zero per infinito, infinito fratto infinito e zero fratto zero."
     },
     {
       "text": "Ottava domanda: come si calcola il limite all'infinito di una funzione fratta?",
@@ -256,19 +228,13 @@
       ]
     },
     {
-      "text": "Dodicesima domanda: qual è la derivata di x elevato a n?",
+      "text": "Dodicesima domanda: qual è la derivata di xⁿ?",
       "speech": "Dodicesima domanda: qual è la derivata di x elevato a n?",
       "p": 1
     },
     {
-      "text": "È n per x elevato a n meno uno.",
-      "speech": "È n per x elevato a n meno uno.",
-      "bold": [
-        [
-          2,
-          30
-        ]
-      ]
+      "text": "È nxⁿ⁻¹.",
+      "speech": "È n per x elevato a n meno uno."
     },
     {
       "text": "Tredicesima domanda: come si trovano massimi e minimi?",

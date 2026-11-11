@@ -88,7 +88,7 @@
       ]
     },
     {
-      "text": "In formula: B uguale a mu zero per i, fratto due pi greco per r.",
+      "text": "In formula: B = μ₀I/(2πr).",
       "speech": "In formula: B uguale a mu zero per i, fratto due pi greco per r."
     },
     {
@@ -135,14 +135,8 @@
       "speech": "Le linee di campo si avvolgono intorno al filo, e al centro della spira sono tutte rivolte nella stessa direzione, perpendicolare al piano della spira."
     },
     {
-      "text": "Il campo al centro della spira è B uguale a mu zero per i, fratto due per r, dove r è il raggio della spira.",
-      "speech": "Il campo al centro della spira è B uguale a mu zero per i, fratto due per r, dove r è il raggio della spira.",
-      "bold": [
-        [
-          12,
-          18
-        ]
-      ]
+      "text": "Il campo al centro della spira è B = μ₀I/(2r), dove r è il raggio della spira.",
+      "speech": "Il campo al centro della spira è B uguale a mu zero per i, fratto due per r, dove r è il raggio della spira."
     },
     {
       "text": "Notate una cosa interessante: una spira percorsa da corrente si comporta come un piccolo magnete, con una faccia che fa da polo nord e una da polo sud.",
@@ -208,18 +202,8 @@
       ]
     },
     {
-      "text": "L'intensità del campo all'interno è B uguale a mu zero per N per i, fratto l, dove N è il numero di spire e l la lunghezza del solenoide.",
-      "speech": "L'intensità del campo all'interno è B uguale a mu zero per N per i, fratto l, dove N è il numero di spire e l la lunghezza del solenoide.",
-      "bold": [
-        [
-          90,
-          105
-        ],
-        [
-          113,
-          122
-        ]
-      ]
+      "text": "L'intensità del campo all'interno è B = μ₀NI/l, dove N è il numero di spire e l la lunghezza del solenoide.",
+      "speech": "L'intensità del campo all'interno è B uguale a mu zero per N per i, fratto l, dove N è il numero di spire e l la lunghezza del solenoide."
     },
     {
       "text": "Quindi il campo aumenta se aumentiamo la corrente o il numero di spire per unità di lunghezza.",

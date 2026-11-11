@@ -68,14 +68,8 @@
       ]
     },
     {
-      "text": "Quindi, per sapere dove la funzione cresce, basta studiare il segno della derivata prima, risolvendo la disequazione f primo di x maggiore di zero.",
-      "speech": "Quindi, per sapere dove la funzione cresce, basta studiare il segno della derivata prima, risolvendo la disequazione f primo di x maggiore di zero.",
-      "bold": [
-        [
-          50,
-          88
-        ]
-      ]
+      "text": "Quindi, per sapere dove la funzione cresce, basta studiare il segno della derivata prima, risolvendo f′(x) > 0.",
+      "speech": "Quindi, per sapere dove la funzione cresce, basta studiare il segno della derivata prima, risolvendo la disequazione f primo di x maggiore di zero."
     },
     {
       "text": "Passiamo ai massimi e ai minimi.",
@@ -278,40 +272,24 @@
       "p": 1
     },
     {
-      "text": "Prendiamo la funzione x al cubo meno tre x.",
+      "text": "Prendiamo la funzione f(x) = x³ − 3x.",
       "speech": "Prendiamo la funzione x al cubo meno tre x."
     },
     {
-      "text": "La derivata prima è tre x al quadrato meno tre, che si annulla per x uguale a meno uno e x uguale a uno.",
+      "text": "La derivata prima è f′(x) = 3x² − 3, che si annulla per x = −1 e x = 1.",
       "speech": "La derivata prima è tre x al quadrato meno tre, che si annulla per x uguale a meno uno e x uguale a uno."
     },
     {
-      "text": "Studiando il segno, la derivata è positiva all'esterno, cioè per x minore di meno uno e maggiore di uno, e negativa all'interno.",
+      "text": "Studiando il segno, la derivata è positiva per x < −1 e x > 1, e negativa per −1 < x < 1.",
       "speech": "Studiando il segno, la derivata è positiva all'esterno, cioè per x minore di meno uno e maggiore di uno, e negativa all'interno."
     },
     {
-      "text": "Quindi la funzione cresce, poi scende, poi cresce di nuovo: in x uguale a meno uno c'è un massimo, in x uguale a uno un minimo.",
-      "speech": "Quindi la funzione cresce, poi scende, poi cresce di nuovo: in x uguale a meno uno cè un massimo, in x uguale a uno un minimo.",
-      "bold": [
-        [
-          90,
-          97
-        ],
-        [
-          120,
-          126
-        ]
-      ]
+      "text": "Quindi la funzione cresce, poi scende, poi cresce di nuovo: in x = −1 c'è un massimo, in x = 1 un minimo.",
+      "speech": "Quindi la funzione cresce, poi scende, poi cresce di nuovo: in x uguale a meno uno cè un massimo, in x uguale a uno un minimo."
     },
     {
-      "text": "La derivata seconda è sei x, che si annulla in zero e cambia segno: in x uguale a zero c'è un flesso.",
-      "speech": "La derivata seconda è sei x, che si annulla in zero e cambia segno: in x uguale a zero cè un flesso.",
-      "bold": [
-        [
-          94,
-          100
-        ]
-      ]
+      "text": "La derivata seconda è f″(x) = 6x, che si annulla in zero e cambia segno: in x = 0 c'è un flesso.",
+      "speech": "La derivata seconda è sei x, che si annulla in zero e cambia segno: in x uguale a zero cè un flesso."
     },
     {
       "text": "Proviamo un piccolo esercizio insieme: se la derivata prima passa da negativa a positiva in un punto, che cosa c'è?",

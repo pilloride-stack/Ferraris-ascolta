@@ -69,22 +69,12 @@
       "p": 1
     },
     {
-      "text": "In formula: F uguale a k per q uno per q due, fratto r al quadrato.",
+      "text": "In formula: F = k(q₁q₂)/r².",
       "speech": "In formula: F uguale a k per q uno per q due, fratto r al quadrato."
     },
     {
-      "text": "Qui q uno e q due sono le cariche, r è la distanza, e k è la costante di Coulomb, che nel vuoto vale circa nove per dieci alla nona, in newton per metro quadrato fratto coulomb al quadrato.",
-      "speech": "Qui q uno e q due sono le cariche, r è la distanza, e k è la costante di Coulomb, che nel vuoto vale circa nove per dieci alla nona, in newton per metro quadrato fratto coulomb al quadrato.",
-      "bold": [
-        [
-          61,
-          80
-        ],
-        [
-          107,
-          131
-        ]
-      ]
+      "text": "Qui q₁ e q₂ sono le cariche, r è la distanza, e k è la costante di Coulomb, che nel vuoto vale circa 9 × 10⁹ N·m²/C².",
+      "speech": "Qui q uno e q due sono le cariche, r è la distanza, e k è la costante di Coulomb, che nel vuoto vale circa nove per dieci alla nona, in newton per metro quadrato fratto coulomb al quadrato."
     },
     {
       "text": "Che cosa significa in pratica?",
@@ -271,14 +261,8 @@
       "p": 1
     },
     {
-      "text": "Secondo: la forza è attrattiva tra cariche opposte e repulsiva tra cariche uguali; la costante k vale circa nove per dieci alla nona.",
+      "text": "Secondo: la forza è attrattiva tra cariche opposte e repulsiva tra cariche uguali; la costante k vale circa 9 × 10⁹ N·m²/C².",
       "speech": "Secondo: la forza è attrattiva tra cariche opposte e repulsiva tra cariche uguali; la costante k vale circa nove per dieci alla nona.",
-      "bold": [
-        [
-          0,
-          7
-        ]
-      ],
       "p": 1
     },
     {

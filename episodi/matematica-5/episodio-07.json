@@ -30,28 +30,16 @@
       "p": 1
     },
     {
-      "text": "Prendiamo una funzione e un punto x zero.",
+      "text": "Prendiamo una funzione e un punto x₀.",
       "speech": "Prendiamo una funzione e un punto x zero."
     },
     {
-      "text": "Spostiamoci di un piccolo incremento h, fino al punto x zero più h.",
-      "speech": "Spostiamoci di un piccolo incremento h, fino al punto x zero più h.",
-      "bold": [
-        [
-          26,
-          36
-        ]
-      ]
+      "text": "Spostiamoci di un piccolo incremento h, fino al punto x₀ + h.",
+      "speech": "Spostiamoci di un piccolo incremento h, fino al punto x zero più h."
     },
     {
-      "text": "Il rapporto incrementale è la differenza tra i valori della funzione, f di x zero più h meno f di x zero, divisa per h.",
-      "speech": "Il rapporto incrementale è la differenza tra i valori della funzione, f di x zero più h meno f di x zero, divisa per h.",
-      "bold": [
-        [
-          3,
-          24
-        ]
-      ]
+      "text": "Il rapporto incrementale è [f(x₀ + h) − f(x₀)]/h.",
+      "speech": "Il rapporto incrementale è la differenza tra i valori della funzione, f di x zero più h meno f di x zero, divisa per h."
     },
     {
       "text": "Geometricamente, il rapporto incrementale è il coefficiente angolare della retta secante che passa per i due punti del grafico.",
@@ -83,17 +71,11 @@
       "p": 1
     },
     {
-      "text": "La derivata della funzione nel punto x zero è il limite del rapporto incrementale quando h tende a zero.",
-      "speech": "La derivata della funzione nel punto x zero è il limite del rapporto incrementale quando h tende a zero.",
-      "bold": [
-        [
-          49,
-          81
-        ]
-      ]
+      "text": "La derivata della funzione nel punto x₀ è il limite del rapporto incrementale quando h tende a zero.",
+      "speech": "La derivata della funzione nel punto x zero è il limite del rapporto incrementale quando h tende a zero."
     },
     {
-      "text": "Si indica con f primo di x zero.",
+      "text": "Si indica con f′(x₀).",
       "speech": "Si indica con f primo di x zero."
     },
     {
@@ -143,7 +125,7 @@
       ]
     },
     {
-      "text": "L'equazione della retta tangente nel punto x zero è: y meno f di x zero uguale a f primo di x zero per x meno x zero.",
+      "text": "L'equazione della retta tangente nel punto x₀ è: y − f(x₀) = f′(x₀)(x − x₀).",
       "speech": "L'equazione della retta tangente nel punto x zero è: y meno f di x zero uguale a f primo di x zero per x meno x zero.",
       "p": 1
     },
@@ -173,55 +155,23 @@
       ]
     },
     {
-      "text": "La derivata di x è uno.",
-      "speech": "La derivata di x è uno.",
-      "bold": [
-        [
-          15,
-          16
-        ],
-        [
-          19,
-          22
-        ]
-      ]
+      "text": "La derivata di x è 1: D(x) = 1.",
+      "speech": "La derivata di x è uno."
     },
     {
-      "text": "La derivata di x elevato a n è n per x elevato a n meno uno: per esempio, la derivata di x al cubo è tre x al quadrato.",
-      "speech": "La derivata di x elevato a n è n per x elevato a n meno uno: per esempio, la derivata di x al cubo è tre x al quadrato.",
-      "bold": [
-        [
-          31,
-          59
-        ]
-      ]
+      "text": "La derivata di xⁿ è nxⁿ⁻¹: per esempio, la derivata di x³ è 3x².",
+      "speech": "La derivata di x elevato a n è n per x elevato a n meno uno: per esempio, la derivata di x al cubo è tre x al quadrato."
     },
     {
-      "text": "La derivata di e alla x è e alla x stessa.",
-      "speech": "La derivata di e alla x è e alla x stessa.",
-      "bold": [
-        [
-          15,
-          23
-        ],
-        [
-          26,
-          34
-        ]
-      ]
+      "text": "La derivata di eˣ è eˣ.",
+      "speech": "La derivata di e alla x è e alla x stessa."
     },
     {
-      "text": "La derivata del logaritmo naturale di x è uno fratto x.",
-      "speech": "La derivata del logaritmo naturale di x è uno fratto x.",
-      "bold": [
-        [
-          42,
-          54
-        ]
-      ]
+      "text": "La derivata del logaritmo naturale di x è 1/x.",
+      "speech": "La derivata del logaritmo naturale di x è uno fratto x."
     },
     {
-      "text": "La derivata di seno di x è coseno di x, e la derivata di coseno di x è meno seno di x.",
+      "text": "La derivata di sin x è cos x, e la derivata di cos x è −sin x.",
       "speech": "La derivata di seno di x è coseno di x, e la derivata di coseno di x è meno seno di x."
     },
     {
@@ -303,30 +253,16 @@
       ]
     },
     {
-      "text": "Proviamo un piccolo esercizio insieme: qual è la derivata di due x al cubo più cinque x meno sette?",
+      "text": "Proviamo un piccolo esercizio insieme: qual è la derivata di 2x³ + 5x − 7?",
       "speech": "Proviamo un piccolo esercizio insieme: qual è la derivata di due x al cubo più cinque x meno sette?",
       "p": 1
     },
     {
-      "text": "Deriviamo termine per termine: due per tre x al quadrato fa sei x al quadrato, la derivata di cinque x è cinque, la derivata di meno sette è zero.",
-      "speech": "Deriviamo termine per termine: due per tre x al quadrato fa sei x al quadrato, la derivata di cinque x è cinque, la derivata di meno sette è zero.",
-      "bold": [
-        [
-          60,
-          77
-        ],
-        [
-          105,
-          111
-        ],
-        [
-          141,
-          145
-        ]
-      ]
+      "text": "Deriviamo termine per termine: 2 · 3x² = 6x², la derivata di 5x è 5, la derivata di −7 è 0.",
+      "speech": "Deriviamo termine per termine: due per tre x al quadrato fa sei x al quadrato, la derivata di cinque x è cinque, la derivata di meno sette è zero."
     },
     {
-      "text": "Quindi la derivata è sei x al quadrato più cinque.",
+      "text": "Quindi la derivata è 6x² + 5.",
       "speech": "Quindi la derivata è sei x al quadrato più cinque."
     },
     {

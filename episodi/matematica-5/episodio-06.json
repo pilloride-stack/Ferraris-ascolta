@@ -38,24 +38,12 @@
       "p": 1
     },
     {
-      "text": "Il più famoso è il limite per x che tende a zero di seno di x fratto x, che vale uno.",
-      "speech": "Il più famoso è il limite per x che tende a zero di seno di x fratto x, che vale uno.",
-      "bold": [
-        [
-          81,
-          84
-        ]
-      ]
+      "text": "Il più famoso è limₓ→0 (sin x)/x = 1.",
+      "speech": "Il più famoso è il limite per x che tende a zero di seno di x fratto x, che vale uno."
     },
     {
-      "text": "Un altro riguarda il numero di Nepero: il limite per x che tende a infinito di uno più uno fratto x, il tutto elevato alla x, vale e.",
-      "speech": "Un altro riguarda il numero di Nepero: il limite per x che tende a infinito di uno più uno fratto x, il tutto elevato alla x, vale e.",
-      "bold": [
-        [
-          131,
-          132
-        ]
-      ]
+      "text": "Un altro riguarda il numero di Nepero: limₓ→∞ (1 + 1/x)ˣ = e.",
+      "speech": "Un altro riguarda il numero di Nepero: il limite per x che tende a infinito di uno più uno fratto x, il tutto elevato alla x, vale e."
     },
     {
       "text": "Fermatevi sugli asintoti, perché sono un passo fondamentale dello studio di funzione.",
@@ -87,72 +75,38 @@
       "speech": "Ci sono tre tipi."
     },
     {
-      "text": "L'asintoto verticale è una retta del tipo x uguale a c.",
+      "text": "L'asintoto verticale è una retta del tipo x = c.",
       "speech": "L'asintoto verticale è una retta del tipo x uguale a c.",
-      "bold": [
-        [
-          2,
-          20
-        ]
-      ],
       "p": 1
     },
     {
-      "text": "C'è quando il limite della funzione, per x che tende a c, è infinito.",
-      "speech": "Cè quando il limite della funzione, per x che tende a c, è infinito.",
-      "bold": [
-        [
-          60,
-          68
-        ]
-      ]
+      "text": "C'è quando limₓ→c f(x) = ∞.",
+      "speech": "Cè quando il limite della funzione, per x che tende a c, è infinito."
     },
     {
       "text": "Di solito si trova nei punti esclusi dal dominio, per esempio dove si annulla il denominatore.",
       "speech": "Di solito si trova nei punti esclusi dal dominio, per esempio dove si annulla il denominatore."
     },
     {
-      "text": "Per uno fratto x meno tre, la retta x uguale a tre è un asintoto verticale.",
+      "text": "Per 1/(x − 3), la retta x = 3 è un asintoto verticale.",
       "speech": "Per uno fratto x meno tre, la retta x uguale a tre è un asintoto verticale."
     },
     {
-      "text": "L'asintoto orizzontale è una retta del tipo y uguale a l.",
+      "text": "L'asintoto orizzontale è una retta del tipo y = L.",
       "speech": "L'asintoto orizzontale è una retta del tipo y uguale a l.",
-      "bold": [
-        [
-          2,
-          22
-        ]
-      ],
       "p": 1
     },
     {
-      "text": "C'è quando il limite della funzione, per x che tende a infinito, è un numero finito l.",
-      "speech": "Cè quando il limite della funzione, per x che tende a infinito, è un numero finito l.",
-      "bold": [
-        [
-          55,
-          63
-        ],
-        [
-          77,
-          83
-        ]
-      ]
+      "text": "C'è quando limₓ→∞ f(x) = L, con L finito.",
+      "speech": "Cè quando il limite della funzione, per x che tende a infinito, è un numero finito l."
     },
     {
-      "text": "Per esempio, per due x fratto x più uno, il limite all'infinito è due, quindi y uguale a due è un asintoto orizzontale.",
+      "text": "Per esempio, per 2x/(x + 1), il limite all'infinito è due, quindi y = 2 è un asintoto orizzontale.",
       "speech": "Per esempio, per due x fratto x più uno, il limite all'infinito è due, quindi y uguale a due è un asintoto orizzontale."
     },
     {
-      "text": "L'asintoto obliquo è una retta del tipo y uguale a m x più q.",
+      "text": "L'asintoto obliquo è una retta del tipo y = mx + q.",
       "speech": "L'asintoto obliquo è una retta del tipo y uguale a m x più q.",
-      "bold": [
-        [
-          2,
-          18
-        ]
-      ],
       "p": 1
     },
     {
@@ -170,7 +124,7 @@
       ]
     },
     {
-      "text": "Si calcola m come limite di f di x fratto x, e q come limite di f di x meno m x.",
+      "text": "Si calcola m = limₓ→∞ f(x)/x e q = limₓ→∞ [f(x) − mx].",
       "speech": "Si calcola m come limite di f di x fratto x, e q come limite di f di x meno m x."
     },
     {
@@ -185,22 +139,8 @@
       "p": 1
     },
     {
-      "text": "Una funzione è continua in un punto c se il limite della funzione per x che tende a c esiste ed è uguale al valore della funzione in c.",
-      "speech": "Una funzione è continua in un punto c se il limite della funzione per x che tende a c esiste ed è uguale al valore della funzione in c.",
-      "bold": [
-        [
-          15,
-          23
-        ],
-        [
-          86,
-          92
-        ],
-        [
-          98,
-          104
-        ]
-      ]
+      "text": "Una funzione è continua in un punto c se limₓ→c f(x) = f(c).",
+      "speech": "Una funzione è continua in un punto c se il limite della funzione per x che tende a c esiste ed è uguale al valore della funzione in c."
     },
     {
       "text": "In parole semplici, il grafico di una funzione continua si può disegnare senza staccare la penna dal foglio.",
@@ -278,7 +218,7 @@
       "speech": "Il grafico ha solo un buco, che si potrebbe tappare."
     },
     {
-      "text": "Proviamo un piccolo esercizio insieme: la funzione x al quadrato meno uno fratto x meno due ha un asintoto obliquo?",
+      "text": "Proviamo un piccolo esercizio insieme: la funzione (x² − 1)/(x − 2) ha un asintoto obliquo?",
       "speech": "Proviamo un piccolo esercizio insieme: la funzione x al quadrato meno uno fratto x meno due ha un asintoto obliquo?",
       "p": 1
     },
@@ -310,14 +250,8 @@
       "p": 1
     },
     {
-      "text": "Primo: il limite notevole più importante è seno di x fratto x per x che tende a zero, che vale uno.",
+      "text": "Primo: il limite notevole più importante è limₓ→0 (sin x)/x = 1.",
       "speech": "Primo: il limite notevole più importante è seno di x fratto x per x che tende a zero, che vale uno.",
-      "bold": [
-        [
-          0,
-          5
-        ]
-      ],
       "p": 1
     },
     {

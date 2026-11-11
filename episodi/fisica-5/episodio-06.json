@@ -62,14 +62,8 @@
       ]
     },
     {
-      "text": "La potenza dissipata è P uguale a R per i al quadrato, oppure, in generale, P uguale a delta V per i.",
-      "speech": "La potenza dissipata è P uguale a R per i al quadrato, oppure, in generale, P uguale a delta V per i.",
-      "bold": [
-        [
-          3,
-          10
-        ]
-      ]
+      "text": "La potenza dissipata è P = RI² oppure, in generale, P = ΔV·I.",
+      "speech": "La potenza dissipata è P uguale a R per i al quadrato, oppure, in generale, P uguale a delta V per i."
     },
     {
       "text": "Si misura in watt.",
@@ -128,18 +122,8 @@
       ]
     },
     {
-      "text": "La resistenza equivalente è la somma delle resistenze: R uguale a R uno più R due.",
-      "speech": "La resistenza equivalente è la somma delle resistenze: R uguale a R uno più R due.",
-      "bold": [
-        [
-          3,
-          25
-        ],
-        [
-          31,
-          36
-        ]
-      ]
+      "text": "La resistenza equivalente è la somma delle resistenze: Rₑq = R₁ + R₂.",
+      "speech": "La resistenza equivalente è la somma delle resistenze: R uguale a R uno più R due."
     },
     {
       "text": "È maggiore di ciascuna resistenza.",
@@ -175,18 +159,8 @@
       ]
     },
     {
-      "text": "L'inverso della resistenza equivalente è la somma degli inversi: uno fratto R uguale a uno fratto R uno più uno fratto R due.",
-      "speech": "L'inverso della resistenza equivalente è la somma degli inversi: uno fratto R uguale a uno fratto R uno più uno fratto R due.",
-      "bold": [
-        [
-          2,
-          9
-        ],
-        [
-          44,
-          63
-        ]
-      ]
+      "text": "L'inverso della resistenza equivalente è la somma degli inversi: 1/Rₑq = 1/R₁ + 1/R₂.",
+      "speech": "L'inverso della resistenza equivalente è la somma degli inversi: uno fratto R uguale a uno fratto R uno più uno fratto R due."
     },
     {
       "text": "La resistenza equivalente è minore della più piccola delle resistenze.",
@@ -216,7 +190,7 @@
       "speech": "In serie, la resistenza equivalente è dieci ohm."
     },
     {
-      "text": "In parallelo, uno fratto R è un quarto più un sesto, cioè cinque dodicesimi, quindi R è dodici quinti, cioè due virgola quattro ohm.",
+      "text": "In parallelo, 1/Rₑq = 1/4 + 1/6 = 5/12, quindi Rₑq = 12/5 = 2,4 Ω.",
       "speech": "In parallelo, uno fratto R è un quarto più un sesto, cioè cinque dodicesimi, quindi R è dodici quinti, cioè due virgola quattro ohm."
     },
     {
@@ -327,14 +301,8 @@
       "p": 1
     },
     {
-      "text": "Primo: l'effetto Joule trasforma l'energia elettrica in calore; la potenza è R per i al quadrato e si misura in watt.",
+      "text": "Primo: l'effetto Joule trasforma l'energia elettrica in calore; la potenza è P = RI² e si misura in watt.",
       "speech": "Primo: l'effetto Joule trasforma l'energia elettrica in calore; la potenza è R per i al quadrato e si misura in watt.",
-      "bold": [
-        [
-          0,
-          5
-        ]
-      ],
       "p": 1
     },
     {

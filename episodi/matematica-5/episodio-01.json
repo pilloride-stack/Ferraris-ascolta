@@ -47,35 +47,17 @@
       ]
     },
     {
-      "text": "Un'equazione di primo grado ha la forma a per x più b uguale a zero, e ha una sola soluzione: x uguale a meno b fratto a.",
+      "text": "Un'equazione di primo grado ha la forma ax + b = 0, e ha una sola soluzione: x = −b/a.",
       "speech": "Un'equazione di primo grado ha la forma a per x più b uguale a zero, e ha una sola soluzione: x uguale a meno b fratto a.",
-      "bold": [
-        [
-          3,
-          27
-        ]
-      ],
       "p": 1
     },
     {
-      "text": "Un'equazione di secondo grado ha la forma a x al quadrato più b x più c uguale a zero.",
-      "speech": "Un'equazione di secondo grado ha la forma a x al quadrato più b x più c uguale a zero.",
-      "bold": [
-        [
-          3,
-          29
-        ]
-      ]
+      "text": "Un'equazione di secondo grado ha la forma ax² + bx + c = 0.",
+      "speech": "Un'equazione di secondo grado ha la forma a x al quadrato più b x più c uguale a zero."
     },
     {
-      "text": "Per risolverla calcoliamo il delta, o discriminante, che è b al quadrato meno quattro a c.",
-      "speech": "Per risolverla calcoliamo il delta, o discriminante, che è b al quadrato meno quattro a c.",
-      "bold": [
-        [
-          29,
-          34
-        ]
-      ]
+      "text": "Per risolverla calcoliamo il delta, o discriminante: Δ = b² − 4ac.",
+      "speech": "Per risolverla calcoliamo il delta, o discriminante, che è b al quadrato meno quattro a c."
     },
     {
       "text": "Fermatevi su tre casi.",
@@ -120,18 +102,12 @@
       ]
     },
     {
-      "text": "Le soluzioni si trovano con la formula: x uguale a meno b più o meno la radice del delta, il tutto fratto due a.",
+      "text": "Le soluzioni si trovano con la formula: x = (−b ± √Δ)/(2a).",
       "speech": "Le soluzioni si trovano con la formula: x uguale a meno b più o meno la radice del delta, il tutto fratto due a."
     },
     {
-      "text": "Passiamo alle disequazioni di secondo grado, del tipo a x al quadrato più b x più c maggiore di zero, oppure minore di zero.",
+      "text": "Passiamo alle disequazioni di secondo grado, del tipo ax² + bx + c > 0, oppure ax² + bx + c < 0.",
       "speech": "Passiamo alle disequazioni di secondo grado, del tipo a x al quadrato più b x più c maggiore di zero, oppure minore di zero.",
-      "bold": [
-        [
-          14,
-          43
-        ]
-      ],
       "p": 1
     },
     {
@@ -145,7 +121,7 @@
       ]
     },
     {
-      "text": "Prima risolviamo l'equazione associata e troviamo le soluzioni, x uno e x due.",
+      "text": "Prima risolviamo l'equazione associata e troviamo le soluzioni, x₁ e x₂.",
       "speech": "Prima risolviamo l'equazione associata e troviamo le soluzioni, x uno e x due."
     },
     {
@@ -181,7 +157,7 @@
       ]
     },
     {
-      "text": "Per esempio, x al quadrato meno quattro maggiore di zero: le soluzioni dell'equazione sono meno due e due; a è positivo e il verso è maggiore, quindi prendiamo i valori esterni: x minore di meno due oppure x maggiore di due.",
+      "text": "Per esempio, x² − 4 > 0: le soluzioni dell'equazione sono −2 e 2; a è positivo e il verso è maggiore, quindi prendiamo i valori esterni: x < −2 oppure x > 2.",
       "speech": "Per esempio, x al quadrato meno quattro maggiore di zero: le soluzioni dell'equazione sono meno due e due; a è positivo e il verso è maggiore, quindi prendiamo i valori esterni: x minore di meno due oppure x maggiore di due."
     },
     {
@@ -267,7 +243,7 @@
       ]
     },
     {
-      "text": "Proviamo un piccolo esercizio insieme: quante soluzioni ha l'equazione x al quadrato più uno uguale a zero?",
+      "text": "Proviamo un piccolo esercizio insieme: quante soluzioni ha l'equazione x² + 1 = 0?",
       "speech": "Proviamo un piccolo esercizio insieme: quante soluzioni ha l'equazione x al quadrato più uno uguale a zero?",
       "p": 1
     },

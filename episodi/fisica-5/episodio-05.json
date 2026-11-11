@@ -44,24 +44,12 @@
       ]
     },
     {
-      "text": "L'intensità di corrente è la quantità di carica che attraversa la sezione di un conduttore in un secondo: i uguale a delta q fratto delta t.",
-      "speech": "L'intensità di corrente è la quantità di carica che attraversa la sezione di un conduttore in un secondo: i uguale a delta q fratto delta t.",
-      "bold": [
-        [
-          2,
-          23
-        ]
-      ]
+      "text": "L'intensità di corrente è la quantità di carica che attraversa la sezione di un conduttore in un secondo: I = ΔQ/Δt.",
+      "speech": "L'intensità di corrente è la quantità di carica che attraversa la sezione di un conduttore in un secondo: i uguale a delta q fratto delta t."
     },
     {
-      "text": "Si misura in ampere: un ampere è un coulomb al secondo.",
-      "speech": "Si misura in ampere: un ampere è un coulomb al secondo.",
-      "bold": [
-        [
-          13,
-          19
-        ]
-      ]
+      "text": "Si misura in ampere: 1 A = 1 C/s.",
+      "speech": "Si misura in ampere: un ampere è un coulomb al secondo."
     },
     {
       "text": "Per convenzione, il verso della corrente è quello in cui si muoverebbero le cariche positive, cioè dal polo positivo al polo negativo, anche se in realtà gli elettroni si muovono nel verso opposto.",
@@ -176,7 +164,7 @@
       "p": 1
     },
     {
-      "text": "In formula: delta V uguale a R per i.",
+      "text": "In formula: ΔV = RI.",
       "speech": "In formula: delta V uguale a R per i."
     },
     {
@@ -245,18 +233,8 @@
       ]
     },
     {
-      "text": "In formula: R uguale a rho per l fratto S. La lettera rho indica la resistività, che dipende dal materiale: è bassissima nei buoni conduttori come l'argento e il rame, altissima negli isolanti.",
-      "speech": "In formula: R uguale a rho per l fratto S. La lettera rho indica la resistività, che dipende dal materiale: è bassissima nei buoni conduttori come l'argento e il rame, altissima negli isolanti.",
-      "bold": [
-        [
-          68,
-          79
-        ],
-        [
-          97,
-          106
-        ]
-      ]
+      "text": "In formula: R = ρl/S. La lettera ρ indica la resistività, che dipende dal materiale: è bassissima nei buoni conduttori come l'argento e il rame, altissima negli isolanti.",
+      "speech": "In formula: R uguale a rho per l fratto S. La lettera rho indica la resistività, che dipende dal materiale: è bassissima nei buoni conduttori come l'argento e il rame, altissima negli isolanti."
     },
     {
       "text": "Un filo lungo e sottile ha una resistenza grande; un filo corto e spesso ha una resistenza piccola.",
@@ -282,14 +260,8 @@
       "p": 1
     },
     {
-      "text": "Dalla prima legge di Ohm, i è uguale a delta V fratto R: venti fratto dieci, cioè due ampere.",
-      "speech": "Dalla prima legge di Ohm, i è uguale a delta V fratto R: venti fratto dieci, cioè due ampere.",
-      "bold": [
-        [
-          82,
-          92
-        ]
-      ]
+      "text": "Dalla prima legge di Ohm, I = ΔV/R: 20/10 = 2 A.",
+      "speech": "Dalla prima legge di Ohm, i è uguale a delta V fratto R: venti fratto dieci, cioè due ampere."
     },
     {
       "text": "Riassumiamo i punti principali di oggi.",
@@ -319,14 +291,8 @@
       "p": 1
     },
     {
-      "text": "Terzo: la prima legge di Ohm dice che delta V è uguale a R per i; la seconda dice che la resistenza è proporzionale alla lunghezza e inversamente proporzionale alla sezione del filo.",
+      "text": "Terzo: la prima legge di Ohm dice che ΔV = RI; la seconda dice che la resistenza è proporzionale alla lunghezza e inversamente proporzionale alla sezione del filo.",
       "speech": "Terzo: la prima legge di Ohm dice che delta V è uguale a R per i; la seconda dice che la resistenza è proporzionale alla lunghezza e inversamente proporzionale alla sezione del filo.",
-      "bold": [
-        [
-          0,
-          5
-        ]
-      ],
       "p": 1
     },
     {

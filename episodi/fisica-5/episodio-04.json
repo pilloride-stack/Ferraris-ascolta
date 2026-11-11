@@ -77,28 +77,12 @@
       "p": 1
     },
     {
-      "text": "Il potenziale in un punto è l'energia potenziale che avrebbe una carica in quel punto, divisa per la carica stessa: V uguale a U fratto q.",
-      "speech": "Il potenziale in un punto è l'energia potenziale che avrebbe una carica in quel punto, divisa per la carica stessa: V uguale a U fratto q.",
-      "bold": [
-        [
-          30,
-          48
-        ],
-        [
-          87,
-          107
-        ]
-      ]
+      "text": "Il potenziale in un punto è l'energia potenziale che avrebbe una carica in quel punto, divisa per la carica stessa: V = U/q.",
+      "speech": "Il potenziale in un punto è l'energia potenziale che avrebbe una carica in quel punto, divisa per la carica stessa: V uguale a U fratto q."
     },
     {
-      "text": "Si misura in volt: un volt è un joule fratto coulomb.",
-      "speech": "Si misura in volt: un volt è un joule fratto coulomb.",
-      "bold": [
-        [
-          13,
-          17
-        ]
-      ]
+      "text": "Si misura in volt: 1 V = 1 J/C.",
+      "speech": "Si misura in volt: un volt è un joule fratto coulomb."
     },
     {
       "text": "Ma la grandezza che conta davvero, nella pratica, è la differenza di potenziale, chiamata anche tensione, tra due punti.",
@@ -133,22 +117,12 @@
       "speech": "Quando diciamo che una pila è da un virgola cinque volt, o che la presa di casa è a duecentotrenta volt, parliamo proprio di differenza di potenziale."
     },
     {
-      "text": "Il lavoro fatto dal campo per spostare una carica q tra due punti è q per la differenza di potenziale.",
+      "text": "Il lavoro fatto dal campo per spostare una carica q tra due punti è L = qΔV.",
       "speech": "Il lavoro fatto dal campo per spostare una carica q tra due punti è q per la differenza di potenziale."
     },
     {
-      "text": "In un campo uniforme, come tra due piastre parallele, la differenza di potenziale è uguale al campo per la distanza: delta V uguale a E per d.",
+      "text": "In un campo uniforme, come tra due piastre parallele, la differenza di potenziale è uguale al campo per la distanza: ΔV = Ed.",
       "speech": "In un campo uniforme, come tra due piastre parallele, la differenza di potenziale è uguale al campo per la distanza: delta V uguale a E per d.",
-      "bold": [
-        [
-          94,
-          99
-        ],
-        [
-          107,
-          115
-        ]
-      ],
       "p": 1
     },
     {
@@ -203,18 +177,8 @@
       "speech": "Tra le armature si crea un campo elettrico uniforme."
     },
     {
-      "text": "La grandezza che caratterizza un condensatore è la capacità, cioè quanta carica riesce ad accumulare per ogni volt di differenza di potenziale: C uguale a Q fratto delta V. Si misura in farad.",
+      "text": "La grandezza che caratterizza un condensatore è la capacità, cioè quanta carica riesce ad accumulare per ogni volt di differenza di potenziale: C = Q/ΔV. Si misura in farad.",
       "speech": "La grandezza che caratterizza un condensatore è la capacità, cioè quanta carica riesce ad accumulare per ogni volt di differenza di potenziale: C uguale a Q fratto delta V. Si misura in farad.",
-      "bold": [
-        [
-          51,
-          59
-        ],
-        [
-          186,
-          191
-        ]
-      ],
       "p": 1
     },
     {
@@ -290,14 +254,8 @@
       "p": 1
     },
     {
-      "text": "Terzo: il condensatore accumula carica; la sua capacità è Q fratto delta V, si misura in farad e dipende dall'area e dalla distanza delle armature.",
+      "text": "Terzo: il condensatore accumula carica; la sua capacità è C = Q/ΔV, si misura in farad e dipende dall'area e dalla distanza delle armature.",
       "speech": "Terzo: il condensatore accumula carica; la sua capacità è Q fratto delta V, si misura in farad e dipende dall'area e dalla distanza delle armature.",
-      "bold": [
-        [
-          0,
-          5
-        ]
-      ],
       "p": 1
     },
     {

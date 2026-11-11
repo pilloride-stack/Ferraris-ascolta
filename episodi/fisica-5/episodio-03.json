@@ -71,14 +71,8 @@
       ]
     },
     {
-      "text": "Il campo E è uguale alla forza F che agisce sulla carica, divisa per la carica stessa: E uguale a F fratto q.",
-      "speech": "Il campo E è uguale alla forza F che agisce sulla carica, divisa per la carica stessa: E uguale a F fratto q.",
-      "bold": [
-        [
-          25,
-          30
-        ]
-      ]
+      "text": "Il campo E è uguale alla forza F che agisce sulla carica, divisa per la carica stessa: E = F/q.",
+      "speech": "Il campo E è uguale alla forza F che agisce sulla carica, divisa per la carica stessa: E uguale a F fratto q."
     },
     {
       "text": "È una grandezza vettoriale, cioè ha un'intensità, una direzione e un verso.",
@@ -91,28 +85,16 @@
       ]
     },
     {
-      "text": "Si misura in newton fratto coulomb.",
-      "speech": "Si misura in newton fratto coulomb.",
-      "bold": [
-        [
-          13,
-          34
-        ]
-      ]
+      "text": "Si misura in N/C.",
+      "speech": "Si misura in newton fratto coulomb."
     },
     {
-      "text": "Una volta noto il campo, la forza su qualsiasi carica è F uguale a q per E.",
+      "text": "Una volta noto il campo, la forza su qualsiasi carica è F = qE.",
       "speech": "Una volta noto il campo, la forza su qualsiasi carica è F uguale a q per E."
     },
     {
-      "text": "Il campo creato da una carica puntiforme Q, a una distanza r, ha intensità E uguale a k per Q fratto r al quadrato.",
+      "text": "Il campo creato da una carica puntiforme Q, a una distanza r, ha intensità E = kQ/r².",
       "speech": "Il campo creato da una carica puntiforme Q, a una distanza r, ha intensità E uguale a k per Q fratto r al quadrato.",
-      "bold": [
-        [
-          23,
-          40
-        ]
-      ],
       "p": 1
     },
     {
@@ -249,18 +231,8 @@
       "p": 1
     },
     {
-      "text": "Dice che il flusso del campo elettrico attraverso una superficie chiusa è uguale alla carica totale contenuta all'interno della superficie, divisa per la costante dielettrica del vuoto, epsilon zero.",
-      "speech": "Dice che il flusso del campo elettrico attraverso una superficie chiusa è uguale alla carica totale contenuta all'interno della superficie, divisa per la costante dielettrica del vuoto, epsilon zero.",
-      "bold": [
-        [
-          54,
-          71
-        ],
-        [
-          86,
-          99
-        ]
-      ]
+      "text": "Dice che il flusso del campo elettrico attraverso una superficie chiusa è Φ(E) = Qᵢₙₜ/ε₀.",
+      "speech": "Dice che il flusso del campo elettrico attraverso una superficie chiusa è uguale alla carica totale contenuta all'interno della superficie, divisa per la costante dielettrica del vuoto, epsilon zero."
     },
     {
       "text": "Che cosa significa?",
@@ -309,14 +281,8 @@
       "p": 1
     },
     {
-      "text": "Primo: il campo elettrico è la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb.",
+      "text": "Primo: il campo elettrico è la forza per unità di carica, E = F/q, e si misura in N/C.",
       "speech": "Primo: il campo elettrico è la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb.",
-      "bold": [
-        [
-          0,
-          5
-        ]
-      ],
       "p": 1
     },
     {

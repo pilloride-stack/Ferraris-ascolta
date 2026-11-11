@@ -89,14 +89,8 @@
       "p": 1
     },
     {
-      "text": "È la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb.",
-      "speech": "È la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb.",
-      "bold": [
-        [
-          5,
-          30
-        ]
-      ]
+      "text": "È la forza per unità di carica, E = F/q, e si misura in N/C.",
+      "speech": "È la forza per unità di carica, E uguale a F fratto q, e si misura in newton fratto coulomb."
     },
     {
       "text": "Quinta domanda: che cosa dice il teorema di Gauss?",
@@ -142,22 +136,8 @@
       "p": 1
     },
     {
-      "text": "Un dispositivo che accumula carica; la sua capacità è Q fratto delta V e si misura in farad.",
-      "speech": "Un dispositivo che accumula carica; la sua capacità è Q fratto delta V e si misura in farad.",
-      "bold": [
-        [
-          19,
-          34
-        ],
-        [
-          43,
-          51
-        ],
-        [
-          86,
-          91
-        ]
-      ]
+      "text": "Un dispositivo che accumula carica; la sua capacità è C = Q/ΔV e si misura in farad.",
+      "speech": "Un dispositivo che accumula carica; la sua capacità è Q fratto delta V e si misura in farad."
     },
     {
       "text": "Ottava domanda: che cosa è la corrente elettrica?",
@@ -184,18 +164,8 @@
       "p": 1
     },
     {
-      "text": "La prima: delta V è uguale a R per i.",
-      "speech": "La prima: delta V è uguale a R per i.",
-      "bold": [
-        [
-          3,
-          8
-        ],
-        [
-          29,
-          36
-        ]
-      ]
+      "text": "La prima: ΔV = RI.",
+      "speech": "La prima: delta V è uguale a R per i."
     },
     {
       "text": "La seconda: la resistenza è proporzionale alla lunghezza del filo e inversamente proporzionale alla sezione.",
@@ -221,14 +191,8 @@
       "p": 1
     },
     {
-      "text": "Il riscaldamento di un conduttore attraversato da corrente; la potenza è R per i al quadrato.",
-      "speech": "Il riscaldamento di un conduttore attraversato da corrente; la potenza è R per i al quadrato.",
-      "bold": [
-        [
-          3,
-          16
-        ]
-      ]
+      "text": "Il riscaldamento di un conduttore attraversato da corrente; la potenza è P = RI².",
+      "speech": "Il riscaldamento di un conduttore attraversato da corrente; la potenza è R per i al quadrato."
     },
     {
       "text": "Undicesima domanda: come si calcola la resistenza equivalente in serie e in parallelo?",
