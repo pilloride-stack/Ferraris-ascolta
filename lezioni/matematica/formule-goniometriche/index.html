@@ -103,4 +103,29 @@ const style=document.createElement('style');
 style.textContent=`.definition-visual{margin-top:16px;padding:14px;background:#edf5fc;border-radius:15px;text-align:center}.definition-visual svg{display:block;width:min(100%,620px);max-height:280px;margin:auto;background:#fff;border-radius:12px}.definition-visual p{margin:9px 0 0;color:var(--ink)}.definition-visual text{fill:var(--b);font:700 13px system-ui;paint-order:stroke fill;stroke:#fff;stroke-width:4px}.dv-axes line{stroke:#9db4ca;stroke-width:1.5}.dv-shape,.dv-circle{fill:#0a57b714;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}.dv-curve{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linecap:round}.dv-ray,.dv-guide{stroke:#0a57b7;stroke-width:4}.dv-guide{stroke-dasharray:6 5}.dv-accent{fill:none;stroke:#d52b2b;stroke-width:4}.dv-point{fill:#ffd429;stroke:#073b82;stroke-width:2}.dv-box{fill:#fff;stroke:#0a57b7;stroke-width:3}.dv-arrow{fill:none;stroke:#f0a800;stroke-width:5;marker-end:url(#none)}.dv-result{fill:#ffd429;stroke:#073b82;stroke-width:3}.dv-balance{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}`;
 document.head.appendChild(style);
 })();
-</script></body></html>
+</script>
+<script data-fix="math4-formula-families">
+(() => {
+  const controls=document.getElementById('labControls'),results=document.getElementById('labResults'),steps=document.getElementById('labSteps');
+  if(!controls||!results||!steps)return;
+  const options=['Seno della somma','Coseno della differenza','Duplicazione','Bisezione','Formule parametriche','Prostaferesi','Werner'];
+  controls.innerHTML=`<h3>Verifica una famiglia di formule</h3><div class="lab-fields"><label class="lab-field"><span>Formula</span><select id="formula-kind">${options.map((x,i)=>`<option value="${i}">${x}</option>`).join('')}</select></label><label class="lab-field"><span>α</span><input id="formula-a" type="number" min="0" max="180" step="15" value="45"></label><label class="lab-field"><span>β</span><input id="formula-b" type="number" min="0" max="180" step="15" value="30"></label></div><p class="remember">Il laboratorio confronta numericamente il primo e il secondo membro della formula scelta.</p>`;
+  const ki=document.getElementById('formula-kind'),ai=document.getElementById('formula-a'),bi=document.getElementById('formula-b'),rad=d=>d*Math.PI/180,fmt=n=>Math.abs(n)<1e-10?'0':n.toFixed(6).replace('.',',').replace(/0+$/,'').replace(/,$/,'');
+  function update(){
+    const k=Number(ki.value),a=Number(ai.value)||0,b=Number(bi.value)||0,A=rad(a),B=rad(b),sa=Math.sin(A),ca=Math.cos(A),sb=Math.sin(B),cb=Math.cos(B);let title,formula,sub,left,right,note;
+    if(k===0){title='Seno della somma';formula='sin(α + β) = sin α cos β + cos α sin β';sub=`sin(${a}° + ${b}°) = sin ${a}° cos ${b}° + cos ${a}° sin ${b}°`;left=Math.sin(A+B);right=sa*cb+ca*sb;note='Somma i prodotti incrociati.'}
+    if(k===1){title='Coseno della differenza';formula='cos(α − β) = cos α cos β + sin α sin β';sub=`cos(${a}° − ${b}°) = cos ${a}° cos ${b}° + sin ${a}° sin ${b}°`;left=Math.cos(A-B);right=ca*cb+sa*sb;note='Nella differenza del coseno compare il segno più.'}
+    if(k===2){title='Duplicazione';formula='sin(2α) = 2 sin α cos α';sub=`sin(2 · ${a}°) = 2 sin ${a}° cos ${a}°`;left=Math.sin(2*A);right=2*sa*ca;note='L’angolo del primo membro è il doppio di α.'}
+    if(k===3){title='Bisezione';formula='sin(α/2) = ±√((1 − cos α)/2)';sub=`sin(${a}°/2) = ±√((1 − cos ${a}°)/2)`;left=Math.sin(A/2);right=Math.sign(left||1)*Math.sqrt(Math.max(0,(1-ca)/2));note='Il segno dipende dal quadrante in cui cade α/2.'}
+    if(k===4){const t=Math.tan(A/2);title='Formula parametrica';formula='t = tan(α/2)  ;  sin α = 2t/(1 + t²)';sub=`t = tan(${a}°/2) = ${fmt(t)}`;left=sa;right=2*t/(1+t*t);note='Prima calcola t, poi sostituiscilo nella formula.'}
+    if(k===5){title='Prostaferesi';formula='sin α + sin β = 2 sin((α + β)/2) cos((α − β)/2)';sub=`sin ${a}° + sin ${b}° = 2 sin(${a+b}°/2) cos(${a-b}°/2)`;left=sa+sb;right=2*Math.sin((A+B)/2)*Math.cos((A-B)/2);note='Una somma viene trasformata in un prodotto.'}
+    if(k===6){title='Formula di Werner';formula='sin α cos β = (sin(α + β) + sin(α − β))/2';sub=`sin ${a}° cos ${b}° = (sin ${a+b}° + sin ${a-b}°)/2`;left=sa*cb;right=(Math.sin(A+B)+Math.sin(A-B))/2;note='Un prodotto viene trasformato in una somma.'}
+    results.innerHTML=`<div class="formula-lab"><h3>${title}</h3><div class="rule-stage"><small>1. Formula generale</small><strong>${formula}</strong></div><div class="rule-arrow">↓</div><div class="rule-stage"><small>2. Sostituzione</small><strong>${sub}</strong></div><div class="rule-arrow">↓</div><div class="formula-compare"><div><small>Primo membro</small><b>${fmt(left)}</b></div><div class="equality-mark">=</div><div><small>Secondo membro</small><b>${fmt(right)}</b></div></div><p class="remember"><b>Controllo:</b> ${Math.abs(left-right)<1e-9?'i due membri coincidono.':'ricontrolla i dati.'}</p></div>`;
+    steps.innerHTML=`<p><b>1.</b> Riconosci la famiglia della formula.</p><p><b>2.</b> Sostituisci α e β mantenendo parentesi e segni.</p><p><b>3.</b> Calcola separatamente i due membri.</p><p><b>4.</b> ${note}</p>`;
+  }
+  const style=document.createElement('style');style.textContent='.formula-lab{display:grid;gap:12px}.rule-stage{background:#edf5fc;padding:13px;border-radius:12px;display:grid;gap:5px}.rule-stage small{color:var(--muted);font-weight:800}.rule-stage strong{font-family:"Cambria Math",Georgia,serif;color:var(--b);font-size:1.12rem}.rule-arrow{text-align:center;color:var(--b);font-size:1.5rem}.formula-compare{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center}.formula-compare>div:not(.equality-mark){background:var(--b);color:#fff;border-radius:14px;padding:14px;text-align:center;display:grid;gap:5px}.formula-compare small{color:#dceaff}.formula-compare b{font-size:1.45rem}.equality-mark{font-size:2rem;font-weight:900;color:var(--b)}';document.head.appendChild(style);
+  [ki,ai,bi].forEach(x=>x.addEventListener(x===ki?'change':'input',update));update();
+})();
+
+</script>
+</body></html>
