@@ -103,4 +103,131 @@ const style=document.createElement('style');
 style.textContent=`.definition-visual{margin-top:16px;padding:14px;background:#edf5fc;border-radius:15px;text-align:center}.definition-visual svg{display:block;width:min(100%,620px);max-height:280px;margin:auto;background:#fff;border-radius:12px}.definition-visual p{margin:9px 0 0;color:var(--ink)}.definition-visual text{fill:var(--b);font:700 13px system-ui;paint-order:stroke fill;stroke:#fff;stroke-width:4px}.dv-axes line{stroke:#9db4ca;stroke-width:1.5}.dv-shape,.dv-circle{fill:#0a57b714;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}.dv-curve{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linecap:round}.dv-ray,.dv-guide{stroke:#0a57b7;stroke-width:4}.dv-guide{stroke-dasharray:6 5}.dv-accent{fill:none;stroke:#d52b2b;stroke-width:4}.dv-point{fill:#ffd429;stroke:#073b82;stroke-width:2}.dv-box{fill:#fff;stroke:#0a57b7;stroke-width:3}.dv-arrow{fill:none;stroke:#f0a800;stroke-width:5;marker-end:url(#none)}.dv-result{fill:#ffd429;stroke:#073b82;stroke-width:3}.dv-balance{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}`;
 document.head.appendChild(style);
 })();
-</script></body></html>
+</script>
+
+
+<script data-fix="math4-inequality-lab">
+(() => {
+  const controls = document.getElementById('labControls');
+  const results = document.getElementById('labResults');
+  const steps = document.getElementById('labSteps');
+  if (!controls || !results || !steps) return;
+
+  const values = [
+    ['−1', -1], ['−√3/2', -Math.sqrt(3)/2], ['−√2/2', -Math.SQRT1_2], ['−1/2', -.5],
+    ['0', 0], ['1/2', .5], ['√2/2', Math.SQRT1_2], ['√3/2', Math.sqrt(3)/2], ['1', 1]
+  ];
+  const tanValues = [['−√3',-Math.sqrt(3)],['−1',-1],['−√3/3',-1/Math.sqrt(3)],['0',0],['√3/3',1/Math.sqrt(3)],['1',1],['√3',Math.sqrt(3)]];
+
+  controls.innerHTML = `
+    <h3>Costruisci la disequazione</h3>
+    <div class="lab-fields">
+      <label class="lab-field"><span>Funzione</span><select id="ineq-f"><option value="sin">seno</option><option value="cos">coseno</option><option value="tan">tangente</option></select></label>
+      <label class="lab-field"><span>Confronto</span><select id="ineq-op"><option>&gt;</option><option>&ge;</option><option>&lt;</option><option>&le;</option></select></label>
+      <label class="lab-field"><span>Valore</span><select id="ineq-v"></select></label>
+    </div>
+    <p class="remember">Il giallo evidenzia esattamente gli angoli che rendono vera la disequazione in un giro completo.</p>`;
+
+  const f = document.getElementById('ineq-f');
+  const op = document.getElementById('ineq-op');
+  const v = document.getElementById('ineq-v');
+  const rad = d => d * Math.PI / 180;
+  const fmt = n => Math.abs(n - Math.round(n)) < 1e-8 ? String(Math.round(n)) : n.toFixed(3).replace('.', ',').replace(/0+$/, '').replace(/,$/, '');
+
+  function fillValues() {
+    const old = v.value;
+    const list = f.value === 'tan' ? tanValues : values;
+    v.innerHTML = list.map(([label,value]) => `<option value="${value}" ${label === '1/2' ? 'selected' : ''}>${label}</option>`).join('');
+    if ([...v.options].some(o => o.value === old)) v.value = old;
+  }
+
+  function compare(x, operator, k) {
+    const e = 1e-9;
+    if (operator === '>') return x > k + e;
+    if (operator === '≥') return x >= k - e;
+    if (operator === '<') return x < k - e;
+    return x <= k + e;
+  }
+
+  function functionValue(kind, angle) {
+    if (kind === 'sin') return Math.sin(rad(angle));
+    if (kind === 'cos') return Math.cos(rad(angle));
+    const c = Math.cos(rad(angle));
+    return Math.abs(c) < 1e-7 ? NaN : Math.tan(rad(angle));
+  }
+
+  function update() {
+    const kind = f.value, operator = op.value, k = Number(v.value);
+    const label = v.options[v.selectedIndex].textContent;
+    const C = 150, R = 96;
+    const pt = a => [C + R * Math.cos(rad(a)), C - R * Math.sin(rad(a))];
+    let arcs = '', intervals = [], start = null, previous = false;
+
+    for (let a = 0; a <= 360; a += 1) {
+      const value = functionValue(kind, a);
+      const good = Number.isFinite(value) && compare(value, operator, k);
+      if (good && !previous) start = a;
+      if (!good && previous && start !== null) { intervals.push([start, a]); start = null; }
+      previous = good;
+    }
+    if (start !== null) intervals.push([start, 360]);
+
+    intervals.forEach(([a,b]) => {
+      let points = [];
+      for (let d = a; d <= b; d += 1) { const [x,y] = pt(d); points.push(`${x},${y}`); }
+      arcs += `<polyline points="${points.join(' ')}" class="solution-arc"/>`;
+    });
+
+    const intervalText = intervals.length
+      ? intervals.map(([a,b]) => `${operator.includes('=') ? '[' : '('}${fmt(a)}°; ${fmt(b)}°${operator.includes('=') ? ']' : ')'}`).join(' ∪ ')
+      : '∅';
+    const name = kind === 'sin' ? 'sen' : kind;
+    const guide = kind === 'sin'
+      ? `<line class="threshold" x1="45" y1="${C-R*k}" x2="255" y2="${C-R*k}"/><text x="258" y="${C-R*k+5}">${label}</text>`
+      : kind === 'cos'
+        ? `<line class="threshold" x1="${C+R*k}" y1="45" x2="${C+R*k}" y2="255"/><text x="${C+R*k+5}" y="42">${label}</text>`
+        : '';
+
+    const inclusive = operator === '≥' || operator === '≤';
+    const radians = {0:'0',30:'π/6',45:'π/4',60:'π/3',90:'π/2',120:'2π/3',135:'3π/4',150:'5π/6',180:'π',210:'7π/6',225:'5π/4',240:'4π/3',270:'3π/2',300:'5π/3',315:'7π/4',330:'11π/6',360:'2π'};
+    const corrected = intervals.map(([a,b]) => [inclusive ? a : Math.max(0,a-1), inclusive ? Math.max(0,b-1) : b]);
+    const degreeIntervals = corrected.map(([a,b]) => `${inclusive?'[':'('}${a}°; ${b}°${inclusive?']':')'}`).join(' ∪ ') || '∅';
+    const radianIntervals = corrected.map(([a,b]) => `${inclusive?'[':'('}${radians[a]||fmt(rad(a))}; ${radians[b]||fmt(rad(b))}${inclusive?']':')'}`).join(' ∪ ') || '∅';
+    const periodText = kind === 'tan' ? '180° = π' : '360° = 2π';
+
+    results.innerHTML = `
+      <div class="formula">${name}(x) ${operator} ${label}</div>
+      <div class="cartesian inequality-circle">
+        <svg viewBox="0 0 300 300" role="img" aria-label="Circonferenza goniometrica con archi soluzione evidenziati">
+          <g class="axes"><line x1="20" y1="${C}" x2="280" y2="${C}"/><line x1="${C}" y1="20" x2="${C}" y2="280"/></g>
+          <circle cx="${C}" cy="${C}" r="${R}" class="unit-circle"/>
+          ${guide}${arcs}
+          <text x="252" y="${C-8}">0°</text><text x="${C+8}" y="49">90°</text><text x="22" y="${C-8}">180°</text><text x="${C+8}" y="270">270°</text>
+        </svg>
+      </div>
+      <div class="result-list">
+        <div><span>Soluzione in un giro</span><strong>${degreeIntervals}</strong></div>
+        <div><span>In radianti</span><strong>${radianIntervals}</strong></div>
+        <div><span>Ripetizione</span><strong>periodo ${periodText}</strong></div>
+      </div>`;
+
+    steps.innerHTML = `
+      <p><b>1.</b> Risolvi l’equazione associata <b>${name}(x) = ${label}</b>.</p>
+      <p><b>2.</b> Individua sulla circonferenza i punti di separazione.</p>
+      <p><b>3.</b> Osserva gli archi gialli, che soddisfano il confronto <b>${operator}</b>.</p>
+      <p><b>4.</b> Aggiungi il periodo per ottenere la soluzione generale.</p>`;
+  }
+
+  const style = document.createElement('style');
+  style.textContent = '.inequality-circle .unit-circle{fill:none;stroke:#9db4ca;stroke-width:3}.inequality-circle .solution-arc{fill:none;stroke:#ffd429;stroke-width:10;stroke-linecap:round}.inequality-circle .threshold{stroke:#d52b2b;stroke-width:2;stroke-dasharray:7 5}.inequality-circle text{paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round}';
+  document.head.appendChild(style);
+
+  f.addEventListener('change', () => { fillValues(); update(); });
+  op.addEventListener('change', update);
+  v.addEventListener('change', update);
+  fillValues();
+  update();
+})();
+
+</script>
+</body></html>
