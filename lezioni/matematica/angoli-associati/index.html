@@ -136,4 +136,53 @@ document.head.appendChild(style);
 (() => {const dh=document.getElementById('definition'),eh=document.getElementById('example'),dt=document.getElementById('defTabs'),et=document.getElementById('exTabs');if(!dh||!eh)return;const pairs=[[30,150,'Supplementari: stesso seno, coseno opposto.'],[30,60,'Complementari: seno e coseno si scambiano.'],[30,210,'Differenza di 180°: seno e coseno cambiano segno.'],[30,120,'Differenza di 90°: funzioni scambiate con segni determinati dal quadrante.'],[60,300,'Esplementari: coseno uguale e seno opposto.'],[30,240,'Somma 270°: funzioni scambiate e segni letti nel III quadrante.'],[30,330,'Angoli opposti: seno opposto e coseno uguale.'],[30,300,'Differenza di 270°: funzioni scambiate e segni letti nel IV quadrante.']],idx=t=>{const a=[...t.querySelectorAll('button')],i=a.findIndex(b=>b.classList.contains('active'));return i<0?0:i},pt=(a,C,R)=>[C+R*Math.cos(a*Math.PI/180),C-R*Math.sin(a*Math.PI/180)];function visual(i){const [a,b,cap]=pairs[i]||pairs[0],C=145,R=94,[x1,y1]=pt(a,C,R),[x2,y2]=pt(b,C,R);return `<figure class="aa-visual"><svg viewBox="0 0 290 290" role="img" aria-label="Confronto tra angoli associati"><g class="axes"><line x1="15" y1="${C}" x2="275" y2="${C}"/><line x1="${C}" y1="15" x2="${C}" y2="275"/></g><circle cx="${C}" cy="${C}" r="${R}" class="aa-circle"/><line x1="${C}" y1="${C}" x2="${x1}" y2="${y1}" class="aa-one"/><line x1="${C}" y1="${C}" x2="${x2}" y2="${y2}" class="aa-two"/><circle cx="${x1}" cy="${y1}" r="7" class="aa-p1"/><circle cx="${x2}" cy="${y2}" r="7" class="aa-p2"/><text x="${x1+(x1<C?-38:8)}" y="${y1-9}">${a}°</text><text x="${x2+(x2<C?-42:8)}" y="${y2+(y2<C?-9:22)}">${b}°</text></svg><figcaption>${cap}</figcaption></figure>`}function add(h,t){const c=h.querySelector('.card');if(!c||c.querySelector('.aa-visual'))return;c.querySelectorAll('.definition-visual').forEach(x=>x.remove());c.insertAdjacentHTML('beforeend',visual(idx(t)))}let busy=false;function scan(){if(busy)return;busy=true;add(dh,dt);add(eh,et);busy=false}new MutationObserver(scan).observe(dh,{childList:true,subtree:true});new MutationObserver(scan).observe(eh,{childList:true,subtree:true});dt.addEventListener('click',()=>setTimeout(scan));et.addEventListener('click',()=>setTimeout(scan));scan();const s=document.createElement('style');s.textContent='.aa-visual{margin:18px auto 0;max-width:520px;padding:14px;background:#edf5fc;border-radius:16px;text-align:center}.aa-visual svg{display:block;width:min(100%,330px);margin:auto;background:#fff;border-radius:13px}.aa-circle{fill:none;stroke:#9db4ca;stroke-width:3}.aa-one{stroke:#0a57b7;stroke-width:4}.aa-two{stroke:#f0a800;stroke-width:4}.aa-p1{fill:#0a57b7}.aa-p2{fill:#ffd429;stroke:#073b82;stroke-width:3}.aa-visual text{font-weight:900;fill:#073b82;paint-order:stroke;stroke:#fff;stroke-width:5px}.aa-visual figcaption{margin-top:10px;font-weight:750}';document.head.appendChild(s)})();
 
 </script>
+<style id="stack-visible-math-fractions-style">
+.math-frac{display:inline-grid;grid-template-rows:auto auto;vertical-align:middle;text-align:center;line-height:1.05;margin:0 .16em;white-space:nowrap}
+.math-frac>.math-num{border-bottom:1.7px solid currentColor;padding:0 .24em .1em}
+.math-frac>.math-den{padding:.1em .24em 0}
+</style>
+<script id="stack-visible-math-fractions">
+(()=>{
+  const scope='.formula,[class*="formula"],.poly-editor,.system-lines,.stepper,.result,.solution-cards,.trig-relations,.guided-example,.example-card,.def-head,.mini-formula,.chip,.card h3,.card h4';
+  const atom=String.raw`(?:[−-]?(?:√)?(?:\d+(?:[.,]\d+)?|[\p{L}π]+)[²³₀-₉]*|[\p{L}]+\([^)]*\)|\([^/\n]{1,90}\))`;
+  const fraction=new RegExp(`(${atom})\s*\/\s*(${atom})`,'gu');
+  function convertText(node){
+    const text=node.nodeValue;
+    fraction.lastIndex=0;
+    if(!text||!fraction.test(text))return;
+    fraction.lastIndex=0;
+    const frag=document.createDocumentFragment();
+    let last=0,match;
+    while((match=fraction.exec(text))){
+      frag.append(text.slice(last,match.index));
+      const box=document.createElement('span');
+      box.className='math-frac';
+      const num=document.createElement('span');
+      num.className='math-num';
+      num.textContent=match[1];
+      const den=document.createElement('span');
+      den.className='math-den';
+      den.textContent=match[2];
+      box.append(num,den);
+      frag.append(box);
+      last=match.index+match[0].length;
+    }
+    frag.append(text.slice(last));
+    node.replaceWith(frag);
+  }
+  function render(root=document){
+    const hosts=[];
+    if(root.nodeType===1&&root.matches?.(scope))hosts.push(root);
+    root.querySelectorAll?.(scope).forEach(el=>hosts.push(el));
+    hosts.forEach(host=>{
+      const walker=document.createTreeWalker(host,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement?.closest('.math-frac,script,style,textarea,option')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+      const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);nodes.forEach(convertText);
+    });
+  }
+  let queued=false;
+  const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;render()})};
+  new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,characterData:true});
+  render();
+})();
+</script>
 </body></html>
