@@ -122,4 +122,44 @@ document.head.appendChild(style);
 })();
 
 </script>
+
+
+<script data-fix="math4-equation-definition-example-graphs">
+(() => {
+  const defHost=document.getElementById('definition'),exHost=document.getElementById('example'),defTabs=document.getElementById('defTabs'),exTabs=document.getElementById('exTabs');
+  if(!defHost||!exHost||!defTabs||!exTabs)return;
+  const examples=[
+    {angles:[30,150],caption:'sin x = 1/2: due punti con ordinata 1/2'},
+    {angles:[60,300],caption:'cos x = 1/2: due punti con ascissa 1/2'},
+    {angles:[150,330],caption:'cot x = −√3: una famiglia con periodo π'},
+    {angles:[0,25.714,77.143,120,128.571,180,231.429,240,282.857,334.286],caption:'sin(5x) = sin(2x): unione delle due famiglie in un giro'},
+    {angles:[30,150,270],caption:'2sin²x + sin x − 1 = 0: sin x = 1/2 oppure sin x = −1'},
+    {angles:[60,300],caption:'2sin²x = 3cos x: resta cos x = 1/2'},
+    {angles:[90,120,240],caption:'Prodotto nullo: unione delle soluzioni dei due fattori'},
+    {angles:[30,150,270],caption:'Dopo la duplicazione si ottiene un’equazione in sin x'},
+    {angles:[60,240],caption:'sin x − √3 cos x = 0: tan x = √3'},
+    {angles:[60,120,240,300],caption:'sin²x − 3cos²x = 0: tan x = ±√3'}
+  ];
+  const definitionCaptions=[
+    'Il seno è l’ordinata: una retta orizzontale incontra la circonferenza in due punti.',
+    'Il coseno è l’ascissa: una retta verticale incontra la circonferenza in due punti.',
+    'Tangente e cotangente hanno periodo π: i punti opposti appartengono alla stessa famiglia.',
+    'Con la stessa funzione si confrontano gli argomenti e si uniscono le famiglie ottenute.',
+    'La sostituzione t = sin x produce prima un’equazione algebrica, poi più equazioni elementari.',
+    'La relazione sen²x + cos²x = 1 permette di conservare una sola funzione.',
+    'Ogni fattore uguale a zero genera una propria famiglia di soluzioni.',
+    'Le formule goniometriche rendono uguali gli argomenti prima di risolvere.',
+    'Una lineare omogenea in seno e coseno si riconduce alla tangente.',
+    'Dividendo per cos²x si ottiene un’equazione di secondo grado in tan x.'
+  ];
+  function selectedIndex(tabs){const list=[...tabs.querySelectorAll('button')],i=list.findIndex(b=>b.classList.contains('active'));return i<0?0:i}
+  function circle(spec,definition=false){const C=145,R=94,lines=spec.angles.map((a,i)=>{const r=a*Math.PI/180,x=C+R*Math.cos(r),y=C-R*Math.sin(r),label=Math.abs(a-Math.round(a))<.01?`${Math.round(a)}°`:'';return `<line x1="${C}" y1="${C}" x2="${x}" y2="${y}" class="eqv-ray"/><circle cx="${x}" cy="${y}" r="6" class="eqv-point"/>${label?`<text x="${x+(x<C?-35:8)}" y="${y+(y<C?-9:20)}">${label}</text>`:''}`}).join('');return `<figure class="eq-visual"><svg viewBox="0 0 290 290" role="img" aria-label="Rappresentazione delle soluzioni sulla circonferenza"><g class="axes"><line x1="15" y1="${C}" x2="275" y2="${C}"/><line x1="${C}" y1="15" x2="${C}" y2="275"/></g><circle cx="${C}" cy="${C}" r="${R}" class="eqv-circle"/>${lines}</svg><figcaption>${definition?definitionCaptions[selectedIndex(defTabs)]:spec.caption}</figcaption></figure>`}
+  function add(host,tabs,definition){const card=host.querySelector('.card');if(!card||card.querySelector('.eq-visual'))return;const i=selectedIndex(tabs),spec=examples[Math.min(i,examples.length-1)];card.insertAdjacentHTML('beforeend',circle(spec,definition))}
+  let busy=false;function scan(){if(busy)return;busy=true;add(defHost,defTabs,true);add(exHost,exTabs,false);busy=false}
+  new MutationObserver(scan).observe(defHost,{childList:true,subtree:true});new MutationObserver(scan).observe(exHost,{childList:true,subtree:true});
+  defTabs.addEventListener('click',()=>setTimeout(scan));exTabs.addEventListener('click',()=>setTimeout(scan));scan();
+  const style=document.createElement('style');style.textContent='.eq-visual{margin:18px auto 0;max-width:520px;background:#edf5fc;border-radius:16px;padding:14px;text-align:center}.eq-visual svg{display:block;width:min(100%,330px);margin:auto;background:#fff;border-radius:13px}.eqv-circle{fill:#f8fbfe;stroke:#0a57b7;stroke-width:3}.eqv-ray{stroke:#f0a800;stroke-width:2.4;opacity:.85}.eqv-point{fill:#ffd429;stroke:#073b82;stroke-width:3}.eq-visual text{font-weight:900;fill:#073b82;paint-order:stroke;stroke:#fff;stroke-width:5px}.eq-visual figcaption{margin-top:10px;color:var(--ink);font-weight:750}';document.head.appendChild(style);
+})();
+
+</script>
 </body></html>
