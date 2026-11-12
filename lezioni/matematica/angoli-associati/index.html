@@ -103,4 +103,32 @@ const style=document.createElement('style');
 style.textContent=`.definition-visual{margin-top:16px;padding:14px;background:#edf5fc;border-radius:15px;text-align:center}.definition-visual svg{display:block;width:min(100%,620px);max-height:280px;margin:auto;background:#fff;border-radius:12px}.definition-visual p{margin:9px 0 0;color:var(--ink)}.definition-visual text{fill:var(--b);font:700 13px system-ui;paint-order:stroke fill;stroke:#fff;stroke-width:4px}.dv-axes line{stroke:#9db4ca;stroke-width:1.5}.dv-shape,.dv-circle{fill:#0a57b714;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}.dv-curve{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linecap:round}.dv-ray,.dv-guide{stroke:#0a57b7;stroke-width:4}.dv-guide{stroke-dasharray:6 5}.dv-accent{fill:none;stroke:#d52b2b;stroke-width:4}.dv-point{fill:#ffd429;stroke:#073b82;stroke-width:2}.dv-box{fill:#fff;stroke:#0a57b7;stroke-width:3}.dv-arrow{fill:none;stroke:#f0a800;stroke-width:5;marker-end:url(#none)}.dv-result{fill:#ffd429;stroke:#073b82;stroke-width:3}.dv-balance{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}`;
 document.head.appendChild(style);
 })();
-</script></body></html>
+</script>
+<script data-fix="math4-associated-angles">
+(() => {
+  const controls=document.getElementById('labControls'),results=document.getElementById('labResults'),steps=document.getElementById('labSteps');
+  if(!controls||!results||!steps)return;
+  const types=[
+    ['90° − α',a=>90-a,'sin(90° − α) = cos α','cos(90° − α) = sin α','tan(90° − α) = cot α'],
+    ['90° + α',a=>90+a,'sin(90° + α) = cos α','cos(90° + α) = −sin α','tan(90° + α) = −cot α'],
+    ['180° − α',a=>180-a,'sin(180° − α) = sin α','cos(180° − α) = −cos α','tan(180° − α) = −tan α'],
+    ['180° + α',a=>180+a,'sin(180° + α) = −sin α','cos(180° + α) = −cos α','tan(180° + α) = tan α'],
+    ['270° − α',a=>270-a,'sin(270° − α) = −cos α','cos(270° − α) = −sin α','tan(270° − α) = cot α'],
+    ['270° + α',a=>270+a,'sin(270° + α) = −cos α','cos(270° + α) = sin α','tan(270° + α) = −cot α'],
+    ['360° − α',a=>360-a,'sin(360° − α) = −sin α','cos(360° − α) = cos α','tan(360° − α) = −tan α'],
+    ['−α',a=>-a,'sin(−α) = −sin α','cos(−α) = cos α','tan(−α) = −tan α']
+  ];
+  controls.innerHTML=`<h3>Scegli l’angolo associato</h3><div class="lab-fields"><label class="lab-field"><span>α</span><input id="assoc-a" type="number" min="0" max="90" step="15" value="30"></label><label class="lab-field"><span>Tipo</span><select id="assoc-type">${types.map((t,i)=>`<option value="${i}" ${i===2?'selected':''}>${t[0]}</option>`).join('')}</select></label></div><p class="remember">Il punto blu rappresenta α; il punto giallo rappresenta soltanto l’angolo associato scelto.</p>`;
+  const ai=document.getElementById('assoc-a'),ti=document.getElementById('assoc-type'),rad=d=>d*Math.PI/180;
+  const fmt=n=>Math.abs(n)<1e-10?'0':n.toFixed(3).replace('.',',').replace(/0+$/,'').replace(/,$/,'');
+  function update(){
+    const a=Math.max(0,Math.min(90,Number(ai.value)||0)),t=types[Number(ti.value)],raw=t[1](a),angle=((raw%360)+360)%360,s=Math.sin(rad(angle)),c=Math.cos(rad(angle)),tan=Math.abs(c)<1e-9?NaN:s/c,C=150,R=94,p=d=>[C+R*Math.cos(rad(d)),C-R*Math.sin(rad(d))],[ax,ay]=p(a),[bx,by]=p(angle);
+    results.innerHTML=`<div class="formula">α = ${a}° <span class="formula-semicolon">;</span> ${t[0]} = ${raw}°${raw!==angle?` ≡ ${angle}°`:''}</div><div class="associated-layout"><div class="cartesian"><svg viewBox="0 0 300 300" role="img" aria-label="Angolo alfa e angolo associato"><g class="axes"><line x1="15" y1="${C}" x2="285" y2="${C}"/><line x1="${C}" y1="15" x2="${C}" y2="285"/></g><circle cx="${C}" cy="${C}" r="${R}" class="assoc-circle"/><line x1="${C}" y1="${C}" x2="${ax}" y2="${ay}" class="assoc-alpha"/><line x1="${C}" y1="${C}" x2="${bx}" y2="${by}" class="assoc-related"/><circle cx="${ax}" cy="${ay}" r="7" class="assoc-alpha-point"/><circle cx="${bx}" cy="${by}" r="7" class="assoc-related-point"/><text x="${ax+(ax<C?-30:10)}" y="${ay+(ay<C?-9:20)}">α</text><text x="${bx+(bx<C?-62:10)}" y="${by+(by<C?-9:20)}">${t[0]}</text><text x="225" y="62">I</text><text x="65" y="62">II</text><text x="58" y="245">III</text><text x="230" y="245">IV</text></svg></div><div class="result-list"><div><span>Seno</span><strong>${t[2]} = ${fmt(s)}</strong></div><div><span>Coseno</span><strong>${t[3]} = ${fmt(c)}</strong></div><div><span>Tangente</span><strong>${t[4]} = ${Number.isFinite(tan)?fmt(tan):'non definita'}</strong></div></div></div>`;
+    steps.innerHTML=`<p><b>1.</b> Costruisci l’angolo <b>${t[0]}</b>.</p><p><b>2.</b> Individua il quadrante del punto giallo.</p><p><b>3.</b> Controlla se seno e coseno restano uguali oppure si scambiano.</p><p><b>4.</b> Assegna il segno leggendo il quadrante.</p>`;
+  }
+  const style=document.createElement('style');style.textContent='.assoc-circle{fill:#0a57b70b;stroke:#9db4ca;stroke-width:2}.assoc-alpha{stroke:#0a57b7;stroke-width:4}.assoc-related{stroke:#f0a800;stroke-width:4}.assoc-alpha-point{fill:#0a57b7;stroke:#fff;stroke-width:2}.assoc-related-point{fill:#ffd429;stroke:#073b82;stroke-width:3}.associated-layout text{paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round}';document.head.appendChild(style);
+  ai.addEventListener('input',update);ti.addEventListener('change',update);update();
+})();
+
+</script>
+</body></html>
