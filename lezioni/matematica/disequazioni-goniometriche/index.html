@@ -230,4 +230,44 @@ document.head.appendChild(style);
 })();
 
 </script>
+
+<script data-fix="math4-inequality-definition-example-graphs">
+(() => {
+  const defHost=document.getElementById('definition'),exHost=document.getElementById('example'),defTabs=document.getElementById('defTabs'),exTabs=document.getElementById('exTabs');
+  if(!defHost||!exHost||!defTabs||!exTabs)return;
+  const specs=[
+    {segments:[[30,150]],points:[30,150],labels:[30,150],caption:'sin x > 1/2: arco superiore compreso tra 30° e 150°, estremi esclusi.'},
+    {segments:[[0,120],[240,360]],points:[120,240],labels:[120,240],caption:'cos x > −1/2: parte esterna all’arco sinistro, estremi esclusi.'},
+    {segments:[[60,90],[240,270]],points:[60,90,240,270],labels:[60,90,240,270],caption:'tan x > √3: intervalli prima degli asintoti di 90° e 270°.'},
+    {segments:[[0,270],[270,360]],points:[270],labels:[270],caption:'sin x > −1: tutta la circonferenza tranne 270°.'},
+    {segments:[[0,225],[315,360]],points:[225,315],labels:[225,315],caption:'sin x > −√2/2: si esclude l’arco inferiore tra 225° e 315°.'},
+    {segments:[[60,300]],points:[60,300],labels:[60,300],caption:'2cos²x + 3cos x − 2 < 0: cos x < 1/2.'},
+    {segments:[[90,270]],points:[90,270],labels:[90,270],caption:'Dopo la riduzione resta cos x < 0: II e III quadrante.'},
+    {segments:[[30,210]],points:[30,210],labels:[30,210],caption:'√3 sin x − cos x > 0 equivale a sin(x − 30°) > 0.'},
+    {segments:[[30,90],[150,270]],points:[30,90,150,270],labels:[30,90,150,270],caption:'Disequazione fratta: zeri del numeratore e punti esclusi del denominatore.'},
+    {segments:[[0,90]],points:[0,90],labels:[0,90],caption:'sin x > 0 e cos x > 0: intersezione nel I quadrante.'}
+  ];
+  const defText=[
+    'Per il seno si confronta l’ordinata dei punti con una retta orizzontale.',
+    'Per il coseno si confronta l’ascissa dei punti con una retta verticale.',
+    'Tangente e cotangente richiedono anche i punti in cui non sono definite.',
+    'Nei casi limite bisogna distinguere valore raggiunto, estremo incluso ed estremo escluso.',
+    'Prima si trasforma la disequazione, poi si legge l’arco della corrispondente elementare.',
+    'La sostituzione t = funzione(x) produce una disequazione algebrica e impone −1 ≤ t ≤ 1 per seno e coseno.',
+    'Le formule goniometriche riportano tutto a una stessa funzione prima dello studio del segno.',
+    'La forma a sin x + b cos x può essere trasformata in una funzione traslata.',
+    'Una frazione richiede segno del numeratore, segno del denominatore e punti esclusi.',
+    'Un sistema conserva soltanto l’intersezione degli archi-soluzione.'
+  ];
+  const idx=tabs=>{const a=[...tabs.querySelectorAll('button')],i=a.findIndex(b=>b.classList.contains('active'));return i<0?0:i};
+  const point=(a,C,R)=>[C+R*Math.cos(a*Math.PI/180),C-R*Math.sin(a*Math.PI/180)];
+  function arc(a,b,C,R){const [x1,y1]=point(a,C,R),[x2,y2]=point(b,C,R),large=(b-a)>180?1:0;return `<path d="M ${x1} ${y1} A ${R} ${R} 0 ${large} 0 ${x2} ${y2}" class="iqv-solution"/>`}
+  function visual(spec,definition){const C=145,R=94,arcs=spec.segments.map(s=>arc(s[0],s[1],C,R)).join(''),pts=spec.points.map(a=>{const [x,y]=point(a,C,R);return `<circle cx="${x}" cy="${y}" r="7" class="iqv-open"/>`}).join(''),labels=spec.labels.map(a=>{const [x,y]=point(a,C,R);return `<text x="${x+(x<C?-38:8)}" y="${y+(y<C?-10:22)}">${a}°</text>`}).join('');return `<figure class="ineq-visual"><svg viewBox="0 0 290 290" role="img" aria-label="Archi soluzione della disequazione"><g class="axes"><line x1="15" y1="${C}" x2="275" y2="${C}"/><line x1="${C}" y1="15" x2="${C}" y2="275"/></g><circle cx="${C}" cy="${C}" r="${R}" class="iqv-circle"/>${arcs}${pts}${labels}</svg><figcaption>${definition?defText[idx(defTabs)]:spec.caption}</figcaption></figure>`}
+  function add(host,tabs,definition){const card=host.querySelector('.card');if(!card||card.querySelector('.ineq-visual'))return;const i=idx(tabs);card.insertAdjacentHTML('beforeend',visual(specs[Math.min(i,9)],definition))}
+  let busy=false;function scan(){if(busy)return;busy=true;add(defHost,defTabs,true);add(exHost,exTabs,false);busy=false}
+  new MutationObserver(scan).observe(defHost,{childList:true,subtree:true});new MutationObserver(scan).observe(exHost,{childList:true,subtree:true});defTabs.addEventListener('click',()=>setTimeout(scan));exTabs.addEventListener('click',()=>setTimeout(scan));scan();
+  const style=document.createElement('style');style.textContent='.ineq-visual{margin:18px auto 0;max-width:540px;padding:14px;background:#edf5fc;border-radius:16px;text-align:center}.ineq-visual svg{display:block;width:min(100%,340px);margin:auto;background:#fff;border-radius:13px}.iqv-circle{fill:none;stroke:#9db4ca;stroke-width:3}.iqv-solution{fill:none;stroke:#f0a800;stroke-width:11;stroke-linecap:round}.iqv-open{fill:#fff;stroke:#073b82;stroke-width:4}.ineq-visual text{fill:#073b82;font-weight:900;paint-order:stroke;stroke:#fff;stroke-width:5px}.ineq-visual figcaption{margin-top:10px;font-weight:750;color:var(--ink)}';document.head.appendChild(style);
+})();
+
+</script>
 </body></html>
