@@ -103,4 +103,23 @@ const style=document.createElement('style');
 style.textContent=`.definition-visual{margin-top:16px;padding:14px;background:#edf5fc;border-radius:15px;text-align:center}.definition-visual svg{display:block;width:min(100%,620px);max-height:280px;margin:auto;background:#fff;border-radius:12px}.definition-visual p{margin:9px 0 0;color:var(--ink)}.definition-visual text{fill:var(--b);font:700 13px system-ui;paint-order:stroke fill;stroke:#fff;stroke-width:4px}.dv-axes line{stroke:#9db4ca;stroke-width:1.5}.dv-shape,.dv-circle{fill:#0a57b714;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}.dv-curve{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linecap:round}.dv-ray,.dv-guide{stroke:#0a57b7;stroke-width:4}.dv-guide{stroke-dasharray:6 5}.dv-accent{fill:none;stroke:#d52b2b;stroke-width:4}.dv-point{fill:#ffd429;stroke:#073b82;stroke-width:2}.dv-box{fill:#fff;stroke:#0a57b7;stroke-width:3}.dv-arrow{fill:none;stroke:#f0a800;stroke-width:5;marker-end:url(#none)}.dv-result{fill:#ffd429;stroke:#073b82;stroke-width:3}.dv-balance{fill:none;stroke:#0a57b7;stroke-width:4;stroke-linejoin:round}`;
 document.head.appendChild(style);
 })();
-</script></body></html>
+</script>
+
+<script data-fix="math4-equation-types">
+(() => {
+  const controls=document.getElementById('labControls'),out=document.getElementById('labResults'),steps=document.getElementById('labSteps');
+  if(!controls||!out||!steps)return;
+  const cases=[
+    {name:'Equazione elementare',formula:'sin x = 1/2',angles:[30,150],general:'x = 30° + 360°k  oppure  x = 150° + 360°k',explain:['Isola la funzione goniometrica.','Trova l’angolo di riferimento 30°.','Il seno è positivo nel I e nel II quadrante.']},
+    {name:'Secondo grado in sin x',formula:'2sin²x − 3sin x + 1 = 0',angles:[30,90,150],general:'x = 30° + 360°k; 90° + 360°k; 150° + 360°k',explain:['Poni t = sin x.','Risolvi 2t² − 3t + 1 = 0: t = 1/2 oppure t = 1.','Risolvi sin x = 1/2 e sin x = 1.']},
+    {name:'Omogenea',formula:'sin x − cos x = 0',angles:[45,225],general:'x = 45° + 180°k',explain:['Porta a sin x = cos x.','Poiché cos x non è zero nelle soluzioni, dividi per cos x.','Ottieni tan x = 1.']},
+    {name:'Riconducibile',formula:'2cos²x − 1 = 0',angles:[45,135,225,315],general:'x = 45° + 90°k',explain:['Isola cos²x = 1/2.','Ricorda entrambi i segni: cos x = ±√2/2.','Individua quattro soluzioni in un giro.']}
+  ];
+  controls.innerHTML=`<h3>Scegli il tipo di equazione</h3><div class="lab-fields"><label class="lab-field"><span>Equazione</span><select id="eq-case">${cases.map((c,i)=>`<option value="${i}">${c.name}</option>`).join('')}</select></label></div><p class="remember">Il disegno evidenzia tutte e soltanto le soluzioni comprese tra 0° e 360°.</p>`;
+  const sel=document.getElementById('eq-case'),rad=d=>d*Math.PI/180;
+  function update(){const c=cases[+sel.value],C=150,R=95,pts=c.angles.map(a=>{const x=C+R*Math.cos(rad(a)),y=C-R*Math.sin(rad(a));return `<line x1="${C}" y1="${C}" x2="${x}" y2="${y}" class="solution-ray"/><circle cx="${x}" cy="${y}" r="7" class="solution-point"/><text x="${x+(x<C?-38:8)}" y="${y+(y<C?-10:22)}">${a}°</text>`}).join('');out.innerHTML=`<div class="formula">${c.formula}</div><div class="equation-lab-layout"><div class="cartesian"><svg viewBox="0 0 300 300" role="img" aria-label="Circonferenza con tutte le soluzioni"><g class="axes"><line x1="15" y1="${C}" x2="285" y2="${C}"/><line x1="${C}" y1="15" x2="${C}" y2="285"/></g><circle class="angle-circle" cx="${C}" cy="${C}" r="${R}"/>${pts}</svg></div><div class="solution-cards"><div><small>Tipo</small><b>${c.name}</b></div><div><small>Soluzioni in [0°; 360°)</small><b>${c.angles.map(a=>a+'°').join(' ; ')}</b></div><div><small>Soluzione generale</small><b>${c.general}</b></div><div><small>Parametro</small><b>k ∈ ℤ</b></div></div></div>`;steps.innerHTML=c.explain.map((x,i)=>`<p><b>${i+1}.</b> ${x}</p>`).join('')+'<p><b>Controllo.</b> Sostituisci ogni angolo nell’equazione iniziale.</p>'}
+  sel.addEventListener('change',update);update();
+})();
+
+</script>
+</body></html>
