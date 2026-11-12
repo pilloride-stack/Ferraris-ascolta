@@ -198,4 +198,53 @@ document.head.appendChild(style);
 })();
 
 </script>
+<style id="stack-visible-math-fractions-style">
+.math-frac{display:inline-grid;grid-template-rows:auto auto;vertical-align:middle;text-align:center;line-height:1.05;margin:0 .16em;white-space:nowrap}
+.math-frac>.math-num{border-bottom:1.7px solid currentColor;padding:0 .24em .1em}
+.math-frac>.math-den{padding:.1em .24em 0}
+</style>
+<script id="stack-visible-math-fractions">
+(()=>{
+  const scope='.formula,[class*="formula"],.poly-editor,.system-lines,.stepper,.result,.solution-cards,.trig-relations,.guided-example,.example-card,.def-head,.mini-formula,.chip,.card h3,.card h4';
+  const atom=String.raw`(?:[−-]?(?:√)?(?:\d+(?:[.,]\d+)?|[\p{L}π]+)[²³₀-₉]*|[\p{L}]+\([^)]*\)|\([^/\n]{1,90}\))`;
+  const fraction=new RegExp(`(${atom})\s*\/\s*(${atom})`,'gu');
+  function convertText(node){
+    const text=node.nodeValue;
+    fraction.lastIndex=0;
+    if(!text||!fraction.test(text))return;
+    fraction.lastIndex=0;
+    const frag=document.createDocumentFragment();
+    let last=0,match;
+    while((match=fraction.exec(text))){
+      frag.append(text.slice(last,match.index));
+      const box=document.createElement('span');
+      box.className='math-frac';
+      const num=document.createElement('span');
+      num.className='math-num';
+      num.textContent=match[1];
+      const den=document.createElement('span');
+      den.className='math-den';
+      den.textContent=match[2];
+      box.append(num,den);
+      frag.append(box);
+      last=match.index+match[0].length;
+    }
+    frag.append(text.slice(last));
+    node.replaceWith(frag);
+  }
+  function render(root=document){
+    const hosts=[];
+    if(root.nodeType===1&&root.matches?.(scope))hosts.push(root);
+    root.querySelectorAll?.(scope).forEach(el=>hosts.push(el));
+    hosts.forEach(host=>{
+      const walker=document.createTreeWalker(host,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement?.closest('.math-frac,script,style,textarea,option')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+      const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);nodes.forEach(convertText);
+    });
+  }
+  let queued=false;
+  const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;render()})};
+  new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,characterData:true});
+  render();
+})();
+</script>
 </body></html>
