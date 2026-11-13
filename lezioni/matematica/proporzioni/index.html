@@ -70,26 +70,18 @@ const sliders=[a,b,c];function neat(n){return Number.isInteger(n)?n:n.toFixed(2)
 <div class="lesson-pager" aria-label="Navigazione della lezione"><button class="secondary" type="button" id="lessonBack">Indietro</button><button class="primary" type="button" id="lessonNext">Avanti</button></div>
 <script id="proportions-narration">
 (()=>{
-  const narration=[
-    ['Studiamo le proporzioni, cioè uguaglianze tra due rapporti. Servono per confrontare quantità e trovare un valore mancante.','In quattordici a sette uguale sei a tre, sette e sei sono i medi; quattordici e tre sono gli estremi.'],
-    ['In ogni proporzione il prodotto dei medi è uguale al prodotto degli estremi.','Qui sette per sei e quattordici per tre valgono entrambi quarantadue.'],
-    ['Consideriamo dodici a ics uguale sei a quattro. Ics è un medio.','Moltiplichiamo gli estremi: dodici per quattro è quarantotto.','Dividiamo per l’altro medio: quarantotto diviso sei è otto.'],
-    ['Consideriamo nove a sei uguale tre a ics. Ics è un estremo.','Moltiplichiamo i medi: sei per tre è diciotto.','Dividiamo per l’altro estremo: diciotto diviso nove è due.'],
-    ['Ora prova a riconoscere medi ed estremi e a calcolare il termine mancante.'],
-    ['Nel laboratorio puoi modificare a, b e c. Il valore di ics viene calcolato e poi verificato confrontando i prodotti incrociati.'],
-    ['Completa la verifica. Per ogni proporzione controlla sempre che il prodotto dei medi coincida con quello degli estremi.']
-  ];
-  let queue=[],utterance=null,auto=false,status=null;
+  const base='https://raw.githubusercontent.com/pilloride-stack/Ferraris-ascolta/main/audio/matematica-interattiva/episodio-31/';
+  const audioPlan=[['01','02'],['03','04'],['05','06','07'],['08','09','10'],['11'],['12','13'],['14']];
+  let queue=[],player=null,auto=false,status=null;
   function clearHighlight(){document.querySelectorAll('.step.narrating').forEach(x=>x.classList.remove('narrating'))}
-  function stopNarration(){queue=[];auto=false;clearHighlight();if('speechSynthesis' in window)window.speechSynthesis.cancel();utterance=null;document.querySelectorAll('.voice-status').forEach(x=>x.textContent='')}
+  function stopNarration(){queue=[];auto=false;clearHighlight();if(player){player.pause();player.currentTime=0;player=null}document.querySelectorAll('.voice-status').forEach(x=>x.textContent='')}
   function speakNext(){
     const item=queue.shift();
     if(!item){clearHighlight();if(auto&&current<screens.length-1){go(1);setTimeout(()=>startNarration(true),350)}else if(status)status.textContent='Spiegazione terminata.';return}
     const step=screens[current].querySelectorAll('.step')[item.index];clearHighlight();if(step){step.classList.add('narrating');step.scrollIntoView({behavior:'smooth',block:'center'})}
-    if(!('speechSynthesis' in window)||!('SpeechSynthesisUtterance' in window)){if(status)status.textContent='La voce non è disponibile in questo browser.';queue=[];auto=false;return}
-    if(status)status.textContent='Spiegazione in corso';utterance=new SpeechSynthesisUtterance(item.text);utterance.lang='it-IT';utterance.rate=.94;utterance.onend=speakNext;utterance.onerror=()=>{if(status)status.textContent='La voce non è disponibile in questo browser.';queue=[]};window.speechSynthesis.speak(utterance)
+    if(status)status.textContent='Spiegazione in corso';player=new Audio(base+'frase-'+item.id+'.mp3');player.onended=speakNext;player.onerror=()=>{if(status)status.textContent='Audio in attesa di generazione.';queue=[];auto=false};player.play().catch(()=>{if(status)status.textContent='Tocca di nuovo Ascolta per avviare la voce.'})
   }
-  function startNarration(continueAutomatically=false){stopNarration();auto=continueAutomatically;status=screens[current].querySelector('.voice-status');queue=(narration[current]||[]).map((text,index)=>({text,index}));speakNext()}
+  function startNarration(continueAutomatically=false){stopNarration();auto=continueAutomatically;status=screens[current].querySelector('.voice-status');queue=(audioPlan[current]||[]).map((id,index)=>({id,index}));speakNext()}
   screens.forEach((screen,i)=>{const bar=document.createElement('div');bar.className='voice-controls';bar.innerHTML='<button class="primary" type="button">🔊 Ascolta</button><button class="secondary" type="button">■ Stop</button><span class="voice-status" aria-live="polite"></span>';screen.querySelector('h2').insertAdjacentElement('afterend',bar);bar.children[0].onclick=()=>startNarration(true);bar.children[1].onclick=stopNarration});
   document.getElementById('lessonBack').onclick=()=>{stopNarration();go(-1)};document.getElementById('lessonNext').onclick=()=>{stopNarration();go(1)};
   nav.addEventListener('click',stopNarration,true);window.addEventListener('beforeunload',stopNarration);
