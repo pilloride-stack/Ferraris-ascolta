@@ -200,6 +200,30 @@
       "speech": "Ricorda: togli le parentesi, separa i termini e dividi per il coefficiente di __X__. Con __X__ al denominatore, parti dalle condizioni di esistenza.",
       "screen": "Verifica",
       "purpose": "Conclusione"
+    },
+    {
+      "text": "Primo principio di equivalenza. Aggiungendo o sottraendo la stessa espressione a entrambi i membri, si ottiene un'equazione equivalente.",
+      "speech": "Primo principio di equivalenza. Aggiungendo o sottraendo la stessa espressione a entrambi i membri, si ottiene un'equazione equivalente.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Primo principio di equivalenza"
+    },
+    {
+      "text": "Nell'equazione due ics meno tre uguale a meno cinque, aggiungo tre a entrambi i membri. Ottengo due ics uguale a meno due.",
+      "speech": "Nell'equazione due __X__ meno tre uguale a meno cinque, aggiungo tre a entrambi i membri. Ottengo due __X__ uguale a meno due.",
+      "screen": "Primo principio di equivalenza",
+      "purpose": "Esempio completo"
+    },
+    {
+      "text": "Secondo principio di equivalenza. Moltiplicando o dividendo entrambi i membri per lo stesso numero diverso da zero, si ottiene un'equazione equivalente.",
+      "speech": "Secondo principio di equivalenza. Moltiplicando o dividendo entrambi i membri per lo stesso numero diverso da zero, si ottiene un'equazione equivalente.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Secondo principio di equivalenza"
+    },
+    {
+      "text": "Nell'equazione due ics uguale a meno due, divido entrambi i membri per due. Ottengo ics uguale a meno uno. Nelle equazioni, l'uguaglianza non cambia verso.",
+      "speech": "Nell'equazione due __X__ uguale a meno due, divido entrambi i membri per due. Ottengo __X__ uguale a meno uno. Nelle equazioni, l'uguaglianza non cambia verso.",
+      "screen": "Secondo principio di equivalenza",
+      "purpose": "Esempio completo"
     }
   ]
 }
