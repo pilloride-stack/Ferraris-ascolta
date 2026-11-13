@@ -40,146 +40,146 @@
       "purpose": "Definizione: Significato del delta"
     },
     {
-      "text": "La scheda dice: si applica la formula completa. Ics è uguale a meno bi, più o meno radice di bi alla seconda meno quattro a ci, tutto fratto due a.",
-      "speech": "La scheda dice: si applica la formula completa. __X__ è uguale a meno bi, più o meno radice di bi alla seconda meno quattro a ci, tutto fratto due a.",
+      "text": "si applica la formula completa. Ics è uguale a meno bi, più o meno radice di bi alla seconda meno quattro a ci, tutto fratto due a.",
+      "speech": "si applica la formula completa. __X__ è uguale a meno bi, più o meno radice di bi alla seconda meno quattro a ci, tutto fratto due a.",
       "screen": "Equazione completa",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco i coefficienti. A è uguale a uno, bi a meno sette, ci a dieci.",
-      "speech": "Passaggio uno: riconosco i coefficienti. A è uguale a uno, bi a meno sette, ci a dieci.",
+      "text": "riconosco i coefficienti. A è uguale a uno, bi a meno sette, ci a dieci.",
+      "speech": "riconosco i coefficienti. A è uguale a uno, bi a meno sette, ci a dieci.",
       "screen": "Equazione completa",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: calcolo il delta. Quarantanove meno quaranta fa nove.",
-      "speech": "Passaggio due: calcolo il delta. Quarantanove meno quaranta fa nove.",
+      "text": "Quindi, calcolo il delta. Quarantanove meno quaranta fa nove.",
+      "speech": "Quindi, calcolo il delta. Quarantanove meno quaranta fa nove.",
       "screen": "Equazione completa",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: applico la formula. Sette più o meno tre, fratto due. Le soluzioni sono due e cinque.",
-      "speech": "Passaggio tre: applico la formula. Sette più o meno tre, fratto due. Le soluzioni sono due e cinque.",
+      "text": "Infine, applico la formula. Sette più o meno tre, fratto due. Le soluzioni sono due e cinque.",
+      "speech": "Infine, applico la formula. Sette più o meno tre, fratto due. Le soluzioni sono due e cinque.",
       "screen": "Equazione completa",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con bi pari si applica la formula ridotta, che usa la metà di bi.",
-      "speech": "La scheda dice: con bi pari si applica la formula ridotta, che usa la metà di bi.",
+      "text": "con bi pari si applica la formula ridotta, che usa la metà di bi.",
+      "speech": "con bi pari si applica la formula ridotta, che usa la metà di bi.",
       "screen": "Equazione completa con b pari",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco che bi, quattro, è pari. La metà di bi è due.",
-      "speech": "Passaggio uno: riconosco che bi, quattro, è pari. La metà di bi è due.",
+      "text": "riconosco che bi, quattro, è pari. La metà di bi è due.",
+      "speech": "riconosco che bi, quattro, è pari. La metà di bi è due.",
       "screen": "Equazione completa con b pari",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: calcolo sotto radice. Due alla seconda meno uno fa tre.",
-      "speech": "Passaggio due: calcolo sotto radice. Due alla seconda meno uno fa tre.",
+      "text": "Quindi, calcolo sotto radice. Due alla seconda meno uno fa tre.",
+      "speech": "Quindi, calcolo sotto radice. Due alla seconda meno uno fa tre.",
       "screen": "Equazione completa con b pari",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo le soluzioni. Ics è uguale a meno due, più o meno radice di tre.",
-      "speech": "Passaggio tre: scrivo le soluzioni. __X__ è uguale a meno due, più o meno radice di tre.",
+      "text": "Infine, scrivo le soluzioni. Ics è uguale a meno due, più o meno radice di tre.",
+      "speech": "Infine, scrivo le soluzioni. __X__ è uguale a meno due, più o meno radice di tre.",
       "screen": "Equazione completa con b pari",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si isola ics alla seconda e si estrae la radice quadrata algebrica.",
-      "speech": "La scheda dice: si isola __X__ alla seconda e si estrae la radice quadrata algebrica.",
+      "text": "si isola ics alla seconda e si estrae la radice quadrata algebrica.",
+      "speech": "si isola __X__ alla seconda e si estrae la radice quadrata algebrica.",
       "screen": "Equazione pura",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco l'equazione pura. Manca il termine con ics, quindi bi è zero.",
-      "speech": "Passaggio uno: riconosco l'equazione pura. Manca il termine con __X__, quindi bi è zero.",
+      "text": "riconosco l'equazione pura. Manca il termine con ics, quindi bi è zero.",
+      "speech": "riconosco l'equazione pura. Manca il termine con __X__, quindi bi è zero.",
       "screen": "Equazione pura",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: isolo ics alla seconda. Ottengo ics alla seconda uguale a nove.",
-      "speech": "Passaggio due: isolo __X__ alla seconda. Ottengo __X__ alla seconda uguale a nove.",
+      "text": "Quindi, isolo ics alla seconda. Ottengo ics alla seconda uguale a nove.",
+      "speech": "Quindi, isolo __X__ alla seconda. Ottengo __X__ alla seconda uguale a nove.",
       "screen": "Equazione pura",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: estraggo la radice. Ics è uguale a più o meno tre.",
-      "speech": "Passaggio tre: estraggo la radice. __X__ è uguale a più o meno tre.",
+      "text": "Infine, estraggo la radice. Ics è uguale a più o meno tre.",
+      "speech": "Infine, estraggo la radice. __X__ è uguale a più o meno tre.",
       "screen": "Equazione pura",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si raccoglie la ics e si applica la legge di annullamento del prodotto. Una soluzione è sempre zero.",
-      "speech": "La scheda dice: si raccoglie la __X__ e si applica la legge di annullamento del prodotto. Una soluzione è sempre zero.",
+      "text": "si raccoglie la ics e si applica la legge di annullamento del prodotto. Una soluzione è sempre zero.",
+      "speech": "si raccoglie la __X__ e si applica la legge di annullamento del prodotto. Una soluzione è sempre zero.",
       "screen": "Equazione spuria",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco l'equazione spuria. Manca il termine noto, quindi ci è zero.",
-      "speech": "Passaggio uno: riconosco l'equazione spuria. Manca il termine noto, quindi ci è zero.",
+      "text": "riconosco l'equazione spuria. Manca il termine noto, quindi ci è zero.",
+      "speech": "riconosco l'equazione spuria. Manca il termine noto, quindi ci è zero.",
       "screen": "Equazione spuria",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: raccolgo la ics. Ottengo ics per ics più quattro, uguale a zero.",
-      "speech": "Passaggio due: raccolgo la __X__. Ottengo __X__ per __X__ più quattro, uguale a zero.",
+      "text": "Quindi, raccolgo la ics. Ottengo ics per ics più quattro, uguale a zero.",
+      "speech": "Quindi, raccolgo la __X__. Ottengo __X__ per __X__ più quattro, uguale a zero.",
       "screen": "Equazione spuria",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo le soluzioni. Ics uguale a zero, e ics uguale a meno quattro.",
-      "speech": "Passaggio tre: scrivo le soluzioni. __X__ uguale a zero, e __X__ uguale a meno quattro.",
+      "text": "Infine, scrivo le soluzioni. Ics uguale a zero, e ics uguale a meno quattro.",
+      "speech": "Infine, scrivo le soluzioni. __X__ uguale a zero, e __X__ uguale a meno quattro.",
       "screen": "Equazione spuria",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: ha sempre due soluzioni nulle.",
-      "speech": "La scheda dice: ha sempre due soluzioni nulle.",
+      "text": "ha sempre due soluzioni nulle.",
+      "speech": "ha sempre due soluzioni nulle.",
       "screen": "Equazione monomia",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco l'equazione monomia. C'è un solo termine, tre ics alla seconda.",
-      "speech": "Passaggio uno: riconosco l'equazione monomia. C'è un solo termine, tre __X__ alla seconda.",
+      "text": "riconosco l'equazione monomia. C'è un solo termine, tre ics alla seconda.",
+      "speech": "riconosco l'equazione monomia. C'è un solo termine, tre __X__ alla seconda.",
       "screen": "Equazione monomia",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: divido per tre. Ottengo ics alla seconda uguale a zero.",
-      "speech": "Passaggio due: divido per tre. Ottengo __X__ alla seconda uguale a zero.",
+      "text": "Quindi, divido per tre. Ottengo ics alla seconda uguale a zero.",
+      "speech": "Quindi, divido per tre. Ottengo __X__ alla seconda uguale a zero.",
       "screen": "Equazione monomia",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo le soluzioni. Sono due soluzioni nulle, entrambe uguali a zero.",
-      "speech": "Passaggio tre: scrivo le soluzioni. Sono due soluzioni nulle, entrambe uguali a zero.",
+      "text": "Infine, scrivo le soluzioni. Sono due soluzioni nulle, entrambe uguali a zero.",
+      "speech": "Infine, scrivo le soluzioni. Sono due soluzioni nulle, entrambe uguali a zero.",
       "screen": "Equazione monomia",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con delta positivo, soluzioni reali e distinte. Con delta zero, reali e coincidenti. Con delta negativo, soluzioni non reali.",
-      "speech": "La scheda dice: con delta positivo, soluzioni reali e distinte. Con delta zero, reali e coincidenti. Con delta negativo, soluzioni non reali.",
+      "text": "con delta positivo, soluzioni reali e distinte. Con delta zero, reali e coincidenti. Con delta negativo, soluzioni non reali.",
+      "speech": "con delta positivo, soluzioni reali e distinte. Con delta zero, reali e coincidenti. Con delta negativo, soluzioni non reali.",
       "screen": "Significato del delta",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco i coefficienti. A è uno, bi è uno, ci è dodici.",
-      "speech": "Passaggio uno: riconosco i coefficienti. A è uno, bi è uno, ci è dodici.",
+      "text": "riconosco i coefficienti. A è uno, bi è uno, ci è dodici.",
+      "speech": "riconosco i coefficienti. A è uno, bi è uno, ci è dodici.",
       "screen": "Significato del delta",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: calcolo il delta. Uno meno quarantotto fa meno quarantasette.",
-      "speech": "Passaggio due: calcolo il delta. Uno meno quarantotto fa meno quarantasette.",
+      "text": "Quindi, calcolo il delta. Uno meno quarantotto fa meno quarantasette.",
+      "speech": "Quindi, calcolo il delta. Uno meno quarantotto fa meno quarantasette.",
       "screen": "Significato del delta",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il delta è negativo, quindi non ci sono soluzioni reali.",
-      "speech": "Passaggio tre: il delta è negativo, quindi non ci sono soluzioni reali.",
+      "text": "Infine, il delta è negativo, quindi non ci sono soluzioni reali.",
+      "speech": "Infine, il delta è negativo, quindi non ci sono soluzioni reali.",
       "screen": "Significato del delta",
       "purpose": "Esempio, passaggio 3"
     },

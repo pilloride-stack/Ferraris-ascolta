@@ -16,50 +16,50 @@
       "purpose": "Definizione: Dimostrazione"
     },
     {
-      "text": "La scheda dice: in ogni triangolo rettangolo, l'area del quadrato sull'ipotenusa è equivalente alla somma delle aree dei quadrati sui cateti.",
-      "speech": "La scheda dice: in ogni triangolo rettangolo, l'area del quadrato sull'ipotenusa è equivalente alla somma delle aree dei quadrati sui cateti.",
+      "text": "in ogni triangolo rettangolo, l'area del quadrato sull'ipotenusa è equivalente alla somma delle aree dei quadrati sui cateti.",
+      "speech": "in ogni triangolo rettangolo, l'area del quadrato sull'ipotenusa è equivalente alla somma delle aree dei quadrati sui cateti.",
       "screen": "Teorema di Pitagora",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco i dati. I cateti sono tre e quattro. Cerco l'ipotenusa a.",
-      "speech": "Passaggio uno: riconosco i dati. I cateti sono tre e quattro. Cerco l'ipotenusa a.",
+      "text": "riconosco i dati. I cateti sono tre e quattro. Cerco l'ipotenusa a.",
+      "speech": "riconosco i dati. I cateti sono tre e quattro. Cerco l'ipotenusa a.",
       "screen": "Teorema di Pitagora",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: applico il teorema. Tre alla seconda fa nove, quattro alla seconda fa sedici. La somma è venticinque.",
-      "speech": "Passaggio due: applico il teorema. Tre alla seconda fa nove, quattro alla seconda fa sedici. La somma è venticinque.",
+      "text": "Quindi, applico il teorema. Tre alla seconda fa nove, quattro alla seconda fa sedici. La somma è venticinque.",
+      "speech": "Quindi, applico il teorema. Tre alla seconda fa nove, quattro alla seconda fa sedici. La somma è venticinque.",
       "screen": "Teorema di Pitagora",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: estraggo la radice quadrata di venticinque. L'ipotenusa è cinque.",
-      "speech": "Passaggio tre: estraggo la radice quadrata di venticinque. L'ipotenusa è cinque.",
+      "text": "Infine, estraggo la radice quadrata di venticinque. L'ipotenusa è cinque.",
+      "speech": "Infine, estraggo la radice quadrata di venticinque. L'ipotenusa è cinque.",
       "screen": "Teorema di Pitagora",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si costruisce un quadrato di lato bi più ci. Si ottengono quattro triangoli rettangoli congruenti e un quadrato inscritto di lato a.",
-      "speech": "La scheda dice: si costruisce un quadrato di lato bi più ci. Si ottengono quattro triangoli rettangoli congruenti e un quadrato inscritto di lato a.",
+      "text": "si costruisce un quadrato di lato bi più ci. Si ottengono quattro triangoli rettangoli congruenti e un quadrato inscritto di lato a.",
+      "speech": "si costruisce un quadrato di lato bi più ci. Si ottengono quattro triangoli rettangoli congruenti e un quadrato inscritto di lato a.",
       "screen": "Dimostrazione",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: calcolo l'area elevando il lato al quadrato. A è uguale a bi più ci, alla seconda.",
-      "speech": "Passaggio uno: calcolo l'area elevando il lato al quadrato. A è uguale a bi più ci, alla seconda.",
+      "text": "calcolo l'area elevando il lato al quadrato. A è uguale a bi più ci, alla seconda.",
+      "speech": "calcolo l'area elevando il lato al quadrato. A è uguale a bi più ci, alla seconda.",
       "screen": "Dimostrazione",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: sommo il quadrato inscritto e i quattro triangoli. Ottengo a alla seconda, più due bi ci.",
-      "speech": "Passaggio due: sommo il quadrato inscritto e i quattro triangoli. Ottengo a alla seconda, più due bi ci.",
+      "text": "Quindi, sommo il quadrato inscritto e i quattro triangoli. Ottengo a alla seconda, più due bi ci.",
+      "speech": "Quindi, sommo il quadrato inscritto e i quattro triangoli. Ottengo a alla seconda, più due bi ci.",
       "screen": "Dimostrazione",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: uguaglio i due risultati, sviluppo e semplifico due bi ci. Ottengo la tesi: a alla seconda è uguale a bi alla seconda più ci alla seconda.",
-      "speech": "Passaggio tre: uguaglio i due risultati, sviluppo e semplifico due bi ci. Ottengo la tesi: a alla seconda è uguale a bi alla seconda più ci alla seconda.",
+      "text": "Infine, uguaglio i due risultati, sviluppo e semplifico due bi ci. Ottengo la tesi: a alla seconda è uguale a bi alla seconda più ci alla seconda.",
+      "speech": "Infine, uguaglio i due risultati, sviluppo e semplifico due bi ci. Ottengo la tesi: a alla seconda è uguale a bi alla seconda più ci alla seconda.",
       "screen": "Dimostrazione",
       "purpose": "Esempio, passaggio 3"
     },

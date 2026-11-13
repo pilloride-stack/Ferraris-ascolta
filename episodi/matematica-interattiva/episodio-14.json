@@ -40,20 +40,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il simbolo: minore o uguale.",
-      "speech": "Passaggio uno: riconosco il simbolo: minore o uguale.",
+      "text": "riconosco il simbolo: minore o uguale.",
+      "speech": "riconosco il simbolo: minore o uguale.",
       "screen": "Disequazione",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: porto uno a destra, cambiandogli segno.",
-      "speech": "Passaggio due: porto uno a destra, cambiandogli segno.",
+      "text": "Quindi, porto uno a destra, cambiandogli segno.",
+      "speech": "Quindi, porto uno a destra, cambiandogli segno.",
       "screen": "Disequazione",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: le soluzioni sono i numeri fino a due, e due è compreso: cerchietto pieno.",
-      "speech": "Passaggio tre: le soluzioni sono i numeri fino a due, e due è compreso: cerchietto pieno.",
+      "text": "Infine, le soluzioni sono i numeri fino a due, e due è compreso: cerchietto pieno.",
+      "speech": "Infine, le soluzioni sono i numeri fino a due, e due è compreso: cerchietto pieno.",
       "screen": "Disequazione",
       "purpose": "Esempio, passaggio 3"
     },
@@ -64,20 +64,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: porto le ics a sinistra e i numeri a destra.",
-      "speech": "Passaggio uno: porto le __X__ a sinistra e i numeri a destra.",
+      "text": "porto le ics a sinistra e i numeri a destra.",
+      "speech": "porto le __X__ a sinistra e i numeri a destra.",
       "screen": "Primo principio di equivalenza",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: ottengo due ics maggiore di otto.",
-      "speech": "Passaggio due: ottengo due __X__ maggiore di otto.",
+      "text": "Quindi, ottengo due ics maggiore di otto.",
+      "speech": "Quindi, ottengo due __X__ maggiore di otto.",
       "screen": "Primo principio di equivalenza",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: divido per due, che è positivo. Ics è maggiore di quattro.",
-      "speech": "Passaggio tre: divido per due, che è positivo. __X__ è maggiore di quattro.",
+      "text": "Infine, divido per due, che è positivo. Ics è maggiore di quattro.",
+      "speech": "Infine, divido per due, che è positivo. __X__ è maggiore di quattro.",
       "screen": "Primo principio di equivalenza",
       "purpose": "Esempio, passaggio 3"
     },
@@ -88,20 +88,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: il coefficiente di ics è meno quattro, un numero negativo.",
-      "speech": "Passaggio uno: il coefficiente di __X__ è meno quattro, un numero negativo.",
+      "text": "il coefficiente di ics è meno quattro, un numero negativo.",
+      "speech": "il coefficiente di __X__ è meno quattro, un numero negativo.",
       "screen": "Secondo principio di equivalenza",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: divido entrambi i membri per meno quattro. Poiché divido per un numero negativo, il segno minore diventa maggiore.",
-      "speech": "Passaggio due: divido entrambi i membri per meno quattro. Poiché divido per un numero negativo, il segno minore diventa maggiore.",
+      "text": "Quindi, divido entrambi i membri per meno quattro. Poiché divido per un numero negativo, il segno minore diventa maggiore.",
+      "speech": "Quindi, divido entrambi i membri per meno quattro. Poiché divido per un numero negativo, il segno minore diventa maggiore.",
       "screen": "Secondo principio di equivalenza",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: ics è maggiore di due.",
-      "speech": "Passaggio tre: __X__ è maggiore di due.",
+      "text": "Infine, ics è maggiore di due.",
+      "speech": "Infine, __X__ è maggiore di due.",
       "screen": "Secondo principio di equivalenza",
       "purpose": "Esempio, passaggio 3"
     },
@@ -112,20 +112,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: il denominatore è quattro, un numero positivo.",
-      "speech": "Passaggio uno: il denominatore è quattro, un numero positivo.",
+      "text": "il denominatore è quattro, un numero positivo.",
+      "speech": "il denominatore è quattro, un numero positivo.",
       "screen": "Disequazione con frazioni",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: moltiplico per quattro. Ottengo tre ics, maggiore o uguale a otto.",
-      "speech": "Passaggio due: moltiplico per quattro. Ottengo tre __X__, maggiore o uguale a otto.",
+      "text": "Quindi, moltiplico per quattro. Ottengo tre ics, maggiore o uguale a otto.",
+      "speech": "Quindi, moltiplico per quattro. Ottengo tre __X__, maggiore o uguale a otto.",
       "screen": "Disequazione con frazioni",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: divido per tre. Ics è maggiore o uguale a otto terzi.",
-      "speech": "Passaggio tre: divido per tre. __X__ è maggiore o uguale a otto terzi.",
+      "text": "Infine, divido per tre. Ics è maggiore o uguale a otto terzi.",
+      "speech": "Infine, divido per tre. __X__ è maggiore o uguale a otto terzi.",
       "screen": "Disequazione con frazioni",
       "purpose": "Esempio, passaggio 3"
     },
@@ -136,20 +136,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: porto le ics a sinistra e i numeri a destra.",
-      "speech": "Passaggio uno: porto le __X__ a sinistra e i numeri a destra.",
+      "text": "porto le ics a sinistra e i numeri a destra.",
+      "speech": "porto le __X__ a sinistra e i numeri a destra.",
       "screen": "Sempre vera o impossibile",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: le ics si annullano. Resta zero maggiore di cinque.",
-      "speech": "Passaggio due: le __X__ si annullano. Resta zero maggiore di cinque.",
+      "text": "Quindi, le ics si annullano. Resta zero maggiore di cinque.",
+      "speech": "Quindi, le __X__ si annullano. Resta zero maggiore di cinque.",
       "screen": "Sempre vera o impossibile",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: zero non è maggiore di cinque, quindi non ci sono soluzioni.",
-      "speech": "Passaggio tre: zero non è maggiore di cinque, quindi non ci sono soluzioni.",
+      "text": "Infine, zero non è maggiore di cinque, quindi non ci sono soluzioni.",
+      "speech": "Infine, zero non è maggiore di cinque, quindi non ci sono soluzioni.",
       "screen": "Sempre vera o impossibile",
       "purpose": "Esempio, passaggio 3"
     },

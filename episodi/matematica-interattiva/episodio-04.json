@@ -70,266 +70,266 @@
       "purpose": "Definizione: Cubo di un trinomio"
     },
     {
-      "text": "La scheda dice: sono presenti un numero qualsiasi di termini. a bi più a ci è uguale ad a, per bi più ci.",
-      "speech": "La scheda dice: sono presenti un numero qualsiasi di termini. a bi più a ci è uguale ad a, per bi più ci.",
+      "text": "sono presenti un numero qualsiasi di termini. a bi più a ci è uguale ad a, per bi più ci.",
+      "speech": "sono presenti un numero qualsiasi di termini. a bi più a ci è uguale ad a, per bi più ci.",
       "screen": "Raccoglimento totale",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. I termini sono tre e hanno tutti un fattore comune.",
-      "speech": "Passaggio uno: riconosco il metodo. I termini sono tre e hanno tutti un fattore comune.",
+      "text": "riconosco il metodo. I termini sono tre e hanno tutti un fattore comune.",
+      "speech": "riconosco il metodo. I termini sono tre e hanno tutti un fattore comune.",
       "screen": "Raccoglimento totale",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: scelgo il fattore comune. In tutti i termini ci sono due, a e bi. Il fattore comune è due a bi.",
-      "speech": "Passaggio due: scelgo il fattore comune. In tutti i termini ci sono due, a e bi. Il fattore comune è due a bi.",
+      "text": "Quindi, scelgo il fattore comune. In tutti i termini ci sono due, a e bi. Il fattore comune è due a bi.",
+      "speech": "Quindi, scelgo il fattore comune. In tutti i termini ci sono due, a e bi. Il fattore comune è due a bi.",
       "screen": "Raccoglimento totale",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a due a bi per a meno due bi più cinque a bi.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a due a bi per a meno due bi più cinque a bi.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a due a bi per a meno due bi più cinque a bi.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a due a bi per a meno due bi più cinque a bi.",
       "screen": "Raccoglimento totale",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: sono presenti un numero pari di termini. Si raccoglie a gruppi e poi si raccoglie la parentesi comune.",
-      "speech": "La scheda dice: sono presenti un numero pari di termini. Si raccoglie a gruppi e poi si raccoglie la parentesi comune.",
+      "text": "sono presenti un numero pari di termini. Si raccoglie a gruppi e poi si raccoglie la parentesi comune.",
+      "speech": "sono presenti un numero pari di termini. Si raccoglie a gruppi e poi si raccoglie la parentesi comune.",
       "screen": "Raccoglimento parziale",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. I termini sono quattro, un numero pari. Li divido in due gruppi.",
-      "speech": "Passaggio uno: riconosco il metodo. I termini sono quattro, un numero pari. Li divido in due gruppi.",
+      "text": "riconosco il metodo. I termini sono quattro, un numero pari. Li divido in due gruppi.",
+      "speech": "riconosco il metodo. I termini sono quattro, un numero pari. Li divido in due gruppi.",
       "screen": "Raccoglimento parziale",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: raccolgo in ogni gruppo. due ics per ipsilon più zeta più tre per ipsilon più zeta. La parentesi è uguale.",
-      "speech": "Passaggio due: raccolgo in ogni gruppo. due __X__ per ipsilon più zeta più tre per ipsilon più zeta. La parentesi è uguale.",
+      "text": "Quindi, raccolgo in ogni gruppo. due ics per ipsilon più zeta più tre per ipsilon più zeta. La parentesi è uguale.",
+      "speech": "Quindi, raccolgo in ogni gruppo. due __X__ per ipsilon più zeta più tre per ipsilon più zeta. La parentesi è uguale.",
       "screen": "Raccoglimento parziale",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a due ics più tre, per ipsilon più zeta.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a due __X__ più tre, per ipsilon più zeta.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a due ics più tre, per ipsilon più zeta.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a due __X__ più tre, per ipsilon più zeta.",
       "screen": "Raccoglimento parziale",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale a a meno bi, per a più bi.",
-      "speech": "La scheda dice: sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale a a meno bi, per a più bi.",
+      "text": "sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale a a meno bi, per a più bi.",
+      "speech": "sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale a a meno bi, per a più bi.",
       "screen": "Differenza di due quadrati",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. Nove ics alla seconda è il quadrato di tre ics. Quattro è il quadrato di due.",
-      "speech": "Passaggio uno: riconosco il metodo. Nove __X__ alla seconda è il quadrato di tre __X__. Quattro è il quadrato di due.",
+      "text": "riconosco il metodo. Nove ics alla seconda è il quadrato di tre ics. Quattro è il quadrato di due.",
+      "speech": "riconosco il metodo. Nove __X__ alla seconda è il quadrato di tre __X__. Quattro è il quadrato di due.",
       "screen": "Differenza di due quadrati",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: preparo le basi. Le basi dei due quadrati sono tre ics e due.",
-      "speech": "Passaggio due: preparo le basi. Le basi dei due quadrati sono tre __X__ e due.",
+      "text": "Quindi, preparo le basi. Le basi dei due quadrati sono tre ics e due.",
+      "speech": "Quindi, preparo le basi. Le basi dei due quadrati sono tre __X__ e due.",
       "screen": "Differenza di due quadrati",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a tre ics meno due, per tre ics più due.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a tre __X__ meno due, per tre __X__ più due.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a tre ics meno due, per tre ics più due.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a tre __X__ meno due, per tre __X__ più due.",
       "screen": "Differenza di due quadrati",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale a a meno bi, per a alla seconda più a bi più bi alla seconda.",
-      "speech": "La scheda dice: sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale a a meno bi, per a alla seconda più a bi più bi alla seconda.",
+      "text": "sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale a a meno bi, per a alla seconda più a bi più bi alla seconda.",
+      "speech": "sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale a a meno bi, per a alla seconda più a bi più bi alla seconda.",
       "screen": "Differenza di cubi",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. Ics alla terza è un cubo. Otto è il cubo di due.",
-      "speech": "Passaggio uno: riconosco il metodo. __X__ alla terza è un cubo. Otto è il cubo di due.",
+      "text": "riconosco il metodo. Ics alla terza è un cubo. Otto è il cubo di due.",
+      "speech": "riconosco il metodo. __X__ alla terza è un cubo. Otto è il cubo di due.",
       "screen": "Differenza di cubi",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: preparo le basi. Le basi dei due cubi sono ics e due.",
-      "speech": "Passaggio due: preparo le basi. Le basi dei due cubi sono __X__ e due.",
+      "text": "Quindi, preparo le basi. Le basi dei due cubi sono ics e due.",
+      "speech": "Quindi, preparo le basi. Le basi dei due cubi sono __X__ e due.",
       "screen": "Differenza di cubi",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a ics meno due, per ics alla seconda più due ics più quattro.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a __X__ meno due, per __X__ alla seconda più due __X__ più quattro.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a ics meno due, per ics alla seconda più due ics più quattro.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ meno due, per __X__ alla seconda più due __X__ più quattro.",
       "screen": "Differenza di cubi",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale a a più bi, per a alla seconda meno a bi più bi alla seconda.",
-      "speech": "La scheda dice: sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale a a più bi, per a alla seconda meno a bi più bi alla seconda.",
+      "text": "sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale a a più bi, per a alla seconda meno a bi più bi alla seconda.",
+      "speech": "sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale a a più bi, per a alla seconda meno a bi più bi alla seconda.",
       "screen": "Somma di cubi",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. Ics alla terza è un cubo. Ventisette è il cubo di tre.",
-      "speech": "Passaggio uno: riconosco il metodo. __X__ alla terza è un cubo. Ventisette è il cubo di tre.",
+      "text": "riconosco il metodo. Ics alla terza è un cubo. Ventisette è il cubo di tre.",
+      "speech": "riconosco il metodo. __X__ alla terza è un cubo. Ventisette è il cubo di tre.",
       "screen": "Somma di cubi",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: preparo le basi. Le basi dei due cubi sono ics e tre.",
-      "speech": "Passaggio due: preparo le basi. Le basi dei due cubi sono __X__ e tre.",
+      "text": "Quindi, preparo le basi. Le basi dei due cubi sono ics e tre.",
+      "speech": "Quindi, preparo le basi. Le basi dei due cubi sono __X__ e tre.",
       "screen": "Somma di cubi",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a ics più tre, per ics alla seconda meno tre ics più nove.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a __X__ più tre, per __X__ alla seconda meno tre __X__ più nove.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a ics più tre, per ics alla seconda meno tre ics più nove.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ più tre, per __X__ alla seconda meno tre __X__ più nove.",
       "screen": "Somma di cubi",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale a a più o meno bi, alla seconda.",
-      "speech": "La scheda dice: sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale a a più o meno bi, alla seconda.",
+      "text": "sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale a a più o meno bi, alla seconda.",
+      "speech": "sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale a a più o meno bi, alla seconda.",
       "screen": "Quadrato di binomio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. Nove ics alla seconda è il quadrato di tre ics. Uno è il quadrato di uno.",
-      "speech": "Passaggio uno: riconosco il metodo. Nove __X__ alla seconda è il quadrato di tre __X__. Uno è il quadrato di uno.",
+      "text": "riconosco il metodo. Nove ics alla seconda è il quadrato di tre ics. Uno è il quadrato di uno.",
+      "speech": "riconosco il metodo. Nove __X__ alla seconda è il quadrato di tre __X__. Uno è il quadrato di uno.",
       "screen": "Quadrato di binomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: controllo il doppio prodotto. Due per tre ics per uno fa sei ics.",
-      "speech": "Passaggio due: controllo il doppio prodotto. Due per tre __X__ per uno fa sei __X__.",
+      "text": "Quindi, controllo il doppio prodotto. Due per tre ics per uno fa sei ics.",
+      "speech": "Quindi, controllo il doppio prodotto. Due per tre __X__ per uno fa sei __X__.",
       "screen": "Quadrato di binomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a tre ics più uno, alla seconda.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a tre __X__ più uno, alla seconda.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a tre ics più uno, alla seconda.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a tre __X__ più uno, alla seconda.",
       "screen": "Quadrato di binomio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: trova due numeri che sommati danno esse e moltiplicati danno pi.",
-      "speech": "La scheda dice: trova due numeri che sommati danno esse e moltiplicati danno pi.",
+      "text": "trova due numeri che sommati danno esse e moltiplicati danno pi.",
+      "speech": "trova due numeri che sommati danno esse e moltiplicati danno pi.",
       "screen": "Trinomio notevole con a = 1",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. Cerco due numeri che sommati danno meno cinque e moltiplicati danno più sei.",
-      "speech": "Passaggio uno: riconosco il metodo. Cerco due numeri che sommati danno meno cinque e moltiplicati danno più sei.",
+      "text": "riconosco il metodo. Cerco due numeri che sommati danno meno cinque e moltiplicati danno più sei.",
+      "speech": "riconosco il metodo. Cerco due numeri che sommati danno meno cinque e moltiplicati danno più sei.",
       "screen": "Trinomio notevole con a = 1",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: scelgo i numeri. I due numeri sono meno due e meno tre.",
-      "speech": "Passaggio due: scelgo i numeri. I due numeri sono meno due e meno tre.",
+      "text": "Quindi, scelgo i numeri. I due numeri sono meno due e meno tre.",
+      "speech": "Quindi, scelgo i numeri. I due numeri sono meno due e meno tre.",
       "screen": "Trinomio notevole con a = 1",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a ics meno due, per ics meno tre.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a __X__ meno due, per __X__ meno tre.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a ics meno due, per ics meno tre.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ meno due, per __X__ meno tre.",
       "screen": "Trinomio notevole con a = 1",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: trova due numeri che sommati danno esse e moltiplicati danno a per pi, poi effettua un raccoglimento parziale.",
-      "speech": "La scheda dice: trova due numeri che sommati danno esse e moltiplicati danno a per pi, poi effettua un raccoglimento parziale.",
+      "text": "trova due numeri che sommati danno esse e moltiplicati danno a per pi, poi effettua un raccoglimento parziale.",
+      "speech": "trova due numeri che sommati danno esse e moltiplicati danno a per pi, poi effettua un raccoglimento parziale.",
       "screen": "Trinomio notevole con a diverso da 1",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: cerco due numeri che sommati danno più cinque e moltiplicati danno meno ventiquattro. Sono più otto e meno tre.",
-      "speech": "Passaggio uno: cerco due numeri che sommati danno più cinque e moltiplicati danno meno ventiquattro. Sono più otto e meno tre.",
+      "text": "cerco due numeri che sommati danno più cinque e moltiplicati danno meno ventiquattro. Sono più otto e meno tre.",
+      "speech": "cerco due numeri che sommati danno più cinque e moltiplicati danno meno ventiquattro. Sono più otto e meno tre.",
       "screen": "Trinomio notevole con a diverso da 1",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: sostituisco cinque ics con otto ics meno tre ics. Poi effettuo il raccoglimento parziale.",
-      "speech": "Passaggio due: sostituisco cinque __X__ con otto __X__ meno tre __X__. Poi effettuo il raccoglimento parziale.",
+      "text": "Quindi, sostituisco cinque ics con otto ics meno tre ics. Poi effettuo il raccoglimento parziale.",
+      "speech": "Quindi, sostituisco cinque __X__ con otto __X__ meno tre __X__. Poi effettuo il raccoglimento parziale.",
       "screen": "Trinomio notevole con a diverso da 1",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a due ics meno uno, per tre ics più quattro.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a due __X__ meno uno, per tre __X__ più quattro.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a due ics meno uno, per tre ics più quattro.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a due __X__ meno uno, per tre __X__ più quattro.",
       "screen": "Trinomio notevole con a diverso da 1",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale a a più o meno bi, alla terza.",
-      "speech": "La scheda dice: sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale a a più o meno bi, alla terza.",
+      "text": "sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale a a più o meno bi, alla terza.",
+      "speech": "sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale a a più o meno bi, alla terza.",
       "screen": "Cubo di binomio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. Otto ics alla terza è il cubo di due ics. Uno è il cubo di uno.",
-      "speech": "Passaggio uno: riconosco il metodo. Otto __X__ alla terza è il cubo di due __X__. Uno è il cubo di uno.",
+      "text": "riconosco il metodo. Otto ics alla terza è il cubo di due ics. Uno è il cubo di uno.",
+      "speech": "riconosco il metodo. Otto __X__ alla terza è il cubo di due __X__. Uno è il cubo di uno.",
       "screen": "Cubo di binomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: controllo i tripli prodotti. Il primo è dodici ics alla seconda. Il secondo è sei ics.",
-      "speech": "Passaggio due: controllo i tripli prodotti. Il primo è dodici __X__ alla seconda. Il secondo è sei __X__.",
+      "text": "Quindi, controllo i tripli prodotti. Il primo è dodici ics alla seconda. Il secondo è sei ics.",
+      "speech": "Quindi, controllo i tripli prodotti. Il primo è dodici __X__ alla seconda. Il secondo è sei __X__.",
       "screen": "Cubo di binomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a due ics più uno, alla terza.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a due __X__ più uno, alla terza.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a due ics più uno, alla terza.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a due __X__ più uno, alla terza.",
       "screen": "Cubo di binomio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: sono presenti sei termini: tre quadrati e tre doppi prodotti.",
-      "speech": "La scheda dice: sono presenti sei termini: tre quadrati e tre doppi prodotti.",
+      "text": "sono presenti sei termini: tre quadrati e tre doppi prodotti.",
+      "speech": "sono presenti sei termini: tre quadrati e tre doppi prodotti.",
       "screen": "Quadrato di un trinomio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. Venticinque ics alla seconda, sedici ipsilon alla seconda e zeta alla seconda sono i tre quadrati.",
-      "speech": "Passaggio uno: riconosco il metodo. Venticinque __X__ alla seconda, sedici ipsilon alla seconda e zeta alla seconda sono i tre quadrati.",
+      "text": "riconosco il metodo. Venticinque ics alla seconda, sedici ipsilon alla seconda e zeta alla seconda sono i tre quadrati.",
+      "speech": "riconosco il metodo. Venticinque __X__ alla seconda, sedici ipsilon alla seconda e zeta alla seconda sono i tre quadrati.",
       "screen": "Quadrato di un trinomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: preparo le basi. Sono cinque ics, quattro ipsilon e zeta. I tre doppi prodotti confermano la scelta.",
-      "speech": "Passaggio due: preparo le basi. Sono cinque __X__, quattro ipsilon e zeta. I tre doppi prodotti confermano la scelta.",
+      "text": "Quindi, preparo le basi. Sono cinque ics, quattro ipsilon e zeta. I tre doppi prodotti confermano la scelta.",
+      "speech": "Quindi, preparo le basi. Sono cinque __X__, quattro ipsilon e zeta. I tre doppi prodotti confermano la scelta.",
       "screen": "Quadrato di un trinomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a cinque ics più quattro ipsilon più zeta, alla seconda.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio è uguale a cinque __X__ più quattro ipsilon più zeta, alla seconda.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale a cinque ics più quattro ipsilon più zeta, alla seconda.",
+      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a cinque __X__ più quattro ipsilon più zeta, alla seconda.",
       "screen": "Quadrato di un trinomio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: sono presenti dieci termini. Si riconoscono i tre cubi e si controlla il termine sei a bi ci.",
-      "speech": "La scheda dice: sono presenti dieci termini. Si riconoscono i tre cubi e si controlla il termine sei a bi ci.",
+      "text": "sono presenti dieci termini. Si riconoscono i tre cubi e si controlla il termine sei a bi ci.",
+      "speech": "sono presenti dieci termini. Si riconoscono i tre cubi e si controlla il termine sei a bi ci.",
       "screen": "Cubo di un trinomio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il metodo. I cubi sono ics alla terza, otto ipsilon alla terza e uno. Le basi sono ics, due ipsilon e uno.",
-      "speech": "Passaggio uno: riconosco il metodo. I cubi sono __X__ alla terza, otto ipsilon alla terza e uno. Le basi sono __X__, due ipsilon e uno.",
+      "text": "riconosco il metodo. I cubi sono ics alla terza, otto ipsilon alla terza e uno. Le basi sono ics, due ipsilon e uno.",
+      "speech": "riconosco il metodo. I cubi sono __X__ alla terza, otto ipsilon alla terza e uno. Le basi sono __X__, due ipsilon e uno.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: controllo l'ultimo termine. Sei per ics per due ipsilon per uno fa dodici ics ipsilon.",
-      "speech": "Passaggio due: controllo l'ultimo termine. Sei per __X__ per due ipsilon per uno fa dodici __X__ ipsilon.",
+      "text": "Quindi, controllo l'ultimo termine. Sei per ics per due ipsilon per uno fa dodici ics ipsilon.",
+      "speech": "Quindi, controllo l'ultimo termine. Sei per __X__ per due ipsilon per uno fa dodici __X__ ipsilon.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il polinomio di dieci termini è uguale a ics più due ipsilon più uno, alla terza.",
-      "speech": "Passaggio tre: scrivo il risultato. Il polinomio di dieci termini è uguale a __X__ più due ipsilon più uno, alla terza.",
+      "text": "Infine, scrivo il risultato. Il polinomio di dieci termini è uguale a ics più due ipsilon più uno, alla terza.",
+      "speech": "Infine, scrivo il risultato. Il polinomio di dieci termini è uguale a __X__ più due ipsilon più uno, alla terza.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 3"
     },

@@ -16,50 +16,50 @@
       "purpose": "Definizione: Divisione esatta"
     },
     {
-      "text": "La scheda dice: si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
-      "speech": "La scheda dice: si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
+      "text": "si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
+      "speech": "si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
       "screen": "Divisione di due polinomi",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: ordino e completo il dividendo. Tre ics alla quinta, più zero ics alla quarta, più zero ics alla terza, meno tre ics alla seconda, più ics, più cinque.",
-      "speech": "Passaggio uno: ordino e completo il dividendo. Tre __X__ alla quinta, più zero __X__ alla quarta, più zero __X__ alla terza, meno tre __X__ alla seconda, più __X__, più cinque.",
+      "text": "ordino e completo il dividendo. Tre ics alla quinta, più zero ics alla quarta, più zero ics alla terza, meno tre ics alla seconda, più ics, più cinque.",
+      "speech": "ordino e completo il dividendo. Tre __X__ alla quinta, più zero __X__ alla quarta, più zero __X__ alla terza, meno tre __X__ alla seconda, più __X__, più cinque.",
       "screen": "Divisione di due polinomi",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: ripeto i calcoli. Tre ics alla quinta diviso ics alla seconda fa tre ics alla terza. Poi ottengo tre ics alla seconda. Poi ottengo meno sei.",
-      "speech": "Passaggio due: ripeto i calcoli. Tre __X__ alla quinta diviso __X__ alla seconda fa tre __X__ alla terza. Poi ottengo tre __X__ alla seconda. Poi ottengo meno sei.",
+      "text": "Quindi, ripeto i calcoli. Tre ics alla quinta diviso ics alla seconda fa tre ics alla terza. Poi ottengo tre ics alla seconda. Poi ottengo meno sei.",
+      "speech": "Quindi, ripeto i calcoli. Tre __X__ alla quinta diviso __X__ alla seconda fa tre __X__ alla terza. Poi ottengo tre __X__ alla seconda. Poi ottengo meno sei.",
       "screen": "Divisione di due polinomi",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il quoziente è tre ics alla terza, più tre ics alla seconda, meno sei. Il resto è meno cinque ics, più undici.",
-      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è tre __X__ alla terza, più tre __X__ alla seconda, meno sei. Il resto è meno cinque __X__, più undici.",
+      "text": "Infine, scrivo il risultato. Il quoziente è tre ics alla terza, più tre ics alla seconda, meno sei. Il resto è meno cinque ics, più undici.",
+      "speech": "Infine, scrivo il risultato. Il quoziente è tre __X__ alla terza, più tre __X__ alla seconda, meno sei. Il resto è meno cinque __X__, più undici.",
       "screen": "Divisione di due polinomi",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: quando il polinomio resto è zero, il dividendo è uguale al quoziente per il divisore. Il resto non c'è più.",
-      "speech": "La scheda dice: quando il polinomio resto è zero, il dividendo è uguale al quoziente per il divisore. Il resto non c'è più.",
+      "text": "quando il polinomio resto è zero, il dividendo è uguale al quoziente per il divisore. Il resto non c'è più.",
+      "speech": "quando il polinomio resto è zero, il dividendo è uguale al quoziente per il divisore. Il resto non c'è più.",
       "screen": "Divisione esatta",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
-      "speech": "Passaggio uno: controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
+      "text": "controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
+      "speech": "controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
       "screen": "Divisione esatta",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: ripeto i calcoli. Due ics alla terza diviso ics alla seconda fa due ics. Poi meno tre ics alla seconda diviso ics alla seconda fa meno tre.",
-      "speech": "Passaggio due: ripeto i calcoli. Due __X__ alla terza diviso __X__ alla seconda fa due __X__. Poi meno tre __X__ alla seconda diviso __X__ alla seconda fa meno tre.",
+      "text": "Quindi, ripeto i calcoli. Due ics alla terza diviso ics alla seconda fa due ics. Poi meno tre ics alla seconda diviso ics alla seconda fa meno tre.",
+      "speech": "Quindi, ripeto i calcoli. Due __X__ alla terza diviso __X__ alla seconda fa due __X__. Poi meno tre __X__ alla seconda diviso __X__ alla seconda fa meno tre.",
       "screen": "Divisione esatta",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il quoziente è due ics meno tre. Il resto è zero: la divisione è esatta.",
-      "speech": "Passaggio tre: scrivo il risultato. Il quoziente è due __X__ meno tre. Il resto è zero: la divisione è esatta.",
+      "text": "Infine, scrivo il risultato. Il quoziente è due ics meno tre. Il resto è zero: la divisione è esatta.",
+      "speech": "Infine, scrivo il risultato. Il quoziente è due __X__ meno tre. Il resto è zero: la divisione è esatta.",
       "screen": "Divisione esatta",
       "purpose": "Esempio, passaggio 3"
     },

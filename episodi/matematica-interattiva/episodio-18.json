@@ -40,98 +40,98 @@
       "purpose": "Definizione: Posizioni reciproche e asse radicale"
     },
     {
-      "text": "La scheda dice: la circonferenza ha centro ci e raggio erre. L'equazione si scrive in due forme.",
-      "speech": "La scheda dice: la circonferenza ha centro ci e raggio erre. L'equazione si scrive in due forme.",
+      "text": "la circonferenza ha centro ci e raggio erre. L'equazione si scrive in due forme.",
+      "speech": "la circonferenza ha centro ci e raggio erre. L'equazione si scrive in due forme.",
       "screen": "Definizione di circonferenza",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco la forma generale.",
-      "speech": "Passaggio uno: riconosco la forma generale.",
+      "text": "riconosco la forma generale.",
+      "speech": "riconosco la forma generale.",
       "screen": "Definizione di circonferenza",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: a è meno quattro, bi è meno sei, ci è meno tre.",
-      "speech": "Passaggio due: a è meno quattro, bi è meno sei, ci è meno tre.",
+      "text": "Quindi, a è meno quattro, bi è meno sei, ci è meno tre.",
+      "speech": "Quindi, a è meno quattro, bi è meno sei, ci è meno tre.",
       "screen": "Definizione di circonferenza",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: con questi coefficienti posso trovare il centro e il raggio.",
-      "speech": "Passaggio tre: con questi coefficienti posso trovare il centro e il raggio.",
+      "text": "Infine, con questi coefficienti posso trovare il centro e il raggio.",
+      "speech": "Infine, con questi coefficienti posso trovare il centro e il raggio.",
       "screen": "Definizione di circonferenza",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: alfa è meno a mezzi, beta è meno bi mezzi. Il raggio è radice di alfa alla seconda più beta alla seconda meno ci.",
-      "speech": "La scheda dice: alfa è meno a mezzi, beta è meno bi mezzi. Il raggio è radice di alfa alla seconda più beta alla seconda meno ci.",
+      "text": "alfa è meno a mezzi, beta è meno bi mezzi. Il raggio è radice di alfa alla seconda più beta alla seconda meno ci.",
+      "speech": "alfa è meno a mezzi, beta è meno bi mezzi. Il raggio è radice di alfa alla seconda più beta alla seconda meno ci.",
       "screen": "Centro e raggio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: calcolo il centro. Alfa è due, beta è tre.",
-      "speech": "Passaggio uno: calcolo il centro. Alfa è due, beta è tre.",
+      "text": "calcolo il centro. Alfa è due, beta è tre.",
+      "speech": "calcolo il centro. Alfa è due, beta è tre.",
       "screen": "Centro e raggio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: calcolo sotto radice. Quattro più nove più tre fa sedici.",
-      "speech": "Passaggio due: calcolo sotto radice. Quattro più nove più tre fa sedici.",
+      "text": "Quindi, calcolo sotto radice. Quattro più nove più tre fa sedici.",
+      "speech": "Quindi, calcolo sotto radice. Quattro più nove più tre fa sedici.",
       "screen": "Centro e raggio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il raggio è radice di sedici, cioè quattro.",
-      "speech": "Passaggio tre: il raggio è radice di sedici, cioè quattro.",
+      "text": "Infine, il raggio è radice di sedici, cioè quattro.",
+      "speech": "Infine, il raggio è radice di sedici, cioè quattro.",
       "screen": "Centro e raggio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con a zero, centro sull'asse ipsilon. Con bi zero, centro sull'asse ics. Con ci zero, passa per l'origine.",
-      "speech": "La scheda dice: con a zero, centro sull'asse ipsilon. Con bi zero, centro sull'asse __X__. Con ci zero, passa per l'origine.",
+      "text": "con a zero, centro sull'asse ipsilon. Con bi zero, centro sull'asse ics. Con ci zero, passa per l'origine.",
+      "speech": "con a zero, centro sull'asse ipsilon. Con bi zero, centro sull'asse __X__. Con ci zero, passa per l'origine.",
       "screen": "Circonferenze particolari",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco che a e bi sono zero.",
-      "speech": "Passaggio uno: riconosco che a e bi sono zero.",
+      "text": "riconosco che a e bi sono zero.",
+      "speech": "riconosco che a e bi sono zero.",
       "screen": "Circonferenze particolari",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: cerco il caso nella tabella.",
-      "speech": "Passaggio due: cerco il caso nella tabella.",
+      "text": "Quindi, cerco il caso nella tabella.",
+      "speech": "Quindi, cerco il caso nella tabella.",
       "screen": "Circonferenze particolari",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il centro è nell'origine e il raggio è tre.",
-      "speech": "Passaggio tre: il centro è nell'origine e il raggio è tre.",
+      "text": "Infine, il centro è nell'origine e il raggio è tre.",
+      "speech": "Infine, il centro è nell'origine e il raggio è tre.",
       "screen": "Circonferenze particolari",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: servono tre condizioni. Con il metodo algebrico si risolve un sistema; con quello geometrico si ricavano centro e raggio.",
-      "speech": "La scheda dice: servono tre condizioni. Con il metodo algebrico si risolve un sistema; con quello geometrico si ricavano centro e raggio.",
+      "text": "servono tre condizioni. Con il metodo algebrico si risolve un sistema; con quello geometrico si ricavano centro e raggio.",
+      "speech": "servono tre condizioni. Con il metodo algebrico si risolve un sistema; con quello geometrico si ricavano centro e raggio.",
       "screen": "Equazione per tre punti",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: sostituisco i tre punti e ottengo tre equazioni.",
-      "speech": "Passaggio uno: sostituisco i tre punti e ottengo tre equazioni.",
+      "text": "sostituisco i tre punti e ottengo tre equazioni.",
+      "speech": "sostituisco i tre punti e ottengo tre equazioni.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: risolvo. A e bi sono meno quattro, ci è zero.",
-      "speech": "Passaggio due: risolvo. A e bi sono meno quattro, ci è zero.",
+      "text": "Quindi, risolvo. A e bi sono meno quattro, ci è zero.",
+      "speech": "Quindi, risolvo. A e bi sono meno quattro, ci è zero.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo l'equazione della circonferenza.",
-      "speech": "Passaggio tre: scrivo l'equazione della circonferenza.",
+      "text": "Infine, scrivo l'equazione della circonferenza.",
+      "speech": "Infine, scrivo l'equazione della circonferenza.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 3"
     },
@@ -142,44 +142,44 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: sostituisco ipsilon uguale a due nella circonferenza.",
-      "speech": "Passaggio uno: sostituisco ipsilon uguale a due nella circonferenza.",
+      "text": "sostituisco ipsilon uguale a due nella circonferenza.",
+      "speech": "sostituisco ipsilon uguale a due nella circonferenza.",
       "screen": "Retta e circonferenza",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: ottengo ics alla seconda uguale a zero.",
-      "speech": "Passaggio due: ottengo __X__ alla seconda uguale a zero.",
+      "text": "Quindi, ottengo ics alla seconda uguale a zero.",
+      "speech": "Quindi, ottengo __X__ alla seconda uguale a zero.",
       "screen": "Retta e circonferenza",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il sistema ha una soluzione doppia. Retta e circonferenza hanno un solo punto in comune, quindi la retta è tangente.",
-      "speech": "Passaggio tre: il sistema ha una soluzione doppia. Retta e circonferenza hanno un solo punto in comune, quindi la retta è tangente.",
+      "text": "Infine, il sistema ha una soluzione doppia. Retta e circonferenza hanno un solo punto in comune, quindi la retta è tangente.",
+      "speech": "Infine, il sistema ha una soluzione doppia. Retta e circonferenza hanno un solo punto in comune, quindi la retta è tangente.",
       "screen": "Retta e circonferenza",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: l'asse radicale è sempre ortogonale al segmento che unisce i centri, e permette di trovare i punti di intersezione.",
-      "speech": "La scheda dice: l'asse radicale è sempre ortogonale al segmento che unisce i centri, e permette di trovare i punti di intersezione.",
+      "text": "l'asse radicale è sempre ortogonale al segmento che unisce i centri, e permette di trovare i punti di intersezione.",
+      "speech": "l'asse radicale è sempre ortogonale al segmento che unisce i centri, e permette di trovare i punti di intersezione.",
       "screen": "Posizioni reciproche e asse radicale",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco due circonferenze non concentriche.",
-      "speech": "Passaggio uno: riconosco due circonferenze non concentriche.",
+      "text": "riconosco due circonferenze non concentriche.",
+      "speech": "riconosco due circonferenze non concentriche.",
       "screen": "Posizioni reciproche e asse radicale",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: l'asse radicale è ortogonale al segmento dei centri.",
-      "speech": "Passaggio due: l'asse radicale è ortogonale al segmento dei centri.",
+      "text": "Quindi, l'asse radicale è ortogonale al segmento dei centri.",
+      "speech": "Quindi, l'asse radicale è ortogonale al segmento dei centri.",
       "screen": "Posizioni reciproche e asse radicale",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: a sistema con una circonferenza, dà i punti di intersezione.",
-      "speech": "Passaggio tre: a sistema con una circonferenza, dà i punti di intersezione.",
+      "text": "Infine, a sistema con una circonferenza, dà i punti di intersezione.",
+      "speech": "Infine, a sistema con una circonferenza, dà i punti di intersezione.",
       "screen": "Posizioni reciproche e asse radicale",
       "purpose": "Esempio, passaggio 3"
     },

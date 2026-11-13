@@ -58,20 +58,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: al numeratore c'è tre.",
-      "speech": "Passaggio uno: al numeratore c'è tre.",
+      "text": "al numeratore c'è tre.",
+      "speech": "al numeratore c'è tre.",
       "screen": "Frazione algebrica",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: al denominatore c'è ics meno uno, un polinomio.",
-      "speech": "Passaggio due: al denominatore c'è __X__ meno uno, un polinomio.",
+      "text": "Quindi, al denominatore c'è ics meno uno, un polinomio.",
+      "speech": "Quindi, al denominatore c'è __X__ meno uno, un polinomio.",
       "screen": "Frazione algebrica",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: è una frazione algebrica.",
-      "speech": "Passaggio tre: è una frazione algebrica.",
+      "text": "Infine, è una frazione algebrica.",
+      "speech": "Infine, è una frazione algebrica.",
       "screen": "Frazione algebrica",
       "purpose": "Esempio, passaggio 3"
     },
@@ -82,20 +82,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: considero il denominatore.",
-      "speech": "Passaggio uno: considero il denominatore.",
+      "text": "considero il denominatore.",
+      "speech": "considero il denominatore.",
       "screen": "Condizioni di esistenza",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: lo scompongo in ics meno uno, per ics meno otto.",
-      "speech": "Passaggio due: lo scompongo in __X__ meno uno, per __X__ meno otto.",
+      "text": "Quindi, lo scompongo in ics meno uno, per ics meno otto.",
+      "speech": "Quindi, lo scompongo in __X__ meno uno, per __X__ meno otto.",
       "screen": "Condizioni di esistenza",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: ics è diverso da uno e da otto.",
-      "speech": "Passaggio tre: __X__ è diverso da uno e da otto.",
+      "text": "Infine, ics è diverso da uno e da otto.",
+      "speech": "Infine, __X__ è diverso da uno e da otto.",
       "screen": "Condizioni di esistenza",
       "purpose": "Esempio, passaggio 3"
     },
@@ -106,20 +106,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: pongo il numeratore uguale a zero.",
-      "speech": "Passaggio uno: pongo il numeratore uguale a zero.",
+      "text": "pongo il numeratore uguale a zero.",
+      "speech": "pongo il numeratore uguale a zero.",
       "screen": "Quando una frazione si annulla",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: ottengo ics uguale a due.",
-      "speech": "Passaggio due: ottengo __X__ uguale a due.",
+      "text": "Quindi, ottengo ics uguale a due.",
+      "speech": "Quindi, ottengo __X__ uguale a due.",
       "screen": "Quando una frazione si annulla",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: per ics uguale a due il denominatore vale otto. La soluzione è accettabile.",
-      "speech": "Passaggio tre: per __X__ uguale a due il denominatore vale otto. La soluzione è accettabile.",
+      "text": "Infine, per ics uguale a due il denominatore vale otto. La soluzione è accettabile.",
+      "speech": "Infine, per __X__ uguale a due il denominatore vale otto. La soluzione è accettabile.",
       "screen": "Quando una frazione si annulla",
       "purpose": "Esempio, passaggio 3"
     },
@@ -130,20 +130,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: scompongo il numeratore in ics meno due, per ics meno tre.",
-      "speech": "Passaggio uno: scompongo il numeratore in __X__ meno due, per __X__ meno tre.",
+      "text": "scompongo il numeratore in ics meno due, per ics meno tre.",
+      "speech": "scompongo il numeratore in __X__ meno due, per __X__ meno tre.",
       "screen": "Semplificazione",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: scompongo il denominatore in ics meno tre, per ics più tre.",
-      "speech": "Passaggio due: scompongo il denominatore in __X__ meno tre, per __X__ più tre.",
+      "text": "Quindi, scompongo il denominatore in ics meno tre, per ics più tre.",
+      "speech": "Quindi, scompongo il denominatore in __X__ meno tre, per __X__ più tre.",
       "screen": "Semplificazione",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: semplifico ics meno tre. Resta ics meno due, fratto ics più tre. Mantengo le condizioni di esistenza: ics diverso da meno tre e da tre.",
-      "speech": "Passaggio tre: semplifico __X__ meno tre. Resta __X__ meno due, fratto __X__ più tre. Mantengo le condizioni di esistenza: __X__ diverso da meno tre e da tre.",
+      "text": "Infine, semplifico ics meno tre. Resta ics meno due, fratto ics più tre. Mantengo le condizioni di esistenza: ics diverso da meno tre e da tre.",
+      "speech": "Infine, semplifico __X__ meno tre. Resta __X__ meno due, fratto __X__ più tre. Mantengo le condizioni di esistenza: __X__ diverso da meno tre e da tre.",
       "screen": "Semplificazione",
       "purpose": "Esempio, passaggio 3"
     },
@@ -154,20 +154,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: il denominatore comune è ics meno uno.",
-      "speech": "Passaggio uno: il denominatore comune è __X__ meno uno.",
+      "text": "il denominatore comune è ics meno uno.",
+      "speech": "il denominatore comune è __X__ meno uno.",
       "screen": "Somma di frazioni algebriche",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: scrivo ics più uno, per ics meno uno, più uno.",
-      "speech": "Passaggio due: scrivo __X__ più uno, per __X__ meno uno, più uno.",
+      "text": "Quindi, scrivo ics più uno, per ics meno uno, più uno.",
+      "speech": "Quindi, scrivo __X__ più uno, per __X__ meno uno, più uno.",
       "screen": "Somma di frazioni algebriche",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il numeratore è ics alla seconda. Il risultato è ics alla seconda fratto ics meno uno, con ics diverso da uno.",
-      "speech": "Passaggio tre: il numeratore è __X__ alla seconda. Il risultato è __X__ alla seconda fratto __X__ meno uno, con __X__ diverso da uno.",
+      "text": "Infine, il numeratore è ics alla seconda. Il risultato è ics alla seconda fratto ics meno uno, con ics diverso da uno.",
+      "speech": "Infine, il numeratore è __X__ alla seconda. Il risultato è __X__ alla seconda fratto __X__ meno uno, con __X__ diverso da uno.",
       "screen": "Somma di frazioni algebriche",
       "purpose": "Esempio, passaggio 3"
     },
@@ -178,20 +178,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: scompongo il denominatore in tre ics meno uno, per ics più uno.",
-      "speech": "Passaggio uno: scompongo il denominatore in tre __X__ meno uno, per __X__ più uno.",
+      "text": "scompongo il denominatore in tre ics meno uno, per ics più uno.",
+      "speech": "scompongo il denominatore in tre __X__ meno uno, per __X__ più uno.",
       "screen": "Moltiplicazione",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: semplifico il fattore ics più uno.",
-      "speech": "Passaggio due: semplifico il fattore __X__ più uno.",
+      "text": "Quindi, semplifico il fattore ics più uno.",
+      "speech": "Quindi, semplifico il fattore __X__ più uno.",
       "screen": "Moltiplicazione",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: resta ics meno uno, fratto tre ics meno uno. Mantengo le condizioni di esistenza: ics diverso da meno uno e da un terzo.",
-      "speech": "Passaggio tre: resta __X__ meno uno, fratto tre __X__ meno uno. Mantengo le condizioni di esistenza: __X__ diverso da meno uno e da un terzo.",
+      "text": "Infine, resta ics meno uno, fratto tre ics meno uno. Mantengo le condizioni di esistenza: ics diverso da meno uno e da un terzo.",
+      "speech": "Infine, resta __X__ meno uno, fratto tre __X__ meno uno. Mantengo le condizioni di esistenza: __X__ diverso da meno uno e da un terzo.",
       "screen": "Moltiplicazione",
       "purpose": "Esempio, passaggio 3"
     },
@@ -202,20 +202,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: trasformo la divisione nella moltiplicazione per il reciproco.",
-      "speech": "Passaggio uno: trasformo la divisione nella moltiplicazione per il reciproco.",
+      "text": "trasformo la divisione nella moltiplicazione per il reciproco.",
+      "speech": "trasformo la divisione nella moltiplicazione per il reciproco.",
       "screen": "Divisione",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: scompongo tutti i polinomi.",
-      "speech": "Passaggio due: scompongo tutti i polinomi.",
+      "text": "Quindi, scompongo tutti i polinomi.",
+      "speech": "Quindi, scompongo tutti i polinomi.",
       "screen": "Divisione",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: semplifico. Resta ics più due, fratto ics alla seconda. Le condizioni di esistenza sono: ics diverso da meno due, da zero e da due.",
-      "speech": "Passaggio tre: semplifico. Resta __X__ più due, fratto __X__ alla seconda. Le condizioni di esistenza sono: __X__ diverso da meno due, da zero e da due.",
+      "text": "Infine, semplifico. Resta ics più due, fratto ics alla seconda. Le condizioni di esistenza sono: ics diverso da meno due, da zero e da due.",
+      "speech": "Infine, semplifico. Resta __X__ più due, fratto __X__ alla seconda. Le condizioni di esistenza sono: __X__ diverso da meno due, da zero e da due.",
       "screen": "Divisione",
       "purpose": "Esempio, passaggio 3"
     },
@@ -226,20 +226,20 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: l'esponente è due.",
-      "speech": "Passaggio uno: l'esponente è due.",
+      "text": "l'esponente è due.",
+      "speech": "l'esponente è due.",
       "screen": "Potenza",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: elevo il numeratore e il denominatore.",
-      "speech": "Passaggio due: elevo il numeratore e il denominatore.",
+      "text": "Quindi, elevo il numeratore e il denominatore.",
+      "speech": "Quindi, elevo il numeratore e il denominatore.",
       "screen": "Potenza",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il risultato è nove ics alla sesta, fratto ics meno cinque alla seconda, con ics diverso da cinque.",
-      "speech": "Passaggio tre: il risultato è nove __X__ alla sesta, fratto __X__ meno cinque alla seconda, con __X__ diverso da cinque.",
+      "text": "Infine, il risultato è nove ics alla sesta, fratto ics meno cinque alla seconda, con ics diverso da cinque.",
+      "speech": "Infine, il risultato è nove __X__ alla sesta, fratto __X__ meno cinque alla seconda, con __X__ diverso da cinque.",
       "screen": "Potenza",
       "purpose": "Esempio, passaggio 3"
     },

@@ -100,386 +100,386 @@
       "purpose": "Definizione: Radice algebrica"
     },
     {
-      "text": "La scheda dice: la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale ad a. Enne è l'indice, a il radicando.",
-      "speech": "La scheda dice: la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale ad a. Enne è l'indice, a il radicando.",
+      "text": "la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale ad a. Enne è l'indice, a il radicando.",
+      "speech": "la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale ad a. Enne è l'indice, a il radicando.",
       "screen": "Radice aritmetica",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco i termini. L'indice della radice è due, il radicando è nove.",
-      "speech": "Passaggio uno: riconosco i termini. L'indice della radice è due, il radicando è nove.",
+      "text": "riconosco i termini. L'indice della radice è due, il radicando è nove.",
+      "speech": "riconosco i termini. L'indice della radice è due, il radicando è nove.",
       "screen": "Radice aritmetica",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: cerco il numero che, elevato alla seconda, dà nove. È tre.",
-      "speech": "Passaggio due: cerco il numero che, elevato alla seconda, dà nove. È tre.",
+      "text": "Quindi, cerco il numero che, elevato alla seconda, dà nove. È tre.",
+      "speech": "Quindi, cerco il numero che, elevato alla seconda, dà nove. È tre.",
       "screen": "Radice aritmetica",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Radice quadrata di nove è uguale a tre.",
-      "speech": "Passaggio tre: scrivo il risultato. Radice quadrata di nove è uguale a tre.",
+      "text": "Infine, scrivo il risultato. Radice quadrata di nove è uguale a tre.",
+      "speech": "Infine, scrivo il risultato. Radice quadrata di nove è uguale a tre.",
       "screen": "Radice aritmetica",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si semplificano indice ed esponente. Radice di indice emme enne di a alla enne è uguale a radice emme di a.",
-      "speech": "La scheda dice: si semplificano indice ed esponente. Radice di indice emme enne di a alla enne è uguale a radice emme di a.",
+      "text": "si semplificano indice ed esponente. Radice di indice emme enne di a alla enne è uguale a radice emme di a.",
+      "speech": "si semplificano indice ed esponente. Radice di indice emme enne di a alla enne è uguale a radice emme di a.",
       "screen": "Semplificazione",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: scrivo otto come due alla terza. Ottengo radice sesta di due alla terza.",
-      "speech": "Passaggio uno: scrivo otto come due alla terza. Ottengo radice sesta di due alla terza.",
+      "text": "scrivo otto come due alla terza. Ottengo radice sesta di due alla terza.",
+      "speech": "scrivo otto come due alla terza. Ottengo radice sesta di due alla terza.",
       "screen": "Semplificazione",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: divido indice ed esponente per tre. L'indice diventa due, l'esponente diventa uno.",
-      "speech": "Passaggio due: divido indice ed esponente per tre. L'indice diventa due, l'esponente diventa uno.",
+      "text": "Quindi, divido indice ed esponente per tre. L'indice diventa due, l'esponente diventa uno.",
+      "speech": "Quindi, divido indice ed esponente per tre. L'indice diventa due, l'esponente diventa uno.",
       "screen": "Semplificazione",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Radice sesta di otto è uguale a radice quadrata di due.",
-      "speech": "Passaggio tre: scrivo il risultato. Radice sesta di otto è uguale a radice quadrata di due.",
+      "text": "Infine, scrivo il risultato. Radice sesta di otto è uguale a radice quadrata di due.",
+      "speech": "Infine, scrivo il risultato. Radice sesta di otto è uguale a radice quadrata di due.",
       "screen": "Semplificazione",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si moltiplicano gli indici e si elevano i radicandi, ciascuno all'indice dell'altro radicale.",
-      "speech": "La scheda dice: si moltiplicano gli indici e si elevano i radicandi, ciascuno all'indice dell'altro radicale.",
+      "text": "si moltiplicano gli indici e si elevano i radicandi, ciascuno all'indice dell'altro radicale.",
+      "speech": "si moltiplicano gli indici e si elevano i radicandi, ciascuno all'indice dell'altro radicale.",
       "screen": "Riduzione allo stesso indice",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco gli indici. Sono quattro e tre.",
-      "speech": "Passaggio uno: riconosco gli indici. Sono quattro e tre.",
+      "text": "riconosco gli indici. Sono quattro e tre.",
+      "speech": "riconosco gli indici. Sono quattro e tre.",
       "screen": "Riduzione allo stesso indice",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: il nuovo indice è il prodotto: quattro per tre fa dodici.",
-      "speech": "Passaggio due: il nuovo indice è il prodotto: quattro per tre fa dodici.",
+      "text": "Quindi, il nuovo indice è il prodotto: quattro per tre fa dodici.",
+      "speech": "Quindi, il nuovo indice è il prodotto: quattro per tre fa dodici.",
       "screen": "Riduzione allo stesso indice",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Radice dodicesima di cinque alla terza, e radice dodicesima di due alla quarta.",
-      "speech": "Passaggio tre: scrivo il risultato. Radice dodicesima di cinque alla terza, e radice dodicesima di due alla quarta.",
+      "text": "Infine, scrivo il risultato. Radice dodicesima di cinque alla terza, e radice dodicesima di due alla quarta.",
+      "speech": "Infine, scrivo il risultato. Radice dodicesima di cinque alla terza, e radice dodicesima di due alla quarta.",
       "screen": "Riduzione allo stesso indice",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con lo stesso indice si moltiplicano i radicandi. Con indici diversi si riducono prima allo stesso indice.",
-      "speech": "La scheda dice: con lo stesso indice si moltiplicano i radicandi. Con indici diversi si riducono prima allo stesso indice.",
+      "text": "con lo stesso indice si moltiplicano i radicandi. Con indici diversi si riducono prima allo stesso indice.",
+      "speech": "con lo stesso indice si moltiplicano i radicandi. Con indici diversi si riducono prima allo stesso indice.",
       "screen": "Prodotto di radicali",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
-      "speech": "Passaggio uno: riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
+      "text": "riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
+      "speech": "riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
       "screen": "Prodotto di radicali",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: moltiplico i radicandi. Cinque per due fa dieci.",
-      "speech": "Passaggio due: moltiplico i radicandi. Cinque per due fa dieci.",
+      "text": "Quindi, moltiplico i radicandi. Cinque per due fa dieci.",
+      "speech": "Quindi, moltiplico i radicandi. Cinque per due fa dieci.",
       "screen": "Prodotto di radicali",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il prodotto è uguale a radice cubica di dieci.",
-      "speech": "Passaggio tre: scrivo il risultato. Il prodotto è uguale a radice cubica di dieci.",
+      "text": "Infine, scrivo il risultato. Il prodotto è uguale a radice cubica di dieci.",
+      "speech": "Infine, scrivo il risultato. Il prodotto è uguale a radice cubica di dieci.",
       "screen": "Prodotto di radicali",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con lo stesso indice, il rapporto di radicali è la radice del rapporto dei radicandi.",
-      "speech": "La scheda dice: con lo stesso indice, il rapporto di radicali è la radice del rapporto dei radicandi.",
+      "text": "con lo stesso indice, il rapporto di radicali è la radice del rapporto dei radicandi.",
+      "speech": "con lo stesso indice, il rapporto di radicali è la radice del rapporto dei radicandi.",
       "screen": "Rapporto di radicali",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
-      "speech": "Passaggio uno: riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
+      "text": "riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
+      "speech": "riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
       "screen": "Rapporto di radicali",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: divido i radicandi. Ottengo la frazione cinque mezzi.",
-      "speech": "Passaggio due: divido i radicandi. Ottengo la frazione cinque mezzi.",
+      "text": "Quindi, divido i radicandi. Ottengo la frazione cinque mezzi.",
+      "speech": "Quindi, divido i radicandi. Ottengo la frazione cinque mezzi.",
       "screen": "Rapporto di radicali",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il rapporto è uguale a radice cubica di cinque mezzi.",
-      "speech": "Passaggio tre: scrivo il risultato. Il rapporto è uguale a radice cubica di cinque mezzi.",
+      "text": "Infine, scrivo il risultato. Il rapporto è uguale a radice cubica di cinque mezzi.",
+      "speech": "Infine, scrivo il risultato. Il rapporto è uguale a radice cubica di cinque mezzi.",
       "screen": "Rapporto di radicali",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: il fattore a entra nella radice elevato all'indice enne.",
-      "speech": "La scheda dice: il fattore a entra nella radice elevato all'indice enne.",
+      "text": "il fattore a entra nella radice elevato all'indice enne.",
+      "speech": "il fattore a entra nella radice elevato all'indice enne.",
       "screen": "Trasporto dentro il segno di radice",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il fattore esterno. È due, e l'indice della radice è tre.",
-      "speech": "Passaggio uno: riconosco il fattore esterno. È due, e l'indice della radice è tre.",
+      "text": "riconosco il fattore esterno. È due, e l'indice della radice è tre.",
+      "speech": "riconosco il fattore esterno. È due, e l'indice della radice è tre.",
       "screen": "Trasporto dentro il segno di radice",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: elevo due alla terza e lo porto dentro, per tre.",
-      "speech": "Passaggio due: elevo due alla terza e lo porto dentro, per tre.",
+      "text": "Quindi, elevo due alla terza e lo porto dentro, per tre.",
+      "speech": "Quindi, elevo due alla terza e lo porto dentro, per tre.",
       "screen": "Trasporto dentro il segno di radice",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Otto per tre fa ventiquattro: radice cubica di ventiquattro.",
-      "speech": "Passaggio tre: scrivo il risultato. Otto per tre fa ventiquattro: radice cubica di ventiquattro.",
+      "text": "Infine, scrivo il risultato. Otto per tre fa ventiquattro: radice cubica di ventiquattro.",
+      "speech": "Infine, scrivo il risultato. Otto per tre fa ventiquattro: radice cubica di ventiquattro.",
       "screen": "Trasporto dentro il segno di radice",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: se il fattore ha esponente uguale all'indice, esce dalla radice senza esponente.",
-      "speech": "La scheda dice: se il fattore ha esponente uguale all'indice, esce dalla radice senza esponente.",
+      "text": "se il fattore ha esponente uguale all'indice, esce dalla radice senza esponente.",
+      "speech": "se il fattore ha esponente uguale all'indice, esce dalla radice senza esponente.",
       "screen": "Trasporto fuori dal segno di radice",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: scompongo il radicando. Venti è due alla seconda per cinque.",
-      "speech": "Passaggio uno: scompongo il radicando. Venti è due alla seconda per cinque.",
+      "text": "scompongo il radicando. Venti è due alla seconda per cinque.",
+      "speech": "scompongo il radicando. Venti è due alla seconda per cinque.",
       "screen": "Trasporto fuori dal segno di radice",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: due alla seconda ha esponente uguale all'indice, quindi esce come due.",
-      "speech": "Passaggio due: due alla seconda ha esponente uguale all'indice, quindi esce come due.",
+      "text": "Quindi, due alla seconda ha esponente uguale all'indice, quindi esce come due.",
+      "speech": "Quindi, due alla seconda ha esponente uguale all'indice, quindi esce come due.",
       "screen": "Trasporto fuori dal segno di radice",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Radice quadrata di venti è uguale a due radice di cinque.",
-      "speech": "Passaggio tre: scrivo il risultato. Radice quadrata di venti è uguale a due radice di cinque.",
+      "text": "Infine, scrivo il risultato. Radice quadrata di venti è uguale a due radice di cinque.",
+      "speech": "Infine, scrivo il risultato. Radice quadrata di venti è uguale a due radice di cinque.",
       "screen": "Trasporto fuori dal segno di radice",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: l'esponente della potenza entra nel radicando.",
-      "speech": "La scheda dice: l'esponente della potenza entra nel radicando.",
+      "text": "l'esponente della potenza entra nel radicando.",
+      "speech": "l'esponente della potenza entra nel radicando.",
       "screen": "Potenza di radicali",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco la potenza. L'esponente è due, l'indice è tre.",
-      "speech": "Passaggio uno: riconosco la potenza. L'esponente è due, l'indice è tre.",
+      "text": "riconosco la potenza. L'esponente è due, l'indice è tre.",
+      "speech": "riconosco la potenza. L'esponente è due, l'indice è tre.",
       "screen": "Potenza di radicali",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: porto l'esponente dentro la radice, sul radicando cinque.",
-      "speech": "Passaggio due: porto l'esponente dentro la radice, sul radicando cinque.",
+      "text": "Quindi, porto l'esponente dentro la radice, sul radicando cinque.",
+      "speech": "Quindi, porto l'esponente dentro la radice, sul radicando cinque.",
       "screen": "Potenza di radicali",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Radice cubica di cinque alla seconda.",
-      "speech": "Passaggio tre: scrivo il risultato. Radice cubica di cinque alla seconda.",
+      "text": "Infine, scrivo il risultato. Radice cubica di cinque alla seconda.",
+      "speech": "Infine, scrivo il risultato. Radice cubica di cinque alla seconda.",
       "screen": "Potenza di radicali",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: la radice di una radice è una sola radice con indice il prodotto degli indici.",
-      "speech": "La scheda dice: la radice di una radice è una sola radice con indice il prodotto degli indici.",
+      "text": "la radice di una radice è una sola radice con indice il prodotto degli indici.",
+      "speech": "la radice di una radice è una sola radice con indice il prodotto degli indici.",
       "screen": "Radice di radice",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco gli indici. Sono tre e quattro.",
-      "speech": "Passaggio uno: riconosco gli indici. Sono tre e quattro.",
+      "text": "riconosco gli indici. Sono tre e quattro.",
+      "speech": "riconosco gli indici. Sono tre e quattro.",
       "screen": "Radice di radice",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: moltiplico gli indici. Tre per quattro fa dodici.",
-      "speech": "Passaggio due: moltiplico gli indici. Tre per quattro fa dodici.",
+      "text": "Quindi, moltiplico gli indici. Tre per quattro fa dodici.",
+      "speech": "Quindi, moltiplico gli indici. Tre per quattro fa dodici.",
       "screen": "Radice di radice",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Radice dodicesima di due.",
-      "speech": "Passaggio tre: scrivo il risultato. Radice dodicesima di due.",
+      "text": "Infine, scrivo il risultato. Radice dodicesima di due.",
+      "speech": "Infine, scrivo il risultato. Radice dodicesima di due.",
       "screen": "Radice di radice",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con radicali simili si sommano i coefficienti e il radicale resta uguale.",
-      "speech": "La scheda dice: con radicali simili si sommano i coefficienti e il radicale resta uguale.",
+      "text": "con radicali simili si sommano i coefficienti e il radicale resta uguale.",
+      "speech": "con radicali simili si sommano i coefficienti e il radicale resta uguale.",
       "screen": "Somma algebrica di radicali simili",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco i radicali simili. Entrambi sono radice cubica di due.",
-      "speech": "Passaggio uno: riconosco i radicali simili. Entrambi sono radice cubica di due.",
+      "text": "riconosco i radicali simili. Entrambi sono radice cubica di due.",
+      "speech": "riconosco i radicali simili. Entrambi sono radice cubica di due.",
       "screen": "Somma algebrica di radicali simili",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: sottraggo i coefficienti. Otto meno cinque fa tre.",
-      "speech": "Passaggio due: sottraggo i coefficienti. Otto meno cinque fa tre.",
+      "text": "Quindi, sottraggo i coefficienti. Otto meno cinque fa tre.",
+      "speech": "Quindi, sottraggo i coefficienti. Otto meno cinque fa tre.",
       "screen": "Somma algebrica di radicali simili",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Tre radice cubica di due.",
-      "speech": "Passaggio tre: scrivo il risultato. Tre radice cubica di due.",
+      "text": "Infine, scrivo il risultato. Tre radice cubica di due.",
+      "speech": "Infine, scrivo il risultato. Tre radice cubica di due.",
       "screen": "Somma algebrica di radicali simili",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: se al denominatore c'è una sola radice quadrata, si moltiplica sopra e sotto per quella radice.",
-      "speech": "La scheda dice: se al denominatore c'è una sola radice quadrata, si moltiplica sopra e sotto per quella radice.",
+      "text": "se al denominatore c'è una sola radice quadrata, si moltiplica sopra e sotto per quella radice.",
+      "speech": "se al denominatore c'è una sola radice quadrata, si moltiplica sopra e sotto per quella radice.",
       "screen": "Razionalizzazione con una radice quadrata",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il caso. Al denominatore c'è una sola radice quadrata.",
-      "speech": "Passaggio uno: riconosco il caso. Al denominatore c'è una sola radice quadrata.",
+      "text": "riconosco il caso. Al denominatore c'è una sola radice quadrata.",
+      "speech": "riconosco il caso. Al denominatore c'è una sola radice quadrata.",
       "screen": "Razionalizzazione con una radice quadrata",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: moltiplico numeratore e denominatore per radice di cinque.",
-      "speech": "Passaggio due: moltiplico numeratore e denominatore per radice di cinque.",
+      "text": "Quindi, moltiplico numeratore e denominatore per radice di cinque.",
+      "speech": "Quindi, moltiplico numeratore e denominatore per radice di cinque.",
       "screen": "Razionalizzazione con una radice quadrata",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Due radice di cinque, fratto cinque.",
-      "speech": "Passaggio tre: scrivo il risultato. Due radice di cinque, fratto cinque.",
+      "text": "Infine, scrivo il risultato. Due radice di cinque, fratto cinque.",
+      "speech": "Infine, scrivo il risultato. Due radice di cinque, fratto cinque.",
       "screen": "Razionalizzazione con una radice quadrata",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si moltiplica sopra e sotto per la radice dello stesso indice con esponente enne meno emme.",
-      "speech": "La scheda dice: si moltiplica sopra e sotto per la radice dello stesso indice con esponente enne meno emme.",
+      "text": "si moltiplica sopra e sotto per la radice dello stesso indice con esponente enne meno emme.",
+      "speech": "si moltiplica sopra e sotto per la radice dello stesso indice con esponente enne meno emme.",
       "screen": "Razionalizzazione con una radice non quadrata",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il caso. L'indice è tre e l'esponente è due, quindi il fattore ha esponente uno.",
-      "speech": "Passaggio uno: riconosco il caso. L'indice è tre e l'esponente è due, quindi il fattore ha esponente uno.",
+      "text": "riconosco il caso. L'indice è tre e l'esponente è due, quindi il fattore ha esponente uno.",
+      "speech": "riconosco il caso. L'indice è tre e l'esponente è due, quindi il fattore ha esponente uno.",
       "screen": "Razionalizzazione con una radice non quadrata",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: moltiplico sopra e sotto per radice cubica di sette.",
-      "speech": "Passaggio due: moltiplico sopra e sotto per radice cubica di sette.",
+      "text": "Quindi, moltiplico sopra e sotto per radice cubica di sette.",
+      "speech": "Quindi, moltiplico sopra e sotto per radice cubica di sette.",
       "screen": "Razionalizzazione con una radice non quadrata",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Due radice cubica di sette, fratto sette.",
-      "speech": "Passaggio tre: scrivo il risultato. Due radice cubica di sette, fratto sette.",
+      "text": "Infine, scrivo il risultato. Due radice cubica di sette, fratto sette.",
+      "speech": "Infine, scrivo il risultato. Due radice cubica di sette, fratto sette.",
       "screen": "Razionalizzazione con una radice non quadrata",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si moltiplica sopra e sotto per lo stesso binomio con il segno cambiato, e si usa la somma per differenza.",
-      "speech": "La scheda dice: si moltiplica sopra e sotto per lo stesso binomio con il segno cambiato, e si usa la somma per differenza.",
+      "text": "si moltiplica sopra e sotto per lo stesso binomio con il segno cambiato, e si usa la somma per differenza.",
+      "speech": "si moltiplica sopra e sotto per lo stesso binomio con il segno cambiato, e si usa la somma per differenza.",
       "screen": "Razionalizzazione con un polinomio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il caso. Al denominatore c'è un binomio con una radice quadrata.",
-      "speech": "Passaggio uno: riconosco il caso. Al denominatore c'è un binomio con una radice quadrata.",
+      "text": "riconosco il caso. Al denominatore c'è un binomio con una radice quadrata.",
+      "speech": "riconosco il caso. Al denominatore c'è un binomio con una radice quadrata.",
       "screen": "Razionalizzazione con un polinomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: moltiplico sopra e sotto per cinque più radice di tre. Sotto ottengo venticinque meno tre.",
-      "speech": "Passaggio due: moltiplico sopra e sotto per cinque più radice di tre. Sotto ottengo venticinque meno tre.",
+      "text": "Quindi, moltiplico sopra e sotto per cinque più radice di tre. Sotto ottengo venticinque meno tre.",
+      "speech": "Quindi, moltiplico sopra e sotto per cinque più radice di tre. Sotto ottengo venticinque meno tre.",
       "screen": "Razionalizzazione con un polinomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: semplifico. Il risultato è cinque più radice di tre, fratto undici.",
-      "speech": "Passaggio tre: semplifico. Il risultato è cinque più radice di tre, fratto undici.",
+      "text": "Infine, semplifico. Il risultato è cinque più radice di tre, fratto undici.",
+      "speech": "Infine, semplifico. Il risultato è cinque più radice di tre, fratto undici.",
       "screen": "Razionalizzazione con un polinomio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si moltiplica sopra e sotto per il trinomio che completa la somma di cubi.",
-      "speech": "La scheda dice: si moltiplica sopra e sotto per il trinomio che completa la somma di cubi.",
+      "text": "si moltiplica sopra e sotto per il trinomio che completa la somma di cubi.",
+      "speech": "si moltiplica sopra e sotto per il trinomio che completa la somma di cubi.",
       "screen": "Razionalizzazione con radici cubiche",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il caso. Al denominatore c'è un binomio con due radici cubiche.",
-      "speech": "Passaggio uno: riconosco il caso. Al denominatore c'è un binomio con due radici cubiche.",
+      "text": "riconosco il caso. Al denominatore c'è un binomio con due radici cubiche.",
+      "speech": "riconosco il caso. Al denominatore c'è un binomio con due radici cubiche.",
       "screen": "Razionalizzazione con radici cubiche",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: moltiplico sopra e sotto per radice cubica di quattro, meno radice cubica di dieci, più radice cubica di venticinque.",
-      "speech": "Passaggio due: moltiplico sopra e sotto per radice cubica di quattro, meno radice cubica di dieci, più radice cubica di venticinque.",
+      "text": "Quindi, moltiplico sopra e sotto per radice cubica di quattro, meno radice cubica di dieci, più radice cubica di venticinque.",
+      "speech": "Quindi, moltiplico sopra e sotto per radice cubica di quattro, meno radice cubica di dieci, più radice cubica di venticinque.",
       "screen": "Razionalizzazione con radici cubiche",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: sotto ottengo due più cinque, cioè sette. Sopra resta due per il trinomio.",
-      "speech": "Passaggio tre: sotto ottengo due più cinque, cioè sette. Sopra resta due per il trinomio.",
+      "text": "Infine, sotto ottengo due più cinque, cioè sette. Sopra resta due per il trinomio.",
+      "speech": "Infine, sotto ottengo due più cinque, cioè sette. Sopra resta due per il trinomio.",
       "screen": "Razionalizzazione con radici cubiche",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: se a alla seconda meno bi è un quadrato perfetto, si applica la formula del radicale doppio.",
-      "speech": "La scheda dice: se a alla seconda meno bi è un quadrato perfetto, si applica la formula del radicale doppio.",
+      "text": "se a alla seconda meno bi è un quadrato perfetto, si applica la formula del radicale doppio.",
+      "speech": "se a alla seconda meno bi è un quadrato perfetto, si applica la formula del radicale doppio.",
       "screen": "Radicale doppio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco a uguale a sei e bi uguale a venti. Trentasei meno venti fa sedici, un quadrato perfetto.",
-      "speech": "Passaggio uno: riconosco a uguale a sei e bi uguale a venti. Trentasei meno venti fa sedici, un quadrato perfetto.",
+      "text": "riconosco a uguale a sei e bi uguale a venti. Trentasei meno venti fa sedici, un quadrato perfetto.",
+      "speech": "riconosco a uguale a sei e bi uguale a venti. Trentasei meno venti fa sedici, un quadrato perfetto.",
       "screen": "Radicale doppio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: applico la formula con radice di sedici, cioè quattro. Sei più quattro, fratto due. Sei meno quattro, fratto due.",
-      "speech": "Passaggio due: applico la formula con radice di sedici, cioè quattro. Sei più quattro, fratto due. Sei meno quattro, fratto due.",
+      "text": "Quindi, applico la formula con radice di sedici, cioè quattro. Sei più quattro, fratto due. Sei meno quattro, fratto due.",
+      "speech": "Quindi, applico la formula con radice di sedici, cioè quattro. Sei più quattro, fratto due. Sei meno quattro, fratto due.",
       "screen": "Radicale doppio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Radice di cinque, meno uno.",
-      "speech": "Passaggio tre: scrivo il risultato. Radice di cinque, meno uno.",
+      "text": "Infine, scrivo il risultato. Radice di cinque, meno uno.",
+      "speech": "Infine, scrivo il risultato. Radice di cinque, meno uno.",
       "screen": "Radicale doppio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: la radice algebrica nasce per risolvere equazioni come ics alla enne uguale ad a, con enne pari o dispari.",
-      "speech": "La scheda dice: la radice algebrica nasce per risolvere equazioni come __X__ alla enne uguale ad a, con enne pari o dispari.",
+      "text": "la radice algebrica nasce per risolvere equazioni come ics alla enne uguale ad a, con enne pari o dispari.",
+      "speech": "la radice algebrica nasce per risolvere equazioni come __X__ alla enne uguale ad a, con enne pari o dispari.",
       "screen": "Radice algebrica",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il caso. L'esponente tre è dispari.",
-      "speech": "Passaggio uno: riconosco il caso. L'esponente tre è dispari.",
+      "text": "riconosco il caso. L'esponente tre è dispari.",
+      "speech": "riconosco il caso. L'esponente tre è dispari.",
       "screen": "Radice algebrica",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: estraggo la radice cubica di meno otto.",
-      "speech": "Passaggio due: estraggo la radice cubica di meno otto.",
+      "text": "Quindi, estraggo la radice cubica di meno otto.",
+      "speech": "Quindi, estraggo la radice cubica di meno otto.",
       "screen": "Radice algebrica",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Ics è uguale a meno due, con lo stesso segno del radicando.",
-      "speech": "Passaggio tre: scrivo il risultato. __X__ è uguale a meno due, con lo stesso segno del radicando.",
+      "text": "Infine, scrivo il risultato. Ics è uguale a meno due, con lo stesso segno del radicando.",
+      "speech": "Infine, scrivo il risultato. __X__ è uguale a meno due, con lo stesso segno del radicando.",
       "screen": "Radice algebrica",
       "purpose": "Esempio, passaggio 3"
     },
