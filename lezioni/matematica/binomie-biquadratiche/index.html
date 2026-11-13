@@ -9,7 +9,30 @@
 .concept,.step,.card,.formula-box{overflow:hidden!important}.division-board,.ruffini-board,table{max-width:100%!important}.division-board,.ruffini-board{margin-inline:auto!important}#labResults>p,#labSteps>p{text-align:center!important}
 @media(max-width:700px){.formula-part{flex-basis:100%!important}.part-label{display:block!important}.formula{font-size:clamp(1.05rem,5vw,1.45rem)!important}}
 </style>
-<style id="mate12-centered-exercises">#example>article>h3,.q>p{text-align:center!important;justify-content:center!important}.ruffini-path,.formula-conjunction{display:none!important}</style></head><body>
+<style id="mate12-centered-exercises">#example>article>h3,.q>p{text-align:center!important;justify-content:center!important}.ruffini-path,.formula-conjunction{display:none!important}</style><style id="responsive-math-safeguards">
+html,body{max-width:100%;overflow-x:hidden}
+img,svg,canvas{max-width:100%;height:auto}
+.screen,.card,.step,.q,.labgrid>*,.verifygrid>*,.system-lines,.formula-parts,.formula-joined{min-width:0;max-width:100%}
+.formula,.mini-formula,.poly-editor,.system-lines,#labResults,#labSteps{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain}
+#labResults svg,#labSteps svg,.definition-visual svg,.ela-visual svg{display:block;max-width:100%;height:auto;margin-inline:auto}
+.lesson-pager{max-width:calc(100% - 24px)}
+main{padding-bottom:140px}
+@media(max-width:700px){
+  .labgrid,.verifygrid{grid-template-columns:minmax(0,1fr)!important}
+  .control{grid-template-columns:minmax(0,1fr) minmax(68px,90px)}
+  .formula-parts,.formula-joined{gap:10px!important}
+  .formula-part,.formula-chunk{max-width:100%;white-space:normal!important;overflow-wrap:anywhere}
+  .card,.q{padding:16px}
+}
+@media(max-width:430px){
+  .wrap{width:min(100% - 18px,1050px)}
+  .step{grid-template-columns:34px minmax(0,1fr);gap:9px;padding:12px}
+  .n{width:32px;height:32px}
+  .actions{gap:7px}
+  .actions button{min-width:0;flex:1 1 120px}
+}
+</style>
+</head><body>
 <header><div class="wrap"><div class="hero"><span class="kicker">MATEMATICA</span><h1>Equazioni e disequazioni binomie, biquadratiche, trinomie</h1><p>Riconoscere il tipo di equazione. Usare la variabile ausiliaria t. Risolvere le disequazioni binomie.</p><button class="primary start" onclick="go(1)">Cominciamo →</button></div></div></header><div class="progress-shell"><div class="progress"><i id="bar"></i></div><nav class="wrap nav" id="nav"><button type="button" onclick="window.top.location.href='https://sites.google.com/galileoferraris.com/materiali/materie/matematica/mate12/episodimate12'" style="position:sticky;left:0;z-index:2;white-space:nowrap;background:var(--y);color:var(--b);padding:8px 12px;border:0;border-radius:99px;font-size:.82rem;font-weight:850">← Indietro</button></nav></div>
 <main class="wrap"><section class="screen active" data-title="Obiettivi"><span class="eyebrow">In questa lezione</span><h2>Che cosa imparerai</h2><div id="objectives" class="stepper"></div><div class="actions"><button class="primary next" onclick="go(1)">Definizioni →</button></div></section>
 <section class="screen" data-title="Definizioni"><span class="eyebrow">Prima capisci l’idea</span><h2>Definizioni</h2><div class="tabs" id="defTabs"></div><div id="definition"></div><div class="actions"><button class="secondary" onclick="go(-1)">← Indietro</button><button class="primary next" onclick="go(1)">Esempi guidati →</button></div></section>
