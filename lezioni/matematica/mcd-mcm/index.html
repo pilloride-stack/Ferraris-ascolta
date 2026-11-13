@@ -111,6 +111,11 @@ main{padding-bottom:140px}
   function resetAll(){localStorage.removeItem('ferraris-step');localStorage.removeItem('ferraris-score');document.querySelectorAll('.verify input').forEach(x=>{x.value='';x.style.borderColor=''});document.querySelectorAll('.answer-note').forEach(x=>{x.textContent='';x.className='answer-note'});document.getElementById('score').classList.remove('show');show(0)}
   show(+localStorage.getItem('ferraris-step')||0);
 </script>
+<style id="lesson-pager-controls">
+.lesson-pager{position:fixed;z-index:35;left:50%;bottom:max(12px,env(safe-area-inset-bottom));transform:translateX(-50%);display:flex;gap:8px;padding:7px;background:#ffffffee;border:1px solid #d5e3f0;border-radius:14px;box-shadow:0 10px 28px #073b8230;backdrop-filter:blur(8px)}
+.lesson-pager button{min-width:105px}@media(max-width:560px){main{padding-bottom:145px}.lesson-pager{width:calc(100% - 28px)}.lesson-pager button{flex:1;min-width:0}}
+</style>
+<div class="lesson-pager" aria-label="Navigazione della lezione"><button class="secondary" type="button" onclick="go(-1)">Indietro</button><button class="primary" type="button" onclick="go(1)">Avanti</button></div>
 <style id="stack-visible-math-fractions-style">
 .math-frac{display:inline-grid;grid-template-rows:auto auto;vertical-align:middle;text-align:center;line-height:1.05;margin:0 .16em;white-space:nowrap}
 .math-frac>.math-num{border-bottom:1.7px solid currentColor;padding:0 .24em .1em}

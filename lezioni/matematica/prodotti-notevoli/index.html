@@ -268,4 +268,29 @@ const tests=D.final_test||[],questionHTML=q=>esc(q).replaceAll('□','<span styl
   if(verify)verify.before(box);else screen.append(box);
 })();
 </script>
+<style id="synchronized-audio-highlight">.step.narrating{outline:4px solid var(--y);background:#fffbe1}.definition-card.narrating,.card.narrating{outline:4px solid var(--y)}</style>
+<script id="synchronized-audio-controller">
+(()=>{
+  const base='https://raw.githubusercontent.com/pilloride-stack/Ferraris-ascolta/main/audio/matematica-interattiva/episodio-02/';
+  let player=null,queue=[],auto=false,status=null;
+  const activeScreen=()=>screens[current];
+  function clearHighlight(){document.querySelectorAll('.narrating').forEach(x=>x.classList.remove('narrating'))}
+  function stopSynchronizedAudio(){queue=[];auto=false;clearHighlight();if(player){player.pause();player.currentTime=0;player=null}document.querySelectorAll('.voice-status').forEach(x=>x.textContent='')}
+  function tracksForCurrent(){const title=activeScreen().dataset.title;if(title==='Obiettivi')return[];if(title==='Definizioni')return D.audio_tracks.filter(t=>t.screen==='Definizioni');if(title==='Esempi')return D.audio_tracks.filter(t=>!['Definizioni','Allenamento','Laboratorio','Verifica'].includes(t.screen));return D.audio_tracks.filter(t=>t.screen===title)}
+  function synchronize(track){
+    clearHighlight();
+    if(activeScreen().dataset.title==='Definizioni'){
+      const name=(track.purpose||'').replace(/^Definizione:\s*/,'').trim(),index=D.definitions.findIndex(x=>x.name===name);if(index>=0&&defTabs.children[index])defTabs.children[index].click();
+    }else if(activeScreen().dataset.title==='Esempi'){
+      const exampleIndex=D.guided_examples.findIndex(x=>x.concept===track.screen);if(exampleIndex>=0&&exTabs.children[exampleIndex])exTabs.children[exampleIndex].click();
+      const match=(track.purpose||'').match(/passaggio\s+(\d+)/i);if(match){const step=activeScreen().querySelectorAll('.step')[Number(match[1])-1];if(step){step.classList.add('narrating');step.scrollIntoView({behavior:'smooth',block:'center'})}}
+    }
+  }
+  function playNext(){const track=queue.shift();if(!track){clearHighlight();if(auto&&current<screens.length-1){go(1);setTimeout(()=>startSynchronizedAudio(true),350)}else if(status)status.textContent='Spiegazione terminata.';return}synchronize(track);if(status)status.textContent=track.purpose||'Spiegazione';player=new Audio(base+'frase-'+track.id+'.mp3');player.onended=()=>setTimeout(playNext,350);player.onerror=()=>{if(status)status.textContent='Audio non disponibile.';queue=[]};player.play().catch(()=>{if(status)status.textContent='Tocca di nuovo Ascolta per avviare la voce.'})}
+  function startSynchronizedAudio(continueAutomatically=false){stopSynchronizedAudio();auto=continueAutomatically;status=activeScreen().querySelector('.voice-status');queue=tracksForCurrent().slice();if(!queue.length){if(auto&&current<screens.length-1){go(1);setTimeout(()=>startSynchronizedAudio(true),200)}return}playNext()}
+  document.querySelectorAll('.voice-controls').forEach(bar=>{bar.children[0].onclick=()=>startSynchronizedAudio(true);bar.children[1].textContent='■ Stop';bar.children[1].onclick=stopSynchronizedAudio});
+  document.querySelectorAll('.lesson-pager button').forEach((button,index)=>button.onclick=()=>{stopSynchronizedAudio();go(index===0?-1:1)});
+  nav.addEventListener('click',stopSynchronizedAudio,true);window.addEventListener('beforeunload',stopSynchronizedAudio);
+})();
+</script>
 </body></html>
