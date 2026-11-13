@@ -268,4 +268,6 @@ const tests=D.final_test||[],questionHTML=q=>esc(q).replaceAll('□','<span styl
   if(verify)verify.before(box);else screen.append(box);
 })();
 </script>
+<link rel="stylesheet" href="../paired-content.css"><style>.learning-pair:nth-child(-n+2) .pair-definition .formula{display:flex;align-items:center;justify-content:center;gap:18px}.learning-pair:nth-child(-n+2) .pair-definition .formula::first-letter{color:var(--y)}.learning-pair:nth-child(-n+2) .pair-definition{border-top-color:var(--y)}.formula-conjunction,.flow-arrow{background:var(--y)}</style>
+<script>(()=>{const removed=new Set(['Due radici quadrate','Radici cubiche']);D.definitions=D.definitions.filter(item=>!removed.has(item.name));D.guided_examples=D.guided_examples.filter(item=>!removed.has(item.concept));D.visual_explanations=D.visual_explanations.filter(item=>!removed.has(item.screen));D.audio_tracks=D.audio_tracks.filter(item=>!removed.has(item.screen)&&!(item.screen==='Definizioni'&&[...removed].some(name=>(item.purpose||'').includes(name))));D.summary=D.summary.filter(item=>![...removed].some(name=>item.startsWith(name+':')))})();</script><script src="../paired-content.js"></script><script src="../paired-audio.js" data-audio-base="https://raw.githubusercontent.com/pilloride-stack/Ferraris-ascolta/main/audio/matematica-interattiva/episodio-11/"></script>
 </body></html>
