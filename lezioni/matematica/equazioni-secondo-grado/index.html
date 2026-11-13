@@ -217,4 +217,26 @@ const tests=D.final_test||[],questionHTML=q=>esc(q).replaceAll('□','<span styl
   render();
 })();
 </script>
+<style id="exact-quadratic-lab-values-style">.exact-lab-value{margin-top:10px;padding:11px 13px;background:#edf5fc;border-radius:11px;color:var(--b);font-family:"Cambria Math",Georgia,serif}.exact-lab-value b{font-family:system-ui,sans-serif}</style>
+<script id="exact-quadratic-lab-values">
+(()=>{
+  const gcd=(a,b)=>{a=Math.abs(Math.round(a));b=Math.abs(Math.round(b));while(b)[a,b]=[b,a%b];return a||1};
+  const frac=(n,d)=>{if(d<0){n=-n;d=-d}const g=gcd(n,d);n/=g;d/=g;return d===1?String(n):`<span class="frac"><span class="num">${n}</span><span class="den">${d}</span></span>`};
+  const radical=d=>{let outside=1,inside=d;for(let k=Math.floor(Math.sqrt(d));k>=2;k--)if(d%(k*k)===0){outside=k;inside=d/(k*k);break}return{outside,inside}};
+  function exact(){
+    const a=Number(document.getElementById('eq-a')?.value),b=Number(document.getElementById('eq-b')?.value||0),c=Number(document.getElementById('eq-c')?.value||0),out=document.getElementById('labResults');
+    if(!out||!Number.isInteger(a)||!Number.isInteger(b)||!Number.isInteger(c)||a===0)return;
+    const d=b*b-4*a*c;let html='';
+    if(d===0){html=`<b>Soluzione esatta:</b> x = ${frac(-b,2*a)}`}
+    else if(d>0){
+      const root=Math.sqrt(d);
+      if(Number.isInteger(root))html=`<b>Soluzioni esatte:</b> x₁ = ${frac(-b-root,2*a)}; x₂ = ${frac(-b+root,2*a)}`;
+      else{let {outside,inside}=radical(d),den=2*a,g=gcd(gcd(-b,outside),den),p=-b/g,q=outside/g,r=den/g;if(r<0){p=-p;q=-q;r=-r}const radicalText=`${Math.abs(q)===1?'':Math.abs(q)}√${inside}`,sign=q<0?'∓':'±',num=`${p===0?'':p+' '}${sign} ${radicalText}`;html=`<b>Forma esatta:</b> x₁,₂ = ${r===1?num:`<span class="frac"><span class="num">${num}</span><span class="den">${r}</span></span>`}`}
+    }
+    let box=out.querySelector('.exact-lab-value');if(!box){box=document.createElement('div');box.className='exact-lab-value';out.append(box)}box.innerHTML=html||'<b>Nessuna soluzione reale.</b>';
+  }
+  ['eq-a','eq-b','eq-c'].forEach(id=>document.getElementById(id)?.addEventListener('input',()=>requestAnimationFrame(exact)));
+  exact();
+})();
+</script>
 </body></html>
