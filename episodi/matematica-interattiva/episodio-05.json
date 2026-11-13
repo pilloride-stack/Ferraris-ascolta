@@ -16,50 +16,50 @@
       "purpose": "Definizione: Polinomio primo"
     },
     {
-      "text": "La scheda dice: si ordina il polinomio, si cercano i divisori del termine noto e si sostituiscono uno alla volta. Quello che annulla il polinomio si chiama zero.",
-      "speech": "La scheda dice: si ordina il polinomio, si cercano i divisori del termine noto e si sostituiscono uno alla volta. Quello che annulla il polinomio si chiama zero.",
+      "text": "si ordina il polinomio, si cercano i divisori del termine noto e si sostituiscono uno alla volta. Quello che annulla il polinomio si chiama zero.",
+      "speech": "si ordina il polinomio, si cercano i divisori del termine noto e si sostituiscono uno alla volta. Quello che annulla il polinomio si chiama zero.",
       "screen": "Zero del polinomio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: cerco lo zero. I divisori di sei sono più e meno uno, due, tre, sei. Con uno, meno uno e due non ottengo zero. Con meno due ottengo zero.",
-      "speech": "Passaggio uno: cerco lo zero. I divisori di sei sono più e meno uno, due, tre, sei. Con uno, meno uno e due non ottengo zero. Con meno due ottengo zero.",
+      "text": "cerco lo zero. I divisori di sei sono più e meno uno, due, tre, sei. Con uno, meno uno e due non ottengo zero. Con meno due ottengo zero.",
+      "speech": "cerco lo zero. I divisori di sei sono più e meno uno, due, tre, sei. Con uno, meno uno e due non ottengo zero. Con meno due ottengo zero.",
       "screen": "Zero del polinomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: divido con Ruffini. I coefficienti sono uno, zero, meno uno e sei. In basso a sinistra scrivo meno due. L'ultima riga è uno, meno due, tre, zero.",
-      "speech": "Passaggio due: divido con Ruffini. I coefficienti sono uno, zero, meno uno e sei. In basso a sinistra scrivo meno due. L'ultima riga è uno, meno due, tre, zero.",
+      "text": "Quindi, divido con Ruffini. I coefficienti sono uno, zero, meno uno e sei. In basso a sinistra scrivo meno due. L'ultima riga è uno, meno due, tre, zero.",
+      "speech": "Quindi, divido con Ruffini. I coefficienti sono uno, zero, meno uno e sei. In basso a sinistra scrivo meno due. L'ultima riga è uno, meno due, tre, zero.",
       "screen": "Zero del polinomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla seconda meno due ics più tre, per ics più due.",
-      "speech": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a __X__ alla seconda meno due __X__ più tre, per __X__ più due.",
+      "text": "Infine, scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla seconda meno due ics più tre, per ics più due.",
+      "speech": "Infine, scrivo il risultato. Il resto è zero. Il polinomio è uguale a __X__ alla seconda meno due __X__ più tre, per __X__ più due.",
       "screen": "Zero del polinomio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: se un polinomio non rientra negli altri metodi, si può provare con Ruffini. Nella griglia si scrive lo zero del polinomio. Il resto deve essere zero.",
-      "speech": "La scheda dice: se un polinomio non rientra negli altri metodi, si può provare con Ruffini. Nella griglia si scrive lo zero del polinomio. Il resto deve essere zero.",
+      "text": "se un polinomio non rientra negli altri metodi, si può provare con Ruffini. Nella griglia si scrive lo zero del polinomio. Il resto deve essere zero.",
+      "speech": "se un polinomio non rientra negli altri metodi, si può provare con Ruffini. Nella griglia si scrive lo zero del polinomio. Il resto deve essere zero.",
       "screen": "Polinomio primo",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: ordino il polinomio e cerco lo zero tra i divisori di meno sei. Con meno uno ottengo zero.",
-      "speech": "Passaggio uno: ordino il polinomio e cerco lo zero tra i divisori di meno sei. Con meno uno ottengo zero.",
+      "text": "ordino il polinomio e cerco lo zero tra i divisori di meno sei. Con meno uno ottengo zero.",
+      "speech": "ordino il polinomio e cerco lo zero tra i divisori di meno sei. Con meno uno ottengo zero.",
       "screen": "Polinomio primo",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: divido con Ruffini. I coefficienti sono uno, cinque, cinque, meno cinque e meno sei. L'ultima riga è uno, quattro, uno, meno sei, zero.",
-      "speech": "Passaggio due: divido con Ruffini. I coefficienti sono uno, cinque, cinque, meno cinque e meno sei. L'ultima riga è uno, quattro, uno, meno sei, zero.",
+      "text": "Quindi, divido con Ruffini. I coefficienti sono uno, cinque, cinque, meno cinque e meno sei. L'ultima riga è uno, quattro, uno, meno sei, zero.",
+      "speech": "Quindi, divido con Ruffini. I coefficienti sono uno, cinque, cinque, meno cinque e meno sei. L'ultima riga è uno, quattro, uno, meno sei, zero.",
       "screen": "Polinomio primo",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla terza più quattro ics alla seconda più ics meno sei, per ics più uno.",
-      "speech": "Passaggio tre: scrivo il risultato. Il resto è zero. Il polinomio è uguale a __X__ alla terza più quattro __X__ alla seconda più __X__ meno sei, per __X__ più uno.",
+      "text": "Infine, scrivo il risultato. Il resto è zero. Il polinomio è uguale a ics alla terza più quattro ics alla seconda più ics meno sei, per ics più uno.",
+      "speech": "Infine, scrivo il risultato. Il resto è zero. Il polinomio è uguale a __X__ alla terza più quattro __X__ alla seconda più __X__ meno sei, per __X__ più uno.",
       "screen": "Polinomio primo",
       "purpose": "Esempio, passaggio 3"
     },

@@ -34,122 +34,122 @@
       "purpose": "Definizione: Disequazione biquadratica e trinomia"
     },
     {
-      "text": "La scheda dice: con enne pari ci sono due soluzioni opposte, solo se il radicando non è negativo. Con enne dispari c'è sempre una sola soluzione.",
-      "speech": "La scheda dice: con enne pari ci sono due soluzioni opposte, solo se il radicando non è negativo. Con enne dispari c'è sempre una sola soluzione.",
+      "text": "con enne pari ci sono due soluzioni opposte, solo se il radicando non è negativo. Con enne dispari c'è sempre una sola soluzione.",
+      "speech": "con enne pari ci sono due soluzioni opposte, solo se il radicando non è negativo. Con enne dispari c'è sempre una sola soluzione.",
       "screen": "Equazione binomia",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: ricavo due ics alla terza uguale a sedici. L'esponente tre è dispari.",
-      "speech": "Passaggio uno: ricavo due __X__ alla terza uguale a sedici. L'esponente tre è dispari.",
+      "text": "ricavo due ics alla terza uguale a sedici. L'esponente tre è dispari.",
+      "speech": "ricavo due __X__ alla terza uguale a sedici. L'esponente tre è dispari.",
       "screen": "Equazione binomia",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: divido per due. Ottengo ics alla terza uguale a otto.",
-      "speech": "Passaggio due: divido per due. Ottengo __X__ alla terza uguale a otto.",
+      "text": "Quindi, divido per due. Ottengo ics alla terza uguale a otto.",
+      "speech": "Quindi, divido per due. Ottengo __X__ alla terza uguale a otto.",
       "screen": "Equazione binomia",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: estraggo la radice cubica. Ics è uguale a due.",
-      "speech": "Passaggio tre: estraggo la radice cubica. __X__ è uguale a due.",
+      "text": "Infine, estraggo la radice cubica. Ics è uguale a due.",
+      "speech": "Infine, estraggo la radice cubica. __X__ è uguale a due.",
       "screen": "Equazione binomia",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si sostituisce ics alla seconda con ti, si risolve in ti, poi si torna a ics con due equazioni binomie.",
-      "speech": "La scheda dice: si sostituisce __X__ alla seconda con ti, si risolve in ti, poi si torna a __X__ con due equazioni binomie.",
+      "text": "si sostituisce ics alla seconda con ti, si risolve in ti, poi si torna a ics con due equazioni binomie.",
+      "speech": "si sostituisce __X__ alla seconda con ti, si risolve in ti, poi si torna a __X__ con due equazioni binomie.",
       "screen": "Equazione biquadratica",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: sostituisco ics alla seconda con ti. Ottengo ti alla seconda meno otto ti più sette uguale a zero.",
-      "speech": "Passaggio uno: sostituisco __X__ alla seconda con ti. Ottengo ti alla seconda meno otto ti più sette uguale a zero.",
+      "text": "sostituisco ics alla seconda con ti. Ottengo ti alla seconda meno otto ti più sette uguale a zero.",
+      "speech": "sostituisco __X__ alla seconda con ti. Ottengo ti alla seconda meno otto ti più sette uguale a zero.",
       "screen": "Equazione biquadratica",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: risolvo in ti. Le soluzioni sono uno e sette, entrambe positive.",
-      "speech": "Passaggio due: risolvo in ti. Le soluzioni sono uno e sette, entrambe positive.",
+      "text": "Quindi, risolvo in ti. Le soluzioni sono uno e sette, entrambe positive.",
+      "speech": "Quindi, risolvo in ti. Le soluzioni sono uno e sette, entrambe positive.",
       "screen": "Equazione biquadratica",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: torno a ics. Ottengo più o meno uno, e più o meno radice di sette.",
-      "speech": "Passaggio tre: torno a __X__. Ottengo più o meno uno, e più o meno radice di sette.",
+      "text": "Infine, torno a ics. Ottengo più o meno uno, e più o meno radice di sette.",
+      "speech": "Infine, torno a __X__. Ottengo più o meno uno, e più o meno radice di sette.",
       "screen": "Equazione biquadratica",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si sostituisce ics alla enne con ti, si risolve in ti e si risolvono due equazioni binomie.",
-      "speech": "La scheda dice: si sostituisce __X__ alla enne con ti, si risolve in ti e si risolvono due equazioni binomie.",
+      "text": "si sostituisce ics alla enne con ti, si risolve in ti e si risolvono due equazioni binomie.",
+      "speech": "si sostituisce __X__ alla enne con ti, si risolve in ti e si risolvono due equazioni binomie.",
       "screen": "Equazione trinomia",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: sostituisco ics alla terza con ti. Ottengo ti alla seconda meno due ti meno otto uguale a zero.",
-      "speech": "Passaggio uno: sostituisco __X__ alla terza con ti. Ottengo ti alla seconda meno due ti meno otto uguale a zero.",
+      "text": "sostituisco ics alla terza con ti. Ottengo ti alla seconda meno due ti meno otto uguale a zero.",
+      "speech": "sostituisco __X__ alla terza con ti. Ottengo ti alla seconda meno due ti meno otto uguale a zero.",
       "screen": "Equazione trinomia",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: risolvo in ti. Le soluzioni sono meno due e quattro.",
-      "speech": "Passaggio due: risolvo in ti. Le soluzioni sono meno due e quattro.",
+      "text": "Quindi, risolvo in ti. Le soluzioni sono meno due e quattro.",
+      "speech": "Quindi, risolvo in ti. Le soluzioni sono meno due e quattro.",
       "screen": "Equazione trinomia",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: torno a ics. Ottengo radice cubica di meno due, e radice cubica di quattro.",
-      "speech": "Passaggio tre: torno a __X__. Ottengo radice cubica di meno due, e radice cubica di quattro.",
+      "text": "Infine, torno a ics. Ottengo radice cubica di meno due, e radice cubica di quattro.",
+      "speech": "Infine, torno a __X__. Ottengo radice cubica di meno due, e radice cubica di quattro.",
       "screen": "Equazione trinomia",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con enne pari si risolve l'equazione associata e si usa la tabella. Con enne dispari si isola ics alla enne e si estrae la radice.",
-      "speech": "La scheda dice: con enne pari si risolve l'equazione associata e si usa la tabella. Con enne dispari si isola __X__ alla enne e si estrae la radice.",
+      "text": "con enne pari si risolve l'equazione associata e si usa la tabella. Con enne dispari si isola ics alla enne e si estrae la radice.",
+      "speech": "con enne pari si risolve l'equazione associata e si usa la tabella. Con enne dispari si isola __X__ alla enne e si estrae la radice.",
       "screen": "Disequazione binomia",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: scrivo l'equazione associata, perché enne è pari.",
-      "speech": "Passaggio uno: scrivo l'equazione associata, perché enne è pari.",
+      "text": "scrivo l'equazione associata, perché enne è pari.",
+      "speech": "scrivo l'equazione associata, perché enne è pari.",
       "screen": "Disequazione binomia",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: ottengo ics uguale a più o meno radice quarta di due. Il delta è positivo.",
-      "speech": "Passaggio due: ottengo __X__ uguale a più o meno radice quarta di due. Il delta è positivo.",
+      "text": "Quindi, ottengo ics uguale a più o meno radice quarta di due. Il delta è positivo.",
+      "speech": "Quindi, ottengo __X__ uguale a più o meno radice quarta di due. Il delta è positivo.",
       "screen": "Disequazione binomia",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: ics minore di meno radice quarta di due, oppure maggiore di radice quarta di due.",
-      "speech": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: __X__ minore di meno radice quarta di due, oppure maggiore di radice quarta di due.",
+      "text": "Infine, il segno è maggiore, quindi prendo i valori esterni: ics minore di meno radice quarta di due, oppure maggiore di radice quarta di due.",
+      "speech": "Infine, il segno è maggiore, quindi prendo i valori esterni: __X__ minore di meno radice quarta di due, oppure maggiore di radice quarta di due.",
       "screen": "Disequazione binomia",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: si sostituisce con ti, si risolve la disequazione in ti, poi si torna a ics con due disequazioni binomie.",
-      "speech": "La scheda dice: si sostituisce con ti, si risolve la disequazione in ti, poi si torna a __X__ con due disequazioni binomie.",
+      "text": "si sostituisce con ti, si risolve la disequazione in ti, poi si torna a ics con due disequazioni binomie.",
+      "speech": "si sostituisce con ti, si risolve la disequazione in ti, poi si torna a __X__ con due disequazioni binomie.",
       "screen": "Disequazione biquadratica e trinomia",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: sostituisco ics alla seconda con ti. Ottengo una disequazione di secondo grado in ti.",
-      "speech": "Passaggio uno: sostituisco __X__ alla seconda con ti. Ottengo una disequazione di secondo grado in ti.",
+      "text": "sostituisco ics alla seconda con ti. Ottengo una disequazione di secondo grado in ti.",
+      "speech": "sostituisco __X__ alla seconda con ti. Ottengo una disequazione di secondo grado in ti.",
       "screen": "Disequazione biquadratica e trinomia",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: le radici sono uno e sette. Prendo i valori esterni: ti minore di uno, oppure ti maggiore di sette.",
-      "speech": "Passaggio due: le radici sono uno e sette. Prendo i valori esterni: ti minore di uno, oppure ti maggiore di sette.",
+      "text": "Quindi, le radici sono uno e sette. Prendo i valori esterni: ti minore di uno, oppure ti maggiore di sette.",
+      "speech": "Quindi, le radici sono uno e sette. Prendo i valori esterni: ti minore di uno, oppure ti maggiore di sette.",
       "screen": "Disequazione biquadratica e trinomia",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: risolvo le due binomie. Ics tra meno uno e uno, oppure ics minore di meno radice di sette, oppure maggiore di radice di sette.",
-      "speech": "Passaggio tre: risolvo le due binomie. __X__ tra meno uno e uno, oppure __X__ minore di meno radice di sette, oppure maggiore di radice di sette.",
+      "text": "Infine, risolvo le due binomie. Ics tra meno uno e uno, oppure ics minore di meno radice di sette, oppure maggiore di radice di sette.",
+      "speech": "Infine, risolvo le due binomie. __X__ tra meno uno e uno, oppure __X__ minore di meno radice di sette, oppure maggiore di radice di sette.",
       "screen": "Disequazione biquadratica e trinomia",
       "purpose": "Esempio, passaggio 3"
     },

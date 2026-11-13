@@ -46,170 +46,170 @@
       "purpose": "Definizione: Allineamento di tre punti"
     },
     {
-      "text": "La scheda dice: O è l'origine, l'asse ics è delle ascisse, l'asse ipsilon delle ordinate. Ogni punto ha un'ascissa e un'ordinata.",
-      "speech": "La scheda dice: O è l'origine, l'asse __X__ è delle ascisse, l'asse ipsilon delle ordinate. Ogni punto ha un'ascissa e un'ordinata.",
+      "text": "O è l'origine, l'asse ics è delle ascisse, l'asse ipsilon delle ordinate. Ogni punto ha un'ascissa e un'ordinata.",
+      "speech": "O è l'origine, l'asse __X__ è delle ascisse, l'asse ipsilon delle ordinate. Ogni punto ha un'ascissa e un'ordinata.",
       "screen": "Assi cartesiani e punti",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco il punto pi, con due numeri tra parentesi.",
-      "speech": "Passaggio uno: riconosco il punto pi, con due numeri tra parentesi.",
+      "text": "riconosco il punto pi, con due numeri tra parentesi.",
+      "speech": "riconosco il punto pi, con due numeri tra parentesi.",
       "screen": "Assi cartesiani e punti",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: il primo numero è l'ascissa, due. Il secondo è l'ordinata, tre.",
-      "speech": "Passaggio due: il primo numero è l'ascissa, due. Il secondo è l'ordinata, tre.",
+      "text": "Quindi, il primo numero è l'ascissa, due. Il secondo è l'ordinata, tre.",
+      "speech": "Quindi, il primo numero è l'ascissa, due. Il secondo è l'ordinata, tre.",
       "screen": "Assi cartesiani e punti",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il punto ha ascissa due e ordinata tre.",
-      "speech": "Passaggio tre: il punto ha ascissa due e ordinata tre.",
+      "text": "Infine, il punto ha ascissa due e ordinata tre.",
+      "speech": "Infine, il punto ha ascissa due e ordinata tre.",
       "screen": "Assi cartesiani e punti",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: la distanza AB è l'ipotenusa del triangolo rettangolo ABC e si calcola con il teorema di Pitagora.",
-      "speech": "La scheda dice: la distanza AB è l'ipotenusa del triangolo rettangolo ABC e si calcola con il teorema di Pitagora.",
+      "text": "la distanza AB è l'ipotenusa del triangolo rettangolo ABC e si calcola con il teorema di Pitagora.",
+      "speech": "la distanza AB è l'ipotenusa del triangolo rettangolo ABC e si calcola con il teorema di Pitagora.",
       "screen": "Distanza tra due punti",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: calcolo le differenze. Cinque meno uno fa quattro. Cinque meno due fa tre.",
-      "speech": "Passaggio uno: calcolo le differenze. Cinque meno uno fa quattro. Cinque meno due fa tre.",
+      "text": "calcolo le differenze. Cinque meno uno fa quattro. Cinque meno due fa tre.",
+      "speech": "calcolo le differenze. Cinque meno uno fa quattro. Cinque meno due fa tre.",
       "screen": "Distanza tra due punti",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: faccio i quadrati. Sedici più nove fa venticinque.",
-      "speech": "Passaggio due: faccio i quadrati. Sedici più nove fa venticinque.",
+      "text": "Quindi, faccio i quadrati. Sedici più nove fa venticinque.",
+      "speech": "Quindi, faccio i quadrati. Sedici più nove fa venticinque.",
       "screen": "Distanza tra due punti",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: estraggo la radice. La distanza è cinque.",
-      "speech": "Passaggio tre: estraggo la radice. La distanza è cinque.",
+      "text": "Infine, estraggo la radice. La distanza è cinque.",
+      "speech": "Infine, estraggo la radice. La distanza è cinque.",
       "screen": "Distanza tra due punti",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: il punto medio ha coordinate uguali alla media delle coordinate degli estremi. Bi è il simmetrico di A rispetto a emme.",
-      "speech": "La scheda dice: il punto medio ha coordinate uguali alla media delle coordinate degli estremi. Bi è il simmetrico di A rispetto a emme.",
+      "text": "il punto medio ha coordinate uguali alla media delle coordinate degli estremi. Bi è il simmetrico di A rispetto a emme.",
+      "speech": "il punto medio ha coordinate uguali alla media delle coordinate degli estremi. Bi è il simmetrico di A rispetto a emme.",
       "screen": "Punto medio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco le coordinate degli estremi.",
-      "speech": "Passaggio uno: riconosco le coordinate degli estremi.",
+      "text": "riconosco le coordinate degli estremi.",
+      "speech": "riconosco le coordinate degli estremi.",
       "screen": "Punto medio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: sommo le ascisse e divido per due. Faccio lo stesso con le ordinate.",
-      "speech": "Passaggio due: sommo le ascisse e divido per due. Faccio lo stesso con le ordinate.",
+      "text": "Quindi, sommo le ascisse e divido per due. Faccio lo stesso con le ordinate.",
+      "speech": "Quindi, sommo le ascisse e divido per due. Faccio lo stesso con le ordinate.",
       "screen": "Punto medio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il punto medio è emme di coordinate tre e quattro.",
-      "speech": "Passaggio tre: il punto medio è emme di coordinate tre e quattro.",
+      "text": "Infine, il punto medio è emme di coordinate tre e quattro.",
+      "speech": "Infine, il punto medio è emme di coordinate tre e quattro.",
       "screen": "Punto medio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: il punto pi divide il segmento in parti proporzionali a kappa. Con il punto medio le formule si riducono a quelle già viste.",
-      "speech": "La scheda dice: il punto pi divide il segmento in parti proporzionali a kappa. Con il punto medio le formule si riducono a quelle già viste.",
+      "text": "il punto pi divide il segmento in parti proporzionali a kappa. Con il punto medio le formule si riducono a quelle già viste.",
+      "speech": "il punto pi divide il segmento in parti proporzionali a kappa. Con il punto medio le formule si riducono a quelle già viste.",
       "screen": "Dividere un segmento in parti proporzionali",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco kappa, uguale a un quarto.",
-      "speech": "Passaggio uno: riconosco kappa, uguale a un quarto.",
+      "text": "riconosco kappa, uguale a un quarto.",
+      "speech": "riconosco kappa, uguale a un quarto.",
       "screen": "Dividere un segmento in parti proporzionali",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: applico le formule alle due coordinate.",
-      "speech": "Passaggio due: applico le formule alle due coordinate.",
+      "text": "Quindi, applico le formule alle due coordinate.",
+      "speech": "Quindi, applico le formule alle due coordinate.",
       "screen": "Dividere un segmento in parti proporzionali",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il punto è pi di coordinate uno e due.",
-      "speech": "Passaggio tre: il punto è pi di coordinate uno e due.",
+      "text": "Infine, il punto è pi di coordinate uno e due.",
+      "speech": "Infine, il punto è pi di coordinate uno e due.",
       "screen": "Dividere un segmento in parti proporzionali",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: il baricentro è il punto di incontro delle mediane. Le sue coordinate sono la media delle tre ascisse e delle tre ordinate.",
-      "speech": "La scheda dice: il baricentro è il punto di incontro delle mediane. Le sue coordinate sono la media delle tre ascisse e delle tre ordinate.",
+      "text": "il baricentro è il punto di incontro delle mediane. Le sue coordinate sono la media delle tre ascisse e delle tre ordinate.",
+      "speech": "il baricentro è il punto di incontro delle mediane. Le sue coordinate sono la media delle tre ascisse e delle tre ordinate.",
       "screen": "Baricentro",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco le coordinate dei tre vertici.",
-      "speech": "Passaggio uno: riconosco le coordinate dei tre vertici.",
+      "text": "riconosco le coordinate dei tre vertici.",
+      "speech": "riconosco le coordinate dei tre vertici.",
       "screen": "Baricentro",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: sommo e divido per tre. Ottengo nove diviso tre, per entrambe.",
-      "speech": "Passaggio due: sommo e divido per tre. Ottengo nove diviso tre, per entrambe.",
+      "text": "Quindi, sommo e divido per tre. Ottengo nove diviso tre, per entrambe.",
+      "speech": "Quindi, sommo e divido per tre. Ottengo nove diviso tre, per entrambe.",
       "screen": "Baricentro",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il baricentro è gi di coordinate tre e tre.",
-      "speech": "Passaggio tre: il baricentro è gi di coordinate tre e tre.",
+      "text": "Infine, il baricentro è gi di coordinate tre e tre.",
+      "speech": "Infine, il baricentro è gi di coordinate tre e tre.",
       "screen": "Baricentro",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: l'area è un mezzo del valore assoluto del determinante. In alternativa si sottraggono tre triangoli dal rettangolo circoscritto.",
-      "speech": "La scheda dice: l'area è un mezzo del valore assoluto del determinante. In alternativa si sottraggono tre triangoli dal rettangolo circoscritto.",
+      "text": "l'area è un mezzo del valore assoluto del determinante. In alternativa si sottraggono tre triangoli dal rettangolo circoscritto.",
+      "speech": "l'area è un mezzo del valore assoluto del determinante. In alternativa si sottraggono tre triangoli dal rettangolo circoscritto.",
       "screen": "Area di un triangolo",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco i tre vertici del triangolo.",
-      "speech": "Passaggio uno: riconosco i tre vertici del triangolo.",
+      "text": "riconosco i tre vertici del triangolo.",
+      "speech": "riconosco i tre vertici del triangolo.",
       "screen": "Area di un triangolo",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: quasi tutti i prodotti valgono zero. Resta quattro per tre, cioè dodici.",
-      "speech": "Passaggio due: quasi tutti i prodotti valgono zero. Resta quattro per tre, cioè dodici.",
+      "text": "Quindi, quasi tutti i prodotti valgono zero. Resta quattro per tre, cioè dodici.",
+      "speech": "Quindi, quasi tutti i prodotti valgono zero. Resta quattro per tre, cioè dodici.",
       "screen": "Area di un triangolo",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: divido per due. L'area è sei.",
-      "speech": "Passaggio tre: divido per due. L'area è sei.",
+      "text": "Infine, divido per due. L'area è sei.",
+      "speech": "Infine, divido per due. L'area è sei.",
       "screen": "Area di un triangolo",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: se l'area è uguale a zero i punti sono allineati. Oppure se la somma di AB e BC è uguale ad AC.",
-      "speech": "La scheda dice: se l'area è uguale a zero i punti sono allineati. Oppure se la somma di AB e BC è uguale ad AC.",
+      "text": "se l'area è uguale a zero i punti sono allineati. Oppure se la somma di AB e BC è uguale ad AC.",
+      "speech": "se l'area è uguale a zero i punti sono allineati. Oppure se la somma di AB e BC è uguale ad AC.",
       "screen": "Allineamento di tre punti",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco i tre punti.",
-      "speech": "Passaggio uno: riconosco i tre punti.",
+      "text": "riconosco i tre punti.",
+      "speech": "riconosco i tre punti.",
       "screen": "Allineamento di tre punti",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: il determinante vale due meno due, cioè zero.",
-      "speech": "Passaggio due: il determinante vale due meno due, cioè zero.",
+      "text": "Quindi, il determinante vale due meno due, cioè zero.",
+      "speech": "Quindi, il determinante vale due meno due, cioè zero.",
       "screen": "Allineamento di tre punti",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: l'area è zero, quindi i punti sono allineati.",
-      "speech": "Passaggio tre: l'area è zero, quindi i punti sono allineati.",
+      "text": "Infine, l'area è zero, quindi i punti sono allineati.",
+      "speech": "Infine, l'area è zero, quindi i punti sono allineati.",
       "screen": "Allineamento di tre punti",
       "purpose": "Esempio, passaggio 3"
     },

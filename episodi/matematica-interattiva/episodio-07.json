@@ -28,98 +28,98 @@
       "purpose": "Definizione: Disequazioni immediate"
     },
     {
-      "text": "La scheda dice: con delta positivo e segno maggiore, valori esterni alle radici. Con segno minore, valori interni. Con maggiore o uguale, gli estremi sono compresi.",
-      "speech": "La scheda dice: con delta positivo e segno maggiore, valori esterni alle radici. Con segno minore, valori interni. Con maggiore o uguale, gli estremi sono compresi.",
+      "text": "con delta positivo e segno maggiore, valori esterni alle radici. Con segno minore, valori interni. Con maggiore o uguale, gli estremi sono compresi.",
+      "speech": "con delta positivo e segno maggiore, valori esterni alle radici. Con segno minore, valori interni. Con maggiore o uguale, gli estremi sono compresi.",
       "screen": "Delta positivo",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
-      "speech": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "text": "scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "speech": "scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
       "screen": "Delta positivo",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: il delta è uno. Le radici sono due e tre, reali e distinte.",
-      "speech": "Passaggio due: il delta è uno. Le radici sono due e tre, reali e distinte.",
+      "text": "Quindi, il delta è uno. Le radici sono due e tre, reali e distinte.",
+      "speech": "Quindi, il delta è uno. Le radici sono due e tre, reali e distinte.",
       "screen": "Delta positivo",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: ics minore di due, oppure ics maggiore di tre.",
-      "speech": "Passaggio tre: il segno è maggiore, quindi prendo i valori esterni: __X__ minore di due, oppure __X__ maggiore di tre.",
+      "text": "Infine, il segno è maggiore, quindi prendo i valori esterni: ics minore di due, oppure ics maggiore di tre.",
+      "speech": "Infine, il segno è maggiore, quindi prendo i valori esterni: __X__ minore di due, oppure __X__ maggiore di tre.",
       "screen": "Delta positivo",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con delta zero il primo membro è il quadrato di un binomio. Con segno maggiore, tutti i numeri tranne la radice. Con segno minore, nessuna soluzione.",
-      "speech": "La scheda dice: con delta zero il primo membro è il quadrato di un binomio. Con segno maggiore, tutti i numeri tranne la radice. Con segno minore, nessuna soluzione.",
+      "text": "con delta zero il primo membro è il quadrato di un binomio. Con segno maggiore, tutti i numeri tranne la radice. Con segno minore, nessuna soluzione.",
+      "speech": "con delta zero il primo membro è il quadrato di un binomio. Con segno maggiore, tutti i numeri tranne la radice. Con segno minore, nessuna soluzione.",
       "screen": "Delta uguale a zero",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
-      "speech": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "text": "scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "speech": "scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
       "screen": "Delta uguale a zero",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: il delta è zero. Le radici sono coincidenti, uguali a uno.",
-      "speech": "Passaggio due: il delta è zero. Le radici sono coincidenti, uguali a uno.",
+      "text": "Quindi, il delta è zero. Le radici sono coincidenti, uguali a uno.",
+      "speech": "Quindi, il delta è zero. Le radici sono coincidenti, uguali a uno.",
       "screen": "Delta uguale a zero",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il segno è maggiore, quindi tutti i numeri tranne uno.",
-      "speech": "Passaggio tre: il segno è maggiore, quindi tutti i numeri tranne uno.",
+      "text": "Infine, il segno è maggiore, quindi tutti i numeri tranne uno.",
+      "speech": "Infine, il segno è maggiore, quindi tutti i numeri tranne uno.",
       "screen": "Delta uguale a zero",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: con delta negativo, se il segno è maggiore vanno bene tutti i numeri reali. Se il segno è minore, non c'è nessuna soluzione.",
-      "speech": "La scheda dice: con delta negativo, se il segno è maggiore vanno bene tutti i numeri reali. Se il segno è minore, non c'è nessuna soluzione.",
+      "text": "con delta negativo, se il segno è maggiore vanno bene tutti i numeri reali. Se il segno è minore, non c'è nessuna soluzione.",
+      "speech": "con delta negativo, se il segno è maggiore vanno bene tutti i numeri reali. Se il segno è minore, non c'è nessuna soluzione.",
       "screen": "Delta negativo",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
-      "speech": "Passaggio uno: scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "text": "scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
+      "speech": "scrivo l'equazione associata. A è uno, quindi è maggiore di zero.",
       "screen": "Delta negativo",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: il delta è meno quarantasette. Non ci sono soluzioni reali.",
-      "speech": "Passaggio due: il delta è meno quarantasette. Non ci sono soluzioni reali.",
+      "text": "Quindi, il delta è meno quarantasette. Non ci sono soluzioni reali.",
+      "speech": "Quindi, il delta è meno quarantasette. Non ci sono soluzioni reali.",
       "screen": "Delta negativo",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il segno è maggiore, quindi vanno bene tutti i numeri reali.",
-      "speech": "Passaggio tre: il segno è maggiore, quindi vanno bene tutti i numeri reali.",
+      "text": "Infine, il segno è maggiore, quindi vanno bene tutti i numeri reali.",
+      "speech": "Infine, il segno è maggiore, quindi vanno bene tutti i numeri reali.",
       "screen": "Delta negativo",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "La scheda dice: ics alla seconda maggiore di zero vale per ics diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
-      "speech": "La scheda dice: __X__ alla seconda maggiore di zero vale per __X__ diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
+      "text": "ics alla seconda maggiore di zero vale per ics diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
+      "speech": "__X__ alla seconda maggiore di zero vale per __X__ diverso da zero. Minore di zero non ha soluzioni. Minore o uguale a zero vale solo per zero.",
       "screen": "Disequazioni immediate",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "Passaggio uno: riconosco la disequazione immediata. Al primo membro c'è solo ics alla seconda.",
-      "speech": "Passaggio uno: riconosco la disequazione immediata. Al primo membro c'è solo __X__ alla seconda.",
+      "text": "riconosco la disequazione immediata. Al primo membro c'è solo ics alla seconda.",
+      "speech": "riconosco la disequazione immediata. Al primo membro c'è solo __X__ alla seconda.",
       "screen": "Disequazioni immediate",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: ics alla seconda non è mai negativo. Può solo essere zero.",
-      "speech": "Passaggio due: __X__ alla seconda non è mai negativo. Può solo essere zero.",
+      "text": "Quindi, ics alla seconda non è mai negativo. Può solo essere zero.",
+      "speech": "Quindi, __X__ alla seconda non è mai negativo. Può solo essere zero.",
       "screen": "Disequazioni immediate",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato. L'unica soluzione è ics uguale a zero.",
-      "speech": "Passaggio tre: scrivo il risultato. L'unica soluzione è __X__ uguale a zero.",
+      "text": "Infine, scrivo il risultato. L'unica soluzione è ics uguale a zero.",
+      "speech": "Infine, scrivo il risultato. L'unica soluzione è __X__ uguale a zero.",
       "screen": "Disequazioni immediate",
       "purpose": "Esempio, passaggio 3"
     },

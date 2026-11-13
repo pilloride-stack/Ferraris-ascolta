@@ -1,0 +1,51 @@
+{
+  "episode": "31",
+  "title": "Le proporzioni",
+  "sentences": [
+    {
+      "text": "Studiamo le proporzioni, cioè uguaglianze tra due rapporti. Servono per confrontare quantità e trovare un valore mancante."
+    },
+    {
+      "text": "In quattordici a sette uguale sei a tre, sette e sei sono i medi; quattordici e tre sono gli estremi."
+    },
+    {
+      "text": "In ogni proporzione il prodotto dei medi è uguale al prodotto degli estremi."
+    },
+    {
+      "text": "Qui sette per sei e quattordici per tre valgono entrambi quarantadue."
+    },
+    {
+      "text": "Consideriamo dodici a x uguale sei a quattro. X è un medio.",
+      "speech": "Consideriamo dodici a __X__ uguale sei a quattro. __X__ è un medio."
+    },
+    {
+      "text": "Moltiplichiamo gli estremi: dodici per quattro è quarantotto."
+    },
+    {
+      "text": "Dividiamo per l'altro medio: quarantotto diviso sei è otto."
+    },
+    {
+      "text": "Consideriamo nove a sei uguale tre a x. X è un estremo.",
+      "speech": "Consideriamo nove a sei uguale tre a __X__. __X__ è un estremo."
+    },
+    {
+      "text": "Moltiplichiamo i medi: sei per tre è diciotto."
+    },
+    {
+      "text": "Dividiamo per l'altro estremo: diciotto diviso nove è due."
+    },
+    {
+      "text": "Ora prova a riconoscere medi ed estremi e a calcolare il termine mancante."
+    },
+    {
+      "text": "Nel laboratorio puoi modificare a, b e c. Il valore di x viene calcolato automaticamente.",
+      "speech": "Nel laboratorio puoi modificare a, bi e ci. Il valore di __X__ viene calcolato automaticamente."
+    },
+    {
+      "text": "La verifica confronta i due prodotti incrociati e mostra tutti i calcoli."
+    },
+    {
+      "text": "Completa la verifica. Per ogni proporzione controlla sempre che il prodotto dei medi coincida con quello degli estremi."
+    }
+  ]
+}
