@@ -140,7 +140,7 @@ document.head.appendChild(style);
 </style>
 <script id="stack-visible-math-fractions">
 (()=>{
-  const scope='.formula,[class*="formula"],.poly-editor,.system-lines,.stepper,.result,.solution-cards,.trig-relations,.guided-example,.example-card,.def-head,.mini-formula,.chip,.card h3,.card h4';
+  const scope='.formula,[class*="formula"],.poly-editor,.system-lines,.stepper,.result,.solution-cards,.trig-relations,.guided-example,.example-card,.def-head,.mini-formula,.chip,.card h3,.card h4,.feedback';
   const atom=String.raw`(?:[−-]?(?:√)?(?:\d+(?:[.,]\d+)?|[\p{L}π]+)[²³₀-₉]*|[\p{L}]+\([^)]*\)|\([^/\n]{1,90}\))`;
   const fraction=new RegExp(`(${atom})\s*\/\s*(${atom})`,'gu');
   function convertText(node){
@@ -180,6 +180,56 @@ document.head.appendChild(style);
   const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;render()})};
   new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,characterData:true});
   render();
+})();
+</script>
+<style id="student-friendly-quiz-feedback-style">
+.feedback[aria-live]{padding-top:4px;line-height:1.45}
+.retry-question{display:inline-block;margin:9px 0 0;border:1px solid #b8cce0;background:#fff;color:var(--b);border-radius:9px;padding:7px 11px;font-weight:800}
+.retry-question:hover,.retry-question:focus{background:#edf5fc;outline:3px solid #b9d4ef;outline-offset:2px}
+</style>
+<script id="student-friendly-quiz-feedback">
+(()=>{
+  if(typeof D==='undefined'||!Array.isArray(D.training))return;
+  document.querySelectorAll('.q').forEach((box,index)=>{
+    const item=D.training[index]||{};
+    const feedback=box.querySelector('.feedback');
+    if(!feedback)return;
+    feedback.setAttribute('aria-live','polite');
+    const buttons=[...box.querySelectorAll('.answers button')];
+    const reset=()=>{
+      buttons.forEach(button=>{button.disabled=false;button.classList.remove('correct','wrong')});
+      feedback.className='feedback';
+      feedback.replaceChildren();
+    };
+    buttons.forEach(button=>button.onclick=()=>{
+      const answer=String(item.correct??decodeURIComponent(box.dataset.correct||''));
+      const selected=button.textContent.trim();
+      const correct=selected===answer;
+      buttons.forEach(choice=>choice.disabled=true);
+      button.classList.add(correct?'correct':'wrong');
+      if(!correct){
+        const right=buttons.find(choice=>choice.textContent.trim()===answer);
+        right?.classList.add('correct');
+      }
+      feedback.className=`feedback ${correct?'good':'bad'}`;
+      const message=document.createElement('span');
+      if(correct){
+        message.textContent=`✓ Esatto. ${item.explanation||''}`;
+      }else{
+        const guidance=item.error_feedback||'Rileggi la regola e confronta i passaggi.';
+        message.textContent=`✗ Non è corretto. ${guidance} Risposta corretta: ${answer}. ${item.explanation||''}`;
+      }
+      feedback.replaceChildren(message);
+      if(!correct){
+        const retry=document.createElement('button');
+        retry.type='button';
+        retry.className='retry-question';
+        retry.textContent='Riprova questa domanda';
+        retry.onclick=reset;
+        feedback.append(document.createElement('br'),retry);
+      }
+    });
+  });
 })();
 </script>
 </body></html>
