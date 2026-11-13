@@ -255,4 +255,70 @@ document.head.appendChild(style);
   });
 })();
 </script>
+<style id="highlight-math-step-changes-style">
+.step-change{display:inline-block;background:var(--y);color:var(--b);padding:.04em .3em;border-radius:.34em;font-weight:850;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+</style>
+<script id="highlight-math-step-changes">
+(()=>{
+  function emphasize(formula){
+    if(formula.querySelector('.step-change'))return;
+    const walker=document.createTreeWalker(formula,NodeFilter.SHOW_TEXT);
+    const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+    let target=null,offset=-1;
+    nodes.forEach(node=>{
+      const equal=node.nodeValue.lastIndexOf('=');
+      const arrow=node.nodeValue.lastIndexOf('→');
+      const index=Math.max(equal,arrow);
+      if(index>=0){target=node;offset=index+1}
+    });
+    if(!target)return;
+    const range=document.createRange();
+    range.setStart(target,offset);
+    range.setEnd(formula,formula.childNodes.length);
+    const content=range.cloneContents();
+    if(!content.textContent.trim())return;
+    const extracted=range.extractContents();
+    const mark=document.createElement('span');
+    mark.className='step-change';
+    mark.append(extracted);
+    range.insertNode(mark);
+  }
+  function render(){
+    document.querySelectorAll('#example .step').forEach((step,index)=>{
+      if(index===0)return;
+      const formula=step.querySelector('.formula,.mini-formula');
+      if(formula)emphasize(formula);
+    });
+  }
+  let queued=false;
+  const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>requestAnimationFrame(()=>{queued=false;render()}))};
+  new MutationObserver(schedule).observe(document.getElementById('example')||document.body,{childList:true,subtree:true});
+  schedule();
+})();
+</script>
+<style id="label-math-example-stages-style">
+.step-stage-label{margin:10px 0 5px;color:var(--b);font-size:.76rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
+</style>
+<script id="label-math-example-stages">
+(()=>{
+  const labels=['Dati o formula di partenza','Trasformazione o sostituzione','Risultato del passaggio'];
+  function render(){
+    document.querySelectorAll('#example .stepper').forEach(stepper=>{
+      const steps=[...stepper.querySelectorAll(':scope > .step')];
+      steps.forEach((step,index)=>{
+        const formula=step.querySelector('.formula,.mini-formula');
+        if(!formula||formula.previousElementSibling?.classList.contains('step-stage-label'))return;
+        const label=document.createElement('div');
+        label.className='step-stage-label';
+        label.textContent=labels[Math.min(index,labels.length-1)];
+        formula.before(label);
+      });
+    });
+  }
+  let queued=false;
+  const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;render()})};
+  new MutationObserver(schedule).observe(document.getElementById('example')||document.body,{childList:true,subtree:true});
+  render();
+})();
+</script>
 </body></html>
