@@ -87,7 +87,7 @@
 </style>
 <script id="stack-visible-math-fractions">
 (()=>{
-  const scope='.formula,[class*="formula"],.poly-editor,.system-lines,.stepper,.result,.solution-cards,.trig-relations,.guided-example,.example-card,.def-head,.mini-formula,.chip,.card h3,.card h4';
+  const scope='.formula,[class*="formula"],.poly-editor,.system-lines,.stepper,.result,.solution-cards,.trig-relations,.guided-example,.example-card,.def-head,.mini-formula,.chip,.card h3,.card h4,.feedback';
   const atom=String.raw`(?:[−-]?(?:√)?(?:\d+(?:[.,]\d+)?|[\p{L}π]+)[²³₀-₉]*|[\p{L}]+\([^)]*\)|\([^/\n]{1,90}\))`;
   const fraction=new RegExp(`(${atom})\s*\/\s*(${atom})`,'gu');
   function convertText(node){
