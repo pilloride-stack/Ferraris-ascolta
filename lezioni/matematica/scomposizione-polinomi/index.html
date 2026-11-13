@@ -36,6 +36,7 @@ const tests=D.final_test||[],questionHTML=q=>esc(q).replaceAll('□','<span styl
 .math-frac{display:inline-grid;grid-template-rows:auto auto;vertical-align:middle;text-align:center;line-height:1.05;margin:0 .16em;white-space:nowrap}
 .math-frac>.math-num{border-bottom:1.7px solid currentColor;padding:0 .24em .1em}
 .math-frac>.math-den{padding:.1em .24em 0}
+.math-sub{font-size:.72em;vertical-align:sub;line-height:0}
 </style>
 <script id="stack-visible-math-fractions">
 (()=>{
@@ -43,7 +44,11 @@ const tests=D.final_test||[],questionHTML=q=>esc(q).replaceAll('□','<span styl
   const atom=String.raw`(?:[−-]?(?:√)?(?:\d+(?:[.,]\d+)?|[\p{L}π]+)[²³₀-₉]*|[\p{L}]+\([^)]*\)|\([^/\n]{1,90}\))`;
   const fraction=new RegExp(`(${atom})\s*\/\s*(${atom})`,'gu');
   function convertText(node){
-    const text=node.nodeValue;
+    const text=node.nodeValue
+      .replace(/\bsin(?=\s*(?:\(|[αβγx]))/gu,'sen')
+      .replace(/\(([−-]?(?:\d+(?:[.,]\d+)?|[\p{L}][₀-₉]?)),\s+([−-]?(?:\d+(?:[.,]\d+)?|[\p{L}][₀-₉]?))\)/gu,'($1; $2)')
+      .replace(/\b([A-Z])\(([−-]?\d+(?:[.,]\d+)?),([−-]?\d+(?:[.,]\d+)?)\)/gu,'$1($2; $3)');
+    if(text!==node.nodeValue)node.nodeValue=text;
     fraction.lastIndex=0;
     if(!text||!fraction.test(text))return;
     fraction.lastIndex=0;
@@ -66,6 +71,20 @@ const tests=D.final_test||[],questionHTML=q=>esc(q).replaceAll('□','<span styl
     frag.append(text.slice(last));
     node.replaceWith(frag);
   }
+  function convertSubscripts(host){
+    const walker=document.createTreeWalker(host,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement?.closest('script,style,textarea,option,sub')||!/_([A-Za-z0-9])/u.test(n.nodeValue||'')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+    const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+    nodes.forEach(node=>{
+      const text=node.nodeValue,frag=document.createDocumentFragment();
+      let last=0,match,re=/_([A-Za-z0-9])/gu;
+      while((match=re.exec(text))){
+        frag.append(text.slice(last,match.index));
+        const sub=document.createElement('sub');sub.className='math-sub';sub.textContent=match[1];frag.append(sub);
+        last=match.index+match[0].length;
+      }
+      frag.append(text.slice(last));node.replaceWith(frag);
+    });
+  }
   function render(root=document){
     const hosts=[];
     if(root.nodeType===1&&root.matches?.(scope))hosts.push(root);
@@ -73,6 +92,7 @@ const tests=D.final_test||[],questionHTML=q=>esc(q).replaceAll('□','<span styl
     hosts.forEach(host=>{
       const walker=document.createTreeWalker(host,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement?.closest('.math-frac,script,style,textarea,option')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
       const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);nodes.forEach(convertText);
+      convertSubscripts(host);
     });
   }
   let queued=false;
