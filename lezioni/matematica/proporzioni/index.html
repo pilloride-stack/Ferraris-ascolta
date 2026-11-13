@@ -39,6 +39,14 @@ main{padding-bottom:140px}
   .actions button{min-width:0;flex:1 1 120px}
 }
 </style>
+<style id="calm-student-motion">
+.screen.active{animation:none!important}
+.step{transition:none!important}
+.flow-arrow{animation:none!important;width:42px!important}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
 </head>
 <body><button type="button" aria-label="Torna all’indice" onclick="window.top.location.href='https://sites.google.com/galileoferraris.com/materiali/materie/matematica/mate12/episodimate12'" style="position:fixed;left:12px;bottom:12px;z-index:9999;border:0;border-radius:999px;padding:11px 16px;background:#ffd429;color:#073b82;box-shadow:0 5px 18px #001a3f35;font:800 15px/1.2 system-ui,-apple-system,Segoe UI,sans-serif;cursor:pointer">← Torna all’indice</button>
 <header><div class="wrap"><div class="hero"><span class="kicker">MATEMATICA</span><h1>Le <span>proporzioni</span></h1><p>Riconosci medi ed estremi, trova il termine mancante e verifica il risultato.</p><button class="primary start" onclick="go(1)">Cominciamo →</button></div></div></header>
@@ -122,6 +130,26 @@ const sliders=[a,b,c];function neat(n){return Number.isInteger(n)?n:n.toFixed(2)
   const schedule=()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;render()})};
   new MutationObserver(schedule).observe(document.body,{childList:true,subtree:true,characterData:true});
   render();
+})();
+</script>
+<style id="final-learning-summary-style">
+.learning-summary{margin:18px 0;background:#edf5fc;border:1px solid #cfe0ef;border-left:7px solid var(--y);border-radius:16px;padding:18px}
+.learning-summary h3{margin:0 0 10px;color:var(--b)}
+.learning-summary ul{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.learning-summary li{position:relative;padding-left:29px}
+.learning-summary li::before{content:'✓';position:absolute;left:0;top:0;display:grid;place-items:center;width:21px;height:21px;border-radius:50%;background:var(--y);color:var(--b);font-weight:950}
+</style>
+<script id="final-learning-summary">
+(()=>{
+  if(typeof D==='undefined'||!Array.isArray(D.objectives))return;
+  const screen=[...document.querySelectorAll('.screen')].find(x=>x.dataset.title==='Verifica');
+  if(!screen||screen.querySelector('.learning-summary'))return;
+  const box=document.createElement('section');
+  box.className='learning-summary';
+  box.setAttribute('aria-label','Riepilogo della lezione');
+  box.innerHTML='<h3>Riepilogo finale</h3><ul>'+D.objectives.map(x=>`<li>${x}</li>`).join('')+'</ul>';
+  const verify=screen.querySelector('#verify');
+  if(verify)verify.before(box);else screen.append(box);
 })();
 </script>
 </body></html>
