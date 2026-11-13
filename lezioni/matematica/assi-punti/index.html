@@ -33,6 +33,14 @@ main{padding-bottom:140px}
   .actions button{min-width:0;flex:1 1 120px}
 }
 </style>
+<style id="calm-student-motion">
+.screen.active{animation:none!important}
+.step{transition:none!important}
+.flow-arrow{animation:none!important;width:42px!important}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
 </head><body>
 <header><div class="wrap"><div class="hero"><span class="kicker">MATEMATICA</span><h1>Assi e punti</h1><p>Leggere le coordinate. Calcolare distanza e punto medio. Calcolare il baricentro.</p><button class="primary start" onclick="go(1)">Cominciamo →</button></div></div></header><div class="progress-shell"><div class="progress"><i id="bar"></i></div><nav class="wrap nav" id="nav"><a href="https://sites.google.com/galileoferraris.com/materiali/materie/matematica/mate3/episodimate3" style="position:sticky;left:0;z-index:2;white-space:nowrap;background:var(--y);color:var(--b);padding:8px 12px;border:0;border-radius:99px;font-size:.82rem;font-weight:850;text-decoration:none">Torna all’indice</a></nav></div>
 <main class="wrap"><section class="screen active" data-title="Obiettivi"><span class="eyebrow">In questa lezione</span><h2>Che cosa imparerai</h2><div id="objectives" class="stepper"></div><div class="actions"><button class="primary next" onclick="go(1)">Definizioni →</button></div></section>
@@ -388,6 +396,26 @@ document.head.appendChild(style);
   function radical(n){if(!Number.isInteger(n)||n<0)return null;let outside=1,inside=n;for(let k=Math.floor(Math.sqrt(n));k>=2;k--)if(n%(k*k)===0){outside=k;inside=n/(k*k);break}if(inside===1)return String(outside);return`${outside===1?'':outside}√${inside}`}
   function exact(){const ids=['x1','y1','x2','y2'],v=ids.map(id=>Number(document.getElementById('l34-'+id)?.value));if(v.some(x=>!Number.isFinite(x)))return;const d2=(v[2]-v[0])**2+(v[3]-v[1])**2,ex=radical(d2),out=document.getElementById('labResults');if(!out||!ex)return;const rows=[...out.querySelectorAll('.result-list>div,.result-list div')],row=rows.find(x=>x.querySelector('span,b')?.textContent.trim()==='Distanza');if(row){const strong=row.querySelector('strong');if(strong)strong.textContent=ex===fmt(Math.sqrt(d2))?ex:`${ex} ≈ ${fmt(Math.sqrt(d2))}`}}
   const controls=document.getElementById('labControls'),results=document.getElementById('labResults');controls?.addEventListener('input',()=>requestAnimationFrame(exact));if(results)new MutationObserver(()=>requestAnimationFrame(exact)).observe(results,{childList:true,subtree:true});requestAnimationFrame(exact);
+})();
+</script>
+<style id="final-learning-summary-style">
+.learning-summary{margin:18px 0;background:#edf5fc;border:1px solid #cfe0ef;border-left:7px solid var(--y);border-radius:16px;padding:18px}
+.learning-summary h3{margin:0 0 10px;color:var(--b)}
+.learning-summary ul{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.learning-summary li{position:relative;padding-left:29px}
+.learning-summary li::before{content:'✓';position:absolute;left:0;top:0;display:grid;place-items:center;width:21px;height:21px;border-radius:50%;background:var(--y);color:var(--b);font-weight:950}
+</style>
+<script id="final-learning-summary">
+(()=>{
+  if(typeof D==='undefined'||!Array.isArray(D.objectives))return;
+  const screen=[...document.querySelectorAll('.screen')].find(x=>x.dataset.title==='Verifica');
+  if(!screen||screen.querySelector('.learning-summary'))return;
+  const box=document.createElement('section');
+  box.className='learning-summary';
+  box.setAttribute('aria-label','Riepilogo della lezione');
+  box.innerHTML='<h3>Riepilogo finale</h3><ul>'+D.objectives.map(x=>`<li>${x}</li>`).join('')+'</ul>';
+  const verify=screen.querySelector('#verify');
+  if(verify)verify.before(box);else screen.append(box);
 })();
 </script>
 </body></html>
