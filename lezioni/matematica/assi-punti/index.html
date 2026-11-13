@@ -359,4 +359,12 @@ document.head.appendChild(style);
   render();
 })();
 </script>
+<script id="exact-distance-lab-value">
+(()=>{
+  const fmt=n=>Math.abs(n-Math.round(n))<1e-9?String(Math.round(n)):n.toFixed(3).replace(/0+$/,'').replace(/\.$/,'').replace('.',',');
+  function radical(n){if(!Number.isInteger(n)||n<0)return null;let outside=1,inside=n;for(let k=Math.floor(Math.sqrt(n));k>=2;k--)if(n%(k*k)===0){outside=k;inside=n/(k*k);break}if(inside===1)return String(outside);return`${outside===1?'':outside}√${inside}`}
+  function exact(){const ids=['x1','y1','x2','y2'],v=ids.map(id=>Number(document.getElementById('l34-'+id)?.value));if(v.some(x=>!Number.isFinite(x)))return;const d2=(v[2]-v[0])**2+(v[3]-v[1])**2,ex=radical(d2),out=document.getElementById('labResults');if(!out||!ex)return;const rows=[...out.querySelectorAll('.result-list>div,.result-list div')],row=rows.find(x=>x.querySelector('span,b')?.textContent.trim()==='Distanza');if(row){const strong=row.querySelector('strong');if(strong)strong.textContent=ex===fmt(Math.sqrt(d2))?ex:`${ex} ≈ ${fmt(Math.sqrt(d2))}`}}
+  const controls=document.getElementById('labControls'),results=document.getElementById('labResults');controls?.addEventListener('input',()=>requestAnimationFrame(exact));if(results)new MutationObserver(()=>requestAnimationFrame(exact)).observe(results,{childList:true,subtree:true});requestAnimationFrame(exact);
+})();
+</script>
 </body></html>
