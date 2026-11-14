@@ -20,6 +20,7 @@
     return '';
   };
   const scan=()=>{
+    if(typeof D!=='undefined'&&D.revision)return;
     document.querySelectorAll('.pair-result').forEach(result=>{const example=result.closest('.pair-example'),previous=example?[...example.querySelectorAll('.step .formula')].at(-1):null;if(!previous)return;const clean=value=>value.replace(/^\s*Risultato\s*:\s*/i,'').replace(/\s+/g,' ').trim();if(clean(previous.textContent)!==clean(result.textContent))return;result.previousElementSibling?.classList.contains('result-arrow')&&result.previousElementSibling.remove();result.nextElementSibling?.classList.contains('solution-axis')&&result.nextElementSibling.remove();result.remove()});
     // Avoid rendering an axis twice when the same solution is displayed in a step and a result card.
     document.querySelectorAll('.pair-example,.card').forEach(container=>{const axes=[...container.querySelectorAll('.solution-axis')];if(axes.length<2)return;const seen=new Set();axes.forEach(axis=>{const key=axis.querySelector('svg')?.innerHTML||axis.textContent;if(seen.has(key))axis.remove();else seen.add(key)})});
