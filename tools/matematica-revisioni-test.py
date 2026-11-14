@@ -32,6 +32,7 @@ with sync_playwright() as p:
     # No formula may be reduced below a readable size on iPad.
     sizes=pair.locator('.formula').evaluate_all('(els)=>els.map(e=>parseFloat(getComputedStyle(e).fontSize))')
     assert all(s>=17.9 for s in sizes),(name,i,sizes)
+    assert all('/' not in text for text in pair.locator('.formula').all_text_contents()),(name,i,'barra frazionaria mancante')
     if i==count-1 or (name in ['equazioni-secondo-grado','disequazioni-secondo-grado']):
      page.screenshot(path=str(OUT/f'{engine.name}-{width}-{name}-{i}.png'),full_page=True)
    # Every spoken example step has a corresponding DOM step and a generated file.

@@ -21,7 +21,7 @@
   return i;
  }
  function fractions(text){
-  const slash=text.indexOf('/');if(slash<0)return escape(text);
+  let slash=-1,depth=0,minimum=Infinity;for(let i=0;i<text.length;i++){if(text[i]==='(')depth++;if(text[i]===')')depth--;if(text[i]==='/'&&depth<minimum){slash=i;minimum=depth;}}if(slash<0)return escape(text);
   const a=leftStart(text,slash),b=rightEnd(text,slash+1);
   if(a===slash||b<=slash+1)return escape(text);
   const unwrap=v=>v.trim().startsWith('(')&&v.trim().endsWith(')')?v.trim().slice(1,-1):v.trim();
@@ -31,7 +31,7 @@
  mathFormula=(value,label)=>String(value||'').includes('/')?fractions(String(value)):original(value,label);
  const style=document.createElement('style');style.textContent=`
  .revision-lesson .learning-pair:not([hidden]){grid-template-columns:minmax(0,1fr)!important;gap:18px}
- .revision-lesson .pair-arrow,.revision-lesson .result-arrow{display:none!important}
+ .revision-lesson .pair-arrow,.revision-lesson .result-arrow,.revision-lesson .lesson-pager{display:none!important}
  .revision-lesson .pair-example .step[hidden],.revision-lesson [hidden]{display:none!important}
  .revision-lesson .formula,.revision-lesson .mini-formula{font-size:clamp(18px,2.1vw,24px)!important;white-space:normal!important;overflow-x:auto!important;overflow-y:hidden!important;line-height:1.8!important;max-width:100%;text-align:left}
  .revision-lesson .formula-part,.revision-lesson .formula-chunk{white-space:normal!important;min-width:0!important;max-width:100%}
@@ -73,11 +73,12 @@
  function install(){
   document.querySelectorAll('.learning-pair').forEach((pair,index)=>{
    const ex=D.guided_examples[index],box=pair.querySelector('.pair-example');if(!box||!ex)return;
+   if(D.title==='Le equazioni di secondo grado'){const definition=pair.querySelector('.pair-definition');const formula=definition?.querySelector('.formula');if(index===0&&formula){const intro=document.createElement('div');intro.innerHTML='<p>Forma generale: a ≠ 0.</p><div class="formula">ax² + bx + c = 0</div><p>Il discriminante determina il numero di soluzioni reali.</p><div class="formula">Δ = b² − 4ac</div>';formula.before(intro)}if(index===2&&formula)formula.innerHTML=mathFormula('ax² + c = 0 → x² = −c/a');}
    // Rebuild examples once, avoiding old fraction conversion and duplicate result containers.
    box.innerHTML=`<span class="pair-label">Esempio guidato</span><h4>${mathFormula(ex.title)}</h4><div class="stepper">${ex.steps.map((s,i)=>`<div class="step show" hidden><span class="n">${i+1}</span><div><b>${escape(s.label.replace(/^Passaggio\s+\d+\s*[—-]\s*/,''))}</b>${s.text===s.label?'':`<p class="narrated-text">${escape(s.text)}</p>`}<div class="formula">${mathFormula(s.formula,s.text)}</div></div></div>`).join('')}</div><div class="revision-final" hidden>${ex.concept==='Quando una frazione si annulla'?`<div class="formula pair-result">${mathFormula(ex.result)}</div>`:''}${/con x/.test(ex.result||'')&&!/con x/.test(ex.steps.at(-1).formula||'')?`<p class="remember">Condizioni: ${mathFormula(ex.result.slice(ex.result.indexOf('con x')+4))}</p>`:''}${plot(ex)}${ex.graph?'':solutionAxis(ex.solution)}</div><button class="primary revision-next" type="button">Mostra il primo passaggio</button>`;
    const steps=[...box.querySelectorAll('.step')],final=box.querySelector('.revision-final'),button=box.querySelector('.revision-next');
    const reveal=(through,scroll=false)=>{steps.forEach((s,i)=>{if(i<=through)s.hidden=false;s.classList.toggle('audio-current',i===through)});if(through>=steps.length-1){final.hidden=false;button.hidden=true}else button.textContent='Mostra il passaggio successivo';if(scroll)steps[Math.min(through,steps.length-1)]?.scrollIntoView({behavior:'smooth',block:'center'})};
-   button.onclick=()=>{const i=steps.findIndex(s=>s.hidden);if(i>=0)reveal(i,true)};
+   button.onclick=()=>{window.__stopPairedAudio?.();const i=steps.findIndex(s=>s.hidden);if(i>=0)reveal(i,true)};
    pair.__revealRevision=reveal;
    pair.__resetRevision=()=>{steps.forEach(s=>{s.hidden=true;s.classList.remove('audio-current')});final.hidden=true;button.hidden=false;button.textContent='Mostra il primo passaggio'};
   });
@@ -86,5 +87,13 @@
  }
  document.addEventListener('paired-topic-selected',event=>{document.querySelectorAll('.learning-pair')[Number(event.detail?.index)||0]?.__resetRevision?.()},true);
  window.FerrarisRevision={fractions,solutionAxis,install};
- document.addEventListener('DOMContentLoaded',install,{once:true});
+ document.addEventListener('DOMContentLoaded',()=>{
+  install();
+  const convert=()=>document.querySelectorAll('.formula,.mini-formula,#labResults strong,.poly-editor').forEach(host=>{
+   const walker=document.createTreeWalker(host,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement?.closest('.frac,.math-frac,svg,script,style,input,textarea')||!n.nodeValue.includes('/')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
+   const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+   nodes.forEach(node=>{const rendered=fractions(node.nodeValue);if(!rendered.includes('math-frac'))return;const template=document.createElement('template');template.innerHTML=rendered;node.replaceWith(template.content)});
+  });
+  let scheduled=false;new MutationObserver(()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;convert()})}).observe(document.body,{childList:true,subtree:true});convert();
+ },{once:true});
 })();
