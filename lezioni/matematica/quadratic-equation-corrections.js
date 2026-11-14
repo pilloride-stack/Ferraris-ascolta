@@ -1,4 +1,5 @@
 (()=>{
+  if(typeof D!=='undefined'&&D.revision)return;
   const style=document.createElement('style');
   style.textContent=`
     .pair-definition .formula,.pair-definition .mini-formula,
