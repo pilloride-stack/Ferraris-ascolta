@@ -26,7 +26,7 @@ with sync_playwright() as p:
     steps=pair.locator('.step').count()
     for j in range(steps):pair.locator('.revision-next').click()
     assert pair.locator('.step:visible').count()==steps,(name,i,'passaggi mancanti')
-    assert pair.locator('.revision-final').is_visible(),(name,i,'conclusione mancante')
+    assert pair.locator('.revision-final').get_attribute('hidden') is None and pair.locator('.step').last.is_visible(),(name,i,'conclusione mancante')
     assert pair.locator('.solution-axis').count()==0,(name,i,'asse duplicato')
     assert pair.locator('.revision-solution').count()<=1,(name,i,'soluzioni duplicate')
     # No formula may be reduced below a readable size on iPad.
@@ -48,7 +48,7 @@ with sync_playwright() as p:
    start=page.evaluate('window.__audio.length')
    for j in range(expected-1):
     page.evaluate('window.__audio.at(-1).onended()');page.wait_for_timeout(325)
-   assert pairs.nth(0).locator('.revision-final').is_visible(),(name,'audio non sincronizzato')
+   assert pairs.nth(0).locator('.revision-final').get_attribute('hidden') is None and pairs.nth(0).locator('.step').last.is_visible(),(name,'audio non sincronizzato')
    assert page.evaluate('window.__audio.length')-start==expected-1
    page.locator('.screen.active .voice-controls button').nth(1).click()
    results.append({'browser':engine.name,'width':width,'lesson':name,'topics':count,'status':'passed'})
