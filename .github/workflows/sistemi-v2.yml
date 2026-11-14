@@ -1,0 +1,59 @@
+name: Verifica e audio sistemi nel modello irrazionali
+on:
+  push:
+    branches: [fix/sistemi-stile-disequazioni-irrazionali]
+    paths: ['lezioni/matematica/sistemi-*/**', 'lezioni/matematica/systems-episodes-v2.js', 'lezioni/matematica/sistemi-audio/**', 'tools/verify-sistemi-v2.py', '.github/workflows/sistemi-v2.yml']
+permissions:
+  contents: write
+concurrency:
+  group: sistemi-v2
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/sistemi-stile-disequazioni-irrazionali
+          sparse-checkout: |
+            lezioni/matematica
+            audio/matematica-sistemi-v2
+            tools
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Installa strumenti di verifica
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium webkit
+          command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -y -q ffmpeg)
+      - name: Verifica impaginazione, grafici e laboratori
+        run: python tools/verify-sistemi-v2.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sistemi-modello-irrazionali
+          path: /tmp/sistemi-verifica/
+      - name: Genera audio con voce e pronuncia del modello
+        env:
+          TTS_KEY: ${{ secrets.TTS_KEY }}
+          TTS_VOICE: it-IT-Chirp3-HD-Algieba
+          TTS_RATE: '0.94'
+          TTS_WORKERS: '4'
+        run: |
+          mkdir -p episodi/matematica-sistemi-v2
+          cp lezioni/matematica/sistemi-audio/episodio-*.json episodi/matematica-sistemi-v2/
+          python tools/tts.py matematica-sistemi-v2
+      - name: Salva audio verificati
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          if [ -d audio/matematica-sistemi-v2 ]; then
+            git add audio/matematica-sistemi-v2
+            if ! git diff --cached --quiet; then
+              git commit -m 'Genera audio dei sistemi con la pronuncia del modello'
+              git push origin HEAD:fix/sistemi-stile-disequazioni-irrazionali
+            fi
+          fi

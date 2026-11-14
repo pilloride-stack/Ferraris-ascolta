@@ -1,0 +1,289 @@
+{
+  "episode": "32",
+  "title": "I sistemi di equazioni",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Sistema e soluzione comune. Un sistema richiede che tutte le equazioni siano vere contemporaneamente. In due incognite la soluzione è una coppia ordinata: prima ics, poi ipsilon.",
+      "speech": "Sistema e soluzione comune. Un sistema richiede che tutte le equazioni siano vere contemporaneamente. In due incognite la soluzione è una coppia ordinata: prima __X__, poi ipsilon.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema e soluzione comune"
+    },
+    {
+      "text": "Cerchiamo una stessa coppia di valori per entrambe le equazioni: ics più ipsilon uguale a cinque e ics meno ipsilon uguale a uno.",
+      "speech": "Cerchiamo una stessa coppia di valori per entrambe le equazioni: __X__ più ipsilon uguale a cinque e __X__ meno ipsilon uguale a uno.",
+      "screen": "Sistema e soluzione comune",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La prima retta ha equazione ipsilon uguale a cinque meno ics. La seconda, ipsilon uguale a ics meno uno. Un punto comune deve appartenere a tutte e due.",
+      "speech": "La prima retta ha equazione ipsilon uguale a cinque meno __X__. La seconda, ipsilon uguale a __X__ meno uno. Un punto comune deve appartenere a tutte e due.",
+      "screen": "Sistema e soluzione comune",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il punto comune ha ascissa tre e ordinata due. La prima coordinata è il valore di ics; la seconda quello di ipsilon.",
+      "speech": "Il punto comune ha ascissa tre e ordinata due. La prima coordinata è il valore di __X__; la seconda quello di ipsilon.",
+      "screen": "Sistema e soluzione comune",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Sostituisco tre e due in entrambe le equazioni. Tre più due fa cinque; tre meno due fa uno. Entrambe sono vere.",
+      "speech": "Sostituisco tre e due in entrambe le equazioni. Tre più due fa cinque; tre meno due fa uno. Entrambe sono vere.",
+      "screen": "Sistema e soluzione comune",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "La soluzione del sistema è la coppia ordinata tre, due. Non sono due soluzioni separate: è un solo punto comune.",
+      "speech": "La soluzione del sistema è la coppia ordinata tre, due. Non sono due soluzioni separate: è un solo punto comune.",
+      "screen": "Sistema e soluzione comune",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Metodo di sostituzione. Si ricava un’incognita da un’equazione e si sostituisce la sua espressione nell’altra. Si risolve poi l’equazione rimasta in una sola incognita.",
+      "speech": "Metodo di sostituzione. Si ricava un’incognita da un’equazione e si sostituisce la sua espressione nell’altra. Si risolve poi l’equazione rimasta in una sola incognita.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Metodo di sostituzione"
+    },
+    {
+      "text": "Il sistema è ics più ipsilon uguale a sette e ics meno due ipsilon uguale a uno.",
+      "speech": "Il sistema è __X__ più ipsilon uguale a sette e __X__ meno due ipsilon uguale a uno.",
+      "screen": "Metodo di sostituzione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dalla seconda equazione ricavo ics uguale a uno più due ipsilon.",
+      "speech": "Dalla seconda equazione ricavo __X__ uguale a uno più due ipsilon.",
+      "screen": "Metodo di sostituzione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nella prima equazione sostituisco ics con uno più due ipsilon. Ottengo uno più tre ipsilon uguale a sette.",
+      "speech": "Nella prima equazione sostituisco __X__ con uno più due ipsilon. Ottengo uno più tre ipsilon uguale a sette.",
+      "screen": "Metodo di sostituzione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Tre ipsilon è uguale a sei, quindi ipsilon è due. Torno all’espressione di ics: uno più due per due fa cinque.",
+      "speech": "Tre ipsilon è uguale a sei, quindi ipsilon è due. Torno all’espressione di __X__: uno più due per due fa cinque.",
+      "screen": "Metodo di sostituzione",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Controllo: cinque più due fa sette e cinque meno quattro fa uno. La stessa coppia verifica entrambe le equazioni.",
+      "speech": "Controllo: cinque più due fa sette e cinque meno quattro fa uno. La stessa coppia verifica entrambe le equazioni.",
+      "screen": "Metodo di sostituzione",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Il punto comune delle rette è cinque, due. Il grafico conferma il risultato della sostituzione.",
+      "speech": "Il punto comune delle rette è cinque, due. Il grafico conferma il risultato della sostituzione.",
+      "screen": "Metodo di sostituzione",
+      "purpose": "Esempio, passaggio 6"
+    },
+    {
+      "text": "Metodo del confronto. Si ricava la stessa incognita da entrambe le equazioni. Le due espressioni ottenute devono essere uguali, perché rappresentano lo stesso valore.",
+      "speech": "Metodo del confronto. Si ricava la stessa incognita da entrambe le equazioni. Le due espressioni ottenute devono essere uguali, perché rappresentano lo stesso valore.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Metodo del confronto"
+    },
+    {
+      "text": "Il sistema è due ics più ipsilon uguale a otto e ics meno ipsilon uguale a uno.",
+      "speech": "Il sistema è due __X__ più ipsilon uguale a otto e __X__ meno ipsilon uguale a uno.",
+      "screen": "Metodo del confronto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Ricavo ipsilon da entrambe: otto meno due ics e ics meno uno.",
+      "speech": "Ricavo ipsilon da entrambe: otto meno due __X__ e __X__ meno uno.",
+      "screen": "Metodo del confronto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Uguaglio le espressioni: otto meno due ics uguale a ics meno uno. Porto i numeri a sinistra e le incognite a destra.",
+      "speech": "Uguaglio le espressioni: otto meno due __X__ uguale a __X__ meno uno. Porto i numeri a sinistra e le incognite a destra.",
+      "screen": "Metodo del confronto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Nove è uguale a tre ics, quindi ics è tre. Sostituisco: ipsilon è tre meno uno, cioè due.",
+      "speech": "Nove è uguale a tre __X__, quindi __X__ è tre. Sostituisco: ipsilon è tre meno uno, cioè due.",
+      "screen": "Metodo del confronto",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Due per tre più due fa otto. Tre meno due fa uno. Entrambe le equazioni sono verificate.",
+      "speech": "Due per tre più due fa otto. Tre meno due fa uno. Entrambe le equazioni sono verificate.",
+      "screen": "Metodo del confronto",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Il confronto restituisce il punto comune tre, due, visibile all’intersezione delle due rette.",
+      "speech": "Il confronto restituisce il punto comune tre, due, visibile all’intersezione delle due rette.",
+      "screen": "Metodo del confronto",
+      "purpose": "Esempio, passaggio 6"
+    },
+    {
+      "text": "Metodo di riduzione. Si moltiplicano, se necessario, le equazioni per numeri diversi da zero e poi si sommano o sottraggono membro a membro, eliminando un’incognita.",
+      "speech": "Metodo di riduzione. Si moltiplicano, se necessario, le equazioni per numeri diversi da zero e poi si sommano o sottraggono membro a membro, eliminando un’incognita.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Metodo di riduzione"
+    },
+    {
+      "text": "Il sistema è due ics più tre ipsilon uguale a dodici e tre ics meno due ipsilon uguale a cinque.",
+      "speech": "Il sistema è due __X__ più tre ipsilon uguale a dodici e tre __X__ meno due ipsilon uguale a cinque.",
+      "screen": "Metodo di riduzione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Moltiplico la prima equazione per due e la seconda per tre. Ottengo più sei ipsilon e meno sei ipsilon.",
+      "speech": "Moltiplico la prima equazione per due e la seconda per tre. Ottengo più sei ipsilon e meno sei ipsilon.",
+      "screen": "Metodo di riduzione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sommo membro a membro. I termini con ipsilon si annullano. Resta tredici ics uguale a trentanove.",
+      "speech": "Sommo membro a membro. I termini con ipsilon si annullano. Resta tredici __X__ uguale a trentanove.",
+      "screen": "Metodo di riduzione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ics è trentanove fratto tredici, cioè tre. Sostituisco nella prima: sei più tre ipsilon uguale a dodici, quindi ipsilon è due.",
+      "speech": "__X__ è trentanove fratto tredici, cioè tre. Sostituisco nella prima: sei più tre ipsilon uguale a dodici, quindi ipsilon è due.",
+      "screen": "Metodo di riduzione",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "La prima equazione dà dodici; la seconda dà nove meno quattro, cioè cinque. Entrambe sono vere.",
+      "speech": "La prima equazione dà dodici; la seconda dà nove meno quattro, cioè cinque. Entrambe sono vere.",
+      "screen": "Metodo di riduzione",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "La soluzione è tre, due. Il punto appartiene a entrambe le rette, indipendentemente dal metodo usato.",
+      "speech": "La soluzione è tre, due. Il punto appartiene a entrambe le rette, indipendentemente dal metodo usato.",
+      "screen": "Metodo di riduzione",
+      "purpose": "Esempio, passaggio 6"
+    },
+    {
+      "text": "Sistema determinato: un punto comune. Un sistema lineare è determinato quando ha una sola coppia soluzione. Nel piano le rette sono incidenti e hanno un unico punto comune.",
+      "speech": "Sistema determinato: un punto comune. Un sistema lineare è determinato quando ha una sola coppia soluzione. Nel piano le rette sono incidenti e hanno un unico punto comune.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema determinato: un punto comune"
+    },
+    {
+      "text": "Cerco il punto comune delle rette ics più ipsilon uguale a tre e ics meno ipsilon uguale a zero.",
+      "speech": "Cerco il punto comune delle rette __X__ più ipsilon uguale a tre e __X__ meno ipsilon uguale a zero.",
+      "screen": "Sistema determinato: un punto comune",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sommo le equazioni: due ics è uguale a tre, quindi ics è tre mezzi.",
+      "speech": "Sommo le equazioni: due __X__ è uguale a tre, quindi __X__ è tre mezzi.",
+      "screen": "Sistema determinato: un punto comune",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Dalla seconda equazione ipsilon è uguale a ics, quindi anche ipsilon è tre mezzi.",
+      "speech": "Dalla seconda equazione ipsilon è uguale a __X__, quindi anche ipsilon è tre mezzi.",
+      "screen": "Sistema determinato: un punto comune",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Tre mezzi più tre mezzi fa tre. La loro differenza è zero. La coppia verifica entrambe le equazioni.",
+      "speech": "Tre mezzi più tre mezzi fa tre. La loro differenza è zero. La coppia verifica entrambe le equazioni.",
+      "screen": "Sistema determinato: un punto comune",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Le rette si incontrano in un solo punto, con entrambe le coordinate uguali a tre mezzi. Il sistema è determinato.",
+      "speech": "Le rette si incontrano in un solo punto, con entrambe le coordinate uguali a tre mezzi. Il sistema è determinato.",
+      "screen": "Sistema determinato: un punto comune",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Sistema impossibile: nessun punto comune. Un sistema è impossibile quando non esiste alcuna coppia che verifichi tutte le equazioni. Due rette parallele distinte non hanno punti comuni.",
+      "speech": "Sistema impossibile: nessun punto comune. Un sistema è impossibile quando non esiste alcuna coppia che verifichi tutte le equazioni. Due rette parallele distinte non hanno punti comuni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema impossibile: nessun punto comune"
+    },
+    {
+      "text": "Lo stesso primo membro dovrebbe essere uguale sia a due sia a cinque.",
+      "speech": "Lo stesso primo membro dovrebbe essere uguale sia a due sia a cinque.",
+      "screen": "Sistema impossibile: nessun punto comune",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sottraggo la prima equazione dalla seconda: ottengo zero uguale a tre.",
+      "speech": "Sottraggo la prima equazione dalla seconda: ottengo zero uguale a tre.",
+      "screen": "Sistema impossibile: nessun punto comune",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’uguaglianza è falsa per ogni coppia di valori. Non esistono soluzioni comuni.",
+      "speech": "L’uguaglianza è falsa per ogni coppia di valori. Non esistono soluzioni comuni.",
+      "screen": "Sistema impossibile: nessun punto comune",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le rette sono parallele e distinte. Nessun punto appartiene a entrambe: il sistema è impossibile.",
+      "speech": "Le rette sono parallele e distinte. Nessun punto appartiene a entrambe: il sistema è impossibile.",
+      "screen": "Sistema impossibile: nessun punto comune",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Sistema indeterminato: infiniti punti comuni. Un sistema è indeterminato quando ha infinite coppie soluzione. Se le due rette coincidono, ogni punto della retta verifica entrambe le equazioni.",
+      "speech": "Sistema indeterminato: infiniti punti comuni. Un sistema è indeterminato quando ha infinite coppie soluzione. Se le due rette coincidono, ogni punto della retta verifica entrambe le equazioni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema indeterminato: infiniti punti comuni"
+    },
+    {
+      "text": "La seconda equazione è il doppio della prima.",
+      "speech": "La seconda equazione è il doppio della prima.",
+      "screen": "Sistema indeterminato: infiniti punti comuni",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Divido tutti i termini della seconda equazione per due. Ottengo la stessa equazione della prima.",
+      "speech": "Divido tutti i termini della seconda equazione per due. Ottengo la stessa equazione della prima.",
+      "screen": "Sistema indeterminato: infiniti punti comuni",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Resta una sola condizione: ipsilon è quattro meno ics. Le coppie soluzione sono tutti i punti di questa retta.",
+      "speech": "Resta una sola condizione: ipsilon è quattro meno __X__. Le coppie soluzione sono tutti i punti di questa retta.",
+      "screen": "Sistema indeterminato: infiniti punti comuni",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Per esempio, zero e quattro, uno e tre, quattro e zero verificano entrambe le equazioni. Non sono gli unici punti.",
+      "speech": "Per esempio, zero e quattro, uno e tre, quattro e zero verificano entrambe le equazioni. Non sono gli unici punti.",
+      "screen": "Sistema indeterminato: infiniti punti comuni",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Le rette coincidono. Ci sono infinite coppie soluzione, ma non tutte le coppie del piano: soltanto quelle della retta.",
+      "speech": "Le rette coincidono. Ci sono infinite coppie soluzione, ma non tutte le coppie del piano: soltanto quelle della retta.",
+      "screen": "Sistema indeterminato: infiniti punti comuni",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Ora rispondi alle domande. Pensa al significato della soluzione comune e controlla tutti i vincoli.",
+      "speech": "Ora rispondi alle domande. Pensa al significato della soluzione comune e controlla tutti i vincoli.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni"
+    },
+    {
+      "text": "Modifica i coefficienti delle due equazioni e osserva il punto comune, due rette parallele oppure due rette coincidenti. Il grafico usa le stesse coordinate delle equazioni.",
+      "speech": "Modifica i coefficienti delle due equazioni e osserva il punto comune, due rette parallele oppure due rette coincidenti. Il grafico usa le stesse coordinate delle equazioni.",
+      "screen": "Laboratorio",
+      "purpose": "Indicazioni"
+    },
+    {
+      "text": "Completa la verifica finale. Controlla il significato del grafico e verifica le soluzioni nelle condizioni originali.",
+      "speech": "Completa la verifica finale. Controlla il significato del grafico e verifica le soluzioni nelle condizioni originali.",
+      "screen": "Verifica",
+      "purpose": "Indicazioni"
+    }
+  ]
+}

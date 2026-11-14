@@ -1,0 +1,271 @@
+{
+  "episode": "33",
+  "title": "I sistemi di disequazioni",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Sistema e intersezione. Un sistema di disequazioni richiede che tutte le condizioni siano vere contemporaneamente. Le soluzioni sono soltanto i valori comuni ai singoli insiemi soluzione.",
+      "speech": "Sistema e intersezione. Un sistema di disequazioni richiede che tutte le condizioni siano vere contemporaneamente. Le soluzioni sono soltanto i valori comuni ai singoli insiemi soluzione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema e intersezione"
+    },
+    {
+      "text": "La prima condizione ammette i numeri maggiori di uno. Uno è escluso.",
+      "speech": "La prima condizione ammette i numeri maggiori di uno. Uno è escluso.",
+      "screen": "Sistema e intersezione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La seconda ammette i numeri minori o uguali a quattro. Quattro è incluso.",
+      "speech": "La seconda ammette i numeri minori o uguali a quattro. Quattro è incluso.",
+      "screen": "Sistema e intersezione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nel grafico considero soltanto i valori presenti in entrambe le prime due righe. La terza riga mostra la loro intersezione.",
+      "speech": "Nel grafico considero soltanto i valori presenti in entrambe le prime due righe. La terza riga mostra la loro intersezione.",
+      "screen": "Sistema e intersezione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La parte comune va da uno escluso a quattro incluso. Il sistema richiede entrambe le condizioni, non almeno una.",
+      "speech": "La parte comune va da uno escluso a quattro incluso. Il sistema richiede entrambe le condizioni, non almeno una.",
+      "screen": "Sistema e intersezione",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Estremi aperti e chiusi. Un estremo è incluso soltanto se soddisfa tutte le condizioni. Il cerchio vuoto indica un valore escluso; il cerchio pieno indica un valore incluso.",
+      "speech": "Estremi aperti e chiusi. Un estremo è incluso soltanto se soddisfa tutte le condizioni. Il cerchio vuoto indica un valore escluso; il cerchio pieno indica un valore incluso.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Estremi aperti e chiusi"
+    },
+    {
+      "text": "Meno due è incluso nella prima semiretta.",
+      "speech": "Meno due è incluso nella prima semiretta.",
+      "screen": "Estremi aperti e chiusi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Tre è escluso dalla seconda semiretta.",
+      "speech": "Tre è escluso dalla seconda semiretta.",
+      "screen": "Estremi aperti e chiusi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Meno due soddisfa entrambe le condizioni e resta incluso. Tre non è minore di tre, quindi viene escluso.",
+      "speech": "Meno due soddisfa entrambe le condizioni e resta incluso. Tre non è minore di tre, quindi viene escluso.",
+      "screen": "Estremi aperti e chiusi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "L’intersezione va da meno due incluso a tre escluso. Il tipo di cerchio dipende dalle condizioni originali.",
+      "speech": "L’intersezione va da meno due incluso a tre escluso. Il tipo di cerchio dipende dalle condizioni originali.",
+      "screen": "Estremi aperti e chiusi",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Due disequazioni di primo grado. Si risolve ogni disequazione separatamente. Solo dopo si intersecano gli insiemi ottenuti, conservando tutti i vincoli.",
+      "speech": "Due disequazioni di primo grado. Si risolve ogni disequazione separatamente. Solo dopo si intersecano gli insiemi ottenuti, conservando tutti i vincoli.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Due disequazioni di primo grado"
+    },
+    {
+      "text": "Aggiungo due e divido per due, che è positivo. Ottengo ics maggiore di uno.",
+      "speech": "Aggiungo due e divido per due, che è positivo. Ottengo __X__ maggiore di uno.",
+      "screen": "Due disequazioni di primo grado",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Divido per tre, positivo, e mantengo il verso: ics minore o uguale a quattro.",
+      "speech": "Divido per tre, positivo, e mantengo il verso: __X__ minore o uguale a quattro.",
+      "screen": "Due disequazioni di primo grado",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Disegno le due semirette sulla stessa scala. I valori comuni sono quelli tra uno e quattro.",
+      "speech": "Disegno le due semirette sulla stessa scala. I valori comuni sono quelli tra uno e quattro.",
+      "screen": "Due disequazioni di primo grado",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Uno resta escluso e quattro incluso. Questa è l’intersezione delle due soluzioni separate.",
+      "speech": "Uno resta escluso e quattro incluso. Questa è l’intersezione delle due soluzioni separate.",
+      "screen": "Due disequazioni di primo grado",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Con una disequazione di secondo grado. Si trova l’insieme soluzione della disequazione quadratica e lo si interseca con quello dell’altra condizione.",
+      "speech": "Con una disequazione di secondo grado. Si trova l’insieme soluzione della disequazione quadratica e lo si interseca con quello dell’altra condizione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Con una disequazione di secondo grado"
+    },
+    {
+      "text": "La differenza di quadrati si scompone in ics meno due per ics più due. Gli zeri sono meno due e due.",
+      "speech": "La differenza di quadrati si scompone in __X__ meno due per __X__ più due. Gli zeri sono meno due e due.",
+      "screen": "Con una disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il prodotto è negativo tra gli zeri. Ottengo ics compreso tra meno due e due, con estremi esclusi.",
+      "speech": "Il prodotto è negativo tra gli zeri. Ottengo __X__ compreso tra meno due e due, con estremi esclusi.",
+      "screen": "Con una disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La seconda condizione conserva soltanto i numeri non negativi.",
+      "speech": "La seconda condizione conserva soltanto i numeri non negativi.",
+      "screen": "Con una disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Nel grafico la parte comune comincia da zero incluso e termina prima di due.",
+      "speech": "Nel grafico la parte comune comincia da zero incluso e termina prima di due.",
+      "screen": "Con una disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Le soluzioni del sistema sono i numeri da zero incluso a due escluso.",
+      "speech": "Le soluzioni del sistema sono i numeri da zero incluso a due escluso.",
+      "screen": "Con una disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Intersezione con due intervalli. Quando una disequazione ammette due intervalli separati, si confronta ciascun intervallo con tutti gli altri vincoli del sistema.",
+      "speech": "Intersezione con due intervalli. Quando una disequazione ammette due intervalli separati, si confronta ciascun intervallo con tutti gli altri vincoli del sistema.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Intersezione con due intervalli"
+    },
+    {
+      "text": "Il prodotto è non negativo negli intervalli esterni agli zeri. Meno due e due sono inclusi.",
+      "speech": "Il prodotto è non negativo negli intervalli esterni agli zeri. Meno due e due sono inclusi.",
+      "screen": "Intersezione con due intervalli",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La seconda condizione conserva soltanto i numeri minori di tre.",
+      "speech": "La seconda condizione conserva soltanto i numeri minori di tre.",
+      "screen": "Intersezione con due intervalli",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il primo intervallo rimane intero. Del secondo resta la parte da due incluso a tre escluso.",
+      "speech": "Il primo intervallo rimane intero. Del secondo resta la parte da due incluso a tre escluso.",
+      "screen": "Intersezione con due intervalli",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "L’intersezione del sistema è formata da due pezzi. Si uniscono questi due pezzi già intersecati, non le soluzioni iniziali.",
+      "speech": "L’intersezione del sistema è formata da due pezzi. Si uniscono questi due pezzi già intersecati, non le soluzioni iniziali.",
+      "screen": "Intersezione con due intervalli",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Sistema impossibile. Se gli insiemi soluzione non hanno valori comuni, nessun numero può soddisfare tutte le disequazioni del sistema.",
+      "speech": "Sistema impossibile. Se gli insiemi soluzione non hanno valori comuni, nessun numero può soddisfare tutte le disequazioni del sistema.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema impossibile"
+    },
+    {
+      "text": "La prima condizione ammette i numeri minori di uno.",
+      "speech": "La prima condizione ammette i numeri minori di uno.",
+      "screen": "Sistema impossibile",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La seconda ammette i numeri da tre incluso in poi.",
+      "speech": "La seconda ammette i numeri da tre incluso in poi.",
+      "screen": "Sistema impossibile",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Gli intervalli sono separati: non c’è alcun valore presente su entrambe le righe.",
+      "speech": "Gli intervalli sono separati: non c’è alcun valore presente su entrambe le righe.",
+      "screen": "Sistema impossibile",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il sistema è impossibile. La riga dell’intersezione non contiene segmenti soluzione.",
+      "speech": "Il sistema è impossibile. La riga dell’intersezione non contiene segmenti soluzione.",
+      "screen": "Sistema impossibile",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Un unico punto comune. L’intersezione può contenere un solo numero. Quel numero deve essere incluso da tutte le condizioni.",
+      "speech": "Un unico punto comune. L’intersezione può contenere un solo numero. Quel numero deve essere incluso da tutte le condizioni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Un unico punto comune"
+    },
+    {
+      "text": "La prima semiretta parte da due incluso.",
+      "speech": "La prima semiretta parte da due incluso.",
+      "screen": "Un unico punto comune",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La seconda arriva a due incluso.",
+      "speech": "La seconda arriva a due incluso.",
+      "screen": "Un unico punto comune",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’unico valore comune è due. Entrambe le condizioni lo includono: il punto è pieno.",
+      "speech": "L’unico valore comune è due. Entrambe le condizioni lo includono: il punto è pieno.",
+      "screen": "Un unico punto comune",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il sistema ha una sola soluzione, il numero due. Se anche una sola condizione escludesse due, l’intersezione sarebbe vuota.",
+      "speech": "Il sistema ha una sola soluzione, il numero due. Se anche una sola condizione escludesse due, l’intersezione sarebbe vuota.",
+      "screen": "Un unico punto comune",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Una condizione sempre vera. Una disequazione sempre vera ha come soluzione tutti i numeri reali. Intersecarla con un’altra condizione lascia invariata la soluzione di quest’ultima.",
+      "speech": "Una condizione sempre vera. Una disequazione sempre vera ha come soluzione tutti i numeri reali. Intersecarla con un’altra condizione lascia invariata la soluzione di quest’ultima.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Una condizione sempre vera"
+    },
+    {
+      "text": "Il primo membro è sempre zero. Zero è minore o uguale a uno: la condizione è vera per ogni numero reale.",
+      "speech": "Il primo membro è sempre zero. Zero è minore o uguale a uno: la condizione è vera per ogni numero reale.",
+      "screen": "Una condizione sempre vera",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La seconda condizione richiede ics maggiore di meno uno.",
+      "speech": "La seconda condizione richiede __X__ maggiore di meno uno.",
+      "screen": "Una condizione sempre vera",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La prima riga non elimina alcun valore dalla seconda. L’intersezione coincide con la seconda soluzione.",
+      "speech": "La prima riga non elimina alcun valore dalla seconda. L’intersezione coincide con la seconda soluzione.",
+      "screen": "Una condizione sempre vera",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il sistema ammette tutti i numeri maggiori di meno uno. L’estremo meno uno è escluso.",
+      "speech": "Il sistema ammette tutti i numeri maggiori di meno uno. L’estremo meno uno è escluso.",
+      "screen": "Una condizione sempre vera",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Ora rispondi alle domande. Pensa al significato della soluzione comune e controlla tutti i vincoli.",
+      "speech": "Ora rispondi alle domande. Pensa al significato della soluzione comune e controlla tutti i vincoli.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni"
+    },
+    {
+      "text": "Modifica le due condizioni. Confronta sulla stessa scala la prima soluzione, la seconda e la loro intersezione. Prova un valore di ics per controllare se soddisfa entrambe.",
+      "speech": "Modifica le due condizioni. Confronta sulla stessa scala la prima soluzione, la seconda e la loro intersezione. Prova un valore di __X__ per controllare se soddisfa entrambe.",
+      "screen": "Laboratorio",
+      "purpose": "Indicazioni"
+    },
+    {
+      "text": "Completa la verifica finale. Controlla il significato del grafico e verifica le soluzioni nelle condizioni originali.",
+      "speech": "Completa la verifica finale. Controlla il significato del grafico e verifica le soluzioni nelle condizioni originali.",
+      "screen": "Verifica",
+      "purpose": "Indicazioni"
+    }
+  ]
+}
