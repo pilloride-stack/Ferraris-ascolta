@@ -10,14 +10,14 @@
       "purpose": "Definizione: Equazione di primo grado"
     },
     {
-      "text": "Equazione intera. È un'equazione senza l'incognita al denominatore. Per esempio: due per ics meno quattro è uguale a tre per ics meno cinque.",
-      "speech": "Equazione intera. È un'equazione senza l'incognita al denominatore. Per esempio: due per __X__ meno quattro è uguale a tre per __X__ meno cinque.",
+      "text": "Equazione intera. È un'equazione senza l'incognita al denominatore.",
+      "speech": "Equazione intera. È un'equazione senza l'incognita al denominatore.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione intera"
     },
     {
-      "text": "Equazione con frazioni numeriche. È un'equazione intera con coefficienti frazionari. Per esempio: Ics mezzi meno uno, uguale a ics terzi più due.",
-      "speech": "Equazione con frazioni numeriche. È un'equazione intera con coefficienti frazionari. Per esempio: __X__ mezzi meno uno, uguale a __X__ terzi più due.",
+      "text": "Equazione con frazioni numeriche. È un'equazione intera con coefficienti frazionari.",
+      "speech": "Equazione con frazioni numeriche. È un'equazione intera con coefficienti frazionari.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione con frazioni numeriche"
     },
@@ -28,8 +28,8 @@
       "purpose": "Definizione: Equazioni impossibili e indeterminate"
     },
     {
-      "text": "Coefficienti irrazionali. Sono equazioni in cui compaiono radicali tra i coefficienti. Per esempio: Radice di tre, per ics meno uno, uguale a tre.",
-      "speech": "Coefficienti irrazionali. Sono equazioni in cui compaiono radicali tra i coefficienti. Per esempio: Radice di tre, per __X__ meno uno, uguale a tre.",
+      "text": "Coefficienti irrazionali. Sono equazioni in cui compaiono radicali tra i coefficienti.",
+      "speech": "Coefficienti irrazionali. Sono equazioni in cui compaiono radicali tra i coefficienti.",
       "screen": "Definizioni",
       "purpose": "Definizione: Coefficienti irrazionali"
     },
@@ -172,7 +172,7 @@
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Quindi, il minimo comune multiplo è ics più uno, per ics meno tre. Moltiplico entrambi i membri per questo prodotto: i denominatori si semplificano e ottengo due per ics meno tre, uguale a ics più uno.",
+      "text": "Quindi, il minimo comune multiplo è ics più uno, per ics meno tre. Moltiplico entrambi i membri per questo prodotto: i denominatori si semplificano e ottengo due per ics meno tre, uguale: ics più uno.",
       "speech": "Quindi, il minimo comune multiplo è __X__ più uno, per __X__ meno tre. Moltiplico entrambi i membri per questo prodotto: i denominatori si semplificano e ottengo due per __X__ meno tre, uguale a __X__ più uno.",
       "screen": "Equazione frazionaria",
       "purpose": "Esempio, passaggio 2"

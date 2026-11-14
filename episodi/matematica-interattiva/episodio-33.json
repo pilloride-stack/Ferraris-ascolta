@@ -4,28 +4,112 @@
   "speaking_rate": 0.94,
   "sentences": [
     {
-      "text": "Sistema e intersezione. Un sistema di disequazioni richiede che tutte le condizioni siano vere. La soluzione è l'intersezione, non l'unione. Per esempio, ics maggiore di uno e ics minore o uguale a quattro hanno come soluzione uno minore di ics, minore o uguale a quattro.",
-      "speech": "Sistema e intersezione. Un sistema di disequazioni richiede che tutte le condizioni siano vere. La soluzione è l'intersezione, non l'unione. Per esempio, ics maggiore di uno e ics minore o uguale a quattro hanno come soluzione uno minore di ics, minore o uguale a quattro."
+      "text": "Sistema e intersezione. Un sistema di disequazioni richiede che tutte le condizioni siano vere. La soluzione è l'intersezione, non l'unione.",
+      "speech": "Sistema e intersezione. Un sistema di disequazioni richiede che tutte le condizioni siano vere. La soluzione è l'intersezione, non l'unione.",
+      "screen": "1",
+      "purpose": "Definizione"
     },
     {
-      "text": "Estremi aperti e chiusi. I simboli minore e maggiore escludono l'estremo, che si rappresenta con un punto vuoto. I simboli minore o uguale e maggiore o uguale includono l'estremo, che si rappresenta con un punto pieno.",
-      "speech": "Estremi aperti e chiusi. I simboli minore e maggiore escludono l'estremo, che si rappresenta con un punto vuoto. I simboli minore o uguale e maggiore o uguale includono l'estremo, che si rappresenta con un punto pieno."
+      "text": "Regola. Esse è uguale a esse uno intersezione esse due: si conservano soltanto i valori comuni.",
+      "speech": "Regola. Esse è uguale a esse uno intersezione esse due: si conservano soltanto i valori comuni.",
+      "screen": "1",
+      "purpose": "Regola"
     },
     {
-      "text": "Due disequazioni di primo grado. Risolvi ogni disequazione separatamente, rappresenta i due intervalli e conserva soltanto i valori comuni.",
-      "speech": "Due disequazioni di primo grado. Risolvi ogni disequazione separatamente, rappresenta i due intervalli e conserva soltanto i valori comuni."
+      "text": "Esempio. La prima disequazione è ics maggiore di uno. La seconda è ics minore o uguale a quattro. Rappresenta separatamente i due intervalli e conserva i valori comuni. Il risultato è uno minore di ics, minore o uguale a quattro.",
+      "speech": "Esempio. La prima disequazione è ics maggiore di uno. La seconda è ics minore o uguale a quattro. Rappresenta separatamente i due intervalli e conserva i valori comuni. Il risultato è uno minore di ics, minore o uguale a quattro.",
+      "screen": "1",
+      "purpose": "Esempio"
     },
     {
-      "text": "Sistema con una disequazione di secondo grado. Risolvi prima la disequazione quadratica, poi interseca il suo insieme soluzione con quello dell'altra disequazione.",
-      "speech": "Sistema con una disequazione di secondo grado. Risolvi prima la disequazione quadratica, poi interseca il suo insieme soluzione con quello dell'altra disequazione."
+      "text": "Estremi aperti e chiusi. Con minore oppure maggiore l'estremo è escluso e si disegna vuoto. Con minore o uguale oppure maggiore o uguale l'estremo è incluso e si disegna pieno.",
+      "speech": "Estremi aperti e chiusi. Con minore oppure maggiore l'estremo è escluso e si disegna vuoto. Con minore o uguale oppure maggiore o uguale l'estremo è incluso e si disegna pieno.",
+      "screen": "2",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. Un segno stretto produce un estremo aperto. Un segno con uguale produce un estremo chiuso.",
+      "speech": "Regola. Un segno stretto produce un estremo aperto. Un segno con uguale produce un estremo chiuso.",
+      "screen": "2",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Ics maggiore di uno dà l'intervallo da uno escluso a più infinito. Ics minore o uguale a quattro dà l'intervallo da meno infinito a quattro incluso. L'intersezione va da uno escluso a quattro incluso.",
+      "speech": "Esempio. Ics maggiore di uno dà l'intervallo da uno escluso a più infinito. Ics minore o uguale a quattro dà l'intervallo da meno infinito a quattro incluso. L'intersezione va da uno escluso a quattro incluso.",
+      "screen": "2",
+      "purpose": "Esempio"
+    },
+    {
+      "text": "Due disequazioni di primo grado. Si risolve ogni disequazione separatamente e poi si sovrappongono le soluzioni sull'asse reale.",
+      "speech": "Due disequazioni di primo grado. Si risolve ogni disequazione separatamente e poi si sovrappongono le soluzioni sull'asse reale.",
+      "screen": "3",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. Risolvi esse uno ed esse due separatamente, poi calcola la loro intersezione.",
+      "speech": "Regola. Risolvi esse uno ed esse due separatamente, poi calcola la loro intersezione.",
+      "screen": "3",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Due ics meno due maggiore di zero dà ics maggiore di uno. Tre ics minore o uguale a dodici dà ics minore o uguale a quattro. La zona comune va da uno escluso a quattro incluso.",
+      "speech": "Esempio. Due ics meno due maggiore di zero dà ics maggiore di uno. Tre ics minore o uguale a dodici dà ics minore o uguale a quattro. La zona comune va da uno escluso a quattro incluso.",
+      "screen": "3",
+      "purpose": "Esempio"
+    },
+    {
+      "text": "Sistema con una disequazione di secondo grado. Si risolve prima la disequazione quadratica, poi si interseca il suo insieme soluzione con quello dell'altra.",
+      "speech": "Sistema con una disequazione di secondo grado. Si risolve prima la disequazione quadratica, poi si interseca il suo insieme soluzione con quello dell'altra.",
+      "screen": "4",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. Interseca la soluzione quadratica con la soluzione dell'altra disequazione.",
+      "speech": "Regola. Interseca la soluzione quadratica con la soluzione dell'altra disequazione.",
+      "screen": "4",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Ics alla seconda meno quattro minore di zero dà meno due minore di ics, minore di due. Ics maggiore o uguale a zero dà i valori da zero incluso a più infinito. La parte comune è zero minore o uguale: ics, minore di due.",
+      "speech": "Esempio. Ics alla seconda meno quattro minore di zero dà meno due minore di ics, minore di due. Ics maggiore o uguale a zero dà i valori da zero incluso a più infinito. La parte comune è zero minore o uguale: ics, minore di due.",
+      "screen": "4",
+      "purpose": "Esempio"
     },
     {
       "text": "Sistema impossibile. Se gli intervalli non hanno punti comuni, l'intersezione è l'insieme vuoto.",
-      "speech": "Sistema impossibile. Se gli intervalli non hanno punti comuni, l'intersezione è l'insieme vuoto."
+      "speech": "Sistema impossibile. Se gli intervalli non hanno punti comuni, l'intersezione è l'insieme vuoto.",
+      "screen": "5",
+      "purpose": "Definizione"
     },
     {
-      "text": "Casi particolari. Un unico punto appartiene all'intersezione soltanto quando è incluso da entrambe le condizioni. Una condizione sempre vera, invece, non restringe l'altra.",
-      "speech": "Casi particolari. Un unico punto appartiene all'intersezione soltanto quando è incluso da entrambe le condizioni. Una condizione sempre vera, invece, non restringe l'altra."
+      "text": "Regola. Esse uno intersezione esse due è uguale all'insieme vuoto.",
+      "speech": "Regola. Esse uno intersezione esse due è uguale all'insieme vuoto.",
+      "screen": "5",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Ics minore di uno e ics maggiore o uguale a tre producono due intervalli separati. Non esiste alcun valore comune: il risultato è l'insieme vuoto.",
+      "speech": "Esempio. Ics minore di uno e ics maggiore o uguale a tre producono due intervalli separati. Non esiste alcun valore comune: il risultato è l'insieme vuoto.",
+      "screen": "5",
+      "purpose": "Esempio"
+    },
+    {
+      "text": "Casi particolari. Un unico punto appartiene all'intersezione solo se è incluso da entrambe le condizioni. Una condizione sempre vera non restringe l'altra.",
+      "speech": "Casi particolari. Un unico punto appartiene all'intersezione solo se è incluso da entrambe le condizioni. Una condizione sempre vera non restringe l'altra.",
+      "screen": "6",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. Un estremo incluso da entrambe dà un solo punto. Se almeno una condizione lo esclude, l'intersezione è vuota.",
+      "speech": "Regola. Un estremo incluso da entrambe dà un solo punto. Se almeno una condizione lo esclude, l'intersezione è vuota.",
+      "screen": "6",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Ics maggiore o uguale a due e ics minore o uguale a due includono entrambe il numero due. L'intersezione contiene un solo punto e il risultato è ics uguale a due.",
+      "speech": "Esempio. Ics maggiore o uguale a due e ics minore o uguale a due includono entrambe il numero due. L'intersezione contiene un solo punto e il risultato è ics uguale a due.",
+      "screen": "6",
+      "purpose": "Esempio"
     }
   ]
 }

@@ -4,50 +4,50 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Somma per differenza. È il prodotto tra la somma e la differenza degli stessi due termini. Per esempio: Quattro ics più cinque, per quattro ics meno cinque.",
-      "speech": "Somma per differenza. È il prodotto tra la somma e la differenza degli stessi due termini. Per esempio: Quattro __X__ più cinque, per quattro __X__ meno cinque.",
+      "text": "Somma per differenza. È il prodotto tra la somma e la differenza degli stessi due termini.",
+      "speech": "Somma per differenza. È il prodotto tra la somma e la differenza degli stessi due termini.",
       "screen": "Definizioni",
       "purpose": "Definizione: Somma per differenza"
     },
     {
-      "text": "Quadrato di un binomio. È un binomio elevato alla seconda. Per esempio: Due ics più tre, alla seconda.",
-      "speech": "Quadrato di un binomio. È un binomio elevato alla seconda. Per esempio: Due __X__ più tre, alla seconda.",
+      "text": "Quadrato di un binomio. È un binomio elevato alla seconda.",
+      "speech": "Quadrato di un binomio. È un binomio elevato alla seconda.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quadrato di un binomio"
     },
     {
-      "text": "Cubo di un binomio. È un binomio elevato alla terza. Per esempio: Tre ics più due, alla terza.",
-      "speech": "Cubo di un binomio. È un binomio elevato alla terza. Per esempio: Tre __X__ più due, alla terza.",
+      "text": "Cubo di un binomio. È un binomio elevato alla terza.",
+      "speech": "Cubo di un binomio. È un binomio elevato alla terza.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cubo di un binomio"
     },
     {
-      "text": "Quadrato di un trinomio. È un trinomio elevato alla seconda. Per esempio: Due ics più tre ipsilon più uno, alla seconda.",
-      "speech": "Quadrato di un trinomio. È un trinomio elevato alla seconda. Per esempio: Due __X__ più tre ipsilon più uno, alla seconda.",
+      "text": "Quadrato di un trinomio. È un trinomio elevato alla seconda.",
+      "speech": "Quadrato di un trinomio. È un trinomio elevato alla seconda.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quadrato di un trinomio"
     },
     {
-      "text": "Cubo di un trinomio. È un trinomio elevato alla terza. Per esempio: Due ics più tre ipsilon più uno, alla terza.",
-      "speech": "Cubo di un trinomio. È un trinomio elevato alla terza. Per esempio: Due __X__ più tre ipsilon più uno, alla terza.",
+      "text": "Cubo di un trinomio. È un trinomio elevato alla terza.",
+      "speech": "Cubo di un trinomio. È un trinomio elevato alla terza.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cubo di un trinomio"
     },
     {
-      "text": "Particolari prodotti notevoli. Sono prodotti tra un binomio e un trinomio che danno la somma o la differenza di due cubi. ",
-      "speech": "Particolari prodotti notevoli. Sono prodotti tra un binomio e un trinomio che danno la somma o la differenza di due cubi. ",
+      "text": "Particolari prodotti notevoli. Sono prodotti tra un binomio e un trinomio che danno la somma o la differenza di due cubi.",
+      "speech": "Particolari prodotti notevoli. Sono prodotti tra un binomio e un trinomio che danno la somma o la differenza di due cubi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Particolari prodotti notevoli"
     },
     {
-      "text": "Potenza n-sima di un binomio. È un binomio elevato a un esponente. Lo sviluppo è un polinomio completo e omogeneo, formato da un monomio in più dell'esponente. ",
-      "speech": "Potenza n-sima di un binomio. È un binomio elevato a un esponente. Lo sviluppo è un polinomio completo e omogeneo, formato da un monomio in più dell'esponente. ",
+      "text": "Potenza n-sima di un binomio. È un binomio elevato a un esponente. Lo sviluppo è un polinomio completo e omogeneo, formato da un monomio in più dell'esponente.",
+      "speech": "Potenza n-sima di un binomio. È un binomio elevato a un esponente. Lo sviluppo è un polinomio completo e omogeneo, formato da un monomio in più dell'esponente.",
       "screen": "Definizioni",
       "purpose": "Definizione: Potenza n-sima di un binomio"
     },
     {
-      "text": "La regola dice: a più b, per a meno b, è uguale ad a alla seconda meno b alla seconda. Quadrato del primo termine, meno quadrato del secondo.",
-      "speech": "La regola dice: a più b, per a meno b, è uguale ad a alla seconda meno b alla seconda. Quadrato del primo termine, meno quadrato del secondo.",
+      "text": "La regola dice: a più b, per a meno b, è uguale: a alla seconda meno b alla seconda. Quadrato del primo termine, meno quadrato del secondo.",
+      "speech": "La regola dice: a più b, per a meno b, è uguale: a alla seconda meno b alla seconda. Quadrato del primo termine, meno quadrato del secondo.",
       "screen": "Somma per differenza",
       "purpose": "Spiegazione visiva: regola della scheda"
     },

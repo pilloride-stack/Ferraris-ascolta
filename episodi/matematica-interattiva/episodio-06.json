@@ -4,38 +4,38 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Equazione completa. È un'equazione di secondo grado con tutti i coefficienti a, b e c. Per esempio: ics alla seconda meno sette ics più dieci è uguale a zero.",
-      "speech": "Equazione completa. È un'equazione di secondo grado con tutti i coefficienti a, b e c. Per esempio: __X__ alla seconda meno sette __X__ più dieci è uguale a zero.",
+      "text": "Equazione completa. È un'equazione di secondo grado con tutti i coefficienti a, b e c.",
+      "speech": "Equazione completa. È un'equazione di secondo grado con tutti i coefficienti a, b e c.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione completa"
     },
     {
-      "text": "Equazione completa con b pari. È un'equazione completa in cui il coefficiente b è un numero pari. Per esempio: ics alla seconda più quattro ics più uno è uguale a zero.",
-      "speech": "Equazione completa con b pari. È un'equazione completa in cui il coefficiente b è un numero pari. Per esempio: __X__ alla seconda più quattro __X__ più uno è uguale a zero.",
+      "text": "Equazione completa con b pari. È un'equazione completa in cui il coefficiente b è un numero pari.",
+      "speech": "Equazione completa con b pari. È un'equazione completa in cui il coefficiente b è un numero pari.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione completa con b pari"
     },
     {
-      "text": "Equazione pura. È un'equazione di secondo grado con b uguale a zero. Per esempio: tre ics alla seconda meno ventisette è uguale a zero.",
-      "speech": "Equazione pura. È un'equazione di secondo grado con b uguale a zero. Per esempio: tre __X__ alla seconda meno ventisette è uguale a zero.",
+      "text": "Equazione pura. È un'equazione di secondo grado con b uguale a zero.",
+      "speech": "Equazione pura. È un'equazione di secondo grado con b uguale a zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione pura"
     },
     {
-      "text": "Equazione spuria. È un'equazione di secondo grado con c uguale a zero. Per esempio: ics alla seconda più quattro ics è uguale a zero.",
-      "speech": "Equazione spuria. È un'equazione di secondo grado con c uguale a zero. Per esempio: __X__ alla seconda più quattro __X__ è uguale a zero.",
+      "text": "Equazione spuria. È un'equazione di secondo grado con c uguale a zero.",
+      "speech": "Equazione spuria. È un'equazione di secondo grado con c uguale a zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione spuria"
     },
     {
-      "text": "Equazione monomia. È un'equazione con il solo termine aics alla seconda. Per esempio: tre ics alla seconda è uguale a zero.",
-      "speech": "Equazione monomia. È un'equazione con il solo termine aics alla seconda. Per esempio: tre __X__ alla seconda è uguale a zero.",
+      "text": "Equazione monomia. È un'equazione con il solo termine aics alla seconda.",
+      "speech": "Equazione monomia. È un'equazione con il solo termine aics alla seconda.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione monomia"
     },
     {
-      "text": "Significato del delta. Il delta è il numero bi alla seconda meno quattro a ci. Dal suo segno dipende il tipo di soluzioni. Per esempio: ics alla seconda più ics più dodici è uguale a zero.",
-      "speech": "Significato del delta. Il delta è il numero bi alla seconda meno quattro a ci. Dal suo segno dipende il tipo di soluzioni. Per esempio: __X__ alla seconda più __X__ più dodici è uguale a zero.",
+      "text": "Significato del delta. Il delta è il numero bi alla seconda meno quattro a ci. Dal suo segno dipende il tipo di soluzioni.",
+      "speech": "Significato del delta. Il delta è il numero bi alla seconda meno quattro a ci. Dal suo segno dipende il tipo di soluzioni.",
       "screen": "Definizioni",
       "purpose": "Definizione: Significato del delta"
     },

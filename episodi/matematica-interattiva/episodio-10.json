@@ -4,44 +4,44 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Equazione con una radice quadrata. È un'equazione con l'incognita sotto una radice quadrata. Per esempio: Radice di ics più tre è uguale a ics più uno.",
-      "speech": "Equazione con una radice quadrata. È un'equazione con l'incognita sotto una radice quadrata. Per esempio: Radice di __X__ più tre è uguale a __X__ più uno.",
+      "text": "Equazione con una radice quadrata. È un'equazione con l'incognita sotto una radice quadrata.",
+      "speech": "Equazione con una radice quadrata. È un'equazione con l'incognita sotto una radice quadrata.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione con una radice quadrata"
     },
     {
-      "text": "Equazione con due radici quadrate. È un'equazione con due radicali uguagliati, o con la loro somma. Per esempio: Radice di ics più uno è uguale a radice di due ics meno tre.",
-      "speech": "Equazione con due radici quadrate. È un'equazione con due radicali uguagliati, o con la loro somma. Per esempio: Radice di __X__ più uno è uguale a radice di due __X__ meno tre.",
+      "text": "Equazione con due radici quadrate. È un'equazione con due radicali uguagliati, o con la loro somma.",
+      "speech": "Equazione con due radici quadrate. È un'equazione con due radicali uguagliati, o con la loro somma.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione con due radici quadrate"
     },
     {
-      "text": "Equazione con radici cubiche. È un'equazione con l'incognita sotto una radice cubica. Per esempio: Radice cubica di ics più uno è uguale a due.",
-      "speech": "Equazione con radici cubiche. È un'equazione con l'incognita sotto una radice cubica. Per esempio: Radice cubica di __X__ più uno è uguale a due.",
+      "text": "Equazione con radici cubiche. È un'equazione con l'incognita sotto una radice cubica.",
+      "speech": "Equazione con radici cubiche. È un'equazione con l'incognita sotto una radice cubica.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione con radici cubiche"
     },
     {
-      "text": "Valore assoluto. Il valore assoluto di x è x se x è maggiore o uguale a zero, −x se x è minore di zero. Per esempio: Valore assoluto di meno tre.",
-      "speech": "Valore assoluto. Il valore assoluto di x è x se x è maggiore o uguale a zero, −x se x è minore di zero. Per esempio: Valore assoluto di meno tre.",
+      "text": "Valore assoluto. Il valore assoluto di x è x se x è maggiore o uguale a zero, −x se x è minore di zero.",
+      "speech": "Valore assoluto. Il valore assoluto di x è x se x è maggiore o uguale a zero, −x se x è minore di zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Valore assoluto"
     },
     {
-      "text": "Equazione con un solo valore assoluto. È un'equazione con un valore assoluto al primo membro. Per esempio: Valore assoluto di ics meno uno è uguale a tre.",
-      "speech": "Equazione con un solo valore assoluto. È un'equazione con un valore assoluto al primo membro. Per esempio: Valore assoluto di __X__ meno uno è uguale a tre.",
+      "text": "Equazione con un solo valore assoluto. È un'equazione con un valore assoluto al primo membro.",
+      "speech": "Equazione con un solo valore assoluto. È un'equazione con un valore assoluto al primo membro.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione con un solo valore assoluto"
     },
     {
-      "text": "Equazione con due o più valori assoluti. Si studia il segno di ogni valore assoluto e l'equazione si scinde in sistemi. Per esempio: Valore assoluto di ics meno uno, più valore assoluto di ics meno tre, è uguale a quattro.",
-      "speech": "Equazione con due o più valori assoluti. Si studia il segno di ogni valore assoluto e l'equazione si scinde in sistemi. Per esempio: Valore assoluto di __X__ meno uno, più valore assoluto di __X__ meno tre, è uguale a quattro.",
+      "text": "Equazione con due o più valori assoluti. Si studia il segno di ogni valore assoluto e l'equazione si scinde in sistemi.",
+      "speech": "Equazione con due o più valori assoluti. Si studia il segno di ogni valore assoluto e l'equazione si scinde in sistemi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione con due o più valori assoluti"
     },
     {
-      "text": "Due valori assoluti uguali. È il caso particolare con due valori assoluti e termine noto uguale a zero. Per esempio: Valore assoluto di due ics meno uno è uguale a valore assoluto di ics più due.",
-      "speech": "Due valori assoluti uguali. È il caso particolare con due valori assoluti e termine noto uguale a zero. Per esempio: Valore assoluto di due __X__ meno uno è uguale a valore assoluto di __X__ più due.",
+      "text": "Due valori assoluti uguali. È il caso particolare con due valori assoluti e termine noto uguale a zero.",
+      "speech": "Due valori assoluti uguali. È il caso particolare con due valori assoluti e termine noto uguale a zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Due valori assoluti uguali"
     },

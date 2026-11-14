@@ -4,104 +4,104 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Radice aritmetica. La radice aritmetica n-sima di a è quel numero b tale che b alla n sia a, con a e b maggiori o uguali a zero e n intero maggiore di zero. Per esempio: Radice quadrata di nove è uguale a tre.",
-      "speech": "Radice aritmetica. La radice aritmetica n-sima di a è quel numero b tale che b alla n sia a, con a e b maggiori o uguali a zero e n intero maggiore di zero. Per esempio: Radice quadrata di nove è uguale a tre.",
+      "text": "Radice aritmetica. La radice aritmetica n-sima di a è quel numero b tale che b alla n sia a, con a e b maggiori o uguali a zero e n intero maggiore di zero.",
+      "speech": "Radice aritmetica. La radice aritmetica n-sima di a è quel numero b tale che b alla n sia a, con a e b maggiori o uguali a zero e n intero maggiore di zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radice aritmetica"
     },
     {
-      "text": "Semplificazione. Si dividono l'indice e l'esponente del radicando per lo stesso numero. Per esempio: Radice sesta di otto.",
-      "speech": "Semplificazione. Si dividono l'indice e l'esponente del radicando per lo stesso numero. Per esempio: Radice sesta di otto.",
+      "text": "Semplificazione. Si dividono l'indice e l'esponente del radicando per lo stesso numero.",
+      "speech": "Semplificazione. Si dividono l'indice e l'esponente del radicando per lo stesso numero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Semplificazione"
     },
     {
-      "text": "Riduzione allo stesso indice. Si scrivono due radicali con lo stesso indice, il prodotto degli indici. Per esempio: Radice quarta di cinque e radice cubica di due.",
-      "speech": "Riduzione allo stesso indice. Si scrivono due radicali con lo stesso indice, il prodotto degli indici. Per esempio: Radice quarta di cinque e radice cubica di due.",
+      "text": "Riduzione allo stesso indice. Si scrivono due radicali con lo stesso indice, il prodotto degli indici.",
+      "speech": "Riduzione allo stesso indice. Si scrivono due radicali con lo stesso indice, il prodotto degli indici.",
       "screen": "Definizioni",
       "purpose": "Definizione: Riduzione allo stesso indice"
     },
     {
-      "text": "Prodotto di radicali. Si moltiplicano i radicandi di radicali con lo stesso indice. Per esempio: Radice cubica di cinque per radice cubica di due.",
-      "speech": "Prodotto di radicali. Si moltiplicano i radicandi di radicali con lo stesso indice. Per esempio: Radice cubica di cinque per radice cubica di due.",
+      "text": "Prodotto di radicali. Si moltiplicano i radicandi di radicali con lo stesso indice.",
+      "speech": "Prodotto di radicali. Si moltiplicano i radicandi di radicali con lo stesso indice.",
       "screen": "Definizioni",
       "purpose": "Definizione: Prodotto di radicali"
     },
     {
-      "text": "Rapporto di radicali. Si dividono i radicandi di radicali con lo stesso indice. Per esempio: Radice cubica di cinque diviso radice cubica di due.",
-      "speech": "Rapporto di radicali. Si dividono i radicandi di radicali con lo stesso indice. Per esempio: Radice cubica di cinque diviso radice cubica di due.",
+      "text": "Rapporto di radicali. Si dividono i radicandi di radicali con lo stesso indice.",
+      "speech": "Rapporto di radicali. Si dividono i radicandi di radicali con lo stesso indice.",
       "screen": "Definizioni",
       "purpose": "Definizione: Rapporto di radicali"
     },
     {
-      "text": "Trasporto dentro il segno di radice. Un fattore esterno entra nella radice elevato all'indice. Per esempio: Due per radice cubica di tre.",
-      "speech": "Trasporto dentro il segno di radice. Un fattore esterno entra nella radice elevato all'indice. Per esempio: Due per radice cubica di tre.",
+      "text": "Trasporto dentro il segno di radice. Un fattore esterno entra nella radice elevato all'indice.",
+      "speech": "Trasporto dentro il segno di radice. Un fattore esterno entra nella radice elevato all'indice.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trasporto dentro il segno di radice"
     },
     {
-      "text": "Trasporto fuori dal segno di radice. Un fattore con esponente uguale all'indice esce dalla radice. Per esempio: Radice quadrata di venti.",
-      "speech": "Trasporto fuori dal segno di radice. Un fattore con esponente uguale all'indice esce dalla radice. Per esempio: Radice quadrata di venti.",
+      "text": "Trasporto fuori dal segno di radice. Un fattore con esponente uguale all'indice esce dalla radice.",
+      "speech": "Trasporto fuori dal segno di radice. Un fattore con esponente uguale all'indice esce dalla radice.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trasporto fuori dal segno di radice"
     },
     {
-      "text": "Potenza di radicali. Si eleva il radicando all'esponente della potenza. Per esempio: Radice cubica di cinque, alla seconda.",
-      "speech": "Potenza di radicali. Si eleva il radicando all'esponente della potenza. Per esempio: Radice cubica di cinque, alla seconda.",
+      "text": "Potenza di radicali. Si eleva il radicando all'esponente della potenza.",
+      "speech": "Potenza di radicali. Si eleva il radicando all'esponente della potenza.",
       "screen": "Definizioni",
       "purpose": "Definizione: Potenza di radicali"
     },
     {
-      "text": "Radice di radice. Si moltiplicano gli indici. Per esempio: Radice cubica di radice quarta di due.",
-      "speech": "Radice di radice. Si moltiplicano gli indici. Per esempio: Radice cubica di radice quarta di due.",
+      "text": "Radice di radice. Si moltiplicano gli indici.",
+      "speech": "Radice di radice. Si moltiplicano gli indici.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radice di radice"
     },
     {
-      "text": "Somma algebrica di radicali simili. Si sommano i coefficienti di radicali con stesso indice e stesso radicando. Per esempio: Otto radice cubica di due, meno cinque radice cubica di due.",
-      "speech": "Somma algebrica di radicali simili. Si sommano i coefficienti di radicali con stesso indice e stesso radicando. Per esempio: Otto radice cubica di due, meno cinque radice cubica di due.",
+      "text": "Somma algebrica di radicali simili. Si sommano i coefficienti di radicali con stesso indice e stesso radicando.",
+      "speech": "Somma algebrica di radicali simili. Si sommano i coefficienti di radicali con stesso indice e stesso radicando.",
       "screen": "Definizioni",
       "purpose": "Definizione: Somma algebrica di radicali simili"
     },
     {
-      "text": "Razionalizzazione con una radice quadrata. Elimina il radicale dal denominatore: si moltiplicano numeratore e denominatore per lo stesso fattore razionalizzante. Per esempio: Due fratto radice di cinque.",
-      "speech": "Razionalizzazione con una radice quadrata. Elimina il radicale dal denominatore: si moltiplicano numeratore e denominatore per lo stesso fattore razionalizzante. Per esempio: Due fratto radice di cinque.",
+      "text": "Razionalizzazione con una radice quadrata. Elimina il radicale dal denominatore: si moltiplicano numeratore e denominatore per lo stesso fattore razionalizzante.",
+      "speech": "Razionalizzazione con una radice quadrata. Elimina il radicale dal denominatore: si moltiplicano numeratore e denominatore per lo stesso fattore razionalizzante.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con una radice quadrata"
     },
     {
-      "text": "Razionalizzazione con una radice non quadrata. Il fattore razionalizzante ha indice n ed esponente n − m. Per esempio: Due fratto radice cubica di sette alla seconda.",
-      "speech": "Razionalizzazione con una radice non quadrata. Il fattore razionalizzante ha indice n ed esponente n − m. Per esempio: Due fratto radice cubica di sette alla seconda.",
+      "text": "Razionalizzazione con una radice non quadrata. Il fattore razionalizzante ha indice n ed esponente n − m.",
+      "speech": "Razionalizzazione con una radice non quadrata. Il fattore razionalizzante ha indice n ed esponente n − m.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con una radice non quadrata"
     },
     {
-      "text": "Razionalizzazione con un polinomio. Il fattore razionalizzante cambia il segno tra i due termini, per usare il prodotto notevole. Per esempio: Due fratto, cinque meno radice di tre.",
-      "speech": "Razionalizzazione con un polinomio. Il fattore razionalizzante cambia il segno tra i due termini, per usare il prodotto notevole. Per esempio: Due fratto, cinque meno radice di tre.",
+      "text": "Razionalizzazione con un polinomio. Il fattore razionalizzante cambia il segno tra i due termini, per usare il prodotto notevole.",
+      "speech": "Razionalizzazione con un polinomio. Il fattore razionalizzante cambia il segno tra i due termini, per usare il prodotto notevole.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con un polinomio"
     },
     {
-      "text": "Razionalizzazione con radici cubiche. Il fattore razionalizzante usa la somma o la differenza di cubi. Per esempio: Due fratto, radice cubica di due più radice cubica di cinque.",
-      "speech": "Razionalizzazione con radici cubiche. Il fattore razionalizzante usa la somma o la differenza di cubi. Per esempio: Due fratto, radice cubica di due più radice cubica di cinque.",
+      "text": "Razionalizzazione con radici cubiche. Il fattore razionalizzante usa la somma o la differenza di cubi.",
+      "speech": "Razionalizzazione con radici cubiche. Il fattore razionalizzante usa la somma o la differenza di cubi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con radici cubiche"
     },
     {
-      "text": "Radicale doppio. È una radice quadrata il cui radicando è la somma di un monomio e di un'altra radice quadrata. Per esempio: Radice di sei meno radice di venti.",
-      "speech": "Radicale doppio. È una radice quadrata il cui radicando è la somma di un monomio e di un'altra radice quadrata. Per esempio: Radice di sei meno radice di venti.",
+      "text": "Radicale doppio. È una radice quadrata il cui radicando è la somma di un monomio e di un'altra radice quadrata.",
+      "speech": "Radicale doppio. È una radice quadrata il cui radicando è la somma di un monomio e di un'altra radice quadrata.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radicale doppio"
     },
     {
-      "text": "Radice algebrica. La radice algebrica n-sima di a è quel numero b tale che b alla n sia a, con a e b numeri reali qualsiasi e n intero maggiore di zero. Per esempio: Ics alla terza è uguale a meno otto.",
-      "speech": "Radice algebrica. La radice algebrica n-sima di a è quel numero b tale che b alla n sia a, con a e b numeri reali qualsiasi e n intero maggiore di zero. Per esempio: __X__ alla terza è uguale a meno otto.",
+      "text": "Radice algebrica. La radice algebrica n-sima di a è quel numero b tale che b alla n sia a, con a e b numeri reali qualsiasi e n intero maggiore di zero.",
+      "speech": "Radice algebrica. La radice algebrica n-sima di a è quel numero b tale che b alla n sia a, con a e b numeri reali qualsiasi e n intero maggiore di zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radice algebrica"
     },
     {
-      "text": "la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale ad a. Enne è l'indice, a il radicando.",
-      "speech": "la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale ad a. Enne è l'indice, a il radicando.",
+      "text": "la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale: a. Enne è l'indice, a il radicando.",
+      "speech": "la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale: a. Enne è l'indice, a il radicando.",
       "screen": "Radice aritmetica",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -460,8 +460,8 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "la radice algebrica nasce per risolvere equazioni come ics alla enne uguale ad a, con enne pari o dispari.",
-      "speech": "la radice algebrica nasce per risolvere equazioni come __X__ alla enne uguale ad a, con enne pari o dispari.",
+      "text": "la radice algebrica nasce per risolvere equazioni come ics alla enne uguale: a, con enne pari o dispari.",
+      "speech": "la radice algebrica nasce per risolvere equazioni come __X__ alla enne uguale: a, con enne pari o dispari.",
       "screen": "Radice algebrica",
       "purpose": "Spiegazione visiva: regola della scheda"
     },

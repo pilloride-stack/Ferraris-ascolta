@@ -4,14 +4,14 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Teorema di Pitagora. In ogni triangolo rettangolo, l'area del quadrato costruito sull'ipotenusa è equivalente alla somma delle aree dei quadrati costruiti sui cateti. Per esempio: A alla seconda è uguale a bi alla seconda, più ci alla seconda.",
-      "speech": "Teorema di Pitagora. In ogni triangolo rettangolo, l'area del quadrato costruito sull'ipotenusa è equivalente alla somma delle aree dei quadrati costruiti sui cateti. Per esempio: A alla seconda è uguale a bi alla seconda, più ci alla seconda.",
+      "text": "Teorema di Pitagora. In ogni triangolo rettangolo, l'area del quadrato costruito sull'ipotenusa è equivalente alla somma delle aree dei quadrati costruiti sui cateti.",
+      "speech": "Teorema di Pitagora. In ogni triangolo rettangolo, l'area del quadrato costruito sull'ipotenusa è equivalente alla somma delle aree dei quadrati costruiti sui cateti.",
       "screen": "Definizioni",
       "purpose": "Definizione: Teorema di Pitagora"
     },
     {
-      "text": "Dimostrazione. Si costruisce un quadrato di lato b + c e si calcola la sua area in due modi. Per esempio: Bi più ci, alla seconda, è uguale ad a alla seconda più due bi ci.",
-      "speech": "Dimostrazione. Si costruisce un quadrato di lato b + c e si calcola la sua area in due modi. Per esempio: Bi più ci, alla seconda, è uguale ad a alla seconda più due bi ci.",
+      "text": "Dimostrazione. Si costruisce un quadrato di lato b + c e si calcola la sua area in due modi.",
+      "speech": "Dimostrazione. Si costruisce un quadrato di lato b + c e si calcola la sua area in due modi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Dimostrazione"
     },

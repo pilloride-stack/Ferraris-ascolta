@@ -4,38 +4,38 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio. Per esempio: Radice di ics più tre, maggiore di ics più uno.",
-      "speech": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio. Per esempio: Radice di __X__ più tre, maggiore di __X__ più uno.",
+      "text": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio.",
+      "speech": "√A > B e √A ≥ B. È una disequazione con una radice quadrata maggiore di un polinomio.",
       "screen": "Definizioni",
       "purpose": "Definizione: √A > B e √A ≥ B"
     },
     {
-      "text": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio. Per esempio: Radice di ics più tre, minore di ics più uno.",
-      "speech": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio. Per esempio: Radice di __X__ più tre, minore di __X__ più uno.",
+      "text": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio.",
+      "speech": "√A < B e √A ≤ B. È una disequazione con una radice quadrata minore di un polinomio.",
       "screen": "Definizioni",
       "purpose": "Definizione: √A < B e √A ≤ B"
     },
     {
-      "text": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro. Per esempio: Radice di ics meno uno, minore di due.",
-      "speech": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro. Per esempio: Radice di __X__ meno uno, minore di due.",
+      "text": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro.",
+      "speech": "Casi particolari. Sono disequazioni con un numero o lo zero a secondo membro.",
       "screen": "Definizioni",
       "purpose": "Definizione: Casi particolari"
     },
     {
-      "text": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari. Per esempio: Radice di ics più uno, maggiore di radice di due ics meno tre.",
-      "speech": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari. Per esempio: Radice di __X__ più uno, maggiore di radice di due __X__ meno tre.",
+      "text": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari.",
+      "speech": "Due radici quadrate. Sono disequazioni con due radici quadrate o a indice pari.",
       "screen": "Definizioni",
       "purpose": "Definizione: Due radici quadrate"
     },
     {
-      "text": "Radici cubiche. Sono disequazioni con una o due radici cubiche. Per esempio: Radice cubica di ics più uno, maggiore di due.",
-      "speech": "Radici cubiche. Sono disequazioni con una o due radici cubiche. Per esempio: Radice cubica di __X__ più uno, maggiore di due.",
+      "text": "Radici cubiche. Sono disequazioni con una o due radici cubiche.",
+      "speech": "Radici cubiche. Sono disequazioni con una o due radici cubiche.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radici cubiche"
     },
     {
-      "text": "Radici ad indice diverso. Si riconducono radici con indice diverso allo stesso indice, il minimo comune multiplo degli indici. Per esempio: Radice di A e radice cubica di bi.",
-      "speech": "Radici ad indice diverso. Si riconducono radici con indice diverso allo stesso indice, il minimo comune multiplo degli indici. Per esempio: Radice di A e radice cubica di bi.",
+      "text": "Radici ad indice diverso. Si riconducono radici con indice diverso allo stesso indice, il minimo comune multiplo degli indici.",
+      "speech": "Radici ad indice diverso. Si riconducono radici con indice diverso allo stesso indice, il minimo comune multiplo degli indici.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radici ad indice diverso"
     },
