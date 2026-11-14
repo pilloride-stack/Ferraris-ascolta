@@ -34,8 +34,8 @@
  .revision-lesson .pair-arrow,.revision-lesson .result-arrow,.revision-lesson .lesson-pager{display:none!important}
  .revision-lesson .pair-example .step[hidden],.revision-lesson [hidden]{display:none!important}
  .revision-lesson .formula,.revision-lesson .mini-formula{font-size:clamp(18px,2.1vw,24px)!important;white-space:normal!important;overflow-x:auto!important;overflow-y:hidden!important;line-height:1.8!important;max-width:100%;text-align:left}
- .revision-lesson .formula-part,.revision-lesson .formula-chunk{white-space:normal!important;min-width:0!important;max-width:100%}
- .revision-lesson .formula-parts{flex-wrap:wrap!important;gap:14px!important}
+ .revision-lesson .learning-pair:not([hidden]) .formula-part,.revision-lesson .learning-pair:not([hidden]) .formula-chunk{white-space:normal!important;min-width:0!important;max-width:100%}
+ .revision-lesson .learning-pair:not([hidden]) .formula-parts{flex-direction:column!important;flex-wrap:wrap!important;align-items:stretch!important;gap:14px!important}.revision-lesson .learning-pair:not([hidden]) .formula-part{flex:1 1 auto!important;width:100%!important;justify-content:flex-start!important}
  .revision-lesson .math-frac{display:inline-flex!important;vertical-align:middle;flex-direction:column;align-items:stretch;text-align:center;line-height:1.35;margin:0 .2em;white-space:nowrap;flex-shrink:0}
  .revision-lesson .math-num{display:block;border-bottom:2px solid currentColor;padding:0 .18em .12em}
  .revision-lesson .math-den{display:block;padding:.12em .18em 0}

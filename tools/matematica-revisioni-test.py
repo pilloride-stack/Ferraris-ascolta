@@ -13,7 +13,7 @@ with sync_playwright() as p:
  for engine,width,height in [(p.chromium,1440,1000),(p.webkit,1024,1366),(p.webkit,768,1024)]:
   browser=engine.launch();page=browser.new_page(viewport={'width':width,'height':height});errors=[]
   page.on('pageerror',lambda e:errors.append(str(e)))
-  page.add_init_script('''window.__audio=[];window.Audio=class{constructor(url){this.src=url;window.__audio.push(this)}play(){return Promise.resolve()}pause(){}}''')
+  page.add_init_script('''const realScroll=Element.prototype.scrollIntoView;Element.prototype.scrollIntoView=function(options){return realScroll.call(this,{...options,behavior:'instant'})};window.__audio=[];window.Audio=class{constructor(url){this.src=url;window.__audio.push(this)}play(){return Promise.resolve()}pause(){}}''')
   for name in NAMES:
    page.goto('http://127.0.0.1:8765/lezioni/matematica/'+name+'/');page.wait_for_timeout(150)
    page.locator('#nav button').filter(has_text='Definizioni').click()
