@@ -12,12 +12,16 @@
     if(match)return base(`<line class="solution" x1="125" y1="34" x2="295" y2="34"/>${dot(125,match[1],match[2]==='≤')}${dot(295,match[4],match[3]==='≤')}`);
     match=value.match(new RegExp(`x\\s*([<>≤≥])\\s*${number}`));
     if(match){const right=match[1]==='>'||match[1]==='≥',x=210;return base(`${right?`<line class="solution" x1="${x}" y1="34" x2="398" y2="34"/>`:`<line class="solution" x1="20" y1="34" x2="${x}" y2="34"/>`}${dot(x,match[2],match[1]==='≤'||match[1]==='≥')}`)}
+    match=value.match(/([[(])\s*([−-]?\d+(?:[,.]\d+)?)\s*;\s*([−-]?\d+(?:[,.]\d+)?)\s*([\])])/);
+    if(match)return base(`<line class="solution" x1="125" y1="34" x2="295" y2="34"/>${dot(125,match[2],match[1]==='[')}${dot(295,match[3],match[4]===']')}`);
     const values=[...value.matchAll(new RegExp(`x(?:[₁₂0-9,]*)?\\s*=\\s*${number}`,'g'))].map(item=>item[1]);
     if(values.length){const unique=[...new Set(values)].slice(0,4),step=300/(unique.length+1);return base(unique.map((label,index)=>dot(60+step*(index+1),label,true)).join(''))}
+    if(/∅|nessuna soluzione/i.test(value))return base('<text class="label" x="210" y="25">∅</text>');
     return '';
   };
   const scan=()=>{
-    document.querySelectorAll('.pair-result,.step:last-child .formula,.result-formula,#labResults .formula,#labResults .remember,.solution,.result .formula').forEach(formula=>{
+    document.querySelectorAll('.pair-result').forEach(result=>{const example=result.closest('.pair-example'),previous=example?[...example.querySelectorAll('.step .formula')].at(-1):null;if(!previous)return;const clean=value=>value.replace(/^\s*Risultato\s*:\s*/i,'').replace(/\s+/g,' ').trim();if(clean(previous.textContent)!==clean(result.textContent))return;result.previousElementSibling?.classList.contains('result-arrow')&&result.previousElementSibling.remove();result.nextElementSibling?.classList.contains('solution-axis')&&result.nextElementSibling.remove();result.remove()});
+    document.querySelectorAll('.pair-result,.step:last-child .formula,.result-formula,#labResults .formula,#labResults .remember,.solution,.result .formula,.pair .example .step:last-child span').forEach(formula=>{
       if(formula.dataset.solutionAxis)return;
       if(formula.classList.contains('remember')&&!/Risultato\s*:|Soluzione\s*:/i.test(formula.textContent))return;
       const copy=formula.cloneNode(true);copy.querySelectorAll('.frac').forEach(fraction=>{const numerator=fraction.querySelector('.num')?.textContent.trim(),denominator=fraction.querySelector('.den')?.textContent.trim();if(numerator&&denominator)fraction.replaceWith(`${numerator}/${denominator}`)});
