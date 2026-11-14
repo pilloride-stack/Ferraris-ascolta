@@ -1,4 +1,20 @@
 (()=>{
+  const layout=document.createElement('style');layout.textContent='.learning-pair[hidden]{display:none!important}.pair-example h3,.pair-example h4,.pair-example .remember{text-align:center!important}@media(min-width:850px){.learning-pair:not([hidden]){grid-template-columns:minmax(0,.85fr) 70px minmax(0,1.4fr);align-items:start}.learning-pair:not([hidden]) .pair-arrow{align-self:center;flex-direction:column}.learning-pair:not([hidden]) .pair-arrow b{transform:none}.learning-pair:not([hidden]) .formula-parts{flex-wrap:nowrap!important}.learning-pair:not([hidden]) .formula-part{flex:0 1 auto!important;min-width:max-content!important;padding-inline:10px!important}}';document.head.append(layout);
+  const installTopicMenu=pairs=>{
+    if(!pairs.length||document.querySelector('.paired-topic-menu'))return;
+    const menu=document.createElement('div');menu.className='tabs paired-topic-menu';menu.setAttribute('role','navigation');menu.setAttribute('aria-label','Menu delle definizioni');
+    const controls=document.createElement('div');controls.className='paired-topic-nav';controls.setAttribute('aria-label','Navigazione tra le definizioni');
+    const previous=document.createElement('button'),next=document.createElement('button');previous.type=next.type='button';previous.className='secondary';next.className='primary';previous.textContent='← Indietro';next.textContent='Avanti →';controls.append(previous,next);
+    const activate=index=>{const safe=Math.max(0,Math.min(pairs.length-1,index));pairs.forEach(item=>{item.classList.remove('pair-selected');item.hidden=true});pairs[safe].hidden=false;pairs[safe].classList.add('pair-selected');window.__selectedLearningPair=safe;menu.querySelectorAll('button').forEach((item,itemIndex)=>item.classList.toggle('active',itemIndex===safe));previous.disabled=safe===0;next.disabled=safe===pairs.length-1;pairs[safe].focus({preventScroll:true})};
+    pairs.forEach((pair,index)=>{
+      const button=document.createElement('button'),title=pair.querySelector('.pair-definition h3')?.textContent?.trim()||`Definizione ${index+1}`;
+      button.type='button';button.textContent=`${index+1}. ${title}`;pair.hidden=index!==0;
+      button.onclick=()=>activate(index);
+      menu.append(button);
+    });
+    previous.onclick=()=>activate((Number(window.__selectedLearningPair)||0)-1);next.onclick=()=>activate((Number(window.__selectedLearningPair)||0)+1);
+    menu.firstElementChild?.classList.add('active');previous.disabled=true;pairs[0].before(menu);pairs.at(-1).after(controls);
+  };
   const enhanceExistingPairs=()=>{
     const pairs=[...document.querySelectorAll('.learning-pair')];
     if(!pairs.length)return false;
@@ -26,6 +42,7 @@
       pair.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();select();document.querySelector('.screen.active .voice-controls button')?.focus()}});
     });
     pairs[0].classList.add('pair-selected');
+    installTopicMenu(pairs);
     const screen=pairs[0].closest('.screen');
     const forward=screen?.querySelector('.actions .primary');
     if(forward)forward.textContent='Allenamento →';
@@ -110,6 +127,7 @@
   });
   window.__selectedLearningPair=0;
   definitionHost.querySelector('.learning-pair')?.classList.add('pair-selected');
+  installTopicMenu([...definitionHost.querySelectorAll('.learning-pair')]);
 
   const obsoleteNav=[...document.querySelectorAll('#nav button[data-screen-index]')]
     .find(button=>button.textContent.includes('Esempi'));
