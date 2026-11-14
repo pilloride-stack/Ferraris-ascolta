@@ -6,6 +6,7 @@
  const gcd=(a,b)=>b?gcd(b,a%b):Math.abs(a);
  const rat=(a,b)=>{if(b<0){a=-a;b=-b}const g=gcd(Math.abs(a),Math.abs(b))||1;a/=g;b/=g;return b===1?String(a):a+'/'+b};
  const F=s=>mathFormula(String(s));
+ const formulaLines=value=>{const out=[];let depth=0,start=0;const s=String(value);for(let i=0;i<s.length;i++){if('([{'.includes(s[i]))depth++;else if(')]}'.includes(s[i]))depth=Math.max(0,depth-1);else if(s[i]===';'&&depth===0){out.push(s.slice(start,i));start=i+1}}out.push(s.slice(start));return out;};
  const linear=(a,b,c)=>{const term=(n,v,first=false)=>!n?'':(n<0?'−':first?'':'+')+(Math.abs(n)===1?'':Math.abs(n))+v;return [term(a,'x',true),term(b,'y',!a)].filter(Boolean).join(' ')+' = '+c};
  const style=document.createElement('style');style.textContent=`
  .systems-episode .learning-pair .formula,.systems-episode #labResults .formula{white-space:normal!important;overflow-x:auto!important;line-height:1.65!important}
@@ -54,7 +55,7 @@
  }
  function renderFormula(el,value,label){
   if(/sistema iniziale/i.test(label||'')){el.innerHTML=mathFormula(value,'Sistema');return}
-  el.innerHTML=String(value).split(';').map(line=>`<span class="sys-formula-line">${F(line.trim())}</span>`).join('');
+  el.innerHTML=formulaLines(value).map(line=>`<span class="sys-formula-line">${F(line.trim())}</span>`).join('');
  }
  function installExamples(){
   document.querySelectorAll('.learning-pair').forEach((pair,i)=>{
