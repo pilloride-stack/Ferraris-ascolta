@@ -1,21 +1,15 @@
 (()=>{
   const pairs=[...document.querySelectorAll('.learning-pair')].slice(0,2);
-  const wrapFirst=(root,pattern,className)=>{
-    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;
-    while(node=walker.nextNode()){
-      const match=node.nodeValue.match(pattern);if(!match)continue;
-      const index=match.index,mark=document.createElement('span');mark.className=className;mark.textContent=match[0];
-      const after=node.splitText(index);after.nodeValue=after.nodeValue.slice(match[0].length);after.before(mark);return;
-    }
-  };
-  pairs.forEach(pair=>{
+  const system=(label,rows)=>`<span class="system"><span class="system-brace" aria-hidden="true">{</span><span class="system-lines"><b>${label}</b>${rows.map(row=>`<span>${row}</span>`).join('')}</span></span>`;
+  const main=(operator)=>`<span class="irrational-main"><span class="principal-root">√</span><span class="radicand">A</span><span class="principal-operator">${operator}</span><span>B</span><span class="yellow-arrow">→</span></span>`;
+  const formulas=[
+    `${main('&gt;')}<span class="systems">${system('B negativo',['A ≥ 0','B &lt; 0'])}<b class="system-or">oppure</b>${system('B non negativo',['B ≥ 0','A &gt; B²'])}</span>`,
+    `${main('&lt;')}<span class="systems">${system('B positivo',['A ≥ 0','B &gt; 0','A &lt; B²'])}</span>`,
+  ];
+  pairs.forEach((pair,index)=>{
     const formula=pair.querySelector('.pair-definition .formula');if(!formula)return;
     formula.classList.add('irrational-rule');
-    wrapFirst(formula,/√/u,'principal-root');
-    wrapFirst(formula,/[<>≤≥]/u,'principal-operator');
-    formula.querySelectorAll('.flow-arrow').forEach(arrow=>arrow.classList.add('yellow-arrow'));
-    const walker=document.createTreeWalker(formula,NodeFilter.SHOW_TEXT);const arrows=[];let node;
-    while(node=walker.nextNode())if(node.nodeValue.includes('→'))arrows.push(node);
-    arrows.forEach(text=>{let index=text.nodeValue.indexOf('→'),after=text.splitText(index);after.nodeValue=after.nodeValue.slice(1);const mark=document.createElement('span');mark.className='yellow-arrow';mark.textContent='→';after.before(mark)});
+    formula.innerHTML=formulas[index];
+    formula.setAttribute('aria-label',index===0?'Radice di A maggiore di B: due sistemi alternativi':'Radice di A minore di B: un sistema di condizioni');
   });
 })();
