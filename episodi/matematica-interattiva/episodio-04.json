@@ -4,62 +4,62 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Raccoglimento totale. Si scrive un polinomio come prodotto di un fattore comune a tutti i termini per un altro polinomio. Per esempio: due a alla seconda bi meno quattro a bi alla seconda più dieci a alla seconda bi alla seconda.",
-      "speech": "Raccoglimento totale. Si scrive un polinomio come prodotto di un fattore comune a tutti i termini per un altro polinomio. Per esempio: due a alla seconda bi meno quattro a bi alla seconda più dieci a alla seconda bi alla seconda.",
+      "text": "Raccoglimento totale. Si scrive un polinomio come prodotto di un fattore comune a tutti i termini per un altro polinomio.",
+      "speech": "Raccoglimento totale. Si scrive un polinomio come prodotto di un fattore comune a tutti i termini per un altro polinomio.",
       "screen": "Definizioni",
       "purpose": "Definizione: Raccoglimento totale"
     },
     {
-      "text": "Raccoglimento parziale. Si raggruppano i termini e si raccoglie in ogni gruppo, fino a un fattore comune tra i gruppi. Per esempio: due ics ipsilon più due ics zeta più tre ipsilon più tre zeta.",
-      "speech": "Raccoglimento parziale. Si raggruppano i termini e si raccoglie in ogni gruppo, fino a un fattore comune tra i gruppi. Per esempio: due __X__ ipsilon più due __X__ zeta più tre ipsilon più tre zeta.",
+      "text": "Raccoglimento parziale. Si raggruppano i termini e si raccoglie in ogni gruppo, fino a un fattore comune tra i gruppi.",
+      "speech": "Raccoglimento parziale. Si raggruppano i termini e si raccoglie in ogni gruppo, fino a un fattore comune tra i gruppi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Raccoglimento parziale"
     },
     {
-      "text": "Differenza di due quadrati. È un polinomio formato da due quadrati separati dal segno meno. Per esempio: nove ics alla seconda meno quattro.",
-      "speech": "Differenza di due quadrati. È un polinomio formato da due quadrati separati dal segno meno. Per esempio: nove __X__ alla seconda meno quattro.",
+      "text": "Differenza di due quadrati. È un polinomio formato da due quadrati separati dal segno meno.",
+      "speech": "Differenza di due quadrati. È un polinomio formato da due quadrati separati dal segno meno.",
       "screen": "Definizioni",
       "purpose": "Definizione: Differenza di due quadrati"
     },
     {
-      "text": "Differenza di cubi. È un polinomio formato da due cubi separati dal segno meno. Per esempio: ics alla terza meno otto.",
-      "speech": "Differenza di cubi. È un polinomio formato da due cubi separati dal segno meno. Per esempio: __X__ alla terza meno otto.",
+      "text": "Differenza di cubi. È un polinomio formato da due cubi separati dal segno meno.",
+      "speech": "Differenza di cubi. È un polinomio formato da due cubi separati dal segno meno.",
       "screen": "Definizioni",
       "purpose": "Definizione: Differenza di cubi"
     },
     {
-      "text": "Somma di cubi. È un polinomio formato da due cubi separati dal segno più. Per esempio: ics alla terza più ventisette.",
-      "speech": "Somma di cubi. È un polinomio formato da due cubi separati dal segno più. Per esempio: __X__ alla terza più ventisette.",
+      "text": "Somma di cubi. È un polinomio formato da due cubi separati dal segno più.",
+      "speech": "Somma di cubi. È un polinomio formato da due cubi separati dal segno più.",
       "screen": "Definizioni",
       "purpose": "Definizione: Somma di cubi"
     },
     {
-      "text": "Quadrato di binomio. È un trinomio formato da due quadrati e dal loro doppio prodotto. Per esempio: nove ics alla seconda più sei ics più uno.",
-      "speech": "Quadrato di binomio. È un trinomio formato da due quadrati e dal loro doppio prodotto. Per esempio: nove __X__ alla seconda più sei __X__ più uno.",
+      "text": "Quadrato di binomio. È un trinomio formato da due quadrati e dal loro doppio prodotto.",
+      "speech": "Quadrato di binomio. È un trinomio formato da due quadrati e dal loro doppio prodotto.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quadrato di binomio"
     },
     {
-      "text": "Trinomio notevole con a uguale a uno. È un trinomio di secondo grado con coefficiente di ics alla seconda uguale a uno. Per esempio: ics alla seconda meno cinque ics più sei.",
-      "speech": "Trinomio notevole con a uguale a uno. È un trinomio di secondo grado con coefficiente di __X__ alla seconda uguale a uno. Per esempio: __X__ alla seconda meno cinque __X__ più sei.",
+      "text": "Trinomio notevole con a uguale a uno. È un trinomio di secondo grado con coefficiente di ics alla seconda uguale a uno.",
+      "speech": "Trinomio notevole con a uguale a uno. È un trinomio di secondo grado con coefficiente di __X__ alla seconda uguale a uno.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trinomio notevole con a = 1"
     },
     {
-      "text": "Trinomio notevole con a diverso da uno. È un trinomio di secondo grado con coefficiente di ics alla seconda diverso da uno. Per esempio: sei ics alla seconda più cinque ics meno quattro.",
-      "speech": "Trinomio notevole con a diverso da uno. È un trinomio di secondo grado con coefficiente di __X__ alla seconda diverso da uno. Per esempio: sei __X__ alla seconda più cinque __X__ meno quattro.",
+      "text": "Trinomio notevole con a diverso da uno. È un trinomio di secondo grado con coefficiente di ics alla seconda diverso da uno.",
+      "speech": "Trinomio notevole con a diverso da uno. È un trinomio di secondo grado con coefficiente di __X__ alla seconda diverso da uno.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trinomio notevole con a diverso da 1"
     },
     {
-      "text": "Cubo di binomio. È un polinomio di quattro termini: due cubi e due tripli prodotti. Per esempio: otto ics alla terza più dodici ics alla seconda più sei ics più uno.",
-      "speech": "Cubo di binomio. È un polinomio di quattro termini: due cubi e due tripli prodotti. Per esempio: otto __X__ alla terza più dodici __X__ alla seconda più sei __X__ più uno.",
+      "text": "Cubo di binomio. È un polinomio di quattro termini: due cubi e due tripli prodotti.",
+      "speech": "Cubo di binomio. È un polinomio di quattro termini: due cubi e due tripli prodotti.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cubo di binomio"
     },
     {
-      "text": "Quadrato di un trinomio. È un polinomio di sei termini: tre quadrati e tre doppi prodotti. Per esempio: venticinque ics alla seconda più sedici ipsilon alla seconda più zeta alla seconda più quaranta ics ipsilon più dieci ics zeta più otto ipsilon zeta.",
-      "speech": "Quadrato di un trinomio. È un polinomio di sei termini: tre quadrati e tre doppi prodotti. Per esempio: venticinque __X__ alla seconda più sedici ipsilon alla seconda più zeta alla seconda più quaranta __X__ ipsilon più dieci __X__ zeta più otto ipsilon zeta.",
+      "text": "Quadrato di un trinomio. È un polinomio di sei termini: tre quadrati e tre doppi prodotti.",
+      "speech": "Quadrato di un trinomio. È un polinomio di sei termini: tre quadrati e tre doppi prodotti.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quadrato di un trinomio"
     },
@@ -70,8 +70,8 @@
       "purpose": "Definizione: Cubo di un trinomio"
     },
     {
-      "text": "sono presenti un numero qualsiasi di termini. a bi più a ci è uguale ad a, per bi più ci.",
-      "speech": "sono presenti un numero qualsiasi di termini. a bi più a ci è uguale ad a, per bi più ci.",
+      "text": "sono presenti un numero qualsiasi di termini. a bi più a ci è uguale: a, per bi più ci.",
+      "speech": "sono presenti un numero qualsiasi di termini. a bi più a ci è uguale: a, per bi più ci.",
       "screen": "Raccoglimento totale",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -118,8 +118,8 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale a a meno bi, per a più bi.",
-      "speech": "sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale a a meno bi, per a più bi.",
+      "text": "sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale: a meno bi, per a più bi.",
+      "speech": "sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale: a meno bi, per a più bi.",
       "screen": "Differenza di due quadrati",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -142,8 +142,8 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale a a meno bi, per a alla seconda più a bi più bi alla seconda.",
-      "speech": "sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale a a meno bi, per a alla seconda più a bi più bi alla seconda.",
+      "text": "sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale: a meno bi, per a alla seconda più a bi più bi alla seconda.",
+      "speech": "sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale: a meno bi, per a alla seconda più a bi più bi alla seconda.",
       "screen": "Differenza di cubi",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -160,14 +160,14 @@
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a ics meno due, per ics alla seconda più due ics più quattro.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale: ics meno due, per ics alla seconda più due ics più quattro.",
       "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ meno due, per __X__ alla seconda più due __X__ più quattro.",
       "screen": "Differenza di cubi",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale a a più bi, per a alla seconda meno a bi più bi alla seconda.",
-      "speech": "sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale a a più bi, per a alla seconda meno a bi più bi alla seconda.",
+      "text": "sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale: a più bi, per a alla seconda meno a bi più bi alla seconda.",
+      "speech": "sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale: a più bi, per a alla seconda meno a bi più bi alla seconda.",
       "screen": "Somma di cubi",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -184,14 +184,14 @@
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a ics più tre, per ics alla seconda meno tre ics più nove.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale: ics più tre, per ics alla seconda meno tre ics più nove.",
       "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ più tre, per __X__ alla seconda meno tre __X__ più nove.",
       "screen": "Somma di cubi",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale a a più o meno bi, alla seconda.",
-      "speech": "sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale a a più o meno bi, alla seconda.",
+      "text": "sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale: a più o meno bi, alla seconda.",
+      "speech": "sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale: a più o meno bi, alla seconda.",
       "screen": "Quadrato di binomio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -232,7 +232,7 @@
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a ics meno due, per ics meno tre.",
+      "text": "Infine, scrivo il risultato. Il polinomio è uguale: ics meno due, per ics meno tre.",
       "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ meno due, per __X__ meno tre.",
       "screen": "Trinomio notevole con a = 1",
       "purpose": "Esempio, passaggio 3"
@@ -262,8 +262,8 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale a a più o meno bi, alla terza.",
-      "speech": "sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale a a più o meno bi, alla terza.",
+      "text": "sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale: a più o meno bi, alla terza.",
+      "speech": "sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale: a più o meno bi, alla terza.",
       "screen": "Cubo di binomio",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -328,7 +328,7 @@
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, scrivo il risultato. Il polinomio di dieci termini è uguale a ics più due ipsilon più uno, alla terza.",
+      "text": "Infine, scrivo il risultato. Il polinomio di dieci termini è uguale: ics più due ipsilon più uno, alla terza.",
       "speech": "Infine, scrivo il risultato. Il polinomio di dieci termini è uguale a __X__ più due ipsilon più uno, alla terza.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 3"

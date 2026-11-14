@@ -3,10 +3,95 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "speaking_rate": 0.94,
   "sentences": [
-    {"text":"Sistema e soluzione comune. Un sistema è un insieme di equazioni che devono essere vere contemporaneamente. Considera ics più ipsilon uguale a cinque e ics meno ipsilon uguale a uno. Sommando ottieni due ics uguale a sei, quindi ics uguale a tre. Sostituendo, ipsilon è uguale a due. La coppia tre, due verifica entrambe le equazioni.","speech":"Sistema e soluzione comune. Un sistema è un insieme di equazioni che devono essere vere contemporaneamente. Considera ics più ipsilon uguale a cinque e ics meno ipsilon uguale a uno. Sommando ottieni due ics uguale a sei, quindi ics uguale a tre. Sostituendo, ipsilon è uguale a due. La coppia tre, due verifica entrambe le equazioni."},
-    {"text":"Metodo di sostituzione. Dalla seconda equazione ricava ics uguale a ipsilon più uno. Sostituisci nella prima: ipsilon più uno, più ipsilon, uguale a cinque. Ottieni due ipsilon uguale a quattro, quindi ipsilon uguale a due e ics uguale a tre. Verifica infine la coppia in entrambe le equazioni.","speech":"Metodo di sostituzione. Dalla seconda equazione ricava ics uguale a ipsilon più uno. Sostituisci nella prima: ipsilon più uno, più ipsilon, uguale a cinque. Ottieni due ipsilon uguale a quattro, quindi ipsilon uguale a due e ics uguale a tre. Verifica infine la coppia in entrambe le equazioni."},
-    {"text":"Metodo del confronto. Dalla prima equazione ricava ics uguale a cinque meno ipsilon. Dalla seconda ricava ics uguale a ipsilon più uno. Confronta le espressioni: cinque meno ipsilon uguale a ipsilon più uno. Ottieni ipsilon uguale a due, poi ics uguale a tre. La soluzione verificata è la coppia tre, due.","speech":"Metodo del confronto. Dalla prima equazione ricava ics uguale a cinque meno ipsilon. Dalla seconda ricava ics uguale a ipsilon più uno. Confronta le espressioni: cinque meno ipsilon uguale a ipsilon più uno. Ottieni ipsilon uguale a due, poi ics uguale a tre. La soluzione verificata è la coppia tre, due."},
-    {"text":"Metodo di riduzione. Nei due membri, i coefficienti di ipsilon sono opposti. Somma le equazioni membro a membro e ottieni due ics uguale a sei. Quindi ics è uguale a tre. Sostituisci in una delle equazioni e ottieni ipsilon uguale a due. Verifica la coppia tre, due.","speech":"Metodo di riduzione. Nei due membri, i coefficienti di ipsilon sono opposti. Somma le equazioni membro a membro e ottieni due ics uguale a sei. Quindi ics è uguale a tre. Sostituisci in una delle equazioni e ottieni ipsilon uguale a due. Verifica la coppia tre, due."},
-    {"text":"Interpretazione grafica. Ogni equazione lineare in due incognite rappresenta una retta. Se le rette si incontrano in un solo punto, il sistema è determinato. Se sono parallele e distinte, il sistema è impossibile. Se coincidono, il sistema è indeterminato e ha infinite soluzioni.","speech":"Interpretazione grafica. Ogni equazione lineare in due incognite rappresenta una retta. Se le rette si incontrano in un solo punto, il sistema è determinato. Se sono parallele e distinte, il sistema è impossibile. Se coincidono, il sistema è indeterminato e ha infinite soluzioni."}
+    {
+      "text": "Sistema e soluzione comune. Un sistema è un insieme di equazioni che devono essere vere contemporaneamente. La soluzione è la coppia ordinata comune a tutte le equazioni.",
+      "speech": "Sistema e soluzione comune. Un sistema è un insieme di equazioni che devono essere vere contemporaneamente. La soluzione è la coppia ordinata comune a tutte le equazioni.",
+      "screen": "1",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. La stessa coppia, ics e ipsilon, deve verificare entrambe le equazioni.",
+      "speech": "Regola. La stessa coppia, ics e ipsilon, deve verificare entrambe le equazioni.",
+      "screen": "1",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Considera ics più ipsilon uguale a cinque e ics meno ipsilon uguale a uno. Sommando ottieni due ics uguale a sei, quindi ics uguale a tre. Sostituendo, ipsilon è uguale a due. La coppia tre, due verifica entrambe le equazioni.",
+      "speech": "Esempio. Considera ics più ipsilon uguale a cinque e ics meno ipsilon uguale a uno. Sommando ottieni due ics uguale a sei, quindi ics uguale a tre. Sostituendo, ipsilon è uguale a due. La coppia tre, due verifica entrambe le equazioni.",
+      "screen": "1",
+      "purpose": "Esempio"
+    },
+    {
+      "text": "Metodo di sostituzione. Si ricava un'incognita da un'equazione e si sostituisce l'espressione ottenuta nell'altra.",
+      "speech": "Metodo di sostituzione. Si ricava un'incognita da un'equazione e si sostituisce l'espressione ottenuta nell'altra.",
+      "screen": "2",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. Ricava ics uguale a un'espressione e sostituisci quell'espressione nell'altra equazione.",
+      "speech": "Regola. Ricava ics uguale a un'espressione e sostituisci quell'espressione nell'altra equazione.",
+      "screen": "2",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Dalla seconda equazione ricava ics uguale a ipsilon più uno. Sostituisci nella prima: ipsilon più uno, più ipsilon, uguale a cinque. Ottieni due ipsilon uguale a quattro, quindi ipsilon uguale a due e ics uguale a tre. Verifica infine la coppia in entrambe le equazioni.",
+      "speech": "Esempio. Dalla seconda equazione ricava ics uguale a ipsilon più uno. Sostituisci nella prima: ipsilon più uno, più ipsilon, uguale a cinque. Ottieni due ipsilon uguale a quattro, quindi ipsilon uguale a due e ics uguale a tre. Verifica infine la coppia in entrambe le equazioni.",
+      "screen": "2",
+      "purpose": "Esempio"
+    },
+    {
+      "text": "Metodo del confronto. Si ricava la stessa incognita in entrambe le equazioni e si uguagliano le due espressioni.",
+      "speech": "Metodo del confronto. Si ricava la stessa incognita in entrambe le equazioni e si uguagliano le due espressioni.",
+      "screen": "3",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. Se ics è uguale: a e ics è uguale a B, allora si risolve A uguale a B.",
+      "speech": "Regola. Se ics è uguale: a e ics è uguale a B, allora si risolve A uguale a B.",
+      "screen": "3",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Dalla prima equazione ricava ics uguale a cinque meno ipsilon. Dalla seconda ricava ics uguale a ipsilon più uno. Confronta le espressioni: cinque meno ipsilon uguale a ipsilon più uno. Ottieni ipsilon uguale a due, poi ics uguale a tre. La soluzione verificata è la coppia tre, due.",
+      "speech": "Esempio. Dalla prima equazione ricava ics uguale a cinque meno ipsilon. Dalla seconda ricava ics uguale a ipsilon più uno. Confronta le espressioni: cinque meno ipsilon uguale a ipsilon più uno. Ottieni ipsilon uguale a due, poi ics uguale a tre. La soluzione verificata è la coppia tre, due.",
+      "screen": "3",
+      "purpose": "Esempio"
+    },
+    {
+      "text": "Metodo di riduzione. Si sommano o sottraggono equazioni equivalenti per eliminare una delle incognite.",
+      "speech": "Metodo di riduzione. Si sommano o sottraggono equazioni equivalenti per eliminare una delle incognite.",
+      "screen": "4",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. Se i coefficienti sono opposti, somma membro a membro ed elimina l'incognita.",
+      "speech": "Regola. Se i coefficienti sono opposti, somma membro a membro ed elimina l'incognita.",
+      "screen": "4",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. I coefficienti di ipsilon sono opposti. Somma le equazioni membro a membro e ottieni due ics uguale a sei. Quindi ics è uguale a tre. Sostituisci in una delle equazioni e ottieni ipsilon uguale a due. Verifica la coppia tre, due.",
+      "speech": "Esempio. I coefficienti di ipsilon sono opposti. Somma le equazioni membro a membro e ottieni due ics uguale a sei. Quindi ics è uguale a tre. Sostituisci in una delle equazioni e ottieni ipsilon uguale a due. Verifica la coppia tre, due.",
+      "screen": "4",
+      "purpose": "Esempio"
+    },
+    {
+      "text": "Interpretazione grafica. Ogni equazione lineare in due incognite rappresenta una retta. Le soluzioni comuni sono i punti di intersezione.",
+      "speech": "Interpretazione grafica. Ogni equazione lineare in due incognite rappresenta una retta. Le soluzioni comuni sono i punti di intersezione.",
+      "screen": "5",
+      "purpose": "Definizione"
+    },
+    {
+      "text": "Regola. Un punto comune indica un sistema determinato. Nessun punto indica un sistema impossibile. Due rette coincidenti indicano un sistema indeterminato.",
+      "speech": "Regola. Un punto comune indica un sistema determinato. Nessun punto indica un sistema impossibile. Due rette coincidenti indicano un sistema indeterminato.",
+      "screen": "5",
+      "purpose": "Regola"
+    },
+    {
+      "text": "Esempio. Una sola intersezione dà un sistema determinato. Rette parallele distinte danno un sistema impossibile. Rette coincidenti danno un sistema indeterminato. Il grafico conferma il calcolo algebrico.",
+      "speech": "Esempio. Una sola intersezione dà un sistema determinato. Rette parallele distinte danno un sistema impossibile. Rette coincidenti danno un sistema indeterminato. Il grafico conferma il calcolo algebrico.",
+      "screen": "5",
+      "purpose": "Esempio"
+    }
   ]
 }

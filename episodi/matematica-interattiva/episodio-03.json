@@ -4,14 +4,14 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado. Per esempio: ics alla terza più sei meno ics alla seconda diviso uno più ics.",
-      "speech": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado. Per esempio: __X__ alla terza più sei meno __X__ alla seconda diviso uno più __X__.",
+      "text": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado.",
+      "speech": "Regola di Ruffini. È un procedimento utilizzato per dividere due polinomi in cui il divisore è un binomio di primo grado.",
       "screen": "Definizioni",
       "purpose": "Definizione: Regola di Ruffini"
     },
     {
-      "text": "Quoziente e resto. Il quoziente è il polinomio risultato, di un grado inferiore al dividendo. Il resto è l'ultimo numero dell'ultima riga della griglia. Per esempio: Il dividendo è uguale al quoziente per il divisore, più il resto.",
-      "speech": "Quoziente e resto. Il quoziente è il polinomio risultato, di un grado inferiore al dividendo. Il resto è l'ultimo numero dell'ultima riga della griglia. Per esempio: Il dividendo è uguale al quoziente per il divisore, più il resto.",
+      "text": "Quoziente e resto. Il quoziente è il polinomio risultato, di un grado inferiore al dividendo. Il resto è l'ultimo numero dell'ultima riga della griglia.",
+      "speech": "Quoziente e resto. Il quoziente è il polinomio risultato, di un grado inferiore al dividendo. Il resto è l'ultimo numero dell'ultima riga della griglia.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quoziente e resto"
     },

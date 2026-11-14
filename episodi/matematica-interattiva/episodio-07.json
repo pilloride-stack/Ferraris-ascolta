@@ -4,26 +4,26 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte. Per esempio: ics alla seconda meno cinque ics più sei, maggiore di zero.",
-      "speech": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte. Per esempio: __X__ alla seconda meno cinque __X__ più sei, maggiore di zero.",
+      "text": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte.",
+      "speech": "Delta positivo. Con delta maggiore di zero l'equazione associata ha due soluzioni reali e distinte.",
       "screen": "Definizioni",
       "purpose": "Definizione: Delta positivo"
     },
     {
-      "text": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti. Per esempio: ics alla seconda meno due ics più uno, maggiore di zero.",
-      "speech": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti. Per esempio: __X__ alla seconda meno due __X__ più uno, maggiore di zero.",
+      "text": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti.",
+      "speech": "Delta uguale a zero. Con delta uguale a zero l'equazione associata ha due soluzioni reali e coincidenti.",
       "screen": "Definizioni",
       "purpose": "Definizione: Delta uguale a zero"
     },
     {
-      "text": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali. Per esempio: ics alla seconda più ics più dodici, maggiore di zero.",
-      "speech": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali. Per esempio: __X__ alla seconda più __X__ più dodici, maggiore di zero.",
+      "text": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali.",
+      "speech": "Delta negativo. Con delta minore di zero l'equazione associata non ammette soluzioni reali.",
       "screen": "Definizioni",
       "purpose": "Definizione: Delta negativo"
     },
     {
-      "text": "Disequazioni immediate. Sono disequazioni con il solo ics alla seconda al primo membro. Per esempio: Ics alla seconda, minore o uguale a zero.",
-      "speech": "Disequazioni immediate. Sono disequazioni con il solo __X__ alla seconda al primo membro. Per esempio: __X__ alla seconda, minore o uguale a zero.",
+      "text": "Disequazioni immediate. Sono disequazioni con il solo ics alla seconda al primo membro.",
+      "speech": "Disequazioni immediate. Sono disequazioni con il solo __X__ alla seconda al primo membro.",
       "screen": "Definizioni",
       "purpose": "Definizione: Disequazioni immediate"
     },
