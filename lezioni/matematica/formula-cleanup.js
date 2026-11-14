@@ -6,7 +6,7 @@
     element.style.setProperty('font-size',base+'px','important');
     const required=element.scrollWidth;
     if(available>0&&required>available){
-      const size=Math.max(13,base*available/required);
+      const size=Math.max(12,base*available/required);
       element.style.setProperty('font-size',size.toFixed(2)+'px','important');
     }
   };
