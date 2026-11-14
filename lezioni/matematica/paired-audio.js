@@ -15,12 +15,13 @@
     clear();
     const purpose=track.purpose||'',definitionName=track.screen==='Definizioni'?purpose.replace(/^Definizione:\s*/,'').trim():track.screen,index=definitions.findIndex(definition=>definition.name===definitionName),pairs=[...pairedScreen.querySelectorAll('.learning-pair')],pair=pairs[index];
     if(!pair)return;if(window.__activateLearningPair)window.__activateLearningPair(index);
-    const definition=pair.querySelector('.pair-definition,article:first-child'),example=pair.querySelector('.pair-example,article:last-child'),isDefinition=track.screen==='Definizioni',isRule=/^Spiegazione visiva:/i.test(purpose);
+    const definition=pair.querySelector('.pair-definition')||pair.querySelector(':scope > article:first-child'),example=pair.querySelector('.pair-example')||pair.querySelector(':scope > article:last-child'),isDefinition=track.screen==='Definizioni',isRule=/^Spiegazione visiva:/i.test(purpose);
+    definition?.querySelectorAll('.audio-current').forEach(element=>element.classList.remove('audio-current'));example?.querySelectorAll('.audio-current').forEach(element=>element.classList.remove('audio-current'));
     let target=isDefinition||isRule?definition:example;
     if(isDefinition)target=definition?.querySelector('.narrated-text')||definition;
     if(isRule)target=definition?.querySelector('.formula,.mini-formula,.remember')||definition;
     const match=purpose.match(/passaggio\s+(\d+)/i),step=match?example?.querySelectorAll('.step')[Number(match[1])-1]:null;
-    (step||target)?.classList.add('audio-current');(step||target)?.scrollIntoView({behavior:'smooth',block:'center'});
+    const highlight=step||target;highlight?.classList.add('audio-current');highlight?.scrollIntoView({behavior:'smooth',block:'center'});
   }
   function next(){const track=queue.shift();if(!track){clear();if(auto&&current<screens.length-1){go(1);setTimeout(()=>start(true),300)}else if(status)status.textContent='Spiegazione terminata.';return}synchronize(track);if(status)status.textContent=(track.purpose||'Spiegazione').replace(/passaggio\s+\d+\s*[—-]?\s*/i,'');player=new Audio(base+'frase-'+track.id+'.mp3');player.onended=()=>setTimeout(next,300);player.onerror=()=>{if(status)status.textContent='Audio non disponibile.';queue=[];auto=false};player.play().catch(()=>{if(status)status.textContent='Tocca di nuovo Ascolta per avviare la voce.'})}
   function start(continueAutomatically=false){stop();auto=continueAutomatically;status=screens[current]?.querySelector('.voice-status');const selected=Math.max(0,Math.min(definitions.length-1,Number(window.__selectedLearningPair)||0));queue=screens[current]===pairedScreen?orderedTracks(selected):tracks.filter(track=>track.screen===screens[current]?.dataset.title);if(!queue.length){if(auto&&current<screens.length-1){go(1);setTimeout(()=>start(true),200)}return}next()}
