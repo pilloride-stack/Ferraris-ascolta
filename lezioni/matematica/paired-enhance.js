@@ -1,18 +1,18 @@
 (()=>{
-  const layout=document.createElement('style');layout.textContent='.learning-pair[hidden]{display:none!important}.pair-example h3,.pair-example h4,.pair-example .remember{text-align:center!important}@media(min-width:850px){.learning-pair:not([hidden]){grid-template-columns:minmax(0,.85fr) 70px minmax(0,1.4fr);align-items:start}.learning-pair:not([hidden]) .pair-arrow{align-self:center;flex-direction:column}.learning-pair:not([hidden]) .pair-arrow b{transform:none}.learning-pair:not([hidden]) .formula-parts{flex-wrap:nowrap!important}.learning-pair:not([hidden]) .formula-part{flex:0 1 auto!important;min-width:max-content!important;padding-inline:10px!important}}';document.head.append(layout);
+  const layout=document.createElement('style');layout.textContent='.learning-pair[hidden]{display:none!important}.pair-example h3,.pair-example h4,.pair-example .remember{text-align:center!important}.pair-label{background:#eef4fa!important;color:var(--b)!important}.learning-pair .pair-definition{border-top-color:var(--b2)!important}.pair-definition .remember,.pair-example .remember{background:#eef4fa!important;border-left-color:var(--b2)!important}.audio-current{background:#f6f9fc!important;box-shadow:0 0 0 5px #0b478c18!important}.audio-current .narrated-text{background:#fff4b8!important;color:var(--b)!important}@media(min-width:850px){.learning-pair:not([hidden]){grid-template-columns:minmax(0,.85fr) 70px minmax(0,1.4fr);align-items:start}.learning-pair:not([hidden]) .pair-arrow{align-self:center;flex-direction:column}.learning-pair:not([hidden]) .pair-arrow b{transform:none}.learning-pair:not([hidden]) .formula-parts{flex-wrap:nowrap!important}.learning-pair:not([hidden]) .formula-part{flex:0 1 auto!important;min-width:max-content!important;padding-inline:10px!important}}';document.head.append(layout);
   const installTopicMenu=pairs=>{
     if(!pairs.length||document.querySelector('.paired-topic-menu'))return;
     const menu=document.createElement('div');menu.className='tabs paired-topic-menu';menu.setAttribute('role','navigation');menu.setAttribute('aria-label','Menu delle definizioni');
     const controls=document.createElement('div');controls.className='paired-topic-nav';controls.setAttribute('aria-label','Navigazione tra le definizioni');
     const previous=document.createElement('button'),next=document.createElement('button');previous.type=next.type='button';previous.className='secondary';next.className='primary';previous.textContent='← Indietro';next.textContent='Avanti →';controls.append(previous,next);
-    const activate=index=>{const safe=Math.max(0,Math.min(pairs.length-1,index));pairs.forEach(item=>{item.classList.remove('pair-selected');item.hidden=true});pairs[safe].hidden=false;pairs[safe].classList.add('pair-selected');window.__selectedLearningPair=safe;menu.querySelectorAll('button').forEach((item,itemIndex)=>item.classList.toggle('active',itemIndex===safe));previous.disabled=safe===0;next.disabled=safe===pairs.length-1;pairs[safe].focus({preventScroll:true})};
+    const activate=(index,play=true)=>{const safe=Math.max(0,Math.min(pairs.length-1,index));pairs.forEach(item=>{item.classList.remove('pair-selected');item.hidden=true});pairs[safe].hidden=false;pairs[safe].classList.add('pair-selected');window.__selectedLearningPair=safe;menu.querySelectorAll('button').forEach((item,itemIndex)=>item.classList.toggle('active',itemIndex===safe));previous.disabled=safe===0;next.disabled=safe===pairs.length-1;pairs[safe].focus({preventScroll:true});if(play)document.dispatchEvent(new CustomEvent('paired-topic-selected',{detail:{index:safe}}))};
     pairs.forEach((pair,index)=>{
       const button=document.createElement('button'),title=pair.querySelector('.pair-definition h3')?.textContent?.trim()||`Definizione ${index+1}`;
       button.type='button';button.textContent=`${index+1}. ${title}`;pair.hidden=index!==0;
-      button.onclick=()=>activate(index);
+      button.onclick=()=>activate(index,true);
       menu.append(button);
     });
-    previous.onclick=()=>activate((Number(window.__selectedLearningPair)||0)-1);next.onclick=()=>activate((Number(window.__selectedLearningPair)||0)+1);
+    window.__activateLearningPair=index=>activate(index,false);previous.onclick=()=>activate((Number(window.__selectedLearningPair)||0)-1,true);next.onclick=()=>activate((Number(window.__selectedLearningPair)||0)+1,true);
     menu.firstElementChild?.classList.add('active');previous.disabled=true;pairs[0].before(menu);pairs.at(-1).after(controls);
   };
   const enhanceExistingPairs=()=>{
