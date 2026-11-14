@@ -39,7 +39,7 @@
       }
       const select=()=>{pairs.forEach(item=>item.classList.remove('pair-selected'));pair.classList.add('pair-selected');window.__selectedLearningPair=index};
       pair.addEventListener('click',select);pair.addEventListener('focus',select);
-      pair.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&!event.target.closest('button,input,select,a')){event.preventDefault();select();document.querySelector('.screen.active .voice-controls button')?.focus()}});
+      pair.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();select();document.querySelector('.screen.active .voice-controls button')?.focus()}});
     });
     pairs[0].classList.add('pair-selected');
     installTopicMenu(pairs);
@@ -118,7 +118,7 @@
     pair.addEventListener('click',select);
     pair.addEventListener('focus',select);
     pair.addEventListener('keydown',event=>{
-      if((event.key==='Enter'||event.key===' ')&&!event.target.closest('button,input,select,a')){
+      if(event.key==='Enter'||event.key===' '){
         event.preventDefault();select();
         definitionScreen.querySelector('.voice-controls button')?.focus();
       }

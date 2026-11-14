@@ -1,7 +1,6 @@
 (()=>{
   const formulaSelector='.formula,.mini-formula,#labResults strong,#labSteps .formula,.definition-formula,.result-formula';
   const fit=element=>{
-    if(typeof D!=='undefined'&&D.revision){element.style.setProperty('font-size','clamp(18px,2.1vw,24px)','important');return;}
     if(!element.dataset.baseFormulaSize)element.dataset.baseFormulaSize=String(parseFloat(getComputedStyle(element).fontSize)||18);
     const base=Number(element.dataset.baseFormulaSize),available=element.clientWidth-2;
     element.style.setProperty('font-size',base+'px','important');
