@@ -1,6 +1,9 @@
 .formula,.mini-formula,.formula-part,.formula-chunk,
 #labResults .formula,#labResults strong,#labSteps .formula,
 .definition-formula,.result-formula{
+  box-sizing:border-box;
+  width:100%;
+  min-width:0;
   max-width:100%;
   text-align:left!important;
   line-height:1.65!important;
@@ -9,6 +12,7 @@
   overflow-y:hidden!important;
   overflow-wrap:normal!important;
   word-break:normal!important;
+  scroll-padding-inline:18px;
   -webkit-overflow-scrolling:touch;
 }
 
@@ -21,6 +25,6 @@
   padding-inline:clamp(18px,5vw,54px)!important;
 }
 
-#labResults>div>div{min-width:0}
+#labResults>div,#labResults>div>div,.card,.step,.step>div,.learning-pair>*{min-width:0}
 #labResults b,#labResults strong{max-width:100%}
 
