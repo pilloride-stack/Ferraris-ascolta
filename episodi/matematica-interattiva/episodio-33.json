@@ -1,1 +1,31 @@
-{"episode":"33","voice":"it-IT-Chirp3-HD-Algieba","speaking_rate":0.94,"sentences":[{"text":"Estremi inclusi ed esclusi. I simboli minore e maggiore danno estremi aperti; minore o uguale e maggiore o uguale danno estremi chiusi.","speech":"Estremi inclusi ed esclusi. I simboli minore e maggiore danno estremi aperti; minore o uguale e maggiore o uguale danno estremi chiusi."},{"text":"Con una disequazione di secondo grado, risolvi separatamente ogni disequazione e poi interseca le soluzioni.","speech":"Con una disequazione di secondo grado, risolvi separatamente ogni disequazione e poi interseca le soluzioni."},{"text":"Un sistema è impossibile quando gli intervalli non hanno punti comuni. L'intersezione è l'insieme vuoto.","speech":"Un sistema è impossibile quando gli intervalli non hanno punti comuni. L'intersezione è l'insieme vuoto."}]}
+{
+  "episode": "33",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "speaking_rate": 0.94,
+  "sentences": [
+    {
+      "text": "Sistema e intersezione. Un sistema di disequazioni richiede che tutte le condizioni siano vere. La soluzione è l'intersezione, non l'unione. Per esempio, ics maggiore di uno e ics minore o uguale a quattro hanno come soluzione uno minore di ics, minore o uguale a quattro.",
+      "speech": "Sistema e intersezione. Un sistema di disequazioni richiede che tutte le condizioni siano vere. La soluzione è l'intersezione, non l'unione. Per esempio, ics maggiore di uno e ics minore o uguale a quattro hanno come soluzione uno minore di ics, minore o uguale a quattro."
+    },
+    {
+      "text": "Estremi aperti e chiusi. I simboli minore e maggiore escludono l'estremo, che si rappresenta con un punto vuoto. I simboli minore o uguale e maggiore o uguale includono l'estremo, che si rappresenta con un punto pieno.",
+      "speech": "Estremi aperti e chiusi. I simboli minore e maggiore escludono l'estremo, che si rappresenta con un punto vuoto. I simboli minore o uguale e maggiore o uguale includono l'estremo, che si rappresenta con un punto pieno."
+    },
+    {
+      "text": "Due disequazioni di primo grado. Risolvi ogni disequazione separatamente, rappresenta i due intervalli e conserva soltanto i valori comuni.",
+      "speech": "Due disequazioni di primo grado. Risolvi ogni disequazione separatamente, rappresenta i due intervalli e conserva soltanto i valori comuni."
+    },
+    {
+      "text": "Sistema con una disequazione di secondo grado. Risolvi prima la disequazione quadratica, poi interseca il suo insieme soluzione con quello dell'altra disequazione.",
+      "speech": "Sistema con una disequazione di secondo grado. Risolvi prima la disequazione quadratica, poi interseca il suo insieme soluzione con quello dell'altra disequazione."
+    },
+    {
+      "text": "Sistema impossibile. Se gli intervalli non hanno punti comuni, l'intersezione è l'insieme vuoto.",
+      "speech": "Sistema impossibile. Se gli intervalli non hanno punti comuni, l'intersezione è l'insieme vuoto."
+    },
+    {
+      "text": "Casi particolari. Un unico punto appartiene all'intersezione soltanto quando è incluso da entrambe le condizioni. Una condizione sempre vera, invece, non restringe l'altra.",
+      "speech": "Casi particolari. Un unico punto appartiene all'intersezione soltanto quando è incluso da entrambe le condizioni. Una condizione sempre vera, invece, non restringe l'altra."
+    }
+  ]
+}
