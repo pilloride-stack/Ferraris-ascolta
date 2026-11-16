@@ -28,8 +28,8 @@
       "purpose": "Definizione: Equazione spuria"
     },
     {
-      "text": "Equazione monomia. È un'equazione con il solo termine aics alla seconda.",
-      "speech": "Equazione monomia. È un'equazione con il solo termine aics alla seconda.",
+      "text": "Equazione monomia. È un'equazione con il solo termine a per ics alla seconda.",
+      "speech": "Equazione monòmia. È un'equazione con il solo termine a per __X__ alla seconda.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione monomia"
     },
@@ -143,7 +143,7 @@
     },
     {
       "text": "riconosco l'equazione monomia. C'è un solo termine, tre ics alla seconda.",
-      "speech": "riconosco l'equazione monomia. C'è un solo termine, tre __X__ alla seconda.",
+      "speech": "riconosco l'equazione monòmia. Compare un solo termine: tre __X__ alla seconda.",
       "screen": "Equazione monomia",
       "purpose": "Esempio, passaggio 1"
     },
