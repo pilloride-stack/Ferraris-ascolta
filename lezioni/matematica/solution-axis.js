@@ -7,7 +7,11 @@
   const normalize=text=>text.replace(/Risultato\s*:/gi,'').replace(/Soluzione\s*:/gi,'').replace(/\s+/g,' ').trim();
   const make=text=>{
     let value=normalize(text);if(value.includes('→'))value=value.slice(value.lastIndexOf('→')+1).trim();const number='([−-]?\\d+(?:[,.]\\d+)?(?:\\s*\\/\\s*[−-]?\\d+(?:[,.]\\d+)?)?|[a-zA-Z][₀-₉0-9]*)';
-    let match=value.match(new RegExp(`x\\s*([<>≤≥])\\s*${number}\\s*(?:∨|oppure)\\s*x\\s*([<>≤≥])\\s*${number}`,'i'));
+    let match=value.match(/^x(?:[₁₂0-9,]*)?\s*=\s*±\s*(.+)$/);
+    if(match){const offset=match[1].trim();return base(`${dot(140,`−${offset}`,true)}${dot(280,offset,true)}`)}
+    match=value.match(/^x(?:[₁₂0-9,]*)?\s*=\s*(.+?)\s*±\s*(.+)$/);
+    if(match){const center=match[1].trim(),offset=match[2].trim();return base(`${dot(140,`${center} − ${offset}`,true)}${dot(280,`${center} + ${offset}`,true)}`)}
+    match=value.match(new RegExp(`x\\s*([<>≤≥])\\s*${number}\\s*(?:∨|oppure)\\s*x\\s*([<>≤≥])\\s*${number}`,'i'));
     if(match){const left=match[2],right=match[4];return base(`<line class="solution" x1="20" y1="34" x2="125" y2="34"/>${dot(125,left,match[1].includes('≤'))}<line class="solution" x1="295" y1="34" x2="398" y2="34"/>${dot(295,right,match[3].includes('≥'))}`)}
     match=value.match(new RegExp(`${number}\\s*([<≤])\\s*x\\s*([<≤])\\s*${number}`));
     if(match)return base(`<line class="solution" x1="125" y1="34" x2="295" y2="34"/>${dot(125,match[1],match[2]==='≤')}${dot(295,match[4],match[3]==='≤')}`);
