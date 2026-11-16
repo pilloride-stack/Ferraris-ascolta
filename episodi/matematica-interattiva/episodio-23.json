@@ -4,58 +4,178 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Una potenza a elevato alla ics è definita per ogni ics reale quando la base a è positiva.",
-      "speech": "Una potenza a elevato alla __X__ è definita per ogni __X__ reale quando la base a è positiva.",
+      "text": "Potenza a esponente reale. Studiamo le potenze con esponente reale. Se la base a è positiva, la potenza a elevato a ics è definita per ogni numero reale ed è sempre positiva. Valgono le proprietà delle potenze: a elevato a zero è uno; un esponente negativo indica il reciproco; un esponente frazionario indica una radice.",
+      "speech": "Potenza a esponente reale. Studiamo le potenze con esponente reale. Se la base à è positiva, la potenza à elevato a __X__ è definita per ogni numero reale ed è sempre positiva. Valgono le proprietà delle potenze: à elevato a zero è uno; un esponente negativo indica il reciproco; un esponente frazionario indica una radice.",
       "screen": "Definizioni",
       "purpose": "Definizione: Potenza a esponente reale"
     },
     {
-      "text": "La funzione esponenziale ha forma ipsilon uguale ad a elevato alla ics, con a positiva e diversa da uno. Il grafico passa sempre per il punto zero, uno.",
-      "speech": "La funzione esponenziale ha forma ipsilon uguale ad a elevato alla __X__, con a positiva e diversa da uno. Il grafico passa sempre per il punto zero, uno.",
+      "text": "Nel riquadro le tre proprietà: esponente zero, esponente negativo, esponente frazionario.",
+      "speech": "Nel riquadro le tre proprietà: esponente zero, esponente negativo, esponente frazionario.",
+      "screen": "Potenza a esponente reale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare due elevato a meno tre e otto elevato a due terzi. Un esponente negativo indica il reciproco: due alla meno tre è uno fratto due alla terza, cioè un ottavo.",
+      "speech": "Vogliamo calcolare due elevato a meno tre e otto elevato a due terzi. Un esponente negativo indica il reciproco: due alla meno tre è uno fratto due alla terza, cioè un ottavo.",
+      "screen": "Potenza a esponente reale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Otto elevato a due terzi è la radice cubica di otto al quadrato, o il quadrato della radice cubica di otto.",
+      "speech": "Otto elevato a due terzi è la radice cubica di otto al quadrato, o il quadrato della radice cubica di otto.",
+      "screen": "Potenza a esponente reale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La radice cubica di otto è due, e due al quadrato fa quattro.",
+      "speech": "La radice cubica di otto è due, e due al quadrato fa quattro.",
+      "screen": "Potenza a esponente reale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Funzione esponenziale. Vediamo la funzione esponenziale: ipsilon uguale ad a elevato a ics, con la base a positiva e diversa da uno. È definita per ogni ics, assume solo valori positivi, e il grafico passa sempre per il punto zero e uno, perché a elevato a zero è uno. L’asse ics è un asintoto orizzontale.",
+      "speech": "Funzione esponenziale. Vediamo la funzione esponenziale: ipsilon uguale a à elevato a __X__, con la base à positiva e diversa da uno. È definita per ogni __X__, assume solo valori positivi, e il grafico passa sempre per il punto zero e uno, perché à elevato a zero è uno. L’asse __X__ è un asintoto orizzontale.",
       "screen": "Definizioni",
       "purpose": "Definizione: Funzione esponenziale"
     },
     {
-      "text": "Se a è maggiore di uno la funzione è crescente. Se a è compresa tra zero e uno la funzione è decrescente.",
-      "speech": "Se a è maggiore di uno la funzione è crescente. Se a è compresa tra zero e uno la funzione è decrescente.",
+      "text": "Nel riquadro la funzione, il suo dominio, i valori positivi e il punto fisso zero e uno.",
+      "speech": "Nel riquadro la funzione, il suo dominio, i valori positivi e il punto fisso zero e uno.",
+      "screen": "Funzione esponenziale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo alcuni punti del grafico di ipsilon uguale a due elevato a ics. Con ics uguale a meno uno otteniamo un mezzo.",
+      "speech": "Vogliamo alcuni punti del grafico di ipsilon uguale a due elevato a __X__. Con __X__ uguale a meno uno otteniamo un mezzo.",
+      "screen": "Funzione esponenziale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Con ics uguale a zero otteniamo uno: il punto zero e uno.",
+      "speech": "Con __X__ uguale a zero otteniamo uno: il punto zero e uno.",
+      "screen": "Funzione esponenziale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Con ics uguale a uno otteniamo due, con ics uguale a due otteniamo quattro. Unendo i punti si ottiene una curva che sale.",
+      "speech": "Con __X__ uguale a uno otteniamo due, con __X__ uguale a due otteniamo quattro. Unendo i punti si ottiene una curva che sale.",
+      "screen": "Funzione esponenziale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Crescita e decrescita. La base decide se la funzione cresce o decresce. Se la base è maggiore di uno, la funzione è crescente. Se la base è compresa tra zero e uno, la funzione è decrescente. I grafici di a elevato a ics e di uno su a elevato a ics sono simmetrici rispetto all’asse ipsilon.",
+      "speech": "Crescita e decrescita. La base decide se la funzione cresce o decresce. Se la base è maggiore di uno, la funzione è crescente. Se la base è compresa tra zero e uno, la funzione è decrescente. I grafici di à elevato a __X__ e di uno su à elevato a __X__ sono simmetrici rispetto all’asse ipsilon.",
       "screen": "Definizioni",
       "purpose": "Definizione: Crescita e decrescita"
     },
     {
-      "text": "Per risolvere una semplice equazione esponenziale, scrivo i due membri con la stessa base e uguaglio gli esponenti.",
-      "speech": "Per risolvere una semplice equazione esponenziale, scrivo i due membri con la stessa base e uguaglio gli esponenti.",
+      "text": "Nel riquadro i due casi.",
+      "speech": "Nel riquadro i due casi.",
+      "screen": "Crescita e decrescita",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo capire se la funzione con base un mezzo è crescente o decrescente. La base è compresa tra zero e uno.",
+      "speech": "Vogliamo capire se la funzione con base un mezzo è crescente o decrescente. La base è compresa tra zero e uno.",
+      "screen": "Crescita e decrescita",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Quindi la funzione è decrescente.",
+      "speech": "Quindi la funzione è decrescente.",
+      "screen": "Crescita e decrescita",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Controlliamo con alcuni valori: per ics uguale a meno uno, zero e uno otteniamo due, uno e un mezzo. All’aumentare di ics i valori diminuiscono.",
+      "speech": "Controlliamo con alcuni valori: per __X__ uguale a meno uno, zero e uno otteniamo due, uno e un mezzo. All’aumentare di __X__ i valori diminuiscono.",
+      "screen": "Crescita e decrescita",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Equazioni esponenziali. In un’equazione esponenziale l’incognita sta all’esponente. Se si scrivono i due membri come potenze con la stessa base, si uguagliano gli esponenti, perché la funzione esponenziale assume ogni valore una sola volta.",
+      "speech": "Equazioni esponenziali. In un’equazione esponenziale l’incognita sta all’esponente. Se si scrivono i due membri come potenze con la stessa base, si uguagliano gli esponenti, perché la funzione esponenziale assume ogni valore una sola volta.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazioni esponenziali"
     },
     {
-      "text": "Se compaiono a elevato a due ics e a elevato alla ics, pongo ti uguale ad a elevato alla ics. Risolvo l’equazione di secondo grado in ti, con la condizione ti maggiore di zero, poi torno alla variabile ics.",
-      "speech": "Se compaiono a elevato a due __X__ e a elevato alla __X__, pongo ti uguale ad a elevato alla __X__. Risolvo l’equazione di secondo grado in ti, con la condizione ti maggiore di zero, poi torno alla variabile __X__.",
+      "text": "La formula dice: a parità di base, si uguagliano gli esponenti.",
+      "speech": "La formula dice: a parità di base, si uguagliano gli esponenti.",
+      "screen": "Equazioni esponenziali",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere quattro elevato a ics uguale a otto elevato a ics meno uno. Scriviamo quattro come due alla seconda e otto come due alla terza.",
+      "speech": "Vogliamo risolvere quattro elevato a __X__ uguale a otto elevato a __X__ meno uno. Scriviamo quattro come due alla seconda e otto come due alla terza.",
+      "screen": "Equazioni esponenziali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La potenza di una potenza si ottiene moltiplicando gli esponenti: due elevato a due ics uguale a due elevato a tre ics meno tre.",
+      "speech": "La potenza di una potenza si ottiene moltiplicando gli esponenti: due elevato a due __X__ uguale a due elevato a tre __X__ meno tre.",
+      "screen": "Equazioni esponenziali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Le basi sono uguali, quindi uguagliamo gli esponenti: due ics uguale a tre ics meno tre.",
+      "speech": "Le basi sono uguali, quindi uguagliamo gli esponenti: due __X__ uguale a tre __X__ meno tre.",
+      "screen": "Equazioni esponenziali",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Due ics meno tre ics fa meno ics, uguale a meno tre: ics vale tre.",
+      "speech": "Due __X__ meno tre __X__ fa meno __X__, uguale a meno tre: __X__ vale tre.",
+      "screen": "Equazioni esponenziali",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Equazioni esponenziali di secondo grado. Se compaiono a elevato a due ics e a elevato a ics, si pone ti uguale ad a elevato a ics: allora a elevato a due ics è ti al quadrato. Si risolve l’equazione in ti, si scartano i valori negativi o nulli, perché la potenza è sempre positiva, e infine si torna a ics.",
+      "speech": "Equazioni esponenziali di secondo grado. Se compaiono à elevato a due __X__ e à elevato a __X__, si pone ti uguale a à elevato a __X__: allora à elevato a due __X__ è ti al quadrato. Si risolve l’equazione in ti, si scartano i valori negativi o nulli, perché la potenza è sempre positiva, e infine si torna à per __X__.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazioni esponenziali di secondo grado"
     },
     {
-      "text": "Osserviamo ipsilon uguale a due elevato alla ics. La base è maggiore di uno, quindi la funzione cresce e passa per il punto zero, uno.",
-      "speech": "Osserviamo ipsilon uguale a due elevato alla __X__. La base è maggiore di uno, quindi la funzione cresce e passa per il punto zero, uno.",
-      "screen": "Funzione esponenziale",
-      "purpose": "Esempio guidato"
-    },
-    {
-      "text": "In due elevato alla ics uguale a otto, scrivo otto come due alla terza. Le basi sono uguali, quindi ics è uguale a tre.",
-      "speech": "In due elevato alla __X__ uguale a otto, scrivo otto come due alla terza. Le basi sono uguali, quindi __X__ è uguale a tre.",
-      "screen": "Equazioni esponenziali",
-      "purpose": "Esempio guidato"
-    },
-    {
-      "text": "In quattro elevato alla ics meno cinque per due elevato alla ics più quattro uguale a zero, pongo ti uguale a due elevato alla ics. Ottengo ti alla seconda meno cinque ti più quattro uguale a zero. Le soluzioni finali sono ics uguale a zero oppure ics uguale a due.",
-      "speech": "In quattro elevato alla __X__ meno cinque per due elevato alla __X__ più quattro uguale a zero, pongo ti uguale a due elevato alla __X__. Ottengo ti alla seconda meno cinque ti più quattro uguale a zero. Le soluzioni finali sono __X__ uguale a zero oppure __X__ uguale a due.",
+      "text": "Nel riquadro la sostituzione e la condizione ti maggiore di zero.",
+      "speech": "Nel riquadro la sostituzione e la condizione ti maggiore di zero.",
       "screen": "Equazioni esponenziali di secondo grado",
-      "purpose": "Esempio guidato"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Modifica la base e l’esponente. Il grafico, il punto e il valore della potenza cambiano subito.",
-      "speech": "Modifica la base e l’esponente. Il grafico, il punto e il valore della potenza cambiano subito.",
+      "text": "Vogliamo risolvere quattro elevato a ics meno cinque per due elevato a ics più quattro uguale a zero. Quattro elevato a ics è il quadrato di due elevato a ics: poniamo ti uguale a due elevato a ics.",
+      "speech": "Vogliamo risolvere quattro elevato a __X__ meno cinque per due elevato a __X__ più quattro uguale a zero. Quattro elevato a __X__ è il quadrato di due elevato a __X__: poniamo ti uguale a due elevato a __X__.",
+      "screen": "Equazioni esponenziali di secondo grado",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Scomponendo otteniamo ti meno uno per ti meno quattro: ti vale uno oppure quattro, entrambi positivi.",
+      "speech": "Scomponendo otteniamo ti meno uno per ti meno quattro: ti vale uno oppure quattro, entrambi positivi.",
+      "screen": "Equazioni esponenziali di secondo grado",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Due elevato a ics uguale a uno dà ics uguale a zero; due elevato a ics uguale a quattro dà ics uguale a due.",
+      "speech": "Due elevato a __X__ uguale a uno dà __X__ uguale a zero; due elevato a __X__ uguale a quattro dà __X__ uguale a due.",
+      "screen": "Equazioni esponenziali di secondo grado",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Prima di rispondere, guarda la base della potenza.",
+      "speech": "Ora tocca a te. Prima di rispondere, guarda la base della potenza.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia la base e l’esponente: il grafico, il punto e il valore della potenza cambiano subito.",
+      "speech": "Questo è il laboratorio. Cambia la base e l’esponente: il grafico, il punto e il valore della potenza cambiano subito.",
       "screen": "Laboratorio",
-      "purpose": "Laboratorio"
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: con base maggiore di uno la funzione esponenziale cresce, con base tra zero e uno decresce. Nelle equazioni si scrivono i due membri con la stessa base.",
+      "speech": "Ricorda: con base maggiore di uno la funzione esponenziale cresce, con base tra zero e uno decresce. Nelle equazioni si scrivono i due membri con la stessa base.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
     }
   ]
 }

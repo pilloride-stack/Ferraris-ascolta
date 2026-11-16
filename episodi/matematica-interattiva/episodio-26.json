@@ -4,170 +4,164 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Relazione fondamentale. È la relazione tra il seno e il coseno dello stesso angolo. Per esempio: Seno di alfa uguale a tre quinti.",
-      "speech": "Relazione fondamentale. È la relazione tra il seno e il coseno dello stesso angolo. Per esempio: Seno di alfa uguale a tre quinti.",
+      "text": "Relazione fondamentale. Studiamo la relazione che lega il seno e il coseno dello stesso angolo. Il punto P, che ha coordinate coseno di alfa e seno di alfa, sta sulla circonferenza di raggio uno. Per il teorema di Pitagora, per ogni angolo vale: seno al quadrato di alfa più coseno al quadrato di alfa uguale a uno. Conoscendo una funzione si ricava l’altra, e il segno si sceglie in base al quadrante.",
+      "speech": "Relazione fondamentale. Studiamo la relazione che lega il seno e il coseno dello stesso angolo. Il punto pi, che ha coordinate coseno di alfa e seno di alfa, sta sulla circonferenza di raggio uno. Per il teorema di Pitagora, per ogni angolo vale: seno al quadrato di alfa più coseno al quadrato di alfa uguale a uno. Conoscendo una funzione si ricava l’altra, e il segno si sceglie in base al quadrante.",
       "screen": "Definizioni",
       "purpose": "Definizione: Relazione fondamentale"
     },
     {
-      "text": "Tangente e cotangente. Si ottengono dal rapporto tra seno e coseno. Per esempio: Seno tre quinti, coseno quattro quinti.",
-      "speech": "Tangente e cotangente. Si ottengono dal rapporto tra seno e coseno. Per esempio: Seno tre quinti, coseno quattro quinti.",
+      "text": "La formula dice: seno al quadrato più coseno al quadrato è sempre uguale a uno.",
+      "speech": "La formula dice: seno al quadrato più coseno al quadrato è sempre uguale a uno.",
+      "screen": "Relazione fondamentale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il coseno di alfa sapendo che il seno vale tre quinti e che alfa è nel secondo quadrante. Dalla relazione fondamentale: coseno al quadrato è uno meno nove venticinquesimi, cioè sedici venticinquesimi.",
+      "speech": "Vogliamo il coseno di alfa sapendo che il seno vale tre quinti e che alfa è nel secondo quadrante. Dalla relazione fondamentale: coseno al quadrato è uno meno nove venticinquesimi, cioè sedici venticinquesimi.",
+      "screen": "Relazione fondamentale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Estraendo la radice, il coseno può valere più o meno quattro quinti.",
+      "speech": "Estraendo la radice, il coseno può valere più o meno quattro quinti.",
+      "screen": "Relazione fondamentale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nel secondo quadrante il coseno è negativo, quindi il coseno di alfa vale meno quattro quinti.",
+      "speech": "Nel secondo quadrante il coseno è negativo, quindi il coseno di alfa vale meno quattro quinti.",
+      "screen": "Relazione fondamentale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Tangente e cotangente. Vediamo come si ricavano da seno e coseno. La tangente è il seno fratto il coseno, quando il coseno è diverso da zero. La cotangente è il coseno fratto il seno, quando il seno è diverso da zero. Tangente e cotangente dello stesso angolo sono reciproche.",
+      "speech": "Tangente e cotangente. Vediamo come si ricavano da seno e coseno. La tangente è il seno fratto il coseno, quando il coseno è diverso da zero. La cotangente è il coseno fratto il seno, quando il seno è diverso da zero. Tangente e cotangente dello stesso angolo sono reciproche.",
       "screen": "Definizioni",
       "purpose": "Definizione: Tangente e cotangente"
     },
     {
-      "text": "Secante e cosecante. Sono le reciproche di coseno e seno. Per esempio: Coseno quattro quinti.",
-      "speech": "Secante e cosecante. Sono le reciproche di coseno e seno. Per esempio: Coseno quattro quinti.",
+      "text": "Nel riquadro: sopra la tangente, sotto la cotangente, che è anche uno fratto la tangente.",
+      "speech": "Nel riquadro: sopra la tangente, sotto la cotangente, che è anche uno fratto la tangente.",
+      "screen": "Tangente e cotangente",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo tangente e cotangente di alfa, sapendo che il seno vale tre quinti e il coseno quattro quinti. La tangente è seno fratto coseno: tre quinti per cinque quarti, cioè tre quarti.",
+      "speech": "Vogliamo tangente e cotangente di alfa, sapendo che il seno vale tre quinti e il coseno quattro quinti. La tangente è seno fratto coseno: tre quinti per cinque quarti, cioè tre quarti.",
+      "screen": "Tangente e cotangente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La cotangente è il reciproco della tangente: quattro terzi.",
+      "speech": "La cotangente è il reciproco della tangente: quattro terzi.",
+      "screen": "Tangente e cotangente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Secante e cosecante. Vediamo due funzioni definite come reciproche di coseno e seno. La secante è uno fratto il coseno, ed esiste se il coseno è diverso da zero. La cosecante è uno fratto il seno, ed esiste se il seno è diverso da zero.",
+      "speech": "Secante e cosecante. Vediamo due funzioni definite come reciproche di coseno e seno. La secante è uno fratto il coseno, ed esiste se il coseno è diverso da zero. La cosecante è uno fratto il seno, ed esiste se il seno è diverso da zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Secante e cosecante"
     },
     {
-      "text": "Una funzione rispetto alle altre. Ogni funzione si esprime con le altre tre. Per esempio: Coseno tre quinti, nel primo quadrante.",
-      "speech": "Una funzione rispetto alle altre. Ogni funzione si esprime con le altre tre. Per esempio: Coseno tre quinti, nel primo quadrante.",
+      "text": "Nel riquadro le due definizioni: la secante è uno fratto coseno, la cosecante uno fratto seno.",
+      "speech": "Nel riquadro le due definizioni: la secante è uno fratto coseno, la cosecante uno fratto seno.",
+      "screen": "Secante e cosecante",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo secante e cosecante di alfa. La secante è il reciproco del coseno: il reciproco di quattro quinti è cinque quarti.",
+      "speech": "Vogliamo secante e cosecante di alfa. La secante è il reciproco del coseno: il reciproco di quattro quinti è cinque quarti.",
+      "screen": "Secante e cosecante",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La cosecante è il reciproco del seno: il reciproco di tre quinti è cinque terzi.",
+      "speech": "La cosecante è il reciproco del seno: il reciproco di tre quinti è cinque terzi.",
+      "screen": "Secante e cosecante",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Una funzione rispetto alle altre. Impariamo a esprimere ogni funzione goniometrica usando un’altra. Dalla relazione fondamentale e dalla definizione di tangente si ricavano le formule del riquadro: conoscendo una sola funzione si calcolano tutte le altre. Il segno davanti alla radice dipende dal quadrante.",
+      "speech": "Una funzione rispetto alle altre. Impariamo a esprimere ogni funzione goniometrica usando un’altra. Dalla relazione fondamentale e dalla definizione di tangente si ricavano le formule del riquadro: conoscendo una sola funzione si calcolano tutte le altre. Il segno davanti alla radice dipende dal quadrante.",
       "screen": "Definizioni",
       "purpose": "Definizione: Una funzione rispetto alle altre"
     },
     {
-      "text": "Grafici. La scheda mostra i grafici di seno, coseno, tangente e cotangente. Per esempio: Il grafico del seno.",
-      "speech": "Grafici. La scheda mostra i grafici di seno, coseno, tangente e cotangente. Per esempio: Il grafico del seno.",
+      "text": "Nel riquadro, le prime due formule vengono dalla relazione fondamentale; le ultime due esprimono coseno e seno con la tangente.",
+      "speech": "Nel riquadro, le prime due formule vengono dalla relazione fondamentale; le ultime due esprimono coseno e seno con la tangente.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo coseno e seno di alfa sapendo che la tangente vale tre quarti e che alfa è nel primo quadrante. Calcoliamo uno più tangente al quadrato: uno più nove sedicesimi, cioè venticinque sedicesimi.",
+      "speech": "Vogliamo coseno e seno di alfa sapendo che la tangente vale tre quarti e che alfa è nel primo quadrante. Calcoliamo uno più tangente al quadrato: uno più nove sedicesimi, cioè venticinque sedicesimi.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La radice di venticinque sedicesimi è cinque quarti.",
+      "speech": "La radice di venticinque sedicesimi è cinque quarti.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il coseno è uno fratto cinque quarti, cioè quattro quinti, con il segno più perché siamo nel primo quadrante.",
+      "speech": "Il coseno è uno fratto cinque quarti, cioè quattro quinti, con il segno più perché siamo nel primo quadrante.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il seno è la tangente per il coseno: tre quarti per quattro quinti, cioè tre quinti.",
+      "speech": "Il seno è la tangente per il coseno: tre quarti per quattro quinti, cioè tre quinti.",
+      "screen": "Una funzione rispetto alle altre",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Grafici. Osserviamo i grafici delle funzioni goniometriche, che mostrano come variano al variare dell’angolo. Seno e coseno sono onde che oscillano tra meno uno e uno e si ripetono ogni due pi greco: hanno periodo due pi greco. Il grafico del coseno è quello del seno spostato a sinistra di pi greco mezzi. Tangente e cotangente hanno periodo pi greco e assumono tutti i valori reali; la tangente ha asintoti verticali in pi greco mezzi più kappa pi greco.",
+      "speech": "Grafici. Osserviamo i grafici delle funzioni goniometriche, che mostrano come variano al variare dell’angolo. Seno e coseno sono onde che oscillano tra meno uno e uno e si ripetono ogni due pi greco: hanno periodo due pi greco. Il grafico del coseno è quello del seno spostato a sinistra di pi greco mezzi. Tangente e cotangente hanno periodo pi greco e assumono tutti i valori reali; la tangente ha asintoti verticali in pi greco mezzi più kappa pi greco.",
       "screen": "Definizioni",
       "purpose": "Definizione: Grafici"
     },
     {
-      "text": "La scheda dice: seno alla seconda di alfa, più coseno alla seconda di alfa, è uguale a uno.",
-      "speech": "La scheda dice: seno alla seconda di alfa, più coseno alla seconda di alfa, è uguale a uno.",
-      "screen": "Relazione fondamentale",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco il dato: seno di alfa è tre quinti.",
-      "speech": "Passaggio uno: riconosco il dato: seno di alfa è tre quinti.",
-      "screen": "Relazione fondamentale",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: coseno alla seconda è uno meno nove venticinquesimi.",
-      "speech": "Passaggio due: coseno alla seconda è uno meno nove venticinquesimi.",
-      "screen": "Relazione fondamentale",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il coseno è più o meno quattro quinti, a seconda del quadrante.",
-      "speech": "Passaggio tre: il coseno è più o meno quattro quinti, a seconda del quadrante.",
-      "screen": "Relazione fondamentale",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: la tangente è seno fratto coseno. La cotangente è coseno fratto seno.",
-      "speech": "La scheda dice: la tangente è seno fratto coseno. La cotangente è coseno fratto seno.",
-      "screen": "Tangente e cotangente",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco seno e coseno.",
-      "speech": "Passaggio uno: riconosco seno e coseno.",
-      "screen": "Tangente e cotangente",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: divido il seno per il coseno.",
-      "speech": "Passaggio due: divido il seno per il coseno.",
-      "screen": "Tangente e cotangente",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: la tangente è tre quarti.",
-      "speech": "Passaggio tre: la tangente è tre quarti.",
-      "screen": "Tangente e cotangente",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: la secante è uno fratto il coseno. La cosecante è uno fratto il seno.",
-      "speech": "La scheda dice: la secante è uno fratto il coseno. La cosecante è uno fratto il seno.",
-      "screen": "Secante e cosecante",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco il coseno, quattro quinti.",
-      "speech": "Passaggio uno: riconosco il coseno, quattro quinti.",
-      "screen": "Secante e cosecante",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: calcolo il reciproco.",
-      "speech": "Passaggio due: calcolo il reciproco.",
-      "screen": "Secante e cosecante",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: la secante è cinque quarti.",
-      "speech": "Passaggio tre: la secante è cinque quarti.",
-      "screen": "Secante e cosecante",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: il segno più o meno va preso a seconda del segno della funzione nel quadrante dell'angolo.",
-      "speech": "La scheda dice: il segno più o meno va preso a seconda del segno della funzione nel quadrante dell'angolo.",
-      "screen": "Una funzione rispetto alle altre",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: nel primo quadrante il seno è positivo.",
-      "speech": "Passaggio uno: nel primo quadrante il seno è positivo.",
-      "screen": "Una funzione rispetto alle altre",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula: radice di sedici venticinquesimi.",
-      "speech": "Passaggio due: applico la formula: radice di sedici venticinquesimi.",
-      "screen": "Una funzione rispetto alle altre",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il seno è quattro quinti.",
-      "speech": "Passaggio tre: il seno è quattro quinti.",
-      "screen": "Una funzione rispetto alle altre",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda mostra i quattro grafici. Seno e coseno oscillano tra meno uno e uno. Tangente e cotangente hanno asintoti verticali.",
-      "speech": "La scheda mostra i quattro grafici. Seno e coseno oscillano tra meno uno e uno. Tangente e cotangente hanno asintoti verticali.",
+      "text": "Nel riquadro i periodi: due pi greco per seno e coseno, pi greco per la tangente.",
+      "speech": "Nel riquadro i periodi: due pi greco per seno e coseno, pi greco per la tangente.",
       "screen": "Grafici",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Passaggio uno: riconosco il grafico del seno.",
-      "speech": "Passaggio uno: riconosco il grafico del seno.",
+      "text": "Vogliamo leggere sul grafico del seno, tra zero e due pi greco, gli zeri, il massimo e il minimo. Il grafico taglia l’asse ics in zero, in pi greco e in due pi greco.",
+      "speech": "Vogliamo leggere sul grafico del seno, tra zero e due pi greco, gli zeri, il massimo e il minimo. Il grafico taglia l’asse __X__ in zero, in pi greco e in due pi greco.",
       "screen": "Grafici",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: leggo il massimo, uno, e il minimo, meno uno.",
-      "speech": "Passaggio due: leggo il massimo, uno, e il minimo, meno uno.",
+      "text": "Il punto più alto si trova a pi greco mezzi, dove il seno vale uno.",
+      "speech": "Il punto più alto si trova a pi greco mezzi, dove il seno vale uno.",
       "screen": "Grafici",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il seno oscilla sempre tra meno uno e uno.",
-      "speech": "Passaggio tre: il seno oscilla sempre tra meno uno e uno.",
+      "text": "Il punto più basso si trova a tre pi greco mezzi, dove il seno vale meno uno.",
+      "speech": "Il punto più basso si trova a tre pi greco mezzi, dove il seno vale meno uno.",
       "screen": "Grafici",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il quadrante dell'angolo.",
-      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il quadrante dell'angolo.",
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il quadrante dell’angolo.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda il quadrante dell’angolo.",
       "screen": "Allenamento",
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi il cursore e cambia l'angolo. Osserva che la somma dei due quadrati resta sempre uno.",
-      "speech": "Questo è il laboratorio. Muovi il cursore e cambia l'angolo. Osserva che la somma dei due quadrati resta sempre uno.",
+      "text": "Questo è il laboratorio. Cambia l’angolo e osserva che la somma dei quadrati di seno e coseno resta sempre uno.",
+      "speech": "Questo è il laboratorio. Cambia l’angolo e osserva che la somma dei quadrati di seno e coseno resta sempre uno.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Ricorda le relazioni: seno alla seconda più coseno alla seconda è uno. La tangente è seno fratto coseno.",
-      "speech": "Ricorda le relazioni: seno alla seconda più coseno alla seconda è uno. La tangente è seno fratto coseno.",
+      "text": "Ricorda: seno al quadrato più coseno al quadrato è uno. La tangente è seno fratto coseno, la secante e la cosecante sono reciproche di coseno e seno.",
+      "speech": "Ricorda: seno al quadrato più coseno al quadrato è uno. La tangente è seno fratto coseno, la secante e la cosecante sono reciproche di coseno e seno.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }
