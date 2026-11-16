@@ -5,25 +5,25 @@
   "sentences": [
     {
       "text": "Definizione di parabola. Studiamo la parabola, la curva che descrive per esempio la traiettoria di un pallone lanciato. La parabola è l’insieme dei punti del piano che hanno la stessa distanza da un punto fisso, il fuoco, e da una retta fissa, la direttrice. Se l’asse della parabola è parallelo all’asse ipsilon, l’equazione è: ipsilon uguale ad a ics alla seconda più bi ics più ci, con a diverso da zero. Se a è positivo la concavità è verso l’alto, se a è negativo è verso il basso.",
-      "speech": "Definizione di parabola. Studiamo la parabola, la curva che descrive per esempio la traiettoria di un pallone lanciato. La parabola è l’insieme dei punti del piano che hanno la stessa distanza da un punto fisso, il fuoco, e da una retta fissa, la direttrice. Se l’asse della parabola è parallelo all’asse ipsilon, l’equazione è: ipsilon uguale ad a __X__ alla seconda più bi __X__ più ci, con a diverso da zero. Se a è positivo la concavità è verso l’alto, se a è negativo è verso il basso.",
+      "speech": "Definizione di parabola. Studiamo la parabola, la curva che descrive per esempio la traiettoria di un pallone lanciato. La parabola è l’insieme dei punti del piano che hanno la stessa distanza da un punto fisso, il fuoco, e da una retta fissa, la direttrice. Se l’asse della parabola è parallelo all’asse ipsilon, l’equazione è: ipsilon uguale a à per __X__ alla seconda più bi per __X__ più ci, con à diverso da zero. Se à è positivo la concavità è verso l’alto, se à è negativo è verso il basso.",
       "screen": "Definizioni",
       "purpose": "Definizione: Definizione di parabola"
     },
     {
       "text": "Nella formula, a moltiplica ics alla seconda, bi moltiplica ics, ci è il termine noto. Il segno di a decide la concavità.",
-      "speech": "Nella formula, a moltiplica __X__ alla seconda, bi moltiplica __X__, ci è il termine noto. Il segno di a decide la concavità.",
+      "speech": "Nella formula, a moltiplica __X__ alla seconda, bi moltiplica __X__, ci è il termine noto. Il segno di à decide la concavità.",
       "screen": "Definizione di parabola",
       "purpose": "Spiegazione visiva: formula"
     },
     {
       "text": "Vogliamo leggere i coefficienti della parabola ipsilon uguale a ics alla seconda meno quattro ics più tre, capirne la concavità e trovare dove taglia gli assi. Confrontando con l’equazione generale: a vale uno, bi vale meno quattro, ci vale tre.",
-      "speech": "Vogliamo leggere i coefficienti della parabola ipsilon uguale a __X__ alla seconda meno quattro __X__ più tre, capirne la concavità e trovare dove taglia gli assi. Confrontando con l’equazione generale: a vale uno, bi vale meno quattro, ci vale tre.",
+      "speech": "Vogliamo leggere i coefficienti della parabola ipsilon uguale à per __X__ alla seconda meno quattro __X__ più tre, capirne la concavità e trovare dove taglia gli assi. Confrontando con l’equazione generale: à vale uno, bi vale meno quattro, ci vale tre.",
       "screen": "Definizione di parabola",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Poiché a è positivo, la concavità è rivolta verso l’alto.",
-      "speech": "Poiché a è positivo, la concavità è rivolta verso l’alto.",
+      "speech": "Poiché à è positivo, la concavità è rivolta verso l’alto.",
       "screen": "Definizione di parabola",
       "purpose": "Esempio, passaggio 2"
     },
@@ -47,49 +47,49 @@
     },
     {
       "text": "Vertice, fuoco, asse, direttrice. Impariamo a trovare gli elementi che descrivono la parabola. Il vertice è il punto in cui la parabola incontra il suo asse di simmetria, che è una retta verticale. Il fuoco sta sull’asse, dentro la concavità; la direttrice è una retta orizzontale, dalla parte opposta rispetto al vertice. Tutti questi elementi si ricavano da a, da bi e dal discriminante, delta uguale a bi alla seconda meno quattro a ci.",
-      "speech": "Vertice, fuoco, asse, direttrice. Impariamo a trovare gli elementi che descrivono la parabola. Il vertice è il punto in cui la parabola incontra il suo asse di simmetria, che è una retta verticale. Il fuoco sta sull’asse, dentro la concavità; la direttrice è una retta orizzontale, dalla parte opposta rispetto al vertice. Tutti questi elementi si ricavano da a, da bi e dal discriminante, delta uguale a bi alla seconda meno quattro a ci.",
+      "speech": "Vertice, fuoco, asse, direttrice. Impariamo a trovare gli elementi che descrivono la parabola. Il vertice è il punto in cui la parabola incontra il suo asse di simmetria, che è una retta verticale. Il fuoco sta sull’asse, dentro la concavità; la direttrice è una retta orizzontale, dalla parte opposta rispetto al vertice. Tutti questi elementi si ricavano da à, da bi e dal discriminante, delta uguale a bi alla seconda meno quattro à per ci.",
       "screen": "Definizioni",
       "purpose": "Definizione: Vertice, fuoco, asse, direttrice"
     },
     {
       "text": "Nel riquadro trovi le formule. Il vertice ha ascissa meno bi fratto due a e ordinata meno delta fratto quattro a. L’asse, il fuoco e la direttrice usano gli stessi ingredienti.",
-      "speech": "Nel riquadro trovi le formule. Il vertice ha ascissa meno bi fratto due a e ordinata meno delta fratto quattro a. L’asse, il fuoco e la direttrice usano gli stessi ingredienti.",
+      "speech": "Nel riquadro trovi le formule. Il vertice ha ascissa meno bi fratto due a e ordinata meno delta fratto quattro à. L’asse, il fuoco e la direttrice usano gli stessi ingredienti.",
       "screen": "Vertice, fuoco, asse, direttrice",
       "purpose": "Spiegazione visiva: formula"
     },
     {
       "text": "Vogliamo vertice, asse, fuoco e direttrice della parabola ipsilon uguale a ics alla seconda meno quattro ics più tre. Prima calcoliamo il discriminante: meno quattro alla seconda meno quattro per uno per tre, cioè sedici meno dodici, che fa quattro.",
-      "speech": "Vogliamo vertice, asse, fuoco e direttrice della parabola ipsilon uguale a __X__ alla seconda meno quattro __X__ più tre. Prima calcoliamo il discriminante: meno quattro alla seconda meno quattro per uno per tre, cioè sedici meno dodici, che fa quattro.",
+      "speech": "Vogliamo vertice, asse, fuoco e direttrice della parabola ipsilon uguale à per __X__ alla seconda meno quattro __X__ più tre. Prima calcoliamo il discriminante: meno quattro alla seconda meno quattro per uno per tre, cioè sedici meno dodici, che fa quattro.",
       "screen": "Vertice, fuoco, asse, direttrice",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "L’asse di simmetria ha equazione ics uguale a meno bi fratto due a: meno meno quattro fratto due, cioè quattro mezzi, che fa due.",
-      "speech": "L’asse di simmetria ha equazione __X__ uguale a meno bi fratto due a: meno meno quattro fratto due, cioè quattro mezzi, che fa due.",
+      "speech": "L’asse di simmetria ha equazione __X__ uguale a meno bi fratto due à: meno meno quattro fratto due, cioè quattro mezzi, che fa due.",
       "screen": "Vertice, fuoco, asse, direttrice",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "L’ordinata del vertice è meno delta fratto quattro a: meno quattro quarti, cioè meno uno. Il vertice è V, di coordinate due e meno uno.",
-      "speech": "L’ordinata del vertice è meno delta fratto quattro a: meno quattro quarti, cioè meno uno. Il vertice è vu, di coordinate due e meno uno.",
+      "speech": "L’ordinata del vertice è meno delta fratto quattro à: meno quattro quarti, cioè meno uno. Il vertice è vu, di coordinate due e meno uno.",
       "screen": "Vertice, fuoco, asse, direttrice",
       "purpose": "Esempio, passaggio 3"
     },
     {
       "text": "L’ordinata del fuoco è uno meno delta, fratto quattro a: uno meno quattro fa meno tre, quindi meno tre quarti. Il fuoco è F, di coordinate due e meno tre quarti.",
-      "speech": "L’ordinata del fuoco è uno meno delta, fratto quattro a: uno meno quattro fa meno tre, quindi meno tre quarti. Il fuoco è effe, di coordinate due e meno tre quarti.",
+      "speech": "L’ordinata del fuoco è uno meno delta, fratto quattro à: uno meno quattro fa meno tre, quindi meno tre quarti. Il fuoco è effe, di coordinate due e meno tre quarti.",
       "screen": "Vertice, fuoco, asse, direttrice",
       "purpose": "Esempio, passaggio 4"
     },
     {
       "text": "La direttrice ha equazione ipsilon uguale a meno, uno più delta, fratto quattro a: cioè meno cinque quarti.",
-      "speech": "La direttrice ha equazione ipsilon uguale a meno, uno più delta, fratto quattro a: cioè meno cinque quarti.",
+      "speech": "La direttrice ha equazione ipsilon uguale a meno, uno più delta, fratto quattro à: cioè meno cinque quarti.",
       "screen": "Vertice, fuoco, asse, direttrice",
       "purpose": "Esempio, passaggio 5"
     },
     {
       "text": "Parabole particolari. Alcune parabole hanno equazioni più semplici, perché manca un termine. Se bi è zero, l’equazione è ipsilon uguale ad a ics alla seconda più ci, e il vertice sta sull’asse ipsilon. Se ci è zero, l’equazione è ipsilon uguale ad a ics alla seconda più bi ics, e la parabola passa per l’origine. Se mancano sia bi sia ci, l’equazione è ipsilon uguale ad a ics alla seconda, e il vertice è l’origine.",
-      "speech": "Parabole particolari. Alcune parabole hanno equazioni più semplici, perché manca un termine. Se bi è zero, l’equazione è ipsilon uguale ad a __X__ alla seconda più ci, e il vertice sta sull’asse ipsilon. Se ci è zero, l’equazione è ipsilon uguale ad a __X__ alla seconda più bi __X__, e la parabola passa per l’origine. Se mancano sia bi sia ci, l’equazione è ipsilon uguale ad a __X__ alla seconda, e il vertice è l’origine.",
+      "speech": "Parabole particolari. Alcune parabole hanno equazioni più semplici, perché manca un termine. Se bi è zero, l’equazione è ipsilon uguale a à per __X__ alla seconda più ci, e il vertice sta sull’asse ipsilon. Se ci è zero, l’equazione è ipsilon uguale a à per __X__ alla seconda più bi per __X__, e la parabola passa per l’origine. Se mancano sia bi sia ci, l’equazione è ipsilon uguale a à per __X__ alla seconda, e il vertice è l’origine.",
       "screen": "Definizioni",
       "purpose": "Definizione: Parabole particolari"
     },
@@ -101,7 +101,7 @@
     },
     {
       "text": "Vogliamo riconoscere due parabole particolari e trovarne il vertice. Nella prima, ipsilon uguale a ics alla seconda meno quattro, manca il termine con ics: bi è zero.",
-      "speech": "Vogliamo riconoscere due parabole particolari e trovarne il vertice. Nella prima, ipsilon uguale a __X__ alla seconda meno quattro, manca il termine con __X__: bi è zero.",
+      "speech": "Vogliamo riconoscere due parabole particolari e trovarne il vertice. Nella prima, ipsilon uguale à per __X__ alla seconda meno quattro, manca il termine con __X__: bi è zero.",
       "screen": "Parabole particolari",
       "purpose": "Esempio, passaggio 1"
     },
@@ -113,19 +113,19 @@
     },
     {
       "text": "Nella seconda, ipsilon uguale a ics alla seconda meno due ics, manca il termine noto: ci è zero, quindi la parabola passa per l’origine.",
-      "speech": "Nella seconda, ipsilon uguale a __X__ alla seconda meno due __X__, manca il termine noto: ci è zero, quindi la parabola passa per l’origine.",
+      "speech": "Nella seconda, ipsilon uguale à per __X__ alla seconda meno due __X__, manca il termine noto: ci è zero, quindi la parabola passa per l’origine.",
       "screen": "Parabole particolari",
       "purpose": "Esempio, passaggio 3"
     },
     {
       "text": "L’ascissa del vertice è meno bi fratto due a: due mezzi, cioè uno. Sostituendo ics uguale a uno, ipsilon vale uno meno due, cioè meno uno. Il vertice è uno e meno uno.",
-      "speech": "L’ascissa del vertice è meno bi fratto due a: due mezzi, cioè uno. Sostituendo __X__ uguale a uno, ipsilon vale uno meno due, cioè meno uno. Il vertice è uno e meno uno.",
+      "speech": "L’ascissa del vertice è meno bi fratto due à: due mezzi, cioè uno. Sostituendo __X__ uguale a uno, ipsilon vale uno meno due, cioè meno uno. Il vertice è uno e meno uno.",
       "screen": "Parabole particolari",
       "purpose": "Esempio, passaggio 4"
     },
     {
       "text": "Equazione per tre punti. Vediamo come si trova l’equazione di una parabola conoscendo tre suoi punti. Nell’equazione ci sono tre incognite: a, bi e ci. Per trovarle servono tre condizioni. Se la parabola passa per tre punti, si sostituiscono le loro coordinate nell’equazione, e si ottiene un sistema di tre equazioni.",
-      "speech": "Equazione per tre punti. Vediamo come si trova l’equazione di una parabola conoscendo tre suoi punti. Nell’equazione ci sono tre incognite: a, bi e ci. Per trovarle servono tre condizioni. Se la parabola passa per tre punti, si sostituiscono le loro coordinate nell’equazione, e si ottiene un sistema di tre equazioni.",
+      "speech": "Equazione per tre punti. Vediamo come si trova l’equazione di una parabola conoscendo tre suoi punti. Nell’equazione ci sono tre incognite: à, bi e ci. Per trovarle servono tre condizioni. Se la parabola passa per tre punti, si sostituiscono le loro coordinate nell’equazione, e si ottiene un sistema di tre equazioni.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione per tre punti"
     },
@@ -137,37 +137,37 @@
     },
     {
       "text": "Vogliamo la parabola che passa per i punti zero e uno, uno e due, due e cinque. Sostituiamo il primo punto: uno uguale a ci, quindi ci vale uno.",
-      "speech": "Vogliamo la parabola che passa per i punti zero e uno, uno e due, due e cinque. Sostituiamo il primo punto: uno uguale a ci, quindi ci vale uno.",
+      "speech": "Vogliamo la parabola che passa per i punti zero e uno, uno e due, due e cinque. Sostituiamo il primo punto: uno uguale à ci, quindi ci vale uno.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Sostituiamo il secondo punto: due uguale ad a più bi più uno, quindi a più bi è uguale a uno.",
-      "speech": "Sostituiamo il secondo punto: due uguale ad a più bi più uno, quindi a più bi è uguale a uno.",
+      "speech": "Sostituiamo il secondo punto: due uguale a à più bi più uno, quindi à più bi è uguale a uno.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Sostituiamo il terzo punto: cinque uguale a quattro a più due bi più uno. Togliamo uno e dividiamo per due: due a più bi uguale a due.",
-      "speech": "Sostituiamo il terzo punto: cinque uguale a quattro a più due bi più uno. Togliamo uno e dividiamo per due: due a più bi uguale a due.",
+      "speech": "Sostituiamo il terzo punto: cinque uguale a quattro à più due bi più uno. Togliamo uno e dividiamo per due: due à più bi uguale a due.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 3"
     },
     {
       "text": "Mettiamo insieme le due equazioni: a più bi uguale a uno, e due a più bi uguale a due.",
-      "speech": "Mettiamo insieme le due equazioni: a più bi uguale a uno, e due a più bi uguale a due.",
+      "speech": "Mettiamo insieme le due equazioni: à più bi uguale a uno, e due à più bi uguale a due.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 4"
     },
     {
       "text": "Sottraendo la prima equazione dalla seconda, bi si elimina e resta a uguale a uno. Allora bi vale uno meno uno, cioè zero.",
-      "speech": "Sottraendo la prima equazione dalla seconda, bi si elimina e resta a uguale a uno. Allora bi vale uno meno uno, cioè zero.",
+      "speech": "Sottraendo la prima equazione dalla seconda, bi si elimina e resta à uguale a uno. Allora bi vale uno meno uno, cioè zero.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 5"
     },
     {
       "text": "Sostituendo a, bi e ci, la parabola è ipsilon uguale a ics alla seconda più uno.",
-      "speech": "Sostituendo a, bi e ci, la parabola è ipsilon uguale a __X__ alla seconda più uno.",
+      "speech": "Sostituendo à, bi e ci, la parabola è ipsilon uguale à per __X__ alla seconda più uno.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 6"
     },
@@ -185,7 +185,7 @@
     },
     {
       "text": "Vogliamo la retta tangente alla parabola ipsilon uguale a ics alla seconda, con coefficiente angolare due. Le rette con emme uguale a due hanno equazione ipsilon uguale a due ics più cu.",
-      "speech": "Vogliamo la retta tangente alla parabola ipsilon uguale a __X__ alla seconda, con coefficiente angolare due. Le rette con emme uguale a due hanno equazione ipsilon uguale a due __X__ più cu.",
+      "speech": "Vogliamo la retta tangente alla parabola ipsilon uguale à per __X__ alla seconda, con coefficiente angolare due. Le rette con emme uguale a due hanno equazione ipsilon uguale a due __X__ più cu.",
       "screen": "Rette tangenti",
       "purpose": "Esempio, passaggio 1"
     },
@@ -221,19 +221,19 @@
     },
     {
       "text": "Ora tocca a te, con tre domande. Prima di rispondere, leggi a, bi e ci con il loro segno.",
-      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, leggi a, bi e ci con il loro segno.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, leggi à, bi e ci con il loro segno.",
       "screen": "Allenamento",
       "purpose": "Indicazioni per gli esercizi"
     },
     {
       "text": "Questo è il laboratorio. Cambia i valori di a, bi e ci e osserva come si spostano il vertice e l’asse della parabola.",
-      "speech": "Questo è il laboratorio. Cambia i valori di a, bi e ci e osserva come si spostano il vertice e l’asse della parabola.",
+      "speech": "Questo è il laboratorio. Cambia i valori di à, bi e ci e osserva come si spostano il vertice e l’asse della parabola.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
       "text": "Ricorda: il vertice ha ascissa meno bi fratto due a. Per trovare l’equazione servono tre condizioni, e una retta è tangente quando il delta è zero.",
-      "speech": "Ricorda: il vertice ha ascissa meno bi fratto due a. Per trovare l’equazione servono tre condizioni, e una retta è tangente quando il delta è zero.",
+      "speech": "Ricorda: il vertice ha ascissa meno bi fratto due à. Per trovare l’equazione servono tre condizioni, e una retta è tangente quando il delta è zero.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }
