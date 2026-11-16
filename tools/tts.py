@@ -56,14 +56,14 @@ def rms(a):
 
 def make(job):
     import array, wave
-    text, out = job
+    text, out, sentence_rate = (*job, None)[:3]
     # text: stringa (una sola voce) oppure lista di parti [{"lang": "it"|"en"|"es", "text": ...}]
     parts = [p for p in (text if isinstance(text, list) else [{"lang": "it", "text": text}]) if p["text"].strip()]
     os.makedirs(os.path.dirname(out), exist_ok=True)
     part = out + ".part.mp3"
     if len(parts) == 1:
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as f:
-            f.write(tts(parts[0]["text"].strip(), parts[0].get("lang", "it")))
+            f.write(tts(parts[0]["text"].strip(), parts[0].get("lang", "it"), sentence_rate))
             src = f.name
     else:
         # piu' voci: taglia i silenzi, allinea il volume alla parte italiana, pause brevi e naturali
@@ -102,7 +102,7 @@ def jobs_for(materia):
             out = f"audio/{materia}/episodio-{d['episode']}/frase-{i:02d}.mp3"
             expected.append((out, len(s.get("speech") or s["text"])))
             if not (os.path.exists(out) and os.path.getsize(out) > 1000):
-                jobs.append((s.get("parts") or s.get("speech") or s["text"], out))
+                jobs.append((s.get("parts") or s.get("speech") or s["text"], out, s.get("rate")))
     return jobs, expected
 
 def check(expected):
