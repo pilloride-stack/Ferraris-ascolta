@@ -1,0 +1,355 @@
+{
+  "episode": "34",
+  "title": "Equazioni goniometriche",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Equazione elementare con il seno. Iniziamo dalle equazioni goniometriche più semplici. L’equazione seno di ics uguale a emme ha soluzioni solo se emme è compreso tra meno uno e uno. Se alfa è un angolo con seno uguale a emme, sulla circonferenza ci sono due punti con quella ordinata: le soluzioni sono alfa più due kappa pi greco, oppure pi greco meno alfa più due kappa pi greco.",
+      "speech": "Equazione elementare con il seno. Iniziamo dalle equazioni goniometriche più semplici. L’equazione seno di __X__ uguale a emme ha soluzioni solo se emme è compreso tra meno uno e uno. Se alfa è un angolo con seno uguale a emme, sulla circonferenza ci sono due punti con quella ordinata: le soluzioni sono alfa più due kappa pi greco, oppure pi greco meno alfa più due kappa pi greco.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione elementare con il seno"
+    },
+    {
+      "text": "Nel riquadro le due famiglie di soluzioni: il simbolo a forma di vu significa oppure. Kappa è un numero intero qualsiasi.",
+      "speech": "Nel riquadro le due famiglie di soluzioni: il simbolo a forma di vu significa oppure. Kappa è un numero intero qualsiasi.",
+      "screen": "Equazione elementare con il seno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere seno di ics uguale a un mezzo. Un mezzo è compreso tra meno uno e uno, quindi l’equazione ha soluzioni.",
+      "speech": "Vogliamo risolvere seno di __X__ uguale a un mezzo. Un mezzo è compreso tra meno uno e uno, quindi l’equazione ha soluzioni.",
+      "screen": "Equazione elementare con il seno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’angolo che ha seno un mezzo è pi greco sesti, cioè trenta gradi.",
+      "speech": "L’angolo che ha seno un mezzo è pi greco sesti, cioè trenta gradi.",
+      "screen": "Equazione elementare con il seno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’altro punto con la stessa ordinata corrisponde a pi greco meno pi greco sesti, cioè cinque pi greco sesti.",
+      "speech": "L’altro punto con la stessa ordinata corrisponde a pi greco meno pi greco sesti, cioè cinque pi greco sesti.",
+      "screen": "Equazione elementare con il seno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Aggiungendo il periodo, le soluzioni sono: pi greco sesti più due kappa pi greco, oppure cinque pi greco sesti più due kappa pi greco.",
+      "speech": "Aggiungendo il periodo, le soluzioni sono: pi greco sesti più due kappa pi greco, oppure cinque pi greco sesti più due kappa pi greco.",
+      "screen": "Equazione elementare con il seno",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Equazione elementare con il coseno. Passiamo alle equazioni elementari con il coseno. L’equazione coseno di ics uguale a enne ha soluzioni solo se enne è compreso tra meno uno e uno. Se alfa ha coseno uguale a enne, i due punti con quell’ascissa sono simmetrici rispetto all’asse ics: le soluzioni sono più o meno alfa più due kappa pi greco.",
+      "speech": "Equazione elementare con il coseno. Passiamo alle equazioni elementari con il coseno. L’equazione coseno di __X__ uguale a enne ha soluzioni solo se enne è compreso tra meno uno e uno. Se alfa ha coseno uguale a enne, i due punti con quell’ascissa sono simmetrici rispetto all’asse __X__: le soluzioni sono più o meno alfa più due kappa pi greco.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione elementare con il coseno"
+    },
+    {
+      "text": "Nel riquadro: per il coseno le due soluzioni sono alfa e meno alfa, più il periodo.",
+      "speech": "Nel riquadro: per il coseno le due soluzioni sono alfa e meno alfa, più il periodo.",
+      "screen": "Equazione elementare con il coseno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere coseno di ics uguale a un mezzo. Un mezzo è compreso tra meno uno e uno: ci sono soluzioni.",
+      "speech": "Vogliamo risolvere coseno di __X__ uguale a un mezzo. Un mezzo è compreso tra meno uno e uno: ci sono soluzioni.",
+      "screen": "Equazione elementare con il coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’angolo con coseno un mezzo è pi greco terzi, cioè sessanta gradi.",
+      "speech": "L’angolo con coseno un mezzo è pi greco terzi, cioè sessanta gradi.",
+      "screen": "Equazione elementare con il coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Le soluzioni sono più o meno pi greco terzi, più due kappa pi greco.",
+      "speech": "Le soluzioni sono più o meno pi greco terzi, più due kappa pi greco.",
+      "screen": "Equazione elementare con il coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Equazione elementare con tangente e cotangente. Le equazioni con la tangente e con la cotangente hanno sempre soluzioni, per qualunque numero reale. Poiché tangente e cotangente hanno periodo pi greco, basta trovare un angolo alfa: le soluzioni sono alfa più kappa pi greco.",
+      "speech": "Equazione elementare con tangente e cotangente. Le equazioni con la tangente e con la cotangente hanno sempre soluzioni, per qualunque numero reale. Poiché tangente e cotangente hanno periodo pi greco, basta trovare un angolo alfa: le soluzioni sono alfa più kappa pi greco.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione elementare con tangente e cotangente"
+    },
+    {
+      "text": "Nel riquadro: per tangente e cotangente il periodo è kappa pi greco, non due kappa pi greco.",
+      "speech": "Nel riquadro: per tangente e cotangente il periodo è kappa pi greco, non due kappa pi greco.",
+      "screen": "Equazione elementare con tangente e cotangente",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere cotangente di ics uguale a meno radice di tre. Passiamo alla tangente, che è il reciproco: meno uno fratto radice di tre, cioè meno radice di tre terzi.",
+      "speech": "Vogliamo risolvere cotangente di __X__ uguale a meno radice di tre. Passiamo alla tangente, che è il reciproco: meno uno fratto radice di tre, cioè meno radice di tre terzi.",
+      "screen": "Equazione elementare con tangente e cotangente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La tangente di pi greco sesti vale radice di tre terzi; con il segno meno l’angolo è meno pi greco sesti.",
+      "speech": "La tangente di pi greco sesti vale radice di tre terzi; con il segno meno l’angolo è meno pi greco sesti.",
+      "screen": "Equazione elementare con tangente e cotangente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Aggiungendo kappa pi greco: meno pi greco sesti più kappa pi greco, che si può scrivere anche cinque pi greco sesti più kappa pi greco.",
+      "speech": "Aggiungendo kappa pi greco: meno pi greco sesti più kappa pi greco, che si può scrivere anche cinque pi greco sesti più kappa pi greco.",
+      "screen": "Equazione elementare con tangente e cotangente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Stessa funzione nei due membri. Vediamo le equazioni con la stessa funzione a sinistra e a destra, applicata a due argomenti effe e gi. Se due angoli hanno lo stesso seno, sono uguali oppure supplementari, a meno del periodo. Se hanno lo stesso coseno, sono uguali oppure opposti. Se hanno la stessa tangente, differiscono di kappa pi greco.",
+      "speech": "Stessa funzione nei due membri. Vediamo le equazioni con la stessa funzione a sinistra e a destra, applicata a due argomenti effe e gi. Se due angoli hanno lo stesso seno, sono uguali oppure supplementari, a meno del periodo. Se hanno lo stesso coseno, sono uguali oppure opposti. Se hanno la stessa tangente, differiscono di kappa pi greco.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Stessa funzione nei due membri"
+    },
+    {
+      "text": "Nel riquadro le regole per seno, coseno e tangente.",
+      "speech": "Nel riquadro le regole per seno, coseno e tangente.",
+      "screen": "Stessa funzione nei due membri",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere seno di cinque ics uguale a seno di due ics. Prima possibilità: gli argomenti sono uguali a meno di due kappa pi greco. Otteniamo tre ics uguale a due kappa pi greco, cioè ics uguale a due kappa pi greco terzi.",
+      "speech": "Vogliamo risolvere seno di cinque __X__ uguale a seno di due __X__. Prima possibilità: gli argomenti sono uguali a meno di due kappa pi greco. Otteniamo tre __X__ uguale a due kappa pi greco, cioè __X__ uguale a due kappa pi greco terzi.",
+      "screen": "Stessa funzione nei due membri",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Seconda possibilità: gli argomenti sono supplementari. Cinque ics uguale a pi greco meno due ics più due kappa pi greco, cioè sette ics uguale a pi greco più due kappa pi greco.",
+      "speech": "Seconda possibilità: gli argomenti sono supplementari. Cinque __X__ uguale a pi greco meno due __X__ più due kappa pi greco, cioè sette __X__ uguale a pi greco più due kappa pi greco.",
+      "screen": "Stessa funzione nei due membri",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Dividendo per sette: ics uguale a pi greco più due kappa pi greco, tutto fratto sette.",
+      "speech": "Dividendo per sette: __X__ uguale a pi greco più due kappa pi greco, tutto fratto sette.",
+      "screen": "Stessa funzione nei due membri",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Equazione di secondo grado. Vediamo le equazioni che contengono una sola funzione goniometrica, al quadrato e alla prima potenza. Si pone ti uguale a quella funzione e si risolve l’equazione di secondo grado in ti. Poi si risolvono le equazioni elementari, scartando i valori impossibili.",
+      "speech": "Equazione di secondo grado. Vediamo le equazioni che contengono una sola funzione goniometrica, al quadrato e alla prima potenza. Si pone ti uguale a quella funzione e si risolve l’equazione di secondo grado in ti. Poi si risolvono le equazioni elementari, scartando i valori impossibili.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione di secondo grado"
+    },
+    {
+      "text": "Nel riquadro la sostituzione: il seno di ics diventa ti.",
+      "speech": "Nel riquadro la sostituzione: il seno di __X__ diventa ti.",
+      "screen": "Equazione di secondo grado",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere due seno al quadrato di ics più seno di ics meno uno uguale a zero. Poniamo ti uguale a seno di ics: due ti al quadrato più ti meno uno uguale a zero.",
+      "speech": "Vogliamo risolvere due seno al quadrato di __X__ più seno di __X__ meno uno uguale a zero. Poniamo ti uguale a seno di __X__: due ti al quadrato più ti meno uno uguale a zero.",
+      "screen": "Equazione di secondo grado",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Con la formula risolutiva: meno uno più o meno la radice di nove, fratto quattro. Otteniamo ti uguale a un mezzo oppure ti uguale a meno uno.",
+      "speech": "Con la formula risolutiva: meno uno più o meno la radice di nove, fratto quattro. Otteniamo ti uguale a un mezzo oppure ti uguale a meno uno.",
+      "screen": "Equazione di secondo grado",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Seno di ics uguale a un mezzo dà pi greco sesti e cinque pi greco sesti, più due kappa pi greco.",
+      "speech": "Seno di __X__ uguale a un mezzo dà pi greco sesti e cinque pi greco sesti, più due kappa pi greco.",
+      "screen": "Equazione di secondo grado",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Seno di ics uguale a meno uno dà tre pi greco mezzi più due kappa pi greco.",
+      "speech": "Seno di __X__ uguale a meno uno dà tre pi greco mezzi più due kappa pi greco.",
+      "screen": "Equazione di secondo grado",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Riduzione a una sola funzione. Vediamo come trattare un’equazione che contiene funzioni diverse. Con le relazioni fondamentali si scrive tutto con una sola funzione: per esempio seno al quadrato è uno meno coseno al quadrato. Poi si procede come con una sola funzione.",
+      "speech": "Riduzione a una sola funzione. Vediamo come trattare un’equazione che contiene funzioni diverse. Con le relazioni fondamentali si scrive tutto con una sola funzione: per esempio seno al quadrato è uno meno coseno al quadrato. Poi si procede come con una sola funzione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Riduzione a una sola funzione"
+    },
+    {
+      "text": "Nel riquadro le sostituzioni più usate.",
+      "speech": "Nel riquadro le sostituzioni più usate.",
+      "screen": "Riduzione a una sola funzione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere due seno al quadrato di ics uguale a tre coseno di ics. Sostituiamo il seno al quadrato con uno meno coseno al quadrato.",
+      "speech": "Vogliamo risolvere due seno al quadrato di __X__ uguale a tre coseno di __X__. Sostituiamo il seno al quadrato con uno meno coseno al quadrato.",
+      "screen": "Riduzione a una sola funzione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Svolgiamo e portiamo tutto a sinistra: due coseno al quadrato più tre coseno meno due uguale a zero.",
+      "speech": "Svolgiamo e portiamo tutto a sinistra: due coseno al quadrato più tre coseno meno due uguale a zero.",
+      "screen": "Riduzione a una sola funzione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Poniamo ti uguale a coseno di ics: il discriminante è nove più sedici, venticinque, e otteniamo ti uguale a un mezzo oppure meno due.",
+      "speech": "Poniamo ti uguale a coseno di __X__: il discriminante è nove più sedici, venticinque, e otteniamo ti uguale a un mezzo oppure meno due.",
+      "screen": "Riduzione a una sola funzione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Coseno uguale a meno due è impossibile. Coseno uguale a un mezzo dà più o meno pi greco terzi più due kappa pi greco.",
+      "speech": "Coseno uguale a meno due è impossibile. Coseno uguale a un mezzo dà più o meno pi greco terzi più due kappa pi greco.",
+      "screen": "Riduzione a una sola funzione",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Legge di annullamento del prodotto. Vediamo le equazioni che si scrivono come prodotto uguale a zero. Un prodotto è zero quando almeno un fattore è zero: si pone uguale a zero ciascun fattore, e si uniscono le soluzioni.",
+      "speech": "Legge di annullamento del prodotto. Vediamo le equazioni che si scrivono come prodotto uguale a zero. Un prodotto è zero quando almeno un fattore è zero: si pone uguale a zero ciascun fattore, e si uniscono le soluzioni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Legge di annullamento del prodotto"
+    },
+    {
+      "text": "La formula dice: un prodotto è zero se è zero il primo fattore, oppure il secondo.",
+      "speech": "La formula dice: un prodotto è zero se è zero il primo fattore, oppure il secondo.",
+      "screen": "Legge di annullamento del prodotto",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere il prodotto uno meno seno di ics, per uno più due coseno di ics, uguale a zero. Primo fattore: seno di ics uguale a uno, cioè ics uguale a pi greco mezzi più due kappa pi greco.",
+      "speech": "Vogliamo risolvere il prodotto uno meno seno di __X__, per uno più due coseno di __X__, uguale a zero. Primo fattore: seno di __X__ uguale a uno, cioè __X__ uguale a pi greco mezzi più due kappa pi greco.",
+      "screen": "Legge di annullamento del prodotto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Secondo fattore: coseno di ics uguale a meno un mezzo, cioè più o meno due pi greco terzi più due kappa pi greco.",
+      "speech": "Secondo fattore: coseno di __X__ uguale a meno un mezzo, cioè più o meno due pi greco terzi più due kappa pi greco.",
+      "screen": "Legge di annullamento del prodotto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Le soluzioni sono l’unione delle due famiglie.",
+      "speech": "Le soluzioni sono l’unione delle due famiglie.",
+      "screen": "Legge di annullamento del prodotto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Uso delle formule goniometriche. Vediamo le equazioni con argomenti diversi, come ics e due ics. Con le formule di duplicazione, di addizione o di prostaferesi si riporta tutto allo stesso argomento, poi si risolve con i metodi già visti.",
+      "speech": "Uso delle formule goniometriche. Vediamo le equazioni con argomenti diversi, come __X__ e due __X__. Con le formule di duplicazione, di addizione o di prostaferesi si riporta tutto allo stesso argomento, poi si risolve con i metodi già visti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Uso delle formule goniometriche"
+    },
+    {
+      "text": "Nel riquadro due formule di duplicazione molto usate.",
+      "speech": "Nel riquadro due formule di duplicazione molto usate.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere coseno di due ics meno seno di ics uguale a zero. Usiamo la formula del coseno di due ics che contiene solo il seno: uno meno due seno al quadrato.",
+      "speech": "Vogliamo risolvere coseno di due __X__ meno seno di __X__ uguale a zero. Usiamo la formula del coseno di due __X__ che contiene solo il seno: uno meno due seno al quadrato.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Cambiando segno a tutti i termini otteniamo due seno al quadrato più seno meno uno uguale a zero.",
+      "speech": "Cambiando segno a tutti i termini otteniamo due seno al quadrato più seno meno uno uguale a zero.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Con ti uguale a seno di ics troviamo ti uguale a un mezzo oppure meno uno, come nell’equazione di secondo grado vista prima.",
+      "speech": "Con ti uguale a seno di __X__ troviamo ti uguale a un mezzo oppure meno uno, come nell’equazione di secondo grado vista prima.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le soluzioni sono pi greco sesti, cinque pi greco sesti e tre pi greco mezzi, più due kappa pi greco.",
+      "speech": "Le soluzioni sono pi greco sesti, cinque pi greco sesti e tre pi greco mezzi, più due kappa pi greco.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Equazione lineare in seno e coseno. Vediamo le equazioni con seno e coseno alla prima potenza, ciascuno con un coefficiente, più un termine noto. Se il termine noto è zero, si controlla che coseno uguale a zero non dia soluzioni e si divide per il coseno, ottenendo un’equazione nella tangente. Se il termine noto non è zero, si usano le formule parametriche o il metodo grafico.",
+      "speech": "Equazione lineare in seno e coseno. Vediamo le equazioni con seno e coseno alla prima potenza, ciascuno con un coefficiente, più un termine noto. Se il termine noto è zero, si controlla che coseno uguale a zero non dia soluzioni e si divide per il coseno, ottenendo un’equazione nella tangente. Se il termine noto non è zero, si usano le formule parametriche o il metodo grafico.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione lineare in seno e coseno"
+    },
+    {
+      "text": "Nel riquadro i due casi, a seconda del termine noto.",
+      "speech": "Nel riquadro i due casi, a seconda del termine noto.",
+      "screen": "Equazione lineare in seno e coseno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere seno di ics meno radice di tre coseno di ics uguale a zero. Se il coseno fosse zero, il seno varrebbe più o meno uno e l’equazione non sarebbe verificata: possiamo dividere per il coseno.",
+      "speech": "Vogliamo risolvere seno di __X__ meno radice di tre coseno di __X__ uguale a zero. Se il coseno fosse zero, il seno varrebbe più o meno uno e l’equazione non sarebbe verificata: possiamo dividere per il coseno.",
+      "screen": "Equazione lineare in seno e coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dividendo per il coseno otteniamo tangente di ics meno radice di tre uguale a zero, cioè tangente uguale a radice di tre.",
+      "speech": "Dividendo per il coseno otteniamo tangente di __X__ meno radice di tre uguale a zero, cioè tangente uguale a radice di tre.",
+      "screen": "Equazione lineare in seno e coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La tangente di pi greco terzi vale radice di tre: le soluzioni sono pi greco terzi più kappa pi greco.",
+      "speech": "La tangente di pi greco terzi vale radice di tre: le soluzioni sono pi greco terzi più kappa pi greco.",
+      "screen": "Equazione lineare in seno e coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Equazione omogenea di secondo grado. Concludiamo con le equazioni in cui tutti i termini sono di secondo grado in seno e coseno. Si controlla che coseno uguale a zero non sia soluzione, poi si divide per coseno al quadrato e si ottiene un’equazione di secondo grado nella tangente. Un eventuale termine noto si moltiplica per seno al quadrato più coseno al quadrato, che vale uno.",
+      "speech": "Equazione omogenea di secondo grado. Concludiamo con le equazioni in cui tutti i termini sono di secondo grado in seno e coseno. Si controlla che coseno uguale a zero non sia soluzione, poi si divide per coseno al quadrato e si ottiene un’equazione di secondo grado nella tangente. Un eventuale termine noto si moltiplica per seno al quadrato più coseno al quadrato, che vale uno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione omogenea di secondo grado"
+    },
+    {
+      "text": "Nel riquadro: dividendo per coseno al quadrato, l’equazione diventa di secondo grado nella tangente.",
+      "speech": "Nel riquadro: dividendo per coseno al quadrato, l’equazione diventa di secondo grado nella tangente.",
+      "screen": "Equazione omogenea di secondo grado",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere seno al quadrato di ics meno tre coseno al quadrato uguale a zero. Se il coseno fosse zero, resterebbe uno uguale a zero: falso. Possiamo dividere per il coseno al quadrato.",
+      "speech": "Vogliamo risolvere seno al quadrato di __X__ meno tre coseno al quadrato uguale a zero. Se il coseno fosse zero, resterebbe uno uguale a zero: falso. Possiamo dividere per il coseno al quadrato.",
+      "screen": "Equazione omogenea di secondo grado",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dividendo per il coseno al quadrato otteniamo tangente al quadrato meno tre uguale a zero.",
+      "speech": "Dividendo per il coseno al quadrato otteniamo tangente al quadrato meno tre uguale a zero.",
+      "screen": "Equazione omogenea di secondo grado",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Quindi la tangente vale più o meno radice di tre.",
+      "speech": "Quindi la tangente vale più o meno radice di tre.",
+      "screen": "Equazione omogenea di secondo grado",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le soluzioni sono più o meno pi greco terzi più kappa pi greco.",
+      "speech": "Le soluzioni sono più o meno pi greco terzi più kappa pi greco.",
+      "screen": "Equazione omogenea di secondo grado",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Ora tocca a te, con dieci domande. Prima di rispondere, riconosci il tipo di equazione.",
+      "speech": "Ora tocca a te, con dieci domande. Prima di rispondere, riconosci il tipo di equazione.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scegli la funzione, scrivi il valore nella casella e osserva le soluzioni sulla circonferenza.",
+      "speech": "Questo è il laboratorio. Scegli la funzione, scrivi il valore nella casella e osserva le soluzioni sulla circonferenza.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: riporta ogni equazione a una elementare. Seno e coseno hanno periodo due pi greco, tangente e cotangente pi greco.",
+      "speech": "Ricorda: riporta ogni equazione a una elementare. Seno e coseno hanno periodo due pi greco, tangente e cotangente pi greco.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

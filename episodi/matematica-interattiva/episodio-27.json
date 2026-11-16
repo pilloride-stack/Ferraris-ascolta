@@ -4,242 +4,242 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "con centottanta gradi meno alfa il seno resta uguale. Coseno, tangente e cotangente cambiano segno.",
-      "speech": "con centottanta gradi meno alfa il seno resta uguale. Coseno, tangente e cotangente cambiano segno.",
+      "text": "Angoli supplementari. Due angoli sono supplementari quando la loro somma è un angolo piatto. Gli angoli alfa e centottanta gradi meno alfa hanno lo stesso seno, mentre coseno, tangente e cotangente cambiano segno. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
+      "speech": "Angoli supplementari. Due angoli sono supplementari quando la loro somma è un angolo piatto. Gli angoli alfa e centottanta gradi meno alfa hanno lo stesso seno, mentre coseno, tangente e cotangente cambiano segno. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Angoli supplementari"
     },
     {
-      "text": "con novanta gradi meno alfa il seno diventa coseno, e la tangente diventa cotangente.",
-      "speech": "con novanta gradi meno alfa il seno diventa coseno, e la tangente diventa cotangente.",
+      "text": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "speech": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "screen": "Angoli supplementari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare il seno di centocinquanta gradi. Scriviamo centocinquanta come centottanta meno trenta.",
+      "speech": "Vogliamo calcolare il seno di centocinquanta gradi. Scriviamo centocinquanta come centottanta meno trenta.",
+      "screen": "Angoli supplementari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Gli angoli supplementari hanno lo stesso seno: il seno di centocinquanta gradi è uguale al seno di trenta gradi.",
+      "speech": "Gli angoli supplementari hanno lo stesso seno: il seno di centocinquanta gradi è uguale al seno di trenta gradi.",
+      "screen": "Angoli supplementari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il seno di trenta gradi vale un mezzo. Il risultato è positivo, come deve essere nel secondo quadrante.",
+      "speech": "Il seno di trenta gradi vale un mezzo. Il risultato è positivo, come deve essere nel secondo quadrante.",
+      "screen": "Angoli supplementari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Angoli complementari. Due angoli sono complementari quando la loro somma è un angolo retto. Negli angoli complementari seno e coseno si scambiano, e così tangente e cotangente. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
+      "speech": "Angoli complementari. Due angoli sono complementari quando la loro somma è un angolo retto. Negli angoli complementari seno e coseno si scambiano, e così tangente e cotangente. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Angoli complementari"
     },
     {
-      "text": "con centottanta gradi più alfa seno e coseno cambiano segno. Tangente e cotangente restano uguali.",
-      "speech": "con centottanta gradi più alfa seno e coseno cambiano segno. Tangente e cotangente restano uguali.",
+      "text": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "speech": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "screen": "Angoli complementari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare il seno di sessanta gradi usando l’angolo di trenta gradi. Scriviamo sessanta come novanta meno trenta.",
+      "speech": "Vogliamo calcolare il seno di sessanta gradi usando l’angolo di trenta gradi. Scriviamo sessanta come novanta meno trenta.",
+      "screen": "Angoli complementari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Negli angoli complementari il seno diventa coseno: il seno di sessanta gradi è uguale al coseno di trenta gradi.",
+      "speech": "Negli angoli complementari il seno diventa coseno: il seno di sessanta gradi è uguale al coseno di trenta gradi.",
+      "screen": "Angoli complementari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il coseno di trenta gradi vale radice di tre mezzi.",
+      "speech": "Il coseno di trenta gradi vale radice di tre mezzi.",
+      "screen": "Angoli complementari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Differiscono di un angolo piatto. Consideriamo due angoli che differiscono di un angolo piatto. Gli angoli alfa e centottanta gradi più alfa hanno seno e coseno opposti, mentre tangente e cotangente restano uguali. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
+      "speech": "Differiscono di un angolo piatto. Consideriamo due angoli che differiscono di un angolo piatto. Gli angoli alfa e centottanta gradi più alfa hanno seno e coseno opposti, mentre tangente e cotangente restano uguali. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Differiscono di un angolo piatto"
     },
     {
-      "text": "con novanta gradi più alfa il seno diventa coseno. Il coseno diventa meno seno.",
-      "speech": "con novanta gradi più alfa il seno diventa coseno. Il coseno diventa meno seno.",
+      "text": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "speech": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "screen": "Differiscono di un angolo piatto",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare il seno di duecentodieci gradi. Scriviamo duecentodieci come centottanta più trenta.",
+      "speech": "Vogliamo calcolare il seno di duecentodieci gradi. Scriviamo duecentodieci come centottanta più trenta.",
+      "screen": "Differiscono di un angolo piatto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Aggiungendo un angolo piatto il seno cambia segno: il seno di duecentodieci gradi è meno il seno di trenta gradi.",
+      "speech": "Aggiungendo un angolo piatto il seno cambia segno: il seno di duecentodieci gradi è meno il seno di trenta gradi.",
+      "screen": "Differiscono di un angolo piatto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è meno un mezzo: nel terzo quadrante il seno è negativo.",
+      "speech": "Il risultato è meno un mezzo: nel terzo quadrante il seno è negativo.",
+      "screen": "Differiscono di un angolo piatto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Differiscono di un angolo retto. Consideriamo due angoli che differiscono di un angolo retto. Con novanta gradi più alfa seno e coseno si scambiano; il segno si legge nel secondo quadrante. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
+      "speech": "Differiscono di un angolo retto. Consideriamo due angoli che differiscono di un angolo retto. Con novanta gradi più alfa seno e coseno si scambiano; il segno si legge nel secondo quadrante. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Differiscono di un angolo retto"
     },
     {
-      "text": "con trecentosessanta gradi meno alfa il coseno resta uguale. Le altre funzioni cambiano segno.",
-      "speech": "con trecentosessanta gradi meno alfa il coseno resta uguale. Le altre funzioni cambiano segno.",
+      "text": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "speech": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "screen": "Differiscono di un angolo retto",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare il seno di centoventi gradi. Scriviamo centoventi come novanta più trenta.",
+      "speech": "Vogliamo calcolare il seno di centoventi gradi. Scriviamo centoventi come novanta più trenta.",
+      "screen": "Differiscono di un angolo retto",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Con novanta gradi più alfa il seno diventa coseno: il seno di centoventi gradi è il coseno di trenta gradi.",
+      "speech": "Con novanta gradi più alfa il seno diventa coseno: il seno di centoventi gradi è il coseno di trenta gradi.",
+      "screen": "Differiscono di un angolo retto",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Vale radice di tre mezzi, un valore positivo, come il seno nel secondo quadrante.",
+      "speech": "Vale radice di tre mezzi, un valore positivo, come il seno nel secondo quadrante.",
+      "screen": "Differiscono di un angolo retto",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Angoli esplementari. Due angoli sono esplementari quando la loro somma è un angolo giro. Gli angoli esplementari hanno lo stesso coseno, mentre seno, tangente e cotangente cambiano segno. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
+      "speech": "Angoli esplementari. Due angoli sono esplementari quando la loro somma è un angolo giro. Gli angoli esplementari hanno lo stesso coseno, mentre seno, tangente e cotangente cambiano segno. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Angoli esplementari"
     },
     {
-      "text": "con duecentosettanta gradi meno alfa il seno diventa meno coseno. La tangente diventa cotangente.",
-      "speech": "con duecentosettanta gradi meno alfa il seno diventa meno coseno. La tangente diventa cotangente.",
+      "text": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "speech": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "screen": "Angoli esplementari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare il coseno di trecento gradi. Scriviamo trecento come trecentosessanta meno sessanta.",
+      "speech": "Vogliamo calcolare il coseno di trecento gradi. Scriviamo trecento come trecentosessanta meno sessanta.",
+      "screen": "Angoli esplementari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Gli angoli esplementari hanno lo stesso coseno: il coseno di trecento gradi è il coseno di sessanta gradi.",
+      "speech": "Gli angoli esplementari hanno lo stesso coseno: il coseno di trecento gradi è il coseno di sessanta gradi.",
+      "screen": "Angoli esplementari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il coseno di sessanta gradi vale un mezzo: positivo, come nel quarto quadrante.",
+      "speech": "Il coseno di sessanta gradi vale un mezzo: positivo, come nel quarto quadrante.",
+      "screen": "Angoli esplementari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Angoli la cui somma è 270°. Consideriamo due angoli la cui somma è 270°. Con duecentosettanta gradi meno alfa seno e coseno si scambiano e diventano negativi, come nel terzo quadrante. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
+      "speech": "Angoli la cui somma è 270°. Consideriamo due angoli la cui somma è 270°. Con duecentosettanta gradi meno alfa seno e coseno si scambiano e diventano negativi, come nel terzo quadrante. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Angoli la cui somma è 270°"
     },
     {
-      "text": "con l'angolo opposto il coseno resta uguale. Le altre funzioni cambiano segno.",
-      "speech": "con l'angolo opposto il coseno resta uguale. Le altre funzioni cambiano segno.",
+      "text": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "speech": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "screen": "Angoli la cui somma è 270°",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare il seno di duecentoquaranta gradi. Scriviamo duecentoquaranta come duecentosettanta meno trenta.",
+      "speech": "Vogliamo calcolare il seno di duecentoquaranta gradi. Scriviamo duecentoquaranta come duecentosettanta meno trenta.",
+      "screen": "Angoli la cui somma è 270°",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il seno di duecentosettanta gradi meno alfa è meno il coseno di alfa: qui meno il coseno di trenta gradi.",
+      "speech": "Il seno di duecentosettanta gradi meno alfa è meno il coseno di alfa: qui meno il coseno di trenta gradi.",
+      "screen": "Angoli la cui somma è 270°",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è meno radice di tre mezzi: nel terzo quadrante il seno è negativo.",
+      "speech": "Il risultato è meno radice di tre mezzi: nel terzo quadrante il seno è negativo.",
+      "screen": "Angoli la cui somma è 270°",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Angoli opposti. Due angoli sono opposti quando hanno la stessa ampiezza ma verso contrario. Gli angoli opposti hanno lo stesso coseno; seno, tangente e cotangente cambiano segno. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
+      "speech": "Angoli opposti. Due angoli sono opposti quando hanno la stessa ampiezza ma verso contrario. Gli angoli opposti hanno lo stesso coseno; seno, tangente e cotangente cambiano segno. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Angoli opposti"
     },
     {
-      "text": "con duecentosettanta gradi più alfa il seno diventa meno coseno. Il coseno diventa seno.",
-      "speech": "con duecentosettanta gradi più alfa il seno diventa meno coseno. Il coseno diventa seno.",
+      "text": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "speech": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "screen": "Angoli opposti",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare il seno di meno trenta gradi. È l’angolo opposto di trenta gradi.",
+      "speech": "Vogliamo calcolare il seno di meno trenta gradi. È l’angolo opposto di trenta gradi.",
+      "screen": "Angoli opposti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Negli angoli opposti il seno cambia segno: il seno di meno trenta gradi è meno il seno di trenta gradi.",
+      "speech": "Negli angoli opposti il seno cambia segno: il seno di meno trenta gradi è meno il seno di trenta gradi.",
+      "screen": "Angoli opposti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è meno un mezzo.",
+      "speech": "Il risultato è meno un mezzo.",
+      "screen": "Angoli opposti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Differiscono di 270°. Consideriamo due angoli che differiscono di 270°. Con duecentosettanta gradi più alfa seno e coseno si scambiano; il segno si legge nel quarto quadrante. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
+      "speech": "Differiscono di 270°. Consideriamo due angoli che differiscono di 270°. Con duecentosettanta gradi più alfa seno e coseno si scambiano; il segno si legge nel quarto quadrante. Il segno di ogni funzione si legge nel quadrante dell’angolo associato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Differiscono di 270°"
     },
     {
-      "text": "La scheda dice: con centottanta gradi meno alfa il seno resta uguale. Coseno, tangente e cotangente cambiano segno.",
-      "speech": "La scheda dice: con centottanta gradi meno alfa il seno resta uguale. Coseno, tangente e cotangente cambiano segno.",
-      "screen": "Angoli supplementari",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "speech": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "screen": "Angoli supplementari",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "speech": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "screen": "Angoli supplementari",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "speech": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "screen": "Angoli supplementari",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con novanta gradi meno alfa il seno diventa coseno, e la tangente diventa cotangente.",
-      "speech": "La scheda dice: con novanta gradi meno alfa il seno diventa coseno, e la tangente diventa cotangente.",
-      "screen": "Angoli complementari",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "speech": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "screen": "Angoli complementari",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "speech": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "screen": "Angoli complementari",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "speech": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "screen": "Angoli complementari",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con centottanta gradi più alfa seno e coseno cambiano segno. Tangente e cotangente restano uguali.",
-      "speech": "La scheda dice: con centottanta gradi più alfa seno e coseno cambiano segno. Tangente e cotangente restano uguali.",
-      "screen": "Differiscono di un angolo piatto",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "speech": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "screen": "Differiscono di un angolo piatto",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "speech": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "screen": "Differiscono di un angolo piatto",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "speech": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "screen": "Differiscono di un angolo piatto",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con novanta gradi più alfa il seno diventa coseno. Il coseno diventa meno seno.",
-      "speech": "La scheda dice: con novanta gradi più alfa il seno diventa coseno. Il coseno diventa meno seno.",
-      "screen": "Differiscono di un angolo retto",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "speech": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "screen": "Differiscono di un angolo retto",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "speech": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "screen": "Differiscono di un angolo retto",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "speech": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "screen": "Differiscono di un angolo retto",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con trecentosessanta gradi meno alfa il coseno resta uguale. Le altre funzioni cambiano segno.",
-      "speech": "La scheda dice: con trecentosessanta gradi meno alfa il coseno resta uguale. Le altre funzioni cambiano segno.",
-      "screen": "Angoli esplementari",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "speech": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "screen": "Angoli esplementari",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "speech": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "screen": "Angoli esplementari",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "speech": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "screen": "Angoli esplementari",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con duecentosettanta gradi meno alfa il seno diventa meno coseno. La tangente diventa cotangente.",
-      "speech": "La scheda dice: con duecentosettanta gradi meno alfa il seno diventa meno coseno. La tangente diventa cotangente.",
-      "screen": "Angoli la cui somma è 270°",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "speech": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "screen": "Angoli la cui somma è 270°",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "speech": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "screen": "Angoli la cui somma è 270°",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "speech": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "screen": "Angoli la cui somma è 270°",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con l'angolo opposto il coseno resta uguale. Le altre funzioni cambiano segno.",
-      "speech": "La scheda dice: con l'angolo opposto il coseno resta uguale. Le altre funzioni cambiano segno.",
-      "screen": "Angoli opposti",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "speech": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "screen": "Angoli opposti",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "speech": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "screen": "Angoli opposti",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "speech": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "screen": "Angoli opposti",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con duecentosettanta gradi più alfa il seno diventa meno coseno. Il coseno diventa seno.",
-      "speech": "La scheda dice: con duecentosettanta gradi più alfa il seno diventa meno coseno. Il coseno diventa seno.",
+      "text": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
+      "speech": "Nel riquadro trovi seno, coseno, tangente e cotangente dell’angolo associato. Per ricordarle: si guarda il segno della funzione nel quadrante, e si controlla se la funzione resta la stessa o si scambia con la sua cofunzione.",
       "screen": "Differiscono di 270°",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
-      "speech": "Passaggio uno: riconosco la forma dell'angolo, che mi dice quale regola usare.",
+      "text": "Vogliamo calcolare il seno di trecento gradi usando l’angolo di trenta gradi. Scriviamo trecento come duecentosettanta più trenta.",
+      "speech": "Vogliamo calcolare il seno di trecento gradi usando l’angolo di trenta gradi. Scriviamo trecento come duecentosettanta più trenta.",
       "screen": "Differiscono di 270°",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: applico la regola della scheda, con il suo segno.",
-      "speech": "Passaggio due: applico la regola della scheda, con il suo segno.",
+      "text": "Il seno di duecentosettanta gradi più alfa è meno il coseno di alfa: qui meno il coseno di trenta gradi.",
+      "speech": "Il seno di duecentosettanta gradi più alfa è meno il coseno di alfa: qui meno il coseno di trenta gradi.",
       "screen": "Differiscono di 270°",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
-      "speech": "Passaggio tre: scrivo il risultato dalla tabella degli angoli noti.",
+      "text": "Il risultato è meno radice di tre mezzi: nel quarto quadrante il seno è negativo.",
+      "speech": "Il risultato è meno radice di tre mezzi: nel quarto quadrante il seno è negativo.",
       "screen": "Differiscono di 270°",
       "purpose": "Esempio, passaggio 3"
     },
@@ -250,14 +250,14 @@
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Scegli alfa e il tipo di angolo. Osserva quando la funzione cambia segno o si scambia.",
-      "speech": "Questo è il laboratorio. Scegli alfa e il tipo di angolo. Osserva quando la funzione cambia segno o si scambia.",
+      "text": "Questo è il laboratorio. Scegli alfa e il tipo di angolo associato. Osserva quando la funzione cambia segno o si scambia con la cofunzione.",
+      "speech": "Questo è il laboratorio. Scegli alfa e il tipo di angolo associato. Osserva quando la funzione cambia segno o si scambia con la cofunzione.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Ricorda: con novanta e duecentosettanta gradi seno e coseno si scambiano. Con centottanta e trecentosessanta gradi la funzione resta la stessa.",
-      "speech": "Ricorda: con novanta e duecentosettanta gradi seno e coseno si scambiano. Con centottanta e trecentosessanta gradi la funzione resta la stessa.",
+      "text": "Ricorda: con novanta e duecentosettanta gradi seno e coseno si scambiano; con centottanta e trecentosessanta gradi la funzione resta la stessa. Il segno si legge nel quadrante.",
+      "speech": "Ricorda: con novanta e duecentosettanta gradi seno e coseno si scambiano; con centottanta e trecentosessanta gradi la funzione resta la stessa. Il segno si legge nel quadrante.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }

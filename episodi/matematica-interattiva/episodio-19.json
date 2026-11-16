@@ -17,7 +17,7 @@
     },
     {
       "text": "Vogliamo leggere i coefficienti della parabola ipsilon uguale a ics alla seconda meno quattro ics più tre, capirne la concavità e trovare dove taglia gli assi. Confrontando con l’equazione generale: a vale uno, bi vale meno quattro, ci vale tre.",
-      "speech": "Vogliamo leggere i coefficienti della parabola ipsilon uguale à per __X__ alla seconda meno quattro __X__ più tre, capirne la concavità e trovare dove taglia gli assi. Confrontando con l’equazione generale: à vale uno, bi vale meno quattro, ci vale tre.",
+      "speech": "Vogliamo leggere i coefficienti della parabola ipsilon uguale a __X__ alla seconda meno quattro __X__ più tre, capirne la concavità e trovare dove taglia gli assi. Confrontando con l’equazione generale: à vale uno, bi vale meno quattro, ci vale tre.",
       "screen": "Definizione di parabola",
       "purpose": "Esempio, passaggio 1"
     },
@@ -59,7 +59,7 @@
     },
     {
       "text": "Vogliamo vertice, asse, fuoco e direttrice della parabola ipsilon uguale a ics alla seconda meno quattro ics più tre. Prima calcoliamo il discriminante: meno quattro alla seconda meno quattro per uno per tre, cioè sedici meno dodici, che fa quattro.",
-      "speech": "Vogliamo vertice, asse, fuoco e direttrice della parabola ipsilon uguale à per __X__ alla seconda meno quattro __X__ più tre. Prima calcoliamo il discriminante: meno quattro alla seconda meno quattro per uno per tre, cioè sedici meno dodici, che fa quattro.",
+      "speech": "Vogliamo vertice, asse, fuoco e direttrice della parabola ipsilon uguale a __X__ alla seconda meno quattro __X__ più tre. Prima calcoliamo il discriminante: meno quattro alla seconda meno quattro per uno per tre, cioè sedici meno dodici, che fa quattro.",
       "screen": "Vertice, fuoco, asse, direttrice",
       "purpose": "Esempio, passaggio 1"
     },
@@ -101,7 +101,7 @@
     },
     {
       "text": "Vogliamo riconoscere due parabole particolari e trovarne il vertice. Nella prima, ipsilon uguale a ics alla seconda meno quattro, manca il termine con ics: bi è zero.",
-      "speech": "Vogliamo riconoscere due parabole particolari e trovarne il vertice. Nella prima, ipsilon uguale à per __X__ alla seconda meno quattro, manca il termine con __X__: bi è zero.",
+      "speech": "Vogliamo riconoscere due parabole particolari e trovarne il vertice. Nella prima, ipsilon uguale a __X__ alla seconda meno quattro, manca il termine con __X__: bi è zero.",
       "screen": "Parabole particolari",
       "purpose": "Esempio, passaggio 1"
     },
@@ -113,7 +113,7 @@
     },
     {
       "text": "Nella seconda, ipsilon uguale a ics alla seconda meno due ics, manca il termine noto: ci è zero, quindi la parabola passa per l’origine.",
-      "speech": "Nella seconda, ipsilon uguale à per __X__ alla seconda meno due __X__, manca il termine noto: ci è zero, quindi la parabola passa per l’origine.",
+      "speech": "Nella seconda, ipsilon uguale a __X__ alla seconda meno due __X__, manca il termine noto: ci è zero, quindi la parabola passa per l’origine.",
       "screen": "Parabole particolari",
       "purpose": "Esempio, passaggio 3"
     },
@@ -167,7 +167,7 @@
     },
     {
       "text": "Sostituendo a, bi e ci, la parabola è ipsilon uguale a ics alla seconda più uno.",
-      "speech": "Sostituendo à, bi e ci, la parabola è ipsilon uguale à per __X__ alla seconda più uno.",
+      "speech": "Sostituendo à, bi e ci, la parabola è ipsilon uguale a __X__ alla seconda più uno.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 6"
     },
@@ -185,7 +185,7 @@
     },
     {
       "text": "Vogliamo la retta tangente alla parabola ipsilon uguale a ics alla seconda, con coefficiente angolare due. Le rette con emme uguale a due hanno equazione ipsilon uguale a due ics più cu.",
-      "speech": "Vogliamo la retta tangente alla parabola ipsilon uguale à per __X__ alla seconda, con coefficiente angolare due. Le rette con emme uguale a due hanno equazione ipsilon uguale a due __X__ più cu.",
+      "speech": "Vogliamo la retta tangente alla parabola ipsilon uguale a __X__ alla seconda, con coefficiente angolare due. Le rette con emme uguale a due hanno equazione ipsilon uguale a due __X__ più cu.",
       "screen": "Rette tangenti",
       "purpose": "Esempio, passaggio 1"
     },

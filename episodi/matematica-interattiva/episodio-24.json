@@ -4,82 +4,100 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "centottanta gradi sta a pi greco, come alfa gradi sta ad alfa radianti.",
-      "speech": "centottanta gradi sta a pi greco, come alfa gradi sta ad alfa radianti.",
+      "text": "Misure degli angoli. Studiamo le due unità di misura degli angoli: i gradi e i radianti. Il grado è la trecentosessantesima parte dell’angolo giro. Il radiante è l’angolo al centro che sottende un arco lungo quanto il raggio. L’angolo giro misura trecentosessanta gradi, cioè due pi greco radianti; l’angolo piatto misura centottanta gradi, cioè pi greco radianti.",
+      "speech": "Misure degli angoli. Studiamo le due unità di misura degli angoli: i gradi e i radianti. Il grado è la trecentosessantesima parte dell’angolo giro. Il radiante è l’angolo al centro che sottende un arco lungo quanto il raggio. L’angolo giro misura trecentosessanta gradi, cioè due pi greco radianti; l’angolo piatto misura centottanta gradi, cioè pi greco radianti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Misure degli angoli"
+    },
+    {
+      "text": "Nel riquadro la corrispondenza fondamentale: centottanta gradi sono pi greco radianti.",
+      "speech": "Nel riquadro la corrispondenza fondamentale: centottanta gradi sono pi greco radianti.",
+      "screen": "Misure degli angoli",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo esprimere in radianti l’angolo piatto e l’angolo retto. L’angolo piatto misura centottanta gradi, che corrispondono a pi greco radianti.",
+      "speech": "Vogliamo esprimere in radianti l’angolo piatto e l’angolo retto. L’angolo piatto misura centottanta gradi, che corrispondono a pi greco radianti.",
+      "screen": "Misure degli angoli",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’angolo retto è la metà dell’angolo piatto: novanta gradi corrispondono a pi greco mezzi radianti.",
+      "speech": "L’angolo retto è la metà dell’angolo piatto: novanta gradi corrispondono a pi greco mezzi radianti.",
+      "screen": "Misure degli angoli",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Da gradi a radianti. Impariamo a passare da una misura in gradi alla misura in radianti. Gradi e radianti sono proporzionali: la misura in gradi sta a centottanta come la misura in radianti sta a pi greco. Per passare ai radianti si moltiplica per pi greco e si divide per centottanta, poi si semplifica.",
+      "speech": "Da gradi a radianti. Impariamo a passare da una misura in gradi alla misura in radianti. Gradi e radianti sono proporzionali: la misura in gradi sta a centottanta come la misura in radianti sta a pi greco. Per passare ai radianti si moltiplica per pi greco e si divide per centottanta, poi si semplifica.",
       "screen": "Definizioni",
       "purpose": "Definizione: Da gradi a radianti"
     },
     {
-      "text": "si sostituisce pi greco con centottanta gradi e si semplifica.",
-      "speech": "si sostituisce pi greco con centottanta gradi e si semplifica.",
+      "text": "La formula dice: la misura in radianti è la misura in gradi per pi greco fratto centottanta.",
+      "speech": "La formula dice: la misura in radianti è la misura in gradi per pi greco fratto centottanta.",
+      "screen": "Da gradi a radianti",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo esprimere in radianti l’angolo di trenta gradi. Applichiamo la formula: trenta per pi greco fratto centottanta.",
+      "speech": "Vogliamo esprimere in radianti l’angolo di trenta gradi. Applichiamo la formula: trenta per pi greco fratto centottanta.",
+      "screen": "Da gradi a radianti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Moltiplicando otteniamo trenta pi greco fratto centottanta.",
+      "speech": "Moltiplicando otteniamo trenta pi greco fratto centottanta.",
+      "screen": "Da gradi a radianti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Dividiamo numeratore e denominatore per trenta: otteniamo pi greco sesti.",
+      "speech": "Dividiamo numeratore e denominatore per trenta: otteniamo pi greco sesti.",
+      "screen": "Da gradi a radianti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Da radianti a gradi. Facciamo il passaggio inverso, dai radianti ai gradi. Si moltiplica la misura in radianti per centottanta e si divide per pi greco. In pratica, quando la misura contiene pi greco, basta sostituire pi greco con centottanta gradi e semplificare.",
+      "speech": "Da radianti a gradi. Facciamo il passaggio inverso, dai radianti ai gradi. Si moltiplica la misura in radianti per centottanta e si divide per pi greco. In pratica, quando la misura contiene pi greco, basta sostituire pi greco con centottanta gradi e semplificare.",
       "screen": "Definizioni",
       "purpose": "Definizione: Da radianti a gradi"
     },
     {
-      "text": "Passaggio uno: riconosco l'unità: grado sessagesimale.",
-      "speech": "Passaggio uno: riconosco l'unità: grado sessagesimale.",
-      "screen": "Misure degli angoli",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: l'angolo giro vale trecentosessanta gradi.",
-      "speech": "Passaggio due: l'angolo giro vale trecentosessanta gradi.",
-      "screen": "Misure degli angoli",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: scrivo il risultato. Un grado è la trecentosessantesima parte dell'angolo giro.",
-      "speech": "Passaggio tre: scrivo il risultato. Un grado è la trecentosessantesima parte dell'angolo giro.",
-      "screen": "Misure degli angoli",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: centottanta gradi sta a pi greco, come alfa gradi sta ad alfa radianti.",
-      "speech": "La scheda dice: centottanta gradi sta a pi greco, come alfa gradi sta ad alfa radianti.",
-      "screen": "Da gradi a radianti",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco la misura: trenta gradi.",
-      "speech": "Passaggio uno: riconosco la misura: trenta gradi.",
-      "screen": "Da gradi a radianti",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: moltiplico per pi greco e divido per centottanta.",
-      "speech": "Passaggio due: moltiplico per pi greco e divido per centottanta.",
-      "screen": "Da gradi a radianti",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: semplifico e ottengo pi greco sesti.",
-      "speech": "Passaggio tre: semplifico e ottengo pi greco sesti.",
-      "screen": "Da gradi a radianti",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: si sostituisce pi greco con centottanta gradi e si semplifica.",
-      "speech": "La scheda dice: si sostituisce pi greco con centottanta gradi e si semplifica.",
+      "text": "La formula dice: la misura in gradi è la misura in radianti per centottanta fratto pi greco.",
+      "speech": "La formula dice: la misura in gradi è la misura in radianti per centottanta fratto pi greco.",
       "screen": "Da radianti a gradi",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Passaggio uno: riconosco la misura: pi greco quarti.",
-      "speech": "Passaggio uno: riconosco la misura: pi greco quarti.",
+      "text": "Vogliamo esprimere in gradi l’angolo di tre quarti di pi greco. Sostituiamo pi greco con centottanta gradi: tre per centottanta, fratto quattro.",
+      "speech": "Vogliamo esprimere in gradi l’angolo di tre quarti di pi greco. Sostituiamo pi greco con centottanta gradi: tre per centottanta, fratto quattro.",
       "screen": "Da radianti a gradi",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: sostituisco pi greco con centottanta gradi.",
-      "speech": "Passaggio due: sostituisco pi greco con centottanta gradi.",
+      "text": "Tre per centottanta fa cinquecentoquaranta; diviso quattro fa centotrentacinque gradi.",
+      "speech": "Tre per centottanta fa cinquecentoquaranta; diviso quattro fa centotrentacinque gradi.",
       "screen": "Da radianti a gradi",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: centottanta diviso quattro fa quarantacinque gradi.",
-      "speech": "Passaggio tre: centottanta diviso quattro fa quarantacinque gradi.",
-      "screen": "Da radianti a gradi",
-      "purpose": "Esempio, passaggio 3"
+      "text": "Ora tocca a te. Prima di rispondere, ricorda che centottanta gradi sono pi greco radianti.",
+      "speech": "Ora tocca a te. Prima di rispondere, ricorda che centottanta gradi sono pi greco radianti.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia l’angolo in gradi e osserva la sua misura in radianti.",
+      "speech": "Questo è il laboratorio. Cambia l’angolo in gradi e osserva la sua misura in radianti.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: dai gradi ai radianti si moltiplica per pi greco e si divide per centottanta; dai radianti ai gradi si sostituisce pi greco con centottanta gradi.",
+      "speech": "Ricorda: dai gradi ai radianti si moltiplica per pi greco e si divide per centottanta; dai radianti ai gradi si sostituisce pi greco con centottanta gradi.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
     }
   ]
 }

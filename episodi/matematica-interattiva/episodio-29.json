@@ -4,170 +4,170 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "a è l'ipotenusa. Bi è il cateto opposto a beta e adiacente a gamma. Ci è opposto a gamma e adiacente a beta.",
-      "speech": "a è l'ipotenusa. Bi è il cateto opposto a beta e adiacente a gamma. Ci è opposto a gamma e adiacente a beta.",
+      "text": "Terminologia. Studiamo i triangoli rettangoli, e prima fissiamo i nomi. L’ipotenusa è il lato opposto all’angolo retto e si indica con a. Rispetto all’angolo acuto alfa, il cateto bi è quello opposto ad alfa, e il cateto ci è quello adiacente. L’altro angolo acuto, beta, è novanta gradi meno alfa: per beta i ruoli dei cateti si scambiano.",
+      "speech": "Terminologia. Studiamo i triangoli rettangoli, e prima fissiamo i nomi. L’ipotenusa è il lato opposto all’angolo retto e si indica con à. Rispetto all’angolo acuto alfa, il cateto bi è quello opposto a alfa, e il cateto ci è quello adiacente. L’altro angolo acuto, beta, è novanta gradi meno alfa: per beta i ruoli dei cateti si scambiano.",
       "screen": "Definizioni",
       "purpose": "Definizione: Terminologia"
     },
     {
-      "text": "un cateto è uguale all'ipotenusa per il seno dell'angolo opposto al cateto.",
-      "speech": "un cateto è uguale all'ipotenusa per il seno dell'angolo opposto al cateto.",
+      "text": "Nel riquadro i nomi: a è l’ipotenusa; bi è opposto ad alfa e adiacente a beta; ci è adiacente ad alfa e opposto a beta.",
+      "speech": "Nel riquadro i nomi: à è l’ipotenusa; bi è opposto a alfa e adiacente a beta; ci è adiacente a alfa e opposto a beta.",
+      "screen": "Terminologia",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo riconoscere i lati di un triangolo rettangolo con alfa uguale a trenta gradi, e trovare beta. L’ipotenusa è il lato più lungo, opposto all’angolo retto.",
+      "speech": "Vogliamo riconoscere i lati di un triangolo rettangolo con alfa uguale a trenta gradi, e trovare beta. L’ipotenusa è il lato più lungo, opposto all’angolo retto.",
+      "screen": "Terminologia",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Rispetto ad alfa, bi è il cateto opposto e ci è il cateto adiacente.",
+      "speech": "Rispetto a alfa, bi è il cateto opposto e ci è il cateto adiacente.",
+      "screen": "Terminologia",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "I due angoli acuti sommano novanta gradi: beta vale novanta meno trenta, cioè sessanta gradi.",
+      "speech": "I due angoli acuti sommano novanta gradi: beta vale novanta meno trenta, cioè sessanta gradi.",
+      "screen": "Terminologia",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Cateto con il seno. Vediamo come si calcola un cateto conoscendo l’ipotenusa e un angolo. Un cateto è uguale all’ipotenusa per il seno dell’angolo opposto a quel cateto. Infatti il seno di alfa è il rapporto tra cateto opposto e ipotenusa.",
+      "speech": "Cateto con il seno. Vediamo come si calcola un cateto conoscendo l’ipotenusa e un angolo. Un cateto è uguale all’ipotenusa per il seno dell’angolo opposto a quel cateto. Infatti il seno di alfa è il rapporto tra cateto opposto e ipotenusa.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cateto con il seno"
     },
     {
-      "text": "un cateto è uguale all'ipotenusa per il coseno dell'angolo adiacente al cateto.",
-      "speech": "un cateto è uguale all'ipotenusa per il coseno dell'angolo adiacente al cateto.",
+      "text": "Nel riquadro: il cateto bi è l’ipotenusa per il seno di alfa; il cateto ci è l’ipotenusa per il seno di beta.",
+      "speech": "Nel riquadro: il cateto bi è l’ipotenusa per il seno di alfa; il cateto ci è l’ipotenusa per il seno di beta.",
+      "screen": "Cateto con il seno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il cateto bi, sapendo che l’ipotenusa vale dieci e alfa vale trenta gradi. Bi è opposto ad alfa: usiamo il seno.",
+      "speech": "Vogliamo il cateto bi, sapendo che l’ipotenusa vale dieci e alfa vale trenta gradi. Bi è opposto a alfa: usiamo il seno.",
+      "screen": "Cateto con il seno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo: dieci per seno di trenta gradi, cioè dieci per un mezzo.",
+      "speech": "Sostituiamo: dieci per seno di trenta gradi, cioè dieci per un mezzo.",
+      "screen": "Cateto con il seno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il cateto bi vale cinque.",
+      "speech": "Il cateto bi vale cinque.",
+      "screen": "Cateto con il seno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Cateto con il coseno. Vediamo come si calcola un cateto usando il coseno. Un cateto è uguale all’ipotenusa per il coseno dell’angolo adiacente a quel cateto. Infatti il coseno di alfa è il rapporto tra cateto adiacente e ipotenusa.",
+      "speech": "Cateto con il coseno. Vediamo come si calcola un cateto usando il coseno. Un cateto è uguale all’ipotenusa per il coseno dell’angolo adiacente a quel cateto. Infatti il coseno di alfa è il rapporto tra cateto adiacente e ipotenusa.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cateto con il coseno"
     },
     {
-      "text": "un cateto è uguale all'altro cateto per la tangente dell'angolo opposto al primo, oppure per la cotangente dell'angolo adiacente.",
-      "speech": "un cateto è uguale all'altro cateto per la tangente dell'angolo opposto al primo, oppure per la cotangente dell'angolo adiacente.",
+      "text": "Nel riquadro: ci è l’ipotenusa per il coseno di alfa; bi è l’ipotenusa per il coseno di beta.",
+      "speech": "Nel riquadro: ci è l’ipotenusa per il coseno di alfa; bi è l’ipotenusa per il coseno di beta.",
+      "screen": "Cateto con il coseno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il cateto ci, sapendo che l’ipotenusa vale dieci e alfa vale sessanta gradi. Ci è adiacente ad alfa: usiamo il coseno.",
+      "speech": "Vogliamo il cateto ci, sapendo che l’ipotenusa vale dieci e alfa vale sessanta gradi. Ci è adiacente a alfa: usiamo il coseno.",
+      "screen": "Cateto con il coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo: dieci per coseno di sessanta gradi, cioè dieci per un mezzo.",
+      "speech": "Sostituiamo: dieci per coseno di sessanta gradi, cioè dieci per un mezzo.",
+      "screen": "Cateto con il coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il cateto ci vale cinque.",
+      "speech": "Il cateto ci vale cinque.",
+      "screen": "Cateto con il coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Cateto con tangente e cotangente. Vediamo come si calcola un cateto conoscendo l’altro cateto e un angolo. Un cateto è uguale all’altro per la tangente dell’angolo opposto al primo, oppure per la cotangente dell’angolo adiacente al primo. Infatti la tangente di alfa è il rapporto tra cateto opposto e cateto adiacente.",
+      "speech": "Cateto con tangente e cotangente. Vediamo come si calcola un cateto conoscendo l’altro cateto e un angolo. Un cateto è uguale all’altro per la tangente dell’angolo opposto al primo, oppure per la cotangente dell’angolo adiacente al primo. Infatti la tangente di alfa è il rapporto tra cateto opposto e cateto adiacente.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cateto con tangente e cotangente"
     },
     {
-      "text": "Trovare ipotenusa e funzioni: la scheda riporta tutti i casi: da ogni formula si ricavano l'ipotenusa, il cateto e il valore della funzione.",
-      "speech": "Trovare ipotenusa e funzioni: la scheda riporta tutti i casi: da ogni formula si ricavano l'ipotenusa, il cateto e il valore della funzione.",
+      "text": "Nel riquadro le quattro formule con tangente e cotangente.",
+      "speech": "Nel riquadro le quattro formule con tangente e cotangente.",
+      "screen": "Cateto con tangente e cotangente",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il cateto bi, sapendo che il cateto ci vale sei e alfa vale trenta gradi. Bi è opposto ad alfa e ci è adiacente: usiamo la tangente.",
+      "speech": "Vogliamo il cateto bi, sapendo che il cateto ci vale sei e alfa vale trenta gradi. Bi è opposto a alfa e ci è adiacente: usiamo la tangente.",
+      "screen": "Cateto con tangente e cotangente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo: sei per tangente di trenta gradi, che vale radice di tre terzi.",
+      "speech": "Sostituiamo: sei per tangente di trenta gradi, che vale radice di tre terzi.",
+      "screen": "Cateto con tangente e cotangente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sei diviso tre fa due: il cateto bi vale due radice di tre.",
+      "speech": "Sei diviso tre fa due: il cateto bi vale due radice di tre.",
+      "screen": "Cateto con tangente e cotangente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Trovare ipotenusa e funzioni. Dalle formule precedenti si ricavano l’ipotenusa e le funzioni goniometriche di alfa conoscendo i lati. Il seno è cateto opposto fratto ipotenusa; il coseno è cateto adiacente fratto ipotenusa; la tangente è cateto opposto fratto cateto adiacente.",
+      "speech": "Trovare ipotenusa e funzioni. Dalle formule precedenti si ricavano l’ipotenusa e le funzioni goniometriche di alfa conoscendo i lati. Il seno è cateto opposto fratto ipotenusa; il coseno è cateto adiacente fratto ipotenusa; la tangente è cateto opposto fratto cateto adiacente.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trovare ipotenusa e funzioni"
     },
     {
-      "text": "La scheda dice: a è l'ipotenusa. Bi è il cateto opposto a beta e adiacente a gamma. Ci è opposto a gamma e adiacente a beta.",
-      "speech": "La scheda dice: a è l'ipotenusa. Bi è il cateto opposto a beta e adiacente a gamma. Ci è opposto a gamma e adiacente a beta.",
-      "screen": "Terminologia",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: l'angolo retto è in A.",
-      "speech": "Passaggio uno: l'angolo retto è in A.",
-      "screen": "Terminologia",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: il lato opposto all'angolo retto è a, l'ipotenusa.",
-      "speech": "Passaggio due: il lato opposto all'angolo retto è a, l'ipotenusa.",
-      "screen": "Terminologia",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: i cateti sono bi e ci.",
-      "speech": "Passaggio tre: i cateti sono bi e ci.",
-      "screen": "Terminologia",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: un cateto è uguale all'ipotenusa per il seno dell'angolo opposto al cateto.",
-      "speech": "La scheda dice: un cateto è uguale all'ipotenusa per il seno dell'angolo opposto al cateto.",
-      "screen": "Cateto con il seno",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco l'ipotenusa, dieci, e l'angolo opposto, trenta gradi.",
-      "speech": "Passaggio uno: riconosco l'ipotenusa, dieci, e l'angolo opposto, trenta gradi.",
-      "screen": "Cateto con il seno",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula: dieci per seno di trenta.",
-      "speech": "Passaggio due: applico la formula: dieci per seno di trenta.",
-      "screen": "Cateto con il seno",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è cinque.",
-      "speech": "Passaggio tre: il risultato è cinque.",
-      "screen": "Cateto con il seno",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: un cateto è uguale all'ipotenusa per il coseno dell'angolo adiacente al cateto.",
-      "speech": "La scheda dice: un cateto è uguale all'ipotenusa per il coseno dell'angolo adiacente al cateto.",
-      "screen": "Cateto con il coseno",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco l'ipotenusa, dieci, e l'angolo adiacente a ci, sessanta gradi.",
-      "speech": "Passaggio uno: riconosco l'ipotenusa, dieci, e l'angolo adiacente a ci, sessanta gradi.",
-      "screen": "Cateto con il coseno",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula: dieci per coseno di sessanta.",
-      "speech": "Passaggio due: applico la formula: dieci per coseno di sessanta.",
-      "screen": "Cateto con il coseno",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è cinque.",
-      "speech": "Passaggio tre: il risultato è cinque.",
-      "screen": "Cateto con il coseno",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: un cateto è uguale all'altro cateto per la tangente dell'angolo opposto al primo, oppure per la cotangente dell'angolo adiacente.",
-      "speech": "La scheda dice: un cateto è uguale all'altro cateto per la tangente dell'angolo opposto al primo, oppure per la cotangente dell'angolo adiacente.",
-      "screen": "Cateto con tangente e cotangente",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco l'altro cateto, cinque, e l'angolo, quarantacinque gradi.",
-      "speech": "Passaggio uno: riconosco l'altro cateto, cinque, e l'angolo, quarantacinque gradi.",
-      "screen": "Cateto con tangente e cotangente",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula: cinque per tangente di quarantacinque.",
-      "speech": "Passaggio due: applico la formula: cinque per tangente di quarantacinque.",
-      "screen": "Cateto con tangente e cotangente",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è cinque.",
-      "speech": "Passaggio tre: il risultato è cinque.",
-      "screen": "Cateto con tangente e cotangente",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda riporta tutti i casi: da ogni formula si ricavano l'ipotenusa, il cateto e il valore della funzione.",
-      "speech": "La scheda riporta tutti i casi: da ogni formula si ricavano l'ipotenusa, il cateto e il valore della funzione.",
+      "text": "Nel riquadro le formule inverse.",
+      "speech": "Nel riquadro le formule inverse.",
       "screen": "Trovare ipotenusa e funzioni",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Passaggio uno: riconosco il cateto, tre, e l'ipotenusa, cinque.",
-      "speech": "Passaggio uno: riconosco il cateto, tre, e l'ipotenusa, cinque.",
+      "text": "Vogliamo seno, coseno e tangente di alfa, sapendo che il cateto opposto vale tre e l’ipotenusa cinque. Il seno è tre quinti.",
+      "speech": "Vogliamo seno, coseno e tangente di alfa, sapendo che il cateto opposto vale tre e l’ipotenusa cinque. Il seno è tre quinti.",
       "screen": "Trovare ipotenusa e funzioni",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: il seno di beta è bi fratto a.",
-      "speech": "Passaggio due: il seno di beta è bi fratto a.",
+      "text": "Il cateto adiacente si trova con Pitagora: radice di venticinque meno nove, cioè quattro.",
+      "speech": "Il cateto adiacente si trova con Pitagora: radice di venticinque meno nove, cioè quattro.",
       "screen": "Trovare ipotenusa e funzioni",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il risultato è tre quinti.",
-      "speech": "Passaggio tre: il risultato è tre quinti.",
+      "text": "Il coseno è quattro quinti; la tangente è tre quarti.",
+      "speech": "Il coseno è quattro quinti; la tangente è tre quarti.",
       "screen": "Trovare ipotenusa e funzioni",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda se l'angolo è opposto o adiacente al cateto.",
-      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda se l'angolo è opposto o adiacente al cateto.",
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda se l’angolo è opposto o adiacente al cateto.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, guarda se l’angolo è opposto o adiacente al cateto.",
       "screen": "Allenamento",
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i cursori e cambia ipotenusa e angolo. Osserva come cambiano i cateti.",
-      "speech": "Questo è il laboratorio. Muovi i cursori e cambia ipotenusa e angolo. Osserva come cambiano i cateti.",
+      "text": "Questo è il laboratorio. Cambia l’ipotenusa e l’angolo, e osserva come cambiano i cateti.",
+      "speech": "Questo è il laboratorio. Cambia l’ipotenusa e l’angolo, e osserva come cambiano i cateti.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Ricorda: un cateto è l'ipotenusa per il seno dell'angolo opposto, oppure per il coseno dell'angolo adiacente.",
-      "speech": "Ricorda: un cateto è l'ipotenusa per il seno dell'angolo opposto, oppure per il coseno dell'angolo adiacente.",
+      "text": "Ricorda: un cateto è l’ipotenusa per il seno dell’angolo opposto, oppure per il coseno dell’angolo adiacente.",
+      "speech": "Ricorda: un cateto è l’ipotenusa per il seno dell’angolo opposto, oppure per il coseno dell’angolo adiacente.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }

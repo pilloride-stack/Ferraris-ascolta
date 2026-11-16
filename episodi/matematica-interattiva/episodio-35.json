@@ -1,0 +1,355 @@
+{
+  "episode": "35",
+  "title": "Disequazioni goniometriche",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Disequazione elementare con il seno. Iniziamo dalle disequazioni più semplici. Per risolvere seno di ics maggiore di emme, si risolve prima l’equazione associata e si segnano i due punti sulla circonferenza. Poi si prende l’arco dei punti con ordinata maggiore di emme: da alfa a pi greco meno alfa, più due kappa pi greco.",
+      "speech": "Disequazione elementare con il seno. Iniziamo dalle disequazioni più semplici. Per risolvere seno di __X__ maggiore di emme, si risolve prima l’equazione associata e si segnano i due punti sulla circonferenza. Poi si prende l’arco dei punti con ordinata maggiore di emme: da alfa a pi greco meno alfa, più due kappa pi greco.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazione elementare con il seno"
+    },
+    {
+      "text": "Nel riquadro la soluzione: l’arco tra alfa e pi greco meno alfa, che sta sopra la retta ipsilon uguale a emme.",
+      "speech": "Nel riquadro la soluzione: l’arco tra alfa e pi greco meno alfa, che sta sopra la retta ipsilon uguale a emme.",
+      "screen": "Disequazione elementare con il seno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere seno di ics maggiore di un mezzo. Prima risolviamo l’equazione associata: seno di ics uguale a un mezzo per ics uguale a pi greco sesti e a cinque pi greco sesti.",
+      "speech": "Vogliamo risolvere seno di __X__ maggiore di un mezzo. Prima risolviamo l’equazione associata: seno di __X__ uguale a un mezzo per __X__ uguale a pi greco sesti e a cinque pi greco sesti.",
+      "screen": "Disequazione elementare con il seno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sulla circonferenza i punti con ordinata maggiore di un mezzo stanno sull’arco in alto, tra pi greco sesti e cinque pi greco sesti.",
+      "speech": "Sulla circonferenza i punti con ordinata maggiore di un mezzo stanno sull’arco in alto, tra pi greco sesti e cinque pi greco sesti.",
+      "screen": "Disequazione elementare con il seno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Aggiungiamo il periodo due kappa pi greco a entrambi gli estremi.",
+      "speech": "Aggiungiamo il periodo due kappa pi greco a entrambi gli estremi.",
+      "screen": "Disequazione elementare con il seno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Disequazione elementare con il coseno. Per risolvere coseno di ics maggiore di enne, si risolve l’equazione associata e si prende l’arco dei punti con ascissa maggiore di enne: da meno alfa ad alfa, più due kappa pi greco.",
+      "speech": "Disequazione elementare con il coseno. Per risolvere coseno di __X__ maggiore di enne, si risolve l’equazione associata e si prende l’arco dei punti con ascissa maggiore di enne: da meno alfa a alfa, più due kappa pi greco.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazione elementare con il coseno"
+    },
+    {
+      "text": "Nel riquadro la soluzione: l’arco simmetrico rispetto all’asse ics, a destra della retta ics uguale a enne.",
+      "speech": "Nel riquadro la soluzione: l’arco simmetrico rispetto all’asse __X__, a destra della retta __X__ uguale a enne.",
+      "screen": "Disequazione elementare con il coseno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere coseno di ics maggiore di meno un mezzo. L’equazione associata ha soluzioni più e meno due pi greco terzi.",
+      "speech": "Vogliamo risolvere coseno di __X__ maggiore di meno un mezzo. L’equazione associata ha soluzioni più e meno due pi greco terzi.",
+      "screen": "Disequazione elementare con il coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "I punti con ascissa maggiore di meno un mezzo stanno sull’arco a destra, da meno due pi greco terzi a due pi greco terzi.",
+      "speech": "I punti con ascissa maggiore di meno un mezzo stanno sull’arco a destra, da meno due pi greco terzi a due pi greco terzi.",
+      "screen": "Disequazione elementare con il coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Aggiungiamo due kappa pi greco a entrambi gli estremi.",
+      "speech": "Aggiungiamo due kappa pi greco a entrambi gli estremi.",
+      "screen": "Disequazione elementare con il coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Disequazione con tangente e cotangente. Tangente e cotangente hanno periodo pi greco: si studia un solo intervallo e si aggiunge kappa pi greco. Per la tangente gli estremi pi greco mezzi più kappa pi greco sono sempre esclusi, perché lì la tangente non esiste.",
+      "speech": "Disequazione con tangente e cotangente. Tangente e cotangente hanno periodo pi greco: si studia un solo intervallo e si aggiunge kappa pi greco. Per la tangente gli estremi pi greco mezzi più kappa pi greco sono sempre esclusi, perché lì la tangente non esiste.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazione con tangente e cotangente"
+    },
+    {
+      "text": "Nel riquadro le soluzioni per tangente maggiore e minore di pi.",
+      "speech": "Nel riquadro le soluzioni per tangente maggiore e minore di pi.",
+      "screen": "Disequazione con tangente e cotangente",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere tangente di ics maggiore di radice di tre. L’equazione associata ha soluzione pi greco terzi più kappa pi greco.",
+      "speech": "Vogliamo risolvere tangente di __X__ maggiore di radice di tre. L’equazione associata ha soluzione pi greco terzi più kappa pi greco.",
+      "screen": "Disequazione con tangente e cotangente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Tra meno pi greco mezzi e pi greco mezzi la tangente è crescente: supera radice di tre da pi greco terzi fino a pi greco mezzi, escluso.",
+      "speech": "Tra meno pi greco mezzi e pi greco mezzi la tangente è crescente: supera radice di tre da pi greco terzi fino a pi greco mezzi, escluso.",
+      "screen": "Disequazione con tangente e cotangente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Aggiungiamo kappa pi greco a entrambi gli estremi.",
+      "speech": "Aggiungiamo kappa pi greco a entrambi gli estremi.",
+      "screen": "Disequazione con tangente e cotangente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Casi particolari. Vediamo i casi in cui il secondo membro è uno, meno uno, oppure un numero fuori da questi valori. Seno e coseno sono sempre compresi tra meno uno e uno. Perciò alcune disequazioni sono sempre vere, altre mai, altre solo in punti isolati.",
+      "speech": "Casi particolari. Vediamo i casi in cui il secondo membro è uno, meno uno, oppure un numero fuori da questi valori. Seno e coseno sono sempre compresi tra meno uno e uno. Perciò alcune disequazioni sono sempre vere, altre mai, altre solo in punti isolati.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Casi particolari"
+    },
+    {
+      "text": "Nel riquadro quattro casi particolari da riconoscere subito.",
+      "speech": "Nel riquadro quattro casi particolari da riconoscere subito.",
+      "screen": "Casi particolari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere seno di ics maggiore di meno uno. Il seno è sempre maggiore o uguale a meno uno.",
+      "speech": "Vogliamo risolvere seno di __X__ maggiore di meno uno. Il seno è sempre maggiore o uguale a meno uno.",
+      "screen": "Casi particolari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Bisogna solo escludere i punti in cui il seno vale esattamente meno uno: tre pi greco mezzi più due kappa pi greco.",
+      "speech": "Bisogna solo escludere i punti in cui il seno vale esattamente meno uno: tre pi greco mezzi più due kappa pi greco.",
+      "screen": "Casi particolari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La disequazione è vera per ogni ics diverso da tre pi greco mezzi più due kappa pi greco.",
+      "speech": "La disequazione è vera per ogni __X__ diverso da tre pi greco mezzi più due kappa pi greco.",
+      "screen": "Casi particolari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Riconducibili a elementari. Vediamo disequazioni che con pochi passaggi diventano elementari. Una disequazione di primo grado in una funzione si risolve isolando la funzione, come in una disequazione di primo grado. Se l’argomento è composto, si risolve prima rispetto all’argomento e poi si ricava ics.",
+      "speech": "Riconducibili a elementari. Vediamo disequazioni che con pochi passaggi diventano elementari. Una disequazione di primo grado in una funzione si risolve isolando la funzione, come in una disequazione di primo grado. Se l’argomento è composto, si risolve prima rispetto all’argomento e poi si ricava __X__.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Riconducibili a elementari"
+    },
+    {
+      "text": "Nel riquadro: si isola il seno dividendo per a, che qui è positivo.",
+      "speech": "Nel riquadro: si isola il seno dividendo per à, che qui è positivo.",
+      "screen": "Riconducibili a elementari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere due seno di ics più radice di due maggiore di zero. Isoliamo il seno: seno di ics maggiore di meno radice di due mezzi.",
+      "speech": "Vogliamo risolvere due seno di __X__ più radice di due maggiore di zero. Isoliamo il seno: seno di __X__ maggiore di meno radice di due mezzi.",
+      "screen": "Riconducibili a elementari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’equazione associata ha soluzioni meno pi greco quarti e cinque pi greco quarti.",
+      "speech": "L’equazione associata ha soluzioni meno pi greco quarti e cinque pi greco quarti.",
+      "screen": "Riconducibili a elementari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "I punti con ordinata maggiore stanno sull’arco che va da meno pi greco quarti a cinque pi greco quarti, passando per l’alto.",
+      "speech": "I punti con ordinata maggiore stanno sull’arco che va da meno pi greco quarti a cinque pi greco quarti, passando per l’alto.",
+      "screen": "Riconducibili a elementari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Disequazione di secondo grado. Vediamo le disequazioni di secondo grado in una sola funzione. Si pone ti uguale alla funzione e si risolve la disequazione in ti. Poi si tiene conto che seno e coseno stanno tra meno uno e uno, e si risolvono le disequazioni elementari.",
+      "speech": "Disequazione di secondo grado. Vediamo le disequazioni di secondo grado in una sola funzione. Si pone ti uguale alla funzione e si risolve la disequazione in ti. Poi si tiene conto che seno e coseno stanno tra meno uno e uno, e si risolvono le disequazioni elementari.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazione di secondo grado"
+    },
+    {
+      "text": "Nel riquadro: prima si trova l’intervallo per ti, poi si torna a ics.",
+      "speech": "Nel riquadro: prima si trova l’intervallo per ti, poi si torna à per __X__.",
+      "screen": "Disequazione di secondo grado",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere due coseno al quadrato di ics più tre coseno meno due minore di zero. Poniamo ti uguale a coseno di ics.",
+      "speech": "Vogliamo risolvere due coseno al quadrato di __X__ più tre coseno meno due minore di zero. Poniamo ti uguale a coseno di __X__.",
+      "screen": "Disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Le radici dell’equazione associata sono meno due e un mezzo.",
+      "speech": "Le radici dell’equazione associata sono meno due e un mezzo.",
+      "screen": "Disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il trinomio è negativo per valori interni alle radici: ti compreso tra meno due e un mezzo.",
+      "speech": "Il trinomio è negativo per valori interni alle radici: ti compreso tra meno due e un mezzo.",
+      "screen": "Disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Coseno maggiore di meno due è sempre vero; resta coseno minore di un mezzo, che vale da pi greco terzi a cinque pi greco terzi.",
+      "speech": "Coseno maggiore di meno due è sempre vero; resta coseno minore di un mezzo, che vale da pi greco terzi a cinque pi greco terzi.",
+      "screen": "Disequazione di secondo grado",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Uso delle formule goniometriche. Se compaiono argomenti diversi, si usano le formule goniometriche per riportare tutto allo stesso argomento. Poi si scompone o si sostituisce, e si studia il segno.",
+      "speech": "Uso delle formule goniometriche. Se compaiono argomenti diversi, si usano le formule goniometriche per riportare tutto allo stesso argomento. Poi si scompone o si sostituisce, e si studia il segno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Uso delle formule goniometriche"
+    },
+    {
+      "text": "Nel riquadro due sostituzioni utili.",
+      "speech": "Nel riquadro due sostituzioni utili.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere coseno di due ics meno due coseno di ics più uno maggiore di zero. Sostituiamo il coseno di due ics con due coseno al quadrato meno uno.",
+      "speech": "Vogliamo risolvere coseno di due __X__ meno due coseno di __X__ più uno maggiore di zero. Sostituiamo il coseno di due __X__ con due coseno al quadrato meno uno.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Meno uno e più uno si annullano. Raccogliamo due coseno di ics: due coseno per, coseno meno uno, maggiore di zero.",
+      "speech": "Meno uno e più uno si annullano. Raccogliamo due coseno di __X__: due coseno per, coseno meno uno, maggiore di zero.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Coseno meno uno è sempre negativo o nullo; dove è zero il prodotto si annulla. Perché il prodotto sia positivo serve coseno di ics negativo.",
+      "speech": "Coseno meno uno è sempre negativo o nullo; dove è zero il prodotto si annulla. Perché il prodotto sia positivo serve coseno di __X__ negativo.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il coseno è negativo nel secondo e nel terzo quadrante: da pi greco mezzi a tre pi greco mezzi.",
+      "speech": "Il coseno è negativo nel secondo e nel terzo quadrante: da pi greco mezzi a tre pi greco mezzi.",
+      "screen": "Uso delle formule goniometriche",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Disequazione lineare in seno e coseno. Ponendo X maiuscola uguale al coseno e Y maiuscola uguale al seno, il punto sta sulla circonferenza goniometrica e la disequazione diventa la condizione di stare da una parte di una retta. Le soluzioni sono gli archi che stanno dalla parte giusta.",
+      "speech": "Disequazione lineare in seno e coseno. Ponendo X maiuscola uguale al coseno e Y maiuscola uguale al seno, il punto sta sulla circonferenza goniometrica e la disequazione diventa la condizione di stare da una parte di una retta. Le soluzioni sono gli archi che stanno dalla parte giusta.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazione lineare in seno e coseno"
+    },
+    {
+      "text": "Nel riquadro il metodo grafico: la disequazione si legge come una retta che taglia la circonferenza.",
+      "speech": "Nel riquadro il metodo grafico: la disequazione si legge come una retta che taglia la circonferenza.",
+      "screen": "Disequazione lineare in seno e coseno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere radice di tre seno di ics meno coseno di ics maggiore di zero. Con X uguale al coseno e Y uguale al seno diventa radice di tre Y meno X maggiore di zero.",
+      "speech": "Vogliamo risolvere radice di tre seno di __X__ meno coseno di __X__ maggiore di zero. Con X uguale al coseno e Y uguale al seno diventa radice di tre Y meno X maggiore di zero.",
+      "screen": "Disequazione lineare in seno e coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La retta associata passa per l’origine con inclinazione di trenta gradi: incontra la circonferenza a pi greco sesti e a sette pi greco sesti.",
+      "speech": "La retta associata passa per l’origine con inclinazione di trenta gradi: incontra la circonferenza a pi greco sesti e a sette pi greco sesti.",
+      "screen": "Disequazione lineare in seno e coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Proviamo il punto a pi greco mezzi: radice di tre per uno meno zero è positivo. Quindi vale l’arco sopra la retta.",
+      "speech": "Proviamo il punto a pi greco mezzi: radice di tre per uno meno zero è positivo. Quindi vale l’arco sopra la retta.",
+      "screen": "Disequazione lineare in seno e coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La soluzione è l’arco da pi greco sesti a sette pi greco sesti.",
+      "speech": "La soluzione è l’arco da pi greco sesti a sette pi greco sesti.",
+      "screen": "Disequazione lineare in seno e coseno",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Disequazione fratta. Vediamo le disequazioni con una funzione goniometrica al denominatore. Il denominatore non si può eliminare: si studia il segno del numeratore e del denominatore in un periodo, si costruisce la tabella dei segni e si scelgono gli intervalli giusti. Il denominatore deve essere diverso da zero.",
+      "speech": "Disequazione fratta. Vediamo le disequazioni con una funzione goniometrica al denominatore. Il denominatore non si può eliminare: si studia il segno del numeratore e del denominatore in un periodo, si costruisce la tabella dei segni e si scelgono gli intervalli giusti. Il denominatore deve essere diverso da zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Disequazione fratta"
+    },
+    {
+      "text": "Nel riquadro il metodo: segno del numeratore, segno del denominatore, poi la regola dei segni.",
+      "speech": "Nel riquadro il metodo: segno del numeratore, segno del denominatore, poi la regola dei segni.",
+      "screen": "Disequazione fratta",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere la frazione due seno di ics meno uno, fratto coseno di ics, maggiore di zero. Il numeratore è positivo per seno maggiore di un mezzo: tra pi greco sesti e cinque pi greco sesti.",
+      "speech": "Vogliamo risolvere la frazione due seno di __X__ meno uno, fratto coseno di __X__, maggiore di zero. Il numeratore è positivo per seno maggiore di un mezzo: tra pi greco sesti e cinque pi greco sesti.",
+      "screen": "Disequazione fratta",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il denominatore è positivo nel primo e nel quarto quadrante.",
+      "speech": "Il denominatore è positivo nel primo e nel quarto quadrante.",
+      "screen": "Disequazione fratta",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La frazione è positiva dove numeratore e denominatore hanno lo stesso segno: tra pi greco sesti e pi greco mezzi, e tra cinque pi greco sesti e tre pi greco mezzi.",
+      "speech": "La frazione è positiva dove numeratore e denominatore hanno lo stesso segno: tra pi greco sesti e pi greco mezzi, e tra cinque pi greco sesti e tre pi greco mezzi.",
+      "screen": "Disequazione fratta",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Infine aggiungiamo due kappa pi greco agli estremi.",
+      "speech": "Infine aggiungiamo due kappa pi greco agli estremi.",
+      "screen": "Disequazione fratta",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Sistema di disequazioni. Concludiamo con i sistemi. In un sistema le disequazioni devono essere vere tutte insieme. Si risolve ciascuna in un periodo, si rappresentano le soluzioni sulla stessa circonferenza e si prende la parte comune.",
+      "speech": "Sistema di disequazioni. Concludiamo con i sistemi. In un sistema le disequazioni devono essere vere tutte insieme. Si risolve ciascuna in un periodo, si rappresentano le soluzioni sulla stessa circonferenza e si prende la parte comune.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema di disequazioni"
+    },
+    {
+      "text": "Nel riquadro il metodo: le soluzioni del sistema sono la parte comune.",
+      "speech": "Nel riquadro il metodo: le soluzioni del sistema sono la parte comune.",
+      "screen": "Sistema di disequazioni",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere il sistema formato da seno di ics maggiore di zero e coseno di ics maggiore di zero.",
+      "speech": "Vogliamo risolvere il sistema formato da seno di __X__ maggiore di zero e coseno di __X__ maggiore di zero.",
+      "screen": "Sistema di disequazioni",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il seno è positivo nel primo e nel secondo quadrante, tra zero e pi greco.",
+      "speech": "Il seno è positivo nel primo e nel secondo quadrante, tra zero e pi greco.",
+      "screen": "Sistema di disequazioni",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il coseno è positivo nel primo e nel quarto quadrante.",
+      "speech": "Il coseno è positivo nel primo e nel quarto quadrante.",
+      "screen": "Sistema di disequazioni",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La parte comune è il primo quadrante, da zero a pi greco mezzi, più due kappa pi greco.",
+      "speech": "La parte comune è il primo quadrante, da zero a pi greco mezzi, più due kappa pi greco.",
+      "screen": "Sistema di disequazioni",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Ora tocca a te, con dieci domande. Prima di rispondere, immagina l’arco sulla circonferenza goniometrica.",
+      "speech": "Ora tocca a te, con dieci domande. Prima di rispondere, immagina l’arco sulla circonferenza goniometrica.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scegli funzione e verso, scrivi il valore nella casella e osserva l’arco soluzione.",
+      "speech": "Questo è il laboratorio. Scegli funzione e verso, scrivi il valore nella casella e osserva l’arco soluzione.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: risolvi prima l’equazione associata, poi scegli l’arco. Seno e coseno hanno periodo due pi greco, tangente e cotangente pi greco.",
+      "speech": "Ricorda: risolvi prima l’equazione associata, poi scegli l’arco. Seno e coseno hanno periodo due pi greco, tangente e cotangente pi greco.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

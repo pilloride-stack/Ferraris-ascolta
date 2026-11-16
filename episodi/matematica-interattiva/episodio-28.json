@@ -4,182 +4,200 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Addizione e sottrazione. Danno seno, coseno, tangente e cotangente di una somma o differenza di angoli.",
-      "speech": "Addizione e sottrazione. Danno seno, coseno, tangente e cotangente di una somma o differenza di angoli.",
+      "text": "Addizione e sottrazione. Studiamo come si calcolano le funzioni di una somma o di una differenza di angoli. Il seno della somma non è la somma dei seni: servono le formule di addizione e sottrazione. Nel seno compaiono i prodotti seno per coseno; nel coseno i prodotti coseno per coseno e seno per seno, con il segno opposto.",
+      "speech": "Addizione e sottrazione. Studiamo come si calcolano le funzioni di una somma o di una differenza di angoli. Il seno della somma non è la somma dei seni: servono le formule di addizione e sottrazione. Nel seno compaiono i prodotti seno per coseno; nel coseno i prodotti coseno per coseno e seno per seno, con il segno opposto.",
       "screen": "Definizioni",
       "purpose": "Definizione: Addizione e sottrazione"
     },
     {
-      "text": "Duplicazione. Danno le funzioni dell'angolo doppio.",
-      "speech": "Duplicazione. Danno le funzioni dell'angolo doppio.",
+      "text": "Nel riquadro le tre formule. Attenzione al coseno: per la somma si sottrae, per la differenza si somma.",
+      "speech": "Nel riquadro le tre formule. Attenzione al coseno: per la somma si sottrae, per la differenza si somma.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare il coseno di quindici gradi. Scriviamo quindici come quarantacinque meno trenta.",
+      "speech": "Vogliamo calcolare il coseno di quindici gradi. Scriviamo quindici come quarantacinque meno trenta.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Applichiamo la formula del coseno della differenza: coseno di quarantacinque per coseno di trenta, più seno di quarantacinque per seno di trenta.",
+      "speech": "Applichiamo la formula del coseno della differenza: coseno di quarantacinque per coseno di trenta, più seno di quarantacinque per seno di trenta.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sostituiamo i valori: radice di due mezzi per radice di tre mezzi, più radice di due mezzi per un mezzo.",
+      "speech": "Sostituiamo i valori: radice di due mezzi per radice di tre mezzi, più radice di due mezzi per un mezzo.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Moltiplicando otteniamo radice di sei quarti più radice di due quarti, cioè radice di sei più radice di due, tutto fratto quattro.",
+      "speech": "Moltiplicando otteniamo radice di sei quarti più radice di due quarti, cioè radice di sei più radice di due, tutto fratto quattro.",
+      "screen": "Addizione e sottrazione",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Duplicazione. Vediamo le formule per le funzioni dell’angolo doppio. Si ottengono dalle formule di addizione ponendo beta uguale ad alfa. Il seno di due alfa è due seno di alfa per coseno di alfa. Il coseno di due alfa si può scrivere in tre modi, grazie alla relazione fondamentale.",
+      "speech": "Duplicazione. Vediamo le formule per le funzioni dell’angolo doppio. Si ottengono dalle formule di addizione ponendo beta uguale a alfa. Il seno di due alfa è due seno di alfa per coseno di alfa. Il coseno di due alfa si può scrivere in tre modi, grazie alla relazione fondamentale.",
       "screen": "Definizioni",
       "purpose": "Definizione: Duplicazione"
     },
     {
-      "text": "Bisezione. Danno le funzioni della metà di un angolo.",
-      "speech": "Bisezione. Danno le funzioni della metà di un angolo.",
+      "text": "Nel riquadro le formule di duplicazione. Per il coseno scegli la forma più comoda: con solo il seno o con solo il coseno.",
+      "speech": "Nel riquadro le formule di duplicazione. Per il coseno scegli la forma più comoda: con solo il seno o con solo il coseno.",
+      "screen": "Duplicazione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo seno e coseno di due alfa, sapendo che il seno di alfa vale tre quinti e alfa è nel primo quadrante. Prima ricaviamo il coseno: radice di uno meno nove venticinquesimi, cioè quattro quinti.",
+      "speech": "Vogliamo seno e coseno di due alfa, sapendo che il seno di alfa vale tre quinti e alfa è nel primo quadrante. Prima ricaviamo il coseno: radice di uno meno nove venticinquesimi, cioè quattro quinti.",
+      "screen": "Duplicazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il seno di due alfa è due per tre quinti per quattro quinti: ventiquattro venticinquesimi.",
+      "speech": "Il seno di due alfa è due per tre quinti per quattro quinti: ventiquattro venticinquesimi.",
+      "screen": "Duplicazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il coseno di due alfa è coseno al quadrato meno seno al quadrato: sedici venticinquesimi meno nove venticinquesimi, cioè sette venticinquesimi.",
+      "speech": "Il coseno di due alfa è coseno al quadrato meno seno al quadrato: sedici venticinquesimi meno nove venticinquesimi, cioè sette venticinquesimi.",
+      "screen": "Duplicazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Bisezione. Vediamo le formule per le funzioni della metà di un angolo. Si ricavano dalle formule di duplicazione del coseno e danno le funzioni di alfa mezzi conoscendo il coseno di alfa. Davanti alle radici il segno dipende dal quadrante di alfa mezzi. Per la tangente esistono anche due forme senza radice.",
+      "speech": "Bisezione. Vediamo le formule per le funzioni della metà di un angolo. Si ricavano dalle formule di duplicazione del coseno e danno le funzioni di alfa mezzi conoscendo il coseno di alfa. Davanti alle radici il segno dipende dal quadrante di alfa mezzi. Per la tangente esistono anche due forme senza radice.",
       "screen": "Definizioni",
       "purpose": "Definizione: Bisezione"
     },
     {
-      "text": "Formule parametriche. Esprimono seno, coseno e tangente con t, la tangente di alfa mezzi.",
-      "speech": "Formule parametriche. Esprimono seno, coseno e tangente con t, la tangente di alfa mezzi.",
+      "text": "Nel riquadro: nel seno di alfa mezzi c’è uno meno coseno, nel coseno di alfa mezzi uno più coseno. Per la tangente conviene la forma senza radice.",
+      "speech": "Nel riquadro: nel seno di alfa mezzi c’è uno meno coseno, nel coseno di alfa mezzi uno più coseno. Per la tangente conviene la forma senza radice.",
+      "screen": "Bisezione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare la tangente di ventidue gradi e mezzo, che è la metà di quarantacinque gradi.",
+      "speech": "Vogliamo calcolare la tangente di ventidue gradi e mezzo, che è la metà di quarantacinque gradi.",
+      "screen": "Bisezione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Usiamo la forma senza radice: seno di quarantacinque fratto uno più coseno di quarantacinque. Moltiplicando sopra e sotto per due, otteniamo radice di due fratto due più radice di due.",
+      "speech": "Usiamo la forma senza radice: seno di quarantacinque fratto uno più coseno di quarantacinque. Moltiplicando sopra e sotto per due, otteniamo radice di due fratto due più radice di due.",
+      "screen": "Bisezione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Razionalizziamo moltiplicando sopra e sotto per due meno radice di due: sopra otteniamo due radice di due meno due, sotto quattro meno due.",
+      "speech": "Razionalizziamo moltiplicando sopra e sotto per due meno radice di due: sopra otteniamo due radice di due meno due, sotto quattro meno due.",
+      "screen": "Bisezione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Dividendo per due, la tangente di ventidue gradi e mezzo vale radice di due meno uno.",
+      "speech": "Dividendo per due, la tangente di ventidue gradi e mezzo vale radice di due meno uno.",
+      "screen": "Bisezione",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Formule parametriche. Vediamo come esprimere seno, coseno e tangente con un’unica variabile. Si pone ti uguale alla tangente di alfa mezzi, con alfa diverso da pi greco più due kappa pi greco. Allora seno, coseno e tangente di alfa diventano frazioni nella sola variabile ti.",
+      "speech": "Formule parametriche. Vediamo come esprimere seno, coseno e tangente con un’unica variabile. Si pone ti uguale alla tangente di alfa mezzi, con alfa diverso da pi greco più due kappa pi greco. Allora seno, coseno e tangente di alfa diventano frazioni nella sola variabile ti.",
       "screen": "Definizioni",
       "purpose": "Definizione: Formule parametriche"
     },
     {
-      "text": "Prostaferesi. Trasformano una somma di funzioni in un prodotto.",
-      "speech": "Prostaferesi. Trasformano una somma di funzioni in un prodotto.",
+      "text": "Nel riquadro: il seno è due ti fratto uno più ti al quadrato; il coseno è uno meno ti al quadrato fratto uno più ti al quadrato; la tangente è due ti fratto uno meno ti al quadrato.",
+      "speech": "Nel riquadro: il seno è due ti fratto uno più ti al quadrato; il coseno è uno meno ti al quadrato fratto uno più ti al quadrato; la tangente è due ti fratto uno meno ti al quadrato.",
+      "screen": "Formule parametriche",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo seno, coseno e tangente di alfa sapendo che la tangente di alfa mezzi vale un mezzo. Calcoliamo ti al quadrato, un quarto; uno più ti al quadrato, cinque quarti; uno meno ti al quadrato, tre quarti.",
+      "speech": "Vogliamo seno, coseno e tangente di alfa sapendo che la tangente di alfa mezzi vale un mezzo. Calcoliamo ti al quadrato, un quarto; uno più ti al quadrato, cinque quarti; uno meno ti al quadrato, tre quarti.",
+      "screen": "Formule parametriche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il seno è due ti, cioè uno, fratto cinque quarti: quattro quinti.",
+      "speech": "Il seno è due ti, cioè uno, fratto cinque quarti: quattro quinti.",
+      "screen": "Formule parametriche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il coseno è tre quarti fratto cinque quarti: tre quinti.",
+      "speech": "Il coseno è tre quarti fratto cinque quarti: tre quinti.",
+      "screen": "Formule parametriche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La tangente è uno fratto tre quarti: quattro terzi. Infatti è anche il seno fratto il coseno.",
+      "speech": "La tangente è uno fratto tre quarti: quattro terzi. Infatti è anche il seno fratto il coseno.",
+      "screen": "Formule parametriche",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Prostaferesi. Vediamo le formule che trasformano una somma di seni o di coseni in un prodotto. Ogni formula contiene la semisomma e la semidifferenza dei due angoli, cioè pi più cu mezzi e pi meno cu mezzi.",
+      "speech": "Prostaferesi. Vediamo le formule che trasformano una somma di seni o di coseni in un prodotto. Ogni formula contiene la semisomma e la semidifferenza dei due angoli, cioè pi più cu mezzi e pi meno cu mezzi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Prostaferesi"
     },
     {
-      "text": "Formule di Werner. Trasformano un prodotto di funzioni in una somma.",
-      "speech": "Formule di Werner. Trasformano un prodotto di funzioni in una somma.",
+      "text": "Nel riquadro le quattro formule. In tutte compaiono la semisomma e la semidifferenza degli angoli.",
+      "speech": "Nel riquadro le quattro formule. In tutte compaiono la semisomma e la semidifferenza degli angoli.",
+      "screen": "Prostaferesi",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare seno di settantacinque gradi più seno di quindici gradi. La semisomma degli angoli è quarantacinque gradi, la semidifferenza trenta gradi.",
+      "speech": "Vogliamo calcolare seno di settantacinque gradi più seno di quindici gradi. La semisomma degli angoli è quarantacinque gradi, la semidifferenza trenta gradi.",
+      "screen": "Prostaferesi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Applichiamo la formula: due per seno di quarantacinque per coseno di trenta.",
+      "speech": "Applichiamo la formula: due per seno di quarantacinque per coseno di trenta.",
+      "screen": "Prostaferesi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Due per radice di due mezzi per radice di tre mezzi fa radice di sei mezzi.",
+      "speech": "Due per radice di due mezzi per radice di tre mezzi fa radice di sei mezzi.",
+      "screen": "Prostaferesi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Formule di Werner. Vediamo le formule che fanno il percorso inverso: trasformano un prodotto di seni e coseni in una somma, moltiplicata per un mezzo.",
+      "speech": "Formule di Werner. Vediamo le formule che fanno il percorso inverso: trasformano un prodotto di seni e coseni in una somma, moltiplicata per un mezzo.",
       "screen": "Definizioni",
       "purpose": "Definizione: Formule di Werner"
     },
     {
-      "text": "La scheda dice: seno della somma è seno alfa coseno beta, più seno beta coseno alfa. Nel coseno il segno è opposto.",
-      "speech": "La scheda dice: seno della somma è seno alfa coseno beta, più seno beta coseno alfa. Nel coseno il segno è opposto.",
-      "screen": "Addizione e sottrazione",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: scrivo quindici come quarantacinque meno trenta.",
-      "speech": "Passaggio uno: scrivo quindici come quarantacinque meno trenta.",
-      "screen": "Addizione e sottrazione",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula: coseno per coseno, più seno per seno.",
-      "speech": "Passaggio due: applico la formula: coseno per coseno, più seno per seno.",
-      "screen": "Addizione e sottrazione",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è radice di sei più radice di due, fratto quattro.",
-      "speech": "Passaggio tre: il risultato è radice di sei più radice di due, fratto quattro.",
-      "screen": "Addizione e sottrazione",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: seno di due alfa è due seno alfa coseno alfa. Il coseno di due alfa ha tre forme.",
-      "speech": "La scheda dice: seno di due alfa è due seno alfa coseno alfa. Il coseno di due alfa ha tre forme.",
-      "screen": "Duplicazione",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: scrivo sessanta come due per trenta.",
-      "speech": "Passaggio uno: scrivo sessanta come due per trenta.",
-      "screen": "Duplicazione",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula: due per seno di trenta per coseno di trenta.",
-      "speech": "Passaggio due: applico la formula: due per seno di trenta per coseno di trenta.",
-      "screen": "Duplicazione",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è radice di tre mezzi.",
-      "speech": "Passaggio tre: il risultato è radice di tre mezzi.",
-      "screen": "Duplicazione",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: seno di alfa mezzi è più o meno radice di uno meno coseno alfa, fratto due. Nel coseno c'è uno più coseno alfa.",
-      "speech": "La scheda dice: seno di alfa mezzi è più o meno radice di uno meno coseno alfa, fratto due. Nel coseno c'è uno più coseno alfa.",
-      "screen": "Bisezione",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: l'angolo intero è quarantacinque gradi.",
-      "speech": "Passaggio uno: l'angolo intero è quarantacinque gradi.",
-      "screen": "Bisezione",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: uso uno meno coseno, fratto seno.",
-      "speech": "Passaggio due: uso uno meno coseno, fratto seno.",
-      "screen": "Bisezione",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è radice di due meno uno.",
-      "speech": "Passaggio tre: il risultato è radice di due meno uno.",
-      "screen": "Bisezione",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con ti uguale a tangente di alfa mezzi, seno e coseno diventano frazioni in ti.",
-      "speech": "La scheda dice: con ti uguale a tangente di alfa mezzi, seno e coseno diventano frazioni in ti.",
-      "screen": "Formule parametriche",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco il dato: ti è uno.",
-      "speech": "Passaggio uno: riconosco il dato: ti è uno.",
-      "screen": "Formule parametriche",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: sostituisco in due ti fratto uno più ti alla seconda.",
-      "speech": "Passaggio due: sostituisco in due ti fratto uno più ti alla seconda.",
-      "screen": "Formule parametriche",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è uno.",
-      "speech": "Passaggio tre: il risultato è uno.",
-      "screen": "Formule parametriche",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dà quattro formule, che trasformano somme o differenze in prodotti, usando p più q mezzi e p meno q mezzi.",
-      "speech": "La scheda dà quattro formule, che trasformano somme o differenze in prodotti, usando p più q mezzi e p meno q mezzi.",
-      "screen": "Prostaferesi",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: la semisomma è quarantacinque gradi.",
-      "speech": "Passaggio uno: la semisomma è quarantacinque gradi.",
-      "screen": "Prostaferesi",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: la semidifferenza è trenta gradi.",
-      "speech": "Passaggio due: la semidifferenza è trenta gradi.",
-      "screen": "Prostaferesi",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è radice di sei mezzi.",
-      "speech": "Passaggio tre: il risultato è radice di sei mezzi.",
-      "screen": "Prostaferesi",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dà tre formule, che trasformano prodotti di seni e coseni in somme.",
-      "speech": "La scheda dà tre formule, che trasformano prodotti di seni e coseni in somme.",
+      "text": "Nel riquadro le tre formule: ogni prodotto diventa metà di una somma o di una differenza.",
+      "speech": "Nel riquadro le tre formule: ogni prodotto diventa metà di una somma o di una differenza.",
       "screen": "Formule di Werner",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Passaggio uno: i due angoli sono uguali, quarantacinque gradi.",
-      "speech": "Passaggio uno: i due angoli sono uguali, quarantacinque gradi.",
+      "text": "Vogliamo calcolare seno di settantacinque gradi per coseno di quindici gradi. Con la formula di Werner diventa un mezzo per, seno di novanta più seno di sessanta.",
+      "speech": "Vogliamo calcolare seno di settantacinque gradi per coseno di quindici gradi. Con la formula di Werner diventa un mezzo per, seno di novanta più seno di sessanta.",
       "screen": "Formule di Werner",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: applico la formula con seno di zero e seno di novanta.",
-      "speech": "Passaggio due: applico la formula con seno di zero e seno di novanta.",
+      "text": "Il seno di novanta vale uno, il seno di sessanta vale radice di tre mezzi.",
+      "speech": "Il seno di novanta vale uno, il seno di sessanta vale radice di tre mezzi.",
       "screen": "Formule di Werner",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: il risultato è un mezzo.",
-      "speech": "Passaggio tre: il risultato è un mezzo.",
+      "text": "Uno più radice di tre mezzi fa due più radice di tre, fratto due; moltiplicato per un mezzo dà due più radice di tre, fratto quattro.",
+      "speech": "Uno più radice di tre mezzi fa due più radice di tre, fratto due; moltiplicato per un mezzo dà due più radice di tre, fratto quattro.",
       "screen": "Formule di Werner",
       "purpose": "Esempio, passaggio 3"
     },
@@ -190,14 +208,14 @@
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i cursori e cambia i due angoli. Controlla che i due lati della formula coincidano.",
-      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i due angoli. Controlla che i due lati della formula coincidano.",
+      "text": "Questo è il laboratorio. Cambia i due angoli e controlla che i due lati della formula coincidano.",
+      "speech": "Questo è il laboratorio. Cambia i due angoli e controlla che i due lati della formula coincidano.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Ricorda: addizione, duplicazione, bisezione, parametriche. Le prostaferesi portano dalla somma al prodotto, le formule di Werner dal prodotto alla somma.",
-      "speech": "Ricorda: addizione, duplicazione, bisezione, parametriche. Le prostaferesi portano dalla somma al prodotto, le formule di Werner dal prodotto alla somma.",
+      "text": "Ricorda: addizione, duplicazione, bisezione e parametriche. Le prostaferesi portano dalla somma al prodotto, le formule di Werner dal prodotto alla somma.",
+      "speech": "Ricorda: addizione, duplicazione, bisezione e parametriche. Le prostaferesi portano dalla somma al prodotto, le formule di Werner dal prodotto alla somma.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }

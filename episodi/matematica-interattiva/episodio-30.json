@@ -4,152 +4,158 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Teorema della corda. una corda è lunga quanto il diametro per il seno di un angolo alla circonferenza che insiste su di essa.",
-      "speech": "Teorema della corda. una corda è lunga quanto il diametro per il seno di un angolo alla circonferenza che insiste su di essa.",
+      "text": "Teorema della corda. Iniziamo con il teorema della corda. In una circonferenza di raggio erre, una corda è uguale al diametro per il seno di un angolo alla circonferenza che insiste su di essa. Ne segue che in un triangolo inscritto ogni lato, fratto il seno dell’angolo opposto, vale due erre.",
+      "speech": "Teorema della corda. Iniziamo con il teorema della corda. In una circonferenza di raggio erre, una corda è uguale al diametro per il seno di un angolo alla circonferenza che insiste su di essa. Ne segue che in un triangolo inscritto ogni lato, fratto il seno dell’angolo opposto, vale due erre.",
       "screen": "Definizioni",
       "purpose": "Definizione: Teorema della corda"
     },
     {
-      "text": "Teorema dei seni. in un triangolo ogni lato è direttamente proporzionale al seno dell'angolo opposto.",
-      "speech": "Teorema dei seni. in un triangolo ogni lato è direttamente proporzionale al seno dell'angolo opposto.",
+      "text": "Nel riquadro: sopra il teorema della corda, sotto la conseguenza per i triangoli inscritti.",
+      "speech": "Nel riquadro: sopra il teorema della corda, sotto la conseguenza per i triangoli inscritti.",
+      "screen": "Teorema della corda",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo la lunghezza della corda in una circonferenza di raggio cinque, vista sotto un angolo di trenta gradi. Usiamo il teorema della corda.",
+      "speech": "Vogliamo la lunghezza della corda in una circonferenza di raggio cinque, vista sotto un angolo di trenta gradi. Usiamo il teorema della corda.",
+      "screen": "Teorema della corda",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo: due per cinque per seno di trenta gradi, cioè dieci per un mezzo.",
+      "speech": "Sostituiamo: due per cinque per seno di trenta gradi, cioè dieci per un mezzo.",
+      "screen": "Teorema della corda",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La corda vale cinque.",
+      "speech": "La corda vale cinque.",
+      "screen": "Teorema della corda",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Teorema dei seni. In ogni triangolo i lati sono proporzionali ai seni degli angoli opposti: il rapporto tra un lato e il seno dell’angolo opposto è uguale per tutti e tre i lati. Si usa quando si conoscono un lato e il suo angolo opposto.",
+      "speech": "Teorema dei seni. In ogni triangolo i lati sono proporzionali ai seni degli angoli opposti: il rapporto tra un lato e il seno dell’angolo opposto è uguale per tutti e tre i lati. Si usa quando si conoscono un lato e il suo angolo opposto.",
       "screen": "Definizioni",
       "purpose": "Definizione: Teorema dei seni"
     },
     {
-      "text": "Teorema delle proiezioni. ogni lato è la somma dei prodotti degli altri due, per il coseno dell'angolo che ciascuno forma con esso.",
-      "speech": "Teorema delle proiezioni. ogni lato è la somma dei prodotti degli altri due, per il coseno dell'angolo che ciascuno forma con esso.",
+      "text": "Nel riquadro le tre frazioni uguali.",
+      "speech": "Nel riquadro le tre frazioni uguali.",
+      "screen": "Teorema dei seni",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il lato bi conoscendo a uguale a dieci, alfa uguale a trenta gradi e beta uguale a quarantacinque gradi. Scriviamo l’uguaglianza tra a fratto seno di alfa e bi fratto seno di beta.",
+      "speech": "Vogliamo il lato bi conoscendo à uguale a dieci, alfa uguale a trenta gradi e beta uguale a quarantacinque gradi. Scriviamo l’uguaglianza tra a fratto seno di alfa e bi fratto seno di beta.",
+      "screen": "Teorema dei seni",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Ricaviamo bi: a per seno di beta fratto seno di alfa, cioè dieci per radice di due mezzi, diviso un mezzo.",
+      "speech": "Ricaviamo bi: a per seno di beta fratto seno di alfa, cioè dieci per radice di due mezzi, diviso un mezzo.",
+      "screen": "Teorema dei seni",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Dividere per un mezzo vuol dire moltiplicare per due: bi vale dieci radice di due.",
+      "speech": "Dividere per un mezzo vuol dire moltiplicare per due: bi vale dieci radice di due.",
+      "screen": "Teorema dei seni",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Teorema delle proiezioni. In ogni triangolo un lato è uguale alla somma delle proiezioni degli altri due su di esso: ciascuno è moltiplicato per il coseno dell’angolo che forma con il lato considerato.",
+      "speech": "Teorema delle proiezioni. In ogni triangolo un lato è uguale alla somma delle proiezioni degli altri due su di esso: ciascuno è moltiplicato per il coseno dell’angolo che forma con il lato considerato.",
       "screen": "Definizioni",
       "purpose": "Definizione: Teorema delle proiezioni"
     },
     {
-      "text": "Teorema del coseno. il quadrato di un lato è la somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell'angolo compreso.",
-      "speech": "Teorema del coseno. il quadrato di un lato è la somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell'angolo compreso.",
+      "text": "Nel riquadro le tre formule, una per lato.",
+      "speech": "Nel riquadro le tre formule, una per lato.",
+      "screen": "Teorema delle proiezioni",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il lato a, sapendo che bi e ci valgono sei e che beta e gamma valgono sessanta gradi. Usiamo il teorema delle proiezioni.",
+      "speech": "Vogliamo il lato à, sapendo che bi e ci valgono sei e che beta e gamma valgono sessanta gradi. Usiamo il teorema delle proiezioni.",
+      "screen": "Teorema delle proiezioni",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo: sei per un mezzo più sei per un mezzo.",
+      "speech": "Sostituiamo: sei per un mezzo più sei per un mezzo.",
+      "screen": "Teorema delle proiezioni",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Tre più tre fa sei: il triangolo è equilatero.",
+      "speech": "Tre più tre fa sei: il triangolo è equilatero.",
+      "screen": "Teorema delle proiezioni",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Teorema del coseno. In ogni triangolo il quadrato di un lato è uguale alla somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell’angolo compreso. Si usa con due lati e l’angolo compreso. Se l’angolo è retto, il coseno è zero e si ritrova il teorema di Pitagora.",
+      "speech": "Teorema del coseno. In ogni triangolo il quadrato di un lato è uguale alla somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell’angolo compreso. Si usa con due lati e l’angolo compreso. Se l’angolo è retto, il coseno è zero e si ritrova il teorema di Pitagora.",
       "screen": "Definizioni",
       "purpose": "Definizione: Teorema del coseno"
     },
     {
-      "text": "Area di un triangolo. l'area è metà del prodotto di due lati per il seno dell'angolo compreso.",
-      "speech": "Area di un triangolo. l'area è metà del prodotto di due lati per il seno dell'angolo compreso.",
+      "text": "Nel riquadro le tre forme del teorema.",
+      "speech": "Nel riquadro le tre forme del teorema.",
+      "screen": "Teorema del coseno",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il lato a, sapendo che bi vale tre, ci vale otto e l’angolo compreso alfa vale sessanta gradi. Usiamo il teorema del coseno.",
+      "speech": "Vogliamo il lato à, sapendo che bi vale tre, ci vale otto e l’angolo compreso alfa vale sessanta gradi. Usiamo il teorema del coseno.",
+      "screen": "Teorema del coseno",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo: nove più sessantaquattro meno due per tre per otto per un mezzo.",
+      "speech": "Sostituiamo: nove più sessantaquattro meno due per tre per otto per un mezzo.",
+      "screen": "Teorema del coseno",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nove più sessantaquattro fa settantatré; il prodotto fa ventiquattro: a al quadrato vale quarantanove.",
+      "speech": "Nove più sessantaquattro fa settantatré; il prodotto fa ventiquattro: a al quadrato vale quarantanove.",
+      "screen": "Teorema del coseno",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "A vale la radice di quarantanove, cioè sette.",
+      "speech": "à vale la radice di quarantanove, cioè sette.",
+      "screen": "Teorema del coseno",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Area di un triangolo. L’area di un triangolo è uguale alla metà del prodotto di due lati per il seno dell’angolo compreso tra loro. Così non serve conoscere l’altezza.",
+      "speech": "Area di un triangolo. L’area di un triangolo è uguale alla metà del prodotto di due lati per il seno dell’angolo compreso tra loro. Così non serve conoscere l’altezza.",
       "screen": "Definizioni",
       "purpose": "Definizione: Area di un triangolo"
     },
     {
-      "text": "La scheda dice: una corda è lunga quanto il diametro per il seno di un angolo alla circonferenza che insiste su di essa.",
-      "speech": "La scheda dice: una corda è lunga quanto il diametro per il seno di un angolo alla circonferenza che insiste su di essa.",
-      "screen": "Teorema della corda",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco il raggio, cinque, e l'angolo, trenta gradi.",
-      "speech": "Passaggio uno: riconosco il raggio, cinque, e l'angolo, trenta gradi.",
-      "screen": "Teorema della corda",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula: due per cinque per seno di trenta.",
-      "speech": "Passaggio due: applico la formula: due per cinque per seno di trenta.",
-      "screen": "Teorema della corda",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è cinque.",
-      "speech": "Passaggio tre: il risultato è cinque.",
-      "screen": "Teorema della corda",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: in un triangolo ogni lato è direttamente proporzionale al seno dell'angolo opposto.",
-      "speech": "La scheda dice: in un triangolo ogni lato è direttamente proporzionale al seno dell'angolo opposto.",
-      "screen": "Teorema dei seni",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: scrivo la proporzione tra lati e seni.",
-      "speech": "Passaggio uno: scrivo la proporzione tra lati e seni.",
-      "screen": "Teorema dei seni",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: b è dieci per seno di quarantacinque, fratto seno di trenta.",
-      "speech": "Passaggio due: b è dieci per seno di quarantacinque, fratto seno di trenta.",
-      "screen": "Teorema dei seni",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: il risultato è dieci radice di due.",
-      "speech": "Passaggio tre: il risultato è dieci radice di due.",
-      "screen": "Teorema dei seni",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: ogni lato è la somma dei prodotti degli altri due, per il coseno dell'angolo che ciascuno forma con esso.",
-      "speech": "La scheda dice: ogni lato è la somma dei prodotti degli altri due, per il coseno dell'angolo che ciascuno forma con esso.",
-      "screen": "Teorema delle proiezioni",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco i due lati, entrambi sei.",
-      "speech": "Passaggio uno: riconosco i due lati, entrambi sei.",
-      "screen": "Teorema delle proiezioni",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula con coseno di sessanta, un mezzo.",
-      "speech": "Passaggio due: applico la formula con coseno di sessanta, un mezzo.",
-      "screen": "Teorema delle proiezioni",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: tre più tre fa sei.",
-      "speech": "Passaggio tre: tre più tre fa sei.",
-      "screen": "Teorema delle proiezioni",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: il quadrato di un lato è la somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell'angolo compreso.",
-      "speech": "La scheda dice: il quadrato di un lato è la somma dei quadrati degli altri due, meno il doppio del loro prodotto per il coseno dell'angolo compreso.",
-      "screen": "Teorema del coseno",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco i due lati e l'angolo compreso.",
-      "speech": "Passaggio uno: riconosco i due lati e l'angolo compreso.",
-      "screen": "Teorema del coseno",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: applico la formula: nove più sessantaquattro, meno ventiquattro.",
-      "speech": "Passaggio due: applico la formula: nove più sessantaquattro, meno ventiquattro.",
-      "screen": "Teorema del coseno",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: a alla seconda è quarantanove, quindi a è sette.",
-      "speech": "Passaggio tre: a alla seconda è quarantanove, quindi a è sette.",
-      "screen": "Teorema del coseno",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: l'area è metà del prodotto di due lati per il seno dell'angolo compreso.",
-      "speech": "La scheda dice: l'area è metà del prodotto di due lati per il seno dell'angolo compreso.",
+      "text": "Nel riquadro la formula dell’area con le tre coppie di lati.",
+      "speech": "Nel riquadro la formula dell’area con le tre coppie di lati.",
       "screen": "Area di un triangolo",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Passaggio uno: riconosco i due lati e l'angolo compreso.",
-      "speech": "Passaggio uno: riconosco i due lati e l'angolo compreso.",
+      "text": "Vogliamo l’area del triangolo con bi uguale a quattro, ci uguale a sei e l’angolo compreso di trenta gradi.",
+      "speech": "Vogliamo l’area del triangolo con bi uguale a quattro, ci uguale a sei e l’angolo compreso di trenta gradi.",
       "screen": "Area di un triangolo",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: quattro per sei per un mezzo, tutto fratto due.",
-      "speech": "Passaggio due: quattro per sei per un mezzo, tutto fratto due.",
+      "text": "Sostituiamo: un mezzo per quattro per sei per un mezzo.",
+      "speech": "Sostituiamo: un mezzo per quattro per sei per un mezzo.",
       "screen": "Area di un triangolo",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: l'area è sei.",
-      "speech": "Passaggio tre: l'area è sei.",
+      "text": "Quattro per sei fa ventiquattro, diviso quattro fa sei.",
+      "speech": "Quattro per sei fa ventiquattro, diviso quattro fa sei.",
       "screen": "Area di un triangolo",
       "purpose": "Esempio, passaggio 3"
     },
@@ -160,14 +166,14 @@
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i cursori e cambia i lati e l'angolo. Osserva come cambiano il terzo lato e l'area.",
-      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i lati e l'angolo. Osserva come cambiano il terzo lato e l'area.",
+      "text": "Questo è il laboratorio. Cambia i lati e l’angolo e osserva come cambiano il terzo lato e l’area.",
+      "speech": "Questo è il laboratorio. Cambia i lati e l’angolo e osserva come cambiano il terzo lato e l’area.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Ricorda: seni con un lato e l'angolo opposto, coseno con due lati e l'angolo compreso. L'area è metà prodotto per il seno.",
-      "speech": "Ricorda: seni con un lato e l'angolo opposto, coseno con due lati e l'angolo compreso. L'area è metà prodotto per il seno.",
+      "text": "Ricorda: il teorema dei seni si usa con un lato e l’angolo opposto, il teorema del coseno con due lati e l’angolo compreso. L’area è metà del prodotto di due lati per il seno dell’angolo compreso.",
+      "speech": "Ricorda: il teorema dei seni si usa con un lato e l’angolo opposto, il teorema del coseno con due lati e l’angolo compreso. L’area è metà del prodotto di due lati per il seno dell’angolo compreso.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }
