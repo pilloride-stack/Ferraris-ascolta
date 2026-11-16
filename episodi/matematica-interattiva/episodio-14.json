@@ -16,10 +16,10 @@
       "purpose": "Definizione: Primo principio di equivalenza"
     },
     {
-      "text": "Secondo principio di equivalenza. Moltiplicando o dividendo entrambi i membri per un numero positivo, il verso resta. Moltiplicando o dividendo entrambi i membri per un numero negativo, il verso si inverte.",
-      "speech": "Secondo principio di equivalenza. Moltiplicando o dividendo entrambi i membri per un numero positivo, il verso resta. Moltiplicando o dividendo entrambi i membri per un numero negativo, il verso si inverte.",
+      "text": "Cambio del verso. Moltiplicando o dividendo entrambi i membri per un numero positivo, il verso resta. Moltiplicando o dividendo entrambi i membri per un numero negativo, il verso si inverte.",
+      "speech": "Cambio del verso. Moltiplicando o dividendo entrambi i membri per un numero positivo, il verso resta. Moltiplicando o dividendo entrambi i membri per un numero negativo, il verso si inverte.",
       "screen": "Definizioni",
-      "purpose": "Definizione: Secondo principio di equivalenza"
+      "purpose": "Definizione: Cambio del verso"
     },
     {
       "text": "Disequazione con frazioni. Si eliminano i denominatori con un numero positivo, senza cambiare il verso.",
@@ -84,25 +84,25 @@
     {
       "text": "Se si dividono entrambi i membri per un numero positivo, il verso resta invariato. Se si dividono entrambi i membri per un numero negativo, il verso si inverte.",
       "speech": "Se si dividono entrambi i membri per un numero positivo, il verso resta invariato. Se si dividono entrambi i membri per un numero negativo, il verso si inverte.",
-      "screen": "Secondo principio di equivalenza",
+      "screen": "Cambio del verso",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
       "text": "il coefficiente di ics è meno quattro, un numero negativo.",
       "speech": "il coefficiente di __X__ è meno quattro, un numero negativo.",
-      "screen": "Secondo principio di equivalenza",
+      "screen": "Cambio del verso",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Quindi, divido entrambi i membri per meno quattro. Poiché divido per un numero negativo, il segno minore diventa maggiore.",
       "speech": "Quindi, divido entrambi i membri per meno quattro. Poiché divido per un numero negativo, il segno minore diventa maggiore.",
-      "screen": "Secondo principio di equivalenza",
+      "screen": "Cambio del verso",
       "purpose": "Esempio, passaggio 2"
     },
     {
       "text": "Infine, ics è maggiore di due.",
       "speech": "Infine, __X__ è maggiore di due.",
-      "screen": "Secondo principio di equivalenza",
+      "screen": "Cambio del verso",
       "purpose": "Esempio, passaggio 3"
     },
     {
