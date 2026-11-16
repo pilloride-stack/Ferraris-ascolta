@@ -2,10 +2,13 @@
   if(!/Ruffini/i.test(D?.title||''))return;
   const pairs=document.querySelector('.paired-content,.learning-pairs');
   if(pairs&&!document.querySelector('.ruffini-guide')){
-    const guide=document.createElement('section');guide.className='ruffini-guide';
-    guide.innerHTML='<h3>Quando e perché si usa Ruffini</h3><p>La regola di Ruffini divide un polinomio per un binomio di primo grado <b>x − a</b>. Se il resto è zero, <b>P(a)=0</b>: il numero a è una radice e x − a è un fattore del polinomio.</p><div class="ruffini-sequence"><span>Ordina e completa</span><b>➜</b><span>Cerca le possibili radici</span><b>➜</b><span>Verifica P(a)=0</span><b>➜</b><span>Costruisci la griglia</span></div><p class="remember"><b>Possibili radici razionali:</b> si provano i rapporti ±p/q, dove p divide il termine noto e q divide il coefficiente principale. Se il coefficiente principale è 1, basta provare i divisori positivi e negativi del termine noto.</p>';
+    const guide=document.createElement('section');guide.className='ruffini-guide';guide.dataset.audioTrack='03';
+    guide.innerHTML='<h3>Ricerca dello zero del polinomio</h3><p>Prima si ordina e si completa il polinomio. Poi si cercano i possibili zeri e si sostituiscono, uno alla volta, alla variabile. Il numero che rende <b>P(x)=0</b> è uno zero del polinomio.</p><div class="ruffini-sequence"><span>Ordina e completa</span><b>➜</b><span>Cerca i possibili zeri</span><b>➜</b><span>Sostituisci</span><b>➜</b><span>Verifica P(x)=0</span></div><p class="remember"><b>Nel caso dell’esempio:</b> il coefficiente principale è 1, quindi si provano i divisori positivi e negativi del termine noto.</p>';
     pairs.prepend(guide);
   }
+  const firstExample=pairs?.querySelector('.learning-pair .pair-example');
+  const firstTable=firstExample?.querySelector('.ruffini-table,table');if(firstTable)firstTable.dataset.audioTrack='04 05';
+  const firstResult=firstExample?.querySelector('.formula:last-child');if(firstResult)firstResult.dataset.audioTrack='06';
   document.querySelectorAll('.pair-definition .formula').forEach(formula=>{if(formula.textContent.trim().toLowerCase()==='griglia di ruffini')formula.remove()});
   const controls=document.getElementById('labControls'),results=document.getElementById('labResults'),steps=document.getElementById('labSteps');if(!controls||!results||!steps)return;
   const input=(id,value,label)=>`<label>${label}<input id="ruf4-${id}" type="number" value="${value}" step="1" aria-label="${label}"></label>`;
