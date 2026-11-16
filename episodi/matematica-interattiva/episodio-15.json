@@ -4,50 +4,50 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Frazione algebrica. Una frazione algebrica ha polinomi al numeratore e al denominatore. Valgono le proprietà delle frazioni numeriche.",
-      "speech": "Frazione algebrica. Una frazione algebrica ha polinomi al numeratore e al denominatore. Valgono le proprietà delle frazioni numeriche.",
+      "text": "Frazione algebrica. È una frazione che ha al numeratore e al denominatore dei polinomi, con denominatore diverso da zero.",
+      "speech": "Frazione algebrica. È una frazione che ha al numeratore e al denominatore dei polinomi, con denominatore diverso da zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Frazione algebrica"
     },
     {
-      "text": "Condizioni di esistenza. Si scompone il denominatore e si pone ogni fattore diverso da zero. La frazione perde significato dove il denominatore si annulla.",
-      "speech": "Condizioni di esistenza. Si scompone il denominatore e si pone ogni fattore diverso da zero. La frazione perde significato dove il denominatore si annulla.",
+      "text": "Condizioni di esistenza. Sono i valori delle lettere per cui il denominatore è diverso da zero.",
+      "speech": "Condizioni di esistenza. Sono i valori delle lettere per cui il denominatore è diverso da zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Condizioni di esistenza"
     },
     {
-      "text": "Quando una frazione si annulla. La frazione si annulla se il numeratore è zero e il denominatore no. Si controlla sempre la condizione di esistenza.",
-      "speech": "Quando una frazione si annulla. La frazione si annulla se il numeratore è zero e il denominatore no. Si controlla sempre la condizione di esistenza.",
+      "text": "Quando una frazione si annulla. Una frazione si annulla quando il numeratore è zero, all'interno delle condizioni di esistenza.",
+      "speech": "Quando una frazione si annulla. Una frazione si annulla quando il numeratore è zero, all'interno delle condizioni di esistenza.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quando una frazione si annulla"
     },
     {
-      "text": "Semplificazione. Si scompongono numeratore e denominatore, poi si semplificano i fattori comuni, considerando verificate le condizioni di esistenza.",
-      "speech": "Semplificazione. Si scompongono numeratore e denominatore, poi si semplificano i fattori comuni, considerando verificate le condizioni di esistenza.",
+      "text": "Semplificazione. Si scompongono numeratore e denominatore e si semplificano i fattori comuni.",
+      "speech": "Semplificazione. Si scompongono numeratore e denominatore e si semplificano i fattori comuni.",
       "screen": "Definizioni",
       "purpose": "Definizione: Semplificazione"
     },
     {
-      "text": "Somma di frazioni algebriche. Si scompongono i denominatori, si calcola il minimo comune multiplo e si sommano i numeratori.",
-      "speech": "Somma di frazioni algebriche. Si scompongono i denominatori, si calcola il minimo comune multiplo e si sommano i numeratori.",
+      "text": "Somma di frazioni algebriche. Si riducono le frazioni allo stesso denominatore, il minimo comune multiplo.",
+      "speech": "Somma di frazioni algebriche. Si riducono le frazioni allo stesso denominatore, il minimo comune multiplo.",
       "screen": "Definizioni",
       "purpose": "Definizione: Somma di frazioni algebriche"
     },
     {
-      "text": "Moltiplicazione. Si scompongono i polinomi, si semplificano i fattori comuni e si moltiplicano i fattori rimasti.",
-      "speech": "Moltiplicazione. Si scompongono i polinomi, si semplificano i fattori comuni e si moltiplicano i fattori rimasti.",
+      "text": "Moltiplicazione. Si scompone, si semplifica e si moltiplicano i fattori rimasti.",
+      "speech": "Moltiplicazione. Si scompone, si semplifica e si moltiplicano i fattori rimasti.",
       "screen": "Definizioni",
       "purpose": "Definizione: Moltiplicazione"
     },
     {
-      "text": "Divisione. Si scompone, si trasforma la divisione in moltiplicazione per il reciproco della seconda frazione e si semplifica.",
-      "speech": "Divisione. Si scompone, si trasforma la divisione in moltiplicazione per il reciproco della seconda frazione e si semplifica.",
+      "text": "Divisione. Si moltiplica la prima frazione per il reciproco della seconda.",
+      "speech": "Divisione. Si moltiplica la prima frazione per il reciproco della seconda.",
       "screen": "Definizioni",
       "purpose": "Definizione: Divisione"
     },
     {
-      "text": "Potenza. Si elevano alla potenza il numeratore e il denominatore della frazione.",
-      "speech": "Potenza. Si elevano alla potenza il numeratore e il denominatore della frazione.",
+      "text": "Potenza. Si elevano a quella potenza il numeratore e il denominatore.",
+      "speech": "Potenza. Si elevano a quella potenza il numeratore e il denominatore.",
       "screen": "Definizioni",
       "purpose": "Definizione: Potenza"
     },
