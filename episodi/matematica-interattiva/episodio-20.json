@@ -4,64 +4,70 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Definizione di ellisse. L'ellisse è il luogo geometrico dei punti del piano tali che la somma delle distanze da due punti fissi, detti fuochi, è costante. Per esempio: Pi effe uno, più pi effe due, è uguale a due a.",
-      "speech": "Definizione di ellisse. L'ellisse è il luogo geometrico dei punti del piano tali che la somma delle distanze da due punti fissi, detti fuochi, è costante. Per esempio: Pi effe uno, più pi effe due, è uguale a due a.",
+      "text": "Definizione di ellisse. Studiamo l’ellisse, una curva chiusa e schiacciata che descrive, per esempio, le orbite dei pianeti. L’ellisse è formata dai punti del piano per cui la somma delle distanze da due punti fissi, i fuochi, è sempre la stessa. Questa somma costante si indica con due a, ed è maggiore della distanza tra i fuochi.",
+      "speech": "Definizione di ellisse. Studiamo l’ellisse, una curva chiusa e schiacciata che descrive, per esempio, le orbite dei pianeti. L’ellisse è formata dai punti del piano per cui la somma delle distanze da due punti fissi, i fuochi, è sempre la stessa. Questa somma costante si indica con due a, ed è maggiore della distanza tra i fuochi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Definizione di ellisse"
     },
     {
-      "text": "Equazione canonica e parametri. L'ellisse di centro l'origine ha un'equazione con i semiassi a e b e la semidistanza focale c. Per esempio: Ics alla seconda fratto venticinque, più ipsilon alla seconda fratto nove, uguale a uno.",
-      "speech": "Equazione canonica e parametri. L'ellisse di centro l'origine ha un'equazione con i semiassi a e b e la semidistanza focale c. Per esempio: __X__ alla seconda fratto venticinque, più ipsilon alla seconda fratto nove, uguale a uno.",
+      "text": "La formula dice che, per ogni punto P dell’ellisse, la distanza dal primo fuoco più la distanza dal secondo fuoco è uguale a due a.",
+      "speech": "La formula dice che, per ogni punto pi dell’ellisse, la distanza dal primo fuoco più la distanza dal secondo fuoco è uguale a due a.",
+      "screen": "Definizione di ellisse",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo verificare che il punto P, di coordinate zero e tre, appartiene all’ellisse con fuochi in meno quattro e zero e in quattro e zero, e con somma costante dieci. Calcoliamo la distanza di P dal primo fuoco: radice di sedici più nove, cioè cinque.",
+      "speech": "Vogliamo verificare che il punto pi, di coordinate zero e tre, appartiene all’ellisse con fuochi in meno quattro e zero e in quattro e zero, e con somma costante dieci. Calcoliamo la distanza di pi dal primo fuoco: radice di sedici più nove, cioè cinque.",
+      "screen": "Definizione di ellisse",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La distanza dal secondo fuoco è ancora la radice di sedici più nove, cioè cinque.",
+      "speech": "La distanza dal secondo fuoco è ancora la radice di sedici più nove, cioè cinque.",
+      "screen": "Definizione di ellisse",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La somma delle due distanze è dieci, proprio uguale a due a: il punto P appartiene all’ellisse.",
+      "speech": "La somma delle due distanze è dieci, proprio uguale a due a: il punto pi appartiene all’ellisse.",
+      "screen": "Definizione di ellisse",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Equazione canonica e parametri. Vediamo l’equazione dell’ellisse con centro nell’origine e come si leggono i suoi elementi. Se i fuochi sono sull’asse ics, l’equazione è: ics alla seconda fratto a alla seconda, più ipsilon alla seconda fratto bi alla seconda, uguale a uno, con a maggiore di bi. A è il semiasse maggiore e bi il semiasse minore. I fuochi hanno ascissa più o meno ci, con ci alla seconda uguale ad a alla seconda meno bi alla seconda. L’eccentricità, ci fratto a, è compresa tra zero e uno e misura quanto l’ellisse è schiacciata.",
+      "speech": "Equazione canonica e parametri. Vediamo l’equazione dell’ellisse con centro nell’origine e come si leggono i suoi elementi. Se i fuochi sono sull’asse __X__, l’equazione è: __X__ alla seconda fratto a alla seconda, più ipsilon alla seconda fratto bi alla seconda, uguale a uno, con a maggiore di bi. a è il semiasse maggiore e bi il semiasse minore. I fuochi hanno ascissa più o meno ci, con ci alla seconda uguale ad a alla seconda meno bi alla seconda. L’eccentricità, ci fratto a, è compresa tra zero e uno e misura quanto l’ellisse è schiacciata.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione canonica e parametri"
     },
     {
-      "text": "La scheda dice: la somma delle distanze di un punto dai due fuochi è costante, ed è uguale a due a.",
-      "speech": "La scheda dice: la somma delle distanze di un punto dai due fuochi è costante, ed è uguale a due a.",
-      "screen": "Definizione di ellisse",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "Passaggio uno: riconosco i due fuochi, effe uno ed effe due.",
-      "speech": "Passaggio uno: riconosco i due fuochi, effe uno ed effe due.",
-      "screen": "Definizione di ellisse",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Passaggio due: da ogni punto pi misuro le due distanze dai fuochi.",
-      "speech": "Passaggio due: da ogni punto pi misuro le due distanze dai fuochi.",
-      "screen": "Definizione di ellisse",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Passaggio tre: la somma è sempre la stessa: due a.",
-      "speech": "Passaggio tre: la somma è sempre la stessa: due a.",
-      "screen": "Definizione di ellisse",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "La scheda dice: con a maggiore di bi i fuochi sono sull'asse ics. Vale a alla seconda uguale a bi alla seconda più ci alla seconda.",
-      "speech": "La scheda dice: con a maggiore di bi i fuochi sono sull'asse __X__. Vale a alla seconda uguale a bi alla seconda più ci alla seconda.",
+      "text": "Nel riquadro trovi l’equazione canonica, la relazione tra a, bi e ci, e la formula dell’eccentricità.",
+      "speech": "Nel riquadro trovi l’equazione canonica, la relazione tra a, bi e ci, e la formula dell’eccentricità.",
       "screen": "Equazione canonica e parametri",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Passaggio uno: leggo i denominatori. A è cinque, bi è tre.",
-      "speech": "Passaggio uno: leggo i denominatori. A è cinque, bi è tre.",
+      "text": "Vogliamo semiassi, vertici, fuochi ed eccentricità dell’ellisse ics alla seconda fratto venticinque più ipsilon alla seconda fratto nove uguale a uno. Leggiamo i denominatori: a alla seconda è venticinque, quindi a vale cinque; bi alla seconda è nove, quindi bi vale tre.",
+      "speech": "Vogliamo semiassi, vertici, fuochi ed eccentricità dell’ellisse __X__ alla seconda fratto venticinque più ipsilon alla seconda fratto nove uguale a uno. Leggiamo i denominatori: a alla seconda è venticinque, quindi a vale cinque; bi alla seconda è nove, quindi bi vale tre.",
       "screen": "Equazione canonica e parametri",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Passaggio due: ci alla seconda è venticinque meno nove, cioè sedici. Ci è quattro.",
-      "speech": "Passaggio due: ci alla seconda è venticinque meno nove, cioè sedici. Ci è quattro.",
+      "text": "I vertici sull’asse ics sono più e meno cinque; quelli sull’asse ipsilon sono più e meno tre.",
+      "speech": "I vertici sull’asse __X__ sono più e meno cinque; quelli sull’asse ipsilon sono più e meno tre.",
       "screen": "Equazione canonica e parametri",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Passaggio tre: l'eccentricità è ci fratto a: quattro quinti.",
-      "speech": "Passaggio tre: l'eccentricità è ci fratto a: quattro quinti.",
+      "text": "Calcoliamo ci alla seconda: venticinque meno nove fa sedici, quindi ci vale quattro. I fuochi sono in più e meno quattro sull’asse ics.",
+      "speech": "Calcoliamo ci alla seconda: venticinque meno nove fa sedici, quindi ci vale quattro. I fuochi sono in più e meno quattro sull’asse __X__.",
       "screen": "Equazione canonica e parametri",
       "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "L’eccentricità è ci fratto a: quattro quinti, cioè zero virgola otto.",
+      "speech": "L’eccentricità è ci fratto a: quattro quinti, cioè zero virgola otto.",
+      "screen": "Equazione canonica e parametri",
+      "purpose": "Esempio, passaggio 4"
     },
     {
       "text": "Ora tocca a te, con tre domande. Prima di rispondere, guarda quale semiasse è maggiore.",
@@ -70,14 +76,14 @@
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i cursori e cambia a e bi. Osserva come cambiano i fuochi e l'eccentricità.",
-      "speech": "Questo è il laboratorio. Muovi i cursori e cambia a e bi. Osserva come cambiano i fuochi e l'eccentricità.",
+      "text": "Questo è il laboratorio. Cambia i valori di a e di bi e osserva come cambiano i fuochi e l’eccentricità.",
+      "speech": "Questo è il laboratorio. Cambia i valori di a e di bi e osserva come cambiano i fuochi e l’eccentricità.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Ricorda: nell'ellisse la somma delle distanze dai fuochi è costante. Con a maggiore di bi, a alla seconda è bi alla seconda più ci alla seconda.",
-      "speech": "Ricorda: nell'ellisse la somma delle distanze dai fuochi è costante. Con a maggiore di bi, a alla seconda è bi alla seconda più ci alla seconda.",
+      "text": "Ricorda: nell’ellisse la somma delle distanze dai fuochi è costante. Se a è maggiore di bi, ci alla seconda è a alla seconda meno bi alla seconda.",
+      "speech": "Ricorda: nell’ellisse la somma delle distanze dai fuochi è costante. Se a è maggiore di bi, ci alla seconda è a alla seconda meno bi alla seconda.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }

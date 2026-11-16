@@ -4,184 +4,244 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Definizione di circonferenza. La circonferenza è il luogo geometrico dei punti del piano equidistanti da un punto fisso ci detto centro. Per esempio: ics alla seconda più ipsilon alla seconda meno quattro ics meno sei ipsilon meno tre è uguale a zero.",
-      "speech": "Definizione di circonferenza. La circonferenza è il luogo geometrico dei punti del piano equidistanti da un punto fisso ci detto centro. Per esempio: __X__ alla seconda più ipsilon alla seconda meno quattro __X__ meno sei ipsilon meno tre è uguale a zero.",
+      "text": "Definizione di circonferenza. Studiamo la circonferenza, l’insieme dei punti che stanno tutti alla stessa distanza da un centro. La circonferenza è formata dai punti del piano che hanno distanza erre da un punto fisso C, il centro; erre è il raggio. Con la formula della distanza tra due punti si ottiene la sua equazione. Sviluppando i quadrati, si arriva alla forma generale: ics alla seconda più ipsilon alla seconda più a ics più bi ipsilon più ci uguale a zero.",
+      "speech": "Definizione di circonferenza. Studiamo la circonferenza, l’insieme dei punti che stanno tutti alla stessa distanza da un centro. La circonferenza è formata dai punti del piano che hanno distanza erre da un punto fisso ci, il centro; erre è il raggio. Con la formula della distanza tra due punti si ottiene la sua equazione. Sviluppando i quadrati, si arriva alla forma generale: __X__ alla seconda più ipsilon alla seconda più a __X__ più bi ipsilon più ci uguale a zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Definizione di circonferenza"
     },
     {
-      "text": "Centro e raggio. Si ricavano dai coefficienti a, b, c. Per esempio: ics alla seconda più ipsilon alla seconda meno quattro ics meno sei ipsilon meno tre è uguale a zero.",
-      "speech": "Centro e raggio. Si ricavano dai coefficienti a, b, c. Per esempio: __X__ alla seconda più ipsilon alla seconda meno quattro __X__ meno sei ipsilon meno tre è uguale a zero.",
+      "text": "Nel riquadro, sopra c’è l’equazione con centro e raggio, sotto la forma generale. Alfa e beta sono le coordinate del centro.",
+      "speech": "Nel riquadro, sopra c’è l’equazione con centro e raggio, sotto la forma generale. Alfa e beta sono le coordinate del centro.",
+      "screen": "Definizione di circonferenza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo l’equazione della circonferenza di centro C, di coordinate due e tre, e raggio quattro. Sostituiamo nella formula: ics meno due, alla seconda, più ipsilon meno tre, alla seconda, uguale a sedici.",
+      "speech": "Vogliamo l’equazione della circonferenza di centro ci, di coordinate due e tre, e raggio quattro. Sostituiamo nella formula: __X__ meno due, alla seconda, più ipsilon meno tre, alla seconda, uguale a sedici.",
+      "screen": "Definizione di circonferenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sviluppiamo i due quadrati: ics alla seconda meno quattro ics più quattro, più ipsilon alla seconda meno sei ipsilon più nove, uguale a sedici.",
+      "speech": "Sviluppiamo i due quadrati: __X__ alla seconda meno quattro __X__ più quattro, più ipsilon alla seconda meno sei ipsilon più nove, uguale a sedici.",
+      "screen": "Definizione di circonferenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Portiamo sedici al primo membro e riordiniamo i termini.",
+      "speech": "Portiamo sedici al primo membro e riordiniamo i termini.",
+      "screen": "Definizione di circonferenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Quattro più nove meno sedici fa meno tre. La forma generale è: ics alla seconda più ipsilon alla seconda meno quattro ics meno sei ipsilon meno tre uguale a zero.",
+      "speech": "Quattro più nove meno sedici fa meno tre. La forma generale è: __X__ alla seconda più ipsilon alla seconda meno quattro __X__ meno sei ipsilon meno tre uguale a zero.",
+      "screen": "Definizione di circonferenza",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Centro e raggio. Facciamo il percorso inverso: dall’equazione generale ricaviamo il centro e il raggio. L’ascissa del centro, alfa, è meno a mezzi; l’ordinata, beta, è meno bi mezzi. Il raggio è la radice quadrata di alfa alla seconda più beta alla seconda meno ci. L’equazione rappresenta una circonferenza solo se questa quantità sotto radice è positiva.",
+      "speech": "Centro e raggio. Facciamo il percorso inverso: dall’equazione generale ricaviamo il centro e il raggio. L’ascissa del centro, alfa, è meno a mezzi; l’ordinata, beta, è meno bi mezzi. Il raggio è la radice quadrata di alfa alla seconda più beta alla seconda meno ci. L’equazione rappresenta una circonferenza solo se questa quantità sotto radice è positiva.",
       "screen": "Definizioni",
       "purpose": "Definizione: Centro e raggio"
     },
     {
-      "text": "Circonferenze particolari. Sono circonferenze con a, b o c uguali a zero. Per esempio: ics alla seconda più ipsilon alla seconda meno nove è uguale a zero.",
-      "speech": "Circonferenze particolari. Sono circonferenze con a, b o c uguali a zero. Per esempio: __X__ alla seconda più ipsilon alla seconda meno nove è uguale a zero.",
+      "text": "Nel riquadro, sopra le coordinate del centro, sotto la formula del raggio.",
+      "speech": "Nel riquadro, sopra le coordinate del centro, sotto la formula del raggio.",
+      "screen": "Centro e raggio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo centro e raggio della circonferenza ics alla seconda più ipsilon alla seconda meno quattro ics più due ipsilon meno quattro uguale a zero. Leggiamo i coefficienti: a vale meno quattro, bi vale due, ci vale meno quattro.",
+      "speech": "Vogliamo centro e raggio della circonferenza __X__ alla seconda più ipsilon alla seconda meno quattro __X__ più due ipsilon meno quattro uguale a zero. Leggiamo i coefficienti: a vale meno quattro, bi vale due, ci vale meno quattro.",
+      "screen": "Centro e raggio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Le coordinate del centro sono meno a mezzi e meno bi mezzi: alfa vale due e beta vale meno uno. Il centro è C, di coordinate due e meno uno.",
+      "speech": "Le coordinate del centro sono meno a mezzi e meno bi mezzi: alfa vale due e beta vale meno uno. Il centro è ci, di coordinate due e meno uno.",
+      "screen": "Centro e raggio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il raggio è la radice di alfa alla seconda più beta alla seconda meno ci.",
+      "speech": "Il raggio è la radice di alfa alla seconda più beta alla seconda meno ci.",
+      "screen": "Centro e raggio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Due alla seconda fa quattro, meno uno alla seconda fa uno, e meno meno quattro fa più quattro: in totale nove. La radice di nove è tre.",
+      "speech": "Due alla seconda fa quattro, meno uno alla seconda fa uno, e meno meno quattro fa più quattro: in totale nove. La radice di nove è tre.",
+      "screen": "Centro e raggio",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Circonferenze particolari. Alcune circonferenze hanno equazioni più semplici, perché manca qualche coefficiente. Se a è zero, il centro è sull’asse ipsilon; se bi è zero, il centro è sull’asse ics; se ci è zero, la circonferenza passa per l’origine. Se mancano sia a sia bi, l’equazione è ics alla seconda più ipsilon alla seconda uguale a erre alla seconda, e il centro è l’origine.",
+      "speech": "Circonferenze particolari. Alcune circonferenze hanno equazioni più semplici, perché manca qualche coefficiente. Se a è zero, il centro è sull’asse ipsilon; se bi è zero, il centro è sull’asse __X__; se ci è zero, la circonferenza passa per l’origine. Se mancano sia a sia bi, l’equazione è __X__ alla seconda più ipsilon alla seconda uguale a erre alla seconda, e il centro è l’origine.",
       "screen": "Definizioni",
       "purpose": "Definizione: Circonferenze particolari"
     },
     {
-      "text": "Equazione per tre punti. Si trova sostituendo tre punti nell'equazione generica. Per esempio: Tre punti: zero zero, quattro zero, zero quattro.",
-      "speech": "Equazione per tre punti. Si trova sostituendo tre punti nell'equazione generica. Per esempio: Tre punti: zero zero, quattro zero, zero quattro.",
+      "text": "Il riquadro riassume i casi particolari, uno per riga.",
+      "speech": "Il riquadro riassume i casi particolari, uno per riga.",
+      "screen": "Circonferenze particolari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo riconoscere due circonferenze particolari. Nella prima mancano i termini con ics e con ipsilon: portando nove a destra otteniamo ics alla seconda più ipsilon alla seconda uguale a nove.",
+      "speech": "Vogliamo riconoscere due circonferenze particolari. Nella prima mancano i termini con __X__ e con ipsilon: portando nove a destra otteniamo __X__ alla seconda più ipsilon alla seconda uguale a nove.",
+      "screen": "Circonferenze particolari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il centro è l’origine e il raggio è la radice di nove, cioè tre.",
+      "speech": "Il centro è l’origine e il raggio è la radice di nove, cioè tre.",
+      "screen": "Circonferenze particolari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nella seconda, ics alla seconda più ipsilon alla seconda meno sei ics uguale a zero, mancano bi e ci: il centro è sull’asse ics e la circonferenza passa per l’origine.",
+      "speech": "Nella seconda, __X__ alla seconda più ipsilon alla seconda meno sei __X__ uguale a zero, mancano bi e ci: il centro è sull’asse __X__ e la circonferenza passa per l’origine.",
+      "screen": "Circonferenze particolari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Alfa è meno meno sei mezzi, cioè tre, e beta è zero: il centro è tre e zero. Il raggio è la radice di nove, cioè tre.",
+      "speech": "Alfa è meno meno sei mezzi, cioè tre, e beta è zero: il centro è tre e zero. Il raggio è la radice di nove, cioè tre.",
+      "screen": "Circonferenze particolari",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Equazione per tre punti. Vediamo come si trova la circonferenza che passa per tre punti dati. Nella forma generale ci sono tre incognite: a, bi e ci. Per tre punti non allineati passa una sola circonferenza: sostituendo le coordinate dei tre punti si ottengono tre equazioni.",
+      "speech": "Equazione per tre punti. Vediamo come si trova la circonferenza che passa per tre punti dati. Nella forma generale ci sono tre incognite: a, bi e ci. Per tre punti non allineati passa una sola circonferenza: sostituendo le coordinate dei tre punti si ottengono tre equazioni.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione per tre punti"
     },
     {
-      "text": "Retta e circonferenza. Si mette a sistema l'equazione della retta con quella della circonferenza. Il discriminante dell'equazione ottenuta stabilisce il numero dei punti di intersezione.",
-      "speech": "Retta e circonferenza. Si mette a sistema l'equazione della retta con quella della circonferenza. Il discriminante dell'equazione ottenuta stabilisce il numero dei punti di intersezione.",
+      "text": "Ogni punto dà un’equazione: con tre punti otteniamo tre equazioni, tante quante le incognite.",
+      "speech": "Ogni punto dà un’equazione: con tre punti otteniamo tre equazioni, tante quante le incognite.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo la circonferenza che passa per l’origine, per A di coordinate quattro e zero, e per B di coordinate zero e quattro. Sostituiamo l’origine: resta ci uguale a zero.",
+      "speech": "Vogliamo la circonferenza che passa per l’origine, per a di coordinate quattro e zero, e per bi di coordinate zero e quattro. Sostituiamo l’origine: resta ci uguale a zero.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo A: sedici più quattro a uguale a zero, quindi a vale meno quattro.",
+      "speech": "Sostituiamo a: sedici più quattro a uguale a zero, quindi a vale meno quattro.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sostituiamo B: sedici più quattro bi uguale a zero, quindi bi vale meno quattro.",
+      "speech": "Sostituiamo bi: sedici più quattro bi uguale a zero, quindi bi vale meno quattro.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Sostituendo i tre coefficienti otteniamo: ics alla seconda più ipsilon alla seconda meno quattro ics meno quattro ipsilon uguale a zero.",
+      "speech": "Sostituendo i tre coefficienti otteniamo: __X__ alla seconda più ipsilon alla seconda meno quattro __X__ meno quattro ipsilon uguale a zero.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Il centro è due e due, e il raggio è la radice di otto, cioè due radice di due. Nel disegno vedi che la circonferenza passa davvero per i tre punti.",
+      "speech": "Il centro è due e due, e il raggio è la radice di otto, cioè due radice di due. Nel disegno vedi che la circonferenza passa davvero per i tre punti.",
+      "screen": "Equazione per tre punti",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Retta e circonferenza. Studiamo come può essere disposta una retta rispetto a una circonferenza. La retta può tagliarla in due punti, ed è secante; toccarla in un solo punto, ed è tangente; oppure non incontrarla, ed è esterna. Per saperlo si mettono a sistema le due equazioni e si ottiene un’equazione di secondo grado: il segno del discriminante dice quanti sono i punti comuni.",
+      "speech": "Retta e circonferenza. Studiamo come può essere disposta una retta rispetto a una circonferenza. La retta può tagliarla in due punti, ed è secante; toccarla in un solo punto, ed è tangente; oppure non incontrarla, ed è esterna. Per saperlo si mettono a sistema le due equazioni e si ottiene un’equazione di secondo grado: il segno del discriminante dice quanti sono i punti comuni.",
       "screen": "Definizioni",
       "purpose": "Definizione: Retta e circonferenza"
     },
     {
-      "text": "Posizioni reciproche e asse radicale. Due circonferenze possono essere esterne, tangenti, secanti, interne o concentriche. Per esempio: Due circonferenze.",
-      "speech": "Posizioni reciproche e asse radicale. Due circonferenze possono essere esterne, tangenti, secanti, interne o concentriche. Per esempio: Due circonferenze.",
+      "text": "Il riquadro riassume i tre casi. In alternativa si può confrontare la distanza del centro dalla retta con il raggio.",
+      "speech": "Il riquadro riassume i tre casi. In alternativa si può confrontare la distanza del centro dalla retta con il raggio.",
+      "screen": "Retta e circonferenza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo capire come sono disposte la circonferenza ics alla seconda più ipsilon alla seconda uguale a venticinque e la retta ipsilon uguale a ics più uno. Mettiamo a sistema le due equazioni.",
+      "speech": "Vogliamo capire come sono disposte la circonferenza __X__ alla seconda più ipsilon alla seconda uguale a venticinque e la retta ipsilon uguale a __X__ più uno. Mettiamo a sistema le due equazioni.",
+      "screen": "Retta e circonferenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo ics più uno al posto di ipsilon nella prima equazione.",
+      "speech": "Sostituiamo __X__ più uno al posto di ipsilon nella prima equazione.",
+      "screen": "Retta e circonferenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sviluppiamo il quadrato e portiamo venticinque a sinistra: due ics alla seconda più due ics meno ventiquattro uguale a zero.",
+      "speech": "Sviluppiamo il quadrato e portiamo venticinque a sinistra: due __X__ alla seconda più due __X__ meno ventiquattro uguale a zero.",
+      "screen": "Retta e circonferenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Dividiamo tutto per due: ics alla seconda più ics meno dodici uguale a zero.",
+      "speech": "Dividiamo tutto per due: __X__ alla seconda più __X__ meno dodici uguale a zero.",
+      "screen": "Retta e circonferenza",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Il discriminante è uno più quarantotto, cioè quarantanove: è positivo, quindi la retta è secante.",
+      "speech": "Il discriminante è uno più quarantotto, cioè quarantanove: è positivo, quindi la retta è secante.",
+      "screen": "Retta e circonferenza",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Con la formula risolutiva, ics è uguale a meno uno più o meno sette, fratto due: ics vale tre oppure meno quattro. Con ipsilon uguale a ics più uno troviamo i punti tre e quattro, meno quattro e meno tre.",
+      "speech": "Con la formula risolutiva, __X__ è uguale a meno uno più o meno sette, fratto due: __X__ vale tre oppure meno quattro. Con ipsilon uguale a __X__ più uno troviamo i punti tre e quattro, meno quattro e meno tre.",
+      "screen": "Retta e circonferenza",
+      "purpose": "Esempio, passaggio 6"
+    },
+    {
+      "text": "Posizioni reciproche e asse radicale. Infine confrontiamo due circonferenze tra loro. Due circonferenze possono essere esterne, tangenti, secanti, una interna all’altra oppure concentriche. Per capirlo si confronta la distanza tra i centri con la somma e con la differenza dei raggi. Se non sono concentriche, sottraendo membro a membro le due equazioni si ottiene una retta, l’asse radicale: quando le circonferenze sono secanti, passa per i loro punti comuni.",
+      "speech": "Posizioni reciproche e asse radicale. Infine confrontiamo due circonferenze tra loro. Due circonferenze possono essere esterne, tangenti, secanti, una interna all’altra oppure concentriche. Per capirlo si confronta la distanza tra i centri con la somma e con la differenza dei raggi. Se non sono concentriche, sottraendo membro a membro le due equazioni si ottiene una retta, l’asse radicale: quando le circonferenze sono secanti, passa per i loro punti comuni.",
       "screen": "Definizioni",
       "purpose": "Definizione: Posizioni reciproche e asse radicale"
     },
     {
-      "text": "la circonferenza ha centro ci e raggio erre. L'equazione si scrive in due forme.",
-      "speech": "la circonferenza ha centro ci e raggio erre. L'equazione si scrive in due forme.",
-      "screen": "Definizione di circonferenza",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco la forma generale.",
-      "speech": "riconosco la forma generale.",
-      "screen": "Definizione di circonferenza",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, a è meno quattro, bi è meno sei, ci è meno tre.",
-      "speech": "Quindi, a è meno quattro, bi è meno sei, ci è meno tre.",
-      "screen": "Definizione di circonferenza",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, con questi coefficienti posso trovare il centro e il raggio.",
-      "speech": "Infine, con questi coefficienti posso trovare il centro e il raggio.",
-      "screen": "Definizione di circonferenza",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "alfa è meno a mezzi, beta è meno bi mezzi. Il raggio è radice di alfa alla seconda più beta alla seconda meno ci.",
-      "speech": "alfa è meno a mezzi, beta è meno bi mezzi. Il raggio è radice di alfa alla seconda più beta alla seconda meno ci.",
-      "screen": "Centro e raggio",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "calcolo il centro. Alfa è due, beta è tre.",
-      "speech": "calcolo il centro. Alfa è due, beta è tre.",
-      "screen": "Centro e raggio",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, calcolo sotto radice. Quattro più nove più tre fa sedici.",
-      "speech": "Quindi, calcolo sotto radice. Quattro più nove più tre fa sedici.",
-      "screen": "Centro e raggio",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, il raggio è radice di sedici, cioè quattro.",
-      "speech": "Infine, il raggio è radice di sedici, cioè quattro.",
-      "screen": "Centro e raggio",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "con a zero, centro sull'asse ipsilon. Con bi zero, centro sull'asse ics. Con ci zero, passa per l'origine.",
-      "speech": "con a zero, centro sull'asse ipsilon. Con bi zero, centro sull'asse __X__. Con ci zero, passa per l'origine.",
-      "screen": "Circonferenze particolari",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco che a e bi sono zero.",
-      "speech": "riconosco che a e bi sono zero.",
-      "screen": "Circonferenze particolari",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, cerco il caso nella tabella.",
-      "speech": "Quindi, cerco il caso nella tabella.",
-      "screen": "Circonferenze particolari",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, il centro è nell'origine e il raggio è tre.",
-      "speech": "Infine, il centro è nell'origine e il raggio è tre.",
-      "screen": "Circonferenze particolari",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "servono tre condizioni. Con il metodo algebrico si risolve un sistema; con quello geometrico si ricavano centro e raggio.",
-      "speech": "servono tre condizioni. Con il metodo algebrico si risolve un sistema; con quello geometrico si ricavano centro e raggio.",
-      "screen": "Equazione per tre punti",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "sostituisco i tre punti e ottengo tre equazioni.",
-      "speech": "sostituisco i tre punti e ottengo tre equazioni.",
-      "screen": "Equazione per tre punti",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, risolvo. A e bi sono meno quattro, ci è zero.",
-      "speech": "Quindi, risolvo. A e bi sono meno quattro, ci è zero.",
-      "screen": "Equazione per tre punti",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo l'equazione della circonferenza.",
-      "speech": "Infine, scrivo l'equazione della circonferenza.",
-      "screen": "Equazione per tre punti",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "Nel sistema tra retta e circonferenza: con due soluzioni reali distinte la retta è secante; con una soluzione doppia è tangente; senza soluzioni reali è esterna.",
-      "speech": "Nel sistema tra retta e circonferenza: con due soluzioni reali distinte la retta è secante; con una soluzione doppia è tangente; senza soluzioni reali è esterna.",
-      "screen": "Retta e circonferenza",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "sostituisco ipsilon uguale a due nella circonferenza.",
-      "speech": "sostituisco ipsilon uguale a due nella circonferenza.",
-      "screen": "Retta e circonferenza",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, ottengo ics alla seconda uguale a zero.",
-      "speech": "Quindi, ottengo __X__ alla seconda uguale a zero.",
-      "screen": "Retta e circonferenza",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, il sistema ha una soluzione doppia. Retta e circonferenza hanno un solo punto in comune, quindi la retta è tangente.",
-      "speech": "Infine, il sistema ha una soluzione doppia. Retta e circonferenza hanno un solo punto in comune, quindi la retta è tangente.",
-      "screen": "Retta e circonferenza",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "l'asse radicale è sempre ortogonale al segmento che unisce i centri, e permette di trovare i punti di intersezione.",
-      "speech": "l'asse radicale è sempre ortogonale al segmento che unisce i centri, e permette di trovare i punti di intersezione.",
+      "text": "Nel riquadro, sopra il caso delle circonferenze esterne, poi quello delle secanti; sotto, come si trova l’asse radicale.",
+      "speech": "Nel riquadro, sopra il caso delle circonferenze esterne, poi quello delle secanti; sotto, come si trova l’asse radicale.",
       "screen": "Posizioni reciproche e asse radicale",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "riconosco due circonferenze non concentriche.",
-      "speech": "riconosco due circonferenze non concentriche.",
+      "text": "Vogliamo la posizione reciproca delle circonferenze ics alla seconda più ipsilon alla seconda meno quattro uguale a zero, e ics alla seconda più ipsilon alla seconda meno quattro ics uguale a zero, e il loro asse radicale. La prima ha centro nell’origine e raggio due; la seconda ha centro due e zero e raggio due.",
+      "speech": "Vogliamo la posizione reciproca delle circonferenze __X__ alla seconda più ipsilon alla seconda meno quattro uguale a zero, e __X__ alla seconda più ipsilon alla seconda meno quattro __X__ uguale a zero, e il loro asse radicale. La prima ha centro nell’origine e raggio due; la seconda ha centro due e zero e raggio due.",
       "screen": "Posizioni reciproche e asse radicale",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Quindi, l'asse radicale è ortogonale al segmento dei centri.",
-      "speech": "Quindi, l'asse radicale è ortogonale al segmento dei centri.",
+      "text": "I due centri sono sull’asse ics e distano due.",
+      "speech": "I due centri sono sull’asse __X__ e distano due.",
       "screen": "Posizioni reciproche e asse radicale",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, a sistema con una circonferenza, dà i punti di intersezione.",
-      "speech": "Infine, a sistema con una circonferenza, dà i punti di intersezione.",
+      "text": "La distanza tra i centri è compresa tra la differenza dei raggi, zero, e la loro somma, quattro: le circonferenze sono secanti.",
+      "speech": "La distanza tra i centri è compresa tra la differenza dei raggi, zero, e la loro somma, quattro: le circonferenze sono secanti.",
       "screen": "Posizioni reciproche e asse radicale",
       "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Sottraiamo membro a membro le due equazioni: i termini di secondo grado si eliminano e resta quattro ics meno quattro uguale a zero, cioè ics uguale a uno. È l’asse radicale.",
+      "speech": "Sottraiamo membro a membro le due equazioni: i termini di secondo grado si eliminano e resta quattro __X__ meno quattro uguale a zero, cioè __X__ uguale a uno. È l’asse radicale.",
+      "screen": "Posizioni reciproche e asse radicale",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Sostituendo ics uguale a uno nella prima equazione troviamo ipsilon alla seconda uguale a tre: ipsilon vale più o meno radice di tre. I due punti comuni stanno proprio sull’asse radicale.",
+      "speech": "Sostituendo __X__ uguale a uno nella prima equazione troviamo ipsilon alla seconda uguale a tre: ipsilon vale più o meno radice di tre. I due punti comuni stanno proprio sull’asse radicale.",
+      "screen": "Posizioni reciproche e asse radicale",
+      "purpose": "Esempio, passaggio 5"
     },
     {
       "text": "Ora tocca a te, con tre domande. Prima di rispondere, leggi a, bi e ci con il loro segno.",
@@ -190,14 +250,14 @@
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti. Osserva come cambiano il centro e il raggio.",
-      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti. Osserva come cambiano il centro e il raggio.",
+      "text": "Questo è il laboratorio. Cambia i coefficienti e osserva come cambiano il centro e il raggio della circonferenza.",
+      "speech": "Questo è il laboratorio. Cambia i coefficienti e osserva come cambiano il centro e il raggio della circonferenza.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Ricorda: alfa è meno a mezzi, beta è meno bi mezzi. Il raggio è radice di alfa alla seconda, più beta alla seconda, meno ci.",
-      "speech": "Ricorda: alfa è meno a mezzi, beta è meno bi mezzi. Il raggio è radice di alfa alla seconda, più beta alla seconda, meno ci.",
+      "text": "Ricorda: alfa è meno a mezzi, beta è meno bi mezzi, e il raggio è la radice di alfa alla seconda più beta alla seconda meno ci.",
+      "speech": "Ricorda: alfa è meno a mezzi, beta è meno bi mezzi, e il raggio è la radice di alfa alla seconda più beta alla seconda meno ci.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }
