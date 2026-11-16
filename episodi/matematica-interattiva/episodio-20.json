@@ -5,13 +5,13 @@
   "sentences": [
     {
       "text": "Definizione di ellisse. Studiamo l’ellisse, una curva chiusa e schiacciata che descrive, per esempio, le orbite dei pianeti. L’ellisse è formata dai punti del piano per cui la somma delle distanze da due punti fissi, i fuochi, è sempre la stessa. Questa somma costante si indica con due a, ed è maggiore della distanza tra i fuochi.",
-      "speech": "Definizione di ellisse. Studiamo l’ellisse, una curva chiusa e schiacciata che descrive, per esempio, le orbite dei pianeti. L’ellisse è formata dai punti del piano per cui la somma delle distanze da due punti fissi, i fuochi, è sempre la stessa. Questa somma costante si indica con due a, ed è maggiore della distanza tra i fuochi.",
+      "speech": "Definizione di ellisse. Studiamo l’ellisse, una curva chiusa e schiacciata che descrive, per esempio, le orbite dei pianeti. L’ellisse è formata dai punti del piano per cui la somma delle distanze da due punti fissi, i fuochi, è sempre la stessa. Questa somma costante si indica con due à, ed è maggiore della distanza tra i fuochi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Definizione di ellisse"
     },
     {
       "text": "La formula dice che, per ogni punto P dell’ellisse, la distanza dal primo fuoco più la distanza dal secondo fuoco è uguale a due a.",
-      "speech": "La formula dice che, per ogni punto pi dell’ellisse, la distanza dal primo fuoco più la distanza dal secondo fuoco è uguale a due a.",
+      "speech": "La formula dice che, per ogni punto pi dell’ellisse, la distanza dal primo fuoco più la distanza dal secondo fuoco è uguale a due à.",
       "screen": "Definizione di ellisse",
       "purpose": "Spiegazione visiva: formula"
     },
@@ -29,25 +29,25 @@
     },
     {
       "text": "La somma delle due distanze è dieci, proprio uguale a due a: il punto P appartiene all’ellisse.",
-      "speech": "La somma delle due distanze è dieci, proprio uguale a due a: il punto pi appartiene all’ellisse.",
+      "speech": "La somma delle due distanze è dieci, proprio uguale a due à: il punto pi appartiene all’ellisse.",
       "screen": "Definizione di ellisse",
       "purpose": "Esempio, passaggio 3"
     },
     {
       "text": "Equazione canonica e parametri. Vediamo l’equazione dell’ellisse con centro nell’origine e come si leggono i suoi elementi. Se i fuochi sono sull’asse ics, l’equazione è: ics alla seconda fratto a alla seconda, più ipsilon alla seconda fratto bi alla seconda, uguale a uno, con a maggiore di bi. A è il semiasse maggiore e bi il semiasse minore. I fuochi hanno ascissa più o meno ci, con ci alla seconda uguale ad a alla seconda meno bi alla seconda. L’eccentricità, ci fratto a, è compresa tra zero e uno e misura quanto l’ellisse è schiacciata.",
-      "speech": "Equazione canonica e parametri. Vediamo l’equazione dell’ellisse con centro nell’origine e come si leggono i suoi elementi. Se i fuochi sono sull’asse __X__, l’equazione è: __X__ alla seconda fratto a alla seconda, più ipsilon alla seconda fratto bi alla seconda, uguale a uno, con a maggiore di bi. a è il semiasse maggiore e bi il semiasse minore. I fuochi hanno ascissa più o meno ci, con ci alla seconda uguale ad a alla seconda meno bi alla seconda. L’eccentricità, ci fratto a, è compresa tra zero e uno e misura quanto l’ellisse è schiacciata.",
+      "speech": "Equazione canonica e parametri. Vediamo l’equazione dell’ellisse con centro nell’origine e come si leggono i suoi elementi. Se i fuochi sono sull’asse __X__, l’equazione è: __X__ alla seconda fratto à alla seconda, più ipsilon alla seconda fratto bi alla seconda, uguale a uno, con à maggiore di bi. à è il semiasse maggiore e bi il semiasse minore. I fuochi hanno ascissa più o meno ci, con ci alla seconda uguale a à alla seconda meno bi alla seconda. L’eccentricità, ci fratto à, è compresa tra zero e uno e misura quanto l’ellisse è schiacciata.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione canonica e parametri"
     },
     {
       "text": "Nel riquadro trovi l’equazione canonica, la relazione tra a, bi e ci, e la formula dell’eccentricità.",
-      "speech": "Nel riquadro trovi l’equazione canonica, la relazione tra a, bi e ci, e la formula dell’eccentricità.",
+      "speech": "Nel riquadro trovi l’equazione canonica, la relazione tra à, bi e ci, e la formula dell’eccentricità.",
       "screen": "Equazione canonica e parametri",
       "purpose": "Spiegazione visiva: formula"
     },
     {
       "text": "Vogliamo semiassi, vertici, fuochi ed eccentricità dell’ellisse ics alla seconda fratto venticinque più ipsilon alla seconda fratto nove uguale a uno. Leggiamo i denominatori: a alla seconda è venticinque, quindi a vale cinque; bi alla seconda è nove, quindi bi vale tre.",
-      "speech": "Vogliamo semiassi, vertici, fuochi ed eccentricità dell’ellisse __X__ alla seconda fratto venticinque più ipsilon alla seconda fratto nove uguale a uno. Leggiamo i denominatori: a alla seconda è venticinque, quindi a vale cinque; bi alla seconda è nove, quindi bi vale tre.",
+      "speech": "Vogliamo semiassi, vertici, fuochi ed eccentricità dell’ellisse __X__ alla seconda fratto venticinque più ipsilon alla seconda fratto nove uguale a uno. Leggiamo i denominatori: à alla seconda è venticinque, quindi à vale cinque; bi alla seconda è nove, quindi bi vale tre.",
       "screen": "Equazione canonica e parametri",
       "purpose": "Esempio, passaggio 1"
     },
@@ -65,7 +65,7 @@
     },
     {
       "text": "L’eccentricità è ci fratto a: quattro quinti, cioè zero virgola otto.",
-      "speech": "L’eccentricità è ci fratto a: quattro quinti, cioè zero virgola otto.",
+      "speech": "L’eccentricità è ci fratto à: quattro quinti, cioè zero virgola otto.",
       "screen": "Equazione canonica e parametri",
       "purpose": "Esempio, passaggio 4"
     },
@@ -77,13 +77,13 @@
     },
     {
       "text": "Questo è il laboratorio. Cambia i valori di a e di bi e osserva come cambiano i fuochi e l’eccentricità.",
-      "speech": "Questo è il laboratorio. Cambia i valori di a e di bi e osserva come cambiano i fuochi e l’eccentricità.",
+      "speech": "Questo è il laboratorio. Cambia i valori di à e di bi e osserva come cambiano i fuochi e l’eccentricità.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
       "text": "Ricorda: nell’ellisse la somma delle distanze dai fuochi è costante. Se a è maggiore di bi, ci alla seconda è a alla seconda meno bi alla seconda.",
-      "speech": "Ricorda: nell’ellisse la somma delle distanze dai fuochi è costante. Se a è maggiore di bi, ci alla seconda è a alla seconda meno bi alla seconda.",
+      "speech": "Ricorda: nell’ellisse la somma delle distanze dai fuochi è costante. Se à è maggiore di bi, ci alla seconda è à alla seconda meno bi alla seconda.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }

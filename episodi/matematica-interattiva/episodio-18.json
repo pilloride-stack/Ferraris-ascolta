@@ -5,7 +5,7 @@
   "sentences": [
     {
       "text": "Definizione di circonferenza. Studiamo la circonferenza, l’insieme dei punti che stanno tutti alla stessa distanza da un centro. La circonferenza è formata dai punti del piano che hanno distanza erre da un punto fisso C, il centro; erre è il raggio. Con la formula della distanza tra due punti si ottiene la sua equazione. Sviluppando i quadrati, si arriva alla forma generale: ics alla seconda più ipsilon alla seconda più a ics più bi ipsilon più ci uguale a zero.",
-      "speech": "Definizione di circonferenza. Studiamo la circonferenza, l’insieme dei punti che stanno tutti alla stessa distanza da un centro. La circonferenza è formata dai punti del piano che hanno distanza erre da un punto fisso ci, il centro; erre è il raggio. Con la formula della distanza tra due punti si ottiene la sua equazione. Sviluppando i quadrati, si arriva alla forma generale: __X__ alla seconda più ipsilon alla seconda più a __X__ più bi ipsilon più ci uguale a zero.",
+      "speech": "Definizione di circonferenza. Studiamo la circonferenza, l’insieme dei punti che stanno tutti alla stessa distanza da un centro. La circonferenza è formata dai punti del piano che hanno distanza erre da un punto fisso ci, il centro; erre è il raggio. Con la formula della distanza tra due punti si ottiene la sua equazione. Sviluppando i quadrati, si arriva alla forma generale: __X__ alla seconda più ipsilon alla seconda più à per __X__ più bi per ipsilon più ci uguale a zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Definizione di circonferenza"
     },
@@ -41,7 +41,7 @@
     },
     {
       "text": "Centro e raggio. Facciamo il percorso inverso: dall’equazione generale ricaviamo il centro e il raggio. L’ascissa del centro, alfa, è meno a mezzi; l’ordinata, beta, è meno bi mezzi. Il raggio è la radice quadrata di alfa alla seconda più beta alla seconda meno ci. L’equazione rappresenta una circonferenza solo se questa quantità sotto radice è positiva.",
-      "speech": "Centro e raggio. Facciamo il percorso inverso: dall’equazione generale ricaviamo il centro e il raggio. L’ascissa del centro, alfa, è meno a mezzi; l’ordinata, beta, è meno bi mezzi. Il raggio è la radice quadrata di alfa alla seconda più beta alla seconda meno ci. L’equazione rappresenta una circonferenza solo se questa quantità sotto radice è positiva.",
+      "speech": "Centro e raggio. Facciamo il percorso inverso: dall’equazione generale ricaviamo il centro e il raggio. L’ascissa del centro, alfa, è meno à mezzi; l’ordinata, beta, è meno bi mezzi. Il raggio è la radice quadrata di alfa alla seconda più beta alla seconda meno ci. L’equazione rappresenta una circonferenza solo se questa quantità sotto radice è positiva.",
       "screen": "Definizioni",
       "purpose": "Definizione: Centro e raggio"
     },
@@ -53,13 +53,13 @@
     },
     {
       "text": "Vogliamo centro e raggio della circonferenza ics alla seconda più ipsilon alla seconda meno quattro ics più due ipsilon meno quattro uguale a zero. Leggiamo i coefficienti: a vale meno quattro, bi vale due, ci vale meno quattro.",
-      "speech": "Vogliamo centro e raggio della circonferenza __X__ alla seconda più ipsilon alla seconda meno quattro __X__ più due ipsilon meno quattro uguale a zero. Leggiamo i coefficienti: a vale meno quattro, bi vale due, ci vale meno quattro.",
+      "speech": "Vogliamo centro e raggio della circonferenza __X__ alla seconda più ipsilon alla seconda meno quattro __X__ più due ipsilon meno quattro uguale a zero. Leggiamo i coefficienti: à vale meno quattro, bi vale due, ci vale meno quattro.",
       "screen": "Centro e raggio",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Le coordinate del centro sono meno a mezzi e meno bi mezzi: alfa vale due e beta vale meno uno. Il centro è C, di coordinate due e meno uno.",
-      "speech": "Le coordinate del centro sono meno a mezzi e meno bi mezzi: alfa vale due e beta vale meno uno. Il centro è ci, di coordinate due e meno uno.",
+      "speech": "Le coordinate del centro sono meno à mezzi e meno bi mezzi: alfa vale due e beta vale meno uno. Il centro è ci, di coordinate due e meno uno.",
       "screen": "Centro e raggio",
       "purpose": "Esempio, passaggio 2"
     },
@@ -77,7 +77,7 @@
     },
     {
       "text": "Circonferenze particolari. Alcune circonferenze hanno equazioni più semplici, perché manca qualche coefficiente. Se a è zero, il centro è sull’asse ipsilon; se bi è zero, il centro è sull’asse ics; se ci è zero, la circonferenza passa per l’origine. Se mancano sia a sia bi, l’equazione è ics alla seconda più ipsilon alla seconda uguale a erre alla seconda, e il centro è l’origine.",
-      "speech": "Circonferenze particolari. Alcune circonferenze hanno equazioni più semplici, perché manca qualche coefficiente. Se a è zero, il centro è sull’asse ipsilon; se bi è zero, il centro è sull’asse __X__; se ci è zero, la circonferenza passa per l’origine. Se mancano sia a sia bi, l’equazione è __X__ alla seconda più ipsilon alla seconda uguale a erre alla seconda, e il centro è l’origine.",
+      "speech": "Circonferenze particolari. Alcune circonferenze hanno equazioni più semplici, perché manca qualche coefficiente. Se à è zero, il centro è sull’asse ipsilon; se bi è zero, il centro è sull’asse __X__; se ci è zero, la circonferenza passa per l’origine. Se mancano sia a sia bi, l’equazione è __X__ alla seconda più ipsilon alla seconda uguale a erre alla seconda, e il centro è l’origine.",
       "screen": "Definizioni",
       "purpose": "Definizione: Circonferenze particolari"
     },
@@ -113,7 +113,7 @@
     },
     {
       "text": "Equazione per tre punti. Vediamo come si trova la circonferenza che passa per tre punti dati. Nella forma generale ci sono tre incognite: a, bi e ci. Per tre punti non allineati passa una sola circonferenza: sostituendo le coordinate dei tre punti si ottengono tre equazioni.",
-      "speech": "Equazione per tre punti. Vediamo come si trova la circonferenza che passa per tre punti dati. Nella forma generale ci sono tre incognite: a, bi e ci. Per tre punti non allineati passa una sola circonferenza: sostituendo le coordinate dei tre punti si ottengono tre equazioni.",
+      "speech": "Equazione per tre punti. Vediamo come si trova la circonferenza che passa per tre punti dati. Nella forma generale ci sono tre incognite: à, bi e ci. Per tre punti non allineati passa una sola circonferenza: sostituendo le coordinate dei tre punti si ottengono tre equazioni.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione per tre punti"
     },
@@ -125,13 +125,13 @@
     },
     {
       "text": "Vogliamo la circonferenza che passa per l’origine, per A di coordinate quattro e zero, e per B di coordinate zero e quattro. Sostituiamo l’origine: resta ci uguale a zero.",
-      "speech": "Vogliamo la circonferenza che passa per l’origine, per a di coordinate quattro e zero, e per bi di coordinate zero e quattro. Sostituiamo l’origine: resta ci uguale a zero.",
+      "speech": "Vogliamo la circonferenza che passa per l’origine, per à di coordinate quattro e zero, e per bi di coordinate zero e quattro. Sostituiamo l’origine: resta ci uguale a zero.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Sostituiamo A: sedici più quattro a uguale a zero, quindi a vale meno quattro.",
-      "speech": "Sostituiamo a: sedici più quattro a uguale a zero, quindi a vale meno quattro.",
+      "speech": "Sostituiamo à: sedici più quattro à uguale a zero, quindi à vale meno quattro.",
       "screen": "Equazione per tre punti",
       "purpose": "Esempio, passaggio 2"
     },
@@ -167,7 +167,7 @@
     },
     {
       "text": "Vogliamo capire come sono disposte la circonferenza ics alla seconda più ipsilon alla seconda uguale a venticinque e la retta ipsilon uguale a ics più uno. Mettiamo a sistema le due equazioni.",
-      "speech": "Vogliamo capire come sono disposte la circonferenza __X__ alla seconda più ipsilon alla seconda uguale a venticinque e la retta ipsilon uguale a __X__ più uno. Mettiamo a sistema le due equazioni.",
+      "speech": "Vogliamo capire come sono disposte la circonferenza __X__ alla seconda più ipsilon alla seconda uguale a venticinque e la retta ipsilon uguale à per __X__ più uno. Mettiamo a sistema le due equazioni.",
       "screen": "Retta e circonferenza",
       "purpose": "Esempio, passaggio 1"
     },
@@ -197,7 +197,7 @@
     },
     {
       "text": "Con la formula risolutiva, ics è uguale a meno uno più o meno sette, fratto due: ics vale tre oppure meno quattro. Con ipsilon uguale a ics più uno troviamo i punti tre e quattro, meno quattro e meno tre.",
-      "speech": "Con la formula risolutiva, __X__ è uguale a meno uno più o meno sette, fratto due: __X__ vale tre oppure meno quattro. Con ipsilon uguale a __X__ più uno troviamo i punti tre e quattro, meno quattro e meno tre.",
+      "speech": "Con la formula risolutiva, __X__ è uguale a meno uno più o meno sette, fratto due: __X__ vale tre oppure meno quattro. Con ipsilon uguale à per __X__ più uno troviamo i punti tre e quattro, meno quattro e meno tre.",
       "screen": "Retta e circonferenza",
       "purpose": "Esempio, passaggio 6"
     },
@@ -245,7 +245,7 @@
     },
     {
       "text": "Ora tocca a te, con tre domande. Prima di rispondere, leggi a, bi e ci con il loro segno.",
-      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, leggi a, bi e ci con il loro segno.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, leggi à, bi e ci con il loro segno.",
       "screen": "Allenamento",
       "purpose": "Indicazioni per gli esercizi"
     },
@@ -257,7 +257,7 @@
     },
     {
       "text": "Ricorda: alfa è meno a mezzi, beta è meno bi mezzi, e il raggio è la radice di alfa alla seconda più beta alla seconda meno ci.",
-      "speech": "Ricorda: alfa è meno a mezzi, beta è meno bi mezzi, e il raggio è la radice di alfa alla seconda più beta alla seconda meno ci.",
+      "speech": "Ricorda: alfa è meno à mezzi, beta è meno bi mezzi, e il raggio è la radice di alfa alla seconda più beta alla seconda meno ci.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }
