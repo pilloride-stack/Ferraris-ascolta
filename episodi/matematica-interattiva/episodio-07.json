@@ -28,8 +28,8 @@
       "purpose": "Definizione: Disequazioni immediate"
     },
     {
-      "text": "con delta positivo e segno maggiore, valori esterni alle radici. Con segno minore, valori interni. Con maggiore o uguale, gli estremi sono compresi.",
-      "speech": "con delta positivo e segno maggiore, valori esterni alle radici. Con segno minore, valori interni. Con maggiore o uguale, gli estremi sono compresi.",
+      "text": "Con delta positivo, se a è positivo il trinomio è positivo fuori dalle radici e negativo tra le radici. Se a è negativo, i segni si invertono: negativo fuori e positivo tra le radici.",
+      "speech": "Con delta positivo, se a è positivo il trinomio è positivo fuori dalle radici e negativo tra le radici. Se a è negativo, i segni si invertono: negativo fuori e positivo tra le radici.",
       "screen": "Delta positivo",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -52,8 +52,8 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "con delta zero il primo membro è il quadrato di un binomio. Con segno maggiore, tutti i numeri tranne la radice. Con segno minore, nessuna soluzione.",
-      "speech": "con delta zero il primo membro è il quadrato di un binomio. Con segno maggiore, tutti i numeri tranne la radice. Con segno minore, nessuna soluzione.",
+      "text": "Con delta uguale a zero c'è una sola radice. Se a è positivo il trinomio è positivo ai due lati e vale zero nella radice. Se a è negativo è negativo ai due lati e vale zero nella radice.",
+      "speech": "Con delta uguale a zero esiste una sola radice. Se a è positivo il trinomio è positivo ai due lati e vale zero nella radice. Se a è negativo è negativo ai due lati e vale zero nella radice.",
       "screen": "Delta uguale a zero",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -76,8 +76,8 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "con delta negativo, se il segno è maggiore vanno bene tutti i numeri reali. Se il segno è minore, non c'è nessuna soluzione.",
-      "speech": "con delta negativo, se il segno è maggiore vanno bene tutti i numeri reali. Se il segno è minore, non c'è nessuna soluzione.",
+      "text": "Con delta negativo non ci sono radici reali. Se a è positivo il trinomio è sempre positivo. Se a è negativo il trinomio è sempre negativo.",
+      "speech": "Con delta negativo non ci sono radici reali. Se a è positivo il trinomio è sempre positivo. Se a è negativo il trinomio è sempre negativo.",
       "screen": "Delta negativo",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -107,7 +107,7 @@
     },
     {
       "text": "riconosco la disequazione immediata. Al primo membro c'è solo ics alla seconda.",
-      "speech": "riconosco la disequazione immediata. Al primo membro c'è solo __X__ alla seconda.",
+      "speech": "riconosco la disequazione immediata. Al primo membro compare soltanto __X__ alla seconda.",
       "screen": "Disequazioni immediate",
       "purpose": "Esempio, passaggio 1"
     },
