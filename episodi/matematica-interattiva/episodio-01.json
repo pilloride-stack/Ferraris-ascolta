@@ -28,8 +28,9 @@
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Quindi, ripeto i calcoli. Tre ics alla quinta diviso ics alla seconda fa tre ics alla terza. Poi ottengo tre ics alla seconda. Poi ottengo meno sei.",
-      "speech": "Quindi, ripeto i calcoli. Tre __X__ alla quinta diviso __X__ alla seconda fa tre __X__ alla terza. Poi ottengo tre __X__ alla seconda. Poi ottengo meno sei.",
+      "text": "Eseguo tutti i passaggi, uno alla volta. Tre ics alla quinta diviso ics alla seconda fa tre ics alla terza. Scrivo tre ics alla terza nel quoziente. Moltiplico tre ics alla terza per tutto il divisore: ottengo tre ics alla quinta, meno tre ics alla quarta, più tre ics alla terza. Cambio tutti i segni del prodotto e sommo i termini simili: resta tre ics alla quarta, meno tre ics alla terza, meno tre ics alla seconda, più ics, più cinque. Divido tre ics alla quarta per ics alla seconda: ottengo tre ics alla seconda e lo scrivo nel quoziente. Moltiplico tre ics alla seconda per tutto il divisore: ottengo tre ics alla quarta, meno tre ics alla terza, più tre ics alla seconda. Cambio i segni e sommo: resta meno sei ics alla seconda, più ics, più cinque. Divido meno sei ics alla seconda per ics alla seconda: ottengo meno sei e lo scrivo nel quoziente. Moltiplico meno sei per tutto il divisore: ottengo meno sei ics alla seconda, più sei ics, meno sei. Cambio i segni e sommo. Il resto è meno cinque ics più undici.",
+      "speech": "Eseguo tutti i passaggi, uno alla volta. Tre __X__ alla quinta diviso __X__ alla seconda fa tre __X__ alla terza. Scrivo tre __X__ alla terza nel quoziente. Moltiplico tre __X__ alla terza per tutto il divisore: ottengo tre __X__ alla quinta, meno tre __X__ alla quarta, più tre __X__ alla terza. Cambio tutti i segni del prodotto e sommo i termini simili: resta tre __X__ alla quarta, meno tre __X__ alla terza, meno tre __X__ alla seconda, più __X__, più cinque. Divido tre __X__ alla quarta per __X__ alla seconda: ottengo tre __X__ alla seconda e lo scrivo nel quoziente. Moltiplico tre __X__ alla seconda per tutto il divisore: ottengo tre __X__ alla quarta, meno tre __X__ alla terza, più tre __X__ alla seconda. Cambio i segni e sommo: resta meno sei __X__ alla seconda, più __X__, più cinque. Divido meno sei __X__ alla seconda per __X__ alla seconda: ottengo meno sei e lo scrivo nel quoziente. Moltiplico meno sei per tutto il divisore: ottengo meno sei __X__ alla seconda, più sei __X__, meno sei. Cambio i segni e sommo. Il resto è meno cinque __X__ più undici.",
+      "rate": 0.82,
       "screen": "Divisione di due polinomi",
       "purpose": "Esempio, passaggio 2"
     },
@@ -40,8 +41,9 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "quando il polinomio resto è zero, il dividendo è uguale al quoziente per il divisore. Il resto non c'è più.",
-      "speech": "quando il polinomio resto è zero, il dividendo è uguale al quoziente per il divisore. Il resto non c'è più.",
+      "text": "Quando il polinomio resto è zero, la divisione è esatta. Il dividendo è uguale al divisore moltiplicato per il quoziente e il resto vale zero.",
+      "speech": "Quando il polinomio resto è zero, la divisione è esatta. Il dividendo è uguale al divisore moltiplicato per il quoziente e il resto vale zero.",
+      "rate": 0.9,
       "screen": "Divisione esatta",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
@@ -52,8 +54,9 @@
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Quindi, ripeto i calcoli. Due ics alla terza diviso ics alla seconda fa due ics. Poi meno tre ics alla seconda diviso ics alla seconda fa meno tre.",
-      "speech": "Quindi, ripeto i calcoli. Due __X__ alla terza diviso __X__ alla seconda fa due __X__. Poi meno tre __X__ alla seconda diviso __X__ alla seconda fa meno tre.",
+      "text": "Eseguo tutti i passaggi. Due ics alla terza diviso ics alla seconda fa due ics. Scrivo due ics nel quoziente. Moltiplico due ics per tutto il divisore: ottengo due ics alla terza, meno quattro ics alla seconda, più due ics. Cambio tutti i segni del prodotto e sommo i termini simili: resta meno tre ics alla seconda, più sei ics, meno tre. Divido meno tre ics alla seconda per ics alla seconda: ottengo meno tre e lo scrivo nel quoziente. Moltiplico meno tre per tutto il divisore: ottengo meno tre ics alla seconda, più sei ics, meno tre. Cambio i segni e sommo. Il resto è zero, quindi la divisione è esatta.",
+      "speech": "Eseguo tutti i passaggi. Due __X__ alla terza diviso __X__ alla seconda fa due __X__. Scrivo due __X__ nel quoziente. Moltiplico due __X__ per tutto il divisore: ottengo due __X__ alla terza, meno quattro __X__ alla seconda, più due __X__. Cambio tutti i segni del prodotto e sommo i termini simili: resta meno tre __X__ alla seconda, più sei __X__, meno tre. Divido meno tre __X__ alla seconda per __X__ alla seconda: ottengo meno tre e lo scrivo nel quoziente. Moltiplico meno tre per tutto il divisore: ottengo meno tre __X__ alla seconda, più sei __X__, meno tre. Cambio i segni e sommo. Il resto è zero, quindi la divisione è esatta.",
+      "rate": 0.82,
       "screen": "Divisione esatta",
       "purpose": "Esempio, passaggio 2"
     },
