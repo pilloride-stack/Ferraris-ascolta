@@ -19,8 +19,7 @@
     const distinct=[...new Set(roots.map(clean))];
     const spread=distinct.length===2?Math.max(1,Math.abs(distinct[1]-distinct[0])):2;
     const min=Math.min(...distinct)-spread*.65,max=Math.max(...distinct)+spread*.65;
-    const ticks=Array.from({length:7},(_,index)=>min+(max-min)*index/6);
-    return `<div class="quadratic-axis" role="img" aria-label="Asse reale con ${distinct.length===2?'due radici':'una radice doppia'}"><div class="axis-line"></div>${ticks.map(value=>`<span class="axis-tick" style="left:${((value-min)/(max-min))*100}%"><i></i><small>${nice(value)}</small></span>`).join('')}${distinct.map((value,index)=>`<span class="root-point" style="left:${((value-min)/(max-min))*100}%"><b></b><strong>${distinct.length===1?'x₁ = x₂':'x'+(index+1)} = ${nice(value)}</strong></span>`).join('')}</div>`;
+    return `<div class="quadratic-axis" role="img" aria-label="Asse reale con ${distinct.length===2?'due radici':'una radice doppia'}"><div class="axis-line"></div>${distinct.map((value,index)=>`<span class="root-point" style="left:${((value-min)/(max-min))*100}%"><b></b><strong>${distinct.length===1?'x₁ = x₂':'x'+(index+1)} = ${nice(value)}</strong></span>`).join('')}</div>`;
   }
   function update(){
     const a=read('a'),b=read('b'),c=read('c');
