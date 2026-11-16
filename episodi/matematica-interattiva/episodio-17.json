@@ -4,260 +4,314 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Equazione della retta. Una retta si scrive in forma implicita, esplicita o segmentaria. Per esempio: Ipsilon è uguale a tre ics meno uno.",
-      "speech": "Equazione della retta. Una retta si scrive in forma implicita, esplicita o segmentaria. Per esempio: Ipsilon è uguale a tre __X__ meno uno.",
+      "text": "Equazione della retta. Studiamo come si scrive l’equazione di una retta: serve a descriverla con i numeri e a disegnarla nel piano cartesiano. Ogni retta ha un’equazione di primo grado in ics e ipsilon. In forma implicita si scrive a ics più bi ipsilon più ci uguale a zero. Se bi è diverso da zero, si ricava ipsilon e si ottiene la forma esplicita: ipsilon uguale a emme ics più cu. Emme è il coefficiente angolare, cioè la pendenza; cu è l’ordinata del punto in cui la retta taglia l’asse ipsilon.",
+      "speech": "Equazione della retta. Studiamo come si scrive l’equazione di una retta: serve a descriverla con i numeri e a disegnarla nel piano cartesiano. Ogni retta ha un’equazione di primo grado in __X__ e ipsilon. In forma implicita si scrive a __X__ più bi ipsilon più ci uguale a zero. Se bi è diverso da zero, si ricava ipsilon e si ottiene la forma esplicita: ipsilon uguale a emme __X__ più cu. Emme è il coefficiente angolare, cioè la pendenza; cu è l’ordinata del punto in cui la retta taglia l’asse ipsilon.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione della retta"
     },
     {
-      "text": "Rette particolari. Sono gli assi, le parallele agli assi e le bisettrici. Per esempio: Ipsilon è uguale a ics.",
-      "speech": "Rette particolari. Sono gli assi, le parallele agli assi e le bisettrici. Per esempio: Ipsilon è uguale a __X__.",
+      "text": "Nel riquadro blu vedi le due forme: a sinistra quella implicita, a destra quella esplicita. Per disegnare una retta bastano due suoi punti.",
+      "speech": "Nel riquadro blu vedi le due forme: a sinistra quella implicita, a destra quella esplicita. Per disegnare una retta bastano due suoi punti.",
+      "screen": "Equazione della retta",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scrivere la retta due ics meno ipsilon meno uno uguale a zero in forma esplicita e poi disegnarla. Lasciamo ipsilon al primo membro e portiamo due ics e meno uno al secondo membro, cambiando il segno: meno ipsilon è uguale a meno due ics più uno.",
+      "speech": "Vogliamo scrivere la retta due __X__ meno ipsilon meno uno uguale a zero in forma esplicita e poi disegnarla. Lasciamo ipsilon al primo membro e portiamo due __X__ e meno uno al secondo membro, cambiando il segno: meno ipsilon è uguale a meno due __X__ più uno.",
+      "screen": "Equazione della retta",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Moltiplichiamo entrambi i membri per meno uno: ipsilon è uguale a due ics meno uno.",
+      "speech": "Moltiplichiamo entrambi i membri per meno uno: ipsilon è uguale a due __X__ meno uno.",
+      "screen": "Equazione della retta",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Confrontando con ipsilon uguale a emme ics più cu, leggiamo emme uguale a due e cu uguale a meno uno.",
+      "speech": "Confrontando con ipsilon uguale a emme __X__ più cu, leggiamo emme uguale a due e cu uguale a meno uno.",
+      "screen": "Equazione della retta",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Per disegnare servono due punti. Con ics uguale a zero, ipsilon vale due per zero meno uno, cioè meno uno: otteniamo il punto A di coordinate zero e meno uno.",
+      "speech": "Per disegnare servono due punti. Con __X__ uguale a zero, ipsilon vale due per zero meno uno, cioè meno uno: otteniamo il punto a di coordinate zero e meno uno.",
+      "screen": "Equazione della retta",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Con ics uguale a due, ipsilon vale due per due meno uno, cioè tre: otteniamo il punto B di coordinate due e tre. Uniamo A e B e la retta è disegnata.",
+      "speech": "Con __X__ uguale a due, ipsilon vale due per due meno uno, cioè tre: otteniamo il punto bi di coordinate due e tre. Uniamo a e bi e la retta è disegnata.",
+      "screen": "Equazione della retta",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Rette particolari. Alcune rette hanno equazioni molto semplici, e conviene riconoscerle subito. L’asse ics ha equazione ipsilon uguale a zero; l’asse ipsilon ha equazione ics uguale a zero. Una retta parallela all’asse ics ha equazione ipsilon uguale a kappa: tutti i suoi punti hanno la stessa ordinata. Una retta parallela all’asse ipsilon ha equazione ics uguale ad acca: tutti i suoi punti hanno la stessa ascissa. La bisettrice del primo e del terzo quadrante è ipsilon uguale a ics; quella del secondo e del quarto quadrante è ipsilon uguale a meno ics.",
+      "speech": "Rette particolari. Alcune rette hanno equazioni molto semplici, e conviene riconoscerle subito. L’asse __X__ ha equazione ipsilon uguale a zero; l’asse ipsilon ha equazione __X__ uguale a zero. Una retta parallela all’asse __X__ ha equazione ipsilon uguale a kappa: tutti i suoi punti hanno la stessa ordinata. Una retta parallela all’asse ipsilon ha equazione __X__ uguale ad acca: tutti i suoi punti hanno la stessa ascissa. La bisettrice del primo e del terzo quadrante è ipsilon uguale a __X__; quella del secondo e del quarto quadrante è ipsilon uguale a meno __X__.",
       "screen": "Definizioni",
       "purpose": "Definizione: Rette particolari"
     },
     {
-      "text": "Coefficiente angolare e retta per due punti. Il coefficiente angolare si ricava da due punti della retta. Per esempio: A di coordinate uno e uno, bi di coordinate tre e cinque.",
-      "speech": "Coefficiente angolare e retta per due punti. Il coefficiente angolare si ricava da due punti della retta. Per esempio: A di coordinate uno e uno, bi di coordinate tre e cinque.",
+      "text": "Nel disegno vedi in blu una retta orizzontale, in rosso una retta verticale e, tratteggiate, le due bisettrici.",
+      "speech": "Nel disegno vedi in blu una retta orizzontale, in rosso una retta verticale e, tratteggiate, le due bisettrici.",
+      "screen": "Rette particolari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo le due rette che passano per il punto A di coordinate tre e due e sono parallele agli assi. Prima leggiamo le coordinate: l’ascissa di A è tre, l’ordinata è due.",
+      "speech": "Vogliamo le due rette che passano per il punto a di coordinate tre e due e sono parallele agli assi. Prima leggiamo le coordinate: l’ascissa di a è tre, l’ordinata è due.",
+      "screen": "Rette particolari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La parallela all’asse ics è orizzontale: tutti i suoi punti hanno la stessa ordinata di A. La sua equazione è ipsilon uguale a due.",
+      "speech": "La parallela all’asse __X__ è orizzontale: tutti i suoi punti hanno la stessa ordinata di a. La sua equazione è ipsilon uguale a due.",
+      "screen": "Rette particolari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La parallela all’asse ipsilon è verticale: tutti i suoi punti hanno la stessa ascissa di A. La sua equazione è ics uguale a tre.",
+      "speech": "La parallela all’asse ipsilon è verticale: tutti i suoi punti hanno la stessa ascissa di a. La sua equazione è __X__ uguale a tre.",
+      "screen": "Rette particolari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Coefficiente angolare e retta per due punti. Il coefficiente angolare dice quanto è ripida una retta, e ci permette di scrivere la retta che passa per due punti. Emme indica di quanto cambia ipsilon quando ics aumenta di uno. Se la retta passa per i punti A e B, con ascisse diverse, emme è il rapporto tra la differenza delle ordinate e la differenza delle ascisse. Conoscendo emme e un punto P zero, l’equazione della retta è: ipsilon meno ipsilon zero uguale a emme per, ics meno ics zero.",
+      "speech": "Coefficiente angolare e retta per due punti. Il coefficiente angolare dice quanto è ripida una retta, e ci permette di scrivere la retta che passa per due punti. Emme indica di quanto cambia ipsilon quando __X__ aumenta di uno. Se la retta passa per i punti a e bi, con ascisse diverse, emme è il rapporto tra la differenza delle ordinate e la differenza delle ascisse. Conoscendo emme e un punto pi zero, l’equazione della retta è: ipsilon meno ipsilon zero uguale a emme per, __X__ meno __X__ zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Coefficiente angolare e retta per due punti"
     },
     {
-      "text": "Parallele e perpendicolari. Due rette sono parallele o perpendicolari in base ai coefficienti angolari. Per esempio: Ipsilon è uguale a due ics più uno.",
-      "speech": "Parallele e perpendicolari. Due rette sono parallele o perpendicolari in base ai coefficienti angolari. Per esempio: Ipsilon è uguale a due __X__ più uno.",
+      "text": "A sinistra c’è la formula del coefficiente angolare: sopra la differenza delle ipsilon, sotto la differenza delle ics. A destra, l’equazione della retta che passa per un punto noto. Se emme è positivo la retta sale, se è negativo scende, se è zero è orizzontale.",
+      "speech": "a sinistra c’è la formula del coefficiente angolare: sopra la differenza delle ipsilon, sotto la differenza delle __X__. a destra, l’equazione della retta che passa per un punto noto. Se emme è positivo la retta sale, se è negativo scende, se è zero è orizzontale.",
+      "screen": "Coefficiente angolare e retta per due punti",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo l’equazione della retta che passa per A di coordinate uno e uno e per B di coordinate tre e cinque. Calcoliamo prima il coefficiente angolare: sopra scriviamo cinque meno uno, sotto tre meno uno.",
+      "speech": "Vogliamo l’equazione della retta che passa per a di coordinate uno e uno e per bi di coordinate tre e cinque. Calcoliamo prima il coefficiente angolare: sopra scriviamo cinque meno uno, sotto tre meno uno.",
+      "screen": "Coefficiente angolare e retta per due punti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Cinque meno uno fa quattro, tre meno uno fa due: emme è uguale a quattro mezzi, cioè due.",
+      "speech": "Cinque meno uno fa quattro, tre meno uno fa due: emme è uguale a quattro mezzi, cioè due.",
+      "screen": "Coefficiente angolare e retta per due punti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Ora usiamo il punto A nella formula della retta per un punto: ipsilon meno uno uguale a due per, ics meno uno.",
+      "speech": "Ora usiamo il punto a nella formula della retta per un punto: ipsilon meno uno uguale a due per, __X__ meno uno.",
+      "screen": "Coefficiente angolare e retta per due punti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Moltiplichiamo il due per ogni termine della parentesi: ipsilon meno uno uguale a due ics meno due.",
+      "speech": "Moltiplichiamo il due per ogni termine della parentesi: ipsilon meno uno uguale a due __X__ meno due.",
+      "screen": "Coefficiente angolare e retta per due punti",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Portiamo meno uno al secondo membro, dove diventa più uno: ipsilon è uguale a due ics meno uno.",
+      "speech": "Portiamo meno uno al secondo membro, dove diventa più uno: ipsilon è uguale a due __X__ meno uno.",
+      "screen": "Coefficiente angolare e retta per due punti",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Verifichiamo con il punto B: per ics uguale a tre, ipsilon vale sei meno uno, cioè cinque. È proprio l’ordinata di B, quindi la retta è giusta.",
+      "speech": "Verifichiamo con il punto bi: per __X__ uguale a tre, ipsilon vale sei meno uno, cioè cinque. È proprio l’ordinata di bi, quindi la retta è giusta.",
+      "screen": "Coefficiente angolare e retta per due punti",
+      "purpose": "Esempio, passaggio 6"
+    },
+    {
+      "text": "Parallele e perpendicolari. Confrontando i coefficienti angolari capiamo come sono disposte due rette. Due rette non verticali sono parallele se hanno lo stesso coefficiente angolare. Sono perpendicolari se il prodotto dei coefficienti angolari è meno uno: ciascuno è l’antireciproco dell’altro.",
+      "speech": "Parallele e perpendicolari. Confrontando i coefficienti angolari capiamo come sono disposte due rette. Due rette non verticali sono parallele se hanno lo stesso coefficiente angolare. Sono perpendicolari se il prodotto dei coefficienti angolari è meno uno: ciascuno è l’antireciproco dell’altro.",
       "screen": "Definizioni",
       "purpose": "Definizione: Parallele e perpendicolari"
     },
     {
-      "text": "Intersezione e appartenenza. Si mettono a sistema due rette, o si sostituisce un punto nell'equazione. Per esempio: Ipsilon è due ics più uno, e ipsilon è meno ics più quattro.",
-      "speech": "Intersezione e appartenenza. Si mettono a sistema due rette, o si sostituisce un punto nell'equazione. Per esempio: Ipsilon è due __X__ più uno, e ipsilon è meno __X__ più quattro.",
+      "text": "A sinistra la condizione di parallelismo, emme uno uguale a emme due. A destra quella di perpendicolarità, emme uno per emme due uguale a meno uno. L’antireciproco si ottiene capovolgendo il numero e cambiandogli il segno.",
+      "speech": "a sinistra la condizione di parallelismo, emme uno uguale a emme due. a destra quella di perpendicolarità, emme uno per emme due uguale a meno uno. L’antireciproco si ottiene capovolgendo il numero e cambiandogli il segno.",
+      "screen": "Parallele e perpendicolari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo le rette che passano per P di coordinate due e uno: una parallela e una perpendicolare alla retta erre, ipsilon uguale a due ics più uno. Prima leggiamo il coefficiente angolare di erre: è due.",
+      "speech": "Vogliamo le rette che passano per pi di coordinate due e uno: una parallela e una perpendicolare alla retta erre, ipsilon uguale a due __X__ più uno. Prima leggiamo il coefficiente angolare di erre: è due.",
+      "screen": "Parallele e perpendicolari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La parallela ha lo stesso coefficiente angolare, due. Usiamo la formula della retta per P: ipsilon meno uno uguale a due per, ics meno due.",
+      "speech": "La parallela ha lo stesso coefficiente angolare, due. Usiamo la formula della retta per pi: ipsilon meno uno uguale a due per, __X__ meno due.",
+      "screen": "Parallele e perpendicolari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Moltiplichiamo e portiamo meno uno a destra: ipsilon uguale a due ics meno quattro più uno, cioè due ics meno tre.",
+      "speech": "Moltiplichiamo e portiamo meno uno a destra: ipsilon uguale a due __X__ meno quattro più uno, cioè due __X__ meno tre.",
+      "screen": "Parallele e perpendicolari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La perpendicolare ha coefficiente angolare antireciproco di due: capovolgiamo e cambiamo segno, e otteniamo meno un mezzo.",
+      "speech": "La perpendicolare ha coefficiente angolare antireciproco di due: capovolgiamo e cambiamo segno, e otteniamo meno un mezzo.",
+      "screen": "Parallele e perpendicolari",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Usiamo di nuovo la formula della retta per P: ipsilon meno uno uguale a meno un mezzo per, ics meno due.",
+      "speech": "Usiamo di nuovo la formula della retta per pi: ipsilon meno uno uguale a meno un mezzo per, __X__ meno due.",
+      "screen": "Parallele e perpendicolari",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Moltiplichiamo: meno un mezzo per ics, e meno un mezzo per meno due fa più uno. Portiamo meno uno a destra: ipsilon è uguale a meno un mezzo ics più due.",
+      "speech": "Moltiplichiamo: meno un mezzo per __X__, e meno un mezzo per meno due fa più uno. Portiamo meno uno a destra: ipsilon è uguale a meno un mezzo __X__ più due.",
+      "screen": "Parallele e perpendicolari",
+      "purpose": "Esempio, passaggio 6"
+    },
+    {
+      "text": "Intersezione e appartenenza. Vediamo come si controlla se un punto sta su una retta, e come si trova il punto in cui due rette si incontrano. Un punto appartiene a una retta se le sue coordinate, sostituite nell’equazione, la rendono vera. Due rette non parallele si incontrano in un solo punto: per trovarlo si mettono a sistema le due equazioni. La soluzione del sistema dà le coordinate del punto di intersezione.",
+      "speech": "Intersezione e appartenenza. Vediamo come si controlla se un punto sta su una retta, e come si trova il punto in cui due rette si incontrano. Un punto appartiene a una retta se le sue coordinate, sostituite nell’equazione, la rendono vera. Due rette non parallele si incontrano in un solo punto: per trovarlo si mettono a sistema le due equazioni. La soluzione del sistema dà le coordinate del punto di intersezione.",
       "screen": "Definizioni",
       "purpose": "Definizione: Intersezione e appartenenza"
     },
     {
-      "text": "Distanza punto retta. È la formula per la distanza di il punto da una retta. Per esempio: Punto uno uno, e la retta tre ics più quattro ipsilon meno due uguale a zero.",
-      "speech": "Distanza punto retta. È la formula per la distanza di il punto da una retta. Per esempio: Punto uno uno, e la retta tre __X__ più quattro ipsilon meno due uguale a zero.",
+      "text": "La formula dice che il punto P sta sulla retta erre se, sostituendo le sue coordinate, l’uguaglianza è vera. Se due rette sono parallele e distinte, invece, non hanno punti in comune.",
+      "speech": "La formula dice che il punto pi sta sulla retta erre se, sostituendo le sue coordinate, l’uguaglianza è vera. Se due rette sono parallele e distinte, invece, non hanno punti in comune.",
+      "screen": "Intersezione e appartenenza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il punto in cui si incontrano le rette ipsilon uguale a due ics più uno e ipsilon uguale a meno ics più quattro. Mettiamo a sistema le due equazioni.",
+      "speech": "Vogliamo il punto in cui si incontrano le rette ipsilon uguale a due __X__ più uno e ipsilon uguale a meno __X__ più quattro. Mettiamo a sistema le due equazioni.",
+      "screen": "Intersezione e appartenenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Le due ipsilon sono uguali, quindi uguagliamo i secondi membri: due ics più uno uguale a meno ics più quattro.",
+      "speech": "Le due ipsilon sono uguali, quindi uguagliamo i secondi membri: due __X__ più uno uguale a meno __X__ più quattro.",
+      "screen": "Intersezione e appartenenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Portiamo le ics a sinistra e i numeri a destra, cambiando i segni: due ics più ics uguale a quattro meno uno.",
+      "speech": "Portiamo le __X__ a sinistra e i numeri a destra, cambiando i segni: due __X__ più __X__ uguale a quattro meno uno.",
+      "screen": "Intersezione e appartenenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Otteniamo tre ics uguale a tre; dividiamo per tre: ics è uguale a uno.",
+      "speech": "Otteniamo tre __X__ uguale a tre; dividiamo per tre: __X__ è uguale a uno.",
+      "screen": "Intersezione e appartenenza",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Sostituiamo ics uguale a uno nella prima equazione: ipsilon vale due più uno, cioè tre.",
+      "speech": "Sostituiamo __X__ uguale a uno nella prima equazione: ipsilon vale due più uno, cioè tre.",
+      "screen": "Intersezione e appartenenza",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Controlliamo che il punto stia anche sulla seconda retta: meno uno più quattro fa tre. Il punto di intersezione è P di coordinate uno e tre.",
+      "speech": "Controlliamo che il punto stia anche sulla seconda retta: meno uno più quattro fa tre. Il punto di intersezione è pi di coordinate uno e tre.",
+      "screen": "Intersezione e appartenenza",
+      "purpose": "Esempio, passaggio 6"
+    },
+    {
+      "text": "Distanza punto retta. Impariamo a misurare quanto un punto è lontano da una retta. La distanza di un punto da una retta è la lunghezza del segmento perpendicolare che va dal punto alla retta: è la distanza più breve. Se la retta è in forma implicita e il punto è P zero, la distanza si calcola con una formula.",
+      "speech": "Distanza punto retta. Impariamo a misurare quanto un punto è lontano da una retta. La distanza di un punto da una retta è la lunghezza del segmento perpendicolare che va dal punto alla retta: è la distanza più breve. Se la retta è in forma implicita e il punto è pi zero, la distanza si calcola con una formula.",
       "screen": "Definizioni",
       "purpose": "Definizione: Distanza punto retta"
     },
     {
-      "text": "Asse, bisettrici, tangente dell'angolo. Sono formule e procedimenti che usano punto medio, distanza e coefficienti. Per esempio: A di coordinate uno e uno, bi di coordinate tre e cinque.",
-      "speech": "Asse, bisettrici, tangente dell'angolo. Sono formule e procedimenti che usano punto medio, distanza e coefficienti. Per esempio: A di coordinate uno e uno, bi di coordinate tre e cinque.",
-      "screen": "Definizioni",
-      "purpose": "Definizione: Asse, bisettrici, tangente dell'angolo"
+      "text": "Nella formula, al numeratore c’è il valore assoluto di a ics zero più bi ipsilon zero più ci; al denominatore la radice quadrata di a alla seconda più bi alla seconda. Il valore assoluto rende la distanza sempre positiva o nulla.",
+      "speech": "Nella formula, al numeratore c’è il valore assoluto di a __X__ zero più bi ipsilon zero più ci; al denominatore la radice quadrata di a alla seconda più bi alla seconda. Il valore assoluto rende la distanza sempre positiva o nulla.",
+      "screen": "Distanza punto retta",
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Fasci di rette. Un fascio è l'insieme delle rette con in comune un punto oppure una direzione. Per esempio: Due kappa ics, meno tre ipsilon, più cinque, uguale a zero.",
-      "speech": "Fasci di rette. Un fascio è l'insieme delle rette con in comune un punto oppure una direzione. Per esempio: Due kappa __X__, meno tre ipsilon, più cinque, uguale a zero.",
+      "text": "Vogliamo la distanza del punto P di coordinate due e tre dalla retta tre ics più quattro ipsilon meno tre uguale a zero. La retta è già in forma implicita: a vale tre, bi vale quattro, ci vale meno tre.",
+      "speech": "Vogliamo la distanza del punto pi di coordinate due e tre dalla retta tre __X__ più quattro ipsilon meno tre uguale a zero. La retta è già in forma implicita: a vale tre, bi vale quattro, ci vale meno tre.",
+      "screen": "Distanza punto retta",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Al numeratore sostituiamo le coordinate di P: tre per due più quattro per tre meno tre, cioè sei più dodici meno tre. Il valore assoluto di quindici è quindici.",
+      "speech": "Al numeratore sostituiamo le coordinate di pi: tre per due più quattro per tre meno tre, cioè sei più dodici meno tre. Il valore assoluto di quindici è quindici.",
+      "screen": "Distanza punto retta",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Al denominatore calcoliamo la radice di tre alla seconda più quattro alla seconda: nove più sedici fa venticinque, e la radice di venticinque è cinque.",
+      "speech": "Al denominatore calcoliamo la radice di tre alla seconda più quattro alla seconda: nove più sedici fa venticinque, e la radice di venticinque è cinque.",
+      "screen": "Distanza punto retta",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Infine dividiamo: quindici fratto cinque fa tre. La distanza di P dalla retta è tre.",
+      "speech": "Infine dividiamo: quindici fratto cinque fa tre. La distanza di pi dalla retta è tre.",
+      "screen": "Distanza punto retta",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Fasci di rette. Studiamo i fasci di rette, cioè famiglie di rette che hanno qualcosa in comune. Un fascio proprio è l’insieme di tutte le rette che passano per uno stesso punto, detto centro del fascio. Le sue rette non verticali hanno equazione ipsilon meno ipsilon zero uguale a emme per, ics meno ics zero, al variare di emme; a queste si aggiunge la retta verticale per il centro. Un fascio improprio è invece l’insieme delle rette parallele tra loro, che hanno tutte lo stesso coefficiente angolare.",
+      "speech": "Fasci di rette. Studiamo i fasci di rette, cioè famiglie di rette che hanno qualcosa in comune. Un fascio proprio è l’insieme di tutte le rette che passano per uno stesso punto, detto centro del fascio. Le sue rette non verticali hanno equazione ipsilon meno ipsilon zero uguale a emme per, __X__ meno __X__ zero, al variare di emme; a queste si aggiunge la retta verticale per il centro. Un fascio improprio è invece l’insieme delle rette parallele tra loro, che hanno tutte lo stesso coefficiente angolare.",
       "screen": "Definizioni",
       "purpose": "Definizione: Fasci di rette"
     },
     {
-      "text": "la forma implicita, la forma esplicita, la forma segmentaria. Emme è il coefficiente angolare, cu è l'intersezione con l'asse ipsilon.",
-      "speech": "la forma implicita, la forma esplicita, la forma segmentaria. Emme è il coefficiente angolare, cu è l'intersezione con l'asse ipsilon.",
-      "screen": "Equazione della retta",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco la forma esplicita. Emme è tre, cu è meno uno.",
-      "speech": "riconosco la forma esplicita. Emme è tre, cu è meno uno.",
-      "screen": "Equazione della retta",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, con ics zero ottengo meno uno. Con ics uno ottengo due.",
-      "speech": "Quindi, con __X__ zero ottengo meno uno. Con __X__ uno ottengo due.",
-      "screen": "Equazione della retta",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, congiungo i due punti e ottengo la retta.",
-      "speech": "Infine, congiungo i due punti e ottengo la retta.",
-      "screen": "Equazione della retta",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "ipsilon uguale a zero è l'asse ics, ics uguale a zero è l'asse ipsilon. Ipsilon uguale a ics è la bisettrice del primo e terzo quadrante.",
-      "speech": "ipsilon uguale a zero è l'asse __X__, __X__ uguale a zero è l'asse ipsilon. Ipsilon uguale a __X__ è la bisettrice del primo e terzo quadrante.",
-      "screen": "Rette particolari",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco la forma: ipsilon è uguale a ics.",
-      "speech": "riconosco la forma: ipsilon è uguale a __X__.",
-      "screen": "Rette particolari",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, confronto con la tabella della scheda.",
-      "speech": "Quindi, confronto con la tabella della scheda.",
-      "screen": "Rette particolari",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, è la bisettrice del primo e del terzo quadrante.",
-      "speech": "Infine, è la bisettrice del primo e del terzo quadrante.",
-      "screen": "Rette particolari",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "emme è la differenza delle ordinate fratto la differenza delle ascisse. Poi si usa l'equazione del fascio.",
-      "speech": "emme è la differenza delle ordinate fratto la differenza delle ascisse. Poi si usa l'equazione del fascio.",
-      "screen": "Coefficiente angolare e retta per due punti",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "calcolo emme. Quattro fratto due fa due.",
-      "speech": "calcolo emme. Quattro fratto due fa due.",
-      "screen": "Coefficiente angolare e retta per due punti",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, uso il fascio con il punto A.",
-      "speech": "Quindi, uso il fascio con il punto A.",
-      "screen": "Coefficiente angolare e retta per due punti",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, la retta è ipsilon uguale a due ics meno uno.",
-      "speech": "Infine, la retta è ipsilon uguale a due __X__ meno uno.",
-      "screen": "Coefficiente angolare e retta per due punti",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "due rette parallele hanno i coefficienti uguali. Due rette perpendicolari hanno i coefficienti antireciproci.",
-      "speech": "due rette parallele hanno i coefficienti uguali. Due rette perpendicolari hanno i coefficienti antireciproci.",
-      "screen": "Parallele e perpendicolari",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "leggo il coefficiente angolare: due.",
-      "speech": "leggo il coefficiente angolare: due.",
-      "screen": "Parallele e perpendicolari",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, l'antireciproco di due è meno un mezzo.",
-      "speech": "Quindi, l'antireciproco di due è meno un mezzo.",
-      "screen": "Parallele e perpendicolari",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, ogni perpendicolare ha coefficiente meno un mezzo.",
-      "speech": "Infine, ogni perpendicolare ha coefficiente meno un mezzo.",
-      "screen": "Parallele e perpendicolari",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "per l'intersezione si risolve il sistema. Per l'appartenenza si sostituiscono le coordinate: se si ottiene una identità, il punto sta sulla retta.",
-      "speech": "per l'intersezione si risolve il sistema. Per l'appartenenza si sostituiscono le coordinate: se si ottiene una identità, il punto sta sulla retta.",
-      "screen": "Intersezione e appartenenza",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "metto a sistema le due rette.",
-      "speech": "metto a sistema le due rette.",
-      "screen": "Intersezione e appartenenza",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, uguaglio. Ottengo ics uguale a uno.",
-      "speech": "Quindi, uguaglio. Ottengo __X__ uguale a uno.",
-      "screen": "Intersezione e appartenenza",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, sostituisco e ottengo ipsilon uguale a tre. Il punto è uno tre.",
-      "speech": "Infine, sostituisco e ottengo ipsilon uguale a tre. Il punto è uno tre.",
-      "screen": "Intersezione e appartenenza",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "la distanza è il valore assoluto di a ics zero, più bi ipsilon zero, più ci, fratto radice di a alla seconda più bi alla seconda.",
-      "speech": "la distanza è il valore assoluto di a __X__ zero, più bi ipsilon zero, più ci, fratto radice di a alla seconda più bi alla seconda.",
-      "screen": "Distanza punto retta",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco a uguale a tre, bi quattro, ci meno due.",
-      "speech": "riconosco a uguale a tre, bi quattro, ci meno due.",
-      "screen": "Distanza punto retta",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, sopra ottengo cinque. Sotto, radice di venticinque, cioè cinque.",
-      "speech": "Quindi, sopra ottengo cinque. Sotto, radice di venticinque, cioè cinque.",
-      "screen": "Distanza punto retta",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, cinque diviso cinque fa uno.",
-      "speech": "Infine, cinque diviso cinque fa uno.",
-      "screen": "Distanza punto retta",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "l'asse di un segmento passa per il punto medio ed è perpendicolare al segmento. La bisettrice è l'insieme dei punti equidistanti dai lati.",
-      "speech": "l'asse di un segmento passa per il punto medio ed è perpendicolare al segmento. La bisettrice è l'insieme dei punti equidistanti dai lati.",
-      "screen": "Asse, bisettrici, tangente dell'angolo",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "il coefficiente del segmento è due.",
-      "speech": "il coefficiente del segmento è due.",
-      "screen": "Asse, bisettrici, tangente dell'angolo",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, l'asse è perpendicolare, quindi ha coefficiente meno un mezzo.",
-      "speech": "Quindi, l'asse è perpendicolare, quindi ha coefficiente meno un mezzo.",
-      "screen": "Asse, bisettrici, tangente dell'angolo",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, l'asse passa per il punto medio due tre.",
-      "speech": "Infine, l'asse passa per il punto medio due tre.",
-      "screen": "Asse, bisettrici, tangente dell'angolo",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "il fascio proprio passa per un centro. Il fascio improprio ha lo stesso coefficiente angolare. Nell'equazione compare un parametro.",
-      "speech": "il fascio proprio passa per un centro. Il fascio improprio ha lo stesso coefficiente angolare. Nell'equazione compare un parametro.",
+      "text": "Nella formula del fascio, ics zero e ipsilon zero sono fissi: sono le coordinate del centro. Emme invece cambia, e ogni valore di emme dà una retta diversa del fascio.",
+      "speech": "Nella formula del fascio, __X__ zero e ipsilon zero sono fissi: sono le coordinate del centro. Emme invece cambia, e ogni valore di emme dà una retta diversa del fascio.",
       "screen": "Fasci di rette",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "riconosco le incognite ics e ipsilon, e un'altra lettera.",
-      "speech": "riconosco le incognite __X__ e ipsilon, e un'altra lettera.",
+      "text": "Vogliamo la retta del fascio di centro C, di coordinate uno e due, che passa anche per il punto A di coordinate tre e sei. Scriviamo il fascio: ipsilon meno due uguale a emme per, ics meno uno.",
+      "speech": "Vogliamo la retta del fascio di centro ci, di coordinate uno e due, che passa anche per il punto a di coordinate tre e sei. Scriviamo il fascio: ipsilon meno due uguale a emme per, __X__ meno uno.",
       "screen": "Fasci di rette",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Quindi, l'altra lettera, kappa, è il parametro.",
-      "speech": "Quindi, l'altra lettera, kappa, è il parametro.",
+      "text": "Imponiamo il passaggio per A, sostituendo ics con tre e ipsilon con sei: sei meno due uguale a emme per, tre meno uno.",
+      "speech": "Imponiamo il passaggio per a, sostituendo __X__ con tre e ipsilon con sei: sei meno due uguale a emme per, tre meno uno.",
       "screen": "Fasci di rette",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, è l'equazione di un fascio di rette.",
-      "speech": "Infine, è l'equazione di un fascio di rette.",
+      "text": "Calcoliamo: quattro uguale a due emme. Dividiamo per due: emme è uguale a due.",
+      "speech": "Calcoliamo: quattro uguale a due emme. Dividiamo per due: emme è uguale a due.",
       "screen": "Fasci di rette",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "Ora tocca a te, con tre domande. Prima di rispondere, leggi il coefficiente angolare della retta.",
-      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, leggi il coefficiente angolare della retta.",
+      "text": "Sostituiamo emme uguale a due nell’equazione del fascio: ipsilon meno due uguale a due per, ics meno uno.",
+      "speech": "Sostituiamo emme uguale a due nell’equazione del fascio: ipsilon meno due uguale a due per, __X__ meno uno.",
+      "screen": "Fasci di rette",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Moltiplichiamo e portiamo meno due al secondo membro: ipsilon è uguale a due ics. È la retta del fascio che passa per A.",
+      "speech": "Moltiplichiamo e portiamo meno due al secondo membro: ipsilon è uguale a due __X__. È la retta del fascio che passa per a.",
+      "screen": "Fasci di rette",
+      "purpose": "Esempio, passaggio 5"
+    },
+    {
+      "text": "Ora tocca a te, con tre domande. Prima di rispondere, individua il coefficiente angolare delle rette.",
+      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, individua il coefficiente angolare delle rette.",
       "screen": "Allenamento",
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i cursori e cambia emme e cu. Osserva come si muove la retta.",
-      "speech": "Questo è il laboratorio. Muovi i cursori e cambia emme e cu. Osserva come si muove la retta.",
+      "text": "Questo è il laboratorio. Cambia i valori di emme e di cu e osserva come si muove la retta: emme la fa ruotare, cu la sposta in alto o in basso.",
+      "speech": "Questo è il laboratorio. Cambia i valori di emme e di cu e osserva come si muove la retta: emme la fa ruotare, cu la sposta in alto o in basso.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Ricorda: emme è il coefficiente angolare. Parallele con emme uguali, perpendicolari con emme antireciproci.",
-      "speech": "Ricorda: emme è il coefficiente angolare. Parallele con emme uguali, perpendicolari con emme antireciproci.",
+      "text": "Ricorda: emme è il coefficiente angolare. Rette parallele hanno emme uguali; rette perpendicolari hanno emme antireciproci.",
+      "speech": "Ricorda: emme è il coefficiente angolare. Rette parallele hanno emme uguali; rette perpendicolari hanno emme antireciproci.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }
