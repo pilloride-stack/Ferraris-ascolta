@@ -11,7 +11,7 @@
     },
     {
       "text": "Nella formula, a moltiplica ics alla seconda, bi moltiplica ics, ci è il termine noto. Il segno di a decide la concavità.",
-      "speech": "Nella formula, a moltiplica __X__ alla seconda, bi moltiplica __X__, ci è il termine noto. Il segno di à decide la concavità.",
+      "speech": "Nella formula, a moltiplica __X__ alla seconda, bi moltiplica __X__, ci rappresenta il termine noto. Il segno di à decide la concavità.",
       "screen": "Definizione di parabola",
       "purpose": "Spiegazione visiva: formula"
     },
@@ -89,7 +89,7 @@
     },
     {
       "text": "Parabole particolari. Alcune parabole hanno equazioni più semplici, perché manca un termine. Se bi è zero, l’equazione è ipsilon uguale ad a ics alla seconda più ci, e il vertice sta sull’asse ipsilon. Se ci è zero, l’equazione è ipsilon uguale ad a ics alla seconda più bi ics, e la parabola passa per l’origine. Se mancano sia bi sia ci, l’equazione è ipsilon uguale ad a ics alla seconda, e il vertice è l’origine.",
-      "speech": "Parabole particolari. Alcune parabole hanno equazioni più semplici, perché manca un termine. Se bi è zero, l’equazione è ipsilon uguale a à per __X__ alla seconda più ci, e il vertice sta sull’asse ipsilon. Se ci è zero, l’equazione è ipsilon uguale a à per __X__ alla seconda più bi per __X__, e la parabola passa per l’origine. Se mancano sia bi sia ci, l’equazione è ipsilon uguale a à per __X__ alla seconda, e il vertice è l’origine.",
+      "speech": "Parabole particolari. Alcune parabole hanno equazioni più semplici, perché manca un termine. Se bi è zero, l’equazione è ipsilon uguale a à per __X__ alla seconda più ci, e il vertice sta sull’asse ipsilon. Se ci vale zero, l’equazione è ipsilon uguale a à per __X__ alla seconda più bi per __X__, e la parabola passa per l’origine. Se mancano sia bi sia ci, l’equazione è ipsilon uguale a à per __X__ alla seconda, e il vertice è l’origine.",
       "screen": "Definizioni",
       "purpose": "Definizione: Parabole particolari"
     },
@@ -113,7 +113,7 @@
     },
     {
       "text": "Nella seconda, ipsilon uguale a ics alla seconda meno due ics, manca il termine noto: ci è zero, quindi la parabola passa per l’origine.",
-      "speech": "Nella seconda, ipsilon uguale a __X__ alla seconda meno due __X__, manca il termine noto: ci è zero, quindi la parabola passa per l’origine.",
+      "speech": "Nella seconda, ipsilon uguale a __X__ alla seconda meno due __X__, manca il termine noto: ci vale zero, quindi la parabola passa per l’origine.",
       "screen": "Parabole particolari",
       "purpose": "Esempio, passaggio 3"
     },
