@@ -1,0 +1,151 @@
+{
+  "episode": "03",
+  "title": "Moto rettilineo uniforme e moto vario",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Sistema di riferimento. Iniziamo dagli strumenti per descrivere un moto. Il corpo si considera un punto materiale, cioè un punto con massa ma senza dimensioni. La sua posizione si indica rispetto a un sistema di riferimento: un asse con un’origine e un’unità di misura. Le posizioni occupate nel tempo formano la traiettoria. Lo spostamento lungo una retta è la posizione finale meno quella iniziale.",
+      "speech": "Sistema di riferimento. Iniziamo dagli strumenti per descrivere un moto. Il corpo si considera un punto materiale, cioè un punto con massa ma senza dimensioni. La sua posizione si indica rispetto a un sistema di riferimento: un asse con un’origine e un’unità di misura. Le posizioni occupate nel tempo formano la traiettoria. Lo spostamento lungo una retta è la posizione finale meno quella iniziale.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema di riferimento"
+    },
+    {
+      "text": "La formula: delta ics, lo spostamento, è la posizione finale ics meno la posizione iniziale ics zero.",
+      "speech": "La formula: delta __X__, lo spostamento, è la posizione finale __X__ meno la posizione iniziale __X__ zero.",
+      "screen": "Sistema di riferimento",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il ciclista parte dalla posizione venti metri e arriva a centoventi. Lo spostamento è centoventi meno venti: più cento metri.",
+      "speech": "Il ciclista parte dalla posizione venti metri e arriva a centoventi. Lo spostamento è centoventi meno venti: più cento metri.",
+      "screen": "Sistema di riferimento",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Poi torna fino a settanta metri. Lo spostamento è settanta meno centoventi: meno cinquanta metri. Il segno meno indica il verso opposto all’asse.",
+      "speech": "Poi torna fino a settanta metri. Lo spostamento è settanta meno centoventi: meno cinquanta metri. Il segno meno indica il verso opposto all’asse.",
+      "screen": "Sistema di riferimento",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "In totale è partito da venti ed è arrivato a settanta: lo spostamento complessivo è più cinquanta metri.",
+      "speech": "In totale è partito da venti ed è arrivato a settanta: lo spostamento complessivo è più cinquanta metri.",
+      "screen": "Sistema di riferimento",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Moto rettilineo uniforme. Vediamo il moto più semplice. Un corpo si muove di moto rettilineo uniforme quando percorre una retta con velocità costante: spazi uguali in tempi uguali. La legge oraria dice che la posizione è la posizione iniziale più la velocità per il tempo. Il grafico spazio-tempo è una retta, e la sua pendenza è la velocità.",
+      "speech": "Moto rettilineo uniforme. Vediamo il moto più semplice. Un corpo si muove di moto rettilineo uniforme quando percorre una retta con velocità costante: spazi uguali in tempi uguali. La legge oraria dice che la posizione è la posizione iniziale più la velocità per il tempo. Il grafico spazio-tempo è una retta, e la sua pendenza è la velocità.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Moto rettilineo uniforme"
+    },
+    {
+      "text": "La legge oraria: ics è uguale a ics zero più vu per ti.",
+      "speech": "La legge oraria: __X__ è uguale a __X__ zero più vu per ti.",
+      "screen": "Moto rettilineo uniforme",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il corpo parte da dieci metri con velocità cinque metri al secondo. La legge oraria è: ics uguale dieci più cinque per ti.",
+      "speech": "Il corpo parte da dieci metri con velocità cinque metri al secondo. La legge oraria è: __X__ uguale dieci più cinque per ti.",
+      "screen": "Moto rettilineo uniforme",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dopo quattro secondi: dieci più cinque per quattro, cioè trenta metri.",
+      "speech": "Dopo quattro secondi: dieci più cinque per quattro, cioè trenta metri.",
+      "screen": "Moto rettilineo uniforme",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Per sapere quando arriva a sessanta metri poniamo ics uguale a sessanta e ricaviamo il tempo: sessanta meno dieci, diviso cinque.",
+      "speech": "Per sapere quando arriva a sessanta metri poniamo __X__ uguale a sessanta e ricaviamo il tempo: sessanta meno dieci, diviso cinque.",
+      "screen": "Moto rettilineo uniforme",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Cinquanta diviso cinque fa dieci secondi.",
+      "speech": "Cinquanta diviso cinque fa dieci secondi.",
+      "screen": "Moto rettilineo uniforme",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Velocità media. Nella realtà la velocità quasi mai è costante: si parla di moto vario. Si usa allora la velocità media, cioè lo spostamento diviso il tempo impiegato. La velocità istantanea è la velocità in un preciso istante, quella del tachimetro: è la velocità media su intervalli di tempo sempre più piccoli. Per passare da chilometri orari a metri al secondo si divide per tre virgola sei.",
+      "speech": "Velocità media. Nella realtà la velocità quasi mai è costante: si parla di moto vario. Si usa allora la velocità media, cioè lo spostamento diviso il tempo impiegato. La velocità istantanea è la velocità in un preciso istante, quella del tachimetro: è la velocità media su intervalli di tempo sempre più piccoli. Per passare da chilometri orari a metri al secondo si divide per tre virgola sei.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Velocità media"
+    },
+    {
+      "text": "La formula: la velocità media è delta ics diviso delta ti.",
+      "speech": "La formula: la velocità media è delta __X__ diviso delta ti.",
+      "screen": "Velocità media",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un’auto percorre centoventi chilometri in un’ora e mezza. La velocità media è centoventi diviso uno virgola cinque.",
+      "speech": "Un’auto percorre centoventi chilometri in un’ora e mezza. La velocità media è centoventi diviso uno virgola cinque.",
+      "screen": "Velocità media",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il risultato è ottanta chilometri orari.",
+      "speech": "Il risultato è ottanta chilometri orari.",
+      "screen": "Velocità media",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "In metri al secondo dividiamo per tre virgola sei: circa ventidue virgola due metri al secondo.",
+      "speech": "In metri al secondo dividiamo per tre virgola sei: circa ventidue virgola due metri al secondo.",
+      "screen": "Velocità media",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Accelerazione media. Concludiamo con la grandezza che misura quanto rapidamente cambia la velocità. L’accelerazione media è la variazione di velocità divisa per il tempo in cui avviene. Si misura in metri al secondo quadrato. Se la velocità diminuisce, l’accelerazione è negativa: il corpo frena.",
+      "speech": "Accelerazione media. Concludiamo con la grandezza che misura quanto rapidamente cambia la velocità. L’accelerazione media è la variazione di velocità divisa per il tempo in cui avviene. Si misura in metri al secondo quadrato. Se la velocità diminuisce, l’accelerazione è negativa: il corpo frena.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Accelerazione media"
+    },
+    {
+      "text": "La formula: l’accelerazione media è delta vu diviso delta ti.",
+      "speech": "La formula: l’accelerazione media è delta vu diviso delta ti.",
+      "screen": "Accelerazione media",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un’auto parte da ferma e raggiunge venti metri al secondo in otto secondi. La variazione di velocità è venti metri al secondo.",
+      "speech": "Un’auto parte da ferma e raggiunge venti metri al secondo in otto secondi. La variazione di velocità è venti metri al secondo.",
+      "screen": "Accelerazione media",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’accelerazione media è venti diviso otto.",
+      "speech": "L’accelerazione media è venti diviso otto.",
+      "screen": "Accelerazione media",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è due virgola cinque metri al secondo quadrato: ogni secondo la velocità aumenta di due virgola cinque metri al secondo.",
+      "speech": "Il risultato è due virgola cinque metri al secondo quadrato: ogni secondo la velocità aumenta di due virgola cinque metri al secondo.",
+      "screen": "Accelerazione media",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Controlla sempre le unità di misura prima di fare i calcoli.",
+      "speech": "Ora tocca a te. Controlla sempre le unità di misura prima di fare i calcoli.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia la posizione iniziale, la velocità e il tempo, e guarda come cambia la retta del grafico.",
+      "speech": "Questo è il laboratorio. Cambia la posizione iniziale, la velocità e il tempo, e guarda come cambia la retta del grafico.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: nel moto uniforme la posizione è ics zero più vu per ti; la velocità media è spostamento diviso tempo.",
+      "speech": "Ricorda: nel moto uniforme la posizione è __X__ zero più vu per ti; la velocità media è spostamento diviso tempo.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

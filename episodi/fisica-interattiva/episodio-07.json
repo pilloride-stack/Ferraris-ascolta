@@ -1,0 +1,145 @@
+{
+  "episode": "07",
+  "title": "I principi della dinamica",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Forze e risultante. Iniziamo dalle forze, le protagoniste della dinamica. Una forza è una grandezza vettoriale che descrive l’interazione tra due corpi: può cambiare il loro stato di quiete o di moto, oppure deformarli. Si misura in newton. Se su un corpo agiscono più forze, l’effetto complessivo è dato dalla risultante, la loro somma vettoriale.",
+      "speech": "Forze e risultante. Iniziamo dalle forze, le protagoniste della dinamica. Una forza è una grandezza vettoriale che descrive l’interazione tra due corpi: può cambiare il loro stato di quiete o di moto, oppure deformarli. Si misura in newton. Se su un corpo agiscono più forze, l’effetto complessivo è dato dalla risultante, la loro somma vettoriale.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Forze e risultante"
+    },
+    {
+      "text": "La formula: la risultante è la somma vettoriale di tutte le forze.",
+      "speech": "La formula: la risultante è la somma vettoriale di tutte le forze.",
+      "screen": "Forze e risultante",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Due forze di trenta e quaranta newton. Se hanno la stessa direzione e lo stesso verso, la risultante è settanta newton.",
+      "speech": "Due forze di trenta e quaranta newton. Se hanno la stessa direzione e lo stesso verso, la risultante è settanta newton.",
+      "screen": "Forze e risultante",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Se hanno versi opposti, la risultante è quaranta meno trenta: dieci newton, nel verso della forza maggiore.",
+      "speech": "Se hanno versi opposti, la risultante è quaranta meno trenta: dieci newton, nel verso della forza maggiore.",
+      "screen": "Forze e risultante",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Se sono perpendicolari, la risultante è la diagonale: radice di trenta al quadrato più quaranta al quadrato, cioè cinquanta newton.",
+      "speech": "Se sono perpendicolari, la risultante è la diagonale: radice di trenta al quadrato più quaranta al quadrato, cioè cinquanta newton.",
+      "screen": "Forze e risultante",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Primo principio, o principio d’inerzia. Un corpo resta fermo, oppure continua a muoversi in linea retta a velocità costante, finché la risultante delle forze applicate è zero. Non serve una forza per mantenere il moto: serve una forza per cambiarlo. L’inerzia è proprio la tendenza a conservare il proprio stato di quiete o di moto.",
+      "speech": "Primo principio, o principio d’inerzia. Un corpo resta fermo, oppure continua a muoversi in linea retta a velocità costante, finché la risultante delle forze applicate è zero. Non serve una forza per mantenere il moto: serve una forza per cambiarlo. L’inerzia è proprio la tendenza a conservare il proprio stato di quiete o di moto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Primo principio"
+    },
+    {
+      "text": "La formula: se la somma delle forze è zero, la velocità è costante, e viceversa.",
+      "speech": "La formula: se la somma delle forze è zero, la velocità è costante, e viceversa.",
+      "screen": "Primo principio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un disco scivola sul ghiaccio senza attrito. In verticale il peso è equilibrato dalla spinta del ghiaccio.",
+      "speech": "Un disco scivola sul ghiaccio senza attrito. In verticale il peso è equilibrato dalla spinta del ghiaccio.",
+      "screen": "Primo principio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "In orizzontale non agisce nessuna forza.",
+      "speech": "In orizzontale non agisce nessuna forza.",
+      "screen": "Primo principio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La risultante è zero: per il primo principio il disco prosegue in linea retta con la stessa velocità.",
+      "speech": "La risultante è zero: per il primo principio il disco prosegue in linea retta con la stessa velocità.",
+      "screen": "Primo principio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Secondo principio. Vediamo che cosa succede quando la risultante non è zero: il corpo accelera. L’accelerazione ha la stessa direzione e lo stesso verso della forza, è proporzionale alla forza e inversamente proporzionale alla massa. La massa misura l’inerzia: a parità di forza, più massa vuol dire meno accelerazione.",
+      "speech": "Secondo principio. Vediamo che cosa succede quando la risultante non è zero: il corpo accelera. L’accelerazione ha la stessa direzione e lo stesso verso della forza, è proporzionale alla forza e inversamente proporzionale alla massa. La massa misura l’inerzia: a parità di forza, più massa vuol dire meno accelerazione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Secondo principio"
+    },
+    {
+      "text": "Nel riquadro: effe è uguale a emme per à; quindi l’accelerazione è la forza divisa per la massa.",
+      "speech": "Nel riquadro: effe è uguale a emme per à; quindi l’accelerazione è la forza divisa per la massa.",
+      "screen": "Secondo principio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Una forza di venti newton spinge una cassa di quattro chilogrammi, senza attrito.",
+      "speech": "Una forza di venti newton spinge una cassa di quattro chilogrammi, senza attrito.",
+      "screen": "Secondo principio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’accelerazione è la forza divisa per la massa: venti diviso quattro.",
+      "speech": "L’accelerazione è la forza divisa per la massa: venti diviso quattro.",
+      "screen": "Secondo principio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è cinque metri al secondo quadrato, nel verso della forza.",
+      "speech": "Il risultato è cinque metri al secondo quadrato, nel verso della forza.",
+      "screen": "Secondo principio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Terzo principio. Concludiamo con il principio di azione e reazione. Quando un corpo esercita una forza su un secondo corpo, il secondo esercita sul primo una forza uguale in modulo e direzione, ma di verso opposto. Le due forze non si annullano, perché agiscono su corpi diversi.",
+      "speech": "Terzo principio. Concludiamo con il principio di azione e reazione. Quando un corpo esercita una forza su un secondo corpo, il secondo esercita sul primo una forza uguale in modulo e direzione, ma di verso opposto. Le due forze non si annullano, perché agiscono su corpi diversi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Terzo principio"
+    },
+    {
+      "text": "La formula: la forza di à su bi è l’opposta della forza di bi su à.",
+      "speech": "La formula: la forza di à su bi è l’opposta della forza di bi su à.",
+      "screen": "Terzo principio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il primo pattinatore spinge il secondo con sessanta newton. Per il terzo principio, il secondo spinge il primo con sessanta newton in verso opposto.",
+      "speech": "Il primo pattinatore spinge il secondo con sessanta newton. Per il terzo principio, il secondo spinge il primo con sessanta newton in verso opposto.",
+      "screen": "Terzo principio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il primo ha massa sessanta chilogrammi: accelera di un metro al secondo quadrato all’indietro.",
+      "speech": "Il primo ha massa sessanta chilogrammi: accelera di un metro al secondo quadrato all’indietro.",
+      "screen": "Terzo principio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il secondo ha massa quaranta: accelera di uno virgola cinque metri al secondo quadrato in avanti. Stessa forza, effetti diversi.",
+      "speech": "Il secondo ha massa quaranta: accelera di uno virgola cinque metri al secondo quadrato in avanti. Stessa forza, effetti diversi.",
+      "screen": "Terzo principio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Prima trova la risultante, poi applica il principio giusto.",
+      "speech": "Ora tocca a te. Prima trova la risultante, poi applica il principio giusto.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. A parità di forza, prova a raddoppiare la massa e guarda che cosa succede all’accelerazione.",
+      "speech": "Questo è il laboratorio. A parità di forza, prova a raddoppiare la massa e guarda che cosa succede all’accelerazione.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: senza forza risultante la velocità non cambia; effe è emme per à; azione e reazione agiscono su corpi diversi.",
+      "speech": "Ricorda: senza forza risultante la velocità non cambia; effe è emme per à; azione e reazione agiscono su corpi diversi.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

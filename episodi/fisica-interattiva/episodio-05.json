@@ -1,0 +1,145 @@
+{
+  "episode": "05",
+  "title": "Moto circolare, periodo e frequenza",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Velocità nel piano. Finora i moti erano su una retta; ora la traiettoria può curvare. Velocità e accelerazione si trattano come vettori. In ogni istante la velocità è tangente alla traiettoria. L’accelerazione può avere una componente lungo la tangente, che cambia il modulo della velocità, e una componente verso il centro della curva, che ne cambia la direzione.",
+      "speech": "Velocità nel piano. Finora i moti erano su una retta; ora la traiettoria può curvare. Velocità e accelerazione si trattano come vettori. In ogni istante la velocità è tangente alla traiettoria. L’accelerazione può avere una componente lungo la tangente, che cambia il modulo della velocità, e una componente verso il centro della curva, che ne cambia la direzione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Velocità nel piano"
+    },
+    {
+      "text": "Nel riquadro le due componenti dell’accelerazione: tangenziale, che cambia il modulo, e centripeta, che cambia la direzione.",
+      "speech": "Nel riquadro le due componenti dell’accelerazione: tangenziale, che cambia il modulo, e centripeta, che cambia la direzione.",
+      "screen": "Velocità nel piano",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un’auto percorre una curva sempre a cinquanta chilometri orari. In ogni punto la sua velocità è tangente alla curva.",
+      "speech": "Un’auto percorre una curva sempre a cinquanta chilometri orari. In ogni punto la sua velocità è tangente alla curva.",
+      "screen": "Velocità nel piano",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il modulo della velocità resta cinquanta: l’accelerazione tangenziale è nulla.",
+      "speech": "Il modulo della velocità resta cinquanta: l’accelerazione tangenziale è nulla.",
+      "screen": "Velocità nel piano",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La direzione però cambia in continuazione: c’è un’accelerazione verso il centro della curva. Anche a velocità costante, in curva il moto è accelerato.",
+      "speech": "La direzione però cambia in continuazione: cè un’accelerazione verso il centro della curva. Anche a velocità costante, in curva il moto è accelerato.",
+      "screen": "Velocità nel piano",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Periodo e frequenza. Vediamo il moto circolare uniforme: un corpo percorre una circonferenza con velocità di modulo costante. Il periodo, ti maiuscola, è il tempo per un giro completo e si misura in secondi. La frequenza, effe, è il numero di giri in un secondo e si misura in hertz. Periodo e frequenza sono l’uno l’inverso dell’altra.",
+      "speech": "Periodo e frequenza. Vediamo il moto circolare uniforme: un corpo percorre una circonferenza con velocità di modulo costante. Il periodo, ti maiuscola, è il tempo per un giro completo e si misura in secondi. La frequenza, effe, è il numero di giri in un secondo e si misura in hertz. Periodo e frequenza sono l’uno l’inverso dell’altra.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Periodo e frequenza"
+    },
+    {
+      "text": "La formula: la frequenza è uno diviso il periodo.",
+      "speech": "La formula: la frequenza è uno diviso il periodo.",
+      "screen": "Periodo e frequenza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Una ruota compie centoventi giri in sessanta secondi. La frequenza è centoventi diviso sessanta: due hertz, cioè due giri al secondo.",
+      "speech": "Una ruota compie centoventi giri in sessanta secondi. La frequenza è centoventi diviso sessanta: due hertz, cioè due giri al secondo.",
+      "screen": "Periodo e frequenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il periodo è l’inverso della frequenza: uno diviso due.",
+      "speech": "Il periodo è l’inverso della frequenza: uno diviso due.",
+      "screen": "Periodo e frequenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il periodo è zero virgola cinque secondi: mezzo secondo per ogni giro.",
+      "speech": "Il periodo è zero virgola cinque secondi: mezzo secondo per ogni giro.",
+      "screen": "Periodo e frequenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Velocità tangenziale. Ora calcoliamo quanto veloce va il corpo lungo la circonferenza. In un giro percorre la circonferenza, due pi greco erre, nel tempo di un periodo. Quindi la velocità tangenziale è due pi greco erre diviso ti maiuscola.",
+      "speech": "Velocità tangenziale. Ora calcoliamo quanto veloce va il corpo lungo la circonferenza. In un giro percorre la circonferenza, due pi greco erre, nel tempo di un periodo. Quindi la velocità tangenziale è due pi greco erre diviso ti maiuscola.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Velocità tangenziale"
+    },
+    {
+      "text": "La formula: vu è uguale a due pi greco erre diviso il periodo.",
+      "speech": "La formula: vu è uguale a due pi greco erre diviso il periodo.",
+      "screen": "Velocità tangenziale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il raggio è due metri. Un giro è lungo due pi greco per due, circa dodici virgola cinquantasette metri.",
+      "speech": "Il raggio è due metri. Un giro è lungo due pi greco per due, circa dodici virgola cinquantasette metri.",
+      "screen": "Velocità tangenziale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Questo giro viene compiuto in quattro secondi: dividiamo per quattro.",
+      "speech": "Questo giro viene compiuto in quattro secondi: dividiamo per quattro.",
+      "screen": "Velocità tangenziale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La velocità tangenziale è circa tre virgola quattordici metri al secondo.",
+      "speech": "La velocità tangenziale è circa tre virgola quattordici metri al secondo.",
+      "screen": "Velocità tangenziale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Velocità angolare. Concludiamo con una velocità che non dipende dal raggio. La velocità angolare, omega, misura l’angolo descritto dal raggio in un secondo, e si misura in radianti al secondo. In un periodo il raggio descrive due pi greco radianti, quindi omega è due pi greco diviso ti. La velocità tangenziale è omega per il raggio.",
+      "speech": "Velocità angolare. Concludiamo con una velocità che non dipende dal raggio. La velocità angolare, omega, misura l’angolo descritto dal raggio in un secondo, e si misura in radianti al secondo. In un periodo il raggio descrive due pi greco radianti, quindi omega è due pi greco diviso ti. La velocità tangenziale è omega per il raggio.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Velocità angolare"
+    },
+    {
+      "text": "Nel riquadro: omega è due pi greco diviso il periodo; vu è omega per erre.",
+      "speech": "Nel riquadro: omega è due pi greco diviso il periodo; vu è omega per erre.",
+      "screen": "Velocità angolare",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La giostra fa un giro in dieci secondi. Omega è due pi greco diviso dieci, circa zero virgola sei due otto radianti al secondo, uguale per tutti i cavalli.",
+      "speech": "La giostra fa un giro in dieci secondi. Omega è due pi greco diviso dieci, circa zero virgola sei due otto radianti al secondo, uguale per tutti i cavalli.",
+      "screen": "Velocità angolare",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il cavallo a tre metri dal centro va a omega per tre, circa uno virgola nove metri al secondo.",
+      "speech": "Il cavallo a tre metri dal centro va a omega per tre, circa uno virgola nove metri al secondo.",
+      "screen": "Velocità angolare",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Quello a cinque metri va a circa tre virgola uno metri al secondo: più lontano dal centro, più veloce.",
+      "speech": "Quello a cinque metri va a circa tre virgola uno metri al secondo: più lontano dal centro, più veloce.",
+      "screen": "Velocità angolare",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda che periodo e frequenza sono uno l’inverso dell’altra.",
+      "speech": "Ora tocca a te. Ricorda che periodo e frequenza sono uno l’inverso dell’altra.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia il raggio e il periodo e osserva il punto che gira.",
+      "speech": "Questo è il laboratorio. Cambia il raggio e il periodo e osserva il punto che gira.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: effe è uno diviso ti; vu è due pi greco erre diviso ti; omega è due pi greco diviso ti.",
+      "speech": "Ricorda: effe è uno diviso ti; vu è due pi greco erre diviso ti; omega è due pi greco diviso ti.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

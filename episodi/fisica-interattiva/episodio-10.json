@@ -1,0 +1,175 @@
+{
+  "episode": "10",
+  "title": "Lavoro, potenza ed energia",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Lavoro di una forza. Iniziamo dal significato fisico della parola lavoro. Una forza compie lavoro quando il suo punto di applicazione si sposta. Il lavoro è la forza per lo spostamento per il coseno dell’angolo teta tra forza e spostamento, e si misura in joule. Se la forza è perpendicolare allo spostamento il lavoro è zero; se è opposta, è negativo.",
+      "speech": "Lavoro di una forza. Iniziamo dal significato fisico della parola lavoro. Una forza compie lavoro quando il suo punto di applicazione si sposta. Il lavoro è la forza per lo spostamento per il coseno dell’angolo teta tra forza e spostamento, e si misura in joule. Se la forza è perpendicolare allo spostamento il lavoro è zero; se è opposta, è negativo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Lavoro di una forza"
+    },
+    {
+      "text": "La formula: il lavoro è la forza per lo spostamento per il coseno di teta.",
+      "speech": "La formula: il lavoro è la forza per lo spostamento per il coseno di teta.",
+      "screen": "Lavoro di una forza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Tiri una cassa con una forza di cinquanta newton inclinata di sessanta gradi, per dieci metri.",
+      "speech": "Tiri una cassa con una forza di cinquanta newton inclinata di sessanta gradi, per dieci metri.",
+      "screen": "Lavoro di una forza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il coseno di sessanta gradi è zero virgola cinque: il lavoro è cinquanta per dieci per zero virgola cinque.",
+      "speech": "Il coseno di sessanta gradi è zero virgola cinque: il lavoro è cinquanta per dieci per zero virgola cinque.",
+      "screen": "Lavoro di una forza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il lavoro compiuto è duecentocinquanta joule.",
+      "speech": "Il lavoro compiuto è duecentocinquanta joule.",
+      "screen": "Lavoro di una forza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Potenza. Lo stesso lavoro si può fare in fretta o con calma. La potenza misura la rapidità con cui si compie un lavoro: è il lavoro diviso il tempo. Si misura in watt, e un watt è un joule al secondo.",
+      "speech": "Potenza. Lo stesso lavoro si può fare in fretta o con calma. La potenza misura la rapidità con cui si compie un lavoro: è il lavoro diviso il tempo. Si misura in watt, e un watt è un joule al secondo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Potenza"
+    },
+    {
+      "text": "La formula: la potenza è il lavoro diviso il tempo.",
+      "speech": "La formula: la potenza è il lavoro diviso il tempo.",
+      "screen": "Potenza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il lavoro di duecentocinquanta joule fatto in cinque secondi richiede una potenza di cinquanta watt.",
+      "speech": "Il lavoro di duecentocinquanta joule fatto in cinque secondi richiede una potenza di cinquanta watt.",
+      "screen": "Potenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Fatto in cinquanta secondi richiede solo cinque watt.",
+      "speech": "Fatto in cinquanta secondi richiede solo cinque watt.",
+      "screen": "Potenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il lavoro è lo stesso, ma farlo più in fretta richiede più potenza.",
+      "speech": "Il lavoro è lo stesso, ma farlo più in fretta richiede più potenza.",
+      "screen": "Potenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Energia cinetica. L’energia è la capacità di compiere lavoro. L’energia cinetica è quella che un corpo possiede perché si muove: è un mezzo della massa per la velocità al quadrato, e si misura in joule. Se la velocità raddoppia, l’energia cinetica diventa quattro volte più grande.",
+      "speech": "Energia cinetica. L’energia è la capacità di compiere lavoro. L’energia cinetica è quella che un corpo possiede perché si muove: è un mezzo della massa per la velocità al quadrato, e si misura in joule. Se la velocità raddoppia, l’energia cinetica diventa quattro volte più grande.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Energia cinetica"
+    },
+    {
+      "text": "La formula: l’energia cinetica è un mezzo di emme per vu al quadrato.",
+      "speech": "La formula: l’energia cinetica è un mezzo di emme per vu al quadrato.",
+      "screen": "Energia cinetica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Una palla di due chilogrammi a tre metri al secondo: un mezzo per due per nove, cioè nove joule.",
+      "speech": "Una palla di due chilogrammi a tre metri al secondo: un mezzo per due per nove, cioè nove joule.",
+      "screen": "Energia cinetica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "A sei metri al secondo: un mezzo per due per trentasei, cioè trentasei joule.",
+      "speech": "A sei metri al secondo: un mezzo per due per trentasei, cioè trentasei joule.",
+      "screen": "Energia cinetica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Con la velocità doppia l’energia è quattro volte più grande.",
+      "speech": "Con la velocità doppia l’energia è quattro volte più grande.",
+      "screen": "Energia cinetica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Energia potenziale gravitazionale. Vediamo l’energia che dipende dalla posizione. Un corpo in alto possiede energia potenziale rispetto al suolo: è la massa per gi per l’altezza, e si misura in joule.",
+      "speech": "Energia potenziale gravitazionale. Vediamo l’energia che dipende dalla posizione. Un corpo in alto possiede energia potenziale rispetto al suolo: è la massa per gi per l’altezza, e si misura in joule.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Energia potenziale gravitazionale"
+    },
+    {
+      "text": "La formula: l’energia potenziale è emme per gi per acca.",
+      "speech": "La formula: l’energia potenziale è emme per gi per acca.",
+      "screen": "Energia potenziale gravitazionale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un vaso di due chilogrammi si trova a cinque metri di altezza.",
+      "speech": "Un vaso di due chilogrammi si trova a cinque metri di altezza.",
+      "screen": "Energia potenziale gravitazionale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’energia potenziale è due per nove virgola ottantuno per cinque.",
+      "speech": "L’energia potenziale è due per nove virgola ottantuno per cinque.",
+      "screen": "Energia potenziale gravitazionale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è novantotto virgola uno joule.",
+      "speech": "Il risultato è novantotto virgola uno joule.",
+      "screen": "Energia potenziale gravitazionale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Conservazione dell’energia meccanica. Concludiamo con un principio fondamentale. L’energia meccanica è la somma di energia cinetica e potenziale. Senza attriti, per un corpo soggetto solo al peso, l’energia meccanica si conserva: la potenziale si trasforma in cinetica, o viceversa, ma la somma resta la stessa.",
+      "speech": "Conservazione dell’energia meccanica. Concludiamo con un principio fondamentale. L’energia meccanica è la somma di energia cinetica e potenziale. Senza attriti, per un corpo soggetto solo al peso, l’energia meccanica si conserva: la potenziale si trasforma in cinetica, o viceversa, ma la somma resta la stessa.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Conservazione dell’energia meccanica"
+    },
+    {
+      "text": "La formula: l’energia meccanica, cinetica più potenziale, resta costante.",
+      "speech": "La formula: l’energia meccanica, cinetica più potenziale, resta costante.",
+      "screen": "Conservazione dell’energia meccanica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il vaso parte da fermo a cinque metri: ha solo energia potenziale, novantotto virgola uno joule.",
+      "speech": "Il vaso parte da fermo a cinque metri: ha solo energia potenziale, novantotto virgola uno joule.",
+      "screen": "Conservazione dell’energia meccanica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Al suolo l’altezza è zero: tutta l’energia è diventata cinetica. Un mezzo per due per vu al quadrato è uguale a novantotto virgola uno.",
+      "speech": "Al suolo l’altezza è zero: tutta l’energia è diventata cinetica. Un mezzo per due per vu al quadrato è uguale a novantotto virgola uno.",
+      "screen": "Conservazione dell’energia meccanica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Quindi vu al quadrato è novantotto virgola uno, e la velocità è circa nove virgola nove metri al secondo.",
+      "speech": "Quindi vu al quadrato è novantotto virgola uno, e la velocità è circa nove virgola nove metri al secondo.",
+      "screen": "Conservazione dell’energia meccanica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda che lavoro ed energia si misurano entrambi in joule.",
+      "speech": "Ora tocca a te. Ricorda che lavoro ed energia si misurano entrambi in joule.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Muovi l’oggetto verso il basso e guarda come l’energia potenziale diventa cinetica.",
+      "speech": "Questo è il laboratorio. Muovi l’oggetto verso il basso e guarda come l’energia potenziale diventa cinetica.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il lavoro è forza per spostamento per coseno di teta; senza attriti l’energia meccanica resta costante.",
+      "speech": "Ricorda: il lavoro è forza per spostamento per coseno di teta; senza attriti l’energia meccanica resta costante.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

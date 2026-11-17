@@ -1,0 +1,163 @@
+{
+  "episode": "02",
+  "title": "I vettori",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Grandezze scalari e vettoriali. Iniziamo distinguendo due tipi di grandezze. Una grandezza scalare è descritta da un numero con la sua unità. Una grandezza vettoriale richiede anche una direzione e un verso, e si rappresenta con un vettore: una freccia caratterizzata da modulo, direzione e verso. Il modulo è la lunghezza della freccia, la direzione è la retta su cui giace, il verso è indicato dalla punta.",
+      "speech": "Grandezze scalari e vettoriali. Iniziamo distinguendo due tipi di grandezze. Una grandezza scalare è descritta da un numero con la sua unità. Una grandezza vettoriale richiede anche una direzione e un verso, e si rappresenta con un vettore: una freccia caratterizzata da modulo, direzione e verso. Il modulo è la lunghezza della freccia, la direzione è la retta su cui giace, il verso è indicato dalla punta.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Grandezze scalari e vettoriali"
+    },
+    {
+      "text": "Nel riquadro i tre elementi di un vettore: modulo, direzione e verso.",
+      "speech": "Nel riquadro i tre elementi di un vettore: modulo, direzione e verso.",
+      "screen": "Grandezze scalari e vettoriali",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Prima grandezza: una massa di tre chilogrammi. Basta il numero con l’unità: è scalare.",
+      "speech": "Prima grandezza: una massa di tre chilogrammi. Basta il numero con l’unità: è scalare.",
+      "screen": "Grandezze scalari e vettoriali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Seconda: una forza di venti newton verso l’alto. Per descriverla servono direzione e verso: è vettoriale.",
+      "speech": "Seconda: una forza di venti newton verso l’alto. Per descriverla servono direzione e verso: è vettoriale.",
+      "screen": "Grandezze scalari e vettoriali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Terza: una temperatura di venticinque gradi. Non ha direzione: è scalare.",
+      "speech": "Terza: una temperatura di venticinque gradi. Non ha direzione: è scalare.",
+      "screen": "Grandezze scalari e vettoriali",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Quarta: una velocità di quindici metri al secondo verso nord. Ha direzione e verso: è vettoriale.",
+      "speech": "Quarta: una velocità di quindici metri al secondo verso nord. Ha direzione e verso: è vettoriale.",
+      "screen": "Grandezze scalari e vettoriali",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Spostamento e spazio percorso. Il primo vettore che si incontra studiando il moto è lo spostamento: il vettore che va dalla posizione iniziale alla posizione finale, qualunque sia il percorso seguito. Lo spazio percorso invece è la lunghezza della strada realmente fatta: è uno scalare, sempre maggiore o uguale al modulo dello spostamento.",
+      "speech": "Spostamento e spazio percorso. Il primo vettore che si incontra studiando il moto è lo spostamento: il vettore che va dalla posizione iniziale alla posizione finale, qualunque sia il percorso seguito. Lo spazio percorso invece è la lunghezza della strada realmente fatta: è uno scalare, sempre maggiore o uguale al modulo dello spostamento.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Spostamento e spazio percorso"
+    },
+    {
+      "text": "Nella formula: lo spazio percorso è maggiore o uguale al modulo dello spostamento.",
+      "speech": "Nella formula: lo spazio percorso è maggiore o uguale al modulo dello spostamento.",
+      "screen": "Spostamento e spazio percorso",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Cammini tre metri verso est e poi quattro verso nord. Lo spazio percorso è la somma dei due tratti: sette metri.",
+      "speech": "Cammini tre metri verso est e poi quattro verso nord. Lo spazio percorso è la somma dei due tratti: sette metri.",
+      "screen": "Spostamento e spazio percorso",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Lo spostamento va dal punto di partenza a quello di arrivo. I due tratti sono perpendicolari, quindi usiamo il teorema di Pitagora: esse al quadrato è tre al quadrato più quattro al quadrato.",
+      "speech": "Lo spostamento va dal punto di partenza a quello di arrivo. I due tratti sono perpendicolari, quindi usiamo il teorema di Pitagora: esse al quadrato è tre al quadrato più quattro al quadrato.",
+      "screen": "Spostamento e spazio percorso",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nove più sedici fa venticinque, e la radice è cinque: lo spostamento è di cinque metri.",
+      "speech": "Nove più sedici fa venticinque, e la radice è cinque: lo spostamento è di cinque metri.",
+      "screen": "Spostamento e spazio percorso",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Lo spazio percorso, sette metri, è maggiore dello spostamento, cinque metri.",
+      "speech": "Lo spazio percorso, sette metri, è maggiore dello spostamento, cinque metri.",
+      "screen": "Spostamento e spazio percorso",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Componenti cartesiane. Per fare i calcoli con i vettori li scomponiamo lungo gli assi. Se teta è l’angolo tra il vettore e l’asse delle ics, la componente ics è il modulo per il coseno di teta, la componente ipsilon è il modulo per il seno di teta. Viceversa, dalle componenti si ricava il modulo con il teorema di Pitagora.",
+      "speech": "Componenti cartesiane. Per fare i calcoli con i vettori li scomponiamo lungo gli assi. Se teta è l’angolo tra il vettore e l’asse delle __X__, la componente __X__ è il modulo per il coseno di teta, la componente ipsilon è il modulo per il seno di teta. Viceversa, dalle componenti si ricava il modulo con il teorema di Pitagora.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Componenti cartesiane"
+    },
+    {
+      "text": "Nel riquadro le tre formule: componente ics con il coseno, componente ipsilon con il seno, modulo con la radice della somma dei quadrati.",
+      "speech": "Nel riquadro le tre formule: componente __X__ con il coseno, componente ipsilon con il seno, modulo con la radice della somma dei quadrati.",
+      "screen": "Componenti cartesiane",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il vettore ha modulo dieci newton e forma trenta gradi con l’asse delle ics. La componente ics è dieci per il coseno di trenta gradi, cioè circa otto virgola sessantasei newton.",
+      "speech": "Il vettore ha modulo dieci newton e forma trenta gradi con l’asse delle __X__. La componente __X__ è dieci per il coseno di trenta gradi, cioè circa otto virgola sessantasei newton.",
+      "screen": "Componenti cartesiane",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La componente ipsilon è dieci per il seno di trenta gradi, cioè cinque newton.",
+      "speech": "La componente ipsilon è dieci per il seno di trenta gradi, cioè cinque newton.",
+      "screen": "Componenti cartesiane",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Controlliamo: otto virgola sessantasei al quadrato più cinque al quadrato fa cento, e la radice è dieci. Ritroviamo il modulo.",
+      "speech": "Controlliamo: otto virgola sessantasei al quadrato più cinque al quadrato fa cento, e la radice è dieci. Ritroviamo il modulo.",
+      "screen": "Componenti cartesiane",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Somma di vettori. Concludiamo con la somma di due vettori. I vettori non si sommano sommando i moduli, perché conta anche la direzione. Graficamente si mette la coda del secondo vettore sulla punta del primo, oppure si costruisce il parallelogramma e si prende la diagonale. Per via analitica si sommano separatamente le componenti ics e le componenti ipsilon.",
+      "speech": "Somma di vettori. Concludiamo con la somma di due vettori. I vettori non si sommano sommando i moduli, perché conta anche la direzione. Graficamente si mette la coda del secondo vettore sulla punta del primo, oppure si costruisce il parallelogramma e si prende la diagonale. Per via analitica si sommano separatamente le componenti __X__ e le componenti ipsilon.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Somma di vettori"
+    },
+    {
+      "text": "Nel riquadro la somma per componenti: si sommano le ics tra loro e le ipsilon tra loro.",
+      "speech": "Nel riquadro la somma per componenti: si sommano le __X__ tra loro e le ipsilon tra loro.",
+      "screen": "Somma di vettori",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il primo vettore ha componenti quattro e uno, il secondo uno e tre. Sommiamo le componenti ics: quattro più uno fa cinque.",
+      "speech": "Il primo vettore ha componenti quattro e uno, il secondo uno e tre. Sommiamo le componenti __X__: quattro più uno fa cinque.",
+      "screen": "Somma di vettori",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sommiamo le componenti ipsilon: uno più tre fa quattro.",
+      "speech": "Sommiamo le componenti ipsilon: uno più tre fa quattro.",
+      "screen": "Somma di vettori",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il vettore somma ha componenti cinque e quattro.",
+      "speech": "Il vettore somma ha componenti cinque e quattro.",
+      "screen": "Somma di vettori",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il suo modulo è la radice di venticinque più sedici, cioè radice di quarantuno, circa sei virgola quaranta.",
+      "speech": "Il suo modulo è la radice di venticinque più sedici, cioè radice di quarantuno, circa sei virgola quaranta.",
+      "screen": "Somma di vettori",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Ora tocca a te. Per ogni vettore pensa alla freccia: quanto è lunga, su quale retta sta e dove punta.",
+      "speech": "Ora tocca a te. Per ogni vettore pensa alla freccia: quanto è lunga, su quale retta sta e dove punta.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia il modulo e l’angolo del vettore e osserva come cambiano le sue componenti.",
+      "speech": "Questo è il laboratorio. Cambia il modulo e l’angolo del vettore e osserva come cambiano le sue componenti.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: le componenti si trovano con coseno e seno, e i vettori si sommano componente per componente.",
+      "speech": "Ricorda: le componenti si trovano con coseno e seno, e i vettori si sommano componente per componente.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

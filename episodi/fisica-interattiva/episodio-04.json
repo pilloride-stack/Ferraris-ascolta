@@ -1,0 +1,145 @@
+{
+  "episode": "04",
+  "title": "Il moto uniformemente accelerato",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Legge della velocità. Iniziamo dal moto in cui l’accelerazione resta sempre la stessa: il moto uniformemente accelerato. La velocità cambia in modo proporzionale al tempo: è uguale alla velocità iniziale più l’accelerazione per il tempo. Il grafico velocità-tempo è una retta, e la sua pendenza è l’accelerazione.",
+      "speech": "Legge della velocità. Iniziamo dal moto in cui l’accelerazione resta sempre la stessa: il moto uniformemente accelerato. La velocità cambia in modo proporzionale al tempo: è uguale alla velocità iniziale più l’accelerazione per il tempo. Il grafico velocità-tempo è una retta, e la sua pendenza è l’accelerazione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Legge della velocità"
+    },
+    {
+      "text": "La legge della velocità: vu è uguale a vu zero più l’accelerazione per ti.",
+      "speech": "La legge della velocità: vu è uguale a vu zero più l’accelerazione per ti.",
+      "screen": "Legge della velocità",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un’auto parte da ferma, quindi la velocità iniziale è zero, e accelera con due metri al secondo quadrato.",
+      "speech": "Un’auto parte da ferma, quindi la velocità iniziale è zero, e accelera con due metri al secondo quadrato.",
+      "screen": "Legge della velocità",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Applichiamo la legge della velocità: zero più due per cinque.",
+      "speech": "Applichiamo la legge della velocità: zero più due per cinque.",
+      "screen": "Legge della velocità",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Dopo cinque secondi la velocità è dieci metri al secondo.",
+      "speech": "Dopo cinque secondi la velocità è dieci metri al secondo.",
+      "screen": "Legge della velocità",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Legge oraria. Vediamo ora dove si trova il corpo istante per istante. Nel moto uniformemente accelerato la posizione dipende dal quadrato del tempo: è la posizione iniziale, più la velocità iniziale per il tempo, più un mezzo dell’accelerazione per il tempo al quadrato. Il grafico spazio-tempo è un ramo di parabola.",
+      "speech": "Legge oraria. Vediamo ora dove si trova il corpo istante per istante. Nel moto uniformemente accelerato la posizione dipende dal quadrato del tempo: è la posizione iniziale, più la velocità iniziale per il tempo, più un mezzo dell’accelerazione per il tempo al quadrato. Il grafico spazio-tempo è un ramo di parabola.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Legge oraria"
+    },
+    {
+      "text": "La legge oraria: ics è uguale a ics zero, più vu zero per ti, più un mezzo di à per ti al quadrato.",
+      "speech": "La legge oraria: __X__ è uguale a __X__ zero, più vu zero per ti, più un mezzo di à per ti al quadrato.",
+      "screen": "Legge oraria",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Riprendiamo la stessa auto: parte dall’origine, da ferma, con accelerazione due metri al secondo quadrato.",
+      "speech": "Riprendiamo la stessa auto: parte dall’origine, da ferma, con accelerazione due metri al secondo quadrato.",
+      "screen": "Legge oraria",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "I primi due termini sono zero. Resta un mezzo per due per cinque al quadrato.",
+      "speech": "I primi due termini sono zero. Resta un mezzo per due per cinque al quadrato.",
+      "screen": "Legge oraria",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Cinque al quadrato fa venticinque; un mezzo per due fa uno: la strada percorsa è venticinque metri.",
+      "speech": "Cinque al quadrato fa venticinque; un mezzo per due fa uno: la strada percorsa è venticinque metri.",
+      "screen": "Legge oraria",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Equazione di Torricelli. Ci sono problemi in cui il tempo non è noto e non serve. L’equazione di Torricelli lega velocità e spostamento: il quadrato della velocità finale è uguale al quadrato della velocità iniziale, più due volte l’accelerazione per lo spostamento. Si ottiene dalle due leggi precedenti eliminando il tempo.",
+      "speech": "Equazione di Torricelli. Ci sono problemi in cui il tempo non è noto e non serve. L’equazione di Torricelli lega velocità e spostamento: il quadrato della velocità finale è uguale al quadrato della velocità iniziale, più due volte l’accelerazione per lo spostamento. Si ottiene dalle due leggi precedenti eliminando il tempo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equazione di Torricelli"
+    },
+    {
+      "text": "La formula: vu al quadrato è uguale a vu zero al quadrato più due à delta ics.",
+      "speech": "La formula: vu al quadrato è uguale a vu zero al quadrato più due à delta __X__.",
+      "screen": "Equazione di Torricelli",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo la velocità dell’auto dopo venticinque metri, senza usare il tempo.",
+      "speech": "Vogliamo la velocità dell’auto dopo venticinque metri, senza usare il tempo.",
+      "screen": "Equazione di Torricelli",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Vu al quadrato è zero più due per due per venticinque, cioè cento.",
+      "speech": "Vu al quadrato è zero più due per due per venticinque, cioè cento.",
+      "screen": "Equazione di Torricelli",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La radice di cento è dieci: ritroviamo dieci metri al secondo, come con la legge della velocità.",
+      "speech": "La radice di cento è dieci: ritroviamo dieci metri al secondo, come con la legge della velocità.",
+      "screen": "Equazione di Torricelli",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Moto decelerato. Concludiamo con la frenata. Se l’accelerazione ha verso opposto alla velocità, la velocità diminuisce fino a zero: il moto è decelerato. Si usano le stesse leggi, con l’accelerazione negativa. Il corpo si ferma quando la velocità diventa zero.",
+      "speech": "Moto decelerato. Concludiamo con la frenata. Se l’accelerazione ha verso opposto alla velocità, la velocità diminuisce fino a zero: il moto è decelerato. Si usano le stesse leggi, con l’accelerazione negativa. Il corpo si ferma quando la velocità diventa zero.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Moto decelerato"
+    },
+    {
+      "text": "La formula: il tempo di arresto è la velocità iniziale divisa per il valore assoluto dell’accelerazione.",
+      "speech": "La formula: il tempo di arresto è la velocità iniziale divisa per il valore assoluto dell’accelerazione.",
+      "screen": "Moto decelerato",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un’auto viaggia a venti metri al secondo e frena con accelerazione meno quattro. Si ferma quando la velocità è zero: venti meno quattro per ti uguale a zero, quindi ti uguale cinque secondi.",
+      "speech": "Un’auto viaggia a venti metri al secondo e frena con accelerazione meno quattro. Si ferma quando la velocità è zero: venti meno quattro per ti uguale a zero, quindi ti uguale cinque secondi.",
+      "screen": "Moto decelerato",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Lo spazio di frenata è venti per cinque meno un mezzo per quattro per cinque al quadrato.",
+      "speech": "Lo spazio di frenata è venti per cinque meno un mezzo per quattro per cinque al quadrato.",
+      "screen": "Moto decelerato",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Cento meno cinquanta: l’auto si ferma dopo cinquanta metri.",
+      "speech": "Cento meno cinquanta: l’auto si ferma dopo cinquanta metri.",
+      "screen": "Moto decelerato",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Prima scrivi i dati, poi scegli la legge che contiene le grandezze che conosci.",
+      "speech": "Ora tocca a te. Prima scrivi i dati, poi scegli la legge che contiene le grandezze che conosci.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Prova un’accelerazione negativa e guarda quando la velocità si annulla.",
+      "speech": "Questo è il laboratorio. Prova un’accelerazione negativa e guarda quando la velocità si annulla.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: vu è vu zero più à per ti; nella legge oraria il tempo compare al quadrato; Torricelli non usa il tempo.",
+      "speech": "Ricorda: vu è vu zero più à per ti; nella legge oraria il tempo compare al quadrato; Torricelli non usa il tempo.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
