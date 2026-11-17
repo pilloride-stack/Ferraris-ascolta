@@ -1,0 +1,145 @@
+{
+  "episode": "04",
+  "title": "I numeri quantici",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Numero quantico principale. Ogni elettrone è descritto da quattro numeri quantici. Il primo, enne, indica il livello di energia e la dimensione dell’orbitale, e vale uno, due, tre e così via. Più enne è grande, più l’elettrone è lontano dal nucleo. Il livello enne contiene enne al quadrato orbitali e al massimo due enne al quadrato elettroni.",
+      "speech": "Numero quantico principale. Ogni elettrone è descritto da quattro numeri quantici. Il primo, enne, indica il livello di energia e la dimensione dell’orbitale, e vale uno, due, tre e così via. Più enne è grande, più l’elettrone è lontano dal nucleo. Il livello enne contiene enne al quadrato orbitali e al massimo due enne al quadrato elettroni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Numero quantico principale"
+    },
+    {
+      "text": "Nel riquadro: in un livello ci sono enne al quadrato orbitali e al massimo due enne al quadrato elettroni.",
+      "speech": "Nel riquadro: in un livello ci sono enne al quadrato orbitali e al massimo due enne al quadrato elettroni.",
+      "screen": "Numero quantico principale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nel livello tre ci sono tre al quadrato, cioè nove orbitali.",
+      "speech": "Nel livello tre ci sono tre al quadrato, cioè nove orbitali.",
+      "screen": "Numero quantico principale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Gli elettroni al massimo sono due per nove: diciotto.",
+      "speech": "Gli elettroni al massimo sono due per nove: diciotto.",
+      "screen": "Numero quantico principale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Torna: nove orbitali, due elettroni ciascuno.",
+      "speech": "Torna: nove orbitali, due elettroni ciascuno.",
+      "screen": "Numero quantico principale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Numero quantico secondario. Il secondo numero quantico, elle, indica la forma dell’orbitale e il sottolivello. Vale da zero fino a enne meno uno. Zero corrisponde al sottolivello esse, sferico; uno al pi, a due lobi; due al di; tre all’effe.",
+      "speech": "Numero quantico secondario. Il secondo numero quantico, elle, indica la forma dell’orbitale e il sottolivello. Vale da zero fino a enne meno uno. Zero corrisponde al sottolivello esse, sferico; uno al pi, a due lobi; due al di; tre all’effe.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Numero quantico secondario"
+    },
+    {
+      "text": "Nel riquadro: elle va da zero a enne meno uno, e ogni valore ha una lettera: esse, pi, di, effe.",
+      "speech": "Nel riquadro: elle va da zero a enne meno uno, e ogni valore ha una lettera: esse, pi, di, effe.",
+      "screen": "Numero quantico secondario",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Con enne uguale tre, elle può valere zero, uno e due.",
+      "speech": "Con enne uguale tre, elle può valere zero, uno e due.",
+      "screen": "Numero quantico secondario",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Zero è il tre esse, uno il tre pi, due il tre di.",
+      "speech": "Zero è il tre esse, uno il tre pi, due il tre di.",
+      "screen": "Numero quantico secondario",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il livello tre ha tre sottolivelli: esse, pi e di.",
+      "speech": "Il livello tre ha tre sottolivelli: esse, pi e di.",
+      "screen": "Numero quantico secondario",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Numero quantico magnetico. Il terzo numero quantico, emme, indica l’orientamento dell’orbitale nello spazio. Assume i valori interi da meno elle a più elle, zero compreso: ogni sottolivello ha quindi due elle più uno orbitali. Il sottolivello pi, con elle uguale a uno, ha tre orbitali.",
+      "speech": "Numero quantico magnetico. Il terzo numero quantico, emme, indica l’orientamento dell’orbitale nello spazio. Assume i valori interi da meno elle à più elle, zero compreso: ogni sottolivello ha quindi due elle più uno orbitali. Il sottolivello pi, con elle uguale a uno, ha tre orbitali.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Numero quantico magnetico"
+    },
+    {
+      "text": "Nel riquadro: emme va da meno elle a più elle, e gli orbitali del sottolivello sono due elle più uno.",
+      "speech": "Nel riquadro: emme va da meno elle à più elle, e gli orbitali del sottolivello sono due elle più uno.",
+      "screen": "Numero quantico magnetico",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il sottolivello di corrisponde a elle uguale due.",
+      "speech": "Il sottolivello di corrisponde a elle uguale due.",
+      "screen": "Numero quantico magnetico",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Emme va da meno due a più due: meno due, meno uno, zero, più uno, più due.",
+      "speech": "Emme va da meno due à più due: meno due, meno uno, zero, più uno, più due.",
+      "screen": "Numero quantico magnetico",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sono cinque valori: il sottolivello di ha cinque orbitali.",
+      "speech": "Sono cinque valori: il sottolivello di ha cinque orbitali.",
+      "screen": "Numero quantico magnetico",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Numero quantico di spin. Il quarto numero quantico descrive una proprietà dell’elettrone che si può immaginare come una rotazione su sé stesso. Vale solo più un mezzo o meno un mezzo. Per il principio di Pauli due elettroni dello stesso atomo non possono avere tutti e quattro i numeri quantici uguali: in un orbitale stanno al massimo due elettroni, con spin opposto.",
+      "speech": "Numero quantico di spin. Il quarto numero quantico descrive una proprietà dell’elettrone che si può immaginare come una rotazione su sé stesso. Vale solo più un mezzo o meno un mezzo. Per il principio di Pauli due elettroni dello stesso atomo non possono avere tutti e quattro i numeri quantici uguali: in un orbitale stanno al massimo due elettroni, con spin opposto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Numero quantico di spin"
+    },
+    {
+      "text": "Nel riquadro i due valori dello spin: più un mezzo e meno un mezzo.",
+      "speech": "Nel riquadro i due valori dello spin: più un mezzo e meno un mezzo.",
+      "screen": "Numero quantico di spin",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il primo elettrone dell’elio sta nell’orbitale uno esse: enne uno, elle zero, emme zero, spin più un mezzo.",
+      "speech": "Il primo elettrone dell’elio sta nell’orbitale uno esse: enne uno, elle zero, emme zero, spin più un mezzo.",
+      "screen": "Numero quantico di spin",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il secondo sta nello stesso orbitale: stessi enne, elle ed emme, ma spin meno un mezzo.",
+      "speech": "Il secondo sta nello stesso orbitale: stessi enne, elle ed emme, ma spin meno un mezzo.",
+      "screen": "Numero quantico di spin",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Differiscono solo per lo spin, come richiede il principio di Pauli.",
+      "speech": "Differiscono solo per lo spin, come richiede il principio di Pauli.",
+      "screen": "Numero quantico di spin",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda la catena: enne decide elle, elle decide emme.",
+      "speech": "Ora tocca a te. Ricorda la catena: enne decide elle, elle decide emme.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scegli il livello e osserva quanti sottolivelli e orbitali contiene.",
+      "speech": "Questo è il laboratorio. Scegli il livello e osserva quanti sottolivelli e orbitali contiene.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: elle va da zero a enne meno uno; emme da meno elle a più elle; lo spin vale più o meno un mezzo.",
+      "speech": "Ricorda: elle va da zero a enne meno uno; emme da meno elle à più elle; lo spin vale più o meno un mezzo.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

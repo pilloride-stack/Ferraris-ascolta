@@ -1,0 +1,145 @@
+{
+  "episode": "11",
+  "title": "Il pH",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Acidi e basi. Secondo Arrhenius un acido è una sostanza che in acqua libera ioni idrogeno; una base libera ioni ossidrile. Secondo Brønsted e Lowry, più in generale, un acido cede ioni idrogeno e una base li accetta. Gli acidi hanno sapore aspro, le basi sono saponose al tatto.",
+      "speech": "Acidi e basi. Secondo Arrhenius un acido è una sostanza che in acqua libera ioni idrogeno; una base libera ioni ossidrile. Secondo Brønsted e Lowry, più in generale, un acido cede ioni idrogeno e una base li accetta. Gli acidi hanno sapore aspro, le basi sono saponose al tatto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Acidi e basi"
+    },
+    {
+      "text": "Nel riquadro: un acido libera ioni idrogeno, una base ioni ossidrile.",
+      "speech": "Nel riquadro: un acido libera ioni idrogeno, una base ioni ossidrile.",
+      "screen": "Acidi e basi",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "L’acido cloridrico in acqua si separa in ione idrogeno e ione cloruro: è un acido.",
+      "speech": "L’acido cloridrico in acqua si separa in ione idrogeno e ione cloruro: è un acido.",
+      "screen": "Acidi e basi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’idrossido di sodio libera ioni ossidrile: è una base.",
+      "speech": "L’idrossido di sodio libera ioni ossidrile: è una base.",
+      "screen": "Acidi e basi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Mescolati, gli ioni idrogeno e ossidrile formano acqua: è la neutralizzazione.",
+      "speech": "Mescolati, gli ioni idrogeno e ossidrile formano acqua: è la neutralizzazione.",
+      "screen": "Acidi e basi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il prodotto ionico dell’acqua. Anche l’acqua pura contiene qualche ione: una piccolissima parte delle molecole si dissocia in ioni idrogeno e ossidrile. A venticinque gradi il prodotto delle loro concentrazioni vale dieci alla meno quattordici. Nell’acqua pura sono uguali, dieci alla meno sette moli al litro: la soluzione è neutra.",
+      "speech": "Il prodotto ionico dell’acqua. Anche l’acqua pura contiene qualche ione: una piccolissima parte delle molecole si dissocia in ioni idrogeno e ossidrile. A venticinque gradi il prodotto delle loro concentrazioni vale dieci alla meno quattordici. Nell’acqua pura sono uguali, dieci alla meno sette moli al litro: la soluzione è neutra.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il prodotto ionico dell’acqua"
+    },
+    {
+      "text": "La formula: il prodotto della concentrazione di ioni idrogeno per quella di ioni ossidrile è dieci alla meno quattordici.",
+      "speech": "La formula: il prodotto della concentrazione di ioni idrogeno per quella di ioni ossidrile è dieci alla meno quattordici.",
+      "screen": "Il prodotto ionico dell’acqua",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il prodotto deve essere dieci alla meno quattordici: dieci alla meno tre per la concentrazione di ossidrile.",
+      "speech": "Il prodotto deve essere dieci alla meno quattordici: dieci alla meno tre per la concentrazione di ossidrile.",
+      "screen": "Il prodotto ionico dell’acqua",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La concentrazione di ossidrile è dieci alla meno quattordici diviso dieci alla meno tre.",
+      "speech": "La concentrazione di ossidrile è dieci alla meno quattordici diviso dieci alla meno tre.",
+      "screen": "Il prodotto ionico dell’acqua",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sottraendo gli esponenti: dieci alla meno undici. Ci sono molti più ioni idrogeno: la soluzione è acida.",
+      "speech": "Sottraendo gli esponenti: dieci alla meno undici. Ci sono molti più ioni idrogeno: la soluzione è acida.",
+      "screen": "Il prodotto ionico dell’acqua",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il pH. Per evitare le potenze di dieci si usa il pi acca: il logaritmo, cambiato di segno, della concentrazione degli ioni idrogeno. Se la concentrazione è dieci alla meno ics, il pi acca vale ics. Una soluzione è acida se il pi acca è minore di sette, neutra se è sette, basica se è maggiore. Ogni unità di pi acca è un fattore dieci.",
+      "speech": "Il pH. Per evitare le potenze di dieci si usa il pi acca: il logaritmo, cambiato di segno, della concentrazione degli ioni idrogeno. Se la concentrazione è dieci alla meno __X__, il pi acca vale __X__. Una soluzione è acida se il pi acca è minore di sette, neutra se è sette, basica se è maggiore. Ogni unità di pi acca è un fattore dieci.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il pH"
+    },
+    {
+      "text": "La formula: il pi acca è meno il logaritmo della concentrazione di ioni idrogeno.",
+      "speech": "La formula: il pi acca è meno il logaritmo della concentrazione di ioni idrogeno.",
+      "screen": "Il pH",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Zero virgola zero zero uno è dieci alla meno tre.",
+      "speech": "Zero virgola zero zero uno è dieci alla meno tre.",
+      "screen": "Il pH",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il pi acca è meno l’esponente: tre.",
+      "speech": "Il pi acca è meno l’esponente: tre.",
+      "screen": "Il pH",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Tre è minore di sette: la soluzione è acida, come una bibita gassata.",
+      "speech": "Tre è minore di sette: la soluzione è acida, come una bibita gassata.",
+      "screen": "Il pH",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "pH delle basi e pOH. Allo stesso modo si definisce il pi o acca, meno il logaritmo della concentrazione di ioni ossidrile. Poiché il prodotto ionico vale dieci alla meno quattordici, pi acca più pi o acca fa sempre quattordici. Per una base si calcola prima il pi o acca, poi il pi acca come quattordici meno pi o acca.",
+      "speech": "pH delle basi e pOH. Allo stesso modo si definisce il pi o acca, meno il logaritmo della concentrazione di ioni ossidrile. Poiché il prodotto ionico vale dieci alla meno quattordici, pi acca più pi o acca fa sempre quattordici. Per una base si calcola prima il pi o acca, poi il pi acca come quattordici meno pi o acca.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: pH delle basi e pOH"
+    },
+    {
+      "text": "La formula: pi acca più pi o acca è uguale a quattordici.",
+      "speech": "La formula: pi acca più pi o acca è uguale a quattordici.",
+      "screen": "pH delle basi e pOH",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "L’idrossido di sodio libera uno ione ossidrile per unità: la concentrazione di ossidrile è dieci alla meno due.",
+      "speech": "L’idrossido di sodio libera uno ione ossidrile per unità: la concentrazione di ossidrile è dieci alla meno due.",
+      "screen": "pH delle basi e pOH",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il pi o acca è due.",
+      "speech": "Il pi o acca è due.",
+      "screen": "pH delle basi e pOH",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il pi acca è quattordici meno due: dodici. La soluzione è fortemente basica.",
+      "speech": "Il pi acca è quattordici meno due: dodici. La soluzione è fortemente basica.",
+      "screen": "pH delle basi e pOH",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Scrivi la concentrazione come potenza di dieci: il pi acca è l’esponente cambiato di segno.",
+      "speech": "Ora tocca a te. Scrivi la concentrazione come potenza di dieci: il pi acca è l’esponente cambiato di segno.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Sposta il cursore e guarda come cambiano il pi acca e il colore dell’indicatore universale.",
+      "speech": "Questo è il laboratorio. Sposta il cursore e guarda come cambiano il pi acca e il colore dell’indicatore universale.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: pi acca uguale meno logaritmo della concentrazione di ioni idrogeno; pi acca più pi o acca fa quattordici.",
+      "speech": "Ricorda: pi acca uguale meno logaritmo della concentrazione di ioni idrogeno; pi acca più pi o acca fa quattordici.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "episode": "01",
+  "title": "La chimica e l’atomismo",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Conservazione della massa. Iniziamo dalla legge che ha fondato la chimica moderna. La chimica studia la composizione della materia e le sue trasformazioni, le reazioni chimiche. Lavoisier scoprì che in una reazione in un sistema chiuso la massa dei reagenti è uguale alla massa dei prodotti: nulla si crea e nulla si distrugge, tutto si trasforma.",
+      "speech": "Conservazione della massa. Iniziamo dalla legge che ha fondato la chimica moderna. La chimica studia la composizione della materia e le sue trasformazioni, le reazioni chimiche. Lavoisier scoprì che in una reazione in un sistema chiuso la massa dei reagenti è uguale alla massa dei prodotti: nulla si crea e nulla si distrugge, tutto si trasforma.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Conservazione della massa"
+    },
+    {
+      "text": "La legge di Lavoisier: la massa dei reagenti è uguale alla massa dei prodotti.",
+      "speech": "La legge di Lavoisier: la massa dei reagenti è uguale alla massa dei prodotti.",
+      "screen": "Conservazione della massa",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Quattro grammi di idrogeno reagiscono completamente con trentadue grammi di ossigeno. La massa dei reagenti è trentasei grammi.",
+      "speech": "Quattro grammi di idrogeno reagiscono completamente con trentadue grammi di ossigeno. La massa dei reagenti è trentasei grammi.",
+      "screen": "Conservazione della massa",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Per la legge di conservazione, anche i prodotti devono avere massa trentasei grammi.",
+      "speech": "Per la legge di conservazione, anche i prodotti devono avere massa trentasei grammi.",
+      "screen": "Conservazione della massa",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’unico prodotto è l’acqua: se ne formano trentasei grammi.",
+      "speech": "L’unico prodotto è l’acqua: se ne formano trentasei grammi.",
+      "screen": "Conservazione della massa",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La teoria atomica di Dalton. L’idea di atomo, particella indivisibile, risale a Democrito. Nel milleottocentotto Dalton ne fece una teoria scientifica: la materia è fatta di atomi; quelli di uno stesso elemento sono identici, quelli di elementi diversi hanno massa diversa; nelle reazioni gli atomi non si creano né si distruggono, ma si ricombinano in numeri interi. Per questo una reazione si bilancia: ogni atomo deve comparire lo stesso numero di volte prima e dopo.",
+      "speech": "La teoria atomica di Dalton. L’idea di atomo, particella indivisibile, risale a Democrito. Nel milleottocentotto Dalton ne fece una teoria scientifica: la materia è fatta di atomi; quelli di uno stesso elemento sono identici, quelli di elementi diversi hanno massa diversa; nelle reazioni gli atomi non si creano né si distruggono, ma si ricombinano in numeri interi. Per questo una reazione si bilancia: ogni atomo deve comparire lo stesso numero di volte prima e dopo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La teoria atomica di Dalton"
+    },
+    {
+      "text": "La regola del bilanciamento: per ogni elemento, gli atomi nei reagenti sono uguali agli atomi nei prodotti.",
+      "speech": "La regola del bilanciamento: per ogni elemento, gli atomi nei reagenti sono uguali agli atomi nei prodotti.",
+      "screen": "La teoria atomica di Dalton",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nella reazione idrogeno più ossigeno che dà acqua, gli atomi di ossigeno sono due nei reagenti e uno nei prodotti.",
+      "speech": "Nella reazione idrogeno più ossigeno che dà acqua, gli atomi di ossigeno sono due nei reagenti e uno nei prodotti.",
+      "screen": "La teoria atomica di Dalton",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Mettiamo un due davanti all’acqua: ora gli ossigeni sono due e due. Ma gli idrogeni nei prodotti diventano quattro.",
+      "speech": "Mettiamo un due davanti all’acqua: ora gli ossigeni sono due e due. Ma gli idrogeni nei prodotti diventano quattro.",
+      "screen": "La teoria atomica di Dalton",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Mettiamo un due davanti all’idrogeno: quattro idrogeni e due ossigeni da entrambe le parti. La reazione è bilanciata.",
+      "speech": "Mettiamo un due davanti all’idrogeno: quattro idrogeni e due ossigeni da entrambe le parti. La reazione è bilanciata.",
+      "screen": "La teoria atomica di Dalton",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le particelle subatomiche. Alla fine dell’Ottocento si scoprì che l’atomo non è indivisibile. L’elettrone, scoperto da Thomson con i raggi catodici, ha carica negativa e massa piccolissima. Il protone ha carica positiva, uguale e opposta, e massa circa milleottocentotrentasei volte maggiore. Il neutrone, scoperto da Chadwick, non ha carica e ha massa simile al protone. In un atomo neutro i protoni sono tanti quanti gli elettroni.",
+      "speech": "Le particelle subatomiche. Alla fine dell’Ottocento si scoprì che l’atomo non è indivisibile. L’elettrone, scoperto da Thomson con i raggi catodici, ha carica negativa e massa piccolissima. Il protone ha carica positiva, uguale e opposta, e massa circa milleottocentotrentasei volte maggiore. Il neutrone, scoperto da Chadwick, non ha carica e ha massa simile al protone. In un atomo neutro i protoni sono tanti quanti gli elettroni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Le particelle subatomiche"
+    },
+    {
+      "text": "Nel riquadro: in un atomo neutro il numero di protoni è uguale al numero di elettroni.",
+      "speech": "Nel riquadro: in un atomo neutro il numero di protoni è uguale al numero di elettroni.",
+      "screen": "Le particelle subatomiche",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il carbonio ha sei protoni. Se l’atomo è neutro, ha anche sei elettroni.",
+      "speech": "Il carbonio ha sei protoni. Se l’atomo è neutro, ha anche sei elettroni.",
+      "screen": "Le particelle subatomiche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sei cariche positive, sei negative e i neutroni senza carica: la carica totale è zero.",
+      "speech": "Sei cariche positive, sei negative e i neutroni senza carica: la carica totale è zero.",
+      "screen": "Le particelle subatomiche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Se l’atomo perdesse un elettrone, avrebbe una carica in più positiva: diventerebbe uno ione positivo.",
+      "speech": "Se l’atomo perdesse un elettrone, avrebbe una carica in più positiva: diventerebbe uno ione positivo.",
+      "screen": "Le particelle subatomiche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le radiazioni nucleari. Concludiamo con la radioattività, scoperta da Becquerel e studiata dai coniugi Curie. Rutherford distinse le radiazioni alfa, nuclei di elio con carica positiva, e beta, elettroni con carica negativa. Poi fu riconosciuta la radiazione gamma, un’onda elettromagnetica molto energetica e senza carica. Le tre radiazioni penetrano nella materia in modo molto diverso.",
+      "speech": "Le radiazioni nucleari. Concludiamo con la radioattività, scoperta da Becquerel e studiata dai coniugi Curie. Rutherford distinse le radiazioni alfa, nuclei di elio con carica positiva, e beta, elettroni con carica negativa. Poi fu riconosciuta la radiazione gamma, un’onda elettromagnetica molto energetica e senza carica. Le tre radiazioni penetrano nella materia in modo molto diverso.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Le radiazioni nucleari"
+    },
+    {
+      "text": "Nel riquadro: il potere di penetrazione cresce da alfa a beta a gamma.",
+      "speech": "Nel riquadro: il potere di penetrazione cresce da alfa a beta a gamma.",
+      "screen": "Le radiazioni nucleari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un foglio di carta ferma la radiazione alfa; beta e gamma lo attraversano.",
+      "speech": "Un foglio di carta ferma la radiazione alfa; beta e gamma lo attraversano.",
+      "screen": "Le radiazioni nucleari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Un foglio di alluminio ferma anche la beta; la gamma passa ancora.",
+      "speech": "Un foglio di alluminio ferma anche la beta; la gamma passa ancora.",
+      "screen": "Le radiazioni nucleari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Per attenuare la radiazione gamma serve uno strato spesso di piombo o di cemento.",
+      "speech": "Per attenuare la radiazione gamma serve uno strato spesso di piombo o di cemento.",
+      "screen": "Le radiazioni nucleari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Per bilanciare, conta gli atomi di ogni elemento da entrambe le parti.",
+      "speech": "Ora tocca a te. Per bilanciare, conta gli atomi di ogni elemento da entrambe le parti.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia i coefficienti finché gli atomi di idrogeno e di ossigeno sono uguali prima e dopo la reazione.",
+      "speech": "Questo è il laboratorio. Cambia i coefficienti finché gli atomi di idrogeno e di ossigeno sono uguali prima e dopo la reazione.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: in una reazione la massa si conserva e gli atomi si ricombinano senza crearsi né distruggersi.",
+      "speech": "Ricorda: in una reazione la massa si conserva e gli atomi si ricombinano senza crearsi né distruggersi.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "episode": "06",
+  "title": "La tavola periodica",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Periodi e gruppi. La tavola periodica ordina gli elementi per numero atomico crescente. Le righe sono i periodi: il numero del periodo è il livello più esterno occupato. Le colonne sono i gruppi: gli elementi di uno stesso gruppo hanno la stessa configurazione esterna e quindi proprietà chimiche simili.",
+      "speech": "Periodi e gruppi. La tavola periodica ordina gli elementi per numero atomico crescente. Le righe sono i periodi: il numero del periodo è il livello più esterno occupato. Le colonne sono i gruppi: gli elementi di uno stesso gruppo hanno la stessa configurazione esterna e quindi proprietà chimiche simili.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Periodi e gruppi"
+    },
+    {
+      "text": "Nel riquadro: il periodo indica il livello esterno, il gruppo la configurazione esterna.",
+      "speech": "Nel riquadro: il periodo indica il livello esterno, il gruppo la configurazione esterna.",
+      "screen": "Periodi e gruppi",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Lo zolfo ha sedici elettroni: uno esse due, due esse due, due pi sei, tre esse due, tre pi quattro.",
+      "speech": "Lo zolfo ha sedici elettroni: uno esse due, due esse due, due pi sei, tre esse due, tre pi quattro.",
+      "screen": "Periodi e gruppi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il livello più esterno è il tre: lo zolfo è nel terzo periodo.",
+      "speech": "Il livello più esterno è il tre: lo zolfo è nel terzo periodo.",
+      "screen": "Periodi e gruppi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nel livello esterno ha sei elettroni: è nel gruppo sedici, quello dell’ossigeno.",
+      "speech": "Nel livello esterno ha sei elettroni: è nel gruppo sedici, quello dell’ossigeno.",
+      "screen": "Periodi e gruppi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "I blocchi e il potassio. La forma della tavola segue l’ordine di riempimento. Il potassio, con diciannove elettroni, non mette l’ultimo elettrone nel tre di ma nel quattro esse, che ha energia più bassa: per questo sta sotto il sodio, tra i metalli alcalini. In base all’ultimo sottolivello occupato la tavola si divide nei blocchi esse, pi, di ed effe.",
+      "speech": "I blocchi e il potassio. La forma della tavola segue l’ordine di riempimento. Il potassio, con diciannove elettroni, non mette l’ultimo elettrone nel tre di ma nel quattro esse, che ha energia più bassa: per questo sta sotto il sodio, tra i metalli alcalini. In base all’ultimo sottolivello occupato la tavola si divide nei blocchi esse, pi, di ed effe.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: I blocchi e il potassio"
+    },
+    {
+      "text": "Nel riquadro: il potassio è argon più quattro esse uno, e non tre di uno.",
+      "speech": "Nel riquadro: il potassio è argon più quattro esse uno, e non tre di uno.",
+      "screen": "I blocchi e il potassio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "I primi diciotto elettroni del potassio riempiono i sottolivelli come nell’argon.",
+      "speech": "I primi diciotto elettroni del potassio riempiono i sottolivelli come nell’argon.",
+      "screen": "I blocchi e il potassio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il diciannovesimo va nel quattro esse, che ha energia più bassa del tre di.",
+      "speech": "Il diciannovesimo va nel quattro esse, che ha energia più bassa del tre di.",
+      "screen": "I blocchi e il potassio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Ha un solo elettrone esterno in un orbitale esse: quarto periodo, gruppo uno, blocco esse, come il sodio.",
+      "speech": "Ha un solo elettrone esterno in un orbitale esse: quarto periodo, gruppo uno, blocco esse, come il sodio.",
+      "screen": "I blocchi e il potassio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Metalli, non metalli e semimetalli. I metalli occupano la parte sinistra e centrale: sono lucenti, buoni conduttori, duttili e malleabili, e tendono a perdere elettroni. I non metalli stanno in alto a destra: conducono poco e tendono ad acquistare elettroni. I semimetalli, lungo la linea a scaletta, hanno proprietà intermedie, come il silicio dei chip.",
+      "speech": "Metalli, non metalli e semimetalli. I metalli occupano la parte sinistra e centrale: sono lucenti, buoni conduttori, duttili e malleabili, e tendono a perdere elettroni. I non metalli stanno in alto a destra: conducono poco e tendono a acquistare elettroni. I semimetalli, lungo la linea a scaletta, hanno proprietà intermedie, come il silicio dei chip.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Metalli, non metalli e semimetalli"
+    },
+    {
+      "text": "Nel riquadro: i metalli tendono a perdere elettroni, i non metalli ad acquistarli.",
+      "speech": "Nel riquadro: i metalli tendono a perdere elettroni, i non metalli a acquistarli.",
+      "screen": "Metalli, non metalli e semimetalli",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il ferro è un metallo di transizione: conduce, è lucente e tende a perdere elettroni.",
+      "speech": "Il ferro è un metallo di transizione: conduce, è lucente e tende a perdere elettroni.",
+      "screen": "Metalli, non metalli e semimetalli",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’ossigeno sta in alto a destra: è un non metallo, tende ad acquistare elettroni.",
+      "speech": "L’ossigeno sta in alto a destra: è un non metallo, tende a acquistare elettroni.",
+      "screen": "Metalli, non metalli e semimetalli",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il silicio sta sulla linea a scaletta: è un semimetallo, un semiconduttore.",
+      "speech": "Il silicio sta sulla linea a scaletta: è un semimetallo, un semiconduttore.",
+      "screen": "Metalli, non metalli e semimetalli",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le famiglie principali. Il gruppo uno contiene i metalli alcalini, con un elettrone esterno, molto reattivi. Il gruppo due gli alcalino-terrosi, con due. Il gruppo diciassette gli alogeni, con sette elettroni esterni, molto reattivi. Il gruppo diciotto i gas nobili, con il livello esterno completo: quasi per nulla reattivi.",
+      "speech": "Le famiglie principali. Il gruppo uno contiene i metalli alcalini, con un elettrone esterno, molto reattivi. Il gruppo due gli alcalino-terrosi, con due. Il gruppo diciassette gli alogeni, con sette elettroni esterni, molto reattivi. Il gruppo diciotto i gas nobili, con il livello esterno completo: quasi per nulla reattivi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Le famiglie principali"
+    },
+    {
+      "text": "Nel riquadro le famiglie più importanti: alcalini, alogeni e gas nobili.",
+      "speech": "Nel riquadro le famiglie più importanti: alcalini, alogeni e gas nobili.",
+      "screen": "Le famiglie principali",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il litio ha un solo elettrone esterno: metallo alcalino, gruppo uno.",
+      "speech": "Il litio ha un solo elettrone esterno: metallo alcalino, gruppo uno.",
+      "screen": "Le famiglie principali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il bromo ha sette elettroni esterni: è un alogeno, gruppo diciassette.",
+      "speech": "Il bromo ha sette elettroni esterni: è un alogeno, gruppo diciassette.",
+      "screen": "Le famiglie principali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il neon ha il livello esterno completo, otto elettroni: è un gas nobile.",
+      "speech": "Il neon ha il livello esterno completo, otto elettroni: è un gas nobile.",
+      "screen": "Le famiglie principali",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Scrivi la configurazione e guarda il livello più esterno.",
+      "speech": "Ora tocca a te. Scrivi la configurazione e guarda il livello più esterno.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia il numero atomico e scopri dove si trova l’elemento nella tavola.",
+      "speech": "Questo è il laboratorio. Cambia il numero atomico e scopri dove si trova l’elemento nella tavola.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il periodo è il livello esterno, il gruppo dipende dagli elettroni esterni, il blocco dall’ultimo sottolivello occupato.",
+      "speech": "Ricorda: il periodo è il livello esterno, il gruppo dipende dagli elettroni esterni, il blocco dall’ultimo sottolivello occupato.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

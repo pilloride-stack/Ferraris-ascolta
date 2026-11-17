@@ -1,0 +1,145 @@
+{
+  "episode": "03",
+  "title": "La configurazione elettronica",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Livelli e sottolivelli. Gli elettroni si dispongono in livelli di energia, numerati uno, due, tre, sempre più lontani dal nucleo. Ogni livello è diviso in sottolivelli, indicati con le lettere esse, pi, di, effe. Il sottolivello esse ha un orbitale, pi ne ha tre, di cinque, effe sette. Ogni orbitale contiene al massimo due elettroni.",
+      "speech": "Livelli e sottolivelli. Gli elettroni si dispongono in livelli di energia, numerati uno, due, tre, sempre più lontani dal nucleo. Ogni livello è diviso in sottolivelli, indicati con le lettere esse, pi, di, effe. Il sottolivello esse ha un orbitale, pi ne ha tre, di cinque, effe sette. Ogni orbitale contiene al massimo due elettroni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Livelli e sottolivelli"
+    },
+    {
+      "text": "Nel riquadro gli elettroni massimi di ogni sottolivello: esse due, pi sei, di dieci, effe quattordici.",
+      "speech": "Nel riquadro gli elettroni massimi di ogni sottolivello: esse due, pi sei, di dieci, effe quattordici.",
+      "screen": "Livelli e sottolivelli",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il livello due contiene i sottolivelli due esse e due pi.",
+      "speech": "Il livello due contiene i sottolivelli due esse e due pi.",
+      "screen": "Livelli e sottolivelli",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il due esse ne contiene al massimo due, il due pi al massimo sei.",
+      "speech": "Il due esse ne contiene al massimo due, il due pi al massimo sei.",
+      "screen": "Livelli e sottolivelli",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "In tutto il livello due contiene al massimo otto elettroni.",
+      "speech": "In tutto il livello due contiene al massimo otto elettroni.",
+      "screen": "Livelli e sottolivelli",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ordine di riempimento. Gli elettroni occupano prima i sottolivelli a energia più bassa: è il principio di costruzione. L’ordine si ricava con la regola delle diagonali: uno esse, due esse, due pi, tre esse, tre pi, quattro esse, tre di, quattro pi. Il quattro esse si riempie prima del tre di perché ha energia più bassa.",
+      "speech": "Ordine di riempimento. Gli elettroni occupano prima i sottolivelli a energia più bassa: è il principio di costruzione. L’ordine si ricava con la regola delle diagonali: uno esse, due esse, due pi, tre esse, tre pi, quattro esse, tre di, quattro pi. Il quattro esse si riempie prima del tre di perché ha energia più bassa.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Ordine di riempimento"
+    },
+    {
+      "text": "Nel riquadro l’ordine di riempimento dei sottolivelli.",
+      "speech": "Nel riquadro l’ordine di riempimento dei sottolivelli.",
+      "screen": "Ordine di riempimento",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il sodio ha undici elettroni. Riempiamo uno esse con due, due esse con due, due pi con sei: in tutto dieci.",
+      "speech": "Il sodio ha undici elettroni. Riempiamo uno esse con due, due esse con due, due pi con sei: in tutto dieci.",
+      "screen": "Ordine di riempimento",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’undicesimo elettrone va nel tre esse.",
+      "speech": "L’undicesimo elettrone va nel tre esse.",
+      "screen": "Ordine di riempimento",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La configurazione del sodio è uno esse due, due esse due, due pi sei, tre esse uno.",
+      "speech": "La configurazione del sodio è uno esse due, due esse due, due pi sei, tre esse uno.",
+      "screen": "Ordine di riempimento",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Pauli e Hund. Vediamo come gli elettroni si sistemano negli orbitali. Per il principio di Pauli in un orbitale stanno al massimo due elettroni, con spin opposto. Per la regola di Hund, in orbitali con la stessa energia gli elettroni si dispongono prima uno per orbitale, con lo stesso spin, e solo dopo si accoppiano. Si rappresentano con caselle e frecce.",
+      "speech": "Pauli e Hund. Vediamo come gli elettroni si sistemano negli orbitali. Per il principio di Pauli in un orbitale stanno al massimo due elettroni, con spin opposto. Per la regola di Hund, in orbitali con la stessa energia gli elettroni si dispongono prima uno per orbitale, con lo stesso spin, e solo dopo si accoppiano. Si rappresentano con caselle e frecce.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Pauli e Hund"
+    },
+    {
+      "text": "Nel riquadro le due regole: Pauli, al massimo due elettroni con spin opposto; Hund, prima uno per orbitale.",
+      "speech": "Nel riquadro le due regole: Pauli, al massimo due elettroni con spin opposto; Hund, prima uno per orbitale.",
+      "screen": "Pauli e Hund",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "L’ossigeno ha otto elettroni: uno esse due, due esse due, due pi quattro.",
+      "speech": "L’ossigeno ha otto elettroni: uno esse due, due esse due, due pi quattro.",
+      "screen": "Pauli e Hund",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Nei tre orbitali due pi mettiamo prima un elettrone per casella: ne usiamo tre.",
+      "speech": "Nei tre orbitali due pi mettiamo prima un elettrone per casella: ne usiamo tre.",
+      "screen": "Pauli e Hund",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il quarto si accoppia nella prima casella con spin opposto. Restano due elettroni spaiati.",
+      "speech": "Il quarto si accoppia nella prima casella con spin opposto. Restano due elettroni spaiati.",
+      "screen": "Pauli e Hund",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Elettroni di valenza. Concludiamo con gli elettroni più importanti per la chimica: quelli del livello più esterno, che partecipano ai legami. Per gli elementi dei gruppi principali sono gli elettroni esse e pi del livello più alto. La configurazione si può abbreviare con il simbolo del gas nobile precedente tra parentesi quadre.",
+      "speech": "Elettroni di valenza. Concludiamo con gli elettroni più importanti per la chimica: quelli del livello più esterno, che partecipano ai legami. Per gli elementi dei gruppi principali sono gli elettroni esse e pi del livello più alto. La configurazione si può abbreviare con il simbolo del gas nobile precedente tra parentesi quadre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Elettroni di valenza"
+    },
+    {
+      "text": "Nel riquadro l’esempio del cloro: neon tra parentesi, poi tre esse due tre pi cinque, cioè sette elettroni di valenza.",
+      "speech": "Nel riquadro l’esempio del cloro: neon tra parentesi, poi tre esse due tre pi cinque, cioè sette elettroni di valenza.",
+      "screen": "Elettroni di valenza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il cloro ha diciassette elettroni: uno esse due, due esse due, due pi sei, tre esse due, tre pi cinque.",
+      "speech": "Il cloro ha diciassette elettroni: uno esse due, due esse due, due pi sei, tre esse due, tre pi cinque.",
+      "screen": "Elettroni di valenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "I primi dieci sono come quelli del neon: scriviamo neon tra parentesi quadre, poi tre esse due, tre pi cinque.",
+      "speech": "I primi dieci sono come quelli del neon: scriviamo neon tra parentesi quadre, poi tre esse due, tre pi cinque.",
+      "screen": "Elettroni di valenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nel livello più esterno, il tre, ci sono due più cinque elettroni: sette elettroni di valenza.",
+      "speech": "Nel livello più esterno, il tre, ci sono due più cinque elettroni: sette elettroni di valenza.",
+      "screen": "Elettroni di valenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Segui l’ordine delle diagonali e conta gli elettroni man mano.",
+      "speech": "Ora tocca a te. Segui l’ordine delle diagonali e conta gli elettroni man mano.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia il numero atomico e osserva come si riempiono le caselle.",
+      "speech": "Questo è il laboratorio. Cambia il numero atomico e osserva come si riempiono le caselle.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: si riempie dal sottolivello a energia più bassa; al massimo due elettroni per orbitale; prima uno per orbitale, poi in coppia.",
+      "speech": "Ricorda: si riempie dal sottolivello a energia più bassa; al massimo due elettroni per orbitale; prima uno per orbitale, poi in coppia.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

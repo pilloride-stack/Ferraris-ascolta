@@ -1,0 +1,145 @@
+{
+  "episode": "05",
+  "title": "Le proprietà periodiche",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Raggio atomico. Iniziamo dalla dimensione degli atomi: il raggio atomico è metà della distanza tra i nuclei di due atomi uguali legati. Scendendo lungo un gruppo il raggio aumenta, perché si aggiungono livelli. Lungo un periodo, procedendo verso i gas nobili, il raggio diminuisce, perché la carica del nucleo cresce e attira di più gli elettroni.",
+      "speech": "Raggio atomico. Iniziamo dalla dimensione degli atomi: il raggio atomico è metà della distanza tra i nuclei di due atomi uguali legati. Scendendo lungo un gruppo il raggio aumenta, perché si aggiungono livelli. Lungo un periodo, procedendo verso i gas nobili, il raggio diminuisce, perché la carica del nucleo cresce e attira di più gli elettroni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Raggio atomico"
+    },
+    {
+      "text": "Nel riquadro: scendendo nel gruppo il raggio cresce; lungo il periodo diminuisce.",
+      "speech": "Nel riquadro: scendendo nel gruppo il raggio cresce; lungo il periodo diminuisce.",
+      "screen": "Raggio atomico",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Sodio e cloro sono nello stesso periodo. Il cloro ha più protoni, diciassette contro undici.",
+      "speech": "Sodio e cloro sono nello stesso periodo. Il cloro ha più protoni, diciassette contro undici.",
+      "screen": "Raggio atomico",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il nucleo del cloro attira di più gli elettroni: il cloro è più piccolo, il sodio più grande.",
+      "speech": "Il nucleo del cloro attira di più gli elettroni: il cloro è più piccolo, il sodio più grande.",
+      "screen": "Raggio atomico",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il potassio è sotto il sodio nello stesso gruppo: ha un livello in più, quindi è più grande.",
+      "speech": "Il potassio è sotto il sodio nello stesso gruppo: ha un livello in più, quindi è più grande.",
+      "screen": "Raggio atomico",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Energia di ionizzazione. Vediamo quanto è difficile strappare un elettrone. L’energia di prima ionizzazione è l’energia per togliere l’elettrone più esterno a un atomo neutro gassoso, che diventa uno ione positivo. Lungo un periodo aumenta, perché gli elettroni sono più attratti; scendendo in un gruppo diminuisce. I metalli alcalini l’hanno bassissima, i gas nobili altissima.",
+      "speech": "Energia di ionizzazione. Vediamo quanto è difficile strappare un elettrone. L’energia di prima ionizzazione è l’energia per togliere l’elettrone più esterno a un atomo neutro gassoso, che diventa uno ione positivo. Lungo un periodo aumenta, perché gli elettroni sono più attratti; scendendo in un gruppo diminuisce. I metalli alcalini l’hanno bassissima, i gas nobili altissima.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Energia di ionizzazione"
+    },
+    {
+      "text": "Nel riquadro: un atomo più energia diventa uno ione positivo più un elettrone.",
+      "speech": "Nel riquadro: un atomo più energia diventa uno ione positivo più un elettrone.",
+      "screen": "Energia di ionizzazione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il sodio ha un solo elettrone nel livello più esterno, il tre esse.",
+      "speech": "Il sodio ha un solo elettrone nel livello più esterno, il tre esse.",
+      "screen": "Energia di ionizzazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Quell’elettrone è lontano dal nucleo e schermato: l’energia di ionizzazione è bassa, circa quattrocentonovantasei chilojoule per mole.",
+      "speech": "Quell’elettrone è lontano dal nucleo e schermato: l’energia di ionizzazione è bassa, circa quattrocentonovantasei chilojoule per mole.",
+      "screen": "Energia di ionizzazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Perso l’elettrone, lo ione sodio ha la configurazione stabile del neon.",
+      "speech": "Perso l’elettrone, lo ione sodio ha la configurazione stabile del neon.",
+      "screen": "Energia di ionizzazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Affinità elettronica. Ora il contrario: l’energia liberata quando un atomo neutro gassoso acquista un elettrone e diventa uno ione negativo. È grande per gli alogeni, a cui manca un solo elettrone per completare il livello esterno. Cresce lungo il periodo e cala scendendo nel gruppo.",
+      "speech": "Affinità elettronica. Ora il contrario: l’energia liberata quando un atomo neutro gassoso acquista un elettrone e diventa uno ione negativo. È grande per gli alogeni, a cui manca un solo elettrone per completare il livello esterno. Cresce lungo il periodo e cala scendendo nel gruppo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Affinità elettronica"
+    },
+    {
+      "text": "Nel riquadro: un atomo che acquista un elettrone diventa uno ione negativo e libera energia.",
+      "speech": "Nel riquadro: un atomo che acquista un elettrone diventa uno ione negativo e libera energia.",
+      "screen": "Affinità elettronica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il cloro ha sette elettroni nel livello esterno.",
+      "speech": "Il cloro ha sette elettroni nel livello esterno.",
+      "screen": "Affinità elettronica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Acquistando un elettrone ne ha otto: la configurazione stabile dell’argon.",
+      "speech": "Acquistando un elettrone ne ha otto: la configurazione stabile dell’argon.",
+      "screen": "Affinità elettronica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’acquisto libera molta energia: l’affinità elettronica del cloro è alta.",
+      "speech": "L’acquisto libera molta energia: l’affinità elettronica del cloro è alta.",
+      "screen": "Affinità elettronica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Elettronegatività. Concludiamo con la tendenza di un atomo ad attirare verso di sé gli elettroni di un legame. Nella scala di Pauling il fluoro è il più elettronegativo, con quattro. Cresce lungo il periodo e cala scendendo nel gruppo. La differenza di elettronegatività tra due atomi dice il tipo di legame: covalente puro, covalente polare o ionico.",
+      "speech": "Elettronegatività. Concludiamo con la tendenza di un atomo a attirare verso di sé gli elettroni di un legame. Nella scala di Pauling il fluoro è il più elettronegativo, con quattro. Cresce lungo il periodo e cala scendendo nel gruppo. La differenza di elettronegatività tra due atomi dice il tipo di legame: covalente puro, covalente polare o ionico.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Elettronegatività"
+    },
+    {
+      "text": "Nel riquadro le soglie: meno di zero virgola quattro covalente puro; fino a uno virgola nove covalente polare; oltre, ionico.",
+      "speech": "Nel riquadro le soglie: meno di zero virgola quattro covalente puro; fino a uno virgola nove covalente polare; oltre, ionico.",
+      "screen": "Elettronegatività",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nel cloruro di sodio la differenza di elettronegatività è tre meno zero virgola nove, due virgola uno: il legame è ionico.",
+      "speech": "Nel cloruro di sodio la differenza di elettronegatività è tre meno zero virgola nove, due virgola uno: il legame è ionico.",
+      "screen": "Elettronegatività",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Nell’acido cloridrico la differenza è zero virgola nove: legame covalente polare.",
+      "speech": "Nell’acido cloridrico la differenza è zero virgola nove: legame covalente polare.",
+      "screen": "Elettronegatività",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nella molecola di cloro gli atomi sono uguali: differenza zero, legame covalente puro.",
+      "speech": "Nella molecola di cloro gli atomi sono uguali: differenza zero, legame covalente puro.",
+      "screen": "Elettronegatività",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Per ogni proprietà chiediti come cambia lungo il periodo e lungo il gruppo.",
+      "speech": "Ora tocca a te. Per ogni proprietà chiediti come cambia lungo il periodo e lungo il gruppo.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scegli due elementi e scopri che legame formerebbero.",
+      "speech": "Questo è il laboratorio. Scegli due elementi e scopri che legame formerebbero.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il raggio cresce scendendo e cala lungo il periodo; ionizzazione, affinità ed elettronegatività fanno il contrario.",
+      "speech": "Ricorda: il raggio cresce scendendo e cala lungo il periodo; ionizzazione, affinità ed elettronegatività fanno il contrario.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

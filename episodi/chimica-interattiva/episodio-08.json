@@ -1,0 +1,145 @@
+{
+  "episode": "08",
+  "title": "Bilanciamenti e stechiometria",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Bilanciare una reazione. Una reazione si scrive con i reagenti prima della freccia e i prodotti dopo. Ogni atomo deve comparire lo stesso numero di volte nei reagenti e nei prodotti. Si bilancia cambiando i coefficienti davanti alle formule, mai gli indici. Conviene bilanciare per ultimi idrogeno e ossigeno.",
+      "speech": "Bilanciare una reazione. Una reazione si scrive con i reagenti prima della freccia e i prodotti dopo. Ogni atomo deve comparire lo stesso numero di volte nei reagenti e nei prodotti. Si bilancia cambiando i coefficienti davanti alle formule, mai gli indici. Conviene bilanciare per ultimi idrogeno e ossigeno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Bilanciare una reazione"
+    },
+    {
+      "text": "La regola: si cambiano i coefficienti, mai gli indici.",
+      "speech": "La regola: si cambiano i coefficienti, mai gli indici.",
+      "screen": "Bilanciare una reazione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il carbonio è uno nei reagenti e uno nei prodotti: è già bilanciato.",
+      "speech": "Il carbonio è uno nei reagenti e uno nei prodotti: è già bilanciato.",
+      "screen": "Bilanciare una reazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il metano ha quattro idrogeni: mettiamo un due davanti all’acqua.",
+      "speech": "Il metano ha quattro idrogeni: mettiamo un due davanti all’acqua.",
+      "screen": "Bilanciare una reazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nei prodotti ci sono due ossigeni nell’anidride carbonica e due nell’acqua: quattro. Mettiamo un due davanti all’ossigeno.",
+      "speech": "Nei prodotti ci sono due ossigeni nell’anidride carbonica e due nell’acqua: quattro. Mettiamo un due davanti all’ossigeno.",
+      "screen": "Bilanciare una reazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Rapporti molari. I coefficienti di una reazione bilanciata indicano i rapporti in moli. Nella combustione del metano, una mole di metano reagisce con due moli di ossigeno e produce una mole di anidride carbonica e due di acqua. Così si calcolano le moli di ogni sostanza conoscendo quelle di un’altra.",
+      "speech": "Rapporti molari. I coefficienti di una reazione bilanciata indicano i rapporti in moli. Nella combustione del metano, una mole di metano reagisce con due moli di ossigeno e produce una mole di anidride carbonica e due di acqua. Così si calcolano le moli di ogni sostanza conoscendo quelle di un’altra.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Rapporti molari"
+    },
+    {
+      "text": "Nel riquadro i rapporti molari: uno a due a uno a due.",
+      "speech": "Nel riquadro i rapporti molari: uno a due a uno a due.",
+      "screen": "Rapporti molari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Per tre moli di metano servono il doppio di moli di ossigeno: sei moli.",
+      "speech": "Per tre moli di metano servono il doppio di moli di ossigeno: sei moli.",
+      "screen": "Rapporti molari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Si formano tre moli di anidride carbonica.",
+      "speech": "Si formano tre moli di anidride carbonica.",
+      "screen": "Rapporti molari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "E sei moli di acqua.",
+      "speech": "E sei moli di acqua.",
+      "screen": "Rapporti molari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Calcoli con le masse. Ora usiamo i grammi, come in laboratorio. Si seguono tre passaggi: si trasformano i grammi in moli dividendo per la massa molare; si usano i rapporti molari della reazione; si trasformano le moli trovate in grammi, moltiplicando per la massa molare.",
+      "speech": "Calcoli con le masse. Ora usiamo i grammi, come in laboratorio. Si seguono tre passaggi: si trasformano i grammi in moli dividendo per la massa molare; si usano i rapporti molari della reazione; si trasformano le moli trovate in grammi, moltiplicando per la massa molare.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Calcoli con le masse"
+    },
+    {
+      "text": "Nel riquadro la catena: da grammi a moli, il rapporto molare, poi da moli a grammi.",
+      "speech": "Nel riquadro la catena: da grammi a moli, il rapporto molare, poi da moli a grammi.",
+      "screen": "Calcoli con le masse",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La massa molare del metano è sedici: trentadue grammi sono due moli.",
+      "speech": "La massa molare del metano è sedici: trentadue grammi sono due moli.",
+      "screen": "Calcoli con le masse",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il rapporto tra metano e anidride carbonica è uno a uno: si formano due moli di anidride carbonica.",
+      "speech": "Il rapporto tra metano e anidride carbonica è uno a uno: si formano due moli di anidride carbonica.",
+      "screen": "Calcoli con le masse",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Due moli per quarantaquattro grammi per mole fanno ottantotto grammi.",
+      "speech": "Due moli per quarantaquattro grammi per mole fanno ottantotto grammi.",
+      "screen": "Calcoli con le masse",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il reagente limitante. Se i reagenti non sono nel rapporto giusto, uno finisce prima: è il reagente limitante, e decide quanto prodotto si forma. L’altro è in eccesso e ne avanza una parte. Per trovarlo si confrontano le moli disponibili con quelle richieste dai coefficienti.",
+      "speech": "Il reagente limitante. Se i reagenti non sono nel rapporto giusto, uno finisce prima: è il reagente limitante, e decide quanto prodotto si forma. L’altro è in eccesso e ne avanza una parte. Per trovarlo si confrontano le moli disponibili con quelle richieste dai coefficienti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il reagente limitante"
+    },
+    {
+      "text": "Nel riquadro: è il reagente che finisce prima a decidere quanto prodotto si forma.",
+      "speech": "Nel riquadro: è il reagente che finisce prima à decidere quanto prodotto si forma.",
+      "screen": "Il reagente limitante",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Quattro moli di idrogeno richiedono la metà di moli di ossigeno: due moli.",
+      "speech": "Quattro moli di idrogeno richiedono la metà di moli di ossigeno: due moli.",
+      "screen": "Il reagente limitante",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Abbiamo tre moli di ossigeno, più delle due necessarie: l’ossigeno è in eccesso, l’idrogeno è il limitante.",
+      "speech": "Abbiamo tre moli di ossigeno, più delle due necessarie: l’ossigeno è in eccesso, l’idrogeno è il limitante.",
+      "screen": "Il reagente limitante",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Dalle quattro moli di idrogeno si formano quattro moli d’acqua; avanza una mole di ossigeno.",
+      "speech": "Dalle quattro moli di idrogeno si formano quattro moli d’acqua; avanza una mole di ossigeno.",
+      "screen": "Il reagente limitante",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Lavora sempre con le moli quando usi i coefficienti.",
+      "speech": "Ora tocca a te. Lavora sempre con le moli quando usi i coefficienti.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia la massa di metano e guarda come cambiano tutte le altre quantità.",
+      "speech": "Questo è il laboratorio. Cambia la massa di metano e guarda come cambiano tutte le altre quantità.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: si bilanciano i coefficienti; i coefficienti sono rapporti in moli; il reagente limitante decide il prodotto.",
+      "speech": "Ricorda: si bilanciano i coefficienti; i coefficienti sono rapporti in moli; il reagente limitante decide il prodotto.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
