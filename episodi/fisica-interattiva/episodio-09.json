@@ -1,0 +1,145 @@
+{
+  "episode": "09",
+  "title": "Forza peso, caduta libera e leve",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Forza peso. Iniziamo dalla forza con cui la Terra attrae tutti i corpi verso il suo centro. Il peso è la massa per l’accelerazione di gravità gi, che sulla Terra vale circa nove virgola ottantuno metri al secondo quadrato. Massa e peso sono diversi: la massa si misura in chilogrammi, il peso in newton.",
+      "speech": "Forza peso. Iniziamo dalla forza con cui la Terra attrae tutti i corpi verso il suo centro. Il peso è la massa per l’accelerazione di gravità gi, che sulla Terra vale circa nove virgola ottantuno metri al secondo quadrato. Massa e peso sono diversi: la massa si misura in chilogrammi, il peso in newton.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Forza peso"
+    },
+    {
+      "text": "La formula: pi è uguale a emme per gi.",
+      "speech": "La formula: pi è uguale a emme per gi.",
+      "screen": "Forza peso",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Una persona di sessanta chilogrammi. Sulla Terra il suo peso è sessanta per nove virgola ottantuno: cinquecentottantotto virgola sei newton.",
+      "speech": "Una persona di sessanta chilogrammi. Sulla Terra il suo peso è sessanta per nove virgola ottantuno: cinquecentottantotto virgola sei newton.",
+      "screen": "Forza peso",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sulla Luna l’accelerazione di gravità è uno virgola sessantadue: il peso è novantasette virgola due newton.",
+      "speech": "Sulla Luna l’accelerazione di gravità è uno virgola sessantadue: il peso è novantasette virgola due newton.",
+      "screen": "Forza peso",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sulla Luna pesa circa sei volte meno, ma la sua massa resta sessanta chilogrammi.",
+      "speech": "Sulla Luna pesa circa sei volte meno, ma la sua massa resta sessanta chilogrammi.",
+      "screen": "Forza peso",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Caduta libera. Un corpo lasciato cadere da fermo, senza attrito dell’aria, si muove di moto uniformemente accelerato con accelerazione gi. Come dimostrò Galileo, nel vuoto tutti i corpi cadono con la stessa accelerazione, qualunque sia la massa. La velocità è gi per ti; lo spazio percorso è un mezzo di gi per ti al quadrato.",
+      "speech": "Caduta libera. Un corpo lasciato cadere da fermo, senza attrito dell’aria, si muove di moto uniformemente accelerato con accelerazione gi. Come dimostrò Galileo, nel vuoto tutti i corpi cadono con la stessa accelerazione, qualunque sia la massa. La velocità è gi per ti; lo spazio percorso è un mezzo di gi per ti al quadrato.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Caduta libera"
+    },
+    {
+      "text": "Nel riquadro: vu è gi per ti; acca è un mezzo di gi per ti al quadrato.",
+      "speech": "Nel riquadro: vu è gi per ti; acca è un mezzo di gi per ti al quadrato.",
+      "screen": "Caduta libera",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un sasso cade da fermo per due secondi. La sua velocità è nove virgola ottantuno per due: diciannove virgola sessantadue metri al secondo.",
+      "speech": "Un sasso cade da fermo per due secondi. La sua velocità è nove virgola ottantuno per due: diciannove virgola sessantadue metri al secondo.",
+      "screen": "Caduta libera",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Lo spazio percorso è un mezzo per nove virgola ottantuno per due al quadrato.",
+      "speech": "Lo spazio percorso è un mezzo per nove virgola ottantuno per due al quadrato.",
+      "screen": "Caduta libera",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Quattro virgola nove zero cinque per quattro: circa diciannove virgola sei metri.",
+      "speech": "Quattro virgola nove zero cinque per quattro: circa diciannove virgola sei metri.",
+      "screen": "Caduta libera",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Equilibrio della leva. Passiamo a una macchina semplice. Una leva è un’asta rigida che ruota attorno a un punto fisso, il fulcro. Agiscono la forza motrice, applicata da chi usa la leva, e la forza resistente, dovuta al carico; le distanze dal fulcro sono i bracci. C’è equilibrio quando forza motrice per il suo braccio è uguale a forza resistente per il suo braccio.",
+      "speech": "Equilibrio della leva. Passiamo a una macchina semplice. Una leva è un’asta rigida che ruota attorno a un punto fisso, il fulcro. Agiscono la forza motrice, applicata da chi usa la leva, e la forza resistente, dovuta al carico; le distanze dal fulcro sono i bracci. Cè equilibrio quando forza motrice per il suo braccio è uguale a forza resistente per il suo braccio.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equilibrio della leva"
+    },
+    {
+      "text": "La formula: effe emme per bi emme è uguale a effe erre per bi erre.",
+      "speech": "La formula: effe emme per bi emme è uguale a effe erre per bi erre.",
+      "screen": "Equilibrio della leva",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo sollevare un carico di seicento newton a mezzo metro dal fulcro, spingendo a un metro e mezzo. Scriviamo: effe emme per uno virgola cinque uguale seicento per zero virgola cinque.",
+      "speech": "Vogliamo sollevare un carico di seicento newton a mezzo metro dal fulcro, spingendo a un metro e mezzo. Scriviamo: effe emme per uno virgola cinque uguale seicento per zero virgola cinque.",
+      "screen": "Equilibrio della leva",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Seicento per zero virgola cinque fa trecento.",
+      "speech": "Seicento per zero virgola cinque fa trecento.",
+      "screen": "Equilibrio della leva",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Dividendo per uno virgola cinque: bastano duecento newton, un terzo del carico.",
+      "speech": "Dividendo per uno virgola cinque: bastano duecento newton, un terzo del carico.",
+      "screen": "Equilibrio della leva",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Generi di leve. Concludiamo classificando le leve secondo la posizione del fulcro. Primo genere: il fulcro sta in mezzo, tra forza motrice e resistenza. Secondo genere: in mezzo c’è la resistenza; è sempre vantaggiosa. Terzo genere: in mezzo c’è la forza motrice; è sempre svantaggiosa, ma permette movimenti ampi e precisi.",
+      "speech": "Generi di leve. Concludiamo classificando le leve secondo la posizione del fulcro. Primo genere: il fulcro sta in mezzo, tra forza motrice e resistenza. Secondo genere: in mezzo cè la resistenza; è sempre vantaggiosa. Terzo genere: in mezzo cè la forza motrice; è sempre svantaggiosa, ma permette movimenti ampi e precisi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Generi di leve"
+    },
+    {
+      "text": "Nel riquadro: si guarda che cosa sta in mezzo. Primo genere il fulcro, secondo la resistenza, terzo la forza motrice.",
+      "speech": "Nel riquadro: si guarda che cosa sta in mezzo. Primo genere il fulcro, secondo la resistenza, terzo la forza motrice.",
+      "screen": "Generi di leve",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nelle forbici il perno, cioè il fulcro, sta tra la mano e il foglio da tagliare: primo genere.",
+      "speech": "Nelle forbici il perno, cioè il fulcro, sta tra la mano e il foglio da tagliare: primo genere.",
+      "screen": "Generi di leve",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Nello schiaccianoci la noce, la resistenza, sta tra la cerniera e la mano: secondo genere.",
+      "speech": "Nello schiaccianoci la noce, la resistenza, sta tra la cerniera e la mano: secondo genere.",
+      "screen": "Generi di leve",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nelle pinzette le dita, la forza motrice, stanno tra la cerniera e l’oggetto: terzo genere.",
+      "speech": "Nelle pinzette le dita, la forza motrice, stanno tra la cerniera e l’oggetto: terzo genere.",
+      "screen": "Generi di leve",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Distingui sempre la massa, in chilogrammi, dal peso, in newton.",
+      "speech": "Ora tocca a te. Distingui sempre la massa, in chilogrammi, dal peso, in newton.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Allunga il braccio della forza motrice e guarda quanta forza serve.",
+      "speech": "Questo è il laboratorio. Allunga il braccio della forza motrice e guarda quanta forza serve.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il peso è emme per gi; in caduta libera vu è gi per ti; la leva è in equilibrio quando i prodotti forza per braccio sono uguali.",
+      "speech": "Ricorda: il peso è emme per gi; in caduta libera vu è gi per ti; la leva è in equilibrio quando i prodotti forza per braccio sono uguali.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

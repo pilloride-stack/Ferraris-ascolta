@@ -1,0 +1,145 @@
+{
+  "episode": "08",
+  "title": "Equilibrio sul piano inclinato",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Scomposizione del peso. Iniziamo da un corpo su un piano inclinato di un angolo alfa. La forza peso, sempre verticale, si scompone in due parti. La componente parallela al piano lo fa scivolare verso il basso, e vale il peso per il seno di alfa. La componente perpendicolare lo preme contro il piano, e vale il peso per il coseno di alfa.",
+      "speech": "Scomposizione del peso. Iniziamo da un corpo su un piano inclinato di un angolo alfa. La forza peso, sempre verticale, si scompone in due parti. La componente parallela al piano lo fa scivolare verso il basso, e vale il peso per il seno di alfa. La componente perpendicolare lo preme contro il piano, e vale il peso per il coseno di alfa.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Scomposizione del peso"
+    },
+    {
+      "text": "Nel riquadro le due componenti: parallela con il seno, perpendicolare con il coseno.",
+      "speech": "Nel riquadro le due componenti: parallela con il seno, perpendicolare con il coseno.",
+      "screen": "Scomposizione del peso",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Una cassa di dieci chilogrammi su un piano inclinato di trenta gradi. Il suo peso è dieci per nove virgola ottantuno: novantotto virgola uno newton.",
+      "speech": "Una cassa di dieci chilogrammi su un piano inclinato di trenta gradi. Il suo peso è dieci per nove virgola ottantuno: novantotto virgola uno newton.",
+      "screen": "Scomposizione del peso",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La componente parallela è il peso per il seno di trenta gradi, cioè per zero virgola cinque: circa quarantanove virgola uno newton.",
+      "speech": "La componente parallela è il peso per il seno di trenta gradi, cioè per zero virgola cinque: circa quarantanove virgola uno newton.",
+      "screen": "Scomposizione del peso",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La componente perpendicolare è il peso per il coseno di trenta gradi: circa ottantacinque newton.",
+      "speech": "La componente perpendicolare è il peso per il coseno di trenta gradi: circa ottantacinque newton.",
+      "screen": "Scomposizione del peso",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Reazione vincolare. Vediamo che cosa fa il piano sul corpo. Il piano esercita una forza perpendicolare alla sua superficie, la reazione vincolare normale. Questa forza equilibra esattamente la componente perpendicolare del peso: per questo il corpo non sprofonda nel piano e può muoversi solo lungo di esso.",
+      "speech": "Reazione vincolare. Vediamo che cosa fa il piano sul corpo. Il piano esercita una forza perpendicolare alla sua superficie, la reazione vincolare normale. Questa forza equilibra esattamente la componente perpendicolare del peso: per questo il corpo non sprofonda nel piano e può muoversi solo lungo di esso.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Reazione vincolare"
+    },
+    {
+      "text": "La formula: la reazione del piano è uguale alla componente perpendicolare, cioè al peso per il coseno di alfa.",
+      "speech": "La formula: la reazione del piano è uguale alla componente perpendicolare, cioè al peso per il coseno di alfa.",
+      "screen": "Reazione vincolare",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Riprendiamo la cassa: la componente perpendicolare del peso è circa ottantacinque newton.",
+      "speech": "Riprendiamo la cassa: la componente perpendicolare del peso è circa ottantacinque newton.",
+      "screen": "Reazione vincolare",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il piano risponde con una forza uguale e contraria: circa ottantacinque newton, perpendicolare al piano.",
+      "speech": "Il piano risponde con una forza uguale e contraria: circa ottantacinque newton, perpendicolare al piano.",
+      "screen": "Reazione vincolare",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Le due forze perpendicolari si annullano: resta solo la componente parallela, che tende a far scivolare la cassa.",
+      "speech": "Le due forze perpendicolari si annullano: resta solo la componente parallela, che tende a far scivolare la cassa.",
+      "screen": "Reazione vincolare",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Condizione di equilibrio. Vediamo come tenere ferma la cassa. Un corpo è in equilibrio quando la somma di tutte le forze è zero. Sul piano inclinato senza attrito serve una forza parallela al piano, verso l’alto, uguale alla componente parallela del peso.",
+      "speech": "Condizione di equilibrio. Vediamo come tenere ferma la cassa. Un corpo è in equilibrio quando la somma di tutte le forze è zero. Sul piano inclinato senza attrito serve una forza parallela al piano, verso l’alto, uguale alla componente parallela del peso.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Condizione di equilibrio"
+    },
+    {
+      "text": "Nel riquadro: in equilibrio la somma delle forze è zero, e la forza equilibrante è il peso per il seno di alfa.",
+      "speech": "Nel riquadro: in equilibrio la somma delle forze è zero, e la forza equilibrante è il peso per il seno di alfa.",
+      "screen": "Condizione di equilibrio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Senza attrito, la cassa scivolerebbe per effetto della componente parallela, circa quarantanove virgola uno newton.",
+      "speech": "Senza attrito, la cassa scivolerebbe per effetto della componente parallela, circa quarantanove virgola uno newton.",
+      "screen": "Condizione di equilibrio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Per tenerla ferma serve una forza uguale e opposta: quarantanove virgola uno newton lungo il piano, verso l’alto.",
+      "speech": "Per tenerla ferma serve una forza uguale e opposta: quarantanove virgola uno newton lungo il piano, verso l’alto.",
+      "screen": "Condizione di equilibrio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Ora le forze lungo il piano si annullano e quelle perpendicolari pure: la risultante è zero e la cassa è in equilibrio.",
+      "speech": "Ora le forze lungo il piano si annullano e quelle perpendicolari pure: la risultante è zero e la cassa è in equilibrio.",
+      "screen": "Condizione di equilibrio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Altezza e lunghezza del piano. Concludiamo con un modo per lavorare senza angoli. Il seno di alfa è l’altezza del piano divisa per la sua lunghezza. Quindi la forza che serve per l’equilibrio è il peso per l’altezza diviso la lunghezza: più il piano è lungo, a parità di altezza, meno forza serve.",
+      "speech": "Altezza e lunghezza del piano. Concludiamo con un modo per lavorare senza angoli. Il seno di alfa è l’altezza del piano divisa per la sua lunghezza. Quindi la forza che serve per l’equilibrio è il peso per l’altezza diviso la lunghezza: più il piano è lungo, a parità di altezza, meno forza serve.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Altezza e lunghezza del piano"
+    },
+    {
+      "text": "Nel riquadro: seno di alfa è acca diviso elle; la forza è pi per acca diviso elle.",
+      "speech": "Nel riquadro: seno di alfa è acca diviso elle; la forza è pi per acca diviso elle.",
+      "screen": "Altezza e lunghezza del piano",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un carico di duecento newton su un piano alto un metro e lungo quattro. L’altezza divisa la lunghezza fa zero virgola venticinque.",
+      "speech": "Un carico di duecento newton su un piano alto un metro e lungo quattro. L’altezza divisa la lunghezza fa zero virgola venticinque.",
+      "screen": "Altezza e lunghezza del piano",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La forza che serve è duecento per zero virgola venticinque.",
+      "speech": "La forza che serve è duecento per zero virgola venticinque.",
+      "screen": "Altezza e lunghezza del piano",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Bastano cinquanta newton: un quarto del peso.",
+      "speech": "Bastano cinquanta newton: un quarto del peso.",
+      "screen": "Altezza e lunghezza del piano",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda: seno per la componente parallela, coseno per quella perpendicolare.",
+      "speech": "Ora tocca a te. Ricorda: seno per la componente parallela, coseno per quella perpendicolare.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Aumenta l’inclinazione del piano e guarda come cresce la componente che fa scivolare.",
+      "speech": "Questo è il laboratorio. Aumenta l’inclinazione del piano e guarda come cresce la componente che fa scivolare.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: la componente parallela è pi per seno di alfa, ed è proprio la forza che serve per l’equilibrio.",
+      "speech": "Ricorda: la componente parallela è pi per seno di alfa, ed è proprio la forza che serve per l’equilibrio.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

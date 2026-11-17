@@ -1,0 +1,163 @@
+{
+  "episode": "01",
+  "title": "Grandezze fisiche e Sistema Internazionale",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Grandezza fisica. Iniziamo dal concetto da cui parte tutta la fisica. Una grandezza fisica è una proprietà di un corpo o di un fenomeno che si può misurare in modo oggettivo, con una procedura che chiunque può ripetere. Misurare significa confrontare la grandezza con un campione, l’unità di misura, e contare quante volte l’unità è contenuta nella grandezza. Il risultato è sempre un numero seguito da un’unità di misura.",
+      "speech": "Grandezza fisica. Iniziamo dal concetto da cui parte tutta la fisica. Una grandezza fisica è una proprietà di un corpo o di un fenomeno che si può misurare in modo oggettivo, con una procedura che chiunque può ripetere. Misurare significa confrontare la grandezza con un campione, l’unità di misura, e contare quante volte l’unità è contenuta nella grandezza. Il risultato è sempre un numero seguito da un’unità di misura.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Grandezza fisica"
+    },
+    {
+      "text": "La formula: la misura è un numero per un’unità di misura. Il numero da solo non basta.",
+      "speech": "La formula: la misura è un numero per un’unità di misura. Il numero da solo non basta.",
+      "screen": "Grandezza fisica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Prima proprietà: la lunghezza di un tavolo. Si confronta con il metro, quindi è una grandezza fisica.",
+      "speech": "Prima proprietà: la lunghezza di un tavolo. Si confronta con il metro, quindi è una grandezza fisica.",
+      "screen": "Grandezza fisica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Seconda: la bellezza di un quadro. Non esiste una procedura di misura oggettiva, quindi non è una grandezza fisica.",
+      "speech": "Seconda: la bellezza di un quadro. Non esiste una procedura di misura oggettiva, quindi non è una grandezza fisica.",
+      "screen": "Grandezza fisica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Terza: la massa di una mela. Si misura con la bilancia, quindi è una grandezza fisica.",
+      "speech": "Terza: la massa di una mela. Si misura con la bilancia, quindi è una grandezza fisica.",
+      "screen": "Grandezza fisica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Una misura corretta della mela è zero virgola due chilogrammi: un numero seguito dall’unità.",
+      "speech": "Una misura corretta della mela è zero virgola due chilogrammi: un numero seguito dall’unità.",
+      "screen": "Grandezza fisica",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Grandezze fondamentali e derivate. Vediamo come si dividono le grandezze fisiche. Le grandezze fondamentali sono scelte per convenzione, sono indipendenti tra loro e si misurano direttamente con un campione. Le grandezze derivate si ottengono dalle fondamentali con una relazione matematica, e anche la loro unità si ottiene combinando le unità fondamentali.",
+      "speech": "Grandezze fondamentali e derivate. Vediamo come si dividono le grandezze fisiche. Le grandezze fondamentali sono scelte per convenzione, sono indipendenti tra loro e si misurano direttamente con un campione. Le grandezze derivate si ottengono dalle fondamentali con una relazione matematica, e anche la loro unità si ottiene combinando le unità fondamentali.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Grandezze fondamentali e derivate"
+    },
+    {
+      "text": "Nel riquadro un esempio di grandezza derivata: la velocità è una lunghezza divisa per un tempo, quindi si misura in metri al secondo.",
+      "speech": "Nel riquadro un esempio di grandezza derivata: la velocità è una lunghezza divisa per un tempo, quindi si misura in metri al secondo.",
+      "screen": "Grandezze fondamentali e derivate",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo l’unità di misura dell’area. L’area di un rettangolo è una lunghezza per un’altra lunghezza.",
+      "speech": "Vogliamo l’unità di misura dell’area. L’area di un rettangolo è una lunghezza per un’altra lunghezza.",
+      "screen": "Grandezze fondamentali e derivate",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Metro per metro dà metro quadrato.",
+      "speech": "Metro per metro dà metro quadrato.",
+      "screen": "Grandezze fondamentali e derivate",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La velocità è una lunghezza percorsa divisa per il tempo impiegato.",
+      "speech": "La velocità è una lunghezza percorsa divisa per il tempo impiegato.",
+      "screen": "Grandezze fondamentali e derivate",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Quindi si misura in metri al secondo.",
+      "speech": "Quindi si misura in metri al secondo.",
+      "screen": "Grandezze fondamentali e derivate",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Sistema Internazionale. Per confrontare le misure in tutto il mondo serve un sistema di unità comune: il Sistema Internazionale. Si basa su sette grandezze fondamentali: la lunghezza in metri, la massa in chilogrammi, il tempo in secondi, la corrente in ampere, la temperatura in kelvin, la quantità di sostanza in moli e l’intensità luminosa in candele.",
+      "speech": "Sistema Internazionale. Per confrontare le misure in tutto il mondo serve un sistema di unità comune: il Sistema Internazionale. Si basa su sette grandezze fondamentali: la lunghezza in metri, la massa in chilogrammi, il tempo in secondi, la corrente in ampere, la temperatura in kelvin, la quantità di sostanza in moli e l’intensità luminosa in candele.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Sistema Internazionale"
+    },
+    {
+      "text": "Nel riquadro le tre unità che useremo di più in meccanica: metro, chilogrammo e secondo.",
+      "speech": "Nel riquadro le tre unità che useremo di più in meccanica: metro, chilogrammo e secondo.",
+      "screen": "Sistema Internazionale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo tutto in unità del Sistema Internazionale. Un chilometro sono mille metri, quindi due chilometri sono duemila metri.",
+      "speech": "Vogliamo tutto in unità del Sistema Internazionale. Un chilometro sono mille metri, quindi due chilometri sono duemila metri.",
+      "screen": "Sistema Internazionale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’unità della massa è il chilogrammo. Un grammo è un millesimo di chilogrammo, quindi cinquecento grammi sono zero virgola cinque chilogrammi.",
+      "speech": "L’unità della massa è il chilogrammo. Un grammo è un millesimo di chilogrammo, quindi cinquecento grammi sono zero virgola cinque chilogrammi.",
+      "screen": "Sistema Internazionale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’unità del tempo è il secondo. Un minuto sono sessanta secondi, quindi tre minuti sono centottanta secondi.",
+      "speech": "L’unità del tempo è il secondo. Un minuto sono sessanta secondi, quindi tre minuti sono centottanta secondi.",
+      "screen": "Sistema Internazionale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Multipli e sottomultipli. Concludiamo con i prefissi, che servono per le grandezze molto grandi o molto piccole. Ogni prefisso moltiplica l’unità per una potenza di dieci: chilo vale mille, mega un milione, deci un decimo, centi un centesimo, milli un millesimo, micro un milionesimo.",
+      "speech": "Multipli e sottomultipli. Concludiamo con i prefissi, che servono per le grandezze molto grandi o molto piccole. Ogni prefisso moltiplica l’unità per una potenza di dieci: chilo vale mille, mega un milione, deci un decimo, centi un centesimo, milli un millesimo, micro un milionesimo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Multipli e sottomultipli"
+    },
+    {
+      "text": "Nel riquadro tre prefissi con il loro fattore: chilo, dieci alla terza; centi, dieci alla meno due; milli, dieci alla meno tre.",
+      "speech": "Nel riquadro tre prefissi con il loro fattore: chilo, dieci alla terza; centi, dieci alla meno due; milli, dieci alla meno tre.",
+      "screen": "Multipli e sottomultipli",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo tre virgola cinque chilometri in metri. Chilo vale mille: sostituiamo il prefisso con mille.",
+      "speech": "Vogliamo tre virgola cinque chilometri in metri. Chilo vale mille: sostituiamo il prefisso con mille.",
+      "screen": "Multipli e sottomultipli",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Tre virgola cinque per mille fa tremilacinquecento metri.",
+      "speech": "Tre virgola cinque per mille fa tremilacinquecento metri.",
+      "screen": "Multipli e sottomultipli",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Ora duecentocinquanta millimetri. Milli vale un millesimo.",
+      "speech": "Ora duecentocinquanta millimetri. Milli vale un millesimo.",
+      "screen": "Multipli e sottomultipli",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Duecentocinquanta per zero virgola zero zero uno fa zero virgola venticinque metri.",
+      "speech": "Duecentocinquanta per zero virgola zero zero uno fa zero virgola venticinque metri.",
+      "screen": "Multipli e sottomultipli",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Ora tocca a te. Prima di rispondere, chiediti sempre qual è l’unità di misura.",
+      "speech": "Ora tocca a te. Prima di rispondere, chiediti sempre qual è l’unità di misura.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scrivi un valore, scegli il prefisso e guarda come si trasforma nell’unità di base.",
+      "speech": "Questo è il laboratorio. Scrivi un valore, scegli il prefisso e guarda come si trasforma nell’unità di base.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: una misura è sempre un numero con la sua unità, e per cambiare prefisso si usa il suo fattore.",
+      "speech": "Ricorda: una misura è sempre un numero con la sua unità, e per cambiare prefisso si usa il suo fattore.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

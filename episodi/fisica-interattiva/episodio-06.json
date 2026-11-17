@@ -1,0 +1,145 @@
+{
+  "episode": "06",
+  "title": "Accelerazione centripeta e forza centrifuga",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Perché il moto circolare è accelerato. Nel moto circolare uniforme il modulo della velocità non cambia, ma la direzione cambia di continuo. In due punti vicini le velocità hanno lo stesso modulo e direzioni diverse: la loro differenza, delta vu, punta verso il centro. È questa variazione di direzione a produrre un’accelerazione, detta centripeta.",
+      "speech": "Perché il moto circolare è accelerato. Nel moto circolare uniforme il modulo della velocità non cambia, ma la direzione cambia di continuo. In due punti vicini le velocità hanno lo stesso modulo e direzioni diverse: la loro differenza, delta vu, punta verso il centro. È questa variazione di direzione a produrre un’accelerazione, detta centripeta.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Perché il moto circolare è accelerato"
+    },
+    {
+      "text": "La formula: l’accelerazione centripeta è delta vu diviso delta ti, e delta vu punta verso il centro.",
+      "speech": "La formula: l’accelerazione centripeta è delta vu diviso delta ti, e delta vu punta verso il centro.",
+      "screen": "Perché il moto circolare è accelerato",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Consideriamo due punti vicini della traiettoria, pi uno e pi due. In pi uno la velocità vu uno è tangente alla circonferenza.",
+      "speech": "Consideriamo due punti vicini della traiettoria, pi uno e pi due. In pi uno la velocità vu uno è tangente alla circonferenza.",
+      "screen": "Perché il moto circolare è accelerato",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "In pi due la velocità vu due ha lo stesso modulo, ma è ruotata.",
+      "speech": "In pi due la velocità vu due ha lo stesso modulo, ma è ruotata.",
+      "screen": "Perché il moto circolare è accelerato",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Riportiamo i due vettori nello stesso punto: la differenza vu due meno vu uno punta verso il centro della curva.",
+      "speech": "Riportiamo i due vettori nello stesso punto: la differenza vu due meno vu uno punta verso il centro della curva.",
+      "screen": "Perché il moto circolare è accelerato",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Accelerazione centripeta. Vediamo quanto vale. È diretta sempre verso il centro, e il suo modulo è il quadrato della velocità diviso il raggio. Si può scrivere anche come omega al quadrato per erre.",
+      "speech": "Accelerazione centripeta. Vediamo quanto vale. È diretta sempre verso il centro, e il suo modulo è il quadrato della velocità diviso il raggio. Si può scrivere anche come omega al quadrato per erre.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Accelerazione centripeta"
+    },
+    {
+      "text": "La formula: l’accelerazione centripeta è uguale a vu al quadrato diviso erre, oppure a omega al quadrato per erre.",
+      "speech": "La formula: l’accelerazione centripeta è uguale a vu al quadrato diviso erre, oppure a omega al quadrato per erre.",
+      "screen": "Accelerazione centripeta",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un’auto percorre una curva di raggio cinquanta metri a dieci metri al secondo.",
+      "speech": "Un’auto percorre una curva di raggio cinquanta metri a dieci metri al secondo.",
+      "screen": "Accelerazione centripeta",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’accelerazione centripeta è dieci al quadrato diviso cinquanta, cioè cento diviso cinquanta.",
+      "speech": "L’accelerazione centripeta è dieci al quadrato diviso cinquanta, cioè cento diviso cinquanta.",
+      "screen": "Accelerazione centripeta",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è due metri al secondo quadrato, diretti verso il centro della curva.",
+      "speech": "Il risultato è due metri al secondo quadrato, diretti verso il centro della curva.",
+      "screen": "Accelerazione centripeta",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Forza centripeta. Un’accelerazione richiede una forza. La forza centripeta è la forza reale, diretta verso il centro, che costringe il corpo a curvare. Vale la massa per l’accelerazione centripeta. Non è un tipo nuovo di forza: può essere la tensione di un filo, l’attrito delle gomme sull’asfalto o la gravità per un satellite.",
+      "speech": "Forza centripeta. Un’accelerazione richiede una forza. La forza centripeta è la forza reale, diretta verso il centro, che costringe il corpo a curvare. Vale la massa per l’accelerazione centripeta. Non è un tipo nuovo di forza: può essere la tensione di un filo, l’attrito delle gomme sull’asfalto o la gravità per un satellite.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Forza centripeta"
+    },
+    {
+      "text": "La formula: la forza centripeta è uguale a emme per vu al quadrato diviso erre.",
+      "speech": "La formula: la forza centripeta è uguale a emme per vu al quadrato diviso erre.",
+      "screen": "Forza centripeta",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Riprendiamo l’auto in curva: l’accelerazione centripeta è due metri al secondo quadrato. Ora la massa dell’auto è mille chilogrammi.",
+      "speech": "Riprendiamo l’auto in curva: l’accelerazione centripeta è due metri al secondo quadrato. Ora la massa dell’auto è mille chilogrammi.",
+      "screen": "Forza centripeta",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La forza centripeta è mille per due.",
+      "speech": "La forza centripeta è mille per due.",
+      "screen": "Forza centripeta",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Servono duemila newton verso il centro: li fornisce l’attrito tra gomme e strada.",
+      "speech": "Servono duemila newton verso il centro: li fornisce l’attrito tra gomme e strada.",
+      "screen": "Forza centripeta",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Forza centrifuga apparente. Concludiamo con la forza che sentiamo in curva. La forza centrifuga, verso l’esterno, è apparente: la percepisce solo chi ruota insieme al corpo, cioè in un sistema non inerziale. Nasce dall’inerzia, la tendenza a proseguire in linea retta. Per chi osserva da fermo, l’unica forza reale è quella centripeta.",
+      "speech": "Forza centrifuga apparente. Concludiamo con la forza che sentiamo in curva. La forza centrifuga, verso l’esterno, è apparente: la percepisce solo chi ruota insieme al corpo, cioè in un sistema non inerziale. Nasce dall’inerzia, la tendenza a proseguire in linea retta. Per chi osserva da fermo, l’unica forza reale è quella centripeta.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Forza centrifuga apparente"
+    },
+    {
+      "text": "Nel riquadro: reale la forza verso il centro, apparente quella verso l’esterno.",
+      "speech": "Nel riquadro: reale la forza verso il centro, apparente quella verso l’esterno.",
+      "screen": "Forza centrifuga apparente",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "In curva ti senti spinto verso la portiera: per te, che giri con l’auto, sembra esserci una forza verso l’esterno.",
+      "speech": "In curva ti senti spinto verso la portiera: per te, che giri con l’auto, sembra esserci una forza verso l’esterno.",
+      "screen": "Forza centrifuga apparente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Chi osserva da fuori vede un’altra cosa: il tuo corpo, per inerzia, tende a proseguire in linea retta.",
+      "speech": "Chi osserva da fuori vede un’altra cosa: il tuo corpo, per inerzia, tende a proseguire in linea retta.",
+      "screen": "Forza centrifuga apparente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "È la portiera a spingerti verso il centro della curva: quella è la forza centripeta reale.",
+      "speech": "È la portiera a spingerti verso il centro della curva: quella è la forza centripeta reale.",
+      "screen": "Forza centrifuga apparente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda di elevare al quadrato la velocità.",
+      "speech": "Ora tocca a te. Ricorda di elevare al quadrato la velocità.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Raddoppia la velocità e guarda di quanto cresce la forza centripeta.",
+      "speech": "Questo è il laboratorio. Raddoppia la velocità e guarda di quanto cresce la forza centripeta.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: l’accelerazione centripeta è vu al quadrato diviso erre; la forza centripeta è reale, la centrifuga è apparente.",
+      "speech": "Ricorda: l’accelerazione centripeta è vu al quadrato diviso erre; la forza centripeta è reale, la centrifuga è apparente.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
