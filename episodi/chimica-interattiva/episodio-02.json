@@ -1,0 +1,145 @@
+{
+  "episode": "02",
+  "title": "I modelli atomici",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Il modello di Thomson. Iniziamo dal primo modello con l’elettrone. Nel millenovecentoquattro Thomson propose il modello a panettone: l’atomo è una sfera uniforme di carica positiva in cui sono immersi gli elettroni, come l’uvetta in un dolce. Le cariche si compensano e l’atomo è neutro.",
+      "speech": "Il modello di Thomson. Iniziamo dal primo modello con l’elettrone. Nel millenovecentoquattro Thomson propose il modello a panettone: l’atomo è una sfera uniforme di carica positiva in cui sono immersi gli elettroni, come l’uvetta in un dolce. Le cariche si compensano e l’atomo è neutro.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il modello di Thomson"
+    },
+    {
+      "text": "Nel riquadro: per Thomson l’atomo è una sfera positiva con gli elettroni immersi.",
+      "speech": "Nel riquadro: per Thomson l’atomo è una sfera positiva con gli elettroni immersi.",
+      "screen": "Il modello di Thomson",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nel modello di Thomson la carica positiva è diluita in tutto l’atomo: non c’è un punto con molta carica.",
+      "speech": "Nel modello di Thomson la carica positiva è diluita in tutto l’atomo: non cè un punto con molta carica.",
+      "screen": "Il modello di Thomson",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Le particelle alfa, pesanti e veloci, sentirebbero solo forze deboli.",
+      "speech": "Le particelle alfa, pesanti e veloci, sentirebbero solo forze deboli.",
+      "screen": "Il modello di Thomson",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il modello prevedeva quindi che tutte le particelle alfa passassero quasi diritte.",
+      "speech": "Il modello prevedeva quindi che tutte le particelle alfa passassero quasi diritte.",
+      "screen": "Il modello di Thomson",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il modello di Rutherford. Nel millenovecentonove Rutherford lanciò particelle alfa contro una sottilissima lamina d’oro. Quasi tutte la attraversarono, ma alcune furono deviate e pochissime respinte indietro. Concluse che l’atomo è quasi tutto vuoto, e che la carica positiva e quasi tutta la massa sono in un nucleo piccolissimo, con gli elettroni attorno: il modello planetario.",
+      "speech": "Il modello di Rutherford. Nel millenovecentonove Rutherford lanciò particelle alfa contro una sottilissima lamina d’oro. Quasi tutte la attraversarono, ma alcune furono deviate e pochissime respinte indietro. Concluse che l’atomo è quasi tutto vuoto, e che la carica positiva e quasi tutta la massa sono in un nucleo piccolissimo, con gli elettroni attorno: il modello planetario.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il modello di Rutherford"
+    },
+    {
+      "text": "Nel riquadro: l’atomo è circa centomila volte più grande del suo nucleo.",
+      "speech": "Nel riquadro: l’atomo è circa centomila volte più grande del suo nucleo.",
+      "screen": "Il modello di Rutherford",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il diametro dell’atomo è circa centomila volte quello del nucleo.",
+      "speech": "Il diametro dell’atomo è circa centomila volte quello del nucleo.",
+      "screen": "Il modello di Rutherford",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Se il nucleo fosse una formica di un millimetro, l’atomo misurerebbe centomila millimetri.",
+      "speech": "Se il nucleo fosse una formica di un millimetro, l’atomo misurerebbe centomila millimetri.",
+      "screen": "Il modello di Rutherford",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Cioè cento metri: una formica al centro di uno stadio.",
+      "speech": "Cioè cento metri: una formica al centro di uno stadio.",
+      "screen": "Il modello di Rutherford",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il modello di Bohr. Per la fisica classica un elettrone in orbita dovrebbe perdere energia e cadere sul nucleo. Nel millenovecentotredici Bohr applicò all’atomo i quanti di Planck: l’elettrone può stare solo su certe orbite, ciascuna con un’energia precisa. Assorbendo energia salta a un livello superiore; tornando indietro emette luce, con energia uguale alla differenza tra i livelli. Per questo gli spettri degli elementi sono fatti di righe.",
+      "speech": "Il modello di Bohr. Per la fisica classica un elettrone in orbita dovrebbe perdere energia e cadere sul nucleo. Nel millenovecentotredici Bohr applicò all’atomo i quanti di Planck: l’elettrone può stare solo su certe orbite, ciascuna con un’energia precisa. Assorbendo energia salta a un livello superiore; tornando indietro emette luce, con energia uguale alla differenza tra i livelli. Per questo gli spettri degli elementi sono fatti di righe.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il modello di Bohr"
+    },
+    {
+      "text": "La formula: l’energia della luce emessa è la differenza tra l’energia del livello alto e quella del livello basso.",
+      "speech": "La formula: l’energia della luce emessa è la differenza tra l’energia del livello alto e quella del livello basso.",
+      "screen": "Il modello di Bohr",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nell’idrogeno il livello tre ha energia meno uno virgola cinquantuno elettronvolt, il livello due meno tre virgola quaranta.",
+      "speech": "Nell’idrogeno il livello tre ha energia meno uno virgola cinquantuno elettronvolt, il livello due meno tre virgola quaranta.",
+      "screen": "Il modello di Bohr",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’energia emessa è la differenza: uno virgola ottantanove elettronvolt.",
+      "speech": "L’energia emessa è la differenza: uno virgola ottantanove elettronvolt.",
+      "screen": "Il modello di Bohr",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Questa energia corrisponde a luce rossa: è la riga rossa dello spettro dell’idrogeno.",
+      "speech": "Questa energia corrisponde a luce rossa: è la riga rossa dello spettro dell’idrogeno.",
+      "screen": "Il modello di Bohr",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il modello a orbitali. Concludiamo con il modello attuale. De Broglie mostrò che l’elettrone si comporta anche come un’onda, e Heisenberg che non si possono conoscere insieme con precisione la sua posizione e la sua velocità. Non ha senso parlare di orbite precise. Con l’equazione di Schrödinger si descrive l’orbitale: la regione di spazio in cui la probabilità di trovare l’elettrone è molto alta, circa il novanta per cento.",
+      "speech": "Il modello a orbitali. Concludiamo con il modello attuale. De Broglie mostrò che l’elettrone si comporta anche come un’onda, e Heisenberg che non si possono conoscere insieme con precisione la sua posizione e la sua velocità. Non ha senso parlare di orbite precise. Con l’equazione di Schrödinger si descrive l’orbitale: la regione di spazio in cui la probabilità di trovare l’elettrone è molto alta, circa il novanta per cento.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il modello a orbitali"
+    },
+    {
+      "text": "Nel riquadro il cambio di idea: dall’orbita, una traiettoria precisa, all’orbitale, una zona di probabilità.",
+      "speech": "Nel riquadro il cambio di idea: dall’orbita, una traiettoria precisa, all’orbitale, una zona di probabilità.",
+      "screen": "Il modello a orbitali",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Primo, Thomson: una sfera positiva con gli elettroni immersi.",
+      "speech": "Primo, Thomson: una sfera positiva con gli elettroni immersi.",
+      "screen": "Il modello a orbitali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Poi Rutherford con il nucleo, e Bohr con le orbite di energia precisa.",
+      "speech": "Poi Rutherford con il nucleo, e Bohr con le orbite di energia precisa.",
+      "screen": "Il modello a orbitali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Infine il modello a orbitali, basato sulla meccanica quantistica.",
+      "speech": "Infine il modello a orbitali, basato sulla meccanica quantistica.",
+      "screen": "Il modello a orbitali",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda che cosa ha osservato ciascuno scienziato e che cosa ha concluso.",
+      "speech": "Ora tocca a te. Ricorda che cosa ha osservato ciascuno scienziato e che cosa ha concluso.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scegli da quale livello a quale livello scende l’elettrone e guarda il colore della luce.",
+      "speech": "Questo è il laboratorio. Scegli da quale livello a quale livello scende l’elettrone e guarda il colore della luce.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: Thomson, il panettone; Rutherford, il nucleo; Bohr, i livelli di energia; oggi, gli orbitali.",
+      "speech": "Ricorda: Thomson, il panettone; Rutherford, il nucleo; Bohr, i livelli di energia; oggi, gli orbitali.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

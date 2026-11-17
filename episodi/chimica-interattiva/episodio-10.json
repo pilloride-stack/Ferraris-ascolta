@@ -1,0 +1,145 @@
+{
+  "episode": "10",
+  "title": "Gli isotopi",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Numero atomico e numero di massa. Il numero atomico, zeta, è il numero di protoni: identifica l’elemento. Il numero di massa, a, è la somma di protoni e neutroni. Quindi i neutroni sono à meno zeta. Un nucleo si indica con à in alto e zeta in basso a sinistra del simbolo.",
+      "speech": "Numero atomico e numero di massa. Il numero atomico, zeta, è il numero di protoni: identifica l’elemento. Il numero di massa, à, è la somma di protoni e neutroni. Quindi i neutroni sono à meno zeta. Un nucleo si indica con à in alto e zeta in basso a sinistra del simbolo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Numero atomico e numero di massa"
+    },
+    {
+      "text": "La formula: il numero di neutroni è il numero di massa meno il numero atomico.",
+      "speech": "La formula: il numero di neutroni è il numero di massa meno il numero atomico.",
+      "screen": "Numero atomico e numero di massa",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il sodio ha numero atomico undici: undici protoni.",
+      "speech": "Il sodio ha numero atomico undici: undici protoni.",
+      "screen": "Numero atomico e numero di massa",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il numero di massa è ventitré: i neutroni sono ventitré meno undici, dodici.",
+      "speech": "Il numero di massa è ventitré: i neutroni sono ventitré meno undici, dodici.",
+      "screen": "Numero atomico e numero di massa",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nell’atomo neutro gli elettroni sono uguali ai protoni: undici.",
+      "speech": "Nell’atomo neutro gli elettroni sono uguali ai protoni: undici.",
+      "screen": "Numero atomico e numero di massa",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Gli isotopi. Sono atomi dello stesso elemento, con lo stesso numero atomico, ma con un numero diverso di neutroni e quindi un diverso numero di massa. Hanno le stesse proprietà chimiche, perché hanno gli stessi elettroni, ma masse diverse. Si indicano con il nome dell’elemento e il numero di massa: carbonio dodici, carbonio quattordici.",
+      "speech": "Gli isotopi. Sono atomi dello stesso elemento, con lo stesso numero atomico, ma con un numero diverso di neutroni e quindi un diverso numero di massa. Hanno le stesse proprietà chimiche, perché hanno gli stessi elettroni, ma masse diverse. Si indicano con il nome dell’elemento e il numero di massa: carbonio dodici, carbonio quattordici.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Gli isotopi"
+    },
+    {
+      "text": "Nel riquadro: gli isotopi hanno lo stesso numero atomico e diverso numero di massa.",
+      "speech": "Nel riquadro: gli isotopi hanno lo stesso numero atomico e diverso numero di massa.",
+      "screen": "Gli isotopi",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Entrambi sono carbonio: sei protoni.",
+      "speech": "Entrambi sono carbonio: sei protoni.",
+      "screen": "Gli isotopi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il carbonio dodici ha sei neutroni, il carbonio quattordici ne ha otto.",
+      "speech": "Il carbonio dodici ha sei neutroni, il carbonio quattordici ne ha otto.",
+      "screen": "Gli isotopi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sono isotopi: reagiscono allo stesso modo, ma il quattordici è più pesante ed è radioattivo.",
+      "speech": "Sono isotopi: reagiscono allo stesso modo, ma il quattordici è più pesante ed è radioattivo.",
+      "screen": "Gli isotopi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La massa atomica media. In natura un elemento è una miscela dei suoi isotopi, ognuno con la sua abbondanza. La massa atomica della tavola periodica è la media pesata: ogni massa per la sua abbondanza, si sommano i prodotti e si divide per cento.",
+      "speech": "La massa atomica media. In natura un elemento è una miscela dei suoi isotopi, ognuno con la sua abbondanza. La massa atomica della tavola periodica è la media pesata: ogni massa per la sua abbondanza, si sommano i prodotti e si divide per cento.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La massa atomica media"
+    },
+    {
+      "text": "La formula: la massa media è la somma delle masse per le abbondanze, divisa per cento.",
+      "speech": "La formula: la massa media è la somma delle masse per le abbondanze, divisa per cento.",
+      "screen": "La massa atomica media",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il cloro trentacinque è il settantacinque per cento, il cloro trentasette il venticinque. I prodotti sono duemilaseicentoventicinque e novecentoventicinque.",
+      "speech": "Il cloro trentacinque è il settantacinque per cento, il cloro trentasette il venticinque. I prodotti sono duemilaseicentoventicinque e novecentoventicinque.",
+      "screen": "La massa atomica media",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La somma è tremilacinquecentocinquanta.",
+      "speech": "La somma è tremilacinquecentocinquanta.",
+      "screen": "La massa atomica media",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Diviso cento: trentacinque virgola cinque, la massa del cloro sulla tavola.",
+      "speech": "Diviso cento: trentacinque virgola cinque, la massa del cloro sulla tavola.",
+      "screen": "La massa atomica media",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Isotopi radioattivi. Alcuni isotopi hanno nuclei instabili e decadono spontaneamente emettendo radiazioni: sono radioattivi. Il tempo di dimezzamento è il tempo perché metà dei nuclei di un campione decada. Il carbonio quattordici, con un dimezzamento di circa cinquemilasettecentotrenta anni, serve per datare i reperti organici.",
+      "speech": "Isotopi radioattivi. Alcuni isotopi hanno nuclei instabili e decadono spontaneamente emettendo radiazioni: sono radioattivi. Il tempo di dimezzamento è il tempo perché metà dei nuclei di un campione decada. Il carbonio quattordici, con un dimezzamento di circa cinquemilasettecentotrenta anni, serve per datare i reperti organici.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Isotopi radioattivi"
+    },
+    {
+      "text": "Nel riquadro: dopo ogni tempo di dimezzamento resta la metà dei nuclei.",
+      "speech": "Nel riquadro: dopo ogni tempo di dimezzamento resta la metà dei nuclei.",
+      "screen": "Isotopi radioattivi",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Da tutto a un quarto ci sono due dimezzamenti: prima la metà, poi la metà della metà.",
+      "speech": "Da tutto a un quarto ci sono due dimezzamenti: prima la metà, poi la metà della metà.",
+      "screen": "Isotopi radioattivi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Due dimezzamenti sono due per cinquemilasettecentotrenta anni.",
+      "speech": "Due dimezzamenti sono due per cinquemilasettecentotrenta anni.",
+      "screen": "Isotopi radioattivi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il reperto ha circa undicimilacinquecento anni.",
+      "speech": "Il reperto ha circa undicimilacinquecento anni.",
+      "screen": "Isotopi radioattivi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda che i neutroni sono il numero di massa meno il numero atomico.",
+      "speech": "Ora tocca a te. Ricorda che i neutroni sono il numero di massa meno il numero atomico.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia l’abbondanza degli isotopi e guarda come si sposta la massa media.",
+      "speech": "Questo è il laboratorio. Cambia l’abbondanza degli isotopi e guarda come si sposta la massa media.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: gli isotopi hanno gli stessi protoni e neutroni diversi; la massa atomica è la media pesata delle loro masse.",
+      "speech": "Ricorda: gli isotopi hanno gli stessi protoni e neutroni diversi; la massa atomica è la media pesata delle loro masse.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

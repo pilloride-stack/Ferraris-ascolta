@@ -1,0 +1,145 @@
+{
+  "episode": "13",
+  "title": "L’ibridazione del carbonio",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Il carbonio tetravalente. La chimica organica studia i composti del carbonio. Il carbonio ha quattro elettroni di valenza e forma sempre quattro legami. Per spiegarlo si usa l’ibridazione: l’orbitale due esse e uno o più orbitali due pi si combinano in nuovi orbitali ibridi, tutti con la stessa energia.",
+      "speech": "Il carbonio tetravalente. La chimica organica studia i composti del carbonio. Il carbonio ha quattro elettroni di valenza e forma sempre quattro legami. Per spiegarlo si usa l’ibridazione: l’orbitale due esse e uno o più orbitali due pi si combinano in nuovi orbitali ibridi, tutti con la stessa energia.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il carbonio tetravalente"
+    },
+    {
+      "text": "Nel riquadro: il carbonio ha quattro elettroni di valenza e forma quattro legami.",
+      "speech": "Nel riquadro: il carbonio ha quattro elettroni di valenza e forma quattro legami.",
+      "screen": "Il carbonio tetravalente",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il carbonio ha quattro elettroni nel livello esterno.",
+      "speech": "Il carbonio ha quattro elettroni nel livello esterno.",
+      "screen": "Il carbonio tetravalente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Con quattro elettroni forma quattro legami.",
+      "speech": "Con quattro elettroni forma quattro legami.",
+      "screen": "Il carbonio tetravalente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Se si lega solo a idrogeni con legami semplici, ne lega quattro: è il metano.",
+      "speech": "Se si lega solo a idrogeni con legami semplici, ne lega quattro: è il metano.",
+      "screen": "Il carbonio tetravalente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ibridazione sp tre. Il due esse si combina con i tre due pi e forma quattro orbitali ibridi uguali, disposti ai vertici di un tetraedro, con angoli di centonove virgola cinque gradi. Ognuno forma un legame semplice, detto sigma, per sovrapposizione frontale.",
+      "speech": "Ibridazione esse pi tre. Il due esse si combina con i tre due pi e forma quattro orbitali ibridi uguali, disposti ai vertici di un tetraedro, con angoli di centonove virgola cinque gradi. Ognuno forma un legame semplice, detto sigma, per sovrapposizione frontale.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Ibridazione sp³"
+    },
+    {
+      "text": "Nel riquadro: un esse più tre pi danno quattro ibridi sp tre, a centonove virgola cinque gradi.",
+      "speech": "Nel riquadro: un esse più tre pi danno quattro ibridi esse pi tre, a centonove virgola cinque gradi.",
+      "screen": "Ibridazione sp³",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nel metano il carbonio forma quattro legami semplici con l’idrogeno.",
+      "speech": "Nel metano il carbonio forma quattro legami semplici con l’idrogeno.",
+      "screen": "Ibridazione sp³",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Servono quattro orbitali ibridi: l’ibridazione è sp tre.",
+      "speech": "Servono quattro orbitali ibridi: l’ibridazione è esse pi tre.",
+      "screen": "Ibridazione sp³",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La molecola è un tetraedro con angoli di centonove virgola cinque gradi.",
+      "speech": "La molecola è un tetraedro con angoli di centonove virgola cinque gradi.",
+      "screen": "Ibridazione sp³",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ibridazione sp due e sp. Nell’sp due il due esse si combina con due due pi: tre orbitali ibridi su un piano a centoventi gradi, e il pi rimasto forma un legame pi greco. Un doppio legame è un sigma più un pi greco. Nell’sp il due esse si combina con un solo due pi: due ibridi a centottanta gradi e due legami pi greco. Un triplo legame è un sigma più due pi greco.",
+      "speech": "Ibridazione esse pi due e esse pi. Nell’esse pi due il due esse si combina con due due pi: tre orbitali ibridi su un piano a centoventi gradi, e il pi rimasto forma un legame pi greco. Un doppio legame è un sigma più un pi greco. Nell’esse pi il due esse si combina con un solo due pi: due ibridi a centottanta gradi e due legami pi greco. Un triplo legame è un sigma più due pi greco.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Ibridazione sp² e sp"
+    },
+    {
+      "text": "Nel riquadro: il doppio legame è sigma più pi greco, con carbonio sp due; il triplo è sigma più due pi greco, con carbonio sp.",
+      "speech": "Nel riquadro: il doppio legame è sigma più pi greco, con carbonio esse pi due; il triplo è sigma più due pi greco, con carbonio esse pi.",
+      "screen": "Ibridazione sp² e sp",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nell’etene ci sono quattro legami carbonio idrogeno: quattro sigma.",
+      "speech": "Nell’etene ci sono quattro legami carbonio idrogeno: quattro sigma.",
+      "screen": "Ibridazione sp² e sp",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il doppio legame tra i carboni è un sigma più un pi greco.",
+      "speech": "Il doppio legame tra i carboni è un sigma più un pi greco.",
+      "screen": "Ibridazione sp² e sp",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "In tutto cinque legami sigma e uno pi greco; i carboni sono sp due e la molecola è piana.",
+      "speech": "In tutto cinque legami sigma e uno pi greco; i carboni sono esse pi due e la molecola è piana.",
+      "screen": "Ibridazione sp² e sp",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Riconoscere l’ibridazione. Concludiamo con un metodo veloce: si contano i legami multipli del carbonio. Solo legami semplici: sp tre. Un doppio legame: sp due. Un triplo legame, oppure due doppi: sp. L’ibridazione decide la geometria attorno al carbonio.",
+      "speech": "Riconoscere l’ibridazione. Concludiamo con un metodo veloce: si contano i legami multipli del carbonio. Solo legami semplici: esse pi tre. Un doppio legame: esse pi due. Un triplo legame, oppure due doppi: esse pi. L’ibridazione decide la geometria attorno al carbonio.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Riconoscere l’ibridazione"
+    },
+    {
+      "text": "Nel riquadro la regola: solo semplici sp tre, un doppio sp due, un triplo sp.",
+      "speech": "Nel riquadro la regola: solo semplici esse pi tre, un doppio esse pi due, un triplo esse pi.",
+      "screen": "Riconoscere l’ibridazione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il primo carbonio partecipa al triplo legame: è sp.",
+      "speech": "Il primo carbonio partecipa al triplo legame: è esse pi.",
+      "screen": "Riconoscere l’ibridazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Anche il secondo: sp.",
+      "speech": "Anche il secondo: esse pi.",
+      "screen": "Riconoscere l’ibridazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il terzo, il gruppo metile, ha solo legami semplici: sp tre.",
+      "speech": "Il terzo, il gruppo metile, ha solo legami semplici: esse pi tre.",
+      "screen": "Riconoscere l’ibridazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Conta i legami multipli di ogni carbonio.",
+      "speech": "Ora tocca a te. Conta i legami multipli di ogni carbonio.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scegli i legami del carbonio e guarda come cambia la geometria.",
+      "speech": "Questo è il laboratorio. Scegli i legami del carbonio e guarda come cambia la geometria.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: solo legami semplici sp tre, un doppio sp due, un triplo sp; ogni legame ha un solo sigma.",
+      "speech": "Ricorda: solo legami semplici esse pi tre, un doppio esse pi due, un triplo esse pi; ogni legame ha un solo sigma.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

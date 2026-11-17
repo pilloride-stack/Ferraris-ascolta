@@ -1,0 +1,145 @@
+{
+  "episode": "16",
+  "title": "Gli idrocarburi aromatici",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Il benzene. Il capostipite degli aromatici è il benzene, ci sei acca sei: sei carboni esse pi due in un anello esagonale piano, ognuno legato a un idrogeno. Kekulé lo disegnò con tre doppi legami alternati, ma tutti i legami hanno la stessa lunghezza. Gli elettroni pi greco sono delocalizzati su tutto l’anello, e si disegna un cerchio dentro l’esagono. Questa risonanza lo rende molto stabile.",
+      "speech": "Il benzene. Il capostipite degli aromatici è il benzene, ci sei acca sei: sei carboni esse pi due in un anello esagonale piano, ognuno legato a un idrogeno. Kekulé lo disegnò con tre doppi legami alternati, ma tutti i legami hanno la stessa lunghezza. Gli elettroni pi greco sono delocalizzati su tutto l’anello, e si disegna un cerchio dentro l’esagono. Questa risonanza lo rende molto stabile.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il benzene"
+    },
+    {
+      "text": "Nel riquadro: il benzene ha sei elettroni pi greco delocalizzati su tutto l’anello.",
+      "speech": "Nel riquadro: il benzene ha sei elettroni pi greco delocalizzati su tutto l’anello.",
+      "screen": "Il benzene",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "I sei carboni sono esse pi due: ognuno ha un orbitale pi libero.",
+      "speech": "I sei carboni sono esse pi due: ognuno ha un orbitale pi libero.",
+      "screen": "Il benzene",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Ognuno mette un elettrone pi: sei elettroni pi greco in tutto.",
+      "speech": "Ognuno mette un elettrone pi: sei elettroni pi greco in tutto.",
+      "screen": "Il benzene",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Questi elettroni sono condivisi da tutto l’anello: tutti i legami sono uguali, a metà tra semplice e doppio.",
+      "speech": "Questi elettroni sono condivisi da tutto l’anello: tutti i legami sono uguali, a metà tra semplice e doppio.",
+      "screen": "Il benzene",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La sostituzione elettrofila. Per la sua stabilità il benzene non dà le addizioni degli alcheni, che distruggerebbero la delocalizzazione. Dà invece la sostituzione elettrofila: un idrogeno dell’anello viene sostituito da un altro gruppo, e l’anello aromatico si conserva.",
+      "speech": "La sostituzione elettrofila. Per la sua stabilità il benzene non dà le addizioni degli alcheni, che distruggerebbero la delocalizzazione. Dà invece la sostituzione elettrofila: un idrogeno dell’anello viene sostituito da un altro gruppo, e l’anello aromatico si conserva.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La sostituzione elettrofila"
+    },
+    {
+      "text": "Nel riquadro la sostituzione: il benzene scambia un idrogeno con un gruppo nuovo.",
+      "speech": "Nel riquadro la sostituzione: il benzene scambia un idrogeno con un gruppo nuovo.",
+      "screen": "La sostituzione elettrofila",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il benzene reagisce con il cloro, in presenza di cloruro ferrico.",
+      "speech": "Il benzene reagisce con il cloro, in presenza di cloruro ferrico.",
+      "screen": "La sostituzione elettrofila",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Un idrogeno viene sostituito da un cloro e si libera acido cloridrico.",
+      "speech": "Un idrogeno viene sostituito da un cloro e si libera acido cloridrico.",
+      "screen": "La sostituzione elettrofila",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Si forma il clorobenzene: l’anello aromatico resta intatto.",
+      "speech": "Si forma il clorobenzene: l’anello aromatico resta intatto.",
+      "screen": "La sostituzione elettrofila",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Derivati monosostituiti. Con un solo sostituente il nome è il sostituente più benzene: clorobenzene, nitrobenzene, etilbenzene. Alcuni hanno nomi tradizionali: il metilbenzene è il toluene, l’idrossibenzene il fenolo, l’amminobenzene l’anilina.",
+      "speech": "Derivati monosostituiti. Con un solo sostituente il nome è il sostituente più benzene: clorobenzene, nitrobenzene, etilbenzene. Alcuni hanno nomi tradizionali: il metilbenzene è il toluene, l’idrossibenzene il fenolo, l’amminobenzene l’anilina.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Derivati monosostituiti"
+    },
+    {
+      "text": "Nel riquadro la regola e i nomi tradizionali: toluene, fenolo, anilina.",
+      "speech": "Nel riquadro la regola e i nomi tradizionali: toluene, fenolo, anilina.",
+      "screen": "Derivati monosostituiti",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il sostituente è un metile.",
+      "speech": "Il sostituente è un metile.",
+      "screen": "Derivati monosostituiti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il nome sistematico è metilbenzene.",
+      "speech": "Il nome sistematico è metilbenzene.",
+      "screen": "Derivati monosostituiti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il nome tradizionale è toluene, un solvente molto usato.",
+      "speech": "Il nome tradizionale è toluene, un solvente molto usato.",
+      "screen": "Derivati monosostituiti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Orto, meta e para. Con due sostituenti si indicano le posizioni: con i numeri, oppure con orto per le posizioni uno e due, carboni vicini; meta per uno e tre; para per uno e quattro, carboni opposti.",
+      "speech": "Orto, meta e para. Con due sostituenti si indicano le posizioni: con i numeri, oppure con orto per le posizioni uno e due, carboni vicini; meta per uno e tre; para per uno e quattro, carboni opposti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Orto, meta e para"
+    },
+    {
+      "text": "Nel riquadro: orto uno due, meta uno tre, para uno quattro.",
+      "speech": "Nel riquadro: orto uno due, meta uno tre, para uno quattro.",
+      "screen": "Orto, meta e para",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Ci sono due gruppi metile: dimetilbenzene, detto anche xilene.",
+      "speech": "Ci sono due gruppi metile: dimetilbenzene, detto anche xilene.",
+      "screen": "Orto, meta e para",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sono sui carboni uno e quattro, uno di fronte all’altro: posizione para.",
+      "speech": "Sono sui carboni uno e quattro, uno di fronte all’altro: posizione para.",
+      "screen": "Orto, meta e para",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il nome è uno quattro dimetilbenzene, o para xilene.",
+      "speech": "Il nome è uno quattro dimetilbenzene, o para xilene.",
+      "screen": "Orto, meta e para",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Per due sostituenti conta quanti carboni li separano.",
+      "speech": "Ora tocca a te. Per due sostituenti conta quanti carboni li separano.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Sposta il secondo sostituente e guarda come cambia il nome.",
+      "speech": "Questo è il laboratorio. Sposta il secondo sostituente e guarda come cambia il nome.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il benzene ha elettroni delocalizzati, dà sostituzioni, e due sostituenti si indicano con orto, meta e para.",
+      "speech": "Ricorda: il benzene ha elettroni delocalizzati, dà sostituzioni, e due sostituenti si indicano con orto, meta e para.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

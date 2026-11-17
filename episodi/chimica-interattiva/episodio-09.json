@@ -1,0 +1,145 @@
+{
+  "episode": "09",
+  "title": "Le soluzioni",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Soluto e solvente. Una soluzione è un miscuglio omogeneo. Il componente in quantità maggiore è il solvente, gli altri sono i soluti. La solubilità è la quantità massima di soluto che si scioglie a una data temperatura: oltre, la soluzione è satura. In genere il simile scioglie il simile: i soluti polari si sciolgono nei solventi polari, come l’acqua.",
+      "speech": "Soluto e solvente. Una soluzione è un miscuglio omogeneo. Il componente in quantità maggiore è il solvente, gli altri sono i soluti. La solubilità è la quantità massima di soluto che si scioglie a una data temperatura: oltre, la soluzione è satura. In genere il simile scioglie il simile: i soluti polari si sciolgono nei solventi polari, come l’acqua.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Soluto e solvente"
+    },
+    {
+      "text": "Nel riquadro: una soluzione è fatta di soluto e solvente.",
+      "speech": "Nel riquadro: una soluzione è fatta di soluto e solvente.",
+      "screen": "Soluto e solvente",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il sale si scioglie nell’acqua: è una soluzione, con il sale come soluto e l’acqua come solvente.",
+      "speech": "Il sale si scioglie nell’acqua: è una soluzione, con il sale come soluto e l’acqua come solvente.",
+      "screen": "Soluto e solvente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’olio non si scioglie nell’acqua, perché non è polare: si formano due strati, non è una soluzione.",
+      "speech": "L’olio non si scioglie nell’acqua, perché non è polare: si formano due strati, non è una soluzione.",
+      "screen": "Soluto e solvente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Anche l’aria è una soluzione: il solvente è l’azoto, che è circa il settantotto per cento.",
+      "speech": "Anche l’aria è una soluzione: il solvente è l’azoto, che è circa il settantotto per cento.",
+      "screen": "Soluto e solvente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Concentrazione percentuale. La concentrazione indica quanto soluto c’è in una certa quantità di soluzione. La percentuale in massa è la massa del soluto divisa per la massa della soluzione, per cento. La massa della soluzione è soluto più solvente.",
+      "speech": "Concentrazione percentuale. La concentrazione indica quanto soluto cè in una certa quantità di soluzione. La percentuale in massa è la massa del soluto divisa per la massa della soluzione, per cento. La massa della soluzione è soluto più solvente.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Concentrazione percentuale"
+    },
+    {
+      "text": "La formula: la percentuale in massa è la massa del soluto divisa per la massa della soluzione, per cento.",
+      "speech": "La formula: la percentuale in massa è la massa del soluto divisa per la massa della soluzione, per cento.",
+      "screen": "Concentrazione percentuale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La soluzione pesa venti più centottanta: duecento grammi.",
+      "speech": "La soluzione pesa venti più centottanta: duecento grammi.",
+      "screen": "Concentrazione percentuale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La percentuale è venti diviso duecento, per cento.",
+      "speech": "La percentuale è venti diviso duecento, per cento.",
+      "screen": "Concentrazione percentuale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La soluzione è al dieci per cento in massa.",
+      "speech": "La soluzione è al dieci per cento in massa.",
+      "screen": "Concentrazione percentuale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La molarità. In chimica la concentrazione più usata è la molarità: il numero di moli di soluto in un litro di soluzione, in moli al litro. Si trasformano prima i grammi di soluto in moli, poi si divide per il volume in litri.",
+      "speech": "La molarità. In chimica la concentrazione più usata è la molarità: il numero di moli di soluto in un litro di soluzione, in moli al litro. Si trasformano prima i grammi di soluto in moli, poi si divide per il volume in litri.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La molarità"
+    },
+    {
+      "text": "La formula: la molarità è il numero di moli diviso il volume in litri.",
+      "speech": "La formula: la molarità è il numero di moli diviso il volume in litri.",
+      "screen": "La molarità",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Undici virgola sette grammi di cloruro di sodio, diviso cinquantotto virgola cinque: zero virgola due moli.",
+      "speech": "Undici virgola sette grammi di cloruro di sodio, diviso cinquantotto virgola cinque: zero virgola due moli.",
+      "screen": "La molarità",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Cinquecento millilitri sono zero virgola cinque litri.",
+      "speech": "Cinquecento millilitri sono zero virgola cinque litri.",
+      "screen": "La molarità",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La molarità è zero virgola due diviso zero virgola cinque: zero virgola quattro moli al litro.",
+      "speech": "La molarità è zero virgola due diviso zero virgola cinque: zero virgola quattro moli al litro.",
+      "screen": "La molarità",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La diluizione. Diluire significa aggiungere solvente: il volume aumenta, ma le moli di soluto restano le stesse. Per questo molarità per volume prima è uguale a molarità per volume dopo.",
+      "speech": "La diluizione. Diluire significa aggiungere solvente: il volume aumenta, ma le moli di soluto restano le stesse. Per questo molarità per volume prima è uguale a molarità per volume dopo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La diluizione"
+    },
+    {
+      "text": "La formula: emme uno per vu uno è uguale a emme due per vu due.",
+      "speech": "La formula: emme uno per vu uno è uguale a emme due per vu due.",
+      "screen": "La diluizione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Cento millilitri di soluzione due molare contengono due per zero virgola uno, cioè zero virgola due moli.",
+      "speech": "Cento millilitri di soluzione due molare contengono due per zero virgola uno, cioè zero virgola due moli.",
+      "screen": "La diluizione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Diluiamo fino a cinquecento millilitri, zero virgola cinque litri.",
+      "speech": "Diluiamo fino a cinquecento millilitri, zero virgola cinque litri.",
+      "screen": "La diluizione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La nuova molarità è zero virgola due diviso zero virgola cinque: zero virgola quattro molare.",
+      "speech": "La nuova molarità è zero virgola due diviso zero virgola cinque: zero virgola quattro molare.",
+      "screen": "La diluizione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Controlla sempre che il volume sia in litri.",
+      "speech": "Ora tocca a te. Controlla sempre che il volume sia in litri.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Aggiungi acqua e guarda come scende la concentrazione mentre le moli restano uguali.",
+      "speech": "Questo è il laboratorio. Aggiungi acqua e guarda come scende la concentrazione mentre le moli restano uguali.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: la molarità è moli diviso litri; diluendo, emme uno vu uno è uguale a emme due vu due.",
+      "speech": "Ricorda: la molarità è moli diviso litri; diluendo, emme uno vu uno è uguale a emme due vu due.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
