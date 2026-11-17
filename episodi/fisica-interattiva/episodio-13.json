@@ -1,0 +1,175 @@
+{
+  "episode": "13",
+  "title": "Ottica geometrica: riflessione e rifrazione",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "La luce. Iniziamo chiedendoci che cos’è. La luce ha una doppia natura: in alcuni fenomeni si comporta come un’onda elettromagnetica, in altri come un insieme di particelle, i fotoni. Le sorgenti luminose producono luce propria; gli altri corpi li vediamo perché riflettono la luce. I corpi trasparenti la lasciano passare, quelli traslucidi la lasciano passare in modo diffuso, quelli opachi la bloccano.",
+      "speech": "La luce. Iniziamo chiedendoci che cos’è. La luce ha una doppia natura: in alcuni fenomeni si comporta come un’onda elettromagnetica, in altri come un insieme di particelle, i fotoni. Le sorgenti luminose producono luce propria; gli altri corpi li vediamo perché riflettono la luce. I corpi trasparenti la lasciano passare, quelli traslucidi la lasciano passare in modo diffuso, quelli opachi la bloccano.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La luce"
+    },
+    {
+      "text": "Nel riquadro i tre comportamenti dei corpi: trasparente, traslucido e opaco.",
+      "speech": "Nel riquadro i tre comportamenti dei corpi: trasparente, traslucido e opaco.",
+      "screen": "La luce",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Attraverso il vetro di una finestra vediamo nitidamente: è trasparente.",
+      "speech": "Attraverso il vetro di una finestra vediamo nitidamente: è trasparente.",
+      "screen": "La luce",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La carta velina lascia passare la luce ma non le immagini: è traslucida.",
+      "speech": "La carta velina lascia passare la luce ma non le immagini: è traslucida.",
+      "screen": "La luce",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il legno blocca la luce e dietro lascia un’ombra: è opaco.",
+      "speech": "Il legno blocca la luce e dietro lascia un’ombra: è opaco.",
+      "screen": "La luce",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Propagazione e velocità. In un mezzo uniforme la luce viaggia in linea retta: per questo esistono le ombre e le eclissi. Nel vuoto viaggia a circa trecentomila chilometri al secondo, la velocità più alta che esista.",
+      "speech": "Propagazione e velocità. In un mezzo uniforme la luce viaggia in linea retta: per questo esistono le ombre e le eclissi. Nel vuoto viaggia a circa trecentomila chilometri al secondo, la velocità più alta che esista.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Propagazione e velocità"
+    },
+    {
+      "text": "Nel riquadro: ci, la velocità della luce, è circa trecentomila chilometri al secondo, e il tempo è la distanza divisa per ci.",
+      "speech": "Nel riquadro: ci, la velocità della luce, è circa trecentomila chilometri al secondo, e il tempo è la distanza divisa per ci.",
+      "screen": "Propagazione e velocità",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il Sole dista centocinquanta milioni di chilometri. Il tempo è la distanza divisa per trecentomila chilometri al secondo.",
+      "speech": "Il Sole dista centocinquanta milioni di chilometri. Il tempo è la distanza divisa per trecentomila chilometri al secondo.",
+      "screen": "Propagazione e velocità",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il risultato è cinquecento secondi.",
+      "speech": "Il risultato è cinquecento secondi.",
+      "screen": "Propagazione e velocità",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Cioè circa otto minuti e venti secondi: vediamo il Sole come era otto minuti fa.",
+      "speech": "Cioè circa otto minuti e venti secondi: vediamo il Sole come era otto minuti fa.",
+      "screen": "Propagazione e velocità",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La riflessione. Quando la luce incontra una superficie viene in parte rimandata indietro. L’angolo di riflessione è uguale all’angolo di incidenza, e gli angoli si misurano rispetto alla normale, la retta perpendicolare alla superficie. Su una superficie liscia la riflessione è speculare e dà un’immagine; su una superficie ruvida è diffusa.",
+      "speech": "La riflessione. Quando la luce incontra una superficie viene in parte rimandata indietro. L’angolo di riflessione è uguale all’angolo di incidenza, e gli angoli si misurano rispetto alla normale, la retta perpendicolare alla superficie. Su una superficie liscia la riflessione è speculare e dà un’immagine; su una superficie ruvida è diffusa.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La riflessione"
+    },
+    {
+      "text": "La legge della riflessione: l’angolo di incidenza è uguale all’angolo di riflessione.",
+      "speech": "La legge della riflessione: l’angolo di incidenza è uguale all’angolo di riflessione.",
+      "screen": "La riflessione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Tracciamo la normale, la retta perpendicolare allo specchio nel punto in cui arriva il raggio.",
+      "speech": "Tracciamo la normale, la retta perpendicolare allo specchio nel punto in cui arriva il raggio.",
+      "screen": "La riflessione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il raggio arriva formando trenta gradi con la normale.",
+      "speech": "Il raggio arriva formando trenta gradi con la normale.",
+      "screen": "La riflessione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il raggio riflesso esce dall’altra parte della normale, ancora a trenta gradi.",
+      "speech": "Il raggio riflesso esce dall’altra parte della normale, ancora a trenta gradi.",
+      "screen": "La riflessione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La rifrazione. Quando la luce passa da un materiale a un altro cambia velocità e devia: è la rifrazione. L’indice di rifrazione di un materiale è la velocità della luce nel vuoto divisa per quella nel materiale. Passando in un materiale con indice maggiore, il raggio si avvicina alla normale. In certe condizioni la luce resta tutta dentro il materiale: è la riflessione totale delle fibre ottiche.",
+      "speech": "La rifrazione. Quando la luce passa da un materiale a un altro cambia velocità e devia: è la rifrazione. L’indice di rifrazione di un materiale è la velocità della luce nel vuoto divisa per quella nel materiale. Passando in un materiale con indice maggiore, il raggio si avvicina alla normale. In certe condizioni la luce resta tutta dentro il materiale: è la riflessione totale delle fibre ottiche.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La rifrazione"
+    },
+    {
+      "text": "La formula: l’indice di rifrazione enne è ci diviso vu.",
+      "speech": "La formula: l’indice di rifrazione enne è ci diviso vu.",
+      "screen": "La rifrazione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nell’acqua la luce viaggia a circa duecentoventicinquemila chilometri al secondo. L’indice di rifrazione è trecentomila diviso duecentoventicinquemila.",
+      "speech": "Nell’acqua la luce viaggia a circa duecentoventicinquemila chilometri al secondo. L’indice di rifrazione è trecentomila diviso duecentoventicinquemila.",
+      "screen": "La rifrazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il risultato è circa uno virgola trentatré.",
+      "speech": "Il risultato è circa uno virgola trentatré.",
+      "screen": "La rifrazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’acqua ha indice maggiore dell’aria: entrando nell’acqua il raggio rallenta e si avvicina alla normale. Un raggio a quarantacinque gradi prosegue a circa trentadue gradi.",
+      "speech": "L’acqua ha indice maggiore dell’aria: entrando nell’acqua il raggio rallenta e si avvicina alla normale. Un raggio a quarantacinque gradi prosegue a circa trentadue gradi.",
+      "screen": "La rifrazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "I colori. Concludiamo con i colori. La luce bianca è una miscela di tutti i colori. Un prisma la scompone perché ogni colore viene deviato in modo diverso: è la dispersione, la stessa dell’arcobaleno. Un oggetto ha il colore della luce che riflette e assorbe gli altri. Un oggetto bianco li riflette tutti, uno nero li assorbe quasi tutti.",
+      "speech": "I colori. Concludiamo con i colori. La luce bianca è una miscela di tutti i colori. Un prisma la scompone perché ogni colore viene deviato in modo diverso: è la dispersione, la stessa dell’arcobaleno. Un oggetto ha il colore della luce che riflette e assorbe gli altri. Un oggetto bianco li riflette tutti, uno nero li assorbe quasi tutti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: I colori"
+    },
+    {
+      "text": "Nel riquadro: il colore di un oggetto è la luce che riflette.",
+      "speech": "Nel riquadro: il colore di un oggetto è la luce che riflette.",
+      "screen": "I colori",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La foglia riflette soprattutto il verde e assorbe gli altri colori: per questo la vediamo verde.",
+      "speech": "La foglia riflette soprattutto il verde e assorbe gli altri colori: per questo la vediamo verde.",
+      "screen": "I colori",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La maglietta nera assorbe quasi tutta la luce che riceve.",
+      "speech": "La maglietta nera assorbe quasi tutta la luce che riceve.",
+      "screen": "I colori",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’energia della luce assorbita diventa calore: per questo d’estate la maglietta nera scotta più di quella bianca.",
+      "speech": "L’energia della luce assorbita diventa calore: per questo d’estate la maglietta nera scotta più di quella bianca.",
+      "screen": "I colori",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda di misurare sempre gli angoli dalla normale.",
+      "speech": "Ora tocca a te. Ricorda di misurare sempre gli angoli dalla normale.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia l’angolo del raggio e confronta il raggio riflesso con quello che entra nell’acqua.",
+      "speech": "Questo è il laboratorio. Cambia l’angolo del raggio e confronta il raggio riflesso con quello che entra nell’acqua.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: nella riflessione gli angoli sono uguali; nella rifrazione la luce cambia velocità e devia.",
+      "speech": "Ricorda: nella riflessione gli angoli sono uguali; nella rifrazione la luce cambia velocità e devia.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

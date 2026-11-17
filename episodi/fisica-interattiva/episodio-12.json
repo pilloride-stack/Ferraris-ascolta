@@ -1,0 +1,235 @@
+{
+  "episode": "12",
+  "title": "La pressione e i fluidi",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Fluidi e densità. Iniziamo dai fluidi, cioè liquidi e gas: possono scorrere e prendono la forma del recipiente. I liquidi sono quasi incomprimibili, i gas si comprimono facilmente. La densità è la massa contenuta in un certo volume: massa diviso volume, in chilogrammi al metro cubo. Un corpo meno denso di un liquido vi galleggia sopra.",
+      "speech": "Fluidi e densità. Iniziamo dai fluidi, cioè liquidi e gas: possono scorrere e prendono la forma del recipiente. I liquidi sono quasi incomprimibili, i gas si comprimono facilmente. La densità è la massa contenuta in un certo volume: massa diviso volume, in chilogrammi al metro cubo. Un corpo meno denso di un liquido vi galleggia sopra.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Fluidi e densità"
+    },
+    {
+      "text": "La formula: la densità è la massa divisa per il volume.",
+      "speech": "La formula: la densità è la massa divisa per il volume.",
+      "screen": "Fluidi e densità",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un litro è un millesimo di metro cubo. L’acqua ha densità un chilogrammo diviso zero virgola zero zero uno: mille chilogrammi al metro cubo.",
+      "speech": "Un litro è un millesimo di metro cubo. L’acqua ha densità un chilogrammo diviso zero virgola zero zero uno: mille chilogrammi al metro cubo.",
+      "screen": "Fluidi e densità",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’olio ha densità novecentoventi chilogrammi al metro cubo.",
+      "speech": "L’olio ha densità novecentoventi chilogrammi al metro cubo.",
+      "screen": "Fluidi e densità",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’olio è meno denso dell’acqua: per questo nel condimento resta sempre a galla.",
+      "speech": "L’olio è meno denso dell’acqua: per questo nel condimento resta sempre a galla.",
+      "screen": "Fluidi e densità",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La pressione. Vediamo quanto una forza è concentrata su una superficie. La pressione è la forza divisa per l’area su cui agisce. Si misura in pascal: un newton su un metro quadrato. A parità di forza, una superficie grande dà poca pressione, una superficie piccola ne dà molta.",
+      "speech": "La pressione. Vediamo quanto una forza è concentrata su una superficie. La pressione è la forza divisa per l’area su cui agisce. Si misura in pascal: un newton su un metro quadrato. A parità di forza, una superficie grande dà poca pressione, una superficie piccola ne dà molta.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La pressione"
+    },
+    {
+      "text": "La formula: la pressione è la forza diviso la superficie.",
+      "speech": "La formula: la pressione è la forza diviso la superficie.",
+      "screen": "La pressione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Una persona pesa seicento newton. Con le scarpe la superficie è zero virgola zero quattro metri quadrati: la pressione è quindicimila pascal.",
+      "speech": "Una persona pesa seicento newton. Con le scarpe la superficie è zero virgola zero quattro metri quadrati: la pressione è quindicimila pascal.",
+      "screen": "La pressione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Con le racchette la superficie è zero virgola tre metri quadrati: la pressione scende a duemila pascal.",
+      "speech": "Con le racchette la superficie è zero virgola tre metri quadrati: la pressione scende a duemila pascal.",
+      "screen": "La pressione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il peso è lo stesso, ma con le racchette la pressione è più di sette volte minore: per questo non si affonda.",
+      "speech": "Il peso è lo stesso, ma con le racchette la pressione è più di sette volte minore: per questo non si affonda.",
+      "screen": "La pressione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Legge di Stevino. Vediamo la pressione dentro un liquido. Più si scende, più la colonna di liquido sopra di noi è alta e pesa: la pressione aumenta con la profondità. La pressione del liquido è densità per gi per acca. Non dipende dalla forma del recipiente: per questo nei vasi comunicanti il liquido raggiunge lo stesso livello.",
+      "speech": "Legge di Stevino. Vediamo la pressione dentro un liquido. Più si scende, più la colonna di liquido sopra di noi è alta e pesa: la pressione aumenta con la profondità. La pressione del liquido è densità per gi per acca. Non dipende dalla forma del recipiente: per questo nei vasi comunicanti il liquido raggiunge lo stesso livello.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Legge di Stevino"
+    },
+    {
+      "text": "La legge di Stevino: la pressione è uguale alla densità per gi per acca.",
+      "speech": "La legge di Stevino: la pressione è uguale alla densità per gi per acca.",
+      "screen": "Legge di Stevino",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un sub scende a dieci metri. La densità dell’acqua è circa mille chilogrammi al metro cubo.",
+      "speech": "Un sub scende a dieci metri. La densità dell’acqua è circa mille chilogrammi al metro cubo.",
+      "screen": "Legge di Stevino",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La pressione dell’acqua è mille per nove virgola ottantuno per dieci.",
+      "speech": "La pressione dell’acqua è mille per nove virgola ottantuno per dieci.",
+      "screen": "Legge di Stevino",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Circa novantottomila pascal: quasi un’atmosfera in più rispetto alla superficie.",
+      "speech": "Circa novantottomila pascal: quasi un’atmosfera in più rispetto alla superficie.",
+      "screen": "Legge di Stevino",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Principio di Pascal. Una pressione esercitata su un fluido chiuso si trasmette uguale in ogni punto. Su questo funziona il torchio idraulico: due pistoni di superfici diverse sono collegati da un liquido. La pressione è la stessa, quindi la forza sul pistone grande è tante volte maggiore quante volte è maggiore la sua superficie.",
+      "speech": "Principio di Pascal. Una pressione esercitata su un fluido chiuso si trasmette uguale in ogni punto. Su questo funziona il torchio idraulico: due pistoni di superfici diverse sono collegati da un liquido. La pressione è la stessa, quindi la forza sul pistone grande è tante volte maggiore quante volte è maggiore la sua superficie.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Principio di Pascal"
+    },
+    {
+      "text": "La formula: effe uno diviso esse uno è uguale a effe due diviso esse due.",
+      "speech": "La formula: effe uno diviso esse uno è uguale a effe due diviso esse due.",
+      "screen": "Principio di Pascal",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Sul pistone piccolo, di dieci centimetri quadrati, premiamo con cento newton.",
+      "speech": "Sul pistone piccolo, di dieci centimetri quadrati, premiamo con cento newton.",
+      "screen": "Principio di Pascal",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il pistone grande ha superficie mille centimetri quadrati: cento volte più grande.",
+      "speech": "Il pistone grande ha superficie mille centimetri quadrati: cento volte più grande.",
+      "screen": "Principio di Pascal",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La pressione è la stessa, quindi la forza è cento volte maggiore: diecimila newton, abbastanza per sollevare un’auto.",
+      "speech": "La pressione è la stessa, quindi la forza è cento volte maggiore: diecimila newton, abbastanza per sollevare un’auto.",
+      "screen": "Principio di Pascal",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Pressione atmosferica. Anche l’aria ha un peso, e preme su tutto ciò che c’è sulla Terra. Torricelli la misurò nel milleseicentoquarantatré: capovolse un tubo pieno di mercurio in una vaschetta, e il mercurio scese fino a circa settantasei centimetri, sostenuto dalla pressione dell’aria. Al livello del mare vale circa centunomila e trecento pascal, cioè un’atmosfera; in montagna è minore.",
+      "speech": "Pressione atmosferica. Anche l’aria ha un peso, e preme su tutto ciò che cè sulla Terra. Torricelli la misurò nel milleseicentoquarantatré: capovolse un tubo pieno di mercurio in una vaschetta, e il mercurio scese fino a circa settantasei centimetri, sostenuto dalla pressione dell’aria. Al livello del mare vale circa centunomila e trecento pascal, cioè un’atmosfera; in montagna è minore.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Pressione atmosferica"
+    },
+    {
+      "text": "Nel riquadro: un’atmosfera vale circa centunomila e trecento pascal, come settantasei centimetri di mercurio.",
+      "speech": "Nel riquadro: un’atmosfera vale circa centunomila e trecento pascal, come settantasei centimetri di mercurio.",
+      "screen": "Pressione atmosferica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Calcoliamo la pressione della colonna di mercurio con la legge di Stevino: tredicimilaseicento per nove virgola ottantuno per zero virgola settantasei.",
+      "speech": "Calcoliamo la pressione della colonna di mercurio con la legge di Stevino: tredicimilaseicento per nove virgola ottantuno per zero virgola settantasei.",
+      "screen": "Pressione atmosferica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il risultato è circa centunomilaquattrocento pascal.",
+      "speech": "Il risultato è circa centunomilaquattrocento pascal.",
+      "screen": "Pressione atmosferica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "È proprio la pressione atmosferica: è l’aria a sostenere il mercurio.",
+      "speech": "È proprio la pressione atmosferica: è l’aria a sostenere il mercurio.",
+      "screen": "Pressione atmosferica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Principio di Archimede. Un corpo immerso in un fluido riceve una spinta verso l’alto uguale al peso del fluido spostato: densità del fluido per gi per volume immerso. Se la spinta supera il peso del corpo, il corpo galleggia; se è minore, affonda.",
+      "speech": "Principio di Archimede. Un corpo immerso in un fluido riceve una spinta verso l’alto uguale al peso del fluido spostato: densità del fluido per gi per volume immerso. Se la spinta supera il peso del corpo, il corpo galleggia; se è minore, affonda.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Principio di Archimede"
+    },
+    {
+      "text": "La formula: la spinta è la densità del fluido per gi per il volume immerso.",
+      "speech": "La formula: la spinta è la densità del fluido per gi per il volume immerso.",
+      "screen": "Principio di Archimede",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il blocco ha volume due decimetri cubi, cioè zero virgola zero zero due metri cubi. Tutto sott’acqua riceve una spinta di mille per nove virgola ottantuno per zero virgola zero zero due: circa diciannove virgola sei newton.",
+      "speech": "Il blocco ha volume due decimetri cubi, cioè zero virgola zero zero due metri cubi. Tutto sott’acqua riceve una spinta di mille per nove virgola ottantuno per zero virgola zero zero due: circa diciannove virgola sei newton.",
+      "screen": "Principio di Archimede",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il suo peso è seicento per zero virgola zero zero due per nove virgola ottantuno: circa undici virgola otto newton.",
+      "speech": "Il suo peso è seicento per zero virgola zero zero due per nove virgola ottantuno: circa undici virgola otto newton.",
+      "screen": "Principio di Archimede",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La spinta supera il peso: il blocco risale e galleggia.",
+      "speech": "La spinta supera il peso: il blocco risale e galleggia.",
+      "screen": "Principio di Archimede",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Fluidi in movimento. Concludiamo con i fluidi che scorrono. Dove un fluido va più veloce, la sua pressione diminuisce. Questo fatto, studiato da Daniel Bernoulli, spiega in parte il volo degli aerei e i tetti sollevati dal vento durante le tempeste.",
+      "speech": "Fluidi in movimento. Concludiamo con i fluidi che scorrono. Dove un fluido va più veloce, la sua pressione diminuisce. Questo fatto, studiato da Daniel Bernoulli, spiega in parte il volo degli aerei e i tetti sollevati dal vento durante le tempeste.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Fluidi in movimento"
+    },
+    {
+      "text": "Nel riquadro: dove il fluido è più veloce, la pressione è più bassa.",
+      "speech": "Nel riquadro: dove il fluido è più veloce, la pressione è più bassa.",
+      "screen": "Fluidi in movimento",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Tieni due fogli appesi vicini e soffia tra di loro: l’aria in mezzo va veloce.",
+      "speech": "Tieni due fogli appesi vicini e soffia tra di loro: l’aria in mezzo va veloce.",
+      "screen": "Fluidi in movimento",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dove l’aria è veloce la pressione diminuisce: in mezzo ai fogli c’è meno pressione che all’esterno.",
+      "speech": "Dove l’aria è veloce la pressione diminuisce: in mezzo ai fogli cè meno pressione che all’esterno.",
+      "screen": "Fluidi in movimento",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La pressione esterna, maggiore, spinge i fogli l’uno verso l’altro: invece di allontanarsi si avvicinano.",
+      "speech": "La pressione esterna, maggiore, spinge i fogli l’uno verso l’altro: invece di allontanarsi si avvicinano.",
+      "screen": "Fluidi in movimento",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Pensa sempre a quale forza agisce e su quale superficie.",
+      "speech": "Ora tocca a te. Pensa sempre a quale forza agisce e su quale superficie.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia la densità del corpo e scopri quando galleggia.",
+      "speech": "Questo è il laboratorio. Cambia la densità del corpo e scopri quando galleggia.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: la pressione è forza diviso superficie; nei liquidi cresce con la profondità; la spinta di Archimede è il peso del fluido spostato.",
+      "speech": "Ricorda: la pressione è forza diviso superficie; nei liquidi cresce con la profondità; la spinta di Archimede è il peso del fluido spostato.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
