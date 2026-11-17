@@ -1,0 +1,205 @@
+{
+  "episode": "11",
+  "title": "Il suono",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Le onde. Iniziamo da un fenomeno che incontriamo ovunque. Un’onda è una perturbazione che si propaga trasportando energia, ma non materia. Le onde meccaniche hanno bisogno di un mezzo, come l’acqua o l’aria; quelle elettromagnetiche, come la luce, viaggiano anche nel vuoto. Nelle onde trasversali le particelle oscillano perpendicolarmente al moto dell’onda; in quelle longitudinali oscillano avanti e indietro nella stessa direzione, formando compressioni e rarefazioni.",
+      "speech": "Le onde. Iniziamo da un fenomeno che incontriamo ovunque. Un’onda è una perturbazione che si propaga trasportando energia, ma non materia. Le onde meccaniche hanno bisogno di un mezzo, come l’acqua o l’aria; quelle elettromagnetiche, come la luce, viaggiano anche nel vuoto. Nelle onde trasversali le particelle oscillano perpendicolarmente al moto dell’onda; in quelle longitudinali oscillano avanti e indietro nella stessa direzione, formando compressioni e rarefazioni.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Le onde"
+    },
+    {
+      "text": "Nel riquadro l’idea chiave: un’onda trasporta energia, non materia.",
+      "speech": "Nel riquadro l’idea chiave: un’onda trasporta energia, non materia.",
+      "screen": "Le onde",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Una corda scossa su e giù: serve la corda, quindi è meccanica; oscilla perpendicolarmente, quindi è trasversale.",
+      "speech": "Una corda scossa su e giù: serve la corda, quindi è meccanica; oscilla perpendicolarmente, quindi è trasversale.",
+      "screen": "Le onde",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il suono: ha bisogno dell’aria ed è fatto di compressioni e rarefazioni, quindi è meccanico e longitudinale.",
+      "speech": "Il suono: ha bisogno dell’aria ed è fatto di compressioni e rarefazioni, quindi è meccanico e longitudinale.",
+      "screen": "Le onde",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La luce del Sole attraversa il vuoto dello spazio: è un’onda elettromagnetica.",
+      "speech": "La luce del Sole attraversa il vuoto dello spazio: è un’onda elettromagnetica.",
+      "screen": "Le onde",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le grandezze di un’onda. L’ampiezza indica quanto è ampia l’oscillazione: più è grande, più energia trasporta. La lunghezza d’onda, lambda, è la distanza tra due creste. Il periodo è il tempo di un’oscillazione; la frequenza è il numero di oscillazioni in un secondo, in hertz. La velocità dell’onda è la lunghezza d’onda per la frequenza.",
+      "speech": "Le grandezze di un’onda. L’ampiezza indica quanto è ampia l’oscillazione: più è grande, più energia trasporta. La lunghezza d’onda, lambda, è la distanza tra due creste. Il periodo è il tempo di un’oscillazione; la frequenza è il numero di oscillazioni in un secondo, in hertz. La velocità dell’onda è la lunghezza d’onda per la frequenza.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Le grandezze di un’onda"
+    },
+    {
+      "text": "Nel riquadro: la velocità è lambda per effe; quindi lambda è la velocità divisa per la frequenza.",
+      "speech": "Nel riquadro: la velocità è lambda per effe; quindi lambda è la velocità divisa per la frequenza.",
+      "screen": "Le grandezze di un’onda",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il la del diapason ha frequenza quattrocentoquaranta hertz, e nell’aria il suono viaggia a trecentoquaranta metri al secondo.",
+      "speech": "Il la del diapason ha frequenza quattrocentoquaranta hertz, e nell’aria il suono viaggia a trecentoquaranta metri al secondo.",
+      "screen": "Le grandezze di un’onda",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La lunghezza d’onda è la velocità divisa per la frequenza: trecentoquaranta diviso quattrocentoquaranta.",
+      "speech": "La lunghezza d’onda è la velocità divisa per la frequenza: trecentoquaranta diviso quattrocentoquaranta.",
+      "screen": "Le grandezze di un’onda",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è circa zero virgola settantasette metri: settantasette centimetri tra una compressione e la successiva.",
+      "speech": "Il risultato è circa zero virgola settantasette metri: settantasette centimetri tra una compressione e la successiva.",
+      "screen": "Le grandezze di un’onda",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il suono. Ogni suono nasce da qualcosa che vibra: le corde vocali, la corda di una chitarra, un altoparlante. La vibrazione crea compressioni e rarefazioni dell’aria che arrivano al nostro orecchio. Il suono è un’onda meccanica longitudinale: senza un mezzo non si propaga, e nel vuoto non c’è suono. Viaggia a circa trecentoquaranta metri al secondo nell’aria, millecinquecento nell’acqua e cinquemila nell’acciaio.",
+      "speech": "Il suono. Ogni suono nasce da qualcosa che vibra: le corde vocali, la corda di una chitarra, un altoparlante. La vibrazione crea compressioni e rarefazioni dell’aria che arrivano al nostro orecchio. Il suono è un’onda meccanica longitudinale: senza un mezzo non si propaga, e nel vuoto non cè suono. Viaggia a circa trecentoquaranta metri al secondo nell’aria, millecinquecento nell’acqua e cinquemila nell’acciaio.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il suono"
+    },
+    {
+      "text": "La formula: la distanza percorsa dal suono è la sua velocità per il tempo.",
+      "speech": "La formula: la distanza percorsa dal suono è la sua velocità per il tempo.",
+      "screen": "Il suono",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vedi il lampo e conti tre secondi prima del tuono. La luce è così veloce che arriva praticamente subito.",
+      "speech": "Vedi il lampo e conti tre secondi prima del tuono. La luce è così veloce che arriva praticamente subito.",
+      "screen": "Il suono",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il suono invece impiega tre secondi: la distanza è trecentoquaranta per tre.",
+      "speech": "Il suono invece impiega tre secondi: la distanza è trecentoquaranta per tre.",
+      "screen": "Il suono",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il fulmine è a circa mille e venti metri, cioè circa un chilometro. Per questo si dice: secondi diviso tre, uguale chilometri.",
+      "speech": "Il fulmine è a circa mille e venti metri, cioè circa un chilometro. Per questo si dice: secondi diviso tre, uguale chilometri.",
+      "screen": "Il suono",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Altezza, intensità e timbro. L’altezza dipende dalla frequenza: alta frequenza, suono acuto; bassa frequenza, suono grave. L’orecchio umano sente tra venti e ventimila hertz: sotto ci sono gli infrasuoni, sopra gli ultrasuoni. L’intensità dipende dall’ampiezza e si misura in decibel. Il timbro dipende dalla forma dell’onda e distingue la stessa nota suonata da strumenti diversi.",
+      "speech": "Altezza, intensità e timbro. L’altezza dipende dalla frequenza: alta frequenza, suono acuto; bassa frequenza, suono grave. L’orecchio umano sente tra venti e ventimila hertz: sotto ci sono gli infrasuoni, sopra gli ultrasuoni. L’intensità dipende dall’ampiezza e si misura in decibel. Il timbro dipende dalla forma dell’onda e distingue la stessa nota suonata da strumenti diversi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Altezza, intensità e timbro"
+    },
+    {
+      "text": "Nel riquadro le tre caratteristiche: altezza legata alla frequenza, intensità all’ampiezza, timbro alla forma dell’onda.",
+      "speech": "Nel riquadro le tre caratteristiche: altezza legata alla frequenza, intensità all’ampiezza, timbro alla forma dell’onda.",
+      "screen": "Altezza, intensità e timbro",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un suono a dieci hertz è sotto i venti: è un infrasuono, non lo sentiamo.",
+      "speech": "Un suono a dieci hertz è sotto i venti: è un infrasuono, non lo sentiamo.",
+      "screen": "Altezza, intensità e timbro",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Mille hertz è tra venti e ventimila: lo sentiamo.",
+      "speech": "Mille hertz è tra venti e ventimila: lo sentiamo.",
+      "screen": "Altezza, intensità e timbro",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Quarantamila hertz supera i ventimila: è un ultrasuono, come quelli dei pipistrelli e dell’ecografia.",
+      "speech": "Quarantamila hertz supera i ventimila: è un ultrasuono, come quelli dei pipistrelli e dell’ecografia.",
+      "screen": "Altezza, intensità e timbro",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Eco. Il suono, come una palla, può rimbalzare su un ostacolo. Se l’ostacolo è lontano almeno diciassette metri circa, il suono riflesso arriva separato e sentiamo l’eco; se è più vicino, i suoni si sovrappongono e si ha il rimbombo. Nell’eco il suono percorre due volte la distanza: andata e ritorno.",
+      "speech": "Eco. Il suono, come una palla, può rimbalzare su un ostacolo. Se l’ostacolo è lontano almeno diciassette metri circa, il suono riflesso arriva separato e sentiamo l’eco; se è più vicino, i suoni si sovrappongono e si ha il rimbombo. Nell’eco il suono percorre due volte la distanza: andata e ritorno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Eco"
+    },
+    {
+      "text": "La formula: la distanza dall’ostacolo è velocità per tempo, diviso due.",
+      "speech": "La formula: la distanza dall’ostacolo è velocità per tempo, diviso due.",
+      "screen": "Eco",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Gridi e senti l’eco dopo due secondi. In due secondi il suono percorre trecentoquaranta per due, seicentottanta metri.",
+      "speech": "Gridi e senti l’eco dopo due secondi. In due secondi il suono percorre trecentoquaranta per due, seicentottanta metri.",
+      "screen": "Eco",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Ma questa è la strada di andata e ritorno: dividiamo per due.",
+      "speech": "Ma questa è la strada di andata e ritorno: dividiamo per due.",
+      "screen": "Eco",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La montagna è a trecentoquaranta metri.",
+      "speech": "La montagna è a trecentoquaranta metri.",
+      "screen": "Eco",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Effetto Doppler e risonanza. Concludiamo con due fenomeni curiosi. L’effetto Doppler è la variazione della frequenza percepita quando la sorgente si muove: se si avvicina il suono sembra più acuto, se si allontana più grave. La risonanza avviene quando un oggetto riceve energia proprio alla sua frequenza naturale: le oscillazioni diventano sempre più ampie.",
+      "speech": "Effetto Doppler e risonanza. Concludiamo con due fenomeni curiosi. L’effetto Doppler è la variazione della frequenza percepita quando la sorgente si muove: se si avvicina il suono sembra più acuto, se si allontana più grave. La risonanza avviene quando un oggetto riceve energia proprio alla sua frequenza naturale: le oscillazioni diventano sempre più ampie.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Effetto Doppler e risonanza"
+    },
+    {
+      "text": "Nel riquadro l’effetto Doppler: avvicinandosi il suono è più acuto, allontanandosi più grave.",
+      "speech": "Nel riquadro l’effetto Doppler: avvicinandosi il suono è più acuto, allontanandosi più grave.",
+      "screen": "Effetto Doppler e risonanza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "L’ambulanza si avvicina: le onde arrivano più ravvicinate, la frequenza che senti è più alta e il suono è più acuto.",
+      "speech": "L’ambulanza si avvicina: le onde arrivano più ravvicinate, la frequenza che senti è più alta e il suono è più acuto.",
+      "screen": "Effetto Doppler e risonanza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Nel momento in cui ti supera, il suono cala di colpo.",
+      "speech": "Nel momento in cui ti supera, il suono cala di colpo.",
+      "screen": "Effetto Doppler e risonanza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Mentre si allontana le onde si allungano, la frequenza percepita diminuisce e il suono è più grave. La sirena, però, non è cambiata.",
+      "speech": "Mentre si allontana le onde si allungano, la frequenza percepita diminuisce e il suono è più grave. La sirena, però, non è cambiata.",
+      "screen": "Effetto Doppler e risonanza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda: l’altezza dipende dalla frequenza, l’intensità dall’ampiezza.",
+      "speech": "Ora tocca a te. Ricorda: l’altezza dipende dalla frequenza, l’intensità dall’ampiezza.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Aumenta la frequenza e guarda come le creste si avvicinano.",
+      "speech": "Questo è il laboratorio. Aumenta la frequenza e guarda come le creste si avvicinano.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il suono è un’onda meccanica longitudinale, viaggia a circa trecentoquaranta metri al secondo nell’aria e non si propaga nel vuoto.",
+      "speech": "Ricorda: il suono è un’onda meccanica longitudinale, viaggia a circa trecentoquaranta metri al secondo nell’aria e non si propaga nel vuoto.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

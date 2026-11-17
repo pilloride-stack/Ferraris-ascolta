@@ -1,0 +1,145 @@
+{
+  "episode": "15",
+  "title": "Le lenti sottili e l’occhio",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Lenti convergenti e divergenti. Iniziamo dalle lenti, che sfruttano la rifrazione. Una lente è un corpo trasparente con almeno una faccia curva. Le lenti convergenti sono più spesse al centro e concentrano i raggi paralleli nel fuoco. Le lenti divergenti sono più sottili al centro e allargano i raggi, che sembrano venire da un fuoco davanti alla lente. La distanza tra la lente e il fuoco è la distanza focale.",
+      "speech": "Lenti convergenti e divergenti. Iniziamo dalle lenti, che sfruttano la rifrazione. Una lente è un corpo trasparente con almeno una faccia curva. Le lenti convergenti sono più spesse al centro e concentrano i raggi paralleli nel fuoco. Le lenti divergenti sono più sottili al centro e allargano i raggi, che sembrano venire da un fuoco davanti alla lente. La distanza tra la lente e il fuoco è la distanza focale.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Lenti convergenti e divergenti"
+    },
+    {
+      "text": "Nel riquadro: la lente convergente è più spessa al centro, quella divergente più sottile.",
+      "speech": "Nel riquadro: la lente convergente è più spessa al centro, quella divergente più sottile.",
+      "screen": "Lenti convergenti e divergenti",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La lente d’ingrandimento è più spessa al centro: è convergente.",
+      "speech": "La lente d’ingrandimento è più spessa al centro: è convergente.",
+      "screen": "Lenti convergenti e divergenti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Lo spioncino della porta è più sottile al centro: è divergente, e mostra un campo ampio.",
+      "speech": "Lo spioncino della porta è più sottile al centro: è divergente, e mostra un campo ampio.",
+      "screen": "Lenti convergenti e divergenti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Una lente che concentra il sole fino a bruciare un foglio fa convergere i raggi nel fuoco: è convergente.",
+      "speech": "Una lente che concentra il sole fino a bruciare un foglio fa convergere i raggi nel fuoco: è convergente.",
+      "screen": "Lenti convergenti e divergenti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il potere diottrico. Gli ottici misurano le lenti in diottrie. Il potere diottrico è uno diviso la distanza focale in metri. Più la distanza focale è corta, più la lente è potente. Le lenti convergenti hanno potere positivo, quelle divergenti negativo.",
+      "speech": "Il potere diottrico. Gli ottici misurano le lenti in diottrie. Il potere diottrico è uno diviso la distanza focale in metri. Più la distanza focale è corta, più la lente è potente. Le lenti convergenti hanno potere positivo, quelle divergenti negativo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il potere diottrico"
+    },
+    {
+      "text": "La formula: il potere diottrico è uno diviso la distanza focale in metri.",
+      "speech": "La formula: il potere diottrico è uno diviso la distanza focale in metri.",
+      "screen": "Il potere diottrico",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La prima lente ha distanza focale cinquanta centimetri, cioè zero virgola cinque metri.",
+      "speech": "La prima lente ha distanza focale cinquanta centimetri, cioè zero virgola cinque metri.",
+      "screen": "Il potere diottrico",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il potere è uno diviso zero virgola cinque: più due diottrie, una lente convergente.",
+      "speech": "Il potere è uno diviso zero virgola cinque: più due diottrie, una lente convergente.",
+      "screen": "Il potere diottrico",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Una lente da meno quattro diottrie ha distanza focale uno diviso meno quattro: meno venticinque centimetri. Il segno meno indica una lente divergente, da miope.",
+      "speech": "Una lente da meno quattro diottrie ha distanza focale uno diviso meno quattro: meno venticinque centimetri. Il segno meno indica una lente divergente, da miope.",
+      "screen": "Il potere diottrico",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Immagini della lente convergente. Si usano due raggi notevoli dalla punta dell’oggetto: quello parallelo all’asse, che dopo la lente passa per il fuoco, e quello che passa per il centro, che non devia. Se l’oggetto è oltre il fuoco l’immagine è reale e capovolta, e si può proiettare su uno schermo. Se l’oggetto è tra fuoco e lente l’immagine è virtuale, diritta e ingrandita: è la lente d’ingrandimento.",
+      "speech": "Immagini della lente convergente. Si usano due raggi notevoli dalla punta dell’oggetto: quello parallelo all’asse, che dopo la lente passa per il fuoco, e quello che passa per il centro, che non devia. Se l’oggetto è oltre il fuoco l’immagine è reale e capovolta, e si può proiettare su uno schermo. Se l’oggetto è tra fuoco e lente l’immagine è virtuale, diritta e ingrandita: è la lente d’ingrandimento.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Immagini della lente convergente"
+    },
+    {
+      "text": "Nel riquadro i due casi: oltre il fuoco, immagine reale e capovolta; tra fuoco e lente, virtuale e ingrandita.",
+      "speech": "Nel riquadro i due casi: oltre il fuoco, immagine reale e capovolta; tra fuoco e lente, virtuale e ingrandita.",
+      "screen": "Immagini della lente convergente",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La lente ha fuoco a quattro. Con l’oggetto a dieci, i due raggi si incrociano dall’altra parte della lente: l’immagine è reale, capovolta e più piccola, come nella macchina fotografica.",
+      "speech": "La lente ha fuoco a quattro. Con l’oggetto a dieci, i due raggi si incrociano dall’altra parte della lente: l’immagine è reale, capovolta e più piccola, come nella macchina fotografica.",
+      "screen": "Immagini della lente convergente",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Con l’oggetto a due virgola cinque, tra il fuoco e la lente, i raggi dopo la lente si allontanano: i loro prolungamenti si incontrano dalla parte dell’oggetto. L’immagine è virtuale, diritta e ingrandita.",
+      "speech": "Con l’oggetto a due virgola cinque, tra il fuoco e la lente, i raggi dopo la lente si allontanano: i loro prolungamenti si incontrano dalla parte dell’oggetto. L’immagine è virtuale, diritta e ingrandita.",
+      "screen": "Immagini della lente convergente",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Per questo la lente d’ingrandimento si tiene vicina all’oggetto, più vicina della distanza focale.",
+      "speech": "Per questo la lente d’ingrandimento si tiene vicina all’oggetto, più vicina della distanza focale.",
+      "screen": "Immagini della lente convergente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "L’occhio e i difetti della vista. Concludiamo con l’occhio. La luce entra dalla cornea e dalla pupilla; il cristallino, una lente convergente naturale, forma sulla retina un’immagine reale e capovolta, che il cervello raddrizza. Il cristallino cambia forma per mettere a fuoco vicino o lontano: è l’accomodazione. Nella miopia l’immagine si forma davanti alla retina e servono lenti divergenti; nell’ipermetropia e nella presbiopia servono lenti convergenti.",
+      "speech": "L’occhio e i difetti della vista. Concludiamo con l’occhio. La luce entra dalla cornea e dalla pupilla; il cristallino, una lente convergente naturale, forma sulla retina un’immagine reale e capovolta, che il cervello raddrizza. Il cristallino cambia forma per mettere a fuoco vicino o lontano: è l’accomodazione. Nella miopia l’immagine si forma davanti alla retina e servono lenti divergenti; nell’ipermetropia e nella presbiopia servono lenti convergenti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: L’occhio e i difetti della vista"
+    },
+    {
+      "text": "Nel riquadro: per la miopia lenti divergenti, con il segno meno; per ipermetropia e presbiopia lenti convergenti, con il segno più.",
+      "speech": "Nel riquadro: per la miopia lenti divergenti, con il segno meno; per ipermetropia e presbiopia lenti convergenti, con il segno più.",
+      "screen": "L’occhio e i difetti della vista",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La ricetta indica meno due diottrie: il segno meno vuol dire lente divergente.",
+      "speech": "La ricetta indica meno due diottrie: il segno meno vuol dire lente divergente.",
+      "screen": "L’occhio e i difetti della vista",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Le lenti divergenti correggono la miopia: si vede bene da vicino e male da lontano.",
+      "speech": "Le lenti divergenti correggono la miopia: si vede bene da vicino e male da lontano.",
+      "screen": "L’occhio e i difetti della vista",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La distanza focale è uno diviso meno due: meno cinquanta centimetri.",
+      "speech": "La distanza focale è uno diviso meno due: meno cinquanta centimetri.",
+      "screen": "L’occhio e i difetti della vista",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Per le diottrie ricorda di esprimere la distanza focale in metri.",
+      "speech": "Ora tocca a te. Per le diottrie ricorda di esprimere la distanza focale in metri.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Avvicina l’oggetto alla lente e scopri quando diventa una lente d’ingrandimento.",
+      "speech": "Questo è il laboratorio. Avvicina l’oggetto alla lente e scopri quando diventa una lente d’ingrandimento.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il potere diottrico è uno diviso la distanza focale in metri; i miopi usano lenti divergenti.",
+      "speech": "Ricorda: il potere diottrico è uno diviso la distanza focale in metri; i miopi usano lenti divergenti.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

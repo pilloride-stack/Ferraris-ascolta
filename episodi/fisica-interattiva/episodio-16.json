@@ -1,0 +1,205 @@
+{
+  "episode": "16",
+  "title": "Temperatura, calore e dilatazione termica",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Temperatura e scale termometriche. Le particelle di ogni sostanza sono in continuo movimento: è l’agitazione termica. La temperatura indica quanto le particelle si agitano. La scala Celsius assegna zero gradi al ghiaccio che fonde e cento all’acqua che bolle. La scala Kelvin, del Sistema Internazionale, parte dallo zero assoluto, meno duecentosettantatré virgola quindici gradi Celsius, con gradi della stessa ampiezza.",
+      "speech": "Temperatura e scale termometriche. Le particelle di ogni sostanza sono in continuo movimento: è l’agitazione termica. La temperatura indica quanto le particelle si agitano. La scala Celsius assegna zero gradi al ghiaccio che fonde e cento all’acqua che bolle. La scala Kelvin, del Sistema Internazionale, parte dallo zero assoluto, meno duecentosettantatré virgola quindici gradi Celsius, con gradi della stessa ampiezza.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Temperatura e scale termometriche"
+    },
+    {
+      "text": "La formula: la temperatura in kelvin è quella in gradi Celsius più duecentosettantatré virgola quindici.",
+      "speech": "La formula: la temperatura in kelvin è quella in gradi Celsius più duecentosettantatré virgola quindici.",
+      "screen": "Temperatura e scale termometriche",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Venticinque gradi Celsius più duecentosettantatré virgola quindici fa duecentonovantotto virgola quindici kelvin.",
+      "speech": "Venticinque gradi Celsius più duecentosettantatré virgola quindici fa duecentonovantotto virgola quindici kelvin.",
+      "screen": "Temperatura e scale termometriche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Meno venti gradi Celsius diventano duecentocinquantatré virgola quindici kelvin.",
+      "speech": "Meno venti gradi Celsius diventano duecentocinquantatré virgola quindici kelvin.",
+      "screen": "Temperatura e scale termometriche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Entrambi i valori sono positivi, come deve essere nella scala Kelvin.",
+      "speech": "Entrambi i valori sono positivi, come deve essere nella scala Kelvin.",
+      "screen": "Temperatura e scale termometriche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Dilatazione termica. Quando un corpo si scalda, le sue particelle si agitano di più e si allontanano: il corpo si dilata. In un corpo lungo e sottile la dilatazione è lineare: l’allungamento è il coefficiente lambda per la lunghezza iniziale per la variazione di temperatura. Liquidi e gas si dilatano più dei solidi.",
+      "speech": "Dilatazione termica. Quando un corpo si scalda, le sue particelle si agitano di più e si allontanano: il corpo si dilata. In un corpo lungo e sottile la dilatazione è lineare: l’allungamento è il coefficiente lambda per la lunghezza iniziale per la variazione di temperatura. Liquidi e gas si dilatano più dei solidi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Dilatazione termica"
+    },
+    {
+      "text": "La formula: delta elle è uguale a lambda per elle zero per delta ti.",
+      "speech": "La formula: delta elle è uguale a lambda per elle zero per delta ti.",
+      "screen": "Dilatazione termica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il binario passa da zero a quaranta gradi: la variazione di temperatura è quaranta gradi.",
+      "speech": "Il binario passa da zero a quaranta gradi: la variazione di temperatura è quaranta gradi.",
+      "screen": "Dilatazione termica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’allungamento è zero virgola zero zero zero zero dodici per dodici per quaranta.",
+      "speech": "L’allungamento è zero virgola zero zero zero zero dodici per dodici per quaranta.",
+      "screen": "Dilatazione termica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è circa cinque virgola otto millimetri: per questo tra un binario e l’altro si lascia un piccolo spazio.",
+      "speech": "Il risultato è circa cinque virgola otto millimetri: per questo tra un binario e l’altro si lascia un piccolo spazio.",
+      "screen": "Dilatazione termica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il calore. Il calore è energia che passa da un corpo più caldo a uno più freddo, e si misura in joule. Il calore specifico è il calore che serve per alzare di un grado un chilogrammo di una sostanza. La legge fondamentale della termologia dice che il calore è il calore specifico per la massa per la variazione di temperatura.",
+      "speech": "Il calore. Il calore è energia che passa da un corpo più caldo a uno più freddo, e si misura in joule. Il calore specifico è il calore che serve per alzare di un grado un chilogrammo di una sostanza. La legge fondamentale della termologia dice che il calore è il calore specifico per la massa per la variazione di temperatura.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il calore"
+    },
+    {
+      "text": "La formula: il calore è uguale al calore specifico per la massa per delta ti.",
+      "speech": "La formula: il calore è uguale al calore specifico per la massa per delta ti.",
+      "screen": "Il calore",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scaldare due chilogrammi d’acqua da venti a settanta gradi: la variazione è cinquanta gradi.",
+      "speech": "Vogliamo scaldare due chilogrammi d’acqua da venti a settanta gradi: la variazione è cinquanta gradi.",
+      "screen": "Il calore",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il calore è quattromilacentottantasei per due per cinquanta.",
+      "speech": "Il calore è quattromilacentottantasei per due per cinquanta.",
+      "screen": "Il calore",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Servono quattrocentodiciottomilaseicento joule, circa cento chilocalorie.",
+      "speech": "Servono quattrocentodiciottomilaseicento joule, circa cento chilocalorie.",
+      "screen": "Il calore",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Equilibrio termico. Quando due corpi a temperature diverse sono a contatto, il calore passa dal più caldo al più freddo finché arrivano alla stessa temperatura, intermedia: è l’equilibrio termico. Mescolando due masse della stessa sostanza, la temperatura finale è la media delle temperature, pesata sulle masse.",
+      "speech": "Equilibrio termico. Quando due corpi a temperature diverse sono a contatto, il calore passa dal più caldo al più freddo finché arrivano alla stessa temperatura, intermedia: è l’equilibrio termico. Mescolando due masse della stessa sostanza, la temperatura finale è la media delle temperature, pesata sulle masse.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Equilibrio termico"
+    },
+    {
+      "text": "La formula: la temperatura di equilibrio è emme uno ti uno più emme due ti due, diviso la somma delle masse.",
+      "speech": "La formula: la temperatura di equilibrio è emme uno ti uno più emme due ti due, diviso la somma delle masse.",
+      "screen": "Equilibrio termico",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Mescoli un chilogrammo d’acqua a ottanta gradi con tre chilogrammi a venti. Uno per ottanta più tre per venti fa centoquaranta.",
+      "speech": "Mescoli un chilogrammo d’acqua a ottanta gradi con tre chilogrammi a venti. Uno per ottanta più tre per venti fa centoquaranta.",
+      "screen": "Equilibrio termico",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dividiamo per la massa totale, quattro chilogrammi.",
+      "speech": "Dividiamo per la massa totale, quattro chilogrammi.",
+      "screen": "Equilibrio termico",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La temperatura di equilibrio è trentacinque gradi: più vicina a venti, perché l’acqua fredda è di più.",
+      "speech": "La temperatura di equilibrio è trentacinque gradi: più vicina a venti, perché l’acqua fredda è di più.",
+      "screen": "Equilibrio termico",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Propagazione del calore. Il calore si propaga in tre modi. Conduzione: passa da particella a particella senza spostamento di materia, tipica dei solidi; i metalli conducono bene, il legno è un isolante. Convezione: si muove il fluido stesso, l’aria calda sale e quella fredda scende. Irraggiamento: il calore viaggia come radiazione, anche nel vuoto, ed è così che il Sole scalda la Terra.",
+      "speech": "Propagazione del calore. Il calore si propaga in tre modi. Conduzione: passa da particella a particella senza spostamento di materia, tipica dei solidi; i metalli conducono bene, il legno è un isolante. Convezione: si muove il fluido stesso, l’aria calda sale e quella fredda scende. Irraggiamento: il calore viaggia come radiazione, anche nel vuoto, ed è così che il Sole scalda la Terra.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Propagazione del calore"
+    },
+    {
+      "text": "Nel riquadro i tre modi: conduzione, convezione e irraggiamento.",
+      "speech": "Nel riquadro i tre modi: conduzione, convezione e irraggiamento.",
+      "screen": "Propagazione del calore",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il manico metallico di una pentola sul fuoco si scalda per conduzione, da particella a particella.",
+      "speech": "Il manico metallico di una pentola sul fuoco si scalda per conduzione, da particella a particella.",
+      "screen": "Propagazione del calore",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il termosifone scalda l’aria vicina, che sale e fa circolare tutta l’aria della stanza: è convezione.",
+      "speech": "Il termosifone scalda l’aria vicina, che sale e fa circolare tutta l’aria della stanza: è convezione.",
+      "screen": "Propagazione del calore",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il calore del Sole attraversa il vuoto dello spazio: è irraggiamento.",
+      "speech": "Il calore del Sole attraversa il vuoto dello spazio: è irraggiamento.",
+      "screen": "Propagazione del calore",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Passaggi di stato. Concludiamo con i passaggi tra solido, liquido e gassoso: fusione, solidificazione, evaporazione, condensazione, sublimazione e brinamento. Durante un passaggio di stato la temperatura resta costante: il calore assorbito o ceduto, detto calore latente, serve solo a cambiare lo stato.",
+      "speech": "Passaggi di stato. Concludiamo con i passaggi tra solido, liquido e gassoso: fusione, solidificazione, evaporazione, condensazione, sublimazione e brinamento. Durante un passaggio di stato la temperatura resta costante: il calore assorbito o ceduto, detto calore latente, serve solo a cambiare lo stato.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Passaggi di stato"
+    },
+    {
+      "text": "Nel riquadro: durante un passaggio di stato la temperatura non cambia.",
+      "speech": "Nel riquadro: durante un passaggio di stato la temperatura non cambia.",
+      "screen": "Passaggi di stato",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il ghiaccio parte da meno dieci gradi: scaldandolo la temperatura sale fino a zero.",
+      "speech": "Il ghiaccio parte da meno dieci gradi: scaldandolo la temperatura sale fino a zero.",
+      "screen": "Passaggi di stato",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "A zero gradi inizia a fondere: la temperatura resta ferma a zero finché tutto il ghiaccio è diventato acqua.",
+      "speech": "A zero gradi inizia a fondere: la temperatura resta ferma a zero finché tutto il ghiaccio è diventato acqua.",
+      "screen": "Passaggi di stato",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Poi l’acqua si scalda fino a cento gradi; durante l’ebollizione la temperatura resta di nuovo costante.",
+      "speech": "Poi l’acqua si scalda fino a cento gradi; durante l’ebollizione la temperatura resta di nuovo costante.",
+      "screen": "Passaggi di stato",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Distingui la temperatura, che si misura, dal calore, che è energia che passa.",
+      "speech": "Ora tocca a te. Distingui la temperatura, che si misura, dal calore, che è energia che passa.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia masse e temperature e osserva dove si ferma la temperatura finale.",
+      "speech": "Questo è il laboratorio. Cambia masse e temperature e osserva dove si ferma la temperatura finale.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: kelvin uguale Celsius più duecentosettantatré virgola quindici; il calore è ci per emme per delta ti; nei passaggi di stato la temperatura non cambia.",
+      "speech": "Ricorda: kelvin uguale Celsius più duecentosettantatré virgola quindici; il calore è ci per emme per delta ti; nei passaggi di stato la temperatura non cambia.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

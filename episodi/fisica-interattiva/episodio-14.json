@@ -1,0 +1,145 @@
+{
+  "episode": "14",
+  "title": "Gli specchi: piano, concavo e convesso",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Lo specchio piano. Iniziamo dallo specchio più familiare. Dà un’immagine virtuale: la vediamo dietro lo specchio, ma non si può raccogliere su uno schermo, perché è il cervello a prolungare all’indietro i raggi riflessi. L’immagine è diritta, grande come l’oggetto, alla stessa distanza dallo specchio, e scambia la destra con la sinistra.",
+      "speech": "Lo specchio piano. Iniziamo dallo specchio più familiare. Dà un’immagine virtuale: la vediamo dietro lo specchio, ma non si può raccogliere su uno schermo, perché è il cervello a prolungare all’indietro i raggi riflessi. L’immagine è diritta, grande come l’oggetto, alla stessa distanza dallo specchio, e scambia la destra con la sinistra.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Lo specchio piano"
+    },
+    {
+      "text": "Nel riquadro: l’immagine è dietro lo specchio, alla stessa distanza dell’oggetto.",
+      "speech": "Nel riquadro: l’immagine è dietro lo specchio, alla stessa distanza dell’oggetto.",
+      "screen": "Lo specchio piano",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Sei a due metri da uno specchio piano: la tua immagine appare due metri dietro lo specchio.",
+      "speech": "Sei a due metri da uno specchio piano: la tua immagine appare due metri dietro lo specchio.",
+      "screen": "Lo specchio piano",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Quindi tra te e la tua immagine ci sono quattro metri.",
+      "speech": "Quindi tra te e la tua immagine ci sono quattro metri.",
+      "screen": "Lo specchio piano",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’immagine è virtuale, diritta e grande come te; se alzi la mano destra, l’immagine alza la sinistra.",
+      "speech": "L’immagine è virtuale, diritta e grande come te; se alzi la mano destra, l’immagine alza la sinistra.",
+      "screen": "Lo specchio piano",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Lo specchio concavo. Passiamo agli specchi curvi. Lo specchio concavo è curvato verso l’interno, come l’interno di un cucchiaio. Il centro di curvatura, indicato con ci, è il centro della sfera da cui è ricavato; il fuoco, indicato con effe, sta a metà tra ci e lo specchio. I raggi paralleli all’asse si riflettono passando per il fuoco; quelli che passano per il fuoco si riflettono paralleli; quelli che passano per il centro tornano indietro su se stessi.",
+      "speech": "Lo specchio concavo. Passiamo agli specchi curvi. Lo specchio concavo è curvato verso l’interno, come l’interno di un cucchiaio. Il centro di curvatura, indicato con ci, è il centro della sfera da cui è ricavato; il fuoco, indicato con effe, sta a metà tra ci e lo specchio. I raggi paralleli all’asse si riflettono passando per il fuoco; quelli che passano per il fuoco si riflettono paralleli; quelli che passano per il centro tornano indietro su se stessi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Lo specchio concavo"
+    },
+    {
+      "text": "La formula: la distanza focale è la metà del raggio di curvatura.",
+      "speech": "La formula: la distanza focale è la metà del raggio di curvatura.",
+      "screen": "Lo specchio concavo",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Uno specchio ha raggio di curvatura quaranta centimetri. La distanza focale è la metà: venti centimetri.",
+      "speech": "Uno specchio ha raggio di curvatura quaranta centimetri. La distanza focale è la metà: venti centimetri.",
+      "screen": "Lo specchio concavo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "I raggi del Sole arrivano paralleli: si concentrano nel fuoco, a venti centimetri dallo specchio.",
+      "speech": "I raggi del Sole arrivano paralleli: si concentrano nel fuoco, a venti centimetri dallo specchio.",
+      "screen": "Lo specchio concavo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Al contrario, una lampadina messa nel fuoco produce un fascio di luce parallelo: è il principio dei fari e delle torce.",
+      "speech": "Al contrario, una lampadina messa nel fuoco produce un fascio di luce parallelo: è il principio dei fari e delle torce.",
+      "screen": "Lo specchio concavo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Immagini dello specchio concavo. L’immagine si trova incrociando due raggi notevoli. Oggetto oltre il centro: immagine reale, capovolta, rimpicciolita. Oggetto nel centro: reale, capovolta, uguale. Tra centro e fuoco: reale, capovolta, ingrandita. Nel fuoco: nessuna immagine. Tra fuoco e specchio: virtuale, diritta, ingrandita, come nello specchio da trucco.",
+      "speech": "Immagini dello specchio concavo. L’immagine si trova incrociando due raggi notevoli. Oggetto oltre il centro: immagine reale, capovolta, rimpicciolita. Oggetto nel centro: reale, capovolta, uguale. Tra centro e fuoco: reale, capovolta, ingrandita. Nel fuoco: nessuna immagine. Tra fuoco e specchio: virtuale, diritta, ingrandita, come nello specchio da trucco.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Immagini dello specchio concavo"
+    },
+    {
+      "text": "Nel riquadro i due casi estremi: oggetto oltre il centro, immagine rimpicciolita; oggetto vicino allo specchio, immagine virtuale e ingrandita.",
+      "speech": "Nel riquadro i due casi estremi: oggetto oltre il centro, immagine rimpicciolita; oggetto vicino allo specchio, immagine virtuale e ingrandita.",
+      "screen": "Immagini dello specchio concavo",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Lo specchio ha fuoco a quattro e centro a otto. Mettiamo l’oggetto a dodici, oltre il centro: i raggi riflessi si incrociano davanti allo specchio, tra fuoco e centro. L’immagine è reale, capovolta e più piccola.",
+      "speech": "Lo specchio ha fuoco a quattro e centro a otto. Mettiamo l’oggetto a dodici, oltre il centro: i raggi riflessi si incrociano davanti allo specchio, tra fuoco e centro. L’immagine è reale, capovolta e più piccola.",
+      "screen": "Immagini dello specchio concavo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Ora avviciniamo l’oggetto a due virgola cinque, tra il fuoco e lo specchio: i raggi riflessi si allontanano, e i loro prolungamenti si incontrano dietro lo specchio. L’immagine è virtuale, diritta e ingrandita.",
+      "speech": "Ora avviciniamo l’oggetto a due virgola cinque, tra il fuoco e lo specchio: i raggi riflessi si allontanano, e i loro prolungamenti si incontrano dietro lo specchio. L’immagine è virtuale, diritta e ingrandita.",
+      "screen": "Immagini dello specchio concavo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "È quello che succede con lo specchio da trucco: il viso è vicino e appare ingrandito e diritto.",
+      "speech": "È quello che succede con lo specchio da trucco: il viso è vicino e appare ingrandito e diritto.",
+      "screen": "Immagini dello specchio concavo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Lo specchio convesso. Concludiamo con lo specchio curvato verso l’esterno, come il dorso di un cucchiaio. Dà sempre un’immagine virtuale, diritta e rimpicciolita, ma mostra un’area molto ampia. Per questo si usa nei retrovisori, agli incroci e nei negozi.",
+      "speech": "Lo specchio convesso. Concludiamo con lo specchio curvato verso l’esterno, come il dorso di un cucchiaio. Dà sempre un’immagine virtuale, diritta e rimpicciolita, ma mostra un’area molto ampia. Per questo si usa nei retrovisori, agli incroci e nei negozi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Lo specchio convesso"
+    },
+    {
+      "text": "Nel riquadro: lo specchio convesso dà sempre un’immagine virtuale, diritta e rimpicciolita.",
+      "speech": "Nel riquadro: lo specchio convesso dà sempre un’immagine virtuale, diritta e rimpicciolita.",
+      "screen": "Lo specchio convesso",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Lo specchietto laterale dell’auto è convesso.",
+      "speech": "Lo specchietto laterale dell’auto è convesso.",
+      "screen": "Lo specchio convesso",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dà un’immagine rimpicciolita delle auto che seguono.",
+      "speech": "Dà un’immagine rimpicciolita delle auto che seguono.",
+      "screen": "Lo specchio convesso",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il cervello interpreta le cose piccole come lontane: per questo le auto sembrano più distanti di quanto sono.",
+      "speech": "Il cervello interpreta le cose piccole come lontane: per questo le auto sembrano più distanti di quanto sono.",
+      "screen": "Lo specchio convesso",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Prima chiediti che specchio è, poi dove si trova l’oggetto.",
+      "speech": "Ora tocca a te. Prima chiediti che specchio è, poi dove si trova l’oggetto.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Avvicina l’oggetto allo specchio e guarda quando l’immagine diventa virtuale.",
+      "speech": "Questo è il laboratorio. Avvicina l’oggetto allo specchio e guarda quando l’immagine diventa virtuale.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: lo specchio piano dà un’immagine virtuale e uguale; nel concavo dipende da dove sta l’oggetto; il convesso rimpicciolisce sempre.",
+      "speech": "Ricorda: lo specchio piano dà un’immagine virtuale e uguale; nel concavo dipende da dove sta l’oggetto; il convesso rimpicciolisce sempre.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
