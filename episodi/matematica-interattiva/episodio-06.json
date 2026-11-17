@@ -4,200 +4,194 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Equazione completa. È un'equazione di secondo grado con tutti i coefficienti a, b e c.",
-      "speech": "Equazione completa. È un'equazione di secondo grado con tutti i coefficienti a, b e c.",
+      "text": "Equazione completa. Studiamo le equazioni di secondo grado, in cui l’incognita compare al quadrato. In forma normale si scrivono: a ics alla seconda più bi ics più ci uguale a zero, con a diverso da zero. Se ci sono tutti i coefficienti l’equazione è completa e si risolve con la formula risolutiva; sotto la radice c’è il discriminante, delta, uguale a bi alla seconda meno quattro a ci.",
+      "speech": "Equazione completa. Studiamo le equazioni di secondo grado, in cui l’incognita compare al quadrato. In forma normale si scrivono: à per __X__ alla seconda più bi per __X__ più ci uguale a zero, con à diverso da zero. Se ci sono tutti i coefficienti l’equazione è completa e si risolve con la formula risolutiva; sotto la radice c’è il discriminante, delta, uguale a bi alla seconda meno quattro à per ci.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione completa"
     },
     {
-      "text": "Equazione completa con b pari. È un'equazione completa in cui il coefficiente b è un numero pari.",
-      "speech": "Equazione completa con b pari. È un'equazione completa in cui il coefficiente b è un numero pari.",
+      "text": "Nel riquadro il discriminante e la formula risolutiva: meno bi più o meno radice di delta, tutto fratto due a.",
+      "speech": "Nel riquadro il discriminante e la formula risolutiva: meno bi più o meno radice di delta, tutto fratto due à.",
+      "screen": "Equazione completa",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere ics alla seconda meno sette ics più dieci uguale a zero. I coefficienti sono a uguale a uno, bi uguale a meno sette, ci uguale a dieci.",
+      "speech": "Vogliamo risolvere __X__ alla seconda meno sette __X__ più dieci uguale a zero. I coefficienti sono à uguale a uno, bi uguale a meno sette, ci uguale a dieci.",
+      "screen": "Equazione completa",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il discriminante è meno sette alla seconda meno quattro per uno per dieci: quarantanove meno quaranta, cioè nove.",
+      "speech": "Il discriminante è meno sette alla seconda meno quattro per uno per dieci: quarantanove meno quaranta, cioè nove.",
+      "screen": "Equazione completa",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nella formula: sette più o meno radice di nove, fratto due, cioè sette più o meno tre, fratto due.",
+      "speech": "Nella formula: sette più o meno radice di nove, fratto due, cioè sette più o meno tre, fratto due.",
+      "screen": "Equazione completa",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Con il segno meno otteniamo due, con il segno più otteniamo cinque.",
+      "speech": "Con il segno meno otteniamo due, con il segno più otteniamo cinque.",
+      "screen": "Equazione completa",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Equazione completa con bi pari. Se bi è pari conviene la formula ridotta, che usa la metà di bi. Si calcola delta quarti, cioè bi mezzi al quadrato meno a ci, e si applica la formula: meno bi mezzi più o meno radice di delta quarti, tutto fratto a.",
+      "speech": "Equazione completa con bi pari. Se bi è pari conviene la formula ridotta, che usa la metà di bi. Si calcola delta quarti, cioè bi mezzi al quadrato meno à ci, e si applica la formula: meno bi mezzi più o meno radice di delta quarti, tutto fratto à.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione completa con b pari"
     },
     {
-      "text": "Equazione pura. È un'equazione di secondo grado con b uguale a zero.",
-      "speech": "Equazione pura. È un'equazione di secondo grado con b uguale a zero.",
+      "text": "Nel riquadro la formula ridotta: si usa bi mezzi al posto di bi.",
+      "speech": "Nel riquadro la formula ridotta: si usa bi mezzi al posto di bi.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere ics alla seconda più quattro ics più uno uguale a zero. Bi vale quattro, che è pari: la sua metà è due.",
+      "speech": "Vogliamo risolvere __X__ alla seconda più quattro __X__ più uno uguale a zero. Bi vale quattro, che è pari: la sua metà è due.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Delta quarti è due alla seconda meno uno per uno: quattro meno uno, cioè tre.",
+      "speech": "Delta quarti è due alla seconda meno uno per uno: quattro meno uno, cioè tre.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nella formula ridotta: meno due più o meno radice di tre, fratto uno.",
+      "speech": "Nella formula ridotta: meno due più o meno radice di tre, fratto uno.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le soluzioni sono meno due meno radice di tre e meno due più radice di tre.",
+      "speech": "Le soluzioni sono meno due meno radice di tre e meno due più radice di tre.",
+      "screen": "Equazione completa con b pari",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Equazione pura. Nell’equazione pura manca il termine con ics: bi è zero. Si isola ics alla seconda, che è uguale a meno ci fratto a, e si estrae la radice. Se questo numero è positivo ci sono due soluzioni opposte; se è negativo non ci sono soluzioni reali.",
+      "speech": "Equazione pura. Nell’equazione pura manca il termine con __X__: bi è zero. Si isola __X__ alla seconda, che è uguale a meno ci fratto à, e si estrae la radice. Se questo numero è positivo ci sono due soluzioni opposte; se è negativo non ci sono soluzioni reali.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione pura"
     },
     {
-      "text": "Equazione spuria. È un'equazione di secondo grado con c uguale a zero.",
-      "speech": "Equazione spuria. È un'equazione di secondo grado con c uguale a zero.",
+      "text": "Nel riquadro: si isola ics alla seconda e si estrae la radice, con il più o meno.",
+      "speech": "Nel riquadro: si isola __X__ alla seconda e si estrae la radice, con il più o meno.",
+      "screen": "Equazione pura",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere due ics alla seconda meno diciotto uguale a zero. Portiamo diciotto a destra e dividiamo per due: ics alla seconda uguale a nove.",
+      "speech": "Vogliamo risolvere due __X__ alla seconda meno diciotto uguale a zero. Portiamo diciotto a destra e dividiamo per due: __X__ alla seconda uguale a nove.",
+      "screen": "Equazione pura",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Estraendo la radice otteniamo più o meno tre.",
+      "speech": "Estraendo la radice otteniamo più o meno tre.",
+      "screen": "Equazione pura",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Equazione spuria. Nell’equazione spuria manca il termine noto. Si raccoglie ics e si usa la legge di annullamento del prodotto: una soluzione è sempre zero, l’altra è meno bi fratto a.",
+      "speech": "Equazione spuria. Nell’equazione spuria manca il termine noto. Si raccoglie __X__ e si usa la legge di annullamento del prodotto: una soluzione è sempre zero, l’altra è meno bi fratto à.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione spuria"
     },
     {
-      "text": "Equazione monomia. È un'equazione con il solo termine a per ics alla seconda.",
-      "speech": "Equazione monòmia. È un'equazione con il solo termine a per __X__ alla seconda.",
+      "text": "Nel riquadro: raccoglimento e legge di annullamento del prodotto.",
+      "speech": "Nel riquadro: raccoglimento e legge di annullamento del prodotto.",
+      "screen": "Equazione spuria",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere tre ics alla seconda meno dodici ics uguale a zero. Raccogliamo tre ics: tre ics per, ics meno quattro, uguale a zero.",
+      "speech": "Vogliamo risolvere tre __X__ alla seconda meno dodici __X__ uguale a zero. Raccogliamo tre __X__: tre __X__ per, __X__ meno quattro, uguale a zero.",
+      "screen": "Equazione spuria",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Un prodotto è zero se lo è un fattore: tre ics uguale a zero dà ics uguale a zero; ics meno quattro uguale a zero dà ics uguale a quattro.",
+      "speech": "Un prodotto è zero se lo è un fattore: tre __X__ uguale a zero dà __X__ uguale a zero; __X__ meno quattro uguale a zero dà __X__ uguale a quattro.",
+      "screen": "Equazione spuria",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Equazione monomia. Nell’equazione monomia mancano bi e ci. Dividendo per a si ottiene ics alla seconda uguale a zero, che ha la sola soluzione zero, contata due volte: è una soluzione doppia.",
+      "speech": "Equazione monomia. Nell’equazione monomia mancano bi e ci. Dividendo per a si ottiene __X__ alla seconda uguale a zero, che ha la sola soluzione zero, contata due volte: è una soluzione doppia.",
       "screen": "Definizioni",
       "purpose": "Definizione: Equazione monomia"
     },
     {
-      "text": "Significato del delta. Il delta è il numero bi alla seconda meno quattro a ci. Dal suo segno dipende il tipo di soluzioni.",
-      "speech": "Significato del delta. Il delta è il numero bi alla seconda meno quattro a ci. Dal suo segno dipende il tipo di soluzioni.",
+      "text": "La formula: l’unica soluzione è zero, doppia.",
+      "speech": "La formula: l’unica soluzione è zero, doppia.",
+      "screen": "Equazione monomia",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo risolvere meno cinque ics alla seconda uguale a zero. Dividiamo per meno cinque: ics alla seconda uguale a zero.",
+      "speech": "Vogliamo risolvere meno cinque __X__ alla seconda uguale a zero. Dividiamo per meno cinque: __X__ alla seconda uguale a zero.",
+      "screen": "Equazione monomia",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’unico numero con quadrato zero è zero: la soluzione è doppia.",
+      "speech": "L’unico numero con quadrato zero è zero: la soluzione è doppia.",
+      "screen": "Equazione monomia",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Significato del delta. Il segno del discriminante indica quante soluzioni reali ci sono. Delta positivo: due soluzioni distinte. Delta uguale a zero: due soluzioni coincidenti. Delta negativo: nessuna soluzione reale. Nel grafico, sono i punti in cui la parabola incontra l’asse ics.",
+      "speech": "Significato del delta. Il segno del discriminante indica quante soluzioni reali ci sono. Delta positivo: due soluzioni distinte. Delta uguale a zero: due soluzioni coincidenti. Delta negativo: nessuna soluzione reale. Nel grafico, sono i punti in cui la parabola incontra l’asse __X__.",
       "screen": "Definizioni",
       "purpose": "Definizione: Significato del delta"
     },
     {
-      "text": "si applica la formula completa. Ics è uguale a meno bi, più o meno radice di bi alla seconda meno quattro a ci, tutto fratto due a.",
-      "speech": "si applica la formula completa. __X__ è uguale a meno bi, più o meno radice di bi alla seconda meno quattro a ci, tutto fratto due a.",
-      "screen": "Equazione completa",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco i coefficienti. A è uguale a uno, bi a meno sette, ci a dieci.",
-      "speech": "riconosco i coefficienti. A è uguale a uno, bi a meno sette, ci a dieci.",
-      "screen": "Equazione completa",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, calcolo il delta. Quarantanove meno quaranta fa nove.",
-      "speech": "Quindi, calcolo il delta. Quarantanove meno quaranta fa nove.",
-      "screen": "Equazione completa",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, applico la formula. Sette più o meno tre, fratto due. Le soluzioni sono due e cinque.",
-      "speech": "Infine, applico la formula. Sette più o meno tre, fratto due. Le soluzioni sono due e cinque.",
-      "screen": "Equazione completa",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "con bi pari si applica la formula ridotta, che usa la metà di bi.",
-      "speech": "con bi pari si applica la formula ridotta, che usa la metà di bi.",
-      "screen": "Equazione completa con b pari",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco che bi, quattro, è pari. La metà di bi è due.",
-      "speech": "riconosco che bi, quattro, è pari. La metà di bi è due.",
-      "screen": "Equazione completa con b pari",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, calcolo sotto radice. Due alla seconda meno uno fa tre.",
-      "speech": "Quindi, calcolo sotto radice. Due alla seconda meno uno fa tre.",
-      "screen": "Equazione completa con b pari",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo le soluzioni. Ics è uguale a meno due, più o meno radice di tre.",
-      "speech": "Infine, scrivo le soluzioni. __X__ è uguale a meno due, più o meno radice di tre.",
-      "screen": "Equazione completa con b pari",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "si isola ics alla seconda e si estrae la radice quadrata algebrica.",
-      "speech": "si isola __X__ alla seconda e si estrae la radice quadrata algebrica.",
-      "screen": "Equazione pura",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco l'equazione pura. Manca il termine con ics, quindi bi è zero.",
-      "speech": "riconosco l'equazione pura. Manca il termine con __X__, quindi bi è zero.",
-      "screen": "Equazione pura",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, isolo ics alla seconda. Ottengo ics alla seconda uguale a nove.",
-      "speech": "Quindi, isolo __X__ alla seconda. Ottengo __X__ alla seconda uguale a nove.",
-      "screen": "Equazione pura",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, estraggo la radice. Ics è uguale a più o meno tre.",
-      "speech": "Infine, estraggo la radice. __X__ è uguale a più o meno tre.",
-      "screen": "Equazione pura",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "si raccoglie la ics e si applica la legge di annullamento del prodotto. Una soluzione è sempre zero.",
-      "speech": "si raccoglie la __X__ e si applica la legge di annullamento del prodotto. Una soluzione è sempre zero.",
-      "screen": "Equazione spuria",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco l'equazione spuria. Manca il termine noto, quindi ci è zero.",
-      "speech": "riconosco l'equazione spuria. Manca il termine noto, quindi ci è zero.",
-      "screen": "Equazione spuria",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, raccolgo la ics. Ottengo ics per ics più quattro, uguale a zero.",
-      "speech": "Quindi, raccolgo la __X__. Ottengo __X__ per __X__ più quattro, uguale a zero.",
-      "screen": "Equazione spuria",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo le soluzioni. Ics uguale a zero, e ics uguale a meno quattro.",
-      "speech": "Infine, scrivo le soluzioni. __X__ uguale a zero, e __X__ uguale a meno quattro.",
-      "screen": "Equazione spuria",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "ha sempre due soluzioni nulle.",
-      "speech": "ha sempre due soluzioni nulle.",
-      "screen": "Equazione monomia",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco l'equazione monomia. C'è un solo termine, tre ics alla seconda.",
-      "speech": "riconosco l'equazione monòmia. Compare un solo termine: tre __X__ alla seconda.",
-      "screen": "Equazione monomia",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, divido per tre. Ottengo ics alla seconda uguale a zero.",
-      "speech": "Quindi, divido per tre. Ottengo __X__ alla seconda uguale a zero.",
-      "screen": "Equazione monomia",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo le soluzioni. Sono due soluzioni nulle, entrambe uguali a zero.",
-      "speech": "Infine, scrivo le soluzioni. Sono due soluzioni nulle, entrambe uguali a zero.",
-      "screen": "Equazione monomia",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "con delta positivo, soluzioni reali e distinte. Con delta zero, reali e coincidenti. Con delta negativo, soluzioni non reali.",
-      "speech": "con delta positivo, soluzioni reali e distinte. Con delta zero, reali e coincidenti. Con delta negativo, soluzioni non reali.",
+      "text": "Il riquadro riassume i tre casi.",
+      "speech": "Il riquadro riassume i tre casi.",
       "screen": "Significato del delta",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "riconosco i coefficienti. A è uno, bi è uno, ci è dodici.",
-      "speech": "riconosco i coefficienti. A è uno, bi è uno, ci è dodici.",
+      "text": "Vogliamo sapere quante soluzioni ha ics alla seconda meno sei ics più nove uguale a zero. Il discriminante è trentasei meno trentasei, cioè zero.",
+      "speech": "Vogliamo sapere quante soluzioni ha __X__ alla seconda meno sei __X__ più nove uguale a zero. Il discriminante è trentasei meno trentasei, cioè zero.",
       "screen": "Significato del delta",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Quindi, calcolo il delta. Uno meno quarantotto fa meno quarantasette.",
-      "speech": "Quindi, calcolo il delta. Uno meno quarantotto fa meno quarantasette.",
+      "text": "Delta uguale a zero: due soluzioni coincidenti.",
+      "speech": "Delta uguale a zero: due soluzioni coincidenti.",
       "screen": "Significato del delta",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, il delta è negativo, quindi non ci sono soluzioni reali.",
-      "speech": "Infine, il delta è negativo, quindi non ci sono soluzioni reali.",
+      "text": "Infatti il primo membro è ics meno tre al quadrato: la soluzione è tre, doppia.",
+      "speech": "Infatti il primo membro è __X__ meno tre al quadrato: la soluzione è tre, doppia.",
       "screen": "Significato del delta",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "Ora tocca a te, con tre domande. Prima di rispondere, riconosci il tipo di equazione. Poi leggi la spiegazione.",
-      "speech": "Ora tocca a te, con tre domande. Prima di rispondere, riconosci il tipo di equazione. Poi leggi la spiegazione.",
+      "text": "Ora tocca a te. Prima di rispondere, scrivi l’equazione in forma normale e leggi a, bi e ci.",
+      "speech": "Ora tocca a te. Prima di rispondere, scrivi l’equazione in forma normale e leggi à, bi e ci.",
       "screen": "Allenamento",
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti. Osserva come cambiano il delta e le soluzioni.",
-      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i coefficienti. Osserva come cambiano il delta e le soluzioni.",
+      "text": "Questo è il laboratorio. Cambia i coefficienti e osserva il discriminante e le soluzioni.",
+      "speech": "Questo è il laboratorio. Cambia i coefficienti e osserva il discriminante e le soluzioni.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Prima riconosci il tipo di equazione. Poi scegli il procedimento della scheda. Ricorda: il segno del delta decide il tipo di soluzioni.",
-      "speech": "Prima riconosci il tipo di equazione. Poi scegli il procedimento della scheda. Ricorda: il segno del delta decide il tipo di soluzioni.",
+      "text": "Ricorda: calcola prima il delta. Positivo, due soluzioni; zero, due coincidenti; negativo, nessuna soluzione reale.",
+      "speech": "Ricorda: calcola prima il delta. Positivo, due soluzioni; zero, due coincidenti; negativo, nessuna soluzione reale.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }

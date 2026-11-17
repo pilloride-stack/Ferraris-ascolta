@@ -16,14 +16,13 @@
       "purpose": "Definizione: Divisione esatta"
     },
     {
-      "text": "si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
-      "speech": "si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
+      "text": "Si divide il primo termine del dividendo per il primo del divisore. Si moltiplica il monomio trovato per il divisore, si cambia il segno e si sommano i termini simili.",
       "screen": "Divisione di due polinomi",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "ordino e completo il dividendo. Tre ics alla quinta, più zero ics alla quarta, più zero ics alla terza, meno tre ics alla seconda, più ics, più cinque.",
-      "speech": "ordino e completo il dividendo. Tre __X__ alla quinta, più zero __X__ alla quarta, più zero __X__ alla terza, meno tre __X__ alla seconda, più __X__, più cinque.",
+      "text": "Ordino e completo il dividendo. Tre ics alla quinta, più zero ics alla quarta, più zero ics alla terza, meno tre ics alla seconda, più ics, più cinque.",
+      "speech": "Ordino e completo il dividendo. Tre __X__ alla quinta, più zero __X__ alla quarta, più zero __X__ alla terza, meno tre __X__ alla seconda, più __X__, più cinque.",
       "screen": "Divisione di due polinomi",
       "purpose": "Esempio, passaggio 1"
     },
@@ -48,8 +47,7 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
-      "speech": "controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
+      "text": "Controllo i polinomi. Sono già ordinati e completi. Il dividendo va a sinistra, il divisore a destra.",
       "screen": "Divisione esatta",
       "purpose": "Esempio, passaggio 1"
     },

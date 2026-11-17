@@ -4,350 +4,350 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Raccoglimento totale. Si scrive un polinomio come prodotto di un fattore comune a tutti i termini per un altro polinomio.",
-      "speech": "Raccoglimento totale. Si scrive un polinomio come prodotto di un fattore comune a tutti i termini per un altro polinomio.",
+      "text": "Raccoglimento totale. Studiamo la scomposizione dei polinomi, cioè come scriverli come prodotto di fattori. Se tutti i termini hanno un fattore comune, lo si raccoglie: fuori dalla parentesi il fattore comune, dentro i quozienti di ogni termine per quel fattore.",
+      "speech": "Raccoglimento totale. Studiamo la scomposizione dei polinomi, cioè come scriverli come prodotto di fattori. Se tutti i termini hanno un fattore comune, lo si raccoglie: fuori dalla parentesi il fattore comune, dentro i quozienti di ogni termine per quel fattore.",
       "screen": "Definizioni",
       "purpose": "Definizione: Raccoglimento totale"
     },
     {
-      "text": "Raccoglimento parziale. Si raggruppano i termini e si raccoglie in ogni gruppo, fino a un fattore comune tra i gruppi.",
-      "speech": "Raccoglimento parziale. Si raggruppano i termini e si raccoglie in ogni gruppo, fino a un fattore comune tra i gruppi.",
+      "text": "La formula: il fattore comune a esce dalla parentesi.",
+      "speech": "La formula: il fattore comune a esce dalla parentesi.",
+      "screen": "Raccoglimento totale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre sei ics alla terza meno nove ics alla seconda. Il massimo comune divisore di sei e nove è tre; la lettera comune è ics, con l’esponente minore, due. Il fattore comune è tre ics alla seconda.",
+      "speech": "Vogliamo scomporre sei __X__ alla terza meno nove __X__ alla seconda. Il massimo comune divisore di sei e nove è tre; la lettera comune è __X__, con l’esponente minore, due. Il fattore comune è tre __X__ alla seconda.",
+      "screen": "Raccoglimento totale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dividiamo ogni termine per tre ics alla seconda: otteniamo due ics e meno tre.",
+      "speech": "Dividiamo ogni termine per tre __X__ alla seconda: otteniamo due __X__ e meno tre.",
+      "screen": "Raccoglimento totale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il polinomio scomposto è tre ics alla seconda per, due ics meno tre.",
+      "speech": "Il polinomio scomposto è tre __X__ alla seconda per, due __X__ meno tre.",
+      "screen": "Raccoglimento totale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Raccoglimento parziale. Se non c’è un fattore comune a tutti i termini, a volte si formano dei gruppi con un fattore comune. Dopo il primo raccoglimento compare la stessa parentesi, che si raccoglie a sua volta.",
+      "speech": "Raccoglimento parziale. Se non c’è un fattore comune a tutti i termini, a volte si formano dei gruppi con un fattore comune. Dopo il primo raccoglimento compare la stessa parentesi, che si raccoglie a sua volta.",
       "screen": "Definizioni",
       "purpose": "Definizione: Raccoglimento parziale"
     },
     {
-      "text": "Differenza di due quadrati. È un polinomio formato da due quadrati separati dal segno meno.",
-      "speech": "Differenza di due quadrati. È un polinomio formato da due quadrati separati dal segno meno.",
+      "text": "La formula mostra i due raccoglimenti successivi.",
+      "speech": "La formula mostra i due raccoglimenti successivi.",
+      "screen": "Raccoglimento parziale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre due ics ipsilon più due ics zeta più tre ipsilon più tre zeta. Raggruppiamo i primi due termini e gli ultimi due.",
+      "speech": "Vogliamo scomporre due __X__ ipsilon più due __X__ zeta più tre ipsilon più tre zeta. Raggruppiamo i primi due termini e gli ultimi due.",
+      "screen": "Raccoglimento parziale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Nel primo gruppo raccogliamo due ics, nel secondo tre: otteniamo due ics per, ipsilon più zeta, più tre per, ipsilon più zeta.",
+      "speech": "Nel primo gruppo raccogliamo due __X__, nel secondo tre: otteniamo due __X__ per, ipsilon più zeta, più tre per, ipsilon più zeta.",
+      "screen": "Raccoglimento parziale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La parentesi ipsilon più zeta è comune: la raccogliamo e otteniamo due ics più tre, per ipsilon più zeta.",
+      "speech": "La parentesi ipsilon più zeta è comune: la raccogliamo e otteniamo due __X__ più tre, per ipsilon più zeta.",
+      "screen": "Raccoglimento parziale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Differenza di due quadrati. Una differenza di due quadrati si scompone nel prodotto della somma per la differenza delle basi. È il prodotto notevole somma per differenza letto al contrario.",
+      "speech": "Differenza di due quadrati. Una differenza di due quadrati si scompone nel prodotto della somma per la differenza delle basi. È il prodotto notevole somma per differenza letto al contrario.",
       "screen": "Definizioni",
       "purpose": "Definizione: Differenza di due quadrati"
     },
     {
-      "text": "Differenza di cubi. È un polinomio formato da due cubi separati dal segno meno.",
-      "speech": "Differenza di cubi. È un polinomio formato da due cubi separati dal segno meno.",
+      "text": "La formula: differenza delle basi per somma delle basi.",
+      "speech": "La formula: differenza delle basi per somma delle basi.",
+      "screen": "Differenza di due quadrati",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre nove ics alla seconda meno venticinque. Nove ics alla seconda è il quadrato di tre ics, venticinque è il quadrato di cinque.",
+      "speech": "Vogliamo scomporre nove __X__ alla seconda meno venticinque. Nove __X__ alla seconda è il quadrato di tre __X__, venticinque è il quadrato di cinque.",
+      "screen": "Differenza di due quadrati",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il risultato è tre ics meno cinque, per tre ics più cinque.",
+      "speech": "Il risultato è tre __X__ meno cinque, per tre __X__ più cinque.",
+      "screen": "Differenza di due quadrati",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Differenza di cubi. Una differenza di due cubi si scompone nella differenza delle basi per il falso quadrato: quadrato della prima base, più il prodotto delle basi, più il quadrato della seconda.",
+      "speech": "Differenza di cubi. Una differenza di due cubi si scompone nella differenza delle basi per il falso quadrato: quadrato della prima base, più il prodotto delle basi, più il quadrato della seconda.",
       "screen": "Definizioni",
       "purpose": "Definizione: Differenza di cubi"
     },
     {
-      "text": "Somma di cubi. È un polinomio formato da due cubi separati dal segno più.",
-      "speech": "Somma di cubi. È un polinomio formato da due cubi separati dal segno più.",
+      "text": "La formula: differenza delle basi per falso quadrato con i segni più.",
+      "speech": "La formula: differenza delle basi per falso quadrato con i segni più.",
+      "screen": "Differenza di cubi",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre ics alla terza meno ventisette. Ventisette è tre alla terza: le basi sono ics e tre.",
+      "speech": "Vogliamo scomporre __X__ alla terza meno ventisette. Ventisette è tre alla terza: le basi sono __X__ e tre.",
+      "screen": "Differenza di cubi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il falso quadrato è ics alla seconda più tre ics più nove.",
+      "speech": "Il falso quadrato è __X__ alla seconda più tre __X__ più nove.",
+      "screen": "Differenza di cubi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è ics meno tre per, ics alla seconda più tre ics più nove.",
+      "speech": "Il risultato è __X__ meno tre per, __X__ alla seconda più tre __X__ più nove.",
+      "screen": "Differenza di cubi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Somma di cubi. Una somma di due cubi si scompone nella somma delle basi per il falso quadrato, che ha il segno meno davanti al prodotto delle basi.",
+      "speech": "Somma di cubi. Una somma di due cubi si scompone nella somma delle basi per il falso quadrato, che ha il segno meno davanti al prodotto delle basi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Somma di cubi"
     },
     {
-      "text": "Quadrato di binomio. È un trinomio formato da due quadrati e dal loro doppio prodotto.",
-      "speech": "Quadrato di binomio. È un trinomio formato da due quadrati e dal loro doppio prodotto.",
+      "text": "La formula: somma delle basi per falso quadrato con il meno al centro.",
+      "speech": "La formula: somma delle basi per falso quadrato con il meno al centro.",
+      "screen": "Somma di cubi",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre otto ics alla terza più uno. Otto ics alla terza è il cubo di due ics, uno è il cubo di uno.",
+      "speech": "Vogliamo scomporre otto __X__ alla terza più uno. Otto __X__ alla terza è il cubo di due __X__, uno è il cubo di uno.",
+      "screen": "Somma di cubi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il falso quadrato è quattro ics alla seconda meno due ics più uno.",
+      "speech": "Il falso quadrato è quattro __X__ alla seconda meno due __X__ più uno.",
+      "screen": "Somma di cubi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è due ics più uno, per quattro ics alla seconda meno due ics più uno.",
+      "speech": "Il risultato è due __X__ più uno, per quattro __X__ alla seconda meno due __X__ più uno.",
+      "screen": "Somma di cubi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Quadrato di binomio. Un trinomio è il quadrato di un binomio se due termini sono quadrati e il terzo è il doppio prodotto delle basi. Il segno nel binomio è quello del doppio prodotto.",
+      "speech": "Quadrato di binomio. Un trinomio è il quadrato di un binomio se due termini sono quadrati e il terzo è il doppio prodotto delle basi. Il segno nel binomio è quello del doppio prodotto.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quadrato di binomio"
     },
     {
-      "text": "Trinomio notevole con a uguale a uno. È un trinomio di secondo grado con coefficiente di ics alla seconda uguale a uno.",
-      "speech": "Trinomio notevole con a uguale a uno. È un trinomio di secondo grado con coefficiente di __X__ alla seconda uguale a uno.",
+      "text": "La formula è il quadrato di binomio letto al contrario.",
+      "speech": "La formula è il quadrato di binomio letto al contrario.",
+      "screen": "Quadrato di binomio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre ics alla seconda meno dieci ics più venticinque. I quadrati sono ics alla seconda e venticinque, con basi ics e cinque.",
+      "speech": "Vogliamo scomporre __X__ alla seconda meno dieci __X__ più venticinque. I quadrati sono __X__ alla seconda e venticinque, con basi __X__ e cinque.",
+      "screen": "Quadrato di binomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il doppio prodotto delle basi è dieci ics: c’è, con il segno meno.",
+      "speech": "Il doppio prodotto delle basi è dieci __X__: c’è, con il segno meno.",
+      "screen": "Quadrato di binomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il trinomio è ics meno cinque, al quadrato.",
+      "speech": "Il trinomio è __X__ meno cinque, al quadrato.",
+      "screen": "Quadrato di binomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Trinomio notevole con a uguale a uno. Un trinomio ics alla seconda più esse ics più pi si scompone in ics più emme, per ics più enne, se si trovano due numeri con somma esse e prodotto pi.",
+      "speech": "Trinomio notevole con à uguale a uno. Un trinomio __X__ alla seconda più esse __X__ più pi si scompone in __X__ più emme, per __X__ più enne, se si trovano due numeri con somma esse e prodotto pi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trinomio notevole con a = 1"
     },
     {
-      "text": "Trinomio notevole con a diverso da uno. È un trinomio di secondo grado con coefficiente di ics alla seconda diverso da uno.",
-      "speech": "Trinomio notevole con a diverso da uno. È un trinomio di secondo grado con coefficiente di __X__ alla seconda diverso da uno.",
+      "text": "La formula: due numeri con somma esse e prodotto pi.",
+      "speech": "La formula: due numeri con somma esse e prodotto pi.",
+      "screen": "Trinomio notevole con a = 1",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre ics alla seconda più sette ics più dodici. Cerchiamo due numeri con somma sette e prodotto dodici: sono tre e quattro.",
+      "speech": "Vogliamo scomporre __X__ alla seconda più sette __X__ più dodici. Cerchiamo due numeri con somma sette e prodotto dodici: sono tre e quattro.",
+      "screen": "Trinomio notevole con a = 1",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il trinomio diventa ics più tre, per ics più quattro.",
+      "speech": "Il trinomio diventa __X__ più tre, per __X__ più quattro.",
+      "screen": "Trinomio notevole con a = 1",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Trinomio notevole con a diverso da uno. Si cercano due numeri con somma esse e prodotto a per pi. Si spezza il termine centrale in due termini e si fa un raccoglimento parziale.",
+      "speech": "Trinomio notevole con à diverso da uno. Si cercano due numeri con somma esse e prodotto a per pi. Si spezza il termine centrale in due termini e si fa un raccoglimento parziale.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trinomio notevole con a diverso da 1"
     },
     {
-      "text": "Cubo di binomio. È un polinomio di quattro termini: due cubi e due tripli prodotti.",
-      "speech": "Cubo di binomio. È un polinomio di quattro termini: due cubi e due tripli prodotti.",
+      "text": "La formula: il termine centrale si spezza in due.",
+      "speech": "La formula: il termine centrale si spezza in due.",
+      "screen": "Trinomio notevole con a diverso da 1",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre due ics alla seconda più sette ics più tre. Cerchiamo due numeri con somma sette e prodotto due per tre, cioè sei: sono sei e uno.",
+      "speech": "Vogliamo scomporre due __X__ alla seconda più sette __X__ più tre. Cerchiamo due numeri con somma sette e prodotto due per tre, cioè sei: sono sei e uno.",
+      "screen": "Trinomio notevole con a diverso da 1",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Spezziamo sette ics in sei ics più ics.",
+      "speech": "Spezziamo sette __X__ in sei __X__ più __X__.",
+      "screen": "Trinomio notevole con a diverso da 1",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Raccogliamo due ics nei primi due termini e uno negli ultimi due.",
+      "speech": "Raccogliamo due __X__ nei primi due termini e uno negli ultimi due.",
+      "screen": "Trinomio notevole con a diverso da 1",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La parentesi ics più tre è comune: il risultato è due ics più uno, per ics più tre.",
+      "speech": "La parentesi __X__ più tre è comune: il risultato è due __X__ più uno, per __X__ più tre.",
+      "screen": "Trinomio notevole con a diverso da 1",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Cubo di binomio. Un polinomio di quattro termini è il cubo di un binomio se contiene due cubi e i due tripli prodotti delle basi.",
+      "speech": "Cubo di binomio. Un polinomio di quattro termini è il cubo di un binomio se contiene due cubi e i due tripli prodotti delle basi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cubo di binomio"
     },
     {
-      "text": "Quadrato di un trinomio. È un polinomio di sei termini: tre quadrati e tre doppi prodotti.",
-      "speech": "Quadrato di un trinomio. È un polinomio di sei termini: tre quadrati e tre doppi prodotti.",
+      "text": "La formula è il cubo di binomio letto al contrario.",
+      "speech": "La formula è il cubo di binomio letto al contrario.",
+      "screen": "Cubo di binomio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre ics alla terza più sei ics alla seconda più dodici ics più otto. I cubi sono ics alla terza e otto, con basi ics e due.",
+      "speech": "Vogliamo scomporre __X__ alla terza più sei __X__ alla seconda più dodici __X__ più otto. I cubi sono __X__ alla terza e otto, con basi __X__ e due.",
+      "screen": "Cubo di binomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "I tripli prodotti sono sei ics alla seconda e dodici ics: ci sono entrambi.",
+      "speech": "I tripli prodotti sono sei __X__ alla seconda e dodici __X__: ci sono entrambi.",
+      "screen": "Cubo di binomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il polinomio è ics più due, alla terza.",
+      "speech": "Il polinomio è __X__ più due, alla terza.",
+      "screen": "Cubo di binomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Quadrato di un trinomio. Un polinomio di sei termini è il quadrato di un trinomio se contiene tre quadrati e i tre doppi prodotti delle basi prese a due a due.",
+      "speech": "Quadrato di un trinomio. Un polinomio di sei termini è il quadrato di un trinomio se contiene tre quadrati e i tre doppi prodotti delle basi prese a due a due.",
       "screen": "Definizioni",
       "purpose": "Definizione: Quadrato di un trinomio"
     },
     {
-      "text": "Cubo di un trinomio. È un polinomio di dieci termini, sviluppo di un trinomio elevato alla terza.",
-      "speech": "Cubo di un trinomio. È un polinomio di dieci termini, sviluppo di un trinomio elevato alla terza.",
+      "text": "La formula: tre quadrati e tre doppi prodotti.",
+      "speech": "La formula: tre quadrati e tre doppi prodotti.",
+      "screen": "Quadrato di un trinomio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre ics alla seconda più ipsilon alla seconda più uno, più due ics ipsilon più due ics più due ipsilon. I quadrati hanno basi ics, ipsilon e uno.",
+      "speech": "Vogliamo scomporre __X__ alla seconda più ipsilon alla seconda più uno, più due __X__ ipsilon più due __X__ più due ipsilon. I quadrati hanno basi __X__, ipsilon e uno.",
+      "screen": "Quadrato di un trinomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "I doppi prodotti sono due ics ipsilon, due ics e due ipsilon: ci sono tutti.",
+      "speech": "I doppi prodotti sono due __X__ ipsilon, due __X__ e due ipsilon: ci sono tutti.",
+      "screen": "Quadrato di un trinomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il polinomio è ics più ipsilon più uno, al quadrato.",
+      "speech": "Il polinomio è __X__ più ipsilon più uno, al quadrato.",
+      "screen": "Quadrato di un trinomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Cubo di un trinomio. Un polinomio di dieci termini è il cubo di un trinomio se contiene i tre cubi, i sei tripli prodotti e il sestuplo prodotto delle tre basi.",
+      "speech": "Cubo di un trinomio. Un polinomio di dieci termini è il cubo di un trinomio se contiene i tre cubi, i sei tripli prodotti e il sestuplo prodotto delle tre basi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cubo di un trinomio"
     },
     {
-      "text": "sono presenti un numero qualsiasi di termini. a bi più a ci è uguale: a, per bi più ci.",
-      "speech": "sono presenti un numero qualsiasi di termini. a bi più a ci è uguale: a, per bi più ci.",
-      "screen": "Raccoglimento totale",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. I termini sono tre e hanno tutti un fattore comune.",
-      "speech": "riconosco il metodo. I termini sono tre e hanno tutti un fattore comune.",
-      "screen": "Raccoglimento totale",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, scelgo il fattore comune. In tutti i termini ci sono due, a e bi. Il fattore comune è due a bi.",
-      "speech": "Quindi, scelgo il fattore comune. In tutti i termini ci sono due, a e bi. Il fattore comune è due a bi.",
-      "screen": "Raccoglimento totale",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a due a bi per a meno due bi più cinque a bi.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a due a bi per a meno due bi più cinque a bi.",
-      "screen": "Raccoglimento totale",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "sono presenti un numero pari di termini. Si raccoglie a gruppi e poi si raccoglie la parentesi comune.",
-      "speech": "sono presenti un numero pari di termini. Si raccoglie a gruppi e poi si raccoglie la parentesi comune.",
-      "screen": "Raccoglimento parziale",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. I termini sono quattro, un numero pari. Li divido in due gruppi.",
-      "speech": "riconosco il metodo. I termini sono quattro, un numero pari. Li divido in due gruppi.",
-      "screen": "Raccoglimento parziale",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, raccolgo in ogni gruppo. due ics per ipsilon più zeta più tre per ipsilon più zeta. La parentesi è uguale.",
-      "speech": "Quindi, raccolgo in ogni gruppo. due __X__ per ipsilon più zeta più tre per ipsilon più zeta. La parentesi è uguale.",
-      "screen": "Raccoglimento parziale",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a due ics più tre, per ipsilon più zeta.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a due __X__ più tre, per ipsilon più zeta.",
-      "screen": "Raccoglimento parziale",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale: a meno bi, per a più bi.",
-      "speech": "sono presenti solo due termini al quadrato. a alla seconda meno bi alla seconda è uguale: a meno bi, per a più bi.",
-      "screen": "Differenza di due quadrati",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. Nove ics alla seconda è il quadrato di tre ics. Quattro è il quadrato di due.",
-      "speech": "riconosco il metodo. Nove __X__ alla seconda è il quadrato di tre __X__. Quattro è il quadrato di due.",
-      "screen": "Differenza di due quadrati",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, preparo le basi. Le basi dei due quadrati sono tre ics e due.",
-      "speech": "Quindi, preparo le basi. Le basi dei due quadrati sono tre __X__ e due.",
-      "screen": "Differenza di due quadrati",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a tre ics meno due, per tre ics più due.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a tre __X__ meno due, per tre __X__ più due.",
-      "screen": "Differenza di due quadrati",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale: a meno bi, per a alla seconda più a bi più bi alla seconda.",
-      "speech": "sono presenti solo due termini al cubo. a alla terza meno bi alla terza è uguale: a meno bi, per a alla seconda più a bi più bi alla seconda.",
-      "screen": "Differenza di cubi",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. Ics alla terza è un cubo. Otto è il cubo di due.",
-      "speech": "riconosco il metodo. __X__ alla terza è un cubo. Otto è il cubo di due.",
-      "screen": "Differenza di cubi",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, preparo le basi. Le basi dei due cubi sono ics e due.",
-      "speech": "Quindi, preparo le basi. Le basi dei due cubi sono __X__ e due.",
-      "screen": "Differenza di cubi",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale: ics meno due, per ics alla seconda più due ics più quattro.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ meno due, per __X__ alla seconda più due __X__ più quattro.",
-      "screen": "Differenza di cubi",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale: a più bi, per a alla seconda meno a bi più bi alla seconda.",
-      "speech": "sono presenti solo due termini al cubo. a alla terza più bi alla terza è uguale: a più bi, per a alla seconda meno a bi più bi alla seconda.",
-      "screen": "Somma di cubi",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. Ics alla terza è un cubo. Ventisette è il cubo di tre.",
-      "speech": "riconosco il metodo. __X__ alla terza è un cubo. Ventisette è il cubo di tre.",
-      "screen": "Somma di cubi",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, preparo le basi. Le basi dei due cubi sono ics e tre.",
-      "speech": "Quindi, preparo le basi. Le basi dei due cubi sono __X__ e tre.",
-      "screen": "Somma di cubi",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale: ics più tre, per ics alla seconda meno tre ics più nove.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ più tre, per __X__ alla seconda meno tre __X__ più nove.",
-      "screen": "Somma di cubi",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale: a più o meno bi, alla seconda.",
-      "speech": "sono presenti solo tre termini. a alla seconda più o meno due a bi più bi alla seconda è uguale: a più o meno bi, alla seconda.",
-      "screen": "Quadrato di binomio",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. Nove ics alla seconda è il quadrato di tre ics. Uno è il quadrato di uno.",
-      "speech": "riconosco il metodo. Nove __X__ alla seconda è il quadrato di tre __X__. Uno è il quadrato di uno.",
-      "screen": "Quadrato di binomio",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, controllo il doppio prodotto. Due per tre ics per uno fa sei ics.",
-      "speech": "Quindi, controllo il doppio prodotto. Due per tre __X__ per uno fa sei __X__.",
-      "screen": "Quadrato di binomio",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a tre ics più uno, alla seconda.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a tre __X__ più uno, alla seconda.",
-      "screen": "Quadrato di binomio",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "trova due numeri che sommati danno esse e moltiplicati danno pi.",
-      "speech": "trova due numeri che sommati danno esse e moltiplicati danno pi.",
-      "screen": "Trinomio notevole con a = 1",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. Cerco due numeri che sommati danno meno cinque e moltiplicati danno più sei.",
-      "speech": "riconosco il metodo. Cerco due numeri che sommati danno meno cinque e moltiplicati danno più sei.",
-      "screen": "Trinomio notevole con a = 1",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, scelgo i numeri. I due numeri sono meno due e meno tre.",
-      "speech": "Quindi, scelgo i numeri. I due numeri sono meno due e meno tre.",
-      "screen": "Trinomio notevole con a = 1",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale: ics meno due, per ics meno tre.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a __X__ meno due, per __X__ meno tre.",
-      "screen": "Trinomio notevole con a = 1",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "trova due numeri che sommati danno esse e moltiplicati danno a per pi, poi effettua un raccoglimento parziale.",
-      "speech": "trova due numeri che sommati danno esse e moltiplicati danno a per pi, poi effettua un raccoglimento parziale.",
-      "screen": "Trinomio notevole con a diverso da 1",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "cerco due numeri che sommati danno più cinque e moltiplicati danno meno ventiquattro. Sono più otto e meno tre.",
-      "speech": "cerco due numeri che sommati danno più cinque e moltiplicati danno meno ventiquattro. Sono più otto e meno tre.",
-      "screen": "Trinomio notevole con a diverso da 1",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, sostituisco cinque ics con otto ics meno tre ics. Poi effettuo il raccoglimento parziale.",
-      "speech": "Quindi, sostituisco cinque __X__ con otto __X__ meno tre __X__. Poi effettuo il raccoglimento parziale.",
-      "screen": "Trinomio notevole con a diverso da 1",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a due ics meno uno, per tre ics più quattro.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a due __X__ meno uno, per tre __X__ più quattro.",
-      "screen": "Trinomio notevole con a diverso da 1",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale: a più o meno bi, alla terza.",
-      "speech": "sono presenti quattro termini. a alla terza più o meno tre a alla seconda bi più tre a bi alla seconda più o meno bi alla terza è uguale: a più o meno bi, alla terza.",
-      "screen": "Cubo di binomio",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. Otto ics alla terza è il cubo di due ics. Uno è il cubo di uno.",
-      "speech": "riconosco il metodo. Otto __X__ alla terza è il cubo di due __X__. Uno è il cubo di uno.",
-      "screen": "Cubo di binomio",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, controllo i tripli prodotti. Il primo è dodici ics alla seconda. Il secondo è sei ics.",
-      "speech": "Quindi, controllo i tripli prodotti. Il primo è dodici __X__ alla seconda. Il secondo è sei __X__.",
-      "screen": "Cubo di binomio",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a due ics più uno, alla terza.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a due __X__ più uno, alla terza.",
-      "screen": "Cubo di binomio",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "sono presenti sei termini: tre quadrati e tre doppi prodotti.",
-      "speech": "sono presenti sei termini: tre quadrati e tre doppi prodotti.",
-      "screen": "Quadrato di un trinomio",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il metodo. Venticinque ics alla seconda, sedici ipsilon alla seconda e zeta alla seconda sono i tre quadrati.",
-      "speech": "riconosco il metodo. Venticinque __X__ alla seconda, sedici ipsilon alla seconda e zeta alla seconda sono i tre quadrati.",
-      "screen": "Quadrato di un trinomio",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, preparo le basi. Sono cinque ics, quattro ipsilon e zeta. I tre doppi prodotti confermano la scelta.",
-      "speech": "Quindi, preparo le basi. Sono cinque __X__, quattro ipsilon e zeta. I tre doppi prodotti confermano la scelta.",
-      "screen": "Quadrato di un trinomio",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il polinomio è uguale a cinque ics più quattro ipsilon più zeta, alla seconda.",
-      "speech": "Infine, scrivo il risultato. Il polinomio è uguale a cinque __X__ più quattro ipsilon più zeta, alla seconda.",
-      "screen": "Quadrato di un trinomio",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "sono presenti dieci termini. Si riconoscono i tre cubi e si controlla il termine sei a bi ci.",
-      "speech": "sono presenti dieci termini. Si riconoscono i tre cubi e si controlla il termine sei a bi ci.",
+      "text": "La formula ha dieci termini.",
+      "speech": "La formula ha dieci termini.",
       "screen": "Cubo di un trinomio",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "riconosco il metodo. I cubi sono ics alla terza, otto ipsilon alla terza e uno. Le basi sono ics, due ipsilon e uno.",
-      "speech": "riconosco il metodo. I cubi sono __X__ alla terza, otto ipsilon alla terza e uno. Le basi sono __X__, due ipsilon e uno.",
+      "text": "Vogliamo scomporre un polinomio di dieci termini. I cubi sono ics alla terza, ipsilon alla terza e uno: le basi sono ics, ipsilon e uno.",
+      "speech": "Vogliamo scomporre un polinomio di dieci termini. I cubi sono __X__ alla terza, ipsilon alla terza e uno: le basi sono __X__, ipsilon e uno.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Quindi, controllo l'ultimo termine. Sei per ics per due ipsilon per uno fa dodici ics ipsilon.",
-      "speech": "Quindi, controllo l'ultimo termine. Sei per __X__ per due ipsilon per uno fa dodici __X__ ipsilon.",
+      "text": "Il sestuplo prodotto delle basi è sei ics ipsilon: c’è.",
+      "speech": "Il sestuplo prodotto delle basi è sei __X__ ipsilon: c’è.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, scrivo il risultato. Il polinomio di dieci termini è uguale: ics più due ipsilon più uno, alla terza.",
-      "speech": "Infine, scrivo il risultato. Il polinomio di dieci termini è uguale a __X__ più due ipsilon più uno, alla terza.",
+      "text": "Ci sono anche i sei tripli prodotti.",
+      "speech": "Ci sono anche i sei tripli prodotti.",
       "screen": "Cubo di un trinomio",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "Ora tocca a te, con cinque domande. Prima di rispondere, conta i termini del polinomio. Poi leggi la spiegazione con calma.",
-      "speech": "Ora tocca a te, con cinque domande. Prima di rispondere, conta i termini del polinomio. Poi leggi la spiegazione con calma.",
+      "text": "Il polinomio è ics più ipsilon più uno, alla terza.",
+      "speech": "Il polinomio è __X__ più ipsilon più uno, alla terza.",
+      "screen": "Cubo di un trinomio",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Ora tocca a te. Prima di rispondere, conta i termini e cerca un fattore comune.",
+      "speech": "Ora tocca a te. Prima di rispondere, conta i termini e cerca un fattore comune.",
       "screen": "Allenamento",
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i due cursori e cambia i numeri. Osserva come cambiano esse e pi nel trinomio.",
-      "speech": "Questo è il laboratorio. Muovi i due cursori e cambia i numeri. Osserva come cambiano esse e pi nel trinomio.",
+      "text": "Questo è il laboratorio. Cambia i due numeri e osserva il trinomio che ottieni.",
+      "speech": "Questo è il laboratorio. Cambia i due numeri e osserva il trinomio che ottieni.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Prima di scomporre, conta i termini. Poi cerca il metodo giusto, come dice la scheda. Alla fine, controlla moltiplicando.",
-      "speech": "Prima di scomporre, conta i termini. Poi cerca il metodo giusto, come dice la scheda. Alla fine, controlla moltiplicando.",
+      "text": "Ricorda: prima si cerca il raccoglimento totale, poi si contano i termini per scegliere il metodo.",
+      "speech": "Ricorda: prima si cerca il raccoglimento totale, poi si contano i termini per scegliere il metodo.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }

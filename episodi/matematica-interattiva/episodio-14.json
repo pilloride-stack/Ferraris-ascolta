@@ -40,8 +40,7 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "riconosco il simbolo: minore o uguale.",
-      "speech": "riconosco il simbolo: minore o uguale.",
+      "text": "Riconosco il simbolo: minore o uguale.",
       "screen": "Disequazione",
       "purpose": "Esempio, passaggio 1"
     },
@@ -64,8 +63,8 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "porto le ics a sinistra e i numeri a destra.",
-      "speech": "porto le __X__ a sinistra e i numeri a destra.",
+      "text": "Porto le ics a sinistra e i numeri a destra.",
+      "speech": "Porto le __X__ a sinistra e i numeri a destra.",
       "screen": "Primo principio di equivalenza",
       "purpose": "Esempio, passaggio 1"
     },
@@ -77,7 +76,6 @@
     },
     {
       "text": "Infine, divido per due, che è positivo. Ics è maggiore di quattro.",
-      "speech": "Infine, divido per due, che è positivo. __X__ è maggiore di quattro.",
       "screen": "Primo principio di equivalenza",
       "purpose": "Esempio, passaggio 3"
     },
@@ -88,8 +86,8 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "il coefficiente di ics è meno quattro, un numero negativo.",
-      "speech": "il coefficiente di __X__ è meno quattro, un numero negativo.",
+      "text": "Il coefficiente di ics è meno quattro, un numero negativo.",
+      "speech": "Il coefficiente di __X__ è meno quattro, un numero negativo.",
       "screen": "Cambio del verso",
       "purpose": "Esempio, passaggio 1"
     },
@@ -112,8 +110,7 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "il denominatore è quattro, un numero positivo.",
-      "speech": "il denominatore è quattro, un numero positivo.",
+      "text": "Il denominatore è quattro, un numero positivo.",
       "screen": "Disequazione con frazioni",
       "purpose": "Esempio, passaggio 1"
     },
@@ -125,7 +122,6 @@
     },
     {
       "text": "Infine, divido per tre. Ics è maggiore o uguale a otto terzi.",
-      "speech": "Infine, divido per tre. __X__ è maggiore o uguale a otto terzi.",
       "screen": "Disequazione con frazioni",
       "purpose": "Esempio, passaggio 3"
     },
@@ -136,8 +132,8 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "porto le ics a sinistra e i numeri a destra.",
-      "speech": "porto le __X__ a sinistra e i numeri a destra.",
+      "text": "Porto le ics a sinistra e i numeri a destra.",
+      "speech": "Porto le __X__ a sinistra e i numeri a destra.",
       "screen": "Sempre vera o impossibile",
       "purpose": "Esempio, passaggio 1"
     },

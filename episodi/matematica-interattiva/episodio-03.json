@@ -16,14 +16,13 @@
       "purpose": "Definizione: Quoziente e resto"
     },
     {
-      "text": "si ordina e si completa il dividendo. Si scrivono i coefficienti nella griglia. In basso a sinistra va l'opposto del termine noto del divisore.",
-      "speech": "si ordina e si completa il dividendo. Si scrivono i coefficienti nella griglia. In basso a sinistra va l'opposto del termine noto del divisore.",
+      "text": "Si ordina e si completa il dividendo. Si scrivono i coefficienti nella griglia. In basso a sinistra va l'opposto del termine noto del divisore.",
       "screen": "Regola di Ruffini",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "preparo la griglia. Ordino e completo il dividendo: ics alla terza, meno ics alla seconda, più zero ics, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
-      "speech": "preparo la griglia. Ordino e completo il dividendo: __X__ alla terza, meno __X__ alla seconda, più zero __X__, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
+      "text": "Preparo la griglia. Ordino e completo il dividendo: ics alla terza, meno ics alla seconda, più zero ics, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
+      "speech": "Preparo la griglia. Ordino e completo il dividendo: __X__ alla terza, meno __X__ alla seconda, più zero __X__, più sei. I coefficienti sono uno, meno uno, zero e sei. In basso a sinistra scrivo meno uno.",
       "screen": "Regola di Ruffini",
       "purpose": "Esempio, passaggio 1"
     },
@@ -40,14 +39,12 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "i numeri dell'ultima riga sono i coefficienti del quoziente. Il quoziente ha un grado in meno del dividendo. L'ultimo numero è il resto.",
-      "speech": "i numeri dell'ultima riga sono i coefficienti del quoziente. Il quoziente ha un grado in meno del dividendo. L'ultimo numero è il resto.",
+      "text": "I numeri dell'ultima riga sono i coefficienti del quoziente. Il quoziente ha un grado in meno del dividendo. L'ultimo numero è il resto.",
       "screen": "Quoziente e resto",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "preparo la griglia. Il dividendo è completo. I coefficienti sono uno, due, meno cinque e meno sei. In basso a sinistra scrivo più due.",
-      "speech": "preparo la griglia. Il dividendo è completo. I coefficienti sono uno, due, meno cinque e meno sei. In basso a sinistra scrivo più due.",
+      "text": "Preparo la griglia. Il dividendo è completo. I coefficienti sono uno, due, meno cinque e meno sei. In basso a sinistra scrivo più due.",
       "screen": "Quoziente e resto",
       "purpose": "Esempio, passaggio 1"
     },

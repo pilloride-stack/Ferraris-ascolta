@@ -4,500 +4,446 @@
   "voice": "it-IT-Chirp3-HD-Algieba",
   "sentences": [
     {
-      "text": "Radice aritmetica. La radice aritmetica ennesima di a è quel numero b tale che b alla enne sia a, con a e b maggiori o uguali a zero ed enne intero maggiore di zero.",
-      "speech": "Radice aritmetica. La radice aritmetica ennesima di a è quel numero b tale che b alla enne sia a, con a e b maggiori o uguali a zero ed enne intero maggiore di zero.",
+      "text": "Radice aritmetica. Iniziamo dai radicali: la radice è l’operazione inversa della potenza. La radice ennesima aritmetica di un numero a, maggiore o uguale a zero, è il numero bi, anch’esso non negativo, che elevato a enne dà a. Enne si chiama indice, a radicando; l’indice due non si scrive.",
+      "speech": "Radice aritmetica. Iniziamo dai radicali: la radice è l’operazione inversa della potenza. La radice ennesima aritmetica di un numero à, maggiore o uguale a zero, è il numero bi, anch’esso non negativo, che elevato a enne dà à. Enne si chiama indice, a radicando; l’indice due non si scrive.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radice aritmetica"
     },
     {
-      "text": "Semplificazione. Si dividono l'indice e l'esponente del radicando per lo stesso numero.",
-      "speech": "Semplificazione. Si dividono l'indice e l'esponente del radicando per lo stesso numero.",
+      "text": "La formula: la radice di a è bi se bi elevato all’indice dà a.",
+      "speech": "La formula: la radice di à è bi se bi elevato all’indice dà à.",
+      "screen": "Radice aritmetica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare la radice quarta di ottantuno. Cerchiamo il numero che elevato alla quarta dà ottantuno: tre per tre per tre per tre fa ottantuno.",
+      "speech": "Vogliamo calcolare la radice quarta di ottantuno. Cerchiamo il numero che elevato alla quarta dà ottantuno: tre per tre per tre per tre fa ottantuno.",
+      "screen": "Radice aritmetica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Quindi la radice quarta di ottantuno è tre.",
+      "speech": "Quindi la radice quarta di ottantuno è tre.",
+      "screen": "Radice aritmetica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Semplificazione. Se si dividono l’indice e l’esponente del radicando per uno stesso numero, il radicale non cambia valore. È la proprietà invariantiva, che permette di semplificare un radicale.",
+      "speech": "Semplificazione. Se si dividono l’indice e l’esponente del radicando per uno stesso numero, il radicale non cambia valore. È la proprietà invariantiva, che permette di semplificare un radicale.",
       "screen": "Definizioni",
       "purpose": "Definizione: Semplificazione"
     },
     {
-      "text": "Riduzione allo stesso indice. Si scrivono due radicali con lo stesso indice, il prodotto degli indici.",
-      "speech": "Riduzione allo stesso indice. Si scrivono due radicali con lo stesso indice, il prodotto degli indici.",
+      "text": "La formula: indice ed esponente si dividono per lo stesso numero pi.",
+      "speech": "La formula: indice ed esponente si dividono per lo stesso numero pi.",
+      "screen": "Semplificazione",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo semplificare la radice sesta di otto. Scriviamo otto come due alla terza.",
+      "speech": "Vogliamo semplificare la radice sesta di otto. Scriviamo otto come due alla terza.",
+      "screen": "Semplificazione",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dividiamo per tre sia l’indice sia l’esponente: l’indice diventa due, l’esponente diventa uno.",
+      "speech": "Dividiamo per tre sia l’indice sia l’esponente: l’indice diventa due, l’esponente diventa uno.",
+      "screen": "Semplificazione",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Otteniamo la radice quadrata di due.",
+      "speech": "Otteniamo la radice quadrata di due.",
+      "screen": "Semplificazione",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Riduzione allo stesso indice. Si calcola il minimo comune multiplo degli indici, poi si trasforma ogni radicale moltiplicando l’indice e l’esponente del radicando per lo stesso numero.",
+      "speech": "Riduzione allo stesso indice. Si calcola il minimo comune multiplo degli indici, poi si trasforma ogni radicale moltiplicando l’indice e l’esponente del radicando per lo stesso numero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Riduzione allo stesso indice"
     },
     {
-      "text": "Prodotto di radicali. Si moltiplicano i radicandi di radicali con lo stesso indice.",
-      "speech": "Prodotto di radicali. Si moltiplicano i radicandi di radicali con lo stesso indice.",
+      "text": "Nel riquadro: ogni radicale passa all’indice comune.",
+      "speech": "Nel riquadro: ogni radicale passa all’indice comune.",
+      "screen": "Riduzione allo stesso indice",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scrivere radice di due e radice cubica di tre con lo stesso indice. Il minimo comune multiplo di due e tre è sei.",
+      "speech": "Vogliamo scrivere radice di due e radice cubica di tre con lo stesso indice. Il minimo comune multiplo di due e tre è sei.",
+      "screen": "Riduzione allo stesso indice",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Per passare da due a sei moltiplichiamo per tre: radice sesta di due alla terza, cioè di otto.",
+      "speech": "Per passare da due a sei moltiplichiamo per tre: radice sesta di due alla terza, cioè di otto.",
+      "screen": "Riduzione allo stesso indice",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Per passare da tre a sei moltiplichiamo per due: radice sesta di tre alla seconda, cioè di nove.",
+      "speech": "Per passare da tre a sei moltiplichiamo per due: radice sesta di tre alla seconda, cioè di nove.",
+      "screen": "Riduzione allo stesso indice",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Prodotto di radicali. Il prodotto di due radicali con lo stesso indice è un radicale con quell’indice e con radicando uguale al prodotto dei radicandi. Se gli indici sono diversi, prima si riducono allo stesso indice.",
+      "speech": "Prodotto di radicali. Il prodotto di due radicali con lo stesso indice è un radicale con quell’indice e con radicando uguale al prodotto dei radicandi. Se gli indici sono diversi, prima si riducono allo stesso indice.",
       "screen": "Definizioni",
       "purpose": "Definizione: Prodotto di radicali"
     },
     {
-      "text": "Rapporto di radicali. Si dividono i radicandi di radicali con lo stesso indice.",
-      "speech": "Rapporto di radicali. Si dividono i radicandi di radicali con lo stesso indice.",
+      "text": "La formula: stesso indice, si moltiplicano i radicandi.",
+      "speech": "La formula: stesso indice, si moltiplicano i radicandi.",
+      "screen": "Prodotto di radicali",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare radice di due per radice di otto. Hanno lo stesso indice, quindi moltiplichiamo i radicandi.",
+      "speech": "Vogliamo calcolare radice di due per radice di otto. Hanno lo stesso indice, quindi moltiplichiamo i radicandi.",
+      "screen": "Prodotto di radicali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Due per otto fa sedici, e la radice di sedici è quattro.",
+      "speech": "Due per otto fa sedici, e la radice di sedici è quattro.",
+      "screen": "Prodotto di radicali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Rapporto di radicali. Il quoziente di due radicali con lo stesso indice è un radicale con quell’indice e con radicando uguale al quoziente dei radicandi, purché il divisore non sia zero.",
+      "speech": "Rapporto di radicali. Il quoziente di due radicali con lo stesso indice è un radicale con quell’indice e con radicando uguale al quoziente dei radicandi, purché il divisore non sia zero.",
       "screen": "Definizioni",
       "purpose": "Definizione: Rapporto di radicali"
     },
     {
-      "text": "Trasporto dentro il segno di radice. Un fattore esterno entra nella radice elevato all'indice.",
-      "speech": "Trasporto dentro il segno di radice. Un fattore esterno entra nella radice elevato all'indice.",
+      "text": "La formula: stesso indice, si dividono i radicandi.",
+      "speech": "La formula: stesso indice, si dividono i radicandi.",
+      "screen": "Rapporto di radicali",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare radice cubica di cinquantaquattro diviso radice cubica di due. Stesso indice: dividiamo i radicandi.",
+      "speech": "Vogliamo calcolare radice cubica di cinquantaquattro diviso radice cubica di due. Stesso indice: dividiamo i radicandi.",
+      "screen": "Rapporto di radicali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Cinquantaquattro diviso due fa ventisette, che è tre alla terza: la radice cubica è tre.",
+      "speech": "Cinquantaquattro diviso due fa ventisette, che è tre alla terza: la radice cubica è tre.",
+      "screen": "Rapporto di radicali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Trasporto dentro il segno di radice. Un fattore positivo che moltiplica un radicale si può portare dentro la radice, elevandolo all’indice.",
+      "speech": "Trasporto dentro il segno di radice. Un fattore positivo che moltiplica un radicale si può portare dentro la radice, elevandolo all’indice.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trasporto dentro il segno di radice"
     },
     {
-      "text": "Trasporto fuori dal segno di radice. Un fattore con esponente uguale all'indice esce dalla radice.",
-      "speech": "Trasporto fuori dal segno di radice. Un fattore con esponente uguale all'indice esce dalla radice.",
+      "text": "La formula: il fattore entra elevato all’indice.",
+      "speech": "La formula: il fattore entra elevato all’indice.",
+      "screen": "Trasporto dentro il segno di radice",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo portare dentro la radice il due di due per radice cubica di tre. L’indice è tre: il due entra come due alla terza.",
+      "speech": "Vogliamo portare dentro la radice il due di due per radice cubica di tre. L’indice è tre: il due entra come due alla terza.",
+      "screen": "Trasporto dentro il segno di radice",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Due alla terza fa otto, per tre fa ventiquattro: radice cubica di ventiquattro.",
+      "speech": "Due alla terza fa otto, per tre fa ventiquattro: radice cubica di ventiquattro.",
+      "screen": "Trasporto dentro il segno di radice",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Trasporto fuori dal segno di radice. Se nel radicando c’è un fattore con esponente almeno uguale all’indice, lo si porta fuori: si scompone il radicando e ogni gruppo di fattori uguali, tanti quanto l’indice, esce come un solo fattore.",
+      "speech": "Trasporto fuori dal segno di radice. Se nel radicando c’è un fattore con esponente almeno uguale all’indice, lo si porta fuori: si scompone il radicando e ogni gruppo di fattori uguali, tanti quanto l’indice, esce come un solo fattore.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trasporto fuori dal segno di radice"
     },
     {
-      "text": "Potenza di radicali. Si eleva il radicando all'esponente della potenza.",
-      "speech": "Potenza di radicali. Si eleva il radicando all'esponente della potenza.",
+      "text": "La formula: aⁿ esce come a.",
+      "speech": "La formula: aⁿ esce come à.",
+      "screen": "Trasporto fuori dal segno di radice",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo semplificare radice di venti portando fuori un fattore. Scomponiamo venti: due alla seconda per cinque.",
+      "speech": "Vogliamo semplificare radice di venti portando fuori un fattore. Scomponiamo venti: due alla seconda per cinque.",
+      "screen": "Trasporto fuori dal segno di radice",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il fattore due alla seconda esce dalla radice quadrata come due: resta due radice di cinque.",
+      "speech": "Il fattore due alla seconda esce dalla radice quadrata come due: resta due radice di cinque.",
+      "screen": "Trasporto fuori dal segno di radice",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Potenza di radicali. Per elevare a potenza un radicale si eleva il radicando, lasciando lo stesso indice; poi, se possibile, si porta fuori qualche fattore.",
+      "speech": "Potenza di radicali. Per elevare a potenza un radicale si eleva il radicando, lasciando lo stesso indice; poi, se possibile, si porta fuori qualche fattore.",
       "screen": "Definizioni",
       "purpose": "Definizione: Potenza di radicali"
     },
     {
-      "text": "Radice di radice. Si moltiplicano gli indici.",
-      "speech": "Radice di radice. Si moltiplicano gli indici.",
+      "text": "La formula: l’esponente va sul radicando.",
+      "speech": "La formula: l’esponente va sul radicando.",
+      "screen": "Potenza di radicali",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare radice di cinque, alla terza. L’esponente va sul radicando: radice di cinque alla terza, cioè di centoventicinque.",
+      "speech": "Vogliamo calcolare radice di cinque, alla terza. L’esponente va sul radicando: radice di cinque alla terza, cioè di centoventicinque.",
+      "screen": "Potenza di radicali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Cinque alla terza è cinque alla seconda per cinque: il cinque alla seconda esce. Risultato: cinque radice di cinque.",
+      "speech": "Cinque alla terza è cinque alla seconda per cinque: il cinque alla seconda esce. Risultato: cinque radice di cinque.",
+      "screen": "Potenza di radicali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Radice di radice. La radice di una radice è un radicale con indice uguale al prodotto degli indici e con lo stesso radicando.",
+      "speech": "Radice di radice. La radice di una radice è un radicale con indice uguale al prodotto degli indici e con lo stesso radicando.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radice di radice"
     },
     {
-      "text": "Somma algebrica di radicali simili. Si sommano i coefficienti di radicali con stesso indice e stesso radicando.",
-      "speech": "Somma algebrica di radicali simili. Si sommano i coefficienti di radicali con stesso indice e stesso radicando.",
+      "text": "La formula: gli indici si moltiplicano.",
+      "speech": "La formula: gli indici si moltiplicano.",
+      "screen": "Radice di radice",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare la radice quadrata della radice cubica di sessantaquattro. Moltiplichiamo gli indici: due per tre fa sei.",
+      "speech": "Vogliamo calcolare la radice quadrata della radice cubica di sessantaquattro. Moltiplichiamo gli indici: due per tre fa sei.",
+      "screen": "Radice di radice",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sessantaquattro è due alla sesta, quindi la radice sesta è due.",
+      "speech": "Sessantaquattro è due alla sesta, quindi la radice sesta è due.",
+      "screen": "Radice di radice",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Somma algebrica di radicali simili. Due radicali sono simili se hanno lo stesso indice e lo stesso radicando. Si sommano solo radicali simili: si sommano i coefficienti e si lascia il radicale. A volte diventano simili dopo aver portato fuori dei fattori.",
+      "speech": "Somma algebrica di radicali simili. Due radicali sono simili se hanno lo stesso indice e lo stesso radicando. Si sommano solo radicali simili: si sommano i coefficienti e si lascia il radicale. à volte diventano simili dopo aver portato fuori dei fattori.",
       "screen": "Definizioni",
       "purpose": "Definizione: Somma algebrica di radicali simili"
     },
     {
-      "text": "Razionalizzazione con una radice quadrata. Elimina il radicale dal denominatore: si moltiplicano numeratore e denominatore per lo stesso fattore razionalizzante.",
-      "speech": "Razionalizzazione con una radice quadrata. Elimina il radicale dal denominatore: si moltiplicano numeratore e denominatore per lo stesso fattore razionalizzante.",
+      "text": "La formula: si sommano i coefficienti.",
+      "speech": "La formula: si sommano i coefficienti.",
+      "screen": "Somma algebrica di radicali simili",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo calcolare radice di otto più radice di diciotto. Portiamo fuori: radice di otto è due radice di due, radice di diciotto è tre radice di due.",
+      "speech": "Vogliamo calcolare radice di otto più radice di diciotto. Portiamo fuori: radice di otto è due radice di due, radice di diciotto è tre radice di due.",
+      "screen": "Somma algebrica di radicali simili",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Ora sono radicali simili: due più tre fa cinque. Il risultato è cinque radice di due.",
+      "speech": "Ora sono radicali simili: due più tre fa cinque. Il risultato è cinque radice di due.",
+      "screen": "Somma algebrica di radicali simili",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Razionalizzazione con una radice quadrata. Razionalizzare significa togliere le radici dal denominatore. Se al denominatore c’è radice di a, si moltiplicano numeratore e denominatore per radice di a, perché radice di a per radice di a fa a.",
+      "speech": "Razionalizzazione con una radice quadrata. Razionalizzare significa togliere le radici dal denominatore. Se al denominatore c’è radice di à, si moltiplicano numeratore e denominatore per radice di à, perché radice di à per radice di a fa à.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con una radice quadrata"
     },
     {
-      "text": "Razionalizzazione con una radice non quadrata. Il fattore razionalizzante ha indice n ed esponente n − m.",
-      "speech": "Razionalizzazione con una radice non quadrata. Il fattore razionalizzante ha indice n ed esponente n − m.",
+      "text": "La formula: si moltiplica sopra e sotto per la stessa radice.",
+      "speech": "La formula: si moltiplica sopra e sotto per la stessa radice.",
+      "screen": "Razionalizzazione con una radice quadrata",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo razionalizzare sei fratto radice di tre. Moltiplichiamo sopra e sotto per radice di tre: sotto otteniamo tre.",
+      "speech": "Vogliamo razionalizzare sei fratto radice di tre. Moltiplichiamo sopra e sotto per radice di tre: sotto otteniamo tre.",
+      "screen": "Razionalizzazione con una radice quadrata",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sei diviso tre fa due: il risultato è due radice di tre.",
+      "speech": "Sei diviso tre fa due: il risultato è due radice di tre.",
+      "screen": "Razionalizzazione con una radice quadrata",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Razionalizzazione con una radice non quadrata. Se al denominatore c’è una radice ennesima di a alla emme, si moltiplica sopra e sotto per la radice ennesima di a alla enne meno emme: così sotto si ottiene a.",
+      "speech": "Razionalizzazione con una radice non quadrata. Se al denominatore c’è una radice ennesima di à alla emme, si moltiplica sopra e sotto per la radice ennesima di à alla enne meno emme: così sotto si ottiene à.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con una radice non quadrata"
     },
     {
-      "text": "Razionalizzazione con un polinomio. Il fattore razionalizzante cambia il segno tra i due termini, per usare il prodotto notevole.",
-      "speech": "Razionalizzazione con un polinomio. Il fattore razionalizzante cambia il segno tra i due termini, per usare il prodotto notevole.",
+      "text": "La formula: si completa l’esponente fino all’indice.",
+      "speech": "La formula: si completa l’esponente fino all’indice.",
+      "screen": "Razionalizzazione con una radice non quadrata",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo razionalizzare due fratto radice cubica di quattro. Quattro è due alla seconda.",
+      "speech": "Vogliamo razionalizzare due fratto radice cubica di quattro. Quattro è due alla seconda.",
+      "screen": "Razionalizzazione con una radice non quadrata",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Per arrivare a due alla terza manca un due: moltiplichiamo sopra e sotto per radice cubica di due.",
+      "speech": "Per arrivare a due alla terza manca un due: moltiplichiamo sopra e sotto per radice cubica di due.",
+      "screen": "Razionalizzazione con una radice non quadrata",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sotto otteniamo due, che si semplifica con il due sopra: resta radice cubica di due.",
+      "speech": "Sotto otteniamo due, che si semplifica con il due sopra: resta radice cubica di due.",
+      "screen": "Razionalizzazione con una radice non quadrata",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Razionalizzazione con un polinomio. Se al denominatore c’è un binomio con una radice, si moltiplica sopra e sotto per il binomio coniugato, con il segno opposto: per la somma per differenza, sotto le radici spariscono.",
+      "speech": "Razionalizzazione con un polinomio. Se al denominatore c’è un binomio con una radice, si moltiplica sopra e sotto per il binomio coniugato, con il segno opposto: per la somma per differenza, sotto le radici spariscono.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con un polinomio"
     },
     {
-      "text": "Razionalizzazione con radici cubiche. Il fattore razionalizzante usa la somma o la differenza di cubi.",
-      "speech": "Razionalizzazione con radici cubiche. Il fattore razionalizzante usa la somma o la differenza di cubi.",
+      "text": "La formula: si moltiplica per il coniugato.",
+      "speech": "La formula: si moltiplica per il coniugato.",
+      "screen": "Razionalizzazione con un polinomio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo razionalizzare due fratto radice di tre meno uno. Moltiplichiamo sopra e sotto per il coniugato, radice di tre più uno.",
+      "speech": "Vogliamo razionalizzare due fratto radice di tre meno uno. Moltiplichiamo sopra e sotto per il coniugato, radice di tre più uno.",
+      "screen": "Razionalizzazione con un polinomio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sotto otteniamo radice di tre al quadrato meno uno, cioè tre meno uno, due.",
+      "speech": "Sotto otteniamo radice di tre al quadrato meno uno, cioè tre meno uno, due.",
+      "screen": "Razionalizzazione con un polinomio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il due si semplifica: resta radice di tre più uno.",
+      "speech": "Il due si semplifica: resta radice di tre più uno.",
+      "screen": "Razionalizzazione con un polinomio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Razionalizzazione con radici cubiche. Se al denominatore c’è una somma di radici cubiche, si moltiplica sopra e sotto per il falso quadrato: al denominatore si ottiene la somma dei cubi, a più bi.",
+      "speech": "Razionalizzazione con radici cubiche. Se al denominatore c’è una somma di radici cubiche, si moltiplica sopra e sotto per il falso quadrato: al denominatore si ottiene la somma dei cubi, à più bi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con radici cubiche"
     },
     {
-      "text": "Radicale doppio. È una radice quadrata il cui radicando è la somma di un monomio e di un'altra radice quadrata.",
-      "speech": "Radicale doppio. È una radice quadrata il cui radicando è la somma di un monomio e di un'altra radice quadrata.",
+      "text": "La formula: è la somma di cubi applicata alle radici cubiche.",
+      "speech": "La formula: è la somma di cubi applicata alle radici cubiche.",
+      "screen": "Razionalizzazione con radici cubiche",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo razionalizzare uno fratto radice cubica di due più uno. Con a uguale a due e bi uguale a uno, il falso quadrato è radice cubica di quattro meno radice cubica di due più uno.",
+      "speech": "Vogliamo razionalizzare uno fratto radice cubica di due più uno. Con à uguale a due e bi uguale a uno, il falso quadrato è radice cubica di quattro meno radice cubica di due più uno.",
+      "screen": "Razionalizzazione con radici cubiche",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Moltiplichiamo numeratore e denominatore per il falso quadrato.",
+      "speech": "Moltiplichiamo numeratore e denominatore per il falso quadrato.",
+      "screen": "Razionalizzazione con radici cubiche",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Al denominatore otteniamo due più uno, cioè tre.",
+      "speech": "Al denominatore otteniamo due più uno, cioè tre.",
+      "screen": "Razionalizzazione con radici cubiche",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Radicale doppio. Un radicale doppio è la radice di a più o meno radice di bi. Se a alla seconda meno bi è un quadrato perfetto, si trasforma nella somma o differenza di due radicali semplici.",
+      "speech": "Radicale doppio. Un radicale doppio è la radice di a più o meno radice di bi. Se à alla seconda meno bi è un quadrato perfetto, si trasforma nella somma o differenza di due radicali semplici.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radicale doppio"
     },
     {
-      "text": "Radice algebrica. La radice algebrica ennesima di a è quel numero b tale che b alla enne sia a, con a e b numeri reali qualsiasi ed enne intero maggiore di zero.",
-      "speech": "Radice algebrica. La radice algebrica ennesima di a è quel numero b tale che b alla enne sia a, con a e b numeri reali qualsiasi ed enne intero maggiore di zero.",
+      "text": "La formula usa la radice di a alla seconda meno bi.",
+      "speech": "La formula usa la radice di à alla seconda meno bi.",
+      "screen": "Radicale doppio",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo trasformare la radice di tre più radice di otto. A vale tre, bi vale otto: a alla seconda meno bi fa uno, un quadrato perfetto.",
+      "speech": "Vogliamo trasformare la radice di tre più radice di otto. à vale tre, bi vale otto: à alla seconda meno bi fa uno, un quadrato perfetto.",
+      "screen": "Radicale doppio",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Nella formula: radice di tre più uno mezzi, più radice di tre meno uno mezzi.",
+      "speech": "Nella formula: radice di tre più uno mezzi, più radice di tre meno uno mezzi.",
+      "screen": "Radicale doppio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Otteniamo radice di due più radice di uno, cioè radice di due più uno.",
+      "speech": "Otteniamo radice di due più radice di uno, cioè radice di due più uno.",
+      "screen": "Radicale doppio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Radice algebrica. Le soluzioni dell’equazione ics alla enne uguale ad a si chiamano radici algebriche di a. Con indice dispari c’è sempre una sola soluzione reale. Con indice pari: se a è positivo ci sono due soluzioni opposte, se a è negativo nessuna soluzione reale.",
+      "speech": "Radice algebrica. Le soluzioni dell’equazione __X__ alla enne uguale a à si chiamano radici algebriche di à. Con indice dispari c’è sempre una sola soluzione reale. Con indice pari: se à è positivo ci sono due soluzioni opposte, se à è negativo nessuna soluzione reale.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radice algebrica"
     },
     {
-      "text": "la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale: a. Enne è l'indice, a il radicando.",
-      "speech": "la radice enne-sima di a è uguale a bi se e solo se bi alla enne è uguale: a. Enne è l'indice, a il radicando.",
-      "screen": "Radice aritmetica",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco i termini. L'indice della radice è due, il radicando è nove.",
-      "speech": "riconosco i termini. L'indice della radice è due, il radicando è nove.",
-      "screen": "Radice aritmetica",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, cerco il numero che, elevato alla seconda, dà nove. È tre.",
-      "speech": "Quindi, cerco il numero che, elevato alla seconda, dà nove. È tre.",
-      "screen": "Radice aritmetica",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Radice quadrata di nove è uguale a tre.",
-      "speech": "Infine, scrivo il risultato. Radice quadrata di nove è uguale a tre.",
-      "screen": "Radice aritmetica",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "si semplificano indice ed esponente. Radice di indice emme enne di a alla enne è uguale a radice emme di a.",
-      "speech": "si semplificano indice ed esponente. Radice di indice emme enne di a alla enne è uguale a radice emme di a.",
-      "screen": "Semplificazione",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "scrivo otto come due alla terza. Ottengo radice sesta di due alla terza.",
-      "speech": "scrivo otto come due alla terza. Ottengo radice sesta di due alla terza.",
-      "screen": "Semplificazione",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, divido indice ed esponente per tre. L'indice diventa due, l'esponente diventa uno.",
-      "speech": "Quindi, divido indice ed esponente per tre. L'indice diventa due, l'esponente diventa uno.",
-      "screen": "Semplificazione",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Radice sesta di otto è uguale a radice quadrata di due.",
-      "speech": "Infine, scrivo il risultato. Radice sesta di otto è uguale a radice quadrata di due.",
-      "screen": "Semplificazione",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "si moltiplicano gli indici e si elevano i radicandi, ciascuno all'indice dell'altro radicale.",
-      "speech": "si moltiplicano gli indici e si elevano i radicandi, ciascuno all'indice dell'altro radicale.",
-      "screen": "Riduzione allo stesso indice",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco gli indici. Sono quattro e tre.",
-      "speech": "riconosco gli indici. Sono quattro e tre.",
-      "screen": "Riduzione allo stesso indice",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, il nuovo indice è il prodotto: quattro per tre fa dodici.",
-      "speech": "Quindi, il nuovo indice è il prodotto: quattro per tre fa dodici.",
-      "screen": "Riduzione allo stesso indice",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Radice dodicesima di cinque alla terza, e radice dodicesima di due alla quarta.",
-      "speech": "Infine, scrivo il risultato. Radice dodicesima di cinque alla terza, e radice dodicesima di due alla quarta.",
-      "screen": "Riduzione allo stesso indice",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "con lo stesso indice si moltiplicano i radicandi. Con indici diversi si riducono prima allo stesso indice.",
-      "speech": "con lo stesso indice si moltiplicano i radicandi. Con indici diversi si riducono prima allo stesso indice.",
-      "screen": "Prodotto di radicali",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
-      "speech": "riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
-      "screen": "Prodotto di radicali",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, moltiplico i radicandi. Cinque per due fa dieci.",
-      "speech": "Quindi, moltiplico i radicandi. Cinque per due fa dieci.",
-      "screen": "Prodotto di radicali",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il prodotto è uguale a radice cubica di dieci.",
-      "speech": "Infine, scrivo il risultato. Il prodotto è uguale a radice cubica di dieci.",
-      "screen": "Prodotto di radicali",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "con lo stesso indice, il rapporto di radicali è la radice del rapporto dei radicandi.",
-      "speech": "con lo stesso indice, il rapporto di radicali è la radice del rapporto dei radicandi.",
-      "screen": "Rapporto di radicali",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
-      "speech": "riconosco l'indice. I due radicali hanno lo stesso indice, tre.",
-      "screen": "Rapporto di radicali",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, divido i radicandi. Ottengo la frazione cinque mezzi.",
-      "speech": "Quindi, divido i radicandi. Ottengo la frazione cinque mezzi.",
-      "screen": "Rapporto di radicali",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Il rapporto è uguale a radice cubica di cinque mezzi.",
-      "speech": "Infine, scrivo il risultato. Il rapporto è uguale a radice cubica di cinque mezzi.",
-      "screen": "Rapporto di radicali",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "il fattore a entra nella radice elevato all'indice enne.",
-      "speech": "il fattore a entra nella radice elevato all'indice enne.",
-      "screen": "Trasporto dentro il segno di radice",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il fattore esterno. È due, e l'indice della radice è tre.",
-      "speech": "riconosco il fattore esterno. È due, e l'indice della radice è tre.",
-      "screen": "Trasporto dentro il segno di radice",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, elevo due alla terza e lo porto dentro, per tre.",
-      "speech": "Quindi, elevo due alla terza e lo porto dentro, per tre.",
-      "screen": "Trasporto dentro il segno di radice",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Otto per tre fa ventiquattro: radice cubica di ventiquattro.",
-      "speech": "Infine, scrivo il risultato. Otto per tre fa ventiquattro: radice cubica di ventiquattro.",
-      "screen": "Trasporto dentro il segno di radice",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "se il fattore ha esponente uguale all'indice, esce dalla radice senza esponente.",
-      "speech": "se il fattore ha esponente uguale all'indice, esce dalla radice senza esponente.",
-      "screen": "Trasporto fuori dal segno di radice",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "scompongo il radicando. Venti è due alla seconda per cinque.",
-      "speech": "scompongo il radicando. Venti è due alla seconda per cinque.",
-      "screen": "Trasporto fuori dal segno di radice",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, due alla seconda ha esponente uguale all'indice, quindi esce come due.",
-      "speech": "Quindi, due alla seconda ha esponente uguale all'indice, quindi esce come due.",
-      "screen": "Trasporto fuori dal segno di radice",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Radice quadrata di venti è uguale a due radice di cinque.",
-      "speech": "Infine, scrivo il risultato. Radice quadrata di venti è uguale a due radice di cinque.",
-      "screen": "Trasporto fuori dal segno di radice",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "l'esponente della potenza entra nel radicando.",
-      "speech": "l'esponente della potenza entra nel radicando.",
-      "screen": "Potenza di radicali",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco la potenza. L'esponente è due, l'indice è tre.",
-      "speech": "riconosco la potenza. L'esponente è due, l'indice è tre.",
-      "screen": "Potenza di radicali",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, porto l'esponente dentro la radice, sul radicando cinque.",
-      "speech": "Quindi, porto l'esponente dentro la radice, sul radicando cinque.",
-      "screen": "Potenza di radicali",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Radice cubica di cinque alla seconda.",
-      "speech": "Infine, scrivo il risultato. Radice cubica di cinque alla seconda.",
-      "screen": "Potenza di radicali",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "la radice di una radice è una sola radice con indice il prodotto degli indici.",
-      "speech": "la radice di una radice è una sola radice con indice il prodotto degli indici.",
-      "screen": "Radice di radice",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco gli indici. Sono tre e quattro.",
-      "speech": "riconosco gli indici. Sono tre e quattro.",
-      "screen": "Radice di radice",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, moltiplico gli indici. Tre per quattro fa dodici.",
-      "speech": "Quindi, moltiplico gli indici. Tre per quattro fa dodici.",
-      "screen": "Radice di radice",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Radice dodicesima di due.",
-      "speech": "Infine, scrivo il risultato. Radice dodicesima di due.",
-      "screen": "Radice di radice",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "con radicali simili si sommano i coefficienti e il radicale resta uguale.",
-      "speech": "con radicali simili si sommano i coefficienti e il radicale resta uguale.",
-      "screen": "Somma algebrica di radicali simili",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco i radicali simili. Entrambi sono radice cubica di due.",
-      "speech": "riconosco i radicali simili. Entrambi sono radice cubica di due.",
-      "screen": "Somma algebrica di radicali simili",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, sottraggo i coefficienti. Otto meno cinque fa tre.",
-      "speech": "Quindi, sottraggo i coefficienti. Otto meno cinque fa tre.",
-      "screen": "Somma algebrica di radicali simili",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Tre radice cubica di due.",
-      "speech": "Infine, scrivo il risultato. Tre radice cubica di due.",
-      "screen": "Somma algebrica di radicali simili",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "se al denominatore c'è una sola radice quadrata, si moltiplica sopra e sotto per quella radice.",
-      "speech": "se al denominatore c'è una sola radice quadrata, si moltiplica sopra e sotto per quella radice.",
-      "screen": "Razionalizzazione con una radice quadrata",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il caso. Al denominatore c'è una sola radice quadrata.",
-      "speech": "riconosco il caso. Al denominatore c'è una sola radice quadrata.",
-      "screen": "Razionalizzazione con una radice quadrata",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, moltiplico numeratore e denominatore per radice di cinque.",
-      "speech": "Quindi, moltiplico numeratore e denominatore per radice di cinque.",
-      "screen": "Razionalizzazione con una radice quadrata",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Due radice di cinque, fratto cinque.",
-      "speech": "Infine, scrivo il risultato. Due radice di cinque, fratto cinque.",
-      "screen": "Razionalizzazione con una radice quadrata",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "si moltiplica sopra e sotto per la radice dello stesso indice con esponente enne meno emme.",
-      "speech": "si moltiplica sopra e sotto per la radice dello stesso indice con esponente enne meno emme.",
-      "screen": "Razionalizzazione con una radice non quadrata",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il caso. L'indice è tre e l'esponente è due, quindi il fattore ha esponente uno.",
-      "speech": "riconosco il caso. L'indice è tre e l'esponente è due, quindi il fattore ha esponente uno.",
-      "screen": "Razionalizzazione con una radice non quadrata",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, moltiplico sopra e sotto per radice cubica di sette.",
-      "speech": "Quindi, moltiplico sopra e sotto per radice cubica di sette.",
-      "screen": "Razionalizzazione con una radice non quadrata",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Due radice cubica di sette, fratto sette.",
-      "speech": "Infine, scrivo il risultato. Due radice cubica di sette, fratto sette.",
-      "screen": "Razionalizzazione con una radice non quadrata",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "si moltiplica sopra e sotto per lo stesso binomio con il segno cambiato, e si usa la somma per differenza.",
-      "speech": "si moltiplica sopra e sotto per lo stesso binomio con il segno cambiato, e si usa la somma per differenza.",
-      "screen": "Razionalizzazione con un polinomio",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il caso. Al denominatore c'è un binomio con una radice quadrata.",
-      "speech": "riconosco il caso. Al denominatore c'è un binomio con una radice quadrata.",
-      "screen": "Razionalizzazione con un polinomio",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, moltiplico sopra e sotto per cinque più radice di tre. Sotto ottengo venticinque meno tre.",
-      "speech": "Quindi, moltiplico sopra e sotto per cinque più radice di tre. Sotto ottengo venticinque meno tre.",
-      "screen": "Razionalizzazione con un polinomio",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, semplifico. Il risultato è cinque più radice di tre, fratto undici.",
-      "speech": "Infine, semplifico. Il risultato è cinque più radice di tre, fratto undici.",
-      "screen": "Razionalizzazione con un polinomio",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "si moltiplica sopra e sotto per il trinomio che completa la somma di cubi.",
-      "speech": "si moltiplica sopra e sotto per il trinomio che completa la somma di cubi.",
-      "screen": "Razionalizzazione con radici cubiche",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco il caso. Al denominatore c'è un binomio con due radici cubiche.",
-      "speech": "riconosco il caso. Al denominatore c'è un binomio con due radici cubiche.",
-      "screen": "Razionalizzazione con radici cubiche",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, moltiplico sopra e sotto per radice cubica di quattro, meno radice cubica di dieci, più radice cubica di venticinque.",
-      "speech": "Quindi, moltiplico sopra e sotto per radice cubica di quattro, meno radice cubica di dieci, più radice cubica di venticinque.",
-      "screen": "Razionalizzazione con radici cubiche",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, sotto ottengo due più cinque, cioè sette. Sopra resta due per il trinomio.",
-      "speech": "Infine, sotto ottengo due più cinque, cioè sette. Sopra resta due per il trinomio.",
-      "screen": "Razionalizzazione con radici cubiche",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "se a alla seconda meno bi è un quadrato perfetto, si applica la formula del radicale doppio.",
-      "speech": "se a alla seconda meno bi è un quadrato perfetto, si applica la formula del radicale doppio.",
-      "screen": "Radicale doppio",
-      "purpose": "Spiegazione visiva: regola della scheda"
-    },
-    {
-      "text": "riconosco a uguale a sei e bi uguale a venti. Trentasei meno venti fa sedici, un quadrato perfetto.",
-      "speech": "riconosco a uguale a sei e bi uguale a venti. Trentasei meno venti fa sedici, un quadrato perfetto.",
-      "screen": "Radicale doppio",
-      "purpose": "Esempio, passaggio 1"
-    },
-    {
-      "text": "Quindi, applico la formula con radice di sedici, cioè quattro. Sei più quattro, fratto due. Sei meno quattro, fratto due.",
-      "speech": "Quindi, applico la formula con radice di sedici, cioè quattro. Sei più quattro, fratto due. Sei meno quattro, fratto due.",
-      "screen": "Radicale doppio",
-      "purpose": "Esempio, passaggio 2"
-    },
-    {
-      "text": "Infine, scrivo il risultato. Radice di cinque, meno uno.",
-      "speech": "Infine, scrivo il risultato. Radice di cinque, meno uno.",
-      "screen": "Radicale doppio",
-      "purpose": "Esempio, passaggio 3"
-    },
-    {
-      "text": "la radice algebrica nasce per risolvere equazioni come ics alla enne uguale: a, con enne pari o dispari.",
-      "speech": "la radice algebrica nasce per risolvere equazioni come __X__ alla enne uguale: a, con enne pari o dispari.",
+      "text": "Nel riquadro i tre casi.",
+      "speech": "Nel riquadro i tre casi.",
       "screen": "Radice algebrica",
-      "purpose": "Spiegazione visiva: regola della scheda"
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "riconosco il caso. L'esponente tre è dispari.",
-      "speech": "riconosco il caso. L'esponente tre è dispari.",
+      "text": "Vogliamo risolvere tre equazioni. Ics alla terza uguale a meno otto: indice dispari, una soluzione, meno due.",
+      "speech": "Vogliamo risolvere tre equazioni. Ics alla terza uguale a meno otto: indice dispari, una soluzione, meno due.",
       "screen": "Radice algebrica",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Quindi, estraggo la radice cubica di meno otto.",
-      "speech": "Quindi, estraggo la radice cubica di meno otto.",
+      "text": "Ics alla quarta uguale a sedici: indice pari e numero positivo, due soluzioni, più e meno due.",
+      "speech": "Ics alla quarta uguale a sedici: indice pari e numero positivo, due soluzioni, più e meno due.",
       "screen": "Radice algebrica",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Infine, scrivo il risultato. Ics è uguale a meno due, con lo stesso segno del radicando.",
-      "speech": "Infine, scrivo il risultato. __X__ è uguale a meno due, con lo stesso segno del radicando.",
+      "text": "Ics alla seconda uguale a meno quattro non ha soluzioni reali: nessun quadrato è negativo.",
+      "speech": "Ics alla seconda uguale a meno quattro non ha soluzioni reali: nessun quadrato è negativo.",
       "screen": "Radice algebrica",
       "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "Ora tocca a te, con cinque domande. Prima di rispondere, controlla l'indice della radice. Poi leggi la spiegazione con calma.",
-      "speech": "Ora tocca a te, con cinque domande. Prima di rispondere, controlla l'indice della radice. Poi leggi la spiegazione con calma.",
+      "text": "Ora tocca a te. Prima di rispondere, controlla indice e radicando.",
+      "speech": "Ora tocca a te. Prima di rispondere, controlla indice e radicando.",
       "screen": "Allenamento",
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva come cambia il radicale quando un fattore esce dalla radice.",
-      "speech": "Questo è il laboratorio. Muovi i cursori e cambia i numeri. Osserva come cambia il radicale quando un fattore esce dalla radice.",
+      "text": "Questo è il laboratorio. Scegli un numero e osserva come si porta un fattore fuori dalla radice.",
+      "speech": "Questo è il laboratorio. Scegli un numero e osserva come si porta un fattore fuori dalla radice.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
     {
-      "text": "Prima di calcolare, guarda indice e radicando. Poi applica la regola giusta della scheda. Alla fine, controlla il risultato elevando alla potenza dell'indice.",
-      "speech": "Prima di calcolare, guarda indice e radicando. Poi applica la regola giusta della scheda. Alla fine, controlla il risultato elevando alla potenza dell'indice.",
+      "text": "Ricorda: si moltiplicano e si dividono radicali con lo stesso indice; si sommano solo radicali simili.",
+      "speech": "Ricorda: si moltiplicano e si dividono radicali con lo stesso indice; si sommano solo radicali simili.",
       "screen": "Verifica",
       "purpose": "Conclusione"
     }
