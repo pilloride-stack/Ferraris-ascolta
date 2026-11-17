@@ -161,7 +161,7 @@
     },
     {
       "text": "Trasporto fuori dal segno di radice. Se nel radicando c’è un fattore con esponente almeno uguale all’indice, lo si porta fuori: si scompone il radicando e ogni gruppo di fattori uguali, tanti quanto l’indice, esce come un solo fattore.",
-      "speech": "Trasporto fuori dal segno di radice. Se nel radicando c’è un fattore con esponente almeno uguale all’indice, lo si porta fuori: si scompone il radicando e ogni gruppo di fattori uguali, tanti quanto l’indice, esce come un solo fattore.",
+      "speech": "Trasporto fuori dal segno di radice. Se nel radicando cè un fattore con esponente almeno uguale all’indice, lo si porta fuori: si scompone il radicando e ogni gruppo di fattori uguali, tanti quanto l’indice, esce come un solo fattore.",
       "screen": "Definizioni",
       "purpose": "Definizione: Trasporto fuori dal segno di radice"
     },
@@ -257,7 +257,7 @@
     },
     {
       "text": "Razionalizzazione con una radice quadrata. Razionalizzare significa togliere le radici dal denominatore. Se al denominatore c’è radice di a, si moltiplicano numeratore e denominatore per radice di a, perché radice di a per radice di a fa a.",
-      "speech": "Razionalizzazione con una radice quadrata. Razionalizzare significa togliere le radici dal denominatore. Se al denominatore c’è radice di à, si moltiplicano numeratore e denominatore per radice di à, perché radice di à per radice di a fa à.",
+      "speech": "Razionalizzazione con una radice quadrata. Razionalizzare significa togliere le radici dal denominatore. Se al denominatore cè radice di à, si moltiplicano numeratore e denominatore per radice di à, perché radice di à per radice di a fa à.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con una radice quadrata"
     },
@@ -281,7 +281,7 @@
     },
     {
       "text": "Razionalizzazione con una radice non quadrata. Se al denominatore c’è una radice ennesima di a alla emme, si moltiplica sopra e sotto per la radice ennesima di a alla enne meno emme: così sotto si ottiene a.",
-      "speech": "Razionalizzazione con una radice non quadrata. Se al denominatore c’è una radice ennesima di à alla emme, si moltiplica sopra e sotto per la radice ennesima di à alla enne meno emme: così sotto si ottiene à.",
+      "speech": "Razionalizzazione con una radice non quadrata. Se al denominatore cè una radice ennesima di à alla emme, si moltiplica sopra e sotto per la radice ennesima di à alla enne meno emme: così sotto si ottiene à.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con una radice non quadrata"
     },
@@ -311,7 +311,7 @@
     },
     {
       "text": "Razionalizzazione con un polinomio. Se al denominatore c’è un binomio con una radice, si moltiplica sopra e sotto per il binomio coniugato, con il segno opposto: per la somma per differenza, sotto le radici spariscono.",
-      "speech": "Razionalizzazione con un polinomio. Se al denominatore c’è un binomio con una radice, si moltiplica sopra e sotto per il binomio coniugato, con il segno opposto: per la somma per differenza, sotto le radici spariscono.",
+      "speech": "Razionalizzazione con un polinomio. Se al denominatore cè un binomio con una radice, si moltiplica sopra e sotto per il binomio coniugato, con il segno opposto: per la somma per differenza, sotto le radici spariscono.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con un polinomio"
     },
@@ -341,7 +341,7 @@
     },
     {
       "text": "Razionalizzazione con radici cubiche. Se al denominatore c’è una somma di radici cubiche, si moltiplica sopra e sotto per il falso quadrato: al denominatore si ottiene la somma dei cubi, a più bi.",
-      "speech": "Razionalizzazione con radici cubiche. Se al denominatore c’è una somma di radici cubiche, si moltiplica sopra e sotto per il falso quadrato: al denominatore si ottiene la somma dei cubi, à più bi.",
+      "speech": "Razionalizzazione con radici cubiche. Se al denominatore cè una somma di radici cubiche, si moltiplica sopra e sotto per il falso quadrato: al denominatore si ottiene la somma dei cubi, à più bi.",
       "screen": "Definizioni",
       "purpose": "Definizione: Razionalizzazione con radici cubiche"
     },
@@ -401,7 +401,7 @@
     },
     {
       "text": "Radice algebrica. Le soluzioni dell’equazione ics alla enne uguale ad a si chiamano radici algebriche di a. Con indice dispari c’è sempre una sola soluzione reale. Con indice pari: se a è positivo ci sono due soluzioni opposte, se a è negativo nessuna soluzione reale.",
-      "speech": "Radice algebrica. Le soluzioni dell’equazione __X__ alla enne uguale a à si chiamano radici algebriche di à. Con indice dispari c’è sempre una sola soluzione reale. Con indice pari: se à è positivo ci sono due soluzioni opposte, se à è negativo nessuna soluzione reale.",
+      "speech": "Radice algebrica. Le soluzioni dell’equazione __X__ alla enne uguale a à si chiamano radici algebriche di à. Con indice dispari cè sempre una sola soluzione reale. Con indice pari: se à è positivo ci sono due soluzioni opposte, se à è negativo nessuna soluzione reale.",
       "screen": "Definizioni",
       "purpose": "Definizione: Radice algebrica"
     },

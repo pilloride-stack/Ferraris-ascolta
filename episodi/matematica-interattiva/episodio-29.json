@@ -5,13 +5,13 @@
   "sentences": [
     {
       "text": "Terminologia. Studiamo i triangoli rettangoli, e prima fissiamo i nomi. L’ipotenusa è il lato opposto all’angolo retto e si indica con a. Rispetto all’angolo acuto alfa, il cateto bi è quello opposto ad alfa, e il cateto ci è quello adiacente. L’altro angolo acuto, beta, è novanta gradi meno alfa: per beta i ruoli dei cateti si scambiano.",
-      "speech": "Terminologia. Studiamo i triangoli rettangoli, e prima fissiamo i nomi. L’ipotenusa è il lato opposto all’angolo retto e si indica con à. Rispetto all’angolo acuto alfa, il cateto bi è quello opposto a alfa, e il cateto ci è quello adiacente. L’altro angolo acuto, beta, è novanta gradi meno alfa: per beta i ruoli dei cateti si scambiano.",
+      "speech": "Terminologia. Studiamo i triangoli rettangoli, e prima fissiamo i nomi. L’ipotenusa è il lato opposto all’angolo retto e si indica con à. Rispetto all’angolo acuto alfa, il cateto bi è quello opposto a alfa, e il cateto ci rappresenta quello adiacente. L’altro angolo acuto, beta, è novanta gradi meno alfa: per beta i ruoli dei cateti si scambiano.",
       "screen": "Definizioni",
       "purpose": "Definizione: Terminologia"
     },
     {
       "text": "Nel riquadro i nomi: a è l’ipotenusa; bi è opposto ad alfa e adiacente a beta; ci è adiacente ad alfa e opposto a beta.",
-      "speech": "Nel riquadro i nomi: à è l’ipotenusa; bi è opposto a alfa e adiacente a beta; ci è adiacente a alfa e opposto a beta.",
+      "speech": "Nel riquadro i nomi: à è l’ipotenusa; bi è opposto a alfa e adiacente a beta; ci risulta adiacente a alfa e opposto a beta.",
       "screen": "Terminologia",
       "purpose": "Spiegazione visiva: formula"
     },
@@ -23,7 +23,7 @@
     },
     {
       "text": "Rispetto ad alfa, bi è il cateto opposto e ci è il cateto adiacente.",
-      "speech": "Rispetto a alfa, bi è il cateto opposto e ci è il cateto adiacente.",
+      "speech": "Rispetto a alfa, bi è il cateto opposto e ci rappresenta il cateto adiacente.",
       "screen": "Terminologia",
       "purpose": "Esempio, passaggio 2"
     },
@@ -41,7 +41,7 @@
     },
     {
       "text": "Nel riquadro: il cateto bi è l’ipotenusa per il seno di alfa; il cateto ci è l’ipotenusa per il seno di beta.",
-      "speech": "Nel riquadro: il cateto bi è l’ipotenusa per il seno di alfa; il cateto ci è l’ipotenusa per il seno di beta.",
+      "speech": "Nel riquadro: il cateto bi è l’ipotenusa per il seno di alfa; il cateto ci vale l’ipotenusa per il seno di beta.",
       "screen": "Cateto con il seno",
       "purpose": "Spiegazione visiva: formula"
     },
@@ -71,13 +71,13 @@
     },
     {
       "text": "Nel riquadro: ci è l’ipotenusa per il coseno di alfa; bi è l’ipotenusa per il coseno di beta.",
-      "speech": "Nel riquadro: ci è l’ipotenusa per il coseno di alfa; bi è l’ipotenusa per il coseno di beta.",
+      "speech": "Nel riquadro: ci vale l’ipotenusa per il coseno di alfa; bi è l’ipotenusa per il coseno di beta.",
       "screen": "Cateto con il coseno",
       "purpose": "Spiegazione visiva: formula"
     },
     {
       "text": "Vogliamo il cateto ci, sapendo che l’ipotenusa vale dieci e alfa vale sessanta gradi. Ci è adiacente ad alfa: usiamo il coseno.",
-      "speech": "Vogliamo il cateto ci, sapendo che l’ipotenusa vale dieci e alfa vale sessanta gradi. Ci è adiacente a alfa: usiamo il coseno.",
+      "speech": "Vogliamo il cateto ci, sapendo che l’ipotenusa vale dieci e alfa vale sessanta gradi. Ci risulta adiacente a alfa: usiamo il coseno.",
       "screen": "Cateto con il coseno",
       "purpose": "Esempio, passaggio 1"
     },
@@ -107,7 +107,7 @@
     },
     {
       "text": "Vogliamo il cateto bi, sapendo che il cateto ci vale sei e alfa vale trenta gradi. Bi è opposto ad alfa e ci è adiacente: usiamo la tangente.",
-      "speech": "Vogliamo il cateto bi, sapendo che il cateto ci vale sei e alfa vale trenta gradi. Bi è opposto a alfa e ci è adiacente: usiamo la tangente.",
+      "speech": "Vogliamo il cateto bi, sapendo che il cateto ci vale sei e alfa vale trenta gradi. Bi è opposto a alfa e ci risulta adiacente: usiamo la tangente.",
       "screen": "Cateto con tangente e cotangente",
       "purpose": "Esempio, passaggio 1"
     },
