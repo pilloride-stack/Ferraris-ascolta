@@ -41,13 +41,13 @@
     },
     {
       "text": "Un'equazione di primo grado si riporta alla forma a ics uguale a bi. Se a non è zero, la soluzione è bi fratto a.",
-      "speech": "Un'equazione di primo grado si riporta alla forma a __X__ uguale a bi. Se a non è zero, la soluzione è bi fratto a.",
+      "speech": "Un'equazione di primo grado si riporta alla forma à per __X__ uguale a bi. Se a non è zero, la soluzione è bi fratto à.",
       "screen": "Equazione di primo grado",
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "riconosco i termini. A sinistra ho due ics meno tre, a destra meno cinque.",
-      "speech": "riconosco i termini. A sinistra ho due __X__ meno tre, a destra meno cinque.",
+      "text": "Riconosco i termini. A sinistra ho due ics meno tre, a destra meno cinque.",
+      "speech": "Riconosco i termini. à sinistra ho due __X__ meno tre, a destra meno cinque.",
       "screen": "Equazione di primo grado",
       "purpose": "Esempio, passaggio 1"
     },
@@ -59,7 +59,6 @@
     },
     {
       "text": "Infine, divido per due. Ics è uguale a meno uno.",
-      "speech": "Infine, divido per due. __X__ è uguale a meno uno.",
       "screen": "Equazione di primo grado",
       "purpose": "Esempio, passaggio 3"
     },
@@ -70,8 +69,8 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "tolgo le parentesi. Ottengo due ics meno otto, uguale a tre ics meno quindici.",
-      "speech": "tolgo le parentesi. Ottengo due __X__ meno otto, uguale a tre __X__ meno quindici.",
+      "text": "Tolgo le parentesi. Ottengo due ics meno otto, uguale a tre ics meno quindici.",
+      "speech": "Tolgo le parentesi. Ottengo due __X__ meno otto, uguale a tre __X__ meno quindici.",
       "screen": "Equazione intera",
       "purpose": "Esempio, passaggio 1"
     },
@@ -94,8 +93,7 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "i denominatori sono due e tre. Il minimo comune multiplo è sei.",
-      "speech": "i denominatori sono due e tre. Il minimo comune multiplo è sei.",
+      "text": "I denominatori sono due e tre. Il minimo comune multiplo è sei.",
       "screen": "Equazione con frazioni numeriche",
       "purpose": "Esempio, passaggio 1"
     },
@@ -107,7 +105,6 @@
     },
     {
       "text": "Infine, separo e calcolo. Ics è uguale a diciotto.",
-      "speech": "Infine, separo e calcolo. __X__ è uguale a diciotto.",
       "screen": "Equazione con frazioni numeriche",
       "purpose": "Esempio, passaggio 3"
     },
@@ -118,8 +115,8 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "tolgo le parentesi. Ottengo otto ics più ventiquattro, uguale a otto ics meno ventiquattro.",
-      "speech": "tolgo le parentesi. Ottengo otto __X__ più ventiquattro, uguale a otto __X__ meno ventiquattro.",
+      "text": "Tolgo le parentesi. Ottengo otto ics più ventiquattro, uguale a otto ics meno ventiquattro.",
+      "speech": "Tolgo le parentesi. Ottengo otto __X__ più ventiquattro, uguale a otto __X__ meno ventiquattro.",
       "screen": "Equazioni impossibili e indeterminate",
       "purpose": "Esempio, passaggio 1"
     },
@@ -142,8 +139,7 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "divido per radice di tre.",
-      "speech": "divido per radice di tre.",
+      "text": "Divido per radice di tre.",
       "screen": "Coefficienti irrazionali",
       "purpose": "Esempio, passaggio 1"
     },
@@ -166,14 +162,14 @@
       "purpose": "Spiegazione visiva: regola della scheda"
     },
     {
-      "text": "scrivo le condizioni di esistenza. Ics diverso da meno uno, e ics diverso da tre.",
-      "speech": "scrivo le condizioni di esistenza. __X__ diverso da meno uno, e __X__ diverso da tre.",
+      "text": "Scrivo le condizioni di esistenza. Ics diverso da meno uno, e ics diverso da tre.",
+      "speech": "Scrivo le condizioni di esistenza. Ics diverso da meno uno, e __X__ diverso da tre.",
       "screen": "Equazione frazionaria",
       "purpose": "Esempio, passaggio 1"
     },
     {
       "text": "Quindi, il minimo comune multiplo è ics più uno, per ics meno tre. Moltiplico entrambi i membri per questo prodotto: i denominatori si semplificano e ottengo due per ics meno tre, uguale: ics più uno.",
-      "speech": "Quindi, il minimo comune multiplo è __X__ più uno, per __X__ meno tre. Moltiplico entrambi i membri per questo prodotto: i denominatori si semplificano e ottengo due per __X__ meno tre, uguale a __X__ più uno.",
+      "speech": "Quindi, il minimo comune multiplo è __X__ più uno, per __X__ meno tre. Moltiplico entrambi i membri per questo prodotto: i denominatori si semplificano e ottengo due per __X__ meno tre, uguale: __X__ più uno.",
       "screen": "Equazione frazionaria",
       "purpose": "Esempio, passaggio 2"
     },

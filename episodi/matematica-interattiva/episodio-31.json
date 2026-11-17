@@ -3,49 +3,166 @@
   "title": "Le proporzioni",
   "sentences": [
     {
-      "text": "Studiamo le proporzioni, cioè uguaglianze tra due rapporti. Servono per confrontare quantità e trovare un valore mancante."
+      "text": "Proporzione. Studiamo le proporzioni, uguaglianze tra due rapporti. Si scrive a sta a bi come ci sta a di. I termini bi e ci, quelli in mezzo, si chiamano medi; a e di, quelli esterni, si chiamano estremi. I due rapporti devono avere lo stesso valore.",
+      "speech": "Proporzione. Studiamo le proporzioni, uguaglianze tra due rapporti. Si scrive a sta a bi come ci sta a di. I termini bi e ci, quelli in mezzo, si chiamano medi; a e di, quelli esterni, si chiamano estremi. I due rapporti devono avere lo stesso valore.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Proporzione"
     },
     {
-      "text": "In quattordici a sette uguale sei a tre, sette e sei sono i medi; quattordici e tre sono gli estremi."
+      "text": "Nel riquadro la scrittura della proporzione e i nomi dei termini.",
+      "speech": "Nel riquadro la scrittura della proporzione e i nomi dei termini.",
+      "screen": "Proporzione",
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "In ogni proporzione il prodotto dei medi è uguale al prodotto degli estremi."
+      "text": "Vogliamo verificare che quattordici sta a sette come sei sta a tre. Il primo rapporto vale due.",
+      "speech": "Vogliamo verificare che quattordici sta a sette come sei sta a tre. Il primo rapporto vale due.",
+      "screen": "Proporzione",
+      "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Qui sette per sei e quattordici per tre valgono entrambi quarantadue."
+      "text": "Anche il secondo rapporto vale due: i rapporti sono uguali, quindi è una proporzione.",
+      "speech": "Anche il secondo rapporto vale due: i rapporti sono uguali, quindi è una proporzione.",
+      "screen": "Proporzione",
+      "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Consideriamo dodici a x uguale sei a quattro. X è un medio.",
-      "speech": "Consideriamo dodici a __X__ uguale sei a quattro. __X__ è un medio."
+      "text": "I medi sono sette e sei, gli estremi quattordici e tre.",
+      "speech": "I medi sono sette e sei, gli estremi quattordici e tre.",
+      "screen": "Proporzione",
+      "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "Moltiplichiamo gli estremi: dodici per quattro è quarantotto."
+      "text": "Proprietà fondamentale. In ogni proporzione il prodotto dei medi è uguale al prodotto degli estremi. Vale anche il contrario: se i due prodotti sono uguali, i numeri formano una proporzione.",
+      "speech": "Proprietà fondamentale. In ogni proporzione il prodotto dei medi è uguale al prodotto degli estremi. Vale anche il contrario: se i due prodotti sono uguali, i numeri formano una proporzione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Proprietà fondamentale"
     },
     {
-      "text": "Dividiamo per l'altro medio: quarantotto diviso sei è otto."
+      "text": "La formula: medi per medi uguale estremi per estremi.",
+      "speech": "La formula: medi per medi uguale estremi per estremi.",
+      "screen": "Proprietà fondamentale",
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Consideriamo nove a sei uguale tre a x. X è un estremo.",
-      "speech": "Consideriamo nove a sei uguale tre a __X__. __X__ è un estremo."
+      "text": "Vogliamo controllare la proporzione con la proprietà fondamentale. Il prodotto dei medi, sette per sei, fa quarantadue.",
+      "speech": "Vogliamo controllare la proporzione con la proprietà fondamentale. Il prodotto dei medi, sette per sei, fa quarantadue.",
+      "screen": "Proprietà fondamentale",
+      "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Moltiplichiamo i medi: sei per tre è diciotto."
+      "text": "Il prodotto degli estremi, quattordici per tre, fa ancora quarantadue.",
+      "speech": "Il prodotto degli estremi, quattordici per tre, fa ancora quarantadue.",
+      "screen": "Proprietà fondamentale",
+      "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Dividiamo per l'altro estremo: diciotto diviso nove è due."
+      "text": "I due prodotti sono uguali: la proporzione è corretta.",
+      "speech": "I due prodotti sono uguali: la proporzione è corretta.",
+      "screen": "Proprietà fondamentale",
+      "purpose": "Esempio, passaggio 3"
     },
     {
-      "text": "Ora prova a riconoscere medi ed estremi e a calcolare il termine mancante."
+      "text": "Calcolo di un medio. Un medio sconosciuto è uguale al prodotto degli estremi diviso per l’altro medio. Deriva dalla proprietà fondamentale.",
+      "speech": "Calcolo di un medio. Un medio sconosciuto è uguale al prodotto degli estremi diviso per l’altro medio. Deriva dalla proprietà fondamentale.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Calcolo di un medio"
     },
     {
-      "text": "Nel laboratorio puoi modificare a, b e c. Il valore di x viene calcolato automaticamente.",
-      "speech": "Nel laboratorio puoi modificare a, bi e ci. Il valore di __X__ viene calcolato automaticamente."
+      "text": "La formula: estremi per estremi, diviso il medio noto.",
+      "speech": "La formula: estremi per estremi, diviso il medio noto.",
+      "screen": "Calcolo di un medio",
+      "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "La verifica confronta i due prodotti incrociati e mostra tutti i calcoli."
+      "text": "Vogliamo trovare ics in dodici sta a ics come nove sta a sei. Ics è un medio: calcoliamo il prodotto degli estremi, dodici per sei, che fa settantadue.",
+      "speech": "Vogliamo trovare __X__ in dodici sta à per __X__ come nove sta a sei. Ics è un medio: calcoliamo il prodotto degli estremi, dodici per sei, che fa settantadue.",
+      "screen": "Calcolo di un medio",
+      "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "Completa la verifica. Per ogni proporzione controlla sempre che il prodotto dei medi coincida con quello degli estremi."
+      "text": "Dividiamo per il medio noto, nove: ics vale otto.",
+      "speech": "Dividiamo per il medio noto, nove: __X__ vale otto.",
+      "screen": "Calcolo di un medio",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Controlliamo: otto per nove fa settantadue, come dodici per sei.",
+      "speech": "Controlliamo: otto per nove fa settantadue, come dodici per sei.",
+      "screen": "Calcolo di un medio",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Calcolo di un estremo. Un estremo sconosciuto è uguale al prodotto dei medi diviso per l’altro estremo.",
+      "speech": "Calcolo di un estremo. Un estremo sconosciuto è uguale al prodotto dei medi diviso per l’altro estremo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Calcolo di un estremo"
+    },
+    {
+      "text": "La formula: medi per medi, diviso l’estremo noto.",
+      "speech": "La formula: medi per medi, diviso l’estremo noto.",
+      "screen": "Calcolo di un estremo",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo trovare ics in ics sta a cinque come dodici sta a quindici. Ics è un estremo: calcoliamo il prodotto dei medi, cinque per dodici, che fa sessanta.",
+      "speech": "Vogliamo trovare __X__ in __X__ sta a cinque come dodici sta a quindici. Ics è un estremo: calcoliamo il prodotto dei medi, cinque per dodici, che fa sessanta.",
+      "screen": "Calcolo di un estremo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Dividiamo per l’estremo noto, quindici: ics vale quattro.",
+      "speech": "Dividiamo per l’estremo noto, quindici: __X__ vale quattro.",
+      "screen": "Calcolo di un estremo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Medio proporzionale. Una proporzione è continua se i due medi sono uguali. Il medio si chiama medio proporzionale ed è la radice quadrata del prodotto degli estremi.",
+      "speech": "Medio proporzionale. Una proporzione è continua se i due medi sono uguali. Il medio si chiama medio proporzionale ed è la radice quadrata del prodotto degli estremi.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Medio proporzionale"
+    },
+    {
+      "text": "La formula: il quadrato del medio è il prodotto degli estremi.",
+      "speech": "La formula: il quadrato del medio è il prodotto degli estremi.",
+      "screen": "Medio proporzionale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il medio proporzionale tra quattro e nove: quattro sta a ics come ics sta a nove.",
+      "speech": "Vogliamo il medio proporzionale tra quattro e nove: quattro sta à per __X__ come __X__ sta a nove.",
+      "screen": "Medio proporzionale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il prodotto dei medi è ics alla seconda, quello degli estremi trentasei.",
+      "speech": "Il prodotto dei medi è __X__ alla seconda, quello degli estremi trentasei.",
+      "screen": "Medio proporzionale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il medio proporzionale è la radice di trentasei, cioè sei.",
+      "speech": "Il medio proporzionale è la radice di trentasei, cioè sei.",
+      "screen": "Medio proporzionale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Prima di rispondere, individua medi ed estremi.",
+      "speech": "Ora tocca a te. Prima di rispondere, individua medi ed estremi.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scegli tre numeri e osserva come si calcola il quarto termine della proporzione.",
+      "speech": "Questo è il laboratorio. Scegli tre numeri e osserva come si calcola il quarto termine della proporzione.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il prodotto dei medi è uguale al prodotto degli estremi.",
+      "speech": "Ricorda: il prodotto dei medi è uguale al prodotto degli estremi.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
     }
   ]
 }

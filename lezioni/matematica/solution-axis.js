@@ -20,7 +20,7 @@
     match=value.match(/([[(])\s*([−-]?\d+(?:[,.]\d+)?)\s*;\s*([−-]?\d+(?:[,.]\d+)?)\s*([\])])/);
     if(match)return base(`<line class="solution" x1="125" y1="34" x2="295" y2="34"/>${dot(125,match[2],match[1]==='[')}${dot(295,match[3],match[4]===']')}`);
     const values=[...value.matchAll(new RegExp(`(?<![\\d−-])x(?:[₁₂0-9,]*)?\\s*=\\s*${number}`,'g'))].map(item=>item[1]);
-    if(values.length){const unique=[...new Set(values)].slice(0,4),step=300/(unique.length+1);return base(unique.map((label,index)=>dot(60+step*(index+1),label,true)).join(''))}
+    if(values.length){const num=label=>{const t=String(label).replace(/−/g,'-').replace(',','.').replace(/\s/g,'');const f=t.match(/^(-?\d+(?:\.\d+)?)\/(-?\d+(?:\.\d+)?)$/);const v=f?Number(f[1])/Number(f[2]):Number(t);return Number.isFinite(v)?v:null};const unique=[...new Set(values)].slice(0,4).sort((a,b)=>{const x=num(a),y=num(b);return x===null||y===null?0:x-y}),step=300/(unique.length+1);return base(unique.map((label,index)=>dot(60+step*(index+1),label,true)).join(''))}
     if(/∅|nessuna soluzione/i.test(value))return base('<text class="label" x="210" y="25">∅</text>');
     return '';
   };

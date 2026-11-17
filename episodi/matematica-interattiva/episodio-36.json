@@ -1,0 +1,151 @@
+{
+  "episode": "36",
+  "title": "MCD e mcm",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Scomposizione in fattori primi. Iniziamo dalla scomposizione, che serve per il massimo comune divisore e il minimo comune multiplo. Un numero primo ha come divisori solo uno e se stesso. Ogni numero si scrive in un solo modo come prodotto di numeri primi: per trovarli si divide ripetutamente per il più piccolo primo che lo divide.",
+      "speech": "Scomposizione in fattori primi. Iniziamo dalla scomposizione, che serve per il massimo comune divisore e il minimo comune multiplo. Un numero primo ha come divisori solo uno e se stesso. Ogni numero si scrive in un solo modo come prodotto di numeri primi: per trovarli si divide ripetutamente per il più piccolo primo che lo divide.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Scomposizione in fattori primi"
+    },
+    {
+      "text": "Nel riquadro i primi numeri primi, i divisori che si provano nell’ordine.",
+      "speech": "Nel riquadro i primi numeri primi, i divisori che si provano nell’ordine.",
+      "screen": "Scomposizione in fattori primi",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo scomporre sessanta. È pari: dividiamo per due e otteniamo trenta, ancora pari, e dividendo di nuovo otteniamo quindici.",
+      "speech": "Vogliamo scomporre sessanta. È pari: dividiamo per due e otteniamo trenta, ancora pari, e dividendo di nuovo otteniamo quindici.",
+      "screen": "Scomposizione in fattori primi",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Quindici non è pari, ma è divisibile per tre: otteniamo cinque.",
+      "speech": "Quindici non è pari, ma è divisibile per tre: otteniamo cinque.",
+      "screen": "Scomposizione in fattori primi",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Cinque è primo: dividendo per cinque arriviamo a uno.",
+      "speech": "Cinque è primo: dividendo per cinque arriviamo a uno.",
+      "screen": "Scomposizione in fattori primi",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "I fattori trovati sono due, due, tre e cinque: sessanta è due alla seconda per tre per cinque.",
+      "speech": "I fattori trovati sono due, due, tre e cinque: sessanta è due alla seconda per tre per cinque.",
+      "screen": "Scomposizione in fattori primi",
+      "purpose": "Esempio, passaggio 4"
+    },
+    {
+      "text": "Massimo comune divisore. Il massimo comune divisore di due o più numeri è il più grande numero che li divide tutti. Si scompongono i numeri in fattori primi e si moltiplicano i fattori comuni, presi con l’esponente minore.",
+      "speech": "Massimo comune divisore. Il massimo comune divisore di due o più numeri è il più grande numero che li divide tutti. Si scompongono i numeri in fattori primi e si moltiplicano i fattori comuni, presi con l’esponente minore.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Massimo comune divisore"
+    },
+    {
+      "text": "La regola: solo i fattori comuni, con l’esponente più piccolo.",
+      "speech": "La regola: solo i fattori comuni, con l’esponente più piccolo.",
+      "screen": "Massimo comune divisore",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il massimo comune divisore di sessanta e ottantaquattro. Scomponiamo: sessanta è due alla seconda per tre per cinque; ottantaquattro è due alla seconda per tre per sette.",
+      "speech": "Vogliamo il massimo comune divisore di sessanta e ottantaquattro. Scomponiamo: sessanta è due alla seconda per tre per cinque; ottantaquattro è due alla seconda per tre per sette.",
+      "screen": "Massimo comune divisore",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "I fattori comuni sono due e tre; cinque e sette non sono comuni.",
+      "speech": "I fattori comuni sono due e tre; cinque e sette non sono comuni.",
+      "screen": "Massimo comune divisore",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Con l’esponente minore: due alla seconda per tre, cioè dodici.",
+      "speech": "Con l’esponente minore: due alla seconda per tre, cioè dodici.",
+      "screen": "Massimo comune divisore",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Minimo comune multiplo. Il minimo comune multiplo di due o più numeri è il più piccolo numero, diverso da zero, multiplo di tutti. Si moltiplicano tutti i fattori primi, comuni e non comuni, presi con l’esponente maggiore.",
+      "speech": "Minimo comune multiplo. Il minimo comune multiplo di due o più numeri è il più piccolo numero, diverso da zero, multiplo di tutti. Si moltiplicano tutti i fattori primi, comuni e non comuni, presi con l’esponente maggiore.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Minimo comune multiplo"
+    },
+    {
+      "text": "La regola: tutti i fattori, con l’esponente più grande.",
+      "speech": "La regola: tutti i fattori, con l’esponente più grande.",
+      "screen": "Minimo comune multiplo",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo il minimo comune multiplo di sessanta e ottantaquattro. Usiamo le stesse scomposizioni.",
+      "speech": "Vogliamo il minimo comune multiplo di sessanta e ottantaquattro. Usiamo le stesse scomposizioni.",
+      "screen": "Minimo comune multiplo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Prendiamo tutti i fattori: due, tre, cinque e sette.",
+      "speech": "Prendiamo tutti i fattori: due, tre, cinque e sette.",
+      "screen": "Minimo comune multiplo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Con l’esponente maggiore: due alla seconda per tre per cinque per sette, cioè quattrocentoventi.",
+      "speech": "Con l’esponente maggiore: due alla seconda per tre per cinque per sette, cioè quattrocentoventi.",
+      "screen": "Minimo comune multiplo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Relazione tra MCD e mcm. Per due numeri, il prodotto del massimo comune divisore per il minimo comune multiplo è uguale al prodotto dei due numeri. Serve per controllare i calcoli.",
+      "speech": "Relazione tra MCD e mcm. Per due numeri, il prodotto del massimo comune divisore per il minimo comune multiplo è uguale al prodotto dei due numeri. Serve per controllare i calcoli.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Relazione tra MCD e mcm"
+    },
+    {
+      "text": "La formula: MCD per mcm è uguale al prodotto dei numeri.",
+      "speech": "La formula: MCD per mcm è uguale al prodotto dei numeri.",
+      "screen": "Relazione tra MCD e mcm",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Vogliamo controllare i risultati trovati per sessanta e ottantaquattro. Dodici per quattrocentoventi fa cinquemilaquaranta.",
+      "speech": "Vogliamo controllare i risultati trovati per sessanta e ottantaquattro. Dodici per quattrocentoventi fa cinquemilaquaranta.",
+      "screen": "Relazione tra MCD e mcm",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sessanta per ottantaquattro fa ancora cinquemilaquaranta.",
+      "speech": "Sessanta per ottantaquattro fa ancora cinquemilaquaranta.",
+      "screen": "Relazione tra MCD e mcm",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "I due prodotti sono uguali: i calcoli sono corretti.",
+      "speech": "I due prodotti sono uguali: i calcoli sono corretti.",
+      "screen": "Relazione tra MCD e mcm",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Prima di rispondere, scomponi i numeri in fattori primi.",
+      "speech": "Ora tocca a te. Prima di rispondere, scomponi i numeri in fattori primi.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Scegli due numeri e osserva la loro scomposizione, il massimo comune divisore e il minimo comune multiplo.",
+      "speech": "Questo è il laboratorio. Scegli due numeri e osserva la loro scomposizione, il massimo comune divisore e il minimo comune multiplo.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: per il MCD i fattori comuni con l’esponente minore; per il mcm tutti i fattori con l’esponente maggiore.",
+      "speech": "Ricorda: per il MCD i fattori comuni con l’esponente minore; per il mcm tutti i fattori con l’esponente maggiore.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

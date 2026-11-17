@@ -11,12 +11,19 @@
 
   const activeIndex=()=>screens.findIndex(screen=>screen.classList.contains('active'));
   let queue=[],history=[],currentTrack=null,player=null,status=null,auto=false,paused=false;
+  // Ogni frase viene scaricata per intero prima di partire (niente partenze a scatti) e le successive vengono precaricate.
+  const SILENT='data:audio/mpeg;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjYwLjE2LjEwMAAAAAAAAAAAAAAA//OEwAAAAAAAAAAAAEluZm8AAAAPAAAABQAAAqAAbW1tbW1tbW1tbW1tbW1tbW1tbZKSkpKSkpKSkpKSkpKSkpKSkpKStra2tra2tra2tra2tra2tra2trbb29vb29vb29vb29vb29vb29vb2///////////////////////////AAAAAExhdmM2MC4zMQAAAAAAAAAAAAAAACQEUAAAAAAAAAKgvT9A1gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//NExAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMu//NExFMAAANIAAAAADEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMu//NExKYAAANIAAAAADEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NExKwAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NExKwAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV';
+  const audioEl=new Audio();audioEl.preload='auto';let token=0;const cache=new Map();
+  const urlOf=track=>base+'frase-'+track.id+'.mp3'+(config.audioVersion?`?v=${encodeURIComponent(config.audioVersion)}`:'');
+  const load=track=>{if(!cache.has(track.id))cache.set(track.id,fetch(urlOf(track)).then(r=>{if(!r.ok)throw new Error(r.status);return r.blob()}).then(b=>URL.createObjectURL(b)).catch(()=>urlOf(track)));return cache.get(track.id)};
+  const prefetch=()=>queue.slice(0,2).forEach(load);
+  const unlock=()=>{try{if(!audioEl.src||audioEl.src.startsWith('data:')){audioEl.src=SILENT;audioEl.play().catch(()=>{})}}catch(e){}};
   // Il riquadro Indietro/Avanti fisso in primo piano non serve: la navigazione resta nei pulsanti della pagina.
   const style=document.createElement('style');
   style.textContent='.lesson-pager{display:none!important}main{padding-bottom:40px!important}.voice-controls .player-btn{min-width:46px;padding-inline:12px;font-weight:900}.voice-controls .player-btn[disabled]{opacity:.4;cursor:not-allowed}.voice-controls .player-pause[aria-pressed="true"]{background:#ffd21c;color:#0b478c;border-color:#ffd21c}';
   document.head.append(style);
   const clear=()=>document.querySelectorAll('.audio-current').forEach(element=>element.classList.remove('audio-current'));
-  const silence=()=>{if(player){player.onended=null;player.onerror=null;player.pause();player=null}};
+  const silence=()=>{token++;audioEl.onended=null;audioEl.onerror=null;try{audioEl.pause()}catch(e){};player=null};
   function stop(){queue=[];history=[];currentTrack=null;auto=false;paused=false;clear();silence();document.querySelectorAll('.voice-status').forEach(element=>element.textContent='');refresh()}
   function topicTracks(index){
     const definition=definitions[index];if(!definition)return[];
@@ -38,13 +45,18 @@
   }
   function play(track){
     silence();currentTrack=track;paused=false;synchronize(track);
-    if(status)status.textContent=(track.purpose||'Spiegazione').replace(/passaggio\s+\d+\s*[—-]?\s*/i,'');
-    const version=config.audioVersion?`?v=${encodeURIComponent(config.audioVersion)}`:'';
-    player=new Audio(base+'frase-'+track.id+'.mp3'+version);
-    player.onended=()=>setTimeout(next,300);
-    player.onerror=()=>{if(status)status.textContent='Audio non disponibile.';queue=[];auto=false;refresh()};
-    player.play().catch(()=>{paused=true;if(status)status.textContent='Tocca ▶ per avviare la voce.';refresh()});
-    refresh();
+    const label=(track.purpose||'Spiegazione').replace(/passaggio\s+\d+\s*[—-]?\s*/i,'');
+    if(status)status.textContent='Caricamento…';
+    const mine=token;refresh();
+    load(track).then(url=>{
+      if(mine!==token)return;
+      player=audioEl;audioEl.src=url;
+      audioEl.onended=()=>setTimeout(next,300);
+      audioEl.onerror=()=>{if(status)status.textContent='Audio non disponibile.';queue=[];auto=false;player=null;refresh()};
+      if(status)status.textContent=label;
+      audioEl.play().catch(()=>{paused=true;if(status)status.textContent='Tocca ▶ per avviare la voce.';refresh()});
+      prefetch();refresh();
+    });
   }
   function next(){
     if(currentTrack)history.push(currentTrack);
@@ -59,7 +71,7 @@
     const back=history.pop();currentTrack=null;play(back);
   }
   function togglePause(){
-    if(!player){if(currentTrack){play(currentTrack)}return}
+    if(!player){if(currentTrack&&!paused){paused=true;silence();if(status)status.textContent='In pausa.'}else if(currentTrack){play(currentTrack)}refresh();return}
     if(paused){paused=false;player.play().catch(()=>{});if(status&&currentTrack)status.textContent=(currentTrack.purpose||'Spiegazione').replace(/passaggio\s+\d+\s*[—-]?\s*/i,'')}
     else{paused=true;player.pause();if(status)status.textContent='In pausa.'}
     refresh();
@@ -74,7 +86,7 @@
     if(!queue.length){if(auto&&screens.indexOf(screen)<screens.length-1){go(1);setTimeout(()=>start(true),200)}return}
     next();
   }
-  document.addEventListener('paired-topic-selected',event=>{if(!pairedScreen.classList.contains('active'))return;stop();status=pairedScreen.querySelector('.voice-status');queue=topicTracks(Number(event.detail?.index)||0);if(queue.length)next();else if(status)status.textContent='Audio non disponibile.'});
+  document.addEventListener('paired-topic-selected',event=>{unlock();if(!pairedScreen.classList.contains('active'))return;stop();status=pairedScreen.querySelector('.voice-status');queue=topicTracks(Number(event.detail?.index)||0);if(queue.length)next();else if(status)status.textContent='Audio non disponibile.'});
   // Lettore: Ascolta, frase precedente, pausa/riprendi, frase successiva, Stop
   const bar=pairedScreen.querySelector('.voice-controls');
   let prevButton,pauseButton,nextButton;
@@ -90,8 +102,8 @@
     pauseButton=make('Metti in pausa o riprendi','⏸ Pausa','player-pause');
     nextButton=make('Passa alla frase successiva','⏭','player-next');
     listen.after(prevButton,pauseButton,nextButton);
-    listen.onclick=()=>start(true);halt.textContent='■ Stop';halt.onclick=stop;
-    prevButton.onclick=previous;pauseButton.onclick=togglePause;nextButton.onclick=()=>{if(queue.length)next()};
+    listen.onclick=()=>{unlock();start(true)};halt.textContent='■ Stop';halt.onclick=stop;
+    prevButton.onclick=()=>{unlock();previous()};pauseButton.onclick=()=>{togglePause()};nextButton.onclick=()=>{unlock();if(queue.length)next()};
     refresh();
   }
   document.querySelectorAll('.lesson-pager button').forEach((button,index)=>button.onclick=()=>{stop();go(index===0?-1:1)});
