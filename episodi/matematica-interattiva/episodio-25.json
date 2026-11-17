@@ -64,20 +64,26 @@
       "purpose": "Spiegazione visiva: formula"
     },
     {
-      "text": "Vogliamo calcolare la tangente di centottanta gradi. Il punto sulla circonferenza è meno uno e zero: il seno vale zero e il coseno vale meno uno.",
-      "speech": "Vogliamo calcolare la tangente di centottanta gradi. Il punto sulla circonferenza è meno uno e zero: il seno vale zero e il coseno vale meno uno.",
+      "text": "Vogliamo calcolare la tangente di centotrentacinque gradi. Il punto P è nel secondo quadrante: il seno vale radice di due mezzi, il coseno meno radice di due mezzi.",
+      "speech": "Vogliamo calcolare la tangente di centotrentacinque gradi. Il punto pi è nel secondo quadrante: il seno vale radice di due mezzi, il coseno meno radice di due mezzi.",
       "screen": "Tangente",
       "purpose": "Esempio, passaggio 1"
     },
     {
-      "text": "La tangente è seno fratto coseno: zero fratto meno uno, cioè zero.",
-      "speech": "La tangente è seno fratto coseno: zero fratto meno uno, cioè zero.",
+      "text": "La tangente è seno fratto coseno: due numeri opposti, quindi vale meno uno.",
+      "speech": "La tangente è seno fratto coseno: due numeri opposti, quindi vale meno uno.",
       "screen": "Tangente",
       "purpose": "Esempio, passaggio 2"
     },
     {
-      "text": "Cotangente, secante, cosecante. Completiamo con le altre tre funzioni goniometriche. La cotangente è il rapporto tra coseno e seno, ed esiste quando il seno è diverso da zero. La secante è il reciproco del coseno; la cosecante è il reciproco del seno.",
-      "speech": "Cotangente, secante, cosecante. Completiamo con le altre tre funzioni goniometriche. La cotangente è il rapporto tra coseno e seno, ed esiste quando il seno è diverso da zero. La secante è il reciproco del coseno; la cosecante è il reciproco del seno.",
+      "text": "Nel disegno prolunghiamo la retta OP oltre l’origine: incontra la retta tangente in T, di ordinata meno uno. È proprio il valore della tangente.",
+      "speech": "Nel disegno prolunghiamo la retta o pi oltre l’origine: incontra la retta tangente in ti, di ordinata meno uno. È proprio il valore della tangente.",
+      "screen": "Tangente",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Cotangente, secante, cosecante. Completiamo con le altre tre funzioni goniometriche. La cotangente è il rapporto tra coseno e seno, ed esiste quando il seno è diverso da zero. Sulla circonferenza si legge sulla retta tangente nel punto B, di coordinate zero e uno: la retta OP la incontra in C, e la cotangente è l’ascissa di C. La secante è il reciproco del coseno; la cosecante è il reciproco del seno.",
+      "speech": "Cotangente, secante, cosecante. Completiamo con le altre tre funzioni goniometriche. La cotangente è il rapporto tra coseno e seno, ed esiste quando il seno è diverso da zero. Sulla circonferenza si legge sulla retta tangente nel punto bi, di coordinate zero e uno: la retta o pi la incontra in ci, e la cotangente è l’ascissa di ci. La secante è il reciproco del coseno; la cosecante è il reciproco del seno.",
       "screen": "Definizioni",
       "purpose": "Definizione: Cotangente, secante, cosecante"
     },
