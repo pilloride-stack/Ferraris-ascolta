@@ -1,0 +1,253 @@
+{
+  "episode": "18",
+  "title": "Domande guida, parte 2",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "purpose": "Introduzione",
+      "screen": "Domande guida",
+      "text": "Nell’episodio scorso abbiamo ripassato le prime diciannove domande guida, da grandezze fisiche e vettori fino al moto circolare uniforme. Concludiamo oggi il ripasso di questo modulo di meccanica con le domande restanti, dedicate ad accelerazione centripeta, principi della dinamica, forze e infine lavoro ed energia. Per ogni domanda, prova prima a rispondere da solo, poi ascolta la risposta.",
+      "speech": "Nell’episodio scorso abbiamo ripassato le prime diciannove domande guida, da grandezze fisiche e vettori fino al moto circolare uniforme. Concludiamo oggi il ripasso di questo modulo di meccanica con le domande restanti, dedicate ad accelerazione centripeta, principi della dinamica, forze e infine lavoro ed energia. Per ogni domanda, prova prima a rispondere da solo, poi ascolta la risposta."
+    },
+    {
+      "purpose": "Domanda 1",
+      "screen": "Domande guida",
+      "text": "Che direzione ha l’accelerazione centripeta, e da che cosa dipende il suo modulo?",
+      "speech": "Che direzione ha l’accelerazione centripeta, e da che cosa dipende il suo modulo?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 1",
+      "screen": "Domande guida",
+      "text": "È diretta sempre verso il centro della traiettoria circolare. Il suo modulo, a꜀ = v² / r, dipende dal quadrato della velocità e dal raggio della traiettoria.",
+      "speech": "È diretta sempre verso il centro della traiettoria circolare, e il suo modulo, a ci uguale a v al quadrato diviso r, dipende dal quadrato della velocità e dal raggio della traiettoria."
+    },
+    {
+      "purpose": "Domanda 2",
+      "screen": "Domande guida",
+      "text": "Perché la differenza Δv fra le velocità in due punti vicini della traiettoria punta verso il centro?",
+      "speech": "Perché la differenza Δv fra le velocità in due punti vicini della traiettoria punta verso il centro?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 2",
+      "screen": "Domande guida",
+      "text": "Perché i due vettori velocità, pur avendo lo stesso modulo, hanno direzioni leggermente diverse a causa della curvatura della traiettoria, e la loro differenza risulta diretta, con buona approssimazione, verso il centro della circonferenza.",
+      "speech": "Perché i due vettori velocità, pur avendo lo stesso modulo, hanno direzioni leggermente diverse a causa della curvatura della traiettoria, e la loro differenza risulta diretta, con buona approssimazione, verso il centro della circonferenza."
+    },
+    {
+      "purpose": "Domanda 3",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è fra la forza centripeta e la forza centrifuga? Perché quest’ultima si dice apparente?",
+      "speech": "Che differenza cè fra la forza centripeta e la forza centrifuga? Perché quest’ultima si dice apparente?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 3",
+      "screen": "Domande guida",
+      "text": "La forza centripeta è una forza reale, diretta verso il centro, che costringe un corpo a seguire una traiettoria circolare. La forza centrifuga, diretta verso l’esterno, è apparente: non esiste per un osservatore esterno inerziale, ma è percepita solo da chi ruota insieme al corpo, ed è dovuta alla tendenza del corpo a proseguire in linea retta.",
+      "speech": "La forza centripeta è una forza reale, diretta verso il centro, che costringe un corpo a seguire una traiettoria circolare. La forza centrifuga, diretta verso l’esterno, è apparente: non esiste per un osservatore esterno inerziale, ma è percepita solo da chi ruota insieme al corpo, ed è dovuta alla tendenza del corpo a proseguire in linea retta."
+    },
+    {
+      "purpose": "Domanda 4",
+      "screen": "Domande guida",
+      "text": "Enuncia il primo principio della dinamica e spiega il concetto di inerzia.",
+      "speech": "Enuncia il primo principio della dinamica e spiega il concetto di inerzia.",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 4",
+      "screen": "Domande guida",
+      "text": "Un corpo permane nel proprio stato di quiete o di moto rettilineo uniforme finché non interviene una forza esterna netta a modificarlo. L’inerzia è proprio questa tendenza naturale di ogni corpo a conservare il proprio stato di moto.",
+      "speech": "Un corpo permane nel proprio stato di quiete o di moto rettilineo uniforme finché non interviene una forza esterna netta a modificarlo. L’inerzia è proprio questa tendenza naturale di ogni corpo a conservare il proprio stato di moto."
+    },
+    {
+      "purpose": "Domanda 5",
+      "screen": "Domande guida",
+      "text": "Enuncia il secondo principio della dinamica: che relazione lega forza, massa e accelerazione?",
+      "speech": "Enuncia il secondo principio della dinamica: che relazione lega forza, massa e accelerazione?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 5",
+      "screen": "Domande guida",
+      "text": "Un corpo sottoposto a una forza risultante non nulla subisce un’accelerazione direttamente proporzionale alla forza e inversamente proporzionale alla propria massa: F = m · a.",
+      "speech": "Un corpo sottoposto a una forza risultante non nulla subisce un’accelerazione direttamente proporzionale alla forza e inversamente proporzionale alla propria massa, secondo la formula F uguale a m per a."
+    },
+    {
+      "purpose": "Domanda 6",
+      "screen": "Domande guida",
+      "text": "Enuncia il terzo principio della dinamica facendo un esempio pratico.",
+      "speech": "Enuncia il terzo principio della dinamica facendo un esempio pratico.",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 6",
+      "screen": "Domande guida",
+      "text": "A ogni forza che un corpo esercita su un altro, l’azione, corrisponde una forza uguale in modulo e direzione ma di verso opposto, esercitata dal secondo sul primo: la reazione. Chi cammina spinge il terreno all’indietro e viene spinto in avanti dal terreno.",
+      "speech": "A ogni forza che un corpo esercita su un altro, l’azione, corrisponde una forza uguale in modulo e direzione ma di verso opposto, esercitata dal secondo sul primo: la reazione. Chi cammina spinge il terreno all’indietro e viene spinto in avanti dal terreno."
+    },
+    {
+      "purpose": "Domanda 7",
+      "screen": "Domande guida",
+      "text": "Come si scompone la forza peso di un corpo su un piano inclinato?",
+      "speech": "Come si scompone la forza peso di un corpo su un piano inclinato?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 7",
+      "screen": "Domande guida",
+      "text": "In una componente parallela al piano, diretta verso il basso lungo la superficie e responsabile dello scivolamento, e in una componente perpendicolare al piano, equilibrata dalla reazione normale della superficie.",
+      "speech": "In una componente parallela al piano, diretta verso il basso lungo la superficie e responsabile dello scivolamento, e in una componente perpendicolare al piano, equilibrata dalla reazione normale della superficie."
+    },
+    {
+      "purpose": "Domanda 8",
+      "screen": "Domande guida",
+      "text": "Qual è la condizione di equilibrio di un corpo sottoposto a più forze?",
+      "speech": "Qual è la condizione di equilibrio di un corpo sottoposto a più forze?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 8",
+      "screen": "Domande guida",
+      "text": "La somma vettoriale di tutte le forze applicate al corpo deve essere nulla.",
+      "speech": "La somma vettoriale di tutte le forze applicate al corpo deve essere nulla."
+    },
+    {
+      "purpose": "Domanda 9",
+      "screen": "Domande guida",
+      "text": "Che cos’è la forza peso, e da che cosa dipende il suo modulo?",
+      "speech": "Che cos’è la forza peso, e da che cosa dipende il suo modulo?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 9",
+      "screen": "Domande guida",
+      "text": "È la forza con cui la Terra attrae ogni corpo verso il proprio centro. Il suo modulo, P = m · g, dipende dalla massa del corpo e dall’accelerazione di gravità.",
+      "speech": "È la forza con cui la Terra attrae ogni corpo verso il proprio centro; il suo modulo, P uguale a m per g, dipende dalla massa del corpo e dall’accelerazione di gravità."
+    },
+    {
+      "purpose": "Domanda 10",
+      "screen": "Domande guida",
+      "text": "Che cosa dimostrò Galileo a proposito della caduta dei gravi?",
+      "speech": "Che cosa dimostrò Galileo a proposito della caduta dei gravi?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 10",
+      "screen": "Domande guida",
+      "text": "Dimostrò sperimentalmente che, in assenza di attrito dell’aria, tutti i corpi cadono con la stessa accelerazione di gravità, indipendentemente dalla loro massa, contro l’opinione diffusa fin dall’antichità secondo cui i corpi più pesanti cadrebbero più velocemente.",
+      "speech": "Dimostrò sperimentalmente che, in assenza di attrito dell’aria, tutti i corpi cadono con la stessa accelerazione di gravità, indipendentemente dalla loro massa, contro l’opinione diffusa fin dall’antichità secondo cui i corpi più pesanti cadrebbero più velocemente."
+    },
+    {
+      "purpose": "Domanda 11",
+      "screen": "Domande guida",
+      "text": "Che cos’è una leva, e quali sono i suoi elementi principali?",
+      "speech": "Che cos’è una leva, e quali sono i suoi elementi principali?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 11",
+      "screen": "Domande guida",
+      "text": "È una macchina semplice costituita da un’asta rigida che ruota attorno a un punto fisso, il fulcro. I suoi elementi sono il fulcro, la forza motrice con il proprio braccio e la forza resistente con il proprio braccio.",
+      "speech": "È una macchina semplice costituita da un’asta rigida che ruota attorno a un punto fisso, il fulcro. I suoi elementi sono il fulcro, la forza motrice con il proprio braccio e la forza resistente con il proprio braccio."
+    },
+    {
+      "purpose": "Domanda 12",
+      "screen": "Domande guida",
+      "text": "Qual è la condizione di equilibrio di una leva? Descrivi i tre generi di leve con un esempio ciascuno.",
+      "speech": "Qual è la condizione di equilibrio di una leva? Descrivi i tre generi di leve con un esempio ciascuno.",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 12",
+      "screen": "Domande guida",
+      "text": "La leva è in equilibrio quando Fᵣ · bᵣ = Fₘ · bₘ. Primo genere: il fulcro è fra le due forze (altalena, forbici). Secondo genere: la resistenza è fra il fulcro e la forza motrice (carriola). Terzo genere: la forza motrice è fra il fulcro e la resistenza (pinzette, avambraccio).",
+      "speech": "La leva è in equilibrio quando il prodotto della forza resistente per il proprio braccio è uguale al prodotto della forza motrice per il proprio braccio. Nelle leve di primo genere il fulcro è fra le due forze, come nell’altalena o nelle forbici; nelle leve di secondo genere la resistenza è fra il fulcro e la forza motrice, come nella carriola; nelle leve di terzo genere la forza motrice è fra il fulcro e la resistenza, come nelle pinzette o nell’avambraccio."
+    },
+    {
+      "purpose": "Domanda 13",
+      "screen": "Domande guida",
+      "text": "Come si definisce il lavoro di una forza, e da che cosa dipende il suo valore?",
+      "speech": "Come si definisce il lavoro di una forza, e da che cosa dipende il suo valore?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 13",
+      "screen": "Domande guida",
+      "text": "Il lavoro è il prodotto fra il modulo della forza, il modulo dello spostamento del suo punto di applicazione e il coseno dell’angolo compreso fra i due: W = F · d · cos θ.",
+      "speech": "Il lavoro è il prodotto fra il modulo della forza, il modulo dello spostamento del suo punto di applicazione e il coseno dell’angolo compreso fra i due: W uguale a F per d per il coseno di theta."
+    },
+    {
+      "purpose": "Domanda 14",
+      "screen": "Domande guida",
+      "text": "In quale caso il lavoro compiuto da una forza è nullo?",
+      "speech": "In quale caso il lavoro compiuto da una forza è nullo?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 14",
+      "screen": "Domande guida",
+      "text": "Quando la forza è perpendicolare allo spostamento, cioè quando l’angolo fra i due vale 90°, il cui coseno è zero: è il caso della forza centripeta rispetto alla velocità nel moto circolare uniforme.",
+      "speech": "Quando la forza è perpendicolare allo spostamento, cioè quando l’angolo fra i due vale novanta gradi, il cui coseno è zero: è il caso, per esempio, della forza centripeta rispetto alla velocità nel moto circolare uniforme."
+    },
+    {
+      "purpose": "Domanda 15",
+      "screen": "Domande guida",
+      "text": "Che cos’è la potenza, e in quale unità si misura?",
+      "speech": "Che cos’è la potenza, e in quale unità si misura?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 15",
+      "screen": "Domande guida",
+      "text": "È il rapporto fra il lavoro compiuto e il tempo impiegato a compierlo: P = W / t. Si misura in watt (W), pari a un joule al secondo.",
+      "speech": "È il rapporto fra il lavoro compiuto e il tempo impiegato a compierlo, e si misura in watt, pari a un joule al secondo."
+    },
+    {
+      "purpose": "Domanda 16",
+      "screen": "Domande guida",
+      "text": "Che cos’è l’energia cinetica, e da quali grandezze dipende?",
+      "speech": "Che cos’è l’energia cinetica, e da quali grandezze dipende?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 16",
+      "screen": "Domande guida",
+      "text": "È l’energia posseduta da un corpo in virtù del proprio movimento: E꜀ = ½ · m · v². Dipende dalla massa del corpo e dal quadrato della sua velocità.",
+      "speech": "È l’energia posseduta da un corpo in virtù del proprio movimento, e ci uguale a un mezzo per m per v al quadrato: dipende dalla massa del corpo e dal quadrato della sua velocità."
+    },
+    {
+      "purpose": "Domanda 17",
+      "screen": "Domande guida",
+      "text": "Che cos’è l’energia potenziale gravitazionale, e da quali grandezze dipende?",
+      "speech": "Che cos’è l’energia potenziale gravitazionale, e da quali grandezze dipende?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 17",
+      "screen": "Domande guida",
+      "text": "È l’energia posseduta da un corpo in virtù della propria posizione rispetto a un riferimento: Eₚ = m · g · h. Dipende dalla massa, dall’accelerazione di gravità e dall’altezza rispetto al riferimento scelto.",
+      "speech": "È l’energia posseduta da un corpo in virtù della propria posizione rispetto a un riferimento, e pi uguale a m per g per h: dipende dalla massa, dall’accelerazione di gravità e dall’altezza rispetto al riferimento scelto."
+    },
+    {
+      "purpose": "Domanda 18",
+      "screen": "Domande guida",
+      "text": "In che cosa consiste il principio di conservazione dell’energia meccanica?",
+      "speech": "In che cosa consiste il principio di conservazione dell’energia meccanica?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 18",
+      "screen": "Domande guida",
+      "text": "In assenza di attriti e altre forze dissipative, la somma di energia cinetica ed energia potenziale di un corpo, cioè la sua energia meccanica, resta costante nel tempo, anche se le due forme di energia si trasformano continuamente l’una nell’altra.",
+      "speech": "In assenza di attriti e altre forze dissipative, la somma di energia cinetica ed energia potenziale di un corpo, cioè la sua energia meccanica, resta costante nel tempo, anche se le due forme di energia si trasformano continuamente l’una nell’altra."
+    },
+    {
+      "purpose": "Riepilogo",
+      "screen": "Domande guida",
+      "text": "Riassumiamo i punti principali di oggi. Primo: abbiamo ripassato l’accelerazione centripeta e la differenza fra forza centripeta reale e forza centrifuga apparente. Secondo: abbiamo rivisto i tre principi della dinamica, l’equilibrio sul piano inclinato, la forza peso, la caduta libera e le leve. Terzo: abbiamo concluso con lavoro, potenza, energia cinetica, energia potenziale gravitazionale e conservazione dell’energia meccanica. Ora hai tutti gli strumenti per affrontare con sicurezza lo scritto e l’orale su questa parte della fisica.",
+      "speech": "Riassumiamo i punti principali di oggi. Primo: abbiamo ripassato l’accelerazione centripeta e la differenza fra forza centripeta reale e forza centrifuga apparente. Secondo: abbiamo rivisto i tre principi della dinamica, l’equilibrio sul piano inclinato, la forza peso, la caduta libera e le leve. Terzo: abbiamo concluso con lavoro, potenza, energia cinetica, energia potenziale gravitazionale e conservazione dell’energia meccanica. Ora hai tutti gli strumenti per affrontare con sicurezza lo scritto e l’orale su questa parte della fisica."
+    }
+  ]
+}
