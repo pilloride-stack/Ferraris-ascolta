@@ -1,0 +1,266 @@
+{
+  "episode": "17",
+  "title": "Domande guida, parte 1",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "purpose": "Introduzione",
+      "screen": "Domande guida",
+      "text": "Con l’episodio scorso abbiamo completato tutti i contenuti nuovi di questo modulo di meccanica, dalle grandezze fisiche fino alla conservazione dell’energia. In questo episodio e nel prossimo ripercorriamo insieme tutte le domande guida della dispensa, così da avere un ripasso completo prima della verifica o dell’esame. Oggi affrontiamo la prima parte, dedicata a grandezze fisiche, vettori e cinematica del moto rettilineo e circolare. Per ogni domanda, prova prima a rispondere da solo, poi ascolta la risposta.",
+      "speech": "Con l’episodio scorso abbiamo completato tutti i contenuti nuovi di questo modulo di meccanica, dalle grandezze fisiche fino alla conservazione dell’energia. In questo episodio e nel prossimo ripercorriamo insieme tutte le domande guida della dispensa, così da avere un ripasso completo prima della verifica o dell’esame. Oggi affrontiamo la prima parte, dedicata a grandezze fisiche, vettori e cinematica del moto rettilineo e circolare. Per ogni domanda, prova prima a rispondere da solo, poi ascolta la risposta."
+    },
+    {
+      "purpose": "Domanda 1",
+      "screen": "Domande guida",
+      "text": "Che cos’è una grandezza fisica, e che cosa significa misurarla?",
+      "speech": "Che cos’è una grandezza fisica, e che cosa significa misurarla?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 1",
+      "screen": "Domande guida",
+      "text": "È una proprietà di un corpo o di un fenomeno che si può confrontare in modo oggettivo con un’unità di misura, attraverso una procedura ripetibile da chiunque. Misurarla significa stabilire quante volte l’unità di misura è contenuta in essa, ottenendo sempre un numero accompagnato dalla propria unità.",
+      "speech": "È una proprietà di un corpo o di un fenomeno che si può confrontare in modo oggettivo con un’unità di misura, attraverso una procedura ripetibile da chiunque. Misurarla significa stabilire quante volte l’unità di misura è contenuta in essa, ottenendo sempre un numero accompagnato dalla propria unità."
+    },
+    {
+      "purpose": "Domanda 2",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è fra grandezze fondamentali e grandezze derivate?",
+      "speech": "Che differenza cè fra grandezze fondamentali e grandezze derivate?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 2",
+      "screen": "Domande guida",
+      "text": "Le fondamentali sono scelte convenzionalmente come indipendenti e definite da un campione di misura diretta, come la lunghezza o la massa. Le derivate si ottengono dalle fondamentali attraverso una relazione matematica, come la velocità, rapporto fra lunghezza e tempo.",
+      "speech": "Le fondamentali sono scelte convenzionalmente come indipendenti e definite da un campione di misura diretta, come la lunghezza o la massa. Le derivate si ottengono dalle fondamentali attraverso una relazione matematica, come la velocità, rapporto fra lunghezza e tempo."
+    },
+    {
+      "purpose": "Domanda 3",
+      "screen": "Domande guida",
+      "text": "Quali sono le sette grandezze fondamentali del Sistema Internazionale e le loro unità di misura?",
+      "speech": "Quali sono le sette grandezze fondamentali del Sistema Internazionale e le loro unità di misura?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 3",
+      "screen": "Domande guida",
+      "text": "Lunghezza in metri (m), massa in chilogrammi (kg), tempo in secondi (s), corrente elettrica in ampere (A), temperatura termodinamica in kelvin (K), quantità di sostanza in moli (mol), intensità luminosa in candele (cd).",
+      "speech": "Lunghezza in metri, massa in chilogrammi, tempo in secondi, corrente elettrica in ampere, temperatura termodinamica in kelvin, quantità di sostanza in moli, intensità luminosa in candele."
+    },
+    {
+      "purpose": "Domanda 4",
+      "screen": "Domande guida",
+      "text": "A che cosa servono i prefissi come chilo, centi, milli?",
+      "speech": "A che cosa servono i prefissi come chilo, centi, milli?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 4",
+      "screen": "Domande guida",
+      "text": "Servono a esprimere in modo compatto grandezze molto grandi o molto piccole, moltiplicando l’unità di base per una potenza di dieci: chilo per mille (10³), centi per un centesimo (10⁻²), milli per un millesimo (10⁻³), e così via.",
+      "speech": "Servono a esprimere in modo compatto grandezze molto grandi o molto piccole, moltiplicando l’unità di base per una potenza di dieci: chilo per mille, centi per un centesimo, milli per un millesimo, e così via."
+    },
+    {
+      "purpose": "Domanda 5",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è fra grandezze scalari e grandezze vettoriali? Fai due esempi per ciascuna.",
+      "speech": "Che differenza cè fra grandezze scalari e grandezze vettoriali? Fai due esempi per ciascuna.",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 5",
+      "screen": "Domande guida",
+      "text": "Le scalari sono determinate da un numero e un’unità di misura, come la massa e il tempo. Le vettoriali richiedono anche direzione e verso, come lo spostamento e la forza.",
+      "speech": "Le scalari sono determinate da un numero e un’unità di misura, come la massa e il tempo. Le vettoriali richiedono anche direzione e verso, come lo spostamento e la forza."
+    },
+    {
+      "purpose": "Domanda 6",
+      "screen": "Domande guida",
+      "text": "Quali sono i tre elementi che caratterizzano un vettore?",
+      "speech": "Quali sono i tre elementi che caratterizzano un vettore?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 6",
+      "screen": "Domande guida",
+      "text": "Il modulo, cioè la lunghezza della freccia; la direzione, cioè la retta lungo cui giace; il verso, cioè l’orientamento lungo quella retta.",
+      "speech": "Il modulo, cioè la lunghezza della freccia; la direzione, cioè la retta lungo cui giace; il verso, cioè l’orientamento lungo quella retta."
+    },
+    {
+      "purpose": "Domanda 7",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è fra lo spostamento e lo spazio percorso?",
+      "speech": "Che differenza cè fra lo spostamento e lo spazio percorso?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 7",
+      "screen": "Domande guida",
+      "text": "Lo spostamento è il vettore che collega direttamente posizione iniziale e finale, indipendentemente dal percorso seguito. Lo spazio percorso è la lunghezza dell’intera traiettoria realmente compiuta, sempre maggiore o uguale al modulo dello spostamento.",
+      "speech": "Lo spostamento è il vettore che collega direttamente posizione iniziale e finale, indipendentemente dal percorso seguito. Lo spazio percorso è la lunghezza dell’intera traiettoria realmente compiuta, sempre maggiore o uguale al modulo dello spostamento."
+    },
+    {
+      "purpose": "Domanda 8",
+      "screen": "Domande guida",
+      "text": "Come si calcolano le componenti cartesiane di un vettore nota la sua direzione?",
+      "speech": "Come si calcolano le componenti cartesiane di un vettore nota la sua direzione?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 8",
+      "screen": "Domande guida",
+      "text": "Si moltiplica il modulo del vettore per il coseno dell’angolo θ rispetto all’asse x per ottenere la componente x, e per il seno dello stesso angolo per ottenere la componente y: Vₓ = V · cos θ, V_y = V · sen θ.",
+      "speech": "Si moltiplica il modulo del vettore per il coseno dell’angolo theta rispetto all’asse delle ics per ottenere la componente ics, e per il seno dello stesso angolo per ottenere la componente ipsilon."
+    },
+    {
+      "purpose": "Domanda 9",
+      "screen": "Domande guida",
+      "text": "Descrivi i due metodi grafici per sommare due vettori.",
+      "speech": "Descrivi i due metodi grafici per sommare due vettori.",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 9",
+      "screen": "Domande guida",
+      "text": "Il metodo punta-coda: si trasporta il secondo vettore facendo coincidere la sua coda con la punta del primo. Il metodo del parallelogramma: si applicano i due vettori nello stesso punto e il vettore somma è la diagonale del parallelogramma che ne risulta.",
+      "speech": "Il metodo punta-coda: si trasporta il secondo vettore facendo coincidere la sua coda con la punta del primo. Il metodo del parallelogramma: si applicano i due vettori nello stesso punto e il vettore somma è la diagonale del parallelogramma che ne risulta."
+    },
+    {
+      "purpose": "Domanda 10",
+      "screen": "Domande guida",
+      "text": "Come si esegue la somma di due vettori per componenti?",
+      "speech": "Come si esegue la somma di due vettori per componenti?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 10",
+      "screen": "Domande guida",
+      "text": "Si sommano separatamente le componenti lungo l’asse x e lungo l’asse y dei due vettori.",
+      "speech": "Si sommano separatamente le componenti lungo l’asse delle ics e lungo l’asse delle ipsilon dei due vettori."
+    },
+    {
+      "purpose": "Domanda 11",
+      "screen": "Domande guida",
+      "text": "Che cos’è il moto rettilineo uniforme e qual è la sua legge oraria?",
+      "speech": "Che cos’è il moto rettilineo uniforme e qual è la sua legge oraria?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 11",
+      "screen": "Domande guida",
+      "text": "È un moto lungo una traiettoria rettilinea con velocità costante in modulo, direzione e verso. La sua legge oraria è x = x₀ + v · t.",
+      "speech": "È un moto lungo una traiettoria rettilinea con velocità costante in modulo, direzione e verso. La sua legge oraria è: ics uguale a ics zero più v per t."
+    },
+    {
+      "purpose": "Domanda 12",
+      "screen": "Domande guida",
+      "text": "Che cosa rappresentano i grafici x-t e v-t nel moto rettilineo uniforme?",
+      "speech": "Che cosa rappresentano i grafici x-t e v-t nel moto rettilineo uniforme?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 12",
+      "screen": "Domande guida",
+      "text": "Il grafico x-t è una retta, la cui pendenza rappresenta la velocità. Il grafico v-t è una retta orizzontale, perché la velocità resta costante nel tempo.",
+      "speech": "Il grafico spazio tempo è una retta, la cui pendenza rappresenta la velocità. Il grafico velocità tempo è una retta orizzontale, perché la velocità resta costante nel tempo."
+    },
+    {
+      "purpose": "Domanda 13",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è fra velocità media e velocità istantanea?",
+      "speech": "Che differenza cè fra velocità media e velocità istantanea?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 13",
+      "screen": "Domande guida",
+      "text": "La velocità media è il rapporto fra lo spostamento e l’intervallo di tempo impiegato a compierlo. La velocità istantanea è il valore della velocità in un preciso istante, ottenuto calcolando la velocità media su intervalli di tempo sempre più piccoli.",
+      "speech": "La velocità media è il rapporto fra lo spostamento e l’intervallo di tempo impiegato a compierlo. La velocità istantanea è il valore della velocità in un preciso istante, ottenuto calcolando la velocità media su intervalli di tempo sempre più piccoli."
+    },
+    {
+      "purpose": "Domanda 14",
+      "screen": "Domande guida",
+      "text": "Che cos’è l’accelerazione media e in quali unità si misura?",
+      "speech": "Che cos’è l’accelerazione media e in quali unità si misura?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 14",
+      "screen": "Domande guida",
+      "text": "È il rapporto fra la variazione di velocità e l’intervallo di tempo impiegato a produrla: a = Δv / Δt. Si misura in metri al secondo quadrato (m/s²).",
+      "speech": "È il rapporto fra la variazione di velocità e l’intervallo di tempo impiegato a produrla, e si misura in metri al secondo quadrato."
+    },
+    {
+      "purpose": "Domanda 15",
+      "screen": "Domande guida",
+      "text": "Che cos’è il moto uniformemente accelerato e quali sono le sue tre equazioni fondamentali?",
+      "speech": "Che cos’è il moto uniformemente accelerato e quali sono le sue tre equazioni fondamentali?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 15",
+      "screen": "Domande guida",
+      "text": "È un moto con accelerazione costante nel tempo. Le tre equazioni sono: legge della velocità v = v₀ + a · t; legge oraria x = x₀ + v₀ · t + ½ · a · t²; equazione di Torricelli v² = v₀² + 2 · a · Δx.",
+      "speech": "È un moto con accelerazione costante nel tempo. Le sue tre equazioni sono: la legge della velocità, v uguale a v zero più a per t; la legge oraria, ics uguale a ics zero più v zero per t più un mezzo a t al quadrato; e l’equazione di Torricelli, v al quadrato uguale a v zero al quadrato più due a per lo spostamento."
+    },
+    {
+      "purpose": "Domanda 16",
+      "screen": "Domande guida",
+      "text": "A che cosa serve l’equazione di Torricelli?",
+      "speech": "A che cosa serve l’equazione di Torricelli?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 16",
+      "screen": "Domande guida",
+      "text": "Serve a mettere in relazione velocità e spostamento senza dover conoscere o calcolare il tempo impiegato dal moto.",
+      "speech": "Serve a mettere in relazione velocità e spostamento senza dover conoscere o calcolare il tempo impiegato dal moto."
+    },
+    {
+      "purpose": "Domanda 17",
+      "screen": "Domande guida",
+      "text": "Perché nel moto circolare uniforme, pur essendo costante il modulo della velocità, il moto è comunque accelerato?",
+      "speech": "Perché nel moto circolare uniforme, pur essendo costante il modulo della velocità, il moto è comunque accelerato?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 17",
+      "screen": "Domande guida",
+      "text": "Perché l’accelerazione misura la rapidità di variazione della velocità come vettore, e nel moto circolare la direzione della velocità cambia continuamente, anche se il suo modulo resta invariato.",
+      "speech": "Perché l’accelerazione misura la rapidità di variazione della velocità come vettore, e nel moto circolare la direzione della velocità cambia continuamente, anche se il suo modulo resta invariato."
+    },
+    {
+      "purpose": "Domanda 18",
+      "screen": "Domande guida",
+      "text": "Come sono definiti periodo e frequenza, e che relazione li lega?",
+      "speech": "Come sono definiti periodo e frequenza, e che relazione li lega?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 18",
+      "screen": "Domande guida",
+      "text": "Il periodo T è il tempo impiegato a percorrere un giro completo; la frequenza f è il numero di giri compiuti nell’unità di tempo. Sono legati dalla relazione f = 1 / T.",
+      "speech": "Il periodo T è il tempo impiegato a percorrere un giro completo; la frequenza f è il numero di giri compiuti nell’unità di tempo. Sono legati dalla relazione: f uguale a uno diviso T."
+    },
+    {
+      "purpose": "Domanda 19",
+      "screen": "Domande guida",
+      "text": "Che cos’è la velocità angolare e che relazione ha con la velocità tangenziale?",
+      "speech": "Che cos’è la velocità angolare e che relazione ha con la velocità tangenziale?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 19",
+      "screen": "Domande guida",
+      "text": "La velocità angolare ω misura l’angolo descritto dal raggio nell’unità di tempo ed è legata alla velocità tangenziale dalla relazione v = ω · r, dove r è il raggio della traiettoria.",
+      "speech": "La velocità angolare, omega, misura l’angolo descritto dal raggio nell’unità di tempo, ed è legata alla velocità tangenziale dalla relazione v uguale a omega per r, dove r è il raggio della traiettoria."
+    },
+    {
+      "purpose": "Riepilogo",
+      "screen": "Domande guida",
+      "text": "Riassumiamo i punti principali di oggi. Primo: abbiamo ripercorso le domande su grandezze fisiche, Sistema Internazionale e distinzione fra grandezze scalari e vettoriali. Secondo: abbiamo rivisto vettori, componenti cartesiane e i metodi per sommarli. Terzo: abbiamo ripassato moto rettilineo uniforme, moto uniformemente accelerato e le grandezze fondamentali del moto circolare uniforme. Nel prossimo episodio completiamo il ripasso con accelerazione centripeta, principi della dinamica, forze, lavoro ed energia.",
+      "speech": "Riassumiamo i punti principali di oggi. Primo: abbiamo ripercorso le domande su grandezze fisiche, Sistema Internazionale e distinzione fra grandezze scalari e vettoriali. Secondo: abbiamo rivisto vettori, componenti cartesiane e i metodi per sommarli. Terzo: abbiamo ripassato moto rettilineo uniforme, moto uniformemente accelerato e le grandezze fondamentali del moto circolare uniforme. Nel prossimo episodio completiamo il ripasso con accelerazione centripeta, principi della dinamica, forze, lavoro ed energia."
+    }
+  ]
+}

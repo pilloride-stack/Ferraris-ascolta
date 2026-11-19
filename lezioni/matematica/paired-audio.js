@@ -20,7 +20,7 @@
   const unlock=()=>{try{if(!audioEl.src||audioEl.src.startsWith('data:')){audioEl.src=SILENT;audioEl.play().catch(()=>{})}}catch(e){}};
   // Il riquadro Indietro/Avanti fisso in primo piano non serve: la navigazione resta nei pulsanti della pagina.
   const style=document.createElement('style');
-  style.textContent='.lesson-pager{display:none!important}main{padding-bottom:40px!important}.voice-controls .player-btn{min-width:46px;padding-inline:12px;font-weight:900}.voice-controls .player-btn[disabled]{opacity:.4;cursor:not-allowed}.voice-controls .player-pause[aria-pressed="true"]{background:#ffd21c;color:#0b478c;border-color:#ffd21c}';
+  style.textContent='.lesson-pager{display:none!important}main{padding-bottom:120px!important}.screen.active .voice-controls.player-dock{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:30;margin:0;background:#fff;border:1px solid #dce7f2;box-shadow:0 8px 28px rgba(11,40,80,.28);width:max-content;max-width:calc(100% - 20px);justify-content:center}.voice-controls .player-btn{min-width:46px;padding-inline:12px;font-weight:900}.voice-controls .player-btn[disabled]{opacity:.4;cursor:not-allowed}.voice-controls .player-pause[aria-pressed="true"]{background:#ffd21c;color:#0b478c;border-color:#ffd21c}';
   document.head.append(style);
   const clear=()=>document.querySelectorAll('.audio-current').forEach(element=>element.classList.remove('audio-current'));
   const silence=()=>{token++;audioEl.onended=null;audioEl.onerror=null;try{audioEl.pause()}catch(e){};player=null};
@@ -97,6 +97,7 @@
     pauseButton.textContent=paused?'▶ Riprendi':'⏸ Pausa';pauseButton.setAttribute('aria-pressed',paused?'true':'false');
   }
   if(bar){
+    bar.classList.add('player-dock');
     const listen=bar.children[0],halt=bar.children[1],make=(label,text,cls)=>{const b=document.createElement('button');b.type='button';b.className='secondary player-btn '+cls;b.textContent=text;b.setAttribute('aria-label',label);b.title=label;return b};
     prevButton=make('Riascolta la frase o torna alla precedente','⏮','player-prev');
     pauseButton=make('Metti in pausa o riprendi','⏸ Pausa','player-pause');
