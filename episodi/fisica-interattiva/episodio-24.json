@@ -1,0 +1,145 @@
+{
+  "episode": "24",
+  "title": "Resistori in serie e in parallelo, leggi di Kirchhoff",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Resistori in serie. Sono collegati uno dopo l’altro, sullo stesso filo: sono attraversati dalla stessa corrente, e la tensione totale si divide tra loro. La resistenza equivalente è la somma delle resistenze, ed è maggiore di ciascuna. Se un elemento si interrompe, la corrente si ferma in tutto il circuito.",
+      "speech": "Resistori in serie. Sono collegati uno dopo l’altro, sullo stesso filo: sono attraversati dalla stessa corrente, e la tensione totale si divide tra loro. La resistenza equivalente è la somma delle resistenze, ed è maggiore di ciascuna. Se un elemento si interrompe, la corrente si ferma in tutto il circuito.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Resistori in serie"
+    },
+    {
+      "text": "La formula: in serie la resistenza equivalente è la somma delle resistenze.",
+      "speech": "La formula: in serie la resistenza equivalente è la somma delle resistenze.",
+      "screen": "Resistori in serie",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "In serie le resistenze si sommano: quattro più sei fa dieci ohm.",
+      "speech": "In serie le resistenze si sommano: quattro più sei fa dieci ohm.",
+      "screen": "Resistori in serie",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La corrente è dodici volt diviso dieci ohm: uno virgola due ampere, uguale nei due resistori.",
+      "speech": "La corrente è dodici volt diviso dieci ohm: uno virgola due ampere, uguale nei due resistori.",
+      "screen": "Resistori in serie",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Su erre uno ci sono quattro virgola otto volt, su erre due sette virgola due volt: la somma fa dodici volt.",
+      "speech": "Su erre uno ci sono quattro virgola otto volt, su erre due sette virgola due volt: la somma fa dodici volt.",
+      "screen": "Resistori in serie",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Resistori in parallelo. Sono collegati agli stessi due nodi, su rami diversi: hanno tutti la stessa tensione e la corrente si divide tra i rami. L’inverso della resistenza equivalente è la somma degli inversi, e la resistenza equivalente è minore della più piccola. Se un elemento si interrompe, gli altri continuano a funzionare: per questo gli impianti di casa sono in parallelo.",
+      "speech": "Resistori in parallelo. Sono collegati agli stessi due nodi, su rami diversi: hanno tutti la stessa tensione e la corrente si divide tra i rami. L’inverso della resistenza equivalente è la somma degli inversi, e la resistenza equivalente è minore della più piccola. Se un elemento si interrompe, gli altri continuano a funzionare: per questo gli impianti di casa sono in parallelo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Resistori in parallelo"
+    },
+    {
+      "text": "La formula: uno su erre equivalente è uguale a uno su erre uno più uno su erre due.",
+      "speech": "La formula: uno su erre equivalente è uguale a uno su erre uno più uno su erre due.",
+      "screen": "Resistori in parallelo",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un quarto più un sesto fa cinque dodicesimi.",
+      "speech": "Un quarto più un sesto fa cinque dodicesimi.",
+      "screen": "Resistori in parallelo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Capovolgendo, la resistenza equivalente è dodici quinti: due virgola quattro ohm, più piccola di entrambe.",
+      "speech": "Capovolgendo, la resistenza equivalente è dodici quinti: due virgola quattro ohm, più piccola di entrambe.",
+      "screen": "Resistori in parallelo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Ogni resistore ha dodici volt: in erre uno passano tre ampere, in erre due due ampere. In totale cinque ampere.",
+      "speech": "Ogni resistore ha dodici volt: in erre uno passano tre ampere, in erre due due ampere. In totale cinque ampere.",
+      "screen": "Resistori in parallelo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le leggi di Kirchhoff. Un nodo è un punto in cui si incontrano tre o più fili; una maglia è un percorso chiuso. La legge dei nodi dice che la somma delle correnti che entrano in un nodo è uguale alla somma di quelle che escono: è la conservazione della carica. La legge delle maglie dice che lungo una maglia chiusa la somma delle differenze di potenziale è zero: è la conservazione dell’energia.",
+      "speech": "Le leggi di Kirchhoff. Un nodo è un punto in cui si incontrano tre o più fili; una maglia è un percorso chiuso. La legge dei nodi dice che la somma delle correnti che entrano in un nodo è uguale alla somma di quelle che escono: è la conservazione della carica. La legge delle maglie dice che lungo una maglia chiusa la somma delle differenze di potenziale è zero: è la conservazione dell’energia.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Le leggi di Kirchhoff"
+    },
+    {
+      "text": "Nel riquadro le due leggi: nel nodo, correnti entranti uguale correnti uscenti; lungo la maglia, la somma delle tensioni è zero.",
+      "speech": "Nel riquadro le due leggi: nel nodo, correnti entranti uguale correnti uscenti; lungo la maglia, la somma delle tensioni è zero.",
+      "screen": "Le leggi di Kirchhoff",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Le correnti che entrano devono essere uguali a quelle che escono: cinque ampere è uguale a tre ampere più la corrente cercata.",
+      "speech": "Le correnti che entrano devono essere uguali a quelle che escono: cinque ampere è uguale a tre ampere più la corrente cercata.",
+      "screen": "Le leggi di Kirchhoff",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La corrente cercata è cinque meno tre.",
+      "speech": "La corrente cercata è cinque meno tre.",
+      "screen": "Le leggi di Kirchhoff",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nell’altro ramo passano due ampere.",
+      "speech": "Nell’altro ramo passano due ampere.",
+      "screen": "Le leggi di Kirchhoff",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Circuiti misti. Per trovare la resistenza equivalente si procede per gradi: si sostituisce ogni gruppo in serie o in parallelo con la sua resistenza equivalente, fino ad arrivare a una sola resistenza. Poi si calcola la corrente totale e si torna indietro, trovando tensioni e correnti in ogni resistore.",
+      "speech": "Circuiti misti. Per trovare la resistenza equivalente si procede per gradi: si sostituisce ogni gruppo in serie o in parallelo con la sua resistenza equivalente, fino a arrivare a una sola resistenza. Poi si calcola la corrente totale e si torna indietro, trovando tensioni e correnti in ogni resistore.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Circuiti misti"
+    },
+    {
+      "text": "Nel riquadro il metodo: prima il parallelo, poi la serie, poi la resistenza equivalente, la corrente totale e infine tensioni e correnti.",
+      "speech": "Nel riquadro il metodo: prima il parallelo, poi la serie, poi la resistenza equivalente, la corrente totale e infine tensioni e correnti.",
+      "screen": "Circuiti misti",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Prima il parallelo: un sesto più un terzo fa un mezzo, quindi il parallelo vale due ohm.",
+      "speech": "Prima il parallelo: un sesto più un terzo fa un mezzo, quindi il parallelo vale due ohm.",
+      "screen": "Circuiti misti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Poi la serie con erre uno: due più due fa quattro ohm. La corrente totale è dodici diviso quattro: tre ampere.",
+      "speech": "Poi la serie con erre uno: due più due fa quattro ohm. La corrente totale è dodici diviso quattro: tre ampere.",
+      "screen": "Circuiti misti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Su erre uno ci sono sei volt, e sul parallelo restano sei volt. In erre due passa un ampere, in erre tre due ampere: in totale tre ampere, come prevede la legge dei nodi.",
+      "speech": "Su erre uno ci sono sei volt, e sul parallelo restano sei volt. In erre due passa un ampere, in erre tre due ampere: in totale tre ampere, come prevede la legge dei nodi.",
+      "screen": "Circuiti misti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Prima riconosci se i resistori sono in serie o in parallelo, poi usa la formula giusta.",
+      "speech": "Ora tocca a te. Prima riconosci se i resistori sono in serie o in parallelo, poi usa la formula giusta.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Collega gli stessi due resistori prima in serie e poi in parallelo, e confronta la corrente totale.",
+      "speech": "Questo è il laboratorio. Collega gli stessi due resistori prima in serie e poi in parallelo, e confronta la corrente totale.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: in serie le resistenze si sommano e la corrente è la stessa; in parallelo si sommano gli inversi e la tensione è la stessa; nei nodi la corrente che entra è uguale a quella che esce.",
+      "speech": "Ricorda: in serie le resistenze si sommano e la corrente è la stessa; in parallelo si sommano gli inversi e la tensione è la stessa; nei nodi la corrente che entra è uguale a quella che esce.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "episode": "21",
+  "title": "Il campo elettrico",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Il campo elettrico. Una carica modifica lo spazio intorno a sé creando un campo elettrico, e ogni altra carica in quello spazio subisce una forza. Per misurarlo si mette nel punto una piccola carica di prova positiva e si misura la forza: il campo è la forza divisa per la carica di prova, e si misura in newton su coulomb. È un vettore, con il verso della forza su una carica positiva. Su una carica negativa la forza ha verso opposto.",
+      "speech": "Il campo elettrico. Una carica modifica lo spazio intorno a sé creando un campo elettrico, e ogni altra carica in quello spazio subisce una forza. Per misurarlo si mette nel punto una piccola carica di prova positiva e si misura la forza: il campo è la forza divisa per la carica di prova, e si misura in newton su coulomb. È un vettore, con il verso della forza su una carica positiva. Su una carica negativa la forza ha verso opposto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il campo elettrico"
+    },
+    {
+      "text": "Nel riquadro: il campo è la forza diviso la carica; e quindi la forza è la carica per il campo.",
+      "speech": "Nel riquadro: il campo è la forza diviso la carica; e quindi la forza è la carica per il campo.",
+      "screen": "Il campo elettrico",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La forza è la carica moltiplicata per il campo.",
+      "speech": "La forza è la carica moltiplicata per il campo.",
+      "screen": "Il campo elettrico",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Sostituiamo: due per dieci alla meno sei coulomb, per novecento newton su coulomb.",
+      "speech": "Sostituiamo: due per dieci alla meno sei coulomb, per novecento newton su coulomb.",
+      "screen": "Il campo elettrico",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Due per novecento fa milleottocento: la forza è uno virgola otto per dieci alla meno tre newton.",
+      "speech": "Due per novecento fa milleottocento: la forza è uno virgola otto per dieci alla meno tre newton.",
+      "screen": "Il campo elettrico",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il campo di una carica puntiforme. Il campo creato da una carica a distanza erre è cappa per cu grande diviso erre al quadrato. È radiale: uscente se la carica è positiva, entrante se è negativa, e diminuisce con il quadrato della distanza. Con più cariche, il campo totale è la somma vettoriale dei campi: è il principio di sovrapposizione.",
+      "speech": "Il campo di una carica puntiforme. Il campo creato da una carica a distanza erre è cappa per cu grande diviso erre al quadrato. È radiale: uscente se la carica è positiva, entrante se è negativa, e diminuisce con il quadrato della distanza. Con più cariche, il campo totale è la somma vettoriale dei campi: è il principio di sovrapposizione.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il campo di una carica puntiforme"
+    },
+    {
+      "text": "La formula: il campo è cappa per cu grande, diviso erre al quadrato.",
+      "speech": "La formula: il campo è cappa per cu grande, diviso erre al quadrato.",
+      "screen": "Il campo di una carica puntiforme",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Quattro nanocoulomb sono quattro per dieci alla meno nove coulomb; venti centimetri sono zero virgola due metri.",
+      "speech": "Quattro nanocoulomb sono quattro per dieci alla meno nove coulomb; venti centimetri sono zero virgola due metri.",
+      "screen": "Il campo di una carica puntiforme",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Nove per dieci alla nona per quattro per dieci alla meno nove fa trentasei; il quadrato di zero virgola due è zero virgola zero quattro.",
+      "speech": "Nove per dieci alla nona per quattro per dieci alla meno nove fa trentasei; il quadrato di zero virgola due è zero virgola zero quattro.",
+      "screen": "Il campo di una carica puntiforme",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Trentasei diviso zero virgola zero quattro fa novecento newton su coulomb, diretto verso l’esterno perché la carica è positiva.",
+      "speech": "Trentasei diviso zero virgola zero quattro fa novecento newton su coulomb, diretto verso l’esterno perché la carica è positiva.",
+      "screen": "Il campo di una carica puntiforme",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Le linee di campo. Sono linee tangenti in ogni punto al campo. Escono dalle cariche positive ed entrano nelle negative, sono più fitte dove il campo è più intenso, e non si incrociano mai. In un dipolo escono dalla carica positiva e si incurvano per entrare nella negativa. Tra due lastre parallele con cariche opposte il campo è uniforme: linee parallele ed equidistanti.",
+      "speech": "Le linee di campo. Sono linee tangenti in ogni punto al campo. Escono dalle cariche positive ed entrano nelle negative, sono più fitte dove il campo è più intenso, e non si incrociano mai. In un dipolo escono dalla carica positiva e si incurvano per entrare nella negativa. Tra due lastre parallele con cariche opposte il campo è uniforme: linee parallele ed equidistanti.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Le linee di campo"
+    },
+    {
+      "text": "Nel riquadro le tre proprietà delle linee di campo: escono dalle positive ed entrano nelle negative, sono fitte dove il campo è intenso, non si incrociano.",
+      "speech": "Nel riquadro le tre proprietà delle linee di campo: escono dalle positive ed entrano nelle negative, sono fitte dove il campo è intenso, non si incrociano.",
+      "screen": "Le linee di campo",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Le linee partono dalla carica positiva, a sinistra.",
+      "speech": "Le linee partono dalla carica positiva, a sinistra.",
+      "screen": "Le linee di campo",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Si incurvano e arrivano sulla carica negativa, a destra.",
+      "speech": "Si incurvano e arrivano sulla carica negativa, a destra.",
+      "screen": "Le linee di campo",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Sono più fitte vicino alle cariche e nella zona tra le due: lì il campo è più intenso.",
+      "speech": "Sono più fitte vicino alle cariche e nella zona tra le due: lì il campo è più intenso.",
+      "screen": "Le linee di campo",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il flusso e il teorema di Gauss. Il flusso misura quante linee di campo attraversano una superficie: è il campo per la superficie per il coseno dell’angolo tra il campo e la perpendicolare. È massimo se il campo è perpendicolare alla superficie, zero se è parallelo. Il teorema di Gauss afferma che il flusso attraverso una superficie chiusa è uguale alla carica interna divisa per epsilon zero. Per questo dentro un conduttore carico il campo è nullo: è la gabbia di Faraday.",
+      "speech": "Il flusso e il teorema di Gauss. Il flusso misura quante linee di campo attraversano una superficie: è il campo per la superficie per il coseno dell’angolo tra il campo e la perpendicolare. È massimo se il campo è perpendicolare alla superficie, zero se è parallelo. Il teorema di Gauss afferma che il flusso attraverso una superficie chiusa è uguale alla carica interna divisa per epsilon zero. Per questo dentro un conduttore carico il campo è nullo: è la gabbia di Faraday.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il flusso e il teorema di Gauss"
+    },
+    {
+      "text": "Nel riquadro: il flusso è e per esse per il coseno di alfa; per una superficie chiusa è la carica interna diviso epsilon zero.",
+      "speech": "Nel riquadro: il flusso è e per esse per il coseno di alfa; per una superficie chiusa è la carica interna diviso epsilon zero.",
+      "screen": "Il flusso e il teorema di Gauss",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il campo è perpendicolare alla superficie: l’angolo con la normale è zero e il coseno vale uno.",
+      "speech": "Il campo è perpendicolare alla superficie: l’angolo con la normale è zero e il coseno vale uno.",
+      "screen": "Il flusso e il teorema di Gauss",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il flusso è duecento per zero virgola cinque per uno.",
+      "speech": "Il flusso è duecento per zero virgola cinque per uno.",
+      "screen": "Il flusso e il teorema di Gauss",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il flusso vale cento newton per metro quadrato su coulomb. Se la superficie fosse parallela al campo, il flusso sarebbe zero.",
+      "speech": "Il flusso vale cento newton per metro quadrato su coulomb. Se la superficie fosse parallela al campo, il flusso sarebbe zero.",
+      "screen": "Il flusso e il teorema di Gauss",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda: il campo è la forza per unità di carica e diminuisce con il quadrato della distanza.",
+      "speech": "Ora tocca a te. Ricorda: il campo è la forza per unità di carica e diminuisce con il quadrato della distanza.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Allontana la carica di prova e guarda quanto diminuisce il campo; poi cambia il segno delle cariche.",
+      "speech": "Questo è il laboratorio. Allontana la carica di prova e guarda quanto diminuisce il campo; poi cambia il segno delle cariche.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il campo è la forza diviso la carica di prova; le linee escono dalle cariche positive ed entrano nelle negative; il flusso attraverso una superficie chiusa dipende solo dalla carica interna.",
+      "speech": "Ricorda: il campo è la forza diviso la carica di prova; le linee escono dalle cariche positive ed entrano nelle negative; il flusso attraverso una superficie chiusa dipende solo dalla carica interna.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "episode": "27",
+  "title": "Domande guida: elettricità e magnetismo",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "purpose": "Introduzione",
+      "screen": "Domande guida",
+      "text": "In questo episodio ripercorriamo tutte le domande guida della dispensa di quinta, dall’elettrizzazione dei corpi fino al solenoide. È il ripasso completo prima della verifica o dell’esame. Per ogni domanda, prova prima a rispondere da solo, poi ascolta la risposta.",
+      "speech": "In questo episodio ripercorriamo tutte le domande guida della dispensa di quinta, dall’elettrizzazione dei corpi fino al solenoide. È il ripasso completo prima della verifica o dell’esame. Per ogni domanda, prova prima a rispondere da solo, poi ascolta la risposta."
+    },
+    {
+      "purpose": "Domanda 1",
+      "screen": "Domande guida",
+      "text": "Quali sono i due tipi di carica elettrica e come interagiscono?",
+      "speech": "Quali sono i due tipi di carica elettrica e come interagiscono?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 1",
+      "screen": "Domande guida",
+      "text": "La carica positiva e la carica negativa. Cariche dello stesso segno si respingono, cariche di segno opposto si attraggono.",
+      "speech": "La carica positiva e la carica negativa. Cariche dello stesso segno si respingono, cariche di segno opposto si attraggono."
+    },
+    {
+      "purpose": "Domanda 2",
+      "screen": "Domande guida",
+      "text": "Perché un corpo si elettrizza?",
+      "speech": "Perché un corpo si elettrizza?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 2",
+      "screen": "Domande guida",
+      "text": "Perché perde o acquista elettroni: se perde elettroni diventa positivo, se li acquista diventa negativo. I protoni, legati nel nucleo, non si spostano.",
+      "speech": "Perché perde o acquista elettroni: se perde elettroni diventa positivo, se li acquista diventa negativo. I protoni, legati nel nucleo, non si spostano."
+    },
+    {
+      "purpose": "Domanda 3",
+      "screen": "Domande guida",
+      "text": "Che cosa afferma il principio di conservazione della carica?",
+      "speech": "Che cosa afferma il principio di conservazione della carica?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 3",
+      "screen": "Domande guida",
+      "text": "Che in un sistema isolato la carica totale non cambia: le cariche non si creano né si distruggono, si spostano soltanto da un corpo all’altro.",
+      "speech": "Che in un sistema isolato la carica totale non cambia: le cariche non si creano né si distruggono, si spostano soltanto da un corpo all’altro."
+    },
+    {
+      "purpose": "Domanda 4",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è tra conduttori e isolanti?",
+      "speech": "Che differenza cè tra conduttori e isolanti?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 4",
+      "screen": "Domande guida",
+      "text": "Nei conduttori, come i metalli, ci sono elettroni liberi che si muovono facilmente e le cariche si distribuiscono sulla superficie; negli isolanti, come plastica e vetro, gli elettroni sono legati e le cariche restano ferme.",
+      "speech": "Nei conduttori, come i metalli, ci sono elettroni liberi che si muovono facilmente e le cariche si distribuiscono sulla superficie; negli isolanti, come plastica e vetro, gli elettroni sono legati e le cariche restano ferme."
+    },
+    {
+      "purpose": "Domanda 5",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è tra elettrizzazione per contatto e per induzione?",
+      "speech": "Che differenza cè tra elettrizzazione per contatto e per induzione?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 5",
+      "screen": "Domande guida",
+      "text": "Per contatto il corpo carico tocca quello neutro e gli trasferisce carica dello stesso segno; per induzione il corpo carico viene solo avvicinato, separa le cariche del conduttore e, con un collegamento a terra, lo lascia carico di segno opposto.",
+      "speech": "Per contatto il corpo carico tocca quello neutro e gli trasferisce carica dello stesso segno; per induzione il corpo carico viene solo avvicinato, separa le cariche del conduttore e, con un collegamento a terra, lo lascia carico di segno opposto."
+    },
+    {
+      "purpose": "Domanda 6",
+      "screen": "Domande guida",
+      "text": "Che cosa afferma la legge di Coulomb?",
+      "speech": "Che cosa afferma la legge di Coulomb?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 6",
+      "screen": "Domande guida",
+      "text": "Che la forza tra due cariche è direttamente proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza: F = k · q₁ · q₂ / r². È attrattiva tra cariche opposte, repulsiva tra cariche uguali.",
+      "speech": "Che la forza tra due cariche è direttamente proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza. È attrattiva tra cariche opposte, repulsiva tra cariche uguali."
+    },
+    {
+      "purpose": "Domanda 7",
+      "screen": "Domande guida",
+      "text": "Che cosa succede alla forza se la distanza tra le cariche triplica?",
+      "speech": "Che cosa succede alla forza se la distanza tra le cariche triplica?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 7",
+      "screen": "Domande guida",
+      "text": "Diventa nove volte più piccola, perché la forza dipende dall’inverso del quadrato della distanza: 3² = 9.",
+      "speech": "Diventa nove volte più piccola, perché la forza dipende dall’inverso del quadrato della distanza: tre al quadrato fa nove."
+    },
+    {
+      "purpose": "Domanda 8",
+      "screen": "Domande guida",
+      "text": "In che cosa la forza elettrica è simile e in che cosa è diversa dalla forza gravitazionale?",
+      "speech": "In che cosa la forza elettrica è simile e in che cosa è diversa dalla forza gravitazionale?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 8",
+      "screen": "Domande guida",
+      "text": "Sono simili perché entrambe diminuiscono con il quadrato della distanza. Sono diverse perché la forza elettrica può essere attrattiva o repulsiva ed è enormemente più intensa.",
+      "speech": "Sono simili perché entrambe diminuiscono con il quadrato della distanza. Sono diverse perché la forza elettrica può essere attrattiva o repulsiva ed è enormemente più intensa."
+    },
+    {
+      "purpose": "Domanda 9",
+      "screen": "Domande guida",
+      "text": "Che cos’è il campo elettrico?",
+      "speech": "Che cosa è il campo elettrico?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 9",
+      "screen": "Domande guida",
+      "text": "È la modificazione dello spazio prodotta da una carica: in ogni punto è il vettore E = F / q, cioè la forza che subirebbe una carica di prova positiva divisa per la carica stessa. Si misura in N/C.",
+      "speech": "È la modificazione dello spazio prodotta da una carica: in ogni punto è la forza che subirebbe una carica di prova positiva, divisa per la carica stessa. Si misura in newton su coulomb."
+    },
+    {
+      "purpose": "Domanda 10",
+      "screen": "Domande guida",
+      "text": "Quanto vale il campo di una carica puntiforme?",
+      "speech": "Quanto vale il campo di una carica puntiforme?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 10",
+      "screen": "Domande guida",
+      "text": "E = k · Q / r²: è radiale, uscente se la carica è positiva, entrante se è negativa, e diminuisce con il quadrato della distanza.",
+      "speech": "Vale cappa per cu diviso erre al quadrato: è radiale, uscente se la carica è positiva, entrante se è negativa, e diminuisce con il quadrato della distanza."
+    },
+    {
+      "purpose": "Domanda 11",
+      "screen": "Domande guida",
+      "text": "Quali sono le proprietà delle linee di campo?",
+      "speech": "Quali sono le proprietà delle linee di campo?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 11",
+      "screen": "Domande guida",
+      "text": "Escono dalle cariche positive ed entrano nelle negative, sono più fitte dove il campo è più intenso e non si incrociano mai.",
+      "speech": "Escono dalle cariche positive ed entrano nelle negative, sono più fitte dove il campo è più intenso e non si incrociano mai."
+    },
+    {
+      "purpose": "Domanda 12",
+      "screen": "Domande guida",
+      "text": "Che cosa afferma il teorema di Gauss?",
+      "speech": "Che cosa afferma il teorema di Gauss?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 12",
+      "screen": "Domande guida",
+      "text": "Che il flusso del campo elettrico attraverso una superficie chiusa è uguale alla carica interna divisa per ε₀: Φ = Q interna / ε₀.",
+      "speech": "Che il flusso del campo elettrico attraverso una superficie chiusa è uguale alla carica interna divisa per epsilon zero."
+    },
+    {
+      "purpose": "Domanda 13",
+      "screen": "Domande guida",
+      "text": "Perché dentro un’automobile si è protetti dai fulmini?",
+      "speech": "Perché dentro un’automobile si è protetti dai fulmini?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 13",
+      "screen": "Domande guida",
+      "text": "Perché la carrozzeria metallica è un conduttore: la carica si dispone sulla superficie esterna e il campo all’interno è nullo (gabbia di Faraday).",
+      "speech": "Perché la carrozzeria metallica è un conduttore: la carica si dispone sulla superficie esterna e il campo all’interno è nullo. È la gabbia di Faraday."
+    },
+    {
+      "purpose": "Domanda 14",
+      "screen": "Domande guida",
+      "text": "Che cos’è il potenziale elettrico?",
+      "speech": "Che cosa è il potenziale elettrico?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 14",
+      "screen": "Domande guida",
+      "text": "È l’energia potenziale per unità di carica in un punto del campo: V = U / q. Si misura in volt (1 V = 1 J/C).",
+      "speech": "È l’energia potenziale per unità di carica in un punto del campo. Si misura in volt: un volt è un joule su coulomb."
+    },
+    {
+      "purpose": "Domanda 15",
+      "screen": "Domande guida",
+      "text": "Che cos’è la differenza di potenziale e come si collega al lavoro?",
+      "speech": "Che cosa è la differenza di potenziale e come si collega al lavoro?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 15",
+      "screen": "Domande guida",
+      "text": "È la differenza tra il potenziale di due punti, detta anche tensione. Il lavoro del campo per spostare una carica q tra i due punti è L = q · ΔV. Le cariche positive si muovono spontaneamente verso potenziali più bassi.",
+      "speech": "È la differenza tra il potenziale di due punti, detta anche tensione. Il lavoro del campo per spostare una carica tra i due punti è la carica per la differenza di potenziale. Le cariche positive si muovono spontaneamente verso potenziali più bassi."
+    },
+    {
+      "purpose": "Domanda 16",
+      "screen": "Domande guida",
+      "text": "Che cos’è un condensatore e da che cosa dipende la sua capacità?",
+      "speech": "Che cosa è un condensatore e da che cosa dipende la sua capacità?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 16",
+      "screen": "Domande guida",
+      "text": "È un dispositivo formato da due armature separate da un isolante, che accumula carica ed energia. La capacità C = Q / ΔV si misura in farad; per un condensatore piano C = ε₀ · εr · S / d: cresce con l’area delle armature e diminuisce con la loro distanza.",
+      "speech": "È un dispositivo formato da due armature separate da un isolante, che accumula carica ed energia. La capacità è la carica divisa per la tensione e si misura in farad; per un condensatore piano cresce con l’area delle armature e diminuisce con la loro distanza."
+    },
+    {
+      "purpose": "Domanda 17",
+      "screen": "Domande guida",
+      "text": "Che cos’è la corrente elettrica e come si misura?",
+      "speech": "Che cosa è la corrente elettrica e come si misura?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 17",
+      "screen": "Domande guida",
+      "text": "È un flusso ordinato di cariche; nei metalli si muovono gli elettroni liberi. L’intensità è I = ΔQ / Δt, la carica che passa in un secondo, e si misura in ampere (A = C/s).",
+      "speech": "È un flusso ordinato di cariche; nei metalli si muovono gli elettroni liberi. L’intensità è la carica che passa in un secondo, e si misura in ampere."
+    },
+    {
+      "purpose": "Domanda 18",
+      "screen": "Domande guida",
+      "text": "Qual è il verso convenzionale della corrente?",
+      "speech": "Qual è il verso convenzionale della corrente?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 18",
+      "screen": "Domande guida",
+      "text": "Quello in cui si muoverebbero le cariche positive, dal polo positivo al polo negativo attraverso il circuito; gli elettroni, in realtà, si muovono nel verso opposto.",
+      "speech": "Quello in cui si muoverebbero le cariche positive, dal polo positivo al polo negativo attraverso il circuito; gli elettroni, in realtà, si muovono nel verso opposto."
+    },
+    {
+      "purpose": "Domanda 19",
+      "screen": "Domande guida",
+      "text": "Che cosa fa un generatore in un circuito?",
+      "speech": "Che cosa fa un generatore in un circuito?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 19",
+      "screen": "Domande guida",
+      "text": "Mantiene costante la differenza di potenziale ai capi del circuito, “sollevando” le cariche come una pompa solleva l’acqua, e permette così il passaggio di una corrente continua. Il primo fu la pila di Volta.",
+      "speech": "Mantiene costante la differenza di potenziale ai capi del circuito, “sollevando” le cariche come una pompa solleva l’acqua, e permette così il passaggio di una corrente continua. Il primo fu la pila di Volta."
+    },
+    {
+      "purpose": "Domanda 20",
+      "screen": "Domande guida",
+      "text": "Che cosa affermano la prima e la seconda legge di Ohm?",
+      "speech": "Che cosa affermano la prima e la seconda legge di Ohm?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 20",
+      "screen": "Domande guida",
+      "text": "La prima: la tensione è proporzionale alla corrente, ΔV = R · I. La seconda: la resistenza di un filo è R = ρ · L / S, proporzionale alla lunghezza e inversamente proporzionale alla sezione, e dipende dal materiale.",
+      "speech": "La prima: la tensione è proporzionale alla corrente, ed è erre per i. La seconda: la resistenza di un filo è proporzionale alla lunghezza, inversamente proporzionale alla sezione, e dipende dal materiale."
+    },
+    {
+      "purpose": "Domanda 21",
+      "screen": "Domande guida",
+      "text": "Che cos’è l’effetto Joule?",
+      "speech": "Che cosa è l’effetto Joule?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 21",
+      "screen": "Domande guida",
+      "text": "Il riscaldamento di un conduttore attraversato da corrente: l’energia elettrica si trasforma in calore. La potenza dissipata è P = R · I² (o P = ΔV · I).",
+      "speech": "Il riscaldamento di un conduttore attraversato da corrente: l’energia elettrica si trasforma in calore. La potenza dissipata è erre per i al quadrato, oppure la tensione per la corrente."
+    },
+    {
+      "purpose": "Domanda 22",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è tra resistori in serie e in parallelo?",
+      "speech": "Che differenza cè tra resistori in serie e in parallelo?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 22",
+      "screen": "Domande guida",
+      "text": "In serie sono attraversati dalla stessa corrente e Rₑ = R₁ + R₂, maggiore di ciascuna. In parallelo hanno la stessa tensione e 1 / Rₑ = 1 / R₁ + 1 / R₂, minore della più piccola.",
+      "speech": "In serie sono attraversati dalla stessa corrente e la resistenza equivalente è la somma, maggiore di ciascuna. In parallelo hanno la stessa tensione e l’inverso della resistenza equivalente è la somma degli inversi: è minore della più piccola."
+    },
+    {
+      "purpose": "Domanda 23",
+      "screen": "Domande guida",
+      "text": "Che cosa affermano le leggi di Kirchhoff?",
+      "speech": "Che cosa affermano le leggi di Kirchhoff?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 23",
+      "screen": "Domande guida",
+      "text": "La legge dei nodi: in ogni nodo la somma delle correnti entranti è uguale a quella delle uscenti (conservazione della carica). La legge delle maglie: lungo una maglia chiusa la somma delle differenze di potenziale è zero (conservazione dell’energia).",
+      "speech": "La legge dei nodi: in ogni nodo la somma delle correnti entranti è uguale a quella delle uscenti, per la conservazione della carica. La legge delle maglie: lungo una maglia chiusa la somma delle differenze di potenziale è zero, per la conservazione dell’energia."
+    },
+    {
+      "purpose": "Domanda 24",
+      "screen": "Domande guida",
+      "text": "Quali sono le proprietà dei poli magnetici?",
+      "speech": "Quali sono le proprietà dei poli magnetici?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 24",
+      "screen": "Domande guida",
+      "text": "Poli dello stesso nome si respingono, poli di nome opposto si attraggono, e i poli non si possono separare: spezzando una calamita si ottengono due calamite più piccole, ciascuna con un polo nord e un polo sud.",
+      "speech": "Poli dello stesso nome si respingono, poli di nome opposto si attraggono, e i poli non si possono separare: spezzando una calamita si ottengono due calamite più piccole, ciascuna con un polo nord e un polo sud."
+    },
+    {
+      "purpose": "Domanda 25",
+      "screen": "Domande guida",
+      "text": "Che differenza c’è tra le linee del campo magnetico e quelle del campo elettrico?",
+      "speech": "Che differenza cè tra le linee del campo magnetico e quelle del campo elettrico?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 25",
+      "screen": "Domande guida",
+      "text": "Le linee del campo elettrico nascono sulle cariche positive e finiscono su quelle negative; le linee del campo magnetico sono chiuse: all’esterno vanno da nord a sud e all’interno del magnete da sud a nord.",
+      "speech": "Le linee del campo elettrico nascono sulle cariche positive e finiscono su quelle negative; le linee del campo magnetico sono chiuse: all’esterno vanno da nord a sud e all’interno del magnete da sud a nord."
+    },
+    {
+      "purpose": "Domanda 26",
+      "screen": "Domande guida",
+      "text": "Perché la bussola indica il nord?",
+      "speech": "Perché la bussola indica il nord?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 26",
+      "screen": "Domande guida",
+      "text": "Perché la Terra si comporta come un grande magnete e l’ago della bussola si allinea con le linee del suo campo. Vicino al Polo Nord geografico si trova un polo sud magnetico, che attrae il polo nord dell’ago.",
+      "speech": "Perché la Terra si comporta come un grande magnete e l’ago della bussola si allinea con le linee del suo campo. Vicino al Polo Nord geografico si trova un polo sud magnetico, che attrae il polo nord dell’ago."
+    },
+    {
+      "purpose": "Domanda 27",
+      "screen": "Domande guida",
+      "text": "Che cosa dimostrano le esperienze di Oersted, Faraday e Ampère?",
+      "speech": "Che cosa dimostrano le esperienze di Oersted, Faraday e Ampère?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 27",
+      "screen": "Domande guida",
+      "text": "Oersted: una corrente crea un campo magnetico. Faraday: un campo magnetico esercita una forza su una corrente. Ampère: due fili percorsi da corrente si attraggono se le correnti hanno lo stesso verso e si respingono se hanno verso opposto. Elettricità e magnetismo sono collegati.",
+      "speech": "Oersted: una corrente crea un campo magnetico. Faraday: un campo magnetico esercita una forza su una corrente. Ampère: due fili percorsi da corrente si attraggono se le correnti hanno lo stesso verso e si respingono se hanno verso opposto. Elettricità e magnetismo sono collegati."
+    },
+    {
+      "purpose": "Domanda 28",
+      "screen": "Domande guida",
+      "text": "Che cos’è la forza di Lorentz?",
+      "speech": "Che cosa è la forza di Lorentz?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 28",
+      "screen": "Domande guida",
+      "text": "La forza che un campo magnetico esercita su una carica in movimento: F = q · v · B · sen α. È nulla se la carica è ferma o si muove parallela al campo, ed è sempre perpendicolare alla velocità, per cui ne cambia solo la direzione.",
+      "speech": "La forza che un campo magnetico esercita su una carica in movimento: cu per vu per bi per il seno dell’angolo. È nulla se la carica è ferma o si muove parallela al campo, ed è sempre perpendicolare alla velocità, per cui ne cambia solo la direzione."
+    },
+    {
+      "purpose": "Domanda 29",
+      "screen": "Domande guida",
+      "text": "Che cosa afferma la legge di Biot-Savart?",
+      "speech": "Che cosa afferma la legge di Biot-Savart?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 29",
+      "screen": "Domande guida",
+      "text": "Che il campo magnetico di un filo rettilineo percorso da corrente è B = μ₀ · I / (2π r): è proporzionale alla corrente e inversamente proporzionale alla distanza; le linee di campo sono circonferenze concentriche al filo.",
+      "speech": "Che il campo magnetico di un filo rettilineo è mu zero per i, diviso due pi greco erre: è proporzionale alla corrente e inversamente proporzionale alla distanza; le linee di campo sono circonferenze concentriche al filo."
+    },
+    {
+      "purpose": "Domanda 30",
+      "screen": "Domande guida",
+      "text": "Che cos’è un solenoide e com’è il suo campo magnetico?",
+      "speech": "Che cosa è un solenoide e com’è il suo campo magnetico?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 30",
+      "screen": "Domande guida",
+      "text": "È un filo avvolto a elica, formato da molte spire. All’interno il campo è uniforme e vale B = μ₀ · N · I / L; all’esterno somiglia a quello di una calamita a barra. Con un nucleo di ferro diventa un elettromagnete.",
+      "speech": "È un filo avvolto a elica, formato da molte spire. All’interno il campo è uniforme e vale mu zero per enne per i diviso elle; all’esterno somiglia a quello di una calamita a barra. Con un nucleo di ferro diventa un elettromagnete."
+    },
+    {
+      "purpose": "Domanda 31",
+      "screen": "Domande guida",
+      "text": "Quali analogie e differenze ci sono tra campo elettrico e campo magnetico?",
+      "speech": "Quali analogie e differenze ci sono tra campo elettrico e campo magnetico?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 31",
+      "screen": "Domande guida",
+      "text": "Entrambi sono campi vettoriali rappresentati con linee di campo ed esercitano forze a distanza. Ma il campo elettrico è prodotto da cariche, anche ferme, agisce anche su cariche ferme e ha linee che nascono e muoiono sulle cariche; il campo magnetico è prodotto da magneti e correnti, agisce solo su cariche in movimento e ha linee chiuse.",
+      "speech": "Entrambi sono campi vettoriali rappresentati con linee di campo ed esercitano forze a distanza. Ma il campo elettrico è prodotto da cariche, anche ferme, agisce anche su cariche ferme e ha linee che nascono e muoiono sulle cariche; il campo magnetico è prodotto da magneti e correnti, agisce solo su cariche in movimento e ha linee chiuse."
+    },
+    {
+      "purpose": "Domanda 32",
+      "screen": "Domande guida",
+      "text": "Che cosa hanno in comune la legge di Coulomb e la legge di gravitazione universale?",
+      "speech": "Che cosa hanno in comune la legge di Coulomb e la legge di gravitazione universale?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 32",
+      "screen": "Domande guida",
+      "text": "Entrambe descrivono forze che diminuiscono con il quadrato della distanza e sono proporzionali al prodotto di due grandezze (cariche o masse). La forza elettrica però può essere anche repulsiva ed è enormemente più intensa.",
+      "speech": "Entrambe descrivono forze che diminuiscono con il quadrato della distanza e sono proporzionali al prodotto di due grandezze (cariche o masse). La forza elettrica però può essere anche repulsiva ed è enormemente più intensa."
+    },
+    {
+      "purpose": "Domanda 33",
+      "screen": "Domande guida",
+      "text": "Come si trasforma l’energia in un circuito elettrico?",
+      "speech": "Come si trasforma l’energia in un circuito elettrico?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 33",
+      "screen": "Domande guida",
+      "text": "Il generatore trasforma un’altra forma di energia (chimica, meccanica, luminosa) in energia elettrica; negli utilizzatori l’energia elettrica si trasforma in calore (effetto Joule), luce, movimento. La potenza è P = ΔV · I.",
+      "speech": "Il generatore trasforma un’altra forma di energia, chimica, meccanica o luminosa, in energia elettrica; negli utilizzatori l’energia elettrica si trasforma in calore, luce o movimento. La potenza è la tensione per la corrente."
+    },
+    {
+      "purpose": "Domanda 34",
+      "screen": "Domande guida",
+      "text": "Perché le prese di casa sono collegate in parallelo?",
+      "speech": "Perché le prese di casa sono collegate in parallelo?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 34",
+      "screen": "Domande guida",
+      "text": "Perché in parallelo ogni apparecchio riceve la stessa tensione (230 V) e funziona indipendentemente dagli altri: se uno si guasta o si spegne, gli altri continuano a funzionare.",
+      "speech": "Perché in parallelo ogni apparecchio riceve la stessa tensione, duecentotrenta volt, e funziona indipendentemente dagli altri: se uno si guasta o si spegne, gli altri continuano a funzionare."
+    },
+    {
+      "purpose": "Domanda 35",
+      "screen": "Domande guida",
+      "text": "Perché si dice che elettricità e magnetismo sono due aspetti dello stesso fenomeno?",
+      "speech": "Perché si dice che elettricità e magnetismo sono due aspetti dello stesso fenomeno?",
+      "rate": 0.86
+    },
+    {
+      "purpose": "Risposta 35",
+      "screen": "Domande guida",
+      "text": "Perché una corrente crea un campo magnetico (Oersted), un campo magnetico esercita forze sulle correnti e sulle cariche in moto (Faraday, Ampère, Lorentz) e un campo magnetico variabile produce una corrente (induzione di Faraday). Maxwell li unificò nell’elettromagnetismo.",
+      "speech": "Perché una corrente crea un campo magnetico, come vide Oersted; un campo magnetico esercita forze sulle correnti e sulle cariche in moto, come mostrarono Faraday, Ampère e Lorentz; e un campo magnetico variabile produce una corrente, l’induzione di Faraday. Maxwell li unificò nell’elettromagnetismo."
+    },
+    {
+      "purpose": "Riepilogo",
+      "screen": "Domande guida",
+      "text": "Abbiamo ripassato tutto il programma di quinta: le cariche e la legge di Coulomb, il campo e il potenziale elettrico, i condensatori, la corrente con le leggi di Ohm e di Kirchhoff, e infine i magneti, le esperienze di Oersted, Faraday e Ampère, la forza di Lorentz e i campi delle correnti. Ricorda il filo che lega tutto: elettricità e magnetismo sono due aspetti dello stesso fenomeno, l’elettromagnetismo.",
+      "speech": "Abbiamo ripassato tutto il programma di quinta: le cariche e la legge di Coulomb, il campo e il potenziale elettrico, i condensatori, la corrente con le leggi di Ohm e di Kirchhoff, e infine i magneti, le esperienze di Oersted, Faraday e Ampère, la forza di Lorentz e i campi delle correnti. Ricorda il filo che lega tutto: elettricità e magnetismo sono due aspetti dello stesso fenomeno, l’elettromagnetismo."
+    }
+  ]
+}
