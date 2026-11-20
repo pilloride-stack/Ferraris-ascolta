@@ -1,0 +1,145 @@
+{
+  "episode": "26",
+  "title": "Forza di Lorentz e campi magnetici delle correnti",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "La forza di Lorentz. È la forza che un campo magnetico esercita su una carica in movimento: cu per vu per bi per il seno dell’angolo tra velocità e campo. È nulla se la carica è ferma o si muove parallela al campo, massima se si muove perpendicolare. È sempre perpendicolare alla velocità: cambia solo la direzione del moto, e la carica percorre una circonferenza.",
+      "speech": "La forza di Lorentz. È la forza che un campo magnetico esercita su una carica in movimento: cu per vu per bi per il seno dell’angolo tra velocità e campo. È nulla se la carica è ferma o si muove parallela al campo, massima se si muove perpendicolare. È sempre perpendicolare alla velocità: cambia solo la direzione del moto, e la carica percorre una circonferenza.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La forza di Lorentz"
+    },
+    {
+      "text": "La formula: effe è cu per vu per bi per il seno di alfa.",
+      "speech": "La formula: effe è cu per vu per bi per il seno di alfa.",
+      "screen": "La forza di Lorentz",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La velocità è perpendicolare al campo: il seno di novanta gradi vale uno.",
+      "speech": "La velocità è perpendicolare al campo: il seno di novanta gradi vale uno.",
+      "screen": "La forza di Lorentz",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Uno virgola sei per dieci alla meno diciannove, per due per dieci alla sei, per zero virgola cinque.",
+      "speech": "Uno virgola sei per dieci alla meno diciannove, per due per dieci alla sei, per zero virgola cinque.",
+      "screen": "La forza di Lorentz",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Uno virgola sei per due per zero virgola cinque fa uno virgola sei; meno diciannove più sei fa meno tredici: uno virgola sei per dieci alla meno tredici newton.",
+      "speech": "Uno virgola sei per due per zero virgola cinque fa uno virgola sei; meno diciannove più sei fa meno tredici: uno virgola sei per dieci alla meno tredici newton.",
+      "screen": "La forza di Lorentz",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il campo di un filo, legge di Biot-Savart. Le linee del campo di un filo rettilineo sono circonferenze concentriche al filo. Il verso si trova con la regola della mano destra: pollice nel verso della corrente, le dita indicano il verso delle linee. Il campo è mu zero per i, diviso due pi greco erre: proporzionale alla corrente e inversamente proporzionale alla distanza, non al suo quadrato.",
+      "speech": "Il campo di un filo, legge di Biot-Savart. Le linee del campo di un filo rettilineo sono circonferenze concentriche al filo. Il verso si trova con la regola della mano destra: pollice nel verso della corrente, le dita indicano il verso delle linee. Il campo è mu zero per i, diviso due pi greco erre: proporzionale alla corrente e inversamente proporzionale alla distanza, non al suo quadrato.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il campo di un filo: legge di Biot-Savart"
+    },
+    {
+      "text": "La formula: bi è mu zero per i, diviso due pi greco erre. Mu zero vale quattro pi greco per dieci alla meno sette.",
+      "speech": "La formula: bi è mu zero per i, diviso due pi greco erre. Mu zero vale quattro pi greco per dieci alla meno sette.",
+      "screen": "Il campo di un filo: legge di Biot-Savart",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Mu zero diviso due pi greco fa due per dieci alla meno sette.",
+      "speech": "Mu zero diviso due pi greco fa due per dieci alla meno sette.",
+      "screen": "Il campo di un filo: legge di Biot-Savart",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Moltiplichiamo per dieci ampere e dividiamo per zero virgola zero cinque metri.",
+      "speech": "Moltiplichiamo per dieci ampere e dividiamo per zero virgola zero cinque metri.",
+      "screen": "Il campo di un filo: legge di Biot-Savart",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è quattro per dieci alla meno cinque tesla: più o meno quanto il campo magnetico terrestre.",
+      "speech": "Il risultato è quattro per dieci alla meno cinque tesla: più o meno quanto il campo magnetico terrestre.",
+      "screen": "Il campo di un filo: legge di Biot-Savart",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il campo di una spira. Una spira è un filo piegato a circonferenza. Al centro il campo è perpendicolare al piano della spira e vale mu zero per i diviso due erre. Una spira percorsa da corrente si comporta come una piccola calamita, con una faccia nord e una faccia sud.",
+      "speech": "Il campo di una spira. Una spira è un filo piegato a circonferenza. Al centro il campo è perpendicolare al piano della spira e vale mu zero per i diviso due erre. Una spira percorsa da corrente si comporta come una piccola calamita, con una faccia nord e una faccia sud.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il campo di una spira"
+    },
+    {
+      "text": "La formula: al centro della spira il campo è mu zero per i, diviso due erre.",
+      "speech": "La formula: al centro della spira il campo è mu zero per i, diviso due erre.",
+      "screen": "Il campo di una spira",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il raggio è zero virgola uno metri e la corrente cinque ampere.",
+      "speech": "Il raggio è zero virgola uno metri e la corrente cinque ampere.",
+      "screen": "Il campo di una spira",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Quattro pi greco per dieci alla meno sette per cinque, diviso zero virgola due.",
+      "speech": "Quattro pi greco per dieci alla meno sette per cinque, diviso zero virgola due.",
+      "screen": "Il campo di una spira",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è circa tre virgola quattordici per dieci alla meno cinque tesla.",
+      "speech": "Il risultato è circa tre virgola quattordici per dieci alla meno cinque tesla.",
+      "screen": "Il campo di una spira",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il solenoide e l’elettromagnete. Un solenoide è un filo avvolto a elica, con tante spire. All’interno il campo è uniforme e vale mu zero per enne per i diviso elle, dove enne è il numero di spire e elle la lunghezza. Fuori somiglia a quello di una calamita a barra. Con un nucleo di ferro il campo diventa molto più intenso: è un elettromagnete, una calamita che si accende e si spegne con la corrente.",
+      "speech": "Il solenoide e l’elettromagnete. Un solenoide è un filo avvolto a elica, con tante spire. All’interno il campo è uniforme e vale mu zero per enne per i diviso elle, dove enne è il numero di spire e elle la lunghezza. Fuori somiglia a quello di una calamita a barra. Con un nucleo di ferro il campo diventa molto più intenso: è un elettromagnete, una calamita che si accende e si spegne con la corrente.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il solenoide e l’elettromagnete"
+    },
+    {
+      "text": "La formula: bi è mu zero per enne per i, diviso elle.",
+      "speech": "La formula: bi è mu zero per enne per i, diviso elle.",
+      "screen": "Il solenoide e l’elettromagnete",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Abbiamo cinquecento spire, due ampere e zero virgola due metri.",
+      "speech": "Abbiamo cinquecento spire, due ampere e zero virgola due metri.",
+      "screen": "Il solenoide e l’elettromagnete",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Cinquecento per due diviso zero virgola due fa cinquemila spire per metro per ampere.",
+      "speech": "Cinquecento per due diviso zero virgola due fa cinquemila spire per metro per ampere.",
+      "screen": "Il solenoide e l’elettromagnete",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Quattro pi greco per dieci alla meno sette per cinquemila fa circa sei virgola tre per dieci alla meno tre tesla.",
+      "speech": "Quattro pi greco per dieci alla meno sette per cinquemila fa circa sei virgola tre per dieci alla meno tre tesla.",
+      "screen": "Il solenoide e l’elettromagnete",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Per il filo il campo diminuisce con la distanza, non con il suo quadrato; per la forza di Lorentz guarda l’angolo tra velocità e campo.",
+      "speech": "Ora tocca a te. Per il filo il campo diminuisce con la distanza, non con il suo quadrato; per la forza di Lorentz guarda l’angolo tra velocità e campo.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Aumenta le spire o la corrente e confronta il campo del solenoide con quello della Terra; poi inserisci il nucleo di ferro.",
+      "speech": "Questo è il laboratorio. Aumenta le spire o la corrente e confronta il campo del solenoide con quello della Terra; poi inserisci il nucleo di ferro.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: la forza di Lorentz è perpendicolare alla velocità; il campo di un filo diminuisce con la distanza; dentro un solenoide il campo è uniforme e con il ferro diventa un elettromagnete.",
+      "speech": "Ricorda: la forza di Lorentz è perpendicolare alla velocità; il campo di un filo diminuisce con la distanza; dentro un solenoide il campo è uniforme e con il ferro diventa un elettromagnete.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

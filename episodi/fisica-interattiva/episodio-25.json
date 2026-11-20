@@ -1,0 +1,145 @@
+{
+  "episode": "25",
+  "title": "Magneti, campo magnetico ed esperienze storiche",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "Magneti e poli magnetici. La magnetite è un magnete naturale; le calamite si ottengono magnetizzando ferro, nichel o cobalto. Ogni magnete ha un polo nord e un polo sud. Poli dello stesso nome si respingono, poli di nome opposto si attraggono. Ma i poli non si possono separare: spezzando una calamita si ottengono due calamite più piccole, ciascuna con i suoi due poli.",
+      "speech": "Magneti e poli magnetici. La magnetite è un magnete naturale; le calamite si ottengono magnetizzando ferro, nichel o cobalto. Ogni magnete ha un polo nord e un polo sud. Poli dello stesso nome si respingono, poli di nome opposto si attraggono. Ma i poli non si possono separare: spezzando una calamita si ottengono due calamite più piccole, ciascuna con i suoi due poli.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Magneti e poli magnetici"
+    },
+    {
+      "text": "Nel riquadro: poli dello stesso nome si respingono, poli di nome opposto si attraggono.",
+      "speech": "Nel riquadro: poli dello stesso nome si respingono, poli di nome opposto si attraggono.",
+      "screen": "Magneti e poli magnetici",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Abbiamo una calamita a barra con un polo nord e un polo sud.",
+      "speech": "Abbiamo una calamita a barra con un polo nord e un polo sud.",
+      "screen": "Magneti e poli magnetici",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Spezzandola non otteniamo un nord e un sud separati, ma due calamite più piccole.",
+      "speech": "Spezzandola non otteniamo un nord e un sud separati, ma due calamite più piccole.",
+      "screen": "Magneti e poli magnetici",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Ogni pezzo ha il suo polo nord e il suo polo sud: i poli magnetici non si possono separare.",
+      "speech": "Ogni pezzo ha il suo polo nord e il suo polo sud: i poli magnetici non si possono separare.",
+      "screen": "Magneti e poli magnetici",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il campo magnetico. Un magnete crea intorno a sé un campo magnetico, che si misura in tesla. Il tesla è un’unità grande: il campo della Terra vale circa cinque per dieci alla meno cinque tesla. Le linee di campo si vedono con la limatura di ferro: all’esterno escono dal polo nord ed entrano nel polo sud, e sono chiuse, perché all’interno proseguono da sud a nord.",
+      "speech": "Il campo magnetico. Un magnete crea intorno a sé un campo magnetico, che si misura in tesla. Il tesla è un’unità grande: il campo della Terra vale circa cinque per dieci alla meno cinque tesla. Le linee di campo si vedono con la limatura di ferro: all’esterno escono dal polo nord ed entrano nel polo sud, e sono chiuse, perché all’interno proseguono da sud a nord.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il campo magnetico"
+    },
+    {
+      "text": "Nel riquadro: le linee escono dal polo nord, entrano nel polo sud e sono chiuse.",
+      "speech": "Nel riquadro: le linee escono dal polo nord, entrano nel polo sud e sono chiuse.",
+      "screen": "Il campo magnetico",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Le linee del campo elettrico nascono sulle cariche positive e finiscono sulle negative.",
+      "speech": "Le linee del campo elettrico nascono sulle cariche positive e finiscono sulle negative.",
+      "screen": "Il campo magnetico",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Le linee del campo magnetico invece sono chiuse: fuori dal magnete vanno da nord a sud, dentro da sud a nord.",
+      "speech": "Le linee del campo magnetico invece sono chiuse: fuori dal magnete vanno da nord a sud, dentro da sud a nord.",
+      "screen": "Il campo magnetico",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Non esistono cariche magnetiche isolate su cui le linee possano iniziare o finire.",
+      "speech": "Non esistono cariche magnetiche isolate su cui le linee possano iniziare o finire.",
+      "screen": "Il campo magnetico",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il campo magnetico terrestre. La Terra si comporta come una grande calamita, e l’ago della bussola si orienta verso nord. Il polo nord dell’ago è attratto da un polo di nome opposto: quindi vicino al Polo Nord geografico c’è un polo sud magnetico. I poli magnetici non coincidono con quelli geografici: l’angolo tra i due nord è la declinazione magnetica. Il campo terrestre devia il vento solare verso i poli, dove si formano le aurore.",
+      "speech": "Il campo magnetico terrestre. La Terra si comporta come una grande calamita, e l’ago della bussola si orienta verso nord. Il polo nord dell’ago è attratto da un polo di nome opposto: quindi vicino al Polo Nord geografico cè un polo sud magnetico. I poli magnetici non coincidono con quelli geografici: l’angolo tra i due nord è la declinazione magnetica. Il campo terrestre devia il vento solare verso i poli, dove si formano le aurore.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il campo magnetico terrestre"
+    },
+    {
+      "text": "Nel riquadro: vicino al Polo Nord geografico c’è un polo sud magnetico.",
+      "speech": "Nel riquadro: vicino al Polo Nord geografico cè un polo sud magnetico.",
+      "screen": "Il campo magnetico terrestre",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "L’ago della bussola è un piccolo magnete libero di ruotare.",
+      "speech": "L’ago della bussola è un piccolo magnete libero di ruotare.",
+      "screen": "Il campo magnetico terrestre",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il suo polo nord è attratto da un polo sud magnetico.",
+      "speech": "Il suo polo nord è attratto da un polo sud magnetico.",
+      "screen": "Il campo magnetico terrestre",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Quindi vicino al Polo Nord geografico si trova un polo sud magnetico.",
+      "speech": "Quindi vicino al Polo Nord geografico si trova un polo sud magnetico.",
+      "screen": "Il campo magnetico terrestre",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Oersted, Faraday e Ampère. Oersted osserva che un ago magnetico vicino a un filo si sposta quando passa corrente: la corrente crea un campo magnetico. Faraday osserva che un filo con corrente vicino a una calamita subisce una forza: è il principio del motore elettrico; la forza è bi per i per elle. Ampère osserva che due fili paralleli si attraggono se le correnti hanno lo stesso verso e si respingono se hanno verso opposto.",
+      "speech": "Oersted, Faraday e Ampère. Oersted osserva che un ago magnetico vicino a un filo si sposta quando passa corrente: la corrente crea un campo magnetico. Faraday osserva che un filo con corrente vicino a una calamita subisce una forza: è il principio del motore elettrico; la forza è bi per i per elle. Ampère osserva che due fili paralleli si attraggono se le correnti hanno lo stesso verso e si respingono se hanno verso opposto.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Oersted, Faraday e Ampère"
+    },
+    {
+      "text": "Nel riquadro: la forza su un filo è bi per i per elle; la forza tra due fili è mu zero su due pi greco, per i uno per i due su di, per elle.",
+      "speech": "Nel riquadro: la forza su un filo è bi per i per elle; la forza tra due fili è mu zero su due pi greco, per i uno per i due su di, per elle.",
+      "screen": "Oersted, Faraday e Ampère",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La forza è il campo per la corrente per la lunghezza del filo.",
+      "speech": "La forza è il campo per la corrente per la lunghezza del filo.",
+      "screen": "Oersted, Faraday e Ampère",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Zero virgola due tesla per quattro ampere per zero virgola cinque metri.",
+      "speech": "Zero virgola due tesla per quattro ampere per zero virgola cinque metri.",
+      "screen": "Oersted, Faraday e Ampère",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è zero virgola quattro newton.",
+      "speech": "Il risultato è zero virgola quattro newton.",
+      "screen": "Oersted, Faraday e Ampère",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda: poli uguali si respingono, e le linee del campo magnetico sono chiuse.",
+      "speech": "Ora tocca a te. Ricorda: poli uguali si respingono, e le linee del campo magnetico sono chiuse.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia il verso di una delle due correnti e guarda i fili: con correnti concordi si attraggono, con correnti opposte si respingono.",
+      "speech": "Questo è il laboratorio. Cambia il verso di una delle due correnti e guarda i fili: con correnti concordi si attraggono, con correnti opposte si respingono.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: i poli magnetici non si separano; il campo si misura in tesla; una corrente crea un campo magnetico e un campo magnetico esercita una forza su una corrente.",
+      "speech": "Ricorda: i poli magnetici non si separano; il campo si misura in tesla; una corrente crea un campo magnetico e un campo magnetico esercita una forza su una corrente.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

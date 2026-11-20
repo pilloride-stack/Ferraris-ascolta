@@ -1,0 +1,175 @@
+{
+  "episode": "23",
+  "title": "La corrente elettrica e le leggi di Ohm",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "La corrente elettrica. È un flusso ordinato di cariche: nei metalli si muovono gli elettroni liberi, spinti dal campo elettrico quando agli estremi del filo c’è una differenza di potenziale. L’intensità di corrente è la carica che passa in un secondo, e si misura in ampere. Per convenzione il verso della corrente è quello delle cariche positive, dal polo positivo al negativo; gli elettroni in realtà vanno al contrario.",
+      "speech": "La corrente elettrica. È un flusso ordinato di cariche: nei metalli si muovono gli elettroni liberi, spinti dal campo elettrico quando agli estremi del filo cè una differenza di potenziale. L’intensità di corrente è la carica che passa in un secondo, e si misura in ampere. Per convenzione il verso della corrente è quello delle cariche positive, dal polo positivo al negativo; gli elettroni in realtà vanno al contrario.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La corrente elettrica"
+    },
+    {
+      "text": "La formula: l’intensità di corrente è la carica che passa divisa per il tempo.",
+      "speech": "La formula: l’intensità di corrente è la carica che passa divisa per il tempo.",
+      "screen": "La corrente elettrica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un minuto sono sessanta secondi.",
+      "speech": "Un minuto sono sessanta secondi.",
+      "screen": "La corrente elettrica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’intensità è trenta coulomb diviso sessanta secondi.",
+      "speech": "L’intensità è trenta coulomb diviso sessanta secondi.",
+      "screen": "La corrente elettrica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è zero virgola cinque ampere.",
+      "speech": "Il risultato è zero virgola cinque ampere.",
+      "screen": "La corrente elettrica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Generatori e circuiti. Il generatore mantiene costante la differenza di potenziale, come una pompa che solleva le cariche. Il primo fu la pila di Volta; oggi ci sono pile, batterie, dinamo, alternatori e celle fotovoltaiche. Un circuito è un percorso chiuso con generatore, fili e utilizzatori. La corrente si misura con l’amperometro, in serie; la tensione con il voltmetro, in parallelo al componente.",
+      "speech": "Generatori e circuiti. Il generatore mantiene costante la differenza di potenziale, come una pompa che solleva le cariche. Il primo fu la pila di Volta; oggi ci sono pile, batterie, dinamo, alternatori e celle fotovoltaiche. Un circuito è un percorso chiuso con generatore, fili e utilizzatori. La corrente si misura con l’amperometro, in serie; la tensione con il voltmetro, in parallelo al componente.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Generatori e circuiti"
+    },
+    {
+      "text": "Nel riquadro: l’amperometro va in serie nel circuito, il voltmetro in parallelo al componente.",
+      "speech": "Nel riquadro: l’amperometro va in serie nel circuito, il voltmetro in parallelo al componente.",
+      "screen": "Generatori e circuiti",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Per misurare la corrente, la corrente deve passare nello strumento: l’amperometro si inserisce in serie, interrompendo il filo.",
+      "speech": "Per misurare la corrente, la corrente deve passare nello strumento: l’amperometro si inserisce in serie, interrompendo il filo.",
+      "screen": "Generatori e circuiti",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Per misurare la tensione si collegano i due fili del voltmetro ai capi della lampadina: in parallelo.",
+      "speech": "Per misurare la tensione si collegano i due fili del voltmetro ai capi della lampadina: in parallelo.",
+      "screen": "Generatori e circuiti",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Infine chiudiamo l’interruttore: il circuito è chiuso e la corrente circola.",
+      "speech": "Infine chiudiamo l’interruttore: il circuito è chiuso e la corrente circola.",
+      "screen": "Generatori e circuiti",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La prima legge di Ohm. In molti conduttori, detti ohmici, la corrente è proporzionale alla differenza di potenziale: la tensione è uguale a erre per i. La costante erre è la resistenza e si misura in ohm. A parità di tensione, più grande è la resistenza, più piccola è la corrente. È come l’acqua in un tubo: la tensione è la pressione, la corrente è l’acqua che passa, la resistenza è quanto è stretto il tubo.",
+      "speech": "La prima legge di Ohm. In molti conduttori, detti ohmici, la corrente è proporzionale alla differenza di potenziale: la tensione è uguale a erre per i. La costante erre è la resistenza e si misura in ohm. A parità di tensione, più grande è la resistenza, più piccola è la corrente. È come l’acqua in un tubo: la tensione è la pressione, la corrente è l’acqua che passa, la resistenza è quanto è stretto il tubo.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La prima legge di Ohm"
+    },
+    {
+      "text": "Nel riquadro la prima legge di Ohm: la tensione è erre per i; quindi la corrente è la tensione divisa per la resistenza.",
+      "speech": "Nel riquadro la prima legge di Ohm: la tensione è erre per i; quindi la corrente è la tensione divisa per la resistenza.",
+      "screen": "La prima legge di Ohm",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Dalla prima legge di Ohm ricaviamo la corrente: tensione diviso resistenza.",
+      "speech": "Dalla prima legge di Ohm ricaviamo la corrente: tensione diviso resistenza.",
+      "screen": "La prima legge di Ohm",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Duecentotrenta volt diviso quattrocentosessanta ohm.",
+      "speech": "Duecentotrenta volt diviso quattrocentosessanta ohm.",
+      "screen": "La prima legge di Ohm",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è zero virgola cinque ampere.",
+      "speech": "Il risultato è zero virgola cinque ampere.",
+      "screen": "La prima legge di Ohm",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La seconda legge di Ohm. La resistenza di un filo è erre uguale a rho per elle diviso esse: elle è la lunghezza, esse l’area della sezione, e rho la resistività, che dipende dal materiale. La resistenza cresce con la lunghezza e diminuisce con la sezione: un filo più spesso oppone meno resistenza. Rame e argento hanno resistività molto bassa.",
+      "speech": "La seconda legge di Ohm. La resistenza di un filo è erre uguale a rho per elle diviso esse: elle è la lunghezza, esse l’area della sezione, e rho la resistività, che dipende dal materiale. La resistenza cresce con la lunghezza e diminuisce con la sezione: un filo più spesso oppone meno resistenza. Rame e argento hanno resistività molto bassa.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La seconda legge di Ohm"
+    },
+    {
+      "text": "La formula: erre è rho per elle diviso esse.",
+      "speech": "La formula: erre è rho per elle diviso esse.",
+      "screen": "La seconda legge di Ohm",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Un millimetro quadrato è un milionesimo di metro quadrato.",
+      "speech": "Un millimetro quadrato è un milionesimo di metro quadrato.",
+      "screen": "La seconda legge di Ohm",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Uno virgola sette per dieci alla meno otto, per dieci, diviso dieci alla meno sei.",
+      "speech": "Uno virgola sette per dieci alla meno otto, per dieci, diviso dieci alla meno sei.",
+      "screen": "La seconda legge di Ohm",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è zero virgola diciassette ohm: un filo di rame ha una resistenza piccolissima.",
+      "speech": "Il risultato è zero virgola diciassette ohm: un filo di rame ha una resistenza piccolissima.",
+      "screen": "La seconda legge di Ohm",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "L’effetto Joule e la potenza. Gli elettroni urtano gli atomi del conduttore e cedono energia: il conduttore si scalda. È l’effetto Joule: l’energia elettrica diventa calore. La potenza è la tensione per la corrente, oppure erre per i al quadrato, e si misura in watt. L’energia consumata è la potenza per il tempo; in bolletta si misura in kilowattora.",
+      "speech": "L’effetto Joule e la potenza. Gli elettroni urtano gli atomi del conduttore e cedono energia: il conduttore si scalda. È l’effetto Joule: l’energia elettrica diventa calore. La potenza è la tensione per la corrente, oppure erre per i al quadrato, e si misura in watt. L’energia consumata è la potenza per il tempo; in bolletta si misura in kilowattora.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: L’effetto Joule e la potenza"
+    },
+    {
+      "text": "Nel riquadro: la potenza è la tensione per la corrente, che è anche erre per i al quadrato; l’energia è la potenza per il tempo.",
+      "speech": "Nel riquadro: la potenza è la tensione per la corrente, che è anche erre per i al quadrato; l’energia è la potenza per il tempo.",
+      "screen": "L’effetto Joule e la potenza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La corrente è la potenza divisa per la tensione: duemila diviso duecentotrenta, circa otto virgola sette ampere.",
+      "speech": "La corrente è la potenza divisa per la tensione: duemila diviso duecentotrenta, circa otto virgola sette ampere.",
+      "screen": "L’effetto Joule e la potenza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Quindici minuti sono un quarto d’ora: zero virgola venticinque ore.",
+      "speech": "Quindici minuti sono un quarto d’ora: zero virgola venticinque ore.",
+      "screen": "L’effetto Joule e la potenza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "L’energia è due kilowatt per zero virgola venticinque ore: zero virgola cinque kilowattora.",
+      "speech": "L’energia è due kilowatt per zero virgola venticinque ore: zero virgola cinque kilowattora.",
+      "screen": "L’effetto Joule e la potenza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Ricorda la prima legge di Ohm e porta i tempi in secondi o in ore, a seconda dell’unità richiesta.",
+      "speech": "Ora tocca a te. Ricorda la prima legge di Ohm e porta i tempi in secondi o in ore, a seconda dell’unità richiesta.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Aumenta la tensione o diminuisci la resistenza e guarda la corrente e la luce della lampadina.",
+      "speech": "Questo è il laboratorio. Aumenta la tensione o diminuisci la resistenza e guarda la corrente e la luce della lampadina.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: la corrente è carica diviso tempo; la tensione è erre per i; la resistenza cresce con la lunghezza e diminuisce con la sezione; la potenza è la tensione per la corrente.",
+      "speech": "Ricorda: la corrente è carica diviso tempo; la tensione è erre per i; la resistenza cresce con la lunghezza e diminuisce con la sezione; la potenza è la tensione per la corrente.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

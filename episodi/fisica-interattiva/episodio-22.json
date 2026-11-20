@@ -1,0 +1,145 @@
+{
+  "episode": "22",
+  "title": "Il potenziale elettrico e i condensatori",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "L’energia potenziale elettrica. La forza elettrica è conservativa: il lavoro non dipende dal percorso, ma solo dai punti di partenza e di arrivo. Per due cariche a distanza erre l’energia potenziale è cappa per cu uno per cu due diviso erre, e si misura in joule. Se le cariche hanno lo stesso segno è positiva: il sistema ha immagazzinato energia, come una molla compressa. Se hanno segno opposto è negativa.",
+      "speech": "L’energia potenziale elettrica. La forza elettrica è conservativa: il lavoro non dipende dal percorso, ma solo dai punti di partenza e di arrivo. Per due cariche a distanza erre l’energia potenziale è cappa per cu uno per cu due diviso erre, e si misura in joule. Se le cariche hanno lo stesso segno è positiva: il sistema ha immagazzinato energia, come una molla compressa. Se hanno segno opposto è negativa.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: L’energia potenziale elettrica"
+    },
+    {
+      "text": "La formula: u è cappa per cu uno per cu due, diviso erre. Attenzione: qui la distanza non è al quadrato.",
+      "speech": "La formula: u è cappa per cu uno per cu due, diviso erre. Attenzione: qui la distanza non è al quadrato.",
+      "screen": "L’energia potenziale elettrica",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Le due cariche valgono due per dieci alla meno sei coulomb e distano zero virgola tre metri.",
+      "speech": "Le due cariche valgono due per dieci alla meno sei coulomb e distano zero virgola tre metri.",
+      "screen": "L’energia potenziale elettrica",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il prodotto delle cariche è quattro per dieci alla meno dodici. Moltiplichiamo per nove per dieci alla nona e dividiamo per zero virgola tre.",
+      "speech": "Il prodotto delle cariche è quattro per dieci alla meno dodici. Moltiplichiamo per nove per dieci alla nona e dividiamo per zero virgola tre.",
+      "screen": "L’energia potenziale elettrica",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nove per quattro fa trentasei, per dieci alla meno tre: zero virgola zero trentasei, diviso zero virgola tre fa zero virgola dodici joule.",
+      "speech": "Nove per quattro fa trentasei, per dieci alla meno tre: zero virgola zero trentasei, diviso zero virgola tre fa zero virgola dodici joule.",
+      "screen": "L’energia potenziale elettrica",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Il potenziale e la differenza di potenziale. Il potenziale in un punto è l’energia potenziale per unità di carica, e si misura in volt: un volt è un joule su coulomb. In pratica conta la differenza di potenziale tra due punti, detta tensione. Il lavoro del campo per spostare una carica è la carica per la differenza di potenziale. Le cariche positive vanno spontaneamente dal potenziale più alto a quello più basso, come un sasso che cade.",
+      "speech": "Il potenziale e la differenza di potenziale. Il potenziale in un punto è l’energia potenziale per unità di carica, e si misura in volt: un volt è un joule su coulomb. In pratica conta la differenza di potenziale tra due punti, detta tensione. Il lavoro del campo per spostare una carica è la carica per la differenza di potenziale. Le cariche positive vanno spontaneamente dal potenziale più alto a quello più basso, come un sasso che cade.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Il potenziale e la differenza di potenziale"
+    },
+    {
+      "text": "Nel riquadro: il potenziale è u diviso cu; il lavoro è la carica per la differenza di potenziale.",
+      "speech": "Nel riquadro: il potenziale è u diviso cu; il lavoro è la carica per la differenza di potenziale.",
+      "screen": "Il potenziale e la differenza di potenziale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il lavoro è la carica moltiplicata per la differenza di potenziale.",
+      "speech": "Il lavoro è la carica moltiplicata per la differenza di potenziale.",
+      "screen": "Il potenziale e la differenza di potenziale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Tre per dieci alla meno sei coulomb, per duecento volt.",
+      "speech": "Tre per dieci alla meno sei coulomb, per duecento volt.",
+      "screen": "Il potenziale e la differenza di potenziale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Tre per duecento fa seicento: il lavoro è sei per dieci alla meno quattro joule.",
+      "speech": "Tre per duecento fa seicento: il lavoro è sei per dieci alla meno quattro joule.",
+      "screen": "Il potenziale e la differenza di potenziale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Campo uniforme e differenza di potenziale. Tra due lastre parallele con cariche opposte il campo è uniforme, e la differenza di potenziale è il campo per la distanza tra i due punti, misurata lungo il campo. Per questo il campo si può misurare anche in volt su metro.",
+      "speech": "Campo uniforme e differenza di potenziale. Tra due lastre parallele con cariche opposte il campo è uniforme, e la differenza di potenziale è il campo per la distanza tra i due punti, misurata lungo il campo. Per questo il campo si può misurare anche in volt su metro.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Campo uniforme e differenza di potenziale"
+    },
+    {
+      "text": "Nel riquadro: la differenza di potenziale è e per di; quindi il campo è la differenza di potenziale divisa per la distanza.",
+      "speech": "Nel riquadro: la differenza di potenziale è e per di; quindi il campo è la differenza di potenziale divisa per la distanza.",
+      "screen": "Campo uniforme e differenza di potenziale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La differenza di potenziale è dodici volt e la distanza è zero virgola zero zero due metri.",
+      "speech": "La differenza di potenziale è dodici volt e la distanza è zero virgola zero zero due metri.",
+      "screen": "Campo uniforme e differenza di potenziale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il campo è dodici diviso zero virgola zero zero due.",
+      "speech": "Il campo è dodici diviso zero virgola zero zero due.",
+      "screen": "Campo uniforme e differenza di potenziale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Il risultato è seimila volt su metro, cioè seimila newton su coulomb.",
+      "speech": "Il risultato è seimila volt su metro, cioè seimila newton su coulomb.",
+      "screen": "Campo uniforme e differenza di potenziale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "I condensatori. Il condensatore piano ha due lastre metalliche parallele, le armature, separate da un isolante. Collegato a una pila, si carica con cariche uguali e opposte. La capacità è la carica divisa per la differenza di potenziale, e si misura in farad. Per un condensatore piano la capacità cresce con l’area delle armature e diminuisce con la loro distanza. Il condensatore carico immagazzina energia: un mezzo per ci per la tensione al quadrato.",
+      "speech": "I condensatori. Il condensatore piano ha due lastre metalliche parallele, le armature, separate da un isolante. Collegato a una pila, si carica con cariche uguali e opposte. La capacità è la carica divisa per la differenza di potenziale, e si misura in farad. Per un condensatore piano la capacità cresce con l’area delle armature e diminuisce con la loro distanza. Il condensatore carico immagazzina energia: un mezzo per ci per la tensione al quadrato.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: I condensatori"
+    },
+    {
+      "text": "Nel riquadro: la capacità è cu diviso la tensione; per il condensatore piano è epsilon zero per epsilon erre per esse diviso di; l’energia è un mezzo per ci per la tensione al quadrato.",
+      "speech": "Nel riquadro: la capacità è cu diviso la tensione; per il condensatore piano è epsilon zero per epsilon erre per esse diviso di; l’energia è un mezzo per ci per la tensione al quadrato.",
+      "screen": "I condensatori",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La carica è la capacità per la tensione: dieci per dieci alla meno sei per dodici fa uno virgola due per dieci alla meno quattro coulomb.",
+      "speech": "La carica è la capacità per la tensione: dieci per dieci alla meno sei per dodici fa uno virgola due per dieci alla meno quattro coulomb.",
+      "screen": "I condensatori",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "L’energia è un mezzo per la capacità per la tensione al quadrato.",
+      "speech": "L’energia è un mezzo per la capacità per la tensione al quadrato.",
+      "screen": "I condensatori",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Dodici al quadrato fa centoquarantaquattro. Un mezzo per dieci alla meno cinque per centoquarantaquattro fa sette virgola due per dieci alla meno quattro joule.",
+      "speech": "Dodici al quadrato fa centoquarantaquattro. Un mezzo per dieci alla meno cinque per centoquarantaquattro fa sette virgola due per dieci alla meno quattro joule.",
+      "screen": "I condensatori",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Attenzione alle unità: microfarad, millimetri e centimetri quadrati vanno portati nel Sistema Internazionale.",
+      "speech": "Ora tocca a te. Attenzione alle unità: microfarad, millimetri e centimetri quadrati vanno portati nel Sistema Internazionale.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Avvicina le armature, allargale o inserisci un dielettrico, e guarda come cambia la capacità.",
+      "speech": "Questo è il laboratorio. Avvicina le armature, allargale o inserisci un dielettrico, e guarda come cambia la capacità.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: il potenziale è energia per unità di carica e si misura in volt; il lavoro è cu per la differenza di potenziale; la capacità del condensatore cresce con l’area e diminuisce con la distanza.",
+      "speech": "Ricorda: il potenziale è energia per unità di carica e si misura in volt; il lavoro è cu per la differenza di potenziale; la capacità del condensatore cresce con l’area e diminuisce con la distanza.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}

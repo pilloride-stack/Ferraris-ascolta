@@ -1,0 +1,145 @@
+{
+  "episode": "20",
+  "title": "La legge di Coulomb",
+  "voice": "it-IT-Chirp3-HD-Algieba",
+  "sentences": [
+    {
+      "text": "La legge di Coulomb. Nel millesettecentottantacinque Coulomb misurò la forza tra due cariche. La forza è direttamente proporzionale al prodotto delle due cariche e inversamente proporzionale al quadrato della distanza. È diretta lungo la retta che unisce le cariche: attrattiva se hanno segno opposto, repulsiva se hanno lo stesso segno.",
+      "speech": "La legge di Coulomb. Nel millesettecentottantacinque Coulomb misurò la forza tra due cariche. La forza è direttamente proporzionale al prodotto delle due cariche e inversamente proporzionale al quadrato della distanza. È diretta lungo la retta che unisce le cariche: attrattiva se hanno segno opposto, repulsiva se hanno lo stesso segno.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La legge di Coulomb"
+    },
+    {
+      "text": "La formula: effe è uguale a cappa per cu uno per cu due, diviso erre al quadrato. La costante cappa vale circa nove per dieci alla nona.",
+      "speech": "La formula: effe è uguale a cappa per cu uno per cu due, diviso erre al quadrato. La costante cappa vale circa nove per dieci alla nona.",
+      "screen": "La legge di Coulomb",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Scriviamo i dati nel Sistema Internazionale: due per dieci alla meno sei coulomb, tre per dieci alla meno sei coulomb, e zero virgola tre metri.",
+      "speech": "Scriviamo i dati nel Sistema Internazionale: due per dieci alla meno sei coulomb, tre per dieci alla meno sei coulomb, e zero virgola tre metri.",
+      "screen": "La legge di Coulomb",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il prodotto delle cariche è sei per dieci alla meno dodici; il quadrato della distanza è zero virgola zero nove.",
+      "speech": "Il prodotto delle cariche è sei per dieci alla meno dodici; il quadrato della distanza è zero virgola zero nove.",
+      "screen": "La legge di Coulomb",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Nove per dieci alla nona per sei per dieci alla meno dodici fa zero virgola zero cinquantaquattro; diviso zero virgola zero nove dà zero virgola sei newton. Le cariche hanno lo stesso segno, quindi si respingono.",
+      "speech": "Nove per dieci alla nona per sei per dieci alla meno dodici fa zero virgola zero cinquantaquattro; diviso zero virgola zero nove dà zero virgola sei newton. Le cariche hanno lo stesso segno, quindi si respingono.",
+      "screen": "La legge di Coulomb",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "La costante k e i materiali. La costante cappa si scrive anche come uno diviso quattro pi greco epsilon zero, dove epsilon zero è la costante dielettrica del vuoto. In un materiale isolante, come l’acqua o l’olio, la forza è più debole che nel vuoto: si divide per la costante dielettrica relativa del materiale. Per l’acqua vale circa ottanta.",
+      "speech": "La costante k e i materiali. La costante cappa si scrive anche come uno diviso quattro pi greco epsilon zero, dove epsilon zero è la costante dielettrica del vuoto. In un materiale isolante, come l’acqua o l’olio, la forza è più debole che nel vuoto: si divide per la costante dielettrica relativa del materiale. Per l’acqua vale circa ottanta.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: La costante k e i materiali"
+    },
+    {
+      "text": "La formula: la forza nel materiale è la forza nel vuoto divisa per epsilon erre, la costante dielettrica relativa.",
+      "speech": "La formula: la forza nel materiale è la forza nel vuoto divisa per epsilon erre, la costante dielettrica relativa.",
+      "screen": "La costante k e i materiali",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Nel vuoto la forza era zero virgola sei newton. In acqua si divide per ottanta.",
+      "speech": "Nel vuoto la forza era zero virgola sei newton. In acqua si divide per ottanta.",
+      "screen": "La costante k e i materiali",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Zero virgola sei diviso ottanta fa zero virgola zero zero settantacinque newton.",
+      "speech": "Zero virgola sei diviso ottanta fa zero virgola zero zero settantacinque newton.",
+      "screen": "La costante k e i materiali",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La forza è ottanta volte più debole: per questo nell’acqua gli ioni del sale si separano facilmente e il sale si scioglie.",
+      "speech": "La forza è ottanta volte più debole: per questo nell’acqua gli ioni del sale si separano facilmente e il sale si scioglie.",
+      "screen": "La costante k e i materiali",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Cariche e distanza. Se raddoppia una carica, la forza raddoppia. La distanza invece compare al quadrato e al denominatore: se la distanza raddoppia la forza diventa quattro volte più piccola, se triplica diventa nove volte più piccola, se si dimezza diventa quattro volte più grande.",
+      "speech": "Cariche e distanza. Se raddoppia una carica, la forza raddoppia. La distanza invece compare al quadrato e al denominatore: se la distanza raddoppia la forza diventa quattro volte più piccola, se triplica diventa nove volte più piccola, se si dimezza diventa quattro volte più grande.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Cariche e distanza"
+    },
+    {
+      "text": "Nel riquadro: se la distanza raddoppia la forza diventa un quarto; se triplica, un nono.",
+      "speech": "Nel riquadro: se la distanza raddoppia la forza diventa un quarto; se triplica, un nono.",
+      "screen": "Cariche e distanza",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Sessanta centimetri sono il doppio di trenta.",
+      "speech": "Sessanta centimetri sono il doppio di trenta.",
+      "screen": "Cariche e distanza",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "La forza dipende dall’inverso del quadrato della distanza: due al quadrato fa quattro, quindi la forza diventa quattro volte più piccola.",
+      "speech": "La forza dipende dall’inverso del quadrato della distanza: due al quadrato fa quattro, quindi la forza diventa quattro volte più piccola.",
+      "screen": "Cariche e distanza",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Zero virgola sei diviso quattro fa zero virgola quindici newton.",
+      "speech": "Zero virgola sei diviso quattro fa zero virgola quindici newton.",
+      "screen": "Cariche e distanza",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Forza elettrica e forza gravitazionale. La legge di gravitazione di Newton ha la stessa forma della legge di Coulomb: entrambe le forze sono proporzionali al prodotto di due grandezze e diminuiscono con il quadrato della distanza. Ma la forza elettrica può essere attrattiva o repulsiva, quella gravitazionale è solo attrattiva; e la forza elettrica è enormemente più intensa: tra protone ed elettrone circa dieci alla trentanove volte.",
+      "speech": "Forza elettrica e forza gravitazionale. La legge di gravitazione di Newton ha la stessa forma della legge di Coulomb: entrambe le forze sono proporzionali al prodotto di due grandezze e diminuiscono con il quadrato della distanza. Ma la forza elettrica può essere attrattiva o repulsiva, quella gravitazionale è solo attrattiva; e la forza elettrica è enormemente più intensa: tra protone ed elettrone circa dieci alla trentanove volte.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Forza elettrica e forza gravitazionale"
+    },
+    {
+      "text": "Nel riquadro le due leggi una sotto l’altra: in quella di Newton compaiono le masse e la costante gi; in quella di Coulomb le cariche e la costante cappa.",
+      "speech": "Nel riquadro le due leggi una sotto l’altra: in quella di Newton compaiono le masse e la costante gi; in quella di Coulomb le cariche e la costante cappa.",
+      "screen": "Forza elettrica e forza gravitazionale",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "Il nostro corpo e il tavolo sono neutri: contengono tante cariche positive quante negative.",
+      "speech": "Il nostro corpo e il tavolo sono neutri: contengono tante cariche positive quante negative.",
+      "screen": "Forza elettrica e forza gravitazionale",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Le attrazioni e le repulsioni elettriche si compensano quasi perfettamente.",
+      "speech": "Le attrazioni e le repulsioni elettriche si compensano quasi perfettamente.",
+      "screen": "Forza elettrica e forza gravitazionale",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "La gravità invece è solo attrattiva: tutta la massa della Terra ci attira, e sentiamo il nostro peso.",
+      "speech": "La gravità invece è solo attrattiva: tutta la massa della Terra ci attira, e sentiamo il nostro peso.",
+      "screen": "Forza elettrica e forza gravitazionale",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
+      "text": "Ora tocca a te. Porta sempre i dati nel Sistema Internazionale e ricorda il quadrato della distanza.",
+      "speech": "Ora tocca a te. Porta sempre i dati nel Sistema Internazionale e ricorda il quadrato della distanza.",
+      "screen": "Allenamento",
+      "purpose": "Indicazioni per gli esercizi"
+    },
+    {
+      "text": "Questo è il laboratorio. Cambia il segno delle cariche e la distanza: guarda quando si attraggono, quando si respingono e quanto diminuisce la forza.",
+      "speech": "Questo è il laboratorio. Cambia il segno delle cariche e la distanza: guarda quando si attraggono, quando si respingono e quanto diminuisce la forza.",
+      "screen": "Laboratorio",
+      "purpose": "Introduzione al laboratorio"
+    },
+    {
+      "text": "Ricorda: la forza è proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza; nei materiali è più debole.",
+      "speech": "Ricorda: la forza è proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della distanza; nei materiali è più debole.",
+      "screen": "Verifica",
+      "purpose": "Conclusione"
+    }
+  ]
+}
