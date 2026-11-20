@@ -124,6 +124,36 @@
       "purpose": "Esempio, passaggio 3"
     },
     {
+      "text": "Riflessione totale e angolo limite. Quando la luce passa da un mezzo con indice di rifrazione maggiore a uno con indice minore, per esempio dall’acqua all’aria, il raggio rifratto si allontana dalla normale. Aumentando l’angolo di incidenza, si arriva a un angolo per cui il raggio esce radente alla superficie: è l’angolo limite. Oltre l’angolo limite la luce non esce più e viene tutta riflessa all’interno: è la riflessione totale. Su questo si basano le fibre ottiche e la brillantezza del diamante.",
+      "speech": "Riflessione totale e angolo limite. Quando la luce passa da un mezzo con indice di rifrazione maggiore a uno con indice minore, per esempio dall’acqua all’aria, il raggio rifratto si allontana dalla normale. Aumentando l’angolo di incidenza, si arriva a un angolo per cui il raggio esce radente alla superficie: è l’angolo limite. Oltre l’angolo limite la luce non esce più e viene tutta riflessa all’interno: è la riflessione totale. Su questo si basano le fibre ottiche e la brillantezza del diamante.",
+      "screen": "Definizioni",
+      "purpose": "Definizione: Riflessione totale e angolo limite"
+    },
+    {
+      "text": "La formula: il seno dell’angolo limite è uguale all’indice del secondo mezzo diviso l’indice del primo.",
+      "speech": "La formula: il seno dell’angolo limite è uguale all’indice del secondo mezzo diviso l’indice del primo.",
+      "screen": "Riflessione totale e angolo limite",
+      "purpose": "Spiegazione visiva: formula"
+    },
+    {
+      "text": "La luce passa dall’acqua, con indice uno virgola trentatré, all’aria, con indice uno. Il seno dell’angolo limite è uno diviso uno virgola trentatré.",
+      "speech": "La luce passa dall’acqua, con indice uno virgola trentatré, all’aria, con indice uno. Il seno dell’angolo limite è uno diviso uno virgola trentatré.",
+      "screen": "Riflessione totale e angolo limite",
+      "purpose": "Esempio, passaggio 1"
+    },
+    {
+      "text": "Il seno vale circa zero virgola settecentocinquantadue, quindi l’angolo limite è circa quarantotto virgola otto gradi.",
+      "speech": "Il seno vale circa zero virgola settecentocinquantadue, quindi l’angolo limite è circa quarantotto virgola otto gradi.",
+      "screen": "Riflessione totale e angolo limite",
+      "purpose": "Esempio, passaggio 2"
+    },
+    {
+      "text": "Se la luce arriva sulla superficie con un angolo maggiore di quarantotto virgola otto gradi, non esce dall’acqua: viene tutta riflessa verso il basso.",
+      "speech": "Se la luce arriva sulla superficie con un angolo maggiore di quarantotto virgola otto gradi, non esce dall’acqua: viene tutta riflessa verso il basso.",
+      "screen": "Riflessione totale e angolo limite",
+      "purpose": "Esempio, passaggio 3"
+    },
+    {
       "text": "I colori. Concludiamo con i colori. La luce bianca è una miscela di tutti i colori. Un prisma la scompone perché ogni colore viene deviato in modo diverso: è la dispersione, la stessa dell’arcobaleno. Un oggetto ha il colore della luce che riflette e assorbe gli altri. Un oggetto bianco li riflette tutti, uno nero li assorbe quasi tutti.",
       "speech": "I colori. Concludiamo con i colori. La luce bianca è una miscela di tutti i colori. Un prisma la scompone perché ogni colore viene deviato in modo diverso: è la dispersione, la stessa dell’arcobaleno. Un oggetto ha il colore della luce che riflette e assorbe gli altri. Un oggetto bianco li riflette tutti, uno nero li assorbe quasi tutti.",
       "screen": "Definizioni",
@@ -160,8 +190,8 @@
       "purpose": "Indicazioni per gli esercizi"
     },
     {
-      "text": "Questo è il laboratorio. Cambia l’angolo del raggio e confronta il raggio riflesso con quello che entra nell’acqua.",
-      "speech": "Questo è il laboratorio. Cambia l’angolo del raggio e confronta il raggio riflesso con quello che entra nell’acqua.",
+      "text": "Questo è il laboratorio. Scegli il mezzo e l’angolo del raggio. Poi fai partire il raggio dal mezzo e aumenta l’angolo: oltre l’angolo limite il raggio non esce più ed è riflessione totale.",
+      "speech": "Questo è il laboratorio. Scegli il mezzo e l’angolo del raggio. Poi fai partire il raggio dal mezzo e aumenta l’angolo: oltre l’angolo limite il raggio non esce più ed è riflessione totale.",
       "screen": "Laboratorio",
       "purpose": "Introduzione al laboratorio"
     },
