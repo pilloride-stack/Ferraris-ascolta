@@ -57,7 +57,10 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 @media (prefers-reduced-motion:reduce){.lights i,.opt.right,.cl{animation:none}}
 @media(max-width:760px){.stage{grid-template-columns:1fr}.ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px}.ladder li{flex:none;font-size:17px;padding:2px 9px}.ladder li span:first-child{margin-right:6px}}
 @media(max-width:480px){.opts{grid-template-columns:1fr;gap:9px}.opt{min-height:50px;font-size:17px}.cl{font-size:17px}.lights{display:none}}
-</style></head><body><div class="wrap">
+
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,11,28,.85);color:#fff;font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,211,77,.35)}
+.mus.off{opacity:.6;box-shadow:none}
+</style></head><body><div class="wrap"><button class="mus" id="mus" type="button" aria-label="Musica: attiva" title="Musica">🔊</button>
 <div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 <h1>Chi vuol essere promosso?</h1>
 <p class="sub">Storia · Classe I · Chi sono? Indovina 10 personaggi e sali in cima alla scala</p>
@@ -78,9 +81,43 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 <li>Ogni domanda è un personaggio della dispensa di Storia della classe I che si presenta con due indizi. Scegli la risposta e confermala.</li>
 <li>Ogni risposta giusta fa salire di un gradino. I gradini evidenziati (1.000 e 32.000 punti) sono soglie di sicurezza: se sbagli, riparti dall'ultima soglia raggiunta e la partita finisce.</li>
 <li>Hai due aiuti, ognuno usabile una sola volta: <b>50:50</b> toglie due risposte sbagliate, <b>Altri indizi</b> mostra due indizi in più. Puoi anche ritirarti e tenere i punti.</li>
+<li>Il tasto 🔊 in alto a destra accende o spegne la musica.</li>
 <li>Alla fine trovi la scheda di tutti i personaggi incontrati.</li></ul></section>
 </div><script>
 {
+
+const MUS=(()=>{let on=true;try{on=localStorage.getItem('arcade-musica')!=='off'}catch(e){}
+ let ctx=null,out=null,want=false,run=false,iv=null,next=0,step=0,bpm=100,fast=false;
+ const btn=document.getElementById('mus');
+ const paint=()=>{btn.textContent=on?'🔊':'🔇';btn.classList.toggle('off',!on);btn.setAttribute('aria-label','Musica: '+(on?'attiva':'spenta'))};paint();
+ function init(){if(ctx)return true;try{ctx=new (window.AudioContext||window.webkitAudioContext)();out=ctx.createGain();out.gain.value=.55;out.connect(ctx.destination);return true}catch(e){return false}}
+ function note(f,t,d,type,g,lp){const o=ctx.createOscillator(),v=ctx.createGain();o.type=type;o.frequency.setValueAtTime(f,t);
+  let last=o;if(lp){const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=lp;o.connect(fl);last=fl}
+  last.connect(v);v.connect(out);v.gain.setValueAtTime(.0001,t);v.gain.exponentialRampToValueAtTime(g,t+Math.min(.02,d/4));v.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d+.05)}
+ const CH=[[110,130.8,164.8],[116.5,138.6,174.6],[110,130.8,164.8],[103.8,123.5,155.6]];
+ function play(s,t){const sp=60/bpm/4,bar=Math.floor(s/16)%4;
+  if(s%8===0)note(55,t,.28,'sine',.5);if(s%8===2)note(52,t,.2,'sine',.32);
+  if(s%4===0)note(fast?2400:1800,t,.035,'square',fast?.05:.03,6000);
+  if(fast&&s%2===1)note(2400,t,.025,'square',.025,6000);
+  if(s%16===0)CH[bar].forEach(f=>note(f*2,t,sp*16*.95,'triangle',.035,900));
+  if(s%16===12)note(CH[bar][2]*4,t,sp*3,'sine',.03)}
+ function sched(){if(!run)return;while(next<ctx.currentTime+.15){play(step,next);next+=60/bpm/4;step=(step+1)%64}}
+ function go(){if(!on||!want||run||!init())return;if(ctx.state!=='running'){ctx.resume();if(ctx.state!=='running')return}
+  run=true;next=ctx.currentTime+.05;step=0;iv=setInterval(sched,40)}
+ function halt(){run=false;clearInterval(iv)}
+ const unlock=()=>{if(init()&&ctx.state!=='running')ctx.resume().then(go,()=>{});else go()};
+ document.addEventListener('pointerdown',unlock,true);document.addEventListener('keydown',unlock,true);
+ btn.addEventListener('click',()=>{on=!on;try{localStorage.setItem('arcade-musica',on?'on':'off')}catch(e){}paint();on?go():halt()});
+ return{
+  start(b){bpm=b||100;fast=false;want=true;go()},
+  stop(){want=false;halt()},
+  fast(f){fast=f;bpm=f?Math.max(bpm,150):bpm},
+  speed(b){bpm=b},
+  win(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[523.3,659.3,784,1046.5].forEach((f,k)=>note(f,t+k*.08,.22,'square',.05,3500));[523.3,659.3,784].forEach(f=>note(f,t+.32,.6,'triangle',.06,4000));note(130.8,t+.32,.6,'sine',.35)},
+  lose(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[392,370,349.2,311.1].forEach((f,k)=>note(f,t+k*.22,k===3?.8:.22,'sawtooth',.05,1200));note(77.8,t+.66,.8,'sine',.3)},
+  big(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;const m=[523.3,659.3,784,1046.5,784,1046.5];m.forEach((f,k)=>note(f,t+k*.11,.2,'square',.05,4000));[523.3,659.3,784,1046.5].forEach(f=>note(f,t+.7,1.1,'triangle',.06,5000));note(65.4,t+.7,1.1,'sine',.4);for(let k=0;k<8;k++)note(2600,t+.7+k*.06,.03,'square',.015,8000)},
+  roll(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;for(let k=0;k<18;k++)note(1500,t+k*.065,.04,'square',.012+k*.003,5000);note(55,t,1.2,'sine',.4)}
+ }})();
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
@@ -101,7 +138,7 @@ function turn(){const p=deck[step];shown=2;sel=null;locked=false;
  $('opts').innerHTML=opts.map((o,k)=>`<button class="opt" type="button" data-o="${esc(o)}"><b>${'ABCD'[k]}</b>${esc(o)}</button>`).join('');
  $('msg').textContent='Scegli una risposta.';$('msg').className='msg';$('extra').innerHTML='';
  $('act').innerHTML=step>0?`<button class="go alt" id="quit" type="button">Mi ritiro con ${fmt(LADDER[step-1])} punti</button>`:'';
- clues();ladder()}
+ clues();ladder();MUS.start(88+step*6)}
 function clues(){const p=deck[step];$('clues').innerHTML=p.indizi.slice(0,shown).map((c,k)=>`<div class="cl"><b>${k+1}.</b>${esc(c)}</div>`).join('')}
 $('opts').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b||locked||b.classList.contains('gone'))return;
  document.querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));b.classList.add('sel');sel=b.dataset.o;tone(440,.15,'triangle');
@@ -114,19 +151,19 @@ $('act').addEventListener('click',e=>{const id=e.target.id;
  if(id==='nx'){step++;if(step>=LADDER.length)finish(LADDER[9],'Hai vinto!');else turn()}
  if(id==='fin'){const safe=SAFE.filter(s=>s<step).pop();finish(safe===undefined?0:LADDER[safe],'Risposta sbagliata')}});
 function turnBar(){$('act').innerHTML=step>0?`<button class="go alt" id="quit" type="button">Mi ritiro con ${fmt(LADDER[step-1])} punti</button>`:''}
-function confirm(){if(locked||!sel)return;locked=true;$('act').innerHTML='';$('msg').textContent='Vediamo…';tone(220,.9,'sine',.05);
+function confirm(){if(locked||!sel)return;locked=true;$('act').innerHTML='';$('msg').textContent='Vediamo…';MUS.stop();MUS.roll();
  setTimeout(()=>{const p=deck[step],ok=sel===p.nome;
   document.querySelectorAll('.opt').forEach(b=>{if(b.dataset.o===p.nome)b.classList.add('right');else if(b.dataset.o===sel)b.classList.add('wrong')});
   log.push({nome:p.nome,bio:p.bio,ok});
   $('extra').innerHTML=`<div class="bio"><b>${esc(p.nome)}</b>: ${esc(p.bio)}</div>`;
-  if(ok){tone(660,.18);setTimeout(()=>tone(880,.3),160);$('msg').textContent=step===9?'Incredibile: tutta la scala!':`Esatto! Hai ${fmt(LADDER[step])} punti${SAFE.includes(step)?' e sei al sicuro fino a qui':''}.`;$('msg').className='msg ok';
+  if(ok){step===9?MUS.big():MUS.win();$('msg').textContent=step===9?'Incredibile: tutta la scala!':`Esatto! Hai ${fmt(LADDER[step])} punti${SAFE.includes(step)?' e sei al sicuro fino a qui':''}.`;$('msg').className='msg ok';
    $('act').innerHTML=`<button class="go" id="nx" type="button">${step===9?'Vedi il risultato':'Prossima domanda'}</button>`}
-  else{tone(160,.6,'sawtooth',.06);$('msg').textContent=`No, era ${p.nome}.`;$('msg').className='msg ko';$('act').innerHTML=`<button class="go" id="fin" type="button">Vedi il risultato</button>`}
+  else{MUS.lose();$('msg').textContent=`No, era ${p.nome}.`;$('msg').className='msg ko';$('act').innerHTML=`<button class="go" id="fin" type="button">Vedi il risultato</button>`}
   $('act').querySelector('button').focus({preventScroll:true});$('act').scrollIntoView({block:'nearest',behavior:'smooth'})},1300)}
 $('l50').addEventListener('click',()=>{if(locked)return;const p=deck[step];$('l50').disabled=true;
  const wrong=shuffle([...document.querySelectorAll('.opt')].filter(b=>b.dataset.o!==p.nome&&b.dataset.o!==sel)).slice(0,2);wrong.forEach(b=>b.classList.add('gone'))});
 $('lInd').addEventListener('click',()=>{if(locked)return;$('lInd').disabled=true;shown=4;clues()});
-function finish(pts,title){$('game').hidden=true;$('end').hidden=false;
+function finish(pts,title){MUS.stop();$('game').hidden=true;$('end').hidden=false;
  let best=0;try{best=+localStorage.getItem('chisono-tv-I')||0;if(pts>best){localStorage.setItem('chisono-tv-I',pts)}}catch(e){}
  $('endT').textContent=fmt(pts)+' punti';
  $('endP').textContent=title+'. '+(pts>best?'Nuovo record personale!':`Il tuo record è ${fmt(Math.max(best,pts))} punti.`)+' Ecco i personaggi che hai incontrato:';
