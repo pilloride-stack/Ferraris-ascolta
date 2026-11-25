@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viaggiatore nel tempo · Storia Classe V</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: gioco a premi del sabato sera, gemello degli altri giochi dello studio
+   IDEA: la linea del tempo come un tabellone luminoso: ogni carta va inserita al posto giusto
+   PICTURE: lo schermo dorato con la carta da collocare in alto, sotto la linea del tempo verticale con gli spazi tratteggiati
+   COLOUR and TYPE: blu notte, oro, verde e rosso per l'esito; Bebas Neue per anni e cifre, Lexend per leggere
+   LAYOUT: carta in alto e fissa mentre si scorre la linea; scala delle carte a destra, striscia sul telefono */
+:root{color-scheme:dark;--bg:#050b1c;--blue:#10224a;--blue2:#1e3d7a;--edge:#6f9be0;--gold:#ffd34d;--ink:#fff;--muted:#b8c8e8;--ok:#2ecc71;--ko:#e74c3c;--sel:#ff9f1a}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% -10%,#2c5aa0 0,#0b1a3a 50%,var(--bg) 100%) fixed;overflow-x:clip}
+.wrap{max-width:1000px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.lights{display:flex;justify-content:center;gap:9px;margin:2px 0 4px}
+.lights i{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold);animation:tw 1.6s infinite}
+.lights i:nth-child(2n){animation-delay:.8s}
+@keyframes tw{50%{opacity:.35}}
+h1{font:400 clamp(38px,7vw,64px)/1 'Bebas Neue',Impact,sans-serif;letter-spacing:2px;margin:0;text-align:center;color:var(--gold);text-shadow:0 0 18px rgba(255,211,77,.55)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 12px}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:16px;align-items:start}
+.top{position:sticky;top:0;z-index:5;margin:14px -8px 8px;padding:14px 8px 8px;background:rgba(5,11,28,.94);border-radius:0 0 18px 18px;box-shadow:0 8px 14px rgba(5,11,28,.6)}
+.top .bar:empty{display:none}.top .bar{margin-top:6px}
+.top .go{padding:6px 22px;min-height:42px}
+.prize{text-align:center;margin-bottom:6px}
+.prize span{display:inline-block;background:var(--gold);color:var(--bg);font:22px/1.2 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 16px;border-radius:20px}
+.hud{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:8px;color:var(--muted);font-size:14px}
+.hud b{color:var(--gold);font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;margin-left:6px}
+.lamp{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold);margin-left:5px;vertical-align:-1px}
+.lamp.off{background:#2a3555;box-shadow:none}
+.screen{position:relative;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:18px 18px 14px;text-align:center}
+.screen.ok{border-color:var(--ok);box-shadow:0 0 22px rgba(46,204,113,.45)}.screen.ko{border-color:var(--ko);box-shadow:0 0 22px rgba(231,76,60,.45)}
+.lbl{position:absolute;top:-12px;left:18px;background:var(--bg);color:var(--gold);font:17px/1 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border:2px solid var(--gold);border-radius:12px}
+.yr{font:40px/1 'Bebas Neue',sans-serif;letter-spacing:2px;color:var(--gold);min-height:40px}
+.ev-t{font:600 clamp(17px,2.4vw,21px)/1.3 Lexend,sans-serif;margin-top:2px}
+.msg{text-align:center;min-height:24px;margin-top:6px;line-height:1.3;font-weight:600;color:var(--muted)}
+.msg.ok{color:var(--ok)}.msg.ko{color:#ff8a7a}
+.tl{position:relative;margin:6px 0 0;padding-left:26px}
+.tl:before{content:"";position:absolute;left:10px;top:6px;bottom:6px;width:4px;border-radius:2px;background:linear-gradient(var(--gold),var(--blue2))}
+.ev{position:relative;background:linear-gradient(#1e3d7a,#10224a);border:2px solid var(--edge);border-radius:22px;padding:8px 16px;margin:0}
+.ev:before{content:"";position:absolute;left:-22px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold)}
+.ev .y{font:22px/1 'Bebas Neue',sans-serif;letter-spacing:1px;color:var(--gold);margin-right:8px}
+.ev .w{display:block;font-size:14px;color:var(--muted);margin-top:3px}
+.ev.new{border-color:#fff;background:linear-gradient(#3be07f,#1e9e52);color:#002611}.ev.new .y{color:#002611}.ev.new .w{color:#08361d}
+.ev.bad{border-color:#fff;background:linear-gradient(#ff6b5a,#c0392b)}.ev.bad .y{color:#fff}.ev.bad .w{color:#ffe1dc}
+.slot{display:block;width:100%;margin:6px 0;min-height:40px;border:2px dashed var(--gold);border-radius:22px;background:rgba(255,211,77,.06);color:var(--gold);font:18px 'Bebas Neue',sans-serif;letter-spacing:1px;cursor:pointer}
+.slot:hover{background:rgba(255,211,77,.18)}
+.slot.gone{opacity:.15;pointer-events:none}
+.gap{height:8px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+.life{font:20px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:8px 16px;min-height:44px;cursor:pointer}
+.life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
+.go{font:24px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:10px 26px;min-height:48px;cursor:pointer;box-shadow:0 0 16px rgba(255,211,77,.5)}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:1px;position:sticky;top:10px}
+.ladder li{display:flex;justify-content:space-between;gap:8px;white-space:nowrap;font:17px/1.2 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 10px;border-radius:12px;color:var(--muted)}
+.ladder li.cur{background:var(--sel);color:#1b0f00}
+.ladder li.done{color:var(--gold)}.ladder li.miss{color:#ff8a7a}
+.end{text-align:center;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:20px 16px;margin-bottom:14px}
+.end h2{font:52px/1 'Bebas Neue',sans-serif;color:var(--gold);margin:6px 0;letter-spacing:2px}
+.rules{color:var(--muted);font-size:15px;margin-top:22px;border-top:1px solid var(--blue2);padding-top:12px}.rules b{color:#fff}
+@media (prefers-reduced-motion:reduce){.lights i{animation:none}}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px;position:static}.ladder li{flex:none;font-size:16px;padding:2px 9px}.ladder li span:last-child:before{content:'·';margin:0 6px 0 0;opacity:.7}}
+@media(max-width:560px){.lights{display:none}.prize span{font-size:17px;padding:2px 12px}.hud{gap:10px;margin-bottom:6px}.screen{padding:12px 10px 8px}.yr{font-size:28px;min-height:28px}.ev-t{font-size:15.5px}.msg{font-size:14px}.hud{font-size:13px}.hud b{font-size:19px}.life{font-size:17px;padding:6px 12px}.bar{gap:8px}.ev{padding:7px 12px}.ev .w{font-size:13px}}
+
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,11,28,.85);color:#fff;font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,211,77,.35)}
+.mus.off{opacity:.6;box-shadow:none}
+@media(max-width:760px){.mus{top:auto;bottom:14px;right:12px;width:42px;height:42px;font-size:18px}}
+</style></head><body><div class="wrap"><button class="mus" id="mus" type="button" aria-label="Musica: attiva" title="Musica">🔊</button>
+<div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<h1>Viaggiatore nel tempo</h1>
+<p class="sub">Storia · Classe V · Dal 1900 ai giorni nostri · Metti ogni evento al suo posto sulla linea del tempo</p>
+<div class="stage">
+ <div>
+  <div class="end" id="end" hidden><h2 id="endT"></h2><p id="endP"></p><button class="go" id="again" type="button">Nuovo viaggio</button></div>
+  <div id="top">
+   <div class="prize" id="prize"></div>
+   <div class="hud"><span>Punti<b id="hP">0</b></span><span>Serie<b id="hS">0</b></span><span>Errori rimasti<span id="lamps"></span></span><span>Record<b id="hR">0</b></span></div>
+   <div class="bar" id="lifes"><button class="life" id="lHalf" type="button">50:50</button><button class="life" id="lSec" type="button">Indizio</button><button class="life" id="lSave" type="button">Scudo</button></div>
+   <div class="top">
+    <div class="screen" id="scr"><span class="lbl" id="lbl">Dove va questo evento?</span><div class="yr" id="yr">????</div><div class="ev-t" id="evt"></div></div>
+    <div class="msg" id="msg" role="status"></div>
+    <div class="bar" id="act"></div>
+   </div>
+  </div>
+  <div class="tl" id="tl"></div>
+ </div>
+ <ol class="ladder" id="ladder"></ol>
+</div>
+<section class="rules"><b>Come si gioca</b><ul>
+<li>Sulla linea del tempo c'è già un evento. A ogni turno ne arriva uno nuovo: tocca lo spazio tratteggiato dove secondo te va, prima, dopo o tra gli eventi già collocati.</li>
+<li>Le carte sono 15 e ognuna vale più della precedente. Più risposte giuste di fila danno punti in più.</li>
+<li>Puoi sbagliare 3 volte: al quarto errore il viaggio finisce. Quando sbagli, la carta va comunque al posto giusto con la spiegazione.</li>
+<li>Hai tre aiuti, ognuno usabile una sola volta. <b>50:50</b> spegne metà degli spazi sbagliati. <b>Indizio</b> ti dice il secolo. <b>Scudo</b> ti protegge dal prossimo errore.</li>
+<li>Il tasto 🔊 in alto a destra accende o spegne la musica.</li>
+<li>Alla fine trovi tutta la linea del tempo con le spiegazioni da ripassare.</li></ul></section>
+</div><script>
+{
+
+const MUS=(()=>{let on=true;try{on=localStorage.getItem('arcade-musica')!=='off'}catch(e){}
+ let ctx=null,out=null,want=false,run=false,iv=null,next=0,step=0,bpm=100,fast=false;
+ const btn=document.getElementById('mus');
+ const paint=()=>{btn.textContent=on?'🔊':'🔇';btn.classList.toggle('off',!on);btn.setAttribute('aria-label','Musica: '+(on?'attiva':'spenta'))};paint();
+ function init(){if(ctx)return true;try{ctx=new (window.AudioContext||window.webkitAudioContext)();out=ctx.createGain();out.gain.value=.55;out.connect(ctx.destination);return true}catch(e){return false}}
+ function note(f,t,d,type,g,lp){const o=ctx.createOscillator(),v=ctx.createGain();o.type=type;o.frequency.setValueAtTime(f,t);
+  let last=o;if(lp){const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=lp;o.connect(fl);last=fl}
+  last.connect(v);v.connect(out);v.gain.setValueAtTime(.0001,t);v.gain.exponentialRampToValueAtTime(g,t+Math.min(.02,d/4));v.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d+.05)}
+ const CH=[[110,130.8,164.8],[116.5,138.6,174.6],[110,130.8,164.8],[103.8,123.5,155.6]];
+ function play(s,t){const sp=60/bpm/4,bar=Math.floor(s/16)%4;
+  if(s%8===0)note(55,t,.28,'sine',.5);if(s%8===2)note(52,t,.2,'sine',.32);
+  if(s%4===0)note(fast?2400:1800,t,.035,'square',fast?.05:.03,6000);
+  if(fast&&s%2===1)note(2400,t,.025,'square',.025,6000);
+  if(s%16===0)CH[bar].forEach(f=>note(f*2,t,sp*16*.95,'triangle',.035,900));
+  if(s%16===12)note(CH[bar][2]*4,t,sp*3,'sine',.03)}
+ function sched(){if(!run)return;while(next<ctx.currentTime+.15){play(step,next);next+=60/bpm/4;step=(step+1)%64}}
+ function go(){if(!on||!want||run||!init())return;if(ctx.state!=='running'){ctx.resume();if(ctx.state!=='running')return}
+  run=true;next=ctx.currentTime+.05;step=0;iv=setInterval(sched,40)}
+ function halt(){run=false;clearInterval(iv)}
+ const unlock=()=>{if(init()&&ctx.state!=='running')ctx.resume().then(go,()=>{});else go()};
+ document.addEventListener('pointerdown',unlock,true);document.addEventListener('keydown',unlock,true);
+ btn.addEventListener('click',()=>{on=!on;try{localStorage.setItem('arcade-musica',on?'on':'off')}catch(e){}paint();on?go():halt()});
+ return{
+  start(b){bpm=b||100;fast=false;want=true;go()},
+  stop(){want=false;halt()},
+  fast(f){fast=f;bpm=f?Math.max(bpm,150):bpm},
+  speed(b){bpm=b},
+  win(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[523.3,659.3,784,1046.5].forEach((f,k)=>note(f,t+k*.08,.22,'square',.05,3500));[523.3,659.3,784].forEach(f=>note(f,t+.32,.6,'triangle',.06,4000));note(130.8,t+.32,.6,'sine',.35)},
+  lose(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[392,370,349.2,311.1].forEach((f,k)=>note(f,t+k*.22,k===3?.8:.22,'sawtooth',.05,1200));note(77.8,t+.66,.8,'sine',.3)},
+  big(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;const m=[523.3,659.3,784,1046.5,784,1046.5];m.forEach((f,k)=>note(f,t+k*.11,.2,'square',.05,4000));[523.3,659.3,784,1046.5].forEach(f=>note(f,t+.7,1.1,'triangle',.06,5000));note(65.4,t+.7,1.1,'sine',.4);for(let k=0;k<8;k++)note(2600,t+.7+k*.06,.03,'square',.015,8000)},
+  roll(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;for(let k=0;k<18;k++)note(1500,t+k*.065,.04,'square',.012+k*.003,5000);note(55,t,1.2,'sine',.4)}
+ }})();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+const yr=(y,a)=>(a?'c. ':'')+(y<0?`${-y} a.C.`:y<100?`${y} d.C.`:String(y));
+const roman=n=>{const v=[[1000,'M'],[900,'CM'],[500,'D'],[400,'CD'],[100,'C'],[90,'XC'],[50,'L'],[40,'XL'],[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];let s='';for(const[k,r]of v)while(n>=k){s+=r;n-=k}return s};
+const cent=y=>y<0?`${roman(Math.floor((-y-1)/100)+1)} secolo a.C.`:`${roman(Math.floor((y-1)/100)+1)} secolo d.C.`;
+const DATA=[[1900, "Assassinio del re Umberto I", "Ucciso dall'anarchico Gaetano Bresci: inizia l'età giolittiana."], [1905, "Prima rivoluzione russa", "Dopo la sconfitta con il Giappone e la «domenica di sangue»."], [1912, "Suffragio quasi universale maschile in Italia", "Giolitti estende il voto agli uomini che sanno leggere e scrivere o hanno fatto il militare."], [1914, "Attentato di Sarajevo", "Il 28 giugno: uccisione di Francesco Ferdinando, scoppia la Prima guerra mondiale."], [1915, "L'Italia entra nella Prima guerra mondiale", "Il 24 maggio, dopo le «radiose giornate di maggio»."], [1916, "Battaglie di Verdun e della Somme", "Centinaia di migliaia di morti per pochi chilometri."], [1917, "Rivoluzione russa e disfatta di Caporetto", "I bolscevichi prendono il potere; gli italiani si ritirano sul Piave."], [1918, "Vittorio Veneto e armistizio", "Il 4 novembre per l'Italia, l'11 novembre per la Germania."], [1919, "Conferenza di pace di Parigi e trattato di Versailles", "Mussolini fonda i Fasci di combattimento; D'Annunzio occupa Fiume."], [1921, "Lenin vara la NEP", "Nasce anche il Partito nazionale fascista."], [1922, "Marcia su Roma", "Il re affida il governo a Mussolini; nasce l'URSS."], [1923, "Iperinflazione in Germania", "Fallisce il putsch di Monaco di Hitler; in Italia la riforma Gentile."], [1924, "Delitto Matteotti", "Il deputato socialista viene rapito e ucciso dagli squadristi."], [1925, "Discorso del 3 gennaio di Mussolini", "Inizia la dittatura fascista."], [1928, "Stalin governa da dittatore", "Ha sconfitto Trotskij dopo la morte di Lenin."], [1929, "Crollo di Wall Street e Patti Lateranensi", "Inizia la Grande depressione; nasce lo Stato della Città del Vaticano."], [1933, "Hitler diventa cancelliere", "Il 30 gennaio; poi l'incendio del Reichstag."], [1934, "Notte dei lunghi coltelli", "Hitler elimina la dirigenza delle SA."], [1935, "Leggi di Norimberga e aggressione all'Etiopia", "Gli ebrei tedeschi perdono la cittadinanza; l'Italia attacca l'Etiopia."], [1936, "Asse Roma-Berlino", "Inizia anche la guerra civile spagnola."], [1938, "Leggi razziali in Italia e Notte dei cristalli", "Mussolini le annuncia da Piazza Unità a Trieste."], [1939, "La Germania invade la Polonia", "Inizia la Seconda guerra mondiale."], [1940, "L'Italia entra nella Seconda guerra mondiale", "Il 10 giugno, a fianco della Germania."], [1941, "Operazione Barbarossa e Pearl Harbor", "La guerra diventa mondiale: entrano URSS e Stati Uniti."], [1942, "Conferenza di Wannsee", "Viene organizzata la «soluzione finale» contro gli ebrei."], [1943, "Armistizio dell'8 settembre", "Nasce la Resistenza; il 16 ottobre il rastrellamento del ghetto di Roma."], [1945, "Liberazione e fine della guerra", "25 aprile in Italia; bombe atomiche su Hiroshima e Nagasaki; nasce l'ONU."], [1946, "Referendum del 2 giugno", "L'Italia diventa una Repubblica: votano anche le donne."], [1947, "Piano Marshall", "Aiuti americani per ricostruire l'Europa; indipendenza dell'India."], [1948, "Entra in vigore la Costituzione italiana", "Il 1° gennaio; nasce anche lo Stato di Israele."], [1949, "Nasce la NATO", "In Cina prendono il potere i comunisti di Mao."], [1951, "Nasce la CECA", "Comunità del carbone e dell'acciaio tra sei paesi europei."], [1954, "Trieste torna italiana", "Si chiude la questione di Trieste aperta nel 1946."], [1957, "Trattati di Roma", "Nasce la Comunità Economica Europea."], [1961, "Costruzione del muro di Berlino", "La RDT impedisce la fuga verso Ovest."], [1968, "Primavera di Praga", "Le riforme di Dubček vengono represse dai carri armati sovietici."], [1970, "Statuto dei lavoratori", "Nello stesso anno la legge sul divorzio."], [1975, "Trattato di Osimo", "Definisce i confini con la Jugoslavia; il Vietnam viene unificato."], [1978, "Rapimento e uccisione di Aldo Moro", "Gli anni di piombo e del terrorismo."], [1989, "Caduta del muro di Berlino", "Il 9 novembre."], [1991, "Dissoluzione dell'URSS", "Finisce la guerra fredda."], [1992, "Trattato di Maastricht", "Nasce l'Unione europea con la cittadinanza europea."], [1995, "Accordo di Schengen", "Libera circolazione delle persone."], [2002, "Entra in circolazione l'euro", "La moneta unica europea."]], N=15, LIVES=3, VAL=[100,100,150,150,200,200,250,300,350,400,500,600,700,850,1000], KEY='vt-tv-V';
+let deck,line,cur,n,score,streak,lives,shield,busy,lastNew,lastBad,res,best=0;
+try{best=+localStorage.getItem(KEY)||0}catch(e){}
+function start(){deck=shuffle(DATA).slice(0,N+1).map(e=>({y:e[0],t:e[1],w:e[2],a:!!e[3]}));line=[deck.shift()];
+ n=0;score=0;streak=0;lives=LIVES;shield=false;lastNew=null;lastBad=null;res=[];$('end').hidden=true;$('top').hidden=false;
+ ['lHalf','lSec','lSave'].forEach(i=>$(i).disabled=false);next()}
+function next(){busy=false;cur=deck.shift();$('scr').className='screen';$('lbl').textContent=`Carta ${n+1} di ${N}`;$('yr').textContent='????';$('evt').textContent=cur.t;
+ $('prize').innerHTML=`<span>Carta ${n+1} · ${fmt(VAL[n])} punti</span>`;$('act').innerHTML='';say('Tocca lo spazio dove va questo evento.');hud();ladder();render(true);MUS.start(88+n*4)}
+function say(t,c=''){$('msg').textContent=t;$('msg').className='msg '+c}
+function hud(){$('hP').textContent=fmt(score);$('hS').textContent=streak;$('hR').textContent=fmt(best);
+ $('lamps').innerHTML=Array.from({length:LIVES},(_,i)=>`<i class="lamp ${i<lives?'':'off'}"></i>`).join('')+(shield?' 🛡':'')}
+function ladder(){$('ladder').innerHTML=VAL.map((v,k)=>`<li class="${k===n?'cur':''} ${res[k]===true?'done':''} ${res[k]===false?'miss':''}"><span>${k+1}</span><span>${fmt(v)}</span></li>`).join('');
+ const c=$('ladder').querySelector('.cur');if(c&&matchMedia('(max-width:760px)').matches)c.scrollIntoView({inline:'center',block:'nearest'})}
+function render(slots,why){let h='';
+ line.forEach((e,i)=>{h+=slots?`<button class="slot" type="button" data-i="${i}">${i===0?'+ Inserisci qui (prima)':'+ Inserisci qui'}</button>`:'<div class="gap"></div>';
+  h+=`<div class="ev${e===lastNew?' new':''}${e===lastBad?' bad':''}"><span class="y">${yr(e.y,e.a)}</span>${esc(e.t)}${why||e===lastNew||e===lastBad?`<span class="w">${esc(e.w)}</span>`:''}</div>`});
+ h+=slots?`<button class="slot" type="button" data-i="${line.length}">+ Inserisci qui (dopo)</button>`:'';$('tl').innerHTML=h}
+const right=i=>(i===0||line[i-1].y<cur.y)&&(i===line.length||line[i].y>cur.y);
+function place(i){if(busy)return;busy=true;MUS.stop();const ok=right(i);
+ let pos=line.findIndex(e=>e.y>cur.y);if(pos<0)pos=line.length;line.splice(pos,0,cur);
+ $('yr').textContent=yr(cur.y,cur.a);res[n]=ok;
+ if(ok){streak++;const g=VAL[n]+Math.min(streak-1,5)*25;score+=g;lastNew=cur;lastBad=null;$('scr').className='screen ok';say(`Esatto! ${yr(cur.y,cur.a)} · +${fmt(g)}`,'ok');MUS.win()}
+ else{streak=0;lastBad=cur;lastNew=null;$('scr').className='screen ko';MUS.lose();
+  if(shield){shield=false;res[n]=true;say(`Sbagliato, ma lo scudo ti ha protetto! Era il ${yr(cur.y,cur.a)}.`,'ko')}
+  else{lives--;say(`Paradosso temporale! Era il ${yr(cur.y,cur.a)}: ecco il posto giusto.`,'ko')}}
+ n++;hud();ladder();render(false);
+ const el=$('tl').querySelector('.ev.new,.ev.bad');if(el)el.scrollIntoView({block:'center',behavior:'smooth'});
+ const end=lives<0||n>=N;$('act').innerHTML=`<button class="go" id="nx" type="button">${end?'Vedi il risultato':'Prossima carta'}</button>`}
+$('tl').addEventListener('click',e=>{const b=e.target.closest('.slot');if(b&&!b.classList.contains('gone'))place(+b.dataset.i)});
+$('act').addEventListener('click',e=>{if(e.target.id!=='nx')return;if(lives<0||n>=N)finish();else{next();window.scrollTo({top:$('top').offsetTop-4,behavior:'smooth'})}});
+$('lHalf').addEventListener('click',()=>{if(busy)return;const wrong=[...document.querySelectorAll('.slot')].filter(b=>!right(+b.dataset.i));
+ if(!wrong.length)return;$('lHalf').disabled=true;shuffle(wrong).slice(0,Math.ceil(wrong.length/2)).forEach(b=>b.classList.add('gone'));say('Ho spento metà degli spazi sbagliati.')});
+$('lSec').addEventListener('click',()=>{if(busy)return;$('lSec').disabled=true;say(`Indizio: siamo nel ${cent(cur.y)}.`)});
+$('lSave').addEventListener('click',()=>{if(busy)return;shield=true;$('lSave').disabled=true;hud();say('Scudo attivo: il prossimo errore non conta.')});
+function finish(){MUS.stop();if(lives<0)lives=0;const nb=score>best;if(nb){best=score;try{localStorage.setItem(KEY,score)}catch(e){}}
+ const good=res.filter(x=>x).length;lastNew=null;lastBad=null;
+ $('top').hidden=true;$('end').hidden=false;
+ $('endT').textContent=fmt(score)+' punti';
+ $('endP').textContent=(n>=N&&lives>=0?`Viaggio completato: ${good} carte giuste su ${N}. `:`La macchina si è fermata alla carta ${n}. `)+(nb&&score>0?'Nuovo record personale!':`Il tuo record è ${fmt(best)} punti.`)+' Qui sotto trovi la linea del tempo completa: ripassala prima del prossimo viaggio.';
+ if(n>=N&&good>=12)MUS.big();
+ render(false,true);window.scrollTo({top:0,behavior:'smooth'})}
+$('again').addEventListener('click',()=>{start();window.scrollTo({top:0,behavior:'smooth'})});
+start();
+}
+</script></body></html>

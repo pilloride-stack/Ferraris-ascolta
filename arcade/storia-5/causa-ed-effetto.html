@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Causa ed effetto · Storia Classe V</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: gioco a premi del sabato sera, gemello di "Chi vuol essere promosso?"
+   IDEA: otto puntate, una per epoca: ogni collegamento giusto accende due capsule
+   PICTURE: due colonne di capsule (cause e effetti), la scala delle puntate accanto
+   COLOUR and TYPE: blu notte da studio, oro, arancio per la scelta, verde e rosso per l'esito; Bebas Neue + Lexend
+   LAYOUT: gioco a sinistra e puntate a destra; sul telefono le puntate diventano una striscia */
+:root{color-scheme:dark;--bg:#050b1c;--blue:#10224a;--blue2:#1e3d7a;--edge:#6f9be0;--gold:#ffd34d;--ink:#fff;--muted:#b8c8e8;--ok:#2ecc71;--ko:#e74c3c;--sel:#ff9f1a}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% -10%,#2c5aa0 0,#0b1a3a 50%,var(--bg) 100%) fixed;overflow-x:clip}
+.wrap{max-width:1000px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.lights{display:flex;justify-content:center;gap:9px;margin:2px 0 4px}
+.lights i{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold);animation:tw 1.6s infinite}
+.lights i:nth-child(2n){animation-delay:.8s}
+@keyframes tw{50%{opacity:.35}}
+h1{font:400 clamp(38px,7vw,64px)/1 'Bebas Neue',Impact,sans-serif;letter-spacing:2px;margin:0;text-align:center;color:var(--gold);text-shadow:0 0 18px rgba(255,211,77,.55)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 12px}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:16px;align-items:start}
+.prize{text-align:center;margin-bottom:6px}
+.prize i{font-style:normal}.prize span{display:inline-block;background:var(--gold);color:var(--bg);font:24px/1.2 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 16px;border-radius:20px}
+.era{text-align:center;font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;margin-bottom:8px}
+.hud{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:10px;color:var(--muted);font-size:14px}
+.hud b{color:var(--gold);font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;margin-left:6px}
+.lamp{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold);margin-left:5px;vertical-align:-1px}
+.lamp.off{background:#2a3555;box-shadow:none}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 22px}
+.h{font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;color:var(--gold);text-align:center}
+.col{display:flex;flex-direction:column;gap:10px}
+.opt{position:relative;display:flex;align-items:center;gap:10px;font:600 16px/1.25 Lexend,sans-serif;text-align:left;color:#fff;background:linear-gradient(#1e3d7a,#10224a);border:2px solid var(--edge);border-radius:40px;padding:11px 18px;min-height:64px;cursor:pointer;width:100%}
+.opt b{color:var(--gold);flex:none;font:22px/1 'Bebas Neue',sans-serif;min-width:16px}
+.opt:hover:not(:disabled){border-color:var(--gold)}
+.opt.sel{background:linear-gradient(#ffb347,#e67e00);border-color:#fff;color:#1b0f00}.opt.sel b{color:#1b0f00}
+.opt.right{background:linear-gradient(#3be07f,#1e9e52);border-color:#fff;color:#002611;cursor:default;animation:blink .35s 3}.opt.right b{color:#002611}
+.opt.wrong{background:linear-gradient(#ff6b5a,#c0392b);border-color:#fff;animation:shake .4s}
+.opt.hint{border-color:var(--gold);box-shadow:0 0 14px var(--gold)}
+.tag{position:absolute;top:-9px;right:14px;font:15px/1 'Bebas Neue',sans-serif;letter-spacing:1px;background:#fff;color:#002611;border-radius:10px;padding:3px 8px}
+@keyframes blink{50%{filter:brightness(1.5)}}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:14px}
+.life{font:20px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:8px 16px;min-height:44px;cursor:pointer}
+.life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
+.go{font:24px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:10px 26px;min-height:48px;cursor:pointer;box-shadow:0 0 16px rgba(255,211,77,.5)}
+.go.alt{background:transparent;color:var(--gold);border:2px solid var(--gold);box-shadow:none}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.msg{text-align:center;min-height:28px;margin-top:12px;font-weight:600;color:var(--muted)}
+.msg.ok{color:var(--ok)}.msg.ko{color:#ff8a7a}
+.ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:2px}
+.ladder li{display:flex;justify-content:space-between;gap:8px;white-space:nowrap;font:18px/1.25 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:12px;color:var(--muted)}
+.ladder li.cur{background:var(--sel);color:#1b0f00}
+.ladder li.done{color:var(--gold)}
+.ladder li.perf span:last-child:after{content:" ★"}
+.end{text-align:center;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:20px 16px}
+.end h2{font:52px/1 'Bebas Neue',sans-serif;color:var(--gold);margin:6px 0;letter-spacing:2px}
+.rev{text-align:left;max-width:680px;margin:12px auto;padding-left:20px}.rev li{margin:6px 0}.rev b{color:var(--gold)}.rev em{color:#ff8a7a;font-style:normal}
+.rules{color:var(--muted);font-size:15px;margin-top:22px;border-top:1px solid var(--blue2);padding-top:12px}.rules b{color:#fff}
+@media (prefers-reduced-motion:reduce){.lights i,.opt.right,.opt.wrong{animation:none}}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px}.ladder li{flex:none;font-size:17px;padding:2px 10px}.ladder li span:last-child:before{content:'·';margin:0 6px 0 0;opacity:.7}}
+@media(max-width:560px){.lights{display:none}.cols{gap:8px 8px}.opt{font-size:13.5px;line-height:1.22;border-radius:16px;padding:9px 10px;min-height:76px;gap:7px}.opt b{font-size:19px;min-width:12px}.hud{gap:10px}.prize span{font-size:18px;padding:3px 12px}.era{font-size:19px}.lg{display:none}.life{font-size:17px;padding:6px 12px}.bar{gap:8px}}
+
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,11,28,.85);color:#fff;font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,211,77,.35)}
+.mus.off{opacity:.6;box-shadow:none}
+@media(max-width:760px){.mus{top:auto;bottom:14px;right:12px;width:42px;height:42px;font-size:18px}}
+</style></head><body><div class="wrap"><button class="mus" id="mus" type="button" aria-label="Musica: attiva" title="Musica">🔊</button>
+<div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<h1>Causa ed effetto</h1>
+<p class="sub">Storia · Classe V · Otto puntate, dalla prima all'ultima epoca della dispensa</p>
+<div class="stage" id="game">
+ <div>
+  <div class="prize" id="prize"></div>
+  <div class="era" id="era"></div>
+  <div class="hud"><span>Punti<b id="hP">0</b></span><span>Errori rimasti<span id="lamps"></span></span><span>Record<b id="hR">0</b></span></div>
+  <div class="cols"><div class="h">Cause</div><div class="h">Effetti</div><div class="col" id="L"></div><div class="col" id="R"></div></div>
+  <div class="msg" id="msg" role="status"></div>
+  <div class="bar" id="act"></div>
+  <div class="bar"><button class="life" id="lHint" type="button">Svela una coppia</button><button class="life" id="lSave" type="button">Scudo</button></div>
+ </div>
+ <ol class="ladder" id="ladder"></ol>
+</div>
+<div class="end" id="end" hidden><h2 id="endT"></h2><p id="endP"></p><ol class="rev" id="rev"></ol><button class="go" id="again" type="button">Nuova partita</button></div>
+<section class="rules"><b>Come si gioca</b><ul>
+<li>Il gioco ha 8 puntate, una per ogni epoca della dispensa di Storia della classe V. In ogni puntata ci sono 4 cause e 4 effetti da collegare.</li>
+<li>Tocca una causa (si accende di arancione), poi tocca l'effetto giusto. Più vai avanti, più vale ogni collegamento. Se completi una puntata senza errori prendi un bonus ★.</li>
+<li>Puoi sbagliare 3 volte in tutta la partita: al quarto errore il gioco finisce.</li>
+<li>Hai due aiuti, ognuno usabile una sola volta. <b>Svela una coppia</b> collega da solo una causa al suo effetto, senza punti. <b>Scudo</b> ti protegge dal prossimo errore.</li>
+<li>Il tasto 🔊 in alto a destra accende o spegne la musica.</li>
+<li>Alla fine trovi tutte le coppie da ripassare. Ogni partita pesca coppie diverse.</li></ul></section>
+</div><script>
+{
+
+const MUS=(()=>{let on=true;try{on=localStorage.getItem('arcade-musica')!=='off'}catch(e){}
+ let ctx=null,out=null,want=false,run=false,iv=null,next=0,step=0,bpm=100,fast=false;
+ const btn=document.getElementById('mus');
+ const paint=()=>{btn.textContent=on?'🔊':'🔇';btn.classList.toggle('off',!on);btn.setAttribute('aria-label','Musica: '+(on?'attiva':'spenta'))};paint();
+ function init(){if(ctx)return true;try{ctx=new (window.AudioContext||window.webkitAudioContext)();out=ctx.createGain();out.gain.value=.55;out.connect(ctx.destination);return true}catch(e){return false}}
+ function note(f,t,d,type,g,lp){const o=ctx.createOscillator(),v=ctx.createGain();o.type=type;o.frequency.setValueAtTime(f,t);
+  let last=o;if(lp){const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=lp;o.connect(fl);last=fl}
+  last.connect(v);v.connect(out);v.gain.setValueAtTime(.0001,t);v.gain.exponentialRampToValueAtTime(g,t+Math.min(.02,d/4));v.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d+.05)}
+ const CH=[[110,130.8,164.8],[116.5,138.6,174.6],[110,130.8,164.8],[103.8,123.5,155.6]];
+ function play(s,t){const sp=60/bpm/4,bar=Math.floor(s/16)%4;
+  if(s%8===0)note(55,t,.28,'sine',.5);if(s%8===2)note(52,t,.2,'sine',.32);
+  if(s%4===0)note(fast?2400:1800,t,.035,'square',fast?.05:.03,6000);
+  if(fast&&s%2===1)note(2400,t,.025,'square',.025,6000);
+  if(s%16===0)CH[bar].forEach(f=>note(f*2,t,sp*16*.95,'triangle',.035,900));
+  if(s%16===12)note(CH[bar][2]*4,t,sp*3,'sine',.03)}
+ function sched(){if(!run)return;while(next<ctx.currentTime+.15){play(step,next);next+=60/bpm/4;step=(step+1)%64}}
+ function go(){if(!on||!want||run||!init())return;if(ctx.state!=='running'){ctx.resume();if(ctx.state!=='running')return}
+  run=true;next=ctx.currentTime+.05;step=0;iv=setInterval(sched,40)}
+ function halt(){run=false;clearInterval(iv)}
+ const unlock=()=>{if(init()&&ctx.state!=='running')ctx.resume().then(go,()=>{});else go()};
+ document.addEventListener('pointerdown',unlock,true);document.addEventListener('keydown',unlock,true);
+ btn.addEventListener('click',()=>{on=!on;try{localStorage.setItem('arcade-musica',on?'on':'off')}catch(e){}paint();on?go():halt()});
+ return{
+  start(b){bpm=b||100;fast=false;want=true;go()},
+  stop(){want=false;halt()},
+  fast(f){fast=f;bpm=f?Math.max(bpm,150):bpm},
+  speed(b){bpm=b},
+  win(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[523.3,659.3,784,1046.5].forEach((f,k)=>note(f,t+k*.08,.22,'square',.05,3500));[523.3,659.3,784].forEach(f=>note(f,t+.32,.6,'triangle',.06,4000));note(130.8,t+.32,.6,'sine',.35)},
+  lose(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[392,370,349.2,311.1].forEach((f,k)=>note(f,t+k*.22,k===3?.8:.22,'sawtooth',.05,1200));note(77.8,t+.66,.8,'sine',.3)},
+  big(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;const m=[523.3,659.3,784,1046.5,784,1046.5];m.forEach((f,k)=>note(f,t+k*.11,.2,'square',.05,4000));[523.3,659.3,784,1046.5].forEach(f=>note(f,t+.7,1.1,'triangle',.06,5000));note(65.4,t+.7,1.1,'sine',.4);for(let k=0;k<8;k++)note(2600,t+.7+k*.06,.03,'square',.015,8000)},
+  roll(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;for(let k=0;k<18;k++)note(1500,t+k*.065,.04,'square',.012+k*.003,5000);note(55,t,1.2,'sine',.4)}
+ }})();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+const DATA=[{"r": 0, "causa": "Henry Ford introduce la catena di montaggio", "effetto": "Le auto si producono in serie"}, {"r": 0, "causa": "Ford paga salari alti agli operai", "effetto": "Gli operai diventano anche consumatori"}, {"r": 0, "causa": "Giolitti lascia lo Stato neutrale negli scioperi", "effetto": "Crescono i sindacati e migliorano i salari"}, {"r": 0, "causa": "Nel 1912 si allarga il diritto di voto", "effetto": "Gli elettori passano da 3 a 8,5 milioni"}, {"r": 0, "causa": "Con il Patto Gentiloni i cattolici votano i liberali", "effetto": "I cattolici entrano nella vita politica"}, {"r": 0, "causa": "Nei Balcani si scontrano Austria, Russia e Serbia", "effetto": "Sono chiamati la «polveriera d'Europa»"}, {"r": 1, "causa": "Gavrilo Princip uccide Francesco Ferdinando a Sarajevo", "effetto": "L'Austria dichiara guerra alla Serbia"}, {"r": 1, "causa": "I tedeschi vengono fermati sulla Marna", "effetto": "Inizia la guerra di trincea"}, {"r": 1, "causa": "Con il Patto di Londra l'Intesa promette Trento e Trieste", "effetto": "Il 24 maggio 1915 l'Italia entra in guerra"}, {"r": 1, "causa": "Gli austro-tedeschi sfondano a Caporetto", "effetto": "L'esercito italiano si ritira sul Piave"}, {"r": 1, "causa": "I sottomarini tedeschi attaccano le navi", "effetto": "Nel 1917 entrano in guerra gli Stati Uniti"}, {"r": 1, "causa": "L'Italia non ottiene Fiume e la Dalmazia", "effetto": "Si parla di «vittoria mutilata»"}, {"r": 2, "causa": "La Russia perde la guerra con il Giappone", "effetto": "Nel 1905 scoppia una rivoluzione"}, {"r": 2, "causa": "Fame e guerra provocano rivolte a Pietrogrado", "effetto": "Nel 1917 lo zar abdica"}, {"r": 2, "causa": "I bolscevichi prendono il Palazzo d'Inverno", "effetto": "Lenin va al potere"}, {"r": 2, "causa": "Il comunismo di guerra fa crollare la produzione", "effetto": "Nel 1921 Lenin introduce la NEP"}, {"r": 2, "causa": "Stalin collettivizza le terre", "effetto": "Scoppia la carestia del 1932-33"}, {"r": 2, "causa": "Stalin vuole eliminare ogni oppositore", "effetto": "Con le grandi purghe centinaia di migliaia sono fucilati"}, {"r": 3, "causa": "La Francia occupa la Ruhr", "effetto": "Nel 1923 la Germania ha l'iperinflazione"}, {"r": 3, "causa": "Si comprano azioni a credito e la Borsa si gonfia", "effetto": "Nell'ottobre 1929 crolla Wall Street"}, {"r": 3, "causa": "I salari crescono meno della produzione", "effetto": "Molti prodotti restano invenduti"}, {"r": 3, "causa": "Le banche americane falliscono", "effetto": "I prestiti all'Europa vengono richiamati"}, {"r": 3, "causa": "Roosevelt vuole combattere la depressione", "effetto": "Lancia il New Deal"}, {"r": 3, "causa": "Il piano Dawes porta prestiti americani", "effetto": "La Germania si stabilizza"}, {"r": 4, "causa": "Gli squadristi attaccano sindacati e giornali socialisti", "effetto": "Il fascismo si impone con la violenza"}, {"r": 4, "causa": "Il re non firma lo stato d'assedio", "effetto": "Dopo la Marcia su Roma Mussolini va al governo"}, {"r": 4, "causa": "Matteotti denuncia i brogli elettorali", "effetto": "Viene rapito e ucciso dagli squadristi"}, {"r": 4, "causa": "Mussolini si assume la responsabilità del delitto Matteotti", "effetto": "Il 3 gennaio 1925 inizia la dittatura"}, {"r": 4, "causa": "Stato e Chiesa firmano i Patti Lateranensi", "effetto": "Nasce lo Stato della Città del Vaticano"}, {"r": 4, "causa": "L'Italia aggredisce l'Etiopia", "effetto": "La Società delle Nazioni impone sanzioni"}, {"r": 5, "causa": "La crisi del 1929 lascia 6 milioni di disoccupati in Germania", "effetto": "Il partito di Hitler diventa il primo nel 1932"}, {"r": 5, "causa": "Brucia il Reichstag e Hitler accusa i comunisti", "effetto": "Si limitano le libertà"}, {"r": 5, "causa": "Con la legge dei pieni poteri il governo fa le leggi", "effetto": "Partiti e sindacati vengono sciolti"}, {"r": 5, "causa": "Le Leggi di Norimberga colpiscono gli ebrei", "effetto": "Gli ebrei perdono la cittadinanza tedesca"}, {"r": 5, "causa": "La conferenza di Wannsee organizza la «soluzione finale»", "effetto": "Gli ebrei sono deportati nei campi di sterminio"}, {"r": 5, "causa": "L'Armata Rossa arriva ad Auschwitz il 27 gennaio 1945", "effetto": "Quel giorno è diventato il Giorno della Memoria"}, {"r": 6, "causa": "Francia e Gran Bretagna praticano l'appeasement", "effetto": "Hitler annette Austria e Sudeti senza reazioni"}, {"r": 6, "causa": "La Germania invade la Polonia il 1° settembre 1939", "effetto": "Francia e Gran Bretagna le dichiarano guerra"}, {"r": 6, "causa": "Il Giappone attacca Pearl Harbor", "effetto": "Gli Stati Uniti entrano in guerra"}, {"r": 6, "causa": "Gli Alleati sbarcano in Sicilia nel 1943", "effetto": "Il 25 luglio Mussolini viene arrestato"}, {"r": 6, "causa": "L'8 settembre 1943 si annuncia l'armistizio", "effetto": "I tedeschi occupano il Centro-Nord"}, {"r": 6, "causa": "Gli Stati Uniti sganciano due bombe atomiche", "effetto": "Il Giappone si arrende"}, {"r": 7, "causa": "Le superpotenze hanno armi nucleari", "effetto": "La guerra fredda non diventa mai una guerra diretta"}, {"r": 7, "causa": "L'URSS blocca gli accessi a Berlino Ovest", "effetto": "Gli Alleati organizzano un ponte aereo"}, {"r": 7, "causa": "Molti tedeschi dell'Est fuggono verso Ovest", "effetto": "Nel 1961 la RDT costruisce il Muro di Berlino"}, {"r": 7, "causa": "L'URSS installa missili a Cuba", "effetto": "Kennedy impone il blocco navale"}, {"r": 7, "causa": "Il 2 giugno 1946 vince la Repubblica", "effetto": "Si scrive la Costituzione, in vigore dal 1948"}, {"r": 7, "causa": "Dopo due guerre gli statisti vogliono cooperare", "effetto": "Nasce la costruzione europea"}], ROUNDS=[["Giolitti e la Belle Époque", "Giolitti"], ["La Prima guerra mondiale", "Grande Guerra"], ["La Russia di Lenin e Stalin", "URSS"], ["La crisi del 1929", "1929"], ["Il fascismo", "Fascismo"], ["Il nazismo e la Shoah", "Nazismo"], ["La Seconda guerra mondiale", "II guerra"], ["Guerra fredda e Repubblica", "Dopoguerra"]], VAL=[100,150,200,250,300,400,500,600], LIVES=3, KEY='causa-tv-V';
+let r,score,lives,sel,done,cur,errsRound,log,shield,perfect,busy,best=0;
+try{best=+localStorage.getItem(KEY)||0}catch(e){}
+let ac=null;function tone(f,d,t='sine',g=.08){try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();const o=ac.createOscillator(),v=ac.createGain();o.type=t;o.frequency.value=f;o.connect(v);v.connect(ac.destination);const n=ac.currentTime;v.gain.setValueAtTime(g,n);v.gain.exponentialRampToValueAtTime(.001,n+d);o.start(n);o.stop(n+d)}catch(e){}}
+function start(){r=0;score=0;lives=LIVES;log=[];perfect=[];shield=false;$('end').hidden=true;$('game').hidden=false;['lHint','lSave'].forEach(i=>{$(i).disabled=false;$(i).textContent=i==='lSave'?'Scudo':'Svela una coppia'});round()}
+function round(){cur=shuffle(DATA.filter(p=>p.r===r)).slice(0,4);sel=null;done=0;errsRound=0;busy=false;
+ $('prize').innerHTML=`<span>Puntata ${r+1} di 8 · ${fmt(VAL[r])} punti<i class="lg"> a collegamento</i></span>`;
+ $('era').textContent=ROUNDS[r][0];
+ $('L').innerHTML=cur.map((p,k)=>`<button class="opt" type="button" data-s="L" data-k="${k}"><b>${k+1}</b><span>${esc(p.causa)}</span></button>`).join('');
+ $('R').innerHTML=shuffle([0,1,2,3]).map((k,j)=>`<button class="opt" type="button" data-s="R" data-k="${k}"><b>${'ABCD'[j]}</b><span>${esc(cur[k].effetto)}</span></button>`).join('');
+ $('act').innerHTML='';say('Tocca una causa, poi il suo effetto.');hud();ladder();MUS.start(92+r*6)}
+function say(t,c=''){$('msg').textContent=t;$('msg').className='msg '+c}
+function hud(){$('hP').textContent=fmt(score);$('hR').textContent=fmt(Math.max(best,0));
+ $('lamps').innerHTML=Array.from({length:LIVES},(_,i)=>`<i class="lamp ${i<lives?'':'off'}"></i>`).join('')+(shield?' <b>🛡</b>':'')}
+function ladder(){$('ladder').innerHTML=ROUNDS.map((x,k)=>`<li class="${k===r?'cur':''} ${k<r?'done':''} ${perfect.includes(k)?'perf':''}"><span>${k+1} · ${esc(x[1])}</span><span>${fmt(VAL[k])}</span></li>`).join('');
+ const c=$('ladder').querySelector('.cur');if(c&&matchMedia('(max-width:760px)').matches)c.scrollIntoView({inline:'center',block:'nearest'})}
+const btn=(s,k)=>document.querySelector(`.opt[data-s="${s}"][data-k="${k}"]`);
+function link(k,how){const a=btn('L',k),b=btn('R',k),lab=b.querySelector('b').textContent;
+ [a,b].forEach(x=>{x.classList.remove('sel','hint');x.classList.add('right');x.disabled=true});
+ a.insertAdjacentHTML('beforeend',`<span class="tag">→ ${lab}</span>`);b.insertAdjacentHTML('beforeend',`<span class="tag">${k+1} →</span>`);
+ log.push({p:cur[k],how});done++;sel=null}
+function pickCause(b){if(sel!==null)btn('L',sel).classList.remove('sel');sel=+b.dataset.k;b.classList.add('sel');tone(440,.12,'triangle');say('Ora tocca l\'effetto giusto.')}
+function pickEffect(b){if(sel===null){say('Prima scegli una causa nella colonna di sinistra.','ko');return}
+ const k=+b.dataset.k;
+ if(k===sel){const v=VAL[r];score+=v;link(k,'ok');MUS.win();say(`Esatto! +${fmt(v)}`,'ok');hud();if(done===4)endRound()}
+ else{b.classList.add('wrong');setTimeout(()=>b.classList.remove('wrong'),600);MUS.lose();
+  const c=cur[sel];if(!log.some(l=>l.p===c&&l.how==='ko'))log.push({p:c,how:'ko'});
+  if(shield){shield=false;say('Sbagliato, ma lo scudo ti ha protetto!','ko');hud();return}
+  errsRound++;lives--;hud();
+  if(lives<0){MUS.stop();lives=0;hud();say(`No: era «${c.effetto}». Hai finito gli errori.`,'ko');busy=true;$('act').innerHTML=`<button class="go" id="fin" type="button">Vedi il risultato</button>`;$('act').scrollIntoView({block:'nearest',behavior:'smooth'})}
+  else{if(lives===0)MUS.fast(true);say(lives?`No, riprova. Ti ${lives===1?'resta 1 errore':'restano '+lives+' errori'}.`:'No, riprova. Attenzione: al prossimo errore la partita finisce!','ko')}}}
+function endRound(){busy=true;MUS.stop();let t='Puntata completata!';
+ if(errsRound===0){const b=VAL[r]*2;score+=b;perfect.push(r);t=`Puntata perfetta! Bonus ★ +${fmt(b)}`;setTimeout(()=>MUS.big(),600)}
+ hud();ladder();say(t,'ok');
+ $('act').innerHTML=`<button class="go" id="nx" type="button">${r<7?'Prossima puntata':'Vedi il risultato'}</button>`;
+ $('act').querySelector('button').focus({preventScroll:true});$('act').scrollIntoView({block:'nearest',behavior:'smooth'})}
+document.querySelector('.cols').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b||b.disabled||busy)return;b.dataset.s==='L'?pickCause(b):pickEffect(b)});
+$('act').addEventListener('click',e=>{const id=e.target.id;
+ if(id==='nx'){r++;if(r>=8)finish('Hai completato tutte le 8 puntate');else{round();window.scrollTo({top:0,behavior:'smooth'})}}
+ if(id==='fin')finish(`Sei arrivato alla puntata ${r+1}`)});
+$('lHint').addEventListener('click',()=>{if(busy)return;const free=[0,1,2,3].filter(k=>!btn('L',k).disabled);if(!free.length)return;
+ const k=sel!==null&&free.includes(sel)?sel:free[Math.floor(Math.random()*free.length)];$('lHint').disabled=true;link(k,'hint');say('Ecco una coppia svelata.');if(done===4)endRound()});
+$('lSave').addEventListener('click',()=>{if(busy)return;shield=true;$('lSave').disabled=true;hud();say('Scudo attivo: il prossimo errore non conta.')});
+function finish(title){MUS.stop();$('game').hidden=true;$('end').hidden=false;const nb=score>best;if(nb){best=score;try{localStorage.setItem(KEY,score)}catch(e){}}
+ $('endT').textContent=fmt(score)+' punti';
+ $('endP').textContent=`${title}. `+(nb?'Nuovo record personale!':`Il tuo record è ${fmt(best)} punti.`)+' Ecco le coppie che hai incontrato:';
+ const seen=new Set(),rows=[];log.forEach(l=>{if(seen.has(l.p))return;seen.add(l.p);rows.push({p:l.p,ko:log.some(x=>x.p===l.p&&x.how!=='ok')})});
+ $('rev').innerHTML=rows.map(x=>`<li>${esc(x.p.causa)} → <b>${esc(x.p.effetto)}</b>${x.ko?' <em>(da ripassare)</em>':''}</li>`).join('');
+ window.scrollTo({top:0,behavior:'smooth'})}
+$('again').addEventListener('click',start);
+start();
+}
+</script></body></html>
