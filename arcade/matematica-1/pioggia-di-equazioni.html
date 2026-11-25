@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pioggia di equazioni</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: arcade da sala giochi, veloce e festoso, ma la matematica resta leggibile
+   IDEA: difesa della città: ogni meteorite porta un'equazione, la soluzione è il colpo che lo distrugge
+   PICTURE: il cielo notturno con meteoriti arancio, la città illuminata in basso e il cannone al centro
+   COLOUR and TYPE: notte blu profondo, arancio Ferraris per il fuoco, oro per il bonus; Bungee per i titoli, Lexend per i numeri
+   LAYOUT: barra punteggi, area di gioco grande, risposta sotto; tastierino sui telefoni */
+:root{color-scheme:dark;--night:#081327;--deep:#0f2444;--navy:#1F3A5F;--orange:#E36C09;--fire:#ffb054;--gold:#ffd34d;--ink:#eef3fb;--muted:#9fb2cc}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--night);color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;overflow-x:clip}
+.wrap{max-width:980px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+h1{font:400 clamp(22px,4vw,34px)/1.05 Bungee,Lexend,sans-serif;margin:0;color:var(--fire);letter-spacing:.5px}
+.hud{display:flex;gap:6px;flex-wrap:wrap}
+.chip{background:var(--deep);border-radius:10px;padding:5px 11px;font-size:14px;color:var(--muted);white-space:nowrap}
+.chip b{color:var(--ink);font-size:17px;margin-left:4px}
+.chip.combo b{color:var(--gold)}
+.iconbtn{font:600 14px Lexend,sans-serif;background:var(--deep);color:var(--ink);border:0;border-radius:10px;min-height:36px;padding:0 12px;cursor:pointer}
+.stage{position:relative;margin-top:10px;border-radius:18px;overflow:hidden;height:clamp(380px,62vh,600px);background:var(--night)}
+canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.ov{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;background:rgba(6,14,30,.78);gap:10px}
+.ov[hidden]{display:none}
+.ov h2{font:400 clamp(30px,6vw,54px)/1.05 Bungee,sans-serif;margin:0;color:var(--fire);text-wrap:balance}
+.ov p{margin:0;max-width:560px;color:var(--ink)}
+.ov .small{font-size:14px;color:var(--muted)}
+.diff{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.diff button{font:600 15px Lexend,sans-serif;border:2px solid var(--fire);background:transparent;color:var(--fire);border-radius:24px;padding:8px 16px;min-height:44px;cursor:pointer}
+.diff button[aria-pressed=true]{background:var(--fire);color:var(--night)}
+.play{font:400 22px Bungee,sans-serif;background:var(--orange);color:#fff;border:0;border-radius:16px;padding:14px 34px;cursor:pointer;box-shadow:0 6px 0 #9c4600}
+.play:active{transform:translateY(3px);box-shadow:0 3px 0 #9c4600}
+.missed{max-height:180px;overflow:auto;text-align:left;font-size:14px;background:rgba(255,255,255,.06);border-radius:10px;padding:8px 14px;width:min(560px,100%)}
+.missed li{margin:3px 0}
+.bar{display:flex;gap:8px;align-items:center;justify-content:center;margin-top:10px;flex-wrap:wrap}
+.bar label{font:800 24px Lexend,sans-serif;color:var(--fire)}
+#ans{font:700 22px Lexend,sans-serif;width:190px;padding:10px 12px;border-radius:12px;border:2px solid var(--navy);background:var(--deep);color:var(--ink);text-align:center}
+#ans:focus,button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.fire{font:400 18px Bungee,sans-serif;background:var(--orange);color:#fff;border:0;border-radius:12px;padding:12px 20px;min-height:48px;cursor:pointer}
+.fb{min-height:26px;text-align:center;font-weight:600;margin-top:6px;color:var(--muted)}
+.pad{display:none;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin:10px auto 0;max-width:440px}
+.pad button{font:700 20px Lexend,sans-serif;min-height:48px;border:0;border-radius:10px;background:var(--deep);color:var(--ink);cursor:pointer}
+.pad button.go{background:var(--orange)}
+@media (pointer:coarse){.pad{display:grid}
+.wrap{padding-top:6px;padding-bottom:16px}h1{font-size:19px}.top{gap:4px}.hud{gap:4px}
+.chip{font-size:12px;padding:3px 7px}.chip b{font-size:14px}.iconbtn{min-height:32px;font-size:12px;padding:0 9px}
+.stage{height:calc(100svh - 318px);min-height:250px;margin-top:6px;border-radius:14px}
+.ov{gap:7px;padding:12px}.ov h2{font-size:28px}.ov p{font-size:14px}.play{font-size:19px;padding:10px 28px}
+.bar{margin-top:6px;flex-wrap:nowrap}.bar label{font-size:20px}.bar .fire{display:none}#ans{width:100%;max-width:240px;font-size:20px;padding:6px 10px}
+.fb{font-size:13px;min-height:20px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pad{gap:5px;margin-top:6px}.pad button{min-height:44px}}
+.help{margin-top:18px;color:var(--muted);font-size:15px}
+.help b{color:var(--ink)}
+.help ul{margin:6px 0 0;padding-left:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <h1>Pioggia di equazioni</h1>
+    <div class="hud">
+      <span class="chip">Punti<b id="hP">0</b></span>
+      <span class="chip">Ondata<b id="hW">1</b></span>
+      <span class="chip combo">Combo<b id="hC">×1</b></span>
+      <span class="chip">Città<b id="hL">●●●●●</b></span>
+      <button class="iconbtn" id="mute" type="button" aria-pressed="false">Suono sì</button>
+      <button class="iconbtn" id="pause" type="button">Pausa</button>
+    </div>
+  </div>
+
+  <div class="stage" id="stage">
+    <canvas id="cv" aria-label="Area di gioco: meteoriti con equazioni che cadono sulla città"></canvas>
+    <div class="ov" id="ovStart">
+      <h2>Salva la città!</h2>
+      <p>Ogni meteorite porta un'equazione. Scrivi il valore di <b>x</b> e premi Invio: il cannone lo distrugge. Se arriva a terra, perdi un palazzo.</p>
+      <div class="diff" role="group" aria-label="Partenza">
+        <button data-w="1" aria-pressed="true">Recluta</button>
+        <button data-w="3" aria-pressed="false">Pilota</button>
+        <button data-w="5" aria-pressed="false">Comandante</button>
+      </div>
+      <button class="play" id="go" type="button">Gioca</button>
+      <p class="small" id="rec"></p>
+    </div>
+    <div class="ov" id="ovPause" hidden><h2>Pausa</h2><button class="play" id="resume" type="button">Riprendi</button></div>
+    <div class="ov" id="ovEnd" hidden>
+      <h2 id="endT">Città distrutta!</h2>
+      <p id="endP"></p>
+      <ul class="missed" id="missed"></ul>
+      <button class="play" id="again" type="button">Rigioca</button>
+    </div>
+  </div>
+
+  <form class="bar" id="f" autocomplete="off">
+    <label for="ans">x =</label>
+    <input id="ans" inputmode="text" placeholder="3   −2   5/4" aria-describedby="fb">
+    <button class="fire" type="submit">Fuoco!</button>
+  </form>
+  <div class="fb" id="fb" role="status">Interi, decimali con la virgola (2,5) o frazioni (7/3).</div>
+  <div class="pad" id="pad">
+    <button>7</button><button>8</button><button>9</button><button>−</button><button data-k="del">⌫</button>
+    <button>4</button><button>5</button><button>6</button><button>/</button><button>,</button>
+    <button>1</button><button>2</button><button>3</button><button>0</button><button class="go" data-k="ok">↵</button>
+  </div>
+
+  <section class="help">
+    <b>Regole veloci</b>
+    <ul>
+      <li>Più in alto colpisci il meteorite, più punti fai. Le risposte giuste di fila alzano la <b>combo</b> fino a ×5.</li>
+      <li>Il <b>meteorite dorato</b> rallenta il tempo per qualche secondo. Ogni 5 ondate arriva il <b>boss</b>: se tocca terra vale due palazzi.</li>
+      <li>Le ondate accelerano: prima ax + b = c, poi x da entrambe le parti, poi parentesi e frazioni.</li>
+      <li>Alla fine trovi le equazioni sfuggite con la soluzione passo passo. Pausa: tasto Esc.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+{
+const $=id=>document.getElementById(id);
+const R=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
+const nz=(a,b)=>{let v;do v=R(a,b);while(v===0);return v};
+const gcd=(a,b)=>{a=Math.abs(a);b=Math.abs(b);while(b){[a,b]=[b,a%b]}return a||1};
+const M='−';
+const frac=(n,d)=>{if(d<0){n=-n;d=-d}const g=gcd(n,d);n/=g;d/=g;return (n<0?M:'')+Math.abs(n)+(d===1?'':'/'+d)};
+function side(s){let o='';const t=[];if(s.x)t.push([s.x,'x']);if(s.k||!s.x)t.push([s.k,'']);
+  t.forEach(([c,v],i)=>{const a=Math.abs(c),num=v&&a===1?'':String(a);o+=i===0?(c<0?M:'')+num+v:(c<0?' '+M+' ':' + ')+num+v});return o}
+function paren(a,b){if(a===1)return side({x:1,k:b});return `${a===-1?M:(a<0?M:'')+Math.abs(a)}(x ${b<0?M:'+'} ${Math.abs(b)})`}
+function mk(L,Rr,txt){const A=L.x-Rr.x,B=Rr.k-L.k;const st=[];
+  if(txt)st.push(`${side(L)} = ${side(Rr)}  (tolgo le parentesi)`);
+  st.push(`${side({x:A,k:0})} = ${side({x:0,k:B})}  (x a sinistra, numeri a destra, sommo)`);
+  if(A!==1)st.push(`x = ${frac(B,A)}  (divido per ${A<0?M+Math.abs(A):A})`);
+  return{t:(txt||[side(L),side(Rr)]).join(' = '),v:B/A,s:frac(B,A),st}}
+function gen(lv,fr){
+  if(lv===1){const x=R(-9,9),a=nz(-9,9),b=nz(-15,15);return mk({x:a,k:b},{x:0,k:a*x+b})}
+  if(lv===2){const x=R(-9,9);let a=nz(-9,9),c;do c=nz(-9,9);while(c===a);const b=R(-15,15);return mk({x:a,k:b},{x:c,k:(a-c)*x+b})}
+  if(fr&&Math.random()<.35){let a,c,b,d;do{a=nz(-9,9);c=nz(-9,9);b=R(-12,12);d=R(-12,12)}while(a===c||(d-b)%(a-c)===0||Math.abs(a-c)>6);return mk({x:a,k:b},{x:c,k:d})}
+  const x=R(-7,7);let a=nz(-6,6),c;do c=nz(-6,6);while(c===a);const b=nz(-8,8),d=nz(-8,8),e=a*(x+b)-c*(x+d);
+  return mk({x:a,k:a*b},{x:c,k:c*d+e},[paren(a,b),paren(c,d)+(e?(e<0?' '+M+' ':' + ')+Math.abs(e):'')])}
+function parse(s){s=s.trim().replace(/[−–]/g,'-').replace(',','.').replace(/\s/g,'');
+  const m=s.match(/^(-?\d+)\/(-?\d+)$/);if(m&&+m[2]!==0)return +m[1]/+m[2];return /^-?\d+(\.\d+)?$/.test(s)?+s:null}
+
+/* ---------- audio ---------- */
+let ac=null,muted=false;
+function snd(type){if(muted)return;try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();const t=ac.currentTime,o=ac.createOscillator(),g=ac.createGain();o.connect(g);g.connect(ac.destination);
+  const P={laser:['square',880,220,.12,.08],boom:['sawtooth',160,40,.35,.15],hit:['triangle',120,50,.5,.25],miss:['sine',240,180,.15,.07],wave:['triangle',520,1040,.35,.1],gold:['sine',660,1320,.4,.12]}[type];
+  o.type=P[0];o.frequency.setValueAtTime(P[1],t);o.frequency.exponentialRampToValueAtTime(P[2],t+P[3]);g.gain.setValueAtTime(P[4],t);g.gain.exponentialRampToValueAtTime(.001,t+P[3]);o.start(t);o.stop(t+P[3])}catch(e){}}
+
+/* ---------- stato ---------- */
+const cv=$('cv'),cx=cv.getContext('2d');let W=0,H=0,dpr=1;
+function size(){dpr=Math.min(devicePixelRatio||1,2);W=cv.clientWidth;H=cv.clientHeight;cv.width=W*dpr;cv.height=H*dpr;cx.setTransform(dpr,0,0,dpr,0,0);makeCity()}
+const ro=new ResizeObserver(size);ro.observe(cv);
+let stars=[],city=[],mets=[],parts=[],shots=[],banners=[];
+let run=false,paused=false,score=0,wave=1,startW=1,combo=0,lives=5,toSpawn=0,spawnT=0,slow=0,missedList=[],last=0,best=0,shake=0;
+try{best=+localStorage.getItem('pioggia-best')||0}catch(e){}
+function makeCity(){stars=Array.from({length:Math.round(W*H/5000)},()=>({x:Math.random()*W,y:Math.random()*H*.8,r:Math.random()*1.4+.3,p:Math.random()*6}));
+  const n=5,gw=W/n;city=Array.from({length:n},(_,i)=>{const old=city[i];return{x:i*gw+gw*.12,w:gw*.76,h:H*(.08+((i*37)%5)/50),alive:old?old.alive:true,win:Array.from({length:24},()=>Math.random()<.55)}})}
+function mult(){return Math.min(1+Math.floor(combo/3),5)}
+function hud(){$('hP').textContent=score;$('hW').textContent=wave;$('hC').textContent='×'+mult();$('hL').textContent='●'.repeat(lives)+'○'.repeat(Math.max(0,5-lives))}
+function waveCfg(w){return{n:5+w,gap:Math.max(4.5,9-w*.4),time:Math.max(18,34-w*1.2),
+  lv:()=>{const r=Math.random();if(w<=2)return 1;if(w<=4)return r<.35?1:2;return r<.2?1:r<.5?2:3}}}
+function startWave(){const c=waveCfg(wave);toSpawn=c.n;spawnT=.6;banners.push({t:wave%5===0?`Ondata ${wave}: arriva il boss!`:`Ondata ${wave}`,life:2});snd('wave')}
+function spawn(){const c=waveCfg(wave);const boss=wave%5===0&&toSpawn===1;const gold=!boss&&Math.random()<.12;
+  const q=gen(boss?3:c.lv(),wave>=6||boss);cx.font='700 17px Lexend, system-ui, sans-serif';const tw=cx.measureText(q.t).width;
+  const r=boss?34:gold?18:15;const x=Math.max(tw/2+14,Math.min(W-tw/2-14,R(40,Math.max(41,W-40))));
+  mets.push({q,x,y:-r-10,r,vy:(H*.82)/(c.time*(boss?1.6:1)),boss,gold,tw,spin:Math.random()*6});toSpawn--}
+function fire(val){if(!run||paused)return;
+  const hits=mets.filter(m=>Math.abs(m.q.v-val)<1e-9).sort((a,b)=>b.y-a.y);
+  if(!hits.length){combo=0;snd('miss');fb('Nessun meteorite ha questa soluzione: combo azzerata.','#ff9a8a');hud();return}
+  const m=hits[0];combo++;const height=Math.max(0,1-m.y/(H*.8));const pts=Math.round((100+150*height)*mult()*(m.boss?5:1));score+=pts;
+  shots.push({x:m.x,y:m.y,life:.18});boom(m.x,m.y,m.boss?80:m.gold?50:34,m.gold?'#ffd34d':'#ffb054');mets.splice(mets.indexOf(m),1);snd('laser');setTimeout(()=>snd('boom'),60);
+  if(m.gold){slow=6;snd('gold');banners.push({t:'Tempo rallentato!',life:1.6})}
+  fb(`${m.q.t}  →  x = ${m.q.s}   +${pts}`,'#ffd34d');hud()}
+function boom(x,y,n,col){for(let i=0;i<n;i++){const a=Math.random()*6.28,s=Math.random()*260+40;parts.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s,life:Math.random()*.6+.4,col:Math.random()<.5?col:'#fff'})}}
+function ground(m){const alive=city.filter(c=>c.alive);let k=m.boss?2:1;
+  while(k--&&alive.length){let best=alive[0];for(const c of alive)if(Math.abs(c.x+c.w/2-m.x)<Math.abs(best.x+best.w/2-m.x))best=c;best.alive=false;alive.splice(alive.indexOf(best),1);lives--}
+  boom(m.x,H-30,60,'#E36C09');shake=.4;combo=0;snd('hit');missedList.push(m.q);fb(`Colpito! ${m.q.t} aveva soluzione x = ${m.q.s}`,'#ff9a8a');hud();
+  if(lives<=0)end()}
+function fb(t,c){$('fb').textContent=t;$('fb').style.color=c}
+
+/* ---------- disegno ---------- */
+function pill(x,y,t,tw,gold,boss){const h=26,w=tw+18;cx.fillStyle=boss?'rgba(227,108,9,.95)':gold?'rgba(255,211,77,.95)':'rgba(8,19,39,.86)';
+  cx.beginPath();cx.roundRect(x-w/2,y-h/2,w,h,9);cx.fill();cx.strokeStyle=gold?'#fff6d0':'#ffb054';cx.lineWidth=1.5;cx.stroke();
+  cx.fillStyle=gold?'#2a1a00':'#fff';cx.textAlign='center';cx.textBaseline='middle';cx.fillText(t,x,y+1)}
+function draw(dt,now){const g=cx.createLinearGradient(0,0,0,H);g.addColorStop(0,'#050d1d');g.addColorStop(.7,'#0f2444');g.addColorStop(1,'#1F3A5F');
+  cx.save();if(shake>0)cx.translate((Math.random()-.5)*14*shake,(Math.random()-.5)*14*shake);
+  cx.fillStyle=g;cx.fillRect(-20,-20,W+40,H+40);
+  for(const s of stars){cx.globalAlpha=.4+.4*Math.sin(now/700+s.p);cx.fillStyle='#fff';cx.fillRect(s.x,s.y,s.r,s.r)}cx.globalAlpha=1;
+  cx.fillStyle='rgba(255,255,255,.06)';cx.beginPath();cx.arc(W*.82,H*.18,Math.min(W,H)*.09,0,6.3);cx.fill();
+  /* città */
+  for(const c of city){const top=H-c.h-18;
+    if(c.alive){const bg=cx.createLinearGradient(c.x,0,c.x+c.w,0);bg.addColorStop(0,'#16304f');bg.addColorStop(1,'#24497a');cx.fillStyle=bg;cx.fillRect(c.x,top,c.w,c.h);
+      cx.fillStyle='rgba(255,255,255,.18)';cx.fillRect(c.x,top,c.w,3);
+      const cols=4,rows=Math.max(2,Math.floor(c.h/22));for(let i=0;i<cols;i++)for(let j=0;j<rows;j++){if(!c.win[(i*7+j)%24])continue;cx.fillStyle='#ffd98a';cx.fillRect(c.x+c.w*(.12+i*.21),top+10+j*20,c.w*.11,8)}}
+    else{cx.fillStyle='#2a2f3a';cx.beginPath();cx.moveTo(c.x,H-18);for(let i=0;i<=6;i++)cx.lineTo(c.x+c.w*i/6,H-18-c.h*.25*(i%2?1:.4));cx.lineTo(c.x+c.w,H-18);cx.fill();
+      cx.fillStyle='rgba(227,108,9,.5)';cx.beginPath();cx.arc(c.x+c.w/2,H-22,6+3*Math.sin(now/120),0,6.3);cx.fill()}}
+  cx.fillStyle='#0a1628';cx.fillRect(0,H-18,W,18);
+  /* cannone */
+  cx.fillStyle='#E36C09';cx.beginPath();cx.arc(W/2,H-18,20,Math.PI,0);cx.fill();cx.fillStyle='#ffb054';cx.fillRect(W/2-5,H-52,10,30);
+  /* meteoriti */
+  cx.font='700 17px Lexend, system-ui, sans-serif';
+  for(const m of mets){const tail=cx.createLinearGradient(m.x,m.y-m.r*5,m.x,m.y);tail.addColorStop(0,'rgba(255,176,84,0)');tail.addColorStop(1,m.gold?'rgba(255,211,77,.7)':'rgba(255,140,40,.6)');
+    cx.fillStyle=tail;cx.beginPath();cx.moveTo(m.x-m.r*.8,m.y);cx.lineTo(m.x,m.y-m.r*6);cx.lineTo(m.x+m.r*.8,m.y);cx.fill();
+    const rg=cx.createRadialGradient(m.x-m.r*.35,m.y-m.r*.35,m.r*.1,m.x,m.y,m.r);rg.addColorStop(0,m.gold?'#fff6c8':'#ffd2a1');rg.addColorStop(.5,m.gold?'#ffd34d':'#E36C09');rg.addColorStop(1,m.gold?'#b8860b':'#7a3300');
+    cx.fillStyle=rg;cx.beginPath();cx.arc(m.x,m.y,m.r,0,6.3);cx.fill();
+    cx.fillStyle='rgba(0,0,0,.25)';cx.beginPath();cx.arc(m.x+m.r*.3,m.y+m.r*.2,m.r*.22,0,6.3);cx.fill();
+    pill(m.x,m.y+m.r+18,m.q.t,m.tw,m.gold,m.boss)}
+  for(const s of shots){cx.strokeStyle=`rgba(255,240,200,${s.life/.18})`;cx.lineWidth=5;cx.beginPath();cx.moveTo(W/2,H-52);cx.lineTo(s.x,s.y);cx.stroke();cx.strokeStyle='#ffb054';cx.lineWidth=2;cx.stroke()}
+  for(const p of parts){cx.globalAlpha=Math.max(0,p.life);cx.fillStyle=p.col;cx.fillRect(p.x,p.y,3,3)}cx.globalAlpha=1;
+  if(slow>0){cx.fillStyle='rgba(255,211,77,.08)';cx.fillRect(0,0,W,H)}
+  for(const b of banners){cx.globalAlpha=Math.min(1,b.life);cx.font=`400 ${Math.max(20,Math.min(40,W/18))}px Bungee, Lexend, sans-serif`;cx.fillStyle='#ffb054';cx.textAlign='center';cx.fillText(b.t,W/2,H*.38)}cx.globalAlpha=1;
+  cx.restore()}
+
+function loop(now){const dt=Math.min(.05,(now-last)/1000||0);last=now;
+  if(run&&!paused){const ts=slow>0?.35:1;slow=Math.max(0,slow-dt);shake=Math.max(0,shake-dt);
+    if(toSpawn>0){spawnT-=dt*ts;if(spawnT<=0){spawn();spawnT=waveCfg(wave).gap}}
+    for(const m of [...mets]){m.y+=m.vy*dt*ts;if(m.y+m.r>=H-18-8){mets.splice(mets.indexOf(m),1);ground(m);if(!run)break}}
+    if(run&&toSpawn===0&&mets.length===0){const bonus=wave*200;score+=bonus;banners.push({t:`Ondata superata! +${bonus}`,life:1.8});wave++;hud();startWave()}}
+  for(const p of parts){p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=300*dt;p.life-=dt}parts=parts.filter(p=>p.life>0);
+  for(const s of shots)s.life-=dt;shots=shots.filter(s=>s.life>0);for(const b of banners)b.life-=dt;banners=banners.filter(b=>b.life>0);
+  draw(dt,now);requestAnimationFrame(loop)}
+
+function start(){mets=[];parts=[];shots=[];banners=[];score=0;combo=0;lives=5;slow=0;missedList=[];wave=startW;city.forEach(c=>c.alive=true);
+  $('ovStart').hidden=true;$('ovEnd').hidden=true;run=true;paused=false;hud();startWave();fb('Scrivi la soluzione e premi Invio!','#9fb2cc');$('ans').value='';$('ans').focus({preventScroll:true})}
+function end(){run=false;const nb=score>best;if(nb){best=score;try{localStorage.setItem('pioggia-best',best)}catch(e){}}
+  $('endT').textContent=nb&&score>0?'Nuovo record!':'Città distrutta!';
+  $('endP').textContent=`Hai fatto ${score} punti e sei arrivato all'ondata ${wave}. Record: ${best}.`;
+  $('missed').innerHTML=missedList.length?'<li><b>Equazioni sfuggite, da ripassare:</b></li>'+missedList.slice(-8).map(q=>`<li><b>${q.t}</b><br>${q.st.join('<br>')}</li>`).join(''):'<li>Nessuna equazione sfuggita!</li>';
+  $('ovEnd').hidden=false}
+function setPause(p){if(!run)return;paused=p;$('ovPause').hidden=!p;$('pause').textContent=p?'Riprendi':'Pausa';if(!p)$('ans').focus({preventScroll:true})}
+
+$('f').addEventListener('submit',e=>{e.preventDefault();const v=parse($('ans').value);if(v===null){if($('ans').value.trim())fb('Formato non valido: scrivi per esempio 4, −2, 2,5 o 7/3.','#ff9a8a');return}fire(v);$('ans').value=''});
+$('pad').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const a=$('ans');
+  if(b.dataset.k==='del')a.value=a.value.slice(0,-1);else if(b.dataset.k==='ok')$('f').requestSubmit();else a.value+=b.textContent});
+$('go').addEventListener('click',start);$('again').addEventListener('click',start);
+$('resume').addEventListener('click',()=>setPause(false));$('pause').addEventListener('click',()=>setPause(!paused));
+$('mute').addEventListener('click',()=>{muted=!muted;$('mute').textContent=muted?'Suono no':'Suono sì';$('mute').setAttribute('aria-pressed',muted)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')setPause(!paused)});
+document.querySelectorAll('.diff button').forEach(b=>b.addEventListener('click',()=>{startW=+b.dataset.w;document.querySelectorAll('.diff button').forEach(x=>x.setAttribute('aria-pressed',x===b))}));
+$('rec').textContent=best?`Il tuo record: ${best} punti`:'Tre livelli di partenza: scegli e premi Gioca.';
+if(matchMedia('(pointer:coarse)').matches)$('ans').setAttribute('inputmode','none');
+size();hud();requestAnimationFrame(loop);
+}
+</script>
+</body>
+</html>

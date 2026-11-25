@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vero o falso · Storia Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Press+Start+2P&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: sala giochi anni '80 al servizio del ripasso: festosa ma leggibile
+   IDEA: cabinato arcade del Ferraris, stesso blu notte e giallo del sito
+   PICTURE: il pannello di gioco al centro, con cielo a pixel e griglia gialla sul fondo
+   COLOUR and TYPE: blu notte, giallo Ferraris, bianco; Oswald per i titoli, Press Start 2P per le etichette, Lexend per leggere
+   LAYOUT: titolo, barra punteggi, pannello di gioco, regole in fondo; una colonna anche su telefono */
+:root{color-scheme:dark;--bg:#0e1630;--navy:#1c2a47;--navy2:#24365a;--y:#e2e24c;--ink:#fff;--muted:#b4c0da;--ok:#5fd08e;--ko:#ff7a6b}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;overflow-x:clip;background-color:var(--bg);
+ background-image:radial-gradient(#fff 1px,transparent 1.6px),radial-gradient(#9fb6ff 1px,transparent 1.6px),linear-gradient(180deg,#0b1226,#1c2a47 70%,#2c2347);
+ background-size:38px 38px,52px 52px,100% 100%;background-position:0 0,19px 13px,0 0;background-attachment:fixed}
+.wrap{max-width:820px;margin:0 auto;padding:14px max(4vw,12px) 30px}
+.lbl{font:10px/1.7 'Press Start 2P',monospace;color:var(--y);letter-spacing:1px}
+h1{font:600 clamp(30px,6vw,46px)/1 Oswald,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:1px;margin:4px 0 2px;text-shadow:3px 3px 0 #000}
+.sub{color:var(--muted);margin:0 0 12px;font-size:15px}
+.hud{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.chip{background:rgba(0,0,0,.35);border:2px solid var(--navy2);padding:4px 10px;font-size:14px;color:var(--muted)}
+.chip b{color:var(--ink);margin-left:4px}
+.panel{background:rgba(14,22,48,.92);border:4px solid var(--y);box-shadow:0 0 0 4px var(--bg),7px 7px 0 4px var(--y);padding:16px;margin:4px 6px 18px 0}
+.btn{font:13px/1 'Press Start 2P',monospace;background:var(--y);color:var(--bg);border:0;padding:14px 16px;min-height:46px;cursor:pointer;box-shadow:4px 4px 0 #000}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 #000}
+.btn.sec{background:var(--navy2);color:var(--ink)}
+.btn:disabled{opacity:.4;cursor:default}
+button:focus-visible{outline:3px dashed #fff;outline-offset:3px}
+.msg{min-height:26px;font-weight:600;margin:10px 0 0}.ok{color:var(--ok)}.ko{color:var(--ko)}
+.end h2{font:600 34px/1.05 Oswald,sans-serif;text-transform:uppercase;margin:6px 0;color:var(--y)}
+.rank{font:12px/1.6 'Press Start 2P',monospace;margin:6px 0 10px}
+.review{padding-left:20px;font-size:15px}.review li{margin:5px 0}.review b{color:var(--y)}
+.rules{color:var(--muted);font-size:15px;border-top:2px solid var(--navy2);padding-top:12px}.rules b{color:var(--ink)}
+@media(max-width:480px){.sub{font-size:13px;margin-bottom:8px}h1{font-size:28px}.hud{margin-bottom:8px}.chip{font-size:12px;padding:3px 7px}.panel{padding:12px}}
+@keyframes shake{0%,100%{transform:none}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.shake{animation:shake .3s 2}
+@media (prefers-reduced-motion:reduce){.shake{animation:none}}
+.stage{position:relative;min-height:190px;display:flex;align-items:center;justify-content:center;touch-action:pan-y}
+.card{width:100%;max-width:560px;background:#f4f1df;color:#1c2a47;padding:22px 20px;font:600 21px/1.35 Lexend,sans-serif;text-align:center;box-shadow:6px 6px 0 #000;border:4px solid #fff;user-select:none;cursor:grab;transition:transform .25s,opacity .25s}
+.card.drag{transition:none}
+.card .tag{display:block;font:9px 'Press Start 2P',monospace;color:#7a6a1a;margin-bottom:8px}
+.timer{height:10px;background:var(--navy2);margin:12px 0;border:2px solid #000}.timer i{display:block;height:100%;background:var(--y);width:100%}
+.row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.f{background:var(--ko);color:#1c0000}.v{background:var(--ok);color:#00230f}
+.big{font:15px/1 'Press Start 2P',monospace;border:0;padding:18px 8px;min-height:58px;cursor:pointer;box-shadow:4px 4px 0 #000}
+.big:active{transform:translate(3px,3px);box-shadow:1px 1px 0 #000}
+.corr{background:rgba(226,226,76,.1);border:2px dashed var(--y);padding:10px 12px;margin-top:10px;display:none}.corr.on{display:block}
+#nextB{display:none;width:100%;margin-top:10px;min-height:58px}#nextB.on{display:block}.msg{margin-top:4px}
+@media(max-width:480px){.card{font-size:18px;padding:18px 14px}}
+</style></head><body><div class="wrap">
+<div class="lbl">ARCADE · STORIA · CLASSE I</div>
+<h1>Vero o falso</h1>
+<p class="sub">Hai pochi secondi per ogni affermazione: è vera o falsa? Trascina la carta o usa i pulsanti.</p>
+<div class="hud"><span class="chip">Carta<b id="hN">1/15</b></span><span class="chip">Punti<b id="hP">0</b></span><span class="chip">Serie<b id="hS">0</b></span><span class="chip">Vite<b id="hL">♥♥♥</b></span><span class="chip">Record<b id="hR">0</b></span></div>
+<div class="panel" id="game">
+ <div class="stage" id="stage"><div class="card" id="card"></div></div>
+ <div class="timer"><i id="bar"></i></div>
+ <div class="msg" id="msg" role="status"></div>
+ <div class="corr" id="corr"></div>
+ <div class="row" id="vf"><button class="big f" id="bF" type="button">◀ FALSO</button><button class="big v" id="bV" type="button">VERO ▶</button></div>
+ <button class="btn" id="nextB" type="button">AVANTI ▶</button>
+</div>
+<div class="panel end" id="end" hidden><div class="lbl">PARTITA FINITA</div><h2 id="endT"></h2><div class="rank" id="rank"></div><p id="endP"></p><ol class="review" id="rev"></ol><button class="btn" id="again" type="button">▶ GIOCA ANCORA</button></div><section class="rules"><b>Come si gioca</b><ul><li>Leggi l'affermazione: se è vera trascina la carta a destra o tocca VERO, se è falsa trascinala a sinistra o tocca FALSO. Dal computer puoi usare le frecce.</li><li>Hai 12 secondi per carta: più rispondi in fretta, più punti fai. 3 vite, 15 carte per partita.</li><li>Ogni affermazione falsa viene corretta con le informazioni della dispensa.</li></ul></section></div><script>
+{
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const RANKS=[[0, "Apprendista"], [900, "Osservatore"], [1600, "Cronista"], [2300, "Storico"], [2900, "Maestro del tempo"]];
+const rankOf=p=>{let r=RANKS[0][1];for(const [s,n] of RANKS)if(p>=s)r=n;return r};
+const KEY='vf-I';let best=0;try{best=+localStorage.getItem(KEY)||0}catch(e){}
+function saveBest(p){const nb=p>best;if(nb){best=p;try{localStorage.setItem(KEY,p)}catch(e){}}return nb}
+const DATA=[{"t": "Il Codice di Hammurabi si basa sulla legge del taglione.", "v": true, "c": "Occhio per occhio, dente per dente: la pena è proporzionata al danno."}, {"t": "La scrittura cuneiforme veniva scritta su papiro.", "v": false, "c": "Si incideva su tavolette d'argilla con uno stiletto a forma di cuneo."}, {"t": "I Sumeri usavano un sistema di numerazione in base sessanta.", "v": true, "c": "Lo usiamo ancora per minuti, secondi e gradi."}, {"t": "Narmer unificò la Mesopotamia.", "v": false, "c": "Narmer unificò l'Alto e il Basso Egitto, verso il 3100 a.C."}, {"t": "Erodoto definì l'Egitto «un dono del Nilo».", "v": true, "c": "Per le piene regolari che rendono fertile la valle."}, {"t": "I geroglifici furono decifrati da Michael Ventris.", "v": false, "c": "Li decifrò Champollion nel 1822 con la Stele di Rosetta; Ventris decifrò la lineare B."}, {"t": "Le piramidi di Giza risalgono all'Antico Regno.", "v": true, "c": "Cheope, Chefren e Micerino: tombe dei faraoni."}, {"t": "I Fenici costruirono un grande impero unitario.", "v": false, "c": "Fondarono città-stato indipendenti (Tiro, Sidone, Biblo) e una rete di colonie."}, {"t": "Cartagine era una colonia fenicia.", "v": true, "c": "Secondo la tradizione la fondò la regina Didone."}, {"t": "I Greci aggiunsero le vocali all'alfabeto fenicio.", "v": true, "c": "Poi l'alfabeto passò agli Etruschi e ai Latini."}, {"t": "Dario I fondò l'impero persiano.", "v": false, "c": "Lo fondò Ciro il Grande; Dario I lo organizzò in satrapie."}, {"t": "La religione ufficiale dell'impero persiano era lo zoroastrismo.", "v": true, "c": "Insegnato dal profeta Zarathustra: lotta tra bene e male."}, {"t": "Il palazzo di Cnosso era protetto da possenti mura.", "v": false, "c": "I palazzi minoici non avevano mura: era una società di commercianti."}, {"t": "La lineare B è la forma più antica di greco conosciuta.", "v": true, "c": "La decifrò Michael Ventris nel 1952."}, {"t": "Sparta era una democrazia.", "v": false, "c": "Sparta era un'oligarchia militare; la democrazia nasce ad Atene."}, {"t": "Nell'ecclesia di Atene non votavano donne, stranieri e schiavi.", "v": true, "c": "La democrazia ateniese era limitata ai cittadini maschi liberi."}, {"t": "La battaglia di Salamina fu vinta dagli Spartani di Leonida.", "v": false, "c": "Salamina fu una battaglia navale vinta dalla flotta di Temistocle; Leonida combatté alle Termopili."}, {"t": "La guerra del Peloponneso finì con la sconfitta di Atene.", "v": true, "c": "Durò dal 431 al 404 a.C. e indebolì tutta la Grecia."}, {"t": "Alessandro Magno ebbe come maestro Socrate.", "v": false, "c": "Il suo maestro fu il filosofo Aristotele."}, {"t": "Alessandro Magno fondò Alessandria d'Egitto.", "v": true, "c": "Divenne il più grande centro culturale del mondo antico."}, {"t": "Lo stoicismo fu fondato da Epicuro.", "v": false, "c": "Lo fondò Zenone di Cizio; Epicuro fondò l'epicureismo."}, {"t": "Eratostene calcolò la circonferenza della Terra.", "v": true, "c": "Con sorprendente precisione, ad Alessandria."}, {"t": "Gli ultimi tre re di Roma erano greci.", "v": false, "c": "Erano etruschi, come Tarquinio il Superbo."}, {"t": "I tribuni della plebe avevano il potere di veto.", "v": true, "c": "Potevano bloccare le decisioni ingiuste dei magistrati patrizi."}, {"t": "Annibale fu sconfitto a Canne.", "v": false, "c": "A Canne vinse Annibale; fu sconfitto a Zama da Scipione l'Africano."}, {"t": "La terza guerra punica finì con la distruzione di Cartagine nel 146 a.C.", "v": true, "c": "Roma diventò padrona del Mediterraneo."}, {"t": "Il primo triumvirato riunì Mario, Silla e Cesare.", "v": false, "c": "Il primo triumvirato (60 a.C.) riunì Cesare, Pompeo e Crasso."}, {"t": "Cesare fu ucciso da senatori guidati da Bruto e Cassio.", "v": true, "c": "Alle Idi di marzo del 44 a.C., per paura che diventasse re."}, {"t": "La parola «Augusto» significa «primo cittadino».", "v": false, "c": "Augusto significa «il venerabile»; «primo cittadino» si dice princeps."}, {"t": "Paolo di Tarso si convertì sulla via di Damasco.", "v": true, "c": "Prima perseguitava i cristiani."}, {"t": "L'Editto di Milano rese il Cristianesimo religione di Stato.", "v": false, "c": "Concesse la libertà di culto (313); religione di Stato con l'Editto di Tessalonica (380)."}, {"t": "Il Concilio di Nicea fu convocato da Costantino nel 325.", "v": true, "c": "Fu il primo concilio ecumenico della Chiesa."}, {"t": "L'età ellenistica inizia con la battaglia di Azio.", "v": false, "c": "Inizia nel 323 a.C., alla morte di Alessandro, e si chiude nel 30 a.C."}, {"t": "La rivoluzione neolitica fu un cambiamento improvviso.", "v": false, "c": "Fu un processo lungo migliaia di anni."}];
+const T=12;let deck,i,score,streak,lives,t0,raf,busy,log;
+function start(){deck=shuffle(DATA).slice(0,15);i=0;score=0;streak=0;lives=3;log=[];$('end').hidden=true;$('game').hidden=false;$('hR').textContent=best;show()}
+function hud(){$('hN').textContent=`${Math.min(i+1,15)}/15`;$('hP').textContent=score;$('hS').textContent=streak;$('hL').textContent='♥'.repeat(lives)+'♡'.repeat(3-lives)}
+function show(){const c=$('card');busy=false;c.style.transform='';c.style.opacity=1;c.innerHTML=`<span class="tag">AFFERMAZIONE ${i+1}</span>${esc(deck[i].t)}`;
+ $('msg').textContent='';$('msg').className='msg';$('corr').className='corr';$('nextB').className='btn';$('vf').hidden=false;$('bF').disabled=false;$('bV').disabled=false;hud();
+ t0=performance.now();cancelAnimationFrame(raf);const tick=t=>{const k=Math.max(0,1-(t-t0)/(T*1000));$('bar').style.width=(k*100)+'%';if(k<=0){answer(null);return}raf=requestAnimationFrame(tick)};raf=requestAnimationFrame(tick)}
+function answer(v){if(busy)return;busy=true;cancelAnimationFrame(raf);const d=deck[i],c=$('card');$('bF').disabled=true;$('bV').disabled=true;
+ const ok=v===d.v;const left=Math.max(0,T-(performance.now()-t0)/1000);
+ c.style.transform=`translateX(${v===null?0:(v?140:-140)}px) rotate(${v===null?0:(v?8:-8)}deg)`;c.style.opacity=v===null?.6:.25;
+ if(ok){streak++;const g=100+Math.round(left*10)+Math.min(streak-1,5)*20;score+=g;$('msg').textContent=`Giusto! +${g}`;$('msg').className='msg ok'}
+ else{streak=0;lives--;$('msg').textContent=v===null?'Tempo scaduto!':'Sbagliato!';$('msg').className='msg ko'}
+ log.push({...d,ok});
+ const info=d.v?'È vero.':'È falso: '+d.c;if(!ok||!d.v){$('corr').innerHTML=`<b>${esc(d.v?'Vero':'Falso')}</b>. ${esc(d.v?(d.c||''):d.c)}`;$('corr').className='corr on'}
+ hud();
+ if(!ok){$('vf').hidden=true;$('nextB').className='btn on';$('nextB').focus({preventScroll:true})}else setTimeout(adv,d.v?900:2200)}
+function adv(){i++;if(lives<=0||i>=deck.length)end();else show()}
+$('bF').addEventListener('click',()=>answer(false));$('bV').addEventListener('click',()=>answer(true));$('nextB').addEventListener('click',adv);
+document.addEventListener('keydown',e=>{if($('game').hidden)return;if(e.key==='ArrowLeft')answer(false);if(e.key==='ArrowRight')answer(true)});
+{const c=$('card');let x0=null,dx=0;
+ c.addEventListener('pointerdown',e=>{if(busy)return;x0=e.clientX;dx=0;c.classList.add('drag');c.setPointerCapture(e.pointerId)});
+ c.addEventListener('pointermove',e=>{if(x0===null)return;dx=e.clientX-x0;c.style.transform=`translateX(${dx}px) rotate(${dx/20}deg)`});
+ const up=()=>{if(x0===null)return;c.classList.remove('drag');x0=null;if(Math.abs(dx)>80)answer(dx>0);else c.style.transform=''};
+ c.addEventListener('pointerup',up);c.addEventListener('pointercancel',up)}
+function end(){cancelAnimationFrame(raf);$('game').hidden=true;$('end').hidden=false;const nb=saveBest(score);
+ $('endT').textContent=score+' punti';$('rank').textContent='GRADO: '+rankOf(score).toUpperCase();
+ $('endP').textContent=(lives<=0?'Vite finite. ':'Partita completata! ')+(nb&&score>0?'Nuovo record personale!':`Il tuo record è ${best} punti.`)+' Le affermazioni false con la correzione:';
+ const fl=log.filter(l=>!l.v||!l.ok);$('rev').innerHTML=fl.length?fl.map(l=>`<li>${esc(l.t)} → <b>${l.v?'Vero':'Falso'}</b>${l.v?'':': '+esc(l.c)}</li>`).join(''):'<li>Tutto giusto!</li>';$('hR').textContent=best}
+$('again').addEventListener('click',()=>{start();window.scrollTo({top:0,behavior:'smooth'})});
+start();
+}
+</script></body></html>

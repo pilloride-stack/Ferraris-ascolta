@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La bilancia delle equazioni</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: un gioco da banco di scuola, incoraggiante e chiaro
+   IDEA: l'equazione è una bilancia a due piatti che deve restare in equilibrio
+   PICTURE: la bilancia grande, con i due membri sui piatti; si inclina se sbagli, si raddrizza se indovini
+   COLOUR and TYPE: blu Ferraris dominante, arancio d'accento, bianco; Lexend
+   LAYOUT: barra punteggio, bilancia, risposta e soluzione passo passo in una colonna */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0d1a2b);--panel:light-dark(#eef3f9,#162a44);--ink:light-dark(#14243a,#eef3f9);--muted:light-dark(#53647a,#a8b8cc);--navy:light-dark(#1F3A5F,#8fb3e0);--orange:#E36C09;--ok:light-dark(#1d7a46,#5fd08e);--ko:light-dark(#c0392b,#ff8a7a);--line:light-dark(#d5dde8,#2a4263)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Lexend,system-ui,sans-serif;overflow-x:clip}
+.wrap{max-width:860px;margin:0 auto;padding:18px max(4vw,14px) 40px}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 18px}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.05;margin:0;color:var(--navy);text-wrap:balance}
+.levels{display:flex;gap:6px;flex-wrap:wrap}
+.levels button{font:600 14px Lexend,sans-serif;border:2px solid var(--navy);background:transparent;color:var(--navy);border-radius:22px;padding:8px 14px;min-height:40px;cursor:pointer}
+.levels button[aria-pressed=true]{background:var(--navy);color:var(--bg)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:16px 0 6px}
+.stat{background:var(--panel);border-radius:12px;padding:8px 10px;text-align:center}
+.stat b{display:block;font-size:22px;color:var(--navy);line-height:1.2}
+.stat span{font-size:13px;color:var(--muted)}
+.hearts b{color:var(--orange);letter-spacing:2px}
+.fig{position:relative;width:100%;max-width:800px;margin:4px auto 0;aspect-ratio:800/300}
+.fig text{font-family:Lexend,system-ui,sans-serif}
+.fig svg{position:absolute;inset:0;width:100%;height:100%}
+#beam{transition:transform .7s cubic-bezier(.3,1.6,.5,1);transform-origin:400px 70px}
+@media (prefers-reduced-motion:reduce){#beam{transition:none}}
+.eq{text-align:center;font-size:clamp(26px,5vw,40px);font-weight:800;color:var(--navy);margin:2px 0 12px;white-space:nowrap;overflow-x:auto}
+.eq .x{color:var(--orange)}
+form{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center}
+label.lx{font-size:24px;font-weight:800;color:var(--orange)}
+input{font:600 20px Lexend,sans-serif;width:150px;padding:10px 12px;border:2px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);text-align:center}
+input:focus,button:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+.btn{font:600 16px Lexend,sans-serif;border:0;border-radius:12px;padding:12px 18px;min-height:46px;cursor:pointer;background:var(--orange);color:#fff}
+.btn.sec{background:var(--panel);color:var(--navy)}
+.btn:disabled{opacity:.45;cursor:default}
+.special{display:none;gap:8px;justify-content:center;margin-top:8px;flex-wrap:wrap}
+.special.on{display:flex}
+.msg{min-height:30px;text-align:center;font-weight:600;margin:12px 0 4px}
+.msg.ok{color:var(--ok)}.msg.ko{color:var(--ko)}
+.steps{background:var(--panel);border-radius:14px;padding:12px 18px;margin:10px auto 0;max-width:560px;display:none}
+.steps.on{display:block}
+.steps h2{font-size:16px;margin:0 0 6px;color:var(--navy)}
+.steps ol{margin:0;padding-left:22px}
+.steps li{margin:4px 0}
+.steps li em{font-style:normal;color:var(--muted);font-size:14px;display:block}
+.steps code{font:700 17px Lexend,sans-serif;color:var(--navy)}
+.tip{font-size:14px;color:var(--muted);text-align:center;margin-top:10px}
+.end{display:none;text-align:center;background:var(--panel);border-radius:18px;padding:22px 18px;margin-top:10px}
+.end.on{display:block}
+.end h2{font-size:30px;margin:0;color:var(--navy)}
+.stars{font-size:40px;color:var(--orange);letter-spacing:6px;margin:6px 0}
+.review{text-align:left;max-width:520px;margin:12px auto;font-size:15px}
+.review li{margin:3px 0}
+.rules{margin-top:26px;border-top:2px solid var(--line);padding-top:14px;font-size:15px;color:var(--muted)}
+.rules h2{font-size:17px;color:var(--navy);margin:0 0 6px}
+.rules ul{margin:0;padding-left:20px}
+@media(max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.stat b{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>La bilancia delle equazioni</h1>
+  <div class="levels" role="group" aria-label="Livello">
+    <button data-l="1" aria-pressed="true">Livello 1</button>
+    <button data-l="2" aria-pressed="false">Livello 2</button>
+    <button data-l="3" aria-pressed="false">Livello 3</button>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat"><b id="sQ">1/10</b><span>domanda</span></div>
+  <div class="stat"><b id="sP">0</b><span>punti</span></div>
+  <div class="stat"><b id="sS">0</b><span>serie di risposte giuste</span></div>
+  <div class="stat hearts"><b id="sV">♥♥♥</b><span>vite</span></div>
+</div>
+
+<div id="game">
+<div class="fig" aria-hidden="true">
+<svg viewBox="0 0 800 300" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="pole" x1="0" x2="1"><stop offset="0" stop-color="#16304f"/><stop offset=".5" stop-color="#2d5487"/><stop offset="1" stop-color="#16304f"/></linearGradient>
+    <linearGradient id="pan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6a04d"/><stop offset="1" stop-color="#c75a05"/></linearGradient>
+  </defs>
+  <ellipse cx="400" cy="286" rx="150" ry="10" fill="#000" opacity=".12"/>
+  <path d="M330 284 L470 284 L440 262 L360 262 Z" fill="url(#pole)"/>
+  <rect x="392" y="70" width="16" height="194" rx="6" fill="url(#pole)"/>
+  <g id="beam">
+    <rect x="130" y="62" width="540" height="14" rx="7" fill="url(#pole)"/>
+    <rect x="130" y="62" width="540" height="4" rx="2" fill="#ffffff" opacity=".25"/>
+    <g id="panL"><line x1="160" y1="76" x2="120" y2="170" stroke="#2d5487" stroke-width="3"/><line x1="160" y1="76" x2="200" y2="170" stroke="#2d5487" stroke-width="3"/>
+      <path d="M90 170 L230 170 Q220 200 160 200 Q100 200 90 170 Z" fill="url(#pan)"/>
+      <text id="tL" x="160" y="236" text-anchor="middle" font-family="Lexend" font-weight="800" font-size="30" fill="currentColor"></text></g>
+    <g id="panR"><line x1="640" y1="76" x2="600" y2="170" stroke="#2d5487" stroke-width="3"/><line x1="640" y1="76" x2="680" y2="170" stroke="#2d5487" stroke-width="3"/>
+      <path d="M570 170 L710 170 Q700 200 640 200 Q580 200 570 170 Z" fill="url(#pan)"/>
+      <text id="tR" x="640" y="236" text-anchor="middle" font-family="Lexend" font-weight="800" font-size="30" fill="currentColor"></text></g>
+  </g>
+  <circle cx="400" cy="69" r="13" fill="#E36C09"/><circle cx="396" cy="65" r="4" fill="#fff" opacity=".6"/>
+</svg>
+</div>
+
+<div class="eq" id="eq" aria-live="polite"></div>
+
+<form id="f" autocomplete="off">
+  <label class="lx" for="ans">x =</label>
+  <input id="ans" inputmode="text" placeholder="es. 3, −2, 3/4" aria-describedby="hint">
+  <button class="btn" id="go" type="submit">Controlla</button>
+  <button class="btn sec" id="help" type="button">Aiuto (−5)</button>
+</form>
+<div class="special" id="special">
+  <button class="btn sec" type="button" data-s="imp">Impossibile</button>
+  <button class="btn sec" type="button" data-s="ind">Indeterminata</button>
+</div>
+<p class="tip" id="hint">Scrivi un numero intero, decimale (2,5) o una frazione (7/3).</p>
+<div class="msg" id="msg" role="status"></div>
+<div class="steps" id="steps"><h2>Soluzione passo passo</h2><ol id="stepList"></ol></div>
+<div style="text-align:center;margin-top:12px"><button class="btn" id="next" type="button" disabled>Prossima equazione</button></div>
+</div>
+
+<div class="end" id="end">
+  <h2 id="endT">Partita finita</h2>
+  <div class="stars" id="stars"></div>
+  <p id="endP"></p>
+  <ul class="review" id="review"></ul>
+  <button class="btn" id="again" type="button">Gioca ancora</button>
+</div>
+
+<section class="rules">
+  <h2>Come si gioca</h2>
+  <ul>
+    <li>L'equazione è una <b>bilancia in equilibrio</b>: quello che fai a un piatto lo devi fare anche all'altro.</li>
+    <li>Risposta giusta: <b>10 punti</b> più un bonus per la serie. Con "Aiuto" vedi i passaggi, ma perdi 5 punti.</li>
+    <li>Ogni errore costa una vita: con tre errori la partita finisce. Ogni partita ha 10 equazioni.</li>
+    <li><b>Livello 1</b>: ax + b = c. <b>Livello 2</b>: x da entrambe le parti. <b>Livello 3</b>: parentesi, soluzioni frazionarie, equazioni impossibili e indeterminate.</li>
+  </ul>
+</section>
+</div>
+
+<script>
+{
+const $=id=>document.getElementById(id);
+const R=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
+const nz=(a,b)=>{let v;do v=R(a,b);while(v===0);return v};
+const gcd=(a,b)=>{a=Math.abs(a);b=Math.abs(b);while(b){[a,b]=[b,a%b]}return a||1};
+const M='−';
+const frac=(n,d)=>{if(d<0){n=-n;d=-d}const g=gcd(n,d);n/=g;d/=g;return d===1?`${n<0?M:''}${Math.abs(n)}`:`${n<0?M:''}${Math.abs(n)}/${d}`};
+// a linear side: {x:coef, k:const}
+function side(s){let o='';const t=[];if(s.x)t.push([s.x,'x']);if(s.k||!s.x)t.push([s.k,'']);
+  t.forEach(([c,v],i)=>{const neg=c<0,a=Math.abs(c);const num=v&&a===1?'':String(a);
+    o+=i===0?(neg?M:'')+num+v:(neg?' '+M+' ':' + ')+num+v});return o}
+function paren(a,b){if(a===1)return side({x:1,k:b});return `${a===1?'':a===-1?M:(a<0?M:'')+Math.abs(a)}(x ${b<0?M:'+'} ${Math.abs(b)})`}
+function gen(lv){
+  const r=Math.random();
+  if(lv===1){const x=R(-9,9),a=nz(-9,9),b=nz(-15,15);return mk({x:a,k:b},{x:0,k:a*x+b})}
+  if(lv===2){const x=R(-9,9);let a=nz(-9,9),c;do c=nz(-9,9);while(c===a);const b=R(-15,15),d=(a-c)*x+b;return mk({x:a,k:b},{x:c,k:d})}
+  if(r<.55){const x=R(-7,7);let a=nz(-6,6),c;do c=nz(-6,6);while(c===a);const b=nz(-8,8),d=nz(-8,8),e=a*(x+b)-c*(x+d);
+    const e1={x:c,k:c*d+e};return mk({x:a,k:a*b},e1,[paren(a,b),paren(c,d)+(e?(e<0?' '+M+' ':' + ')+Math.abs(e):'')])}
+  if(r<.82){let a,c,b,d;do{a=nz(-9,9);c=nz(-9,9);b=R(-12,12);d=R(-12,12)}while(a===c||(d-b)%(a-c)===0);return mk({x:a,k:b},{x:c,k:d})}
+  const a=nz(-6,6),b=nz(-8,8),k=nz(2,4);
+  if(r<.91){const off=nz(-9,9);return mk({x:a,k:a*b},{x:a,k:a*b+off},[paren(a,b),side({x:a,k:a*b+off})])}
+  return mk({x:a*k,k:a*b*k},{x:a*k,k:a*b*k},[`${k}(${side({x:a,k:a*b})})`,side({x:a*k,k:a*b*k})])
+}
+function mk(L,Rr,txt){
+  const A=L.x-Rr.x,B=Rr.k-L.k;let kind='u',n=B,d=A;
+  if(A===0)kind=B===0?'ind':'imp';
+  const st=[];
+  if(txt)st.push([`${txt[0]} = ${txt[1]}`,'Equazione di partenza'],[`${side(L)} = ${side(Rr)}`,'Tolgo le parentesi: moltiplico il numero davanti per ogni termine dentro']);
+  else st.push([`${side(L)} = ${side(Rr)}`,'Equazione di partenza']);
+  if(Rr.x||L.k){st.push([`${side({x:L.x,k:0})}${Rr.x?(Rr.x>0?' '+M+' ':' + ')+(Math.abs(Rr.x)===1?'':Math.abs(Rr.x))+'x':''} = ${side({x:0,k:Rr.k})}${L.k?(L.k>0?' '+M+' ':' + ')+Math.abs(L.k):''}`,'Porto le x a sinistra e i numeri a destra, cambiando il segno a chi attraversa l\'uguale']);}
+  st.push([`${side({x:A,k:0}).replace(/^0$/,'0x')} = ${side({x:0,k:B})}`,'Sommo i termini simili']);
+  if(kind==='imp')st.push(['0 = '+side({x:0,k:B}),'Uguaglianza falsa per qualunque x: l\'equazione è impossibile']);
+  else if(kind==='ind')st.push(['0 = 0','Uguaglianza vera per qualunque x: l\'equazione è indeterminata']);
+  else if(A!==1)st.push([`x = ${frac(n,d)}`,`Divido entrambi i membri per ${A<0?M+Math.abs(A):A}`]);
+  return{L,R:Rr,txt:txt||[side(L),side(Rr)],kind,n,d,st}
+}
+function parse(s){s=s.trim().replace(/−/g,'-').replace(',','.').replace(/\s/g,'');
+  let m=s.match(/^(-?\d+)\/(-?\d+)$/);if(m&&+m[2]!==0)return +m[1]/+m[2];
+  if(/^-?\d+(\.\d+)?$/.test(s))return +s;return null}
+let lv=1,q,qi,pts,streak,lives,helped,done,log;
+let best={};try{best=JSON.parse(localStorage.getItem('bil-best')||'{}')}catch(e){}
+function tilt(deg){$('beam').style.transform=`rotate(${deg}deg)`;
+  const t=`rotate(${-deg} ${160} ${76})`;$('panL').setAttribute('transform',`rotate(${-deg} 160 76)`);$('panR').setAttribute('transform',`rotate(${-deg} 640 76)`)}
+function stats(){$('sQ').textContent=`${Math.min(qi+1,10)}/10`;$('sP').textContent=pts;$('sS').textContent=streak;$('sV').textContent='♥'.repeat(lives)+'♡'.repeat(3-lives)}
+function start(){qi=0;pts=0;streak=0;lives=3;log=[];$('end').classList.remove('on');$('game').style.display='';nextQ()}
+function nextQ(){q=gen(lv);helped=false;done=false;
+  const fit=t=>t.length>9?Math.max(15,30-(t.length-9)*1.4):30;
+  $('tL').textContent=q.txt[0];$('tR').textContent=q.txt[1];$('tL').setAttribute('font-size',fit(q.txt[0]));$('tR').setAttribute('font-size',fit(q.txt[1]));
+  $('eq').innerHTML=(q.txt[0]+' = '+q.txt[1]).replace(/x/g,'<span class="x">x</span>');
+  $('ans').value='';$('ans').disabled=false;$('go').disabled=false;$('help').disabled=false;
+  $('special').classList.toggle('on',lv===3);$('special').querySelectorAll('button').forEach(b=>b.disabled=false);
+  $('msg').textContent='';$('msg').className='msg';$('steps').classList.remove('on');$('next').disabled=true;
+  tilt(R(0,1)?7:-7);setTimeout(()=>{if(!done)tilt(0)},80);stats();$('ans').focus({preventScroll:true})}
+function showSteps(){$('stepList').innerHTML=q.st.map(([c,e])=>`<li><code>${c}</code><em>${e}</em></li>`).join('');$('steps').classList.add('on')}
+function sol(){return q.kind==='imp'?'impossibile':q.kind==='ind'?'indeterminata':'x = '+frac(q.n,q.d)}
+function answer(kind,val){if(done)return;
+  let ok;if(kind!=='u')ok=q.kind===kind;else{if(val===null){$('msg').textContent='Non ho capito il numero: prova con 4, −2, 2,5 oppure 7/3.';$('msg').className='msg ko';return}
+    ok=q.kind==='u'&&Math.abs(val-q.n/q.d)<1e-9}
+  done=true;$('ans').disabled=true;$('go').disabled=true;$('help').disabled=true;$('special').querySelectorAll('button').forEach(b=>b.disabled=true);
+  if(ok){streak++;const g=10+Math.min(streak-1,5)*2-(helped?5:0);pts+=Math.max(g,1);tilt(0);
+    $('msg').textContent=['Perfetto, la bilancia è in equilibrio!','Esatto!','Giusto, bravo!','Ottimo lavoro!'][R(0,3)]+` (+${Math.max(g,1)})`;$('msg').className='msg ok'}
+  else{streak=0;lives--;tilt(val!==null&&val<(q.n/q.d)?-10:10);$('msg').textContent=`Non è giusto: la soluzione è ${sol()}.`;$('msg').className='msg ko';showSteps();
+    log.push(`${q.txt[0]} = ${q.txt[1]} → ${sol()}`)}
+  qi++;stats();
+  if(lives===0||qi>=10){$('next').textContent='Vedi il risultato';}else $('next').textContent='Prossima equazione';
+  $('next').disabled=false;$('next').focus({preventScroll:true})}
+function finish(){$('game').style.display='none';const e=$('end');e.classList.add('on');
+  const s=lives===0?0:pts>=110?3:pts>=80?2:1;$('stars').textContent='★'.repeat(s)+'☆'.repeat(3-s);
+  $('endT').textContent=lives===0?'Vite finite!':'Partita completata!';
+  const k='L'+lv;const nb=!best[k]||pts>best[k];if(nb){best[k]=pts;try{localStorage.setItem('bil-best',JSON.stringify(best))}catch(x){}}
+  $('endP').textContent=`Livello ${lv}: ${pts} punti, ${qi} equazioni affrontate.`+(nb?' Nuovo record!':` Il tuo record è ${best[k]} punti.`);
+  $('review').innerHTML=log.length?'<li><b>Da ripassare:</b></li>'+log.map(l=>`<li>${l}</li>`).join(''):'<li>Nessun errore: complimenti!</li>'}
+$('f').addEventListener('submit',e=>{e.preventDefault();answer('u',parse($('ans').value))});
+$('special').addEventListener('click',e=>{const b=e.target.closest('button');if(b)answer(b.dataset.s,null)});
+$('help').addEventListener('click',()=>{if(helped||done)return;helped=true;showSteps();$('help').disabled=true;
+  const last=$('stepList').lastElementChild;if(last)last.style.display='none'});
+$('next').addEventListener('click',()=>{if(lives===0||qi>=10)finish();else nextQ()});
+$('again').addEventListener('click',start);
+document.querySelectorAll('.levels button').forEach(b=>b.addEventListener('click',()=>{lv=+b.dataset.l;
+  document.querySelectorAll('.levels button').forEach(x=>x.setAttribute('aria-pressed',x===b));start()}));
+start();
+}
+</script>
+</body>
+</html>
