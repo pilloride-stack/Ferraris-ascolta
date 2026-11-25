@@ -1,331 +1,183 @@
 <!DOCTYPE html>
-<html lang="it">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Il Viaggiatore nel tempo · Classe I</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viaggiatore nel tempo · Storia Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
-/* VOICE: avventura da romanzo di Jules Verne, misteriosa ma chiara
-   IDEA: una macchina del tempo che va riparata rimettendo in ordine la storia
-   PICTURE: il quadrante d'ottone della macchina con il contatore degli anni, sopra la linea del tempo che si costruisce carta dopo carta
-   COLOUR and TYPE: notte blu petrolio, ottone dorato, carte color pergamena, rosso per i paradossi; Cinzel come un'epigrafe, Lexend per leggere
-   LAYOUT: macchina e carta da collocare in alto, linea del tempo verticale sotto, con spazi in cui inserire la carta */
-:root{color-scheme:dark;--night:#0b1d26;--deep:#12303d;--brass:#d4a640;--brass2:#8a6418;--parch:#f4e8cc;--ink:#2b2114;--txt:#eef2f2;--muted:#a9bcc2;--red:#e0523e;--green:#5fbf7f}
-*{box-sizing:border-box;min-width:0}
-body{margin:0;background-color:var(--night);background-image:radial-gradient(ellipse at 50% -10%,#1d4656 0,var(--night) 60%) ;background-repeat:no-repeat;color:var(--txt);font:16px/1.5 Lexend,system-ui,sans-serif;overflow-x:clip}
-.wrap{max-width:820px;margin:0 auto;padding:14px max(4vw,12px) 36px}
-h1{font:900 clamp(26px,5vw,42px)/1.05 Cinzel,Georgia,serif;margin:0;color:var(--brass);text-align:center;letter-spacing:.5px}
-.sub{text-align:center;color:var(--muted);margin:4px 0 12px;font-size:15px}
-.era1{text-align:center;font:600 15px Lexend,sans-serif;color:var(--brass);border:2px solid var(--brass);border-radius:22px;padding:7px 16px;width:fit-content;max-width:100%;margin:0 auto}
-.eras{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
-.eras button{font:600 14px Lexend,sans-serif;border:2px solid var(--brass);background:transparent;color:var(--brass);border-radius:22px;padding:7px 13px;min-height:42px;cursor:pointer}
-.eras button[aria-pressed=true]{background:var(--brass);color:var(--night)}
-.machine{position:sticky;top:6px;z-index:5;box-shadow:0 10px 24px rgba(0,0,0,.45);display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:center;margin-top:16px;background:linear-gradient(180deg,#183a49,#0f2833);border:2px solid var(--brass2);border-radius:20px;padding:14px}
-.dial{width:132px;height:132px}
-.dial svg{width:100%;height:100%;overflow:visible}
-#gear1,#gear2{transform-box:fill-box;transform-origin:center}
-.spin #gear1{animation:sp 1s ease-out}.spin #gear2{animation:sp 1s ease-out reverse}
-@keyframes sp{to{transform:rotate(360deg)}}
-.glitch{animation:gl .5s steps(2) 2}
-@keyframes gl{0%{transform:translate(0)}25%{transform:translate(-6px,2px);filter:hue-rotate(90deg)}50%{transform:translate(5px,-3px)}75%{transform:translate(-3px,1px);filter:saturate(3)}100%{transform:translate(0)}}
-@media (prefers-reduced-motion:reduce){.spin #gear1,.spin #gear2,.glitch{animation:none}}
-.now .lbl{font-size:13px;color:var(--muted)}
-.card{background:var(--parch);color:var(--ink);border-radius:12px;padding:12px 14px;box-shadow:0 3px 0 #b99f6a,0 8px 18px rgba(0,0,0,.35);font-weight:600}
-.now .card{font-size:18px;border:2px dashed var(--brass2)}
-.stats{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
-.chip{background:rgba(255,255,255,.07);border-radius:10px;padding:4px 10px;font-size:14px;color:var(--muted)}
-.chip b{color:var(--txt);margin-left:3px}
-.chip.en b{color:var(--brass);letter-spacing:2px}
-.msg{grid-column:1/-1;min-height:24px;text-align:center;font-weight:600;margin:0}
-.ev,.slot{scroll-margin-top:260px}
-.hint{margin-top:12px!important}
-.msg.ok{color:var(--green)}.msg.ko{color:var(--red)}
-.hint{text-align:center;font-size:14px;color:var(--muted);margin:0 0 6px}
-.tl{position:relative;margin:8px 0 0;padding-left:34px}
-.tl::before{content:"";position:absolute;left:13px;top:6px;bottom:6px;width:4px;border-radius:2px;background:linear-gradient(var(--brass),var(--brass2))}
-.ev{position:relative;margin:8px 0}
-.ev::before{content:"";position:absolute;left:-27px;top:16px;width:14px;height:14px;border-radius:50%;background:var(--brass);box-shadow:0 0 0 4px var(--night)}
-.ev .card{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;align-items:baseline}
-.ev .yr{font:700 17px Cinzel,Georgia,serif;color:#7a4f0a;white-space:nowrap}
-.ev .why{grid-column:1/-1;font-weight:400;font-size:14px;color:#5b4a2e}
-.ev.new .card{animation:pop .5s ease-out}
-.ev.bad .card{outline:3px solid var(--red)}
-.ev.bad::before{background:var(--red)}
-@keyframes pop{from{transform:scale(.9);opacity:0}to{transform:none;opacity:1}}
-.slot{display:block;width:100%;font:600 14px Lexend,sans-serif;color:var(--brass);background:rgba(212,166,64,.08);border:2px dashed rgba(212,166,64,.6);border-radius:10px;min-height:40px;cursor:pointer;margin:4px 0}
-.slot:hover{background:rgba(212,166,64,.2)}
-button:focus-visible{outline:3px solid #fff;outline-offset:2px}
-.end{display:none;text-align:center;background:linear-gradient(180deg,#183a49,#0f2833);border:2px solid var(--brass2);border-radius:20px;padding:20px 16px;margin-top:16px}
-.end.on{display:block}
-.end h2{font:900 clamp(26px,5vw,38px)/1.1 Cinzel,serif;color:var(--brass);margin:0}
-.rank{font:700 20px Cinzel,serif;color:var(--parch);margin:6px 0}
-.btn{font:700 17px Lexend,sans-serif;background:var(--brass);color:var(--night);border:0;border-radius:14px;padding:12px 26px;min-height:48px;cursor:pointer;box-shadow:0 5px 0 var(--brass2);margin-top:8px}
-.rules{margin-top:26px;color:var(--muted);font-size:15px;border-top:1px solid rgba(212,166,64,.35);padding-top:12px}
-.rules b{color:var(--txt)}
-.rules ul{margin:6px 0 0;padding-left:20px}
-@media(max-width:560px){.sub{font-size:14px}.eras{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding-bottom:4px;scroll-snap-type:x mandatory}.eras button{flex:none;scroll-snap-align:start}.machine{grid-template-columns:64px minmax(0,1fr);gap:10px;padding:10px;margin-top:10px}.dial{width:64px;height:64px}.now .card{font-size:16px;padding:9px 11px}.stats{gap:4px;margin-top:6px}.chip{font-size:12px;padding:3px 7px}.msg{font-size:14px}.ev,.slot{scroll-margin-top:200px}}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <h1>Il Viaggiatore nel tempo</h1>
-  <p class="sub">La macchina del tempo è impazzita: rimetti gli eventi al loro posto per ripararla.</p>
-  <div class="era1">Storia · Classe I · Dalla preistoria al Cristianesimo</div>
+/* VOICE: gioco a premi del sabato sera, gemello degli altri giochi dello studio
+   IDEA: la linea del tempo come un tabellone luminoso: ogni carta va inserita al posto giusto
+   PICTURE: lo schermo dorato con la carta da collocare in alto, sotto la linea del tempo verticale con gli spazi tratteggiati
+   COLOUR and TYPE: blu notte, oro, verde e rosso per l'esito; Bebas Neue per anni e cifre, Lexend per leggere
+   LAYOUT: carta in alto e fissa mentre si scorre la linea; scala delle carte a destra, striscia sul telefono */
+:root{color-scheme:dark;--bg:#050b1c;--blue:#10224a;--blue2:#1e3d7a;--edge:#6f9be0;--gold:#ffd34d;--ink:#fff;--muted:#b8c8e8;--ok:#2ecc71;--ko:#e74c3c;--sel:#ff9f1a}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% -10%,#2c5aa0 0,#0b1a3a 50%,var(--bg) 100%) fixed;overflow-x:clip}
+.wrap{max-width:1000px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.lights{display:flex;justify-content:center;gap:9px;margin:2px 0 4px}
+.lights i{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold);animation:tw 1.6s infinite}
+.lights i:nth-child(2n){animation-delay:.8s}
+@keyframes tw{50%{opacity:.35}}
+h1{font:400 clamp(38px,7vw,64px)/1 'Bebas Neue',Impact,sans-serif;letter-spacing:2px;margin:0;text-align:center;color:var(--gold);text-shadow:0 0 18px rgba(255,211,77,.55)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 12px}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:16px;align-items:start}
+.top{position:sticky;top:0;z-index:5;margin:14px -8px 8px;padding:14px 8px 8px;background:rgba(5,11,28,.94);border-radius:0 0 18px 18px;box-shadow:0 8px 14px rgba(5,11,28,.6)}
+.top .bar:empty{display:none}.top .bar{margin-top:6px}
+.top .go{padding:6px 22px;min-height:42px}
+.prize{text-align:center;margin-bottom:6px}
+.prize span{display:inline-block;background:var(--gold);color:var(--bg);font:22px/1.2 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 16px;border-radius:20px}
+.hud{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:8px;color:var(--muted);font-size:14px}
+.hud b{color:var(--gold);font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;margin-left:6px}
+.lamp{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold);margin-left:5px;vertical-align:-1px}
+.lamp.off{background:#2a3555;box-shadow:none}
+.screen{position:relative;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:18px 18px 14px;text-align:center}
+.screen.ok{border-color:var(--ok);box-shadow:0 0 22px rgba(46,204,113,.45)}.screen.ko{border-color:var(--ko);box-shadow:0 0 22px rgba(231,76,60,.45)}
+.lbl{position:absolute;top:-12px;left:18px;background:var(--bg);color:var(--gold);font:17px/1 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border:2px solid var(--gold);border-radius:12px}
+.yr{font:40px/1 'Bebas Neue',sans-serif;letter-spacing:2px;color:var(--gold);min-height:40px}
+.ev-t{font:600 clamp(17px,2.4vw,21px)/1.3 Lexend,sans-serif;margin-top:2px}
+.msg{text-align:center;min-height:24px;margin-top:6px;line-height:1.3;font-weight:600;color:var(--muted)}
+.msg.ok{color:var(--ok)}.msg.ko{color:#ff8a7a}
+.tl{position:relative;margin:6px 0 0;padding-left:26px}
+.tl:before{content:"";position:absolute;left:10px;top:6px;bottom:6px;width:4px;border-radius:2px;background:linear-gradient(var(--gold),var(--blue2))}
+.ev{position:relative;background:linear-gradient(#1e3d7a,#10224a);border:2px solid var(--edge);border-radius:22px;padding:8px 16px;margin:0}
+.ev:before{content:"";position:absolute;left:-22px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold)}
+.ev .y{font:22px/1 'Bebas Neue',sans-serif;letter-spacing:1px;color:var(--gold);margin-right:8px}
+.ev .w{display:block;font-size:14px;color:var(--muted);margin-top:3px}
+.ev.new{border-color:#fff;background:linear-gradient(#3be07f,#1e9e52);color:#002611}.ev.new .y{color:#002611}.ev.new .w{color:#08361d}
+.ev.bad{border-color:#fff;background:linear-gradient(#ff6b5a,#c0392b)}.ev.bad .y{color:#fff}.ev.bad .w{color:#ffe1dc}
+.slot{display:block;width:100%;margin:6px 0;min-height:40px;border:2px dashed var(--gold);border-radius:22px;background:rgba(255,211,77,.06);color:var(--gold);font:18px 'Bebas Neue',sans-serif;letter-spacing:1px;cursor:pointer}
+.slot:hover{background:rgba(255,211,77,.18)}
+.slot.gone{opacity:.15;pointer-events:none}
+.gap{height:8px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+.life{font:20px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:8px 16px;min-height:44px;cursor:pointer}
+.life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
+.go{font:24px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:10px 26px;min-height:48px;cursor:pointer;box-shadow:0 0 16px rgba(255,211,77,.5)}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:1px;position:sticky;top:10px}
+.ladder li{display:flex;justify-content:space-between;gap:8px;white-space:nowrap;font:17px/1.2 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 10px;border-radius:12px;color:var(--muted)}
+.ladder li.cur{background:var(--sel);color:#1b0f00}
+.ladder li.done{color:var(--gold)}.ladder li.miss{color:#ff8a7a}
+.end{text-align:center;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:20px 16px;margin-bottom:14px}
+.end h2{font:52px/1 'Bebas Neue',sans-serif;color:var(--gold);margin:6px 0;letter-spacing:2px}
+.rules{color:var(--muted);font-size:15px;margin-top:22px;border-top:1px solid var(--blue2);padding-top:12px}.rules b{color:#fff}
+@media (prefers-reduced-motion:reduce){.lights i{animation:none}}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px;position:static}.ladder li{flex:none;font-size:16px;padding:2px 9px}.ladder li span:last-child:before{content:'·';margin:0 6px 0 0;opacity:.7}}
+@media(max-width:560px){.lights{display:none}.prize span{font-size:17px;padding:2px 12px}.hud{gap:10px;margin-bottom:6px}.screen{padding:12px 10px 8px}.yr{font-size:28px;min-height:28px}.ev-t{font-size:15.5px}.msg{font-size:14px}.hud{font-size:13px}.hud b{font-size:19px}.life{font-size:17px;padding:6px 12px}.bar{gap:8px}.ev{padding:7px 12px}.ev .w{font-size:13px}}
 
-  <div class="machine" id="machine">
-    <div class="dial" aria-hidden="true">
-      <svg viewBox="0 0 140 140">
-        <g id="gear2" opacity=".8"><circle cx="118" cy="22" r="16" fill="#8a6418"/><circle cx="118" cy="22" r="6" fill="#0f2833"/>
-          <g fill="#8a6418"><rect x="115" y="1" width="6" height="8"/><rect x="115" y="35" width="6" height="8"/><rect x="97" y="19" width="8" height="6"/><rect x="131" y="19" width="8" height="6"/></g></g>
-        <g id="gear1"><circle cx="70" cy="72" r="62" fill="#8a6418"/>
-          <g fill="#8a6418"><rect x="64" y="2" width="12" height="12"/><rect x="64" y="130" width="12" height="12"/><rect x="0" y="66" width="12" height="12"/><rect x="128" y="66" width="12" height="12"/>
-          <rect x="18" y="18" width="12" height="12" transform="rotate(45 24 24)"/><rect x="110" y="18" width="12" height="12" transform="rotate(45 116 24)"/><rect x="18" y="114" width="12" height="12" transform="rotate(45 24 120)"/><rect x="110" y="114" width="12" height="12" transform="rotate(45 116 120)"/></g></g>
-        <circle cx="70" cy="72" r="52" fill="url(#face)" stroke="#d4a640" stroke-width="4"/>
-        <defs><radialGradient id="face" cx=".4" cy=".35"><stop offset="0" stop-color="#2a5868"/><stop offset="1" stop-color="#0b1d26"/></radialGradient></defs>
-        <text x="70" y="62" text-anchor="middle" font-family="Lexend,sans-serif" font-size="11" fill="#a9bcc2">ANNO</text>
-        <text id="year" x="70" y="88" text-anchor="middle" font-family="Cinzel,Georgia,serif" font-weight="700" font-size="22" fill="#f4e8cc">????</text>
-      </svg>
-    </div>
-    <div class="now">
-      <div class="lbl" id="nowLbl">Dove va questo evento?</div>
-      <div class="card" id="now"></div>
-      <div class="stats">
-        <span class="chip">Carta<b id="sN">1/10</b></span>
-        <span class="chip">Punti<b id="sP">0</b></span>
-        <span class="chip">Serie<b id="sS">0</b></span>
-        <span class="chip en">Energia<b id="sE">⚡⚡⚡</b></span>
-      </div>
-    </div>
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,11,28,.85);color:#fff;font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,211,77,.35)}
+.mus.off{opacity:.6;box-shadow:none}
+@media(max-width:760px){.mus{top:auto;bottom:14px;right:12px;width:42px;height:42px;font-size:18px}}
+</style></head><body><div class="wrap"><button class="mus" id="mus" type="button" aria-label="Musica: attiva" title="Musica">🔊</button>
+<div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<h1>Viaggiatore nel tempo</h1>
+<p class="sub">Storia · Classe I · Dalla preistoria al Cristianesimo · Metti ogni evento al suo posto sulla linea del tempo</p>
+<div class="stage">
+ <div>
+  <div class="end" id="end" hidden><h2 id="endT"></h2><p id="endP"></p><button class="go" id="again" type="button">Nuovo viaggio</button></div>
+  <div id="top">
+   <div class="prize" id="prize"></div>
+   <div class="hud"><span>Punti<b id="hP">0</b></span><span>Serie<b id="hS">0</b></span><span>Errori rimasti<span id="lamps"></span></span><span>Record<b id="hR">0</b></span></div>
+   <div class="bar" id="lifes"><button class="life" id="lHalf" type="button">50:50</button><button class="life" id="lSec" type="button">Indizio</button><button class="life" id="lSave" type="button">Scudo</button></div>
+   <div class="top">
+    <div class="screen" id="scr"><span class="lbl" id="lbl">Dove va questo evento?</span><div class="yr" id="yr">????</div><div class="ev-t" id="evt"></div></div>
     <div class="msg" id="msg" role="status"></div>
+    <div class="bar" id="act"></div>
+   </div>
   </div>
-  <p class="hint" id="hint">Tocca uno spazio tratteggiato nella linea del tempo per inserire l'evento.</p>
   <div class="tl" id="tl"></div>
-
-  <div class="end" id="end">
-    <h2 id="endT">Macchina riparata!</h2>
-    <div class="rank" id="rank"></div>
-    <p id="endP"></p>
-    <button class="btn" id="again" type="button">Nuovo viaggio</button>
-  </div>
-
-  <section class="rules">
-    <b>Come si gioca</b>
-    <ul>
-      <li>Parti con un evento già sulla linea del tempo. A ogni turno arriva una nuova carta: inseriscila prima, dopo o tra gli eventi già collocati.</li>
-      <li>Giusto: la carta resta e il quadrante mostra l'anno. Sbagliato: <b>paradosso temporale</b>, perdi un'energia e la carta va al posto giusto con la spiegazione.</li>
-      <li>10 carte per viaggio, 3 energie. Più la linea si allunga, più è difficile: le risposte giuste di fila danno punti extra.</li>
-      <li>Gradi: Apprendista, Esploratore, Cronista, Storico, Custode del tempo.</li>
-    </ul>
-  </section>
+ </div>
+ <ol class="ladder" id="ladder"></ol>
 </div>
-
-<script>
+<section class="rules"><b>Come si gioca</b><ul>
+<li>Sulla linea del tempo c'è già un evento. A ogni turno ne arriva uno nuovo: tocca lo spazio tratteggiato dove secondo te va, prima, dopo o tra gli eventi già collocati.</li>
+<li>Le carte sono 15 e ognuna vale più della precedente. Più risposte giuste di fila danno punti in più.</li>
+<li>Puoi sbagliare 3 volte: al quarto errore il viaggio finisce. Quando sbagli, la carta va comunque al posto giusto con la spiegazione.</li>
+<li>Hai tre aiuti, ognuno usabile una sola volta. <b>50:50</b> spegne metà degli spazi sbagliati. <b>Indizio</b> ti dice il secolo. <b>Scudo</b> ti protegge dal prossimo errore.</li>
+<li>Il tasto 🔊 in alto a destra accende o spegne la musica.</li>
+<li>Alla fine trovi tutta la linea del tempo con le spiegazioni da ripassare.</li></ul></section>
+</div><script>
 {
-const ERAS=[
-[[-10000,"Inizia il Mesolitico","Dopo l'ultima glaciazione compaiono i microliti e l'uomo addomestica il cane.",1],
-[-8000,"Rivoluzione neolitica nella Mezzaluna Fertile","Nascono agricoltura e allevamento: l'uomo diventa sedentario.",1],
-[-3500,"Inizia l'età dei Metalli","Rame, bronzo e poi ferro: dal 3500 al 1200 a.C.",1],
-[-3100,"Il re Narmer unifica l'Alto e il Basso Egitto","Nasce uno Stato unitario lungo il Nilo.",1],
-[-2700,"Inizia l'Antico Regno egizio","Il potere del faraone è al massimo: si costruiscono le piramidi di Giza.",1],
-[-1750,"Hammurabi emana il suo Codice","Circa 280 articoli incisi su una stele di basalto, oggi al Louvre.",1],
-[-1550,"Inizia il Nuovo Regno egizio","Il periodo di massima espansione territoriale dell'Egitto.",1],
-[-1450,"Declina la civiltà minoica di Creta","Forse per un terremoto o per l'eruzione del vulcano di Santorini.",1],
-[-1200,"Crolla la civiltà micenea","Invasioni, carestie o crisi interne aprono un periodo di regresso.",1],
-[-753,"Fondazione di Roma secondo la tradizione","Romolo fonda la città; seguono sette re, gli ultimi tre etruschi."],
-[-509,"Cacciata di Tarquinio il Superbo: nasce la Repubblica","Il potere passa a magistrati eletti."],
-[-490,"Iniziano le guerre persiane: battaglia di Maratona","Le poleis greche resistono all'impero persiano fino al 479."],
-[-461,"Inizia l'età di Pericle ad Atene","Il periodo di massimo splendore della democrazia ateniese."],
-[-431,"Inizia la guerra del Peloponneso","Atene e Sparta si combattono fino al 404 a.C."],
-[-336,"Alessandro Magno sale al trono di Macedonia","Erede di Filippo II, conquisterà l'impero persiano."],
-[-323,"Muore Alessandro Magno","A 33 anni: il suo impero si divide tra i generali."],
-[-264,"Iniziano le guerre puniche","Roma e Cartagine si contendono il Mediterraneo."],
-[-146,"Terza guerra punica: Cartagine viene distrutta","Fine delle guerre puniche (264-146 a.C.)."],
-[-133,"Riforme dei fratelli Gracco","Tentano una riforma agraria: falliscono e vengono uccisi."],
-[-88,"Guerra civile tra Mario e Silla","Prima grande guerra civile della Repubblica (88-82 a.C.)."],
-[-60,"Primo triumvirato","Accordo tra Cesare, Pompeo e Crasso."],
-[-49,"Cesare attraversa il Rubicone","Inizia la guerra civile contro Pompeo."],
-[-44,"Assassinio di Giulio Cesare","Viene ucciso alle Idi di marzo."],
-[-43,"Secondo triumvirato","Ottaviano, Marco Antonio e Lepido."],
-[-31,"Battaglia di Azio","Ottaviano sconfigge Antonio e Cleopatra."],
-[-27,"Ottaviano riceve il titolo di Augusto","Inizia il Principato, che conserva le forme repubblicane."],
-[30,"Morte di Gesù di Nazareth","Il Cristianesimo nasce in Palestina, provincia dell'Impero.",1],
-[313,"Editto di Milano","Costantino concede la libertà di culto ai cristiani: finiscono le persecuzioni."],
-[325,"Concilio di Nicea","Convocato da Costantino: è il primo concilio ecumenico."],
-[380,"Editto di Tessalonica","Teodosio fa del Cristianesimo la religione ufficiale dell'Impero."]],
-[[284,"Diocleziano diventa imperatore","Con le sue riforme prova a superare la crisi del III secolo."],
-[313,"Editto di Milano","Costantino concede la libertà di culto ai cristiani."],
-[380,"Editto di Tessalonica","Il Cristianesimo diventa religione di Stato."],
-[395,"Morte di Teodosio","Divisione definitiva tra Impero d'Oriente e d'Occidente."],
-[410,"Sacco di Roma dei Visigoti di Alarico","L'Impero d'Occidente non riesce più a difendere i confini."],
-[455,"Sacco di Roma dei Vandali","Da qui nasce la parola «vandalismo»."],
-[476,"Odoacre depone Romolo Augustolo","Data simbolica della fine dell'Impero romano d'Occidente."],
-[493,"Inizia il regno ostrogoto di Teodorico in Italia","Durerà fino al 526."],
-[496,"Clodoveo, re dei Franchi, si converte al cattolicesimo","Nasce l'alleanza tra Franchi e Chiesa di Roma."],
-[535,"Giustiniano avvia la guerra gotica","Circa vent'anni di guerra per riconquistare l'Italia.",1],
-[568,"I Longobardi di Alboino invadono l'Italia","Fondano un regno con capitale Pavia."],
-[768,"Carlo Magno diventa re dei Franchi","Estenderà enormemente i confini del regno franco."],
-[800,"Incoronazione di Carlo Magno","Nel giorno di Natale papa Leone III lo incorona imperatore: nasce il Sacro Romano Impero."],
-[814,"Morte di Carlo Magno","L'impero, troppo vasto, non regge senza di lui."],
-[843,"Trattato di Verdun","L'impero carolingio viene diviso: all'origine di Francia e Germania."],
-[877,"Capitolare di Quierzy","I feudi diventano di fatto ereditari."],
-[910,"Fondazione del monastero di Cluny","Da qui parte il movimento di riforma della Chiesa."],
-[1073,"Gregorio VII diventa papa","La riforma gregoriana combatte simonia e nicolaismo."],
-[1077,"Umiliazione di Canossa","Enrico IV chiede perdono al papa, scalzo nella neve."],
-[1095,"Concilio di Clermont","Papa Urbano II lancia la prima crociata."],
-[1099,"I crociati conquistano Gerusalemme","Fondano gli Stati latini d'Oriente."],
-[1122,"Concordato di Worms","Fine della lotta per le investiture."],
-[1147,"Viene indetta la seconda crociata","Si conclude con un sostanziale fallimento."],
-[1187,"Il Saladino riconquista Gerusalemme","Provoca la terza crociata, con Riccardo Cuor di Leone e Federico Barbarossa."]],
-[[1315,"Una serie di carestie colpisce l'Europa","Inizia la «piccola era glaciale»: è l'avvio della crisi del Trecento."],
-[1337,"Inizia la guerra dei Cent'anni","Francia e Inghilterra si combattono fino al 1453."],
-[1347,"La peste nera arriva in Europa","Dal 1347 al 1351: crollo della popolazione; Boccaccio la racconta nel Decameron."],
-[1378,"Tumulto dei Ciompi a Firenze","Si ribellano i lavoratori salariati della lana."],
-[1420,"Trattato di Troyes","Il re d'Inghilterra Enrico V diventa erede al trono di Francia."],
-[1429,"Giovanna d'Arco libera Orléans","La svolta decisiva della guerra dei Cent'anni."],
-[1431,"Giovanna d'Arco viene arsa sul rogo","Processata per eresia e stregoneria; riabilitata nel 1456."],
-[1434,"Cosimo il Vecchio diventa signore di Firenze","Il potere dei Medici si basa sulla banca di famiglia."],
-[1450,"Gli Sforza al potere a Milano","Prendono il posto dei Visconti."],
-[1453,"Caduta di Costantinopoli","I Turchi ottomani conquistano la città; finisce anche la guerra dei Cent'anni."],
-[1454,"Pace di Lodi","Nasce l'equilibrio tra gli Stati italiani, garantito dalla Lega Italica."],
-[1455,"Gutenberg e la stampa a caratteri mobili","I testi circolano come mai prima.",1],
-[1469,"Lorenzo il Magnifico al potere a Firenze","È l'«ago della bilancia» dell'equilibrio italiano."],
-[1478,"Congiura dei Pazzi","Lorenzo sopravvive; muore il fratello Giuliano."],
-[1485,"Fine della guerra delle Due Rose","In Inghilterra sale al trono Enrico VII Tudor."],
-[1488,"Bartolomeo Dias doppia il Capo di Buona Speranza","È possibile circumnavigare l'Africa."],
-[1492,"Colombo raggiunge l'America","Nello stesso anno la conquista di Granada completa la Reconquista."],
-[1494,"Carlo VIII scende in Italia","Iniziano le guerre d'Italia; trattato di Tordesillas tra Spagna e Portogallo."],
-[1498,"Vasco da Gama raggiunge l'India","Si apre la via marittima verso l'Oriente."],
-[1509,"Enrico VIII diventa re d'Inghilterra","Sposerà in prime nozze Caterina d'Aragona."],
-[1517,"Lutero affigge le 95 tesi a Wittenberg","Inizia la Riforma protestante."],
-[1519,"Carlo V viene eletto imperatore","Batte il re di Francia Francesco I; Cortés inizia la conquista del Messico."],
-[1521,"Dieta di Worms","Lutero rifiuta di ritrattare e viene messo al bando dell'Impero."],
-[1524,"Scoppia la guerra dei contadini in Germania","Viene repressa duramente con l'appoggio di Lutero."],
-[1532,"Pizarro inizia la conquista dell'impero inca","Nascono i grandi imperi coloniali spagnoli."],
-[1534,"Atto di Supremazia","Il re è capo della Chiesa d'Inghilterra: nasce la Chiesa anglicana."],
-[1555,"Pace di Augusta","«Cuius regio, eius religio»: il principe sceglie la religione dei sudditi."],
-[1556,"Abdicazione di Carlo V","L'eredità asburgica viene divisa: Filippo II re di Spagna."],
-[1558,"Elisabetta I sale al trono d'Inghilterra","Regnerà fino al 1603."],
-[1571,"Battaglia di Lepanto","La Lega Santa sconfigge la flotta ottomana."],
-[1580,"Filippo II annette il Portogallo","Con il suo impero coloniale."],
-[1588,"Sconfitta dell'Invincibile Armada","La flotta spagnola fallisce contro l'Inghilterra."],
-[1598,"Muore Filippo II","Fine dell'età di Filippo II; in Francia l'editto di Nantes."]],
-[[1618,"Defenestrazione di Praga","Inizia la guerra dei Trent'anni con la fase boema."],
-[1624,"Richelieu diventa primo ministro di Luigi XIII","Pone le basi dell'assolutismo francese."],
-[1630,"Gustavo Adolfo di Svezia entra in guerra","Inizia la fase svedese della guerra dei Trent'anni."],
-[1635,"La Francia entra nella guerra dei Trent'anni","Il conflitto da religioso diventa politico."],
-[1648,"Pace di Vestfalia","Fine della guerra dei Trent'anni: nasce il sistema degli Stati sovrani."],
-[1661,"Luigi XIV inizia a governare personalmente","Il «Re Sole», modello dell'assolutismo."],
-[1685,"Luigi XIV revoca l'editto di Nantes","«Un re, una legge, una fede»: niente più libertà di culto per i protestanti."],
-[1688,"Gloriosa rivoluzione in Inghilterra","Con il Bill of Rights del 1689 il Parlamento prevale sul sovrano."],
-[1715,"Muore Luigi XIV","Fine del regno più lungo della storia di Francia."],
-[1751,"Esce il primo volume dell'Encyclopédie","Diderot e d'Alembert diffondono il sapere illuminista."],
-[1764,"Beccaria pubblica «Dei delitti e delle pene»","Contro la tortura e la pena di morte."],
-[1765,"Stamp Act","La tassa britannica che fa infuriare le colonie americane."],
-[1773,"Boston Tea Party","I coloni gettano in mare il tè britannico."],
-[1776,"Dichiarazione d'indipendenza americana","Il 4 luglio, redatta soprattutto da Thomas Jefferson."],
-[1783,"Trattato di Parigi","L'indipendenza degli Stati Uniti viene riconosciuta."],
-[1786,"Pietro Leopoldo abolisce la pena di morte in Toscana","Prima volta in Europa, su influsso di Beccaria."],
-[1787,"Approvata la Costituzione degli Stati Uniti","Separazione dei poteri e «pesi e contrappesi»."],
-[1789,"Presa della Bastiglia","Il 14 luglio: inizia la Rivoluzione francese."],
-[1791,"Prima Costituzione francese","La Francia diventa una monarchia costituzionale."],
-[1792,"Cade la monarchia francese","Viene proclamata la Prima Repubblica."],
-[1793,"Esecuzione di Luigi XVI","Inizia il Terrore giacobino."],
-[1794,"Caduta ed esecuzione di Robespierre","Il 9 termidoro: finisce il Terrore."],
-[1799,"Colpo di Stato del 18 brumaio","Napoleone diventa primo console."],
-[1801,"Concordato tra Napoleone e la Chiesa","Si normalizzano i rapporti con il papato."],
-[1804,"Napoleone si incorona imperatore","Lo stesso anno: il Codice civile."],
-[1805,"Battaglia di Austerlitz","Una delle più brillanti vittorie di Napoleone."],
-[1806,"Blocco continentale contro l'Inghilterra","Un'arma a doppio taglio che danneggia anche la Francia."],
-[1812,"Campagna di Russia","La Grande Armée viene quasi distrutta nell'inverno russo."],
-[1814,"Prima abdicazione di Napoleone","Esiliato all'isola d'Elba; si apre il Congresso di Vienna."],
-[1815,"Battaglia di Waterloo","Dopo i Cento giorni, la sconfitta definitiva; nasce la Santa Alleanza."],
-[1821,"Napoleone muore a Sant'Elena","In esilio, nell'Atlantico meridionale."]],
-[[1900,"Assassinio del re Umberto I","Ucciso dall'anarchico Gaetano Bresci: inizia l'età giolittiana."],
-[1905,"Prima rivoluzione russa","Dopo la sconfitta con il Giappone e la «domenica di sangue»."],
-[1912,"Suffragio quasi universale maschile in Italia","Giolitti estende il voto agli uomini che sanno leggere e scrivere o hanno fatto il militare."],
-[1914,"Attentato di Sarajevo","Il 28 giugno: uccisione di Francesco Ferdinando, scoppia la Prima guerra mondiale."],
-[1915,"L'Italia entra nella Prima guerra mondiale","Il 24 maggio, dopo le «radiose giornate di maggio»."],
-[1916,"Battaglie di Verdun e della Somme","Centinaia di migliaia di morti per pochi chilometri."],
-[1917,"Rivoluzione russa e disfatta di Caporetto","I bolscevichi prendono il potere; gli italiani si ritirano sul Piave."],
-[1918,"Vittorio Veneto e armistizio","Il 4 novembre per l'Italia, l'11 novembre per la Germania."],
-[1919,"Conferenza di pace di Parigi e trattato di Versailles","Mussolini fonda i Fasci di combattimento; D'Annunzio occupa Fiume."],
-[1921,"Lenin vara la NEP","Nasce anche il Partito nazionale fascista."],
-[1922,"Marcia su Roma","Il re affida il governo a Mussolini; nasce l'URSS."],
-[1923,"Iperinflazione in Germania","Fallisce il putsch di Monaco di Hitler; in Italia la riforma Gentile."],
-[1924,"Delitto Matteotti","Il deputato socialista viene rapito e ucciso dagli squadristi."],
-[1925,"Discorso del 3 gennaio di Mussolini","Inizia la dittatura fascista."],
-[1928,"Stalin governa da dittatore","Ha sconfitto Trotskij dopo la morte di Lenin."],
-[1929,"Crollo di Wall Street e Patti Lateranensi","Inizia la Grande depressione; nasce lo Stato della Città del Vaticano."],
-[1933,"Hitler diventa cancelliere","Il 30 gennaio; poi l'incendio del Reichstag."],
-[1934,"Notte dei lunghi coltelli","Hitler elimina la dirigenza delle SA."],
-[1935,"Leggi di Norimberga e aggressione all'Etiopia","Gli ebrei tedeschi perdono la cittadinanza; l'Italia attacca l'Etiopia."],
-[1936,"Asse Roma-Berlino","Inizia anche la guerra civile spagnola."],
-[1938,"Leggi razziali in Italia e Notte dei cristalli","Mussolini le annuncia da Piazza Unità a Trieste."],
-[1939,"La Germania invade la Polonia","Inizia la Seconda guerra mondiale."],
-[1940,"L'Italia entra nella Seconda guerra mondiale","Il 10 giugno, a fianco della Germania."],
-[1941,"Operazione Barbarossa e Pearl Harbor","La guerra diventa mondiale: entrano URSS e Stati Uniti."],
-[1942,"Conferenza di Wannsee","Viene organizzata la «soluzione finale» contro gli ebrei."],
-[1943,"Armistizio dell'8 settembre","Nasce la Resistenza; il 16 ottobre il rastrellamento del ghetto di Roma."],
-[1945,"Liberazione e fine della guerra","25 aprile in Italia; bombe atomiche su Hiroshima e Nagasaki; nasce l'ONU."],
-[1946,"Referendum del 2 giugno","L'Italia diventa una Repubblica: votano anche le donne."],
-[1947,"Piano Marshall","Aiuti americani per ricostruire l'Europa; indipendenza dell'India."],
-[1948,"Entra in vigore la Costituzione italiana","Il 1° gennaio; nasce anche lo Stato di Israele."],
-[1949,"Nasce la NATO","In Cina prendono il potere i comunisti di Mao."],
-[1951,"Nasce la CECA","Comunità del carbone e dell'acciaio tra sei paesi europei."],
-[1954,"Trieste torna italiana","Si chiude la questione di Trieste aperta nel 1946."],
-[1957,"Trattati di Roma","Nasce la Comunità Economica Europea."],
-[1961,"Costruzione del muro di Berlino","La RDT impedisce la fuga verso Ovest."],
-[1968,"Primavera di Praga","Le riforme di Dubček vengono represse dai carri armati sovietici."],
-[1970,"Statuto dei lavoratori","Nello stesso anno la legge sul divorzio."],
-[1975,"Trattato di Osimo","Definisce i confini con la Jugoslavia; il Vietnam viene unificato."],
-[1978,"Rapimento e uccisione di Aldo Moro","Gli anni di piombo e del terrorismo."],
-[1989,"Caduta del muro di Berlino","Il 9 novembre."],
-[1991,"Dissoluzione dell'URSS","Finisce la guerra fredda."],
-[1992,"Trattato di Maastricht","Nasce l'Unione europea con la cittadinanza europea."],
-[1995,"Accordo di Schengen","Libera circolazione delle persone."],
-[2002,"Entra in circolazione l'euro","La moneta unica europea."]]
-];
-const RANKS=[[0,'Apprendista'],[400,'Esploratore'],[800,'Cronista'],[1200,'Storico'],[1600,'Custode del tempo']];
-const $=id=>document.getElementById(id);
-const fmt=(y,a)=>(a?'c. ':'')+(y<0?`${-y} a.C.`:y<100?`${y} d.C.`:String(y));
-const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let era=0,deck,line,cur,n,pts,streak,energy,lastBad=null,lastNew=null,busy=false;
-let best={};try{best=JSON.parse(localStorage.getItem('vt-best')||'{}')}catch(e){}
-function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function start(){deck=shuffle(ERAS[era].slice()).slice(0,11).map(e=>({y:e[0],t:e[1],w:e[2],a:!!e[3]}));
-  line=[deck.shift()];n=0;pts=0;streak=0;energy=3;lastBad=null;lastNew=line[0];$('end').classList.remove('on');
-  $('msg').textContent='';$('msg').className='msg';$('hint').style.display='';next()}
-function next(){if(energy<=0||n>=10||!deck.length){finish();return}cur=deck.shift();$('now').textContent=cur.t;$('nowLbl').textContent='Dove va questo evento?';$('year').textContent='????';stats();render(true)}
-function stats(){$('sN').textContent=`${Math.min(n+1,10)}/10`;$('sP').textContent=pts;$('sS').textContent=streak;$('sE').textContent='⚡'.repeat(energy)+'·'.repeat(3-energy)}
-function render(slots){const tl=$('tl');let h='';
-  line.forEach((e,i)=>{if(slots)h+=`<button class="slot" data-i="${i}">${i===0?'Inserisci qui (prima)':'Inserisci qui'}</button>`;
-    h+=`<div class="ev${e===lastBad?' bad':''}${e===lastNew?' new':''}"><div class="card"><span class="yr">${fmt(e.y,e.a)}</span><span>${esc(e.t)}</span>${e===lastBad||!slots?`<span class="why">${esc(e.w)}</span>`:''}</div></div>`});
-  if(slots)h+=`<button class="slot" data-i="${line.length}">Inserisci qui (dopo)</button>`;tl.innerHTML=h}
-function countTo(y){const el=$('year'),from=y<0?y-400:y-400,t0=performance.now();
-  const step=t=>{const k=Math.min(1,(t-t0)/700),v=Math.round(from+(y-from)*k);el.textContent=v<0?`${-v} a.C.`:v;if(k<1)requestAnimationFrame(step)};requestAnimationFrame(step)}
-function place(i){if(busy)return;busy=true;const ok=(i===0||line[i-1].y<cur.y)&&(i===line.length||line[i].y>cur.y);
-  let pos=line.findIndex(e=>e.y>cur.y);if(pos<0)pos=line.length;line.splice(pos,0,cur);lastNew=cur;n++;
-  const m=$('machine');m.classList.remove('spin','glitch');void m.offsetWidth;
-  if(ok){streak++;const g=100+Math.min(streak-1,5)*20+(line.length>6?30:0);pts+=g;lastBad=null;m.classList.add('spin');countTo(cur.y);
-    $('msg').textContent=`Esatto! ${fmt(cur.y,cur.a)}  ·  +${g} punti`;$('msg').className='msg ok'}
-  else{streak=0;energy--;lastBad=cur;m.classList.add('glitch');$('year').textContent='ERR';
-    $('msg').textContent=`Paradosso temporale! Data giusta: ${fmt(cur.y,cur.a)}`;$('msg').className='msg ko'}
-  stats();render(false);const el=$('tl').querySelector('.ev.new');if(el)el.scrollIntoView({block:'nearest',behavior:'smooth'});
-  $('now').textContent=cur.t;$('nowLbl').textContent=ok?'Evento collocato':'Ecco il posto giusto:';
-  setTimeout(()=>{busy=false;next()},ok?1300:2600)}
-function finish(){render(false);$('hint').style.display='none';$('now').textContent=energy>0?'Viaggio completato!':'Energia esaurita.';$('nowLbl').textContent='';
-  let r=RANKS[0][1];for(const [s,name] of RANKS)if(pts>=s)r=name;
-  const k='E'+era,nb=!best[k]||pts>best[k];if(nb){best[k]=pts;try{localStorage.setItem('vt-best',JSON.stringify(best))}catch(e){}}
-  $('endT').textContent=energy>0?'Macchina riparata!':'La macchina si è fermata';$('rank').textContent='Grado: '+r;
-  $('endP').textContent=`${pts} punti. `+(nb&&pts>0?'Nuovo record personale!':`Il tuo record per questa epoca è ${best[k]} punti.`)+' Qui sopra trovi la linea del tempo completa con le spiegazioni: ripassala prima del prossimo viaggio.';
-  $('end').classList.add('on');$('end').scrollIntoView({block:'nearest',behavior:'smooth'})}
-$('tl').addEventListener('click',e=>{const b=e.target.closest('.slot');if(b)place(+b.dataset.i)});
-$('again').addEventListener('click',()=>{start();window.scrollTo({top:0,behavior:'smooth'})});
 
+const MUS=(()=>{let on=true;try{on=localStorage.getItem('arcade-musica')!=='off'}catch(e){}
+ let ctx=null,out=null,want=false,run=false,iv=null,next=0,step=0,bpm=100,fast=false;
+ const btn=document.getElementById('mus');
+ const paint=()=>{btn.textContent=on?'🔊':'🔇';btn.classList.toggle('off',!on);btn.setAttribute('aria-label','Musica: '+(on?'attiva':'spenta'))};paint();
+ function init(){if(ctx)return true;try{ctx=new (window.AudioContext||window.webkitAudioContext)();out=ctx.createGain();out.gain.value=.55;out.connect(ctx.destination);return true}catch(e){return false}}
+ function note(f,t,d,type,g,lp){const o=ctx.createOscillator(),v=ctx.createGain();o.type=type;o.frequency.setValueAtTime(f,t);
+  let last=o;if(lp){const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=lp;o.connect(fl);last=fl}
+  last.connect(v);v.connect(out);v.gain.setValueAtTime(.0001,t);v.gain.exponentialRampToValueAtTime(g,t+Math.min(.02,d/4));v.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d+.05)}
+ const CH=[[110,130.8,164.8],[116.5,138.6,174.6],[110,130.8,164.8],[103.8,123.5,155.6]];
+ function play(s,t){const sp=60/bpm/4,bar=Math.floor(s/16)%4;
+  if(s%8===0)note(55,t,.28,'sine',.5);if(s%8===2)note(52,t,.2,'sine',.32);
+  if(s%4===0)note(fast?2400:1800,t,.035,'square',fast?.05:.03,6000);
+  if(fast&&s%2===1)note(2400,t,.025,'square',.025,6000);
+  if(s%16===0)CH[bar].forEach(f=>note(f*2,t,sp*16*.95,'triangle',.035,900));
+  if(s%16===12)note(CH[bar][2]*4,t,sp*3,'sine',.03)}
+ function sched(){if(!run)return;while(next<ctx.currentTime+.15){play(step,next);next+=60/bpm/4;step=(step+1)%64}}
+ function go(){if(!on||!want||run||!init())return;if(ctx.state!=='running'){ctx.resume();if(ctx.state!=='running')return}
+  run=true;next=ctx.currentTime+.05;step=0;iv=setInterval(sched,40)}
+ function halt(){run=false;clearInterval(iv)}
+ const unlock=()=>{if(init()&&ctx.state!=='running')ctx.resume().then(go,()=>{});else go()};
+ document.addEventListener('pointerdown',unlock,true);document.addEventListener('keydown',unlock,true);
+ btn.addEventListener('click',()=>{on=!on;try{localStorage.setItem('arcade-musica',on?'on':'off')}catch(e){}paint();on?go():halt()});
+ return{
+  start(b){bpm=b||100;fast=false;want=true;go()},
+  stop(){want=false;halt()},
+  fast(f){fast=f;bpm=f?Math.max(bpm,150):bpm},
+  speed(b){bpm=b},
+  win(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[523.3,659.3,784,1046.5].forEach((f,k)=>note(f,t+k*.08,.22,'square',.05,3500));[523.3,659.3,784].forEach(f=>note(f,t+.32,.6,'triangle',.06,4000));note(130.8,t+.32,.6,'sine',.35)},
+  lose(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[392,370,349.2,311.1].forEach((f,k)=>note(f,t+k*.22,k===3?.8:.22,'sawtooth',.05,1200));note(77.8,t+.66,.8,'sine',.3)},
+  big(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;const m=[523.3,659.3,784,1046.5,784,1046.5];m.forEach((f,k)=>note(f,t+k*.11,.2,'square',.05,4000));[523.3,659.3,784,1046.5].forEach(f=>note(f,t+.7,1.1,'triangle',.06,5000));note(65.4,t+.7,1.1,'sine',.4);for(let k=0;k<8;k++)note(2600,t+.7+k*.06,.03,'square',.015,8000)},
+  roll(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;for(let k=0;k<18;k++)note(1500,t+k*.065,.04,'square',.012+k*.003,5000);note(55,t,1.2,'sine',.4)}
+ }})();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+const yr=(y,a)=>(a?'c. ':'')+(y<0?`${-y} a.C.`:y<100?`${y} d.C.`:String(y));
+const roman=n=>{const v=[[1000,'M'],[900,'CM'],[500,'D'],[400,'CD'],[100,'C'],[90,'XC'],[50,'L'],[40,'XL'],[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];let s='';for(const[k,r]of v)while(n>=k){s+=r;n-=k}return s};
+const cent=y=>y<0?`${roman(Math.floor((-y-1)/100)+1)} secolo a.C.`:`${roman(Math.floor((y-1)/100)+1)} secolo d.C.`;
+const DATA=[[-10000, "Inizia il Mesolitico", "Dopo l'ultima glaciazione compaiono i microliti e l'uomo addomestica il cane.", 1], [-8000, "Rivoluzione neolitica nella Mezzaluna Fertile", "Nascono agricoltura e allevamento: l'uomo diventa sedentario.", 1], [-3500, "Inizia l'età dei Metalli", "Rame, bronzo e poi ferro: dal 3500 al 1200 a.C.", 1], [-3100, "Il re Narmer unifica l'Alto e il Basso Egitto", "Nasce uno Stato unitario lungo il Nilo.", 1], [-2700, "Inizia l'Antico Regno egizio", "Il potere del faraone è al massimo: si costruiscono le piramidi di Giza.", 1], [-1750, "Hammurabi emana il suo Codice", "Circa 280 articoli incisi su una stele di basalto, oggi al Louvre.", 1], [-1550, "Inizia il Nuovo Regno egizio", "Il periodo di massima espansione territoriale dell'Egitto.", 1], [-1450, "Declina la civiltà minoica di Creta", "Forse per un terremoto o per l'eruzione del vulcano di Santorini.", 1], [-1200, "Crolla la civiltà micenea", "Invasioni, carestie o crisi interne aprono un periodo di regresso.", 1], [-753, "Fondazione di Roma secondo la tradizione", "Romolo fonda la città; seguono sette re, gli ultimi tre etruschi."], [-509, "Cacciata di Tarquinio il Superbo: nasce la Repubblica", "Il potere passa a magistrati eletti."], [-490, "Iniziano le guerre persiane: battaglia di Maratona", "Le poleis greche resistono all'impero persiano fino al 479."], [-461, "Inizia l'età di Pericle ad Atene", "Il periodo di massimo splendore della democrazia ateniese."], [-431, "Inizia la guerra del Peloponneso", "Atene e Sparta si combattono fino al 404 a.C."], [-336, "Alessandro Magno sale al trono di Macedonia", "Erede di Filippo II, conquisterà l'impero persiano."], [-323, "Muore Alessandro Magno", "A 33 anni: il suo impero si divide tra i generali."], [-264, "Iniziano le guerre puniche", "Roma e Cartagine si contendono il Mediterraneo."], [-146, "Terza guerra punica: Cartagine viene distrutta", "Fine delle guerre puniche (264-146 a.C.)."], [-133, "Riforme dei fratelli Gracco", "Tentano una riforma agraria: falliscono e vengono uccisi."], [-88, "Guerra civile tra Mario e Silla", "Prima grande guerra civile della Repubblica (88-82 a.C.)."], [-60, "Primo triumvirato", "Accordo tra Cesare, Pompeo e Crasso."], [-49, "Cesare attraversa il Rubicone", "Inizia la guerra civile contro Pompeo."], [-44, "Assassinio di Giulio Cesare", "Viene ucciso alle Idi di marzo."], [-43, "Secondo triumvirato", "Ottaviano, Marco Antonio e Lepido."], [-31, "Battaglia di Azio", "Ottaviano sconfigge Antonio e Cleopatra."], [-27, "Ottaviano riceve il titolo di Augusto", "Inizia il Principato, che conserva le forme repubblicane."], [30, "Morte di Gesù di Nazareth", "Il Cristianesimo nasce in Palestina, provincia dell'Impero.", 1], [313, "Editto di Milano", "Costantino concede la libertà di culto ai cristiani: finiscono le persecuzioni."], [325, "Concilio di Nicea", "Convocato da Costantino: è il primo concilio ecumenico."], [380, "Editto di Tessalonica", "Teodosio fa del Cristianesimo la religione ufficiale dell'Impero."]], N=15, LIVES=3, VAL=[100,100,150,150,200,200,250,300,350,400,500,600,700,850,1000], KEY='vt-tv-I';
+let deck,line,cur,n,score,streak,lives,shield,busy,lastNew,lastBad,res,best=0;
+try{best=+localStorage.getItem(KEY)||0}catch(e){}
+function start(){deck=shuffle(DATA).slice(0,N+1).map(e=>({y:e[0],t:e[1],w:e[2],a:!!e[3]}));line=[deck.shift()];
+ n=0;score=0;streak=0;lives=LIVES;shield=false;lastNew=null;lastBad=null;res=[];$('end').hidden=true;$('top').hidden=false;
+ ['lHalf','lSec','lSave'].forEach(i=>$(i).disabled=false);next()}
+function next(){busy=false;cur=deck.shift();$('scr').className='screen';$('lbl').textContent=`Carta ${n+1} di ${N}`;$('yr').textContent='????';$('evt').textContent=cur.t;
+ $('prize').innerHTML=`<span>Carta ${n+1} · ${fmt(VAL[n])} punti</span>`;$('act').innerHTML='';say('Tocca lo spazio dove va questo evento.');hud();ladder();render(true);MUS.start(88+n*4)}
+function say(t,c=''){$('msg').textContent=t;$('msg').className='msg '+c}
+function hud(){$('hP').textContent=fmt(score);$('hS').textContent=streak;$('hR').textContent=fmt(best);
+ $('lamps').innerHTML=Array.from({length:LIVES},(_,i)=>`<i class="lamp ${i<lives?'':'off'}"></i>`).join('')+(shield?' 🛡':'')}
+function ladder(){$('ladder').innerHTML=VAL.map((v,k)=>`<li class="${k===n?'cur':''} ${res[k]===true?'done':''} ${res[k]===false?'miss':''}"><span>${k+1}</span><span>${fmt(v)}</span></li>`).join('');
+ const c=$('ladder').querySelector('.cur');if(c&&matchMedia('(max-width:760px)').matches)c.scrollIntoView({inline:'center',block:'nearest'})}
+function render(slots,why){let h='';
+ line.forEach((e,i)=>{h+=slots?`<button class="slot" type="button" data-i="${i}">${i===0?'+ Inserisci qui (prima)':'+ Inserisci qui'}</button>`:'<div class="gap"></div>';
+  h+=`<div class="ev${e===lastNew?' new':''}${e===lastBad?' bad':''}"><span class="y">${yr(e.y,e.a)}</span>${esc(e.t)}${why||e===lastNew||e===lastBad?`<span class="w">${esc(e.w)}</span>`:''}</div>`});
+ h+=slots?`<button class="slot" type="button" data-i="${line.length}">+ Inserisci qui (dopo)</button>`:'';$('tl').innerHTML=h}
+const right=i=>(i===0||line[i-1].y<cur.y)&&(i===line.length||line[i].y>cur.y);
+function place(i){if(busy)return;busy=true;MUS.stop();const ok=right(i);
+ let pos=line.findIndex(e=>e.y>cur.y);if(pos<0)pos=line.length;line.splice(pos,0,cur);
+ $('yr').textContent=yr(cur.y,cur.a);res[n]=ok;
+ if(ok){streak++;const g=VAL[n]+Math.min(streak-1,5)*25;score+=g;lastNew=cur;lastBad=null;$('scr').className='screen ok';say(`Esatto! ${yr(cur.y,cur.a)} · +${fmt(g)}`,'ok');MUS.win()}
+ else{streak=0;lastBad=cur;lastNew=null;$('scr').className='screen ko';MUS.lose();
+  if(shield){shield=false;res[n]=true;say(`Sbagliato, ma lo scudo ti ha protetto! Era il ${yr(cur.y,cur.a)}.`,'ko')}
+  else{lives--;say(`Paradosso temporale! Era il ${yr(cur.y,cur.a)}: ecco il posto giusto.`,'ko')}}
+ n++;hud();ladder();render(false);
+ const el=$('tl').querySelector('.ev.new,.ev.bad');if(el)el.scrollIntoView({block:'center',behavior:'smooth'});
+ const end=lives<0||n>=N;$('act').innerHTML=`<button class="go" id="nx" type="button">${end?'Vedi il risultato':'Prossima carta'}</button>`}
+$('tl').addEventListener('click',e=>{const b=e.target.closest('.slot');if(b&&!b.classList.contains('gone'))place(+b.dataset.i)});
+$('act').addEventListener('click',e=>{if(e.target.id!=='nx')return;if(lives<0||n>=N)finish();else{next();window.scrollTo({top:$('top').offsetTop-4,behavior:'smooth'})}});
+$('lHalf').addEventListener('click',()=>{if(busy)return;const wrong=[...document.querySelectorAll('.slot')].filter(b=>!right(+b.dataset.i));
+ if(!wrong.length)return;$('lHalf').disabled=true;shuffle(wrong).slice(0,Math.ceil(wrong.length/2)).forEach(b=>b.classList.add('gone'));say('Ho spento metà degli spazi sbagliati.')});
+$('lSec').addEventListener('click',()=>{if(busy)return;$('lSec').disabled=true;say(`Indizio: siamo nel ${cent(cur.y)}.`)});
+$('lSave').addEventListener('click',()=>{if(busy)return;shield=true;$('lSave').disabled=true;hud();say('Scudo attivo: il prossimo errore non conta.')});
+function finish(){MUS.stop();if(lives<0)lives=0;const nb=score>best;if(nb){best=score;try{localStorage.setItem(KEY,score)}catch(e){}}
+ const good=res.filter(x=>x).length;lastNew=null;lastBad=null;
+ $('top').hidden=true;$('end').hidden=false;
+ $('endT').textContent=fmt(score)+' punti';
+ $('endP').textContent=(n>=N&&lives>=0?`Viaggio completato: ${good} carte giuste su ${N}. `:`La macchina si è fermata alla carta ${n}. `)+(nb&&score>0?'Nuovo record personale!':`Il tuo record è ${fmt(best)} punti.`)+' Qui sotto trovi la linea del tempo completa: ripassala prima del prossimo viaggio.';
+ if(n>=N&&good>=12)MUS.big();
+ render(false,true);window.scrollTo({top:0,behavior:'smooth'})}
+$('again').addEventListener('click',()=>{start();window.scrollTo({top:0,behavior:'smooth'})});
 start();
 }
-</script>
-</body>
-</html>
+</script></body></html>
