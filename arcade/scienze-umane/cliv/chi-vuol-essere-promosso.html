@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chi vuol essere promosso? · Scienze Umane Classe IV</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: gioco a premi del sabato sera: suspense, luci, applausi, ma testo chiaro
+   IDEA: lo studio televisivo con la scala dei punti: ogni personaggio indovinato è un gradino
+   PICTURE: lo schermo con gli indizi e i quattro pulsanti a capsula, la scala dei punti accanto
+   COLOUR and TYPE: blu notte da studio, oro per luci e premi, verde e rosso per l'esito; Bebas Neue per insegne e cifre, Lexend per leggere
+   LAYOUT: titolo con luci, gioco a sinistra e scala a destra; sul telefono la scala diventa una striscia sopra il gioco */
+:root{color-scheme:dark;--bg:#050b1c;--blue:#10224a;--blue2:#1e3d7a;--edge:#6f9be0;--gold:#ffd34d;--ink:#fff;--muted:#b8c8e8;--ok:#2ecc71;--ko:#e74c3c;--sel:#ff9f1a}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% -10%,#2c5aa0 0,#0b1a3a 50%,var(--bg) 100%) fixed;overflow-x:clip}
+.wrap{max-width:980px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.lights{display:flex;justify-content:center;gap:9px;margin:2px 0 4px}
+.lights i{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold);animation:tw 1.6s infinite}
+.lights i:nth-child(2n){animation-delay:.8s}
+@keyframes tw{50%{opacity:.35}}
+h1{font:400 clamp(38px,7vw,64px)/1 'Bebas Neue',Impact,sans-serif;letter-spacing:2px;margin:0;text-align:center;color:var(--gold);text-shadow:0 0 18px rgba(255,211,77,.55)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 12px}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:16px;align-items:start}
+.prize{text-align:center;margin-bottom:10px}
+.prize span{display:inline-block;background:var(--gold);color:var(--bg);font:24px 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 16px;border-radius:20px}
+.screen{background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:14px 18px;min-height:120px}
+.cl{font-size:18px;padding:6px 0;animation:in .4s ease-out}
+.cl b{color:var(--gold);margin-right:6px}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.opt{position:relative;font:600 18px/1.2 Lexend,sans-serif;text-align:left;color:#fff;background:linear-gradient(#1e3d7a,#10224a);border:2px solid var(--edge);border-radius:40px;padding:13px 18px;min-height:56px;cursor:pointer}
+.opt b{color:var(--gold);margin-right:10px}
+.opt:hover:not(:disabled){border-color:var(--gold)}
+.opt.sel{background:linear-gradient(#ffb347,#e67e00);border-color:#fff;color:#1b0f00}.opt.sel b{color:#1b0f00}
+.opt.right{background:linear-gradient(#3be07f,#1e9e52);border-color:#fff;color:#002611;animation:blink .35s 4}.opt.right b{color:#002611}
+.opt.wrong{background:linear-gradient(#ff6b5a,#c0392b);border-color:#fff}
+.opt.gone{display:none}
+@keyframes blink{50%{filter:brightness(1.5)}}
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:14px}
+.life{font:20px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:8px 16px;min-height:44px;cursor:pointer}
+.life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
+.go{font:24px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:10px 26px;min-height:48px;cursor:pointer;box-shadow:0 0 16px rgba(255,211,77,.5)}
+.go.alt{background:transparent;color:var(--gold);border:2px solid var(--gold);box-shadow:none}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.msg{text-align:center;min-height:28px;margin-top:10px;font-weight:600;color:var(--muted)}
+.msg.ok{color:var(--ok)}.msg.ko{color:#ff8a7a}
+.bio{background:rgba(255,211,77,.1);border:1px dashed var(--gold);border-radius:12px;padding:10px 14px;margin-top:10px}
+.poll{display:flex;gap:10px;align-items:flex-end;justify-content:center;height:120px;margin-top:12px}
+.poll div{width:52px;text-align:center;font-size:13px}.poll i{display:block;background:var(--gold);border-radius:4px 4px 0 0;margin-bottom:4px;transition:height .8s}
+.ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:2px}
+.ladder li{display:flex;justify-content:space-between;font:20px/1.25 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 10px;border-radius:12px;color:var(--muted)}
+.ladder li.safe{color:#fff}
+.ladder li.cur{background:var(--sel);color:#1b0f00}
+.ladder li.done{color:var(--gold)}
+.end{text-align:center;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:20px 16px}
+.end h2{font:52px/1 'Bebas Neue',sans-serif;color:var(--gold);margin:6px 0;letter-spacing:2px}
+.rev{text-align:left;max-width:620px;margin:12px auto;padding-left:20px}.rev li{margin:5px 0}.rev b{color:var(--gold)}
+.rules{color:var(--muted);font-size:15px;margin-top:22px;border-top:1px solid var(--blue2);padding-top:12px}.rules b{color:#fff}
+@media (prefers-reduced-motion:reduce){.lights i,.opt.right,.cl{animation:none}}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px}.ladder li{flex:none;font-size:17px;padding:2px 9px}.ladder li span:last-child:before{content:'·';margin:0 6px 0 0;opacity:.7}.ladder li span:first-child{margin-right:6px}}
+@media(max-width:480px){.opts{grid-template-columns:1fr;gap:9px}.opt{min-height:50px;font-size:17px}.cl{font-size:17px}.lights{display:none}}
+
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,11,28,.85);color:#fff;font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,211,77,.35)}
+.mus.off{opacity:.6;box-shadow:none}
+@media(max-width:760px){.mus{top:auto;bottom:14px;right:12px;width:42px;height:42px;font-size:18px}}
+</style></head><body><div class="wrap"><button class="mus" id="mus" type="button" aria-label="Musica: attiva" title="Musica">🔊</button>
+<div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<h1>Chi vuol essere promosso?</h1>
+<p class="sub">Scienze Umane · Classe IV · Chi sono? Indovina 10 personaggi e sali in cima alla scala</p>
+<div class="stage" id="game">
+ <div>
+  <div class="prize" id="prize"></div>
+  <div class="screen" id="clues"></div>
+  <div class="opts" id="opts"></div>
+  <div class="msg" id="msg" role="status">Scegli una risposta.</div>
+  <div class="bar" id="act"></div>
+  <div class="bar"><button class="life" id="l50" type="button">50:50</button><button class="life" id="lInd" type="button">Altri indizi</button></div>
+  <div id="extra"></div>
+ </div>
+ <ol class="ladder" id="ladder"></ol>
+</div>
+<div class="end" id="end" hidden><h2 id="endT"></h2><p id="endP"></p><ol class="rev" id="rev"></ol><button class="go" id="again" type="button">Nuova partita</button></div>
+<section class="rules"><b>Come si gioca</b><ul>
+<li>Ogni domanda è un personaggio della dispensa di Scienze Umane della classe IV che si presenta con due indizi. Scegli la risposta e confermala.</li>
+<li>Ogni risposta giusta fa salire di un gradino. I gradini evidenziati (1.000 e 32.000 punti) sono soglie di sicurezza: se sbagli, riparti dall'ultima soglia raggiunta e la partita finisce.</li>
+<li>Hai due aiuti, ognuno usabile una sola volta: <b>50:50</b> toglie due risposte sbagliate, <b>Altri indizi</b> mostra due indizi in più. Puoi anche ritirarti e tenere i punti.</li>
+<li>Il tasto 🔊 in alto a destra accende o spegne la musica.</li>
+<li>Alla fine trovi la scheda di tutti i personaggi incontrati.</li></ul></section>
+</div><script>
+{
+
+const MUS=(()=>{let on=true;try{on=localStorage.getItem('arcade-musica')!=='off'}catch(e){}
+ let ctx=null,out=null,want=false,run=false,iv=null,next=0,step=0,bpm=100,fast=false;
+ const btn=document.getElementById('mus');
+ const paint=()=>{btn.textContent=on?'🔊':'🔇';btn.classList.toggle('off',!on);btn.setAttribute('aria-label','Musica: '+(on?'attiva':'spenta'))};paint();
+ function init(){if(ctx)return true;try{ctx=new (window.AudioContext||window.webkitAudioContext)();out=ctx.createGain();out.gain.value=.55;out.connect(ctx.destination);return true}catch(e){return false}}
+ function note(f,t,d,type,g,lp){const o=ctx.createOscillator(),v=ctx.createGain();o.type=type;o.frequency.setValueAtTime(f,t);
+  let last=o;if(lp){const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=lp;o.connect(fl);last=fl}
+  last.connect(v);v.connect(out);v.gain.setValueAtTime(.0001,t);v.gain.exponentialRampToValueAtTime(g,t+Math.min(.02,d/4));v.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d+.05)}
+ const CH=[[110,130.8,164.8],[116.5,138.6,174.6],[110,130.8,164.8],[103.8,123.5,155.6]];
+ function play(s,t){const sp=60/bpm/4,bar=Math.floor(s/16)%4;
+  if(s%8===0)note(55,t,.28,'sine',.5);if(s%8===2)note(52,t,.2,'sine',.32);
+  if(s%4===0)note(fast?2400:1800,t,.035,'square',fast?.05:.03,6000);
+  if(fast&&s%2===1)note(2400,t,.025,'square',.025,6000);
+  if(s%16===0)CH[bar].forEach(f=>note(f*2,t,sp*16*.95,'triangle',.035,900));
+  if(s%16===12)note(CH[bar][2]*4,t,sp*3,'sine',.03)}
+ function sched(){if(!run)return;while(next<ctx.currentTime+.15){play(step,next);next+=60/bpm/4;step=(step+1)%64}}
+ function go(){if(!on||!want||run||!init())return;if(ctx.state!=='running'){ctx.resume();if(ctx.state!=='running')return}
+  run=true;next=ctx.currentTime+.05;step=0;iv=setInterval(sched,40)}
+ function halt(){run=false;clearInterval(iv)}
+ const unlock=()=>{if(init()&&ctx.state!=='running')ctx.resume().then(go,()=>{});else go()};
+ document.addEventListener('pointerdown',unlock,true);document.addEventListener('keydown',unlock,true);
+ btn.addEventListener('click',()=>{on=!on;try{localStorage.setItem('arcade-musica',on?'on':'off')}catch(e){}paint();on?go():halt()});
+ return{
+  start(b){bpm=b||100;fast=false;want=true;go()},
+  stop(){want=false;halt()},
+  fast(f){fast=f;bpm=f?Math.max(bpm,150):bpm},
+  speed(b){bpm=b},
+  win(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[523.3,659.3,784,1046.5].forEach((f,k)=>note(f,t+k*.08,.22,'square',.05,3500));[523.3,659.3,784].forEach(f=>note(f,t+.32,.6,'triangle',.06,4000));note(130.8,t+.32,.6,'sine',.35)},
+  lose(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[392,370,349.2,311.1].forEach((f,k)=>note(f,t+k*.22,k===3?.8:.22,'sawtooth',.05,1200));note(77.8,t+.66,.8,'sine',.3)},
+  big(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;const m=[523.3,659.3,784,1046.5,784,1046.5];m.forEach((f,k)=>note(f,t+k*.11,.2,'square',.05,4000));[523.3,659.3,784,1046.5].forEach(f=>note(f,t+.7,1.1,'triangle',.06,5000));note(65.4,t+.7,1.1,'sine',.4);for(let k=0;k<8;k++)note(2600,t+.7+k*.06,.03,'square',.015,8000)},
+  roll(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;for(let k=0;k<18;k++)note(1500,t+k*.065,.04,'square',.012+k*.003,5000);note(55,t,1.2,'sine',.4)}
+ }})();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+const DATA=[{"nome": "Talcott Parsons", "bio": "Il sistema sociale si mantiene tramite quattro funzioni: Adaptation, Goal attainment, Integration, Latency", "indizi": ["Fondatore del funzionalismo sociologico americano", "Il sistema sociale si mantiene tramite quattro funzioni: Adaptation, Goal attainment, Integration, Latency", "Fondatore del funzionalismo sociologico americano; teorizzò il sistema sociale e i prerequisiti funzionali AGIL", "Il sistema sociale si mantiene tramite quattro funzioni: Adaptation, Goal attainment, Integration, Latency"], "d": 1}, {"nome": "Robert Merton", "bio": "Distinse le funzioni attese (manifeste) da quelle non previste (latenti); ampliò la teoria dell'anomia di Durkheim", "indizi": ["Allievo critico di Parsons", "Distinse le funzioni attese (manifeste) da quelle non previste (latenti)", "Allievo critico di Parsons; teorizzò le funzioni manifeste e latenti e l'anomia come devianza", "Distinse le funzioni attese (manifeste) da quelle non previste (latenti); ampliò la teoria dell'anomia di Durkheim"], "d": 1}, {"nome": "Ralf Dahrendorf", "bio": "Critico del funzionalismo: il conflitto non è disfunzionale ma motore del cambiamento sociale", "indizi": ["Teorizzò il conflitto di classe come conflitto di autorità nelle organizzazioni", "Critico del funzionalismo: il conflitto non è disfunzionale ma motore del cambiamento sociale", "Teorizzò il conflitto di classe come conflitto di autorità nelle organizzazioni", "Critico del funzionalismo: il conflitto non è disfunzionale ma motore del cambiamento sociale"], "d": 1}, {"nome": "Charles Wright Mills", "bio": "Criticò la «grande teoria» di Parsons e l'empirismo astratto; propugnò una sociologia critica e impegnata", "indizi": ["Autore de «L'immaginazione sociologica» e «L'élite del potere»", "Criticò la «grande teoria» di Parsons e l'empirismo astratto", "Autore de «L'immaginazione sociologica» e «L'élite del potere»", "Criticò la «grande teoria» di Parsons e l'empirismo astratto; propugnò una sociologia critica e impegnata"], "d": 1}, {"nome": "Erving Goffman", "bio": "La vita quotidiana come teatro: le persone «recitano» ruoli su un «palcoscenico» per gestire le impressioni", "indizi": ["Sviluppò la teoria drammaturgica dell'interazione sociale e il concetto di stigma", "La vita quotidiana come teatro: le persone «recitano» ruoli su un «palcoscenico» per gestire le impressioni", "Sviluppò la teoria drammaturgica dell'interazione sociale e il concetto di stigma", "La vita quotidiana come teatro: le persone «recitano» ruoli su un «palcoscenico» per gestire le impressioni"], "d": 1}, {"nome": "Pierre Bourdieu", "bio": "La violenza simbolica: il dominio si riproduce attraverso categorie di pensiero condivise da dominanti e dominati", "indizi": ["Teorizzò habitus, campo e capitale culturale come strumenti di analisi della riproduzione sociale", "La violenza simbolica: il dominio si riproduce attraverso categorie di pensiero condivise da dominanti e dominati", "Teorizzò habitus, campo e capitale culturale come strumenti di analisi della riproduzione sociale", "La violenza simbolica: il dominio si riproduce attraverso categorie di pensiero condivise da dominanti e dominati"], "d": 1}, {"nome": "Jürgen Habermas", "bio": "L'agire comunicativo mira all'intesa; la colonizzazione del mondo vitale da parte del sistema è la patologia moderna", "indizi": ["Teorizzò l'etica del discorso e la distinzione tra sistema (mercato/Stato) e mondo vitale", "L'agire comunicativo mira all'intesa", "Teorizzò l'etica del discorso e la distinzione tra sistema (mercato/Stato) e mondo vitale", "L'agire comunicativo mira all'intesa; la colonizzazione del mondo vitale da parte del sistema è la patologia moderna"], "d": 2}, {"nome": "Anthony Giddens", "bio": "La «doppia ermeneutica»: le scienze sociali influenzano la società che studiano; la modernità riflessiva si mette in discussione", "indizi": ["Teorizzò la strutturazione sociale e la riflessività della modernità", "La «doppia ermeneutica»: le scienze sociali influenzano la società che studiano", "Teorizzò la strutturazione sociale e la riflessività della modernità", "La «doppia ermeneutica»: le scienze sociali influenzano la società che studiano; la modernità riflessiva si mette in discussione"], "d": 2}, {"nome": "Zygmunt Bauman", "bio": "La solidità delle istituzioni si scioglie; le identità diventano fluide e i legami sociali si accorciano", "indizi": ["Teorizzò la «modernità liquida» come condizione di precarietà e instabilità identitaria", "La solidità delle istituzioni si scioglie", "Teorizzò la «modernità liquida» come condizione di precarietà e instabilità identitaria", "La solidità delle istituzioni si scioglie; le identità diventano fluide e i legami sociali si accorciano"], "d": 2}, {"nome": "Ulrich Beck", "bio": "I rischi prodotti dalla modernizzazione (ecologici, tecnologici) non sono distribuibili secondo la logica di classe", "indizi": ["Teorizzò la «società del rischio» e la riflessività come carattere della modernità avanzata", "I rischi prodotti dalla modernizzazione (ecologici, tecnologici) non sono distribuibili secondo la logica di classe", "Teorizzò la «società del rischio» e la riflessività come carattere della modernità avanzata", "I rischi prodotti dalla modernizzazione (ecologici, tecnologici) non sono distribuibili secondo la logica di classe"], "d": 2}, {"nome": "Norbert Elias", "bio": "Lo Stato accentra la violenza fisica; i cortigiani sviluppano raffinati codici comportamentali di autocontrollo", "indizi": ["Studiò il «processo di civilizzazione» come trasformazione storica dei costumi e dell'autocontrollo", "Lo Stato accentra la violenza fisica", "Studiò il «processo di civilizzazione» come trasformazione storica dei costumi e dell'autocontrollo", "Lo Stato accentra la violenza fisica; i cortigiani sviluppano raffinati codici comportamentali di autocontrollo"], "d": 2}, {"nome": "Alain Touraine", "bio": "Il soggetto collettivo nei movimenti post-industriali (femminismo, ambientalismo, diritti civili) è il motore del cambiamento", "indizi": ["Teorizzò i nuovi movimenti sociali come soggetti del cambiamento post-industriale", "Il soggetto collettivo nei movimenti post-industriali (femminismo, ambientalismo, diritti civili) è il motore del cambiamento", "Teorizzò i nuovi movimenti sociali come soggetti del cambiamento post-industriale", "Il soggetto collettivo nei movimenti post-industriali (femminismo, ambientalismo, diritti civili) è il motore del cambiamento"], "d": 2}, {"nome": "Manuel Castells", "bio": "«L'Informazionalismo»: la rete è la struttura fondamentale dell'economia e della comunicazione contemporanea", "indizi": ["Analizzò la società in rete e i movimenti sociali nell'era digitale", "«L'Informazionalismo»: la rete è la struttura fondamentale dell'economia e della comunicazione contemporanea", "Analizzò la società in rete e i movimenti sociali nell'era digitale", "«L'Informazionalismo»: la rete è la struttura fondamentale dell'economia e della comunicazione contemporanea"], "d": 3}, {"nome": "Clifford Geertz", "bio": "Continuazione della ricerca etnografica iniziata con il fieldwork a Bali e in Marocco", "indizi": ["Fondatore dell'antropologia interpretativa", "Continuazione della ricerca etnografica iniziata con il fieldwork a Bali e in Marocco", "Fondatore dell'antropologia interpretativa; la cultura come testo e «descrizione densa»", "Continuazione della ricerca etnografica iniziata con il fieldwork a Bali e in Marocco"], "d": 3}, {"nome": "Mary Douglas", "bio": "«Purezza e pericolo»: le categorie di puro/impuro organizzano la visione del mondo in ogni cultura", "indizi": ["Studiò le strutture simboliche del puro e dell'impuro nelle diverse culture", "«Purezza e pericolo»: le categorie di puro/impuro organizzano la visione del mondo in ogni cultura", "Studiò le strutture simboliche del puro e dell'impuro nelle diverse culture", "«Purezza e pericolo»: le categorie di puro/impuro organizzano la visione del mondo in ogni cultura"], "d": 3}, {"nome": "Marshall Sahlins", "bio": "I cacciatori-raccoglitori lavorano poco e hanno molto tempo libero: il modello occidentale non è universale", "indizi": ["Critico dell'utilitarismo", "I cacciatori-raccoglitori lavorano poco e hanno molto tempo libero: il modello occidentale non è universale", "Critico dell'utilitarismo; teorizzò le «stone age economics» come economie dell'abbondanza", "I cacciatori-raccoglitori lavorano poco e hanno molto tempo libero: il modello occidentale non è universale"], "d": 3}, {"nome": "Jack Goody", "bio": "La scrittura crea nuove forme di pensiero logico e permette la costruzione di burocrazia e diritto codificato", "indizi": ["Studiò il ruolo della scrittura nello sviluppo della cognizione e delle istituzioni politiche", "La scrittura crea nuove forme di pensiero logico e permette la costruzione di burocrazia e diritto codificato", "Studiò il ruolo della scrittura nello sviluppo della cognizione e delle istituzioni politiche", "La scrittura crea nuove forme di pensiero logico e permette la costruzione di burocrazia e diritto codificato"], "d": 3}, {"nome": "Arjun Appadurai", "bio": "I cinque scapes (etnoscape, mediascape, technoscape, financescape, ideoscape) descrivono la globalizzazione culturale", "indizi": ["Analizzò i flussi culturali globali con i concetti di «scapes» (paesaggi globali)", "I cinque scapes (etnoscape, mediascape, technoscape, financescape, ideoscape) descrivono la globalizzazione culturale", "Analizzò i flussi culturali globali con i concetti di «scapes» (paesaggi globali)", "I cinque scapes (etnoscape, mediascape, technoscape, financescape, ideoscape) descrivono la globalizzazione culturale"], "d": 3}];
+const LADDER=[100,200,300,500,1000,2000,4000,8000,16000,32000],SAFE=[4,9];
+let deck,step,shown,opts,sel,locked,used,log;
+let ac=null;function tone(f,d,t='sine',g=.08){try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();const o=ac.createOscillator(),v=ac.createGain();o.type=t;o.frequency.value=f;o.connect(v);v.connect(ac.destination);const n=ac.currentTime;v.gain.setValueAtTime(g,n);v.gain.exponentialRampToValueAtTime(.001,n+d);o.start(n);o.stop(n+d)}catch(e){}}
+function pick(){const by=d=>shuffle(DATA.filter(p=>p.d===d));const a=by(1),b=by(2),c=by(3);
+ const plan=[1,1,1,2,2,2,2,3,3,3],src={1:a,2:b,3:c},res=[];
+ for(const d of plan){let p=src[d].shift()||b.shift()||a.shift()||c.shift();res.push(p)}return res}
+function start(){deck=pick();step=0;used={};log=[];$('end').hidden=true;$('game').hidden=false;['l50','lInd'].forEach(i=>$(i).disabled=false);turn()}
+function ladder(){$('ladder').innerHTML=LADDER.map((v,k)=>`<li class="${k===step?'cur':''} ${k<step?'done':''} ${SAFE.includes(k)?'safe':''}"><span>${k+1}</span><span>${fmt(v)}</span></li>`).join('');
+ const c=$('ladder').querySelector('.cur');if(c&&matchMedia('(max-width:760px)').matches)c.scrollIntoView({inline:'center',block:'nearest'})}
+function turn(){const p=deck[step];shown=2;sel=null;locked=false;
+ opts=shuffle([p.nome,...shuffle(DATA.filter(x=>x.nome!==p.nome&&Math.abs(x.d-p.d)<=1)).slice(0,3).map(x=>x.nome)]);
+ $('prize').innerHTML=`<span>Domanda ${step+1} · ${fmt(LADDER[step])} punti</span>`;
+ $('opts').innerHTML=opts.map((o,k)=>`<button class="opt" type="button" data-o="${esc(o)}"><b>${'ABCD'[k]}</b>${esc(o)}</button>`).join('');
+ $('msg').textContent='Scegli una risposta.';$('msg').className='msg';$('extra').innerHTML='';
+ $('act').innerHTML=step>0?`<button class="go alt" id="quit" type="button">Mi ritiro con ${fmt(LADDER[step-1])} punti</button>`:'';
+ clues();ladder();MUS.start(88+step*6)}
+function clues(){const p=deck[step];$('clues').innerHTML=p.indizi.slice(0,shown).map((c,k)=>`<div class="cl"><b>${k+1}.</b>${esc(c)}</div>`).join('')}
+$('opts').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b||locked||b.classList.contains('gone'))return;
+ document.querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));b.classList.add('sel');sel=b.dataset.o;tone(440,.15,'triangle');
+ $('msg').textContent='È la tua risposta definitiva?';$('msg').className='msg';
+ $('act').innerHTML=`<button class="go" id="conf" type="button">Sì, confermo</button><button class="go alt" id="undo" type="button">Ci ripenso</button>`;$('act').scrollIntoView({block:'nearest',behavior:'smooth'})});
+$('act').addEventListener('click',e=>{const id=e.target.id;
+ if(id==='undo'){sel=null;document.querySelectorAll('.opt').forEach(x=>x.classList.remove('sel'));turnBar();$('msg').textContent='Scegli una risposta.'}
+ if(id==='conf')confirm();
+ if(id==='quit'){finish(LADDER[step-1],'Ti sei ritirato!')}
+ if(id==='nx'){step++;if(step>=LADDER.length)finish(LADDER[9],'Hai vinto!');else turn()}
+ if(id==='fin'){const safe=SAFE.filter(s=>s<step).pop();finish(safe===undefined?0:LADDER[safe],'Risposta sbagliata')}});
+function turnBar(){$('act').innerHTML=step>0?`<button class="go alt" id="quit" type="button">Mi ritiro con ${fmt(LADDER[step-1])} punti</button>`:''}
+function confirm(){if(locked||!sel)return;locked=true;$('act').innerHTML='';$('msg').textContent='Vediamo…';MUS.stop();MUS.roll();
+ setTimeout(()=>{const p=deck[step],ok=sel===p.nome;
+  document.querySelectorAll('.opt').forEach(b=>{if(b.dataset.o===p.nome)b.classList.add('right');else if(b.dataset.o===sel)b.classList.add('wrong')});
+  log.push({nome:p.nome,bio:p.bio,ok});
+  $('extra').innerHTML=`<div class="bio"><b>${esc(p.nome)}</b>: ${esc(p.bio)}</div>`;
+  if(ok){step===9?MUS.big():MUS.win();$('msg').textContent=step===9?'Incredibile: tutta la scala!':`Esatto! Hai ${fmt(LADDER[step])} punti${SAFE.includes(step)?' e sei al sicuro fino a qui':''}.`;$('msg').className='msg ok';
+   $('act').innerHTML=`<button class="go" id="nx" type="button">${step===9?'Vedi il risultato':'Prossima domanda'}</button>`}
+  else{MUS.lose();$('msg').textContent=`No, era ${p.nome}.`;$('msg').className='msg ko';$('act').innerHTML=`<button class="go" id="fin" type="button">Vedi il risultato</button>`}
+  $('act').querySelector('button').focus({preventScroll:true});$('act').scrollIntoView({block:'nearest',behavior:'smooth'})},1300)}
+$('l50').addEventListener('click',()=>{if(locked)return;const p=deck[step];$('l50').disabled=true;
+ const wrong=shuffle([...document.querySelectorAll('.opt')].filter(b=>b.dataset.o!==p.nome&&b.dataset.o!==sel)).slice(0,2);wrong.forEach(b=>b.classList.add('gone'))});
+$('lInd').addEventListener('click',()=>{if(locked)return;$('lInd').disabled=true;shown=4;clues()});
+function finish(pts,title){MUS.stop();$('game').hidden=true;$('end').hidden=false;
+ let best=0;try{best=+localStorage.getItem('suchisono-tv-IV')||0;if(pts>best){localStorage.setItem('suchisono-tv-IV',pts)}}catch(e){}
+ $('endT').textContent=fmt(pts)+' punti';
+ $('endP').textContent=title+'. '+(pts>best?'Nuovo record personale!':`Il tuo record è ${fmt(Math.max(best,pts))} punti.`)+' Ecco i personaggi che hai incontrato:';
+ $('rev').innerHTML=log.map(l=>`<li><b>${esc(l.nome)}</b>${l.ok?'':' (da ripassare)'}: ${esc(l.bio)}</li>`).join('');
+ window.scrollTo({top:0,behavior:'smooth'})}
+$('again').addEventListener('click',start);
+start();
+}
+</script></body></html>

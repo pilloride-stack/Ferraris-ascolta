@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chi ha detto? · Scienze Umane Classe IV</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: studio TV anni 80, gioco a premi — chi ha pronunciato questa frase?
+   IDEA: otto puntate a cronometro: una citazione o tesi del filosofo, quattro nomi tra cui scegliere
+   PICTURE: schermo dorato con la citazione in corsivo, barra del tempo, scala delle puntate
+   COLOUR: blu notte da studio, oro, verde corretto, rosso sbagliato; Bebas Neue + Lexend */
+:root{color-scheme:dark;--bg:#050b1c;--blue:#10224a;--blue2:#1e3d7a;--edge:#6f9be0;--gold:#ffd34d;--ink:#fff;--muted:#b8c8e8;--ok:#2ecc71;--ko:#e74c3c;--sel:#ff9f1a}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% -10%,#2c5aa0 0,#0b1a3a 50%,var(--bg) 100%) fixed;overflow-x:clip}
+.wrap{max-width:1000px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.lights{display:flex;justify-content:center;gap:9px;margin:2px 0 4px}
+.lights i{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold);animation:tw 1.6s infinite}
+.lights i:nth-child(2n){animation-delay:.8s}
+@keyframes tw{50%{opacity:.35}}
+h1{font:400 clamp(38px,7vw,64px)/1 'Bebas Neue',Impact,sans-serif;letter-spacing:2px;margin:0;text-align:center;color:var(--gold);text-shadow:0 0 18px rgba(255,211,77,.55)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 12px}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:16px;align-items:start}
+.prize{text-align:center;margin-bottom:6px}
+.prize span{display:inline-block;background:var(--gold);color:var(--bg);font:24px/1.2 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 16px;border-radius:20px}
+.era{text-align:center;font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;margin-bottom:6px}
+.hud{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:8px;color:var(--muted);font-size:14px}
+.hud b{color:var(--gold);font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;margin-left:6px}
+.lamp{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold);margin-left:5px;vertical-align:-1px}
+.lamp.off{background:#2a3555;box-shadow:none}
+.timer{height:10px;background:var(--blue);border-radius:6px;margin:0 6% 12px;overflow:hidden}
+.timer i{display:block;height:100%;width:100%;background:var(--gold);border-radius:6px}
+.timer i.low{background:var(--ko)}
+/* citazione: corsivo e virgolette, più grande */
+.screen{position:relative;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:26px 24px;min-height:140px;display:flex;align-items:center;justify-content:center;text-align:center;font:italic 600 clamp(16px,2.4vw,22px)/1.5 Lexend,sans-serif}
+.screen.ok{border-color:var(--ok);box-shadow:0 0 22px rgba(46,204,113,.45)}.screen.ko{border-color:var(--ko);box-shadow:0 0 22px rgba(231,76,60,.45)}
+.n{position:absolute;top:-12px;left:18px;background:var(--bg);color:var(--gold);font:18px/1 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border:2px solid var(--gold);border-radius:12px}
+.quote-mark{color:var(--gold);font-style:normal;font-size:1.3em;line-height:1}
+/* griglia 2×2 per 4 nomi */
+.pos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px auto 0;max-width:560px}
+.po{display:flex;align-items:center;justify-content:center;gap:6px;font:700 clamp(14px,2vw,17px)/1.2 Lexend,sans-serif;color:#fff;background:linear-gradient(#1e3d7a,#10224a);border:2px solid var(--edge);border-radius:30px;padding:12px 10px;min-height:56px;cursor:pointer;text-align:center}
+.po b{flex:none;color:var(--gold);font:18px 'Bebas Neue',sans-serif;min-width:20px}
+.po:hover:not(:disabled){border-color:var(--gold)}
+.po.right{background:linear-gradient(#3be07f,#1e9e52);color:#002611;border-color:#fff;opacity:1}.po.right b{color:#002611}
+.po.wrong{background:linear-gradient(#ff6b5a,#c0392b);border-color:#fff;opacity:1}
+.po:disabled{cursor:default}.po.gone{opacity:.2}
+.corr{background:rgba(255,211,77,.1);border:1px dashed var(--gold);border-radius:12px;padding:10px 14px;margin-top:12px}
+.corr b{color:var(--gold)}
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:14px}
+.life{font:20px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:8px 16px;min-height:44px;cursor:pointer}
+.life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
+.go{font:24px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:10px 26px;min-height:48px;cursor:pointer;box-shadow:0 0 16px rgba(255,211,77,.5)}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.msg{text-align:center;min-height:28px;margin-top:12px;font-weight:600;color:var(--muted)}
+.msg.ok{color:var(--ok)}.msg.ko{color:#ff8a7a}
+.ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:2px}
+.ladder li{display:flex;justify-content:space-between;gap:8px;white-space:nowrap;font:18px/1.25 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:12px;color:var(--muted)}
+.ladder li.cur{background:var(--sel);color:#1b0f00}
+.ladder li.done{color:var(--gold)}
+.ladder li.perf span:last-child:after{content:" ★"}
+.end{text-align:center;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:20px 16px}
+.end h2{font:52px/1 'Bebas Neue',sans-serif;color:var(--gold);margin:6px 0;letter-spacing:2px}
+.rev{text-align:left;max-width:680px;margin:12px auto;padding-left:20px}.rev li{margin:7px 0}.rev b{color:var(--gold)}.rev s{color:#ff8a7a}
+.rules{color:var(--muted);font-size:15px;margin-top:22px;border-top:1px solid var(--blue2);padding-top:12px}.rules b{color:#fff}
+@media(prefers-reduced-motion:reduce){.lights i{animation:none}}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px}.ladder li{flex:none;font-size:17px;padding:2px 10px}.ladder li span:last-child:before{content:'·';margin:0 6px 0 0;opacity:.7}}
+@media(max-width:560px){.pos{gap:8px}.po{padding:10px 6px;min-height:52px;font-size:13px}.lights{display:none}.prize span{font-size:18px;padding:3px 12px}.era{font-size:19px}.hud{gap:10px}.screen{padding:20px 14px;min-height:120px;font-size:15px}.life{font-size:17px;padding:6px 12px}.bar{gap:8px}}
+
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,11,28,.85);color:#fff;font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,211,77,.35)}
+.mus.off{opacity:.6;box-shadow:none}
+@media(max-width:760px){.mus{top:auto;bottom:14px;right:12px;width:42px;height:42px;font-size:18px}}
+</style></head><body><div class="wrap"><button class="mus" id="mus" type="button" aria-label="Musica: attiva" title="Musica">🔊</button>
+<div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<h1>Chi ha detto?</h1>
+<p class="sub">Scienze Umane · Classe IV</p>
+<div class="stage" id="game">
+ <div>
+  <div class="prize" id="prize"></div>
+  <div class="era" id="era"></div>
+  <div class="hud"><span>Punti<b id="hP">0</b></span><span>Serie<b id="hS">0</b></span><span>Errori rimasti<span id="lamps"></span></span><span>Record<b id="hR">0</b></span></div>
+  <div class="timer"><i id="tb"></i></div>
+  <div class="screen" id="scr">
+   <span class="n" id="qn"></span>
+   <span id="txt"></span>
+  </div>
+  <div class="pos" id="pos"></div>
+  <div class="msg" id="msg" role="status"></div>
+  <div id="corr"></div>
+  <div class="bar" id="act"></div>
+  <div class="bar"><button class="life" id="lSkip" type="button">50:50</button><button class="life" id="lTime" type="button">Più tempo</button><button class="life" id="lSave" type="button">Scudo</button></div>
+ </div>
+ <ol class="ladder" id="ladder"></ol>
+</div>
+<div class="end" id="end" hidden><h2 id="endT"></h2><p id="endP"></p><ol class="rev" id="rev"></ol><button class="go" id="again" type="button">Nuova partita</button></div>
+<section class="rules"><b>Come si gioca</b><ul>
+<li>Leggi la citazione o tesi sullo schermo e scegli il filosofo che l'ha sostenuta tra le quattro opzioni. Hai 20 secondi per rispondere.</li>
+<li>Più vai avanti, più vale ogni risposta giusta. Rispondere in fretta e fare una serie di risposte giuste dà punti in più. Se chiudi una puntata senza errori prendi un bonus ★.</li>
+<li>Puoi sbagliare 3 volte in tutta la partita: al quarto errore il gioco finisce. Anche il tempo scaduto conta come errore.</li>
+<li>Hai tre aiuti, ognuno usabile una sola volta. <b>50:50</b> elimina 2 nomi sbagliati. <b>Più tempo</b> riporta il cronometro a 20 secondi. <b>Scudo</b> ti protegge dal prossimo errore.</li>
+<li>Il tasto 🔊 in alto a destra accende o spegne la musica.</li>
+<li>Dopo ogni risposta leggi chi ha pronunciato davvero la frase. Alla fine trovi le citazioni che hai sbagliato, da ripassare.</li></ul></section>
+</div><script>
+{
+
+const MUS=(()=>{let on=true;try{on=localStorage.getItem('arcade-musica')!=='off'}catch(e){}
+ let ctx=null,out=null,want=false,run=false,iv=null,next=0,step=0,bpm=100,fast=false;
+ const btn=document.getElementById('mus');
+ const paint=()=>{btn.textContent=on?'🔊':'🔇';btn.classList.toggle('off',!on);btn.setAttribute('aria-label','Musica: '+(on?'attiva':'spenta'))};paint();
+ function init(){if(ctx)return true;try{ctx=new (window.AudioContext||window.webkitAudioContext)();out=ctx.createGain();out.gain.value=.55;out.connect(ctx.destination);return true}catch(e){return false}}
+ function note(f,t,d,type,g,lp){const o=ctx.createOscillator(),v=ctx.createGain();o.type=type;o.frequency.setValueAtTime(f,t);
+  let last=o;if(lp){const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=lp;o.connect(fl);last=fl}
+  last.connect(v);v.connect(out);v.gain.setValueAtTime(.0001,t);v.gain.exponentialRampToValueAtTime(g,t+Math.min(.02,d/4));v.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d+.05)}
+ const CH=[[110,130.8,164.8],[116.5,138.6,174.6],[110,130.8,164.8],[103.8,123.5,155.6]];
+ function play(s,t){const sp=60/bpm/4,bar=Math.floor(s/16)%4;
+  if(s%8===0)note(55,t,.28,'sine',.5);if(s%8===2)note(52,t,.2,'sine',.32);
+  if(s%4===0)note(fast?2400:1800,t,.035,'square',fast?.05:.03,6000);
+  if(fast&&s%2===1)note(2400,t,.025,'square',.025,6000);
+  if(s%16===0)CH[bar].forEach(f=>note(f*2,t,sp*16*.95,'triangle',.035,900));
+  if(s%16===12)note(CH[bar][2]*4,t,sp*3,'sine',.03)}
+ function sched(){if(!run)return;while(next<ctx.currentTime+.15){play(step,next);next+=60/bpm/4;step=(step+1)%64}}
+ function go(){if(!on||!want||run||!init())return;if(ctx.state!=='running'){ctx.resume();if(ctx.state!=='running')return}
+  run=true;next=ctx.currentTime+.05;step=0;iv=setInterval(sched,40)}
+ function halt(){run=false;clearInterval(iv)}
+ const unlock=()=>{if(init()&&ctx.state!=='running')ctx.resume().then(go,()=>{});else go()};
+ document.addEventListener('pointerdown',unlock,true);document.addEventListener('keydown',unlock,true);
+ btn.addEventListener('click',()=>{on=!on;try{localStorage.setItem('arcade-musica',on?'on':'off')}catch(e){}paint();on?go():halt()});
+ return{
+  start(b){bpm=b||100;fast=false;want=true;go()},
+  stop(){want=false;halt()},
+  fast(f){fast=f;bpm=f?Math.max(bpm,150):bpm},
+  speed(b){bpm=b},
+  win(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[523.3,659.3,784,1046.5].forEach((f,k)=>note(f,t+k*.08,.22,'square',.05,3500));[523.3,659.3,784].forEach(f=>note(f,t+.32,.6,'triangle',.06,4000));note(130.8,t+.32,.6,'sine',.35)},
+  lose(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[392,370,349.2,311.1].forEach((f,k)=>note(f,t+k*.22,k===3?.8:.22,'sawtooth',.05,1200));note(77.8,t+.66,.8,'sine',.3)},
+  big(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;const m=[523.3,659.3,784,1046.5,784,1046.5];m.forEach((f,k)=>note(f,t+k*.11,.2,'square',.05,4000));[523.3,659.3,784,1046.5].forEach(f=>note(f,t+.7,1.1,'triangle',.06,5000));note(65.4,t+.7,1.1,'sine',.4);for(let k=0;k<8;k++)note(2600,t+.7+k*.06,.03,'square',.015,8000)},
+  roll(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;for(let k=0;k<18;k++)note(1500,t+k*.065,.04,'square',.012+k*.003,5000);note(55,t,1.2,'sine',.4)}
+ }})();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+const DATA=[{"r": 0, "t": "Sociologia del Novecento I", "q": "«L'immaginazione sociologica è la qualità mentale che permette di capire come la storia e la biografia si intreccino»", "a": "Charles Wright Mills", "d": ["Talcott Parsons", "Robert Merton", "Ralf Dahrendorf"], "c": "L'autore di questa affermazione è Charles Wright Mills."}, {"r": 0, "t": "Sociologia del Novecento I", "q": "«Funzioni manifeste sono le conseguenze intenzionali e riconosciute; funzioni latenti quelle non intenzionali»", "a": "Robert Merton", "d": ["Talcott Parsons", "Max Weber", "Émile Durkheim"], "c": "L'autore di questa affermazione è Robert Merton."}, {"r": 0, "t": "Sociologia del Novecento I", "q": "«Il conflitto di classe è conflitto tra chi detiene l'autorità e chi la subisce»", "a": "Ralf Dahrendorf", "d": ["Karl Marx", "Charles Wright Mills", "Talcott Parsons"], "c": "L'autore di questa affermazione è Ralf Dahrendorf."}, {"r": 0, "t": "Sociologia del Novecento I", "q": "«La vita quotidiana è una rappresentazione teatrale in cui gestiamo continuamente le impressioni altrui»", "a": "Erving Goffman", "d": ["Harold Garfinkel", "Anthony Giddens", "Pierre Bourdieu"], "c": "L'autore di questa affermazione è Erving Goffman."}, {"r": 0, "t": "Sociologia del Novecento I", "q": "«Lo stigma è un attributo che riduce l'individuo a qualcosa di screditato»", "a": "Erving Goffman", "d": ["Howard Becker", "Robert Merton", "Talcott Parsons"], "c": "L'autore di questa affermazione è Erving Goffman."}, {"r": 1, "t": "Sociologia del Novecento II", "q": "«L'habitus è la storia fatta corpo, diventata seconda natura»", "a": "Pierre Bourdieu", "d": ["Anthony Giddens", "Jürgen Habermas", "Erving Goffman"], "c": "L'autore di questa affermazione è Pierre Bourdieu."}, {"r": 1, "t": "Sociologia del Novecento II", "q": "«La violenza simbolica è una violenza esercitata con la complicità di chi la subisce»", "a": "Pierre Bourdieu", "d": ["Michel Foucault", "Jürgen Habermas", "Zygmunt Bauman"], "c": "L'autore di questa affermazione è Pierre Bourdieu."}, {"r": 1, "t": "Sociologia del Novecento II", "q": "«Il sistema colonizza il mondo vitale imponendo la logica strumentale alla comunicazione»", "a": "Jürgen Habermas", "d": ["Anthony Giddens", "Ulrich Beck", "Zygmunt Bauman"], "c": "L'autore di questa affermazione è Jürgen Habermas."}, {"r": 1, "t": "Sociologia del Novecento II", "q": "«La modernità riflessiva è quella che mette continuamente in questione se stessa»", "a": "Anthony Giddens", "d": ["Ulrich Beck", "Zygmunt Bauman", "Alain Touraine"], "c": "L'autore di questa affermazione è Anthony Giddens."}, {"r": 1, "t": "Sociologia del Novecento II", "q": "«Nella società del rischio i rischi non si distribuiscono secondo la logica di classe»", "a": "Ulrich Beck", "d": ["Anthony Giddens", "Zygmunt Bauman", "Manuel Castells"], "c": "L'autore di questa affermazione è Ulrich Beck."}, {"r": 2, "t": "Modernità liquida e rete", "q": "«Nella modernità liquida tutto ciò che era solido si scioglie nell'aria»", "a": "Zygmunt Bauman", "d": ["Anthony Giddens", "Ulrich Beck", "Jürgen Habermas"], "c": "L'autore di questa affermazione è Zygmunt Bauman."}, {"r": 2, "t": "Modernità liquida e rete", "q": "«Siamo entrati nella società dell'informazionalismo dove la rete è la struttura fondamentale»", "a": "Manuel Castells", "d": ["Anthony Giddens", "Jeremy Rifkin", "Zygmunt Bauman"], "c": "L'autore di questa affermazione è Manuel Castells."}, {"r": 2, "t": "Modernità liquida e rete", "q": "«I nuovi movimenti sociali lottano per il riconoscimento dell'identità, non solo per la redistribuzione»", "a": "Alain Touraine", "d": ["Jürgen Habermas", "Charles Wright Mills", "Pierre Bourdieu"], "c": "L'autore di questa affermazione è Alain Touraine."}, {"r": 2, "t": "Modernità liquida e rete", "q": "«Il precariato è la nuova classe pericolosa della modernità globalizzata»", "a": "Guy Standing", "d": ["Zygmunt Bauman", "Manuel Castells", "Ulrich Beck"], "c": "L'autore di questa affermazione è Guy Standing."}, {"r": 2, "t": "Modernità liquida e rete", "q": "«La globalizzazione produce flussi disomogenei, non un'omogenizzazione culturale»", "a": "Arjun Appadurai", "d": ["Manuel Castells", "Anthony Giddens", "Clifford Geertz"], "c": "L'autore di questa affermazione è Arjun Appadurai."}, {"r": 3, "t": "Parsons e il funzionalismo", "q": "«Il sistema sociale si mantiene grazie a quattro funzioni: AGIL»", "a": "Talcott Parsons", "d": ["Robert Merton", "Émile Durkheim", "Herbert Spencer"], "c": "L'autore di questa affermazione è Talcott Parsons."}, {"r": 3, "t": "Parsons e il funzionalismo", "q": "«La devianza emerge quando le mete culturali sono alte ma i mezzi per raggiungerle scarsi»", "a": "Robert Merton", "d": ["Émile Durkheim", "Talcott Parsons", "Ralf Dahrendorf"], "c": "L'autore di questa affermazione è Robert Merton."}, {"r": 3, "t": "Parsons e il funzionalismo", "q": "«La famiglia moderna si è specializzata nelle funzioni emotive e di socializzazione primaria»", "a": "Talcott Parsons", "d": ["Robert Merton", "Émile Durkheim", "Erving Goffman"], "c": "L'autore di questa affermazione è Talcott Parsons."}, {"r": 3, "t": "Parsons e il funzionalismo", "q": "«Le istituzioni hanno funzioni latenti che nessuno intende ma che svolgono comunque»", "a": "Robert Merton", "d": ["Talcott Parsons", "Max Weber", "Émile Durkheim"], "c": "L'autore di questa affermazione è Robert Merton."}, {"r": 3, "t": "Parsons e il funzionalismo", "q": "«Il conflitto non è una disfunzione: è il motore del cambiamento sociale»", "a": "Ralf Dahrendorf", "d": ["Karl Marx", "Charles Wright Mills", "Talcott Parsons"], "c": "L'autore di questa affermazione è Ralf Dahrendorf."}, {"r": 4, "t": "Bourdieu e il campo sociale", "q": "«Il gusto è una pratica di classe: ciò che si considera bello o volgare non è casuale»", "a": "Pierre Bourdieu", "d": ["Erving Goffman", "Anthony Giddens", "Jürgen Habermas"], "c": "L'autore di questa affermazione è Pierre Bourdieu."}, {"r": 4, "t": "Bourdieu e il campo sociale", "q": "«Il capitale culturale si può trasmettere di generazione in generazione attraverso la famiglia e la scuola»", "a": "Pierre Bourdieu", "d": ["Robert Merton", "Anthony Giddens", "Talcott Parsons"], "c": "L'autore di questa affermazione è Pierre Bourdieu."}, {"r": 4, "t": "Bourdieu e il campo sociale", "q": "«Ogni campo ha il suo nomos: le sue leggi proprie e la sua posta in gioco specifica»", "a": "Pierre Bourdieu", "d": ["Michel Foucault", "Jürgen Habermas", "Erving Goffman"], "c": "L'autore di questa affermazione è Pierre Bourdieu."}, {"r": 4, "t": "Bourdieu e il campo sociale", "q": "«L'habitus è la mediazione tra struttura sociale e azione individuale»", "a": "Pierre Bourdieu", "d": ["Anthony Giddens", "Erving Goffman", "Harold Garfinkel"], "c": "L'autore di questa affermazione è Pierre Bourdieu."}, {"r": 4, "t": "Bourdieu e il campo sociale", "q": "«La scuola insegna a far passare per merito ciò che è in realtà privilegio ereditato»", "a": "Pierre Bourdieu", "d": ["Samuel Bowles", "Paulo Freire", "Charles Wright Mills"], "c": "L'autore di questa affermazione è Pierre Bourdieu."}, {"r": 5, "t": "Antropologia del Novecento", "q": "«Sporco è materia fuori posto: le categorie del puro e dell'impuro organizzano il mondo»", "a": "Mary Douglas", "d": ["Claude Lévi-Strauss", "Clifford Geertz", "Victor Turner"], "c": "L'autore di questa affermazione è Mary Douglas."}, {"r": 5, "t": "Antropologia del Novecento", "q": "«I cacciatori-raccoglitori sono la prima società dell'abbondanza: lavorano poco e vivono bene»", "a": "Marshall Sahlins", "d": ["Jack Goody", "Mary Douglas", "Arjun Appadurai"], "c": "L'autore di questa affermazione è Marshall Sahlins."}, {"r": 5, "t": "Antropologia del Novecento", "q": "«La scrittura permette di pensare in modo nuovo e crea nuove istituzioni politiche»", "a": "Jack Goody", "d": ["Marshall Sahlins", "Claude Lévi-Strauss", "Mary Douglas"], "c": "L'autore di questa affermazione è Jack Goody."}, {"r": 5, "t": "Antropologia del Novecento", "q": "«I flussi culturali globali non producono un mondo uniforme ma ibridazioni imprevedibili»", "a": "Arjun Appadurai", "d": ["Manuel Castells", "Anthony Giddens", "Clifford Geertz"], "c": "L'autore di questa affermazione è Arjun Appadurai."}, {"r": 5, "t": "Antropologia del Novecento", "q": "«La cultura non è una mente, è un testo: l'antropologo deve imparare a leggerla»", "a": "Clifford Geertz", "d": ["Mary Douglas", "Victor Turner", "Claude Lévi-Strauss"], "c": "L'autore di questa affermazione è Clifford Geertz."}, {"r": 6, "t": "Globalizzazione e identità", "q": "«La modernità produce rischi che nessuno ha voluto e nessuno può controllare pienamente»", "a": "Ulrich Beck", "d": ["Anthony Giddens", "Zygmunt Bauman", "Manuel Castells"], "c": "L'autore di questa affermazione è Ulrich Beck."}, {"r": 6, "t": "Globalizzazione e identità", "q": "«Il potere è ormai nei flussi: chi controlla i nodi controlla la rete»", "a": "Manuel Castells", "d": ["Anthony Giddens", "Ulrich Beck", "Zygmunt Bauman"], "c": "L'autore di questa affermazione è Manuel Castells."}, {"r": 6, "t": "Globalizzazione e identità", "q": "«La globalizzazione genera vincitori e perdenti: i secondi diventano «rifiuti» della modernità»", "a": "Zygmunt Bauman", "d": ["Ulrich Beck", "Alain Touraine", "Norbert Elias"], "c": "L'autore di questa affermazione è Zygmunt Bauman."}, {"r": 6, "t": "Globalizzazione e identità", "q": "«Il processo di civilizzazione è l'interiorizzazione del controllo degli impulsi»", "a": "Norbert Elias", "d": ["Erving Goffman", "Anthony Giddens", "Pierre Bourdieu"], "c": "L'autore di questa affermazione è Norbert Elias."}, {"r": 6, "t": "Globalizzazione e identità", "q": "«I nuovi movimenti sociali non chiedono più pane ma identità e riconoscimento»", "a": "Alain Touraine", "d": ["Jürgen Habermas", "Manuel Castells", "Ulrich Beck"], "c": "L'autore di questa affermazione è Alain Touraine."}, {"r": 7, "t": "Sociologia critica — grandi temi", "q": "«La televisione, la pubblicità e l'industria culturale producono falsi bisogni»", "a": "Herbert Marcuse", "d": ["Jürgen Habermas", "Max Horkheimer", "Theodor Adorno"], "c": "L'autore di questa affermazione è Herbert Marcuse."}, {"r": 7, "t": "Sociologia critica — grandi temi", "q": "«L'illuminismo si è trasformato in strumento di oppressione invece che di liberazione»", "a": "Max Horkheimer", "d": ["Jürgen Habermas", "Herbert Marcuse", "Walter Benjamin"], "c": "L'autore di questa affermazione è Max Horkheimer."}, {"r": 7, "t": "Sociologia critica — grandi temi", "q": "«L'agire comunicativo mira all'intesa: è il fondamento di ogni relazione umana autentica»", "a": "Jürgen Habermas", "d": ["Anthony Giddens", "Pierre Bourdieu", "Erving Goffman"], "c": "L'autore di questa affermazione è Jürgen Habermas."}, {"r": 7, "t": "Sociologia critica — grandi temi", "q": "«Il potere non è una proprietà di qualcuno ma una relazione che attraversa tutta la società»", "a": "Michel Foucault", "d": ["Pierre Bourdieu", "Jürgen Habermas", "Zygmunt Bauman"], "c": "L'autore di questa affermazione è Michel Foucault."}, {"r": 7, "t": "Sociologia critica — grandi temi", "q": "«Dobbiamo immaginare Sisifo felice: l'assurdo è la condizione umana»", "a": "Albert Camus", "d": ["Jean-Paul Sartre", "Michel Foucault", "Jürgen Habermas"], "c": "L'autore di questa affermazione è Albert Camus."}], ROUNDS=[["Sociologia del Novecento I", "Sociologia del Nov"], ["Sociologia del Novecento II", "Sociologia del Nov"], ["Modernità liquida e rete", "Modernità liquida "], ["Parsons e il funzionalismo", "Parsons e il funzi"], ["Bourdieu e il campo sociale", "Bourdieu e il camp"], ["Antropologia del Novecento", "Antropologia del N"], ["Globalizzazione e identità", "Globalizzazione e "], ["Sociologia critica — grandi temi", "Sociologia critica"]], VAL=[100,150,200,250,300,400,500,600], PER=5, T=20, LIVES=3, KEY='suhd-tv-scienze-umane-IV';
+let r,q,pool,cur,score,streak,lives,shield,errsRound,perfect,log,busy,t0,raf,best=0;
+try{best=+localStorage.getItem(KEY)||0}catch(e){}
+let ac=null;function tone(f,d,t='sine',g=.08){try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();const o=ac.createOscillator(),v=ac.createGain();o.type=t;o.frequency.value=f;o.connect(v);v.connect(ac.destination);const n=ac.currentTime;v.gain.setValueAtTime(g,n);v.gain.exponentialRampToValueAtTime(.001,n+d);o.start(n);o.stop(n+d)}catch(e){}}
+function start(){r=0;score=0;streak=0;lives=LIVES;shield=false;perfect=[];log=[];$('end').hidden=true;$('game').hidden=false;
+ ['lSkip','lTime','lSave'].forEach(i=>$(i).disabled=false);round()}
+function round(){pool=shuffle(DATA.filter(x=>x.r===r));q=0;errsRound=0;
+ $('era').textContent=ROUNDS[r][0];ladder();ask(pool.shift())}
+function ask(item){cur=item;busy=false;
+ $('prize').innerHTML=`<span>Puntata ${r+1} di 8 · ${fmt(VAL[r])} punti a risposta</span>`;
+ $('qn').textContent=`Domanda ${q+1} di ${PER}`;
+ $('txt').innerHTML=`<span class="quote-mark">“</span>${esc(cur.q)}<span class="quote-mark">”</span>`;
+ $('scr').className='screen';
+ // 4 options: correct + 3 distractors, shuffled
+ const opts=shuffle([cur.a,...cur.d]);
+ $('pos').innerHTML=opts.map((p,k)=>`<button class="po" type="button" data-p="${esc(p)}"><b>${k+1}</b>${esc(p)}</button>`).join('');
+ $('corr').innerHTML='';$('act').innerHTML='';hud();timer();MUS.start(96+r*6)}
+function hud(){$('hP').textContent=fmt(score);$('hS').textContent=streak;$('hR').textContent=fmt(best);
+ $('lamps').innerHTML=Array.from({length:LIVES},(_,i)=>`<i class="lamp ${i<lives?'':'off'}"></i>`).join('')+(shield?' 🛡':'')}
+function ladder(){$('ladder').innerHTML=ROUNDS.map((x,k)=>`<li class="${k===r?'cur':''} ${k<r?'done':''} ${perfect.includes(k)?'perf':''}"><span>${k+1} · ${esc(x[1])}</span><span>${fmt(VAL[k])}</span></li>`).join('');
+ const c=$('ladder').querySelector('.cur');if(c&&matchMedia('(max-width:760px)').matches)c.scrollIntoView({inline:'center',block:'nearest'})}
+let hurry=false;function timer(){cancelAnimationFrame(raf);hurry=false;t0=performance.now();const tick=now=>{const left=Math.max(0,T-(now-t0)/1000);
+ $('tb').style.width=(left/T*100)+'%';$('tb').className=left<5?'low':'';if(left<5&&!hurry){hurry=true;MUS.fast(true)}
+ if(left<=0){answer(null);return}raf=requestAnimationFrame(tick)};raf=requestAnimationFrame(tick)}
+function answer(v){if(busy)return;busy=true;cancelAnimationFrame(raf);MUS.stop();
+ const left=Math.max(0,T-(performance.now()-t0)/1000),ok=v===cur.a;
+ document.querySelectorAll('.po').forEach(b=>{b.disabled=true;if(b.dataset.p===cur.a)b.classList.add('right');else if(b.dataset.p===v)b.classList.add('wrong')});
+ if(ok){streak++;const g=VAL[r]+Math.round(left/T*VAL[r]/2)+Math.min(streak-1,5)*20;score+=g;$('scr').className='screen ok';
+  say(`Esatto: ${cur.a}! +${fmt(g)}`,'ok');MUS.win()}
+ else{streak=0;$('scr').className='screen ko';MUS.lose();
+  const why=v===null?'Tempo scaduto':'Sbagliato';
+  if(shield){shield=false;say(`${why}, ma lo scudo ti ha protetto! Era: ${cur.a}.`,'ko')}
+  else{errsRound++;lives--;say(`${why}: era ${cur.a}.`,'ko')}}
+ log.push({x:cur,ok});
+ $('corr').innerHTML=`<div class="corr"><b>${esc(cur.a)}.</b> ${esc(cur.c)}</div>`;hud();
+ q++;let lab,id='nx';
+ if(lives<0){lives=0;hud();lab='Vedi il risultato';id='fin'}
+ else if(q>=PER){if(errsRound===0){const b=VAL[r]*2;score+=b;perfect.push(r);hud();say(($('msg').textContent)+` Puntata perfetta! Bonus ★ +${fmt(b)}`,'ok');setTimeout(()=>MUS.big(),700)}
+  ladder();lab=r<7?'Prossima puntata':'Vedi il risultato';if(r>=7)id='fin'}
+ else lab='Prossima domanda';
+ $('act').innerHTML=`<button class="go" id="${id}" type="button">${lab}</button>`;
+ $('act').querySelector('button').focus({preventScroll:true});$('act').scrollIntoView({block:'nearest',behavior:'smooth'})}
+$('pos').addEventListener('click',e=>{const b=e.target.closest('.po');if(b&&!b.disabled)answer(b.dataset.p)});
+document.addEventListener('keydown',e=>{if($('game').hidden)return;const n=+e.key;if(!busy&&n>=1&&n<=4){const b=document.querySelectorAll('.po')[n-1];if(b&&!b.disabled)answer(b.dataset.p)}});
+$('act').addEventListener('click',e=>{const id=e.target.id;
+ if(id==='nx'){if(q>=PER){r++;round();window.scrollTo({top:0,behavior:'smooth'})}else ask(pool.shift())}
+ if(id==='fin')finish()});
+$('lSkip').addEventListener('click',()=>{if(busy)return;$('lSkip').disabled=true;const w=shuffle([...document.querySelectorAll('.po')].filter(b=>b.dataset.p!==cur.a));w.slice(0,2).forEach(b=>{b.disabled=true;b.classList.add('gone')});say('Ho eliminato due nomi sbagliati.')});
+$('lTime').addEventListener('click',()=>{if(busy)return;$('lTime').disabled=true;timer();MUS.fast(false);MUS.speed(96+r*6);say('Il cronometro riparte da 20 secondi.')});
+$('lSave').addEventListener('click',()=>{if(busy)return;shield=true;$('lSave').disabled=true;hud();say('Scudo attivo: il prossimo errore non conta.')});
+function finish(){MUS.stop();$('game').hidden=true;$('end').hidden=false;cancelAnimationFrame(raf);
+ const nb=score>best;if(nb){best=score;try{localStorage.setItem(KEY,score)}catch(e){}}
+ const right=log.filter(l=>l.ok).length;
+ $('endT').textContent=fmt(score)+' punti';
+ $('endP').textContent=`${r>=7&&q>=PER&&lives>=0&&log.length>=40?'Hai completato tutte le 8 puntate':'Sei arrivato alla puntata '+(r+1)}: ${right} risposte giuste su ${log.length}. `+(nb?'Nuovo record personale!':`Il tuo record è ${fmt(best)} punti.`)+' Le citazioni da ripassare:';
+ const rows=log.filter(l=>!l.ok);
+ $('rev').innerHTML=rows.map(l=>`<li><i>“${esc(l.x.q)}”</i> → <b>${esc(l.x.a)}</b></li>`).join('')||'<li>Nessuna: tutte giuste, complimenti!</li>';
+ window.scrollTo({top:0,behavior:'smooth'})}
+$('again').addEventListener('click',start);
+function say(t,c=''){$('msg').textContent=t;$('msg').className='msg '+c}
+start();
+}
+</script></body></html>
