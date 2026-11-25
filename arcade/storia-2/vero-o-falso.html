@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vero o falso · Storia Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: gioco a premi del sabato sera, gemello di "Chi vuol essere promosso?" e "Causa ed effetto"
+   IDEA: otto puntate a cronometro: una frase sullo schermo, due grandi pulsanti Vero e Falso
+   PICTURE: lo schermo dorato con la frase, la barra del tempo, la scala delle puntate accanto
+   COLOUR and TYPE: blu notte da studio, oro, verde per vero e rosso per falso; Bebas Neue + Lexend
+   LAYOUT: gioco a sinistra e puntate a destra; sul telefono le puntate diventano una striscia */
+:root{color-scheme:dark;--bg:#050b1c;--blue:#10224a;--blue2:#1e3d7a;--edge:#6f9be0;--gold:#ffd34d;--ink:#fff;--muted:#b8c8e8;--ok:#2ecc71;--ko:#e74c3c;--sel:#ff9f1a}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% -10%,#2c5aa0 0,#0b1a3a 50%,var(--bg) 100%) fixed;overflow-x:clip}
+.wrap{max-width:1000px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.lights{display:flex;justify-content:center;gap:9px;margin:2px 0 4px}
+.lights i{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold);animation:tw 1.6s infinite}
+.lights i:nth-child(2n){animation-delay:.8s}
+@keyframes tw{50%{opacity:.35}}
+h1{font:400 clamp(38px,7vw,64px)/1 'Bebas Neue',Impact,sans-serif;letter-spacing:2px;margin:0;text-align:center;color:var(--gold);text-shadow:0 0 18px rgba(255,211,77,.55)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 12px}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:16px;align-items:start}
+.prize{text-align:center;margin-bottom:6px}
+.prize i{font-style:normal}
+.prize span{display:inline-block;background:var(--gold);color:var(--bg);font:24px/1.2 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 16px;border-radius:20px}
+.era{text-align:center;font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;margin-bottom:6px}
+.hud{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:8px;color:var(--muted);font-size:14px}
+.hud b{color:var(--gold);font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;margin-left:6px}
+.lamp{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold);margin-left:5px;vertical-align:-1px}
+.lamp.off{background:#2a3555;box-shadow:none}
+.timer{height:10px;background:var(--blue);border-radius:6px;margin:0 6% 12px;overflow:hidden}
+.timer i{display:block;height:100%;width:100%;background:var(--gold);border-radius:6px}
+.timer i.low{background:var(--ko)}
+.screen{position:relative;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:22px 20px;min-height:120px;display:flex;align-items:center;justify-content:center;text-align:center;font:600 clamp(18px,2.6vw,23px)/1.35 Lexend,sans-serif}
+.screen.ok{border-color:var(--ok);box-shadow:0 0 22px rgba(46,204,113,.45)}.screen.ko{border-color:var(--ko);box-shadow:0 0 22px rgba(231,76,60,.45)}
+.n{position:absolute;top:-12px;left:18px;background:var(--bg);color:var(--gold);font:18px/1 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border:2px solid var(--gold);border-radius:12px}
+.vf{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px auto 0;max-width:520px}
+.big{font:36px/1 'Bebas Neue',sans-serif;letter-spacing:2px;border:2px solid #fff;border-radius:40px;padding:14px 10px;min-height:64px;cursor:pointer;color:#fff}
+.big.v{background:linear-gradient(#3be07f,#1e9e52);color:#002611}.big.f{background:linear-gradient(#ff6b5a,#c0392b)}
+.big:disabled{opacity:.35;cursor:default}.big.pick{opacity:1;outline:4px solid var(--gold);outline-offset:3px}
+.big:hover:not(:disabled){filter:brightness(1.12)}
+.corr{background:rgba(255,211,77,.1);border:1px dashed var(--gold);border-radius:12px;padding:10px 14px;margin-top:12px}
+.corr b{color:var(--gold)}
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:14px}
+.life{font:20px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:8px 16px;min-height:44px;cursor:pointer}
+.life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
+.go{font:24px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:10px 26px;min-height:48px;cursor:pointer;box-shadow:0 0 16px rgba(255,211,77,.5)}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.msg{text-align:center;min-height:28px;margin-top:12px;font-weight:600;color:var(--muted)}
+.msg.ok{color:var(--ok)}.msg.ko{color:#ff8a7a}
+.ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:2px}
+.ladder li{display:flex;justify-content:space-between;gap:8px;white-space:nowrap;font:18px/1.25 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:12px;color:var(--muted)}
+.ladder li.cur{background:var(--sel);color:#1b0f00}
+.ladder li.done{color:var(--gold)}
+.ladder li.perf span:last-child:after{content:" ★"}
+.end{text-align:center;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:20px 16px}
+.end h2{font:52px/1 'Bebas Neue',sans-serif;color:var(--gold);margin:6px 0;letter-spacing:2px}
+.rev{text-align:left;max-width:680px;margin:12px auto;padding-left:20px}.rev li{margin:7px 0}.rev b{color:var(--gold)}.rev s{color:#ff8a7a}
+.rules{color:var(--muted);font-size:15px;margin-top:22px;border-top:1px solid var(--blue2);padding-top:12px}.rules b{color:#fff}
+@media (prefers-reduced-motion:reduce){.lights i{animation:none}}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px}.ladder li{flex:none;font-size:17px;padding:2px 10px}.ladder li span:last-child:before{content:'·';margin:0 6px 0 0;opacity:.7}}
+@media(max-width:560px){.lights{display:none}.prize span{font-size:18px;padding:3px 12px}.era{font-size:19px}.lg{display:none}.hud{gap:10px}.screen{padding:20px 14px;min-height:110px}.vf{gap:10px}.big{font-size:30px;min-height:58px}.life{font-size:17px;padding:6px 12px}.bar{gap:8px}}
+
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,11,28,.85);color:#fff;font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,211,77,.35)}
+.mus.off{opacity:.6;box-shadow:none}
+@media(max-width:760px){.mus{top:auto;bottom:14px;right:12px;width:42px;height:42px;font-size:18px}}
+</style></head><body><div class="wrap"><button class="mus" id="mus" type="button" aria-label="Musica: attiva" title="Musica">🔊</button>
+<div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<h1>Vero o falso</h1>
+<p class="sub">Storia · Classe II · Otto puntate, 40 affermazioni da giudicare</p>
+<div class="stage" id="game">
+ <div>
+  <div class="prize" id="prize"></div>
+  <div class="era" id="era"></div>
+  <div class="hud"><span>Punti<b id="hP">0</b></span><span>Serie<b id="hS">0</b></span><span>Errori rimasti<span id="lamps"></span></span><span>Record<b id="hR">0</b></span></div>
+  <div class="timer"><i id="tb"></i></div>
+  <div class="screen" id="scr"><span class="n" id="qn"></span><span id="txt"></span></div>
+  <div class="vf"><button class="big v" id="bV" type="button">Vero</button><button class="big f" id="bF" type="button">Falso</button></div>
+  <div class="msg" id="msg" role="status"></div>
+  <div id="corr"></div>
+  <div class="bar" id="act"></div>
+  <div class="bar"><button class="life" id="lSkip" type="button">Cambia domanda</button><button class="life" id="lTime" type="button">Più tempo</button><button class="life" id="lSave" type="button">Scudo</button></div>
+ </div>
+ <ol class="ladder" id="ladder"></ol>
+</div>
+<div class="end" id="end" hidden><h2 id="endT"></h2><p id="endP"></p><ol class="rev" id="rev"></ol><button class="go" id="again" type="button">Nuova partita</button></div>
+<section class="rules"><b>Come si gioca</b><ul>
+<li>Il gioco ha 8 puntate da 5 affermazioni, una puntata per ogni epoca della dispensa di Storia della classe II. Per ogni frase decidi se è <b>vera</b> o <b>falsa</b> prima che finisca il tempo (15 secondi). Dal computer puoi usare anche i tasti V e F.</li>
+<li>Più vai avanti, più vale ogni risposta giusta. Rispondere in fretta e fare una serie di risposte giuste dà punti in più. Se chiudi una puntata senza errori prendi un bonus ★.</li>
+<li>Puoi sbagliare 3 volte in tutta la partita: al quarto errore il gioco finisce. Anche il tempo scaduto conta come errore.</li>
+<li>Hai tre aiuti, ognuno usabile una sola volta. <b>Cambia domanda</b> sostituisce la frase con un'altra della stessa epoca. <b>Più tempo</b> riporta il cronometro a 15 secondi. <b>Scudo</b> ti protegge dal prossimo errore.</li>
+<li>Il tasto 🔊 in alto a destra accende o spegne la musica.</li>
+<li>Dopo ogni risposta leggi la spiegazione. Alla fine trovi tutte le frasi false corrette e quelle che hai sbagliato.</li></ul></section>
+</div><script>
+{
+
+const MUS=(()=>{let on=true;try{on=localStorage.getItem('arcade-musica')!=='off'}catch(e){}
+ let ctx=null,out=null,want=false,run=false,iv=null,next=0,step=0,bpm=100,fast=false;
+ const btn=document.getElementById('mus');
+ const paint=()=>{btn.textContent=on?'🔊':'🔇';btn.classList.toggle('off',!on);btn.setAttribute('aria-label','Musica: '+(on?'attiva':'spenta'))};paint();
+ function init(){if(ctx)return true;try{ctx=new (window.AudioContext||window.webkitAudioContext)();out=ctx.createGain();out.gain.value=.55;out.connect(ctx.destination);return true}catch(e){return false}}
+ function note(f,t,d,type,g,lp){const o=ctx.createOscillator(),v=ctx.createGain();o.type=type;o.frequency.setValueAtTime(f,t);
+  let last=o;if(lp){const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=lp;o.connect(fl);last=fl}
+  last.connect(v);v.connect(out);v.gain.setValueAtTime(.0001,t);v.gain.exponentialRampToValueAtTime(g,t+Math.min(.02,d/4));v.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d+.05)}
+ const CH=[[110,130.8,164.8],[116.5,138.6,174.6],[110,130.8,164.8],[103.8,123.5,155.6]];
+ function play(s,t){const sp=60/bpm/4,bar=Math.floor(s/16)%4;
+  if(s%8===0)note(55,t,.28,'sine',.5);if(s%8===2)note(52,t,.2,'sine',.32);
+  if(s%4===0)note(fast?2400:1800,t,.035,'square',fast?.05:.03,6000);
+  if(fast&&s%2===1)note(2400,t,.025,'square',.025,6000);
+  if(s%16===0)CH[bar].forEach(f=>note(f*2,t,sp*16*.95,'triangle',.035,900));
+  if(s%16===12)note(CH[bar][2]*4,t,sp*3,'sine',.03)}
+ function sched(){if(!run)return;while(next<ctx.currentTime+.15){play(step,next);next+=60/bpm/4;step=(step+1)%64}}
+ function go(){if(!on||!want||run||!init())return;if(ctx.state!=='running'){ctx.resume();if(ctx.state!=='running')return}
+  run=true;next=ctx.currentTime+.05;step=0;iv=setInterval(sched,40)}
+ function halt(){run=false;clearInterval(iv)}
+ const unlock=()=>{if(init()&&ctx.state!=='running')ctx.resume().then(go,()=>{});else go()};
+ document.addEventListener('pointerdown',unlock,true);document.addEventListener('keydown',unlock,true);
+ btn.addEventListener('click',()=>{on=!on;try{localStorage.setItem('arcade-musica',on?'on':'off')}catch(e){}paint();on?go():halt()});
+ return{
+  start(b){bpm=b||100;fast=false;want=true;go()},
+  stop(){want=false;halt()},
+  fast(f){fast=f;bpm=f?Math.max(bpm,150):bpm},
+  speed(b){bpm=b},
+  win(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[523.3,659.3,784,1046.5].forEach((f,k)=>note(f,t+k*.08,.22,'square',.05,3500));[523.3,659.3,784].forEach(f=>note(f,t+.32,.6,'triangle',.06,4000));note(130.8,t+.32,.6,'sine',.35)},
+  lose(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[392,370,349.2,311.1].forEach((f,k)=>note(f,t+k*.22,k===3?.8:.22,'sawtooth',.05,1200));note(77.8,t+.66,.8,'sine',.3)},
+  big(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;const m=[523.3,659.3,784,1046.5,784,1046.5];m.forEach((f,k)=>note(f,t+k*.11,.2,'square',.05,4000));[523.3,659.3,784,1046.5].forEach(f=>note(f,t+.7,1.1,'triangle',.06,5000));note(65.4,t+.7,1.1,'sine',.4);for(let k=0;k<8;k++)note(2600,t+.7+k*.06,.03,'square',.015,8000)},
+  roll(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;for(let k=0;k<18;k++)note(1500,t+k*.065,.04,'square',.012+k*.003,5000);note(55,t,1.2,'sine',.4)}
+ }})();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+const DATA=[{"r": 0, "t": "Diocleziano introdusse la tetrarchia, il governo di quattro sovrani.", "v": true, "c": "Per controllare meglio un territorio così vasto."}, {"r": 0, "t": "Il sacco di Roma del 410 fu opera dei Vandali.", "v": false, "c": "Fu opera dei Visigoti di Alarico; i Vandali saccheggiarono Roma nel 455."}, {"r": 0, "t": "L'ultimo imperatore d'Occidente fu Romolo Augustolo.", "v": true, "c": "Fu deposto da Odoacre nel 476."}, {"r": 0, "t": "L'Impero d'Occidente cadde nel 395.", "v": false, "c": "Nel 395 l'Impero si divise; l'Occidente cadde nel 476."}, {"r": 0, "t": "Gli Unni erano guidati da Attila.", "v": true, "c": "Venivano dalle steppe asiatiche."}, {"r": 0, "t": "L'editto sui prezzi massimi di Diocleziano fermò l'inflazione.", "v": false, "c": "Ebbe scarso successo pratico."}, {"r": 1, "t": "Teodorico guidava gli Ostrogoti in Italia.", "v": true, "c": "Regnò dal 493 al 526 cercando la convivenza tra Romani e Goti."}, {"r": 1, "t": "I Visigoti si stabilirono in Nord Africa.", "v": false, "c": "Si stabilirono in Spagna; in Nord Africa andarono i Vandali."}, {"r": 1, "t": "Clodoveo si convertì all'arianesimo.", "v": false, "c": "Si convertì al cattolicesimo nel 496 e ottenne l'appoggio del papa."}, {"r": 1, "t": "La capitale del regno longobardo era Pavia.", "v": true, "c": "I Longobardi arrivarono in Italia nel 568."}, {"r": 1, "t": "Il Corpus Iuris Civilis fu voluto da Giustiniano.", "v": true, "c": "Raccoglie tutto il diritto romano."}, {"r": 1, "t": "L'Impero bizantino cadde insieme a quello d'Occidente.", "v": false, "c": "Sopravvisse fino al 1453, quando lo conquistarono i Turchi ottomani."}, {"r": 1, "t": "Ravenna era la sede dell'esarcato bizantino in Italia.", "v": true, "c": "Accanto al regno longobardo restavano territori bizantini."}, {"r": 2, "t": "Carlo Magno fu incoronato imperatore nel Natale dell'800.", "v": true, "c": "Lo incoronò papa Leone III."}, {"r": 2, "t": "Carlo Magno fu incoronato imperatore ad Aquisgrana.", "v": false, "c": "Fu incoronato a Roma, nella basilica di San Pietro; Aquisgrana era la sua corte."}, {"r": 2, "t": "I missi dominici controllavano l'operato dei conti.", "v": true, "c": "Riferivano direttamente all'imperatore."}, {"r": 2, "t": "Alcuino di York guidò la rinascita culturale carolingia.", "v": true, "c": "Riorganizzò la scuola palatina ad Aquisgrana."}, {"r": 2, "t": "Il trattato di Verdun riunificò l'impero carolingio.", "v": false, "c": "Nell'843 lo divise tra gli eredi di Carlo Magno."}, {"r": 2, "t": "La minuscola carolina era una moneta.", "v": false, "c": "Era una nuova scrittura, più chiara."}, {"r": 3, "t": "Il vassallo doveva al signore auxilium e consilium.", "v": true, "c": "Cioè aiuto militare e consiglio."}, {"r": 3, "t": "Il capitolare di Quierzy rese i feudi ereditari.", "v": true, "c": "Nell'877: i feudi passavano ai figli."}, {"r": 3, "t": "L'allodio era un feudo concesso in cambio di fedeltà.", "v": false, "c": "Era una proprietà piena e libera da vincoli di vassallaggio."}, {"r": 3, "t": "Le corvées erano lavori obbligatori dei contadini.", "v": true, "c": "Si svolgevano sulla riserva del signore."}, {"r": 3, "t": "Il feudalesimo rafforzò il potere del sovrano.", "v": false, "c": "Lo indebolì a vantaggio dei grandi feudatari."}, {"r": 3, "t": "Nel IX-X secolo l'Europa fu invasa da Vichinghi, Ungari e Saraceni.", "v": true, "c": "Le invasioni favorirono il feudalesimo."}, {"r": 4, "t": "Dopo il Mille si diffuse la rotazione triennale dei campi.", "v": true, "c": "Permetteva di sfruttare meglio i terreni."}, {"r": 4, "t": "Dopo il Mille la popolazione europea diminuì.", "v": false, "c": "Tra X e XIII secolo più che raddoppiò."}, {"r": 4, "t": "L'aratro pesante era adatto ai terreni dell'Europa del nord.", "v": true, "c": "Lavorava meglio i terreni pesanti."}, {"r": 4, "t": "Il sistema curtense si basava sul commercio con l'Oriente.", "v": false, "c": "Era un'economia rurale, di autoconsumo."}, {"r": 4, "t": "Gli artigiani si organizzavano in corporazioni di mestiere.", "v": true, "c": "Rinascono con le città e i commerci."}, {"r": 4, "t": "Intorno all'anno Mille il clima peggiorò.", "v": false, "c": "Migliorò: è l'«optimum climatico medievale»."}, {"r": 5, "t": "Gregorio VII fu papa dal 1073 al 1085.", "v": true, "c": "Da lui prende il nome la riforma gregoriana."}, {"r": 5, "t": "La simonia era il matrimonio dei preti.", "v": false, "c": "Era la compravendita di cariche ecclesiastiche; il matrimonio era il nicolaismo."}, {"r": 5, "t": "Il monastero di Cluny fu fondato nel 910.", "v": true, "c": "Divenne il centro della riforma monastica."}, {"r": 5, "t": "A Canossa fu il papa a chiedere perdono all'imperatore.", "v": false, "c": "Fu l'imperatore Enrico IV a chiedere perdono al papa, nel 1077."}, {"r": 5, "t": "Il Concordato di Worms chiuse la lotta per le investiture.", "v": true, "c": "Nel 1122, con un compromesso."}, {"r": 5, "t": "Con l'investitura laica i vescovi erano nominati dai sovrani.", "v": true, "c": "Così dipendevano dal potere politico."}, {"r": 6, "t": "La prima crociata fu lanciata da Urbano II a Clermont.", "v": true, "c": "Nel 1095."}, {"r": 6, "t": "I crociati conquistarono Gerusalemme nel 1099.", "v": true, "c": "Fondarono poi gli Stati latini in Terrasanta."}, {"r": 6, "t": "Saladino era un re crociato.", "v": false, "c": "Era il condottiero musulmano che riconquistò Gerusalemme nel 1187."}, {"r": 6, "t": "I Templari erano monaci-cavalieri.", "v": true, "c": "Univano vita religiosa e addestramento militare."}, {"r": 6, "t": "La terza crociata riconquistò Gerusalemme.", "v": false, "c": "Riccardo Cuor di Leone e Barbarossa non riuscirono a riprenderla."}, {"r": 6, "t": "Le crociate indebolirono le repubbliche marinare italiane.", "v": false, "c": "Le rafforzarono, con privilegi commerciali in Oriente."}, {"r": 7, "t": "Il Po è il fiume più lungo d'Italia.", "v": true, "c": "È lungo circa 650 km."}, {"r": 7, "t": "Le pianure occupano più di metà dell'Italia.", "v": false, "c": "Oltre il 75% è montuoso o collinare; le pianure sono poco più di un quinto."}, {"r": 7, "t": "L'Etna è il più alto vulcano attivo d'Europa.", "v": true, "c": "Si trova in Sicilia."}, {"r": 7, "t": "La Comunità del Carbone e dell'Acciaio nacque nel 1951.", "v": true, "c": "Univa Francia, Germania, Italia e Benelux."}, {"r": 7, "t": "L'Unione Europea nacque con i Trattati di Roma del 1957.", "v": false, "c": "I Trattati di Roma crearono la CEE; l'UE nasce a Maastricht nel 1993."}, {"r": 7, "t": "L'euro è entrato in circolazione nel 2002.", "v": true, "c": "Era stato introdotto nel 1999."}], ROUNDS=[["La crisi dell'Impero", "Crisi"], ["Regni barbarici e Bisanzio", "Regni"], ["Carlo Magno", "Carlo Magno"], ["Il feudalesimo", "Feudi"], ["La rinascita dell'anno Mille", "Mille"], ["La riforma della Chiesa", "Chiesa"], ["Le Crociate", "Crociate"], ["Geografia: Italia ed Europa", "Geografia"]], VAL=[100,150,200,250,300,400,500,600], PER=5, T=15, LIVES=3, KEY='vf-tv-II';
+let r,q,pool,cur,score,streak,lives,shield,errsRound,perfect,log,busy,t0,raf,best=0;
+try{best=+localStorage.getItem(KEY)||0}catch(e){}
+let ac=null;function tone(f,d,t='sine',g=.08){try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();const o=ac.createOscillator(),v=ac.createGain();o.type=t;o.frequency.value=f;o.connect(v);v.connect(ac.destination);const n=ac.currentTime;v.gain.setValueAtTime(g,n);v.gain.exponentialRampToValueAtTime(.001,n+d);o.start(n);o.stop(n+d)}catch(e){}}
+function start(){r=0;score=0;streak=0;lives=LIVES;shield=false;perfect=[];log=[];$('end').hidden=true;$('game').hidden=false;
+ ['lSkip','lTime','lSave'].forEach(i=>$(i).disabled=false);round()}
+function round(){pool=shuffle(DATA.filter(x=>x.r===r));q=0;errsRound=0;
+ $('era').textContent=ROUNDS[r][0];ladder();ask(pool.shift())}
+function ask(item){cur=item;busy=false;
+ $('prize').innerHTML=`<span>Puntata ${r+1} di 8 · ${fmt(VAL[r])} punti<i class="lg"> a risposta</i></span>`;
+ $('qn').textContent=`Domanda ${q+1} di ${PER}`;$('txt').textContent=cur.t;$('scr').className='screen';
+ ['bV','bF'].forEach(i=>{$(i).disabled=false;$(i).classList.remove('pick')});
+ $('corr').innerHTML='';$('act').innerHTML='';say('Vero o falso?');hud();timer();MUS.start(96+r*6)}
+function say(t,c=''){$('msg').textContent=t;$('msg').className='msg '+c}
+function hud(){$('hP').textContent=fmt(score);$('hS').textContent=streak;$('hR').textContent=fmt(best);
+ $('lamps').innerHTML=Array.from({length:LIVES},(_,i)=>`<i class="lamp ${i<lives?'':'off'}"></i>`).join('')+(shield?' 🛡':'')}
+function ladder(){$('ladder').innerHTML=ROUNDS.map((x,k)=>`<li class="${k===r?'cur':''} ${k<r?'done':''} ${perfect.includes(k)?'perf':''}"><span>${k+1} · ${esc(x[1])}</span><span>${fmt(VAL[k])}</span></li>`).join('');
+ const c=$('ladder').querySelector('.cur');if(c&&matchMedia('(max-width:760px)').matches)c.scrollIntoView({inline:'center',block:'nearest'})}
+let hurry=false;function timer(){cancelAnimationFrame(raf);hurry=false;t0=performance.now();const tick=now=>{const left=Math.max(0,T-(now-t0)/1000);
+ $('tb').style.width=(left/T*100)+'%';$('tb').className=left<4?'low':'';if(left<4&&!hurry){hurry=true;MUS.fast(true)}
+ if(left<=0){answer(null);return}raf=requestAnimationFrame(tick)};raf=requestAnimationFrame(tick)}
+function answer(v){if(busy)return;busy=true;cancelAnimationFrame(raf);MUS.stop();
+ const left=Math.max(0,T-(performance.now()-t0)/1000),ok=v===cur.v;
+ ['bV','bF'].forEach(i=>$(i).disabled=true);if(v!==null)$(v?'bV':'bF').classList.add('pick');
+ let txt;
+ if(ok){streak++;const g=VAL[r]+Math.round(left/T*VAL[r]/2)+Math.min(streak-1,5)*20;score+=g;$('scr').className='screen ok';
+  txt=`Esatto, è ${cur.v?'vero':'falso'}! +${fmt(g)}`;say(txt,'ok');MUS.win()}
+ else{streak=0;$('scr').className='screen ko';MUS.lose();
+  const why=v===null?'Tempo scaduto':'Sbagliato';
+  if(shield){shield=false;say(`${why}, ma lo scudo ti ha protetto! Era ${cur.v?'vero':'falso'}.`,'ko')}
+  else{errsRound++;lives--;say(`${why}: era ${cur.v?'vero':'falso'}.`,'ko')}}
+ log.push({x:cur,ok});
+ $('corr').innerHTML=`<div class="corr"><b>${cur.v?'Vero':'Falso'}.</b> ${esc(cur.c)}</div>`;hud();
+ q++;let lab,id='nx';
+ if(lives<0){lives=0;hud();lab='Vedi il risultato';id='fin'}
+ else if(q>=PER){if(errsRound===0){const b=VAL[r]*2;score+=b;perfect.push(r);hud();say(($('msg').textContent)+` Puntata perfetta! Bonus ★ +${fmt(b)}`,'ok');setTimeout(()=>MUS.big(),700)}
+  ladder();lab=r<7?'Prossima puntata':'Vedi il risultato';if(r>=7)id='fin'}
+ else lab='Prossima domanda';
+ $('act').innerHTML=`<button class="go" id="${id}" type="button">${lab}</button>`;
+ $('act').querySelector('button').focus({preventScroll:true});$('act').scrollIntoView({block:'nearest',behavior:'smooth'})}
+$('bV').addEventListener('click',()=>answer(true));$('bF').addEventListener('click',()=>answer(false));
+document.addEventListener('keydown',e=>{if($('game').hidden)return;const k=e.key.toLowerCase();
+ if(!busy&&(k==='v'||k==='arrowright'))answer(true);else if(!busy&&(k==='f'||k==='arrowleft'))answer(false)});
+$('act').addEventListener('click',e=>{const id=e.target.id;
+ if(id==='nx'){if(q>=PER){r++;round();window.scrollTo({top:0,behavior:'smooth'})}else ask(pool.shift())}
+ if(id==='fin')finish()});
+$('lSkip').addEventListener('click',()=>{if(busy||!pool.length)return;$('lSkip').disabled=true;ask(pool.shift());say('Ecco un\'altra frase.')});
+$('lTime').addEventListener('click',()=>{if(busy)return;$('lTime').disabled=true;timer();MUS.fast(false);MUS.speed(96+r*6);say('Il cronometro riparte da 15 secondi.')});
+$('lSave').addEventListener('click',()=>{if(busy)return;shield=true;$('lSave').disabled=true;hud();say('Scudo attivo: il prossimo errore non conta.')});
+function finish(){MUS.stop();$('game').hidden=true;$('end').hidden=false;cancelAnimationFrame(raf);
+ const nb=score>best;if(nb){best=score;try{localStorage.setItem(KEY,score)}catch(e){}}
+ const right=log.filter(l=>l.ok).length;
+ $('endT').textContent=fmt(score)+' punti';
+ $('endP').textContent=`${r>=7&&q>=PER&&lives>=0&&log.length>=40?'Hai completato tutte le 8 puntate':'Sei arrivato alla puntata '+(r+1)}: ${right} risposte giuste su ${log.length}. `+(nb?'Nuovo record personale!':`Il tuo record è ${fmt(best)} punti.`)+' Da ripassare:';
+ const rows=log.filter(l=>!l.ok||!l.x.v);
+ $('rev').innerHTML=rows.map(l=>`<li>${l.x.v?esc(l.x.t)+' <b>(vero)</b>':'<s>'+esc(l.x.t)+'</s>'} → <b>${esc(l.x.c)}</b>${l.ok?'':' <em style="color:#ff8a7a;font-style:normal">(sbagliata)</em>'}</li>`).join('')||'<li>Nessuna: tutte giuste!</li>';
+ window.scrollTo({top:0,behavior:'smooth'})}
+$('again').addEventListener('click',start);
+start();
+}
+</script></body></html>
