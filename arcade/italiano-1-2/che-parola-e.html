@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Che parola è? · Italiano Classe I e II</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: gioco a premi del sabato sera, gemello di "Chi vuol essere promosso?" e "Causa ed effetto"
+   IDEA: otto puntate a cronometro: una frase con una parola evidenziata e le nove parti del discorso
+   PICTURE: lo schermo dorato con la frase, la barra del tempo, la scala delle puntate accanto
+   COLOUR and TYPE: blu notte da studio, oro, verde per giusto e rosso per sbagliato; Bebas Neue + Lexend
+   LAYOUT: gioco a sinistra e puntate a destra; sul telefono le puntate diventano una striscia */
+:root{color-scheme:dark;--bg:#050b1c;--blue:#10224a;--blue2:#1e3d7a;--edge:#6f9be0;--gold:#ffd34d;--ink:#fff;--muted:#b8c8e8;--ok:#2ecc71;--ko:#e74c3c;--sel:#ff9f1a}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% -10%,#2c5aa0 0,#0b1a3a 50%,var(--bg) 100%) fixed;overflow-x:clip}
+.wrap{max-width:1000px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.lights{display:flex;justify-content:center;gap:9px;margin:2px 0 4px}
+.lights i{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold);animation:tw 1.6s infinite}
+.lights i:nth-child(2n){animation-delay:.8s}
+@keyframes tw{50%{opacity:.35}}
+h1{font:400 clamp(38px,7vw,64px)/1 'Bebas Neue',Impact,sans-serif;letter-spacing:2px;margin:0;text-align:center;color:var(--gold);text-shadow:0 0 18px rgba(255,211,77,.55)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 12px}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:16px;align-items:start}
+.prize{text-align:center;margin-bottom:6px}
+.prize i{font-style:normal}
+.prize span{display:inline-block;background:var(--gold);color:var(--bg);font:24px/1.2 'Bebas Neue',sans-serif;letter-spacing:1px;padding:3px 16px;border-radius:20px}
+.era{text-align:center;font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;margin-bottom:6px}
+.hud{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:8px;color:var(--muted);font-size:14px}
+.hud b{color:var(--gold);font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;margin-left:6px}
+.lamp{display:inline-block;width:13px;height:13px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold);margin-left:5px;vertical-align:-1px}
+.lamp.off{background:#2a3555;box-shadow:none}
+.timer{height:10px;background:var(--blue);border-radius:6px;margin:0 6% 12px;overflow:hidden}
+.timer i{display:block;height:100%;width:100%;background:var(--gold);border-radius:6px}
+.timer i.low{background:var(--ko)}
+.screen{position:relative;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:22px 20px;min-height:120px;display:flex;align-items:center;justify-content:center;text-align:center;font:600 clamp(18px,2.6vw,23px)/1.35 Lexend,sans-serif}
+.screen.ok{border-color:var(--ok);box-shadow:0 0 22px rgba(46,204,113,.45)}.screen.ko{border-color:var(--ko);box-shadow:0 0 22px rgba(231,76,60,.45)}
+.n{position:absolute;top:-12px;left:18px;background:var(--bg);color:var(--gold);font:18px/1 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border:2px solid var(--gold);border-radius:12px}
+.vf{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px auto 0;max-width:520px}
+.pos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:14px auto 0;max-width:620px}
+.po{position:relative;font:600 15px/1.15 Lexend,sans-serif;color:#fff;background:linear-gradient(#1e3d7a,#10224a);border:2px solid var(--edge);border-radius:30px;padding:10px 8px;min-height:50px;cursor:pointer}
+.po b{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--gold);font:16px 'Bebas Neue',sans-serif}
+.po:hover:not(:disabled){border-color:var(--gold)}
+.po.right{background:linear-gradient(#3be07f,#1e9e52);color:#002611;border-color:#fff;opacity:1}.po.right b{color:#002611}
+.po.wrong{background:linear-gradient(#ff6b5a,#c0392b);border-color:#fff;opacity:1}
+.po:disabled{cursor:default}.po.gone{opacity:.2}
+.hl{background:var(--gold);color:var(--bg);padding:0 6px;border-radius:6px}
+.big{font:36px/1 'Bebas Neue',sans-serif;letter-spacing:2px;border:2px solid #fff;border-radius:40px;padding:14px 10px;min-height:64px;cursor:pointer;color:#fff}
+.big.v{background:linear-gradient(#3be07f,#1e9e52);color:#002611}.big.f{background:linear-gradient(#ff6b5a,#c0392b)}
+.big:disabled{opacity:.35;cursor:default}.big.pick{opacity:1;outline:4px solid var(--gold);outline-offset:3px}
+.big:hover:not(:disabled){filter:brightness(1.12)}
+.corr{background:rgba(255,211,77,.1);border:1px dashed var(--gold);border-radius:12px;padding:10px 14px;margin-top:12px}
+.corr b{color:var(--gold)}
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:14px}
+.life{font:20px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:8px 16px;min-height:44px;cursor:pointer}
+.life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
+.go{font:24px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:10px 26px;min-height:48px;cursor:pointer;box-shadow:0 0 16px rgba(255,211,77,.5)}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.msg{text-align:center;min-height:28px;margin-top:12px;font-weight:600;color:var(--muted)}
+.msg.ok{color:var(--ok)}.msg.ko{color:#ff8a7a}
+.ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:2px}
+.ladder li{display:flex;justify-content:space-between;gap:8px;white-space:nowrap;font:18px/1.25 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:12px;color:var(--muted)}
+.ladder li.cur{background:var(--sel);color:#1b0f00}
+.ladder li.done{color:var(--gold)}
+.ladder li.perf span:last-child:after{content:" ★"}
+.end{text-align:center;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:20px 16px}
+.end h2{font:52px/1 'Bebas Neue',sans-serif;color:var(--gold);margin:6px 0;letter-spacing:2px}
+.rev{text-align:left;max-width:680px;margin:12px auto;padding-left:20px}.rev li{margin:7px 0}.rev b{color:var(--gold)}.rev s{color:#ff8a7a}
+.rules{color:var(--muted);font-size:15px;margin-top:22px;border-top:1px solid var(--blue2);padding-top:12px}.rules b{color:#fff}
+@media (prefers-reduced-motion:reduce){.lights i{animation:none}}
+@media(max-width:760px){.stage{grid-template-columns:1fr}.ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px}.ladder li{flex:none;font-size:17px;padding:2px 10px}.ladder li span:last-child:before{content:'·';margin:0 6px 0 0;opacity:.7}}
+@media(max-width:560px){.pos{gap:6px}.po{font-size:13px;padding:8px 3px;min-height:46px}.po b{display:none}.lights{display:none}.prize span{font-size:18px;padding:3px 12px}.era{font-size:19px}.lg{display:none}.hud{gap:10px}.screen{padding:20px 14px;min-height:110px}.vf{gap:10px}.big{font-size:30px;min-height:58px}.life{font-size:17px;padding:6px 12px}.bar{gap:8px}}
+
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,11,28,.85);color:#fff;font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,211,77,.35)}
+.mus.off{opacity:.6;box-shadow:none}
+@media(max-width:760px){.mus{top:auto;bottom:14px;right:12px;width:42px;height:42px;font-size:18px}}
+</style></head><body><div class="wrap"><button class="mus" id="mus" type="button" aria-label="Musica: attiva" title="Musica">🔊</button>
+<div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<h1>Che parola è?</h1>
+<p class="sub">Grammatica · Italiano Classe I e II · Analisi grammaticale: riconosci la parte del discorso</p>
+<div class="stage" id="game">
+ <div>
+  <div class="prize" id="prize"></div>
+  <div class="era" id="era"></div>
+  <div class="hud"><span>Punti<b id="hP">0</b></span><span>Serie<b id="hS">0</b></span><span>Errori rimasti<span id="lamps"></span></span><span>Record<b id="hR">0</b></span></div>
+  <div class="timer"><i id="tb"></i></div>
+  <div class="screen" id="scr"><span class="n" id="qn"></span><span id="txt"></span></div>
+  <div class="pos" id="pos"></div>
+  <div class="msg" id="msg" role="status"></div>
+  <div id="corr"></div>
+  <div class="bar" id="act"></div>
+  <div class="bar"><button class="life" id="lSkip" type="button">50:50</button><button class="life" id="lTime" type="button">Più tempo</button><button class="life" id="lSave" type="button">Scudo</button></div>
+ </div>
+ <ol class="ladder" id="ladder"></ol>
+</div>
+<div class="end" id="end" hidden><h2 id="endT"></h2><p id="endP"></p><ol class="rev" id="rev"></ol><button class="go" id="again" type="button">Nuova partita</button></div>
+<section class="rules"><b>Come si gioca</b><ul>
+<li>Il gioco ha 8 puntate da 5 frasi, sempre più difficili. In ogni frase una parola è evidenziata: tocca la <b>parte del discorso</b> giusta tra le nove della grammatica italiana prima che finisca il tempo (15 secondi). Dal computer puoi usare anche i tasti da 1 a 9.</li>
+<li>Più vai avanti, più vale ogni risposta giusta. Rispondere in fretta e fare una serie di risposte giuste dà punti in più. Se chiudi una puntata senza errori prendi un bonus ★.</li>
+<li>Puoi sbagliare 3 volte in tutta la partita: al quarto errore il gioco finisce. Anche il tempo scaduto conta come errore.</li>
+<li>Hai tre aiuti, ognuno usabile una sola volta. <b>50:50</b> spegne quattro risposte sbagliate. <b>Più tempo</b> riporta il cronometro a 15 secondi. <b>Scudo</b> ti protegge dal prossimo errore.</li>
+<li>Il tasto 🔊 in alto a destra accende o spegne la musica.</li>
+<li>Dopo ogni risposta leggi la spiegazione. Alla fine trovi le parole che hai sbagliato, da ripassare.</li></ul></section>
+</div><script>
+{
+
+const MUS=(()=>{let on=true;try{on=localStorage.getItem('arcade-musica')!=='off'}catch(e){}
+ let ctx=null,out=null,want=false,run=false,iv=null,next=0,step=0,bpm=100,fast=false;
+ const btn=document.getElementById('mus');
+ const paint=()=>{btn.textContent=on?'🔊':'🔇';btn.classList.toggle('off',!on);btn.setAttribute('aria-label','Musica: '+(on?'attiva':'spenta'))};paint();
+ function init(){if(ctx)return true;try{ctx=new (window.AudioContext||window.webkitAudioContext)();out=ctx.createGain();out.gain.value=.55;out.connect(ctx.destination);return true}catch(e){return false}}
+ function note(f,t,d,type,g,lp){const o=ctx.createOscillator(),v=ctx.createGain();o.type=type;o.frequency.setValueAtTime(f,t);
+  let last=o;if(lp){const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=lp;o.connect(fl);last=fl}
+  last.connect(v);v.connect(out);v.gain.setValueAtTime(.0001,t);v.gain.exponentialRampToValueAtTime(g,t+Math.min(.02,d/4));v.gain.exponentialRampToValueAtTime(.0001,t+d);o.start(t);o.stop(t+d+.05)}
+ const CH=[[110,130.8,164.8],[116.5,138.6,174.6],[110,130.8,164.8],[103.8,123.5,155.6]];
+ function play(s,t){const sp=60/bpm/4,bar=Math.floor(s/16)%4;
+  if(s%8===0)note(55,t,.28,'sine',.5);if(s%8===2)note(52,t,.2,'sine',.32);
+  if(s%4===0)note(fast?2400:1800,t,.035,'square',fast?.05:.03,6000);
+  if(fast&&s%2===1)note(2400,t,.025,'square',.025,6000);
+  if(s%16===0)CH[bar].forEach(f=>note(f*2,t,sp*16*.95,'triangle',.035,900));
+  if(s%16===12)note(CH[bar][2]*4,t,sp*3,'sine',.03)}
+ function sched(){if(!run)return;while(next<ctx.currentTime+.15){play(step,next);next+=60/bpm/4;step=(step+1)%64}}
+ function go(){if(!on||!want||run||!init())return;if(ctx.state!=='running'){ctx.resume();if(ctx.state!=='running')return}
+  run=true;next=ctx.currentTime+.05;step=0;iv=setInterval(sched,40)}
+ function halt(){run=false;clearInterval(iv)}
+ const unlock=()=>{if(init()&&ctx.state!=='running')ctx.resume().then(go,()=>{});else go()};
+ document.addEventListener('pointerdown',unlock,true);document.addEventListener('keydown',unlock,true);
+ btn.addEventListener('click',()=>{on=!on;try{localStorage.setItem('arcade-musica',on?'on':'off')}catch(e){}paint();on?go():halt()});
+ return{
+  start(b){bpm=b||100;fast=false;want=true;go()},
+  stop(){want=false;halt()},
+  fast(f){fast=f;bpm=f?Math.max(bpm,150):bpm},
+  speed(b){bpm=b},
+  win(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[523.3,659.3,784,1046.5].forEach((f,k)=>note(f,t+k*.08,.22,'square',.05,3500));[523.3,659.3,784].forEach(f=>note(f,t+.32,.6,'triangle',.06,4000));note(130.8,t+.32,.6,'sine',.35)},
+  lose(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;[392,370,349.2,311.1].forEach((f,k)=>note(f,t+k*.22,k===3?.8:.22,'sawtooth',.05,1200));note(77.8,t+.66,.8,'sine',.3)},
+  big(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;const m=[523.3,659.3,784,1046.5,784,1046.5];m.forEach((f,k)=>note(f,t+k*.11,.2,'square',.05,4000));[523.3,659.3,784,1046.5].forEach(f=>note(f,t+.7,1.1,'triangle',.06,5000));note(65.4,t+.7,1.1,'sine',.4);for(let k=0;k<8;k++)note(2600,t+.7+k*.06,.03,'square',.015,8000)},
+  roll(){if(!on||!init()||ctx.state!=='running')return;const t=ctx.currentTime;for(let k=0;k<18;k++)note(1500,t+k*.065,.04,'square',.012+k*.003,5000);note(55,t,1.2,'sine',.4)}
+ }})();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const fmt=n=>String(n).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+const DATA=[{"r": 0, "f": "[Il] gatto dorme sul divano.", "a": "Articolo", "c": "«Il» è un articolo determinativo maschile singolare: accompagna il nome «gatto»."}, {"r": 0, "f": "Marco legge un [libro].", "a": "Nome", "c": "«Libro» indica una cosa: è un nome comune, maschile singolare."}, {"r": 0, "f": "Ho comprato una maglia [rossa].", "a": "Aggettivo", "c": "«Rossa» descrive la maglia: è un aggettivo qualificativo."}, {"r": 0, "f": "I bambini [corrono] nel parco.", "a": "Verbo", "c": "«Corrono» esprime un'azione: è il verbo correre, presente indicativo."}, {"r": 0, "f": "[Ahimè], ho perso il treno!", "a": "Interiezione", "c": "«Ahimè» esprime un'emozione improvvisa: è un'interiezione."}, {"r": 0, "f": "Vado a scuola [con] mia sorella.", "a": "Preposizione", "c": "«Con» collega le parole indicando compagnia: è una preposizione semplice."}, {"r": 0, "f": "Luca [e] Anna sono amici.", "a": "Congiunzione", "c": "«E» unisce due parole sullo stesso piano: è una congiunzione coordinante."}, {"r": 1, "f": "Il treno arriva [presto].", "a": "Avverbio", "c": "«Presto» precisa il verbo «arriva» indicando il tempo: è un avverbio."}, {"r": 1, "f": "[Lei] studia ogni giorno.", "a": "Pronome", "c": "«Lei» sostituisce il nome di una persona: è un pronome personale soggetto."}, {"r": 1, "f": "Ho visto [uno] scoiattolo.", "a": "Articolo", "c": "«Uno» è un articolo indeterminativo, usato davanti a «sc»."}, {"r": 1, "f": "La [libertà] è un diritto.", "a": "Nome", "c": "«Libertà» è un nome astratto: indica un concetto."}, {"r": 1, "f": "Mangio la mela [ma] non la buccia.", "a": "Congiunzione", "c": "«Ma» collega due parti della frase con valore avversativo: è una congiunzione."}, {"r": 1, "f": "Il libro è [sul] tavolo.", "a": "Preposizione", "c": "«Sul» è una preposizione articolata: su + il."}, {"r": 1, "f": "[Oh], che bella sorpresa!", "a": "Interiezione", "c": "«Oh» esprime stupore: è un'interiezione."}, {"r": 2, "f": "Abbiamo [tre] gatti.", "a": "Aggettivo", "c": "«Tre» accompagna il nome «gatti» e ne indica la quantità: è un aggettivo numerale."}, {"r": 2, "f": "[Questo] quaderno è mio.", "a": "Aggettivo", "c": "«Questo» accompagna il nome «quaderno»: è un aggettivo dimostrativo."}, {"r": 2, "f": "Il film era [molto] lungo.", "a": "Avverbio", "c": "«Molto» modifica l'aggettivo «lungo»: è un avverbio di quantità."}, {"r": 2, "f": "Giulia [sembra] stanca.", "a": "Verbo", "c": "«Sembra» è un verbo (copulativo): collega il soggetto all'aggettivo «stanca»."}, {"r": 2, "f": "Ti telefono [quando] arrivo.", "a": "Congiunzione", "c": "«Quando» introduce una frase che indica il tempo: è una congiunzione subordinante."}, {"r": 2, "f": "Partiamo [da] Trieste.", "a": "Preposizione", "c": "«Da» indica il luogo di partenza: è una preposizione semplice."}, {"r": 2, "f": "Il [coraggio] di Ettore è famoso.", "a": "Nome", "c": "«Coraggio» è un nome astratto, maschile singolare."}, {"r": 3, "f": "La ragazza [che] hai conosciuto è mia cugina.", "a": "Pronome", "c": "Qui «che» sostituisce «la ragazza»: è un pronome relativo."}, {"r": 3, "f": "[Mio] fratello vive a Milano.", "a": "Aggettivo", "c": "«Mio» accompagna il nome «fratello»: è un aggettivo possessivo."}, {"r": 3, "f": "[Ne] voglio ancora un po'.", "a": "Pronome", "c": "«Ne» sostituisce «di questa cosa»: è un pronome."}, {"r": 3, "f": "Hanno lavorato [velocemente].", "a": "Avverbio", "c": "«Velocemente» dice come hanno lavorato: è un avverbio di modo."}, {"r": 3, "f": "Resto a casa [perché] piove.", "a": "Congiunzione", "c": "«Perché» introduce la causa: è una congiunzione subordinante."}, {"r": 3, "f": "Il compito è stato [corretto].", "a": "Verbo", "c": "«È stato corretto» è il verbo correggere al passato, in forma passiva."}, {"r": 3, "f": "[Peccato]! Non sei venuto.", "a": "Interiezione", "c": "Qui «peccato» esprime dispiacere da solo: è un'interiezione."}, {"r": 4, "f": "[Questo] è il mio posto.", "a": "Pronome", "c": "Qui «questo» non accompagna un nome ma lo sostituisce: è un pronome dimostrativo."}, {"r": 4, "f": "Ho [mangiato] troppo.", "a": "Verbo", "c": "«Ho mangiato» è il verbo mangiare al passato prossimo: «mangiato» è il participio."}, {"r": 4, "f": "Hai parlato [troppo].", "a": "Avverbio", "c": "Qui «troppo» modifica il verbo: è un avverbio di quantità."}, {"r": 4, "f": "C'erano [troppi] errori.", "a": "Aggettivo", "c": "Qui «troppi» accompagna il nome «errori»: è un aggettivo indefinito."}, {"r": 4, "f": "Il [bello] deve ancora venire.", "a": "Nome", "c": "Con l'articolo «il», l'aggettivo «bello» diventa un nome (aggettivo sostantivato)."}, {"r": 4, "f": "Dimmi [se] vieni.", "a": "Congiunzione", "c": "«Se» introduce una domanda indiretta: è una congiunzione."}, {"r": 4, "f": "[Lo] vedo ogni mattina.", "a": "Pronome", "c": "Qui «lo» sostituisce una persona e sta davanti al verbo: è un pronome, non un articolo."}, {"r": 5, "f": "[Lo] zaino è pesante.", "a": "Articolo", "c": "Qui «lo» accompagna il nome «zaino»: è un articolo determinativo."}, {"r": 5, "f": "Parla [piano], il bimbo dorme.", "a": "Avverbio", "c": "Qui «piano» dice come parlare: è un avverbio."}, {"r": 5, "f": "Abito al [piano] terra.", "a": "Nome", "c": "Qui «piano» indica il livello della casa: è un nome."}, {"r": 5, "f": "Il [bene] vince sempre sul male.", "a": "Nome", "c": "Con l'articolo, «bene» è un nome astratto."}, {"r": 5, "f": "Hai fatto [bene] a venire.", "a": "Avverbio", "c": "Qui «bene» dice come hai fatto: è un avverbio di modo."}, {"r": 5, "f": "Credo [che] abbia ragione.", "a": "Congiunzione", "c": "Qui «che» introduce una frase e non sostituisce nessun nome: è una congiunzione."}, {"r": 5, "f": "Il libro [che] leggo è bello.", "a": "Pronome", "c": "Qui «che» sostituisce «il libro»: è un pronome relativo."}, {"r": 6, "f": "[Nessuno] ha risposto.", "a": "Pronome", "c": "«Nessuno» qui sta da solo, al posto di un nome: è un pronome indefinito."}, {"r": 6, "f": "Non ho [nessuna] voglia.", "a": "Aggettivo", "c": "«Nessuna» accompagna il nome «voglia»: è un aggettivo indefinito."}, {"r": 6, "f": "Ci vediamo [dopo].", "a": "Avverbio", "c": "Qui «dopo» modifica il verbo indicando il tempo: è un avverbio."}, {"r": 6, "f": "[Dopo] cena usciamo.", "a": "Preposizione", "c": "Qui «dopo» regge il nome «cena»: è una preposizione."}, {"r": 6, "f": "[Sebbene] fosse stanco, uscì.", "a": "Congiunzione", "c": "«Sebbene» introduce una concessione: è una congiunzione subordinante."}, {"r": 6, "f": "[Ci] penso io.", "a": "Pronome", "c": "Qui «ci» significa «a ciò»: è un pronome (particella pronominale)."}, {"r": 6, "f": "Ho [visto] il mare.", "a": "Verbo", "c": "«Ho visto» è il verbo vedere al passato prossimo."}, {"r": 7, "f": "[Cantare] mi rende felice.", "a": "Verbo", "c": "«Cantare» è un verbo all'infinito, anche se qui fa da soggetto."}, {"r": 7, "f": "Ascolto il [cantare] degli uccelli.", "a": "Nome", "c": "Con l'articolo, l'infinito «cantare» diventa un nome (infinito sostantivato)."}, {"r": 7, "f": "[Quale] libro preferisci?", "a": "Aggettivo", "c": "«Quale» accompagna il nome «libro»: è un aggettivo interrogativo."}, {"r": 7, "f": "Tra questi due, [quale] preferisci?", "a": "Pronome", "c": "Qui «quale» sta da solo: è un pronome interrogativo."}, {"r": 7, "f": "[Mah], non saprei.", "a": "Interiezione", "c": "«Mah» esprime dubbio: è un'interiezione."}, {"r": 7, "f": "Ho chiamato [lui], non lei.", "a": "Pronome", "c": "«Lui» sostituisce il nome di una persona: è un pronome personale."}, {"r": 7, "f": "Lavora [senza] sosta.", "a": "Preposizione", "c": "«Senza» regge il nome «sosta»: è una preposizione."}], ROUNDS=[["Riscaldamento", "Riscaldamento"], ["Primi passi", "Primi passi"], ["Sul sicuro", "Sul sicuro"], ["Si fa sul serio", "Sul serio"], ["Trabocchetti", "Trabocchetti"], ["Parole doppie", "Doppie"], ["Da esperti", "Esperti"], ["Gran finale", "Finale"]], VAL=[100,150,200,250,300,400,500,600], PER=5, T=15, LIVES=3, KEY='gp-tv-italiano12-I e II', POS=['Articolo','Nome','Aggettivo','Pronome','Verbo','Avverbio','Preposizione','Congiunzione','Interiezione'];
+let r,q,pool,cur,score,streak,lives,shield,errsRound,perfect,log,busy,t0,raf,best=0;
+try{best=+localStorage.getItem(KEY)||0}catch(e){}
+let ac=null;function tone(f,d,t='sine',g=.08){try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();const o=ac.createOscillator(),v=ac.createGain();o.type=t;o.frequency.value=f;o.connect(v);v.connect(ac.destination);const n=ac.currentTime;v.gain.setValueAtTime(g,n);v.gain.exponentialRampToValueAtTime(.001,n+d);o.start(n);o.stop(n+d)}catch(e){}}
+function start(){r=0;score=0;streak=0;lives=LIVES;shield=false;perfect=[];log=[];$('end').hidden=true;$('game').hidden=false;
+ ['lSkip','lTime','lSave'].forEach(i=>$(i).disabled=false);round()}
+function round(){pool=shuffle(DATA.filter(x=>x.r===r));q=0;errsRound=0;
+ $('era').textContent=ROUNDS[r][0];ladder();ask(pool.shift())}
+function ask(item){cur=item;busy=false;
+ $('prize').innerHTML=`<span>Puntata ${r+1} di 8 · ${fmt(VAL[r])} punti<i class="lg"> a risposta</i></span>`;
+ $('qn').textContent=`Domanda ${q+1} di ${PER}`;$('txt').innerHTML=esc(cur.f).replace(/\[(.+?)\]/,'<mark class="hl">$1</mark>');$('scr').className='screen';
+ $('pos').innerHTML=POS.map((p,k)=>`<button class="po" type="button" data-p="${p}"><b>${k+1}</b>${p}</button>`).join('');
+ $('corr').innerHTML='';$('act').innerHTML='';say('Che parola è quella evidenziata?');hud();timer();MUS.start(96+r*6)}
+function say(t,c=''){$('msg').textContent=t;$('msg').className='msg '+c}
+function hud(){$('hP').textContent=fmt(score);$('hS').textContent=streak;$('hR').textContent=fmt(best);
+ $('lamps').innerHTML=Array.from({length:LIVES},(_,i)=>`<i class="lamp ${i<lives?'':'off'}"></i>`).join('')+(shield?' 🛡':'')}
+function ladder(){$('ladder').innerHTML=ROUNDS.map((x,k)=>`<li class="${k===r?'cur':''} ${k<r?'done':''} ${perfect.includes(k)?'perf':''}"><span>${k+1} · ${esc(x[1])}</span><span>${fmt(VAL[k])}</span></li>`).join('');
+ const c=$('ladder').querySelector('.cur');if(c&&matchMedia('(max-width:760px)').matches)c.scrollIntoView({inline:'center',block:'nearest'})}
+let hurry=false;function timer(){cancelAnimationFrame(raf);hurry=false;t0=performance.now();const tick=now=>{const left=Math.max(0,T-(now-t0)/1000);
+ $('tb').style.width=(left/T*100)+'%';$('tb').className=left<4?'low':'';if(left<4&&!hurry){hurry=true;MUS.fast(true)}
+ if(left<=0){answer(null);return}raf=requestAnimationFrame(tick)};raf=requestAnimationFrame(tick)}
+function answer(v){if(busy)return;busy=true;cancelAnimationFrame(raf);MUS.stop();
+ const left=Math.max(0,T-(performance.now()-t0)/1000),ok=v===cur.a;
+ document.querySelectorAll('.po').forEach(b=>{b.disabled=true;if(b.dataset.p===cur.a)b.classList.add('right');else if(b.dataset.p===v)b.classList.add('wrong')});
+ let txt;
+ if(ok){streak++;const g=VAL[r]+Math.round(left/T*VAL[r]/2)+Math.min(streak-1,5)*20;score+=g;$('scr').className='screen ok';
+  txt=`Esatto: è ${art(cur.a)}! +${fmt(g)}`;say(txt,'ok');MUS.win()}
+ else{streak=0;$('scr').className='screen ko';MUS.lose();
+  const why=v===null?'Tempo scaduto':'Sbagliato';
+  if(shield){shield=false;say(`${why}, ma lo scudo ti ha protetto! Era ${art(cur.a)}.`,'ko')}
+  else{errsRound++;lives--;say(`${why}: era ${art(cur.a)}.`,'ko')}}
+ log.push({x:cur,ok});
+ $('corr').innerHTML=`<div class="corr"><b>${cur.a}.</b> ${esc(cur.c)}</div>`;hud();
+ q++;let lab,id='nx';
+ if(lives<0){lives=0;hud();lab='Vedi il risultato';id='fin'}
+ else if(q>=PER){if(errsRound===0){const b=VAL[r]*2;score+=b;perfect.push(r);hud();say(($('msg').textContent)+` Puntata perfetta! Bonus ★ +${fmt(b)}`,'ok');setTimeout(()=>MUS.big(),700)}
+  ladder();lab=r<7?'Prossima puntata':'Vedi il risultato';if(r>=7)id='fin'}
+ else lab='Prossima domanda';
+ $('act').innerHTML=`<button class="go" id="${id}" type="button">${lab}</button>`;
+ $('act').querySelector('button').focus({preventScroll:true});$('act').scrollIntoView({block:'nearest',behavior:'smooth'})}
+$('pos').addEventListener('click',e=>{const b=e.target.closest('.po');if(b&&!b.disabled)answer(b.dataset.p)});
+const art=a=>({'Articolo':'un articolo','Nome':'un nome','Aggettivo':'un aggettivo','Pronome':'un pronome','Verbo':'un verbo','Avverbio':'un avverbio','Preposizione':'una preposizione','Congiunzione':'una congiunzione','Interiezione':"un'interiezione"})[a];
+document.addEventListener('keydown',e=>{if($('game').hidden)return;const k=e.key.toLowerCase();
+ const n=+k;if(!busy&&n>=1&&n<=9){const b=document.querySelectorAll('.po')[n-1];if(b&&!b.disabled)answer(b.dataset.p)}});
+$('act').addEventListener('click',e=>{const id=e.target.id;
+ if(id==='nx'){if(q>=PER){r++;round();window.scrollTo({top:0,behavior:'smooth'})}else ask(pool.shift())}
+ if(id==='fin')finish()});
+$('lSkip').addEventListener('click',()=>{if(busy)return;$('lSkip').disabled=true;const w=shuffle([...document.querySelectorAll('.po')].filter(b=>b.dataset.p!==cur.a));w.slice(0,4).forEach(b=>{b.disabled=true;b.classList.add('gone')});say('Ho spento quattro risposte sbagliate.')});
+$('lTime').addEventListener('click',()=>{if(busy)return;$('lTime').disabled=true;timer();MUS.fast(false);MUS.speed(96+r*6);say('Il cronometro riparte da 15 secondi.')});
+$('lSave').addEventListener('click',()=>{if(busy)return;shield=true;$('lSave').disabled=true;hud();say('Scudo attivo: il prossimo errore non conta.')});
+function finish(){MUS.stop();$('game').hidden=true;$('end').hidden=false;cancelAnimationFrame(raf);
+ const nb=score>best;if(nb){best=score;try{localStorage.setItem(KEY,score)}catch(e){}}
+ const right=log.filter(l=>l.ok).length;
+ $('endT').textContent=fmt(score)+' punti';
+ $('endP').textContent=`${r>=7&&q>=PER&&lives>=0&&log.length>=40?'Hai completato tutte le 8 puntate':'Sei arrivato alla puntata '+(r+1)}: ${right} risposte giuste su ${log.length}. `+(nb?'Nuovo record personale!':`Il tuo record è ${fmt(best)} punti.`)+' Le parole da ripassare:';
+ const rows=log.filter(l=>!l.ok);
+ $('rev').innerHTML=rows.map(l=>`<li>${esc(l.x.f).replace(/\[(.+?)\]/,'<b>$1</b>')} → <b>${l.x.a}</b>: ${esc(l.x.c)}</li>`).join('')||'<li>Nessuna: tutte giuste, complimenti!</li>';
+ window.scrollTo({top:0,behavior:'smooth'})}
+$('again').addEventListener('click',start);
+start();
+}
+</script></body></html>
