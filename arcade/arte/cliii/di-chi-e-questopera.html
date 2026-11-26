@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Di chi è quest'opera? · Arte Classe III</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: studio TV anni 80, gioco a premi — riconosci l'autore di quest'opera?
+   IDEA: immagine dell'opera, quattro nomi di artisti tra cui scegliere, cronometro
+   COLOUR: blu notte da studio, oro, verde corretto, rosso sbagliato; Bebas Neue + Lexend */
+:root{color-scheme:dark;--bg:#050b1c;--blue:#10224a;--blue2:#1e3d7a;--edge:#6f9be0;--gold:#ffd21c;--ink:#fff;--muted:#b8c8e8;--ok:#2ecc71;--ko:#e74c3c;--sel:#ff9f1a}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% -10%,#2c5aa0 0,#0b1a3a 50%,var(--bg) 100%) fixed;overflow-x:clip}
+.wrap{max-width:1000px;margin:0 auto;padding:12px max(3vw,10px) 28px}
+.lights{display:flex;justify-content:center;gap:9px;margin:2px 0 4px}
+.lights i{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px var(--gold);animation:tw 1.6s infinite}
+.lights i:nth-child(2n){animation-delay:.8s}
+@keyframes tw{50%{opacity:.35}}
+h1{font:400 clamp(36px,6.5vw,60px)/1 'Bebas Neue',Impact,sans-serif;letter-spacing:2px;margin:0;text-align:center;color:var(--gold);text-shadow:0 0 18px rgba(255,210,28,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 12px}
+/* layout: immagine | pannello destra */
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:16px;align-items:start}
+.left{display:flex;flex-direction:column;gap:12px}
+/* cornice TV per l'immagine */
+.frame{position:relative;border:3px solid var(--gold);border-radius:14px;overflow:hidden;background:#0a1530;min-height:220px;display:flex;align-items:center;justify-content:center}
+.frame img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain}
+.frame .loading{position:absolute;color:var(--muted);font-size:14px}
+.frame.ok{border-color:var(--ok);box-shadow:0 0 22px rgba(46,204,113,.4)}
+.frame.ko{border-color:var(--ko);box-shadow:0 0 22px rgba(231,76,60,.4)}
+.opera-name{text-align:center;font:italic 15px/1.3 Lexend,sans-serif;color:var(--muted);margin-top:4px}
+/* hud */
+.hud{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:14px}
+.hud b{color:var(--gold);font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;margin-left:5px}
+/* timer */
+.timer{height:10px;background:var(--blue);border-radius:6px;margin:0 6% 4px;overflow:hidden}
+.timer i{display:block;height:100%;width:100%;background:var(--gold);border-radius:6px;transition:width .15s linear,background .15s}
+.timer i.low{background:var(--ko)}
+/* n° domanda */
+.qnum{text-align:center;font:16px 'Bebas Neue',sans-serif;color:var(--muted);letter-spacing:1px}
+/* griglia 2×2 per 4 nomi-artisti */
+.choices{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.ch{display:flex;align-items:center;justify-content:center;gap:6px;font:700 clamp(13px,1.8vw,16px)/1.2 Lexend,sans-serif;color:#fff;background:linear-gradient(#1e3d7a,#10224a);border:2px solid var(--edge);border-radius:30px;padding:12px 8px;min-height:54px;cursor:pointer;text-align:center;transition:border-color .15s,background .15s}
+.ch b{flex:none;color:var(--gold);font:18px 'Bebas Neue',sans-serif;min-width:20px}
+.ch:hover:not(:disabled){border-color:var(--gold)}
+.ch.right{background:linear-gradient(#3be07f,#1e9e52);color:#002611;border-color:#fff}.ch.right b{color:#002611}
+.ch.wrong{background:linear-gradient(#ff6b5a,#c0392b);border-color:#fff}
+.ch:disabled{cursor:default}.ch.gone{opacity:.18}
+/* feedback */
+.msg{text-align:center;min-height:28px;font-weight:600;color:var(--muted)}
+.msg.ok{color:var(--ok)}.msg.ko{color:#ff8a7a}
+.corr{background:rgba(255,210,28,.08);border:1px dashed var(--gold);border-radius:12px;padding:10px 14px;font-size:14px;color:#cce}
+.corr b{color:var(--gold)}
+/* aiuti + avanti */
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:8px}
+.life{font:19px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:7px 16px;min-height:42px;cursor:pointer;white-space:nowrap}
+.life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
+.go{font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:9px 24px;min-height:46px;cursor:pointer;box-shadow:0 0 16px rgba(255,210,28,.5)}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+/* scala punteggi */
+.ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:2px}
+.ladder li{display:flex;justify-content:space-between;gap:8px;white-space:nowrap;font:17px/1.25 'Bebas Neue',sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:12px;color:var(--muted)}
+.ladder li.cur{background:var(--sel);color:#1b0f00}
+.ladder li.done{color:var(--gold)}
+.ladder li.perf span:last-child:after{content:" ★"}
+/* fine partita */
+.end{text-align:center;background:linear-gradient(#13285a,#0b1a3a);border:3px solid var(--gold);border-radius:18px;padding:20px 16px}
+.end h2{font:52px/1 'Bebas Neue',sans-serif;color:var(--gold);margin:6px 0;letter-spacing:2px}
+.rev{text-align:left;max-width:680px;margin:12px auto;padding-left:20px}.rev li{margin:7px 0}.rev b{color:var(--gold)}.rev s{color:#ff8a7a}
+/* regole */
+.rules{color:var(--muted);font-size:15px;margin-top:22px;border-top:1px solid var(--blue2);padding-top:12px}.rules b{color:#fff}
+@media(prefers-reduced-motion:reduce){.lights i{animation:none}.timer i{transition:none}}
+@media(max-width:760px){
+  .stage{grid-template-columns:1fr}
+  .ladder{flex-direction:row;overflow-x:auto;order:-1;padding:6px}
+  .ladder li{flex:none;font-size:15px;padding:2px 10px}
+  .ladder li span:last-child:before{content:'·';margin:0 5px 0 0;opacity:.7}
+}
+@media(max-width:560px){
+  .choices{gap:8px}.ch{padding:10px 5px;min-height:50px;font-size:12px}
+  .lights{display:none}
+  .hud{gap:10px}.frame img{max-height:260px}
+}
+</style></head><body><div class="wrap">
+<div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<h1>Di chi è quest'opera?</h1>
+<p class="sub">Arte · Classe III</p>
+
+<div class="stage" id="game">
+ <div class="left">
+  <div class="hud">
+   <span>Punti<b id="hP">0</b></span>
+   <span>Serie<b id="hS">0</b></span>
+   <span>Errori rimasti<b id="hL">3</b></span>
+   <span>Record<b id="hR">0</b></span>
+  </div>
+  <div class="timer"><i id="tb"></i></div>
+  <div class="qnum" id="qnum"></div>
+  <div class="frame" id="frame">
+   <span class="loading">Caricamento…</span>
+   <img id="img" alt="" style="display:none" loading="eager">
+  </div>
+  <div class="opera-name" id="operaName"></div>
+  <div class="choices" id="choices"></div>
+  <div class="msg" id="msg" role="status"></div>
+  <div id="corr"></div>
+  <div class="bar" id="act"></div>
+  <div class="bar">
+   <button class="life" id="lFifty" type="button">50:50</button>
+   <button class="life" id="lTime" type="button">+Tempo</button>
+   <button class="life" id="lShield" type="button">Scudo</button>
+  </div>
+ </div>
+ <ol class="ladder" id="ladder"></ol>
+</div>
+
+<div class="end" id="end" hidden>
+ <h2 id="endTitle"></h2>
+ <p id="endScore"></p>
+ <ol class="rev" id="rev"></ol>
+ <button class="go" id="again" type="button">Nuova partita</button>
+</div>
+
+<section class="rules"><b>Come si gioca</b><ul>
+<li>Guarda l'immagine dell'opera e scegli tra i quattro nomi chi l'ha creata. Hai 25 secondi per rispondere.</li>
+<li>Più risposte consecutive giuste → serie bonus. Rispondere in fretta dà punti extra.</li>
+<li>Puoi sbagliare 3 volte: al quarto errore il gioco finisce. Anche il tempo esaurito conta come errore.</li>
+<li><b>50:50</b> elimina due nomi sbagliati. <b>+Tempo</b> riporta il cronometro a 25 s. <b>Scudo</b> ti protegge dal prossimo errore.</li>
+<li>Dopo ogni risposta leggi dove si trova l'opera e qualche informazione. Alla fine trovi le domande sbagliate da ripassare.</li>
+</ul></section>
+</div>
+
+<script>
+{
+const DATA = [{"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg/640px-Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg", "opera": "Bacio di Giuda", "autore": "Giotto di Bondone", "choices": ["Duccio di Buoninsegna", "Simone Martini", "Cimabue", "Giotto di Bondone"], "ci": 3, "info": "Cappella degli Scrovegni, Padova (1304-1306). Giotto cattura il momento drammatico del tradimento con figure psicologicamente intense."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Cimabue_-_Madonna_in_trono_con_il_Bambino%2C_angeli_e_santi_-_Google_Art_Project.jpg/400px-Cimabue_-_Madonna_in_trono_con_il_Bambino%2C_angeli_e_santi_-_Google_Art_Project.jpg", "opera": "Maestà (Uffizi)", "autore": "Cimabue", "choices": ["Simone Martini", "Giotto di Bondone", "Duccio di Buoninsegna", "Cimabue"], "ci": 3, "info": "Uffizi, Firenze (1280-1290 ca.). Ancora legata allo stile bizantino ma con apertura verso il naturalismo; confrontata con la Maestà di Duccio."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Maest%C3%A0_%28Duccio%29_October_2015-1.jpg/640px-Maest%C3%A0_%28Duccio%29_October_2015-1.jpg", "opera": "Maestà (Siena)", "autore": "Duccio di Buoninsegna", "choices": ["Ambrogio Lorenzetti", "Simone Martini", "Cimabue", "Duccio di Buoninsegna"], "ci": 3, "info": "Museo dell'Opera del Duomo, Siena (1308-1311). La grande pala dipinta su entrambi i lati per il Duomo di Siena, apice del gotico senese."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Simone_martini%2C_guidoriccio_da_fogliano.jpg/640px-Simone_martini%2C_guidoriccio_da_fogliano.jpg", "opera": "Guidoriccio da Fogliano", "autore": "Simone Martini", "choices": ["Pietro Lorenzetti", "Simone Martini", "Duccio di Buoninsegna", "Ambrogio Lorenzetti"], "ci": 1, "info": "Palazzo Pubblico, Siena (1328). Eccezionale pittura laica medievale: il condottiero in armatura avanza su un paesaggio stilizzato."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ambrogio_Lorenzetti_-_Effects_of_Good_Government_in_the_city_-_Google_Art_Project.jpg/640px-Ambrogio_Lorenzetti_-_Effects_of_Good_Government_in_the_city_-_Google_Art_Project.jpg", "opera": "Allegoria del Buon Governo (dettaglio)", "autore": "Ambrogio Lorenzetti", "choices": ["Pietro Lorenzetti", "Duccio di Buoninsegna", "Simone Martini", "Ambrogio Lorenzetti"], "ci": 3, "info": "Palazzo Pubblico, Siena (1338-1340). Prima grande veduta urbana realistica nella pittura medievale: la città di Siena con attività quotidiane."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Nicola_Pisano%2C_pulpit%2C_Pisa_Baptistery.jpg/400px-Nicola_Pisano%2C_pulpit%2C_Pisa_Baptistery.jpg", "opera": "Pulpito del Battistero di Pisa", "autore": "Nicola Pisano", "choices": ["Nicola Pisano", "Giovanni Pisano", "Wiligelmo", "Benedetto Antelami"], "ci": 0, "info": "Battistero di Pisa (1260). Il primo grande pulpito medievale che recupera il classicismo romano: le figure si ispirano ai sarcofagi antichi."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Duomo_di_Parma_-_deposizione_di_antelami_-_02.jpg/400px-Duomo_di_Parma_-_deposizione_di_antelami_-_02.jpg", "opera": "Apollo e Dafne — no, Deposizione (Parma)", "autore": "Benedetto Antelami", "choices": ["Wiligelmo", "Benedetto Antelami", "Nicola Pisano", "Giovanni Pisano"], "ci": 1, "info": "Duomo di Parma (1178). La Deposizione di Antelami è il capolavoro della scultura romanica italiana: figure classicheggianti ed espressive."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Modena_Cattedrale_Wiligelmo_La_creazione.jpg/640px-Modena_Cattedrale_Wiligelmo_La_creazione.jpg", "opera": "Deposizione (Duomo di Parma)", "autore": "Wiligelmo", "choices": ["Giovanni Pisano", "Benedetto Antelami", "Wiligelmo", "Nicola Pisano"], "ci": 2, "info": "Duomo di Modena (inizio XII sec.). Pannelli con le Storie della Genesi: Wiligelmo firma per la prima volta la propria opera in un'iscrizione."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Laocoon_and_His_Sons.jpg/400px-Laocoon_and_His_Sons.jpg", "opera": "Laocoonte (scultura ellenistica)", "autore": "Agesandro, Polidoro e Atenodoro di Rodi", "choices": ["Agesandro, Polidoro e Atenodoro di Rodi", "Mirone di Eleutere", "Policleto di Argo", "Fidia di Atene"], "ci": 0, "info": "Musei Vaticani (I sec. a.C.). Gruppo scultoreo ellenistico: il sacerdote troiano e i figli avvolti dai serpenti, massima espressione del pathos."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Myron_Discobolus.jpg/400px-Myron_Discobolus.jpg", "opera": "Discobolo", "autore": "Mirone di Eleutere", "choices": ["Prassitele", "Fidia di Atene", "Policleto di Argo", "Mirone di Eleutere"], "ci": 3, "info": "Copia romana dell'originale bronzeo del 450 a.C. ca. Mirone cattura l'istante di massima tensione del lancio del disco: primo esempio di figura in movimento."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meister_von_San_Vitale_in_Ravenna.jpg/640px-Meister_von_San_Vitale_in_Ravenna.jpg", "opera": "Mosaici di San Vitale (Giustiniano)", "autore": "Mosaicisti ravennati anonimi", "choices": ["Artisti paleocristiani romani", "Mosaicisti ravennati anonimi", "Artisti gotici italiani", "Pittori carolingi"], "ci": 1, "info": "Basilica di San Vitale, Ravenna (547). Il mosaico con l'imperatore Giustiniano e la sua corte: figure ieratiche su fondo oro, tipico antinaturalismo bizantino."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AltamiraBison.jpg/640px-AltamiraBison.jpg", "opera": "Pittura rupestre di Altamira", "autore": "Artisti anonimi paleolitici", "choices": ["Artisti del Neolitico", "Artisti dell'età del bronzo", "Primi agricoltori mesopotamici", "Artisti anonimi paleolitici"], "ci": 3, "info": "Grotta di Altamira, Spagna (circa 14.000 a.C.). Bisonti dipinti con ocra e carbone: straordinario naturalismo con uso del rilievo della roccia."}];
+const LSKEY = 'arteiii_opera';
+const TOTAL  = DATA.length;
+const TIME   = 25;      // secondi per domanda
+const MAX_ERR = 3;
+
+// Punteggi per posizione
+const PRIZES = [
+  '500','1 000','2 000','3 000','5 000',
+  '10 000','20 000','50 000','100 000','200 000',
+  '500 000','1 000 000'
+];
+
+const $=id=>document.getElementById(id);
+
+let qs, cur, pts, streak, errs, shield, timer, timerEl, started;
+let lifeUsed = {fifty:false, time:false, shield:false};
+let wrongs = [];
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+
+function saveRecord(p){
+  try{const r=+(localStorage.getItem(LSKEY)||0);if(p>r)localStorage.setItem(LSKEY,p)}catch(e){}
+}
+function loadRecord(){try{return+(localStorage.getItem(LSKEY)||0)}catch(e){return 0}}
+
+function buildLadder(){
+  const ol=$('ladder'); ol.innerHTML='';
+  const steps = Math.min(TOTAL, PRIZES.length);
+  for(let i=0;i<steps;i++){
+    const li=document.createElement('li');
+    li.dataset.i=i;
+    li.innerHTML=`<span>${i+1}</span><span>${PRIZES[i]||'?'} pt</span>`;
+    ol.appendChild(li);
+  }
+}
+function updateLadder(i){
+  document.querySelectorAll('#ladder li').forEach(li=>{
+    const idx=+li.dataset.i;
+    li.className = idx===i?'cur':idx<i?'done':'';
+  });
+}
+
+function startGame(){
+  qs = shuffle([...DATA]);
+  cur = 0; pts = 0; streak = 0; errs = 0; shield = false;
+  lifeUsed = {fifty:false,time:false,shield:false};
+  wrongs = [];
+  $('game').hidden = false;
+  $('end').hidden  = true;
+  ['lFifty','lTime','lShield'].forEach(id=>$('i'+id.replace('l',''))||$('l'+id.replace('l','').toLowerCase()));
+  $('lFifty').disabled  = false;
+  $('lTime').disabled   = false;
+  $('lShield').disabled = false;
+  buildLadder();
+  updateScore();
+  showQ();
+}
+
+function updateScore(){
+  $('hP').textContent = pts.toLocaleString('it');
+  $('hS').textContent = streak;
+  $('hL').textContent = MAX_ERR - errs;
+  $('hR').textContent = Math.max(pts, loadRecord()).toLocaleString('it');
+}
+
+function showQ(){
+  if(cur >= qs.length){ endGame(); return; }
+  const q = qs[cur];
+  updateLadder(cur);
+  $('qnum').textContent = `Opera ${cur+1} di ${qs.length}`;
+
+  // immagine
+  const frame = $('frame');
+  const img = $('img');
+  frame.className = 'frame';
+  img.style.display = 'none';
+  frame.querySelector('.loading').hidden = false;
+  img.onload = ()=>{ img.style.display='block'; frame.querySelector('.loading').hidden=true; };
+  img.onerror = ()=>{ frame.querySelector('.loading').textContent='Immagine non disponibile'; };
+  img.src = q.img;
+  img.alt = `Opera: ${q.opera}`;
+  // titolo opera nascosto finché non risponde
+  $('operaName').textContent = '';
+
+  // scelte
+  const grid = $('choices'); grid.innerHTML = '';
+  const labels = ['A','B','C','D'];
+  q.choices.forEach((name, i)=>{
+    const btn = document.createElement('button');
+    btn.className = 'ch';
+    btn.type = 'button';
+    btn.innerHTML = `<b>${labels[i]}</b> ${name}`;
+    btn.dataset.i = i;
+    btn.addEventListener('click', ()=>answer(i));
+    grid.appendChild(btn);
+  });
+
+  $('msg').className = 'msg';
+  $('msg').textContent = 'Chi ha creato quest'opera?';
+  $('corr').innerHTML = '';
+  $('act').innerHTML = '';
+
+  startTimer();
+}
+
+function startTimer(){
+  clearInterval(timer);
+  let t = TIME;
+  timerEl = $('tb');
+  timerEl.className = '';
+  timerEl.style.width = '100%';
+  timer = setInterval(()=>{
+    t--;
+    timerEl.style.width = (t/TIME*100)+'%';
+    if(t<=7) timerEl.className='low';
+    if(t<=0){ clearInterval(timer); timeUp(); }
+  }, 1000);
+}
+
+function timeUp(){
+  const msg = $('msg');
+  msg.className = 'msg ko';
+  msg.textContent = 'Tempo scaduto!';
+  if(shield){ useShield(); return; }
+  errs++;
+  updateScore();
+  disableAll();
+  revealCorrect();
+  if(errs>=MAX_ERR){ setTimeout(endGame,2200); return; }
+  setTimeout(nextQ, 2200);
+}
+
+function answer(i){
+  clearInterval(timer);
+  const q = qs[cur];
+  const btns = document.querySelectorAll('.ch');
+  const msg  = $('msg');
+  if(i === q.ci){
+    btns[i].className = 'ch right';
+    msg.className = 'msg ok';
+    msg.textContent = '✓ Corretto!';
+    streak++;
+    const mult = 1 + Math.min(streak-1, 3)*0.5;
+    const speedBonus = Math.round((+timerEl.style.width.replace('%','')/100)*150);
+    const base = +(PRIZES[cur]||'0').replace(/\s/g,'').replace('.','') || (cur+1)*500;
+    pts += Math.round(base * mult) + speedBonus;
+    updateScore();
+    revealInfo(false);
+    setTimeout(nextQ, 2000);
+  } else {
+    btns[i].className = 'ch wrong';
+    msg.className = 'msg ko';
+    if(shield){ msg.textContent = '🛡 Protetto dallo scudo!'; useShield(); return; }
+    msg.textContent = '✗ Sbagliato';
+    streak = 0;
+    errs++;
+    updateScore();
+    disableAll();
+    wrongs.push({opera:q.opera, autore:q.autore, chosen:q.choices[i]});
+    revealCorrect();
+    revealInfo(true);
+    if(errs>=MAX_ERR){ setTimeout(endGame,2500); return; }
+    setTimeout(nextQ, 2500);
+  }
+}
+
+function revealCorrect(){
+  const q = qs[cur];
+  const btns = document.querySelectorAll('.ch');
+  $('frame').className = 'frame';
+  btns.forEach((b,i)=>{
+    if(i===q.ci) b.className='ch right';
+    else if(b.className==='ch'||b.className==='ch gone') b.className='ch gone';
+  });
+  $('operaName').textContent = `"${q.opera}"`;
+}
+
+function revealInfo(wrong){
+  const q = qs[cur];
+  $('frame').className = wrong ? 'frame ko' : 'frame ok';
+  $('corr').innerHTML = `<div class="corr"><b>${q.autore}</b> — ${q.info}</div>`;
+  $('operaName').textContent = `"${q.opera}"`;
+}
+
+function disableAll(){
+  document.querySelectorAll('.ch').forEach(b=>b.disabled=true);
+}
+
+function nextQ(){
+  cur++;
+  showQ();
+}
+
+function useShield(){
+  shield = false;
+  $('lShield').disabled = true;
+  $('msg').textContent += ' — lo scudo è stato consumato';
+  setTimeout(nextQ, 1800);
+}
+
+// ── Aiuti ─────────────────────────────────────────
+$('lFifty').addEventListener('click', ()=>{
+  if(lifeUsed.fifty) return;
+  lifeUsed.fifty = true;
+  $('lFifty').disabled = true;
+  const q = qs[cur];
+  const btns = [...document.querySelectorAll('.ch')];
+  let removed = 0;
+  btns.forEach((b,i)=>{
+    if(i!==q.ci && removed<2){ b.className='ch gone'; b.disabled=true; removed++; }
+  });
+});
+
+$('lTime').addEventListener('click', ()=>{
+  if(lifeUsed.time) return;
+  lifeUsed.time = true;
+  $('lTime').disabled = true;
+  clearInterval(timer);
+  startTimer();
+});
+
+$('lShield').addEventListener('click', ()=>{
+  if(lifeUsed.shield||shield) return;
+  lifeUsed.shield = true;
+  shield = true;
+  $('lShield').style.borderColor='var(--ok)';
+  $('lShield').style.color='var(--ok)';
+});
+
+// ── Fine partita ──────────────────────────────────
+function endGame(){
+  clearInterval(timer);
+  saveRecord(pts);
+  $('game').hidden = true;
+  $('end').hidden  = false;
+
+  const title = $('endTitle');
+  if(pts >= 500000) title.textContent = '🏆 Capolavoro!';
+  else if(pts >= 100000) title.textContent = '🎨 Ottimo!';
+  else if(pts >= 20000)  title.textContent = '👍 Bravo!';
+  else                   title.textContent = '📚 Riprova!';
+
+  $('endScore').textContent = `Punteggio finale: ${pts.toLocaleString('it')} punti · Record: ${loadRecord().toLocaleString('it')}`;
+
+  const rev = $('rev');
+  rev.innerHTML = '';
+  if(wrongs.length){
+    const h = document.createElement('li');
+    h.style.listStyle='none';
+    h.innerHTML = '<b>Da ripassare:</b>';
+    rev.appendChild(h);
+    wrongs.forEach(w=>{
+      const li = document.createElement('li');
+      li.innerHTML = `"${w.opera}" — autore: <b>${w.autore}</b> (hai risposto: <s>${w.chosen}</s>)`;
+      rev.appendChild(li);
+    });
+  } else {
+    rev.innerHTML = '<li style="list-style:none;color:var(--ok)">✓ Nessun errore — ottima conoscenza delle opere!</li>';
+  }
+}
+
+$('again').addEventListener('click', startGame);
+
+// avvio
+startGame();
+}
+</script></body></html>
