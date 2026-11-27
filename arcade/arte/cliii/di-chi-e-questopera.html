@@ -281,7 +281,6 @@ function showQ(){
   $('msg').className = 'msg';
   $('msg').textContent = 'Chi ha creato quest’opera?';
   $('corr').innerHTML = '';
-  $('act').innerHTML = '';
 
   // se già in cache il browser non scatena onload → gestisci subito
   if(img.complete){ img.style.display='block'; frame.querySelector('.loading').hidden=true; if(!timerStarted){timerStarted=true;startTimer();} }
@@ -304,6 +303,7 @@ function startTimer(){
 function showNavBtns(gameOver){
   const btnNext = $('btnNext');
   const btnBack = $('btnBack');
+  if(!btnNext || !btnBack) return;
   btnNext.hidden = !!gameOver;
   btnBack.hidden = cur === 0;
 }
