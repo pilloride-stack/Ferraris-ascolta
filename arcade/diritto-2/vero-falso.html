@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vero o Falso Istituzioni · Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--ko:#ef4444;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;position:relative;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-24px) scale(1.04);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:580px;padding:0 16px 48px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.header{padding:22px 0 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.logo-row{display:flex;flex-direction:column;gap:6px;}
+.pill-tag{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;border-radius:999px;background:rgba(200,212,0,.12);border:1px solid rgba(200,212,0,.3);font-size:.68rem;font-weight:700;letter-spacing:1.5px;color:var(--gold2);text-transform:uppercase;}
+.game-name{font-family:Inter,sans-serif;font-weight:900;font-size:2.4rem;letter-spacing:-2px;line-height:.9;color:var(--white);}
+.game-name em{font-style:normal;color:var(--gold);}
+.subtitle{font-size:.72rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px;}
+.score-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;}
+.score-num{font-family:Inter,sans-serif;font-size:2.8rem;font-weight:900;line-height:1;color:var(--gold);letter-spacing:-2px;}
+.score-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+.prog-wrap{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-bottom:20px;}
+.prog-dot{height:4px;border-radius:2px;background:rgba(255,255,255,.1);transition:background .3s;}
+.prog-dot.done{background:var(--c3);} .prog-dot.current{background:var(--gold);}
+.timer-bar-wrap{margin-bottom:16px;}
+.timer-bar-track{height:6px;border-radius:3px;background:rgba(255,255,255,.08);overflow:hidden;}
+.timer-bar-fill{height:100%;border-radius:3px;background:var(--gold);transition:width .1s linear,background .3s;}
+.timer-info{display:flex;justify-content:space-between;margin-top:5px;}
+.timer-info span{font-size:.7rem;color:var(--muted);}
+.qcard{position:relative;background:var(--glass);border:1px solid var(--glass-border);border-radius:24px;padding:30px 24px 26px;overflow:hidden;margin-bottom:20px;text-align:center;}
+.qcard::after{content:'';position:absolute;top:0;left:24px;right:24px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.4;}
+.q-num{font-size:.7rem;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:16px;}
+.q-text{font-size:1.15rem;font-weight:700;line-height:1.65;color:#fff;margin-bottom:28px;}
+.vf-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:4px;}
+.vf-btn{padding:18px 12px;border-radius:16px;border:2px solid;font-family:Inter,sans-serif;font-size:1.3rem;font-weight:900;cursor:pointer;transition:all .15s;display:flex;flex-direction:column;align-items:center;gap:6px;}
+.vf-btn.vero{background:rgba(16,185,129,.08);border-color:rgba(16,185,129,.3);color:#6ee7b7;}
+.vf-btn.falso{background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.3);color:#fca5a5;}
+.vf-btn:hover:not(:disabled){transform:scale(1.03);}
+.vf-btn.vero:hover:not(:disabled){background:rgba(16,185,129,.18);border-color:var(--ok);}
+.vf-btn.falso:hover:not(:disabled){background:rgba(239,68,68,.18);border-color:var(--ko);}
+.vf-btn.correct{background:rgba(16,185,129,.2);border-color:var(--ok);box-shadow:0 0 20px rgba(16,185,129,.3);}
+.vf-btn.wrong{background:rgba(239,68,68,.1);border-color:var(--ko);opacity:.5;}
+.vf-btn:disabled{cursor:default;}
+.vf-label{font-size:.75rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;}
+.feedback{margin-top:16px;padding:14px 16px;border-radius:14px;font-size:.87rem;font-weight:600;line-height:1.5;text-align:left;}
+.feedback.ok{background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);color:#6ee7b7;}
+.feedback.ko{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);color:#fca5a5;}
+.feedback .perche{display:block;margin-top:8px;padding:8px 10px;border-radius:8px;background:rgba(255,255,255,.05);color:var(--muted);font-size:.82rem;font-weight:400;line-height:1.5;border-left:3px solid rgba(239,68,68,.4);}
+.ref{font-size:.72rem;color:var(--muted);font-weight:400;font-style:italic;margin-top:6px;}
+.bottom{display:flex;align-items:center;justify-content:space-between;}
+.flags{display:flex;align-items:center;gap:8px;}
+.flags span{font-size:1.3rem;}
+.school{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;display:block;margin-top:2px;}
+.btn-cta{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:12px 22px;font-family:Lexend,sans-serif;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.25);transition:all .15s;}
+.btn-cta:hover{background:var(--gold2);box-shadow:0 0 32px rgba(200,212,0,.45);transform:translateY(-1px);}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.75rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+.btn-cta:disabled{opacity:.4;cursor:default;transform:none;}
+.end-screen{display:none;flex-direction:column;align-items:center;text-align:center;gap:16px;padding:32px 0;}
+.end-trophy{font-size:4rem;animation:pop .4s ease;}
+@keyframes pop{0%{transform:scale(0);}80%{transform:scale(1.15);}100%{transform:scale(1);}}
+.end-title{font-family:Inter,sans-serif;font-weight:900;font-size:2rem;letter-spacing:-1.5px;}
+.end-score{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);letter-spacing:-2px;}
+.end-rank{font-size:1rem;font-weight:600;color:var(--muted);margin-top:-8px;}
+.end-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;margin-top:8px;}
+.stat-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:16px;text-align:center;}
+.stat-n{font-family:Inter,sans-serif;font-size:1.8rem;font-weight:900;color:var(--gold);}
+.stat-l{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:2px;}
+.btn-restart{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:14px 32px;font-family:Lexend,sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.3);transition:all .15s;margin-top:8px;}
+.btn-restart:hover{background:var(--gold2);transform:translateY(-2px);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+  <div class="header">
+    <div class="logo-row">
+      <div class="pill-tag">⚡ Vero o Falso</div>
+      <div class="game-name">Istituzioni<em>Flash</em></div>
+      <div class="subtitle">★ · Classe II · Rapidità</div>
+    </div>
+    <div class="score-block">
+      <div class="score-num" id="scoreNum">0</div>
+      <div class="score-label">punti</div>
+    </div>
+  </div>
+
+  <div id="gameArea">
+    <div class="prog-wrap" id="progWrap"></div>
+    <div class="timer-bar-wrap">
+      <div class="timer-bar-track"><div class="timer-bar-fill" id="timerBar" style="width:100%"></div></div>
+      <div class="timer-info"><span id="timerLeft">16s</span><span id="timerLabel">⚡ Rispondi in fretta!</span></div>
+    </div>
+    <div class="qcard" id="qcard">
+      <div class="q-num" id="qNum">Affermazione 01</div>
+      <div class="q-text" id="qText"></div>
+      <div class="vf-row">
+        <button class="vf-btn vero" id="btnVero" onclick="answer(true)">✅<span class="vf-label">Vero</span></button>
+        <button class="vf-btn falso" id="btnFalso" onclick="answer(false)">❌<span class="vf-label">Falso</span></button>
+      </div>
+      <div id="feedback"></div>
+    </div>
+    <div class="bottom">
+      <div class="flags"><a class="back-link" href="index.html">← Menu</a><span>🇮🇹</span><span>🇪🇺</span><span class="school">Galileo Ferraris · Trieste</span></div>
+      <button class="btn-cta" id="btnNext" disabled onclick="nextQ()">Continua →</button>
+    </div>
+  </div>
+
+  <div class="end-screen" id="endScreen">
+    <div class="end-trophy" id="endTrophy">⚡</div>
+    <div class="end-title">Partita completata!</div>
+    <div class="end-score" id="endScore">0</div>
+    <div class="end-rank" id="endRank">Rango: Apprendista</div>
+    <div class="end-stats">
+      <div class="stat-box"><div class="stat-n" id="statCorr">0</div><div class="stat-l">✓ Corrette</div></div>
+      <div class="stat-box"><div class="stat-n" id="statStreak">0</div><div class="stat-l">🔥 Max streak</div></div>
+      <div class="stat-box"><div class="stat-n" id="statBonus">0</div><div class="stat-l">⚡ Bonus velocità</div></div>
+      <div class="stat-box"><div class="stat-n" id="statAcc">0%</div><div class="stat-l">🎯 Precisione</div></div>
+    </div>
+    <button class="btn-restart" onclick="restart()">🎮 Gioca ancora</button>
+  </div>
+</div>
+
+<script>
+// a = risposta corretta (true=VERO, false=FALSO)
+// f = spiegazione mostrata quando l'affermazione è FALSA (perché è falsa)
+const BANCO=[
+  // PARLAMENTO
+  {q:"Il Parlamento italiano è monocamerale: è composto solo dalla Camera dei Deputati.",a:false,s:"§1 Parlamento",f:"Il Parlamento italiano è bicamerale: comprende la Camera dei Deputati e il Senato della Repubblica."},
+  {q:"La Camera dei Deputati è composta da 400 deputati eletti.",a:true,s:"§1 Parlamento"},
+  {q:"La durata normale della legislatura è di 4 anni.",a:false,s:"§1 Parlamento",f:"La legislatura dura normalmente 5 anni, salvo scioglimento anticipato delle Camere."},
+  {q:"Il Parlamento si riunisce in seduta comune per eleggere il Presidente della Repubblica.",a:true,s:"§1 Parlamento"},
+  {q:"I parlamentari godono di immunità per qualsiasi reato commesso.",a:false,s:"§1 Parlamento",f:"L'immunità parlamentare protegge i parlamentari solo per le opinioni espresse e i voti dati nell'esercizio delle loro funzioni, non per reati comuni."},
+  {q:"Una legge ordinaria deve essere approvata con testo identico da entrambe le Camere.",a:true,s:"§1 Parlamento"},
+  {q:"Il Parlamento può essere sciolto in qualsiasi momento dal Presidente del Consiglio.",a:false,s:"§1 Parlamento",f:"Lo scioglimento anticipato delle Camere è una prerogativa del Presidente della Repubblica, non del Presidente del Consiglio."},
+  // PRESIDENTE DELLA REPUBBLICA
+  {q:"Il Presidente della Repubblica è eletto direttamente dai cittadini.",a:false,s:"§2 Presidente della Repubblica",f:"Il Presidente della Repubblica è eletto dal Parlamento in seduta comune, integrato dai delegati regionali, non dai cittadini direttamente."},
+  {q:"Il mandato del Presidente della Repubblica dura 7 anni.",a:true,s:"§2 Presidente della Repubblica"},
+  {q:"Per essere eletto Presidente della Repubblica occorre aver compiuto almeno 50 anni.",a:true,s:"§2 Presidente della Repubblica"},
+  {q:"Il Presidente della Repubblica può rinviare una legge alle Camere più volte.",a:false,s:"§2 Presidente della Repubblica",f:"Il Presidente della Repubblica può rinviare una legge alle Camere con messaggio motivato, ma se le Camere la riapprovano, è obbligato a promulgarla: il rinvio è possibile una sola volta."},
+  {q:"Il Presidente della Repubblica promulga le leggi entro 30 giorni dall'approvazione parlamentare.",a:true,s:"§2 Presidente della Repubblica"},
+  {q:"La controfirma ministeriale non ha alcun valore giuridico.",a:false,s:"§2 Presidente della Repubblica",f:"La controfirma ministeriale trasferisce la responsabilità politica dell'atto dal Presidente della Repubblica al Governo; senza di essa l'atto non è valido."},
+  // GOVERNO
+  {q:"Il Governo è composto dal solo Presidente del Consiglio.",a:false,s:"§3 Governo",f:"Il Governo è composto dal Presidente del Consiglio e dai ministri; l'insieme forma il Consiglio dei Ministri."},
+  {q:"Il Governo deve ottenere la fiducia delle Camere entro 10 giorni dalla formazione.",a:true,s:"§3 Governo"},
+  {q:"La mozione di sfiducia, se approvata, obbliga il Governo a dimettersi.",a:true,s:"§3 Governo"},
+  {q:"Il decreto-legge può essere adottato dal Governo in qualsiasi situazione.",a:false,s:"§3 Governo",f:"Il decreto-legge può essere adottato solo in casi straordinari di necessità e urgenza; deve essere convertito in legge dal Parlamento entro 60 giorni, altrimenti decade."},
+  {q:"Il decreto legislativo viene emanato dal Governo su delega del Parlamento.",a:true,s:"§3 Governo"},
+  // MAGISTRATURA
+  {q:"I magistrati sono soggetti al Ministro della Giustizia nella loro attività giurisdizionale.",a:false,s:"§4 Magistratura",f:"I magistrati sono soggetti soltanto alla legge (art. 101 Cost.); il Ministro della Giustizia ha solo funzioni amministrative, non può influenzare l'attività giurisdizionale."},
+  {q:"Il CSM è presieduto dal Presidente della Repubblica.",a:true,s:"§4 Magistratura"},
+  {q:"Il giudice di pace è un magistrato professionale e togato.",a:false,s:"§4 Magistratura",f:"Il giudice di pace è un magistrato onorario (non professionale), scelto tra laureati in legge con determinati requisiti, non appartenente alla magistratura togata."},
+  {q:"La magistratura ordinaria comprende sia giudici civili sia giudici penali.",a:true,s:"§4 Magistratura"},
+  // CORTE COSTITUZIONALE
+  {q:"La Corte Costituzionale è composta da 15 giudici.",a:true,s:"§5 Corte Costituzionale"},
+  {q:"I giudici della Corte Costituzionale restano in carica a vita.",a:false,s:"§5 Corte Costituzionale",f:"I giudici della Corte Costituzionale restano in carica 9 anni e non possono essere riconfermati."},
+  {q:"La Corte Costituzionale giudica la legittimità costituzionale delle leggi.",a:true,s:"§5 Corte Costituzionale"},
+  {q:"Tutti i giudici della Corte Costituzionale sono nominati dal Presidente della Repubblica.",a:false,s:"§5 Corte Costituzionale",f:"I 15 giudici si dividono in tre gruppi: 5 nominati dal Presidente della Repubblica, 5 eletti dal Parlamento in seduta comune, 5 eletti dalle supreme magistrature."},
+  {q:"Il giudizio in via incidentale inizia quando un cittadino fa ricorso diretto alla Corte.",a:false,s:"§5 Corte Costituzionale",f:"Nel giudizio in via incidentale non è il cittadino a ricorrere direttamente: è il giudice del processo principale che solleva la questione di legittimità costituzionale sospendendo il processo."},
+  // ECONOMIA
+  {q:"Il PIL misura il valore di tutti i beni e servizi prodotti in un Paese in un anno.",a:true,s:"§6 PIL e macroeconomia"},
+  {q:"Il PIL reale e il PIL nominale sono sempre identici.",a:false,s:"§6 PIL e macroeconomia",f:"Il PIL nominale è espresso a prezzi correnti; il PIL reale è corretto per l'inflazione. Differiscono ogni volta che i prezzi variano."},
+  {q:"In un oligopolio vi è un solo venditore che domina il mercato.",a:false,s:"§8 Forme di mercato",f:"L'oligopolio è caratterizzato da pochi grandi venditori (non uno solo). Un solo venditore caratterizza il monopolio."},
+  {q:"La politica monetaria in Italia è gestita dalla BCE e dalla Banca d'Italia.",a:true,s:"§7 Inflazione e moneta"},
+  {q:"L'inflazione è una diminuzione generalizzata dei prezzi.",a:false,s:"§7 Inflazione e moneta",f:"L'inflazione è un aumento generalizzato e persistente dei prezzi (non una diminuzione). La diminuzione generalizzata dei prezzi si chiama deflazione."},
+  {q:"Un bene pubblico è caratterizzato da non rivalità e non escludibilità.",a:true,s:"§8 Forme di mercato"},
+  {q:"Il deficit pubblico indica che le entrate dello Stato superano le uscite.",a:false,s:"§7 Inflazione e moneta",f:"Il deficit pubblico è la situazione opposta: le uscite (spese) dello Stato superano le entrate (entrate fiscali). È il disavanzo di bilancio pubblico."},
+  {q:"Il moltiplicatore keynesiano indica che un aumento della spesa pubblica produce un aumento del PIL.",a:true,s:"§6 PIL e macroeconomia"},
+  {q:"In concorrenza monopolistica i prodotti sono omogenei e identici.",a:false,s:"§8 Forme di mercato",f:"La concorrenza monopolistica si distingue proprio per la differenziazione del prodotto: molti produttori offrono prodotti simili ma differenziati (design, marca, qualità), non omogenei."},
+  {q:"Il tasso di disoccupazione è il rapporto tra i disoccupati e la forza lavoro.",a:true,s:"§6 PIL e macroeconomia"},
+  {q:"Il PNL e il PIL coincidono sempre.",a:false,s:"§6 PIL e macroeconomia",f:"Il PIL misura la produzione nel territorio nazionale (criterio territoriale); il PNL misura la produzione dei residenti nazionali ovunque si trovino (criterio di nazionalità). Differiscono per i redditi netti dall'estero."},
+];
+
+const TIMER_S=16;
+let questions=[],qi=0,score=0,correct=0,streak=0,maxStreak=0,answered=false,timeLeft=TIMER_S,timerInterval=null,speedBonus=0;
+
+function shuffle(a){return a.sort(()=>Math.random()-.5);}
+function buildProgress(){
+  const w=document.getElementById('progWrap');w.innerHTML='';
+  for(let i=0;i<10;i++){const d=document.createElement('div');d.className='prog-dot'+(i<qi?' done':i===qi?' current':'');w.appendChild(d);}
+}
+function startTimer(){
+  timeLeft=TIMER_S;
+  timerInterval=setInterval(()=>{
+    timeLeft=Math.max(0,timeLeft-0.1);
+    const pct=(timeLeft/TIMER_S)*100;
+    const bar=document.getElementById('timerBar');
+    bar.style.width=pct+'%';
+    bar.style.background=timeLeft>5?'var(--gold)':'#ef4444';
+    document.getElementById('timerLeft').textContent=Math.ceil(timeLeft)+'s';
+    if(timeLeft<=0){clearInterval(timerInterval);autoTimeout();}
+  },100);
+}
+function buildFeedbackFalso(q,extra){
+  const perche=(!q.a && q.f)?`<span class="perche">💡 Perché è falso: ${q.f}</span>`:'';
+  return `<div class="feedback ko">${extra}${perche}<div class="ref">${q.s}</div></div>`;
+}
+function autoTimeout(){
+  if(answered)return;answered=true;streak=0;
+  document.getElementById('btnVero').disabled=true;document.getElementById('btnFalso').disabled=true;
+  const q=questions[qi];
+  (q.a?document.getElementById('btnVero'):document.getElementById('btnFalso')).classList.add('correct');
+  document.getElementById('feedback').innerHTML=buildFeedbackFalso(q,`⏰ Tempo scaduto! Era <strong>${q.a?'VERO':'FALSO'}</strong> `);
+  document.getElementById('btnNext').disabled=false;
+}
+function loadQ(){
+  answered=false;clearInterval(timerInterval);
+  document.getElementById('btnVero').disabled=false;document.getElementById('btnFalso').disabled=false;
+  document.getElementById('btnVero').className='vf-btn vero';document.getElementById('btnFalso').className='vf-btn falso';
+  document.getElementById('feedback').innerHTML='';document.getElementById('btnNext').disabled=true;
+  const q=questions[qi];
+  document.getElementById('qNum').textContent=`Affermazione ${String(qi+1).padStart(2,'0')} · ${q.s}`;
+  document.getElementById('qText').textContent=q.q;
+  buildProgress();startTimer();
+}
+function answer(val){
+  if(answered)return;answered=true;clearInterval(timerInterval);
+  const q=questions[qi];const isOk=val===q.a;
+  document.getElementById('btnVero').disabled=true;document.getElementById('btnFalso').disabled=true;
+  if(isOk){
+    (val?document.getElementById('btnVero'):document.getElementById('btnFalso')).classList.add('correct');
+    const bonus=Math.round((timeLeft/TIMER_S)*8);
+    const pts=10+bonus+(streak>=2?3:0);
+    score+=pts;correct++;streak++;speedBonus+=bonus;maxStreak=Math.max(maxStreak,streak);
+    document.getElementById('scoreNum').textContent=score;
+    document.getElementById('feedback').innerHTML=`<div class="feedback ok">✅ <strong>Esatto! +${pts} pts${bonus>4?' ⚡ veloce!':''}</strong><div class="ref">${q.s}</div></div>`;
+  } else {
+    (val?document.getElementById('btnVero'):document.getElementById('btnFalso')).classList.add('wrong');
+    (!val?document.getElementById('btnVero'):document.getElementById('btnFalso')).classList.add('correct');
+    streak=0;
+    document.getElementById('feedback').innerHTML=buildFeedbackFalso(q,`❌ Sbagliato! Era <strong>${q.a?'VERO':'FALSO'}</strong> `);
+  }
+  document.getElementById('btnNext').disabled=false;
+}
+function nextQ(){qi++;if(qi>=10){endGame();return;}loadQ();}
+function endGame(){
+  document.getElementById('gameArea').style.display='none';
+  const es=document.getElementById('endScreen');es.style.display='flex';
+  document.getElementById('endScore').textContent=score;
+  document.getElementById('endRank').textContent=score>=80?'🌟 Fulmine d\'oro':score>=50?'⚡ Velocista':'🏛 Apprendista';
+  document.getElementById('statCorr').textContent=correct+'/10';
+  document.getElementById('statStreak').textContent=maxStreak;
+  document.getElementById('statBonus').textContent=speedBonus;
+  document.getElementById('statAcc').textContent=Math.round(correct*10)+'%';
+  document.getElementById('endTrophy').textContent=score>=80?'🌟':score>=50?'⚡':'🏛';
+}
+function restart(){
+  score=0;correct=0;streak=0;maxStreak=0;qi=0;speedBonus=0;
+  document.getElementById('scoreNum').textContent='0';
+  document.getElementById('endScreen').style.display='none';
+  document.getElementById('gameArea').style.display='block';
+  questions=shuffle([...BANCO]).slice(0,10);loadQ();
+}
+questions=shuffle([...BANCO]).slice(0,10);loadQ();
+</script>
+</body>
+</html>

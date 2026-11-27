@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abbina l'Istituzione · Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--ko:#ef4444;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-24px);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:680px;padding:0 16px 48px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.header{padding:22px 0 16px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.logo-row{display:flex;flex-direction:column;gap:6px;}
+.pill-tag{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;border-radius:999px;background:rgba(200,212,0,.12);border:1px solid rgba(200,212,0,.3);font-size:.68rem;font-weight:700;letter-spacing:1.5px;color:var(--gold2);text-transform:uppercase;}
+.game-name{font-family:Inter,sans-serif;font-weight:900;font-size:2.2rem;letter-spacing:-1.5px;line-height:.9;color:var(--white);}
+.game-name em{font-style:normal;color:var(--gold);}
+.subtitle{font-size:.7rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:4px;}
+.score-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;}
+.score-num{font-family:Inter,sans-serif;font-size:2.6rem;font-weight:900;line-height:1;color:var(--gold);}
+.score-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+.prog-wrap{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-bottom:14px;}
+.prog-dot{height:4px;border-radius:2px;background:rgba(255,255,255,.1);transition:background .3s;}
+.prog-dot.done{background:var(--c3);} .prog-dot.current{background:var(--gold);}
+.round-info{text-align:center;font-size:.75rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;}
+.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px;}
+.card-col{display:flex;flex-direction:column;gap:8px;}
+.m-card{padding:13px 14px;border-radius:14px;border:2px solid;cursor:pointer;font-size:.82rem;font-weight:600;line-height:1.4;transition:all .15s;background:var(--glass);}
+.m-card.fonte{border-color:rgba(200,212,0,.2);color:#e8f080;}
+.m-card.defi{border-color:var(--glass-border);color:var(--muted);}
+.m-card.fonte:hover{border-color:rgba(200,212,0,.5);background:rgba(200,212,0,.07);}
+.m-card.defi:hover{border-color:rgba(255,255,255,.18);color:var(--white);}
+.m-card.selected{border-color:var(--gold);background:rgba(200,212,0,.12);color:var(--white);box-shadow:0 0 16px rgba(200,212,0,.2);}
+.m-card.matched-ok{border-color:var(--ok);background:rgba(16,185,129,.1);color:#6ee7b7;cursor:default;pointer-events:none;opacity:.7;}
+.m-card.matched-ko{border-color:var(--ko);background:rgba(239,68,68,.1);color:#fca5a5;animation:shake .3s;cursor:default;}
+@keyframes shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-6px);}75%{transform:translateX(6px);}}
+.feedback-line{text-align:center;font-size:.82rem;font-weight:600;min-height:28px;padding:6px;border-radius:8px;margin-bottom:12px;}
+.feedback-line.ok{color:#6ee7b7;background:rgba(16,185,129,.08);}
+.feedback-line.ko{color:#fca5a5;background:rgba(239,68,68,.06);}
+.bottom{display:flex;align-items:center;justify-content:space-between;}
+.flags{display:flex;align-items:center;gap:8px;}
+.flags span{font-size:1.3rem;}
+.school{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;display:block;margin-top:2px;}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.75rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+.btn-cta{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:12px 22px;font-family:Lexend,sans-serif;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.25);transition:all .15s;}
+.btn-cta:hover:not(:disabled){background:var(--gold2);transform:translateY(-1px);}
+.btn-cta:disabled{opacity:.35;cursor:default;transform:none;}
+.end-screen{display:none;flex-direction:column;align-items:center;text-align:center;gap:16px;padding:32px 0;}
+.end-trophy{font-size:4rem;animation:pop .4s ease;}
+@keyframes pop{0%{transform:scale(0);}80%{transform:scale(1.15);}100%{transform:scale(1);}}
+.end-title{font-family:Inter,sans-serif;font-weight:900;font-size:2rem;letter-spacing:-1.5px;}
+.end-score{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);letter-spacing:-2px;}
+.end-rank{font-size:1rem;font-weight:600;color:var(--muted);margin-top:-8px;}
+.end-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;margin-top:8px;}
+.stat-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:16px;text-align:center;}
+.stat-n{font-family:Inter,sans-serif;font-size:1.8rem;font-weight:900;color:var(--gold);}
+.stat-l{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:2px;}
+.btn-restart{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:14px 32px;font-family:Lexend,sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.3);transition:all .15s;margin-top:8px;}
+.btn-restart:hover{background:var(--gold2);transform:translateY(-2px);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+  <div class="header">
+    <div class="logo-row">
+      <div class="pill-tag">🔗 Abbinamento</div>
+      <div class="game-name">Abbina<em>l'Istituzione</em></div>
+      <div class="subtitle">★ · Classe II · Costituzione</div>
+    </div>
+    <div class="score-block">
+      <div class="score-num" id="scoreNum">0</div>
+      <div class="score-label">punti</div>
+    </div>
+  </div>
+
+  <div id="gameArea">
+    <div class="prog-wrap" id="progWrap"></div>
+    <div class="round-info" id="roundInfo">Round 1 di 10 — abbina organo e definizione</div>
+    <div class="match-grid">
+      <div class="card-col" id="fontiCol"></div>
+      <div class="card-col" id="defiCol"></div>
+    </div>
+    <div class="feedback-line" id="fbLine"></div>
+    <div class="bottom">
+      <div class="flags"><a class="back-link" href="https://episodi.galileoferraris.com/arcade/diritto-2/index.html">← Menu</a><span>🇮🇹</span><span>🇪🇺</span><span class="school">Galileo Ferraris · Trieste</span></div>
+      <button class="btn-cta" id="btnNext" disabled onclick="nextRound()">Continua →</button>
+    </div>
+  </div>
+
+  <div class="end-screen" id="endScreen">
+    <div class="end-trophy" id="endTrophy">🏛</div>
+    <div class="end-title">Partita completata!</div>
+    <div class="end-score" id="endScore">0</div>
+    <div class="end-rank" id="endRank">Rango: Apprendista</div>
+    <div class="end-stats">
+      <div class="stat-box"><div class="stat-n" id="statCorr">0</div><div class="stat-l">✓ Corretti</div></div>
+      <div class="stat-box"><div class="stat-n" id="statErr">0</div><div class="stat-l">✗ Errori</div></div>
+      <div class="stat-box"><div class="stat-n" id="statRounds">10</div><div class="stat-l">🔗 Round</div></div>
+      <div class="stat-box"><div class="stat-n" id="statAcc">0%</div><div class="stat-l">🎯 Precisione</div></div>
+    </div>
+    <button class="btn-restart" onclick="restart()">🎮 Gioca ancora</button>
+  </div>
+</div>
+
+<script>
+const BANCO=[
+  {f:"Parlamento",d:"Organo legislativo bicamerale composto da Camera dei Deputati e Senato."},
+  {f:"Camera dei Deputati",d:"Ramo del Parlamento con 400 eletti, sede a Montecitorio."},
+  {f:"Senato della Repubblica",d:"Ramo del Parlamento con 200 eletti più senatori a vita, sede a Palazzo Madama."},
+  {f:"Presidente della Repubblica",d:"Capo dello Stato, eletto dal Parlamento in seduta comune, dura 7 anni."},
+  {f:"Governo",d:"Organo esecutivo composto dal Presidente del Consiglio e dai ministri."},
+  {f:"Consiglio dei Ministri",d:"Organo collegiale del Governo che delibera le decisioni politiche fondamentali."},
+  {f:"Corte Costituzionale",d:"Organo di garanzia che giudica la legittimità delle leggi rispetto alla Costituzione."},
+  {f:"CSM",d:"Organo di autogoverno della magistratura, presieduto dal Presidente della Repubblica."},
+  {f:"Magistratura",d:"Potere giudiziario indipendente, soggetto soltanto alla legge."},
+  {f:"Consiglio di Stato",d:"Organo di consulenza giuridico-amministrativa e giurisdizione amministrativa."},
+  {f:"Corte dei Conti",d:"Organo che esercita il controllo di legittimità sugli atti del Governo e giurisdizione contabile."},
+  {f:"Presidente del Consiglio",d:"Capo del Governo, dirige la politica generale del Governo e mantiene l'unità d'indirizzo."},
+  {f:"Commissione parlamentare",d:"Organo interno delle Camere che esamina i disegni di legge e svolge funzioni istruttorie."},
+  {f:"Referendum abrogativo",d:"Strumento di democrazia diretta con cui i cittadini possono abrogare leggi ordinarie."},
+  {f:"Decreto legislativo",d:"Atto normativo con forza di legge emanato dal Governo su delega del Parlamento."},
+  {f:"Decreto-legge",d:"Atto normativo urgente del Governo, da convertire in legge entro 60 giorni."},
+  {f:"Regolamento parlamentare",d:"Atto interno delle Camere che disciplina la propria organizzazione e il procedimento legislativo."},
+  {f:"Fiducia parlamentare",d:"Rapporto politico tra Parlamento e Governo, necessario per l'azione dell'esecutivo."},
+  {f:"Promulgazione",d:"Atto con cui il Presidente della Repubblica attesta l'esistenza della legge e ne ordina la pubblicazione."},
+  {f:"Controfirma ministeriale",d:"Firma del Ministro che trasferisce la responsabilità degli atti presidenziali al Governo."},
+];
+
+let rounds=[],ri=0,score=0,correct=0,errors=0,selectedF=null,selectedD=null,matched=0;
+
+function shuffle(a){return a.sort(()=>Math.random()-.5);}
+function buildProgress(){
+  const w=document.getElementById('progWrap');w.innerHTML='';
+  for(let i=0;i<10;i++){const d=document.createElement('div');d.className='prog-dot'+(i<ri?' done':i===ri?' current':'');w.appendChild(d);}
+}
+function loadRound(){
+  matched=0;selectedF=null;selectedD=null;
+  document.getElementById('roundInfo').textContent=`Round ${ri+1} di 10 — abbina organo e definizione`;
+  document.getElementById('fbLine').className='feedback-line';document.getElementById('fbLine').textContent='';
+  document.getElementById('btnNext').disabled=true;
+  const pair=rounds[ri];
+  // Show the target fonte + 2 distractors on left; shuffle 3 defs on right
+  const distractorFs=shuffle(BANCO.filter(b=>b.f!==pair.f)).slice(0,2);
+  const leftItems=shuffle([pair,...distractorFs]);
+  const rightDefs=shuffle([{d:pair.d,correct:true},...distractorFs.map(b=>({d:b.d,correct:false,f:b.f}))]);
+
+  const fc=document.getElementById('fontiCol');fc.innerHTML='';
+  leftItems.forEach((item,i)=>{
+    const c=document.createElement('div');
+    c.className='m-card fonte';c.dataset.f=item.f;
+    c.textContent='🏛 '+item.f;
+    c.onclick=()=>selectF(c,item.f);fc.appendChild(c);
+  });
+  const dc=document.getElementById('defiCol');dc.innerHTML='';
+  rightDefs.forEach((item,i)=>{
+    const c=document.createElement('div');
+    c.className='m-card defi';c.dataset.d=item.d;c.dataset.correct=item.correct;c.dataset.correctF=item.correct?pair.f:(item.f||'');
+    c.textContent=item.d;
+    c.onclick=()=>selectD(c,item);dc.appendChild(c);
+  });
+  buildProgress();
+}
+function clearSelections(){
+  document.querySelectorAll('.m-card.selected').forEach(c=>c.classList.remove('selected'));
+  selectedF=null;selectedD=null;
+}
+function selectF(el,f){
+  if(el.classList.contains('matched-ok'))return;
+  document.querySelectorAll('#fontiCol .m-card.selected').forEach(c=>c.classList.remove('selected'));
+  el.classList.add('selected');selectedF={el,f};tryMatch();}
+function selectD(el,item){
+  if(el.classList.contains('matched-ok'))return;
+  document.querySelectorAll('#defiCol .m-card.selected').forEach(c=>c.classList.remove('selected'));
+  el.classList.add('selected');selectedD={el,item};tryMatch();}
+function tryMatch(){
+  if(!selectedF||!selectedD)return;
+  const pair=rounds[ri];
+  const isOk=selectedF.f===pair.f&&selectedD.item.correct;
+  if(isOk){
+    selectedF.el.classList.remove('selected');selectedF.el.classList.add('matched-ok');
+    selectedD.el.classList.remove('selected');selectedD.el.classList.add('matched-ok');
+    matched++;correct++;score+=15;
+    document.getElementById('scoreNum').textContent=score;
+    document.getElementById('fbLine').className='feedback-line ok';
+    document.getElementById('fbLine').textContent='✅ Abbinamento corretto! +15 pts';
+    document.getElementById('btnNext').disabled=false;
+    selectedF=null;selectedD=null;
+  } else {
+    selectedD.el.classList.remove('selected');selectedD.el.classList.add('matched-ko');
+    errors++;
+    document.getElementById('fbLine').className='feedback-line ko';
+    document.getElementById('fbLine').textContent='❌ Non corrisponde — riprova!';
+    setTimeout(()=>{selectedD&&selectedD.el.classList.remove('matched-ko','selected');selectedD=null;document.getElementById('fbLine').className='feedback-line';document.getElementById('fbLine').textContent='';},700);
+    if(selectedF){selectedF.el.classList.remove('selected');selectedF=null;}
+  }
+}
+function nextRound(){ri++;if(ri>=10){endGame();return;}loadRound();}
+function endGame(){
+  document.getElementById('gameArea').style.display='none';
+  const es=document.getElementById('endScreen');es.style.display='flex';
+  document.getElementById('endScore').textContent=score;
+  document.getElementById('endRank').textContent=score>=120?'🌟 Costituzionalista':score>=80?'🏛 Giurista':'📚 Apprendista';
+  document.getElementById('statCorr').textContent=correct;
+  document.getElementById('statErr').textContent=errors;
+  document.getElementById('statRounds').textContent='10';
+  document.getElementById('statAcc').textContent=Math.round(correct/(correct+errors)*100||0)+'%';
+  document.getElementById('endTrophy').textContent=score>=120?'🌟':score>=80?'🏛':'📚';
+}
+function restart(){
+  score=0;correct=0;errors=0;ri=0;
+  document.getElementById('scoreNum').textContent='0';
+  document.getElementById('endScreen').style.display='none';
+  document.getElementById('gameArea').style.display='block';
+  rounds=shuffle([...BANCO]).slice(0,10);loadRound();
+}
+rounds=shuffle([...BANCO]).slice(0,10);loadRound();
+</script>
+</body>
+</html>

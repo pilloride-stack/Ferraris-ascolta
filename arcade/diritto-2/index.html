@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ferraris Arcade — Diritto II</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:600px;height:600px;background:rgba(26,58,124,.7);top:-150px;left:-150px;}
+.orb2{width:450px;height:450px;background:rgba(200,212,0,.12);bottom:-100px;right:-100px;animation-delay:-3s;}
+.orb3{width:350px;height:350px;background:rgba(45,91,191,.4);top:40%;right:-120px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-24px) scale(1.04);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:680px;padding:0 20px 60px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.hero{padding:40px 0 32px;text-align:center;}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 14px 4px 8px;border-radius:999px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.25);font-size:.7rem;font-weight:700;letter-spacing:2px;color:var(--gold2);text-transform:uppercase;margin-bottom:18px;}
+.hero-title{font-family:Inter,sans-serif;font-weight:900;font-size:3.2rem;letter-spacing:-2.5px;line-height:.9;margin-bottom:12px;}
+.hero-title em{font-style:normal;color:var(--gold);}
+.hero-sub{font-size:.9rem;color:var(--muted);max-width:440px;margin:0 auto;line-height:1.6;}
+.section-label{font-size:.68rem;font-weight:700;letter-spacing:2.5px;color:var(--muted);text-transform:uppercase;margin:28px 0 14px;display:flex;align-items:center;gap:10px;}
+.section-label::after{content:'';flex:1;height:1px;background:var(--glass-border);}
+.games-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.game-card{position:relative;background:var(--glass);border:1px solid var(--glass-border);border-radius:20px;padding:22px 18px 18px;overflow:hidden;text-decoration:none;color:var(--white);transition:all .2s;display:flex;flex-direction:column;gap:10px;}
+.game-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--accent, linear-gradient(90deg,var(--gold),var(--gold2)));opacity:.6;}
+.game-card:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.18);box-shadow:0 16px 48px rgba(0,0,0,.35);}
+.gc-icon{font-size:1.8rem;line-height:1;}
+.gc-num{font-size:.62rem;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;}
+.gc-name{font-family:Inter,sans-serif;font-size:1.05rem;font-weight:900;letter-spacing:-.5px;line-height:1.15;}
+.gc-desc{font-size:.75rem;color:var(--muted);line-height:1.5;}
+.gc-tag{margin-top:4px;display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:6px;background:rgba(255,255,255,.04);border:1px solid var(--glass-border);font-size:.65rem;font-weight:600;color:var(--muted);}
+.card1{--accent:linear-gradient(90deg,#c8d400,#dfe840);}
+.card2{--accent:linear-gradient(90deg,#10b981,#34d399);}
+.card3{--accent:linear-gradient(90deg,#8b5cf6,#a78bfa);}
+.card4{--accent:linear-gradient(90deg,#f59e0b,#fbbf24);}
+.card5{--accent:linear-gradient(90deg,#ef4444,#f87171);}
+.footer{margin-top:40px;text-align:center;color:rgba(100,130,160,.35);font-size:.7rem;letter-spacing:.5px;}
+.footer strong{color:rgba(100,130,160,.6);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+  <div class="hero">
+    <div class="hero-badge">🏛 Ferraris Arcade · Diritto II</div>
+    <div class="hero-title">Istituzioni<br><em>&amp; Economia</em></div>
+    <div class="hero-sub">Cinque giochi per padroneggiare il diritto costituzionale, le istituzioni della Repubblica e la macroeconomia. Classe II.</div>
+  </div>
+
+  <div class="section-label">I 5 giochi</div>
+  <div class="games-grid">
+    <a class="game-card card1" href="quiz-parlamento.html" target="_blank">
+      <div class="gc-icon">🗳️</div>
+      <div>
+        <div class="gc-num">GIOCO 01</div>
+        <div class="gc-name">Quiz Parlamento</div>
+      </div>
+      <div class="gc-desc">50 domande su Parlamento, Presidente, Governo, Magistratura, Corte Costituzionale. Timer 15s, 10 domande a sessione.</div>
+      <div class="gc-tag">⏱ 15s · 🏅 Rank</div>
+    </a>
+
+    <a class="game-card card2" href="vero-falso.html" target="_blank">
+      <div class="gc-icon">✅</div>
+      <div>
+        <div class="gc-num">GIOCO 02</div>
+        <div class="gc-name">Vero o Falso</div>
+      </div>
+      <div class="gc-desc">Affermazioni sulle istituzioni: vero o falso? Quando sbagli, scopri perché l'affermazione era falsa.</div>
+      <div class="gc-tag">⏱ 16s · 💡 Spiegazioni</div>
+    </a>
+
+    <a class="game-card card3" href="abbina-istituzione.html" target="_blank">
+      <div class="gc-icon">🔗</div>
+      <div>
+        <div class="gc-num">GIOCO 03</div>
+        <div class="gc-name">Abbina l'Istituzione</div>
+      </div>
+      <div class="gc-desc">Abbina ogni organo costituzionale alla sua definizione. 10 round da 3 carte ciascuno.</div>
+      <div class="gc-tag">🔗 Matching · 🏛</div>
+    </a>
+
+    <a class="game-card card4" href="economia-avanzata.html" target="_blank">
+      <div class="gc-icon">📊</div>
+      <div>
+        <div class="gc-num">GIOCO 04</div>
+        <div class="gc-name">Economia Avanzata</div>
+      </div>
+      <div class="gc-desc">Scenari economici reali: PIL, inflazione, mercati, politica fiscale e monetaria. Risposta multipla.</div>
+      <div class="gc-tag">📊 Scenari · PIL</div>
+    </a>
+
+    <a class="game-card card5" href="battle-equilibrio.html" target="_blank">
+      <div class="gc-icon">⚔️</div>
+      <div>
+        <div class="gc-num">GIOCO 05</div>
+        <div class="gc-name">Battle Equilibrio</div>
+      </div>
+      <div class="gc-desc">Concept cards di economia avanzata: mantieni le HP e le vite. Ogni errore costa 20 HP!</div>
+      <div class="gc-tag">❤️ 100HP · 🛡 3 vite</div>
+    </a>
+  </div>
+
+  <div class="footer">
+    <strong>Istituto Galileo Ferraris</strong> · Trieste · dal 1972<br>
+    episodi.galileoferraris.com/arcade/diritto-2
+  </div>
+</div>
+</body>
+</html>

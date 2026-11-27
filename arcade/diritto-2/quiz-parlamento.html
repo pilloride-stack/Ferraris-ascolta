@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz Parlamento · Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--ko:#ef4444;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;position:relative;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%) rotate(0deg);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;animation-delay:0s;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-24px) scale(1.04);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:580px;padding:0 16px 48px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.header{padding:22px 0 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.logo-row{display:flex;flex-direction:column;gap:6px;}
+.pill-tag{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;border-radius:999px;background:rgba(200,212,0,.12);border:1px solid rgba(200,212,0,.3);font-size:.68rem;font-weight:700;letter-spacing:1.5px;color:var(--gold2);text-transform:uppercase;}
+.game-name{font-family:Inter,sans-serif;font-weight:900;font-size:2.4rem;letter-spacing:-2px;line-height:.9;color:var(--white);}
+.game-name em{font-style:normal;color:var(--gold);}
+.subtitle{font-size:.72rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px;}
+.score-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;}
+.score-num{font-family:Inter,sans-serif;font-size:2.8rem;font-weight:900;line-height:1;color:var(--gold);letter-spacing:-2px;}
+.score-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+.rank-pill{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.3);font-size:.72rem;font-weight:700;color:var(--gold);letter-spacing:.5px;margin-top:4px;}
+.prog-wrap{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-bottom:14px;}
+.prog-dot{height:4px;border-radius:2px;background:rgba(255,255,255,.1);transition:background .3s;}
+.prog-dot.done{background:var(--c3);}
+.prog-dot.current{background:var(--gold);}
+.streak-bar{display:flex;align-items:center;gap:8px;margin-bottom:16px;}
+.streak-label{font-size:.7rem;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase;}
+.streak-dots{display:flex;gap:4px;}
+.sd{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.12);}
+.sd.on{background:var(--gold);box-shadow:0 0 6px var(--gold);}
+.qcard{position:relative;background:var(--glass);border:1px solid var(--glass-border);border-radius:24px;padding:26px 24px 22px;overflow:hidden;margin-bottom:20px;}
+.qcard::after{content:'';position:absolute;top:0;left:24px;right:24px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.4;}
+.card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;}
+.q-num{font-size:.7rem;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;}
+.timer-pill{display:flex;align-items:center;gap:7px;background:rgba(200,212,0,.08);border:1px solid rgba(200,212,0,.2);border-radius:999px;padding:5px 12px 5px 7px;}
+.timer-ring{position:relative;width:28px;height:28px;}
+.timer-ring svg{transform:rotate(-90deg);}
+.t-bg{stroke:rgba(255,255,255,.08);}
+.t-fg{stroke:var(--gold);stroke-linecap:round;transition:stroke-dashoffset .9s linear;}
+.timer-n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-size:.72rem;font-weight:800;color:var(--gold);}
+.timer-label{font-family:Inter,sans-serif;font-size:.8rem;font-weight:700;color:var(--gold);}
+.q-text{font-size:1.1rem;font-weight:700;line-height:1.65;color:#ffffff;margin-bottom:22px;}
+.options{display:flex;flex-direction:column;gap:8px;}
+.opt{display:flex;align-items:center;gap:12px;padding:13px 16px;border-radius:14px;cursor:pointer;font-size:.93rem;font-weight:500;transition:transform .12s,background .12s,border-color .12s;border:1.5px solid rgba(255,255,255,.07);background:rgba(255,255,255,.04);}
+.opt:hover:not(.disabled){background:rgba(200,212,0,.07);border-color:rgba(200,212,0,.35);transform:translateX(4px);}
+.opt.correct{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.5);}
+.opt.wrong{background:rgba(239,68,68,.07);border-color:rgba(239,68,68,.3);opacity:.6;}
+.opt.disabled{cursor:default;}
+.opt-k{flex-shrink:0;width:28px;height:28px;border-radius:8px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.2);display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-size:.78rem;font-weight:800;color:var(--gold);}
+.opt.correct .opt-k{background:rgba(16,185,129,.2);border-color:var(--ok);color:var(--ok);}
+.opt.wrong .opt-k{background:rgba(239,68,68,.15);border-color:var(--ko);color:var(--ko);}
+.opt-end{margin-left:auto;font-size:.95rem;}
+.feedback{display:flex;align-items:flex-start;gap:10px;margin-top:16px;padding:14px 16px;border-radius:14px;font-size:.87rem;font-weight:600;line-height:1.5;}
+.feedback.ok{background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);color:#6ee7b7;}
+.feedback.ko{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);color:#fca5a5;}
+.fi{font-size:1rem;flex-shrink:0;margin-top:1px;}
+.ref{font-size:.72rem;color:var(--muted);font-weight:400;font-style:italic;margin-top:4px;}
+.bottom{display:flex;align-items:center;justify-content:space-between;margin-top:4px;}
+.flags{display:flex;align-items:center;gap:8px;}
+.flags span{font-size:1.3rem;}
+.school{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;display:block;margin-top:2px;}
+.btn-cta{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:12px 22px;font-family:Lexend,sans-serif;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.25);transition:all .15s;}
+.btn-cta:hover{background:var(--gold2);box-shadow:0 0 32px rgba(200,212,0,.45);transform:translateY(-1px);}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.75rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+.btn-cta:disabled{opacity:.4;cursor:default;transform:none;}
+.end-screen{display:none;flex-direction:column;align-items:center;text-align:center;gap:16px;padding:32px 0;}
+.end-trophy{font-size:4rem;animation:pop .4s ease;}
+@keyframes pop{0%{transform:scale(0);}80%{transform:scale(1.15);}100%{transform:scale(1);}}
+.end-title{font-family:Inter,sans-serif;font-weight:900;font-size:2rem;letter-spacing:-1.5px;}
+.end-score{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);letter-spacing:-2px;}
+.end-rank{font-size:1rem;font-weight:600;color:var(--muted);margin-top:-8px;}
+.end-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;margin-top:8px;}
+.stat-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:16px;text-align:center;}
+.stat-n{font-family:Inter,sans-serif;font-size:1.8rem;font-weight:900;color:var(--gold);}
+.stat-l{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:2px;}
+.btn-restart{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:14px 32px;font-family:Lexend,sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.3);transition:all .15s;margin-top:8px;}
+.btn-restart:hover{background:var(--gold2);transform:translateY(-2px);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+
+  <div class="header">
+    <div class="logo-row">
+      <div class="pill-tag">🏛️ Diritto ed Economia</div>
+      <div class="game-name">Quiz<em>Parlamento</em></div>
+      <div class="subtitle" id="subtitle">★ · Classe II · 10 domande</div>
+    </div>
+    <div class="score-block">
+      <div class="score-num" id="scoreNum">0</div>
+      <div class="score-label">punti</div>
+      <div class="rank-pill" id="rankPill">🗳️ Elettore</div>
+    </div>
+  </div>
+
+  <div id="gameArea">
+    <div class="prog-wrap" id="progWrap"></div>
+    <div class="streak-bar">
+      <div class="streak-label">🔥 Streak</div>
+      <div class="streak-dots" id="streakDots"></div>
+      <span id="streakCount" style="font-size:.7rem;color:var(--muted);">0 consecutive</span>
+    </div>
+    <div class="qcard" id="qcard">
+      <div class="card-header">
+        <span class="q-num" id="qNum">Domanda 01</span>
+        <div class="timer-pill">
+          <div class="timer-ring">
+            <svg width="28" height="28" viewBox="0 0 28 28">
+              <circle class="t-bg" cx="14" cy="14" r="11" fill="none" stroke-width="2.5"/>
+              <circle class="t-fg" id="timerArc" cx="14" cy="14" r="11" fill="none" stroke-width="2.5" stroke-dasharray="69.1" stroke-dashoffset="0"/>
+            </svg>
+            <div class="timer-n" id="timerN">15</div>
+          </div>
+          <span class="timer-label" id="timerLabel">15s</span>
+        </div>
+      </div>
+      <div class="q-text" id="qText"></div>
+      <div class="options" id="options"></div>
+      <div id="feedback"></div>
+    </div>
+    <div class="bottom">
+      <div class="flags"><a class="back-link" href="index.html">← Menu</a><span>🇮🇹</span><span>🇪🇺</span><span class="school">Galileo Ferraris · Trieste</span></div>
+      <button class="btn-cta" id="btnNext" disabled onclick="nextQ()">Continua →</button>
+    </div>
+  </div>
+
+  <div class="end-screen" id="endScreen">
+    <div class="end-trophy" id="endTrophy">🏛️</div>
+    <div class="end-title">Partita completata!</div>
+    <div class="end-score" id="endScore">0</div>
+    <div class="end-rank" id="endRank">Rango: Elettore</div>
+    <div class="end-stats">
+      <div class="stat-box"><div class="stat-n" id="statCorr">0</div><div class="stat-l">✓ Corrette</div></div>
+      <div class="stat-box"><div class="stat-n" id="statStreak">0</div><div class="stat-l">🔥 Max streak</div></div>
+      <div class="stat-box"><div class="stat-n" id="statTime">0s</div><div class="stat-l">⏱ Tempo medio</div></div>
+      <div class="stat-box"><div class="stat-n" id="statAcc">0%</div><div class="stat-l">🎯 Precisione</div></div>
+    </div>
+    <button class="btn-restart" onclick="restart()">🎮 Gioca ancora</button>
+  </div>
+
+</div>
+
+<script>
+const BANCO = [
+  // === PARLAMENTO ===
+  {q:"Il Parlamento italiano è composto da:",o:["Camera dei Deputati e Senato della Repubblica","Camera e Corte Costituzionale","Senato e Governo","Consiglio di Stato e Camera"],c:0,s:"§1 Parlamento"},
+  {q:"Quanti deputati compongono la Camera dei Deputati?",o:["315","400","630","945"],c:1,s:"§1 Parlamento"},
+  {q:"Quanti senatori compongono il Senato della Repubblica (eletti)?",o:["200","315","400","630"],c:0,s:"§1 Parlamento"},
+  {q:"La durata normale della legislatura è di:",o:["4 anni","5 anni","6 anni","7 anni"],c:1,s:"§1 Parlamento"},
+  {q:"Il Parlamento si riunisce in seduta comune principalmente per:",o:["Approvare le leggi ordinarie","Eleggere il Presidente della Repubblica","Approvare il bilancio","Nominare i ministri"],c:1,s:"§1 Parlamento"},
+  {q:"L'immunità parlamentare protegge i parlamentari da:",o:["Qualsiasi reato","Responsabilità per i voti e le opinioni espressi nell'esercizio delle funzioni","Tasse e imposte","Procedimenti penali in assoluto"],c:1,s:"§1 Parlamento"},
+  {q:"Il procedimento legislativo ordinario prevede che una legge sia approvata:",o:["Da entrambe le Camere con testo identico","Solo dalla Camera dei Deputati","Solo dal Senato","Dal Presidente della Repubblica"],c:0,s:"§1 Parlamento"},
+  {q:"Cosa si intende per 'navette' nel procedimento legislativo?",o:["Un mezzo di trasporto","Il passaggio di un testo di legge tra Camera e Senato fino all'approvazione identica","Una procedura d'urgenza","Un voto segreto"],c:1,s:"§1 Parlamento"},
+  {q:"Il Parlamento può sciogliersi anticipatamente per decisione di:",o:["Il Presidente del Consiglio","Il Parlamento stesso","Il Presidente della Repubblica su proposta motivata","La Corte Costituzionale"],c:2,s:"§1 Parlamento"},
+  {q:"I senatori a vita sono nominati dal:",o:["Parlamento","Governo","Presidente della Repubblica","Corte Costituzionale"],c:2,s:"§1 Parlamento"},
+  // === PRESIDENTE DELLA REPUBBLICA ===
+  {q:"Il Presidente della Repubblica è eletto da:",o:["I cittadini direttamente","Il Parlamento in seduta comune","Il Consiglio dei Ministri","La Corte Costituzionale"],c:1,s:"§2 Presidente della Repubblica"},
+  {q:"La durata del mandato del Presidente della Repubblica è di:",o:["5 anni","6 anni","7 anni","9 anni"],c:2,s:"§2 Presidente della Repubblica"},
+  {q:"Quale requisito d'età è richiesto per essere eletto Presidente della Repubblica?",o:["Almeno 35 anni","Almeno 40 anni","Almeno 50 anni","Almeno 65 anni"],c:2,s:"§2 Presidente della Repubblica"},
+  {q:"Il Presidente della Repubblica promulga le leggi entro:",o:["15 giorni","30 giorni","60 giorni","90 giorni"],c:1,s:"§2 Presidente della Repubblica"},
+  {q:"Il Presidente della Repubblica può rinviare una legge alle Camere:",o:["Sempre, senza limiti","Una sola volta, con messaggio motivato","Solo per leggi costituzionali","Mai"],c:1,s:"§2 Presidente della Repubblica"},
+  {q:"Il Presidente della Repubblica è il Comandante Supremo delle Forze Armate:",o:["Falso, lo è il Ministro della Difesa","Vero, secondo la Costituzione","Solo in tempo di guerra","Solo su delega del Parlamento"],c:1,s:"§2 Presidente della Repubblica"},
+  {q:"La controfirma ministeriale sugli atti del Presidente della Repubblica serve a:",o:["Renderli segreti","Trasferire la responsabilità politica al Governo","Annullarli","Renderli definitivi"],c:1,s:"§2 Presidente della Repubblica"},
+  // === GOVERNO ===
+  {q:"Il Governo è composto da:",o:["Presidente del Consiglio e ministri","Presidente della Repubblica e ministri","Parlamento e Governo","Solo i ministri"],c:0,s:"§3 Governo"},
+  {q:"Il Governo entra in carica dopo:",o:["Le elezioni politiche","La nomina presidenziale e il voto di fiducia delle Camere","L'approvazione del Parlamento in seduta comune","Il giuramento davanti alla Corte Costituzionale"],c:1,s:"§3 Governo"},
+  {q:"La mozione di sfiducia, se approvata dalle Camere, obbliga il Governo a:",o:["Sciogliere il Parlamento","Dimettersi","Indire nuove elezioni","Chiedere un referendum"],c:1,s:"§3 Governo"},
+  {q:"Il decreto-legge può essere adottato dal Governo in casi di:",o:["Necessità ordinaria","Necessità e urgenza","Proposta del Parlamento","Decisione della Corte Costituzionale"],c:1,s:"§3 Governo"},
+  {q:"Il decreto legislativo è emanato dal Governo:",o:["Autonomamente","Su delega del Parlamento con legge di delegazione","Su proposta del Presidente della Repubblica","In caso di urgenza"],c:1,s:"§3 Governo"},
+  // === MAGISTRATURA ===
+  {q:"Il principio di indipendenza della magistratura è garantito da:",o:["Il Ministro della Giustizia","Il Consiglio Superiore della Magistratura (CSM)","Il Presidente della Repubblica","Il Parlamento"],c:1,s:"§4 Magistratura"},
+  {q:"Il CSM (Consiglio Superiore della Magistratura) è presieduto da:",o:["Il Ministro della Giustizia","Il Presidente del Senato","Il Presidente della Repubblica","Il Presidente della Corte di Cassazione"],c:2,s:"§4 Magistratura"},
+  {q:"I magistrati sono soggetti soltanto:",o:["Alla legge","Al Ministro della Giustizia","Al Presidente della Repubblica","Al CSM"],c:0,s:"§4 Magistratura"},
+  {q:"La magistratura ordinaria comprende:",o:["Solo i giudici penali","Giudici civili e penali","Giudici amministrativi e civili","Giudici costituzionali"],c:1,s:"§4 Magistratura"},
+  {q:"Il giudice di pace è un giudice:",o:["Togato professionale","Onorario (non professionale)","Militare","Amministrativo"],c:1,s:"§4 Magistratura"},
+  // === CORTE COSTITUZIONALE ===
+  {q:"La Corte Costituzionale è composta da quanti giudici?",o:["9","12","15","21"],c:2,s:"§5 Corte Costituzionale"},
+  {q:"I giudici della Corte Costituzionale restano in carica:",o:["5 anni","7 anni","9 anni","12 anni"],c:2,s:"§5 Corte Costituzionale"},
+  {q:"La Corte Costituzionale giudica:",o:["I reati comuni","La legittimità costituzionale delle leggi","I conflitti tra privati","Le cause civili in appello"],c:1,s:"§5 Corte Costituzionale"},
+  {q:"Un terzo dei giudici della Corte Costituzionale è nominato da:",o:["Il Parlamento","Il Presidente della Repubblica","Le supreme magistrature","Il Governo"],c:1,s:"§5 Corte Costituzionale"},
+  {q:"Il giudizio di legittimità costituzionale in via incidentale inizia quando:",o:["Un cittadino lo chiede","Un giudice solleva la questione in un processo","Il Governo lo propone","Il Parlamento lo richiede"],c:1,s:"§5 Corte Costituzionale"},
+  // === ECONOMIA AVANZATA ===
+  {q:"Il PIL (Prodotto Interno Lordo) misura:",o:["Il risparmio delle famiglie","Il valore di tutti i beni e servizi prodotti in un Paese in un anno","Il debito pubblico totale","Le esportazioni nette"],c:1,s:"§6 PIL e macroeconomia"},
+  {q:"Il PIL nominale differisce dal PIL reale perché:",o:["Il nominale esclude i servizi","Il reale è corretto per l'inflazione","Il nominale include solo beni fisici","Il reale non include le esportazioni"],c:1,s:"§6 PIL e macroeconomia"},
+  {q:"La differenza tra PIL e PNL riguarda:",o:["I beni e i servizi","Il criterio territoriale vs il criterio di nazionalità","L'inflazione","Il settore pubblico"],c:1,s:"§6 PIL e macroeconomia"},
+  {q:"Il reddito nazionale è:",o:["Il PIL meno le imposte","Il PIL corretto per i redditi netti dall'estero e gli ammortamenti","Il totale delle esportazioni","Il solo reddito da lavoro"],c:1,s:"§6 PIL e macroeconomia"},
+  {q:"L'inflazione è definita come:",o:["La diminuzione del PIL","L'aumento generalizzato e persistente dei prezzi","La riduzione del potere d'acquisto delle esportazioni","L'aumento del tasso di interesse"],c:1,s:"§7 Inflazione e moneta"},
+  {q:"In un'economia di monopolio il produttore:",o:["Accetta il prezzo di mercato","Fissa il prezzo essendo price maker","Non può fare profitto","Non ha costi fissi"],c:1,s:"§8 Forme di mercato"},
+  {q:"L'oligopolio è un mercato caratterizzato da:",o:["Un solo venditore","Moltissimi venditori","Pochi grandi venditori","Nessuna barriera all'entrata"],c:2,s:"§8 Forme di mercato"},
+  {q:"La concorrenza monopolistica si distingue dal monopolio perché:",o:["Ha un solo produttore","Ci sono molti produttori con prodotti differenziati","Non ammette pubblicità","Ha prezzi fissi"],c:1,s:"§8 Forme di mercato"},
+  {q:"Il moltiplicatore keynesiano indica che:",o:["Un aumento degli investimenti riduce il PIL","Un aumento della spesa pubblica produce un aumento del PIL più che proporzionale","L'inflazione riduce il PIL","Le tasse aumentano il PIL"],c:1,s:"§6 PIL e macroeconomia"},
+  {q:"Il tasso di disoccupazione misura:",o:["I lavoratori in cassa integrazione","Il rapporto tra disoccupati e forza lavoro","Il numero di persone senza reddito","Il totale degli inattivi"],c:1,s:"§6 PIL e macroeconomia"},
+  {q:"La politica monetaria è gestita in Italia da:",o:["Il Ministero dell'Economia","La Banca d'Italia e la BCE","Il Parlamento","Il Governo"],c:1,s:"§7 Inflazione e moneta"},
+  {q:"La bilancia dei pagamenti registra:",o:["Solo le importazioni","Tutti i flussi economici tra un Paese e il resto del mondo","Solo il debito pubblico","Il PIL trimestrale"],c:1,s:"§6 PIL e macroeconomia"},
+  {q:"Un bene pubblico ha le caratteristiche di:",o:["Rivalità ed escludibilità","Non rivalità e non escludibilità","Rivalità e non escludibilità","Non rivalità ed escludibilità"],c:1,s:"§8 Forme di mercato"},
+  {q:"La curva di Laffer descrive la relazione tra:",o:["Inflazione e disoccupazione","Aliquota fiscale e gettito fiscale","Importazioni ed esportazioni","PIL e debito pubblico"],c:1,s:"§7 Inflazione e moneta"},
+  {q:"Il deficit pubblico è:",o:["La differenza tra entrate e uscite dello Stato (uscite > entrate)","Il totale del debito pubblico","La riduzione del PIL","La differenza tra esportazioni e importazioni"],c:0,s:"§7 Inflazione e moneta"},
+];
+
+const RANKS=[
+  {min:0,name:"🗳️ Elettore",emoji:"🗳️"},
+  {min:30,name:"🏛️ Deputato",emoji:"🏛️"},
+  {min:60,name:"⚖️ Senatore",emoji:"⚖️"},
+  {min:85,name:"🌟 Presidente",emoji:"🌟"},
+];
+const TIMER_S=15;
+const CIRCUMFERENCE=69.1;
+
+let questions=[], qi=0, score=0, correct=0, streak=0, maxStreak=0, answered=false, timeLeft=TIMER_S, timerInterval=null, totalTime=0;
+let currentCorrectSi=0, currentShuffled=[];
+
+function shuffle(a){return a.sort(()=>Math.random()-.5);}
+function getRank(s){let r=RANKS[0];RANKS.forEach(x=>{if(s>=x.min)r=x;});return r;}
+
+function buildProgress(){
+  const w=document.getElementById('progWrap');
+  w.innerHTML='';
+  for(let i=0;i<10;i++){
+    const d=document.createElement('div');
+    d.className='prog-dot'+(i<qi?' done':i===qi?' current':'');
+    w.appendChild(d);
+  }
+}
+
+function buildStreak(){
+  const d=document.getElementById('streakDots');
+  d.innerHTML='';
+  for(let i=0;i<5;i++){
+    const s=document.createElement('div');
+    s.className='sd'+(i<streak?' on':'');
+    d.appendChild(s);
+  }
+  document.getElementById('streakCount').textContent=streak+' consecutive';
+}
+
+function startTimer(){
+  timeLeft=TIMER_S;
+  updateTimerUI();
+  timerInterval=setInterval(()=>{
+    timeLeft--;
+    updateTimerUI();
+    if(timeLeft<=0){clearInterval(timerInterval);autoTimeout();}
+  },1000);
+}
+
+function updateTimerUI(){
+  const offset=CIRCUMFERENCE*(1-timeLeft/TIMER_S);
+  document.getElementById('timerArc').style.strokeDashoffset=offset;
+  document.getElementById('timerN').textContent=timeLeft;
+  document.getElementById('timerLabel').textContent=timeLeft+'s';
+  document.getElementById('timerArc').style.stroke=timeLeft>5?'var(--gold)':'#ef4444';
+}
+
+function autoTimeout(){
+  if(answered)return;
+  answered=true;
+  streak=0;
+  totalTime+=TIMER_S;
+  buildStreak();
+  const opts=document.querySelectorAll('.opt');
+  opts.forEach(o=>o.classList.add('disabled'));
+  opts[currentCorrectSi].classList.add('correct');
+  document.getElementById('feedback').innerHTML=`<div class="feedback ko"><span class="fi">⏰</span><div>Tempo scaduto! La risposta corretta era: <strong>${currentShuffled[currentCorrectSi].t}</strong><div class="ref">${questions[qi].s}</div></div></div>`;
+  document.getElementById('btnNext').disabled=false;
+}
+
+function loadQ(){
+  answered=false;
+  clearInterval(timerInterval);
+  const q=questions[qi];
+  document.getElementById('qNum').textContent=`Domanda ${String(qi+1).padStart(2,'0')} · ${q.s}`;
+  document.getElementById('qText').textContent=q.q;
+  document.getElementById('feedback').innerHTML='';
+  document.getElementById('btnNext').disabled=true;
+  buildProgress();
+  buildStreak();
+
+  currentShuffled=q.o.map((t,i)=>({t,i})).sort(()=>Math.random()-.5);
+  const correctSi=currentShuffled.findIndex(x=>x.i===q.c);
+  currentCorrectSi=correctSi;
+  const keys=['A','B','C','D'];
+  const container=document.getElementById('options');
+  container.innerHTML='';
+  currentShuffled.forEach((item,si)=>{
+    const div=document.createElement('div');
+    div.className='opt';
+    div.innerHTML=`<div class="opt-k">${keys[si]}</div>${item.t}<span class="opt-end"></span>`;
+    div.addEventListener('click',()=>answer(si,correctSi,item));
+    container.appendChild(div);
+  });
+  startTimer();
+}
+
+function answer(si,correctSi,item){
+  if(answered)return;
+  answered=true;
+  clearInterval(timerInterval);
+  const elapsed=TIMER_S-timeLeft;
+  totalTime+=elapsed;
+  const opts=document.querySelectorAll('.opt');
+  opts.forEach(o=>o.classList.add('disabled'));
+  const isOk=si===correctSi;
+  if(isOk){
+    opts[si].classList.add('correct');
+    opts[si].querySelector('.opt-end').textContent='✓';
+    const pts=Math.max(5,10+Math.round((timeLeft/TIMER_S)*10))+(streak>=2?3:0);
+    score+=pts;
+    correct++;
+    streak++;
+    maxStreak=Math.max(maxStreak,streak);
+    document.getElementById('scoreNum').textContent=score;
+    document.getElementById('rankPill').textContent=getRank(score).name;
+    document.getElementById('feedback').innerHTML=`<div class="feedback ok"><span class="fi">✅</span><div><strong>Esatto! +${pts} punti${streak>=2?' 🔥':''}</strong><div class="ref">${questions[qi].s}</div></div></div>`;
+  } else {
+    opts[si].classList.add('wrong');
+    opts[si].querySelector('.opt-end').textContent='✗';
+    opts[correctSi].classList.add('correct');
+    streak=0;
+    document.getElementById('feedback').innerHTML=`<div class="feedback ko"><span class="fi">❌</span><div>Risposta errata. Corretta: <strong>${currentShuffled[correctSi].t}</strong><div class="ref">${questions[qi].s}</div></div></div>`;
+  }
+  buildStreak();
+  document.getElementById('btnNext').disabled=false;
+}
+
+function nextQ(){
+  qi++;
+  if(qi>=10){endGame();return;}
+  loadQ();
+}
+
+function endGame(){
+  document.getElementById('gameArea').style.display='none';
+  const es=document.getElementById('endScreen');
+  es.style.display='flex';
+  const rank=getRank(score);
+  document.getElementById('endTrophy').textContent=rank.emoji;
+  document.getElementById('endScore').textContent=score;
+  document.getElementById('endRank').textContent='Rango: '+rank.name;
+  document.getElementById('statCorr').textContent=correct+'/10';
+  document.getElementById('statStreak').textContent=maxStreak;
+  document.getElementById('statTime').textContent=Math.round(totalTime/10)+'s';
+  document.getElementById('statAcc').textContent=Math.round(correct*10)+'%';
+}
+
+function restart(){
+  score=0;correct=0;streak=0;maxStreak=0;qi=0;totalTime=0;
+  document.getElementById('scoreNum').textContent='0';
+  document.getElementById('rankPill').textContent='🗳️ Elettore';
+  document.getElementById('endScreen').style.display='none';
+  document.getElementById('gameArea').style.display='block';
+  questions=shuffle([...BANCO]).slice(0,10);
+  loadQ();
+}
+
+questions=shuffle([...BANCO]).slice(0,10);
+loadQ();
+</script>
+</body>
+</html>

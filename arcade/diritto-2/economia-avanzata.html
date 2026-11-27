@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Economia Avanzata · Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--ko:#ef4444;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-24px);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:580px;padding:0 16px 48px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.header{padding:22px 0 16px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.logo-row{display:flex;flex-direction:column;gap:6px;}
+.pill-tag{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;border-radius:999px;background:rgba(200,212,0,.12);border:1px solid rgba(200,212,0,.3);font-size:.68rem;font-weight:700;letter-spacing:1.5px;color:var(--gold2);text-transform:uppercase;}
+.game-name{font-family:Inter,sans-serif;font-weight:900;font-size:2.2rem;letter-spacing:-1.5px;line-height:.9;color:var(--white);}
+.game-name em{font-style:normal;color:var(--gold);}
+.subtitle{font-size:.7rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:4px;}
+.score-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;}
+.score-num{font-family:Inter,sans-serif;font-size:2.6rem;font-weight:900;line-height:1;color:var(--gold);}
+.score-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+.prog-wrap{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-bottom:14px;}
+.prog-dot{height:4px;border-radius:2px;background:rgba(255,255,255,.1);transition:background .3s;}
+.prog-dot.done{background:var(--c3);} .prog-dot.current{background:var(--gold);}
+.scenario{position:relative;background:linear-gradient(135deg,rgba(45,91,191,.18),rgba(200,212,0,.07));border:1px solid rgba(200,212,0,.18);border-radius:18px;padding:16px 18px;margin-bottom:14px;overflow:hidden;}
+.scenario::after{content:'';position:absolute;top:0;left:18px;right:18px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.35;}
+.scenario-label{font-size:.68rem;font-weight:700;letter-spacing:2px;color:var(--gold2);text-transform:uppercase;margin-bottom:8px;}
+.scenario-text{font-size:.9rem;font-weight:600;line-height:1.6;color:#d0d8f8;}
+.qcard{background:var(--glass);border:1px solid var(--glass-border);border-radius:20px;padding:22px 18px;margin-bottom:16px;}
+.q-num{font-size:.7rem;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:10px;}
+.q-text{font-size:1rem;font-weight:700;line-height:1.6;margin-bottom:18px;}
+.opts{display:flex;flex-direction:column;gap:9px;}
+.opt{display:flex;align-items:flex-start;gap:10px;padding:12px 14px;border-radius:12px;border:1px solid var(--glass-border);background:var(--glass);cursor:pointer;font-size:.85rem;font-weight:600;line-height:1.45;transition:all .15s;text-align:left;}
+.opt:hover:not(:disabled){border-color:rgba(200,212,0,.3);background:rgba(200,212,0,.06);}
+.opt .key{flex-shrink:0;width:22px;height:22px;border-radius:6px;border:1px solid rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-size:.7rem;font-weight:900;color:var(--muted);background:rgba(255,255,255,.04);}
+.opt.correct{border-color:var(--ok);background:rgba(16,185,129,.12);}
+.opt.correct .key{border-color:var(--ok);color:var(--ok);}
+.opt.wrong{border-color:var(--ko);background:rgba(239,68,68,.08);opacity:.7;}
+.opt.wrong .key{border-color:var(--ko);color:var(--ko);}
+.opt:disabled{cursor:default;}
+.streak-row{display:flex;gap:5px;margin-bottom:14px;}
+.s-dot{width:28px;height:6px;border-radius:3px;background:rgba(255,255,255,.08);transition:all .3s;}
+.s-dot.on{background:var(--gold);box-shadow:0 0 8px rgba(200,212,0,.5);}
+.bottom{display:flex;align-items:center;justify-content:space-between;}
+.flags{display:flex;align-items:center;gap:8px;}
+.flags span{font-size:1.3rem;}
+.school{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;display:block;margin-top:2px;}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.75rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+.btn-cta{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:12px 22px;font-family:Lexend,sans-serif;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.25);transition:all .15s;}
+.btn-cta:hover:not(:disabled){background:var(--gold2);transform:translateY(-1px);}
+.btn-cta:disabled{opacity:.35;cursor:default;transform:none;}
+.end-screen{display:none;flex-direction:column;align-items:center;text-align:center;gap:16px;padding:32px 0;}
+.end-trophy{font-size:4rem;animation:pop .4s ease;}
+@keyframes pop{0%{transform:scale(0);}80%{transform:scale(1.15);}100%{transform:scale(1);}}
+.end-title{font-family:Inter,sans-serif;font-weight:900;font-size:2rem;letter-spacing:-1.5px;}
+.end-score{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);letter-spacing:-2px;}
+.end-rank{font-size:1rem;font-weight:600;color:var(--muted);margin-top:-8px;}
+.end-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;margin-top:8px;}
+.stat-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:16px;text-align:center;}
+.stat-n{font-family:Inter,sans-serif;font-size:1.8rem;font-weight:900;color:var(--gold);}
+.stat-l{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:2px;}
+.btn-restart{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:14px 32px;font-family:Lexend,sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.3);transition:all .15s;margin-top:8px;}
+.btn-restart:hover{background:var(--gold2);transform:translateY(-2px);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+  <div class="header">
+    <div class="logo-row">
+      <div class="pill-tag">📊 Scenario</div>
+      <div class="game-name">Economia<em>Avanzata</em></div>
+      <div class="subtitle">★ · Classe II · PIL · Mercati</div>
+    </div>
+    <div class="score-block">
+      <div class="score-num" id="scoreNum">0</div>
+      <div class="score-label">punti</div>
+    </div>
+  </div>
+
+  <div id="gameArea">
+    <div class="prog-wrap" id="progWrap"></div>
+    <div class="streak-row" id="streakRow"></div>
+    <div class="scenario"><div class="scenario-label">📊 Scenario economico</div><div class="scenario-text" id="scenarioText"></div></div>
+    <div class="qcard">
+      <div class="q-num" id="qNum">Domanda 01</div>
+      <div class="q-text" id="qText"></div>
+      <div class="opts" id="optsArea"></div>
+    </div>
+    <div class="bottom">
+      <div class="flags"><a class="back-link" href="https://episodi.galileoferraris.com/arcade/diritto-2/index.html">← Menu</a><span>🇮🇹</span><span>🇪🇺</span><span class="school">Galileo Ferraris · Trieste</span></div>
+      <button class="btn-cta" id="btnNext" disabled onclick="nextQ()">Continua →</button>
+    </div>
+  </div>
+
+  <div class="end-screen" id="endScreen">
+    <div class="end-trophy" id="endTrophy">📊</div>
+    <div class="end-title">Partita completata!</div>
+    <div class="end-score" id="endScore">0</div>
+    <div class="end-rank" id="endRank">Rango: Stagista</div>
+    <div class="end-stats">
+      <div class="stat-box"><div class="stat-n" id="statCorr">0</div><div class="stat-l">✓ Corrette</div></div>
+      <div class="stat-box"><div class="stat-n" id="statStreak">0</div><div class="stat-l">🔥 Max streak</div></div>
+      <div class="stat-box"><div class="stat-n" id="statBonus">0</div><div class="stat-l">⚡ Bonus streak</div></div>
+      <div class="stat-box"><div class="stat-n" id="statAcc">0%</div><div class="stat-l">🎯 Precisione</div></div>
+    </div>
+    <button class="btn-restart" onclick="restart()">🎮 Gioca ancora</button>
+  </div>
+</div>
+
+<script>
+const BANCO=[
+  {sc:"Il governo annuncia che il PIL reale è cresciuto del 2% nell'ultimo anno.",q:"Cosa misura esattamente il PIL reale?",o:["Il valore di beni e servizi a prezzi correnti","Il valore di beni e servizi corretto per l'inflazione","Solo le esportazioni nette","Il reddito delle famiglie al lordo delle tasse"],c:1,s:"§6 PIL"},
+  {sc:"Un paese registra PIL nominale di 1.000 mld e deflatore del PIL pari a 125.",q:"Qual è il PIL reale (base 100)?",o:["1.250 mld","800 mld","875 mld","750 mld"],c:1,s:"§6 PIL"},
+  {sc:"L'ISTAT pubblica che il tasso di disoccupazione è salito al 9%.",q:"Come si calcola il tasso di disoccupazione?",o:["Disoccupati / Popolazione totale","Disoccupati / Forza lavoro","Disoccupati / Occupati","Inattivi / Popolazione in età lavorativa"],c:1,s:"§6 PIL"},
+  {sc:"La BCE aumenta il tasso di interesse di riferimento dall'1% al 2%.",q:"Quale effetto principale produce questo rialzo?",o:["Aumenta il credito alle famiglie","Riduce i prezzi all'importazione","Riduce l'inflazione frenando domanda e credito","Aumenta il PIL nominale automaticamente"],c:2,s:"§7 Moneta"},
+  {sc:"Il governo spende 10 mld in infrastrutture. L'analista prevede un incremento del PIL di 20 mld.",q:"Quale concetto spiega questo effetto moltiplicato?",o:["Effetto Pigou","Moltiplicatore keynesiano","Paradosso del risparmio","Curva di Phillips"],c:1,s:"§6 PIL"},
+  {sc:"Un'azienda produce beni che non vengono venduti e restano in magazzino.",q:"Come vengono trattati questi beni nel calcolo del PIL?",o:["Non vengono conteggiati","Vengono conteggiati come investimento (variazione scorte)","Vengono sottratti al PIL","Vengono inclusi solo se esportati"],c:1,s:"§6 PIL"},
+  {sc:"Il CPI (indice dei prezzi al consumo) è aumentato del 4% in un anno.",q:"Questo fenomeno si chiama:",o:["Deflazione","Stagflazione","Inflazione","Disinflazione"],c:2,s:"§7 Moneta"},
+  {sc:"In un mercato ci sono 3 grandi produttori che si spartiscono quasi tutto il mercato.",q:"Questa struttura di mercato si chiama:",o:["Monopolio","Concorrenza perfetta","Oligopolio","Monopsonio"],c:2,s:"§8 Mercati"},
+  {sc:"Un'impresa abbassa il prezzo sotto il costo per eliminare i concorrenti, poi lo rialzerà.",q:"Questa strategia si chiama:",o:["Discriminazione di prezzo","Prezzi predatori","Cartello","Differenziazione del prodotto"],c:1,s:"§8 Mercati"},
+  {sc:"In concorrenza perfetta, nel lungo periodo le imprese ottengono profitto economico nullo.",q:"Perché accade questo?",o:["La domanda è inelastica","Nuove imprese entrano fino ad azzerare il profitto","Lo Stato regola i prezzi","Le imprese accordano i prezzi tra loro"],c:1,s:"§8 Mercati"},
+  {sc:"Il governo registra entrate fiscali di 800 mld e spese di 950 mld.",q:"Come si chiama questa situazione?",o:["Surplus di bilancio","Pareggio di bilancio","Deficit pubblico","Debito pubblico"],c:2,s:"§7 Moneta"},
+  {sc:"Un bene viene prodotto interamente in Italia da un'azienda tedesca.",q:"Questo bene è incluso nel:",o:["PNL italiano ma non nel PIL italiano","PIL italiano ma non nel PNL italiano","Sia PIL che PNL italiano","Né PIL né PNL italiano"],c:1,s:"§6 PIL"},
+  {sc:"Un monopolista fissa il prezzo a 50€ mentre il costo marginale è 20€.",q:"Quale inefficienza si crea?",o:["Costo fisso troppo alto","Perdita secca: quantità prodotta inferiore a quella ottimale sociale","Profitto negativo","Nessuna inefficienza perché il monopolista massimizza il profitto"],c:1,s:"§8 Mercati"},
+  {sc:"La stazione ferroviaria è accessibile a tutti i cittadini e nessuno può essere escluso.",q:"Quale tipo di bene descrive questo scenario?",o:["Bene privato","Bene club","Bene pubblico puro","Bene comune (rivale)"],c:2,s:"§8 Mercati"},
+  {sc:"Il governo annuncia una riduzione delle tasse e un aumento della spesa pubblica.",q:"Questa è una politica:",o:["Monetaria espansiva","Fiscale espansiva","Fiscale restrittiva","Monetaria restrittiva"],c:1,s:"§7 Moneta"},
+  {sc:"Un'impresa vende lo stesso prodotto a prezzi diversi a segmenti di clientela diversi.",q:"Questa strategia si chiama:",o:["Dumping","Cartello","Discriminazione di prezzo","Integrazione verticale"],c:2,s:"§8 Mercati"},
+  {sc:"Il tasso di inflazione scende dal 5% al 3% (ma resta positivo).",q:"Questo fenomeno si chiama:",o:["Deflazione","Disinflazione","Stagflazione","Iperinflazione"],c:1,s:"§7 Moneta"},
+  {sc:"Il PIL pro capite di un Paese è cresciuto ma l'indice di Gini è peggiorato.",q:"Cosa indica l'indice di Gini peggiorato?",o:["Diminuzione del PIL","Aumento dell'inflazione","Aumento della disuguaglianza nella distribuzione del reddito","Riduzione della disoccupazione"],c:2,s:"§6 PIL"},
+  {sc:"In un mercato con molti venditori di prodotti simili ma differenziati (marca, design).",q:"Questa struttura si chiama:",o:["Oligopolio","Monopolio","Concorrenza monopolistica","Concorrenza perfetta"],c:2,s:"§8 Mercati"},
+  {sc:"La produzione nazionale cresce ma la disoccupazione rimane alta.",q:"Questo fenomeno ricorda la:",o:["Curva di Laffer","Curva di Phillips","Stagflazione","Paradosso della parsimonia"],c:1,s:"§6 PIL"},
+];
+
+let questions=[],qi=0,score=0,correct=0,streak=0,maxStreak=0,bonusTotal=0,answered=false;
+const KEYS=['A','B','C','D'];
+
+function shuffle(a){return a.sort(()=>Math.random()-.5);}
+function buildProgress(){
+  const w=document.getElementById('progWrap');w.innerHTML='';
+  for(let i=0;i<10;i++){const d=document.createElement('div');d.className='prog-dot'+(i<qi?' done':i===qi?' current':'');w.appendChild(d);}
+}
+function buildStreak(){
+  const r=document.getElementById('streakRow');r.innerHTML='';
+  for(let i=0;i<5;i++){const d=document.createElement('div');d.className='s-dot'+(i<streak?' on':'');r.appendChild(d);}
+}
+function loadQ(){
+  answered=false;
+  document.getElementById('btnNext').disabled=true;
+  const item=questions[qi];
+  document.getElementById('qNum').textContent=`Domanda ${String(qi+1).padStart(2,'0')} · ${item.s}`;
+  document.getElementById('scenarioText').textContent=item.sc;
+  document.getElementById('qText').textContent=item.q;
+  const opts=document.getElementById('optsArea');opts.innerHTML='';
+  // shuffle options keeping track of correct
+  const idxs=item.o.map((_,i)=>i);const shuffled=shuffle([...idxs]);
+  const correctPos=shuffled.indexOf(item.c);
+  shuffled.forEach((origIdx,pos)=>{
+    const btn=document.createElement('button');
+    btn.className='opt';btn.disabled=false;
+    btn.innerHTML=`<span class="key">${KEYS[pos]}</span>${item.o[origIdx]}`;
+    btn.addEventListener('click',()=>answer(pos,correctPos,item));
+    opts.appendChild(btn);
+  });
+  buildProgress();buildStreak();
+}
+function answer(si,correctSi,item){
+  if(answered)return;answered=true;
+  const opts=document.querySelectorAll('.opt');
+  opts.forEach(b=>b.disabled=true);
+  const isOk=si===correctSi;
+  opts[si].classList.add(isOk?'correct':'wrong');
+  if(!isOk)opts[correctSi].classList.add('correct');
+  if(isOk){
+    streak++;maxStreak=Math.max(maxStreak,streak);correct++;
+    const bonus=streak>=2?3:0;bonusTotal+=bonus;score+=10+bonus;
+    document.getElementById('scoreNum').textContent=score;
+  } else {streak=0;}
+  buildStreak();
+  document.getElementById('btnNext').disabled=false;
+}
+function nextQ(){qi++;if(qi>=10){endGame();return;}loadQ();}
+function endGame(){
+  document.getElementById('gameArea').style.display='none';
+  const es=document.getElementById('endScreen');es.style.display='flex';
+  document.getElementById('endScore').textContent=score;
+  document.getElementById('endRank').textContent=score>=85?'📊 Economista':score>=55?'💼 Analista':'📚 Stagista';
+  document.getElementById('statCorr').textContent=correct+'/10';
+  document.getElementById('statStreak').textContent=maxStreak;
+  document.getElementById('statBonus').textContent=bonusTotal;
+  document.getElementById('statAcc').textContent=Math.round(correct*10)+'%';
+  document.getElementById('endTrophy').textContent=score>=85?'📊':score>=55?'💼':'📚';
+}
+function restart(){
+  score=0;correct=0;streak=0;maxStreak=0;bonusTotal=0;qi=0;
+  document.getElementById('scoreNum').textContent='0';
+  document.getElementById('endScreen').style.display='none';
+  document.getElementById('gameArea').style.display='block';
+  questions=shuffle([...BANCO]).slice(0,10);loadQ();
+}
+questions=shuffle([...BANCO]).slice(0,10);loadQ();
+</script>
+</body>
+</html>
