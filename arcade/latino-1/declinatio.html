@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Declinatio · Latino Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--perg:#f5e9c8;--ok:#4caf50;--ko:#e74c3c;--ink:#f5e9c8;--muted:#b8a070}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;min-height:100vh;overflow-x:clip;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg') center/cover no-repeat fixed}
+body::before{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(10,5,0,.82) 0%,rgba(20,10,2,.78) 60%,rgba(10,5,0,.88) 100%);pointer-events:none;z-index:0}
+.wrap{max-width:760px;margin:0 auto;padding:14px max(3vw,12px) 32px;position:relative;z-index:1}
+
+.back-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(44,32,16,.7);border:1px solid var(--bronze);border-radius:8px;color:var(--sand);font:600 13px Lexend;padding:6px 14px;text-decoration:none;cursor:pointer;margin-bottom:14px;transition:background .2s}
+.back-btn:hover{background:rgba(124,92,43,.4)}
+
+.spqr{text-align:center;font:700 11px/1 Cinzel,serif;letter-spacing:4px;color:var(--bronze2);margin-bottom:2px}
+h1{font:900 clamp(30px,7vw,58px)/1 Cinzel,serif;text-align:center;margin:0 0 2px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 18px}
+
+.stats{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
+.stat{background:var(--stone2);border:1px solid var(--bronze);border-radius:8px;padding:5px 14px;font:700 14px Cinzel,serif;color:var(--sand2);display:flex;align-items:center;gap:6px}
+.stat span{font:600 20px Lexend;color:var(--sand)}
+
+/* timer */
+.timer-wrap{height:6px;background:var(--stone2);border-radius:3px;margin-bottom:20px;overflow:hidden}
+.timer-bar{height:100%;background:linear-gradient(90deg,var(--red2),var(--sand));border-radius:3px;transition:width .1s linear}
+
+/* forma latina grande */
+.forma-box{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:28px 20px 20px;text-align:center;margin-bottom:16px;backdrop-filter:blur(4px)}
+.forma-num{font:700 11px Cinzel;letter-spacing:3px;color:var(--bronze2);margin-bottom:10px}
+.forma-latin{font:900 clamp(36px,9vw,72px)/1 Cinzel;color:var(--sand);text-shadow:0 2px 20px rgba(200,169,110,.5);margin-bottom:8px;letter-spacing:1px}
+.forma-decl{font:600 13px Lexend;color:var(--muted)}
+
+/* domanda */
+.question-label{text-align:center;font:700 15px Cinzel;color:var(--sand2);letter-spacing:1px;margin-bottom:12px}
+
+/* griglia opzioni */
+.opts-grid{display:grid;gap:10px;margin-bottom:16px}
+.opts-grid.caso{grid-template-columns:repeat(2,1fr)}
+.opts-grid.numero{grid-template-columns:repeat(2,1fr)}
+.opts-grid.combo{grid-template-columns:repeat(2,1fr)}
+
+.opt{background:var(--stone2);border:2px solid var(--bronze);border-radius:12px;padding:12px 10px;font:700 15px Cinzel;color:var(--sand2);cursor:pointer;transition:all .18s;text-align:center;letter-spacing:.3px}
+.opt:hover{border-color:var(--sand2);background:var(--stone3)}
+.opt.selected{border-color:var(--sand);background:rgba(124,92,43,.4)}
+.opt.correct{border-color:var(--ok)!important;background:rgba(76,175,80,.18)!important;color:#8edd8e!important}
+.opt.wrong{border-color:var(--ko)!important;background:rgba(231,76,60,.18)!important;color:#f07070!important}
+.opt.show-correct{border-color:var(--ok)!important;background:rgba(76,175,80,.12)!important}
+.opt:disabled,.opt[disabled]{cursor:default;pointer-events:none}
+
+/* feedback */
+.feedback{text-align:center;font:700 15px Lexend;padding:10px 16px;border-radius:10px;margin-bottom:12px}
+.feedback.ok{background:rgba(76,175,80,.18);color:#8edd8e}
+.feedback.ko{background:rgba(231,76,60,.18);color:#f07070}
+.feedback .spieg{margin-top:4px;font:400 13px Lexend;color:var(--sand2)}
+
+/* fasi */
+.fase-indicator{display:flex;gap:8px;justify-content:center;margin-bottom:14px}
+.fase-dot{width:10px;height:10px;border-radius:50%;background:var(--stone3);border:1px solid var(--bronze);transition:all .3s}
+.fase-dot.active{background:var(--sand);border-color:var(--sand2)}
+.fase-dot.done{background:var(--bronze2);border-color:var(--bronze2)}
+
+.btn-row{display:flex;gap:10px;justify-content:center}
+.btn{padding:10px 26px;border:none;border-radius:10px;font:700 15px Cinzel;cursor:pointer;transition:all .18s;letter-spacing:.5px}
+.btn-next{background:linear-gradient(135deg,var(--bronze),var(--bronze2));color:var(--stone);box-shadow:0 2px 8px rgba(124,92,43,.5)}
+.btn-next:hover{filter:brightness(1.15)}
+
+/* fine */
+.end-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:32px 24px;text-align:center;backdrop-filter:blur(6px)}
+.end-card h2{font:900 clamp(28px,6vw,48px)/1 Cinzel;color:var(--sand);margin:0 0 8px}
+.end-score{font:700 clamp(44px,10vw,80px)/1 Cinzel;color:var(--sand2);margin:12px 0}
+.end-score small{font-size:40%;color:var(--muted)}
+.end-msg{color:var(--muted);font-size:15px;margin-bottom:24px}
+.review-list{text-align:left;margin:0 0 24px}
+.review-item{border-bottom:1px solid rgba(124,92,43,.3);padding:10px 0;display:flex;align-items:center;gap:10px}
+.review-item:last-child{border-bottom:none}
+.ri-forma{font:700 20px Cinzel;color:var(--sand2);min-width:120px}
+.ri-info{font-size:13px;color:var(--muted);flex:1}
+.ri-result{font-size:18px}
+.btn-restart{background:linear-gradient(135deg,var(--red),var(--red2));color:var(--sand2);font-size:16px;padding:12px 32px;box-shadow:0 2px 12px rgba(139,26,26,.5)}
+.btn-restart:hover{filter:brightness(1.15)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-btn" href="index.html">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Latino Classe I
+  </a>
+
+  <div class="spqr">S · P · Q · R</div>
+  <h1>Declinatio</h1>
+  <p class="sub">Latino · Classe I · Riconosci caso e numero della forma latina</p>
+
+  <div class="stats">
+    <div class="stat">🏛️ <span id="q-num">1</span>/20</div>
+    <div class="stat">🏆 <span id="score">0</span> pt</div>
+    <div class="stat">✅ <span id="correct">0</span>/20</div>
+  </div>
+
+  <div class="timer-wrap"><div class="timer-bar" id="timer-bar"></div></div>
+
+  <div id="game-area">
+    <!-- forma latina -->
+    <div class="forma-box">
+      <div class="forma-num" id="forma-num">FORMA 1 / 20</div>
+      <div class="forma-latin" id="forma-latin">—</div>
+      <div class="forma-decl" id="forma-decl">—</div>
+    </div>
+
+    <!-- indicatori fase -->
+    <div class="fase-indicator">
+      <div class="fase-dot active" id="dot-caso"></div>
+      <div class="fase-dot" id="dot-numero"></div>
+    </div>
+
+    <div class="question-label" id="q-label">Qual è il CASO?</div>
+
+    <div class="opts-grid caso" id="opts-grid"></div>
+
+    <div class="feedback" id="feedback" hidden></div>
+
+    <div class="btn-row">
+      <button class="btn btn-next" id="btn-next" onclick="nextStep()" hidden>Avanti ▶</button>
+    </div>
+  </div>
+
+  <div id="end-area" hidden>
+    <div class="end-card">
+      <div style="font-size:48px;margin-bottom:8px" id="end-emoji">🏛️</div>
+      <h2 id="end-title">Fine!</h2>
+      <div class="end-score" id="end-score">0 <small>punti</small></div>
+      <div class="end-msg" id="end-msg"></div>
+      <div class="review-list" id="review-list"></div>
+      <div class="btn-row">
+        <a class="btn back-btn" href="index.html" style="padding:10px 22px">◀ Latino Classe I</a>
+        <button class="btn btn-restart" onclick="restartGame()">🔄 Rigioca</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════
+// BANCA FORME — 60 forme dalla Dispensa Primo Anno
+// caso: N/G/D/Ac/Ab/V  numero: sg/pl  decl: I/II/III
+// ═══════════════════════════════════════════════
+const CASI = ["Nominativo","Genitivo","Dativo","Accusativo","Ablativo"];
+const NUMERI = ["Singolare","Plurale"];
+
+const BANK = [
+  // ── I DECLINAZIONE (femminile -a) ──
+  {forma:"puella",   decl:"I decl.",  caso:"Nominativo", numero:"Singolare", spieg:"puella = nom. sg. (soggetto)"},
+  {forma:"puellae",  decl:"I decl.",  caso:"Genitivo",   numero:"Singolare", spieg:"puellae = gen. sg. (di, della)"},
+  {forma:"puellae",  decl:"I decl.",  caso:"Dativo",     numero:"Singolare", spieg:"puellae = dat. sg. (a, per)"},
+  {forma:"puellam",  decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"puellam = acc. sg. (oggetto)"},
+  {forma:"puella",   decl:"I decl.",  caso:"Ablativo",   numero:"Singolare", spieg:"puella = abl. sg. (con, da, in)"},
+  {forma:"puellae",  decl:"I decl.",  caso:"Nominativo", numero:"Plurale",   spieg:"puellae = nom. pl. (soggetto pl.)"},
+  {forma:"puellarum",decl:"I decl.",  caso:"Genitivo",   numero:"Plurale",   spieg:"puellarum = gen. pl. (delle)"},
+  {forma:"puellis",  decl:"I decl.",  caso:"Dativo",     numero:"Plurale",   spieg:"puellis = dat./abl. pl."},
+  {forma:"puellas",  decl:"I decl.",  caso:"Accusativo", numero:"Plurale",   spieg:"puellas = acc. pl. (oggetto pl.)"},
+  {forma:"rosam",    decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"rosam = acc. sg."},
+  {forma:"aquam",    decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"aquam = acc. sg."},
+  {forma:"silvae",   decl:"I decl.",  caso:"Genitivo",   numero:"Singolare", spieg:"silvae = gen. sg. o dat. sg."},
+  {forma:"terram",   decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"terram = acc. sg."},
+  {forma:"viam",     decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"viam = acc. sg."},
+  {forma:"villam",   decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"villam = acc. sg."},
+  // ── II DECLINAZIONE (maschile -us) ──
+  {forma:"servus",   decl:"II decl.", caso:"Nominativo", numero:"Singolare", spieg:"servus = nom. sg."},
+  {forma:"servi",    decl:"II decl.", caso:"Genitivo",   numero:"Singolare", spieg:"servi = gen. sg. o nom. pl."},
+  {forma:"servo",    decl:"II decl.", caso:"Dativo",     numero:"Singolare", spieg:"servo = dat./abl. sg."},
+  {forma:"servum",   decl:"II decl.", caso:"Accusativo", numero:"Singolare", spieg:"servum = acc. sg."},
+  {forma:"servi",    decl:"II decl.", caso:"Nominativo", numero:"Plurale",   spieg:"servi = nom. pl."},
+  {forma:"servorum", decl:"II decl.", caso:"Genitivo",   numero:"Plurale",   spieg:"servorum = gen. pl."},
+  {forma:"servis",   decl:"II decl.", caso:"Dativo",     numero:"Plurale",   spieg:"servis = dat./abl. pl."},
+  {forma:"servos",   decl:"II decl.", caso:"Accusativo", numero:"Plurale",   spieg:"servos = acc. pl."},
+  {forma:"dominum",  decl:"II decl.", caso:"Accusativo", numero:"Singolare", spieg:"dominum = acc. sg."},
+  {forma:"agrum",    decl:"II decl.", caso:"Accusativo", numero:"Singolare", spieg:"agrum = acc. sg."},
+  {forma:"librum",   decl:"II decl.", caso:"Accusativo", numero:"Singolare", spieg:"librum = acc. sg."},
+  {forma:"gladium",  decl:"II decl.", caso:"Accusativo", numero:"Singolare", spieg:"gladium = acc. sg."},
+  {forma:"populum",  decl:"II decl.", caso:"Accusativo", numero:"Singolare", spieg:"populum = acc. sg."},
+  {forma:"equum",    decl:"II decl.", caso:"Accusativo", numero:"Singolare", spieg:"equum = acc. sg."},
+  // ── II DECLINAZIONE neutri (-um) ──
+  {forma:"donum",    decl:"II decl. neutro", caso:"Nominativo", numero:"Singolare", spieg:"donum = nom./acc. sg. neutro"},
+  {forma:"doni",     decl:"II decl. neutro", caso:"Genitivo",   numero:"Singolare", spieg:"doni = gen. sg."},
+  {forma:"dona",     decl:"II decl. neutro", caso:"Nominativo", numero:"Plurale",   spieg:"dona = nom./acc. pl. neutro"},
+  // ── III DECLINAZIONE ──
+  {forma:"miles",    decl:"III decl.",caso:"Nominativo", numero:"Singolare", spieg:"miles = nom. sg. (il soldato)"},
+  {forma:"militem",  decl:"III decl.",caso:"Accusativo", numero:"Singolare", spieg:"militem = acc. sg."},
+  {forma:"milites",  decl:"III decl.",caso:"Nominativo", numero:"Plurale",   spieg:"milites = nom./acc. pl."},
+  {forma:"militum",  decl:"III decl.",caso:"Genitivo",   numero:"Plurale",   spieg:"militum = gen. pl."},
+  {forma:"rex",      decl:"III decl.",caso:"Nominativo", numero:"Singolare", spieg:"rex = nom. sg. (il re)"},
+  {forma:"regem",    decl:"III decl.",caso:"Accusativo", numero:"Singolare", spieg:"regem = acc. sg."},
+  {forma:"reges",    decl:"III decl.",caso:"Nominativo", numero:"Plurale",   spieg:"reges = nom./acc. pl."},
+  {forma:"mater",    decl:"III decl.",caso:"Nominativo", numero:"Singolare", spieg:"mater = nom. sg. (la madre)"},
+  {forma:"matrem",   decl:"III decl.",caso:"Accusativo", numero:"Singolare", spieg:"matrem = acc. sg."},
+  {forma:"hostes",   decl:"III decl.",caso:"Nominativo", numero:"Plurale",   spieg:"hostes = nom./acc. pl. (i nemici)"},
+  {forma:"hostium",  decl:"III decl.",caso:"Genitivo",   numero:"Plurale",   spieg:"hostium = gen. pl."},
+  {forma:"navis",    decl:"III decl.",caso:"Genitivo",   numero:"Singolare", spieg:"navis = gen. sg. (della nave)"},
+  // ── CASI PARTICOLARI ──
+  {forma:"magistro", decl:"II decl.", caso:"Dativo",     numero:"Singolare", spieg:"magistro = dat. sg. (al maestro)"},
+  {forma:"magistro", decl:"II decl.", caso:"Ablativo",   numero:"Singolare", spieg:"magistro = abl. sg. (dal maestro)"},
+  {forma:"puellis",  decl:"I decl.",  caso:"Ablativo",   numero:"Plurale",   spieg:"puellis = abl. pl."},
+  {forma:"servis",   decl:"II decl.", caso:"Ablativo",   numero:"Plurale",   spieg:"servis = abl. pl."},
+  {forma:"magistros",decl:"II decl.", caso:"Accusativo", numero:"Plurale",   spieg:"magistros = acc. pl."},
+  {forma:"discipulos",decl:"II decl.",caso:"Accusativo", numero:"Plurale",   spieg:"discipulos = acc. pl."},
+  {forma:"discipulum",decl:"II decl.",caso:"Accusativo", numero:"Singolare", spieg:"discipulum = acc. sg."},
+  {forma:"agricolae",decl:"I decl.",  caso:"Nominativo", numero:"Plurale",   spieg:"agricolae = nom. pl."},
+  {forma:"nautae",   decl:"I decl.",  caso:"Nominativo", numero:"Plurale",   spieg:"nautae = nom. pl."},
+  {forma:"nautam",   decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"nautam = acc. sg."},
+  {forma:"poetam",   decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"poetam = acc. sg."},
+  {forma:"pueros",   decl:"II decl.", caso:"Accusativo", numero:"Plurale",   spieg:"pueros = acc. pl."},
+  {forma:"puerum",   decl:"II decl.", caso:"Accusativo", numero:"Singolare", spieg:"puerum = acc. sg."},
+  {forma:"filiam",   decl:"I decl.",  caso:"Accusativo", numero:"Singolare", spieg:"filiam = acc. sg. (la figlia)"},
+  {forma:"filios",   decl:"II decl.", caso:"Accusativo", numero:"Plurale",   spieg:"filios = acc. pl. (i figli)"},
+];
+
+const TOTAL = 20;
+const TIMER_SEC = 15;
+
+let questions=[], qi=0, totalScore=0, totalCorrect=0, results=[];
+let fase=0; // 0=caso, 1=numero
+let casoScelto='', numScelto='';
+let casoOk=false;
+let timerInterval=null, timeLeft=0;
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+
+function restartGame(){
+  qi=0;totalScore=0;totalCorrect=0;results=[];fase=0;
+  document.getElementById('end-area').hidden=true;
+  document.getElementById('game-area').hidden=false;
+  document.getElementById('score').textContent='0';
+  document.getElementById('correct').textContent='0';
+  questions=shuffle([...BANK]).slice(0,TOTAL);
+  loadQ();
+}
+
+function loadQ(){
+  clearInterval(timerInterval);
+  fase=0; casoScelto=''; numScelto=''; casoOk=false;
+  const q=questions[qi];
+
+  document.getElementById('forma-num').textContent=`FORMA ${qi+1} / ${TOTAL}`;
+  document.getElementById('forma-latin').textContent=q.forma;
+  document.getElementById('forma-decl').textContent=q.decl;
+  document.getElementById('q-num').textContent=qi+1;
+
+  document.getElementById('feedback').hidden=true;
+  document.getElementById('btn-next').hidden=true;
+
+  // fase-dot
+  document.getElementById('dot-caso').className='fase-dot active';
+  document.getElementById('dot-numero').className='fase-dot';
+
+  renderFaseCaso();
+  startTimer();
+}
+
+function renderFaseCaso(){
+  document.getElementById('q-label').textContent='Qual è il CASO?';
+  const grid=document.getElementById('opts-grid');
+  grid.className='opts-grid caso';
+  grid.innerHTML='';
+  CASI.forEach(c=>{
+    const btn=document.createElement('button');
+    btn.className='opt';
+    btn.textContent=c;
+    btn.onclick=()=>selectCaso(c,btn);
+    grid.appendChild(btn);
+  });
+}
+
+function renderFaseNumero(){
+  document.getElementById('q-label').textContent='Qual è il NUMERO?';
+  const grid=document.getElementById('opts-grid');
+  grid.className='opts-grid numero';
+  grid.innerHTML='';
+  NUMERI.forEach(n=>{
+    const btn=document.createElement('button');
+    btn.className='opt';
+    btn.textContent=n;
+    btn.onclick=()=>selectNumero(n,btn);
+    grid.appendChild(btn);
+  });
+}
+
+function startTimer(){
+  timeLeft=TIMER_SEC;
+  document.getElementById('timer-bar').style.width='100%';
+  timerInterval=setInterval(()=>{
+    timeLeft=Math.max(0,timeLeft-0.1);
+    document.getElementById('timer-bar').style.width=`${(timeLeft/TIMER_SEC)*100}%`;
+    if(timeLeft===0){clearInterval(timerInterval);timeoutAnswer();}
+  },100);
+}
+
+function stopTimer(){clearInterval(timerInterval);}
+
+function timeoutAnswer(){
+  // considera sbagliata la fase corrente
+  if(fase===0){showFeedbackCaso(false,false);}
+  else{showFeedbackNumero(false,false);}
+}
+
+function selectCaso(c, btn){
+  stopTimer();
+  casoScelto=c;
+  document.querySelectorAll('#opts-grid .opt').forEach(b=>b.setAttribute('disabled',''));
+  btn.classList.add('selected');
+  const q=questions[qi];
+  casoOk=(c===q.caso);
+  setTimeout(()=>showFeedbackCaso(casoOk, true),200);
+}
+
+function showFeedbackCaso(ok, userAnswered){
+  const q=questions[qi];
+  // colora opzioni
+  document.querySelectorAll('#opts-grid .opt').forEach(b=>{
+    if(b.textContent===q.caso) b.classList.add(ok?'correct':'show-correct');
+    if(!ok && b.classList.contains('selected')) b.classList.add('wrong');
+  });
+  // aggiorna dot
+  document.getElementById('dot-caso').className='fase-dot done';
+  document.getElementById('dot-numero').className='fase-dot active';
+
+  // mostra feedback breve
+  const fb=document.getElementById('feedback');
+  fb.hidden=false;
+  fb.className=`feedback ${ok?'ok':'ko'}`;
+  fb.innerHTML=ok
+    ? `✅ Caso corretto: <strong>${q.caso}</strong> — ora il numero…`
+    : `❌ Era ${q.caso}${userAnswered?', non '+casoScelto:' (tempo scaduto)'} — ora il numero…`;
+
+  setTimeout(()=>{
+    document.getElementById('feedback').hidden=true;
+    fase=1;
+    renderFaseNumero();
+    startTimer();
+  },1200);
+}
+
+function selectNumero(n, btn){
+  stopTimer();
+  numScelto=n;
+  document.querySelectorAll('#opts-grid .opt').forEach(b=>b.setAttribute('disabled',''));
+  btn.classList.add('selected');
+  const q=questions[qi];
+  const numOk=(n===q.numero);
+  const bothOk=casoOk&&numOk;
+
+  setTimeout(()=>showFeedbackNumero(numOk, true, bothOk),200);
+}
+
+function showFeedbackNumero(numOk, userAnswered, bothOk){
+  const q=questions[qi];
+  document.querySelectorAll('#opts-grid .opt').forEach(b=>{
+    if(b.textContent===q.numero) b.classList.add(numOk?'correct':'show-correct');
+    if(!numOk && b.classList.contains('selected')) b.classList.add('wrong');
+  });
+
+  // punteggio: 5 caso + 5 numero, bonus tempo
+  const ptsCaso= casoOk ? 5 : 0;
+  const ptsNum = numOk  ? 5 : 0;
+  const ptsBonus= bothOk ? Math.round((timeLeft/TIMER_SEC)*5) : 0;
+  const pts=ptsCaso+ptsNum+ptsBonus;
+  totalScore+=pts;
+  if(bothOk) totalCorrect++;
+  document.getElementById('score').textContent=totalScore;
+  document.getElementById('correct').textContent=totalCorrect;
+
+  results.push({q,casoOk,numOk,bothOk,pts});
+
+  const fb=document.getElementById('feedback');
+  fb.hidden=false;
+  fb.className=`feedback ${bothOk?'ok':'ko'}`;
+  let msg='';
+  if(bothOk) msg=`🏆 Perfetto! ${q.caso} ${q.numero} — <strong>+${pts} pt</strong>`;
+  else {
+    msg=`${numOk?'✅':'❌'} Numero: <strong>${q.numero}</strong>`;
+    if(!casoOk) msg=`❌ Caso: <strong>${q.caso}</strong> · `+msg;
+    msg+=`<div class="spieg">${q.spieg}</div>`;
+  }
+  fb.innerHTML=msg;
+
+  document.getElementById('dot-numero').className='fase-dot done';
+  document.getElementById('btn-next').hidden=false;
+}
+
+function nextStep(){
+  qi++;
+  if(qi>=TOTAL){showEnd();return;}
+  loadQ();
+}
+
+function showEnd(){
+  document.getElementById('game-area').hidden=true;
+  document.getElementById('end-area').hidden=false;
+
+  const pct=Math.round((totalCorrect/TOTAL)*100);
+  let emoji='🏛️',title='Fine!',msg='';
+  if(pct>=90){emoji='🏆';title='OPTIMUS GRAMMATICUS!';msg='Conosci le forme latine come un vero grammaticus romano!'}
+  else if(pct>=70){emoji='⚔️';title='BENE!';msg='Buona padronanza della morfologia latina!'}
+  else if(pct>=50){emoji='🛡️';title='MEDIOCRITER';msg='Continua ad esercitarti con le declinazioni!'}
+  else{emoji='💀';title='RECADE!';msg='Rileggi la tabella dei casi sulla dispensa e riprova!'}
+
+  document.getElementById('end-emoji').textContent=emoji;
+  document.getElementById('end-title').textContent=title;
+  document.getElementById('end-score').innerHTML=`${totalScore} <small>punti</small>`;
+  document.getElementById('end-msg').textContent=`${totalCorrect}/${TOTAL} forme corrette (${pct}%) — ${msg}`;
+
+  const rl=document.getElementById('review-list');
+  rl.innerHTML='';
+  results.forEach((r,i)=>{
+    const div=document.createElement('div');
+    div.className='review-item';
+    div.innerHTML=`
+      <div class="ri-forma">${r.q.forma}</div>
+      <div class="ri-info">${r.q.caso} ${r.q.numero}<br><span style="font-size:11px">${r.q.spieg}</span></div>
+      <div class="ri-result">${r.bothOk?'✅':'❌'}</div>`;
+    rl.appendChild(div);
+  });
+}
+
+// avvio
+questions=shuffle([...BANK]).slice(0,TOTAL);
+loadQ();
+</script>
+</body></html>
