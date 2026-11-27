@@ -53,6 +53,9 @@ h1{font:400 clamp(36px,6.5vw,60px)/1 'Bebas Neue',Impact,sans-serif;letter-spaci
 .life{font:19px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue);border:2px solid var(--gold);border-radius:30px;padding:7px 16px;min-height:42px;cursor:pointer;white-space:nowrap}
 .life:disabled{opacity:.3;text-decoration:line-through;cursor:default}
 .go{font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;background:var(--gold);color:var(--bg);border:0;border-radius:30px;padding:9px 24px;min-height:46px;cursor:pointer;box-shadow:0 0 16px rgba(255,210,28,.5)}
+.btn-nav{font:20px 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;background:var(--blue2);border:2px solid var(--edge);border-radius:30px;padding:9px 20px;min-height:46px;cursor:pointer;white-space:nowrap}
+.btn-nav:hover{border-color:var(--gold)}
+.btn-next{background:var(--gold);color:var(--bg);border-color:var(--gold);box-shadow:0 0 14px rgba(255,210,28,.5)}
 button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 /* scala punteggi */
 .ladder{list-style:none;margin:0;padding:8px;background:rgba(5,11,28,.7);border:2px solid var(--blue2);border-radius:14px;display:flex;flex-direction:column-reverse;gap:2px}
@@ -101,7 +104,10 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
   <div class="choices" id="choices"></div>
   <div class="msg" id="msg" role="status"></div>
   <div id="corr"></div>
-  <div class="bar" id="act"></div>
+  <div class="bar" id="act">
+   <button class="btn-nav" id="btnBack" type="button" hidden>← Indietro</button>
+   <button class="btn-nav btn-next" id="btnNext" type="button" hidden>Avanti →</button>
+  </div>
   <div class="bar">
    <button class="life" id="lFifty" type="button">50:50</button>
    <button class="life" id="lTime" type="button">+Tempo</button>
@@ -224,6 +230,9 @@ function updateScore(){
 
 function showQ(){
   if(cur >= qs.length){ endGame(); return; }
+  // nasconde bottoni nav all'inizio di ogni domanda
+  $('btnNext').hidden = true;
+  $('btnBack').hidden = true;
   const q = qs[cur];
   updateLadder(cur);
   $('qnum').textContent = `Opera ${cur+1} di ${qs.length}`;
@@ -292,6 +301,13 @@ function startTimer(){
   }, 1000);
 }
 
+function showNavBtns(gameOver){
+  const btnNext = $('btnNext');
+  const btnBack = $('btnBack');
+  btnNext.hidden = !!gameOver;
+  btnBack.hidden = cur === 0;
+}
+
 function timeUp(){
   const msg = $('msg');
   msg.className = 'msg ko';
@@ -301,8 +317,9 @@ function timeUp(){
   updateScore();
   disableAll();
   revealCorrect();
-  if(errs>=MAX_ERR){ setTimeout(endGame,2200); return; }
-  setTimeout(nextQ, 2200);
+  revealInfo(true);
+  if(errs>=MAX_ERR){ setTimeout(endGame,3000); return; }
+  showNavBtns(false);
 }
 
 function answer(i){
@@ -321,7 +338,7 @@ function answer(i){
     pts += Math.round(base * mult) + speedBonus;
     updateScore();
     revealInfo(false);
-    setTimeout(nextQ, 2000);
+    showNavBtns(false);
   } else {
     btns[i].className = 'ch wrong';
     msg.className = 'msg ko';
@@ -334,8 +351,8 @@ function answer(i){
     wrongs.push({opera:q.opera, autore:q.autore, chosen:q.choices[i]});
     revealCorrect();
     revealInfo(true);
-    if(errs>=MAX_ERR){ setTimeout(endGame,2500); return; }
-    setTimeout(nextQ, 2500);
+    if(errs>=MAX_ERR){ setTimeout(endGame,3000); return; }
+    showNavBtns(false);
   }
 }
 
@@ -370,8 +387,22 @@ function useShield(){
   shield = false;
   $('lShield').disabled = true;
   $('msg').textContent += ' — lo scudo è stato consumato';
-  setTimeout(nextQ, 1800);
+  showNavBtns(false);
 }
+
+// ── Navigazione Avanti / Indietro ─────────────────
+$('btnNext').addEventListener('click', ()=>{
+  clearInterval(timer);
+  nextQ();
+});
+
+$('btnBack').addEventListener('click', ()=>{
+  if(cur <= 0) return;
+  clearInterval(timer);
+  // torna indietro: rimuove l'ultima risposta errata registrata se era questa domanda
+  cur--;
+  showQ();
+});
 
 // ── Aiuti ─────────────────────────────────────────
 $('lFifty').addEventListener('click', ()=>{
@@ -437,7 +468,7 @@ function endGame(){
 $('again').addEventListener('click', startGame);
 
 // avvio: carica opere.json poi parte
-fetch('opere.json?v=2')
+fetch('opere.json?v=3')
   .then(r=>r.json())
   .then(raw=>{
     DATA = buildData(raw);
