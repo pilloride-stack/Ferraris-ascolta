@@ -144,7 +144,7 @@ const PRIZES = [
 
 const $=id=>document.getElementById(id);
 
-let qs, cur, pts, streak, errs, shield, timer, timerEl, started;
+let qs, cur, pts, streak, errs, shield, timer, timerEl, started, timerStarted;
 let lifeUsed = {fifty:false, time:false, shield:false};
 let wrongs = [];
 
@@ -207,8 +207,8 @@ function showQ(){
   frame.className = 'frame';
   img.style.display = 'none';
   frame.querySelector('.loading').hidden = false;
-  img.onload = ()=>{ img.style.display='block'; frame.querySelector('.loading').hidden=true; };
-  img.onerror = ()=>{ frame.querySelector('.loading').textContent='Immagine non disponibile'; };
+  img.onload = ()=>{ img.style.display='block'; frame.querySelector('.loading').hidden=true; if(!timerStarted){timerStarted=true;startTimer();} };
+  img.onerror = ()=>{ frame.querySelector('.loading').textContent='Immagine non disponibile'; if(!timerStarted){timerStarted=true;startTimer();} };
   img.src = q.img;
   img.alt = `Opera: ${q.opera}`;
   // titolo opera nascosto finché non risponde
@@ -232,7 +232,9 @@ function showQ(){
   $('corr').innerHTML = '';
   $('act').innerHTML = '';
 
-  startTimer();
+  timerStarted = false;
+  // se già in cache il browser non scatena onload → gestisci subito
+  if(img.complete){ img.style.display='block'; frame.querySelector('.loading').hidden=true; timerStarted=true; startTimer(); }
 }
 
 function startTimer(){
