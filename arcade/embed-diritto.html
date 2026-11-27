@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ferraris Arcade — Diritto</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Helvetica,Arial,sans-serif;background:transparent;padding:12px;}
+
+/* TAB switcher */
+.tabs{display:flex;gap:6px;margin-bottom:14px;}
+.tab{flex:1;padding:8px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(13,31,82,.7);color:#7a9acb;font-size:.78rem;font-weight:700;letter-spacing:.5px;cursor:pointer;text-align:center;transition:all .15s;}
+.tab.active{background:rgba(200,212,0,.15);border-color:rgba(200,212,0,.4);color:#dfe840;}
+
+/* Panel */
+.panel{display:none;}
+.panel.active{display:flex;flex-direction:column;gap:0;}
+
+/* Section label */
+.sezione{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#7a9acb;margin:10px 0 5px;padding-left:4px;}
+.sezione:first-child{margin-top:0;}
+
+/* Game row */
+.gioco{display:flex;align-items:center;gap:10px;padding:11px 13px;border-radius:13px;background:rgba(13,31,82,.92);border:1px solid rgba(255,255,255,.09);text-decoration:none;color:#ffffff;transition:all .15s;margin-bottom:7px;}
+.gioco:last-child{margin-bottom:0;}
+.gioco:hover{background:rgba(26,58,124,.95);border-color:rgba(200,212,0,.3);transform:translateY(-1px);}
+.icona{font-size:1.3rem;line-height:1;flex-shrink:0;}
+.testo{display:flex;flex-direction:column;gap:1px;flex:1;min-width:0;}
+.nome{font-size:.82rem;font-weight:700;color:#ffffff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.descrizione{font-size:.68rem;color:#7a9acb;line-height:1.35;}
+.avvia{flex-shrink:0;padding:5px 11px;border-radius:8px;background:#c8d400;color:#0d1f52;font-size:.65rem;font-weight:700;}
+</style>
+</head>
+<body>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('d1')">🏛 Diritto I</div>
+  <div class="tab" onclick="switchTab('d2')">⚖️ Diritto II</div>
+</div>
+
+<!-- DIRITTO I -->
+<div class="panel active" id="panel-d1">
+
+  <div class="sezione">📚 Diritto</div>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-1/lex-quiz.html" target="_blank">
+    <div class="icona">📜</div>
+    <div class="testo">
+      <div class="nome">Lex Quiz</div>
+      <div class="descrizione">Norma giuridica, fonti del diritto, Costituzione</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-1/vero-falso.html" target="_blank">
+    <div class="icona">✅</div>
+    <div class="testo">
+      <div class="nome">Vero o Falso</div>
+      <div class="descrizione">50 affermazioni di diritto a cronometro</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-1/abbina-fonte.html" target="_blank">
+    <div class="icona">🔗</div>
+    <div class="testo">
+      <div class="nome">Abbina la Fonte</div>
+      <div class="descrizione">Collega termini e definizioni giuridiche</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+  <div class="sezione">📈 Economia</div>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-1/economia-quiz.html" target="_blank">
+    <div class="icona">📊</div>
+    <div class="testo">
+      <div class="nome">Economia Quiz</div>
+      <div class="descrizione">Domanda, offerta, mercati e soggetti economici</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+  <div class="sezione">⚔️ Boss Level</div>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-1/hp-costituzione.html" target="_blank">
+    <div class="icona">⚔️</div>
+    <div class="testo">
+      <div class="nome">HP Battle · Costituzione</div>
+      <div class="descrizione">Abbina articoli e contenuti — 3 vite in palio</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+</div>
+
+<!-- DIRITTO II -->
+<div class="panel" id="panel-d2">
+
+  <div class="sezione">🏛 Istituzioni</div>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-2/quiz-parlamento.html" target="_blank">
+    <div class="icona">🗳️</div>
+    <div class="testo">
+      <div class="nome">Quiz Parlamento</div>
+      <div class="descrizione">Parlamento, Presidente, Governo, Magistratura, Corte Costituzionale</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-2/vero-falso.html" target="_blank">
+    <div class="icona">✅</div>
+    <div class="testo">
+      <div class="nome">Vero o Falso Istituzioni</div>
+      <div class="descrizione">Affermazioni con spiegazione delle risposte false · 16s</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-2/abbina-istituzione.html" target="_blank">
+    <div class="icona">🔗</div>
+    <div class="testo">
+      <div class="nome">Abbina l'Istituzione</div>
+      <div class="descrizione">Organi costituzionali e definizioni · 10 round</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+  <div class="sezione">📊 Economia Avanzata</div>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-2/economia-avanzata.html" target="_blank">
+    <div class="icona">📈</div>
+    <div class="testo">
+      <div class="nome">Economia Avanzata</div>
+      <div class="descrizione">PIL, inflazione, forme di mercato, politica fiscale</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+  <div class="sezione">⚔️ Boss Level</div>
+
+  <a class="gioco" href="https://episodi.galileoferraris.com/arcade/diritto-2/battle-equilibrio.html" target="_blank">
+    <div class="icona">⚔️</div>
+    <div class="testo">
+      <div class="nome">Battle Equilibrio</div>
+      <div class="descrizione">Concept cards economia · 100 HP · 3 vite</div>
+    </div>
+    <div class="avvia">▶ Gioca</div>
+  </a>
+
+</div>
+
+<script>
+function switchTab(id){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',['d1','d2'][i]===id));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='panel-'+id));
+}
+</script>
+</body>
+</html>
