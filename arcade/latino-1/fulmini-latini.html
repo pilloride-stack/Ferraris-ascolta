@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fulmini Latini · Latino Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--perg:#f5e9c8;--ok:#4caf50;--ko:#e74c3c;--ink:#f5e9c8;--muted:#b8a070}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;min-height:100vh;overflow-x:clip;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg') center/cover no-repeat fixed}
+body::before{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(10,5,0,.82) 0%,rgba(20,10,2,.78) 60%,rgba(10,5,0,.88) 100%);pointer-events:none;z-index:0}
+.wrap{max-width:700px;margin:0 auto;padding:14px max(3vw,12px) 32px;position:relative;z-index:1}
+
+.back-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(44,32,16,.7);border:1px solid var(--bronze);border-radius:8px;color:var(--sand);font:600 13px Lexend;padding:6px 14px;text-decoration:none;cursor:pointer;margin-bottom:14px;transition:background .2s}
+.back-btn:hover{background:rgba(124,92,43,.4)}
+
+.spqr{text-align:center;font:700 11px/1 Cinzel,serif;letter-spacing:4px;color:var(--bronze2);margin-bottom:2px}
+h1{font:900 clamp(28px,6vw,52px)/1 Cinzel,serif;text-align:center;margin:0 0 2px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 14px}
+
+.stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+.stat{background:var(--stone2);border:1px solid var(--bronze);border-radius:8px;padding:5px 14px;font:700 13px Cinzel;color:var(--sand2);display:flex;align-items:center;gap:6px}
+.stat span{font:600 20px Lexend;color:var(--sand)}
+
+/* timer bar */
+.timer-wrap{height:7px;background:var(--stone2);border-radius:4px;margin-bottom:16px;overflow:hidden}
+.timer-bar{height:100%;border-radius:4px;transition:width .08s linear}
+.timer-bar.green{background:linear-gradient(90deg,var(--ok),#8edd8e)}
+.timer-bar.orange{background:linear-gradient(90deg,#e67e22,#f39c12)}
+.timer-bar.red{background:linear-gradient(90deg,var(--ko),#ff6b6b)}
+
+/* carta domanda */
+.q-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:24px 20px 20px;text-align:center;margin-bottom:14px;backdrop-filter:blur(4px);min-height:140px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.q-num{font:700 11px Cinzel;letter-spacing:3px;color:var(--bronze2)}
+.q-type{font:600 12px Lexend;color:var(--muted);letter-spacing:1px;margin-bottom:4px}
+.q-latin{font:900 clamp(34px,8vw,64px)/1 Cinzel;color:var(--sand);text-shadow:0 2px 20px rgba(200,169,110,.5)}
+.q-ital{font:600 clamp(20px,5vw,36px)/1.2 Lexend;color:var(--sand2)}
+.q-hint{font:400 13px Lexend;color:var(--muted)}
+
+/* opzioni */
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.opt{background:var(--stone2);border:2px solid var(--bronze);border-radius:14px;padding:14px 10px;font:700 16px Cinzel;color:var(--sand2);cursor:pointer;transition:all .15s;text-align:center;letter-spacing:.3px;line-height:1.3;min-height:64px;display:flex;align-items:center;justify-content:center;word-break:break-word}
+.opt:hover{border-color:var(--sand2);background:var(--stone3);transform:scale(1.02)}
+.opt.correct{border-color:var(--ok)!important;background:rgba(76,175,80,.2)!important;color:#8edd8e!important;transform:scale(1.03)}
+.opt.wrong{border-color:var(--ko)!important;background:rgba(231,76,60,.2)!important;color:#f07070!important}
+.opt.show-correct{border-color:var(--ok)!important;background:rgba(76,175,80,.1)!important}
+.opt[disabled]{pointer-events:none;cursor:default}
+
+/* streak */
+.streak{text-align:center;font:700 14px Cinzel;color:var(--bronze2);min-height:22px;margin-bottom:4px;letter-spacing:1px;transition:all .3s}
+.streak.fire{color:var(--sand);text-shadow:0 0 12px rgba(200,169,110,.8)}
+
+/* flash overlay */
+.flash{position:fixed;inset:0;pointer-events:none;z-index:999;opacity:0;transition:opacity .15s}
+.flash.ok-flash{background:rgba(76,175,80,.18)}
+.flash.ko-flash{background:rgba(231,76,60,.2)}
+
+/* fine */
+.end-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:32px 24px;text-align:center;backdrop-filter:blur(6px)}
+.end-card h2{font:900 clamp(26px,5vw,44px)/1 Cinzel;color:var(--sand);margin:0 0 8px}
+.end-score{font:700 clamp(44px,10vw,76px)/1 Cinzel;color:var(--sand2);margin:12px 0}
+.end-score small{font-size:38%;color:var(--muted)}
+.end-stats{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
+.es{background:var(--stone2);border:1px solid var(--bronze);border-radius:10px;padding:10px 18px;text-align:center}
+.es-label{font:700 10px Cinzel;letter-spacing:2px;color:var(--bronze2);margin-bottom:4px}
+.es-val{font:700 24px Cinzel;color:var(--sand2)}
+.end-msg{color:var(--muted);font-size:14px;margin-bottom:22px}
+.btn-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn{padding:10px 26px;border:none;border-radius:10px;font:700 14px Cinzel;cursor:pointer;transition:all .18s;letter-spacing:.5px}
+.btn-restart{background:linear-gradient(135deg,var(--red),var(--red2));color:var(--sand2);font-size:15px;padding:12px 30px;box-shadow:0 2px 12px rgba(139,26,26,.5)}
+.btn-restart:hover{filter:brightness(1.15)}
+
+/* lightning bolt decorativo */
+@keyframes zap{0%{opacity:0;transform:scale(.5)}40%{opacity:1;transform:scale(1.2)}100%{opacity:0;transform:scale(.8)}}
+.zap{position:fixed;top:30%;left:50%;transform:translate(-50%,-50%);font-size:80px;pointer-events:none;z-index:1000;animation:zap .4s ease forwards}
+</style>
+</head>
+<body>
+<div class="flash" id="flash"></div>
+
+<div class="wrap">
+  <a class="back-btn" href="index.html">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Latino Classe I
+  </a>
+
+  <div class="spqr">S · P · Q · R</div>
+  <h1>⚡ Fulmini Latini</h1>
+  <p class="sub">Latino · Classe I · Abbina forma latina ↔ traduzione italiana a tutta velocità!</p>
+
+  <div class="stats">
+    <div class="stat">⚡ <span id="q-num">1</span>/30</div>
+    <div class="stat">🏆 <span id="score">0</span></div>
+    <div class="stat">🔥 <span id="streak-stat">0</span> streak</div>
+  </div>
+
+  <div class="timer-wrap"><div class="timer-bar green" id="timer-bar"></div></div>
+
+  <div id="game-area">
+    <div class="streak" id="streak-label"></div>
+
+    <div class="q-card">
+      <div class="q-num" id="q-num-label">FULMINE 1 / 30</div>
+      <div class="q-type" id="q-type">↓ Traduci in italiano ↓</div>
+      <div class="q-latin" id="q-main">—</div>
+      <div class="q-hint" id="q-hint"></div>
+    </div>
+
+    <div class="opts" id="opts"></div>
+  </div>
+
+  <div id="end-area" hidden>
+    <div class="end-card">
+      <div style="font-size:48px;margin-bottom:8px" id="end-emoji">⚡</div>
+      <h2 id="end-title">Fine!</h2>
+      <div class="end-score" id="end-score">0 <small>punti</small></div>
+      <div class="end-stats" id="end-stats"></div>
+      <div class="end-msg" id="end-msg"></div>
+      <div class="btn-row">
+        <a class="btn back-btn" href="index.html" style="padding:10px 20px">◀ Latino Classe I</a>
+        <button class="btn btn-restart" onclick="restartGame()">🔄 Rigioca</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════
+// BANCA — 80 coppie forma latina / traduzione
+// Misto: vocaboli + forme declinazione + verbi
+// ═══════════════════════════════════════════
+const BANK = [
+  // ── SOSTANTIVI I decl ──
+  {lat:"puella",   ita:"la ragazza",    hint:"I decl."},
+  {lat:"puellae",  ita:"delle ragazze", hint:"gen. sg."},
+  {lat:"puellas",  ita:"le ragazze",    hint:"acc. pl."},
+  {lat:"rosa",     ita:"la rosa",       hint:"I decl."},
+  {lat:"rosas",    ita:"le rose",       hint:"acc. pl."},
+  {lat:"silva",    ita:"la foresta",    hint:"I decl."},
+  {lat:"silvas",   ita:"le foreste",    hint:"acc. pl."},
+  {lat:"terra",    ita:"la terra",      hint:"I decl."},
+  {lat:"terram",   ita:"la terra",      hint:"acc. sg."},
+  {lat:"via",      ita:"la strada",     hint:"I decl."},
+  {lat:"viam",     ita:"la strada",     hint:"acc. sg."},
+  {lat:"aqua",     ita:"l'acqua",       hint:"I decl."},
+  {lat:"aquam",    ita:"l'acqua",       hint:"acc. sg."},
+  {lat:"nauta",    ita:"il marinaio",   hint:"I decl."},
+  {lat:"nautam",   ita:"il marinaio",   hint:"acc. sg."},
+  {lat:"agricola", ita:"il contadino",  hint:"I decl."},
+  {lat:"poeta",    ita:"il poeta",      hint:"I decl."},
+  {lat:"victoria", ita:"la vittoria",   hint:"I decl."},
+  // ── SOSTANTIVI II decl masch ──
+  {lat:"servus",   ita:"lo schiavo",    hint:"II decl."},
+  {lat:"servum",   ita:"lo schiavo",    hint:"acc. sg."},
+  {lat:"servos",   ita:"gli schiavi",   hint:"acc. pl."},
+  {lat:"dominus",  ita:"il padrone",    hint:"II decl."},
+  {lat:"dominum",  ita:"il padrone",    hint:"acc. sg."},
+  {lat:"puer",     ita:"il ragazzo",    hint:"II decl."},
+  {lat:"puerum",   ita:"il ragazzo",    hint:"acc. sg."},
+  {lat:"magister", ita:"il maestro",    hint:"II decl."},
+  {lat:"filius",   ita:"il figlio",     hint:"II decl."},
+  {lat:"populus",  ita:"il popolo",     hint:"II decl."},
+  {lat:"amicus",   ita:"l'amico",       hint:"II decl."},
+  {lat:"amicum",   ita:"l'amico",       hint:"acc. sg."},
+  {lat:"gladius",  ita:"la spada",      hint:"II decl."},
+  {lat:"equus",    ita:"il cavallo",    hint:"II decl."},
+  {lat:"equum",    ita:"il cavallo",    hint:"acc. sg."},
+  {lat:"lupus",    ita:"il lupo",       hint:"II decl."},
+  // ── SOSTANTIVI II decl neutri ──
+  {lat:"donum",    ita:"il dono",       hint:"II decl. neutro"},
+  {lat:"dona",     ita:"i doni",        hint:"nom./acc. pl."},
+  {lat:"templum",  ita:"il tempio",     hint:"II decl. neutro"},
+  {lat:"templa",   ita:"i templi",      hint:"nom./acc. pl."},
+  {lat:"oppidum",  ita:"la città",      hint:"II decl. neutro"},
+  {lat:"bellum",   ita:"la guerra",     hint:"II decl. neutro"},
+  // ── SOSTANTIVI III decl ──
+  {lat:"miles",    ita:"il soldato",    hint:"III decl."},
+  {lat:"militem",  ita:"il soldato",    hint:"acc. sg."},
+  {lat:"milites",  ita:"i soldati",     hint:"nom./acc. pl."},
+  {lat:"rex",      ita:"il re",         hint:"III decl."},
+  {lat:"regem",    ita:"il re",         hint:"acc. sg."},
+  {lat:"reges",    ita:"i re",          hint:"nom./acc. pl."},
+  {lat:"mater",    ita:"la madre",      hint:"III decl."},
+  {lat:"matrem",   ita:"la madre",      hint:"acc. sg."},
+  {lat:"pater",    ita:"il padre",      hint:"III decl."},
+  {lat:"patrem",   ita:"il padre",      hint:"acc. sg."},
+  {lat:"consul",   ita:"il console",    hint:"III decl."},
+  {lat:"hostes",   ita:"i nemici",      hint:"III decl. pl."},
+  {lat:"urbs",     ita:"la città",      hint:"III decl."},
+  {lat:"urbem",    ita:"la città",      hint:"acc. sg."},
+  {lat:"corpus",   ita:"il corpo",      hint:"III decl."},
+  // ── VERBI (presente attivo) ──
+  {lat:"amo",      ita:"io amo",        hint:"I coniug."},
+  {lat:"amas",     ita:"tu ami",        hint:"I coniug."},
+  {lat:"amat",     ita:"egli ama",      hint:"I coniug."},
+  {lat:"amamus",   ita:"noi amiamo",    hint:"I coniug."},
+  {lat:"amatis",   ita:"voi amate",     hint:"I coniug."},
+  {lat:"amant",    ita:"essi amano",    hint:"I coniug."},
+  {lat:"laboro",   ita:"io lavoro",     hint:"I coniug."},
+  {lat:"laborat",  ita:"egli lavora",   hint:"I coniug."},
+  {lat:"laborant", ita:"essi lavorano", hint:"I coniug."},
+  {lat:"porto",    ita:"io porto",      hint:"I coniug."},
+  {lat:"portat",   ita:"egli porta",    hint:"I coniug."},
+  {lat:"portant",  ita:"essi portano",  hint:"I coniug."},
+  {lat:"voco",     ita:"io chiamo",     hint:"I coniug."},
+  {lat:"vocat",    ita:"egli chiama",   hint:"I coniug."},
+  {lat:"doceo",    ita:"io insegno",    hint:"II coniug."},
+  {lat:"docet",    ita:"egli insegna",  hint:"II coniug."},
+  {lat:"docent",   ita:"essi insegnano",hint:"II coniug."},
+  {lat:"habeo",    ita:"io ho",         hint:"II coniug."},
+  {lat:"habet",    ita:"egli ha",       hint:"II coniug."},
+  {lat:"habent",   ita:"essi hanno",    hint:"II coniug."},
+  {lat:"video",    ita:"io vedo",       hint:"II coniug."},
+  {lat:"videt",    ita:"egli vede",     hint:"II coniug."},
+  // ── AGGETTIVI / ALTRO ──
+  {lat:"magnus",   ita:"grande",        hint:"agg."},
+  {lat:"parvus",   ita:"piccolo",       hint:"agg."},
+  {lat:"bonus",    ita:"buono",         hint:"agg."},
+  {lat:"malus",    ita:"cattivo",       hint:"agg."},
+  {lat:"multus",   ita:"molto",         hint:"agg."},
+  {lat:"Roma",     ita:"Roma",          hint:"città"},
+  {lat:"Italia",   ita:"l'Italia",      hint:"I decl."},
+];
+
+const TOTAL=30, TIMER_SEC=8, OPTS_N=4;
+
+let questions=[], qi=0, score=0, streak=0, maxStreak=0, correct=0, wrong=0;
+let timerInterval=null, timeLeft=0, answered=false;
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+
+function restartGame(){
+  qi=0;score=0;streak=0;maxStreak=0;correct=0;wrong=0;answered=false;
+  document.getElementById('end-area').hidden=true;
+  document.getElementById('game-area').hidden=false;
+  document.getElementById('score').textContent='0';
+  document.getElementById('streak-stat').textContent='0';
+  questions=shuffle([...BANK]).slice(0,TOTAL);
+  loadQ();
+}
+
+function loadQ(){
+  clearInterval(timerInterval);
+  answered=false;
+  const q=questions[qi];
+
+  document.getElementById('q-num').textContent=qi+1;
+  document.getElementById('q-num-label').textContent=`FULMINE ${qi+1} / ${TOTAL}`;
+
+  // Alterna direzione: lat→ita o ita→lat
+  const dir = Math.random()<.6 ? 'lat2ita' : 'ita2lat';
+  if(dir==='lat2ita'){
+    document.getElementById('q-type').textContent='↓ Traduci in italiano ↓';
+    document.getElementById('q-main').textContent=q.lat;
+    document.getElementById('q-hint').textContent=q.hint;
+  } else {
+    document.getElementById('q-type').textContent='↓ Trova la forma latina ↓';
+    document.getElementById('q-main').textContent=q.ita;
+    document.getElementById('q-hint').textContent=q.hint;
+  }
+  q._dir=dir;
+
+  // Costruisci opzioni: 1 corretta + 3 distrattori
+  const correct_opt = dir==='lat2ita' ? q.ita : q.lat;
+  const pool = BANK.filter(b=>b!==q);
+  const distractors = shuffle(pool).slice(0,3).map(b=> dir==='lat2ita' ? b.ita : b.lat);
+  const opts = shuffle([correct_opt, ...distractors]);
+
+  const container=document.getElementById('opts');
+  container.innerHTML='';
+  opts.forEach(opt=>{
+    const btn=document.createElement('button');
+    btn.className='opt';
+    btn.textContent=opt;
+    btn.onclick=()=>selectOpt(btn, opt, correct_opt);
+    container.appendChild(btn);
+  });
+
+  startTimer();
+}
+
+function startTimer(){
+  timeLeft=TIMER_SEC;
+  updateBar();
+  timerInterval=setInterval(()=>{
+    timeLeft=Math.max(0,timeLeft-.08);
+    updateBar();
+    if(timeLeft===0){clearInterval(timerInterval);timeoutQ();}
+  },80);
+}
+
+function updateBar(){
+  const pct=timeLeft/TIMER_SEC;
+  const bar=document.getElementById('timer-bar');
+  bar.style.width=`${pct*100}%`;
+  bar.className='timer-bar '+(pct>.5?'green':pct>.25?'orange':'red');
+}
+
+function timeoutQ(){
+  if(answered) return;
+  answered=true;
+  // mostra risposta corretta
+  document.querySelectorAll('.opt').forEach(btn=>{
+    const q=questions[qi];
+    const correct_opt=q._dir==='lat2ita'?q.ita:q.lat;
+    if(btn.textContent===correct_opt) btn.classList.add('show-correct');
+    btn.setAttribute('disabled','');
+  });
+  streak=0;
+  wrong++;
+  document.getElementById('streak-stat').textContent=streak;
+  updateStreakLabel();
+  setTimeout(advance,1000);
+}
+
+function selectOpt(btn, chosen, correct_opt){
+  if(answered) return;
+  answered=true;
+  clearInterval(timerInterval);
+  document.querySelectorAll('.opt').forEach(b=>b.setAttribute('disabled',''));
+
+  const isOk=chosen===correct_opt;
+  if(isOk){
+    btn.classList.add('correct');
+    // punteggio: base 10 + bonus velocità
+    const bonus=Math.round((timeLeft/TIMER_SEC)*10);
+    const pts=10+bonus+(streak>=2?5:0);
+    score+=pts;
+    streak++;
+    correct++;
+    if(streak>maxStreak) maxStreak=streak;
+    document.getElementById('score').textContent=score;
+    document.getElementById('streak-stat').textContent=streak;
+    flashScreen('ok');
+  } else {
+    btn.classList.add('wrong');
+    document.querySelectorAll('.opt').forEach(b=>{
+      if(b.textContent===correct_opt) b.classList.add('show-correct');
+    });
+    streak=0;
+    wrong++;
+    document.getElementById('streak-stat').textContent=0;
+    flashScreen('ko');
+  }
+  updateStreakLabel();
+  setTimeout(advance, isOk?600:1000);
+}
+
+function updateStreakLabel(){
+  const el=document.getElementById('streak-label');
+  if(streak>=5){el.textContent=`🔥 ${streak} di fila!`;el.className='streak fire';}
+  else if(streak>=2){el.textContent=`🔥 ${streak} consecutivi`;el.className='streak fire';}
+  else{el.textContent='';el.className='streak';}
+}
+
+function flashScreen(type){
+  const el=document.getElementById('flash');
+  el.className=`flash ${type==='ok'?'ok-flash':'ko-flash'}`;
+  el.style.opacity='1';
+  setTimeout(()=>el.style.opacity='0',150);
+}
+
+function advance(){
+  qi++;
+  if(qi>=TOTAL){showEnd();return;}
+  loadQ();
+}
+
+function showEnd(){
+  clearInterval(timerInterval);
+  document.getElementById('game-area').hidden=true;
+  document.getElementById('end-area').hidden=false;
+
+  const pct=Math.round((correct/TOTAL)*100);
+  let emoji='⚡',title='Fine!',msg='';
+  if(pct>=90){emoji='🏆';title='FULMEN IURIS!';msg='Velocità e precisione da vero romano!'}
+  else if(pct>=70){emoji='⚔️';title='OPTIME!';msg='Ottima padronanza del vocabolario latino!'}
+  else if(pct>=50){emoji='🛡️';title='BENE!';msg='Continua ad allenarti con i fulmini!'}
+  else{emoji='💀';title='RECADE!';msg='Studia il vocabolario e le declinazioni, poi torna!'}
+
+  document.getElementById('end-emoji').textContent=emoji;
+  document.getElementById('end-title').textContent=title;
+  document.getElementById('end-score').innerHTML=`${score} <small>punti</small>`;
+
+  document.getElementById('end-stats').innerHTML=`
+    <div class="es"><div class="es-label">Corretti</div><div class="es-val">${correct}/${TOTAL}</div></div>
+    <div class="es"><div class="es-label">Streak max</div><div class="es-val">${maxStreak}🔥</div></div>
+    <div class="es"><div class="es-label">Accuracy</div><div class="es-val">${pct}%</div></div>`;
+
+  document.getElementById('end-msg').textContent=msg;
+}
+
+// avvio
+questions=shuffle([...BANK]).slice(0,TOTAL);
+loadQ();
+</script>
+</body></html>
