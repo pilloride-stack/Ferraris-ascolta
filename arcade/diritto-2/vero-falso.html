@@ -49,6 +49,7 @@ body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--b
 .vf-btn.vero:hover:not(:disabled){background:rgba(16,185,129,.18);border-color:var(--ok);}
 .vf-btn.falso:hover:not(:disabled){background:rgba(239,68,68,.18);border-color:var(--ko);}
 .vf-btn.correct{background:rgba(16,185,129,.2);border-color:var(--ok);box-shadow:0 0 20px rgba(16,185,129,.3);}
+.vf-btn.wrong{background:rgba(239,68,68,.2);border-color:var(--ko);box-shadow:0 0 20px rgba(239,68,68,.3);}
 .vf-btn.wrong{background:rgba(239,68,68,.1);border-color:var(--ko);opacity:.5;}
 .vf-btn:disabled{cursor:default;}
 .vf-label{font-size:.75rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;}
@@ -203,7 +204,7 @@ function startTimer(){
   },100);
 }
 function buildFeedbackFalso(q,extra){
-  const perche=(!q.a && q.f)?`<span class="perche">💡 Perché è falso: ${q.f}</span>`:'';
+  const perche=(q.f)?`<span class="perche">💡 ${q.a?'Perché è vero':'Perché è falso'}: ${q.f}</span>`:'';
   return `<div class="feedback ko">${extra}${perche}<div class="ref">${q.s}</div></div>`;
 }
 function autoTimeout(){
