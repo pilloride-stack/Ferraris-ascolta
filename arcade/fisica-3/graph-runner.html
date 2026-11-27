@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Graph Runner</title>
+<style>*{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;background:radial-gradient(circle at 50% 0,#155b98,#020711 65%);color:#fff;font-family:Arial}
+.app{position:relative;width:100%;max-width:980px;margin:auto;padding:10px;overflow:hidden}
+.tools{position:absolute;right:12px;top:12px;z-index:6;display:flex;gap:6px}.menu{border:1px solid #62a9d6;border-radius:8px;background:#06264a;color:#fff;padding:10px 13px;font-weight:900;cursor:pointer}.menu.exit{border-color:#ffd21c;color:#ffd21c}
+h1{max-width:100%;margin:6px;text-align:center;color:#ffd21c;font-size:clamp(36px,8vw,72px);font-style:italic;line-height:.85;text-shadow:0 6px #765900,0 0 30px #ffd21c66}
+.hud{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin:10px 0}
+.hud div{min-width:0;overflow:hidden;text-align:center;background:#06264a;border:1px solid #3a7cac;border-radius:8px;padding:8px;font-size:clamp(11px,2.4vw,16px)}
+.hud b{display:block;color:#ffd21c;font-size:24px}
+.game{position:relative;border:2px solid #ffd21c;border-radius:17px;overflow:hidden;background:#020915}
+.mission{text-align:center;padding:12px;background:linear-gradient(90deg,#06172c,#0b478c,#06172c)}
+.mission small{color:#52dcff;letter-spacing:3px}
+.mission strong{display:block;font-size:clamp(18px,4vw,28px);margin-top:5px}
+.reference{display:none;width:220px;height:92px;margin:8px auto 0;border-radius:8px;background:#03101e}.mission.reading .reference{display:block}
+.road{height:260px;position:relative;overflow:hidden;background:linear-gradient(#020817 0 36%,#14324b 36% 38%,#07111b 38%)}
+.road:after{content:'';position:absolute;left:0;right:0;bottom:35px;height:5px;background:repeating-linear-gradient(90deg,#ffd21c 0 45px,transparent 45px 85px);animation:road .7s linear infinite}
+.car{position:absolute;left:9%;bottom:53px;font-size:62px;filter:drop-shadow(0 0 15px #52dcff);transition:left 1s;transform:scaleX(-1)}
+.car.go{left:78%}
+.car.success{animation:boost .18s infinite alternate;filter:drop-shadow(0 0 18px #ffd21c)}
+.car.success:before,.car.success:after{content:'';position:absolute;z-index:-1;border-radius:50%;background:#e8f5ff;opacity:.9;pointer-events:none}
+.car.success:before{width:24px;height:24px;right:-12px;bottom:10px;box-shadow:25px 3px 0 8px #c5d5dfaa,52px -5px 0 14px #91a8b788;animation:smoke .65s linear infinite}
+.car.success:after{width:32px;height:10px;right:-18px;bottom:19px;border-radius:50%;background:linear-gradient(90deg,transparent,#ffd21c,#ff526a);filter:blur(2px);animation:flame .12s infinite alternate}
+.rock{position:absolute;left:43%;bottom:55px;font-size:48px;opacity:0;transform:scale(.2);transition:opacity .15s,transform .25s;filter:drop-shadow(0 6px 5px #000)}
+.road.crash .rock{opacity:1;transform:scale(1)}
+.car.crash{left:34%;animation:crash .13s 6 alternate;filter:drop-shadow(0 0 18px #ff526a)}
+.road.crash:before{content:'💥';position:absolute;left:34%;bottom:80px;font-size:62px;z-index:3;animation:impact .75s ease-out forwards}
+.gates{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;padding:12px}
+.gate{border:1px solid #4a92c1;border-radius:10px;background:#061b31;color:white;padding:8px;cursor:pointer}
+.gate:hover{border-color:#ffd21c}
+.gate canvas{width:100%;height:115px}
+.gate b{display:block;color:#ffd21c;font-size:15px}
+.gate.value canvas{display:none}.gate.value b{display:grid;min-height:115px;place-items:center;font-size:clamp(22px,4vw,34px)}
+.msg{text-align:center;padding:12px;font-weight:900;color:#cfe9f8}
+.overlay{position:absolute;inset:0;z-index:4;display:grid;place-items:center;text-align:center;padding:15px;overflow-y:auto;overscroll-behavior:contain;background:radial-gradient(circle,#0b478cf4,#01040afd 72%)}
+.overlay[hidden]{display:none}
+.card{width:min(680px,100%)}.card h2{margin:10px 0 18px;font-size:clamp(48px,10vw,90px);line-height:.8;color:#ffd21c;font-style:italic;text-shadow:0 7px #705400}
+.primary{border:0;border-radius:8px;background:#ffd21c;color:#06305e;padding:15px 24px;font-weight:1000;box-shadow:0 5px #806400}
+.modes{display:grid;gap:10px;width:min(520px,100%);margin:18px auto}.modes .primary{text-align:left}.card p{max-width:650px;margin:12px auto;line-height:1.45}.card small{color:#bfe7ff}
+@keyframes road{to{background-position:85px 0}
+}
+@keyframes boost{from{transform:scaleX(-1)}to{transform:scaleX(-1) translateY(-3px) rotate(-2deg)}}
+@keyframes smoke{to{transform:translate(48px,-24px) scale(1.8);opacity:0}}
+@keyframes flame{to{transform:scaleX(1.6);filter:brightness(1.6) blur(2px)}}
+@keyframes crash{from{transform:scaleX(-1) translate(0,0) rotate(0)}to{transform:scaleX(-1) translate(-5px,-7px) rotate(12deg)}}
+@keyframes impact{from{transform:scale(.3);opacity:1}to{transform:scale(1.5);opacity:0}}
+@media(max-width:760px){.hud{grid-template-columns:repeat(2,minmax(0,1fr))}
+.tools{position:static;justify-content:center;margin:7px 0}.menu{padding:9px 11px}
+.mission strong{font-size:clamp(17px,5vw,23px)}
+.gates{grid-template-columns:1fr}
+.gate{display:grid;grid-template-columns:120px 1fr;align-items:center}
+.gate canvas{height:82px}
+.road{height:210px}
+.game{min-height:690px}#start{place-items:start center;padding:12px 10px 24px}#start .card h2{font-size:clamp(44px,15vw,68px);margin:8px 0 16px}#start .card p{font-size:16px;margin:8px auto 12px}#start .modes{gap:9px;margin:12px auto}#start .primary{padding:13px 16px}
+}
+@media(max-width:380px){#start .card h2{font-size:45px}#start .card p{font-size:14px;line-height:1.35}#start .primary{font-size:13px;padding:12px 10px}}
+</style>
+</head>
+<body>
+<main class="app">
+<h1>GRAPH RUNNER</h1>
+<div class="tools"><button class="menu" id="home">INIZIO</button><button class="menu" id="audio" role="switch" aria-checked="true">AUDIO ON</button><button class="menu exit" id="exit">ESCI</button></div>
+<section class="hud">
+<div>SCORE<b id="score">0</b>
+</div>
+<div>CHECKPOINT<b id="round">1/10</b>
+</div>
+<div>SCUDI<b id="lives">◆◆◆</b>
+</div>
+<div>COMBO<b id="combo">×1</b>
+</div>
+</section>
+<section class="game">
+<div class="mission">
+<small>MOTO E GRAFICI</small>
+<strong id="prompt">Il veicolo parte da fermo e accelera.</strong>
+<canvas class="reference" id="reference" aria-label="Grafico da analizzare"></canvas>
+</div>
+<div class="road">
+<div class="car" id="car">🏎️</div>
+<div class="rock" aria-hidden="true">🪨</div>
+</div>
+<div class="gates" id="gates">
+</div>
+<div class="msg" id="msg">Scegli il portale con il grafico corretto.</div>
+<div class="overlay" id="start">
+<div class="card">
+<h2>GRAPH<br>RUNNER</h2>
+<p>Tre gare diverse: riconosci il moto, leggi valori e pendenze oppure affronta il campionato completo.</p>
+<div class="modes"><button class="primary" data-mode="recognition">1 · RICONOSCI IL MOTO</button><button class="primary" data-mode="reading">2 · LEGGI E CALCOLA</button><button class="primary" data-mode="mixed">3 · RACE COMPLETA</button></div>
+<small>10 checkpoint · difficoltà crescente · record locale</small>
+</div>
+</div>
+<div class="overlay" id="end" hidden>
+<div class="card">
+<h2 id="endTitle">TRAGUARDO!</h2>
+<p id="endText">
+</p>
+<button class="primary" id="again">NUOVO PERCORSO</button>
+</div>
+</div>
+</section>
+</main>
+<script>(()=>{const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],shuffle=a=>[...a].sort(()=>Math.random()-.5);
+const recognition=[
+{p:'Il veicolo parte da fermo e accelera in modo costante.',a:'up',axis:'v',name:'velocità-tempo'},
+{p:'Il veicolo procede a velocità costante positiva.',a:'flat',axis:'v',name:'velocità-tempo'},
+{p:'Il veicolo frena uniformemente fino a fermarsi.',a:'down',axis:'v',name:'velocità-tempo'},
+{p:'Il veicolo resta fermo al semaforo.',a:'zero',axis:'v',name:'velocità-tempo'},
+{p:'La posizione aumenta sempre più rapidamente.',a:'curve',axis:'s',name:'posizione-tempo'},
+{p:'La posizione diminuisce linearmente: il veicolo torna indietro.',a:'neg',axis:'s',name:'posizione-tempo'},
+{p:'L’accelerazione è positiva e costante.',a:'flat',axis:'a',name:'accelerazione-tempo'},
+{p:'L’accelerazione è nulla durante tutto l’intervallo.',a:'zero',axis:'a',name:'accelerazione-tempo'},
+{p:'La velocità diminuisce ma resta positiva.',a:'down',axis:'v',name:'velocità-tempo'},
+{p:'La posizione rimane invariata.',a:'flat',axis:'s',name:'posizione-tempo'},
+{p:'Il veicolo si muove nel verso negativo a velocità costante.',a:'neg',axis:'s',name:'posizione-tempo'},
+{p:'La velocità cresce linearmente nel tempo.',a:'up',axis:'v',name:'velocità-tempo'}];
+const reading=[
+{p:'Nel grafico v-t la velocità passa da 0 a 20 m/s in 5 s. Qual è l’accelerazione?',g:'up',axis:'v',a:'4 m/s²',o:['4 m/s²','10 m/s²','100 m/s²']},
+{p:'Nel grafico v-t la velocità è costante a 12 m/s per 5 s. Quanto spazio percorre?',g:'flat',axis:'v',a:'60 m',o:['60 m','17 m','2,4 m']},
+{p:'Nel grafico s-t la posizione passa da 10 m a 40 m in 6 s. Qual è la velocità media?',g:'up',axis:'s',a:'5 m/s',o:['5 m/s','8,3 m/s','180 m/s']},
+{p:'Nel grafico v-t il veicolo frena da 20 m/s a 0 in 4 s. Qual è l’accelerazione?',g:'down',axis:'v',a:'−5 m/s²',o:['−5 m/s²','5 m/s²','−80 m/s²']},
+{p:'Il grafico a-t è sulla linea dello zero. Come varia la velocità?',g:'zero',axis:'a',a:'Resta costante',o:['Resta costante','Aumenta','Diminuisce sempre']},
+{p:'Nel grafico s-t una retta ha pendenza negativa. Che cosa indica?',g:'neg',axis:'s',a:'Moto nel verso negativo',o:['Moto nel verso negativo','Veicolo fermo','Accelerazione positiva']},
+{p:'Nel grafico v-t la velocità vale 8 m/s per 10 s. Quale area è sottesa?',g:'flat',axis:'v',a:'80 m',o:['80 m','18 m','0,8 m']},
+{p:'Nel grafico v-t una retta sale: quale grandezza rappresenta la sua pendenza?',g:'up',axis:'v',a:'Accelerazione',o:['Accelerazione','Spazio','Posizione iniziale']},
+{p:'Nel grafico s-t una retta è orizzontale. Qual è la velocità?',g:'flat',axis:'s',a:'0 m/s',o:['0 m/s','1 m/s','Dipende dalla massa']},
+{p:'La velocità cresce da 5 a 15 m/s in 2 s. Qual è l’accelerazione media?',g:'up',axis:'v',a:'5 m/s²',o:['5 m/s²','10 m/s²','20 m/s²']}];
+const types=['up','flat','down','zero','curve','neg'];let deck=[],r=0,score=0,lives=3,combo=0,lock=1,timer=0,mode='recognition',sound=true,audioCtx,best=+(localStorage.getItem('graph-runner-best')||0);
+function audio(){if(!audioCtx)audioCtx=new (window.AudioContext||window.webkitAudioContext)();if(audioCtx.state==='suspended')audioCtx.resume();return audioCtx}
+function engine(){if(!sound)return;let a=audio(),now=a.currentTime,end=now+1.55,mix=a.createGain(),filter=a.createBiquadFilter(),comp=a.createDynamicsCompressor();filter.type='lowpass';filter.Q.value=5;filter.frequency.setValueAtTime(550,now);filter.frequency.exponentialRampToValueAtTime(2400,end);mix.gain.setValueAtTime(.001,now);mix.gain.exponentialRampToValueAtTime(.26,now+.08);mix.gain.setValueAtTime(.26,now+1.35);mix.gain.exponentialRampToValueAtTime(.001,end);filter.connect(mix);mix.connect(comp);comp.connect(a.destination);
+let rpm=[[68,145],[105,205],[155,315]];['sawtooth','square','triangle'].forEach((type,i)=>{let o=a.createOscillator(),g=a.createGain();o.type=type;g.gain.value=[.55,.16,.22][i];let f=o.frequency,t0=now,step=.5;f.setValueAtTime(rpm[0][0]*(i+1),t0);f.exponentialRampToValueAtTime(rpm[0][1]*(i+1),t0+.42);f.setValueAtTime(rpm[1][0]*(i+1),t0+.48);f.exponentialRampToValueAtTime(rpm[1][1]*(i+1),t0+.9);f.setValueAtTime(rpm[2][0]*(i+1),t0+.96);f.exponentialRampToValueAtTime(rpm[2][1]*(i+1),t0+1.46);o.connect(g);g.connect(filter);o.start(now);o.stop(end)});
+let lfo=a.createOscillator(),depth=a.createGain();lfo.type='square';lfo.frequency.setValueAtTime(17,now);lfo.frequency.exponentialRampToValueAtTime(43,end);depth.gain.value=.045;lfo.connect(depth);depth.connect(mix.gain);lfo.start(now);lfo.stop(end);
+let len=Math.floor(a.sampleRate*1.5),buf=a.createBuffer(1,len,a.sampleRate),d=buf.getChannelData(0);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*.18;let exhaust=a.createBufferSource(),eg=a.createGain(),ef=a.createBiquadFilter();exhaust.buffer=buf;ef.type='bandpass';ef.frequency.setValueAtTime(180,now);ef.frequency.exponentialRampToValueAtTime(900,end);eg.gain.setValueAtTime(.03,now);eg.gain.linearRampToValueAtTime(.13,now+1.3);eg.gain.exponentialRampToValueAtTime(.001,end);exhaust.connect(ef);ef.connect(eg);eg.connect(mix);exhaust.start(now);exhaust.stop(end)}
+function draw(c,t,axis){let x=c.getContext('2d'),w=c.width=240,h=c.height=115;x.clearRect(0,0,w,h);x.strokeStyle='#5d88a8';x.lineWidth=2;x.beginPath();x.moveTo(28,9);x.lineTo(28,92);x.lineTo(226,92);x.stroke();x.fillStyle='#bfe7ff';x.font='bold 14px Arial';x.fillText(axis,9,18);x.fillText('t',224,108);x.strokeStyle='#52dcff';x.lineWidth=5;x.beginPath();if(t==='up'){x.moveTo(31,87);x.lineTo(216,16)}else if(t==='down'){x.moveTo(31,16);x.lineTo(216,87)}else if(t==='flat'){x.moveTo(31,45);x.lineTo(216,45)}else if(t==='zero'){x.moveTo(31,90);x.lineTo(216,90)}else if(t==='curve'){x.moveTo(31,87);x.quadraticCurveTo(145,84,216,16)}else{x.moveTo(31,18);x.lineTo(216,84)}x.stroke()}
+function buildDeck(m){if(m==='recognition')return shuffle(recognition).slice(0,10);if(m==='reading')return shuffle(reading).slice(0,10);return shuffle([...shuffle(recognition).slice(0,5),...shuffle(reading).slice(0,5)])}
+function turn(){if(r>=deck.length||lives<1)return finish();let q=deck[r],isRead=!!q.o;$('.mission').classList.toggle('reading',isRead);$('#prompt').textContent=isRead?q.p:`Scegli il grafico ${q.name} (${q.axis}-t): ${q.p}`;if(isRead)draw($('#reference'),q.g,q.axis);$('#round').textContent=`${r+1}/${deck.length}`;$('#msg').textContent=isRead?'Leggi il grafico e attraversa il portale con il risultato corretto.':'Scegli il portale con il grafico corretto.';$('#msg').style.color='#cfe9f8';if(isRead){$('#gates').innerHTML=shuffle(q.o).map((v,i)=>`<button class="gate value" data-v="${v}"><canvas></canvas><b>${v}</b></button>`).join('')}else{let opts=[q.a],shape=t=>t==='neg'?'descending':t;while(opts.length<3){let t=types[Math.floor(Math.random()*types.length)];if(!opts.includes(t)&&!opts.some(v=>shape(v)===shape(t)))opts.push(t)}$('#gates').innerHTML=shuffle(opts).map((t,i)=>`<button class="gate" data-v="${t}"><canvas></canvas><b>PORTALE ${i+1}</b></button>`).join('');$$('.gate').forEach(b=>draw(b.querySelector('canvas'),b.dataset.v,q.axis))}$$('.gate').forEach(b=>b.onclick=()=>pick(b.dataset.v,q.a));lock=0}
+function pick(v,ok){if(lock)return;lock=1;let road=$('.road');if(v===ok){engine();combo++;score+=100*Math.min(5,combo);$('#msg').textContent=`BOOST PERFETTO · ${ok} · CHECKPOINT SUPERATO`;$('#msg').style.color='#5dff9b';$('#car').classList.add('go','success')}else{lives--;combo=0;road.classList.add('crash');$('#car').classList.add('crash');$('#msg').textContent=`IMPATTO! · RISPOSTA CORRETTA: ${ok}`;$('#msg').style.color='#ff7187'}hud();timer=setTimeout(()=>{road.classList.remove('crash');$('#car').classList.remove('go','success','crash');r++;turn()},1800)}
+function hud(){$('#score').textContent=score;$('#lives').textContent='◆'.repeat(lives)+'◇'.repeat(3-lives);$('#combo').textContent='×'+Math.max(1,Math.min(5,combo))}
+function finish(){best=Math.max(best,score);localStorage.setItem('graph-runner-best',best);$('#endTitle').textContent=lives?'TRAGUARDO!':'MOTORE IN AVARIA';$('#endText').textContent=`${score} punti · ${r} checkpoint · record ${best}.`;$('#end').hidden=false}
+function home(){clearTimeout(timer);lock=1;$('.road').classList.remove('crash');$('#car').classList.remove('go','success','crash');$('#end').hidden=true;$('#start').hidden=false}
+function begin(m){mode=m;deck=buildDeck(m);r=score=combo=0;lives=3;$('#start').hidden=true;$('#end').hidden=true;hud();turn()}
+$$('[data-mode]').forEach(b=>b.onclick=()=>{if(sound)audio();begin(b.dataset.mode)});$('#again').onclick=home;$('#home').onclick=home;$('#audio').onclick=()=>{sound=!sound;$('#audio').textContent=sound?'AUDIO ON':'AUDIO OFF';$('#audio').setAttribute('aria-checked',sound);if(sound)audio()};$('#exit').onclick=()=>{clearTimeout(timer);if(window.opener&&!window.opener.closed){window.close();return}if(document.referrer&&document.referrer!==location.href){location.href=document.referrer;return}if(history.length>1){history.back();return}home();$('#msg').textContent='Apri il gioco dal menu Arcade per poter tornare alla pagina precedente.'};hud()})();</script>
+</body>
+</html>
