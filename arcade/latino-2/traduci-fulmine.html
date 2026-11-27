@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traduci Fulmine · Latino Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--ok:#4caf50;--ko:#e74c3c;--ink:#f5e9c8;--muted:#b8a070}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,sans-serif;min-height:100vh;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg') center/cover no-repeat fixed}
+body::before{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(10,5,0,.82) 0%,rgba(20,10,2,.78) 60%,rgba(10,5,0,.88) 100%);pointer-events:none;z-index:0}
+.wrap{max-width:700px;margin:0 auto;padding:14px max(3vw,12px) 32px;position:relative;z-index:1}
+.back-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(44,32,16,.7);border:1px solid var(--bronze);border-radius:8px;color:var(--sand);font:600 13px Lexend;padding:6px 14px;text-decoration:none;margin-bottom:14px;transition:background .2s}
+.back-btn:hover{background:rgba(124,92,43,.4)}
+.spqr{text-align:center;font:700 11px/1 Cinzel;letter-spacing:4px;color:var(--bronze2);margin-bottom:2px}
+h1{font:900 clamp(28px,6vw,48px)/1 Cinzel;text-align:center;margin:0 0 2px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 14px}
+.stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+.stat{background:var(--stone2);border:1px solid var(--bronze);border-radius:8px;padding:5px 14px;font:700 13px Cinzel;color:var(--sand2);display:flex;align-items:center;gap:6px}
+.stat span{font:600 20px Lexend;color:var(--sand)}
+.timer-wrap{height:6px;background:var(--stone2);border-radius:3px;margin-bottom:16px;overflow:hidden}
+.timer-bar{height:100%;border-radius:3px;transition:width .08s linear}
+.timer-bar.g{background:linear-gradient(90deg,var(--ok),#8edd8e)}
+.timer-bar.o{background:linear-gradient(90deg,#e67e22,#f39c12)}
+.timer-bar.r{background:linear-gradient(90deg,var(--ko),#ff6b6b)}
+
+.flash{position:fixed;inset:0;pointer-events:none;z-index:999;opacity:0;transition:opacity .15s}
+
+.streak-bar{text-align:center;font:700 14px Cinzel;color:var(--bronze2);min-height:22px;margin-bottom:6px;letter-spacing:1px}
+.streak-bar.fire{color:var(--sand);text-shadow:0 0 10px rgba(200,169,110,.7)}
+
+.q-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:22px 20px;text-align:center;margin-bottom:14px;backdrop-filter:blur(4px)}
+.q-num{font:700 11px Cinzel;letter-spacing:3px;color:var(--bronze2);margin-bottom:6px}
+.q-dir{font:600 11px Lexend;letter-spacing:1px;color:var(--muted);margin-bottom:8px}
+.q-main{font:900 clamp(18px,5vw,34px)/1.3 Cinzel;color:var(--sand2)}
+.q-note{font:400 12px Lexend;color:var(--muted);margin-top:6px}
+
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.opt{background:var(--stone2);border:2px solid var(--bronze);border-radius:14px;padding:12px 10px;font:600 14px Lexend;color:var(--sand2);cursor:pointer;transition:all .15s;text-align:center;min-height:60px;display:flex;align-items:center;justify-content:center;line-height:1.3}
+.opt:hover{border-color:var(--sand2);background:var(--stone3)}
+.opt.correct{border-color:var(--ok)!important;background:rgba(76,175,80,.2)!important;color:#8edd8e!important}
+.opt.wrong{border-color:var(--ko)!important;background:rgba(231,76,60,.2)!important;color:#f07070!important}
+.opt.show-correct{border-color:var(--ok)!important;background:rgba(76,175,80,.1)!important}
+.opt[disabled]{pointer-events:none}
+
+.end-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:32px 24px;text-align:center;backdrop-filter:blur(6px)}
+.end-card h2{font:900 clamp(24px,5vw,42px)/1 Cinzel;color:var(--sand);margin:0 0 8px}
+.end-score{font:700 clamp(44px,10vw,76px)/1 Cinzel;color:var(--sand2);margin:12px 0}
+.end-score small{font-size:38%;color:var(--muted)}
+.end-stats{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
+.es{background:var(--stone2);border:1px solid var(--bronze);border-radius:10px;padding:10px 18px;text-align:center}
+.es-label{font:700 10px Cinzel;letter-spacing:2px;color:var(--bronze2);margin-bottom:4px}
+.es-val{font:700 24px Cinzel;color:var(--sand2)}
+.end-msg{color:var(--muted);font-size:14px;margin-bottom:22px}
+.btn-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn-restart{background:linear-gradient(135deg,var(--red),var(--red2));color:var(--sand2);padding:12px 30px;border:none;border-radius:10px;font:700 15px Cinzel;cursor:pointer}
+.btn-restart:hover{filter:brightness(1.15)}
+.back-btn-end{padding:10px 20px}
+</style></head>
+<body>
+<div class="flash" id="flash"></div>
+<div class="wrap">
+  <a class="back-btn" href="index.html">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Latino Classe II
+  </a>
+  <div class="spqr">S · P · Q · R</div>
+  <h1>⚡ Traduci Fulmine</h1>
+  <p class="sub">Latino · Classe II · Abbina frasi latine ↔ traduzioni a velocità</p>
+  <div class="stats">
+    <div class="stat">⚡ <span id="q-num">1</span>/25</div>
+    <div class="stat">🏆 <span id="score">0</span></div>
+    <div class="stat">🔥 <span id="streak-stat">0</span></div>
+  </div>
+  <div class="timer-wrap"><div class="timer-bar g" id="timer-bar"></div></div>
+
+  <div id="game-area">
+    <div class="streak-bar" id="streak-label"></div>
+    <div class="q-card">
+      <div class="q-num" id="q-num-label">FULMINE 1 / 25</div>
+      <div class="q-dir" id="q-dir">↓ TRADUCI IN ITALIANO ↓</div>
+      <div class="q-main" id="q-main">—</div>
+      <div class="q-note" id="q-note"></div>
+    </div>
+    <div class="opts" id="opts"></div>
+  </div>
+
+  <div id="end-area" hidden>
+    <div class="end-card">
+      <div style="font-size:48px;margin-bottom:8px" id="end-emoji">⚡</div>
+      <h2 id="end-title">Fine!</h2>
+      <div class="end-score" id="end-score">0 <small>punti</small></div>
+      <div class="end-stats" id="end-stats"></div>
+      <div class="end-msg" id="end-msg"></div>
+      <div class="btn-row">
+        <a class="back-btn back-btn-end" href="index.html">◀ Latino Classe II</a>
+        <button class="btn-restart" onclick="restartGame()">🔄 Rigioca</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+// Banca: frasi latine con traduzione, nota grammaticale e livello Classe II
+const BANK=[
+  // Frasi con verbi II coniugazione
+  {lat:"Magister discipulos docet.",ita:"Il maestro insegna gli studenti.",nota:"docet — II coniug., 3ª sg."},
+  {lat:"Pueri multa vident.",ita:"I ragazzi vedono molte cose.",nota:"vident — II coniug., 3ª pl."},
+  {lat:"Lupi agnos timent.",ita:"I lupi temono gli agnelli.",nota:"timent — II coniug., 3ª pl."},
+  {lat:"Dominus servos monet.",ita:"Il padrone ammonisce gli schiavi.",nota:"monet — II coniug., 3ª sg."},
+  {lat:"Mater filios suos amat.",ita:"La madre ama i suoi figli.",nota:"amat — I coniug., 3ª sg."},
+  // Frasi con verbi III coniugazione
+  {lat:"Miles litteras scribit.",ita:"Il soldato scrive la lettera.",nota:"scribit — III coniug., 3ª sg."},
+  {lat:"Rex legatos mittit.",ita:"Il re manda gli ambasciatori.",nota:"mittit — III coniug., 3ª sg."},
+  {lat:"Populus consulem legit.",ita:"Il popolo elegge il console.",nota:"legit — III coniug., 3ª sg."},
+  {lat:"Consul milites ducit.",ita:"Il console guida i soldati.",nota:"ducit — III coniug., 3ª sg."},
+  {lat:"Pueri multa discunt.",ita:"I ragazzi imparano molte cose.",nota:"discunt — III coniug., 3ª pl."},
+  // Frasi con verbi IV coniugazione
+  {lat:"Milites hostium voces audiunt.",ita:"I soldati sentono le voci dei nemici.",nota:"audiunt — IV coniug., 3ª pl."},
+  {lat:"Legatus Romam venit.",ita:"Il legato viene a Roma.",nota:"venit — IV coniug., 3ª sg."},
+  {lat:"Rex bellum finit.",ita:"Il re finisce la guerra.",nota:"finit — IV coniug., 3ª sg."},
+  {lat:"Mater filios amat et monet.",ita:"La madre ama e ammonisce i figli.",nota:"coniugazioni I e II"},
+  // Frasi con imperfetto
+  {lat:"Pueri in silva ludebant.",ita:"I ragazzi giocavano nella foresta.",nota:"ludebant — III coniug., imperfetto pl."},
+  {lat:"Magister discipulos docebat.",ita:"Il maestro insegnava gli studenti.",nota:"docebat — II coniug., imperfetto sg."},
+  {lat:"Rex multos hostes timebat.",ita:"Il re temeva molti nemici.",nota:"timebat — II coniug., imperfetto sg."},
+  {lat:"Milites per vias ambulabant.",ita:"I soldati camminavano per le strade.",nota:"ambulabant — I coniug., imperfetto pl."},
+  // Frasi con futuro
+  {lat:"Consul milites ducet.",ita:"Il console guiderà i soldati.",nota:"ducet — III coniug., futuro sg."},
+  {lat:"Pueri multa discent.",ita:"I ragazzi impareranno molte cose.",nota:"discent — III coniug., futuro pl."},
+  {lat:"Mater filios monébit.",ita:"La madre ammonirà i figli.",nota:"monebit — II coniug., futuro sg."},
+  {lat:"Rex hostibus parcebit.",ita:"Il re risparmierà i nemici.",nota:"parcebit — II coniug., futuro sg."},
+  // Frasi con pronomi
+  {lat:"Is consul est.",ita:"Egli è il console.",nota:"is — pronome personale 3ª sg."},
+  {lat:"Hic miles fortis est.",ita:"Questo soldato è coraggioso.",nota:"hic — pronome dimostrativo"},
+  {lat:"Ille rex Romam amat.",ita:"Quel re ama Roma.",nota:"ille — pronome dimostrativo"},
+  {lat:"Ipse rex bellum gerit.",ita:"Il re stesso conduce la guerra.",nota:"ipse — pronome intensivo"},
+  {lat:"Consul qui venit fortis est.",ita:"Il console che viene è coraggioso.",nota:"qui — pronome relativo"},
+  {lat:"Miles cuius scutum est magnus.",ita:"Il soldato il cui scudo è grande.",nota:"cuius — genitivo relativo"},
+  // Frasi varie sintassi
+  {lat:"Romani hostes bello vicerunt.",ita:"I Romani vinsero i nemici in guerra.",nota:"complemento di mezzo: ablativo"},
+  {lat:"Consul legatos ad regem misit.",ita:"Il console mandò i legati dal re.",nota:"ad + accusativo: complemento di moto"},
+];
+const TOTAL=25,TIMER=10;
+let questions=[],qi=0,score=0,streak=0,maxStreak=0,correct=0;
+let timerInterval=null,timeLeft=0,answered=false;
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function restartGame(){qi=0;score=0;streak=0;maxStreak=0;correct=0;answered=false;document.getElementById('end-area').hidden=true;document.getElementById('game-area').hidden=false;document.getElementById('score').textContent='0';document.getElementById('streak-stat').textContent='0';questions=shuffle([...BANK]).slice(0,TOTAL);loadQ();}
+function loadQ(){
+  clearInterval(timerInterval);answered=false;
+  const q=questions[qi];
+  document.getElementById('q-num').textContent=qi+1;
+  document.getElementById('q-num-label').textContent=`FULMINE ${qi+1} / ${TOTAL}`;
+  const dir=Math.random()<.6?'lat':'ita';
+  q._dir=dir;
+  if(dir==='lat'){document.getElementById('q-dir').textContent='↓ TRADUCI IN ITALIANO ↓';document.getElementById('q-main').textContent=q.lat;}
+  else{document.getElementById('q-dir').textContent='↓ TROVA IL LATINO ↓';document.getElementById('q-main').textContent=q.ita;}
+  document.getElementById('q-note').textContent=q.nota?`💡 ${q.nota}`:'';
+  const correctOpt=dir==='lat'?q.ita:q.lat;
+  const pool=BANK.filter(b=>b!==q);
+  const distractors=shuffle(pool).slice(0,3).map(b=>dir==='lat'?b.ita:b.lat);
+  const opts=shuffle([correctOpt,...distractors]);
+  const container=document.getElementById('opts');
+  container.innerHTML='';
+  opts.forEach(o=>{const btn=document.createElement('button');btn.className='opt';btn.textContent=o;btn.onclick=()=>select(btn,o,correctOpt);container.appendChild(btn);});
+  timeLeft=TIMER;updateBar();
+  timerInterval=setInterval(()=>{timeLeft=Math.max(0,timeLeft-.08);updateBar();if(timeLeft===0){clearInterval(timerInterval);timeout(correctOpt);}},80);
+}
+function updateBar(){const pct=timeLeft/TIMER;const bar=document.getElementById('timer-bar');bar.style.width=`${pct*100}%`;bar.className='timer-bar '+(pct>.5?'g':pct>.25?'o':'r');}
+function timeout(correctOpt){if(answered)return;answered=true;document.querySelectorAll('.opt').forEach(b=>{b.setAttribute('disabled','');if(b.textContent===correctOpt)b.classList.add('show-correct');});streak=0;document.getElementById('streak-stat').textContent='0';updateStreakLabel();flash('ko');setTimeout(advance,1200);}
+function select(btn,chosen,correctOpt){if(answered)return;answered=true;clearInterval(timerInterval);document.querySelectorAll('.opt').forEach(b=>b.setAttribute('disabled',''));const ok=chosen===correctOpt;btn.classList.add(ok?'correct':'wrong');if(!ok)document.querySelectorAll('.opt').forEach(b=>{if(b.textContent===correctOpt)b.classList.add('show-correct');});if(ok){const pts=10+Math.round((timeLeft/TIMER)*10)+(streak>=2?5:0);score+=pts;correct++;streak++;if(streak>maxStreak)maxStreak=streak;document.getElementById('score').textContent=score;document.getElementById('streak-stat').textContent=streak;}else{streak=0;document.getElementById('streak-stat').textContent='0';}updateStreakLabel();flash(ok?'ok':'ko');setTimeout(advance,ok?700:1200);}
+function updateStreakLabel(){const el=document.getElementById('streak-label');if(streak>=5){el.textContent=`🔥 ${streak} di fila!`;el.className='streak-bar fire';}else if(streak>=2){el.textContent=`🔥 ${streak} consecutivi`;el.className='streak-bar fire';}else{el.textContent='';el.className='streak-bar';}}
+function flash(type){const el=document.getElementById('flash');el.className=`flash ${type==='ok'?'':''}`;el.style.background=type==='ok'?'rgba(76,175,80,.18)':'rgba(231,76,60,.2)';el.style.opacity='1';setTimeout(()=>el.style.opacity='0',150);}
+function advance(){qi++;if(qi>=TOTAL){showEnd();return;}loadQ();}
+function showEnd(){clearInterval(timerInterval);document.getElementById('game-area').hidden=true;document.getElementById('end-area').hidden=false;const pct=Math.round((correct/TOTAL)*100);let emoji='⚡',title,msg;if(pct>=90){emoji='🏆';title='FULMEN IURIS!';msg='Velocità e precisione da vero romano!';}else if(pct>=70){emoji='⚔️';title='OPTIME!';msg='Ottima padronanza della sintassi latina!';}else if(pct>=50){emoji='🛡️';title='BENE!';msg='Continua ad allenarti con le frasi!';}else{emoji='📖';title='RECADE!';msg='Ripassa verbi e sintassi, poi torna!';}document.getElementById('end-emoji').textContent=emoji;document.getElementById('end-title').textContent=title;document.getElementById('end-score').innerHTML=`${score} <small>punti</small>`;document.getElementById('end-stats').innerHTML=`<div class="es"><div class="es-label">Corretti</div><div class="es-val">${correct}/${TOTAL}</div></div><div class="es"><div class="es-label">Streak max</div><div class="es-val">${maxStreak}🔥</div></div><div class="es"><div class="es-label">Accuracy</div><div class="es-val">${pct}%</div></div>`;document.getElementById('end-msg').textContent=msg;}
+questions=shuffle([...BANK]).slice(0,TOTAL);loadQ();
+</script>
+</body></html>

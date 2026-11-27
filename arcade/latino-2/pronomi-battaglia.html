@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pronomi in Battaglia · Latino Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--ok:#4caf50;--ko:#e74c3c;--ink:#f5e9c8;--muted:#b8a070}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,sans-serif;min-height:100vh;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg') center/cover no-repeat fixed}
+body::before{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(10,5,0,.82) 0%,rgba(20,10,2,.78) 60%,rgba(10,5,0,.88) 100%);pointer-events:none;z-index:0}
+.wrap{max-width:700px;margin:0 auto;padding:14px max(3vw,12px) 32px;position:relative;z-index:1}
+.back-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(44,32,16,.7);border:1px solid var(--bronze);border-radius:8px;color:var(--sand);font:600 13px Lexend;padding:6px 14px;text-decoration:none;margin-bottom:14px;transition:background .2s}
+.back-btn:hover{background:rgba(124,92,43,.4)}
+.spqr{text-align:center;font:700 11px/1 Cinzel;letter-spacing:4px;color:var(--bronze2);margin-bottom:2px}
+h1{font:900 clamp(26px,6vw,46px)/1 Cinzel;text-align:center;margin:0 0 2px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 14px}
+.stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+.stat{background:var(--stone2);border:1px solid var(--bronze);border-radius:8px;padding:5px 14px;font:700 13px Cinzel;color:var(--sand2);display:flex;align-items:center;gap:6px}
+.stat span{font:600 20px Lexend;color:var(--sand)}
+.hp-bar-wrap{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+.hp-label{font:700 12px Cinzel;color:var(--bronze2);white-space:nowrap}
+.hp-track{flex:1;height:14px;background:var(--stone2);border:1px solid var(--bronze);border-radius:7px;overflow:hidden}
+.hp-fill{height:100%;border-radius:7px;transition:width .4s ease}
+.hp-fill.player{background:linear-gradient(90deg,var(--ok),#8edd8e)}
+.hp-fill.enemy{background:linear-gradient(90deg,var(--ko),#ff6b6b)}
+.timer-wrap{height:6px;background:var(--stone2);border-radius:3px;margin-bottom:14px;overflow:hidden}
+.timer-bar{height:100%;border-radius:3px;transition:width .08s linear}
+.timer-bar.g{background:linear-gradient(90deg,var(--ok),#8edd8e)}
+.timer-bar.o{background:linear-gradient(90deg,#e67e22,#f39c12)}
+.timer-bar.r{background:linear-gradient(90deg,var(--ko),#ff6b6b)}
+.flash{position:fixed;inset:0;pointer-events:none;z-index:999;opacity:0;transition:opacity .15s}
+.arena{text-align:center;font:700 36px/1 Cinzel;margin-bottom:8px;letter-spacing:2px;min-height:48px}
+.q-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:18px;padding:20px;margin-bottom:14px;backdrop-filter:blur(4px)}
+.q-num{font:700 11px Cinzel;letter-spacing:3px;color:var(--bronze2);margin-bottom:6px;text-align:center}
+.q-frase{font:700 clamp(15px,4vw,22px)/1.5 Cinzel;color:var(--sand2);text-align:center}
+.q-frase .blank{display:inline-block;min-width:70px;border-bottom:2px solid var(--sand);color:var(--sand);font-style:italic;text-align:center;padding:0 4px}
+.q-hint{font:400 12px Lexend;color:var(--muted);text-align:center;margin-top:6px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.opt{background:var(--stone2);border:2px solid var(--bronze);border-radius:12px;padding:12px 8px;font:700 16px Cinzel;color:var(--sand2);cursor:pointer;transition:all .15s;text-align:center;min-height:56px;display:flex;align-items:center;justify-content:center;letter-spacing:.5px}
+.opt:hover{border-color:var(--sand2);background:var(--stone3)}
+.opt.correct{border-color:var(--ok)!important;background:rgba(76,175,80,.2)!important;color:#8edd8e!important}
+.opt.wrong{border-color:var(--ko)!important;background:rgba(231,76,60,.2)!important;color:#f07070!important}
+.opt.show-correct{border-color:var(--ok)!important;background:rgba(76,175,80,.1)!important}
+.opt[disabled]{pointer-events:none}
+.expl{background:var(--stone2);border:1px solid var(--bronze);border-radius:10px;padding:10px 14px;font:400 13px Lexend;color:var(--muted);margin-bottom:10px;text-align:center;line-height:1.5}
+.expl strong{color:var(--sand2)}
+.btn-next{display:block;margin:0 auto;padding:10px 28px;border:none;border-radius:10px;font:700 14px Cinzel;cursor:pointer;background:linear-gradient(135deg,var(--bronze),var(--bronze2));color:var(--stone);transition:all .18s}
+.btn-next:hover{filter:brightness(1.15)}
+/* fine */
+.end-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:32px 24px;text-align:center;backdrop-filter:blur(6px)}
+.end-card h2{font:900 clamp(24px,5vw,42px)/1 Cinzel;color:var(--sand);margin:0 0 8px}
+.end-score{font:700 clamp(44px,10vw,76px)/1 Cinzel;color:var(--sand2);margin:12px 0}
+.end-score small{font-size:38%;color:var(--muted)}
+.end-msg{color:var(--muted);font-size:14px;margin-bottom:22px}
+.btn-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn-restart{background:linear-gradient(135deg,var(--red),var(--red2));color:var(--sand2);padding:12px 30px;border:none;border-radius:10px;font:700 15px Cinzel;cursor:pointer}
+.btn-restart:hover{filter:brightness(1.15)}
+</style></head>
+<body>
+<div class="flash" id="flash"></div>
+<div class="wrap">
+  <a class="back-btn" href="index.html">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Latino Classe II
+  </a>
+  <div class="spqr">S · P · Q · R</div>
+  <h1>🛡️ Pronomi in Battaglia</h1>
+  <p class="sub">Latino · Classe II · Scegli il pronome corretto e sconfiggi il nemico!</p>
+
+  <div class="stats">
+    <div class="stat">⚔️ <span id="q-num">1</span>/20</div>
+    <div class="stat">🏆 <span id="score">0</span> pt</div>
+  </div>
+
+  <div class="hp-bar-wrap">
+    <span class="hp-label">🗡️ TU</span>
+    <div class="hp-track"><div class="hp-fill player" id="hp-player" style="width:100%"></div></div>
+    <span class="hp-label" id="hp-p-num">10</span>
+  </div>
+  <div class="hp-bar-wrap">
+    <span class="hp-label">💀 NEMICO</span>
+    <div class="hp-track"><div class="hp-fill enemy" id="hp-enemy" style="width:100%"></div></div>
+    <span class="hp-label" id="hp-e-num">10</span>
+  </div>
+
+  <div class="timer-wrap"><div class="timer-bar g" id="timer-bar"></div></div>
+
+  <div id="game-area">
+    <div class="arena" id="arena">⚔️</div>
+    <div class="q-card">
+      <div class="q-num" id="q-num-label">BATTAGLIA 1 / 20</div>
+      <div class="q-frase" id="q-frase">—</div>
+      <div class="q-hint" id="q-hint"></div>
+    </div>
+    <div class="opts" id="opts"></div>
+    <div class="expl" id="expl" hidden></div>
+    <button class="btn-next" id="btn-next" onclick="nextQ()" hidden>Avanti ▶</button>
+  </div>
+
+  <div id="end-area" hidden>
+    <div class="end-card">
+      <div style="font-size:48px;margin-bottom:8px" id="end-emoji">🛡️</div>
+      <h2 id="end-title">Fine!</h2>
+      <div class="end-score" id="end-score">0 <small>punti</small></div>
+      <div class="end-msg" id="end-msg"></div>
+      <div class="btn-row">
+        <a class="back-btn" href="index.html" style="padding:10px 20px">◀ Latino Classe II</a>
+        <button class="btn-restart" onclick="restartGame()">🔄 Rigioca</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+const BANK=[
+  // Pronomi personali
+  {frase:"___ consul est fortis.",blank:"Egli",ans:"Is",opts:["Is","Hic","Ille","Ego"],hint:"pronome personale / dimostrativo 3ª sg. masch.",expl:"<strong>Is</strong> (egli) = pronome personale di 3ª persona."},
+  {frase:"___ milites fortiter pugnant.",blank:"Essi",ans:"Ii",opts:["Ii","Hi","Illi","Nos"],hint:"pronome personale 3ª pl. masch.",expl:"<strong>Ii</strong> (essi) = nom. pl. masch. di <em>is, ea, id</em>."},
+  {frase:"Consul ___ laudat.",blank:"me",ans:"me",opts:["me","mihi","mei","ego"],hint:"pronome personale 1ª sg.: complemento oggetto",expl:"<strong>me</strong> = accusativo di <em>ego</em> (complemento oggetto)."},
+  {frase:"Pater ___ dona dat.",blank:"a noi",ans:"nobis",opts:["nobis","nos","nostrum","vobis"],hint:"pronome personale 1ª pl.: dativo",expl:"<strong>nobis</strong> = dativo di <em>nos</em> (complemento di termine)."},
+  // Pronomi dimostrativi
+  {frase:"___ miles gladium tenet.",blank:"Questo",ans:"Hic",opts:["Hic","Ille","Is","Ipse"],hint:"dimostrativo 'vicino': hic, haec, hoc",expl:"<strong>Hic</strong> = dimostrativo per cosa vicina (questo/a)."},
+  {frase:"___ rex in Italia regnat.",blank:"Quel (lontano)",ans:"Ille",opts:["Ille","Hic","Is","Idem"],hint:"dimostrativo 'lontano': ille, illa, illud",expl:"<strong>Ille</strong> = dimostrativo per cosa lontana (quello/a)."},
+  {frase:"___ idem consul Romam venit.",blank:"Lo stesso",ans:"Idem",opts:["Idem","Ipse","Hic","Is"],hint:"pronome di identità: idem, eadem, idem",expl:"<strong>Idem</strong> = pronome di identità (lo stesso)."},
+  {frase:"Rex ___ bellum gerit.",blank:"egli stesso",ans:"ipse",opts:["ipse","idem","is","hic"],hint:"pronome intensivo: ipse, ipsa, ipsum",expl:"<strong>Ipse</strong> = pronome intensivo (egli stesso/proprio lui)."},
+  // Pronomi relativi
+  {frase:"Miles ___ pugnat fortis est.",blank:"che",ans:"qui",opts:["qui","quem","cuius","cui"],hint:"pronome relativo nom. sg. masch.: chi/che",expl:"<strong>Qui</strong> = nominativo sg. masch. del pronome relativo."},
+  {frase:"Rex ___ milites laudat magnus est.",blank:"i cui",ans:"cuius",opts:["cuius","cui","quem","quos"],hint:"pronome relativo genitivo sg.: di cui / il cui",expl:"<strong>Cuius</strong> = genitivo sg. del relativo (di cui / il cui)."},
+  {frase:"Consul ___ legati venerunt clarus est.",blank:"al quale",ans:"cui",opts:["cui","cuius","quem","quo"],hint:"pronome relativo dativo sg.",expl:"<strong>Cui</strong> = dativo sg. del pronome relativo (al quale)."},
+  {frase:"Miles ___ dux laudavit fortis erat.",blank:"che (ogg.)",ans:"quem",opts:["quem","qui","cuius","cui"],hint:"pronome relativo accusativo sg. masch.",expl:"<strong>Quem</strong> = accusativo sg. masch. del relativo (complemento oggetto)."},
+  {frase:"Legati ___ consul misit venerunt.",blank:"che (pl.)",ans:"quos",opts:["quos","qui","quibus","quorum"],hint:"pronome relativo accusativo pl. masch.",expl:"<strong>Quos</strong> = accusativo pl. masch. del relativo."},
+  // Contesti con scelta tra is/hic/ille
+  {frase:"___ librum amo: est meus.",blank:"Questo (vicino a me)",ans:"Hunc",opts:["Hunc","Illum","Eum","Ipsum"],hint:"acc. sg. masch. di hic",expl:"<strong>Hunc</strong> = accusativo di <em>hic</em> (questo qui vicino)."},
+  {frase:"___ templum in Roma est.",blank:"Quello (lontano)",ans:"Illud",opts:["Illud","Hoc","Id","Idem"],hint:"acc./nom. neutro sg. di ille",expl:"<strong>Illud</strong> = nom./acc. neutro sg. di <em>ille</em> (quello lontano)."},
+  // Riflessivi
+  {frase:"Rex ___ coronam parat.",blank:"a sé",ans:"sibi",opts:["sibi","se","sui","ei"],hint:"pronome riflessivo dativo: sibi",expl:"<strong>Sibi</strong> = dativo del pronome riflessivo <em>se</em> (a sé stesso)."},
+  {frase:"Milites ___ in pugna defendunt.",blank:"sé stessi",ans:"se",opts:["se","sibi","sui","eos"],hint:"pronome riflessivo accusativo",expl:"<strong>Se</strong> = accusativo del pronome riflessivo (sé stessi)."},
+  // Interrogativi
+  {frase:"___ miles gladium habet?",blank:"Chi",ans:"Quis",opts:["Quis","Qui","Quem","Cuius"],hint:"pronome interrogativo soggetto",expl:"<strong>Quis</strong> = pronome interrogativo soggetto (chi?)."},
+  {frase:"___ librum legis?",blank:"Quale",ans:"Quem",opts:["Quem","Quis","Cui","Cuius"],hint:"pronome interrogativo accusativo",expl:"<strong>Quem</strong> = accusativo interrogativo (quale? / chi? come oggetto)."},
+  {frase:"___ consul Romam misit?",blank:"Chi (sogg.)",ans:"Quis",opts:["Quis","Quem","Qui","Cuius"],hint:"pronome interrogativo nominativo",expl:"<strong>Quis</strong> = nom. sg. interrogativo soggetto."},
+];
+const TOTAL=20,TIMER=12,MAX_HP=10;
+let questions=[],qi=0,score=0,hpPlayer=MAX_HP,hpEnemy=MAX_HP;
+let timerInterval=null,timeLeft=0,answered=false;
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function updateHP(){document.getElementById('hp-p-num').textContent=hpPlayer;document.getElementById('hp-e-num').textContent=hpEnemy;document.getElementById('hp-player').style.width=`${(hpPlayer/MAX_HP)*100}%`;document.getElementById('hp-enemy').style.width=`${(hpEnemy/MAX_HP)*100}%`;}
+function restartGame(){qi=0;score=0;hpPlayer=MAX_HP;hpEnemy=MAX_HP;answered=false;document.getElementById('end-area').hidden=true;document.getElementById('game-area').hidden=false;document.getElementById('score').textContent='0';updateHP();questions=shuffle([...BANK]).slice(0,TOTAL);loadQ();}
+function loadQ(){
+  clearInterval(timerInterval);answered=false;
+  const q=questions[qi];
+  document.getElementById('q-num').textContent=qi+1;
+  document.getElementById('q-num-label').textContent=`BATTAGLIA ${qi+1} / ${TOTAL}`;
+  document.getElementById('arena').textContent='⚔️';
+  // Frase con blank
+  const fraseHtml=q.frase.replace('___',`<span class="blank">${q.blank}</span>`);
+  document.getElementById('q-frase').innerHTML=fraseHtml;
+  document.getElementById('q-hint').textContent=q.hint?`💡 ${q.hint}`:'';
+  document.getElementById('expl').hidden=true;
+  document.getElementById('btn-next').hidden=true;
+  const opts=shuffle([...q.opts]);
+  const container=document.getElementById('opts');
+  container.innerHTML='';
+  opts.forEach(o=>{const btn=document.createElement('button');btn.className='opt';btn.textContent=o;btn.onclick=()=>select(btn,o,q);container.appendChild(btn);});
+  timeLeft=TIMER;updateBar();
+  timerInterval=setInterval(()=>{timeLeft=Math.max(0,timeLeft-.08);updateBar();if(timeLeft===0){clearInterval(timerInterval);timeout(q);}},80);
+}
+function updateBar(){const pct=timeLeft/TIMER;const bar=document.getElementById('timer-bar');bar.style.width=`${pct*100}%`;bar.className='timer-bar '+(pct>.5?'g':pct>.25?'o':'r');}
+function timeout(q){if(answered)return;answered=true;document.querySelectorAll('.opt').forEach(b=>{b.setAttribute('disabled','');if(b.textContent===q.ans)b.classList.add('show-correct');});hpPlayer=Math.max(0,hpPlayer-2);updateHP();document.getElementById('arena').textContent='💀 −2 ♥';showExpl(q,false);setTimeout(advance,1500);}
+function select(btn,chosen,q){if(answered)return;answered=true;clearInterval(timerInterval);document.querySelectorAll('.opt').forEach(b=>b.setAttribute('disabled',''));const ok=chosen===q.ans;btn.classList.add(ok?'correct':'wrong');if(!ok)document.querySelectorAll('.opt').forEach(b=>{if(b.textContent===q.ans)b.classList.add('show-correct');});if(ok){const pts=5+Math.round((timeLeft/TIMER)*5);score+=pts;hpEnemy=Math.max(0,hpEnemy-1);document.getElementById('score').textContent=score;document.getElementById('arena').textContent='⚔️ COLPO! −1 👿';}else{hpPlayer=Math.max(0,hpPlayer-1);document.getElementById('arena').textContent='🛡️ DIFESA! −1 ♥';}updateHP();fl(ok);showExpl(q,ok);}
+function showExpl(q,ok){const el=document.getElementById('expl');el.hidden=false;el.innerHTML=(ok?'✅ ':'❌ ')+q.expl;document.getElementById('btn-next').hidden=false;}
+function fl(ok){const el=document.getElementById('flash');el.style.background=ok?'rgba(76,175,80,.18)':'rgba(231,76,60,.2)';el.style.opacity='1';setTimeout(()=>el.style.opacity='0',150);}
+function advance(){qi++;if(qi>=TOTAL||hpPlayer<=0||hpEnemy<=0){showEnd();return;}loadQ();}
+function showEnd(){clearInterval(timerInterval);document.getElementById('game-area').hidden=true;document.getElementById('end-area').hidden=false;let emoji,title,msg;if(hpEnemy<=0){emoji='🏆';title='VICTORIA!';msg='Hai sconfitto il nemico! Padronanza dei pronomi!';}else if(hpPlayer<=0){emoji='💀';title='RECADE!';msg='Il nemico ha vinto. Ripassa i pronomi e ritorna!';}else{const pct=Math.round((score/((TOTAL*10)))*100);if(pct>=70){emoji='🛡️';title='BENE!';msg='Buona battaglia! Continua ad allenarti.';}else{emoji='⚔️';title='BENE!';msg='Hai resistito! Studia pronomi relativi e dimostrativi.';}}document.getElementById('end-emoji').textContent=emoji;document.getElementById('end-title').textContent=title;document.getElementById('end-score').innerHTML=`${score} <small>punti</small>`;document.getElementById('end-msg').textContent=msg;}
+questions=shuffle([...BANK]).slice(0,TOTAL);loadQ();
+</script>
+</body></html>

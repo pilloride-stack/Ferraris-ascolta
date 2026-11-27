@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coniuga! · Latino Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--ok:#4caf50;--ko:#e74c3c;--ink:#f5e9c8;--muted:#b8a070}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,sans-serif;min-height:100vh;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg') center/cover no-repeat fixed}
+body::before{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(10,5,0,.82) 0%,rgba(20,10,2,.78) 60%,rgba(10,5,0,.88) 100%);pointer-events:none;z-index:0}
+.wrap{max-width:700px;margin:0 auto;padding:14px max(3vw,12px) 32px;position:relative;z-index:1}
+.back-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(44,32,16,.7);border:1px solid var(--bronze);border-radius:8px;color:var(--sand);font:600 13px Lexend;padding:6px 14px;text-decoration:none;margin-bottom:14px;transition:background .2s}
+.back-btn:hover{background:rgba(124,92,43,.4)}
+.spqr{text-align:center;font:700 11px/1 Cinzel;letter-spacing:4px;color:var(--bronze2);margin-bottom:2px}
+h1{font:900 clamp(28px,6vw,48px)/1 Cinzel;text-align:center;margin:0 0 2px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 14px}
+.stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+.stat{background:var(--stone2);border:1px solid var(--bronze);border-radius:8px;padding:5px 14px;font:700 13px Cinzel;color:var(--sand2);display:flex;align-items:center;gap:6px}
+.stat span{font:600 20px Lexend;color:var(--sand)}
+.timer-wrap{height:6px;background:var(--stone2);border-radius:3px;margin-bottom:16px;overflow:hidden}
+.timer-bar{height:100%;border-radius:3px;transition:width .1s linear}
+.timer-bar.g{background:linear-gradient(90deg,var(--ok),#8edd8e)}
+.timer-bar.o{background:linear-gradient(90deg,#e67e22,#f39c12)}
+.timer-bar.r{background:linear-gradient(90deg,var(--ko),#ff6b6b)}
+
+.q-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:18px;padding:20px;margin-bottom:14px;backdrop-filter:blur(4px);text-align:center}
+.q-num{font:700 11px Cinzel;letter-spacing:3px;color:var(--bronze2);margin-bottom:6px}
+.q-verb{font:900 clamp(20px,5vw,34px)/1 Cinzel;color:var(--sand2);margin-bottom:6px}
+.q-req{font:600 14px Lexend;color:var(--muted)}
+.q-req strong{color:var(--sand);font-weight:700}
+
+.input-row{display:flex;gap:8px;margin-bottom:10px}
+#answer-input{flex:1;background:var(--stone2);border:2px solid var(--bronze);border-radius:12px;padding:12px 16px;font:700 20px Cinzel;color:var(--sand2);outline:none;transition:border-color .15s;caret-color:var(--sand)}
+#answer-input:focus{border-color:var(--sand2)}
+#answer-input.ok{border-color:var(--ok)!important;color:#8edd8e}
+#answer-input.ko{border-color:var(--ko)!important;color:#f07070}
+#btn-check{background:linear-gradient(135deg,var(--bronze),var(--bronze2));border:none;border-radius:12px;padding:12px 22px;font:700 15px Cinzel;color:var(--stone);cursor:pointer;transition:all .18s;white-space:nowrap}
+#btn-check:hover{filter:brightness(1.15)}
+#btn-check:disabled{opacity:.5;cursor:not-allowed}
+
+.hint-row{display:flex;gap:8px;justify-content:center;margin-bottom:10px;flex-wrap:wrap}
+.chip{background:var(--stone3);border:1px solid var(--bronze);border-radius:20px;padding:4px 12px;font:600 12px Lexend;color:var(--muted);cursor:pointer;transition:all .15s}
+.chip:hover{border-color:var(--sand2);color:var(--sand2)}
+.chip.used{opacity:.5;pointer-events:none}
+
+.feedback{text-align:center;padding:10px;border-radius:10px;font:700 14px Lexend;margin-bottom:10px}
+.feedback.ok{background:rgba(76,175,80,.15);color:#8edd8e}
+.feedback.ko{background:rgba(231,76,60,.15);color:#f07070}
+
+.btn-next{display:block;margin:0 auto;padding:10px 28px;border:none;border-radius:10px;font:700 14px Cinzel;cursor:pointer;background:linear-gradient(135deg,var(--bronze),var(--bronze2));color:var(--stone);transition:all .18s}
+.btn-next:hover{filter:brightness(1.15)}
+
+/* paradigma hint box */
+.paradigma{background:var(--stone2);border:1px solid var(--bronze);border-radius:12px;padding:10px 14px;font:400 12px Lexend;color:var(--muted);margin-bottom:10px;display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
+.paradigma .cell{display:contents}
+.paradigma .p-label{color:var(--bronze2);font-weight:700}
+.paradigma .p-form{color:var(--sand2);font:600 13px Cinzel}
+
+/* fine */
+.end-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:32px 24px;text-align:center;backdrop-filter:blur(6px)}
+.end-card h2{font:900 clamp(24px,5vw,42px)/1 Cinzel;color:var(--sand);margin:0 0 8px}
+.end-score{font:700 clamp(44px,10vw,76px)/1 Cinzel;color:var(--sand2);margin:12px 0}
+.end-score small{font-size:38%;color:var(--muted)}
+.end-msg{color:var(--muted);font-size:14px;margin-bottom:22px}
+.btn-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn-restart{background:linear-gradient(135deg,var(--red),var(--red2));color:var(--sand2);padding:12px 30px;border:none;border-radius:10px;font:700 15px Cinzel;cursor:pointer}
+.btn-restart:hover{filter:brightness(1.15)}
+</style></head>
+<body>
+<div class="wrap">
+  <a class="back-btn" href="index.html">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Latino Classe II
+  </a>
+  <div class="spqr">S · P · Q · R</div>
+  <h1>🔤 Coniuga!</h1>
+  <p class="sub">Latino · Classe II · Scrivi la forma verbale corretta</p>
+  <div class="stats">
+    <div class="stat">📜 <span id="q-num">1</span>/20</div>
+    <div class="stat">🏆 <span id="score">0</span> pt</div>
+    <div class="stat">✅ <span id="correct">0</span></div>
+  </div>
+  <div class="timer-wrap"><div class="timer-bar g" id="timer-bar"></div></div>
+
+  <div id="game-area">
+    <div class="q-card">
+      <div class="q-num" id="q-num-label">FORMA 1 / 20</div>
+      <div class="q-verb" id="q-verb">—</div>
+      <div class="q-req" id="q-req">—</div>
+    </div>
+    <div id="paradigma-box" hidden class="paradigma"></div>
+    <div class="input-row">
+      <input type="text" id="answer-input" placeholder="scrivi la forma…" autocomplete="off" autocorrect="off" spellcheck="false">
+      <button id="btn-check" onclick="checkAnswer()">Verifica ✓</button>
+    </div>
+    <div class="hint-row">
+      <span class="chip" id="chip-paradigma" onclick="showParadigma()">💡 Paradigma</span>
+      <span class="chip" id="chip-first" onclick="showFirstLetter()">🔤 Prima lettera</span>
+    </div>
+    <div class="feedback" id="feedback" hidden></div>
+    <button class="btn-next" id="btn-next" onclick="nextQ()" hidden>Avanti ▶</button>
+  </div>
+
+  <div id="end-area" hidden>
+    <div class="end-card">
+      <div style="font-size:48px;margin-bottom:8px" id="end-emoji">🔤</div>
+      <h2 id="end-title">Fine!</h2>
+      <div class="end-score" id="end-score">0 <small>punti</small></div>
+      <div class="end-msg" id="end-msg"></div>
+      <div class="btn-row">
+        <a class="btn back-btn" href="index.html" style="padding:10px 20px">◀ Latino Classe II</a>
+        <button class="btn-restart" onclick="restartGame()">🔄 Rigioca</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Paradigmi delle 4 coniugazioni
+const PARADIGMI = {
+  I:   {pres:["o","as","at","amus","atis","ant"],  imp:["abam","abas","abat","abamus","abatis","abant"],  fut:["abo","abis","abit","abimus","abitis","abunt"]},
+  II:  {pres:["eo","es","et","emus","etis","ent"],  imp:["ebam","ebas","ebat","ebamus","ebatis","ebant"],  fut:["ebo","ebis","ebit","ebimus","ebitis","ebunt"]},
+  III: {pres:["o","is","it","imus","itis","unt"],   imp:["ebam","ebas","ebat","ebamus","ebatis","ebant"],  fut:["am","es","et","emus","etis","ent"]},
+  IV:  {pres:["io","is","it","imus","itis","iunt"], imp:["iebam","iebas","iebat","iebamus","iebatis","iebant"], fut:["iam","ies","iet","iemus","ietis","ient"]},
+};
+const PERSONE=["1ª sg","2ª sg","3ª sg","1ª pl","2ª pl","3ª pl"];
+
+// Banca verbi: {inf, rad, coniug, trad}
+const VERBI=[
+  {inf:"amare",   rad:"am",    coniug:"I",   trad:"amare"},
+  {inf:"portare", rad:"port",  coniug:"I",   trad:"portare"},
+  {inf:"vocare",  rad:"voc",   coniug:"I",   trad:"chiamare"},
+  {inf:"laborare",rad:"labor", coniug:"I",   trad:"lavorare"},
+  {inf:"narrare", rad:"narr",  coniug:"I",   trad:"raccontare"},
+  {inf:"docere",  rad:"doc",   coniug:"II",  trad:"insegnare"},
+  {inf:"habere",  rad:"hab",   coniug:"II",  trad:"avere"},
+  {inf:"videre",  rad:"vid",   coniug:"II",  trad:"vedere"},
+  {inf:"timere",  rad:"tim",   coniug:"II",  trad:"temere"},
+  {inf:"monere",  rad:"mon",   coniug:"II",  trad:"avvertire"},
+  {inf:"legere",  rad:"leg",   coniug:"III", trad:"leggere"},
+  {inf:"mittere", rad:"mitt",  coniug:"III", trad:"mandare"},
+  {inf:"scribere",rad:"scrib", coniug:"III", trad:"scrivere"},
+  {inf:"dicere",  rad:"dic",   coniug:"III", trad:"dire"},
+  {inf:"ducere",  rad:"duc",   coniug:"III", trad:"condurre"},
+  {inf:"audire",  rad:"aud",   coniug:"IV",  trad:"ascoltare"},
+  {inf:"sentire", rad:"sent",  coniug:"IV",  trad:"sentire"},
+  {inf:"venire",  rad:"ven",   coniug:"IV",  trad:"venire"},
+  {inf:"finire",  rad:"fin",   coniug:"IV",  trad:"finire"},
+  {inf:"punire",  rad:"pun",   coniug:"IV",  trad:"punire"},
+];
+const TEMPI=["pres","imp","fut"];
+const TEMPI_LABEL={"pres":"presente","imp":"imperfetto","fut":"futuro"};
+const TOTAL=20,TIMER=18;
+
+let questions=[],qi=0,score=0,correct=0,hintUsed=false,hintPUsed=false;
+let timerInterval=null,timeLeft=0;
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+
+function buildBank(){
+  const bank=[];
+  for(const v of VERBI){
+    for(const t of TEMPI){
+      for(let p=0;p<6;p++){
+        const suf=PARADIGMI[v.coniug][t][p];
+        const form=v.rad+suf;
+        bank.push({verb:v.inf,rad:v.rad,coniug:v.coniug,trad:v.trad,tempo:t,persona:p,suf,form,
+          paradigma:PARADIGMI[v.coniug]});
+      }
+    }
+  }
+  return bank;
+}
+
+function restartGame(){
+  qi=0;score=0;correct=0;
+  document.getElementById('end-area').hidden=true;
+  document.getElementById('game-area').hidden=false;
+  document.getElementById('score').textContent='0';
+  document.getElementById('correct').textContent='0';
+  const bank=buildBank();
+  questions=shuffle(bank).slice(0,TOTAL);
+  loadQ();
+}
+
+function loadQ(){
+  clearInterval(timerInterval);
+  hintUsed=false;hintPUsed=false;
+  const q=questions[qi];
+  document.getElementById('q-num').textContent=qi+1;
+  document.getElementById('q-num-label').textContent=`FORMA ${qi+1} / ${TOTAL}`;
+  document.getElementById('q-verb').textContent=q.verb;
+  document.getElementById('q-req').innerHTML=
+    `Scrivi la <strong>${PERSONE[q.persona]}</strong> del <strong>${TEMPI_LABEL[q.tempo]}</strong> indicativo`;
+  const inp=document.getElementById('answer-input');
+  inp.value='';inp.className='';inp.disabled=false;inp.focus();
+  document.getElementById('feedback').hidden=true;
+  document.getElementById('btn-next').hidden=true;
+  document.getElementById('paradigma-box').hidden=true;
+  document.getElementById('chip-paradigma').className='chip';
+  document.getElementById('chip-first').className='chip';
+  document.getElementById('btn-check').disabled=false;
+
+  timeLeft=TIMER;
+  updateBar();
+  timerInterval=setInterval(()=>{
+    timeLeft=Math.max(0,timeLeft-.1);
+    updateBar();
+    if(timeLeft===0){clearInterval(timerInterval);autoCheck();}
+  },100);
+}
+
+function updateBar(){
+  const pct=timeLeft/TIMER;
+  const bar=document.getElementById('timer-bar');
+  bar.style.width=`${pct*100}%`;
+  bar.className='timer-bar '+(pct>.5?'g':pct>.25?'o':'r');
+}
+
+function normalize(s){return s.trim().toLowerCase().replace(/[àá]/g,'a').replace(/[èé]/g,'e').replace(/[ìí]/g,'i').replace(/[òó]/g,'o').replace(/[ùú]/g,'u')}
+
+function checkAnswer(){
+  clearInterval(timerInterval);
+  const q=questions[qi];
+  const inp=document.getElementById('answer-input');
+  const val=inp.value;
+  if(!val.trim()) return;
+  const ok=normalize(val)===normalize(q.form);
+  inp.disabled=true;
+  document.getElementById('btn-check').disabled=true;
+  inp.className=ok?'ok':'ko';
+
+  const pts=ok?(hintUsed||hintPUsed?3:5)+Math.round((timeLeft/TIMER)*5):0;
+  if(ok){score+=pts;correct++;document.getElementById('score').textContent=score;document.getElementById('correct').textContent=correct;}
+
+  const fb=document.getElementById('feedback');
+  fb.hidden=false;
+  fb.className=`feedback ${ok?'ok':'ko'}`;
+  fb.textContent=ok?`✅ Corretto! +${pts} pt`:`❌ La forma corretta è: ${q.form}`;
+  document.getElementById('btn-next').hidden=false;
+}
+
+function autoCheck(){
+  document.getElementById('btn-check').disabled=true;
+  checkAnswer();
+}
+
+function showParadigma(){
+  if(hintPUsed) return;
+  hintPUsed=true;
+  document.getElementById('chip-paradigma').classList.add('used');
+  const q=questions[qi];
+  const box=document.getElementById('paradigma-box');
+  const par=q.paradigma;
+  const t=q.tempo;
+  let html='';
+  for(let i=0;i<6;i++){
+    html+=`<div class="cell"><span class="p-label">${PERSONE[i]}</span><span class="p-form">${q.rad}${par[t][i]}</span></div>`;
+  }
+  box.innerHTML=html;box.hidden=false;
+}
+
+function showFirstLetter(){
+  if(hintUsed) return;
+  hintUsed=true;
+  document.getElementById('chip-first').classList.add('used');
+  const q=questions[qi];
+  const inp=document.getElementById('answer-input');
+  inp.value=q.form[0];inp.focus();
+  // sposta cursore alla fine
+  inp.setSelectionRange(1,1);
+}
+
+function nextQ(){
+  qi++;
+  if(qi>=TOTAL){showEnd();return;}
+  loadQ();
+}
+
+function showEnd(){
+  document.getElementById('game-area').hidden=true;
+  document.getElementById('end-area').hidden=false;
+  const pct=Math.round((correct/TOTAL)*100);
+  let emoji='🔤',title,msg;
+  if(pct>=90){emoji='🏛️';title='GRAMMATICE PERFECT!';msg='Padronanza assoluta della coniugazione latina!'}
+  else if(pct>=70){emoji='⚔️';title='OPTIME!';msg='Ottima conoscenza dei paradigmi!'}
+  else if(pct>=50){emoji='🛡️';title='BENE!';msg='Continua a esercitarti con i paradigmi!'}
+  else{emoji='📖';title='RECADE!';msg='Ripassa i paradigmi delle 4 coniugazioni e riprova!'}
+  document.getElementById('end-emoji').textContent=emoji;
+  document.getElementById('end-title').textContent=title;
+  document.getElementById('end-score').innerHTML=`${score} <small>punti</small>`;
+  document.getElementById('end-msg').textContent=`${correct}/${TOTAL} corrette (${pct}%) — ${msg}`;
+}
+
+const bank=buildBank();
+questions=shuffle(bank).slice(0,TOTAL);
+loadQ();
+</script>
+</body></html>

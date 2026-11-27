@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latino Classe II · Ferraris Arcade</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--perg:#f5e9c8;--ink:#f5e9c8;--muted:#b8a070}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;min-height:100vh;overflow-x:clip;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg') center/cover no-repeat fixed}
+body::before{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(10,5,0,.82) 0%,rgba(20,10,2,.78) 60%,rgba(10,5,0,.88) 100%);pointer-events:none;z-index:0}
+.wrap{max-width:860px;margin:0 auto;padding:24px max(3vw,16px) 48px;position:relative;z-index:1}
+.back-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(44,32,16,.7);border:1px solid var(--bronze);border-radius:8px;color:var(--sand);font:600 13px Lexend;padding:6px 14px;text-decoration:none;margin-bottom:20px;transition:background .2s}
+.back-btn:hover{background:rgba(124,92,43,.4)}
+.spqr{text-align:center;font:700 11px/1 Cinzel,serif;letter-spacing:4px;color:var(--bronze2);margin-bottom:4px}
+h1{font:900 clamp(32px,7vw,60px)/1 Cinzel,serif;text-align:center;margin:0 0 4px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:15px;margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.game-card{background:rgba(26,18,8,.82);border:1px solid var(--bronze);border-radius:16px;padding:22px 20px;text-decoration:none;color:var(--ink);transition:all .22s;display:block;backdrop-filter:blur(4px)}
+.game-card:hover{border-color:var(--sand2);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.game-card.soon{opacity:.45;cursor:not-allowed;pointer-events:none}
+.gc-icon{font-size:36px;margin-bottom:10px}
+.gc-num{font:700 10px Cinzel;letter-spacing:3px;color:var(--bronze2);margin-bottom:3px}
+.gc-name{font:700 18px/1.2 Cinzel;color:var(--sand2);margin-bottom:6px}
+.gc-desc{font-size:13px;color:var(--muted);line-height:1.5}
+.gc-badge{display:inline-block;margin-top:10px;background:rgba(124,92,43,.4);border:1px solid var(--bronze2);border-radius:6px;padding:3px 10px;font:600 11px Lexend;color:var(--sand)}
+.gc-badge.presto{background:rgba(60,40,20,.4);color:var(--muted);border-color:var(--stone3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-btn" href="/arcade/">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Ferraris Arcade
+  </a>
+  <div class="spqr">S · P · Q · R</div>
+  <h1>Latino Classe II</h1>
+  <p class="sub">Giochi didattici · Verbi, pronomi, sintassi e periodo ipotetico</p>
+  <div class="grid">
+
+    <a class="game-card" href="imperator-quiz.html">
+      <div class="gc-icon">👑</div>
+      <div class="gc-num">GIOCO 1</div>
+      <div class="gc-name">Imperator Quiz</div>
+      <div class="gc-desc">20 domande su verbi, pronomi e sintassi latina. Scala i gradi dell'esercito romano!</div>
+      <span class="gc-badge">✅ Disponibile</span>
+    </a>
+
+    <a class="game-card" href="coniuga.html">
+      <div class="gc-icon">🔤</div>
+      <div class="gc-num">GIOCO 2</div>
+      <div class="gc-name">Coniuga!</div>
+      <div class="gc-desc">Scrivi la forma verbale corretta: presente, imperfetto e futuro delle 4 coniugazioni.</div>
+      <span class="gc-badge">✅ Disponibile</span>
+    </a>
+
+    <a class="game-card" href="traduci-fulmine.html">
+      <div class="gc-icon">⚡</div>
+      <div class="gc-num">GIOCO 3</div>
+      <div class="gc-name">Traduci Fulmine</div>
+      <div class="gc-desc">Abbina frasi latine e traduzioni italiane a tutta velocità. Streak bonus per le serie!</div>
+      <span class="gc-badge">✅ Disponibile</span>
+    </a>
+
+    <a class="game-card" href="pronomi-battaglia.html">
+      <div class="gc-icon">🛡️</div>
+      <div class="gc-num">GIOCO 4</div>
+      <div class="gc-name">Pronomi in Battaglia</div>
+      <div class="gc-desc">Identifica il pronome giusto per completare la frase latina. Attenzione al genere e al caso!</div>
+      <span class="gc-badge">✅ Disponibile</span>
+    </a>
+
+    <a class="game-card" href="periodo-ipotetico.html">
+      <div class="gc-icon">🏺</div>
+      <div class="gc-num">GIOCO 5</div>
+      <div class="gc-name">Periodo Ipotetico</div>
+      <div class="gc-desc">Completa le frasi con il modo e tempo corretti. Reale, possibile o impossibile?</div>
+      <span class="gc-badge">✅ Disponibile</span>
+    </a>
+
+  </div>
+</div>
+</body></html>

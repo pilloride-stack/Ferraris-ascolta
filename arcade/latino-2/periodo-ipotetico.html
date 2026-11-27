@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Periodo Ipotetico · Latino Classe II</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--ok:#4caf50;--ko:#e74c3c;--ink:#f5e9c8;--muted:#b8a070;
+  --reale:#3d8b40;--poss:#1565c0;--impos:#7b1fa2}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,sans-serif;min-height:100vh;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg') center/cover no-repeat fixed}
+body::before{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(10,5,0,.82) 0%,rgba(20,10,2,.78) 60%,rgba(10,5,0,.88) 100%);pointer-events:none;z-index:0}
+.wrap{max-width:720px;margin:0 auto;padding:14px max(3vw,12px) 32px;position:relative;z-index:1}
+.back-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(44,32,16,.7);border:1px solid var(--bronze);border-radius:8px;color:var(--sand);font:600 13px Lexend;padding:6px 14px;text-decoration:none;margin-bottom:14px;transition:background .2s}
+.back-btn:hover{background:rgba(124,92,43,.4)}
+.spqr{text-align:center;font:700 11px/1 Cinzel;letter-spacing:4px;color:var(--bronze2);margin-bottom:2px}
+h1{font:900 clamp(24px,5.5vw,44px)/1.1 Cinzel;text-align:center;margin:0 0 2px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 8px}
+
+/* Legenda tipo */
+.legenda{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
+.leg{padding:4px 12px;border-radius:20px;font:700 11px Cinzel;letter-spacing:1px}
+.leg.r{background:rgba(61,139,64,.2);border:1px solid var(--reale);color:#8edd8e}
+.leg.p{background:rgba(21,101,192,.2);border:1px solid #1565c0;color:#90caf9}
+.leg.i{background:rgba(123,31,162,.2);border:1px solid #7b1fa2;color:#ce93d8}
+
+.stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+.stat{background:var(--stone2);border:1px solid var(--bronze);border-radius:8px;padding:5px 14px;font:700 13px Cinzel;color:var(--sand2);display:flex;align-items:center;gap:6px}
+.stat span{font:600 20px Lexend;color:var(--sand)}
+.timer-wrap{height:6px;background:var(--stone2);border-radius:3px;margin-bottom:14px;overflow:hidden}
+.timer-bar{height:100%;border-radius:3px;transition:width .08s linear}
+.timer-bar.g{background:linear-gradient(90deg,var(--ok),#8edd8e)}
+.timer-bar.o{background:linear-gradient(90deg,#e67e22,#f39c12)}
+.timer-bar.r{background:linear-gradient(90deg,var(--ko),#ff6b6b)}
+.flash{position:fixed;inset:0;pointer-events:none;z-index:999;opacity:0;transition:opacity .15s}
+
+.tipo-badge{text-align:center;margin-bottom:8px}
+.tipo-pill{display:inline-block;padding:5px 18px;border-radius:20px;font:700 12px Cinzel;letter-spacing:2px}
+.tipo-pill.r{background:rgba(61,139,64,.25);border:1px solid var(--reale);color:#8edd8e}
+.tipo-pill.p{background:rgba(21,101,192,.25);border:1px solid #1565c0;color:#90caf9}
+.tipo-pill.i{background:rgba(123,31,162,.25);border:1px solid #7b1fa2;color:#ce93d8}
+
+.q-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:18px;padding:20px;margin-bottom:12px;backdrop-filter:blur(4px)}
+.q-num{font:700 11px Cinzel;letter-spacing:3px;color:var(--bronze2);margin-bottom:8px;text-align:center}
+.q-title{font:700 13px Lexend;color:var(--muted);text-align:center;margin-bottom:8px}
+.q-frase{font:700 clamp(14px,3.5vw,20px)/1.6 Cinzel;color:var(--sand2);text-align:center}
+.q-frase .blank{display:inline-block;min-width:90px;border-bottom:2px solid var(--sand);color:var(--sand);font-style:italic;text-align:center;padding:0 4px}
+.q-hint{font:400 12px Lexend;color:var(--muted);text-align:center;margin-top:8px}
+
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.opt{background:var(--stone2);border:2px solid var(--bronze);border-radius:12px;padding:11px 8px;font:700 13px Cinzel;color:var(--sand2);cursor:pointer;transition:all .15s;text-align:center;min-height:58px;display:flex;align-items:center;justify-content:center;line-height:1.3;letter-spacing:.3px}
+.opt:hover{border-color:var(--sand2);background:var(--stone3)}
+.opt.correct{border-color:var(--ok)!important;background:rgba(76,175,80,.2)!important;color:#8edd8e!important}
+.opt.wrong{border-color:var(--ko)!important;background:rgba(231,76,60,.2)!important;color:#f07070!important}
+.opt.show-correct{border-color:var(--ok)!important;background:rgba(76,175,80,.1)!important}
+.opt[disabled]{pointer-events:none}
+
+.expl{background:var(--stone2);border:1px solid var(--bronze);border-radius:10px;padding:12px 16px;font:400 13px Lexend;color:var(--muted);margin-bottom:10px;line-height:1.6}
+.expl strong{color:var(--sand2)}
+.expl code{background:var(--stone3);border-radius:4px;padding:1px 5px;font:600 12px Cinzel;color:var(--sand)}
+
+.btn-next{display:block;margin:0 auto;padding:10px 28px;border:none;border-radius:10px;font:700 14px Cinzel;cursor:pointer;background:linear-gradient(135deg,var(--bronze),var(--bronze2));color:var(--stone);transition:all .18s}
+.btn-next:hover{filter:brightness(1.15)}
+
+/* schema riepilogativo */
+.schema{background:rgba(26,18,8,.7);border:1px solid var(--bronze);border-radius:14px;padding:14px;margin-bottom:14px}
+.schema h3{font:700 11px Cinzel;letter-spacing:3px;color:var(--bronze2);margin:0 0 10px;text-align:center}
+.schema-row{display:grid;grid-template-columns:auto 1fr 1fr;gap:6px 10px;align-items:center;font:12px Lexend;margin-bottom:4px}
+.sr-tipo{padding:2px 8px;border-radius:10px;font:700 10px Cinzel;text-align:center}
+.sr-tipo.r{background:rgba(61,139,64,.2);color:#8edd8e;border:1px solid var(--reale)}
+.sr-tipo.p{background:rgba(21,101,192,.2);color:#90caf9;border:1px solid #1565c0}
+.sr-tipo.i{background:rgba(123,31,162,.2);color:#ce93d8;border:1px solid #7b1fa2}
+.sr-prot{color:var(--muted);font-size:11px}
+.sr-apod{color:var(--muted);font-size:11px}
+
+/* fine */
+.end-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:32px 24px;text-align:center;backdrop-filter:blur(6px)}
+.end-card h2{font:900 clamp(24px,5vw,42px)/1 Cinzel;color:var(--sand);margin:0 0 8px}
+.end-score{font:700 clamp(44px,10vw,76px)/1 Cinzel;color:var(--sand2);margin:12px 0}
+.end-score small{font-size:38%;color:var(--muted)}
+.end-stats{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
+.es{background:var(--stone2);border:1px solid var(--bronze);border-radius:10px;padding:10px 18px;text-align:center}
+.es-label{font:700 10px Cinzel;letter-spacing:2px;color:var(--bronze2);margin-bottom:4px}
+.es-val{font:700 24px Cinzel;color:var(--sand2)}
+.end-msg{color:var(--muted);font-size:14px;margin-bottom:22px}
+.btn-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn-restart{background:linear-gradient(135deg,var(--red),var(--red2));color:var(--sand2);padding:12px 30px;border:none;border-radius:10px;font:700 15px Cinzel;cursor:pointer}
+.btn-restart:hover{filter:brightness(1.15)}
+</style></head>
+<body>
+<div class="flash" id="flash"></div>
+<div class="wrap">
+  <a class="back-btn" href="index.html">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Latino Classe II
+  </a>
+  <div class="spqr">S · P · Q · R</div>
+  <h1>🏺 Periodo Ipotetico</h1>
+  <p class="sub">Latino · Classe II · Protasi e apodosi: modo e tempo giusto</p>
+
+  <!-- Schema veloce -->
+  <div class="schema">
+    <h3>SCHEMA RIASSUNTIVO</h3>
+    <div class="schema-row">
+      <span class="sr-tipo r">REALE</span>
+      <span class="sr-prot">Protasi: ind. pres./fut.</span>
+      <span class="sr-apod">Apodosi: ind. pres./fut.</span>
+    </div>
+    <div class="schema-row">
+      <span class="sr-tipo p">POSSIBILE</span>
+      <span class="sr-prot">Protasi: cong. pres.</span>
+      <span class="sr-apod">Apodosi: cong. pres.</span>
+    </div>
+    <div class="schema-row">
+      <span class="sr-tipo i">IMPOSSIBILE</span>
+      <span class="sr-prot">Protasi: cong. imperf.</span>
+      <span class="sr-apod">Apodosi: cong. imperf.</span>
+    </div>
+  </div>
+
+  <div class="legenda">
+    <span class="leg r">🟢 REALE</span>
+    <span class="leg p">🔵 POSSIBILE</span>
+    <span class="leg i">🟣 IMPOSSIBILE</span>
+  </div>
+
+  <div class="stats">
+    <div class="stat">🏺 <span id="q-num">1</span>/20</div>
+    <div class="stat">🏆 <span id="score">0</span> pt</div>
+    <div class="stat">✅ <span id="correct">0</span>/20</div>
+  </div>
+  <div class="timer-wrap"><div class="timer-bar g" id="timer-bar"></div></div>
+
+  <div id="game-area">
+    <div class="tipo-badge"><span class="tipo-pill" id="tipo-pill">REALE</span></div>
+    <div class="q-card">
+      <div class="q-num" id="q-num-label">IPOTESI 1 / 20</div>
+      <div class="q-title" id="q-title">Completa il periodo ipotetico</div>
+      <div class="q-frase" id="q-frase">—</div>
+      <div class="q-hint" id="q-hint"></div>
+    </div>
+    <div class="opts" id="opts"></div>
+    <div class="expl" id="expl" hidden></div>
+    <button class="btn-next" id="btn-next" onclick="nextQ()" hidden>Avanti ▶</button>
+  </div>
+
+  <div id="end-area" hidden>
+    <div class="end-card">
+      <div style="font-size:48px;margin-bottom:8px" id="end-emoji">🏺</div>
+      <h2 id="end-title">Fine!</h2>
+      <div class="end-score" id="end-score">0 <small>punti</small></div>
+      <div class="end-stats" id="end-stats"></div>
+      <div class="end-msg" id="end-msg"></div>
+      <div class="btn-row">
+        <a class="back-btn" href="index.html" style="padding:10px 20px">◀ Latino Classe II</a>
+        <button class="btn-restart" onclick="restartGame()">🔄 Rigioca</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+// tipo: r=reale, p=possibile, i=impossibile
+// domanda: frase con ___ da completare
+// ask: 'tipo' (individua tipo), 'forma' (scegli forma verbale), 'entrambi' (scegli forma)
+const BANK=[
+  // ── REALE ──
+  {tipo:"r",frase:"Si consul venit, milites ___ (gaudere).",blank:"gaudent",ans:"gaudent",opts:["gaudent","gaudeant","gauderent","gaudebunt"],hint:"Reale: apodosi = indicativo presente",expl:"<strong>Reale:</strong> protasi <em>si + indicativo</em>, apodosi <em>indicativo</em>. → <code>gaudent</code> (3ª pl. pres. ind.)"},
+  {tipo:"r",frase:"Si aqua calida est, puer ___ (bibere).",blank:"bibit",ans:"bibit",opts:["bibit","bibat","biberet","bibet"],hint:"Reale: apodosi = indicativo presente",expl:"<strong>Reale:</strong> <code>bibit</code> = 3ª sg. pres. ind. di <em>bibere</em>."},
+  {tipo:"r",frase:"Si hostes ___ (venire), milites pugnabunt.",blank:"veniunt",ans:"veniunt",opts:["veniunt","veniant","venirent","venient"],hint:"Reale: protasi = indicativo presente",expl:"<strong>Reale:</strong> la protasi usa l'indicativo. → <code>veniunt</code> (pres. ind.)"},
+  {tipo:"r",frase:"Si rex iubet, milites ___ (parere).",blank:"parent",ans:"parent",opts:["parent","pareant","parerent","parebunt"],hint:"Reale: apodosi = indicativo",expl:"<strong>Reale:</strong> <code>parent</code> = 3ª pl. pres. ind. di <em>parere</em>."},
+  {tipo:"r",frase:"Si tempus erit, consul ___ (scribere).",blank:"scribet",ans:"scribet",opts:["scribet","scribat","scriberet","scribit"],hint:"Reale: protasi al futuro → apodosi al futuro",expl:"<strong>Reale con futuro:</strong> <code>scribet</code> = 3ª sg. futuro ind. di <em>scribere</em>."},
+  {tipo:"r",frase:"Si magistrum ___ (audire), discipuli multa discent.",blank:"audient",ans:"audient",opts:["audient","audiant","audirent","audiunt"],hint:"Reale: protasi al futuro semplice",expl:"<strong>Reale:</strong> <code>audient</code> = 3ª pl. futuro ind. di <em>audire</em>."},
+  // ── POSSIBILE ──
+  {tipo:"p",frase:"Si consul veniat, milites ___ (gaudere).",blank:"gaudeant",ans:"gaudeant",opts:["gaudeant","gaudent","gauderent","gaudebunt"],hint:"Possibile: apodosi = congiuntivo presente",expl:"<strong>Possibile:</strong> protasi <em>si + cong. pres.</em>, apodosi <em>cong. pres.</em> → <code>gaudeant</code>"},
+  {tipo:"p",frase:"Si rex hoc ___ (dicere), omnes mirati sint.",blank:"dicat",ans:"dicat",opts:["dicat","dicit","diceret","dicet"],hint:"Possibile: protasi = congiuntivo presente",expl:"<strong>Possibile:</strong> <code>dicat</code> = 3ª sg. cong. pres. di <em>dicere</em>."},
+  {tipo:"p",frase:"Si hostes ___ (vincere), Romani fugiunt.",blank:"vincant",ans:"vincant",opts:["vincant","vincunt","vincerent","vincent"],hint:"Possibile: protasi = congiuntivo presente",expl:"<strong>Possibile:</strong> <code>vincant</code> = 3ª pl. cong. pres. di <em>vincere</em>."},
+  {tipo:"p",frase:"Si magister interroget, discipuli ___ (respondere).",blank:"respondeant",ans:"respondeant",opts:["respondeant","respondent","responderent","respondebunt"],hint:"Possibile: entrambe le proposizioni al congiuntivo presente",expl:"<strong>Possibile:</strong> <code>respondeant</code> = 3ª pl. cong. pres. di <em>respondere</em>."},
+  {tipo:"p",frase:"Si aqua desit, milites ___ (sitire).",blank:"sitiant",ans:"sitiant",opts:["sitiant","sitiunt","sitirent","sitient"],hint:"Possibile: apodosi = congiuntivo presente",expl:"<strong>Possibile:</strong> <code>sitiant</code> = 3ª pl. cong. pres. di <em>sitire</em> (avere sete)."},
+  {tipo:"p",frase:"Si bellum ___ (esse), multi moriantur.",blank:"sit",ans:"sit",opts:["sit","est","esset","erit"],hint:"Possibile: protasi = cong. presente di esse",expl:"<strong>Possibile:</strong> <code>sit</code> = 3ª sg. cong. pres. di <em>esse</em>."},
+  // ── IMPOSSIBILE ──
+  {tipo:"i",frase:"Si consul adesset, milites ___ (gaudere).",blank:"gauderent",ans:"gauderent",opts:["gauderent","gaudeant","gaudent","gaudebunt"],hint:"Impossibile: apodosi = congiuntivo imperfetto",expl:"<strong>Impossibile:</strong> protasi <em>si + cong. imperf.</em>, apodosi <em>cong. imperf.</em> → <code>gauderent</code>"},
+  {tipo:"i",frase:"Si rex ___ (esse) iustus, omnes felices essent.",blank:"esset",ans:"esset",opts:["esset","sit","est","erat"],hint:"Impossibile: protasi = congiuntivo imperfetto di esse",expl:"<strong>Impossibile:</strong> <code>esset</code> = 3ª sg. cong. imperf. di <em>esse</em>."},
+  {tipo:"i",frase:"Si milites fugerent, consul ___ (irasci).",blank:"irasceretur",ans:"irasceretur",opts:["irasceretur","irascatur","irascitur","irascetur"],hint:"Impossibile: apodosi = congiuntivo imperfetto passivo",expl:"<strong>Impossibile:</strong> <code>irasceretur</code> = 3ª sg. cong. imperf. di <em>irasci</em>."},
+  {tipo:"i",frase:"Si pacem ___ (habere), Romani laeti essent.",blank:"haberent",ans:"haberent",opts:["haberent","habeant","habent","habebunt"],hint:"Impossibile: protasi = congiuntivo imperfetto",expl:"<strong>Impossibile:</strong> <code>haberent</code> = 3ª pl. cong. imperf. di <em>habere</em>."},
+  {tipo:"i",frase:"Si discipuli attenti ___ (esse), magister non irasceretur.",blank:"essent",ans:"essent",opts:["essent","sint","sunt","erunt"],hint:"Impossibile: protasi = cong. imperf. di esse, pl.",expl:"<strong>Impossibile:</strong> <code>essent</code> = 3ª pl. cong. imperf. di <em>esse</em>."},
+  // ── INDIVIDUA IL TIPO ──
+  {tipo:"r",frase:"Si hostes veniunt, milites pugnant.",blank:"tipo?",task:"tipo",ans:"Reale",opts:["Reale","Possibile","Impossibile","Non è un p.i."],hint:"Guarda il modo verbale: indicativo = …",expl:"<strong>Reale:</strong> entrambe le proposizioni usano l'<em>indicativo</em> (veniunt / pugnant)."},
+  {tipo:"p",frase:"Si rex veniat, milites gaudeant.",blank:"tipo?",task:"tipo",ans:"Possibile",opts:["Reale","Possibile","Impossibile","Non è un p.i."],hint:"Guarda il modo verbale: congiuntivo presente = …",expl:"<strong>Possibile:</strong> entrambe le proposizioni usano il <em>congiuntivo presente</em> (veniat / gaudeant)."},
+  {tipo:"i",frase:"Si rex adesset, milites gauderent.",blank:"tipo?",task:"tipo",ans:"Impossibile",opts:["Reale","Possibile","Impossibile","Non è un p.i."],hint:"Guarda il modo verbale: congiuntivo imperfetto = …",expl:"<strong>Impossibile:</strong> entrambe le proposizioni usano il <em>congiuntivo imperfetto</em> (adesset / gauderent)."},
+];
+const TIPO_DATA={
+  r:{label:"REALE",css:"r",emoji:"🟢"},
+  p:{label:"POSSIBILE",css:"p",emoji:"🔵"},
+  i:{label:"IMPOSSIBILE",css:"🟣",emoji:"🟣"},
+};
+const TOTAL=20,TIMER=15;
+let questions=[],qi=0,score=0,correct=0,byTipo={r:0,p:0,i:0};
+let timerInterval=null,timeLeft=0,answered=false;
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function restartGame(){qi=0;score=0;correct=0;byTipo={r:0,p:0,i:0};answered=false;document.getElementById('end-area').hidden=true;document.getElementById('game-area').hidden=false;document.getElementById('score').textContent='0';document.getElementById('correct').textContent='0';questions=shuffle([...BANK]).slice(0,TOTAL);loadQ();}
+function loadQ(){
+  clearInterval(timerInterval);answered=false;
+  const q=questions[qi];
+  document.getElementById('q-num').textContent=qi+1;
+  document.getElementById('q-num-label').textContent=`IPOTESI ${qi+1} / ${TOTAL}`;
+  // tipo badge
+  const td={r:{label:"REALE",css:"r"},p:{label:"POSSIBILE",css:"p"},i:{label:"IMPOSSIBILE",css:"i"}};
+  const pill=document.getElementById('tipo-pill');
+  pill.textContent=td[q.tipo].label;pill.className=`tipo-pill ${td[q.tipo].css}`;
+  // frase
+  const fraseHtml=q.frase.replace('___',`<span class="blank">${q.blank}</span>`);
+  document.getElementById('q-frase').innerHTML=fraseHtml;
+  document.getElementById('q-title').textContent=q.task==='tipo'?'Di che tipo è questo periodo ipotetico?':'Completa il periodo ipotetico';
+  document.getElementById('q-hint').textContent=q.hint?`💡 ${q.hint}`:'';
+  document.getElementById('expl').hidden=true;
+  document.getElementById('btn-next').hidden=true;
+  const opts=shuffle([...q.opts]);
+  const container=document.getElementById('opts');
+  container.innerHTML='';
+  opts.forEach(o=>{const btn=document.createElement('button');btn.className='opt';btn.textContent=o;btn.onclick=()=>select(btn,o,q);container.appendChild(btn);});
+  timeLeft=TIMER;updateBar();
+  timerInterval=setInterval(()=>{timeLeft=Math.max(0,timeLeft-.08);updateBar();if(timeLeft===0){clearInterval(timerInterval);timeout(q);}},80);
+}
+function updateBar(){const pct=timeLeft/TIMER;const bar=document.getElementById('timer-bar');bar.style.width=`${pct*100}%`;bar.className='timer-bar '+(pct>.5?'g':pct>.25?'o':'r');}
+function timeout(q){if(answered)return;answered=true;document.querySelectorAll('.opt').forEach(b=>{b.setAttribute('disabled','');if(b.textContent===q.ans)b.classList.add('show-correct');});showExpl(q,false);setTimeout(advance,1600);}
+function select(btn,chosen,q){if(answered)return;answered=true;clearInterval(timerInterval);document.querySelectorAll('.opt').forEach(b=>b.setAttribute('disabled',''));const ok=chosen===q.ans;btn.classList.add(ok?'correct':'wrong');if(!ok)document.querySelectorAll('.opt').forEach(b=>{if(b.textContent===q.ans)b.classList.add('show-correct');});if(ok){const pts=5+Math.round((timeLeft/TIMER)*5);score+=pts;correct++;byTipo[q.tipo]++;document.getElementById('score').textContent=score;document.getElementById('correct').textContent=correct;}fl(ok);showExpl(q,ok);}
+function showExpl(q,ok){const el=document.getElementById('expl');el.hidden=false;el.innerHTML=(ok?'✅ ':'❌ ')+q.expl;document.getElementById('btn-next').hidden=false;}
+function fl(ok){const el=document.getElementById('flash');el.style.background=ok?'rgba(76,175,80,.18)':'rgba(231,76,60,.2)';el.style.opacity='1';setTimeout(()=>el.style.opacity='0',150);}
+function advance(){qi++;if(qi>=TOTAL){showEnd();return;}loadQ();}
+function showEnd(){clearInterval(timerInterval);document.getElementById('game-area').hidden=true;document.getElementById('end-area').hidden=false;const pct=Math.round((correct/TOTAL)*100);let emoji,title,msg;if(pct>=90){emoji='🏛️';title='SYNTAXE PERFECTA!';msg='Padronanza assoluta del periodo ipotetico!';}else if(pct>=70){emoji='🏺';title='OPTIME!';msg='Ottima conoscenza di reale, possibile e impossibile!';}else if(pct>=50){emoji='⚔️';title='BENE!';msg='Continua a esercitarti — attenzione ai congiuntivi!';}else{emoji='📖';title='RECADE!';msg='Ripassa lo schema del periodo ipotetico e riprova!';}document.getElementById('end-emoji').textContent=emoji;document.getElementById('end-title').textContent=title;document.getElementById('end-score').innerHTML=`${score} <small>punti</small>`;document.getElementById('end-stats').innerHTML=`<div class="es"><div class="es-label">Totale</div><div class="es-val">${correct}/${TOTAL}</div></div><div class="es"><div class="es-label">🟢 Reali</div><div class="es-val">${byTipo.r}</div></div><div class="es"><div class="es-label">🔵 Possibili</div><div class="es-val">${byTipo.p}</div></div><div class="es"><div class="es-label">🟣 Impossibili</div><div class="es-val">${byTipo.i}</div></div>`;document.getElementById('end-msg').textContent=msg;}
+questions=shuffle([...BANK]).slice(0,TOTAL);loadQ();
+</script>
+</body></html>
