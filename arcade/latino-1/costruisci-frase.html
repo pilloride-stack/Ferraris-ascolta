@@ -115,7 +115,6 @@ h1{font:900 clamp(30px,7vw,58px)/1 Cinzel,serif;text-align:center;margin:0 0 2px
   <div id="game-area">
     <div class="card">
       <div class="card-num" id="card-num">FRASE 1 / 15</div>
-      <div class="card-title" id="card-latin">— frase latina —</div>
       <div class="card-hint">📌 Significato: <span id="card-trad" style="color:var(--sand2)">—</span></div>
     </div>
 
@@ -208,7 +207,6 @@ function loadQ(){
   zoneWords=[];
 
   document.getElementById('card-num').textContent=`FRASE ${qi+1} / ${TOTAL}`;
-  document.getElementById('card-latin').textContent=q.latin;
   document.getElementById('card-trad').textContent=q.trad;
   document.getElementById('q-num').textContent=qi+1;
   document.getElementById('prog-bar').style.width=`${(qi/TOTAL)*100}%`;
