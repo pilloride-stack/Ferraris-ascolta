@@ -129,7 +129,30 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 
 <script>
 {
-const DATA = [{"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg/640px-Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg", "local": "img/01.jpg", "opera": "Bacio di Giuda", "autore": "Giotto di Bondone", "choices": ["Duccio di Buoninsegna", "Giotto di Bondone", "Cimabue", "Simone Martini"], "ci": 1, "info": "Cappella degli Scrovegni, Padova (1304-1306). Giotto cattura il momento drammatico del tradimento con figure psicologicamente intense."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Cimabue_-_Madonna_in_trono_con_il_Bambino%2C_angeli_e_santi_-_Google_Art_Project.jpg/400px-Cimabue_-_Madonna_in_trono_con_il_Bambino%2C_angeli_e_santi_-_Google_Art_Project.jpg", "local": "img/02.jpg", "opera": "Maestà (Uffizi)", "autore": "Cimabue", "choices": ["Cimabue", "Giotto di Bondone", "Duccio di Buoninsegna", "Simone Martini"], "ci": 0, "info": "Uffizi, Firenze (1280-1290 ca.). Ancora legata allo stile bizantino ma con apertura verso il naturalismo; confrontata con la Maestà di Duccio."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Maest%C3%A0_%28Duccio%29_October_2015-1.jpg/640px-Maest%C3%A0_%28Duccio%29_October_2015-1.jpg", "local": "img/03.jpg", "opera": "Maestà (Siena)", "autore": "Duccio di Buoninsegna", "choices": ["Cimabue", "Duccio di Buoninsegna", "Ambrogio Lorenzetti", "Simone Martini"], "ci": 1, "info": "Museo dell'Opera del Duomo, Siena (1308-1311). La grande pala dipinta su entrambi i lati per il Duomo di Siena, apice del gotico senese."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Simone_martini%2C_guidoriccio_da_fogliano.jpg/640px-Simone_martini%2C_guidoriccio_da_fogliano.jpg", "local": "img/04.jpg", "opera": "Guidoriccio da Fogliano", "autore": "Simone Martini", "choices": ["Simone Martini", "Pietro Lorenzetti", "Ambrogio Lorenzetti", "Duccio di Buoninsegna"], "ci": 0, "info": "Palazzo Pubblico, Siena (1328). Eccezionale pittura laica medievale: il condottiero in armatura avanza su un paesaggio stilizzato."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ambrogio_Lorenzetti_-_Effects_of_Good_Government_in_the_city_-_Google_Art_Project.jpg/640px-Ambrogio_Lorenzetti_-_Effects_of_Good_Government_in_the_city_-_Google_Art_Project.jpg", "local": "img/05.jpg", "opera": "Allegoria del Buon Governo (dettaglio)", "autore": "Ambrogio Lorenzetti", "choices": ["Ambrogio Lorenzetti", "Pietro Lorenzetti", "Simone Martini", "Duccio di Buoninsegna"], "ci": 0, "info": "Palazzo Pubblico, Siena (1338-1340). Prima grande veduta urbana realistica nella pittura medievale: la città di Siena con attività quotidiane."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Nicola_Pisano%2C_pulpit%2C_Pisa_Baptistery.jpg/400px-Nicola_Pisano%2C_pulpit%2C_Pisa_Baptistery.jpg", "local": "img/06.jpg", "opera": "Pulpito del Battistero di Pisa", "autore": "Nicola Pisano", "choices": ["Nicola Pisano", "Benedetto Antelami", "Wiligelmo", "Giovanni Pisano"], "ci": 0, "info": "Battistero di Pisa (1260). Il primo grande pulpito medievale che recupera il classicismo romano: le figure si ispirano ai sarcofagi antichi."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Benedetto_antelami%2C_deposizione%2C_1178%2C_01.jpg/640px-Benedetto_antelami%2C_deposizione%2C_1178%2C_01.jpg", "local": "img/07.jpg", "opera": "Deposizione (Duomo di Parma)", "autore": "Benedetto Antelami", "choices": ["Wiligelmo", "Giovanni Pisano", "Nicola Pisano", "Benedetto Antelami"], "ci": 3, "info": "Duomo di Parma (1178). La Deposizione di Antelami è il capolavoro della scultura romanica italiana: figure classicheggianti ed espressive."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Modena_Cattedrale_Wiligelmo_La_creazione.jpg/640px-Modena_Cattedrale_Wiligelmo_La_creazione.jpg", "local": "img/08.jpg", "opera": "Creazione di Adamo (Wiligelmo)", "autore": "Wiligelmo", "choices": ["Wiligelmo", "Benedetto Antelami", "Nicola Pisano", "Giovanni Pisano"], "ci": 0, "info": "Duomo di Modena (inizio XII sec.). Pannelli con le Storie della Genesi: Wiligelmo firma per la prima volta la propria opera in un'iscrizione."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Laocoon_and_His_Sons.jpg/400px-Laocoon_and_His_Sons.jpg", "local": "img/09.jpg", "opera": "Laocoonte (scultura ellenistica)", "autore": "Agesandro, Polidoro e Atenodoro di Rodi", "choices": ["Mirone di Eleutere", "Policleto di Argo", "Fidia di Atene", "Agesandro, Polidoro e Atenodoro di Rodi"], "ci": 3, "info": "Musei Vaticani (I sec. a.C.). Gruppo scultoreo ellenistico: il sacerdote troiano e i figli avvolti dai serpenti, massima espressione del pathos."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Discobolus_Lancelotti_Massimo.jpg/400px-Discobolus_Lancelotti_Massimo.jpg", "local": "img/10.jpg", "opera": "Discobolo", "autore": "Mirone di Eleutere", "choices": ["Mirone di Eleutere", "Policleto di Argo", "Fidia di Atene", "Prassitele"], "ci": 0, "info": "Copia romana dell'originale bronzeo del 450 a.C. ca. Mirone cattura l'istante di massima tensione del lancio del disco: primo esempio di figura in movimento."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meister_von_San_Vitale_in_Ravenna.jpg/640px-Meister_von_San_Vitale_in_Ravenna.jpg", "local": "img/11.jpg", "opera": "Mosaici di San Vitale (Giustiniano)", "autore": "Mosaicisti ravennati anonimi", "choices": ["Pittori carolingi", "Mosaicisti ravennati anonimi", "Artisti gotici italiani", "Artisti paleocristiani romani"], "ci": 1, "info": "Basilica di San Vitale, Ravenna (547). Il mosaico con l'imperatore Giustiniano e la sua corte: figure ieratiche su fondo oro, tipico antinaturalismo bizantino."}, {"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AltamiraBison.jpg/640px-AltamiraBison.jpg", "local": "img/12.jpg", "opera": "Pittura rupestre di Altamira", "autore": "Artisti anonimi paleolitici", "choices": ["Artisti del Neolitico", "Primi agricoltori mesopotamici", "Artisti dell'età del bronzo", "Artisti anonimi paleolitici"], "ci": 3, "info": "Grotta di Altamira, Spagna (circa 14.000 a.C.). Bisonti dipinti con ocra e carbone: straordinario naturalismo con uso del rilievo della roccia."}];
+/* DATA viene costruito dinamicamente da opere.json */
+let DATA = [];
+
+function buildData(raw){
+  /* raw = array di {opera, autore, img, wrong:[3], info}
+     Costruisce choices (autore corretto + 3 sbagliati, mescolati) e ci (indice corretto) */
+  return raw.map((r, idx)=>{
+    const all = [r.autore, ...r.wrong];
+    // shuffle the 4 choices
+    for(let i=all.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[all[i],all[j]]=[all[j],all[i]];}
+    const ci = all.indexOf(r.autore);
+    const n = String(idx+1).padStart(2,'0');
+    return {
+      img: r.img,
+      local: `img/${n}.jpg`,
+      opera: r.opera,
+      autore: r.autore,
+      choices: all,
+      ci,
+      info: r.info
+    };
+  });
+}
+
 const LSKEY = 'arteiii_opera';
 const TOTAL  = DATA.length;
 const TIME   = 25;      // secondi per domanda
@@ -409,7 +432,16 @@ function endGame(){
 
 $('again').addEventListener('click', startGame);
 
-// avvio
-startGame();
+// avvio: carica opere.json poi parte
+fetch('opere.json')
+  .then(r=>r.json())
+  .then(raw=>{
+    DATA = buildData(raw);
+    startGame();
+  })
+  .catch(()=>{
+    // fallback: mostra errore
+    $('frame').querySelector('.loading').textContent = 'Errore caricamento opere.json';
+  });
 }
 </script></body></html>

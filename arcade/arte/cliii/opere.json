@@ -1,0 +1,618 @@
+[
+  {
+    "opera": "Bisonte di Altamira",
+    "autore": "Artisti anonimi paleolitici",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/AltamiraBison.jpg/800px-AltamiraBison.jpg",
+    "wrong": [
+      "Artisti anonimi neolitici",
+      "Artisti cretesi anonimi",
+      "Mosaicisti ravennati anonimi"
+    ],
+    "info": "Pittura rupestre paleolitica (Altamira, Spagna, 15000-10000 a.C.) — tecnica del chiaroscuro naturale"
+  },
+  {
+    "opera": "Cavallo di Lascaux",
+    "autore": "Artisti anonimi paleolitici",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/800px-Lascaux_painting.jpg",
+    "wrong": [
+      "Artisti anonimi neolitici",
+      "Artisti cretesi anonimi",
+      "Artisti predinastici egizi"
+    ],
+    "info": "Pittura rupestre paleolitica (Lascaux, Francia, 15000 a.C. ca.) — colori minerali su calcare"
+  },
+  {
+    "opera": "Venere di Willendorf",
+    "autore": "Artisti anonimi paleolitici",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Venus_von_Willendorf_01.jpg/400px-Venus_von_Willendorf_01.jpg",
+    "wrong": [
+      "Artisti anonimi neolitici",
+      "Scultori greci arcaici anonimi",
+      "Scultori egizi anonimi"
+    ],
+    "info": "Statuetta fittile femminile (Willendorf, Austria, 25000 a.C. ca.) — simbolo di fertilità"
+  },
+  {
+    "opera": "Stonehenge",
+    "autore": "Artisti anonimi neolitici",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/800px-Stonehenge2007_07_30.jpg",
+    "wrong": [
+      "Artisti anonimi paleolitici",
+      "Architetti romani anonimi",
+      "Artisti cretesi anonimi"
+    ],
+    "info": "Monumento megalitico neolitico (Salisbury, Inghilterra, 3000-1500 a.C.) — triliti disposti in cerchio"
+  },
+  {
+    "opera": "Piramidi di Giza",
+    "autore": "Architetti egizi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/800px-Kheops-Pyramid.jpg",
+    "wrong": [
+      "Artisti anonimi paleolitici",
+      "Architetti romani anonimi",
+      "Architetti greci anonimi"
+    ],
+    "info": "Complesso funerario egizio (Giza, IV dinastia, 2560-2490 a.C.) — tomba monumentale per l'eternità"
+  },
+  {
+    "opera": "Grande Sfinge di Giza",
+    "autore": "Scultori egizi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/All_Gizah_Pyramids.jpg/800px-All_Gizah_Pyramids.jpg",
+    "wrong": [
+      "Artisti anonimi paleolitici",
+      "Scultori greci arcaici anonimi",
+      "Scultori romani anonimi"
+    ],
+    "info": "Scultura monumentale egizia (Giza, 2558-2532 a.C.) — leone con testa umana, simbolo regale"
+  },
+  {
+    "opera": "Pittura funeraria di Nefertari",
+    "autore": "Pittori egizi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Nefertari_crypt.jpg/597px-Nefertari_crypt.jpg",
+    "wrong": [
+      "Artisti anonimi paleolitici",
+      "Pittori minoici anonimi",
+      "Mosaicisti ravennati anonimi"
+    ],
+    "info": "Affresco tombale (Tomba di Nefertari, Valle delle Regine, Luxor, 1255 a.C. ca.)"
+  },
+  {
+    "opera": "Scriba accovacciato",
+    "autore": "Scultori egizi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Egyptian_-_Seated_Scribe_-_Walters_22193.jpg/400px-Egyptian_-_Seated_Scribe_-_Walters_22193.jpg",
+    "wrong": [
+      "Scultori greci arcaici anonimi",
+      "Scultori romani anonimi",
+      "Scultori mesopotamici anonimi"
+    ],
+    "info": "Statua realistica egizia (Louvre, IV-V dinastia, 2500 a.C. ca.) — straordinario naturalismo del viso"
+  },
+  {
+    "opera": "Stendardo di Ur",
+    "autore": "Artigiani sumeri anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Standard_of_Ur_-_War_Panel.jpg/640px-Standard_of_Ur_-_War_Panel.jpg",
+    "wrong": [
+      "Artigiani egizi anonimi",
+      "Artigiani greci anonimi",
+      "Artigiani romani anonimi"
+    ],
+    "info": "Pannello intarsiato mesopotamico (Ur, Sumer, 2600 a.C. ca.) — scene di guerra e banchetto in lapislazzuli"
+  },
+  {
+    "opera": "Stele di Hammurabi",
+    "autore": "Scultori babilonesi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/P1050771_Louvre_code_Hammurabi_face_rwk.JPG/430px-P1050771_Louvre_code_Hammurabi_face_rwk.JPG",
+    "wrong": [
+      "Scultori egizi anonimi",
+      "Scultori assiri anonimi",
+      "Scultori greci arcaici anonimi"
+    ],
+    "info": "Stele giuridica (Babilonia, XVIII sec. a.C.) — primo codice di leggi scritto della storia"
+  },
+  {
+    "opera": "Porta di Ishtar",
+    "autore": "Artigiani neo-babilonesi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ishtar_gate_Pergamon_Museum.jpg/800px-Ishtar_gate_Pergamon_Museum.jpg",
+    "wrong": [
+      "Artigiani egizi anonimi",
+      "Artigiani greci anonimi",
+      "Artigiani romani anonimi"
+    ],
+    "info": "Porta monumentale (Babilonia, Nabucodonosor II, 575 a.C.) — mattoni smaltati blu con animali"
+  },
+  {
+    "opera": "Lamassu assiro",
+    "autore": "Scultori assiri anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Lamassus_at_Khorsabad.jpg/800px-Lamassus_at_Khorsabad.jpg",
+    "wrong": [
+      "Scultori egizi anonimi",
+      "Scultori babilonesi anonimi",
+      "Scultori greci arcaici anonimi"
+    ],
+    "info": "Toro alato androcefalo (Khorsabad, Assiria, VIII sec. a.C.) — genio tutelare dei palazzi reali"
+  },
+  {
+    "opera": "Palazzo di Cnosso",
+    "autore": "Architetti minoici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Knossos_Nordeingang.jpg/800px-Knossos_Nordeingang.jpg",
+    "wrong": [
+      "Architetti micenei anonimi",
+      "Architetti greci anonimi",
+      "Architetti romani anonimi"
+    ],
+    "info": "Palazzo minoico (Creta, 1700-1400 a.C.) — labirinto del mito del Minotauro"
+  },
+  {
+    "opera": "Principe dei gigli (affresco di Cnosso)",
+    "autore": "Pittori minoici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Knossos_Westbastion.jpg/400px-Knossos_Westbastion.jpg",
+    "wrong": [
+      "Pittori egizi anonimi",
+      "Pittori micenei anonimi",
+      "Pittori greci arcaici anonimi"
+    ],
+    "info": "Affresco minoico (Cnosso, Creta, 1550 a.C. ca.) — figura maschile con corona di gigli"
+  },
+  {
+    "opera": "Porta dei Leoni",
+    "autore": "Architetti micenei anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mycenae_lion_gate.JPG/800px-Mycenae_lion_gate.JPG",
+    "wrong": [
+      "Architetti minoici anonimi",
+      "Architetti greci arcaici anonimi",
+      "Architetti romani anonimi"
+    ],
+    "info": "Porta monumentale micenea (Micene, XIV sec. a.C.) — primo rilievo figurativo dell'architettura europea"
+  },
+  {
+    "opera": "Kouros arcaico (Anavyssos)",
+    "autore": "Scultori greci arcaici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Anavyssos_Kouros.jpg/400px-Anavyssos_Kouros.jpg",
+    "wrong": [
+      "Scultori egizi anonimi",
+      "Scultori romani anonimi",
+      "Scultori ellenistici anonimi"
+    ],
+    "info": "Statua di giovane atleta (Attica, 530 a.C. ca.) — sorriso arcaico e frontalità tipici del periodo"
+  },
+  {
+    "opera": "Anfora a figure nere (Achille e Pentesilea)",
+    "autore": "Pittori greci arcaici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Achilles_Penthesilea_Vulci_BM_B209.jpg/640px-Achilles_Penthesilea_Vulci_BM_B209.jpg",
+    "wrong": [
+      "Pittori egizi anonimi",
+      "Pittori minoici anonimi",
+      "Pittori romani anonimi"
+    ],
+    "info": "Ceramica a figure nere (Exekias, 530 a.C.) — tecnica con silhouette nere su fondo rosso argilla"
+  },
+  {
+    "opera": "Anfora a figure rosse",
+    "autore": "Pittori greci classici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Brygos_Painter_lekythos_MET.jpg/400px-Brygos_Painter_lekythos_MET.jpg",
+    "wrong": [
+      "Pittori egizi anonimi",
+      "Pittori minoici anonimi",
+      "Pittori greci arcaici anonimi"
+    ],
+    "info": "Ceramica a figure rosse (Pittore di Brygos, 490 a.C.) — tecnica invertita: figure in rosso su fondo nero"
+  },
+  {
+    "opera": "Partenone",
+    "autore": "Ictino e Callicrate (arch.); Fidia (sculture)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/800px-The_Parthenon_in_Athens.jpg",
+    "wrong": [
+      "Mirone di Eleutere",
+      "Policleto di Argo",
+      "Prassitele"
+    ],
+    "info": "Tempio dorico di Atena (Acropoli di Atene, 447-432 a.C.) — punto più alto dell'architettura classica greca"
+  },
+  {
+    "opera": "Tempio di Paestum (Nettuno)",
+    "autore": "Architetti greci d'Occidente anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Paestum_-_Tempio_di_Nettuno.jpg/800px-Paestum_-_Tempio_di_Nettuno.jpg",
+    "wrong": [
+      "Ictino e Callicrate",
+      "Architetti egizi anonimi",
+      "Diotisalvi"
+    ],
+    "info": "Tempio dorico della Magna Grecia (Paestum, V sec. a.C.) — tra i meglio conservati del mondo greco"
+  },
+  {
+    "opera": "Discobolo",
+    "autore": "Mirone di Eleutere",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Discobolus_Lancelotti_Massimo.jpg/400px-Discobolus_Lancelotti_Massimo.jpg",
+    "wrong": [
+      "Policleto di Argo",
+      "Fidia",
+      "Prassitele"
+    ],
+    "info": "Atleta nel momento del lancio (450 a.C. ca., copia romana) — prima rappresentazione del movimento in scultura"
+  },
+  {
+    "opera": "Doriforo",
+    "autore": "Policleto di Argo",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Doryphoros_MAN_Napoli_Inv6011.jpg/400px-Doryphoros_MAN_Napoli_Inv6011.jpg",
+    "wrong": [
+      "Mirone di Eleutere",
+      "Fidia",
+      "Prassitele"
+    ],
+    "info": "Portatore di lancia (440 a.C. ca., copia romana) — incarnazione del canone proporzionale classico (chiasmo)"
+  },
+  {
+    "opera": "Acropoli di Atene",
+    "autore": "Ictino, Callicrate, Mnesicle",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_Acropolis_of_Athens_viewed_from_the_Hill_of_the_Muses.jpg/800px-The_Acropolis_of_Athens_viewed_from_the_Hill_of_the_Muses.jpg",
+    "wrong": [
+      "Fidia",
+      "Policleto di Argo",
+      "Mirone di Eleutere"
+    ],
+    "info": "Complesso monumentale (Atene, V sec. a.C.) — Propilei, Partenone, Eretteo, Tempio di Atena Nike"
+  },
+  {
+    "opera": "Bronzi di Riace",
+    "autore": "Scultori greci classici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Riace_bronzes_A_and_B.jpg/400px-Riace_bronzes_A_and_B.jpg",
+    "wrong": [
+      "Mirone di Eleutere",
+      "Policleto di Argo",
+      "Prassitele"
+    ],
+    "info": "Statue in bronzo originale (450-420 a.C., Museo Reggio Calabria) — rari originali greci in bronzo"
+  },
+  {
+    "opera": "Laocoonte",
+    "autore": "Agesandro, Polidoro e Atenodoro di Rodi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Laocoon_and_His_Sons.jpg/400px-Laocoon_and_His_Sons.jpg",
+    "wrong": [
+      "Fidia",
+      "Policleto di Argo",
+      "Mirone di Eleutere"
+    ],
+    "info": "Gruppo scultoreo ellenistico (I sec. a.C.) — pathos, dinamismo e tensione drammatica estrema"
+  },
+  {
+    "opera": "Nike di Samotracia",
+    "autore": "Scultori ellenistici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Nike_of_Samothrake_Louvre_Ma2369_n4.jpg/400px-Nike_of_Samothrake_Louvre_Ma2369_n4.jpg",
+    "wrong": [
+      "Fidia",
+      "Prassitele",
+      "Lisippo"
+    ],
+    "info": "Dea della vittoria alata (190 a.C. ca., Louvre) — massima espressione del dinamismo ellenistico"
+  },
+  {
+    "opera": "Afrodite di Milo (Venere di Milo)",
+    "autore": "Scultori ellenistici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Aphrodite_of_Milos.jpg/400px-Aphrodite_of_Milos.jpg",
+    "wrong": [
+      "Prassitele",
+      "Fidia",
+      "Lisippo"
+    ],
+    "info": "Statua di Afrodite (Milo, 100 a.C. ca., Louvre) — ideale di bellezza femminile ellenistico"
+  },
+  {
+    "opera": "Colosseo",
+    "autore": "Architetti romani anonimi (Vespasiano/Tito)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/800px-Colosseo_2020.jpg",
+    "wrong": [
+      "Architetti greci anonimi",
+      "Architetti egizi anonimi",
+      "Architetti minoici anonimi"
+    ],
+    "info": "Anfiteatro Flavio (Roma, 72-80 d.C.) — capienza 50.000 spettatori, arcate e ordini sovrapposti"
+  },
+  {
+    "opera": "Pantheon (interno con oculo)",
+    "autore": "Apollodoro di Damasco (attr.)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Interior_of_the_Pantheon%2C_Rome.jpg/800px-Interior_of_the_Pantheon%2C_Rome.jpg",
+    "wrong": [
+      "Ictino e Callicrate",
+      "Architetti egizi anonimi",
+      "Architetti greci anonimi"
+    ],
+    "info": "Tempio di tutti gli dei (Roma, 118-128 d.C.) — cupola in calcestruzzo con oculo di 9 m di diametro"
+  },
+  {
+    "opera": "Colonna Traiana",
+    "autore": "Apollodoro di Damasco",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Forum_of_Trajan_-_Trajan%27s_Column%2C_Rome%2C_Italy_-_April_2007.jpg/400px-Forum_of_Trajan_-_Trajan%27s_Column%2C_Rome%2C_Italy_-_April_2007.jpg",
+    "wrong": [
+      "Architetti romani anonimi",
+      "Fidia",
+      "Ictino e Callicrate"
+    ],
+    "info": "Colonna celebrativa (Roma, 113 d.C.) — fregio narrativo a spirale con 2500 figure sulle guerre daciche"
+  },
+  {
+    "opera": "Ara Pacis Augustae",
+    "autore": "Scultori romani augustei anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ara_Pacis_Augustae%2C_Rome%2C_Italy.jpg/800px-Ara_Pacis_Augustae%2C_Rome%2C_Italy.jpg",
+    "wrong": [
+      "Fidia",
+      "Scultori ellenistici anonimi",
+      "Scultori greci classici anonimi"
+    ],
+    "info": "Altare della pace (Roma, 13-9 a.C.) — rilievi con processione della famiglia imperiale augustea"
+  },
+  {
+    "opera": "Arco di Tito",
+    "autore": "Architetti romani anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Arch.of.titus.arp.jpg/800px-Arch.of.titus.arp.jpg",
+    "wrong": [
+      "Architetti greci anonimi",
+      "Apollodoro di Damasco",
+      "Architetti egizi anonimi"
+    ],
+    "info": "Arco trionfale (Roma, 81 d.C.) — celebra la conquista di Gerusalemme; rilievi interni con menorah"
+  },
+  {
+    "opera": "Augusto di Prima Porta",
+    "autore": "Scultori romani augustei anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Statue-Augustus.jpg/400px-Statue-Augustus.jpg",
+    "wrong": [
+      "Fidia",
+      "Policleto di Argo",
+      "Scultori greci classici anonimi"
+    ],
+    "info": "Statua dell'imperatore (I sec. a.C., Musei Vaticani) — discorso militare idealizzato sul modello del Doriforo"
+  },
+  {
+    "opera": "Ritratto di Lucio Giunio Bruto",
+    "autore": "Scultori romani anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bruto_del_Campidoglio.jpg/400px-Bruto_del_Campidoglio.jpg",
+    "wrong": [
+      "Scultori greci arcaici anonimi",
+      "Scultori ellenistici anonimi",
+      "Scultori egizi anonimi"
+    ],
+    "info": "Ritratto verista (fine IV sec. a.C., Musei Capitolini) — il volto severo del fondatore della Repubblica romana"
+  },
+  {
+    "opera": "Pitture delle Catacombe di San Callisto",
+    "autore": "Pittori paleocristiani anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Catacombe_san_callisto.jpg/640px-Catacombe_san_callisto.jpg",
+    "wrong": [
+      "Pittori romani pagani anonimi",
+      "Mosaicisti ravennati anonimi",
+      "Pittori minoici anonimi"
+    ],
+    "info": "Affreschi funerari paleocristiani (Roma, III-IV sec.) — simboli, Orante, Buon Pastore"
+  },
+  {
+    "opera": "Mausoleo di Galla Placidia (mosaici)",
+    "autore": "Mosaicisti ravennati anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mausoleo_Galla_Placidia_vault.jpg/640px-Mausoleo_Galla_Placidia_vault.jpg",
+    "wrong": [
+      "Pittori paleocristiani anonimi",
+      "Architetti romani pagani anonimi",
+      "Mosaicisti normanni anonimi"
+    ],
+    "info": "Mausoleo paleocristiano (Ravenna, V sec.) — cielo stellato in mosaico blu, luce filtrata da alabastro"
+  },
+  {
+    "opera": "Mausoleo di Santa Costanza",
+    "autore": "Architetti paleocristiani anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Santa_Costanza_Rom.jpg/640px-Santa_Costanza_Rom.jpg",
+    "wrong": [
+      "Architetti romani pagani anonimi",
+      "Apollodoro di Damasco",
+      "Architetti romanici anonimi"
+    ],
+    "info": "Mausoleo a pianta centrale (Roma, IV sec.) — mosaici con vendemmia e ritratti; anticipa l'architettura paleocristiana"
+  },
+  {
+    "opera": "Mosaici di San Vitale — Giustiniano",
+    "autore": "Mosaicisti ravennati anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meister_von_San_Vitale_in_Ravenna.jpg/640px-Meister_von_San_Vitale_in_Ravenna.jpg",
+    "wrong": [
+      "Pittori paleocristiani anonimi",
+      "Pittori romanici anonimi",
+      "Giotto di Bondone"
+    ],
+    "info": "Mosaico absidale (San Vitale, Ravenna, 547) — Giustiniano e la sua corte, ieraticità e fondo oro"
+  },
+  {
+    "opera": "Mosaici di San Vitale — Teodora",
+    "autore": "Mosaicisti ravennati anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Teodora_mosaik_ravenna.jpg/640px-Teodora_mosaik_ravenna.jpg",
+    "wrong": [
+      "Pittori paleocristiani anonimi",
+      "Pittori romanici anonimi",
+      "Cimabue"
+    ],
+    "info": "Mosaico absidale (San Vitale, Ravenna, 547) — Teodora imperatrice con corte, splendore della committenza"
+  },
+  {
+    "opera": "Santa Sofia di Costantinopoli",
+    "autore": "Isidoro di Mileto e Antemio di Tralle",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hagia_Sofia.jpg/800px-Hagia_Sofia.jpg",
+    "wrong": [
+      "Apollodoro di Damasco",
+      "Ictino e Callicrate",
+      "Architetti romanici anonimi"
+    ],
+    "info": "Basilica imperiale (Costantinopoli, 532-537) — grande cupola su pennacchi, sintesi di architettura e luce"
+  },
+  {
+    "opera": "Fibula longobarda a cloisonné",
+    "autore": "Orafi longobardi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fibula_a_S_Cividale.jpg/400px-Fibula_a_S_Cividale.jpg",
+    "wrong": [
+      "Orafi romani anonimi",
+      "Orafi greci anonimi",
+      "Orafi ravennati anonimi"
+    ],
+    "info": "Arte delle migrazioni barbariche (VI-VII sec.) — tecnica del cloisonné con pietre preziose incastonate"
+  },
+  {
+    "opera": "Creazione di Adamo (Wiligelmo)",
+    "autore": "Wiligelmo",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Modena_Cattedrale_Wiligelmo_La_creazione.jpg/640px-Modena_Cattedrale_Wiligelmo_La_creazione.jpg",
+    "wrong": [
+      "Benedetto Antelami",
+      "Nicola Pisano",
+      "Bonanno Pisano"
+    ],
+    "info": "Rilievo romanico (Duomo di Modena, inizio XII sec.) — figure massicce, espressività intensa"
+  },
+  {
+    "opera": "Deposizione (Duomo di Parma)",
+    "autore": "Benedetto Antelami",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Benedetto_antelami%2C_deposizione%2C_1178%2C_01.jpg/640px-Benedetto_antelami%2C_deposizione%2C_1178%2C_01.jpg",
+    "wrong": [
+      "Wiligelmo",
+      "Nicola Pisano",
+      "Bonanno Pisano"
+    ],
+    "info": "Rilievo romanico (Duomo di Parma, 1178) — narrazione articolata, espressività e classicismo"
+  },
+  {
+    "opera": "Duomo di Modena (facciata)",
+    "autore": "Lanfranco (arch.) e Wiligelmo (sculture)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Modena_Duomo_facciata.jpg/640px-Modena_Duomo_facciata.jpg",
+    "wrong": [
+      "Benedetto Antelami",
+      "Nicola Pisano",
+      "Mosaicisti ravennati anonimi"
+    ],
+    "info": "Cattedrale romanica (Modena, 1099) — logge cieche, rosone, rilievi di Wiligelmo sulla facciata"
+  },
+  {
+    "opera": "Battistero di Pisa",
+    "autore": "Diotisalvi (arch.)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Pisa_Baptistry.jpg/640px-Pisa_Baptistry.jpg",
+    "wrong": [
+      "Nicola Pisano",
+      "Benedetto Antelami",
+      "Wiligelmo"
+    ],
+    "info": "Battistero romanico-gotico (Pisa, 1152-1363) — pianta circolare con logge sovrapposte"
+  },
+  {
+    "opera": "Pulpito del Battistero di Pisa",
+    "autore": "Nicola Pisano",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Nicola_Pisano%2C_pulpit%2C_Pisa_Baptistery.jpg/400px-Nicola_Pisano%2C_pulpit%2C_Pisa_Baptistery.jpg",
+    "wrong": [
+      "Giovanni Pisano",
+      "Benedetto Antelami",
+      "Wiligelmo"
+    ],
+    "info": "Pulpito romanico (Battistero di Pisa, 1260) — figure classicheggianti, precursore della scultura gotica italiana"
+  },
+  {
+    "opera": "Notre-Dame di Parigi (facciata)",
+    "autore": "Architetti gotici francesi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Notre-dame_de_paris_2792047090.jpg/640px-Notre-dame_de_paris_2792047090.jpg",
+    "wrong": [
+      "Architetti romanici anonimi",
+      "Architetti romani anonimi",
+      "Architetti greci anonimi"
+    ],
+    "info": "Cattedrale gotica (Parigi, 1163-1345) — portali scolpiti, rosone, guglie; arcate ogivali all'interno"
+  },
+  {
+    "opera": "Basilica di San Vitale (esterno)",
+    "autore": "Architetti ravennati anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Basilica_of_San_Vitale_%28Ravenna%29.jpg/640px-Basilica_of_San_Vitale_%28Ravenna%29.jpg",
+    "wrong": [
+      "Architetti gotici francesi anonimi",
+      "Apollodoro di Damasco",
+      "Architetti romanici anonimi"
+    ],
+    "info": "Basilica a pianta ottagonale (Ravenna, 548) — capolavoro dell'architettura paleocristiana occidentale"
+  },
+  {
+    "opera": "Vetrata istoriata (Cattedrale di Chartres)",
+    "autore": "Maestri vetrai gotici anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Vitrail_Chartres_Notre-Dame_210209_01.jpg/400px-Vitrail_Chartres_Notre-Dame_210209_01.jpg",
+    "wrong": [
+      "Mosaicisti ravennati anonimi",
+      "Pittori romanici anonimi",
+      "Pittori paleocristiani anonimi"
+    ],
+    "info": "Vetrate (Cattedrale di Chartres, XII-XIII sec.) — luce colorata come 'Bibbia dei poveri'"
+  },
+  {
+    "opera": "Maestà degli Uffizi",
+    "autore": "Cimabue",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Cimabue_-_Madonna_in_trono_con_il_Bambino%2C_angeli_e_santi_-_Google_Art_Project.jpg/400px-Cimabue_-_Madonna_in_trono_con_il_Bambino%2C_angeli_e_santi_-_Google_Art_Project.jpg",
+    "wrong": [
+      "Giotto di Bondone",
+      "Duccio di Buoninsegna",
+      "Simone Martini"
+    ],
+    "info": "Pala d'altare gotica (1280-1290 ca., Uffizi, Firenze) — ancora gerarchica ma con tracce di tridimensionalità"
+  },
+  {
+    "opera": "Maestà di Siena",
+    "autore": "Duccio di Buoninsegna",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Maest%C3%A0_%28Duccio%29_October_2015-1.jpg/640px-Maest%C3%A0_%28Duccio%29_October_2015-1.jpg",
+    "wrong": [
+      "Cimabue",
+      "Giotto di Bondone",
+      "Simone Martini"
+    ],
+    "info": "Pala d'altare gotica (Museo dell'Opera del Duomo, Siena, 1308-1311) — raffinatezza lineare senese"
+  },
+  {
+    "opera": "Bacio di Giuda",
+    "autore": "Giotto di Bondone",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg/640px-Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg",
+    "wrong": [
+      "Cimabue",
+      "Duccio di Buoninsegna",
+      "Simone Martini"
+    ],
+    "info": "Affresco (Cappella degli Scrovegni, Padova, 1304-1306) — psychomachia: sguardi contrapposti, folla caotica"
+  },
+  {
+    "opera": "Compianto sul Cristo morto",
+    "autore": "Giotto di Bondone",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Giotto_di_Bondone_-_No._36_Scenes_from_the_Life_of_Christ_-_20._Lament_of_Christ_-_WGA09246.jpg/640px-Giotto_di_Bondone_-_No._36_Scenes_from_the_Life_of_Christ_-_20._Lament_of_Christ_-_WGA09246.jpg",
+    "wrong": [
+      "Cimabue",
+      "Duccio di Buoninsegna",
+      "Simone Martini"
+    ],
+    "info": "Affresco (Cappella degli Scrovegni, Padova, 1304-1306) — dolore collettivo, spazio tridimensionale innovativo"
+  },
+  {
+    "opera": "Guidoriccio da Fogliano",
+    "autore": "Simone Martini",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Simone_martini%2C_guidoriccio_da_fogliano.jpg/800px-Simone_martini%2C_guidoriccio_da_fogliano.jpg",
+    "wrong": [
+      "Cimabue",
+      "Duccio di Buoninsegna",
+      "Ambrogio Lorenzetti"
+    ],
+    "info": "Affresco (Palazzo Pubblico, Siena, 1328) — condottiero in cavalcata, primo paesaggio laico della storia"
+  },
+  {
+    "opera": "Allegoria del Buon Governo (figura)",
+    "autore": "Ambrogio Lorenzetti",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Ambrogio_Lorenzetti_002.jpg/640px-Ambrogio_Lorenzetti_002.jpg",
+    "wrong": [
+      "Simone Martini",
+      "Duccio di Buoninsegna",
+      "Giotto di Bondone"
+    ],
+    "info": "Affresco (Palazzo Pubblico, Siena, 1338-1340) — allegoria politica: il Buon Governo come figura regale"
+  },
+  {
+    "opera": "Palazzo Pubblico di Siena",
+    "autore": "Architetti gotici senesi anonimi",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Palazzo_Pubblico_Siena.jpg/640px-Palazzo_Pubblico_Siena.jpg",
+    "wrong": [
+      "Simone Martini",
+      "Duccio di Buoninsegna",
+      "Architetti romanici anonimi"
+    ],
+    "info": "Sede del Comune di Siena (1297-1310) — Torre del Mangia, bifore gotiche, ospita gli affreschi di Lorenzetti"
+  }
+]
