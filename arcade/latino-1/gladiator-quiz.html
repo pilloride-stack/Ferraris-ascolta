@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gladiator Quiz · Latino Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: arena romana — scontri di gladiatori, sabbia, sangue e gloria; ogni risposta è un duello
+   PICTURE: sfondo arena con gradinate, barra timer come spada che si svuota, progressione "vittorie"
+   COLOUR: sabbia (#c8a96e), rosso sangue (#8b1a1a), bronzo (#7c5c2b), pietra (#2a2016), pergamena (#f5e9c8)
+   TYPE: Cinzel per titoli (romano imperiale), Lexend per testo */
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--perg:#f5e9c8;--ok:#4caf50;--ko:#e74c3c;--ink:#f5e9c8;--muted:#b8a070}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;background:radial-gradient(ellipse at 50% 0%,#4a3520 0,#2a2016 55%,#1a1008 100%) fixed;min-height:100vh;overflow-x:clip}
+
+/* sfondo decorativo — gradinate */
+body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 48px,rgba(200,169,110,.04) 48px,rgba(200,169,110,.04) 50px);pointer-events:none;z-index:0}
+
+.wrap{max-width:760px;margin:0 auto;padding:14px max(3vw,12px) 32px;position:relative;z-index:1}
+
+/* emblema SPQR */
+.spqr{text-align:center;font:700 11px/1 Cinzel,serif;letter-spacing:4px;color:var(--bronze2);margin-bottom:2px;text-shadow:0 0 8px rgba(168,121,58,.4)}
+h1{font:900 clamp(36px,8vw,68px)/1 Cinzel,serif;text-align:center;margin:0 0 2px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 16px}
+
+/* stats bar */
+.stats{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
+.stat{background:var(--stone2);border:1px solid var(--bronze);border-radius:8px;padding:5px 14px;font:700 14px Cinzel,serif;color:var(--sand2);display:flex;align-items:center;gap:6px}
+.stat span{font:600 20px Lexend;color:var(--sand)}
+
+/* timer bar */
+.timer-wrap{background:var(--stone);border:2px solid var(--bronze);border-radius:6px;height:14px;margin-bottom:14px;overflow:hidden;position:relative}
+.timer-bar{height:100%;background:linear-gradient(90deg,var(--red2),var(--sand));border-radius:4px;transition:width .1s linear;width:100%}
+.timer-wrap::after{content:attr(data-t) ' s';position:absolute;right:6px;top:50%;transform:translateY(-50%);font:700 10px Cinzel;color:var(--perg);opacity:.8}
+
+/* domanda */
+.qbox{background:linear-gradient(160deg,var(--stone2),var(--stone));border:2px solid var(--bronze);border-radius:16px;padding:18px 20px;min-height:90px;margin-bottom:14px;position:relative}
+.qnum{font:700 11px Cinzel;letter-spacing:2px;color:var(--bronze2);margin-bottom:6px}
+.qtext{font:600 18px/1.4 Lexend;color:var(--sand2)}
+.qlatin{font-style:italic;color:var(--sand)}
+
+/* opzioni */
+.opts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:12px}
+.opt{font:600 16px/1.3 Lexend;text-align:left;color:var(--perg);background:linear-gradient(var(--stone2),var(--stone));border:2px solid var(--stone3);border-radius:12px;padding:12px 16px;min-height:52px;cursor:pointer;transition:border-color .15s,background .15s;position:relative}
+.opt span.lbl{display:inline-block;font:700 13px Cinzel;color:var(--bronze2);margin-right:8px;min-width:16px}
+.opt:hover:not(:disabled){border-color:var(--sand);background:linear-gradient(var(--stone3),var(--stone2))}
+.opt.sel{border-color:var(--sand2);background:linear-gradient(#524030,#3d3020);color:#fff}
+.opt.right{border-color:var(--ok)!important;background:linear-gradient(#1a3d1a,#143014)!important;color:#a0eba0!important}
+.opt.wrong{border-color:var(--ko)!important;background:linear-gradient(#3d1414,#2a0e0e)!important;color:#f0a0a0!important}
+.opt:disabled{cursor:default}
+
+/* feedback */
+.msg{text-align:center;min-height:28px;font:600 15px Lexend;color:var(--muted);margin-bottom:10px;padding:6px}
+.msg.ok{color:#7ecb7e}.msg.ko{color:#f0a0a0}
+
+/* spiegazione */
+.expl{background:rgba(200,169,110,.08);border:1px dashed var(--bronze);border-radius:10px;padding:10px 14px;font-size:14px;color:var(--sand2);line-height:1.5;margin-bottom:12px}
+.expl b{color:var(--sand)}
+
+/* pulsanti navigazione */
+.nav{text-align:center}
+.btn{font:700 16px Cinzel;background:var(--red);color:var(--perg);border:2px solid var(--sand);border-radius:30px;padding:11px 28px;cursor:pointer;letter-spacing:1px;transition:background .15s}
+.btn:hover{background:var(--red2)}
+.btn.sec{background:transparent;color:var(--sand);border-color:var(--bronze)}
+.btn.sec:hover{background:var(--stone2)}
+
+/* fine partita */
+.end{background:linear-gradient(160deg,var(--stone2),var(--stone));border:3px solid var(--sand);border-radius:20px;padding:28px 20px;text-align:center}
+.end-icon{font-size:56px;margin-bottom:8px;line-height:1}
+.end h2{font:900 clamp(32px,7vw,56px)/1 Cinzel;color:var(--sand);text-shadow:0 0 20px rgba(200,169,110,.5);margin:4px 0 8px}
+.end-score{font:700 18px Cinzel;color:var(--sand2);margin-bottom:16px}
+.end-msg{color:var(--muted);font-size:15px;margin-bottom:18px}
+.rev-list{text-align:left;max-width:580px;margin:0 auto 18px;padding:0;list-style:none}
+.rev-list li{padding:7px 0;border-bottom:1px solid var(--stone3);font-size:14px;color:var(--muted)}
+.rev-list li b{color:var(--sand2)}
+.rev-list li.r-ok::before{content:'✓ ';color:var(--ok)}
+.rev-list li.r-ko::before{content:'✗ ';color:var(--ko)}
+
+/* schermata iniziale */
+.start-box{text-align:center;padding:20px 10px}
+.start-box p{color:var(--muted);max-width:480px;margin:0 auto 20px;font-size:15px}
+.shield{font-size:72px;margin-bottom:8px;line-height:1}
+
+/* musica */
+.mus{position:fixed;top:10px;right:10px;z-index:50;width:44px;height:44px;border-radius:50%;border:2px solid var(--bronze);background:rgba(26,16,8,.85);color:var(--sand);font-size:19px;line-height:1;cursor:pointer}
+.mus.off{opacity:.5}
+@media(max-width:760px){.mus{top:auto;bottom:14px;right:12px}}
+
+/* responsive */
+@media(max-width:520px){.opts{grid-template-columns:1fr;gap:8px}.opt{font-size:15px}.qtext{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.timer-bar{transition:none}}
+</style></head>
+<body>
+<div class="wrap">
+<button class="mus" id="mus" type="button" aria-label="Musica">🔊</button>
+<div class="spqr">S · P · Q · R</div>
+<h1>Gladiator Quiz</h1>
+<p class="sub">Latino · Classe I · Morfologia, casi e verbi — combatti con la grammatica!</p>
+
+<!-- schermata iniziale -->
+<div id="startScreen" class="start-box">
+  <div class="shield">🛡️</div>
+  <p>Hai <b style="color:var(--sand)">20 secondi</b> per ogni risposta. Ogni domanda giusta è una vittoria nell'arena.<br>Rispondere velocemente vale di più — più tempo rimane, più punti ottieni.</p>
+  <button class="btn" id="startBtn" type="button">ENTRA NELL'ARENA</button>
+</div>
+
+<!-- gioco -->
+<div id="gameArea" hidden>
+  <div class="stats">
+    <div class="stat">⚔️ <span id="statQ">1</span>/20</div>
+    <div class="stat">🏆 <span id="statS">0</span> pt</div>
+    <div class="stat">✅ <span id="statC">0</span> corrette</div>
+  </div>
+  <div class="timer-wrap" id="timerWrap" data-t="20"><div class="timer-bar" id="timerBar"></div></div>
+  <div class="qbox">
+    <div class="qnum" id="qnum">Domanda 1 di 20</div>
+    <div class="qtext" id="qtext"></div>
+  </div>
+  <div class="opts" id="opts"></div>
+  <div class="msg" id="msg" role="status"></div>
+  <div class="expl" id="expl" hidden></div>
+  <div class="nav" id="nav" hidden><button class="btn" id="nextBtn" type="button">AVANTI →</button></div>
+</div>
+
+<!-- fine partita -->
+<div id="endScreen" class="end" hidden>
+  <div class="end-icon" id="endIcon"></div>
+  <h2 id="endTitle"></h2>
+  <div class="end-score" id="endScore"></div>
+  <div class="end-msg" id="endMsg"></div>
+  <ul class="rev-list" id="revList"></ul>
+  <button class="btn" id="againBtn" type="button">NUOVA SFIDA</button>
+  &nbsp;
+  <button class="btn sec" id="shareBtn" type="button">↩ Arcade</button>
+</div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════
+// BANCA DOMANDE — Latino Classe I
+// Fonte: Dispensa Latino Primo Anno, Istituto Galileo Ferraris
+// ═══════════════════════════════════════════════
+const DOMANDE = [
+  // ── CASI E FUNZIONI LOGICHE ──
+  {
+    q: "Quale caso indica il <span class='qlatin'>soggetto</span> della frase in latino?",
+    opts: ["Accusativo","Nominativo","Genitivo","Dativo"],
+    ci: 1,
+    expl: "Il <b>Nominativo</b> è il caso del soggetto (chi compie l'azione) e del nome del predicato. Risponde alla domanda: «Chi? Che cosa?»"
+  },
+  {
+    q: "La forma <span class='qlatin'>rosae</span> (I decl.) può essere genitivo singolare oppure…",
+    opts: ["Accusativo singolare","Ablativo singolare","Nominativo plurale","Vocativo plurale"],
+    ci: 2,
+    expl: "<b>rosae</b> vale sia genitivo singolare («della rosa») sia nominativo/vocativo plurale («le rose»). Il contesto della frase decide il caso corretto."
+  },
+  {
+    q: "Il complemento oggetto in latino si esprime con quale caso?",
+    opts: ["Nominativo","Genitivo","Dativo","Accusativo"],
+    ci: 3,
+    expl: "Il <b>Accusativo</b> è il caso del complemento oggetto (chi/che cosa subisce l'azione). Es.: <i>Puella rosam legit</i> — legge la rosa."
+  },
+  {
+    q: "«Di chi? Di che cosa?» è la domanda guida di quale caso?",
+    opts: ["Dativo","Ablativo","Genitivo","Accusativo"],
+    ci: 2,
+    expl: "Il <b>Genitivo</b> indica la specificazione («il libro del maestro» = <i>liber magistri</i>). La domanda guida è «di chi? di che cosa?»"
+  },
+  {
+    q: "In latino, il complemento di termine («a chi») si esprime con quale caso?",
+    opts: ["Ablativo","Nominativo","Dativo","Genitivo"],
+    ci: 2,
+    expl: "Il <b>Dativo</b> è il caso del complemento di termine. Es.: <i>Puella matri rosam dat</i> — La ragazza dà una rosa alla madre."
+  },
+  {
+    q: "L'ablativo in latino serve principalmente per esprimere:",
+    opts: ["Il soggetto","La specificazione","Il complemento oggetto","Mezzo, causa, modo, luogo e agente"],
+    ci: 3,
+    expl: "<b>L'ablativo</b> è il caso più versatile: esprime complementi di mezzo, causa, modo, stato in luogo e agente (con <i>a/ab</i>)."
+  },
+
+  // ── DECLINAZIONI ──
+  {
+    q: "La prima declinazione ha il genitivo singolare in:",
+    opts: ["-i","-ae","-is","-us"],
+    ci: 1,
+    expl: "La <b>I declinazione</b> ha genitivo in <b>-ae</b>. Es.: <i>rosa, rosae</i>. I nomi sono quasi tutti femminili (eccetto <i>agricola, nauta, poeta</i>)."
+  },
+  {
+    q: "A quale declinazione appartiene <span class='qlatin'>dominus, domini</span>?",
+    opts: ["I declinazione","II declinazione","III declinazione","IV declinazione"],
+    ci: 1,
+    expl: "<i>dominus, domini</i> (m.) appartiene alla <b>II declinazione</b>, che ha genitivo in <i>-i</i>. Include nomi in <i>-us</i> e <i>-er</i> (maschili) e <i>-um</i> (neutri)."
+  },
+  {
+    q: "Il genitivo singolare di <span class='qlatin'>rex, regis</span> è in <b>-is</b>: a quale declinazione appartiene?",
+    opts: ["I declinazione","II declinazione","III declinazione","V declinazione"],
+    ci: 2,
+    expl: "<i>rex, regis</i> (re) appartiene alla <b>III declinazione</b>, con genitivo in <i>-is</i>. Include nomi con tema consonantico o in <i>-i</i>."
+  },
+  {
+    q: "Qual è l'accusativo singolare di <span class='qlatin'>nauta, nautae</span>?",
+    opts: ["nautae","nautam","nauta","nautis"],
+    ci: 1,
+    expl: "I nomi della <b>I declinazione</b> fanno l'accusativo singolare in <b>-am</b>: <i>nauta → nautam</i>. L'accusativo è il caso del complemento oggetto."
+  },
+  {
+    q: "Quale forma rappresenta il <b>nominativo plurale</b> di <span class='qlatin'>servus, servi</span>?",
+    opts: ["servorum","servos","servi","servis"],
+    ci: 2,
+    expl: "Il nominativo plurale della <b>II declinazione maschile</b> esce in <b>-i</b>: <i>servus → servi</i>. Non confondere con il genitivo singolare in -i: controlla il contesto!"
+  },
+  {
+    q: "Nella II declinazione, i nomi neutri (es. <span class='qlatin'>bellum</span>) hanno la stessa uscita al nominativo e all'accusativo. Qual è?",
+    opts: ["-us","-i","-um","-a"],
+    ci: 2,
+    expl: "I neutri della <b>II declinazione</b> escono in <b>-um</b> al nominativo e accusativo singolari: <i>bellum, bellum</i>. Regola generale del latino: i neutri hanno sempre uguale nominativo e accusativo."
+  },
+
+  // ── CONIUGAZIONI VERBALI ──
+  {
+    q: "Il verbo <span class='qlatin'>amare</span> appartiene a quale coniugazione?",
+    opts: ["II coniugazione","III coniugazione","I coniugazione","IV coniugazione"],
+    ci: 2,
+    expl: "<i>amo, amas, amare</i> appartiene alla <b>I coniugazione</b>, caratterizzata dall'infinito in <b>-are</b>. Es.: <i>amo, amas, amat, amamus, amatis, amant</i>."
+  },
+  {
+    q: "Qual è la 3ª persona singolare del presente indicativo attivo di <span class='qlatin'>video</span>?",
+    opts: ["videt","vides","vident","videtur"],
+    ci: 0,
+    expl: "<i>video, vides, <b>videt</b></i> — La 3ª sing. del presente ha la desinenza <b>-t</b>. <i>videtur</i> è la forma passiva («è visto»)."
+  },
+  {
+    q: "L'imperfetto indicativo attivo di <span class='qlatin'>amo</span> alla 1ª persona singolare è:",
+    opts: ["amabam","amabo","amaveram","amavi"],
+    ci: 0,
+    expl: "<b>amabam</b> = io amavo (imperfetto). Il suffisso dell'imperfetto è <b>-ba-</b>: <i>amabam, amabas, amabat…</i>. <i>amabo</i> è futuro; <i>amavi</i> è perfetto."
+  },
+  {
+    q: "Come si forma il futuro semplice delle verbi della <b>I e II coniugazione</b>?",
+    opts: ["Aggiungendo -ba- al tema","Con il suffisso -bi- (-bo, -bis, -bit…)","Aggiungendo -re al presente","Con il suffisso -eri-"],
+    ci: 1,
+    expl: "Il futuro della <b>I e II coniugazione</b> si forma con il suffisso <b>-bi-</b> (1ª sing. -<i>bo</i>): <i>amabo, amabis, amabit, amabimus, amabitis, amabunt</i>."
+  },
+
+  // ── DIATESI PASSIVA ──
+  {
+    q: "Come si trasforma <span class='qlatin'>Servi dominum audiunt</span> al passivo?",
+    opts: ["Dominus servis auditur","Dominus a servis auditur","Servi dominum audiuntur","A servis dominum auditur"],
+    ci: 1,
+    expl: "Al passivo il soggetto diventa oggetto e l'agente si esprime con <b>a/ab + ablativo</b>: <i>Dominus <b>a servis</b> auditur</i> («Il padrone è ascoltato dagli schiavi»)."
+  },
+  {
+    q: "La forma <span class='qlatin'>laudatur</span> significa:",
+    opts: ["Loda","Lodava","È lodato/lodata","Sarà lodato"],
+    ci: 2,
+    expl: "<i><b>laudatur</b></i> = presente indicativo passivo, 3ª persona singolare: «è lodato/lodata». Il passivo presente si riconosce dalla desinenza <b>-tur</b> (sing.) o <b>-ntur</b> (plur.)."
+  },
+
+  // ── VERBO SUM ──
+  {
+    q: "Qual è il presente indicativo di <span class='qlatin'>sum</span> alla 3ª persona plurale?",
+    opts: ["sumus","sunt","sunt eos","estis"],
+    ci: 1,
+    expl: "Il verbo <i>sum</i> (essere) è irregolare: <i>sum, es, est, sumus, estis, <b>sunt</b></i>. La 3ª plurale «essi sono» = <i>sunt</i>."
+  },
+
+  // ── SINTASSI E COMPLEMENTI ──
+  {
+    q: "In <span class='qlatin'>Puella in horto ambulat</span>, quale complemento è <i>in horto</i>?",
+    opts: ["Complemento di moto a luogo","Complemento di stato in luogo","Complemento di mezzo","Complemento di termine"],
+    ci: 1,
+    expl: "<i><b>in + ablativo</b></i> = <b>stato in luogo</b> («nel giardino»). Il moto a luogo si esprime con <i>in + accusativo</i>: <i>in hortum</i> («verso il giardino»)."
+  },
+  {
+    q: "Per esprimere il complemento d'agente in latino si usa:",
+    opts: ["Ablativo semplice","a/ab + ablativo","ad + accusativo","Genitivo + ablativo"],
+    ci: 1,
+    expl: "<b>a/ab + ablativo</b> indica il complemento d'agente (persona): <i>a magistra laudatur</i> = «è lodata dalla maestra». L'ablativo semplice indica invece la causa efficiente (cosa inanimata)."
+  },
+
+  // ── VOCABOLARIO ──
+  {
+    q: "Cosa significa <span class='qlatin'>hostes</span> (nominativo plurale di <i>hostis</i>)?",
+    opts: ["Gli amici","I padroni","I nemici","I soldati"],
+    ci: 2,
+    expl: "<i>hostis, hostis</i> (m.) = <b>nemico</b>. Plurale: <i>hostes</i>. Non confondere con <i>amicus</i> (amico) o <i>miles</i> (soldato)."
+  }
+];
+
+// ═══════════════════════════════════════════════
+// LOGICA GIOCO
+// ═══════════════════════════════════════════════
+const TIMER_SEC = 20;
+const N_Q = 20; // numero domande per partita (ripescaggio se banca < N_Q)
+
+let questions = [], qi = 0, score = 0, correct = 0;
+let timerID = null, timeLeft = TIMER_SEC;
+let answered = false;
+let log = [];
+
+// elementi DOM
+const startScreen = document.getElementById('startScreen');
+const gameArea    = document.getElementById('gameArea');
+const endScreen   = document.getElementById('endScreen');
+const timerBar    = document.getElementById('timerBar');
+const timerWrap   = document.getElementById('timerWrap');
+const qnumEl      = document.getElementById('qnum');
+const qtextEl     = document.getElementById('qtext');
+const optsEl      = document.getElementById('opts');
+const msgEl       = document.getElementById('msg');
+const explEl      = document.getElementById('expl');
+const navEl       = document.getElementById('nav');
+const nextBtn     = document.getElementById('nextBtn');
+const statQ       = document.getElementById('statQ');
+const statS       = document.getElementById('statS');
+const statC       = document.getElementById('statC');
+
+function shuffle(arr){ return [...arr].sort(()=>Math.random()-.5) }
+
+function buildQuestions(){
+  // se banca >= N_Q, pesca N_Q a caso; altrimenti usa tutte + ripesca
+  let pool = shuffle(DOMANDE);
+  if(pool.length >= N_Q) return pool.slice(0, N_Q);
+  while(pool.length < N_Q) pool = pool.concat(shuffle(DOMANDE));
+  return pool.slice(0, N_Q);
+}
+
+function startGame(){
+  questions = buildQuestions();
+  qi = 0; score = 0; correct = 0; log = [];
+  startScreen.hidden = true;
+  endScreen.hidden = true;
+  gameArea.hidden = false;
+  showQuestion();
+}
+
+function showQuestion(){
+  const q = questions[qi];
+  answered = false;
+  msgEl.textContent = '';
+  msgEl.className = 'msg';
+  explEl.hidden = true;
+  navEl.hidden = true;
+
+  qnumEl.textContent = `Domanda ${qi+1} di ${N_Q}`;
+  qtextEl.innerHTML = q.q;
+  statQ.textContent = qi + 1;
+
+  // genera opzioni con lettera
+  optsEl.innerHTML = '';
+  const labels = ['A','B','C','D'];
+  q.opts.forEach((txt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'opt';
+    btn.type = 'button';
+    btn.innerHTML = `<span class="lbl">${labels[i]}.</span>${txt}`;
+    btn.dataset.i = i;
+    btn.addEventListener('click', () => selectOpt(i));
+    optsEl.appendChild(btn);
+  });
+
+  startTimer();
+}
+
+function startTimer(){
+  timeLeft = TIMER_SEC;
+  timerBar.style.width = '100%';
+  timerWrap.dataset.t = TIMER_SEC;
+  clearInterval(timerID);
+  timerID = setInterval(() => {
+    timeLeft -= 0.1;
+    const pct = Math.max(0, (timeLeft / TIMER_SEC) * 100);
+    timerBar.style.width = pct + '%';
+    timerWrap.dataset.t = Math.ceil(timeLeft);
+    if(timeLeft <= 5) timerBar.style.background = 'linear-gradient(90deg,#8b1a1a,#e74c3c)';
+    else timerBar.style.background = 'linear-gradient(90deg,var(--red2),var(--sand))';
+    if(timeLeft <= 0){ clearInterval(timerID); timeOut(); }
+  }, 100);
+}
+
+function timeOut(){
+  if(answered) return;
+  answered = true;
+  const q = questions[qi];
+  disableOpts();
+  markOpts(q.ci, -1);
+  msgEl.textContent = '⏱ Tempo scaduto!';
+  msgEl.className = 'msg ko';
+  showExpl();
+  log.push({q: q.q, giusta: q.opts[q.ci], tua: '—', ok: false});
+  setTimeout(autoNext, 1800);
+}
+
+function selectOpt(idx){
+  if(answered) return;
+  answered = true;
+  clearInterval(timerID);
+  const q = questions[qi];
+  disableOpts();
+
+  if(idx === q.ci){
+    // corretta: punti in base al tempo residuo
+    const pts = 10 + Math.round(timeLeft / TIMER_SEC * 10);
+    score += pts;
+    correct++;
+    msgEl.textContent = `✔ Corretto! +${pts} punti`;
+    msgEl.className = 'msg ok';
+    log.push({q: q.q, giusta: q.opts[q.ci], tua: q.opts[idx], ok: true});
+    playBeep(true);
+  } else {
+    msgEl.textContent = `✘ Sbagliato!`;
+    msgEl.className = 'msg ko';
+    log.push({q: q.q, giusta: q.opts[q.ci], tua: q.opts[idx], ok: false});
+    playBeep(false);
+  }
+  markOpts(q.ci, idx);
+  statS.textContent = score;
+  statC.textContent = correct;
+  showExpl();
+  navEl.hidden = false;
+}
+
+function disableOpts(){
+  optsEl.querySelectorAll('.opt').forEach(b => b.disabled = true);
+}
+
+function markOpts(ci, chosen){
+  optsEl.querySelectorAll('.opt').forEach(b => {
+    const i = +b.dataset.i;
+    if(i === ci) b.classList.add('right');
+    else if(i === chosen) b.classList.add('wrong');
+  });
+}
+
+function showExpl(){
+  const q = questions[qi];
+  if(q.expl){ explEl.innerHTML = q.expl; explEl.hidden = false; }
+}
+
+function autoNext(){ nextQuestion(); }
+
+function nextQuestion(){
+  qi++;
+  if(qi >= N_Q){ endGame(); return; }
+  showQuestion();
+}
+
+function endGame(){
+  gameArea.hidden = true;
+  endScreen.hidden = false;
+  const pct = Math.round(correct / N_Q * 100);
+  let icon = '💀', title = 'SCONFITTO', msg = 'Ritorna ad allenarti, gladiatore.';
+  if(pct >= 90){ icon='🏆'; title='CAMPIONE'; msg='Dominio totale dell\'arena! Hai onorato Roma.'; }
+  else if(pct >= 70){ icon='⚔️'; title='VITTORIOSO'; msg='Ottimo combattente! Ancora qualche forma da limare.'; }
+  else if(pct >= 50){ icon='🛡️'; title='SOPRAVVISSUTO'; msg='Hai resistito, ma Roma chiede di più.'; }
+  document.getElementById('endIcon').textContent = icon;
+  document.getElementById('endTitle').textContent = title;
+  document.getElementById('endScore').textContent = `${score} punti · ${correct}/${N_Q} corrette (${pct}%)`;
+  document.getElementById('endMsg').textContent = msg;
+  const ul = document.getElementById('revList');
+  ul.innerHTML = '';
+  log.forEach(l => {
+    const li = document.createElement('li');
+    li.className = l.ok ? 'r-ok' : 'r-ko';
+    // testo domanda senza HTML tags per la lista review
+    const tmp = document.createElement('div');
+    tmp.innerHTML = l.q;
+    li.innerHTML = `<b>${tmp.textContent.slice(0,60)}…</b><br>Risposta giusta: <b style="color:var(--ok)">${l.giusta}</b>${!l.ok && l.tua!=='—' ? ` · Tua: <b style="color:var(--ko)">${l.tua}</b>` : l.tua==='—' ? ' · Tempo scaduto' : ''}`;
+    ul.appendChild(li);
+  });
+}
+
+// ── AUDIO ──
+let audioOn = true;
+const musBtn = document.getElementById('mus');
+let audioCtx = null;
+
+function getCtx(){
+  if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)();
+  return audioCtx;
+}
+
+function playBeep(ok){
+  if(!audioOn) return;
+  try{
+    const ctx = getCtx();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain); gain.connect(ctx.destination);
+    if(ok){
+      osc.frequency.setValueAtTime(660, ctx.currentTime);
+      osc.frequency.setValueAtTime(880, ctx.currentTime + 0.12);
+      gain.gain.setValueAtTime(0.25, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+      osc.start(); osc.stop(ctx.currentTime + 0.35);
+    } else {
+      osc.frequency.setValueAtTime(220, ctx.currentTime);
+      osc.frequency.setValueAtTime(150, ctx.currentTime + 0.15);
+      gain.gain.setValueAtTime(0.3, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
+      osc.start(); osc.stop(ctx.currentTime + 0.4);
+    }
+  } catch(e){}
+}
+
+musBtn.addEventListener('click', () => {
+  audioOn = !audioOn;
+  musBtn.textContent = audioOn ? '🔊' : '🔇';
+  musBtn.classList.toggle('off', !audioOn);
+});
+
+// ── BOTTONI ──
+document.getElementById('startBtn').addEventListener('click', startGame);
+nextBtn.addEventListener('click', nextQuestion);
+document.getElementById('againBtn').addEventListener('click', startGame);
+document.getElementById('shareBtn').addEventListener('click', () => {
+  window.location.href = '../../index.html';
+});
+</script>
+</body></html>
