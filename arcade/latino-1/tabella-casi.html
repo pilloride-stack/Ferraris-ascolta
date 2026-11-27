@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tabella dei Casi · Latino Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--sand:#c8a96e;--sand2:#e8d4a0;--red:#8b1a1a;--red2:#c0392b;--bronze:#7c5c2b;--bronze2:#a8793a;--stone:#2a2016;--stone2:#3d3020;--stone3:#524030;--perg:#f5e9c8;--ok:#4caf50;--ko:#e74c3c;--ink:#f5e9c8;--muted:#b8a070}
+*{box-sizing:border-box;min-width:0}[hidden]{display:none!important}
+body{margin:0;color:var(--ink);font:16px/1.5 Lexend,system-ui,sans-serif;min-height:100vh;overflow-x:clip;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg') center/cover no-repeat fixed}
+body::before{content:'';position:fixed;inset:0;background:linear-gradient(to bottom,rgba(10,5,0,.82) 0%,rgba(20,10,2,.78) 60%,rgba(10,5,0,.88) 100%);pointer-events:none;z-index:0}
+.wrap{max-width:800px;margin:0 auto;padding:14px max(3vw,12px) 32px;position:relative;z-index:1}
+
+.back-btn{display:inline-flex;align-items:center;gap:6px;background:rgba(44,32,16,.7);border:1px solid var(--bronze);border-radius:8px;color:var(--sand);font:600 13px Lexend;padding:6px 14px;text-decoration:none;cursor:pointer;margin-bottom:14px;transition:background .2s}
+.back-btn:hover{background:rgba(124,92,43,.4)}
+
+.spqr{text-align:center;font:700 11px/1 Cinzel,serif;letter-spacing:4px;color:var(--bronze2);margin-bottom:2px}
+h1{font:900 clamp(28px,6vw,52px)/1 Cinzel,serif;text-align:center;margin:0 0 2px;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.5)}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 16px}
+
+.stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:12px}
+.stat{background:var(--stone2);border:1px solid var(--bronze);border-radius:8px;padding:5px 14px;font:700 13px Cinzel,serif;color:var(--sand2);display:flex;align-items:center;gap:6px}
+.stat span{font:600 20px Lexend;color:var(--sand)}
+
+/* progress */
+.progress-wrap{height:5px;background:var(--stone2);border-radius:3px;margin-bottom:18px;overflow:hidden}
+.progress-bar{height:100%;background:linear-gradient(90deg,var(--bronze),var(--sand));border-radius:3px;transition:width .4s ease}
+
+/* carta declinazione */
+.noun-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:18px;padding:20px 20px 16px;margin-bottom:16px;backdrop-filter:blur(4px)}
+.noun-header{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:4px}
+.noun-round{font:700 11px Cinzel;letter-spacing:3px;color:var(--bronze2)}
+.noun-word{font:900 clamp(32px,7vw,56px)/1 Cinzel;color:var(--sand);text-shadow:0 2px 16px rgba(200,169,110,.4)}
+.noun-info{font:600 13px Lexend;color:var(--muted)}
+.noun-trad{font:400 14px Lexend;color:var(--sand2);margin-top:4px}
+
+/* tabella */
+.tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:14px}
+thead th{font:700 11px Cinzel;letter-spacing:2px;color:var(--bronze2);padding:8px 10px;border-bottom:2px solid var(--bronze);text-align:center}
+thead th:first-child{text-align:left}
+tbody tr{border-bottom:1px solid rgba(124,92,43,.25)}
+tbody tr:last-child{border-bottom:none}
+tbody td{padding:10px 10px;vertical-align:middle}
+tbody td:first-child{font:700 13px Cinzel;color:var(--sand2);white-space:nowrap}
+.cell-static{text-align:center;font:600 15px Cinzel;color:var(--muted)}
+
+/* input nelle celle */
+.cell-input{text-align:center}
+.cell-input input{
+  width:100%;max-width:130px;
+  background:var(--stone2);border:2px solid var(--bronze);border-radius:8px;
+  color:var(--sand2);font:700 15px Cinzel;text-align:center;
+  padding:6px 8px;outline:none;transition:all .18s;-webkit-appearance:none
+}
+.cell-input input:focus{border-color:var(--sand2);background:var(--stone3)}
+.cell-input input.correct{border-color:var(--ok)!important;background:rgba(76,175,80,.15)!important;color:#8edd8e!important}
+.cell-input input.wrong{border-color:var(--ko)!important;background:rgba(231,76,60,.15)!important;color:#f07070!important}
+.cell-input input.show-answer{border-color:var(--ok)!important;background:rgba(76,175,80,.08)!important;color:var(--sand2)!important}
+.cell-input input[readonly]{cursor:default}
+
+/* hint (prima lettera) */
+.hint-row{text-align:center;margin:0 0 10px}
+.btn-hint{background:transparent;border:1px solid var(--bronze2);border-radius:6px;color:var(--bronze2);font:600 12px Lexend;padding:4px 12px;cursor:pointer;transition:all .18s}
+.btn-hint:hover{background:rgba(124,92,43,.3);color:var(--sand)}
+.btn-hint:disabled{opacity:.4;cursor:default}
+
+/* feedback */
+.feedback{text-align:center;font:700 14px Lexend;padding:10px 16px;border-radius:10px;margin-bottom:12px}
+.feedback.ok{background:rgba(76,175,80,.18);color:#8edd8e}
+.feedback.ko{background:rgba(231,76,60,.18);color:#f07070}
+.feedback .detail{margin-top:5px;font:400 12px Lexend;color:var(--sand2)}
+
+.btn-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn{padding:10px 26px;border:none;border-radius:10px;font:700 14px Cinzel;cursor:pointer;transition:all .18s;letter-spacing:.5px}
+.btn-check{background:linear-gradient(135deg,var(--red),var(--red2));color:var(--sand2);box-shadow:0 2px 8px rgba(139,26,26,.4)}
+.btn-check:hover{filter:brightness(1.15)}
+.btn-check:disabled{opacity:.5;cursor:default;filter:none}
+.btn-next{background:linear-gradient(135deg,var(--bronze),var(--bronze2));color:var(--stone);box-shadow:0 2px 8px rgba(124,92,43,.5)}
+.btn-next:hover{filter:brightness(1.15)}
+
+/* fine */
+.end-card{background:rgba(26,18,8,.88);border:2px solid var(--bronze2);border-radius:20px;padding:32px 24px;text-align:center;backdrop-filter:blur(6px)}
+.end-card h2{font:900 clamp(26px,5vw,44px)/1 Cinzel;color:var(--sand);margin:0 0 8px}
+.end-score{font:700 clamp(44px,10vw,76px)/1 Cinzel;color:var(--sand2);margin:12px 0}
+.end-score small{font-size:38%;color:var(--muted)}
+.end-msg{color:var(--muted);font-size:14px;margin-bottom:22px}
+.review{text-align:left;margin-bottom:22px}
+.review-noun{font:700 18px Cinzel;color:var(--sand2);margin:12px 0 4px;border-top:1px solid rgba(124,92,43,.3);padding-top:10px}
+.review-noun:first-child{border-top:none;padding-top:0}
+.review-cells{display:flex;flex-wrap:wrap;gap:6px}
+.rc{font-size:12px;padding:4px 8px;border-radius:6px;border:1px solid}
+.rc.ok{border-color:var(--ok);background:rgba(76,175,80,.12);color:#8edd8e}
+.rc.ko{border-color:var(--ko);background:rgba(231,76,60,.12);color:#f07070}
+.btn-restart{background:linear-gradient(135deg,var(--red),var(--red2));color:var(--sand2);font-size:15px;padding:12px 30px;box-shadow:0 2px 12px rgba(139,26,26,.5)}
+.btn-restart:hover{filter:brightness(1.15)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back-btn" href="index.html">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Latino Classe I
+  </a>
+
+  <div class="spqr">S · P · Q · R</div>
+  <h1>Tabella dei Casi</h1>
+  <p class="sub">Latino · Classe I · Completa le declinazioni</p>
+
+  <div class="stats">
+    <div class="stat">📋 <span id="q-num">1</span>/8</div>
+    <div class="stat">🏆 <span id="score">0</span> pt</div>
+    <div class="stat">✅ <span id="correct-cells">0</span> celle</div>
+  </div>
+
+  <div class="progress-wrap"><div class="progress-bar" id="progress-bar" style="width:0%"></div></div>
+
+  <div id="game-area">
+    <div class="noun-card">
+      <div class="noun-header">
+        <div class="noun-round" id="noun-round">PAROLA 1 / 8</div>
+      </div>
+      <div class="noun-word" id="noun-word">—</div>
+      <div class="noun-info" id="noun-info">—</div>
+      <div class="noun-trad" id="noun-trad">—</div>
+    </div>
+
+    <div class="hint-row">
+      <button class="btn-hint" id="btn-hint" onclick="giveHint()">💡 Aiuto (prima lettera)</button>
+    </div>
+
+    <div class="tbl-wrap">
+      <table id="decl-table">
+        <thead>
+          <tr>
+            <th>Caso</th>
+            <th>Singolare</th>
+            <th>Plurale</th>
+          </tr>
+        </thead>
+        <tbody id="tbl-body"></tbody>
+      </table>
+    </div>
+
+    <div class="feedback" id="feedback" hidden></div>
+
+    <div class="btn-row" style="margin-top:14px">
+      <button class="btn btn-check" id="btn-check" onclick="checkTable()">⚔️ Verifica</button>
+      <button class="btn btn-next" id="btn-next" onclick="nextNoun()" hidden>Avanti ▶</button>
+    </div>
+  </div>
+
+  <div id="end-area" hidden>
+    <div class="end-card">
+      <div style="font-size:48px;margin-bottom:8px" id="end-emoji">🏛️</div>
+      <h2 id="end-title">Fine!</h2>
+      <div class="end-score" id="end-score">0 <small>punti</small></div>
+      <div class="end-msg" id="end-msg"></div>
+      <div class="review" id="review"></div>
+      <div class="btn-row">
+        <a class="btn back-btn" href="index.html" style="padding:10px 20px">◀ Latino Classe I</a>
+        <button class="btn btn-restart" onclick="restartGame()">🔄 Rigioca</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════
+// BANCA PAROLE — 24 sostantivi I/II/III declinazione
+// Ogni parola ha sg[] e pl[] con 5 casi: N/G/D/Ac/Ab
+// Le celle da compilare sono quelle marcate fill:true
+// ═══════════════════════════════════════════════════
+const CASI_LABEL = ["Nominativo","Genitivo","Dativo","Accusativo","Ablativo"];
+
+const BANK = [
+  // ── I DECLINAZIONE ──
+  {word:"puella",info:"I decl. femm.",trad:"la ragazza",
+   sg:["puella","puellae","puellae","puellam","puella"],
+   pl:["puellae","puellarum","puellis","puellas","puellis"]},
+  {word:"rosa",info:"I decl. femm.",trad:"la rosa",
+   sg:["rosa","rosae","rosae","rosam","rosa"],
+   pl:["rosae","rosarum","rosis","rosas","rosis"]},
+  {word:"silva",info:"I decl. femm.",trad:"la foresta / il bosco",
+   sg:["silva","silvae","silvae","silvam","silva"],
+   pl:["silvae","silvarum","silvis","silvas","silvis"]},
+  {word:"terra",info:"I decl. femm.",trad:"la terra",
+   sg:["terra","terrae","terrae","terram","terra"],
+   pl:["terrae","terrarum","terris","terras","terris"]},
+  {word:"via",info:"I decl. femm.",trad:"la strada / la via",
+   sg:["via","viae","viae","viam","via"],
+   pl:["viae","viarum","viis","vias","viis"]},
+  {word:"aqua",info:"I decl. femm.",trad:"l'acqua",
+   sg:["aqua","aquae","aquae","aquam","aqua"],
+   pl:["aquae","aquarum","aquis","aquas","aquis"]},
+  {word:"nauta",info:"I decl. masch.",trad:"il marinaio",
+   sg:["nauta","nautae","nautae","nautam","nauta"],
+   pl:["nautae","nautarum","nautis","nautas","nautis"]},
+  {word:"agricola",info:"I decl. masch.",trad:"il contadino",
+   sg:["agricola","agricolae","agricolae","agricolam","agricola"],
+   pl:["agricolae","agricolarum","agricolis","agricolas","agricolis"]},
+  // ── II DECLINAZIONE maschile ──
+  {word:"servus",info:"II decl. masch.",trad:"lo schiavo / il servo",
+   sg:["servus","servi","servo","servum","servo"],
+   pl:["servi","servorum","servis","servos","servis"]},
+  {word:"dominus",info:"II decl. masch.",trad:"il padrone / il signore",
+   sg:["dominus","domini","domino","dominum","domino"],
+   pl:["domini","dominorum","dominis","dominos","dominis"]},
+  {word:"puer",info:"II decl. masch. (puer)",trad:"il ragazzo / il bambino",
+   sg:["puer","pueri","puero","puerum","puero"],
+   pl:["pueri","puerorum","pueris","pueros","pueris"]},
+  {word:"magister",info:"II decl. masch. (magister)",trad:"il maestro",
+   sg:["magister","magistri","magistro","magistrum","magistro"],
+   pl:["magistri","magistrorum","magistris","magistros","magistris"]},
+  {word:"filius",info:"II decl. masch.",trad:"il figlio",
+   sg:["filius","filii","filio","filium","filio"],
+   pl:["filii","filiorum","filiis","filios","filiis"]},
+  {word:"populus",info:"II decl. masch.",trad:"il popolo",
+   sg:["populus","populi","populo","populum","populo"],
+   pl:["populi","populorum","populis","populos","populis"]},
+  // ── II DECLINAZIONE neutri ──
+  {word:"donum",info:"II decl. neutro",trad:"il dono / il regalo",
+   sg:["donum","doni","dono","donum","dono"],
+   pl:["dona","donorum","donis","dona","donis"]},
+  {word:"templum",info:"II decl. neutro",trad:"il tempio",
+   sg:["templum","templi","templo","templum","templo"],
+   pl:["templa","templorum","templis","templa","templis"]},
+  // ── III DECLINAZIONE ──
+  {word:"miles",info:"III decl. masch.",trad:"il soldato",
+   sg:["miles","militis","militi","militem","milite"],
+   pl:["milites","militum","militibus","milites","militibus"]},
+  {word:"rex",info:"III decl. masch.",trad:"il re",
+   sg:["rex","regis","regi","regem","rege"],
+   pl:["reges","regum","regibus","reges","regibus"]},
+  {word:"mater",info:"III decl. femm.",trad:"la madre",
+   sg:["mater","matris","matri","matrem","matre"],
+   pl:["matres","matrum","matribus","matres","matribus"]},
+  {word:"pater",info:"III decl. masch.",trad:"il padre",
+   sg:["pater","patris","patri","patrem","patre"],
+   pl:["patres","patrum","patribus","patres","patribus"]},
+  {word:"consul",info:"III decl. masch.",trad:"il console",
+   sg:["consul","consulis","consuli","consulem","consule"],
+   pl:["consules","consulum","consulibus","consules","consulibus"]},
+  {word:"hostis",info:"III decl. masch./femm.",trad:"il nemico",
+   sg:["hostis","hostis","hosti","hostem","hoste"],
+   pl:["hostes","hostium","hostibus","hostes","hostibus"]},
+  {word:"urbs",info:"III decl. femm.",trad:"la città",
+   sg:["urbs","urbis","urbi","urbem","urbe"],
+   pl:["urbes","urbium","urbibus","urbes","urbibus"]},
+  {word:"corpus",info:"III decl. neutro",trad:"il corpo",
+   sg:["corpus","corporis","corpori","corpus","corpore"],
+   pl:["corpora","corporum","corporibus","corpora","corporibus"]},
+];
+
+// Configurazione: quali celle lasciare vuote (da compilare)
+// true = cella da compilare, false = mostrata già compilata
+// sg[i] e pl[i] con i=0..4 (N,G,D,Ac,Ab)
+// Per rendere il gioco interessante: nascondi ~6-8 celle su 10 per round
+function makeMask(){
+  // Nascondi 6-8 celle casuali su 10
+  const n = 6 + Math.floor(Math.random()*3); // 6,7,8
+  const all = [
+    {col:'sg',i:0},{col:'sg',i:1},{col:'sg',i:2},{col:'sg',i:3},{col:'sg',i:4},
+    {col:'pl',i:0},{col:'pl',i:1},{col:'pl',i:2},{col:'pl',i:3},{col:'pl',i:4},
+  ];
+  const shuffled = [...all].sort(()=>Math.random()-.5);
+  const hidden = new Set(shuffled.slice(0,n).map(c=>`${c.col}-${c.i}`));
+  return hidden;
+}
+
+const TOTAL = 8;
+let questions=[], qi=0, totalScore=0, totalCorrectCells=0, results=[];
+let currentMask=null, hintUsed=false, checked=false;
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+
+function restartGame(){
+  qi=0;totalScore=0;totalCorrectCells=0;results=[];checked=false;
+  document.getElementById('end-area').hidden=true;
+  document.getElementById('game-area').hidden=false;
+  document.getElementById('score').textContent='0';
+  document.getElementById('correct-cells').textContent='0';
+  questions=shuffle([...BANK]).slice(0,TOTAL);
+  loadNoun();
+}
+
+function loadNoun(){
+  const q=questions[qi];
+  checked=false;
+  hintUsed=false;
+  currentMask=makeMask();
+
+  document.getElementById('noun-round').textContent=`PAROLA ${qi+1} / ${TOTAL}`;
+  document.getElementById('noun-word').textContent=q.word;
+  document.getElementById('noun-info').textContent=q.info;
+  document.getElementById('noun-trad').textContent=`"${q.trad}"`;
+  document.getElementById('progress-bar').style.width=`${(qi/TOTAL)*100}%`;
+  document.getElementById('q-num').textContent=qi+1;
+
+  document.getElementById('feedback').hidden=true;
+  document.getElementById('btn-check').hidden=false;
+  document.getElementById('btn-check').disabled=false;
+  document.getElementById('btn-next').hidden=true;
+  document.getElementById('btn-hint').disabled=false;
+
+  buildTable(q);
+}
+
+function buildTable(q){
+  const tbody=document.getElementById('tbl-body');
+  tbody.innerHTML='';
+  CASI_LABEL.forEach((caso,i)=>{
+    const tr=document.createElement('tr');
+    // Label caso
+    const tdL=document.createElement('td');
+    tdL.textContent=caso;
+    tr.appendChild(tdL);
+    // Singolare
+    const tdSg=document.createElement('td');
+    const keySg=`sg-${i}`;
+    if(currentMask.has(keySg)){
+      tdSg.className='cell-input';
+      const inp=document.createElement('input');
+      inp.type='text';inp.autocomplete='off';inp.autocorrect='off';inp.autocapitalize='off';inp.spellcheck=false;
+      inp.dataset.col='sg';inp.dataset.idx=i;
+      inp.placeholder='…';
+      inp.addEventListener('keydown',e=>{if(e.key==='Enter')checkTable();});
+      tdSg.appendChild(inp);
+    } else {
+      tdSg.className='cell-static';
+      tdSg.textContent=q.sg[i];
+    }
+    tr.appendChild(tdSg);
+    // Plurale
+    const tdPl=document.createElement('td');
+    const keyPl=`pl-${i}`;
+    if(currentMask.has(keyPl)){
+      tdPl.className='cell-input';
+      const inp=document.createElement('input');
+      inp.type='text';inp.autocomplete='off';inp.autocorrect='off';inp.autocapitalize='off';inp.spellcheck=false;
+      inp.dataset.col='pl';inp.dataset.idx=i;
+      inp.placeholder='…';
+      inp.addEventListener('keydown',e=>{if(e.key==='Enter')checkTable();});
+      tdPl.appendChild(inp);
+    } else {
+      tdPl.className='cell-static';
+      tdPl.textContent=q.pl[i];
+    }
+    tr.appendChild(tdPl);
+    tbody.appendChild(tr);
+  });
+  // focus primo input
+  const first=tbody.querySelector('input');
+  if(first) setTimeout(()=>first.focus(),80);
+}
+
+function giveHint(){
+  if(hintUsed||checked) return;
+  hintUsed=true;
+  document.getElementById('btn-hint').disabled=true;
+  const q=questions[qi];
+  document.querySelectorAll('#tbl-body input').forEach(inp=>{
+    if(!inp.value.trim()){
+      const col=inp.dataset.col;
+      const idx=parseInt(inp.dataset.idx);
+      const correct=q[col][idx];
+      inp.placeholder=correct[0]+'…';
+    }
+  });
+}
+
+function normalize(s){return s.trim().toLowerCase().replace(/[àáâ]/g,'a').replace(/[èéê]/g,'e').replace(/[ìíî]/g,'i').replace(/[òóô]/g,'o').replace(/[ùúû]/g,'u')}
+
+function checkTable(){
+  if(checked) return;
+  checked=true;
+  document.getElementById('btn-check').disabled=true;
+  document.getElementById('btn-hint').disabled=true;
+  const q=questions[qi];
+  let roundCorrect=0, roundTotal=0;
+  const errors=[];
+
+  document.querySelectorAll('#tbl-body input').forEach(inp=>{
+    const col=inp.dataset.col;
+    const idx=parseInt(inp.dataset.idx);
+    const correct=q[col][idx];
+    const userVal=inp.value.trim();
+    roundTotal++;
+    // accetta anche senza macron / varianti minuscole
+    const ok = normalize(userVal)===normalize(correct);
+    inp.readOnly=true;
+    if(ok){
+      inp.classList.add('correct');
+      roundCorrect++;
+    } else {
+      inp.classList.add('wrong');
+      errors.push({caso:CASI_LABEL[idx],col,correct,given:userVal||'—'});
+      // mostra risposta giusta
+      setTimeout(()=>{
+        inp.value=correct;
+        inp.classList.remove('wrong');
+        inp.classList.add('show-answer');
+      },800);
+    }
+  });
+
+  const pts = roundCorrect * 3 - (hintUsed ? Math.floor(roundTotal/2) : 0);
+  const earnedPts = Math.max(0, pts);
+  totalScore += earnedPts;
+  totalCorrectCells += roundCorrect;
+  document.getElementById('score').textContent=totalScore;
+  document.getElementById('correct-cells').textContent=totalCorrectCells;
+
+  results.push({q,roundCorrect,roundTotal,hintUsed,errors});
+
+  // feedback
+  const fb=document.getElementById('feedback');
+  fb.hidden=false;
+  const pct=Math.round((roundCorrect/roundTotal)*100);
+  if(roundCorrect===roundTotal){
+    fb.className='feedback ok';
+    fb.innerHTML=`🏆 Perfetto! ${roundTotal}/${roundTotal} celle corrette — +${earnedPts} pt`;
+  } else {
+    fb.className='feedback ko';
+    let detail='';
+    errors.slice(0,3).forEach(e=>{
+      detail+=`<br>• ${e.caso} ${e.col==='sg'?'sg.':'pl.'}: <strong>${e.correct}</strong>`;
+    });
+    if(errors.length>3) detail+=`<br>…e altre ${errors.length-3} forme`;
+    fb.innerHTML=`✅ ${roundCorrect}/${roundTotal} celle corrette — +${earnedPts} pt<div class="detail">${detail}</div>`;
+  }
+
+  document.getElementById('btn-next').hidden=false;
+}
+
+function nextNoun(){
+  qi++;
+  if(qi>=TOTAL){showEnd();return;}
+  loadNoun();
+}
+
+function showEnd(){
+  document.getElementById('game-area').hidden=true;
+  document.getElementById('end-area').hidden=false;
+  document.getElementById('progress-bar').style.width='100%';
+
+  const maxPts=TOTAL*currentMask?.size*3||totalScore+1;
+  const pct=totalCorrectCells/(TOTAL*7)*100; // ~7 celle in media per parola
+  let emoji='🏛️',title='Fine!',msg='';
+  if(pct>=90){emoji='🏆';title='GRAMMATICUS PERFECTUS!';msg='Padronanza assoluta delle declinazioni latine!'}
+  else if(pct>=70){emoji='⚔️';title='BENE FACTUM!';msg='Buona conoscenza della morfologia — continua così!'}
+  else if(pct>=50){emoji='🛡️';title='MEDIOCRITER';msg='Rileggi le tabelle e riprova — ci sei quasi!'}
+  else{emoji='💀';title='RECADE!';msg='Studia le declinazioni sulla dispensa, poi torna qui!'}
+
+  document.getElementById('end-emoji').textContent=emoji;
+  document.getElementById('end-title').textContent=title;
+  document.getElementById('end-score').innerHTML=`${totalScore} <small>punti</small>`;
+  document.getElementById('end-msg').textContent=`${totalCorrectCells} celle corrette su ${TOTAL} parole — ${msg}`;
+
+  const rev=document.getElementById('review');
+  rev.innerHTML='';
+  results.forEach(r=>{
+    const h=document.createElement('div');
+    h.className='review-noun';
+    h.textContent=`${r.q.word} — ${r.roundCorrect}/${r.roundTotal}`;
+    rev.appendChild(h);
+    const cells=document.createElement('div');
+    cells.className='review-cells';
+    r.errors.forEach(e=>{
+      const rc=document.createElement('div');
+      rc.className='rc ko';
+      rc.textContent=`${e.caso} ${e.col==='sg'?'sg':'pl'}: ${e.correct}`;
+      cells.appendChild(rc);
+    });
+    if(r.errors.length===0){
+      const rc=document.createElement('div');
+      rc.className='rc ok';
+      rc.textContent='✅ tutto corretto';
+      cells.appendChild(rc);
+    }
+    rev.appendChild(cells);
+  });
+}
+
+// avvio
+questions=shuffle([...BANK]).slice(0,TOTAL);
+loadNoun();
+</script>
+</body></html>
