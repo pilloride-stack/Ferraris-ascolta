@@ -468,7 +468,7 @@ function endGame(){
 $('again').addEventListener('click', startGame);
 
 // avvio: carica opere.json poi parte
-fetch('opere.json?v=5')
+fetch('opere.json?v=6')
   .then(r=>r.json())
   .then(raw=>{
     DATA = buildData(raw);
