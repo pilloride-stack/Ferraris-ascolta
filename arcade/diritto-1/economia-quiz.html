@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Economia in Gioco · Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--ko:#ef4444;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;position:relative;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-24px) scale(1.04);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:580px;padding:0 16px 48px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.header{padding:22px 0 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.logo-row{display:flex;flex-direction:column;gap:6px;}
+.pill-tag{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;border-radius:999px;background:rgba(200,212,0,.12);border:1px solid rgba(200,212,0,.3);font-size:.68rem;font-weight:700;letter-spacing:1.5px;color:var(--gold2);text-transform:uppercase;}
+.game-name{font-family:Inter,sans-serif;font-weight:900;font-size:2.2rem;letter-spacing:-2px;line-height:.9;color:var(--white);}
+.game-name em{font-style:normal;color:var(--gold);}
+.subtitle{font-size:.72rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px;}
+.score-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;}
+.score-num{font-family:Inter,sans-serif;font-size:2.5rem;font-weight:900;line-height:1;color:var(--gold);letter-spacing:-2px;}
+.score-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+/* Grafico categoria */
+.cat-badge{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.2);font-size:.78rem;font-weight:700;color:var(--gold);margin-bottom:14px;}
+.prog-wrap{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-bottom:14px;}
+.prog-dot{height:4px;border-radius:2px;background:rgba(255,255,255,.1);}
+.prog-dot.done{background:var(--c3);} .prog-dot.current{background:var(--gold);}
+/* Scenario card */
+.scenario{background:rgba(200,212,0,.06);border:1px solid rgba(200,212,0,.15);border-radius:16px;padding:14px 16px;margin-bottom:16px;font-size:.88rem;line-height:1.6;color:var(--gold2);}
+.scenario-label{font-size:.65rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+.qcard{position:relative;background:var(--glass);border:1px solid var(--glass-border);border-radius:24px;padding:26px 24px 22px;overflow:hidden;margin-bottom:20px;}
+.qcard::after{content:'';position:absolute;top:0;left:24px;right:24px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.4;}
+.card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;}
+.q-num{font-size:.7rem;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;}
+.timer-pill{display:flex;align-items:center;gap:7px;background:rgba(200,212,0,.08);border:1px solid rgba(200,212,0,.2);border-radius:999px;padding:5px 12px 5px 7px;}
+.timer-ring{position:relative;width:28px;height:28px;}
+.timer-ring svg{transform:rotate(-90deg);}
+.t-bg{stroke:rgba(255,255,255,.08);} .t-fg{stroke:var(--gold);stroke-linecap:round;transition:stroke-dashoffset .9s linear;}
+.timer-n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-size:.72rem;font-weight:800;color:var(--gold);}
+.timer-label{font-family:Inter,sans-serif;font-size:.8rem;font-weight:700;color:var(--gold);}
+.q-text{font-size:1.1rem;font-weight:700;line-height:1.65;color:#fff;margin-bottom:22px;}
+.options{display:flex;flex-direction:column;gap:8px;}
+.opt{display:flex;align-items:center;gap:12px;padding:13px 16px;border-radius:14px;cursor:pointer;font-size:.93rem;font-weight:500;transition:all .12s;border:1.5px solid rgba(255,255,255,.07);background:rgba(255,255,255,.04);}
+.opt:hover:not(.disabled){background:rgba(200,212,0,.07);border-color:rgba(200,212,0,.35);transform:translateX(4px);}
+.opt.correct{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.5);}
+.opt.wrong{background:rgba(239,68,68,.07);border-color:rgba(239,68,68,.3);opacity:.6;}
+.opt.disabled{cursor:default;}
+.opt-k{flex-shrink:0;width:28px;height:28px;border-radius:8px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.2);display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-size:.78rem;font-weight:800;color:var(--gold);}
+.opt.correct .opt-k{background:rgba(16,185,129,.2);border-color:var(--ok);color:var(--ok);}
+.opt.wrong .opt-k{background:rgba(239,68,68,.15);border-color:var(--ko);color:var(--ko);}
+.opt-end{margin-left:auto;}
+.feedback{margin-top:16px;padding:14px 16px;border-radius:14px;font-size:.87rem;font-weight:600;line-height:1.5;}
+.feedback.ok{background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);color:#6ee7b7;}
+.feedback.ko{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);color:#fca5a5;}
+.ref{font-size:.72rem;color:var(--muted);font-weight:400;font-style:italic;margin-top:4px;}
+.bottom{display:flex;align-items:center;justify-content:space-between;}
+.flags{display:flex;align-items:center;gap:8px;}
+.flags span{font-size:1.3rem;}
+.school{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;display:block;margin-top:2px;}
+.btn-cta{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:12px 22px;font-family:Lexend,sans-serif;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.25);transition:all .15s;}
+.btn-cta:hover{background:var(--gold2);transform:translateY(-1px);}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.75rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+.btn-cta:disabled{opacity:.4;cursor:default;transform:none;}
+.end-screen{display:none;flex-direction:column;align-items:center;text-align:center;gap:16px;padding:32px 0;}
+.end-trophy{font-size:4rem;animation:pop .4s ease;}
+@keyframes pop{0%{transform:scale(0);}80%{transform:scale(1.15);}100%{transform:scale(1);}}
+.end-title{font-family:Inter,sans-serif;font-weight:900;font-size:2rem;letter-spacing:-1.5px;}
+.end-score{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);letter-spacing:-2px;}
+.end-rank{font-size:1rem;font-weight:600;color:var(--muted);margin-top:-8px;}
+.end-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;margin-top:8px;}
+.stat-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:16px;text-align:center;}
+.stat-n{font-family:Inter,sans-serif;font-size:1.8rem;font-weight:900;color:var(--gold);}
+.stat-l{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:2px;}
+.btn-restart{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:14px 32px;font-family:Lexend,sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.3);transition:all .15s;margin-top:8px;}
+.btn-restart:hover{background:var(--gold2);transform:translateY(-2px);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+  <div class="header">
+    <div class="logo-row">
+      <div class="pill-tag">📈 Economia</div>
+      <div class="game-name">Economia<em>Quiz</em></div>
+      <div class="subtitle">★ · Classe I · Domanda & Offerta</div>
+    </div>
+    <div class="score-block">
+      <div class="score-num" id="scoreNum">0</div>
+      <div class="score-label">punti</div>
+    </div>
+  </div>
+  <div id="gameArea">
+    <div class="prog-wrap" id="progWrap"></div>
+    <div class="qcard">
+      <div class="card-header">
+        <span class="q-num" id="qNum">Domanda 01</span>
+        <div class="timer-pill">
+          <div class="timer-ring">
+            <svg width="28" height="28" viewBox="0 0 28 28">
+              <circle class="t-bg" cx="14" cy="14" r="11" fill="none" stroke-width="2.5"/>
+              <circle class="t-fg" id="timerArc" cx="14" cy="14" r="11" fill="none" stroke-width="2.5" stroke-dasharray="69.1" stroke-dashoffset="0"/>
+            </svg>
+            <div class="timer-n" id="timerN">15</div>
+          </div>
+          <span class="timer-label" id="timerLabel">15s</span>
+        </div>
+      </div>
+      <div id="scenario"></div>
+      <div class="q-text" id="qText"></div>
+      <div class="options" id="options"></div>
+      <div id="feedback"></div>
+    </div>
+    <div class="bottom">
+      <div class="flags"><a class="back-link" href="index.html">← Menu</a><span>🇮🇹</span><span>🇪🇺</span><span class="school">Galileo Ferraris · Trieste</span></div>
+      <button class="btn-cta" id="btnNext" disabled onclick="nextQ()">Continua →</button>
+    </div>
+  </div>
+  <div class="end-screen" id="endScreen">
+    <div class="end-trophy" id="endTrophy">📈</div>
+    <div class="end-title">Partita completata!</div>
+    <div class="end-score" id="endScore">0</div>
+    <div class="end-rank" id="endRank">Rango: Stagista</div>
+    <div class="end-stats">
+      <div class="stat-box"><div class="stat-n" id="statCorr">0</div><div class="stat-l">✓ Corrette</div></div>
+      <div class="stat-box"><div class="stat-n" id="statStreak">0</div><div class="stat-l">🔥 Max streak</div></div>
+      <div class="stat-box"><div class="stat-n" id="statTime">0s</div><div class="stat-l">⏱ Tempo medio</div></div>
+      <div class="stat-box"><div class="stat-n" id="statAcc">0%</div><div class="stat-l">🎯 Precisione</div></div>
+    </div>
+    <button class="btn-restart" onclick="restart()">🎮 Gioca ancora</button>
+  </div>
+</div>
+<script>
+const BANCO=[
+  {cat:"📈 Domanda",sc:"Il prezzo della pizza aumenta da 5€ a 8€.",q:"Cosa succede alla quantità domandata di pizza (a parità di altri fattori)?",o:["Aumenta","Diminuisce","Rimane invariata","Raddoppia"],c:1,s:"§7 Domanda"},
+  {cat:"📉 Offerta",sc:null,q:"La curva di offerta ha normalmente pendenza positiva perché:",o:["All'aumentare del prezzo i produttori offrono di più","All'aumentare del prezzo i consumatori comprano di più","I costi diminuiscono con la produzione","Il Governo impone un prezzo minimo"],c:0,s:"§7 Offerta"},
+  {cat:"⚖️ Equilibrio",sc:"Mercato delle mele: la domanda è 100 kg/settimana, l'offerta è 100 kg/settimana al prezzo di 2€/kg.",q:"Questo prezzo è:",o:["Troppo alto","Il prezzo di equilibrio","Troppo basso","Un prezzo di monopolio"],c:1,s:"§7 Equilibrio"},
+  {cat:"🏠 Beni",sc:null,q:"Un bene inferiore è un bene la cui domanda:",o:["Aumenta all'aumentare del reddito","Diminuisce all'aumentare del reddito","Non varia mai","Dipende solo dal prezzo del bene stesso"],c:1,s:"§7 Tipi di beni"},
+  {cat:"🤝 Beni complementari",sc:"Quando il prezzo della benzina aumenta molto.",q:"Cosa succede in genere alla domanda di automobili?",o:["Aumenta","Diminuisce","Rimane uguale","Dipende dalla stagione"],c:1,s:"§7 Beni complementari"},
+  {cat:"🔄 Beni sostituti",sc:"Il prezzo del caffè al bar aumenta sensibilmente.",q:"Probabilmente la domanda di tè:",o:["Diminuisce","Aumenta","Rimane invariata","Dipende dall'orario"],c:1,s:"§7 Beni sostituti"},
+  {cat:"👥 Soggetti economici",sc:null,q:"Quale soggetto economico svolge principalmente il ruolo di consumatore e offerente di lavoro?",o:["L'impresa","La famiglia","Lo Stato","La banca centrale"],c:1,s:"§8 Soggetti economici"},
+  {cat:"🏭 Soggetti economici",sc:null,q:"Le imprese nell'economia svolgono principalmente il ruolo di:",o:["Consumatori finali","Produttori di beni e servizi","Regolatori del mercato","Risparmiatori"],c:1,s:"§8 Soggetti economici"},
+  {cat:"💰 Reddito e domanda",sc:null,q:"Quando il reddito delle famiglie aumenta, la domanda di beni normali:",o:["Diminuisce","Aumenta","Rimane invariata","Diventa zero"],c:1,s:"§7 Domanda"},
+  {cat:"🌍 Mercato",sc:null,q:"In un mercato di concorrenza perfetta:",o:["Un solo produttore fissa il prezzo","Molti produttori vendono prodotti omogenei","Pochi produttori si accordano sui prezzi","Lo Stato fissa i prezzi"],c:1,s:"§7 Mercati"},
+  {cat:"📊 Elasticità",sc:null,q:"Un bene con domanda rigida (inelastica) è caratterizzato da:",o:["Grande variazione della domanda al variare del prezzo","Piccola variazione della domanda al variare del prezzo","Domanda sempre zero","Prezzo fisso"],c:1,s:"§7 Elasticità"},
+  {cat:"🏢 Monopolio",sc:null,q:"In un mercato monopolistico il produttore può:",o:["Fissare il prezzo a piacimento","Essere esposto alla libera concorrenza","Non determinare la quantità prodotta","Non avere profitti"],c:0,s:"§7 Monopolio"},
+  {cat:"📦 Beni",sc:null,q:"I beni economici sono scarsi perché:",o:["Non sono utili","Sono disponibili in quantità limitata rispetto ai bisogni","Sono prodotti dallo Stato","Non possono essere trasportati"],c:1,s:"§6 Beni"},
+  {cat:"🤔 Bisogni",sc:null,q:"I bisogni economici sono caratterizzati da:",o:["Limitatezza nel numero","Illimitatezza, universalità e risorgività","Solo urgenza","Solo specificità"],c:1,s:"§6 Bisogni"},
+  {cat:"📉 Domanda",sc:"La moda dei jeans a zampa d'elefante torna di tendenza.",q:"Cosa succede alla domanda di jeans a zampa d'elefante?",o:["Diminuisce","Aumenta","Rimane invariata","Diventa negativa"],c:1,s:"§7 Domanda"},
+  {cat:"🌐 Resto del mondo",sc:null,q:"Il 'Resto del mondo' come soggetto economico comprende:",o:["Solo i Paesi poveri","Gli altri Paesi con cui si hanno scambi economici","Solo i Paesi dell'UE","Le ONG internazionali"],c:1,s:"§8 Soggetti economici"},
+  {cat:"⚖️ Equilibrio",sc:"In un mercato, l'offerta supera la domanda al prezzo corrente.",q:"Ci sarà tendenzialmente:",o:["Aumento del prezzo","Diminuzione del prezzo","Nessuna variazione del prezzo","Intervento dello Stato"],c:1,s:"§7 Equilibrio"},
+  {cat:"📈 Offerta",sc:null,q:"Quando il costo delle materie prime aumenta, l'offerta del prodotto finale tende a:",o:["Aumentare","Diminuire","Restare uguale","Raddoppiare"],c:1,s:"§7 Offerta"},
+  {cat:"💡 Elasticità",sc:null,q:"Un bene con domanda molto elastica è un bene:",o:["Essenziale come il sale","Facilmente sostituibile, come una marca di yogurt","Sempre richiesto","Prodotto dallo Stato"],c:1,s:"§7 Elasticità"},
+  {cat:"🔗 Complementari",sc:null,q:"Stampanti e cartucce sono un esempio di beni:",o:["Sostituti","Complementari","Inferiori","Normali indipendenti"],c:1,s:"§7 Beni complementari"},
+  {cat:"🏠 Beni normali",sc:null,q:"Un bene normale è un bene la cui domanda:",o:["Diminuisce al crescere del reddito","Aumenta al crescere del reddito","Non varia mai","Dipende solo dal clima"],c:1,s:"§7 Tipi di beni"},
+  {cat:"📦 Scorte",sc:"I negozi hanno troppe scorte di ombrelli a fine estate.",q:"Per ridurre le scorte, il negoziante probabilmente:",o:["Aumenta il prezzo","Abbassa il prezzo","Smette di vendere ombrelli","Aspetta l'anno prossimo"],c:1,s:"§7 Equilibrio"},
+  {cat:"👥 Famiglie",sc:null,q:"Le famiglie offrono sul mercato principalmente:",o:["Beni di consumo","Lavoro e risparmio","Servizi pubblici","Materie prime"],c:1,s:"§8 Soggetti economici"},
+  {cat:"🏭 Imprese",sc:null,q:"Un'impresa acquista materie prime e le trasforma in prodotti finiti. Questo processo si chiama:",o:["Consumo","Produzione","Distribuzione","Importazione"],c:1,s:"§8 Soggetti economici"},
+  {cat:"💰 Prezzi",sc:null,q:"Quando domanda e offerta sono in equilibrio, eventuali eccessi di domanda portano:",o:["I prezzi a scendere","I prezzi a salire","Nessuna variazione","L'uscita delle imprese dal mercato"],c:1,s:"§7 Equilibrio"},
+  {cat:"📊 Mercato",sc:null,q:"Un mercato oligopolistico è caratterizzato da:",o:["Un solo produttore","Molti piccoli produttori","Pochi grandi produttori","Nessun produttore locale"],c:2,s:"§7 Mercati"},
+  {cat:"🌍 Importazioni",sc:null,q:"Quando l'Italia acquista beni dall'estero, si parla di:",o:["Esportazioni","Importazioni","Investimenti","Consumi interni"],c:1,s:"§8 Soggetti economici"},
+  {cat:"💡 Bisogni",sc:null,q:"Un bisogno 'risorgivo' significa che:",o:["Nasce una sola volta","Si ripresenta periodicamente nel tempo","Non può essere soddisfatto","È urgente e immediato"],c:1,s:"§6 Bisogni"},
+  {cat:"🤝 Scambio",sc:null,q:"Il mercato è il luogo (fisico o virtuale) dove avviene:",o:["Solo la produzione di beni","L'incontro tra domanda e offerta","Solo l'intervento dello Stato","La distribuzione gratuita di beni"],c:1,s:"§7 Mercato"},
+  {cat:"📈 Curva",sc:null,q:"Muovendosi lungo la curva di domanda verso destra-basso, il prezzo:",o:["Aumenta","Diminuisce","Rimane costante","Diventa negativo"],c:1,s:"§7 Domanda"},
+  {cat:"🏢 Stato",sc:null,q:"Quando lo Stato fornisce istruzione pubblica, agisce come:",o:["Consumatore finale","Produttore di servizi pubblici","Importatore","Speculatore"],c:1,s:"§8 Soggetti economici"},
+  {cat:"💹 Reddito",sc:null,q:"I mezzi di pagamento (reddito) che le famiglie ricevono in cambio del lavoro si chiamano:",o:["Profitti","Salari/stipendi","Rendite","Interessi"],c:1,s:"§8 Soggetti economici"},
+  {cat:"🔄 Circuito",sc:null,q:"Nel circuito economico, le famiglie forniscono lavoro alle imprese e in cambio ricevono:",o:["Beni di consumo","Redditi (salari)","Sussidi statali","Materie prime"],c:1,s:"§8 Soggetti economici"},
+  {cat:"📉 Surplus",sc:null,q:"Quando il prezzo di mercato è superiore al prezzo di equilibrio, si crea:",o:["Eccesso di domanda","Eccesso di offerta (surplus)","Equilibrio perfetto","Inflazione"],c:1,s:"§7 Equilibrio"},
+  {cat:"📊 Elasticità",sc:null,q:"Quale prodotto ha probabilmente la domanda più rigida (inelastica)?",o:["Viaggi di lusso","Pane e sale","Abbigliamento di moda","Console videogiochi"],c:1,s:"§7 Elasticità"},
+  {cat:"🌐 Globalizzazione",sc:null,q:"La globalizzazione ha portato un aumento degli scambi tra il soggetto economico 'Resto del mondo' e i Paesi. Questo ha in genere:",o:["Ridotto la concorrenza","Aumentato la varietà di beni disponibili","Eliminato le imprese locali","Bloccato i consumi"],c:1,s:"§8 Soggetti economici"},
+  {cat:"💰 Prezzo",sc:null,q:"Il prezzo di equilibrio è determinato da:",o:["Il Governo","L'incontro tra domanda e offerta","Solo dai produttori","Solo dai consumatori"],c:1,s:"§7 Equilibrio"},
+  {cat:"🤔 Scarsità",sc:null,q:"La scarsità dei beni economici rispetto ai bisogni umani è il fondamento della:",o:["Sociologia","Scienza economica","Storia","Geografia"],c:1,s:"§6 Economia"},
+  {cat:"🔗 Interdipendenza",sc:"Il prezzo della benzina aumenta del 50%.",q:"Cosa succede alla domanda di automobili (bene complementare)?",o:["Aumenta","Diminuisce","Rimane identica","Dipende dalla stagione"],c:1,s:"§7 Beni complementari"},
+  {cat:"🏭 Produzione",sc:null,q:"I fattori della produzione classici sono:",o:["Domanda, offerta, prezzo","Terra, lavoro, capitale","Famiglie, imprese, Stato","Export, import, PIL"],c:1,s:"§8 Produzione"},
+  {cat:"📈 Mercato",sc:null,q:"Un mercato è 'contendibile' quando:",o:["Ci sono barriere all'entrata altissime","Nuove imprese possono entrare facilmente","Solo lo Stato può operarvi","I prezzi sono fissi"],c:1,s:"§7 Mercati"},
+  {cat:"💡 Utilità",sc:null,q:"L'utilità marginale di un bene tende a diminuire perché:",o:["Il bene diventa più costoso","Ogni unità aggiuntiva soddisfa sempre meno il bisogno","Il reddito aumenta","L'offerta aumenta"],c:1,s:"§7 Domanda"},
+  {cat:"🔄 Flusso",sc:null,q:"Il flusso reale nell'economia comprende:",o:["Flussi di denaro","Flussi di beni, servizi e fattori produttivi","Solo le esportazioni","Solo i consumi familiari"],c:1,s:"§8 Circuito economico"},
+  {cat:"📦 Beni pubblici",sc:null,q:"Un bene pubblico come una strada è caratterizzato da:",o:["Rivalità nel consumo e escludibilità","Non rivalità e non escludibilità","Prezzo di mercato elevato","Offerta privata"],c:1,s:"§8 Soggetti economici"},
+  {cat:"💰 Potere d'acquisto",sc:null,q:"Quando l'inflazione aumenta, il potere d'acquisto delle famiglie:",o:["Aumenta","Diminuisce","Rimane invariato","Raddoppia"],c:1,s:"§7 Prezzi"},
+  {cat:"🌍 Commercio",sc:null,q:"Un Paese esporta beni che produce con vantaggio comparato. Questo porta a:",o:["Riduzione del commercio","Specializzazione e benefici per entrambi i Paesi","Dazi elevati","Protezionismo"],c:1,s:"§8 Resto del mondo"},
+  {cat:"🏢 Intervento statale",sc:null,q:"Il Governo può intervenire nel mercato per:",o:["Solo raccogliere tasse","Correggere fallimenti del mercato e redistribuire reddito","Solo regolamentare le banche","Solo stabilire i prezzi"],c:1,s:"§8 Stato"},
+  {cat:"📊 Concorrenza",sc:null,q:"In un mercato di libera concorrenza, il prezzo tende verso:",o:["Il prezzo di monopolio","Il costo di produzione (minimo economico)","Il prezzo fisso dello Stato","Il prezzo massimo possibile"],c:1,s:"§7 Mercati"},
+  {cat:"🤝 Specializzazione",sc:null,q:"La specializzazione produttiva porta le imprese a:",o:["Produrre di tutto","Concentrarsi su ciò che fanno meglio, aumentando l'efficienza","Ridurre i profitti","Aumentare i costi"],c:1,s:"§8 Produzione"},
+  {cat:"🌐 Economia aperta",sc:null,q:"In un'economia aperta, il PIL include anche:",o:["Solo i consumi interni","Esportazioni nette (export - import)","Solo gli investimenti","Solo la spesa pubblica"],c:1,s:"§8 Resto del mondo"},
+];
+
+const TIMER_S=15;const CIRCUMFERENCE=69.1;
+let questions=[],qi=0,score=0,correct=0,streak=0,maxStreak=0,answered=false,timeLeft=TIMER_S,timerInterval=null,totalTime=0;
+let currentCi=0,currentShuffled=[];
+function shuffle(a){return a.sort(()=>Math.random()-.5);}
+function buildProgress(){const w=document.getElementById('progWrap');w.innerHTML='';for(let i=0;i<10;i++){const d=document.createElement('div');d.className='prog-dot'+(i<qi?' done':i===qi?' current':'');w.appendChild(d);}}
+function startTimer(){timeLeft=TIMER_S;updateTimerUI();timerInterval=setInterval(()=>{timeLeft--;updateTimerUI();if(timeLeft<=0){clearInterval(timerInterval);autoTimeout();}},1000);}
+function updateTimerUI(){const o=CIRCUMFERENCE*(1-timeLeft/TIMER_S);document.getElementById('timerArc').style.strokeDashoffset=o;document.getElementById('timerN').textContent=timeLeft;document.getElementById('timerLabel').textContent=timeLeft+'s';document.getElementById('timerArc').style.stroke=timeLeft>5?'var(--gold)':'#ef4444';}
+function autoTimeout(){if(answered)return;answered=true;streak=0;totalTime+=TIMER_S;const opts=document.querySelectorAll('.opt');opts.forEach(o=>o.classList.add('disabled'));opts[currentCi].classList.add('correct');document.getElementById('feedback').innerHTML=`<div class="feedback ko">⏰ Tempo scaduto! La risposta corretta era: <strong>${currentShuffled[currentCi].t}</strong><div class="ref">${questions[qi].s}</div></div>`;document.getElementById('btnNext').disabled=false;}
+function loadQ(){
+  answered=false;clearInterval(timerInterval);
+  const q=questions[qi];
+  document.getElementById('qNum').textContent=`Domanda ${String(qi+1).padStart(2,'0')} · ${q.cat}`;
+  document.getElementById('qText').textContent=q.q;
+  document.getElementById('feedback').innerHTML='';document.getElementById('btnNext').disabled=true;
+  const sc=document.getElementById('scenario');
+  if(q.sc){sc.innerHTML=`<div class="scenario"><div class="scenario-label">📋 Scenario</div>${q.sc}</div>`;}else{sc.innerHTML='';}
+  buildProgress();
+  currentShuffled=q.o.map((t,i)=>({t,i})).sort(()=>Math.random()-.5);
+  currentCi=currentShuffled.findIndex(x=>x.i===q.c);
+  const keys=['A','B','C','D'];
+  const container=document.getElementById('options');container.innerHTML='';
+  currentShuffled.forEach((item,si)=>{const div=document.createElement('div');div.className='opt';div.innerHTML=`<div class="opt-k">${keys[si]}</div>${item.t}<span class="opt-end"></span>`;div.addEventListener('click',()=>answer(si,currentCi,currentShuffled));container.appendChild(div);});
+  startTimer();
+}
+function answer(si,ci,shuffled){
+  if(answered)return;answered=true;clearInterval(timerInterval);
+  const elapsed=TIMER_S-timeLeft;totalTime+=elapsed;
+  const opts=document.querySelectorAll('.opt');opts.forEach(o=>o.classList.add('disabled'));
+  const isOk=si===ci;
+  if(isOk){opts[si].classList.add('correct');opts[si].querySelector('.opt-end').textContent='✓';const pts=Math.max(5,10+Math.round((timeLeft/TIMER_S)*10))+(streak>=2?3:0);score+=pts;correct++;streak++;maxStreak=Math.max(maxStreak,streak);document.getElementById('scoreNum').textContent=score;document.getElementById('feedback').innerHTML=`<div class="feedback ok">✅ <strong>Esatto! +${pts} punti${streak>=2?' 🔥':''}</strong><div class="ref">${questions[qi].s}</div></div>`;}
+  else{opts[si].classList.add('wrong');opts[si].querySelector('.opt-end').textContent='✗';opts[ci].classList.add('correct');streak=0;document.getElementById('feedback').innerHTML=`<div class="feedback ko">❌ Sbagliato. Corretta: <strong>${shuffled[ci].t}</strong><div class="ref">${questions[qi].s}</div></div>`;}
+  document.getElementById('btnNext').disabled=false;
+}
+function nextQ(){qi++;if(qi>=10){endGame();return;}loadQ();}
+function endGame(){document.getElementById('gameArea').style.display='none';const es=document.getElementById('endScreen');es.style.display='flex';const rank=score>=80?['🌟','Economista stellare']:score>=50?['📈','Analista']:['📊','Stagista'];document.getElementById('endTrophy').textContent=rank[0];document.getElementById('endScore').textContent=score;document.getElementById('endRank').textContent='Rango: '+rank[1];document.getElementById('statCorr').textContent=correct+'/10';document.getElementById('statStreak').textContent=maxStreak;document.getElementById('statTime').textContent=Math.round(totalTime/10)+'s';document.getElementById('statAcc').textContent=Math.round(correct*10)+'%';}
+function restart(){score=0;correct=0;streak=0;maxStreak=0;qi=0;totalTime=0;document.getElementById('scoreNum').textContent='0';document.getElementById('endScreen').style.display='none';document.getElementById('gameArea').style.display='block';questions=shuffle([...BANCO]).slice(0,10);loadQ();}
+questions=shuffle([...BANCO]).slice(0,10);loadQ();
+</script>
+</body>
+</html>

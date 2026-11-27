@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lex Quiz · Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--ko:#ef4444;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;position:relative;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%) rotate(0deg);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;animation-delay:0s;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-24px) scale(1.04);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:580px;padding:0 16px 48px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.header{padding:22px 0 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.logo-row{display:flex;flex-direction:column;gap:6px;}
+.pill-tag{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;border-radius:999px;background:rgba(200,212,0,.12);border:1px solid rgba(200,212,0,.3);font-size:.68rem;font-weight:700;letter-spacing:1.5px;color:var(--gold2);text-transform:uppercase;}
+.game-name{font-family:Inter,sans-serif;font-weight:900;font-size:2.4rem;letter-spacing:-2px;line-height:.9;color:var(--white);}
+.game-name em{font-style:normal;color:var(--gold);}
+.subtitle{font-size:.72rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px;}
+.score-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;}
+.score-num{font-family:Inter,sans-serif;font-size:2.8rem;font-weight:900;line-height:1;color:var(--gold);letter-spacing:-2px;}
+.score-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+.rank-pill{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.3);font-size:.72rem;font-weight:700;color:var(--gold);letter-spacing:.5px;margin-top:4px;}
+.prog-wrap{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-bottom:14px;}
+.prog-dot{height:4px;border-radius:2px;background:rgba(255,255,255,.1);transition:background .3s;}
+.prog-dot.done{background:var(--c3);}
+.prog-dot.current{background:var(--gold);}
+.streak-bar{display:flex;align-items:center;gap:8px;margin-bottom:16px;}
+.streak-label{font-size:.7rem;font-weight:700;color:var(--gold);letter-spacing:1px;text-transform:uppercase;}
+.streak-dots{display:flex;gap:4px;}
+.sd{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.12);}
+.sd.on{background:var(--gold);box-shadow:0 0 6px var(--gold);}
+.qcard{position:relative;background:var(--glass);border:1px solid var(--glass-border);border-radius:24px;padding:26px 24px 22px;overflow:hidden;margin-bottom:20px;}
+.qcard::after{content:'';position:absolute;top:0;left:24px;right:24px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.4;}
+.card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;}
+.q-num{font-size:.7rem;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;}
+.timer-pill{display:flex;align-items:center;gap:7px;background:rgba(200,212,0,.08);border:1px solid rgba(200,212,0,.2);border-radius:999px;padding:5px 12px 5px 7px;}
+.timer-ring{position:relative;width:28px;height:28px;}
+.timer-ring svg{transform:rotate(-90deg);}
+.t-bg{stroke:rgba(255,255,255,.08);}
+.t-fg{stroke:var(--gold);stroke-linecap:round;transition:stroke-dashoffset .9s linear;}
+.timer-n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-size:.72rem;font-weight:800;color:var(--gold);}
+.timer-label{font-family:Inter,sans-serif;font-size:.8rem;font-weight:700;color:var(--gold);}
+.q-text{font-size:1.1rem;font-weight:700;line-height:1.65;color:#ffffff;margin-bottom:22px;}
+.options{display:flex;flex-direction:column;gap:8px;}
+.opt{display:flex;align-items:center;gap:12px;padding:13px 16px;border-radius:14px;cursor:pointer;font-size:.93rem;font-weight:500;transition:transform .12s,background .12s,border-color .12s;border:1.5px solid rgba(255,255,255,.07);background:rgba(255,255,255,.04);}
+.opt:hover:not(.disabled){background:rgba(200,212,0,.07);border-color:rgba(200,212,0,.35);transform:translateX(4px);}
+.opt.correct{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.5);}
+.opt.wrong{background:rgba(239,68,68,.07);border-color:rgba(239,68,68,.3);opacity:.6;}
+.opt.disabled{cursor:default;}
+.opt-k{flex-shrink:0;width:28px;height:28px;border-radius:8px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.2);display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-size:.78rem;font-weight:800;color:var(--gold);}
+.opt.correct .opt-k{background:rgba(16,185,129,.2);border-color:var(--ok);color:var(--ok);}
+.opt.wrong .opt-k{background:rgba(239,68,68,.15);border-color:var(--ko);color:var(--ko);}
+.opt-end{margin-left:auto;font-size:.95rem;}
+.feedback{display:flex;align-items:flex-start;gap:10px;margin-top:16px;padding:14px 16px;border-radius:14px;font-size:.87rem;font-weight:600;line-height:1.5;}
+.feedback.ok{background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);color:#6ee7b7;}
+.feedback.ko{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);color:#fca5a5;}
+.fi{font-size:1rem;flex-shrink:0;margin-top:1px;}
+.ref{font-size:.72rem;color:var(--muted);font-weight:400;font-style:italic;margin-top:4px;}
+.bottom{display:flex;align-items:center;justify-content:space-between;margin-top:4px;}
+.flags{display:flex;align-items:center;gap:8px;}
+.flags span{font-size:1.3rem;}
+.school{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;display:block;margin-top:2px;}
+.btn-cta{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:12px 22px;font-family:Lexend,sans-serif;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.25);transition:all .15s;}
+.btn-cta:hover{background:var(--gold2);box-shadow:0 0 32px rgba(200,212,0,.45);transform:translateY(-1px);}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.75rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+.btn-cta:disabled{opacity:.4;cursor:default;transform:none;}
+
+/* SCHERMATA FINALE */
+.end-screen{display:none;flex-direction:column;align-items:center;text-align:center;gap:16px;padding:32px 0;}
+.end-trophy{font-size:4rem;animation:pop .4s ease;}
+@keyframes pop{0%{transform:scale(0);}80%{transform:scale(1.15);}100%{transform:scale(1);}}
+.end-title{font-family:Inter,sans-serif;font-weight:900;font-size:2rem;letter-spacing:-1.5px;}
+.end-score{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);letter-spacing:-2px;}
+.end-rank{font-size:1rem;font-weight:600;color:var(--muted);margin-top:-8px;}
+.end-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;margin-top:8px;}
+.stat-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:16px;text-align:center;}
+.stat-n{font-family:Inter,sans-serif;font-size:1.8rem;font-weight:900;color:var(--gold);}
+.stat-l{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:2px;}
+.btn-restart{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:14px 32px;font-family:Lexend,sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.3);transition:all .15s;margin-top:8px;}
+.btn-restart:hover{background:var(--gold2);transform:translateY(-2px);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+
+  <div class="header">
+    <div class="logo-row">
+      <div class="pill-tag">⚖️ Diritto ed Economia</div>
+      <div class="game-name">Lex<em>Quiz</em></div>
+      <div class="subtitle" id="subtitle">★ · Classe I · 10 domande</div>
+    </div>
+    <div class="score-block">
+      <div class="score-num" id="scoreNum">0</div>
+      <div class="score-label">punti</div>
+      <div class="rank-pill" id="rankPill">🏛 Cittadino</div>
+    </div>
+  </div>
+
+  <!-- GIOCO -->
+  <div id="gameArea">
+    <div class="prog-wrap" id="progWrap"></div>
+    <div class="streak-bar">
+      <div class="streak-label">🔥 Streak</div>
+      <div class="streak-dots" id="streakDots"></div>
+      <span id="streakCount" style="font-size:.7rem;color:var(--muted);">0 consecutive</span>
+    </div>
+    <div class="qcard" id="qcard">
+      <div class="card-header">
+        <span class="q-num" id="qNum">Domanda 01</span>
+        <div class="timer-pill">
+          <div class="timer-ring">
+            <svg width="28" height="28" viewBox="0 0 28 28">
+              <circle class="t-bg" cx="14" cy="14" r="11" fill="none" stroke-width="2.5"/>
+              <circle class="t-fg" id="timerArc" cx="14" cy="14" r="11" fill="none" stroke-width="2.5" stroke-dasharray="69.1" stroke-dashoffset="0"/>
+            </svg>
+            <div class="timer-n" id="timerN">15</div>
+          </div>
+          <span class="timer-label" id="timerLabel">15s</span>
+        </div>
+      </div>
+      <div class="q-text" id="qText"></div>
+      <div class="options" id="options"></div>
+      <div id="feedback"></div>
+    </div>
+    <div class="bottom">
+      <div class="flags"><a class="back-link" href="index.html">← Menu</a><span>🇮🇹</span><span>🇪🇺</span><span class="school">Galileo Ferraris · Trieste</span></div>
+      <button class="btn-cta" id="btnNext" disabled onclick="nextQ()">Continua →</button>
+    </div>
+  </div>
+
+  <!-- FINE -->
+  <div class="end-screen" id="endScreen">
+    <div class="end-trophy" id="endTrophy">🏛</div>
+    <div class="end-title">Partita completata!</div>
+    <div class="end-score" id="endScore">0</div>
+    <div class="end-rank" id="endRank">Rango: Cittadino</div>
+    <div class="end-stats">
+      <div class="stat-box"><div class="stat-n" id="statCorr">0</div><div class="stat-l">✓ Corrette</div></div>
+      <div class="stat-box"><div class="stat-n" id="statStreak">0</div><div class="stat-l">🔥 Max streak</div></div>
+      <div class="stat-box"><div class="stat-n" id="statTime">0s</div><div class="stat-l">⏱ Tempo medio</div></div>
+      <div class="stat-box"><div class="stat-n" id="statAcc">0%</div><div class="stat-l">🎯 Precisione</div></div>
+    </div>
+    <button class="btn-restart" onclick="restart()">🎮 Gioca ancora</button>
+  </div>
+
+</div>
+
+<script>
+const BANCO = [
+  // === NORMA GIURIDICA ===
+  {q:"Quale carattere della norma giuridica indica che si rivolge a una categoria indeterminata di soggetti e non a una persona specifica?",o:["Coattività","Generalità","Bilateralità","Astrattezza"],c:1,s:"§1 Norma giuridica"},
+  {q:"La norma giuridica è 'astratta' perché:",o:["È emanata dallo Stato","Disciplina un tipo di fatto, non un caso concreto","Può essere violata","Tutela interessi privati"],c:1,s:"§1 Norma giuridica"},
+  {q:"Il carattere della 'coattività' della norma giuridica significa che:",o:["Vale per tutti i cittadini","Può essere imposta con la forza dallo Stato","È scritta in leggi formali","Tutela solo diritti soggettivi"],c:1,s:"§1 Norma giuridica"},
+  {q:"La 'bilateralità' di una norma giuridica indica che:",o:["La norma si applica due volte","A ogni dovere corrisponde un diritto altrui","La norma è approvata da due organi","È valida in due Stati"],c:1,s:"§1 Norma giuridica"},
+  {q:"Cosa distingue una norma giuridica da una norma morale?",o:["La norma morale è scritta","La norma giuridica è sanzionata dallo Stato","La norma morale vale per tutti","La norma giuridica riguarda solo i reati"],c:1,s:"§1 Norma giuridica"},
+  // === FONTI DEL DIRITTO ===
+  {q:"In cima alla gerarchia delle fonti del diritto italiano si trova:",o:["La legge ordinaria","Il regolamento","La Costituzione","Il decreto legislativo"],c:2,s:"§2 Fonti del diritto"},
+  {q:"Quale principio regola il conflitto tra una legge ordinaria e la Costituzione?",o:["Principio di specialità","Principio di cronologia","Principio di gerarchia","Principio di competenza"],c:2,s:"§2 Fonti del diritto"},
+  {q:"Il decreto legislativo è emanato:",o:["Dal Parlamento direttamente","Dal Governo su delega del Parlamento","Dal Presidente della Repubblica","Dalla Corte Costituzionale"],c:1,s:"§2 Fonti del diritto"},
+  {q:"Il decreto-legge può essere adottato dal Governo:",o:["Sempre, senza limiti","Solo in caso di necessità e urgenza","Solo in materia fiscale","Su proposta della Corte Costituzionale"],c:1,s:"§2 Fonti del diritto"},
+  {q:"I regolamenti sono fonti del diritto di tipo:",o:["Primario","Secondario (sub-legislativo)","Costituzionale","Comunitario"],c:1,s:"§2 Fonti del diritto"},
+  {q:"Il referendum abrogativo serve a:",o:["Approvare nuove leggi","Eliminare una legge esistente","Modificare la Costituzione","Eleggere il Presidente"],c:1,s:"§2 Fonti del diritto"},
+  {q:"La consuetudine è una fonte del diritto italiano?",o:["No, mai","Sì, è fonte primaria","Sì, ma solo nei casi previsti dalla legge o in sua mancanza","Sì, prevale sulla Costituzione"],c:2,s:"§2 Fonti del diritto"},
+  // === SOGGETTI DI DIRITTO ===
+  {q:"La capacità giuridica si acquista:",o:["Al compimento dei 18 anni","Alla nascita","Con il matrimonio","Con la laurea"],c:1,s:"§3 Soggetti di diritto"},
+  {q:"La capacità d'agire si acquista ordinariamente:",o:["Alla nascita","A 14 anni","A 18 anni","A 21 anni"],c:2,s:"§3 Soggetti di diritto"},
+  {q:"Un minore emancipato acquista la capacità d'agire:",o:["Piena come un adulto","Limitata a certi atti","Solo per atti di ordinaria amministrazione","Nessuna"],c:1,s:"§3 Soggetti di diritto"},
+  {q:"Le persone giuridiche sono soggetti di diritto?",o:["No, solo le persone fisiche lo sono","Sì, hanno capacità giuridica","Sì, ma solo le fondazioni","Dipende dal tipo di contratto"],c:1,s:"§3 Soggetti di diritto"},
+  {q:"L'interdizione giudiziale colpisce chi:",o:["È minore di età","Non ha la cittadinanza italiana","Non può provvedere ai propri interessi per infermità mentale","Ha subito una condanna penale"],c:2,s:"§3 Soggetti di diritto"},
+  // === STATO E COSTITUZIONE ===
+  {q:"I tre elementi costitutivi dello Stato sono:",o:["Governo, Parlamento, Corte Costituzionale","Popolo, Territorio, Sovranità","Presidente, Senato, Camera","Comuni, Province, Regioni"],c:1,s:"§4 Stato e Costituzione"},
+  {q:"La Costituzione italiana è entrata in vigore il:",o:["25 aprile 1945","2 giugno 1946","1° gennaio 1948","12 febbraio 1948"],c:2,s:"§4 Stato e Costituzione"},
+  {q:"Quanti articoli conta la Costituzione italiana?",o:["100","139","150","200"],c:1,s:"§4 Stato e Costituzione"},
+  {q:"I principi fondamentali della Costituzione sono contenuti negli articoli:",o:["1-12","1-18","13-28","1-54"],c:0,s:"§4 Stato e Costituzione"},
+  {q:"L'art. 1 della Costituzione afferma che la sovranità:",o:["Appartiene al Re","Appartiene al Parlamento","Appartiene al popolo","Appartiene al Governo"],c:2,s:"§4 Stato e Costituzione"},
+  {q:"La Costituzione italiana è definita 'rigida' perché:",o:["È molto lunga","Non può essere modificata","Può essere modificata solo con procedura aggravata","È scritta in modo complicato"],c:2,s:"§4 Stato e Costituzione"},
+  // === LIBERTÀ E UGUAGLIANZA ===
+  {q:"Il principio di uguaglianza formale è sancito dall'art. 3, comma 1. Cosa significa?",o:["Tutti hanno lo stesso reddito","Tutti sono uguali davanti alla legge","Lo Stato redistribuisce la ricchezza","Tutti hanno diritto allo stesso lavoro"],c:1,s:"§5 Libertà e uguaglianza"},
+  {q:"Il principio di uguaglianza sostanziale (art. 3 c.2) impone allo Stato di:",o:["Vietare ogni differenza tra cittadini","Rimuovere gli ostacoli di ordine economico e sociale","Garantire lo stesso stipendio a tutti","Non intervenire nell'economia"],c:1,s:"§5 Libertà e uguaglianza"},
+  {q:"La libertà personale (art. 13 Cost.) è:",o:["Assoluta e senza limiti","Inviolabile","Limitabile con semplice decreto ministeriale","Garantita solo ai cittadini"],c:1,s:"§5 Libertà e uguaglianza"},
+  {q:"La libertà di manifestazione del pensiero è garantita dall'art.:",o:["Art. 13","Art. 15","Art. 21","Art. 27"],c:2,s:"§5 Libertà e uguaglianza"},
+  // === ECONOMIA CLASSE I ===
+  {q:"I bisogni economici sono caratterizzati da:",o:["Illimitatezza e saziabilità","Illimitatezza, universalità e risorgività","Limitatezza e specificità","Unicità e urgenza"],c:1,s:"§6 Bisogni economici"},
+  {q:"I beni economici sono scarsi perché:",o:["Non sono utili","Sono disponibili in quantità limitata rispetto ai bisogni","Sono prodotti dallo Stato","Non possono essere venduti"],c:1,s:"§6 Bisogni economici"},
+  {q:"La domanda di un bene aumenta quando:",o:["Il prezzo del bene aumenta","Il reddito dei consumatori diminuisce","Il prezzo del bene diminuisce","Il prezzo dei beni complementari aumenta"],c:2,s:"§7 Domanda e offerta"},
+  {q:"La curva di offerta ha normalmente pendenza:",o:["Negativa","Verticale","Positiva","Orizzontale"],c:2,s:"§7 Domanda e offerta"},
+  {q:"Il prezzo di equilibrio è quello in cui:",o:["L'offerta supera la domanda","La domanda supera l'offerta","Domanda e offerta si eguagliano","Il governo fissa il prezzo"],c:2,s:"§7 Domanda e offerta"},
+  {q:"I soggetti economici fondamentali sono:",o:["Famiglie, Imprese, Stato, Resto del mondo","Solo famiglie e imprese","Governo, Banca, Mercato","Produttori e consumatori"],c:0,s:"§8 Soggetti economici"},
+  {q:"Le famiglie nell'economia svolgono principalmente il ruolo di:",o:["Produttori di beni","Consumatori e offerenti di lavoro","Regolatori del mercato","Esportatori"],c:1,s:"§8 Soggetti economici"},
+  {q:"Un bene inferiore è un bene la cui domanda:",o:["Aumenta all'aumentare del reddito","Diminuisce all'aumentare del reddito","Rimane stabile al variare del reddito","Dipende solo dal prezzo"],c:1,s:"§7 Domanda e offerta"},
+  {q:"Il mercato di concorrenza perfetta si caratterizza per:",o:["Pochi venditori e molti acquirenti","Un solo venditore","Molti venditori e acquirenti con prodotto omogeneo","Barriere all'entrata elevate"],c:2,s:"§7 Domanda e offerta"},
+  {q:"Cosa si intende per 'elasticità della domanda'?",o:["La flessibilità fisica del bene","La sensibilità della domanda al variare del prezzo","La velocità di produzione","Il numero di consumatori"],c:1,s:"§7 Domanda e offerta"},
+  {q:"Un bene complementare è un bene che:",o:["Sostituisce un altro bene","Si usa insieme a un altro bene","Ha lo stesso prezzo di un altro bene","È prodotto nello stesso luogo"],c:1,s:"§7 Domanda e offerta"},
+  {q:"Il diritto soggettivo è:",o:["Un dovere imposto dalla legge","Il potere riconosciuto dall'ordinamento a un soggetto per soddisfare un suo interesse","Una norma generale","Un divieto giuridico"],c:1,s:"§1 Norma giuridica"},
+  {q:"Le norme di diritto pubblico regolano:",o:["I rapporti tra privati","I rapporti tra lo Stato e i cittadini","Solo il diritto penale","Solo il diritto tributario"],c:1,s:"§1 Norma giuridica"},
+  {q:"L'Italia è una Repubblica parlamentare: il Parlamento:",o:["Nomina il Presidente del Consiglio direttamente","Ha funzione legislativa e dà la fiducia al Governo","Governa il Paese","È eletto dal Presidente della Repubblica"],c:1,s:"§4 Stato e Costituzione"},
+  {q:"La cittadinanza italiana si acquista principalmente:",o:["Per nascita (ius sanguinis)","Solo per residenza","Per acquisto di beni immobili","Per decreto ministeriale"],c:0,s:"§4 Stato e Costituzione"},
+  {q:"Qual è la differenza tra diritto pubblico e diritto privato?",o:["Il diritto pubblico è scritto, il privato no","Il diritto pubblico regola rapporti con lo Stato, il privato tra privati","Non c'è differenza","Il diritto privato è più importante"],c:1,s:"§1 Norma giuridica"},
+  {q:"La sanzione giuridica serve a:",o:["Premiare chi rispetta la norma","Garantire l'osservanza della norma attraverso la coercizione","Interpretare la norma","Creare nuove norme"],c:1,s:"§1 Norma giuridica"},
+  {q:"L'art. 2 della Costituzione riconosce i diritti inviolabili:",o:["Solo dei cittadini italiani","Dell'uomo in quanto tale","Solo dei maggiorenni","Solo dei lavoratori"],c:1,s:"§5 Libertà e uguaglianza"},
+  {q:"Cosa si intende per 'pluralismo' nella Costituzione italiana?",o:["Un solo partito politico","La coesistenza di più partiti, associazioni e gruppi","L'elezione diretta del Presidente","La divisione in Regioni"],c:1,s:"§4 Stato e Costituzione"},
+  {q:"Il lavoro è tutelato dalla Costituzione italiana all'articolo:",o:["Art. 1","Art. 4","Art. 11","Art. 32"],c:1,s:"§5 Libertà e uguaglianza"},
+  {q:"Un'impresa in monopolio può:",o:["Fissare il prezzo a piacimento","Essere esposta alla concorrenza","Produrre qualsiasi bene","Non fissare prezzi"],c:0,s:"§7 Domanda e offerta"},
+];
+
+const RANKS=[
+  {min:0,name:"🏛 Cittadino",emoji:"🏛"},
+  {min:30,name:"⚖️ Giureconsulto",emoji:"⚖️"},
+  {min:60,name:"🏅 Senatore",emoji:"🏅"},
+  {min:85,name:"🌟 Presidente",emoji:"🌟"},
+];
+const TIMER_S=15;
+const CIRCUMFERENCE=69.1;
+
+let questions=[], qi=0, score=0, correct=0, streak=0, maxStreak=0, timers=[], answered=false, timeLeft=TIMER_S, timerInterval=null, totalTime=0;
+
+function shuffle(a){return a.sort(()=>Math.random()-.5);}
+function getRank(s){let r=RANKS[0];RANKS.forEach(x=>{if(s>=x.min)r=x;});return r;}
+
+function buildProgress(){
+  const w=document.getElementById('progWrap');
+  w.innerHTML='';
+  for(let i=0;i<10;i++){
+    const d=document.createElement('div');
+    d.className='prog-dot'+(i<qi?' done':i===qi?' current':'');
+    w.appendChild(d);
+  }
+}
+
+function buildStreak(){
+  const d=document.getElementById('streakDots');
+  d.innerHTML='';
+  for(let i=0;i<5;i++){
+    const s=document.createElement('div');
+    s.className='sd'+(i<streak?' on':'');
+    d.appendChild(s);
+  }
+  document.getElementById('streakCount').textContent=streak+' consecutive';
+}
+
+function startTimer(){
+  timeLeft=TIMER_S;
+  updateTimerUI();
+  timerInterval=setInterval(()=>{
+    timeLeft--;
+    updateTimerUI();
+    if(timeLeft<=0){clearInterval(timerInterval);autoTimeout();}
+  },1000);
+}
+
+function updateTimerUI(){
+  const offset=CIRCUMFERENCE*(1-timeLeft/TIMER_S);
+  document.getElementById('timerArc').style.strokeDashoffset=offset;
+  document.getElementById('timerN').textContent=timeLeft;
+  document.getElementById('timerLabel').textContent=timeLeft+'s';
+  const fg=document.getElementById('timerArc');
+  fg.style.stroke=timeLeft>5?'var(--gold)':'#ef4444';
+}
+
+let currentCorrectSi=0,currentShuffled=[];
+
+function autoTimeout(){
+  if(answered)return;
+  answered=true;
+  streak=0;
+  totalTime+=TIMER_S;
+  buildStreak();
+  const opts=document.querySelectorAll('.opt');
+  opts.forEach(o=>o.classList.add('disabled'));
+  opts[currentCorrectSi].classList.add('correct');
+  document.getElementById('feedback').innerHTML=`<div class="feedback ko"><span class="fi">⏰</span><div>Tempo scaduto! La risposta corretta era: <strong>${currentShuffled[currentCorrectSi].t}</strong><div class="ref">${questions[qi].s}</div></div></div>`;
+  document.getElementById('btnNext').disabled=false;
+}
+
+function loadQ(){
+  answered=false;
+  clearInterval(timerInterval);
+  const q=questions[qi];
+  document.getElementById('qNum').textContent=`Domanda ${String(qi+1).padStart(2,'0')} · ${q.s}`;
+  document.getElementById('qText').textContent=q.q;
+  document.getElementById('feedback').innerHTML='';
+  document.getElementById('btnNext').disabled=true;
+  buildProgress();
+  buildStreak();
+
+  currentShuffled=q.o.map((t,i)=>({t,i})).sort(()=>Math.random()-.5);
+  const correctShuffled=currentShuffled.findIndex(x=>x.i===q.c);
+  currentCorrectSi=correctShuffled;
+  const keys=['A','B','C','D'];
+  const container=document.getElementById('options');
+  container.innerHTML='';
+  shuffled.forEach((item,si)=>{
+    const div=document.createElement('div');
+    div.className='opt';
+    div.innerHTML=`<div class="opt-k">${keys[si]}</div>${item.t}<span class="opt-end"></span>`;
+    div.addEventListener('click',()=>answer(si,correctShuffled,shuffled,item));
+    container.appendChild(div);
+  });
+  startTimer();
+}
+
+function answer(si,correctSi,shuffled,item){
+  if(answered)return;
+  answered=true;
+  clearInterval(timerInterval);
+  const elapsed=TIMER_S-timeLeft;
+  totalTime+=elapsed;
+  const opts=document.querySelectorAll('.opt');
+  opts.forEach(o=>o.classList.add('disabled'));
+  const isOk=si===correctSi;
+  if(isOk){
+    opts[si].classList.add('correct');
+    opts[si].querySelector('.opt-end').textContent='✓';
+    const pts=Math.max(5,10+Math.round((timeLeft/TIMER_S)*10))+(streak>=2?3:0);
+    score+=pts;
+    correct++;
+    streak++;
+    maxStreak=Math.max(maxStreak,streak);
+    document.getElementById('scoreNum').textContent=score;
+    document.getElementById('rankPill').textContent=getRank(score).name;
+    document.getElementById('feedback').innerHTML=`<div class="feedback ok"><span class="fi">✅</span><div><strong>Esatto! +${pts} punti${streak>=2?' 🔥':''}</strong><div class="ref">${questions[qi].s}</div></div></div>`;
+  } else {
+    opts[si].classList.add('wrong');
+    opts[si].querySelector('.opt-end').textContent='✗';
+    opts[correctSi].classList.add('correct');
+    streak=0;
+    document.getElementById('feedback').innerHTML=`<div class="feedback ko"><span class="fi">❌</span><div>Risposta errata. Corretta: <strong>${shuffled[correctSi].t}</strong><div class="ref">${questions[qi].s}</div></div></div>`;
+  }
+  buildStreak();
+  document.getElementById('btnNext').disabled=false;
+}
+
+function nextQ(){
+  qi++;
+  if(qi>=10){endGame();return;}
+  loadQ();
+}
+
+function endGame(){
+  document.getElementById('gameArea').style.display='none';
+  const es=document.getElementById('endScreen');
+  es.style.display='flex';
+  const rank=getRank(score);
+  document.getElementById('endTrophy').textContent=rank.emoji;
+  document.getElementById('endScore').textContent=score;
+  document.getElementById('endRank').textContent='Rango: '+rank.name;
+  document.getElementById('statCorr').textContent=correct+'/10';
+  document.getElementById('statStreak').textContent=maxStreak;
+  document.getElementById('statTime').textContent=Math.round(totalTime/10)+'s';
+  document.getElementById('statAcc').textContent=Math.round(correct*10)+'%';
+}
+
+function restart(){
+  score=0;correct=0;streak=0;maxStreak=0;qi=0;totalTime=0;
+  document.getElementById('scoreNum').textContent='0';
+  document.getElementById('rankPill').textContent='🏛 Cittadino';
+  document.getElementById('endScreen').style.display='none';
+  document.getElementById('gameArea').style.display='block';
+  questions=shuffle([...BANCO]).slice(0,10);
+  loadQ();
+}
+
+// Avvio
+questions=shuffle([...BANCO]).slice(0,10);
+loadQ();
+</script>
+</body>
+</html>

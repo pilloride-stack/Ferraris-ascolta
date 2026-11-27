@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diritto ed Economia · Classe I · Ferraris Arcade</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;position:relative;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-24px) scale(1.04);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:620px;padding:0 16px 48px;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+/* HEADER */
+.header{padding:28px 0 8px;text-align:center;}
+.super-tag{display:inline-flex;align-items:center;gap:6px;padding:4px 14px;border-radius:999px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.25);font-size:.7rem;font-weight:700;letter-spacing:2px;color:var(--gold2);text-transform:uppercase;margin-bottom:14px;}
+.hero-title{font-family:Inter,sans-serif;font-weight:900;font-size:3rem;letter-spacing:-3px;line-height:.9;color:var(--white);}
+.hero-title em{font-style:normal;color:var(--gold);}
+.hero-sub{font-size:.8rem;color:var(--muted);letter-spacing:1.5px;text-transform:uppercase;margin-top:10px;}
+.divider{width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:20px auto;}
+/* GRID */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:4px;}
+@media(max-width:420px){.grid{grid-template-columns:1fr;}}
+.card{position:relative;display:flex;flex-direction:column;background:var(--glass);border:1px solid var(--glass-border);border-radius:22px;padding:22px 20px 18px;overflow:hidden;text-decoration:none;color:var(--white);transition:transform .15s,box-shadow .15s,border-color .15s;cursor:pointer;}
+.card::before{content:'';position:absolute;inset:0;border-radius:22px;background:linear-gradient(135deg,rgba(200,212,0,.04),transparent);opacity:0;transition:opacity .2s;}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,.35);border-color:rgba(200,212,0,.3);}
+.card:hover::before{opacity:1;}
+.card-emoji{font-size:2.4rem;margin-bottom:10px;display:block;}
+.card-num{font-size:.65rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);opacity:.7;margin-bottom:4px;}
+.card-title{font-family:Inter,sans-serif;font-weight:800;font-size:1.05rem;line-height:1.2;margin-bottom:8px;}
+.card-desc{font-size:.78rem;color:var(--muted);line-height:1.6;}
+.card-tag{display:inline-flex;align-items:center;gap:4px;margin-top:12px;padding:3px 10px;border-radius:999px;background:rgba(200,212,0,.08);border:1px solid rgba(200,212,0,.18);font-size:.65rem;font-weight:700;letter-spacing:1px;color:var(--gold2);text-transform:uppercase;}
+.card::after{content:'→';position:absolute;bottom:18px;right:18px;font-size:1rem;color:rgba(200,212,0,.35);transition:color .2s,transform .2s;}
+.card:hover::after{color:var(--gold);transform:translateX(4px);}
+/* FOOTER */
+.footer{margin-top:28px;text-align:center;}
+.footer-text{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;}
+.back-link{display:inline-flex;align-items:center;gap:6px;margin-top:12px;padding:8px 18px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.78rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+  <div class="header">
+    <div class="super-tag">⚖️ Ferraris Arcade</div>
+    <div class="hero-title">Diritto &<br><em>Economia</em></div>
+    <div class="hero-sub">Classe I · 5 giochi · Scegli la sfida</div>
+    <div class="divider"></div>
+  </div>
+
+  <div class="grid">
+    <a class="card" href="lex-quiz.html">
+      <span class="card-emoji">📋</span>
+      <div class="card-num">Gioco 01</div>
+      <div class="card-title">Lex Quiz</div>
+      <div class="card-desc">4 opzioni, timer 15s, banco 50 domande. Norma, fonti, soggetti, Stato, Costituzione.</div>
+      <span class="card-tag">⏱ Timer · 🔥 Streak</span>
+    </a>
+    <a class="card" href="vero-falso.html">
+      <span class="card-emoji">⚡</span>
+      <div class="card-num">Gioco 02</div>
+      <div class="card-title">Vero o Falso Fulmine</div>
+      <div class="card-desc">Risposte rapide, timer 8s, bonus velocità. Affermazioni su tutti i temi di Classe I.</div>
+      <span class="card-tag">⚡ Speed · 💥 Bonus</span>
+    </a>
+    <a class="card" href="abbina-fonte.html">
+      <span class="card-emoji">🔗</span>
+      <div class="card-num">Gioco 03</div>
+      <div class="card-title">Abbina la Fonte</div>
+      <div class="card-desc">Collega fonti del diritto e concetti alle loro definizioni. Due colonne, click per abbinare.</div>
+      <span class="card-tag">🧩 Matching · 50 coppie</span>
+    </a>
+    <a class="card" href="economia-quiz.html">
+      <span class="card-emoji">📈</span>
+      <div class="card-num">Gioco 04</div>
+      <div class="card-title">Economia in Gioco</div>
+      <div class="card-desc">Quiz con scenario cards. Domanda/offerta, mercati, soggetti economici, elasticità.</div>
+      <span class="card-tag">💡 Scenari · 📊 Economia</span>
+    </a>
+  </div>
+
+  <!-- Card centrale per HP Battle (più grande) -->
+  <div style="margin-top:14px;">
+    <a class="card" href="hp-costituzione.html" style="flex-direction:row;align-items:center;gap:18px;">
+      <span class="card-emoji" style="margin:0;font-size:3rem;flex-shrink:0;">📜</span>
+      <div>
+        <div class="card-num">Gioco 05 · Boss</div>
+        <div class="card-title" style="font-size:1.2rem;">HP Costituzione</div>
+        <div class="card-desc">Abbina ogni articolo della Costituzione al suo contenuto. 3 vite, 10 round. Diventa Costituzionalista.</div>
+        <span class="card-tag">❤️ HP Battle · 🌟 Boss</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="footer">
+    <div class="footer-text">Istituto Galileo Ferraris · Trieste · Diritto ed Economia Classe I</div>
+    <a class="back-link" href="../index.html">← Tutti i corsi</a>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vero o Falso Fulmine · Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--ko:#ef4444;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;position:relative;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-24px) scale(1.04);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:580px;padding:0 16px 48px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.header{padding:22px 0 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.logo-row{display:flex;flex-direction:column;gap:6px;}
+.pill-tag{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;border-radius:999px;background:rgba(200,212,0,.12);border:1px solid rgba(200,212,0,.3);font-size:.68rem;font-weight:700;letter-spacing:1.5px;color:var(--gold2);text-transform:uppercase;}
+.game-name{font-family:Inter,sans-serif;font-weight:900;font-size:2.4rem;letter-spacing:-2px;line-height:.9;color:var(--white);}
+.game-name em{font-style:normal;color:var(--gold);}
+.subtitle{font-size:.72rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px;}
+.score-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;}
+.score-num{font-family:Inter,sans-serif;font-size:2.8rem;font-weight:900;line-height:1;color:var(--gold);letter-spacing:-2px;}
+.score-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+.prog-wrap{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-bottom:20px;}
+.prog-dot{height:4px;border-radius:2px;background:rgba(255,255,255,.1);transition:background .3s;}
+.prog-dot.done{background:var(--c3);} .prog-dot.current{background:var(--gold);}
+/* TIMER BAR */
+.timer-bar-wrap{margin-bottom:16px;}
+.timer-bar-track{height:6px;border-radius:3px;background:rgba(255,255,255,.08);overflow:hidden;}
+.timer-bar-fill{height:100%;border-radius:3px;background:var(--gold);transition:width .1s linear,background .3s;}
+.timer-info{display:flex;justify-content:space-between;margin-top:5px;}
+.timer-info span{font-size:.7rem;color:var(--muted);}
+/* QCARD */
+.qcard{position:relative;background:var(--glass);border:1px solid var(--glass-border);border-radius:24px;padding:30px 24px 26px;overflow:hidden;margin-bottom:20px;text-align:center;}
+.qcard::after{content:'';position:absolute;top:0;left:24px;right:24px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.4;}
+.q-num{font-size:.7rem;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:16px;}
+.q-text{font-size:1.15rem;font-weight:700;line-height:1.65;color:#fff;margin-bottom:28px;}
+/* BUTTONS VF */
+.vf-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:4px;}
+.vf-btn{padding:18px 12px;border-radius:16px;border:2px solid;font-family:Inter,sans-serif;font-size:1.3rem;font-weight:900;cursor:pointer;transition:all .15s;display:flex;flex-direction:column;align-items:center;gap:6px;}
+.vf-btn.vero{background:rgba(16,185,129,.08);border-color:rgba(16,185,129,.3);color:#6ee7b7;}
+.vf-btn.falso{background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.3);color:#fca5a5;}
+.vf-btn:hover:not(:disabled){transform:scale(1.03);}
+.vf-btn.vero:hover:not(:disabled){background:rgba(16,185,129,.18);border-color:var(--ok);}
+.vf-btn.falso:hover:not(:disabled){background:rgba(239,68,68,.18);border-color:var(--ko);}
+.vf-btn.correct{background:rgba(16,185,129,.2);border-color:var(--ok);box-shadow:0 0 20px rgba(16,185,129,.3);}
+.vf-btn.wrong{background:rgba(239,68,68,.1);border-color:var(--ko);opacity:.5;}
+.vf-btn:disabled{cursor:default;}
+.vf-label{font-size:.75rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;}
+.feedback{margin-top:16px;padding:14px 16px;border-radius:14px;font-size:.87rem;font-weight:600;line-height:1.5;text-align:left;}
+.feedback.ok{background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);color:#6ee7b7;}
+.feedback.ko{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);color:#fca5a5;}
+.ref{font-size:.72rem;color:var(--muted);font-weight:400;font-style:italic;margin-top:4px;}
+.bottom{display:flex;align-items:center;justify-content:space-between;}
+.flags{display:flex;align-items:center;gap:8px;}
+.flags span{font-size:1.3rem;}
+.school{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;display:block;margin-top:2px;}
+.btn-cta{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:12px 22px;font-family:Lexend,sans-serif;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.25);transition:all .15s;}
+.btn-cta:hover{background:var(--gold2);box-shadow:0 0 32px rgba(200,212,0,.45);transform:translateY(-1px);}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.75rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+.btn-cta:disabled{opacity:.4;cursor:default;transform:none;}
+/* FINE */
+.end-screen{display:none;flex-direction:column;align-items:center;text-align:center;gap:16px;padding:32px 0;}
+.end-trophy{font-size:4rem;animation:pop .4s ease;}
+@keyframes pop{0%{transform:scale(0);}80%{transform:scale(1.15);}100%{transform:scale(1);}}
+.end-title{font-family:Inter,sans-serif;font-weight:900;font-size:2rem;letter-spacing:-1.5px;}
+.end-score{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);letter-spacing:-2px;}
+.end-rank{font-size:1rem;font-weight:600;color:var(--muted);margin-top:-8px;}
+.end-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;margin-top:8px;}
+.stat-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:16px;text-align:center;}
+.stat-n{font-family:Inter,sans-serif;font-size:1.8rem;font-weight:900;color:var(--gold);}
+.stat-l{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:2px;}
+.btn-restart{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:14px 32px;font-family:Lexend,sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.3);transition:all .15s;margin-top:8px;}
+.btn-restart:hover{background:var(--gold2);transform:translateY(-2px);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+  <div class="header">
+    <div class="logo-row">
+      <div class="pill-tag">⚡ Vero o Falso</div>
+      <div class="game-name">Fulmine<em>Quiz</em></div>
+      <div class="subtitle">★ · Classe I · Rapidità</div>
+    </div>
+    <div class="score-block">
+      <div class="score-num" id="scoreNum">0</div>
+      <div class="score-label">punti</div>
+    </div>
+  </div>
+
+  <div id="gameArea">
+    <div class="prog-wrap" id="progWrap"></div>
+    <div class="timer-bar-wrap">
+      <div class="timer-bar-track"><div class="timer-bar-fill" id="timerBar" style="width:100%"></div></div>
+      <div class="timer-info"><span id="timerLeft">8s</span><span id="timerLabel">⚡ Rispondi in fretta!</span></div>
+    </div>
+    <div class="qcard" id="qcard">
+      <div class="q-num" id="qNum">Affermazione 01</div>
+      <div class="q-text" id="qText"></div>
+      <div class="vf-row">
+        <button class="vf-btn vero" id="btnVero" onclick="answer(true)">✅<span class="vf-label">Vero</span></button>
+        <button class="vf-btn falso" id="btnFalso" onclick="answer(false)">❌<span class="vf-label">Falso</span></button>
+      </div>
+      <div id="feedback"></div>
+    </div>
+    <div class="bottom">
+      <div class="flags"><a class="back-link" href="index.html">← Menu</a><span>🇮🇹</span><span>🇪🇺</span><span class="school">Galileo Ferraris · Trieste</span></div>
+      <button class="btn-cta" id="btnNext" disabled onclick="nextQ()">Continua →</button>
+    </div>
+  </div>
+
+  <div class="end-screen" id="endScreen">
+    <div class="end-trophy" id="endTrophy">⚡</div>
+    <div class="end-title">Partita completata!</div>
+    <div class="end-score" id="endScore">0</div>
+    <div class="end-rank" id="endRank">Rango: Apprendista</div>
+    <div class="end-stats">
+      <div class="stat-box"><div class="stat-n" id="statCorr">0</div><div class="stat-l">✓ Corrette</div></div>
+      <div class="stat-box"><div class="stat-n" id="statStreak">0</div><div class="stat-l">🔥 Max streak</div></div>
+      <div class="stat-box"><div class="stat-n" id="statBonus">0</div><div class="stat-l">⚡ Bonus velocità</div></div>
+      <div class="stat-box"><div class="stat-n" id="statAcc">0%</div><div class="stat-l">🎯 Precisione</div></div>
+    </div>
+    <button class="btn-restart" onclick="restart()">🎮 Gioca ancora</button>
+  </div>
+</div>
+
+<script>
+const BANCO=[
+  {q:"La norma giuridica è generale: si rivolge a categorie di soggetti, non a individui specifici.",a:true,s:"§1 Norma giuridica"},
+  {q:"La coattività significa che la norma giuridica può essere imposta con la forza dallo Stato.",a:true,s:"§1 Norma giuridica"},
+  {q:"Le norme morali hanno la stessa forza vincolante delle norme giuridiche.",a:false,s:"§1 Norma giuridica"},
+  {q:"La capacità giuridica si acquista al compimento dei 18 anni.",a:false,s:"§3 Soggetti di diritto"},
+  {q:"La capacità d'agire si acquista di norma a 18 anni.",a:true,s:"§3 Soggetti di diritto"},
+  {q:"La Costituzione italiana è entrata in vigore il 1° gennaio 1948.",a:true,s:"§4 Stato e Costituzione"},
+  {q:"La Costituzione italiana è una costituzione flessibile.",a:false,s:"§4 Stato e Costituzione"},
+  {q:"Il decreto-legge può essere adottato dal Governo senza limiti.",a:false,s:"§2 Fonti del diritto"},
+  {q:"I regolamenti sono fonti primarie del diritto.",a:false,s:"§2 Fonti del diritto"},
+  {q:"La consuetudine può essere fonte del diritto in mancanza di legge.",a:true,s:"§2 Fonti del diritto"},
+  {q:"Il principio di uguaglianza formale significa che tutti hanno lo stesso reddito.",a:false,s:"§5 Libertà e uguaglianza"},
+  {q:"L'art. 3 comma 2 della Costituzione parla di uguaglianza sostanziale.",a:true,s:"§5 Libertà e uguaglianza"},
+  {q:"La libertà personale è definita inviolabile dalla Costituzione italiana.",a:true,s:"§5 Libertà e uguaglianza"},
+  {q:"I bisogni economici sono limitati nel numero.",a:false,s:"§6 Bisogni economici"},
+  {q:"I beni economici sono scarsi rispetto ai bisogni umani.",a:true,s:"§6 Bisogni economici"},
+  {q:"La curva di domanda ha normalmente pendenza positiva.",a:false,s:"§7 Domanda e offerta"},
+  {q:"La curva di offerta ha normalmente pendenza positiva.",a:true,s:"§7 Domanda e offerta"},
+  {q:"Il prezzo di equilibrio è quello in cui domanda e offerta si eguagliano.",a:true,s:"§7 Domanda e offerta"},
+  {q:"Un bene inferiore è un bene la cui domanda aumenta all'aumentare del reddito.",a:false,s:"§7 Domanda e offerta"},
+  {q:"Le famiglie sono consumatori e offerenti di lavoro nell'economia.",a:true,s:"§8 Soggetti economici"},
+  {q:"Il monopolio si ha quando vi sono molti venditori dello stesso bene.",a:false,s:"§7 Domanda e offerta"},
+  {q:"Un bene complementare si usa insieme a un altro bene.",a:true,s:"§7 Domanda e offerta"},
+  {q:"Il diritto pubblico regola i rapporti tra privati.",a:false,s:"§1 Norma giuridica"},
+  {q:"Il Parlamento ha funzione legislativa nell'ordinamento italiano.",a:true,s:"§4 Stato e Costituzione"},
+  {q:"La cittadinanza italiana si acquista principalmente per ius soli.",a:false,s:"§4 Stato e Costituzione"},
+  {q:"L'art. 2 della Costituzione riconosce i diritti inviolabili dell'uomo.",a:true,s:"§5 Libertà e uguaglianza"},
+  {q:"Il lavoro è tutelato dall'art. 4 della Costituzione italiana.",a:true,s:"§5 Libertà e uguaglianza"},
+  {q:"La sanzione giuridica serve a garantire l'osservanza della norma.",a:true,s:"§1 Norma giuridica"},
+  {q:"Il decreto legislativo è emanato direttamente dal Parlamento.",a:false,s:"§2 Fonti del diritto"},
+  {q:"Il referendum abrogativo serve ad approvare nuove leggi.",a:false,s:"§2 Fonti del diritto"},
+  {q:"La persona giuridica ha capacità giuridica.",a:true,s:"§3 Soggetti di diritto"},
+  {q:"L'interdizione giudiziale colpisce i minorenni automaticamente.",a:false,s:"§3 Soggetti di diritto"},
+  {q:"I tre elementi dello Stato sono: popolo, territorio e sovranità.",a:true,s:"§4 Stato e Costituzione"},
+  {q:"La Costituzione italiana ha 139 articoli.",a:true,s:"§4 Stato e Costituzione"},
+  {q:"L'art. 1 Cost. afferma che la sovranità appartiene al Governo.",a:false,s:"§4 Stato e Costituzione"},
+  {q:"La libertà di manifestazione del pensiero è garantita dall'art. 21 Cost.",a:true,s:"§5 Libertà e uguaglianza"},
+  {q:"Un bene sostituto può rimpiazzare un altro bene nel soddisfare lo stesso bisogno.",a:true,s:"§7 Domanda e offerta"},
+  {q:"In concorrenza perfetta i venditori sono pochi e il prodotto è differenziato.",a:false,s:"§7 Domanda e offerta"},
+  {q:"La norma giuridica è astratta: disciplina tipi di fatti, non casi singoli.",a:true,s:"§1 Norma giuridica"},
+  {q:"La bilateralità significa che ogni norma viene approvata da due organi.",a:false,s:"§1 Norma giuridica"},
+  {q:"Il principio gerarchico stabilisce che le fonti inferiori non possono contraddire quelle superiori.",a:true,s:"§2 Fonti del diritto"},
+  {q:"I principi fondamentali della Costituzione sono contenuti negli articoli 1-12.",a:true,s:"§4 Stato e Costituzione"},
+  {q:"Il diritto soggettivo è un potere riconosciuto dall'ordinamento a un soggetto.",a:true,s:"§1 Norma giuridica"},
+  {q:"Il pluralismo costituzionale implica un unico partito politico dominante.",a:false,s:"§4 Stato e Costituzione"},
+  {q:"I soggetti economici fondamentali sono: famiglie, imprese, Stato e Resto del mondo.",a:true,s:"§8 Soggetti economici"},
+  {q:"La domanda aumenta quando il prezzo del bene aumenta (a parità di altri fattori).",a:false,s:"§7 Domanda e offerta"},
+  {q:"Il minore emancipato acquista piena capacità d'agire come un adulto.",a:false,s:"§3 Soggetti di diritto"},
+  {q:"Le norme di diritto privato regolano i rapporti tra privati.",a:true,s:"§1 Norma giuridica"},
+  {q:"La Corte Costituzionale controlla la conformità delle leggi alla Costituzione.",a:true,s:"§4 Stato e Costituzione"},
+  {q:"L'elasticità della domanda misura la sensibilità della domanda al variare del prezzo.",a:true,s:"§7 Domanda e offerta"},
+];
+
+const TIMER_S=8;
+let questions=[],qi=0,score=0,correct=0,streak=0,maxStreak=0,answered=false,timeLeft=TIMER_S,timerInterval=null,speedBonus=0;
+
+function shuffle(a){return a.sort(()=>Math.random()-.5);}
+function buildProgress(){
+  const w=document.getElementById('progWrap');w.innerHTML='';
+  for(let i=0;i<10;i++){const d=document.createElement('div');d.className='prog-dot'+(i<qi?' done':i===qi?' current':'');w.appendChild(d);}
+}
+function startTimer(){
+  timeLeft=TIMER_S;
+  timerInterval=setInterval(()=>{
+    timeLeft=Math.max(0,timeLeft-0.1);
+    const pct=(timeLeft/TIMER_S)*100;
+    const bar=document.getElementById('timerBar');
+    bar.style.width=pct+'%';
+    bar.style.background=timeLeft>3?'var(--gold)':'#ef4444';
+    document.getElementById('timerLeft').textContent=Math.ceil(timeLeft)+'s';
+    if(timeLeft<=0){clearInterval(timerInterval);autoTimeout();}
+  },100);
+}
+function autoTimeout(){
+  if(answered)return;answered=true;streak=0;
+  document.getElementById('btnVero').disabled=true;document.getElementById('btnFalso').disabled=true;
+  const q=questions[qi];
+  (q.a?document.getElementById('btnVero'):document.getElementById('btnFalso')).classList.add('correct');
+  document.getElementById('feedback').innerHTML=`<div class="feedback ko">⏰ Tempo scaduto! Era <strong>${q.a?'VERO':'FALSO'}</strong> <div class="ref">${q.s}</div></div>`;
+  document.getElementById('btnNext').disabled=false;
+}
+function loadQ(){
+  answered=false;clearInterval(timerInterval);
+  document.getElementById('btnVero').disabled=false;document.getElementById('btnFalso').disabled=false;
+  document.getElementById('btnVero').className='vf-btn vero';document.getElementById('btnFalso').className='vf-btn falso';
+  document.getElementById('feedback').innerHTML='';document.getElementById('btnNext').disabled=true;
+  const q=questions[qi];
+  document.getElementById('qNum').textContent=`Affermazione ${String(qi+1).padStart(2,'0')} · ${q.s}`;
+  document.getElementById('qText').textContent=q.q;
+  buildProgress();startTimer();
+}
+function answer(val){
+  if(answered)return;answered=true;clearInterval(timerInterval);
+  const q=questions[qi];const isOk=val===q.a;
+  document.getElementById('btnVero').disabled=true;document.getElementById('btnFalso').disabled=true;
+  if(isOk){
+    (val?document.getElementById('btnVero'):document.getElementById('btnFalso')).classList.add('correct');
+    const bonus=Math.round((timeLeft/TIMER_S)*8);
+    const pts=10+bonus+(streak>=2?3:0);
+    score+=pts;correct++;streak++;speedBonus+=bonus;maxStreak=Math.max(maxStreak,streak);
+    document.getElementById('scoreNum').textContent=score;
+    document.getElementById('feedback').innerHTML=`<div class="feedback ok">✅ <strong>Esatto! +${pts} pts${bonus>4?' ⚡ veloce!':''}</strong><div class="ref">${q.s}</div></div>`;
+  } else {
+    (val?document.getElementById('btnVero'):document.getElementById('btnFalso')).classList.add('wrong');
+    (!val?document.getElementById('btnVero'):document.getElementById('btnFalso')).classList.add('correct');
+    streak=0;
+    document.getElementById('feedback').innerHTML=`<div class="feedback ko">❌ Sbagliato! Era <strong>${q.a?'VERO':'FALSO'}</strong><div class="ref">${q.s}</div></div>`;
+  }
+  document.getElementById('btnNext').disabled=false;
+}
+function nextQ(){qi++;if(qi>=10){endGame();return;}loadQ();}
+function endGame(){
+  document.getElementById('gameArea').style.display='none';
+  const es=document.getElementById('endScreen');es.style.display='flex';
+  document.getElementById('endScore').textContent=score;
+  document.getElementById('endRank').textContent=score>=80?'🌟 Fulmine d\'oro':score>=50?'⚡ Velocista':'🏛 Apprendista';
+  document.getElementById('statCorr').textContent=correct+'/10';
+  document.getElementById('statStreak').textContent=maxStreak;
+  document.getElementById('statBonus').textContent=speedBonus;
+  document.getElementById('statAcc').textContent=Math.round(correct*10)+'%';
+  document.getElementById('endTrophy').textContent=score>=80?'🌟':score>=50?'⚡':'🏛';
+}
+function restart(){
+  score=0;correct=0;streak=0;maxStreak=0;qi=0;speedBonus=0;
+  document.getElementById('scoreNum').textContent='0';
+  document.getElementById('endScreen').style.display='none';
+  document.getElementById('gameArea').style.display='block';
+  questions=shuffle([...BANCO]).slice(0,10);loadQ();
+}
+questions=shuffle([...BANCO]).slice(0,10);loadQ();
+</script>
+</body>
+</html>

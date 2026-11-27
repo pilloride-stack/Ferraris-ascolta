@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HP Costituzione · Classe I</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Lexend:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d1f52;--c1:#1a3a7c;--c2:#1e4494;--c3:#2d5bbf;--gold:#c8d400;--gold2:#dfe840;--white:#ffffff;--muted:#7a9acb;--ok:#10b981;--ko:#ef4444;--glass:rgba(255,255,255,.05);--glass-border:rgba(255,255,255,.09);}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Lexend,system-ui,sans-serif;min-height:100vh;background:var(--bg);color:var(--white);display:flex;flex-direction:column;align-items:center;overflow-x:hidden;position:relative;}
+.bg-layer{position:fixed;inset:0;z-index:0;overflow:hidden;}
+.bg-layer::before{content:'';position:absolute;width:200vmax;height:200vmax;top:50%;left:50%;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,transparent 0%,rgba(26,58,124,.14) 10%,transparent 20%,rgba(200,212,0,.05) 35%,transparent 45%,rgba(26,58,124,.12) 60%,transparent 70%,rgba(200,212,0,.04) 85%,transparent 100%);animation:spin 30s linear infinite;}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);animation:float 8s ease-in-out infinite;}
+.orb1{width:500px;height:500px;background:rgba(26,58,124,.7);top:-120px;left:-120px;}
+.orb2{width:380px;height:380px;background:rgba(200,212,0,.12);bottom:-80px;right:-80px;animation-delay:-3s;}
+.orb3{width:320px;height:320px;background:rgba(45,91,191,.4);top:35%;right:-100px;animation-delay:-5s;}
+@keyframes float{0%,100%{transform:translateY(0) scale(1);}50%{transform:translateY(-24px) scale(1.04);}}
+.bg-layer::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,212,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,212,0,.04) 1px,transparent 1px);background-size:40px 40px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);}
+.wrap{position:relative;z-index:1;width:100%;max-width:580px;padding:0 16px 48px;display:flex;flex-direction:column;}
+.topbar{width:100%;height:3px;background:linear-gradient(90deg,#009246 33.3%,#fff 33.3% 66.6%,#ce2b37 66.6%);position:relative;z-index:10;}
+.header{padding:22px 0 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.logo-row{display:flex;flex-direction:column;gap:6px;}
+.pill-tag{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 6px;border-radius:999px;background:rgba(200,212,0,.12);border:1px solid rgba(200,212,0,.3);font-size:.68rem;font-weight:700;letter-spacing:1.5px;color:var(--gold2);text-transform:uppercase;}
+.game-name{font-family:Inter,sans-serif;font-weight:900;font-size:2.2rem;letter-spacing:-2px;line-height:.9;color:var(--white);}
+.game-name em{font-style:normal;color:var(--gold);}
+.subtitle{font-size:.72rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px;}
+/* HP BAR */
+.hp-section{margin-bottom:16px;}
+.hp-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;}
+.hp-label{font-size:.72rem;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:1px;}
+.hp-num{font-family:Inter,sans-serif;font-size:1rem;font-weight:900;color:var(--gold);}
+.hp-track{height:12px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden;}
+.hp-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--gold),var(--gold2));transition:width .4s ease,background .4s;}
+.score-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0;}
+.score-num{font-family:Inter,sans-serif;font-size:2.5rem;font-weight:900;line-height:1;color:var(--gold);letter-spacing:-2px;}
+.score-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+.prog-wrap{display:grid;grid-template-columns:repeat(10,1fr);gap:4px;margin-bottom:16px;}
+.prog-dot{height:4px;border-radius:2px;background:rgba(255,255,255,.1);}
+.prog-dot.done{background:var(--c3);} .prog-dot.current{background:var(--gold);}
+/* ARTICOLO CARD */
+.art-card{background:linear-gradient(135deg,rgba(26,58,124,.4),rgba(45,91,191,.2));border:1px solid rgba(100,140,220,.3);border-radius:20px;padding:20px;margin-bottom:16px;text-align:center;}
+.art-num{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);line-height:1;letter-spacing:-3px;}
+.art-label{font-size:.75rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-top:4px;}
+/* OPZIONI */
+.qcard{position:relative;background:var(--glass);border:1px solid var(--glass-border);border-radius:24px;padding:22px 20px 18px;overflow:hidden;margin-bottom:20px;}
+.qcard::after{content:'';position:absolute;top:0;left:24px;right:24px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.4;}
+.q-text{font-size:.95rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px;}
+.options{display:flex;flex-direction:column;gap:8px;}
+.opt{display:flex;align-items:flex-start;gap:12px;padding:14px 16px;border-radius:14px;cursor:pointer;font-size:.9rem;font-weight:500;line-height:1.5;transition:all .12s;border:1.5px solid rgba(255,255,255,.07);background:rgba(255,255,255,.04);}
+.opt:hover:not(.disabled){background:rgba(200,212,0,.07);border-color:rgba(200,212,0,.35);transform:translateX(4px);}
+.opt.correct{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.5);}
+.opt.wrong{background:rgba(239,68,68,.07);border-color:rgba(239,68,68,.3);opacity:.6;}
+.opt.disabled{cursor:default;}
+.opt-k{flex-shrink:0;width:28px;height:28px;border-radius:8px;background:rgba(200,212,0,.1);border:1px solid rgba(200,212,0,.2);display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-size:.78rem;font-weight:800;color:var(--gold);}
+.opt.correct .opt-k{background:rgba(16,185,129,.2);border-color:var(--ok);color:var(--ok);}
+.opt.wrong .opt-k{background:rgba(239,68,68,.15);border-color:var(--ko);color:var(--ko);}
+.opt-end{margin-left:auto;flex-shrink:0;}
+.feedback{margin-top:14px;padding:12px 14px;border-radius:12px;font-size:.85rem;font-weight:600;line-height:1.5;}
+.feedback.ok{background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);color:#6ee7b7;}
+.feedback.ko{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);color:#fca5a5;}
+.bottom{display:flex;align-items:center;justify-content:space-between;}
+.flags{display:flex;align-items:center;gap:8px;}
+.flags span{font-size:1.3rem;}
+.school{font-size:.68rem;color:rgba(100,130,160,.4);letter-spacing:.5px;display:block;margin-top:2px;}
+.btn-cta{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:12px 22px;font-family:Lexend,sans-serif;font-weight:700;font-size:.9rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.25);transition:all .15s;}
+.btn-cta:hover{background:var(--gold2);transform:translateY(-1px);}
+.back-link{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);font-size:.75rem;font-weight:600;color:var(--muted);text-decoration:none;transition:all .15s;}
+.back-link:hover{background:rgba(255,255,255,.08);color:var(--white);}
+.btn-cta:disabled{opacity:.4;cursor:default;transform:none;}
+.shake{animation:shake .3s;}
+@keyframes shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-8px);}75%{transform:translateX(8px);}}
+/* FINE */
+.end-screen{display:none;flex-direction:column;align-items:center;text-align:center;gap:16px;padding:32px 0;}
+.end-trophy{font-size:4rem;animation:pop .4s ease;}
+@keyframes pop{0%{transform:scale(0);}80%{transform:scale(1.15);}100%{transform:scale(1);}}
+.end-title{font-family:Inter,sans-serif;font-weight:900;font-size:2rem;letter-spacing:-1.5px;}
+.end-score{font-family:Inter,sans-serif;font-size:3.5rem;font-weight:900;color:var(--gold);letter-spacing:-2px;}
+.end-rank{font-size:1rem;font-weight:600;color:var(--muted);margin-top:-8px;}
+.end-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:100%;margin-top:8px;}
+.stat-box{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:16px;text-align:center;}
+.stat-n{font-family:Inter,sans-serif;font-size:1.8rem;font-weight:900;color:var(--gold);}
+.stat-l{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-top:2px;}
+.btn-restart{display:flex;align-items:center;gap:8px;background:var(--gold);color:#0d1f52;border:none;border-radius:12px;padding:14px 32px;font-family:Lexend,sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 0 24px rgba(200,212,0,.3);transition:all .15s;margin-top:8px;}
+.btn-restart:hover{background:var(--gold2);transform:translateY(-2px);}
+</style>
+</head>
+<body>
+<div class="bg-layer"><div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div></div>
+<div class="topbar"></div>
+<div class="wrap">
+  <div class="header">
+    <div class="logo-row">
+      <div class="pill-tag">📜 Costituzione</div>
+      <div class="game-name">HP <em>Costituzione</em></div>
+      <div class="subtitle">★ · Classe I · Articoli fondamentali</div>
+    </div>
+    <div class="score-block">
+      <div class="score-num" id="scoreNum">0</div>
+      <div class="score-label">punti</div>
+    </div>
+  </div>
+
+  <div id="gameArea">
+    <div class="hp-section">
+      <div class="hp-row">
+        <span class="hp-label">❤️ Vite</span>
+        <span class="hp-num" id="hpNum">3 / 3</span>
+      </div>
+      <div class="hp-track"><div class="hp-fill" id="hpFill" style="width:100%"></div></div>
+    </div>
+    <div class="prog-wrap" id="progWrap"></div>
+    <div class="art-card" id="artCard">
+      <div class="art-num" id="artNum">Art. 1</div>
+      <div class="art-label">Costituzione della Repubblica Italiana</div>
+    </div>
+    <div class="qcard">
+      <div class="q-text">Quale contenuto corrisponde a questo articolo?</div>
+      <div class="options" id="options"></div>
+      <div id="feedback"></div>
+    </div>
+    <div class="bottom">
+      <div class="flags"><a class="back-link" href="index.html">← Menu</a><span>🇮🇹</span><span>🇪🇺</span><span class="school">Galileo Ferraris · Trieste</span></div>
+      <button class="btn-cta" id="btnNext" disabled onclick="nextQ()">Continua →</button>
+    </div>
+  </div>
+
+  <div class="end-screen" id="endScreen">
+    <div class="end-trophy" id="endTrophy">📜</div>
+    <div class="end-title">Partita completata!</div>
+    <div class="end-score" id="endScore">0</div>
+    <div class="end-rank" id="endRank"></div>
+    <div class="end-stats">
+      <div class="stat-box"><div class="stat-n" id="statCorr">0</div><div class="stat-l">✓ Corrette</div></div>
+      <div class="stat-box"><div class="stat-n" id="statHP">0</div><div class="stat-l">❤️ Vite rimaste</div></div>
+      <div class="stat-box"><div class="stat-n" id="statStreak">0</div><div class="stat-l">🔥 Max streak</div></div>
+      <div class="stat-box"><div class="stat-n" id="statAcc">0%</div><div class="stat-l">🎯 Precisione</div></div>
+    </div>
+    <button class="btn-restart" onclick="restart()">🎮 Gioca ancora</button>
+  </div>
+</div>
+
+<script>
+const BANCO=[
+  {art:"Art. 1",c:"L'Italia è una Repubblica democratica fondata sul lavoro. La sovranità appartiene al popolo.",wrong:["L'Italia è una Monarchia costituzionale.","Il potere appartiene al Governo eletto.","L'Italia è uno Stato federale."]},
+  {art:"Art. 2",c:"La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo, sia come singolo sia nelle formazioni sociali.",wrong:["Solo i cittadini italiani hanno diritti inviolabili.","I diritti inviolabili possono essere limitati dalla legge ordinaria.","I diritti sono garantiti solo dal Parlamento."]},
+  {art:"Art. 3",c:"Tutti i cittadini hanno pari dignità sociale e sono uguali davanti alla legge, senza distinzione di sesso, di razza, di lingua, di religione.",wrong:["I cittadini sono uguali solo in materia fiscale.","L'uguaglianza vale solo tra i maggiorenni.","I diritti variano in base al reddito."]},
+  {art:"Art. 4",c:"La Repubblica riconosce a tutti i cittadini il diritto al lavoro e promuove le condizioni che rendano effettivo questo diritto.",wrong:["Il lavoro è obbligatorio per tutti i cittadini.","Solo i residenti italiani hanno diritto al lavoro.","Il lavoro è garantito solo dal settore pubblico."]},
+  {art:"Art. 5",c:"La Repubblica, una e indivisibile, riconosce e promuove le autonomie locali.",wrong:["L'Italia è uno Stato federale con piena autonomia regionale.","Le autonomie locali possono separarsi dallo Stato.","L'unità dello Stato può essere messa ai voti."]},
+  {art:"Art. 7",c:"Lo Stato e la Chiesa cattolica sono, ciascuno nel proprio ordine, indipendenti e sovrani. I loro rapporti sono regolati dai Patti Lateranensi.",wrong:["La Chiesa cattolica è parte integrante dello Stato italiano.","Lo Stato italiano è uno Stato confessionale.","La Chiesa ha potere legislativo in materia di famiglia."]},
+  {art:"Art. 10",c:"L'ordinamento giuridico italiano si conforma alle norme del diritto internazionale generalmente riconosciute.",wrong:["L'Italia non riconosce il diritto internazionale.","Il diritto internazionale prevale sempre sulla Costituzione.","I trattati internazionali non vincolano l'Italia."]},
+  {art:"Art. 11",c:"L'Italia ripudia la guerra come strumento di offesa alla libertà degli altri popoli e come mezzo di risoluzione delle controversie internazionali.",wrong:["L'Italia può dichiarare guerra con delibera del Governo.","La guerra è ammessa solo se votata dal Parlamento.","L'Italia partecipa a guerre offensive per la sicurezza nazionale."]},
+  {art:"Art. 12",c:"La bandiera della Repubblica è il tricolore italiano: verde, bianco e rosso, a tre bande verticali di eguali dimensioni.",wrong:["La bandiera è il tricolore con lo stemma della casa Savoia al centro.","Il tricolore ha bande orizzontali.","La bandiera nazionale è decisa dal Presidente della Repubblica."]},
+  {art:"Art. 13",c:"La libertà personale è inviolabile. Non è ammessa forma alcuna di detenzione, ispezione o perquisizione personale, né qualsiasi altra restrizione della libertà personale, se non per atto motivato dell'autorità giudiziaria.",wrong:["La libertà personale può essere limitata da atti di polizia ordinari.","Il Governo può disporre la detenzione in caso di emergenza.","La libertà personale non è protetta dalla Costituzione."]},
+  {art:"Art. 15",c:"La libertà e la segretezza della corrispondenza e di ogni altra forma di comunicazione sono inviolabili.",wrong:["Lo Stato può leggere la posta dei cittadini per sicurezza.","La segretezza della corrispondenza vale solo per le comunicazioni fisiche.","L'intercettazione è sempre libera."]},
+  {art:"Art. 21",c:"Tutti hanno diritto di manifestare liberamente il proprio pensiero con la parola, lo scritto e ogni altro mezzo di diffusione.",wrong:["La libertà di stampa è riservata ai giornalisti professionisti.","Il pensiero può essere manifestato solo in forma scritta.","La libertà di espressione è limitata ai soli cittadini italiani."]},
+  {art:"Art. 24",c:"Tutti possono agire in giudizio per la tutela dei propri diritti e interessi legittimi.",wrong:["Solo i cittadini italiani possono ricorrere in giudizio.","Il diritto di azione in giudizio è riservato ai proprietari.","Il ricorso in giudizio richiede l'autorizzazione ministeriale."]},
+  {art:"Art. 27",c:"La responsabilità penale è personale. L'imputato non è considerato colpevole sino alla condanna definitiva.",wrong:["La colpevolezza si presume salvo prova contraria.","La responsabilità penale può essere trasferita ai familiari.","La pena di morte è ammessa in casi eccezionali."]},
+  {art:"Art. 29",c:"La Repubblica riconosce i diritti della famiglia come società naturale fondata sul matrimonio.",wrong:["La famiglia è definita solo come unione civile.","I diritti della famiglia dipendono dal numero di figli.","Solo il matrimonio religioso è riconosciuto dallo Stato."]},
+  {art:"Art. 32",c:"La Repubblica tutela la salute come fondamentale diritto dell'individuo e interesse della collettività, e garantisce cure gratuite agli indigenti.",wrong:["La salute è un diritto solo per i lavoratori.","Le cure mediche sono sempre a pagamento.","La salute è tutelata solo dai Comuni."]},
+  {art:"Art. 33",c:"L'arte e la scienza sono libere e libero ne è l'insegnamento.",wrong:["L'insegnamento è monopolio dello Stato.","Solo le università statali possono fare ricerca.","L'arte è libera ma la scienza deve essere approvata dallo Stato."]},
+  {art:"Art. 34",c:"La scuola è aperta a tutti. L'istruzione inferiore, impartita per almeno otto anni, è obbligatoria e gratuita.",wrong:["L'istruzione pubblica è solo per i cittadini italiani.","L'istruzione è gratuita solo per le famiglie a basso reddito.","La scuola obbligatoria dura solo cinque anni."]},
+  {art:"Art. 36",c:"Il lavoratore ha diritto a una retribuzione proporzionata alla quantità e qualità del suo lavoro e in ogni caso sufficiente ad assicurare a sé e alla famiglia un'esistenza libera e dignitosa.",wrong:["La retribuzione è fissata dallo Stato per tutti i settori.","Il salario minimo è vietato dalla Costituzione.","La retribuzione può essere inferiore ai bisogni minimi."]},
+  {art:"Art. 48",c:"Sono elettori tutti i cittadini, uomini e donne, che hanno raggiunto la maggiore età. Il voto è personale ed eguale, libero e segreto.",wrong:["Possono votare solo i cittadini con istruzione superiore.","Il voto è pubblico e nominale.","Solo i cittadini con reddito possono votare."]},
+  {art:"Art. 54",c:"Tutti i cittadini hanno il dovere di essere fedeli alla Repubblica e di osservarne la Costituzione e le leggi.",wrong:["La fedeltà alla Repubblica è un diritto, non un dovere.","Solo i funzionari pubblici devono rispettare la Costituzione.","I cittadini stranieri non hanno obblighi costituzionali."]},
+  {art:"Art. 70",c:"La funzione legislativa è esercitata collettivamente dalle due Camere.",wrong:["La legge è emanata solo dalla Camera dei Deputati.","Il Governo esercita la funzione legislativa ordinaria.","Solo il Senato può approvare le leggi."]},
+  {art:"Art. 83",c:"Il Presidente della Repubblica è eletto dal Parlamento in seduta comune dei suoi membri.",wrong:["Il Presidente è eletto direttamente dal popolo.","Il Presidente è eletto dal Senato.","Il Presidente è nominato dal Presidente del Consiglio."]},
+  {art:"Art. 92",c:"Il Governo della Repubblica è composto del Presidente del Consiglio e dei Ministri, che costituiscono insieme il Consiglio dei Ministri.",wrong:["Il Governo è composto solo dal Presidente del Consiglio.","Il Governo comprende anche il Presidente della Repubblica.","Il Governo è nominato direttamente dal popolo."]},
+  {art:"Art. 101",c:"La giustizia è amministrata in nome del popolo. I giudici sono soggetti soltanto alla legge.",wrong:["I giudici dipendono dal Governo.","La giustizia è amministrata in nome del Presidente.","I giudici possono applicare norme contrarie alla Costituzione."]},
+  {art:"Art. 112",c:"Il pubblico ministero ha l'obbligo di esercitare l'azione penale.",wrong:["Il PM può scegliere se esercitare o meno l'azione penale.","L'azione penale è facoltativa.","Il PM dipende dal Ministero della Giustizia."]},
+  {art:"Art. 117",c:"La potestà legislativa è esercitata dallo Stato e dalle Regioni nel rispetto della Costituzione.",wrong:["Solo lo Stato ha potestà legislativa.","Le Regioni non possono fare leggi.","Le leggi regionali prevalgono su quelle statali."]},
+  {art:"Art. 134",c:"La Corte Costituzionale giudica sulle controversie relative alla legittimità costituzionale delle leggi.",wrong:["La Corte Costituzionale approva le leggi ordinarie.","La Corte è composta dai Presidenti delle Regioni.","La Corte Costituzionale è un organo consultivo."]},
+  {art:"Art. 138",c:"Le leggi di revisione della Costituzione sono adottate con una procedura aggravata che prevede due deliberazioni di ciascuna Camera.",wrong:["La Costituzione può essere modificata con legge ordinaria.","Solo un referendum può modificare la Costituzione.","La Costituzione è immutabile."]},
+  {art:"Art. 139",c:"La forma repubblicana non può essere oggetto di revisione costituzionale.",wrong:["Anche la forma repubblicana può essere messa in discussione con referendum.","La monarchia può essere reintrodotta con il 60% dei voti.","Nessun articolo è immune da revisione."]},
+];
+
+const MAX_HP=3;
+let questions=[],qi=0,score=0,correct=0,streak=0,maxStreak=0,hp=MAX_HP,answered=false;
+function shuffle(a){return a.sort(()=>Math.random()-.5);}
+function buildProgress(){const w=document.getElementById('progWrap');w.innerHTML='';for(let i=0;i<10;i++){const d=document.createElement('div');d.className='prog-dot'+(i<qi?' done':i===qi?' current':'');w.appendChild(d);}}
+function updateHP(){document.getElementById('hpNum').textContent=hp+' / '+MAX_HP;const pct=(hp/MAX_HP)*100;const fill=document.getElementById('hpFill');fill.style.width=pct+'%';fill.style.background=hp===3?'linear-gradient(90deg,var(--gold),var(--gold2))':hp===2?'linear-gradient(90deg,#f59e0b,#fbbf24)':'linear-gradient(90deg,#ef4444,#f87171)';}
+function loadQ(){
+  answered=false;
+  const q=questions[qi];
+  document.getElementById('artNum').textContent=q.art;
+  document.getElementById('feedback').innerHTML='';document.getElementById('btnNext').disabled=true;
+  buildProgress();
+  const opts=shuffle([{t:q.c,ok:true},...q.wrong.map(t=>({t,ok:false}))]);
+  const keys=['A','B','C','D'];
+  const container=document.getElementById('options');container.innerHTML='';
+  opts.forEach((item,si)=>{const div=document.createElement('div');div.className='opt';div.innerHTML=`<div class="opt-k">${keys[si]}</div><span>${item.t}</span><span class="opt-end"></span>`;div.addEventListener('click',()=>answer(div,item.ok,q.c));container.appendChild(div);});
+}
+function answer(el,isOk,correctText){
+  if(answered)return;answered=true;
+  document.querySelectorAll('.opt').forEach(o=>o.classList.add('disabled'));
+  if(isOk){
+    el.classList.add('correct');el.querySelector('.opt-end').textContent='✓';
+    const pts=10+(streak>=2?3:0);score+=pts;correct++;streak++;maxStreak=Math.max(maxStreak,streak);
+    document.getElementById('scoreNum').textContent=score;
+    document.getElementById('feedback').innerHTML=`<div class="feedback ok">✅ <strong>Esatto! +${pts} punti${streak>=2?' 🔥':''}</strong></div>`;
+  } else {
+    el.classList.add('wrong');el.querySelector('.opt-end').textContent='✗';
+    document.querySelectorAll('.opt').forEach(o=>{if(o.textContent.includes(correctText.substring(0,20)))o.classList.add('correct');});
+    streak=0;hp--;updateHP();
+    document.getElementById('artCard').classList.add('shake');setTimeout(()=>document.getElementById('artCard').classList.remove('shake'),400);
+    document.getElementById('feedback').innerHTML=`<div class="feedback ko">❌ Sbagliato! ${hp===0?'Nessuna vita rimasta.':'Hai perso una vita ❤️'}<br><small>${correctText.substring(0,80)}…</small></div>`;
+    if(hp<=0){setTimeout(()=>{qi++;endGame();},1200);return;}
+  }
+  document.getElementById('btnNext').disabled=false;
+}
+function nextQ(){qi++;if(qi>=10){endGame();return;}loadQ();}
+function endGame(){
+  document.getElementById('gameArea').style.display='none';
+  const es=document.getElementById('endScreen');es.style.display='flex';
+  const rank=score>=85&&hp>0?['🌟','Costituzionalista']:score>=60?['⚖️','Giurista']:['🏛','Apprendista'];
+  document.getElementById('endTrophy').textContent=rank[0];
+  document.getElementById('endScore').textContent=score;
+  document.getElementById('endRank').textContent='Rango: '+rank[1];
+  document.getElementById('statCorr').textContent=correct+'/'+qi;
+  document.getElementById('statHP').textContent=Math.max(0,hp)+'/'+MAX_HP;
+  document.getElementById('statStreak').textContent=maxStreak;
+  document.getElementById('statAcc').textContent=qi>0?Math.round(correct/qi*100)+'%':'0%';
+}
+function restart(){
+  score=0;correct=0;streak=0;maxStreak=0;qi=0;hp=MAX_HP;
+  document.getElementById('scoreNum').textContent='0';updateHP();
+  document.getElementById('endScreen').style.display='none';document.getElementById('gameArea').style.display='block';
+  questions=shuffle([...BANCO]).slice(0,10);loadQ();
+}
+questions=shuffle([...BANCO]).slice(0,10);loadQ();
+</script>
+</body>
+</html>
