@@ -25,7 +25,7 @@ h1{font:400 clamp(36px,6.5vw,60px)/1 'Bebas Neue',Impact,sans-serif;letter-spaci
 .frame .loading{position:absolute;color:var(--muted);font-size:14px}
 .frame.ok{border-color:var(--ok);box-shadow:0 0 22px rgba(46,204,113,.4)}
 .frame.ko{border-color:var(--ko);box-shadow:0 0 22px rgba(231,76,60,.4)}
-.opera-name{text-align:center;font:italic 15px/1.3 Lexend,sans-serif;color:var(--muted);margin-top:4px}
+.opera-name{text-align:center;font:700 22px/1.3 'Bebas Neue',sans-serif;letter-spacing:1px;color:#fff;margin-top:8px;min-height:28px}
 /* hud */
 .hud{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:14px}
 .hud b{color:var(--gold);font:22px 'Bebas Neue',sans-serif;letter-spacing:1px;margin-left:5px}
@@ -262,8 +262,8 @@ function showQ(){
     img.src = q.local;  // es. img/01.jpg — file nel repo, nessun hotlink
     if(img.complete && img.naturalWidth){ done(); }
   }
-  // titolo opera nascosto finché non risponde
-  $('operaName').textContent = '';
+  // titolo opera sempre visibile
+  $('operaName').textContent = `"${q.opera}"`;
 
   // scelte
   const grid = $('choices'); grid.innerHTML = '';
